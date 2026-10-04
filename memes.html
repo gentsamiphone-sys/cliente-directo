@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>GSAM Memes · Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Radar oscuro: KPIs arriba, señales como tarjetas, luego wallets y movimientos en vivo */
+:root{--bg:#08090c;--panel:#111419;--line:#232a31;--ink:#eceff3;--muted:#8b95a1;--acc:#b98cff;--up:#3ddc84;--down:#ff6b5b;--warn:#ffcc4d;
+  --f-d:"Familjen Grotesk",Arial,sans-serif;--f-b:"Atkinson Hyperlegible",system-ui,sans-serif;--f-m:"JetBrains Mono",ui-monospace,Menlo,monospace;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 500px at 70% -10%,rgba(185,140,255,.12),transparent),var(--bg);color:var(--ink);font:15px/1.55 var(--f-b)}
+.wrap{max-width:1200px;margin:0 auto;padding-inline:16px;padding-block:20px 48px;display:grid;gap:16px}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:10px}
+h1{font:700 1.8rem/1.1 var(--f-d);margin:0}h1 span{color:var(--acc)}
+.sub{color:var(--muted);margin:2px 0 0;font-size:.92rem}
+a{color:var(--acc)}
+.kpis{display:flex;flex-wrap:wrap;gap:8px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 12px;min-width:120px}
+.kpi small{display:block;font:500 .64rem var(--f-m);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.kpi b{font:700 1.2rem var(--f-m);font-variant-numeric:tabular-nums}
+.agentes{display:flex;flex-wrap:wrap;gap:6px}
+.ag{font:700 .7rem var(--f-m);letter-spacing:.05em;border-radius:999px;padding:6px 11px;background:#1d222a;color:#b7c0cb}
+.ag.on{background:var(--acc);color:#0b0d10}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;min-width:0}
+.card h2{font:700 1.1rem var(--f-d);margin:0 0 10px;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:baseline}
+.when{font:500 .72rem var(--f-m);color:var(--muted)}
+.sen{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
+.s{border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:6px;background:#0d1015}
+.s.enviada{border-color:var(--acc);box-shadow:0 0 24px rgba(185,140,255,.12)}
+.s.descartada{opacity:.65}
+.s h3{margin:0;font:700 1.15rem var(--f-d);display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.tag{font:700 .68rem var(--f-m);border-radius:6px;padding:3px 7px;background:#1d222a;color:var(--muted)}
+.tag.ok{background:var(--acc);color:#0b0d10}.tag.win{background:var(--up);color:#0b0d10}.tag.loss{background:var(--down);color:#0b0d10}
+dl{display:grid;grid-template-columns:auto 1fr;gap:3px 12px;margin:0;font-size:.86rem}
+dt{color:var(--muted)}dd{margin:0;font-family:var(--f-m);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+button{font:600 .8rem var(--f-b);color:var(--ink);background:#1d222a;border:1px solid var(--line);border-radius:8px;padding:6px 10px;cursor:pointer}
+button:focus-visible,a:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+@media (max-width:860px){.grid{grid-template-columns:1fr}}
+table{width:100%;border-collapse:collapse;font:500 .82rem var(--f-m);font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:6px;border-bottom:1px solid var(--line)}
+th{color:var(--acc)}
+td.n{text-align:right}
+.feed{max-height:420px;overflow:auto}
+.c{color:var(--up)}.v{color:var(--down)}
+.empty{color:var(--muted);padding:14px 0}
+.aviso{font-size:.78rem;color:var(--muted)}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:6px;font-size:.85rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div><h1>GSAM <span>Memes</span> · Radar de wallets top</h1>
+    <p class="sub">Cuando 2 o más traders top compran la misma moneda y pasa los filtros de seguridad, te llega la señal. Tú decides y compras en fomo.</p></div>
+    <div class="row"><a href="mesa.html">Mesa oro/NQ</a><a href="./">Cliente Directo</a></div>
+  </header>
+
+  <div class="kpis">
+    <div class="kpi"><small>Wallets vigiladas</small><b id="kW">—</b></div>
+    <div class="kpi"><small>Señales enviadas</small><b id="kS">—</b></div>
+    <div class="kpi"><small>Acierto</small><b id="kA">—</b></div>
+    <div class="kpi"><small>Promedio a 24 h</small><b id="kP">—</b></div>
+    <div class="kpi"><small>Último turno</small><b id="kT">—</b></div>
+  </div>
+  <div class="agentes" id="agentes"></div>
+
+  <section class="card">
+    <h2>Señales <span class="when">tú decides y ejecutas en fomo</span></h2>
+    <div class="sen" id="senales"><p class="empty">Todavía no hay señales. Aparecen cuando 2 o más wallets top compran la misma moneda en menos de 6 horas.</p></div>
+  </section>
+
+  <div class="grid">
+    <section class="card"><h2>Wallets top</h2><div id="wallets"></div></section>
+    <section class="card"><h2>Movimientos en vivo</h2><div class="feed" id="trades"><p class="empty">Aquí aparecen sus compras y ventas.</p></div></section>
+  </div>
+  <section class="card"><h2>Actividad de los agentes</h2><div class="feed" id="act" style="max-height:260px"></div></section>
+  <p class="aviso">Señales informativas de agentes automáticos con datos públicos (blockchain de Solana, DexScreener, RugCheck). No es consejo financiero y no compra ni vende por ti. En memecoins la mayoría de las monedas pierden casi todo su valor: usa solo dinero que puedas perder.</p>
+</div>
+<div class="toast" id="toast" hidden></div>
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const hace=iso=>{if(!iso)return"—";const s=(Date.now()-new Date(iso))/1000;return s<60?Math.round(s)+" s":s<3600?Math.round(s/60)+" min":s<86400?Math.round(s/3600)+" h":Math.round(s/86400)+" d"};
+const usd=v=>v==null?"—":"$"+Number(v).toLocaleString("en-US",{maximumFractionDigits:v<1?6:0});
+const REPO=(()=>{const h=location.hostname;if(h.endsWith(".github.io"))return{o:h.split(".")[0],r:location.pathname.split("/").filter(Boolean)[0]};return null})();
+function toast(t){const e=$("toast");e.textContent=t;e.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>e.hidden=true,1800)}
+let M=null;
+const AG=[["vigia","Vigía"],["senal","Señal"],["seguridad","Seguridad"],["auditor","Auditor"]];
+function render(){
+  const st=M.estadisticas||{},env=M.senales.filter(s=>s.estado==="enviada");
+  $("kW").textContent=Object.keys(M.wallets).length;$("kS").textContent=env.length;
+  $("kA").textContent=st.acierto_pct!=null?st.acierto_pct+"%":"—";$("kP").textContent=st.promedio_24h_pct!=null?(st.promedio_24h_pct>0?"+":"")+st.promedio_24h_pct+"%":"—";
+  $("kT").textContent="hace "+hace(M.ultimo_turno);
+  $("agentes").innerHTML=AG.map(([k,n])=>{const a=(M.agentes||{})[k]||{};const on=a.estado==="trabajando"&&(Date.now()-new Date(a.actualizado))<10*60000;return`<span class="ag ${on?"on":""}" title="${esc(on?a.tarea:a.ultimo_resultado)}">${n.toUpperCase()} · ${on?"TRABAJANDO":"EN ESPERA"}</span>`}).join("");
+  $("senales").innerHTML=M.senales.length?M.senales.slice(0,24).map(s=>{const d=s.datos||{};const res=s.resultado?`<span class="tag ${s.resultado==="ganadora"?"win":"loss"}">${s.resultado.toUpperCase()}</span>`:`<span class="tag ${s.estado==="enviada"?"ok":""}">${s.estado==="enviada"?"SEÑAL":"DESCARTADA"}</span>`;
+    return`<div class="s ${esc(s.estado)}"><h3>${esc(d.simbolo||s.mint.slice(0,6))}${res}</h3>
+      <dl><dt>Compraron</dt><dd style="font-family:var(--f-b)">${esc((s.quienes||[]).join(", "))} · ${s.sol_total} SOL</dd>
+      <dt>Hace</dt><dd>${hace(s.ts)}</dd><dt>Market cap</dt><dd>${usd(d.mcap)}</dd><dt>Liquidez</dt><dd>${usd(d.liquidez)}</dd>
+      <dt>RugCheck</dt><dd>${esc(d.rugcheck?.puntaje??"—")}${(d.rugcheck?.peligros||[]).length?" · "+esc(d.rugcheck.peligros.join(", ")):""}</dd>
+      ${s.estado==="descartada"?`<dt>Motivo</dt><dd style="font-family:var(--f-b)">${esc(s.motivo)}</dd>`:`<dt>Desde la señal</dt><dd>1h ${s.pct_1h??"…"}% · 6h ${s.pct_6h??"…"}% · 24h ${s.pct_24h??"…"}% · máx ${s.max_pct??"…"}%</dd>`}
+      ${s.aviso_salida?`<dt>⚠️ Salida</dt><dd style="font-family:var(--f-b)">Las wallets top ya vendieron</dd>`:""}</dl>
+      <div class="row"><button data-copy="${esc(s.mint)}">Copiar contrato</button>${d.url?`<a href="${esc(d.url)}" target="_blank" rel="noopener">Ver gráfica</a>`:""}</div></div>`}).join(""):'<p class="empty">Todavía no hay señales. Aparecen cuando 2 o más wallets top compran la misma moneda en menos de 6 horas.</p>';
+  $("wallets").innerHTML=`<table><thead><tr><th>Trader</th><th>De dónde</th><th class="n">Señales</th><th class="n">Acierto</th></tr></thead><tbody>${Object.entries(M.wallets).map(([w,d])=>`<tr><td><a href="https://solscan.io/account/${w}" target="_blank" rel="noopener">${esc(d.nombre)}</a></td><td style="font-family:var(--f-b);color:var(--muted)">${esc(d.origen)}</td><td class="n">${d.senales??0}</td><td class="n">${d.acierto!=null?d.acierto+"%":"—"}</td></tr>`).join("")}</tbody></table>`;
+  $("trades").innerHTML=(M.trades||[]).length?`<table><tbody>${M.trades.slice(0,60).map(t=>`<tr><td>${esc(t.nombre)}</td><td class="${t.lado==="compra"?"c":"v"}">${t.lado.toUpperCase()}</td><td><a href="https://dexscreener.com/solana/${esc(t.mint)}" target="_blank" rel="noopener">${esc(t.mint.slice(0,6))}…</a></td><td class="n">${t.sol} SOL</td><td class="n">${hace(new Date(t.ts*1000).toISOString())}</td></tr>`).join("")}</tbody></table>`:'<p class="empty">Aquí aparecen sus compras y ventas.</p>';
+  $("act").innerHTML=(M.actividad||[]).slice(0,40).map(a=>`<div style="padding:4px 0;border-top:1px solid var(--line);font-size:.85rem"><span class="when">${hace(a.ts)}</span> <b style="color:var(--acc)">${esc(a.agente)}</b> ${esc(a.texto)}</div>`).join("");
+}
+document.addEventListener("click",async e=>{const b=e.target.closest("[data-copy]");if(!b)return;try{await navigator.clipboard.writeText(b.dataset.copy);toast("Contrato copiado: pégalo en fomo")}catch{toast(b.dataset.copy)}});
+async function cargar(){try{const r=REPO?await fetch(`https://api.github.com/repos/${REPO.o}/${REPO.r}/contents/data/memes.json`,{cache:"no-cache",headers:{Accept:"application/vnd.github.raw+json"}}):await fetch("data/memes.json",{cache:"no-cache"});if(!r.ok)throw 0;M=await r.json();render()}catch{}}
+cargar();setInterval(cargar,45000);setInterval(()=>M&&render(),15000);
+</script>
+</body>
+</html>
