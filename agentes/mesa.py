@@ -248,6 +248,48 @@ def titulares():
         return []
 
 
+def vix_confluencia():
+    """VIX vs NQ: estructura de volatilidad, correlación y divergencias (lo que mira una mesa antes de tomar riesgo en NQ)."""
+    vd, vh = yahoo("^VIX", "1d", "3mo"), yahoo("^VIX", "1h", "10d")
+    nh = yahoo("NQ=F", "1h", "10d")
+    out = {"vix": round(vd[-1]["c"], 2), "cambio_1d_pct": round((vd[-1]["c"] / vd[-2]["c"] - 1) * 100, 2),
+           "vix_PDH": round(vd[-2]["h"], 2), "vix_PDL": round(vd[-2]["l"], 2),
+           "vix_media20": round(statistics.mean(v["c"] for v in vd[-20:]), 2),
+           "vix_max_20d": round(max(v["h"] for v in vd[-20:]), 2), "vix_min_20d": round(min(v["l"] for v in vd[-20:]), 2)}
+    try:
+        v3 = yahoo("^VIX3M", "1d", "1mo")
+        ratio = vd[-1]["c"] / v3[-1]["c"]
+        out["vix_vs_vix3m"] = round(ratio, 3)
+        out["estructura"] = "backwardation (estrés: cobertura cara a corto plazo)" if ratio > 1 else "contango (calma normal)"
+    except Exception:
+        pass
+    # correlación de retornos 1H en las últimas 48 velas comunes
+    vm = {v["t"]: v["c"] for v in vh}
+    pares = [(n["c"], vm[n["t"]]) for n in nh if n["t"] in vm][-49:]
+    if len(pares) > 10:
+        rn = [b[0] / a[0] - 1 for a, b in zip(pares, pares[1:])]
+        rv = [b[1] / a[1] - 1 for a, b in zip(pares, pares[1:])]
+        try:
+            out["correlacion_48h"] = round(statistics.correlation(rn, rv), 2)
+        except Exception:
+            pass
+        # últimas 6 horas: ¿confirman o divergen?
+        n6 = pares[-1][0] / pares[-7][0] - 1 if len(pares) > 7 else 0
+        v6 = pares[-1][1] / pares[-7][1] - 1 if len(pares) > 7 else 0
+        out["nq_6h_pct"], out["vix_6h_pct"] = round(n6 * 100, 2), round(v6 * 100, 2)
+        if n6 > 0 and v6 < 0:
+            out["lectura"] = "CONFIRMA ALCISTA: NQ sube y el VIX baja (apetito de riesgo real)"
+        elif n6 < 0 and v6 > 0:
+            out["lectura"] = "CONFIRMA BAJISTA: NQ baja y el VIX sube (se compra protección)"
+        elif n6 > 0 and v6 > 0:
+            out["lectura"] = "DIVERGENCIA: NQ sube pero el VIX también sube (las instituciones se cubren; subida sospechosa)"
+        elif n6 < 0 and v6 < 0:
+            out["lectura"] = "DIVERGENCIA: NQ baja pero el VIX también baja (caída sin miedo; posible barrida para comprar)"
+        else:
+            out["lectura"] = "SIN SEÑAL clara"
+    return out
+
+
 # ───────── la sesión ─────────
 
 def correr(sesion):
@@ -286,13 +328,19 @@ def correr(sesion):
         if "ATR14_diario" in m:
             riesgo[k] = {"rango_esperado": f"{round(m['precio'] - m['ATR14_diario'] / 2, 2)} – {round(m['precio'] + m['ATR14_diario'] / 2, 2)}",
                          "consumido_pct": m.get("rango_hoy_vs_atr_pct")}
-    vix = mac.get("vix", {}).get("ultimo")
+    me.paso("riesgo", "Cruzando el VIX con el NQ: estructura, correlación y divergencias…")
+    try:
+        vixc = vix_confluencia()
+    except Exception as ex:
+        vixc = {"error": str(ex)[:80]}
+    me.paso("riesgo", "VIX/NQ: " + vixc.get("lectura", "sin datos"))
+    vix = vixc.get("vix") or mac.get("vix", {}).get("ultimo")
     regimen = "estrés" if isinstance(vix, (int, float)) and vix >= 25 else "elevada" if isinstance(vix, (int, float)) and vix >= 18 else "normal"
     me.paso("riesgo", f"Volatilidad {regimen} (VIX {vix}).", trabajando=False)
 
     me.paso("cio", "Escribiendo el brief institucional…")
     datos = {"sesion": nombre, "hora_las_vegas": datetime.now(LV).strftime("%Y-%m-%d %H:%M"), "macro": mac,
-             "calendario_usd": eventos, "cot": pos, "mapas": mapas, "riesgo": riesgo, "regimen_vol": regimen,
+             "calendario_usd": eventos, "cot": pos, "mapas": mapas, "riesgo": riesgo, "regimen_vol": regimen, "vix_nq": vixc,
              "titulares": titulares()}
     prompt = f"""Eres el CIO (director de inversiones) de GSAM Capital, un fondo macro que opera oro (futuro GC / XAUUSD)
 y el Nasdaq 100 (futuro NQ). Piensas como una institución, no como un trader minorista:
@@ -311,10 +359,24 @@ Escribe el BRIEF DE LA SESIÓN DE {nombre.upper()} en español, claro y directo,
    valor justo, y cuál es el imán más probable de la sesión.
 5. **Escenarios** — para cada activo: Escenario A y B, cada uno con disparador, objetivo e invalidación (con números).
 6. **Riesgo** — rango esperado (ATR), cuánto ya se consumió, horas peligrosas y qué haría la mesa con el tamaño.
-7. **Nota para tu regla Ruptura EMA9 (1H)** — en 2-3 líneas: qué ruptura tendría sentido con este mapa y dónde está
+7. **VIX y NQ (confluencia)** — nivel del VIX y sus niveles (PDH/PDL del VIX, media 20), estructura VIX/VIX3M,
+   correlación con NQ y la lectura de las últimas 6 horas. Di claramente si el VIX CONFIRMA o CONTRADICE el sesgo de NQ,
+   y qué nivel del VIX invalidaría el escenario alcista de NQ (por ejemplo, si rompe su máximo de ayer).
+8. **Plan de entrada institucional (Gent ejecuta)** — para ORO y para NQ, en este formato exacto:
+   - Dirección: COMPRA / VENTA / SIN ENTRADA
+   - Zona de entrada: precio o rango (donde una institución pondría su orden límite: tras barrer liquidez, en valor justo o en la última vela contraria)
+   - Confirmación: qué tiene que pasar antes de entrar (barrida + cierre de vela 1H de regreso, VIX confirmando, etc.)
+   - Stop: más allá de la liquidez que protege la idea (con número)
+   - TP1 / TP2: en la liquidez opuesta (con números)
+   - R:R: relación riesgo/beneficio al TP2
+   - Cancelar si: qué invalida la entrada antes de activarse (hora, noticia, nivel)
+   Reglas de la mesa: solo propones entrada si el R:R al TP2 es 2 o más; si hay noticia de impacto alto en los próximos
+   30 minutos o el ATR del día ya está consumido más del 100%, la respuesta es SIN ENTRADA y explicas por qué.
+   Una sola idea por activo. Nunca entres persiguiendo el precio.
+9. **Nota para tu regla Ruptura EMA9 (1H)** — en 2-3 líneas: qué ruptura tendría sentido con este mapa y dónde está
    la liquidez a favor (recuerda que no se entra si la liquidez a favor está a menos de 2 ATR de 1H).
 Termina con una línea: "Análisis educativo de agentes de IA. No es consejo financiero."
-Usa SOLO los números de los datos; si un dato falta dilo. Máximo 450 palabras.
+Usa SOLO los números de los datos; si un dato falta dilo. Máximo 650 palabras.
 
 DATOS:
 {json.dumps(datos, ensure_ascii=False)[:14000]}"""
@@ -325,16 +387,25 @@ DATOS:
         return
     try:
         corto = base.gemini_json(f"""Del siguiente brief, devuelve JSON {{"oro": "alcista|bajista|neutral", "nq": "alcista|bajista|neutral",
-"titular": "frase de máximo 90 caracteres con lo más importante de la sesión"}}.
-BRIEF: {texto[:4000]}""")
+"titular": "frase de máximo 90 caracteres con lo más importante de la sesión",
+"entradas": [{{"activo": "ORO|NQ", "direccion": "COMPRA|VENTA|SIN ENTRADA", "zona": "precio o rango", "confirmacion": "texto corto",
+"stop": "número", "tp1": "número", "tp2": "número", "rr": "número", "cancelar": "texto corto", "motivo": "si es SIN ENTRADA, por qué"}}]}}.
+Copia los números tal cual aparecen en el brief.
+BRIEF: {texto[:6000]}""")
     except Exception:
-        corto = {"oro": "?", "nq": "?", "titular": f"Brief de {nombre}"}
+        corto = {"oro": "?", "nq": "?", "titular": f"Brief de {nombre}", "entradas": []}
     brief = {"sesion": sesion, "nombre": nombre, "ts": ahora(), "texto": texto, "sesgo": {"oro": corto.get("oro"), "nq": corto.get("nq")},
-             "titular": corto.get("titular", ""), "mapas": mapas, "macro": mac, "eventos": eventos, "cot": pos}
+             "titular": corto.get("titular", ""), "entradas": corto.get("entradas", []), "mapas": mapas, "vix_nq": vixc, "macro": mac, "eventos": eventos, "cot": pos}
     me.m["briefs"].insert(0, brief)
     me.paso("cio", f"Brief de {nombre} publicado: {corto.get('titular', '')}", trabajando=False)
+    lineas = []
+    for e in corto.get("entradas", []) or []:
+        if str(e.get("direccion", "")).upper().startswith("SIN"):
+            lineas.append(f"{e.get('activo')}: SIN ENTRADA — {e.get('motivo', '')}")
+        else:
+            lineas.append(f"{e.get('activo')} {e.get('direccion')} en {e.get('zona')} · SL {e.get('stop')} · TP1 {e.get('tp1')} · TP2 {e.get('tp2')} · R:R {e.get('rr')}\n  Confirmación: {e.get('confirmacion')}")
     base.avisar_telefono(f"GSAM · {nombre}: oro {corto.get('oro')} · NQ {corto.get('nq')}",
-                         (corto.get("titular", "") + "\n\n" + texto)[:3500])
+                         ("\n".join(lineas) + "\n\n" + corto.get("titular", "") + "\n\n" + texto)[:3800])
 
 
 if __name__ == "__main__":

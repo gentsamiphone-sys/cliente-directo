@@ -58,6 +58,13 @@ th{color:var(--acc);font-weight:700}
 .ev b{color:var(--acc)}
 .aviso{font-size:.78rem;color:var(--muted)}
 .empty{color:var(--muted);padding:20px 0}
+.ent{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.tk{border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:6px;background:#0e1216}
+.tk.compra{border-color:var(--up)}.tk.venta{border-color:var(--down)}
+.tk h3{margin:0;font:700 1.05rem var(--f-d);display:flex;justify-content:space-between;gap:8px}
+.tk h3 span{font:700 .78rem var(--f-m)}.tk.compra h3 span{color:var(--up)}.tk.venta h3 span{color:var(--down)}
+.tk dl{display:grid;grid-template-columns:auto 1fr;gap:3px 12px;margin:0;font-size:.86rem}
+.tk dt{color:var(--muted)}.tk dd{margin:0;font-family:var(--f-m);font-variant-numeric:tabular-nums}
 </style>
 </head>
 <body>
@@ -72,6 +79,7 @@ th{color:var(--acc);font-weight:700}
     <div class="hud">
       <div class="kpi"><small>Oro</small><b id="kOro">—</b></div>
       <div class="kpi"><small>NQ</small><b id="kNq">—</b></div>
+      <div class="kpi"><small>VIX</small><b id="kVix">—</b></div>
       <div class="kpi"><small>Sesgo oro</small><b id="kSo">—</b></div>
       <div class="kpi"><small>Sesgo NQ</small><b id="kSn">—</b></div>
       <div class="kpi"><small>Próximo brief</small><b id="kNext">—</b></div>
@@ -83,6 +91,7 @@ th{color:var(--acc);font-weight:700}
   </section>
 
   <div class="grid">
+    <section class="card" style="grid-column:1/-1"><h2>Entradas de la mesa <span class="when">tú decides y ejecutas</span></h2><div id="entradas" class="ent"><p class="empty">Las entradas aparecen con el próximo brief.</p></div></section>
     <section class="card">
       <h2>Brief de la sesión <span class="when" id="bWhen"></span></h2>
       <div class="tabs" id="tabs"></div>
@@ -91,6 +100,7 @@ th{color:var(--acc);font-weight:700}
     </section>
     <div style="display:grid;gap:16px;align-content:start">
       <section class="card"><h2>Niveles clave</h2><div id="niveles"><p class="empty">Sin datos todavía.</p></div></section>
+      <section class="card"><h2>VIX y NQ</h2><div id="vixnq"><p class="empty">Sin datos todavía.</p></div></section>
       <section class="card"><h2>Calendario USD</h2><div id="cal"><p class="empty">Sin eventos cargados.</p></div></section>
       <section class="card"><h2>Actividad en vivo</h2><div class="feed" id="feed"><p class="empty">Aquí ves cada paso de los agentes.</p></div></section>
       <p class="aviso">Análisis educativo hecho por agentes de IA con datos públicos (Yahoo Finance, CFTC, calendario económico). No es consejo financiero y no ejecuta operaciones.</p>
@@ -133,6 +143,15 @@ function render(){
       <tr><td>Rango Londres</td><td>${lon("oro")?lon("oro").min+"–"+lon("oro").max:"—"}</td><td>${lon("nq")?lon("nq").min+"–"+lon("nq").max:"—"}</td></tr></tbody></table>`;
     $("cal").innerHTML=(b.eventos||[]).length?`<table><tbody>${b.eventos.map(e=>`<tr><td>${esc(e.hora_lv)}</td><td style="text-align:left">${esc(e.evento)}</td><td>${esc(e.impacto==="High"?"Alto":"Medio")}</td></tr>`).join("")}</tbody></table>`:'<p class="empty">Sin eventos USD importantes hoy.</p>';
     const p=k=>b.mapas?.[k]?.precio;$("kOro").textContent=p("oro")?Number(p("oro")).toLocaleString("en-US"):"—";$("kNq").textContent=p("nq")?Number(p("nq")).toLocaleString("en-US"):"—";
+    const en=b.entradas||[];
+    $("entradas").innerHTML=en.length?en.map(e=>{const d=String(e.direccion||"").toUpperCase(),c=d.startsWith("COMPRA")?"compra":d.startsWith("VENTA")?"venta":"";
+      return d.startsWith("SIN")?`<div class="tk"><h3>${esc(e.activo)}<span>SIN ENTRADA</span></h3><p style="margin:0;color:var(--muted)">${esc(e.motivo||e.cancelar||"")}</p></div>`:
+      `<div class="tk ${c}"><h3>${esc(e.activo)}<span>${esc(d)}</span></h3><dl><dt>Zona de entrada</dt><dd>${esc(e.zona)}</dd><dt>Stop</dt><dd>${esc(e.stop)}</dd><dt>TP1 / TP2</dt><dd>${esc(e.tp1)} / ${esc(e.tp2)}</dd><dt>R:R</dt><dd>${esc(e.rr)}</dd><dt>Confirmación</dt><dd style="font-family:var(--f-b)">${esc(e.confirmacion)}</dd><dt>Cancelar si</dt><dd style="font-family:var(--f-b)">${esc(e.cancelar)}</dd></dl></div>`}).join(""):'<p class="empty">Este brief no trae entradas.</p>';
+    const x=b.vix_nq||{};$("kVix").textContent=x.vix??"—";
+    $("vixnq").innerHTML=x.vix?`<p style="margin:0 0 8px;font-weight:700;color:${/CONFIRMA ALCISTA/.test(x.lectura)?"var(--up)":/CONFIRMA BAJISTA/.test(x.lectura)?"var(--down)":"var(--acc)"}">${esc(x.lectura||"")}</p>
+      <table><tbody><tr><td>VIX</td><td>${x.vix} (${x.cambio_1d_pct>0?"+":""}${x.cambio_1d_pct}%)</td></tr><tr><td>VIX máx./mín. ayer</td><td>${x.vix_PDH} / ${x.vix_PDL}</td></tr>
+      <tr><td>Media 20 días</td><td>${x.vix_media20}</td></tr><tr><td>VIX / VIX3M</td><td>${x.vix_vs_vix3m??"—"}</td></tr><tr><td>Estructura</td><td>${esc((x.estructura||"—").split(" (")[0])}</td></tr>
+      <tr><td>Correlación 48h</td><td>${x.correlacion_48h??"—"}</td></tr><tr><td>Últimas 6h</td><td>NQ ${x.nq_6h_pct??"—"}% · VIX ${x.vix_6h_pct??"—"}%</td></tr></tbody></table>`:'<p class="empty">Sin datos todavía.</p>';
     const last=M.briefs[0];$("kSo").textContent=(last.sesgo?.oro||"—").toUpperCase();$("kSn").textContent=(last.sesgo?.nq||"—").toUpperCase();
   }
   $("feed").innerHTML=(M.actividad||[]).slice(0,40).map(e=>`<div class="ev"><time>${hhmm(e.ts)}</time><span><b>${esc((AG.find(a=>a.id===e.agente)||{}).n||e.agente)}</b> ${esc(e.texto)}</span></div>`).join("")||'<p class="empty">Aquí ves cada paso de los agentes.</p>';
