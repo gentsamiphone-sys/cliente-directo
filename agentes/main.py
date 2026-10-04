@@ -503,6 +503,12 @@ def vendedor():
     if not gmail_listo():
         of.fin(f"Gmail no está conectado. {len(listos)} correos esperando; {sin_email} mensajes de texto listos para ti")
         return
+    try:
+        with imaplib.IMAP4_SSL("imap.gmail.com") as im:
+            im.login(GMAIL_USER, GMAIL_PASS)
+    except Exception as ex:
+        of.fin(f"Gmail rechazó la contraseña de aplicación ({str(ex)[:60]})")
+        return
     if not en_horario(cfg):
         of.fin(f"Fuera de horario: {len(listos)} correos listos para la mañana")
         return
