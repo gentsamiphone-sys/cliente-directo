@@ -21,6 +21,10 @@ h1 span{color:var(--acc)}
 a{color:var(--acc)}
 .hq{position:relative;border-radius:14px;overflow:hidden;background:#07080a;height:min(62vh,600px);min-height:380px;touch-action:none;user-select:none;border:1px solid var(--line)}
 .hq canvas{display:block;width:100%;height:100%;cursor:grab}
+.wallscr{position:absolute;left:0;top:0;transform-origin:0 0;z-index:1;background:#000;border:6px solid #111418;border-radius:6px;box-shadow:0 0 30px rgba(215,255,58,.12);overflow:hidden}
+.wallscr .lbl{position:absolute;left:8px;top:6px;z-index:2;font:700 18px var(--f-m);color:var(--acc);background:rgba(0,0,0,.7);padding:2px 8px;border-radius:4px;pointer-events:none}
+.wallscr>div{width:100%;height:100%}
+.hq{height:min(78vh,820px)}
 .hud{position:absolute;inset:12px 12px auto 12px;display:flex;flex-wrap:wrap;gap:8px;pointer-events:none;z-index:2}
 .kpi{background:rgba(14,17,20,.88);border:1px solid #2a3026;border-radius:10px;padding:6px 10px}
 .kpi small{display:block;font:500 .62rem var(--f-m);letter-spacing:.08em;text-transform:uppercase;color:#9aa58e}
@@ -91,21 +95,6 @@ th{color:var(--acc);font-weight:700}
     <a href="./">← Volver a Cliente Directo</a>
   </header>
 
-  <section class="tv" aria-label="Pantalla gigante con la gráfica en vivo">
-    <div class="tvtop">
-      <span class="live"><i></i>EN VIVO</span>
-      <div class="tvtabs" id="tvtabs">
-        <button data-k="oro" aria-pressed="true">ORO · XAUUSD</button>
-        <button data-k="nq" aria-pressed="false">NQ · NAS100</button>
-        <button data-k="vix" aria-pressed="false">VIX</button>
-        <button data-k="split" aria-pressed="false">LOS 3</button>
-      </div>
-      <span class="sub" style="margin-left:auto">1H · EMA 9 · VWAP · hora de Las Vegas</span>
-    </div>
-    <div class="screen" id="screen"></div>
-    <div class="lvl" id="lvl"></div>
-  </section>
-
   <section class="hq" aria-label="Sala de la mesa en vivo">
     <div class="hud">
       <div class="kpi"><small>Oro</small><b id="kOro">—</b></div>
@@ -118,6 +107,7 @@ th{color:var(--acc);font-weight:700}
     </div>
     <canvas id="hq" aria-label="Mapa de la sala de la mesa"></canvas>
     <div class="tip" id="tip" hidden></div>
+    <div class="ctrl" style="left:12px;right:auto"><button data-w="oro">📺 Oro</button><button data-w="nq">📺 NQ</button><button data-w="vix">📺 VIX</button></div>
     <div class="ctrl"><button id="bM" aria-label="Alejar">−</button><button id="bP" aria-label="Acercar">+</button><button id="bC" aria-label="Centrar">⤢</button></div>
   </section>
 
@@ -140,6 +130,7 @@ th{color:var(--acc);font-weight:700}
   </div>
 </div>
 
+<script src="https://s3.tradingview.com/tv.js"></script>
 <script>
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -197,7 +188,7 @@ function render(){
 $("tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;sel=+b.dataset.i;render()});
 async function cargar(){try{
   const r=REPO?await fetch(`https://api.github.com/repos/${REPO.o}/${REPO.r}/contents/data/mesa.json`,{cache:"no-cache",headers:{Accept:"application/vnd.github.raw+json",...(token?{Authorization:"Bearer "+token}:{})}}):await fetch("data/mesa.json",{cache:"no-cache"});
-  if(!r.ok)throw new Error(r.status);M=await r.json();window.__M=M;lastOk=Date.now();if(sel>=M.briefs.length)sel=0;render();window.__pantallaNiveles&&window.__pantallaNiveles()}catch(e){$("pLive").textContent="SIN CONEXIÓN ("+e.message+")"}}
+  if(!r.ok)throw new Error(r.status);M=await r.json();window.__M=M;lastOk=Date.now();if(sel>=M.briefs.length)sel=0;render();window.__paredes&&window.__paredes()}catch(e){$("pLive").textContent="SIN CONEXIÓN ("+e.message+")"}}
 setInterval(()=>{if(lastOk){const s=Math.round((Date.now()-lastOk)/1000);$("pLive").textContent="EN VIVO · "+(s<60?s+" S":Math.round(s/60)+" MIN")}$("kNext").textContent=proximo()},5000);
 cargar();setInterval(cargar,token?20000:45000);
 
@@ -205,13 +196,19 @@ cargar();setInterval(cargar,token?20000:45000);
 (()=>{
   const cv=$("hq"),cx=cv.getContext("2d"),TW=52,TH=26,ACC="#d7ff3a";
   const R=[
-    {id:"macro",name:"MACRO",x:0,y:0,w:8,h:7,c:3,r:2,shirt:"#3a7bd5"},
-    {id:"flujos",name:"FLUJOS · COT",x:9,y:0,w:8,h:7,c:3,r:2,shirt:"#b061d6"},
-    {id:"liquidez",name:"LIQUIDEZ",x:18,y:0,w:9,h:7,c:3,r:2,shirt:"#1fb39a"},
-    {id:"trading",name:"SALA DE TRADING",x:0,y:8,w:19,h:10,c:7,r:3,shirt:"#9aa3ad",big:true},
-    {id:"riesgo",name:"RIESGO",x:20,y:8,w:7,h:6,c:2,r:2,shirt:"#ef7d22"},
-    {id:"cio",name:"CIO",x:20,y:15,w:7,h:5,c:1,r:1,shirt:"#e9eee4",boss:true},
-    {id:"cafe",name:"CAFÉ",x:0,y:19,w:19,h:4,cafe:true},
+    {id:"trading",name:"SALA DE TRADING",x:0,y:0,w:19,h:10,c:7,r:3,shirt:"#9aa3ad",big:true},
+    {id:"riesgo",name:"RIESGO",x:20,y:0,w:7,h:6,c:2,r:2,shirt:"#ef7d22"},
+    {id:"cio",name:"CIO",x:20,y:7,w:7,h:5,c:1,r:1,shirt:"#e9eee4",boss:true},
+    {id:"macro",name:"MACRO",x:0,y:11,w:8,h:6,c:3,r:2,shirt:"#3a7bd5"},
+    {id:"flujos",name:"FLUJOS · COT",x:9,y:11,w:8,h:6,c:3,r:2,shirt:"#b061d6"},
+    {id:"liquidez",name:"LIQUIDEZ",x:18,y:13,w:9,h:6,c:3,r:2,shirt:"#1fb39a"},
+    {id:"cafe",name:"CAFÉ",x:0,y:18,w:17,h:4,cafe:true},
+  ];
+  // pantallas gigantes en las paredes de la sala de trading (eje x = pared del fondo, eje y = pared izquierda)
+  const WALLS=[
+    {k:"oro",sym:"OANDA:XAUUSD",lbl:"ORO · XAUUSD 1H",eje:"x",fijo:0,a:.6,b:9.3,alto:150},
+    {k:"nq",sym:"PEPPERSTONE:NAS100",lbl:"NQ · NAS100 1H",eje:"x",fijo:0,a:9.7,b:18.4,alto:150},
+    {k:"vix",sym:"TVC:VIX",lbl:"VIX 1H",eje:"y",fijo:0,a:.6,b:9.4,alto:150},
   ];
   let zoom=1,panX=0,panY=0,W=0,H=0,dpr=1;const t0=performance.now(),reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
   const iso=(x,y)=>[(x-y)*TW/2,(x+y)*TH/2];
@@ -225,7 +222,7 @@ cargar();setInterval(cargar,token?20000:45000);
   }
   const on=id=>id==="trading"?AG.some(a=>trabajando(a.id)):trabajando(id);
   function resize(){const b=cv.getBoundingClientRect();dpr=Math.min(2,devicePixelRatio||1);W=b.width;H=b.height;cv.width=W*dpr;cv.height=H*dpr;if(!resize.d){centrar();resize.d=1}}
-  function centrar(){const[a,b]=iso(13.5,11.5);zoom=Math.min(1.3,Math.max(.3,Math.min(W/(29*TW),(H-50)/(26*TH))));panX=W/2-a*zoom;panY=H/2-b*zoom+20}
+  function centrar(){const[a,b]=iso(13.5,11);zoom=Math.min(1.3,Math.max(.3,Math.min(W/(30*TW),(H-60)/(24*TH+170))));panX=W/2-a*zoom;panY=H/2-b*zoom+80*zoom}
   function poly(p,f,s){cx.beginPath();p.forEach(([x,y],i)=>i?cx.lineTo(x,y):cx.moveTo(x,y));cx.closePath();if(f){cx.fillStyle=f;cx.fill()}if(s){cx.strokeStyle=s;cx.stroke()}}
   function box(x,y,w,d,h,t,l,r){const a=iso(x,y),b=iso(x+w,y),c=iso(x+w,y+d),e=iso(x,y+d),u=([p,q])=>[p,q-h];poly([u(a),u(b),u(c),u(e)],t);poly([e,c,u(c),u(e)],l);poly([c,b,u(b),u(c)],r)}
   function floor(r,t){const p=[iso(r.x,r.y),iso(r.x+r.w,r.y),iso(r.x+r.w,r.y+r.h),iso(r.x,r.y+r.h)],dark=r.cafe||r.boss;
@@ -243,16 +240,46 @@ cargar();setInterval(cargar,token?20000:45000);
   function person(w,t){const[x,y]=iso(w.x,w.y),b=reduce?0:on(w.r.id)&&w.at?Math.sin(t/120+w.ph)*1.2:0;
     cx.fillStyle="rgba(0,0,0,.3)";cx.beginPath();cx.ellipse(x,y,7,3.5,0,0,7);cx.fill();cx.fillStyle=w.shirt;cx.beginPath();cx.ellipse(x,y-10+b,6,8,0,0,7);cx.fill();
     cx.fillStyle="#d9a77c";cx.beginPath();cx.arc(x,y-21+b,4.5,0,7);cx.fill();cx.fillStyle="#22180f";cx.beginPath();cx.arc(x,y-22.5+b,4.5,Math.PI,0);cx.fill()}
-  function ticker(t){const[x,y]=iso(.6,8.4);cx.save();cx.translate(x,y);cx.transform(1,.5,-1,.5,0,0);cx.fillStyle="rgba(14,16,19,.92)";cx.fillRect(0,-40,380,40);cx.strokeStyle=ACC;cx.strokeRect(0,-40,380,40);
+  function ticker(t){const[x,y]=iso(.6,9.6);cx.save();cx.translate(x,y);cx.transform(1,.5,-1,.5,0,0);cx.fillStyle="rgba(14,16,19,.92)";cx.fillRect(0,-40,380,40);cx.strokeStyle=ACC;cx.strokeRect(0,-40,380,40);
     const b=M.briefs[0];cx.font='700 11px "JetBrains Mono",monospace';cx.fillStyle=ACC;cx.fillText(b?("BRIEF "+(b.nombre||"").toUpperCase()+" · ORO "+(b.sesgo?.oro||"?").toUpperCase()+" · NQ "+(b.sesgo?.nq||"?").toUpperCase()):"ESPERANDO EL PRIMER BRIEF",8,-25);
     cx.fillStyle="#e9eee4";cx.font='600 11px "Atkinson Hyperlegible",sans-serif';cx.fillText((b?.titular||"").slice(0,58),8,-10);cx.restore()}
   function frame(now){const t=now-t0;let s=0;const free=seats.slice();
     for(const w of workers){if(on(w.r.id)){w.tx=w.d.x;w.ty=w.d.y+.55;w.seat=null}else{if(!w.seat)w.seat=free.length?free.splice((s++*5)%free.length,1)[0]:{x:2+Math.random()*15,y:22};else{const i=free.indexOf(w.seat);if(i>=0)free.splice(i,1)}w.tx=w.seat.x;w.ty=w.seat.y}
       const k=reduce?1:.03;w.x+=(w.tx-w.x)*k;w.y+=(w.ty-w.y)*k;w.at=Math.hypot(w.x-w.d.x,w.y-w.d.y-.55)<.15}
     cx.setTransform(dpr,0,0,dpr,0,0);const g=cx.createRadialGradient(W/2,H/2,40,W/2,H/2,Math.max(W,H));g.addColorStop(0,"#13171c");g.addColorStop(1,"#050607");cx.fillStyle=g;cx.fillRect(0,0,W,H);
-    cx.setTransform(dpr*zoom,0,0,dpr*zoom,dpr*panX,dpr*panY);R.forEach(r=>floor(r,t));
+    cx.setTransform(dpr*zoom,0,0,dpr*zoom,dpr*panX,dpr*panY);R.forEach(r=>floor(r,t));paredesCanvas();
     [...desks.map(d=>({k:d.x+d.y,f:()=>desk(d,t)})),...workers.map(w=>({k:w.x+w.y+.01,f:()=>person(w,t)}))].sort((a,b)=>a.k-b.k).forEach(i=>i.f());ticker(t);
-    requestAnimationFrame(frame)}
+    posParedes();requestAnimationFrame(frame)}
+  const UN=Math.hypot(TW/2,TH/2),K=2;
+  function paredesCanvas(){ // la pared física detrás de las pantallas
+    cx.save();
+    const p1=[iso(0,0),iso(19,0)],p2=[iso(0,0),iso(0,10)],up=180;
+    poly([p1[0],p1[1],[p1[1][0],p1[1][1]-up],[p1[0][0],p1[0][1]-up]],"#14181d","#2a3026");
+    poly([p2[0],p2[1],[p2[1][0],p2[1][1]-up],[p2[0][0],p2[0][1]-up]],"#101317","#2a3026");
+    cx.restore();
+  }
+  const scr={};
+  for(const w of WALLS){
+    const d=document.createElement("div");d.className="wallscr";const L=(w.b-w.a)*UN;
+    d.style.width=L*K+"px";d.style.height=w.alto*K+"px";
+    d.innerHTML=`<span class="lbl">${w.lbl}</span><div id="tvw_${w.k}"></div>`;cv.parentElement.appendChild(d);scr[w.k]={w,d};
+  }
+  function cargarTV(){
+    if(!window.TradingView){setTimeout(cargarTV,800);return}
+    for(const k in scr){const {w}=scr[k];new TradingView.widget({container_id:"tvw_"+k,symbol:w.sym,interval:"60",timezone:"America/Los_Angeles",theme:"dark",style:"1",locale:"es",
+      autosize:true,hide_side_toolbar:true,hide_top_toolbar:true,hide_legend:false,allow_symbol_change:false,save_image:false,backgroundColor:"#07080a",gridColor:"rgba(255,255,255,0.04)",
+      studies:k==="vix"?[]:[{id:"MAExp@tv-basicstudies",inputs:{length:9}},"VWAP@tv-basicstudies"]})}
+  }
+  cargarTV();
+  function posParedes(){
+    for(const k in scr){const {w,d}=scr[k];
+      const p0=w.eje==="x"?iso(w.a,w.fijo):iso(w.fijo,w.b);
+      const ux=(TW/2)/UN,uy=(w.eje==="x"?1:-1)*(TH/2)/UN;
+      const sx=p0[0]*zoom+panX,sy=(p0[1]-w.alto-12)*zoom+panY,s=zoom/K;
+      d.style.transform=`matrix(${ux*s},${uy*s},0,${s},${sx},${sy})`;
+    }
+  }
+  window.__enfocar=k=>{const {w}=scr[k];const m=(w.a+w.b)/2,p=w.eje==="x"?iso(m,w.fijo):iso(w.fijo,m);zoom=Math.min(2.4,Math.max(1.1,W/((w.b-w.a)*UN*1.25)));panX=W/2-p[0]*zoom;panY=H/2-(p[1]-w.alto/2-12)*zoom};
   let drag=null;
   cv.addEventListener("pointerdown",e=>{drag={x:e.clientX,y:e.clientY,px:panX,py:panY};cv.setPointerCapture(e.pointerId)});
   cv.addEventListener("pointermove",e=>{if(drag){panX=drag.px+e.clientX-drag.x;panY=drag.py+e.clientY-drag.y}else tip(e)});
@@ -266,44 +293,12 @@ cargar();setInterval(cargar,token?20000:45000);
     el.innerHTML=r.cafe?'<span class="s">Descanso</span><b>Café</b>Los analistas esperan la próxima sesión.':r.id==="trading"?`<span class="s">Piso</span><b>Sala de trading</b>${esc(M.briefs[0]?.titular||"Se ilumina cuando la mesa prepara un brief.")}`:
       `<span class="s">${trabajando(r.id)?"Trabajando ahora":"En espera"}</span><b>${a?a.n:r.name}</b>${esc(trabajando(r.id)?s.tarea:(s.ultimo_resultado||"Esperando la próxima sesión"))}`;
     el.hidden=false;el.style.left=Math.min(b.width-280,e.clientX-b.left+14)+"px";el.style.top=Math.max(60,e.clientY-b.top-10)+"px"}
+  document.querySelectorAll("[data-w]").forEach(b=>b.onclick=()=>window.__enfocar(b.dataset.w));
   $("bP").onclick=()=>z(W/2,H/2,1.2);$("bM").onclick=()=>z(W/2,H/2,1/1.2);$("bC").onclick=centrar;
   new ResizeObserver(resize).observe(cv);resize();requestAnimationFrame(frame);
 })();
 </script>
 
 <script src="https://s3.tradingview.com/tv.js"></script>
-<script>
-/* ===== Pantalla gigante (TradingView en vivo) ===== */
-(()=>{
-  const SYM={oro:"OANDA:XAUUSD",nq:"PEPPERSTONE:NAS100",vix:"TVC:VIX"};
-  let actual="oro";
-  function widget(id,sym,mini){
-    if(!window.TradingView){document.getElementById(id).innerHTML='<p class="empty" style="padding:20px">No se pudo cargar la gráfica. Revisa tu conexión.</p>';return}
-    new TradingView.widget({container_id:id,symbol:sym,interval:"60",timezone:"America/Los_Angeles",theme:"dark",style:"1",locale:"es",
-      autosize:true,allow_symbol_change:true,hide_side_toolbar:!!mini,withdateranges:!mini,save_image:false,
-      backgroundColor:"#07080a",gridColor:"rgba(255,255,255,0.04)",
-      studies:mini?[]:[{id:"MAExp@tv-basicstudies",inputs:{length:9}},"VWAP@tv-basicstudies"]});
-  }
-  function mostrar(k){
-    actual=k;const s=document.getElementById("screen");s.className="screen"+(k==="split"?" split":"");s.innerHTML="";
-    document.querySelectorAll("#tvtabs button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.k===k));
-    if(k==="split"){["oro","nq","vix"].forEach(x=>{const d=document.createElement("div");d.id="tv_"+x;s.appendChild(d);widget(d.id,SYM[x],true)})}
-    else{const d=document.createElement("div");d.id="tv_main";s.appendChild(d);widget("tv_main",SYM[k],false)}
-    niveles();
-  }
-  function niveles(){
-    const b=(window.__M||{briefs:[]}).briefs?.[0],el=document.getElementById("lvl");
-    if(!b||actual==="split"){el.innerHTML=b?'<span class="t">Mesa:</span> oro '+((b.sesgo?.oro)||"?")+' · NQ '+((b.sesgo?.nq)||"?"):"";return}
-    if(actual==="vix"){const x=b.vix_nq||{};el.innerHTML=x.vix?`<span class="t">Niveles de la mesa</span><span>Máx. ayer <b>${x.vix_PDH}</b></span><span>Mín. ayer <b>${x.vix_PDL}</b></span><span>Media 20 <b>${x.vix_media20}</b></span><span>${x.lectura||""}</span>`:"";return}
-    const m=b.mapas?.[actual]||{},f=v=>v==null?"—":Number(v).toLocaleString("en-US");
-    const e=(b.entradas||[]).find(x=>String(x.activo||"").toUpperCase().includes(actual==="oro"?"ORO":"NQ"));
-    el.innerHTML=`<span class="t">Niveles de la mesa (feed de futuros)</span><span>PDH <b>${f(m.PDH)}</b></span><span>PDL <b>${f(m.PDL)}</b></span><span>PWH <b>${f(m.PWH)}</b></span><span>PWL <b>${f(m.PWL)}</b></span><span>VWAP <b>${f(m.vwap_hoy)}</b></span>`+
-      (e&&!String(e.direccion||"").toUpperCase().startsWith("SIN")?`<span class="t">Entrada: ${e.direccion} ${e.zona} · SL ${e.stop} · TP2 ${e.tp2}</span>`:"");
-  }
-  document.getElementById("tvtabs").addEventListener("click",ev=>{const b=ev.target.closest("button");if(b)mostrar(b.dataset.k)});
-  window.__pantallaNiveles=niveles;
-  mostrar("oro");
-})();
-</script>
 </body>
 </html>
