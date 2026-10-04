@@ -110,7 +110,7 @@ const AGO=AG.map(([id,n])=>({id,n}));
 function trabajando(id){const a=((M&&M.agentes)||{})[id];if(!a)return false;const t=Date.now()-new Date(a.actualizado);return (a.estado==="trabajando"&&t<10*60000)||t<5.5*60000}
 function render(){
   const st=M.estadisticas||{},env=M.senales.filter(s=>s.estado==="enviada");
-  $("kW").textContent=Object.keys(M.wallets).length;$("kS").textContent=env.length;
+  $("kW").textContent=new Set(Object.values(M.wallets).map(d=>d.nombre)).size;$("kS").textContent=env.length;
   $("kA").textContent=st.acierto_pct!=null?st.acierto_pct+"%":"—";$("kP").textContent=st.promedio_24h_pct!=null?(st.promedio_24h_pct>0?"+":"")+st.promedio_24h_pct+"%":"—";
   $("kT").textContent="hace "+hace(M.ultimo_turno);
   $("hud").innerHTML=AG.map(([k,n])=>{const on=trabajando(k);return`<span class="ag ${on?"on":""}">${n.toUpperCase()} · ${on?"TRABAJANDO":"EN ESPERA"}</span>`}).join("");
@@ -122,7 +122,7 @@ function render(){
       ${s.estado==="descartada"?`<dt>Motivo</dt><dd style="font-family:var(--f-b)">${esc(s.motivo)}</dd>`:`<dt>Desde la señal</dt><dd>1h ${s.pct_1h??"…"}% · 6h ${s.pct_6h??"…"}% · 24h ${s.pct_24h??"…"}% · máx ${s.max_pct??"…"}%</dd>`}
       ${s.aviso_salida?`<dt>⚠️ Salida</dt><dd style="font-family:var(--f-b)">Las wallets top ya vendieron</dd>`:""}</dl>
       <div class="row"><button data-copy="${esc(s.mint)}">Copiar contrato</button>${d.url?`<a href="${esc(d.url)}" target="_blank" rel="noopener">Ver gráfica</a>`:""}</div></div>`}).join(""):'<p class="empty">Todavía no hay señales. Aparecen cuando 2 o más wallets top compran la misma moneda en menos de 6 horas.</p>';
-  $("wallets").innerHTML=`<table><thead><tr><th>Trader</th><th>De dónde</th><th class="n">Señales</th><th class="n">Acierto</th></tr></thead><tbody>${Object.entries(M.wallets).map(([w,d])=>`<tr><td><a href="https://solscan.io/account/${w}" target="_blank" rel="noopener">${esc(d.nombre)}</a></td><td style="font-family:var(--f-b);color:var(--muted)">${esc(d.origen)}</td><td class="n">${d.senales??0}</td><td class="n">${d.acierto!=null?d.acierto+"%":"—"}</td></tr>`).join("")}</tbody></table>`;
+  $("wallets").innerHTML=`<table><thead><tr><th>Trader</th><th>De dónde</th><th class="n">Señales</th><th class="n">Acierto</th></tr></thead><tbody>${Object.entries(M.wallets).filter(([w,d],i,arr)=>arr.findIndex(e=>e[1].nombre===d.nombre)===i).map(([w,d])=>`<tr><td><a href="https://solscan.io/account/${w}" target="_blank" rel="noopener">${esc(d.nombre)}</a></td><td style="font-family:var(--f-b);color:var(--muted)">${esc(d.origen)}</td><td class="n">${d.senales??0}</td><td class="n">${d.acierto!=null?d.acierto+"%":"—"}</td></tr>`).join("")}</tbody></table>`;
   $("trades").innerHTML=(M.trades||[]).length?`<table><tbody>${M.trades.slice(0,60).map(t=>`<tr><td>${esc(t.nombre)}</td><td class="${t.lado==="compra"?"c":"v"}">${t.lado.toUpperCase()}</td><td><a href="https://dexscreener.com/solana/${esc(t.mint)}" target="_blank" rel="noopener">${esc(t.mint.slice(0,6))}…</a></td><td class="n">${t.sol} SOL</td><td class="n">${hace(new Date(t.ts*1000).toISOString())}</td></tr>`).join("")}</tbody></table>`:'<p class="empty">Aquí aparecen sus compras y ventas.</p>';
   $("act").innerHTML=(M.actividad||[]).slice(0,40).map(a=>`<div style="padding:4px 0;border-top:1px solid var(--line);font-size:.85rem"><span class="when">${hace(a.ts)}</span> <b style="color:var(--acc)">${esc(a.agente)}</b> ${esc(a.texto)}</div>`).join("");
 }
@@ -213,7 +213,7 @@ const TW_=0;
   function tip(e){const b=cv.getBoundingClientRect(),sx=(e.clientX-b.left-panX)/zoom,sy=(e.clientY-b.top-panY)/zoom,gx=(sx/(TW/2)+sy/(TH/2))/2,gy=(sy/(TH/2)-sx/(TW/2))/2;
     const r=R.find(r=>gx>=r.x&&gx<=r.x+r.w&&gy>=r.y&&gy<=r.y+r.h),el=$("tip");if(!r){el.hidden=true;return}
     const a=AGO.find(a=>a.id===r.id),s=(M&&M.agentes||{})[r.id]||{};
-    el.innerHTML=r.cafe?'<span class="s">Descanso</span><b>Café</b>Los agentes esperan el próximo turno (cada 5 min).':r.id==="piso"?'<span class="s">Piso</span><b>Piso de memes</b>Pantallas: señales, movimientos en vivo y wallets top.':r.id==="wallets"?'<span class="s">Datos</span><b>Wallets top</b>'+Object.keys((M&&M.wallets)||{}).length+' wallets vigiladas en Solana.':
+    el.innerHTML=r.cafe?'<span class="s">Descanso</span><b>Café</b>Los agentes esperan el próximo turno (cada 5 min).':r.id==="piso"?'<span class="s">Piso</span><b>Piso de memes</b>Pantallas: señales, movimientos en vivo y wallets top.':r.id==="wallets"?'<span class="s">Datos</span><b>Wallets top</b>'+new Set(Object.values((M&&M.wallets)||{}).map(d=>d.nombre)).size+' traders que sigues en fomo.':
       `<span class="s">${trabajando(r.id)?"Trabajando ahora":"En espera"}</span><b>${a?a.n:r.name}</b>${esc(trabajando(r.id)?(s.tarea||s.ultimo_resultado||""):(s.ultimo_resultado||"Esperando el próximo turno"))}`;
     el.hidden=false;el.style.left=Math.min(b.width-280,e.clientX-b.left+14)+"px";el.style.top=Math.max(60,e.clientY-b.top-10)+"px"}
   document.querySelectorAll("[data-w]").forEach(b=>b.onclick=()=>window.__enfocar(b.dataset.w));

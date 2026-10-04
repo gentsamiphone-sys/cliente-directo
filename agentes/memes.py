@@ -207,9 +207,11 @@ def auditar(st):
                 x = por.setdefault(w, {"senales": 0, "ganadoras": 0})
                 x["senales"] += 1
                 x["ganadoras"] += s["resultado"] == "ganadora"
-        for w, x in por.items():
-            st.m["wallets"].get(w, {})["acierto"] = round(x["ganadoras"] / x["senales"] * 100)
-            st.m["wallets"].get(w, {})["senales"] = x["senales"]
+        for w, d in st.m["wallets"].items():  # s["wallets"] guarda nombres de trader
+            x = por.get(d["nombre"]) or por.get(w)
+            if x:
+                d["acierto"] = round(x["ganadoras"] / x["senales"] * 100)
+                d["senales"] = x["senales"]
 
 
 # ───────── turno ─────────
@@ -219,11 +221,16 @@ def correr():
     m = st.m
     nombres = {w: d["nombre"] for w, d in m["wallets"].items()}
 
-    st.paso("vigia", f"Revisando las compras de {len(m['wallets'])} wallets top en Solana…")
+    st.paso("vigia", f"Revisando las compras de {len({d['nombre'] for d in m['wallets'].values()})} traders que sigues en fomo…")
     nuevos = 0
-    for w, d in m["wallets"].items():
+    inicio = ahora_ts()
+    # primero las que hace más tiempo no se revisan; tope de 4.5 min por turno para no pasarse
+    for w, d in sorted(m["wallets"].items(), key=lambda x: x[1].get("revisada", 0)):
         if not d.get("activa", True):
             continue
+        if ahora_ts() - inicio > 270:
+            break
+        d["revisada"] = int(ahora_ts())
         try:
             ultima, movs = movimientos(w, d.get("ultima_firma"))
         except Exception as ex:
@@ -246,7 +253,7 @@ def correr():
     compras = {}
     for t in m["trades"]:
         if t["lado"] == "compra" and t["ts"] >= corte:
-            compras.setdefault(t["mint"], {}).setdefault(t["wallet"], t)
+            compras.setdefault(t["mint"], {}).setdefault(t.get("nombre") or t["wallet"], t)  # una persona = un voto aunque tenga 2 wallets
     # una moneda descartada solo por ser muy nueva se vuelve a revisar cuando ya tiene edad
     m["senales"] = [s for s in m["senales"] if not (s.get("estado") == "descartada" and str(s.get("motivo", "")).startswith("moneda muy nueva")
                                                      and ahora_ts() - s.get("ts_num", 0) > 20 * 60 and s["mint"] in compras)]
@@ -255,7 +262,7 @@ def correr():
     st.paso("senal", f"{len(candidatos)} monedas con compras de {MIN_WALLETS}+ wallets top.", trabajando=False)
 
     for mint, ws in candidatos[:5]:
-        quienes = [nombres.get(w, w[:4]) for w in ws]
+        quienes = list(ws)
         st.paso("seguridad", f"Revisando seguridad de {mint[:6]}… (compraron {', '.join(quienes)})")
         try:
             d, motivo = revisar_seguridad(mint)
@@ -283,7 +290,7 @@ def correr():
     for s in m["senales"]:
         if s.get("estado") != "enviada" or s.get("aviso_salida"):
             continue
-        vendieron = {t["wallet"] for t in m["trades"] if t["mint"] == s["mint"] and t["lado"] == "venta" and t["ts"] >= s["ts_num"] - 600}
+        vendieron = {t.get("nombre") or t["wallet"] for t in m["trades"] if t["mint"] == s["mint"] and t["lado"] == "venta" and t["ts"] >= s["ts_num"] - 600}
         if len(vendieron & set(s["wallets"])) >= 2:
             s["aviso_salida"] = iso()
             simb = (s.get("datos") or {}).get("simbolo", s["mint"][:6])
