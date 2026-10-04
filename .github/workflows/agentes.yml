@@ -58,6 +58,8 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          PAGO_NUMERO: ${{ secrets.PAGO_NUMERO }}
+          PAGO_NOMBRE: ${{ secrets.PAGO_NOMBRE }}
           SITIO_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
         run: |
           git config user.name "Agentes Cliente Directo"

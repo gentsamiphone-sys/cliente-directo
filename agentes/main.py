@@ -37,6 +37,8 @@ GMAIL_USER = os.environ.get("GMAIL_USER", "").strip()
 GMAIL_PASS = os.environ.get("GMAIL_APP_PASSWORD", "").replace(" ", "").strip()
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 SITIO = os.environ.get("SITIO_URL", "").rstrip("/")  # https://usuario.github.io/repo
+PAGO_NUM = os.environ.get("PAGO_NUMERO", "").strip()      # Zelle / Cash App (secreto, no va en el repo público)
+PAGO_NOMBRE = os.environ.get("PAGO_NOMBRE", "").strip()
 EN_ACTIONS = os.environ.get("GITHUB_ACTIONS") == "true"
 MODELOS = [m for m in [os.environ.get("GEMINI_MODEL", "").strip(),
                        "gemini-flash-latest", "gemini-2.5-flash", "gemini-2.0-flash"] if m]
@@ -619,13 +621,14 @@ def oferta(cfg):
             f"cotizaciones, su menú o servicios con precios, horario, mapa y teléfono; funciona en celular; hosting y "
             f"cambios pequeños incluidos. Precio: ${inst} de instalación (una sola vez) y ${mes} al mes. Sin contrato: "
             f"si deja de pagar, la página se apaga. Queda publicada en 48 horas después del pago. "
-            f"Pago por Zelle a {cfg.get('zelle', GMAIL_USER)} (a nombre de {cfg['dueno']}); en la nota de Zelle debe "
-            f"escribir el nombre del negocio. WhatsApp de {cfg['dueno']}: {cfg['whatsapp']}.")
+            f"Pago por Zelle o Cash App al {PAGO_NUM or GMAIL_USER} (a nombre de {PAGO_NOMBRE or cfg['dueno']}, que "
+            f"cobra los pagos de {cfg['empresa']}); en la nota debe escribir el nombre del negocio. WhatsApp de {cfg['dueno']}: {cfg['whatsapp']}.")
 
 
 def instrucciones_pago(cfg, p, monto, concepto):
-    return (f"Para {concepto}:\n\n• Monto: ${monto}\n• Zelle a: {cfg.get('zelle', GMAIL_USER)}\n"
-            f"• Nombre: {cfg['dueno']}\n• En la nota escriba: {p['nombre']}\n\n"
+    return (f"Para {concepto}:\n\n• Monto: ${monto}\n• Zelle o Cash App al: {PAGO_NUM or GMAIL_USER}\n"
+            f"• A nombre de: {PAGO_NOMBRE or cfg['dueno']} (cobra los pagos de {cfg['empresa']})\n"
+            f"• En la nota escriba: {p['nombre']}\n\n"
             f"En cuanto me llegue el pago le confirmo por aquí.")
 
 
@@ -713,7 +716,7 @@ def correos_zelle(desde_dias=4):
     with imaplib.IMAP4_SSL("imap.gmail.com") as im:
         im.login(GMAIL_USER, GMAIL_PASS)
         im.select("INBOX", readonly=True)
-        _, ids = im.search(None, f'(SUBJECT "Zelle" SINCE {desde})')
+        _, ids = im.search(None, f'(OR OR SUBJECT "Zelle" FROM "cash.app" FROM "square.com" SINCE {desde})')
         for i in ids[0].split()[-15:]:
             _, datos = im.fetch(i, "(RFC822)")
             m = email.message_from_bytes(datos[0][1])
@@ -732,7 +735,7 @@ def correos_zelle(desde_dias=4):
 
 
 def revisar_pagos_zelle(of, cfg):
-    """Lee los avisos de Zelle del banco en Gmail y marca quién pagó."""
+    """Lee los avisos de Zelle / Cash App que lleguen a Gmail (o reenviados) y marca quién pagó."""
     try:
         avisos = correos_zelle()
     except Exception as ex:
@@ -747,9 +750,9 @@ def revisar_pagos_zelle(of, cfg):
         vistos.append(mid)
         del vistos[:-100]
         try:
-            c = gemini_json(f"""Este es un correo que llegó a Gmail con la palabra Zelle.
+            c = gemini_json(f"""Este es un correo que llegó a Gmail (posible aviso de Zelle o Cash App).
 De: {de}\nAsunto: {asunto}\nTexto: {texto}
-¿Es un aviso REAL del banco de que {cfg['dueno']} RECIBIÓ dinero por Zelle? (no un envío, no publicidad, no estafa).
+¿Es un aviso REAL del banco o de Cash App de que {PAGO_NOMBRE or cfg['dueno']} o {cfg['dueno']} RECIBIÓ dinero por Zelle o Cash App? (no un envío, no publicidad, no estafa).
 Negocios que podrían estar pagando (clave: datos): {json.dumps(pendientes, ensure_ascii=False)}
 Devuelve JSON {{"recibido": true/false, "monto": número, "de": "nombre de quien pagó", "nota": "nota del pago",
 "clave": "la clave del negocio que pagó si el nombre o la nota coinciden claramente, si no vacío"}}""")
