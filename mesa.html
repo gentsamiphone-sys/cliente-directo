@@ -57,6 +57,22 @@ th{color:var(--acc);font-weight:700}
 .ev time{font:500 .7rem var(--f-m);color:var(--muted)}
 .ev b{color:var(--acc)}
 .aviso{font-size:.78rem;color:var(--muted)}
+.tv{position:relative;border-radius:16px;padding:14px;background:linear-gradient(#1a1f25,#0c0f12);border:1px solid #2a3026;box-shadow:0 0 0 4px #050607,0 20px 60px rgba(0,0,0,.6),0 0 40px rgba(215,255,58,.06)}
+.tvtop{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}
+.live{font:700 .7rem var(--f-m);letter-spacing:.1em;color:#0b0d10;background:var(--down);border-radius:6px;padding:4px 8px;display:inline-flex;gap:6px;align-items:center}
+.live i{width:7px;height:7px;border-radius:50%;background:#fff;display:inline-block}
+@media (prefers-reduced-motion:no-preference){.live i{animation:blink 1.2s infinite}}
+@keyframes blink{50%{opacity:.2}}
+.tvtabs{display:flex;gap:6px;flex-wrap:wrap}
+.tvtabs button{font:700 .78rem var(--f-m);background:transparent;color:var(--muted);border:1px solid var(--line);border-radius:8px;padding:6px 12px;cursor:pointer}
+.tvtabs button[aria-pressed="true"]{background:var(--acc);color:#0b0d10;border-color:var(--acc)}
+.screen{height:min(70vh,680px);min-height:380px;border-radius:8px;overflow:hidden;background:#000;border:2px solid #000}
+.screen.split{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}
+@media (max-width:760px){.screen.split{grid-template-columns:1fr;height:auto}.screen.split>div{height:320px}}
+.screen>div{height:100%;min-width:0}
+.lvl{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;font:500 .78rem var(--f-m);color:var(--muted)}
+.lvl b{color:var(--ink)}
+.lvl .t{color:var(--acc);font-weight:700}
 .empty{color:var(--muted);padding:20px 0}
 .ent{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
 .tk{border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:6px;background:#0e1216}
@@ -74,6 +90,21 @@ th{color:var(--acc);font-weight:700}
     <p class="sub">Cinco agentes con mentalidad institucional preparan el brief antes de Asia, Londres y Nueva York.</p></div>
     <a href="./">← Volver a Cliente Directo</a>
   </header>
+
+  <section class="tv" aria-label="Pantalla gigante con la gráfica en vivo">
+    <div class="tvtop">
+      <span class="live"><i></i>EN VIVO</span>
+      <div class="tvtabs" id="tvtabs">
+        <button data-k="oro" aria-pressed="true">ORO · XAUUSD</button>
+        <button data-k="nq" aria-pressed="false">NQ · NAS100</button>
+        <button data-k="vix" aria-pressed="false">VIX</button>
+        <button data-k="split" aria-pressed="false">LOS 3</button>
+      </div>
+      <span class="sub" style="margin-left:auto">1H · EMA 9 · VWAP · hora de Las Vegas</span>
+    </div>
+    <div class="screen" id="screen"></div>
+    <div class="lvl" id="lvl"></div>
+  </section>
 
   <section class="hq" aria-label="Sala de la mesa en vivo">
     <div class="hud">
@@ -166,7 +197,7 @@ function render(){
 $("tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;sel=+b.dataset.i;render()});
 async function cargar(){try{
   const r=REPO?await fetch(`https://api.github.com/repos/${REPO.o}/${REPO.r}/contents/data/mesa.json`,{cache:"no-cache",headers:{Accept:"application/vnd.github.raw+json",...(token?{Authorization:"Bearer "+token}:{})}}):await fetch("data/mesa.json",{cache:"no-cache"});
-  if(!r.ok)throw new Error(r.status);M=await r.json();lastOk=Date.now();if(sel>=M.briefs.length)sel=0;render()}catch(e){$("pLive").textContent="SIN CONEXIÓN ("+e.message+")"}}
+  if(!r.ok)throw new Error(r.status);M=await r.json();window.__M=M;lastOk=Date.now();if(sel>=M.briefs.length)sel=0;render();window.__pantallaNiveles&&window.__pantallaNiveles()}catch(e){$("pLive").textContent="SIN CONEXIÓN ("+e.message+")"}}
 setInterval(()=>{if(lastOk){const s=Math.round((Date.now()-lastOk)/1000);$("pLive").textContent="EN VIVO · "+(s<60?s+" S":Math.round(s/60)+" MIN")}$("kNext").textContent=proximo()},5000);
 cargar();setInterval(cargar,token?20000:45000);
 
@@ -237,6 +268,41 @@ cargar();setInterval(cargar,token?20000:45000);
     el.hidden=false;el.style.left=Math.min(b.width-280,e.clientX-b.left+14)+"px";el.style.top=Math.max(60,e.clientY-b.top-10)+"px"}
   $("bP").onclick=()=>z(W/2,H/2,1.2);$("bM").onclick=()=>z(W/2,H/2,1/1.2);$("bC").onclick=centrar;
   new ResizeObserver(resize).observe(cv);resize();requestAnimationFrame(frame);
+})();
+</script>
+
+<script src="https://s3.tradingview.com/tv.js"></script>
+<script>
+/* ===== Pantalla gigante (TradingView en vivo) ===== */
+(()=>{
+  const SYM={oro:"OANDA:XAUUSD",nq:"PEPPERSTONE:NAS100",vix:"TVC:VIX"};
+  let actual="oro";
+  function widget(id,sym,mini){
+    if(!window.TradingView){document.getElementById(id).innerHTML='<p class="empty" style="padding:20px">No se pudo cargar la gráfica. Revisa tu conexión.</p>';return}
+    new TradingView.widget({container_id:id,symbol:sym,interval:"60",timezone:"America/Los_Angeles",theme:"dark",style:"1",locale:"es",
+      autosize:true,allow_symbol_change:true,hide_side_toolbar:!!mini,withdateranges:!mini,save_image:false,
+      backgroundColor:"#07080a",gridColor:"rgba(255,255,255,0.04)",
+      studies:mini?[]:[{id:"MAExp@tv-basicstudies",inputs:{length:9}},"VWAP@tv-basicstudies"]});
+  }
+  function mostrar(k){
+    actual=k;const s=document.getElementById("screen");s.className="screen"+(k==="split"?" split":"");s.innerHTML="";
+    document.querySelectorAll("#tvtabs button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.k===k));
+    if(k==="split"){["oro","nq","vix"].forEach(x=>{const d=document.createElement("div");d.id="tv_"+x;s.appendChild(d);widget(d.id,SYM[x],true)})}
+    else{const d=document.createElement("div");d.id="tv_main";s.appendChild(d);widget("tv_main",SYM[k],false)}
+    niveles();
+  }
+  function niveles(){
+    const b=(window.__M||{briefs:[]}).briefs?.[0],el=document.getElementById("lvl");
+    if(!b||actual==="split"){el.innerHTML=b?'<span class="t">Mesa:</span> oro '+((b.sesgo?.oro)||"?")+' · NQ '+((b.sesgo?.nq)||"?"):"";return}
+    if(actual==="vix"){const x=b.vix_nq||{};el.innerHTML=x.vix?`<span class="t">Niveles de la mesa</span><span>Máx. ayer <b>${x.vix_PDH}</b></span><span>Mín. ayer <b>${x.vix_PDL}</b></span><span>Media 20 <b>${x.vix_media20}</b></span><span>${x.lectura||""}</span>`:"";return}
+    const m=b.mapas?.[actual]||{},f=v=>v==null?"—":Number(v).toLocaleString("en-US");
+    const e=(b.entradas||[]).find(x=>String(x.activo||"").toUpperCase().includes(actual==="oro"?"ORO":"NQ"));
+    el.innerHTML=`<span class="t">Niveles de la mesa (feed de futuros)</span><span>PDH <b>${f(m.PDH)}</b></span><span>PDL <b>${f(m.PDL)}</b></span><span>PWH <b>${f(m.PWH)}</b></span><span>PWL <b>${f(m.PWL)}</b></span><span>VWAP <b>${f(m.vwap_hoy)}</b></span>`+
+      (e&&!String(e.direccion||"").toUpperCase().startsWith("SIN")?`<span class="t">Entrada: ${e.direccion} ${e.zona} · SL ${e.stop} · TP2 ${e.tp2}</span>`:"");
+  }
+  document.getElementById("tvtabs").addEventListener("click",ev=>{const b=ev.target.closest("button");if(b)mostrar(b.dataset.k)});
+  window.__pantallaNiveles=niveles;
+  mostrar("oro");
 })();
 </script>
 </body>
