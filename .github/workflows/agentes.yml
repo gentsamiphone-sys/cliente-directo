@@ -7,7 +7,7 @@ on:
     - cron: "26 1-23/2 * * *"   # Diseñador
     - cron: "50 1-23/2 * * *"   # Vendedor
     - cron: "14 */2 * * *"      # Seguimiento
-    - cron: "38 */2 * * *"      # Gerente
+    - cron: "39 */2 * * *"      # Gerente
   workflow_dispatch:
     inputs:
       agente:
@@ -46,7 +46,7 @@ jobs:
             "26 1-23/2 * * *") A=disenador ;;
             "50 1-23/2 * * *") A=vendedor ;;
             "14 */2 * * *")    A=seguimiento ;;
-            "38 */2 * * *")    A=gerente ;;
+            "39 */2 * * *")    A=gerente ;;
             *)                 A="${{ inputs.agente }}" ;;
           esac
           echo "agente=$A" >> "$GITHUB_OUTPUT"

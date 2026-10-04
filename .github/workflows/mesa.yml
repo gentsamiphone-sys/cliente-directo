@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: "30 21 * * 0-4"   # Asia      → 2:30 pm Las Vegas (dom-jue)
     - cron: "30 6 * * 1-5"    # Londres   → 11:30 pm Las Vegas
-    - cron: "30 12 * * 1-5"   # Nueva York → 5:30 am Las Vegas
+    - cron: "31 12 * * 1-5"   # Nueva York → 5:30 am Las Vegas
   workflow_dispatch:
     inputs:
       sesion:
@@ -42,7 +42,7 @@ jobs:
           case "${{ github.event.schedule }}" in
             "30 21 * * 0-4") S=asia ;;
             "30 6 * * 1-5")  S=londres ;;
-            "30 12 * * 1-5") S=nuevayork ;;
+            "31 12 * * 1-5") S=nuevayork ;;
             *)               S="${{ inputs.sesion }}" ;;
           esac
           git config user.name "Mesa GSAM"
