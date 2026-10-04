@@ -543,8 +543,10 @@ def seguimiento():
     of.tarea("Revisando respuestas en Gmail")
     nuevas = bajas = segs = 0
     activos = [(k, p) for k, p in of.pros.items() if p.get("etapa") in ("contactado", "seguimiento")]
+    conversando = [(k, p) for k, p in of.pros.items()
+                   if p.get("etapa") in ("contactado", "seguimiento", "respondio", "esperando_pago", "cliente")]
     if gmail_listo():
-        for clave, p in activos:
+        for clave, p in conversando:
             if not p.get("email"):
                 continue
             try:
@@ -552,28 +554,20 @@ def seguimiento():
             except Exception as ex:
                 of.paso(f"No pude revisar Gmail ({str(ex)[:60]}).")
                 break
-            if not resp:
+            vistos = p.setdefault("vistos", [])
+            nuevos = [r for r in resp if (r[2] or r[0] + r[1][:40]) not in vistos]
+            if not nuevos:
                 continue
-            texto = "\n---\n".join(f"Asunto: {a}\n{t}" for a, t, _ in resp)
-            try:
-                c = gemini_json(f"""Un negocio respondió a nuestra oferta de página web. Clasifica su respuesta.
-Respuesta(s): {texto[:3000]}
-Devuelve {{"tipo": "interes" | "baja" | "otro", "resumen": "1 línea en español de lo que dijo",
-"sugerencia": "1 línea de qué contestarle para cerrar la venta"}}""")
-            except Exception:
-                c = {"tipo": "otro", "resumen": resp[0][1][:120], "sugerencia": "Léelo y contéstale tú."}
-            if c.get("tipo") == "baja":
-                p["etapa"] = "descartado"
-                of.e["bajas"][p["email"].lower()] = {"fecha": ahora(), "motivo": c.get("resumen", "")}
+            for r in nuevos:
+                vistos.append(r[2] or r[0] + r[1][:40])
+            del vistos[:-30]
+            r = cerrador(of, cfg, p, nuevos)
+            if r == "baja":
                 bajas += 1
-                of.paso(f"{p['nombre']} pidió no recibir más correos. Lo quité de la lista.")
             else:
-                p["etapa"] = "respondio"
-                p["notas"] = f"Dijo: {c.get('resumen', '')} → Contéstale: {c.get('sugerencia', '')}"
                 nuevas += 1
-                of.paso(f"🔔 RESPONDIÓ: {p['nombre']} — {c.get('resumen', '')}")
-                avisar_telefono(f"🔔 {p['nombre']} respondió", f"{c.get('resumen', '')}\nTel: {p.get('tel', '')}\n"
-                                f"Sugerencia: {c.get('sugerencia', '')}", "high")
+        cobrar_mensualidades(of, cfg)
+        revisar_pagos_zelle(of, cfg)
         if en_horario(cfg):
             for clave, p in activos:
                 if p.get("etapa") not in ("contactado", "seguimiento") or not p.get("email") or p.get("canal") != "email":
@@ -615,6 +609,184 @@ Devuelve {{"tipo": "interes" | "baja" | "otro", "resumen": "1 línea en español
         of.fin("Gmail no está conectado; solo revisé los contactos por texto")
     else:
         of.fin(f"{nuevas} respuestas nuevas, {bajas} bajas, {segs} seguimientos")
+
+
+# ───────────────────────── cerrador y cobros (Zelle) ─────────────────────────
+
+def oferta(cfg):
+    inst, mes = cfg.get("precio_instalacion", 200), cfg.get("precio_mes", 50)
+    return (f"Oferta de {cfg['empresa']}: página web profesional para el negocio con botón de WhatsApp para pedidos o "
+            f"cotizaciones, su menú o servicios con precios, horario, mapa y teléfono; funciona en celular; hosting y "
+            f"cambios pequeños incluidos. Precio: ${inst} de instalación (una sola vez) y ${mes} al mes. Sin contrato: "
+            f"si deja de pagar, la página se apaga. Queda publicada en 48 horas después del pago. "
+            f"Pago por Zelle a {cfg.get('zelle', GMAIL_USER)} (a nombre de {cfg['dueno']}); en la nota de Zelle debe "
+            f"escribir el nombre del negocio. WhatsApp de {cfg['dueno']}: {cfg['whatsapp']}.")
+
+
+def instrucciones_pago(cfg, p, monto, concepto):
+    return (f"Para {concepto}:\n\n• Monto: ${monto}\n• Zelle a: {cfg.get('zelle', GMAIL_USER)}\n"
+            f"• Nombre: {cfg['dueno']}\n• En la nota escriba: {p['nombre']}\n\n"
+            f"En cuanto me llegue el pago le confirmo por aquí.")
+
+
+def cerrador(of, cfg, p, nuevos):
+    """Lee lo que contestó el negocio y le responde solo: dudas, precio, pago y bienvenida."""
+    texto = "\n---\n".join(f"Asunto: {a}\n{t}" for a, t, _ in nuevos)[:3500]
+    historial = "\n".join(p.get("conversacion", [])[-6:])
+    try:
+        c = gemini_json(f"""Eres el asistente de ventas de {cfg['dueno']} ({cfg['empresa']}, Las Vegas). Un negocio contestó un correo.
+Negocio: {p['nombre']} · etapa actual: {p.get('etapa')} · su página de muestra: {p.get('muestra_url', '')}
+{oferta(cfg)}
+Conversación anterior (resumen): {historial or '(ninguna)'}
+Lo que acaba de escribir: {texto}
+
+Reglas: contesta en el idioma en que te escribió, amable, corto (40-120 palabras). No pongas firma ni despedida con nombre: se agrega sola.
+Solo usa la información de la oferta: no inventes descuentos, promesas de ventas, ni otros servicios.
+Si pregunta algo que no está en la oferta, o pide hablar por teléfono, o quiere negociar el precio, o se queja,
+contesta que {cfg['dueno']} le escribe por WhatsApp hoy mismo y marca "humano".
+Devuelve JSON: {{"tipo": "pregunta" | "quiere_comprar" | "ya_pago" | "no_gracias" | "baja" | "humano",
+"respuesta": "el correo para contestarle (vacío si tipo es baja)", "resumen": "1 línea en español de lo que dijo"}}""")
+    except Exception:
+        c = {"tipo": "humano", "respuesta": "", "resumen": nuevos[0][1][:120]}
+    tipo, resumen = c.get("tipo", "humano"), c.get("resumen", "")
+    p.setdefault("conversacion", []).append(f"{ahora()[:10]} ellos: {resumen}")
+    if tipo == "baja":
+        p["etapa"] = "descartado"
+        of.e["bajas"][p["email"].lower()] = {"fecha": ahora(), "motivo": resumen}
+        of.paso(f"{p['nombre']} pidió no recibir más correos. Lo quité de la lista.")
+        return "baja"
+    cuerpo = (c.get("respuesta") or "").strip()
+    if tipo == "quiere_comprar" and p.get("etapa") != "cliente":
+        cuerpo = (cuerpo + "\n\n" + instrucciones_pago(cfg, p, cfg.get("precio_instalacion", 200),
+                                                        "dejar publicada la página")).strip()
+        p["etapa"] = "esperando_pago"
+        p["pago_pedido"] = ahora()
+    elif tipo == "no_gracias":
+        p["etapa"] = "descartado"
+    elif p.get("etapa") in ("contactado", "seguimiento"):
+        p["etapa"] = "respondio"
+    if cuerpo:
+        try:
+            msg = armar_correo(cfg, p["email"], "Re: " + (p.get("email_asunto") or p["nombre"]), cuerpo, nuevos[-1][2])
+            r = enviar_o_borrador(cfg, msg)
+            p["conversacion"].append(f"{ahora()[:10]} nosotros: {cuerpo[:160]}")
+            p["ultimo_contacto"] = ahora()
+        except Exception as ex:
+            r = f"error ({str(ex)[:40]})"
+    else:
+        r = "sin respuesta"
+    p["notas"] = f"Dijo: {resumen}"
+    iconos = {"quiere_comprar": "🤝 QUIERE COMPRAR", "humano": "📞 TE NECESITA", "ya_pago": "💬 DICE QUE YA PAGÓ"}
+    of.paso(f"{iconos.get(tipo, '💬 Respondió')}: {p['nombre']} — {resumen} (le contesté: {r})")
+    if tipo in iconos:
+        avisar_telefono(f"{iconos[tipo]}: {p['nombre']}",
+                        f"{resumen}\nTel: {p.get('tel', '')}\nCorreo: {p['email']}\n"
+                        + ("Ya le mandé cómo pagar por Zelle. Te aviso cuando llegue el pago." if tipo == "quiere_comprar"
+                           else "Escríbele por WhatsApp." if tipo == "humano" else "Revisa tu banco."), "high")
+    return tipo
+
+
+def cobrar_mensualidades(of, cfg):
+    """A los clientes se les manda el recordatorio de la mensualidad cada 30 días."""
+    if not en_horario(cfg):
+        return
+    for clave, p in of.pros.items():
+        if p.get("etapa") != "cliente" or not p.get("email"):
+            continue
+        if dias_desde(p.get("ultimo_cobro") or p.get("pagado")) < 30 or dias_desde(p.get("recordatorio_cobro") or "2000-01-01T00:00:00+00:00") < 5:
+            continue
+        cuerpo = (f"Hola, ¿cómo va todo? Le escribo por la mensualidad de la página de {p['nombre']} "
+                  f"({p.get('muestra_url', '')}).\n\n"
+                  + instrucciones_pago(cfg, p, cfg.get("precio_mes", 50), "la mensualidad")
+                  + f"\n\nSi quiere cambiar algo de la página, contésteme aquí.\n{cfg['dueno']}")
+        try:
+            r = enviar_o_borrador(cfg, armar_correo(cfg, p["email"], f"Mensualidad de su página — {p['nombre']}", cuerpo))
+            p["recordatorio_cobro"] = ahora()
+            of.paso(f"Recordatorio de mensualidad {r} a {p['nombre']}.")
+        except Exception as ex:
+            of.paso(f"No pude mandar el cobro a {p['nombre']} ({str(ex)[:50]}).")
+
+
+def correos_zelle(desde_dias=4):
+    salida = []
+    desde = (datetime.now() - timedelta(days=desde_dias)).strftime("%d-%b-%Y")
+    with imaplib.IMAP4_SSL("imap.gmail.com") as im:
+        im.login(GMAIL_USER, GMAIL_PASS)
+        im.select("INBOX", readonly=True)
+        _, ids = im.search(None, f'(SUBJECT "Zelle" SINCE {desde})')
+        for i in ids[0].split()[-15:]:
+            _, datos = im.fetch(i, "(RFC822)")
+            m = email.message_from_bytes(datos[0][1])
+            texto = ""
+            for parte in m.walk():
+                if parte.get_content_type() in ("text/plain", "text/html"):
+                    texto = parte.get_payload(decode=True).decode(parte.get_content_charset() or "utf-8", "ignore")
+                    if parte.get_content_type() == "text/plain":
+                        break
+            texto = re.sub(r"<[^>]+>", " ", texto)
+            texto = re.sub(r"\s+", " ", texto)
+            salida.append((m.get("Message-ID") or m.get("Subject", ""),
+                           str(email.header.make_header(email.header.decode_header(m.get("Subject", "")))),
+                           m.get("From", ""), texto[:1500]))
+    return salida
+
+
+def revisar_pagos_zelle(of, cfg):
+    """Lee los avisos de Zelle del banco en Gmail y marca quién pagó."""
+    try:
+        avisos = correos_zelle()
+    except Exception as ex:
+        of.paso(f"No pude revisar los pagos de Zelle ({str(ex)[:50]}).")
+        return
+    vistos = of.e.setdefault("pagos_vistos", [])
+    pendientes = {k: {"nombre": p["nombre"], "etapa": p["etapa"]} for k, p in of.pros.items()
+                  if p.get("etapa") in ("esperando_pago", "cliente", "respondio")}
+    for mid, asunto, de, texto in avisos:
+        if mid in vistos:
+            continue
+        vistos.append(mid)
+        del vistos[:-100]
+        try:
+            c = gemini_json(f"""Este es un correo que llegó a Gmail con la palabra Zelle.
+De: {de}\nAsunto: {asunto}\nTexto: {texto}
+¿Es un aviso REAL del banco de que {cfg['dueno']} RECIBIÓ dinero por Zelle? (no un envío, no publicidad, no estafa).
+Negocios que podrían estar pagando (clave: datos): {json.dumps(pendientes, ensure_ascii=False)}
+Devuelve JSON {{"recibido": true/false, "monto": número, "de": "nombre de quien pagó", "nota": "nota del pago",
+"clave": "la clave del negocio que pagó si el nombre o la nota coinciden claramente, si no vacío"}}""")
+        except Exception:
+            continue
+        if not c.get("recibido"):
+            continue
+        monto, quien, clave = c.get("monto") or 0, c.get("de", ""), c.get("clave") or ""
+        p = of.pros.get(clave)
+        if p and float(monto or 0) < 0.9 * float(cfg.get("precio_mes", 50)):
+            p = None  # monto que no cuadra: que lo revise Gent
+        if not p:
+            of.paso(f"💰 Llegó un Zelle de ${monto} de {quien}, pero no supe de qué negocio es.")
+            avisar_telefono(f"💰 Zelle ${monto} de {quien}", "No supe de qué negocio es. Revísalo en tu banco.", "high")
+            continue
+        p.setdefault("pagos", []).append({"fecha": ahora(), "monto": monto, "de": quien})
+        if p.get("etapa") != "cliente":
+            p.update(etapa="cliente", pagado=ahora(), ultimo_cobro=ahora())
+            cuerpo = (f"¡Gracias! Ya me llegó su pago de ${monto}. Bienvenido a {cfg['empresa']}.\n\n"
+                      f"Su página queda publicada en 48 horas aquí: {p.get('muestra_url', '')}\n\n"
+                      f"Para dejarla perfecta, contésteme este correo con:\n"
+                      f"1. El número de WhatsApp donde quiere recibir los pedidos o clientes\n"
+                      f"2. Fotos de su negocio, comida o trabajos (las que tenga)\n"
+                      f"3. Si algún precio, horario o dato está mal, cuál es el correcto\n\n"
+                      f"La mensualidad de ${cfg.get('precio_mes', 50)} empieza en 30 días; le aviso por aquí.\n{cfg['dueno']}")
+            asunto_b = f"¡Bienvenido! Su página de {p['nombre']}"
+        else:
+            p["ultimo_cobro"] = ahora()
+            cuerpo = f"¡Gracias! Recibí su mensualidad de ${monto}. Su página sigue activa: {p.get('muestra_url', '')}\n{cfg['dueno']}"
+            asunto_b = f"Pago recibido — {p['nombre']}"
+        try:
+            if p.get("email"):
+                enviar_o_borrador(cfg, armar_correo(cfg, p["email"], asunto_b, cuerpo))
+        except Exception:
+            pass
+        of.paso(f"💰 PAGÓ {p['nombre']}: ${monto} por Zelle. Le mandé la bienvenida.")
+        avisar_telefono(f"💰 Pagó {p['nombre']}: ${monto}", f"Zelle de {quien}. Ya le mandé el correo de bienvenida.", "high")
 
 
 def gerente():
