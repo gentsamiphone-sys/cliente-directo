@@ -248,6 +248,54 @@ def gemini_json(prompt, buscar=False):
     return json.loads(m.group(1))
 
 
+
+OSM_FILTROS = {
+    "restaurantes": ['nwr["amenity"~"^(restaurant|fast_food|cafe|ice_cream)$"]', 'nwr["shop"~"^(bakery|butcher|deli|confectionery)$"]'],
+    "talleres": ['nwr["shop"~"^(car_repair|tyres|motorcycle|car_parts)$"]', 'nwr["amenity"="car_wash"]', 'nwr["craft"="car_repair"]'],
+    "herrer": ['nwr["craft"~"^(metal_construction|welder|blacksmith|gardener|carpenter|builder|roofer|plumber|electrician)$"]', 'nwr["shop"~"^(garden_centre|hardware)$"]'],
+}
+
+
+def buscar_osm(nicho, conocidos, cuota):
+    """Negocios reales de OpenStreetMap (gratis) sin sitio web, en Las Vegas / North Las Vegas."""
+    clave = next((k for k in OSM_FILTROS if k in nicho.lower()), "restaurantes")
+    bbox = "(36.08,-115.30,36.32,-114.98)"
+    partes = "".join(f'{f}["name"][!"website"][!"contact:website"]{bbox};' for f in OSM_FILTROS[clave])
+    q = f"[out:json][timeout:60];({partes});out center tags 300;"
+    r = requests.post("https://overpass-api.de/api/interpreter", data={"data": q}, timeout=90,
+                      headers={"User-Agent": "ClienteDirecto/1.0"})
+    r.raise_for_status()
+    vistos = {c.lower()[:14] for c in conocidos if c}
+    salida = []
+    elementos = r.json().get("elements", [])
+    import random
+    random.shuffle(elementos)
+    elementos.sort(key=lambda e: 0 if (e.get("tags", {}).get("phone") or e.get("tags", {}).get("contact:phone")) else 1)
+    for el in elementos:
+        t = el.get("tags", {})
+        nombre = t.get("name", "").strip()
+        if not nombre or nombre.lower()[:14] in vistos or t.get("brand") or t.get("brand:wikidata"):
+            continue  # sin cadenas grandes
+        tel = t.get("phone") or t.get("contact:phone") or ""
+        direccion = " ".join(x for x in [t.get("addr:housenumber", ""), t.get("addr:street", "")] if x)
+        ciudad = t.get("addr:city", "")
+        direccion = ", ".join(x for x in [direccion, ciudad, "NV"] if x) if direccion else ""
+        lat = el.get("lat") or el.get("center", {}).get("lat")
+        lon = el.get("lon") or el.get("center", {}).get("lon")
+        salida.append({"nombre": nombre, "direccion": direccion, "tel": tel,
+                       "email": t.get("email") or t.get("contact:email") or "",
+                       "horario": t.get("opening_hours", ""), "rating": "",
+                       "redes": t.get("contact:facebook") or t.get("facebook") or t.get("contact:instagram") or "",
+                       "productos": t.get("cuisine", "").replace(";", ", ") or t.get("shop", "") or t.get("craft", ""),
+                       "tiene_web": False,
+                       "por_que": "No tiene página web registrada en el mapa. Verifica en Google antes de ofrecer.",
+                       "fuente": f"https://www.openstreetmap.org/{el['type']}/{el['id']}" + (f" · https://www.google.com/maps?q={lat},{lon}" if lat else "")})
+        vistos.add(nombre.lower()[:14])
+        if len(salida) >= cuota:
+            break
+    return salida
+
+
 # ───────────────────────── Gmail (gratis) ─────────────────────────
 
 def gmail_listo():
@@ -340,8 +388,13 @@ No inventes datos: si no lo sabes, deja "". Devuelve una lista JSON."""
     try:
         encontrados = gemini_json(prompt, buscar=True)
     except Exception as ex:
-        of.fin(f"No pude buscar hoy ({str(ex)[:80]})")
-        return
+        print("Búsqueda con Gemini no disponible:", ex)
+        of.paso("La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).")
+        try:
+            encontrados = buscar_osm(nicho, conocidos, cuota)
+        except Exception as ex2:
+            of.fin(f"No pude buscar en este turno ({str(ex2)[:80]})")
+            return
     agregados = 0
     for n in encontrados if isinstance(encontrados, list) else []:
         if agregados >= cuota:
