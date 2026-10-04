@@ -1,9 +1,10 @@
 {
  "agentes": {
   "cio": {
-   "estado": "trabajando",
-   "tarea": "Escribiendo el brief institucional…",
-   "actualizado": "2026-10-04T16:41:41Z"
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-04T16:41:48Z",
+   "ultimo_resultado": "Brief de Nueva York publicado: Tasas altas hunden al oro mientras NQ busca nuevos máximos"
   },
   "macro": {
    "estado": "descansando",
@@ -31,6 +32,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "cio",
+   "texto": "Brief de Nueva York publicado: Tasas altas hunden al oro mientras NQ busca nuevos máximos",
+   "ts": "2026-10-04T16:41:48Z"
+  },
   {
    "agente": "cio",
    "texto": "Escribiendo el brief institucional…",
@@ -82,7 +88,133 @@
    "ts": "2026-10-04T16:41:29Z"
   }
  ],
- "briefs": [],
+ "briefs": [
+  {
+   "sesion": "nuevayork",
+   "nombre": "Nueva York",
+   "ts": "2026-10-04T16:41:48Z",
+   "texto": "1. **Sesgo institucional**\n- ORO: Bajista. Presión por tasas reales altas (US10Y en 5.277%) y ruptura de mínimos recientes.\n- NQ: Alcista. Impulso institucional sostenido con VIX contenido (15.31).\n\n2. **Lo que mueve hoy**\nTasas en máximos con US10Y trepando 1.79% en 5 días y DXY en 101.93. El VIX cae -6.59% a 15.31, alimentando el apetito por riesgo en renta variable (SPX +0.69%). A las 07:00 hora Las Vegas: ISM Services PMI (previsto 55.1, anterior 55.4).\n\n3. **Posicionamiento**\nDatos COT (29 sep): ORO muestra fondos netos largos masivos de 120,318 contratos; el precio perfora PDL, dejando longs recientes atrapados. NQ registra asset managers netos en 69,744 y leveraged funds cortos en -24,723, sugiriendo squeezes potenciales hacia máximos.\n\n4. **Mapa de liquidez**\n- Oro: Arriba PDH 4222.8 / PWH 4351.6. Abajo PDL 4169.4 / PWL 4143.1. Valor justo en PDC 4202.3. Imán: barrida de mínimos bajo PWL.\n- NQ: Arriba PDH/PWH 31151.5 / Máx 20d 31282.5. Abajo PDL 30529.25 / PDC 30760.5. Imán: liquidez institucional en 31151.5.\n\n5. **Escenarios**\n- Oro Escenario A (Venta): Disparador rechazo en 4202.3; objetivo 4143.1; invalidación 4222.8.\n- Oro Escenario B (Compra): Disparador barrida y fallo en 4143.1; objetivo 4202.3; invalidación 4120.0.\n- NQ Escenario A (Compra): Disparador ruptura de 31151.5; objetivo 31282.5; invalidación 30950.0.\n- NQ Escenario B (Venta): Disparador giro bajista en 31151.5; objetivo 30760.5; invalidación 31310.0.\n\n6. **Riesgo**\n- Oro: Rango esperado 4117.82–4206.78, 118% consumido.\n- NQ: Rango esperado 30813.44–31310.06, 105% consumido.\nHoras peligrosas apertura NY. La mesa reduce tamaño a la mitad por sobre-extensión del ATR diario.\n\n7. **Nota para tu regla Ruptura EMA9 (1H)**\nCon el ORO sobreextendido y la liquidez bajista a menos de 2 ATR, cualquier ruptura bajista de EMA9 carece de recorrido limpio; esperaremos absorción. En NQ, si la EMA9 rompe al alza, validamos solo si la liquidez superior supera los 2 ATR institucionales.\n\nAnálisis educativo de agentes de IA. No es consejo financiero.",
+   "sesgo": {
+    "oro": "bajista",
+    "nq": "alcista"
+   },
+   "titular": "Tasas altas hunden al oro mientras NQ busca nuevos máximos",
+   "mapas": {
+    "oro": {
+     "precio": 4162.3,
+     "cambio_dia_pct": -0.95,
+     "PDH": 4222.8,
+     "PDL": 4169.4,
+     "PDC": 4202.3,
+     "PWH": 4351.6,
+     "PWL": 4143.1,
+     "ATR14_diario": 88.95,
+     "ATR14_1h": 21.81,
+     "EMA20_diaria": 4308.87,
+     "EMA50_diaria": 4345.23,
+     "EMA200_diaria": 4460.11,
+     "max_20d": 4537.8,
+     "min_20d": 4143.1,
+     "asia_hoy": {
+      "max": 4222.8,
+      "min": 4169.4
+     },
+     "londres_hoy": null,
+     "ny_ayer": {
+      "max": 4217.6,
+      "min": 4179.5
+     },
+     "vwap_hoy": null,
+     "rango_hoy_vs_atr_pct": 118
+    },
+    "nq": {
+     "precio": 31061.75,
+     "cambio_dia_pct": 0.98,
+     "PDH": 31151.5,
+     "PDL": 30529.25,
+     "PDC": 30760.5,
+     "PWH": 31151.5,
+     "PWL": 30356.75,
+     "ATR14_diario": 496.63,
+     "ATR14_1h": 99.48,
+     "EMA20_diaria": 30262.26,
+     "EMA50_diaria": 29790.25,
+     "EMA200_diaria": 27932.63,
+     "max_20d": 31282.5,
+     "min_20d": 28763.75,
+     "asia_hoy": {
+      "max": 31151.5,
+      "min": 30724.75
+     },
+     "londres_hoy": null,
+     "ny_ayer": {
+      "max": 30883.5,
+      "min": 30529.25
+     },
+     "vwap_hoy": null,
+     "rango_hoy_vs_atr_pct": 105
+    }
+   },
+   "macro": {
+    "dxy": {
+     "ultimo": 101.93,
+     "cambio_1d_pct": -0.17,
+     "cambio_5d_pct": 0.95
+    },
+    "us10y": {
+     "ultimo": 5.277,
+     "cambio_1d_pct": 0.76,
+     "cambio_5d_pct": 1.79
+    },
+    "vix": {
+     "ultimo": 15.31,
+     "cambio_1d_pct": -6.59,
+     "cambio_5d_pct": 2.96
+    },
+    "spx": {
+     "ultimo": 7777.25,
+     "cambio_1d_pct": 0.69,
+     "cambio_5d_pct": -0.34
+    },
+    "plata": {
+     "ultimo": 60.415,
+     "cambio_1d_pct": -0.51,
+     "cambio_5d_pct": -5.96
+    },
+    "petroleo": {
+     "ultimo": 91.11,
+     "cambio_1d_pct": -1.9,
+     "cambio_5d_pct": -1.41
+    }
+   },
+   "eventos": [
+    {
+     "hora_lv": "Mon 07:00",
+     "evento": "ISM Services PMI",
+     "impacto": "Medium",
+     "previsto": "55.1",
+     "anterior": "55.4"
+    }
+   ],
+   "cot": {
+    "oro": {
+     "fecha": "2026-09-29",
+     "interes_abierto": 406456,
+     "fondos_largos": 131711,
+     "fondos_cortos": 11393,
+     "fondos_neto": 120318,
+     "semana_anterior": null
+    },
+    "nq": {
+     "fecha": "2026-09-29",
+     "interes_abierto": 270554,
+     "asset_managers_neto": 69744,
+     "leveraged_funds_neto": -24723,
+     "semana_anterior": null
+    }
+   }
+  }
+ ],
  "cot_previo": {
   "oro": {
    "fecha": "2026-09-29",
