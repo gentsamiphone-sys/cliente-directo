@@ -1,0 +1,42 @@
+name: Reloj
+
+# Un "despertador" externo gratis (cron-job.org) llama este workflow cada 5 minutos.
+# Él decide a quién despertar: radar siempre, agentes cada 2 h, mesa antes de cada sesión.
+on:
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+concurrency:
+  group: reloj
+  cancel-in-progress: true
+
+jobs:
+  despertar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Despertar a quien le toca
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          H=$((10#$(date -u +%H))); MIN=$((10#$(date -u +%M))); DOW=$(date -u +%w)
+          M=$(( MIN / 5 * 5 ))
+          echo "UTC $H:$MIN (ventana $M) día $DOW"
+          lanzar() { gh workflow run "$1" -R "$REPO" ${2:+-f "$2"} && echo "→ $1 $2"; }
+          lanzar radar.yml
+          A=""
+          if [ $((H % 2)) -eq 1 ]; then
+            case $M in 0) A=buscador;; 25) A=disenador;; 50) A=vendedor;; esac
+          else
+            case $M in 10) A=seguimiento;; 35) A=gerente;; esac
+          fi
+          [ -n "$A" ] && lanzar agentes.yml "agente=$A"
+          if [ $M -eq 30 ]; then
+            if [ $H -eq 21 ] && [ $DOW -le 4 ]; then lanzar mesa.yml sesion=asia; fi
+            if [ $H -eq 6 ] && [ $DOW -ge 1 ] && [ $DOW -le 5 ]; then lanzar mesa.yml sesion=londres; fi
+            if [ $H -eq 12 ] && [ $DOW -ge 1 ] && [ $DOW -le 5 ]; then lanzar mesa.yml sesion=nuevayork; fi
+          fi
+          exit 0
