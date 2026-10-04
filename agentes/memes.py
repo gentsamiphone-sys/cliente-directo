@@ -10,6 +10,7 @@ Uso: python agentes/memes.py
 Datos en data/memes.json. No compra ni vende nada: solo avisa.
 """
 import json
+import os
 import sys
 import time
 from datetime import datetime, timezone
@@ -278,12 +279,19 @@ def correr():
             senal["estado"] = "enviada"
             senal["precio_senal"] = d["precio"]
             st.paso("seguridad", f"🚨 SEÑAL: {d['simbolo']} — la compraron {', '.join(quienes)}.", trabajando=False)
+            mc = d["mcap"] or 0
+            senal["plan"] = {"mc_max_entrada": round(mc * 1.25), "tamano": "$5–$10 (máx. 2% de tu saldo para memes)",
+                             "salida_parcial": "vende la mitad en +100%", "stop": "sal si cae -40% desde tu entrada"}
+            radar = os.environ.get("SITIO_URL", "").rstrip("/")
             base.avisar_telefono(
-                f"🚨 Memecoin: {d['simbolo']} ({len(ws)} wallets top)",
-                f"Compraron: {', '.join(quienes)} ({senal['sol_total']} SOL en total)\n"
-                f"MC ${d['mcap']:,.0f} · Liquidez ${d['liquidez']:,.0f} · Edad {d['edad_min']} min\n"
-                f"1h {d['cambio_1h']}% · RugCheck {d['rugcheck']['puntaje']}\n"
-                f"Contrato: {mint}\n{d['url']}\n\nTú decides si compras en fomo. Solo dinero que puedas perder.", "high")
+                f"🚨 {d['simbolo']} — la compraron {len(ws)} que sigues",
+                f"Quiénes: {', '.join(quienes)} ({senal['sol_total']} SOL)\n"
+                f"MC ${mc:,.0f} · Liquidez ${d['liquidez']:,.0f} · Edad {d['edad_min']} min · RugCheck {d['rugcheck']['puntaje']}\n\n"
+                f"PLAN\n• Compra solo si el MC está por debajo de ${mc * 1.25:,.0f}\n• Tamaño: $5–$10 (máx. 2% de tu saldo para memes)\n"
+                f"• Vende la mitad en +100%\n• Sal si cae -40% desde tu entrada\n\n"
+                f"CONTRATO (mantén presionado para copiar):\n{mint}\n\nTú decides en fomo. Solo dinero que puedas perder.", "high",
+                acciones=[("Ver gráfica", d["url"]), ("Abrir radar", f"{radar}/memes.html#{mint}")] if radar else [("Ver gráfica", d["url"])],
+                click=d["url"])
         m["senales"].insert(0, senal)
 
     # salidas: si 2+ de los que compraron una señal ya vendieron

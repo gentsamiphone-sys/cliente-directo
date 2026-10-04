@@ -168,13 +168,17 @@ class Oficina:
         self.guardar("fin de turno")
 
 
-def avisar_telefono(titulo, texto, prioridad="default"):
+def avisar_telefono(titulo, texto, prioridad="default", acciones=None, click=None):
+    """acciones: lista de (texto_boton, url) que salen como botones en la notificación."""
     if not NTFY_TOPIC:
         return
     try:
-        requests.post(f"https://ntfy.sh/{NTFY_TOPIC}", data=texto.encode("utf-8"), timeout=15,
-                      headers={"Title": titulo.encode("utf-8"), "Priority": prioridad,
-                               **({"Click": SITIO} if SITIO else {})})
+        h = {"Title": titulo.encode("utf-8"), "Priority": prioridad}
+        if click or SITIO:
+            h["Click"] = click or SITIO
+        if acciones:
+            h["Actions"] = "; ".join(f"view, {t}, {u}" for t, u in acciones[:3]).encode("utf-8")
+        requests.post(f"https://ntfy.sh/{NTFY_TOPIC}", data=texto.encode("utf-8"), timeout=15, headers=h)
     except Exception as ex:
         print("ntfy falló:", ex, file=sys.stderr)
 
