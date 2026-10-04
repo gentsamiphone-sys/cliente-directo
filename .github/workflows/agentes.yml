@@ -1,0 +1,83 @@
+name: Agentes Cliente Directo
+
+# Cada agente entra cada 2 horas (horas en UTC; Las Vegas = UTC-7 en verano, UTC-8 en invierno).
+on:
+  schedule:
+    - cron: "2 1-23/2 * * *"    # Buscador
+    - cron: "26 1-23/2 * * *"   # Diseñador
+    - cron: "50 1-23/2 * * *"   # Vendedor
+    - cron: "14 */2 * * *"      # Seguimiento
+    - cron: "38 */2 * * *"      # Gerente
+  workflow_dispatch:
+    inputs:
+      agente:
+        description: "¿Qué agente quieres correr ahora?"
+        required: true
+        default: buscador
+        type: choice
+        options: [buscador, disenador, vendedor, seguimiento, gerente]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: agentes
+  cancel-in-progress: false
+
+jobs:
+  turno:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    outputs:
+      agente: ${{ steps.quien.outputs.agente }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r agentes/requirements.txt
+      - id: quien
+        name: Elegir agente
+        run: |
+          case "${{ github.event.schedule }}" in
+            "2 1-23/2 * * *")  A=buscador ;;
+            "26 1-23/2 * * *") A=disenador ;;
+            "50 1-23/2 * * *") A=vendedor ;;
+            "14 */2 * * *")    A=seguimiento ;;
+            "38 */2 * * *")    A=gerente ;;
+            *)                 A="${{ inputs.agente }}" ;;
+          esac
+          echo "agente=$A" >> "$GITHUB_OUTPUT"
+          echo "Turno de: $A"
+      - name: Trabajar
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          SITIO_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+        run: |
+          git config user.name "Agentes Cliente Directo"
+          git config user.email "agentes@users.noreply.github.com"
+          python agentes/main.py "${{ steps.quien.outputs.agente }}"
+
+  publicar:
+    # Publica las muestras nuevas (y el panel) en GitHub Pages después del Diseñador.
+    needs: turno
+    if: needs.turno.outputs.agente == 'disenador' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - run: git pull --quiet origin "${{ github.ref_name }}"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - uses: actions/deploy-pages@v4

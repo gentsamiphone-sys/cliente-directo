@@ -1,0 +1,30 @@
+name: Publicar panel
+
+# Publica la oficina y las muestras en GitHub Pages cuando tú cambias algo del sitio.
+on:
+  push:
+    branches: [main]
+    paths: ["index.html", "plantilla/**", "muestras/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - uses: actions/deploy-pages@v4
