@@ -115,6 +115,8 @@ def movimientos(wallet, desde_sig, max_tx=8):
         if wallet in keys:
             i = keys.index(wallet)
             sol = (meta["postBalances"][i] - meta["preBalances"][i]) / 1e9
+        wsol = "So11111111111111111111111111111111111111112"
+        sol += post.get(wsol, 0) - pre.get(wsol, 0)
         for mint in set(pre) | set(post):
             if mint in IGNORAR:
                 continue
@@ -245,6 +247,9 @@ def correr():
     for t in m["trades"]:
         if t["lado"] == "compra" and t["ts"] >= corte:
             compras.setdefault(t["mint"], {}).setdefault(t["wallet"], t)
+    # una moneda descartada solo por ser muy nueva se vuelve a revisar cuando ya tiene edad
+    m["senales"] = [s for s in m["senales"] if not (s.get("estado") == "descartada" and str(s.get("motivo", "")).startswith("moneda muy nueva")
+                                                     and ahora_ts() - s.get("ts_num", 0) > 20 * 60 and s["mint"] in compras)]
     vistos = {s["mint"] for s in m["senales"]}
     candidatos = [(mint, ws) for mint, ws in compras.items() if len(ws) >= MIN_WALLETS and mint not in vistos]
     st.paso("senal", f"{len(candidatos)} monedas con compras de {MIN_WALLETS}+ wallets top.", trabajando=False)
