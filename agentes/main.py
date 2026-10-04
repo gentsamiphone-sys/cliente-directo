@@ -181,29 +181,62 @@ def avisar_telefono(titulo, texto, prioridad="default"):
 
 # ───────────────────────── Gemini (gratis) ─────────────────────────
 
-def gemini(prompt, buscar=False, intentos=4):
+_MODELOS_OK = None
+
+
+def modelos_disponibles():
+    """Pregunta a Google qué modelos 'flash' puede usar esta clave (gratis)."""
+    global _MODELOS_OK
+    if _MODELOS_OK is not None:
+        return _MODELOS_OK
+    preferidos = [m for m in MODELOS]
+    try:
+        r = requests.get("https://generativelanguage.googleapis.com/v1beta/models", params={"key": GEMINI_KEY, "pageSize": 200}, timeout=30)
+        nombres = [m["name"].split("/", 1)[1] for m in r.json().get("models", [])
+                   if "generateContent" in m.get("supportedGenerationMethods", [])]
+        flash = [n for n in nombres if "flash" in n and "image" not in n and "tts" not in n and "audio" not in n
+                 and "live" not in n and "thinking" not in n]
+        flash.sort(key=lambda n: (("latest" not in n), ("lite" in n), ("preview" in n or "exp" in n), n), reverse=False)
+        print("Modelos disponibles:", flash[:12])
+        _MODELOS_OK = [m for m in preferidos if m in nombres] + [m for m in flash if m not in preferidos]
+    except Exception as ex:
+        print("No pude listar modelos:", ex)
+        _MODELOS_OK = preferidos
+    return _MODELOS_OK or preferidos
+
+
+def gemini(prompt, buscar=False, intentos=3):
     if not GEMINI_KEY:
         raise RuntimeError("Falta GEMINI_API_KEY")
-    cuerpo = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
-              "generationConfig": {"temperature": 0.6}}
-    if buscar:
-        cuerpo["tools"] = [{"google_search": {}}]
-    ultimo_error = ""
-    for modelo in MODELOS:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent"
-        for i in range(intentos):
-            r = requests.post(url, params={"key": GEMINI_KEY}, json=cuerpo, timeout=120)
-            if r.status_code == 200:
-                partes = r.json().get("candidates", [{}])[0].get("content", {}).get("parts", [])
-                return "".join(p.get("text", "") for p in partes)
-            ultimo_error = f"{modelo}: {r.status_code} {r.text[:200]}"
-            if r.status_code == 404:
-                break  # modelo no existe, prueba el siguiente
-            if r.status_code in (429, 500, 503):
-                time.sleep(20 * (i + 1))
-                continue
-            break
-    raise RuntimeError("Gemini no respondió: " + ultimo_error)
+    errores = []
+    for usar_busqueda in ([True] if buscar else [False]):
+        cuerpo = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                  "generationConfig": {"temperature": 0.6}}
+        if usar_busqueda:
+            cuerpo["tools"] = [{"google_search": {}}]
+        for modelo in modelos_disponibles()[:6]:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent"
+            for i in range(intentos):
+                r = requests.post(url, params={"key": GEMINI_KEY}, json=cuerpo, timeout=120)
+                if r.status_code == 200:
+                    partes = r.json().get("candidates", [{}])[0].get("content", {}).get("parts", [])
+                    texto = "".join(p.get("text", "") for p in partes)
+                    if texto.strip():
+                        if buscar and not usar_busqueda:
+                            print("Aviso: respondió sin búsqueda en Google")
+                        return texto
+                    errores.append(f"{modelo}: vacío")
+                    break
+                msg = r.text[:160].replace("\n", " ")
+                errores.append(f"{modelo}{'+busqueda' if usar_busqueda else ''}: {r.status_code}")
+                print("Gemini", modelo, r.status_code, msg)
+                if r.status_code == 429 and i < intentos - 1:
+                    time.sleep(15 * (i + 1))
+                    continue
+                break
+        if buscar and usar_busqueda is True:
+            print("La búsqueda en Google no funcionó; pruebo sin ella.")
+    raise RuntimeError("Gemini no respondió: " + "; ".join(errores[-4:]))
 
 
 def gemini_json(prompt, buscar=False):
