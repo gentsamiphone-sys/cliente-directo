@@ -265,11 +265,16 @@
   },
   "gerente": {
    "estado": "trabajando",
-   "tarea": "Contando cómo vamos hoy…",
-   "actualizado": "2026-10-04T15:55:46Z"
+   "tarea": "Actualicé el reporte del día.",
+   "actualizado": "2026-10-04T15:55:47Z"
   }
  },
  "actividad": [
+  {
+   "agente": "gerente",
+   "texto": "Actualicé el reporte del día.",
+   "ts": "2026-10-04T15:55:47Z"
+  },
   {
    "agente": "gerente",
    "texto": "Contando cómo vamos hoy…",
@@ -286,7 +291,13 @@
    "ts": "2026-10-04T02:06:10Z"
   }
  ],
- "reportes": {},
+ "reportes": {
+  "2026-10-04": {
+   "fecha": "2026-10-04T15:55:47Z",
+   "titulo": "El equipo sigue prospectando",
+   "texto": "NÚMEROS: 10 prospectos · 0 nuevos hoy · 10 nuevo"
+  }
+ },
  "bajas": {},
  "cambios_aplicados": ""
 }
