@@ -160,8 +160,15 @@ def mapa_activo(simbolo):
         "vwap_hoy": round(vwap_sesion(h, hoy) or 0, 2) or None,
     }
     # rango realizado vs esperado
+    # día de futuros: empieza a las 22:00 UTC (apertura de Globex); se mide solo lo que va de HOY
+    ahora_u = datetime.now(timezone.utc)
+    inicio = ahora_u.replace(hour=22, minute=0, second=0, microsecond=0)
+    if inicio > ahora_u:
+        inicio -= timedelta(days=1)
+    hoy_v = [v for v in h if v["t"] >= inicio.timestamp()]
+    mapa["rango_hoy"] = {"max": round(max(v["h"] for v in hoy_v), 2), "min": round(min(v["l"] for v in hoy_v), 2)} if hoy_v else None
     if mapa["ATR14_diario"]:
-        mapa["rango_hoy_vs_atr_pct"] = round((ult["h"] - ult["l"]) / mapa["ATR14_diario"] * 100)
+        mapa["rango_hoy_vs_atr_pct"] = round((max(v["h"] for v in hoy_v) - min(v["l"] for v in hoy_v)) / mapa["ATR14_diario"] * 100) if hoy_v else 0
     return mapa
 
 
