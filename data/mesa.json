@@ -12,12 +12,18 @@
    "ultimo_resultado": "DXY -0.17% · 10Y 5.277 · VIX 15.31 · 1 eventos USD en el radar."
   },
   "flujos": {
-   "estado": "trabajando",
-   "tarea": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "actualizado": "2026-10-04T16:41:33Z"
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-04T16:41:34Z",
+   "ultimo_resultado": "Fondos en oro: neto +120,318 contratos."
   }
  },
  "actividad": [
+  {
+   "agente": "flujos",
+   "texto": "Fondos en oro: neto +120,318 contratos.",
+   "ts": "2026-10-04T16:41:34Z"
+  },
   {
    "agente": "flujos",
    "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
@@ -40,5 +46,19 @@
   }
  ],
  "briefs": [],
- "cot_previo": {}
+ "cot_previo": {
+  "oro": {
+   "fecha": "2026-09-29",
+   "interes_abierto": 406456,
+   "fondos_largos": 131711,
+   "fondos_cortos": 11393,
+   "fondos_neto": 120318
+  },
+  "nq": {
+   "fecha": "2026-09-29",
+   "interes_abierto": 270554,
+   "asset_managers_neto": 69744,
+   "leveraged_funds_neto": -24723
+  }
+ }
 }
