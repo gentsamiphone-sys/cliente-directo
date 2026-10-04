@@ -48,6 +48,13 @@ th{color:var(--acc)}
 td.n{text-align:right}
 .feed{max-height:420px;overflow:auto}
 .c{color:var(--up)}.v{color:var(--down)}
+.hq{position:relative;border-radius:14px;overflow:hidden;background:#06070a;height:min(74vh,760px);min-height:400px;touch-action:none;user-select:none;border:1px solid var(--line)}
+.hq canvas{display:block;width:100%;height:100%;cursor:grab}
+.hud{position:absolute;inset:12px 12px auto 12px;display:flex;flex-wrap:wrap;gap:6px;pointer-events:none;z-index:2}
+.ctrl{position:absolute;bottom:12px;display:flex;gap:6px;z-index:2}
+.ctrl button{background:rgba(14,17,20,.9)}
+.tip{position:absolute;z-index:3;max-width:270px;background:#14181c;border:1px solid var(--acc);border-radius:10px;padding:10px 12px;font-size:.82rem;pointer-events:none}
+.tip b{display:block;font:700 .95rem var(--f-d)}.tip .s{font:500 .66rem var(--f-m);color:var(--acc);text-transform:uppercase}
 .empty{color:var(--muted);padding:14px 0}
 .aviso{font-size:.78rem;color:var(--muted)}
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:6px;font-size:.85rem}
@@ -61,6 +68,14 @@ td.n{text-align:right}
     <div class="row"><a href="mesa.html">Mesa oro/NQ</a><a href="./">Cliente Directo</a></div>
   </header>
 
+  <section class="hq" aria-label="Oficina de los agentes de memecoins">
+    <div class="hud" id="hud"></div>
+    <canvas id="hq" aria-label="Mapa de la oficina de memecoins"></canvas>
+    <div class="tip" id="tip" hidden></div>
+    <div class="ctrl" style="left:12px"><button data-w="senales">📺 Señales</button><button data-w="movs">📺 Movimientos</button><button data-w="wallets">📺 Wallets</button></div>
+    <div class="ctrl" style="right:12px"><button id="bM" aria-label="Alejar">−</button><button id="bP" aria-label="Acercar">+</button><button id="bC" aria-label="Centrar">⤢</button></div>
+  </section>
+
   <div class="kpis">
     <div class="kpi"><small>Wallets vigiladas</small><b id="kW">—</b></div>
     <div class="kpi"><small>Señales enviadas</small><b id="kS">—</b></div>
@@ -68,7 +83,6 @@ td.n{text-align:right}
     <div class="kpi"><small>Promedio a 24 h</small><b id="kP">—</b></div>
     <div class="kpi"><small>Último turno</small><b id="kT">—</b></div>
   </div>
-  <div class="agentes" id="agentes"></div>
 
   <section class="card">
     <h2>Señales <span class="when">tú decides y ejecutas en fomo</span></h2>
@@ -92,12 +106,14 @@ const REPO=(()=>{const h=location.hostname;if(h.endsWith(".github.io"))return{o:
 function toast(t){const e=$("toast");e.textContent=t;e.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>e.hidden=true,1800)}
 let M=null;
 const AG=[["vigia","Vigía"],["senal","Señal"],["seguridad","Seguridad"],["auditor","Auditor"]];
+const AGO=AG.map(([id,n])=>({id,n}));
+function trabajando(id){const a=((M&&M.agentes)||{})[id];if(!a)return false;const t=Date.now()-new Date(a.actualizado);return (a.estado==="trabajando"&&t<10*60000)||t<5.5*60000}
 function render(){
   const st=M.estadisticas||{},env=M.senales.filter(s=>s.estado==="enviada");
   $("kW").textContent=Object.keys(M.wallets).length;$("kS").textContent=env.length;
   $("kA").textContent=st.acierto_pct!=null?st.acierto_pct+"%":"—";$("kP").textContent=st.promedio_24h_pct!=null?(st.promedio_24h_pct>0?"+":"")+st.promedio_24h_pct+"%":"—";
   $("kT").textContent="hace "+hace(M.ultimo_turno);
-  $("agentes").innerHTML=AG.map(([k,n])=>{const a=(M.agentes||{})[k]||{};const on=a.estado==="trabajando"&&(Date.now()-new Date(a.actualizado))<10*60000;return`<span class="ag ${on?"on":""}" title="${esc(on?a.tarea:a.ultimo_resultado)}">${n.toUpperCase()} · ${on?"TRABAJANDO":"EN ESPERA"}</span>`}).join("");
+  $("hud").innerHTML=AG.map(([k,n])=>{const on=trabajando(k);return`<span class="ag ${on?"on":""}">${n.toUpperCase()} · ${on?"TRABAJANDO":"EN ESPERA"}</span>`}).join("");
   $("senales").innerHTML=M.senales.length?M.senales.slice(0,24).map(s=>{const d=s.datos||{};const res=s.resultado?`<span class="tag ${s.resultado==="ganadora"?"win":"loss"}">${s.resultado.toUpperCase()}</span>`:`<span class="tag ${s.estado==="enviada"?"ok":""}">${s.estado==="enviada"?"SEÑAL":"DESCARTADA"}</span>`;
     return`<div class="s ${esc(s.estado)}"><h3>${esc(d.simbolo||s.mint.slice(0,6))}${res}</h3>
       <dl><dt>Compraron</dt><dd style="font-family:var(--f-b)">${esc((s.quienes||[]).join(", "))} · ${s.sol_total} SOL</dd>
@@ -113,6 +129,98 @@ function render(){
 document.addEventListener("click",async e=>{const b=e.target.closest("[data-copy]");if(!b)return;try{await navigator.clipboard.writeText(b.dataset.copy);toast("Contrato copiado: pégalo en fomo")}catch{toast(b.dataset.copy)}});
 async function cargar(){try{const r=REPO?await fetch(`https://api.github.com/repos/${REPO.o}/${REPO.r}/contents/data/memes.json`,{cache:"no-cache",headers:{Accept:"application/vnd.github.raw+json"}}):await fetch("data/memes.json",{cache:"no-cache"});if(!r.ok)throw 0;M=await r.json();render()}catch{}}
 cargar();setInterval(cargar,45000);setInterval(()=>M&&render(),15000);
+const TW_=0;
+/* ===== Sala isométrica ===== */
+(()=>{
+  const cv=$("hq"),cx=cv.getContext("2d"),TW=52,TH=26,ACC="#b98cff";
+  const R=[
+    {id:"piso",name:"PISO DE MEMES",x:0,y:0,w:19,h:10,c:7,r:3,shirt:"#8a7bb0",big:true},
+    {id:"auditor",name:"AUDITOR",x:20,y:0,w:7,h:6,c:2,r:2,shirt:"#ef7d22"},
+    {id:"senal",name:"SEÑAL",x:20,y:7,w:7,h:5,c:1,r:1,shirt:"#eceff3",boss:true},
+    {id:"vigia",name:"VIGÍA",x:0,y:11,w:8,h:6,c:3,r:2,shirt:"#3a7bd5"},
+    {id:"seguridad",name:"SEGURIDAD",x:9,y:11,w:8,h:6,c:3,r:2,shirt:"#1fb39a"},
+    {id:"wallets",name:"WALLETS TOP",x:18,y:13,w:9,h:6,c:3,r:2,shirt:"#b98cff"},
+    {id:"cafe",name:"CAFÉ",x:0,y:18,w:17,h:4,cafe:true},
+  ];
+  let zoom=1,panX=0,panY=0,W=0,H=0,dpr=1;const t0=performance.now(),reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const iso=(x,y)=>[(x-y)*TW/2,(x+y)*TH/2];
+  const desks=[],workers=[],seats=[];
+  for(const r of R){
+    if(r.cafe){for(let i=0;i<7;i++){const tx=r.x+1.5+i*2.5,ty=r.y+2;seats.push({x:tx-.6,y:ty},{x:tx+.6,y:ty},{x:tx,y:ty+.9});desks.push({r,x:tx,y:ty,table:1})}continue}
+    for(let a=0;a<r.c;a++)for(let b=0;b<r.r;b++){
+      const x=r.boss?r.x+r.w/2-.5:r.x+1.4+a*((r.w-2.6)/Math.max(1,r.c-1)),y=r.boss?r.y+r.h/2-.6:r.y+1.8+b*((r.h-3)/Math.max(1,r.r-1));
+      const d={r,x,y,boss:r.boss};desks.push(d);workers.push({r,d,x,y:y+.55,tx:x,ty:y+.55,ph:Math.random()*6,shirt:r.shirt,seat:null});
+    }
+  }
+  const on=id=>id==="piso"?AGO.some(a=>trabajando(a.id)):id==="wallets"?trabajando("vigia"):trabajando(id);
+  function resize(){const b=cv.getBoundingClientRect();dpr=Math.min(2,devicePixelRatio||1);W=b.width;H=b.height;cv.width=W*dpr;cv.height=H*dpr;if(!resize.d){centrar();resize.d=1}}
+  function centrar(){const[a,b]=iso(13.5,11);zoom=Math.min(1.3,Math.max(.3,Math.min(W/(30*TW),(H-60)/(24*TH+170))));panX=W/2-a*zoom;panY=H/2-b*zoom+80*zoom}
+  function poly(p,f,s){cx.beginPath();p.forEach(([x,y],i)=>i?cx.lineTo(x,y):cx.moveTo(x,y));cx.closePath();if(f){cx.fillStyle=f;cx.fill()}if(s){cx.strokeStyle=s;cx.stroke()}}
+  function box(x,y,w,d,h,t,l,r){const a=iso(x,y),b=iso(x+w,y),c=iso(x+w,y+d),e=iso(x,y+d),u=([p,q])=>[p,q-h];poly([u(a),u(b),u(c),u(e)],t);poly([e,c,u(c),u(e)],l);poly([c,b,u(b),u(c)],r)}
+  function floor(r,t){const p=[iso(r.x,r.y),iso(r.x+r.w,r.y),iso(r.x+r.w,r.y+r.h),iso(r.x,r.y+r.h)],dark=r.cafe||r.boss;
+    poly(p,dark?"#181d23":"#e6e8e0");cx.lineWidth=3;poly(p,null,"#07080a");cx.lineWidth=1.2;poly(p,null,dark?ACC+"55":"#c9ccc1");
+    const[lx,ly]=iso(r.x+.5,r.y+r.h-.45);cx.save();cx.translate(lx,ly);cx.transform(1,.5,-1,.5,0,0);cx.font=`800 ${Math.min(30,r.w*2.2)}px "Familjen Grotesk",Arial`;cx.fillStyle=dark?ACC:"rgba(20,24,20,.26)";cx.fillText(r.name,0,0);cx.restore();
+    if(!r.cafe&&on(r.id)){cx.save();cx.shadowColor=ACC;cx.shadowBlur=18;cx.lineWidth=2.5;poly(p,null,ACC);cx.restore()}}
+  function desk(d,t){
+    if(d.table){box(d.x-.45,d.y-.3,.9,.6,9,"#2b323a","#1d2329","#242a31");return}
+    const o=on(d.r.id),w=d.boss?1.8:1.1,dd=d.boss?.9:.55;box(d.x-w/2,d.y-dd/2,w,dd,11,"#2b2f35","#16191d","#1f2328");
+    const[mx,my]=iso(d.x,d.y-.05),n=d.r.big||d.boss?3:1;
+    for(let i=0;i<n;i++){const ox=(i-(n-1)/2)*15,mw=13,mh=10;cx.fillStyle="#0e1013";cx.fillRect(mx+ox-mw/2,my-24,mw,mh);
+      cx.fillStyle=o?(i===1?"#ff6b5b":ACC):"#30363d";cx.fillRect(mx+ox-mw/2+1.2,my-23,mw-2.4,mh-2.4);
+      if(o){cx.strokeStyle="#0b0d10";cx.lineWidth=1;cx.beginPath();for(let k=0;k<5;k++){const yy=my-17-Math.sin(t/600+k+d.x+i)*2.6;k?cx.lineTo(mx+ox-5+k*2.5,yy):cx.moveTo(mx+ox-5,yy)}cx.stroke()}}
+    if(o){const[gx,gy]=iso(d.x,d.y),fy=gy-44-(reduce?0:Math.sin(t/500+d.x*3)*3);cx.save();cx.shadowColor=ACC;cx.shadowBlur=14;poly([[gx,fy-8],[gx+4,fy],[gx,fy+8],[gx-4,fy]],ACC);cx.restore()}}
+  function person(w,t){const[x,y]=iso(w.x,w.y),b=reduce?0:on(w.r.id)&&w.at?Math.sin(t/120+w.ph)*1.2:0;
+    cx.fillStyle="rgba(0,0,0,.3)";cx.beginPath();cx.ellipse(x,y,7,3.5,0,0,7);cx.fill();cx.fillStyle=w.shirt;cx.beginPath();cx.ellipse(x,y-10+b,6,8,0,0,7);cx.fill();
+    cx.fillStyle="#d9a77c";cx.beginPath();cx.arc(x,y-21+b,4.5,0,7);cx.fill();cx.fillStyle="#22180f";cx.beginPath();cx.arc(x,y-22.5+b,4.5,Math.PI,0);cx.fill()}
+  function ticker(t){const[x,y]=iso(.6,9.6);cx.save();cx.translate(x,y);cx.transform(1,.5,-1,.5,0,0);cx.fillStyle="rgba(14,16,19,.92)";cx.fillRect(0,-40,380,40);cx.strokeStyle=ACC;cx.strokeRect(0,-40,380,40);
+    const s=(M&&M.senales||[]).find(x=>x.estado==="enviada"),e=M&&M.estadisticas;cx.font='700 11px "JetBrains Mono",monospace';cx.fillStyle=ACC;
+    cx.fillText(e?("ACIERTO "+e.acierto_pct+"% · "+e.senales+" SEÑALES"):"RADAR ACTIVO · 12 WALLETS TOP",8,-25);
+    cx.fillStyle="#eceff3";cx.font='600 11px "Atkinson Hyperlegible",sans-serif';cx.fillText(s?("Última señal: "+((s.datos||{}).simbolo||"")+" · "+(s.quienes||[]).join(", ")).slice(0,60):"Esperando la primera señal",8,-10);cx.restore()}
+  function frame(now){const t=now-t0;let s=0;const free=seats.slice();
+    for(const w of workers){if(on(w.r.id)){w.tx=w.d.x;w.ty=w.d.y+.55;w.seat=null}else{if(!w.seat)w.seat=free.length?free.splice((s++*5)%free.length,1)[0]:{x:2+Math.random()*15,y:22};else{const i=free.indexOf(w.seat);if(i>=0)free.splice(i,1)}w.tx=w.seat.x;w.ty=w.seat.y}
+      const k=reduce?1:.03;w.x+=(w.tx-w.x)*k;w.y+=(w.ty-w.y)*k;w.at=Math.hypot(w.x-w.d.x,w.y-w.d.y-.55)<.15}
+    cx.setTransform(dpr,0,0,dpr,0,0);const g=cx.createRadialGradient(W/2,H/2,40,W/2,H/2,Math.max(W,H));g.addColorStop(0,"#13171c");g.addColorStop(1,"#050607");cx.fillStyle=g;cx.fillRect(0,0,W,H);
+    cx.setTransform(dpr*zoom,0,0,dpr*zoom,dpr*panX,dpr*panY);R.forEach(r=>floor(r,t));paredesCanvas();
+    [...desks.map(d=>({k:d.x+d.y,f:()=>desk(d,t)})),...workers.map(w=>({k:w.x+w.y+.01,f:()=>person(w,t)}))].sort((a,b)=>a.k-b.k).forEach(i=>i.f());ticker(t);
+    posParedes();requestAnimationFrame(frame)}
+  const UN=Math.hypot(TW/2,TH/2),ALTO=170;
+  function pared(p0,p1){const up=ALTO+10;poly([p0,p1,[p1[0],p1[1]-up],[p0[0],p0[1]-up]],"#121419","#2a2f38")}
+  function tablero(eje,a,b,titulo,lineas,col){ // pantalla dibujada sobre la pared
+    const p=eje==="x"?iso(a,0):iso(0,b),L=(b-a)*UN,ux=(TW/2)/UN,uy=(eje==="x"?1:-1)*(TH/2)/UN;
+    cx.save();cx.transform(ux,uy,0,1,p[0],p[1]-ALTO);
+    cx.fillStyle="#050608";cx.fillRect(0,0,L,ALTO-14);cx.strokeStyle="#1d2128";cx.lineWidth=5;cx.strokeRect(0,0,L,ALTO-14);
+    cx.save();cx.shadowColor=ACC;cx.shadowBlur=8;cx.fillStyle=ACC;cx.font='700 11px "JetBrains Mono",monospace';cx.fillText(titulo,10,18);cx.restore();
+    cx.font='600 10px "JetBrains Mono",monospace';
+    lineas.slice(0,9).forEach((l,i)=>{cx.fillStyle=l.c||"#d8dde4";cx.fillText(String(l.t).slice(0,Math.floor(L/6.4)),10,36+i*14)});
+    cx.restore();
+  }
+  function paredesCanvas(){
+    pared(iso(0,0),iso(19,0));pared(iso(0,0),iso(0,10));
+    const S=(M&&M.senales)||[],T=(M&&M.trades)||[],Wl=(M&&M.wallets)||{};
+    tablero("x",.5,9.4,"SEÑALES",S.length?S.slice(0,9).map(s=>({t:(s.estado==="enviada"?"🚨 ":"✕ ")+((s.datos||{}).simbolo||s.mint.slice(0,6))+"  "+(s.quienes||[]).join(", ")+(s.pct_24h!=null?"  24h "+s.pct_24h+"%":""),c:s.estado==="enviada"?(s.resultado==="perdedora"?"#ff6b5b":"#3ddc84"):"#8b95a1"})):[{t:"Esperando que 2+ wallets compren lo mismo…",c:"#8b95a1"}]);
+    tablero("x",9.7,18.5,"MOVIMIENTOS EN VIVO",T.length?T.slice(0,9).map(t=>({t:(t.lado==="compra"?"▲ ":"▼ ")+t.nombre+"  "+t.mint.slice(0,6)+"…  "+t.sol+" SOL",c:t.lado==="compra"?"#3ddc84":"#ff6b5b"})):[{t:"Sin movimientos todavía",c:"#8b95a1"}]);
+    tablero("y",.5,9.5,"WALLETS TOP",Object.values(Wl).map(w=>({t:w.nombre+(w.acierto!=null?"  "+w.acierto+"%":"")+"  · "+(w.senales||0)+" señ.",c:"#d8dde4"})));
+  }
+  function posParedes(){}
+  window.__enfocar=k=>{const m={senales:[5,0,"x"],movs:[14,0,"x"],wallets:[0,5,"y"]}[k];const p=iso(m[0],m[1]);zoom=Math.min(2.6,Math.max(1.2,W/(10*UN*1.15)));panX=W/2-p[0]*zoom;panY=H/2-(p[1]-ALTO/2)*zoom};
+  let drag=null;
+  cv.addEventListener("pointerdown",e=>{drag={x:e.clientX,y:e.clientY,px:panX,py:panY};cv.setPointerCapture(e.pointerId)});
+  cv.addEventListener("pointermove",e=>{if(drag){panX=drag.px+e.clientX-drag.x;panY=drag.py+e.clientY-drag.y}else tip(e)});
+  cv.addEventListener("pointerup",e=>{const m=drag&&Math.hypot(e.clientX-drag.x,e.clientY-drag.y)>5;drag=null;if(!m)tip(e)});
+  cv.addEventListener("pointerleave",()=>$("tip").hidden=true);
+  cv.addEventListener("wheel",e=>{e.preventDefault();z(e.offsetX,e.offsetY,e.deltaY<0?1.1:1/1.1)},{passive:false});
+  function z(sx,sy,f){const nz=Math.min(2.5,Math.max(.3,zoom*f));panX=sx-(sx-panX)*nz/zoom;panY=sy-(sy-panY)*nz/zoom;zoom=nz}
+  function tip(e){const b=cv.getBoundingClientRect(),sx=(e.clientX-b.left-panX)/zoom,sy=(e.clientY-b.top-panY)/zoom,gx=(sx/(TW/2)+sy/(TH/2))/2,gy=(sy/(TH/2)-sx/(TW/2))/2;
+    const r=R.find(r=>gx>=r.x&&gx<=r.x+r.w&&gy>=r.y&&gy<=r.y+r.h),el=$("tip");if(!r){el.hidden=true;return}
+    const a=AGO.find(a=>a.id===r.id),s=(M&&M.agentes||{})[r.id]||{};
+    el.innerHTML=r.cafe?'<span class="s">Descanso</span><b>Café</b>Los agentes esperan el próximo turno (cada 5 min).':r.id==="piso"?'<span class="s">Piso</span><b>Piso de memes</b>Pantallas: señales, movimientos en vivo y wallets top.':r.id==="wallets"?'<span class="s">Datos</span><b>Wallets top</b>'+Object.keys((M&&M.wallets)||{}).length+' wallets vigiladas en Solana.':
+      `<span class="s">${trabajando(r.id)?"Trabajando ahora":"En espera"}</span><b>${a?a.n:r.name}</b>${esc(trabajando(r.id)?(s.tarea||s.ultimo_resultado||""):(s.ultimo_resultado||"Esperando el próximo turno"))}`;
+    el.hidden=false;el.style.left=Math.min(b.width-280,e.clientX-b.left+14)+"px";el.style.top=Math.max(60,e.clientY-b.top-10)+"px"}
+  document.querySelectorAll("[data-w]").forEach(b=>b.onclick=()=>window.__enfocar(b.dataset.w));
+  $("bP").onclick=()=>z(W/2,H/2,1.2);$("bM").onclick=()=>z(W/2,H/2,1/1.2);$("bC").onclick=centrar;
+  new ResizeObserver(resize).observe(cv);resize();requestAnimationFrame(frame);
+})();
+
 </script>
 </body>
 </html>
