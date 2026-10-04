@@ -1,0 +1,50 @@
+name: Mesa GSAM (oro y NQ)
+
+# Brief institucional antes de cada sesión (horas UTC; Las Vegas = UTC-7 en verano)
+on:
+  schedule:
+    - cron: "30 21 * * 0-4"   # Asia      → 2:30 pm Las Vegas (dom-jue)
+    - cron: "30 6 * * 1-5"    # Londres   → 11:30 pm Las Vegas
+    - cron: "30 12 * * 1-5"   # Nueva York → 5:30 am Las Vegas
+  workflow_dispatch:
+    inputs:
+      sesion:
+        description: "Sesión"
+        required: true
+        default: nuevayork
+        type: choice
+        options: [asia, londres, nuevayork]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: agentes
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r agentes/requirements.txt
+      - name: Mesa de inversión
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          SITIO_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/mesa.html
+        run: |
+          case "${{ github.event.schedule }}" in
+            "30 21 * * 0-4") S=asia ;;
+            "30 6 * * 1-5")  S=londres ;;
+            "30 12 * * 1-5") S=nuevayork ;;
+            *)               S="${{ inputs.sesion }}" ;;
+          esac
+          git config user.name "Mesa GSAM"
+          git config user.email "mesa@users.noreply.github.com"
+          python agentes/mesa.py "$S"
