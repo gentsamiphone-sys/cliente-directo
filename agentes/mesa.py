@@ -297,12 +297,100 @@ def vix_confluencia():
     return out
 
 
+# ───────── auditor: revisa cómo salió cada entrada ─────────
+
+import re as _re
+
+
+def _n(x):
+    m = _re.findall(r"\d[\d,]*\.?\d*", str(x or ""))
+    vals = [float(v.replace(",", "")) for v in m]
+    return sum(vals) / len(vals) if vals else None
+
+
+def auditar(me):
+    """Para cada entrada propuesta: ¿se activó? ¿tocó primero el stop o el objetivo? Guarda el resultado."""
+    velas = {}
+    for b in me.m.get("briefs", []):
+        for e in b.get("entradas") or []:
+            if e.get("resultado") or str(e.get("direccion", "")).upper().startswith("SIN"):
+                continue
+            act = "oro" if "ORO" in str(e.get("activo", "")).upper() else "nq"
+            ent, sl, tp1, tp2 = _n(e.get("zona")), _n(e.get("stop")), _n(e.get("tp1")), _n(e.get("tp2"))
+            if None in (ent, sl, tp1):
+                e["resultado"] = "sin datos"
+                continue
+            if act not in velas:
+                velas[act] = yahoo(ACTIVOS[act], "1h", "1mo")
+            t0 = datetime.fromisoformat(b["ts"].replace("Z", "+00:00")).timestamp()
+            compra = str(e.get("direccion", "")).upper().startswith("COMPRA")
+            activa, res = False, None
+            for v in velas[act]:
+                if v["t"] < t0:
+                    continue
+                if v["t"] > t0 + 30 * 3600:
+                    break
+                if not activa:
+                    if v["l"] <= ent <= v["h"]:
+                        activa = True
+                    elif (v["t"] - t0) > 12 * 3600:
+                        res = "no se activó"
+                        break
+                    else:
+                        continue
+                toca_sl = v["l"] <= sl if compra else v["h"] >= sl
+                toca_tp2 = tp2 and (v["h"] >= tp2 if compra else v["l"] <= tp2)
+                toca_tp1 = v["h"] >= tp1 if compra else v["l"] <= tp1
+                if toca_sl:
+                    res = "stop"
+                    break
+                if toca_tp2:
+                    res = "TP2"
+                    break
+                if toca_tp1 and not e.get("tp1_tocado"):
+                    e["tp1_tocado"] = True
+            if res is None and (datetime.now(timezone.utc).timestamp() - t0) > 30 * 3600:
+                res = "TP1" if e.get("tp1_tocado") else ("cerrada sin objetivo" if activa else "no se activó")
+            if res:
+                riesgo = abs(ent - sl) or 1
+                e["resultado"] = res
+                e["r"] = {"stop": -1.0, "TP2": round(abs(tp2 - ent) / riesgo, 2) if tp2 else 0, "TP1": round(abs(tp1 - ent) / riesgo, 2)}.get(res, 0.0)
+    # estadísticas
+    cerradas = [(b, e) for b in me.m.get("briefs", []) for e in (b.get("entradas") or [])
+                if e.get("resultado") in ("stop", "TP1", "TP2", "cerrada sin objetivo")]
+    def resumen(lista):
+        if not lista:
+            return None
+        g = sum(1 for _, e in lista if e["resultado"] in ("TP1", "TP2"))
+        return {"operaciones": len(lista), "ganadas": g, "acierto_pct": round(g / len(lista) * 100),
+                "r_total": round(sum(e.get("r", 0) for _, e in lista), 2)}
+    stats = {"total": resumen(cerradas)}
+    for act in ("ORO", "NQ"):
+        for ses in SESIONES:
+            for d in ("COMPRA", "VENTA"):
+                sub = [(b, e) for b, e in cerradas if act in str(e.get("activo", "")).upper() and b.get("sesion") == ses
+                       and str(e.get("direccion", "")).upper().startswith(d)]
+                if sub:
+                    stats[f"{act} {d} {ses}"] = resumen(sub)
+    me.m["estadisticas"] = stats
+    return stats
+
+
 # ───────── la sesión ─────────
 
 def correr(sesion):
     nombre = SESIONES[sesion]
     me = Mesa("cio")
     me.paso("cio", f"Abriendo la mesa para la sesión de {nombre}.")
+    me.paso("auditor", "Revisando cómo salieron las entradas anteriores…")
+    try:
+        stats = auditar(me)
+        t = stats.get("total")
+        me.paso("auditor", (f"Historial: {t['operaciones']} operaciones, {t['acierto_pct']}% de acierto, {t['r_total']:+} R."
+                            if t else "Todavía no hay operaciones cerradas para medir."), trabajando=False)
+    except Exception as ex:
+        stats = {}
+        me.paso("auditor", f"No pude auditar ({str(ex)[:60]}).", trabajando=False)
 
     me.paso("macro", "Revisando dólar, tasas a 10 años, VIX y calendario económico…")
     mac = macro_datos()
@@ -347,7 +435,7 @@ def correr(sesion):
 
     me.paso("cio", "Escribiendo el brief institucional…")
     datos = {"sesion": nombre, "hora_las_vegas": datetime.now(LV).strftime("%Y-%m-%d %H:%M"), "macro": mac,
-             "calendario_usd": eventos, "cot": pos, "mapas": mapas, "riesgo": riesgo, "regimen_vol": regimen, "vix_nq": vixc,
+             "calendario_usd": eventos, "cot": pos, "mapas": mapas, "riesgo": riesgo, "regimen_vol": regimen, "vix_nq": vixc, "historial_de_la_mesa": stats,
              "titulares": titulares()}
     prompt = f"""Eres el CIO (director de inversiones) de GSAM Capital, un fondo macro que opera oro (futuro GC / XAUUSD)
 y el Nasdaq 100 (futuro NQ). Piensas como una institución, no como un trader minorista:
@@ -377,6 +465,13 @@ Escribe el BRIEF DE LA SESIÓN DE {nombre.upper()} en español, claro y directo,
    - TP1 / TP2: en la liquidez opuesta (con números)
    - R:R: relación riesgo/beneficio al TP2
    - Cancelar si: qué invalida la entrada antes de activarse (hora, noticia, nivel)
+   - Confluencias (0 a 5): suma 1 por cada una que se cumpla a favor de la idea: (1) sesgo macro/dólar/tasas,
+     (2) posicionamiento COT, (3) VIX confirma (para NQ) o dólar/tasas reales confirman (para oro),
+     (4) la entrada está en una zona donde ya se barrió liquidez o en valor justo, (5) el historial de la mesa para ese
+     activo + dirección + sesión no es negativo. Escribe "Confluencias: X/5" y cuáles.
+   ALTA PROBABILIDAD SOLAMENTE: si una idea tiene menos de 4/5 confluencias, la respuesta es SIN ENTRADA.
+   Si el historial muestra que una combinación (activo + dirección + sesión) tiene menos de 45% de acierto con 5 o más
+   operaciones, no la propongas. Es mejor no operar que operar una idea mediocre.
    Reglas de la mesa: solo propones entrada si el R:R al TP2 es 2 o más; si hay noticia de impacto alto en los próximos
    30 minutos o el ATR del día ya está consumido más del 100%, la respuesta es SIN ENTRADA y explicas por qué.
    Una sola idea por activo. Nunca entres persiguiendo el precio.
@@ -396,11 +491,19 @@ DATOS:
         corto = base.gemini_json(f"""Del siguiente brief, devuelve JSON {{"oro": "alcista|bajista|neutral", "nq": "alcista|bajista|neutral",
 "titular": "frase de máximo 90 caracteres con lo más importante de la sesión",
 "entradas": [{{"activo": "ORO|NQ", "direccion": "COMPRA|VENTA|SIN ENTRADA", "zona": "precio o rango", "confirmacion": "texto corto",
-"stop": "número", "tp1": "número", "tp2": "número", "rr": "número", "cancelar": "texto corto", "motivo": "si es SIN ENTRADA, por qué"}}]}}.
+"stop": "número", "tp1": "número", "tp2": "número", "rr": "número", "confluencias": "número 0-5", "cancelar": "texto corto", "motivo": "si es SIN ENTRADA, por qué"}}]}}.
 Copia los números tal cual aparecen en el brief.
 BRIEF: {texto[:6000]}""")
     except Exception:
         corto = {"oro": "?", "nq": "?", "titular": f"Brief de {nombre}", "entradas": []}
+    for e in corto.get("entradas", []) or []:
+        try:
+            conf = int(_n(e.get("confluencias")) or 0)
+        except Exception:
+            conf = 0
+        if not str(e.get("direccion", "")).upper().startswith("SIN") and conf < 4:
+            e["motivo"] = f"Solo {conf}/5 confluencias: no es de alta probabilidad."
+            e["direccion"] = "SIN ENTRADA"
     brief = {"sesion": sesion, "nombre": nombre, "ts": ahora(), "texto": texto, "sesgo": {"oro": corto.get("oro"), "nq": corto.get("nq")},
              "titular": corto.get("titular", ""), "entradas": corto.get("entradas", []), "mapas": mapas, "vix_nq": vixc, "macro": mac, "eventos": eventos, "cot": pos}
     me.m["briefs"].insert(0, brief)

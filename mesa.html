@@ -99,6 +99,7 @@ th{color:var(--acc);font-weight:700}
       <div class="brief" id="brief"><p class="empty">El primer brief aparece antes de la próxima sesión. Asia 2:30 pm, Londres 11:30 pm y Nueva York 5:30 am, hora de Las Vegas.</p></div>
     </section>
     <div style="display:grid;gap:16px;align-content:start">
+      <section class="card"><h2>Resultados de la mesa</h2><div id="stats"><p class="empty">Se llena solo: el Auditor revisa si cada entrada tocó primero el stop o el objetivo.</p></div></section>
       <section class="card"><h2>Niveles clave</h2><div id="niveles"><p class="empty">Sin datos todavía.</p></div></section>
       <section class="card"><h2>VIX y NQ</h2><div id="vixnq"><p class="empty">Sin datos todavía.</p></div></section>
       <section class="card"><h2>Calendario USD</h2><div id="cal"><p class="empty">Sin eventos cargados.</p></div></section>
@@ -115,7 +116,7 @@ const hhmm=iso=>{const d=new Date(iso);return isNaN(d)?"":d.toLocaleString("es-U
 const REPO=(()=>{const h=location.hostname;if(h.endsWith(".github.io"))return{o:h.split(".")[0],r:location.pathname.split("/").filter(Boolean)[0]};return null})();
 let token="";try{token=localStorage.getItem("cd_token")||""}catch{}
 let M={agentes:{},actividad:[],briefs:[]},sel=0,lastOk=0;
-const AG=[{id:"macro",n:"Macro"},{id:"flujos",n:"Flujos COT"},{id:"liquidez",n:"Liquidez"},{id:"riesgo",n:"Riesgo"},{id:"cio",n:"CIO"}];
+const AG=[{id:"auditor",n:"Auditor"},{id:"macro",n:"Macro"},{id:"flujos",n:"Flujos COT"},{id:"liquidez",n:"Liquidez"},{id:"riesgo",n:"Riesgo"},{id:"cio",n:"CIO"}];
 const SES=[["asia","Asia",21,30,[0,1,2,3,4]],["londres","Londres",6,30,[1,2,3,4,5]],["nuevayork","Nueva York",12,30,[1,2,3,4,5]]];
 function trabajando(id){const s=M.agentes[id];return !!(s&&s.estado==="trabajando"&&(Date.now()-new Date(s.actualizado))<30*60000)}
 function proximo(){const now=new Date();let best=null;for(let d=0;d<8;d++)for(const[,n,h,m,dias] of SES){const t=new Date(Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),now.getUTCDate()+d,h,m));if(t>now&&dias.includes(t.getUTCDay())&&(!best||t<best.t))best={t,n}}
@@ -143,10 +144,14 @@ function render(){
       <tr><td>Rango Londres</td><td>${lon("oro")?lon("oro").min+"–"+lon("oro").max:"—"}</td><td>${lon("nq")?lon("nq").min+"–"+lon("nq").max:"—"}</td></tr></tbody></table>`;
     $("cal").innerHTML=(b.eventos||[]).length?`<table><tbody>${b.eventos.map(e=>`<tr><td>${esc(e.hora_lv)}</td><td style="text-align:left">${esc(e.evento)}</td><td>${esc(e.impacto==="High"?"Alto":"Medio")}</td></tr>`).join("")}</tbody></table>`:'<p class="empty">Sin eventos USD importantes hoy.</p>';
     const p=k=>b.mapas?.[k]?.precio;$("kOro").textContent=p("oro")?Number(p("oro")).toLocaleString("en-US"):"—";$("kNq").textContent=p("nq")?Number(p("nq")).toLocaleString("en-US"):"—";
+    const st=M.estadisticas||{},tt=st.total;
+    $("stats").innerHTML=tt?`<table><tbody><tr><td>Operaciones cerradas</td><td>${tt.operaciones}</td></tr><tr><td>Acierto</td><td>${tt.acierto_pct}%</td></tr><tr><td>Resultado total</td><td>${tt.r_total>0?"+":""}${tt.r_total} R</td></tr>
+      ${Object.entries(st).filter(([k])=>k!=="total").map(([k,v])=>`<tr><td>${esc(k.replace("nuevayork","NY"))}</td><td>${v.acierto_pct}% · ${v.operaciones} op · ${v.r_total>0?"+":""}${v.r_total}R</td></tr>`).join("")}</tbody></table>`
+      :'<p class="empty">Se llena solo: el Auditor revisa si cada entrada tocó primero el stop o el objetivo.</p>';
     const en=b.entradas||[];
     $("entradas").innerHTML=en.length?en.map(e=>{const d=String(e.direccion||"").toUpperCase(),c=d.startsWith("COMPRA")?"compra":d.startsWith("VENTA")?"venta":"";
       return d.startsWith("SIN")?`<div class="tk"><h3>${esc(e.activo)}<span>SIN ENTRADA</span></h3><p style="margin:0;color:var(--muted)">${esc(e.motivo||e.cancelar||"")}</p></div>`:
-      `<div class="tk ${c}"><h3>${esc(e.activo)}<span>${esc(d)}</span></h3><dl><dt>Zona de entrada</dt><dd>${esc(e.zona)}</dd><dt>Stop</dt><dd>${esc(e.stop)}</dd><dt>TP1 / TP2</dt><dd>${esc(e.tp1)} / ${esc(e.tp2)}</dd><dt>R:R</dt><dd>${esc(e.rr)}</dd><dt>Confirmación</dt><dd style="font-family:var(--f-b)">${esc(e.confirmacion)}</dd><dt>Cancelar si</dt><dd style="font-family:var(--f-b)">${esc(e.cancelar)}</dd></dl></div>`}).join(""):'<p class="empty">Este brief no trae entradas.</p>';
+      `<div class="tk ${c}"><h3>${esc(e.activo)}<span>${esc(d)}</span></h3><dl><dt>Zona de entrada</dt><dd>${esc(e.zona)}</dd><dt>Stop</dt><dd>${esc(e.stop)}</dd><dt>TP1 / TP2</dt><dd>${esc(e.tp1)} / ${esc(e.tp2)}</dd><dt>R:R</dt><dd>${esc(e.rr)}</dd><dt>Confluencias</dt><dd>${esc(e.confluencias??"—")}/5</dd>${e.resultado?`<dt>Resultado</dt><dd>${esc(e.resultado)}${e.r!=null?" ("+(e.r>0?"+":"")+e.r+" R)":""}</dd>`:""}<dt>Confirmación</dt><dd style="font-family:var(--f-b)">${esc(e.confirmacion)}</dd><dt>Cancelar si</dt><dd style="font-family:var(--f-b)">${esc(e.cancelar)}</dd></dl></div>`}).join(""):'<p class="empty">Este brief no trae entradas.</p>';
     const x=b.vix_nq||{};$("kVix").textContent=x.vix??"—";
     $("vixnq").innerHTML=x.vix?`<p style="margin:0 0 8px;font-weight:700;color:${/CONFIRMA ALCISTA/.test(x.lectura)?"var(--up)":/CONFIRMA BAJISTA/.test(x.lectura)?"var(--down)":"var(--acc)"}">${esc(x.lectura||"")}</p>
       <table><tbody><tr><td>VIX</td><td>${x.vix} (${x.cambio_1d_pct>0?"+":""}${x.cambio_1d_pct}%)</td></tr><tr><td>VIX máx./mín. ayer</td><td>${x.vix_PDH} / ${x.vix_PDL}</td></tr>
