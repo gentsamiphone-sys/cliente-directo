@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4165.6 · NQ 31056.25 · VIX 15.31",
-   "actualizado": "2026-10-05T05:27:34Z"
+   "ultimo_resultado": "Oro 4166.3 · NQ 31047.25 · VIX 15.31 · 2 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-05T05:33:22Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T05:27:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-05T05:33:21Z",
+   "ultimo_resultado": "2 titulares nuevos, 2 de alto impacto: Monedas asiáticas caen mientras el dólar repunta y el euro toca mínimo de 17 meses"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4166.3 · NQ 31047.25 · VIX 15.31 · 2 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-05T05:33:22Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4165.6 · NQ 31056.25 · VIX 15.31",
@@ -1058,12 +1063,27 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4165.6,
-  "nq": 31056.25,
+  "oro": 4166.3,
+  "nq": 31047.25,
   "vix": 15.31,
-  "ts": "2026-10-05T05:27:34Z"
+  "ts": "2026-10-05T05:33:21Z"
  },
  "noticias": [
+  {
+   "titulo": "Asian currencies weaker as dollar surges, euro hits 17-month low",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-weaker-dollar-surges-051653601.html?.tsrc=rss",
+   "ts": "2026-10-05T05:16:53Z",
+   "fuente": "Yahoo Finance",
+   "id": "18d8d77a66",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Monedas asiáticas caen mientras el dólar repunta y el euro toca mínimo de 17 meses",
+   "efecto": ""
+  },
   {
    "titulo": "Skeena Resources Nears 75% Completion at High-Grade Eskay Creek Gold Project",
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQlc2dWR5d3ZCR3paUDJpVjA5SEdYRm9ZNUlVU0pSVFlkVFI0M2ZmaDZnVG90ckNEWlgzVDU1M0FjSWVHenhhTE9iZHdxTnlJZklwUTU2cTJzNFJCNDNfaU1pNlB4WEFYVTk2X1hNUHVNbFJBVG9wSE1DYlZGMXVKUkIyUFdfV1BnZ29STXhraHhfc1EySmYweWdZWXB0R05fSGQxSlEzbHBpZw?oc=5",
@@ -1089,6 +1109,21 @@
    "impacto": "medio",
    "es": "El punto de inflexión de 2029: la población occidental comenzará a encogerse, presionando las finanzas públicas",
    "efecto": "Genera cautela a largo plazo en bonos y divisa por presión fiscal."
+  },
+  {
+   "titulo": "U.S. Treasury Yields Surge as Allies Turn Net Sellers",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMmFPajlvQUZaSWVTRkdRWldEcG8za3lkcDhqbi1Ud1dudG5HaXpscV80ajM3Zy1abU5yeE1GVXdlcjczN01BSExCb0FDa3g5UDhFWmMxRWMzaEMyNjhtd2NsQXBmRzFHUXZEVzI1YVVOUmVJUkV3cTFfSWZibVRGd0dyZ2ZyS3N2d0xTelVn?oc=5",
+   "ts": "2026-10-05T04:52:51Z",
+   "fuente": "조선일보",
+   "id": "2044170448",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Rendimientos de los bonos del Tesoro de EE. UU. se disparan mientras aliados venden deuda neta",
+   "efecto": ""
   },
   {
    "titulo": "Olympic gold medalist Vladimir Gogoladze passes away",
@@ -2167,16 +2202,16 @@
    [
     1791176400,
     4159.0,
-    4167.9,
+    4168.1,
     4158.3,
-    4165.9
+    4163.8
    ],
    [
-    1791177450,
-    4165.6,
-    4165.6,
-    4165.6,
-    4165.6
+    1791177796,
+    4166.3,
+    4166.3,
+    4166.3,
+    4166.3
    ]
   ],
   "nq": [
@@ -2674,15 +2709,15 @@
     1791176400,
     31062.75,
     31085.0,
-    31053.0,
-    31054.25
+    31042.25,
+    31046.75
    ],
    [
-    1791177447,
-    31056.25,
-    31056.25,
-    31056.25,
-    31056.25
+    1791177799,
+    31047.25,
+    31047.25,
+    31047.25,
+    31047.25
    ]
   ]
  }
