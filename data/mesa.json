@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4183.4 · NQ 31002.5 · VIX 16.11 · 13 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-05T12:32:36Z"
+   "ultimo_resultado": "Oro 4188.3 · NQ 30991.0 · VIX 16.12 · 13 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-05T12:37:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T12:32:36Z",
-   "ultimo_resultado": "13 titulares nuevos, 2 de alto impacto: GM says hybrid vehicles are coming: 'We're not tone deaf to our customers'"
+   "actualizado": "2026-10-05T12:37:34Z",
+   "ultimo_resultado": "13 titulares nuevos, 2 de alto impacto: Freeport-McMoRan Reports Q3 Copper Output, Advances Grasberg Recovery"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4188.3 · NQ 30991.0 · VIX 16.12 · 13 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-05T12:37:35Z"
+  },
   {
    "agente": "cio",
    "texto": "Brief de Nueva York publicado: Oro alcista por tasas y NQ bajista presionado por VIX y alza en rendimientos.",
@@ -1027,7 +1032,8 @@
      "rr": "2.4:1",
      "confluencias": "4",
      "cancelar": "NQ rompe y consolida sobre 31221.25 antes de activar.",
-     "motivo": ""
+     "motivo": "",
+     "vivo": "esperando"
     }
    ],
    "mapas": {
@@ -1998,10 +2004,10 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4183.4,
-  "nq": 31002.5,
-  "vix": 16.11,
-  "ts": "2026-10-05T12:32:36Z"
+  "oro": 4188.3,
+  "nq": 30991.0,
+  "vix": 16.12,
+  "ts": "2026-10-05T12:37:34Z"
  },
  "noticias": [
   {
@@ -2258,6 +2264,15 @@
     "dolar"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Freeport-McMoRan Reports Q3 Copper Output, Advances Grasberg Recovery",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/freeport-mcmoran-reports-q3-copper-111100602.html?.tsrc=rss",
+   "ts": "2026-10-05T11:11:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "8b2a65b8f5",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Champions! Team USA Wins Gold at WBSC U-15 Baseball World Cup",
@@ -2870,19 +2885,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Gold and Silver Price Forecast: Rebound Faces Risk of a Deeper Drop",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMjhhRmVUSDh4eVdrNU5hVV9LeVQzV3k3TlowbU5QZk9oSVRLa2J3MEZheFN0Wnp2Sm56azdqdG1ON1lOb3p5LWhlTFhyODNHb3lNdm1KNDlucExEY0psQk9EaTBNWUVCbDJjb2twU1lGX1lkUF80N2NSSTFxU3ZGeHAxakhESGp6YXBLcGtCOGNlNm5XdGR1YWNGWkxMMGVQS0ozNGdaaENyRVVyMlB6US1Ib1hqczgy?oc=5",
-   "ts": "2026-10-05T08:21:25Z",
-   "fuente": "FXEmpire",
-   "id": "102dec9453",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "alto",
-   "es": "Pronóstico de oro y plata: el rebote enfrenta riesgo de una caída más profunda",
-   "efecto": "Presiona al oro a la baja por ventas técnicas."
   }
  ],
  "eventos_avisados": [],
@@ -3430,16 +3432,16 @@
    [
     1791201600,
     4184.4,
-    4187.3,
+    4189.2,
     4181.6,
-    4183.8
+    4188.2
    ],
    [
-    1791202953,
-    4183.4,
-    4183.4,
-    4183.4,
-    4183.4
+    1791203251,
+    4188.3,
+    4188.3,
+    4188.3,
+    4188.3
    ]
   ],
   "nq": [
@@ -3986,15 +3988,15 @@
     1791201600,
     31021.5,
     31037.0,
-    31000.25,
-    31007.75
+    30982.75,
+    30991.5
    ],
    [
-    1791202951,
-    31002.5,
-    31002.5,
-    31002.5,
-    31002.5
+    1791203254,
+    30992.0,
+    30992.0,
+    30992.0,
+    30992.0
    ]
   ],
   "vix": [
@@ -4430,14 +4432,14 @@
     16.14,
     16.15,
     16.11,
-    16.11
+    16.12
    ],
    [
-    1791202651,
-    16.11,
-    16.11,
-    16.11,
-    16.11
+    1791202951,
+    16.12,
+    16.12,
+    16.12,
+    16.12
    ]
   ]
  },
