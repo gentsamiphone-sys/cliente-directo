@@ -13,13 +13,13 @@ on:
         required: true
         default: nuevayork
         type: choice
-        options: [asia, londres, nuevayork]
+        options: [asia, londres, nuevayork, vigilar]
 
 permissions:
   contents: write
 
 concurrency:
-  group: agentes
+  group: mesa
   cancel-in-progress: false
 
 jobs:

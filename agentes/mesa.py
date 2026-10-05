@@ -518,8 +518,103 @@ BRIEF: {texto[:6000]}""")
                          ("\n".join(lineas) + "\n\n" + corto.get("titular", "") + "\n\n" + texto)[:3800])
 
 
+# ───────── vigilante: mira el precio mientras el mercado está abierto (sin IA, gratis) ─────────
+
+def mercado_abierto(t=None):
+    """Globex (oro y NQ): domingo 22:00 UTC → viernes 21:00 UTC, con pausa diaria 21:00–22:00 UTC."""
+    t = t or datetime.now(timezone.utc)
+    d, h = t.weekday(), t.hour  # lunes=0 … domingo=6
+    if d == 5 or (d == 4 and h >= 21) or (d == 6 and h < 22):
+        return False
+    return h != 21
+
+
+def _rango(x):
+    vals = [float(v.replace(",", "")) for v in _re.findall(r"\d[\d,]*\.?\d*", str(x or ""))]
+    vals = [v for v in vals if v > 50]
+    return (min(vals), max(vals)) if vals else (None, None)
+
+
+def vigilar():
+    if not mercado_abierto():
+        print("Mercado cerrado; el vigilante descansa.")
+        return
+    me = Mesa("vigilante")
+    vivo = {}
+    for k, sim in {**ACTIVOS, "vix": MACRO["vix"]}.items():
+        try:
+            v = yahoo(sim, "5m", "1d")
+            vivo[k] = {"precio": round(v[-1]["c"], 2), "velas": v}
+        except Exception as ex:
+            print("sin precio", k, ex)
+    me.m["en_vivo"] = {k: x["precio"] for k, x in vivo.items()} | {"ts": ahora()}
+    b = next((x for x in me.m.get("briefs", []) if x.get("entradas")), None)
+    avisos = []
+    if b:
+        t0 = datetime.fromisoformat(b["ts"].replace("Z", "+00:00")).timestamp()
+        for e in b["entradas"]:
+            if str(e.get("direccion", "")).upper().startswith("SIN") or e.get("resultado"):
+                continue
+            act = "oro" if "ORO" in str(e.get("activo", "")).upper() else "nq"
+            if act not in vivo:
+                continue
+            lo, hi = _rango(e.get("zona"))
+            sl, tp1, tp2 = _n(e.get("stop")), _n(e.get("tp1")), _n(e.get("tp2"))
+            if lo is None or sl is None:
+                continue
+            compra = str(e.get("direccion", "")).upper().startswith("COMPRA")
+            velas = [v for v in vivo[act]["velas"] if v["t"] >= t0]
+            precio = vivo[act]["precio"]
+            nom = f"{e.get('activo')} {e.get('direccion')}"
+            est = e.setdefault("vivo", "esperando")
+            if est == "esperando":
+                if any((v["l"] <= sl) if compra else (v["h"] >= sl) for v in velas):
+                    e["vivo"] = "cancelada"
+                    avisos.append((f"❌ {nom}: cancelada", f"El precio llegó al stop ({sl}) sin activarse. No entres."))
+                elif any(v["l"] <= hi and v["h"] >= lo for v in velas):
+                    e["vivo"] = "en_zona"
+                    avisos.append((f"📍 {nom}: llegó a la zona {lo}–{hi}",
+                                   f"Precio {precio}. Todavía NO entres: espera la confirmación → {e.get('confirmacion', '')}\n"
+                                   f"Stop {sl} · TP1 {tp1} · TP2 {tp2}"))
+            elif est == "en_zona":
+                # confirmación: la última vela de 1 hora cerrada termina a favor y de regreso fuera del lado malo de la zona
+                try:
+                    h1 = [v for v in yahoo(ACTIVOS[act], "60m", "2d") if v["t"] >= t0][:-1]
+                except Exception:
+                    h1 = []
+                if h1:
+                    u = h1[-1]
+                    ok = (u["c"] > u["o"] and u["c"] >= lo) if compra else (u["c"] < u["o"] and u["c"] <= hi)
+                    if ok:
+                        e["vivo"] = "confirmada"
+                        avisos.append((f"✅ {nom}: CONFIRMÓ", f"Vela 1H cerró a favor en {round(u['c'], 2)}. Precio {precio}.\n"
+                                       f"Si entras: stop {sl} · TP1 {tp1} · TP2 {tp2}. Tú decides."))
+                if any((v["l"] <= sl) if compra else (v["h"] >= sl) for v in velas[-3:]):
+                    e["vivo"] = "cancelada"
+                    avisos.append((f"❌ {nom}: tocó el stop", f"No confirmó y llegó a {sl}. Idea cancelada."))
+            elif est == "confirmada":
+                ult = velas[-3:]
+                if any((v["l"] <= sl) if compra else (v["h"] >= sl) for v in ult):
+                    e["vivo"] = "stop"
+                    avisos.append((f"🛑 {nom}: STOP", f"Tocó {sl}."))
+                elif tp2 and any((v["h"] >= tp2) if compra else (v["l"] <= tp2) for v in ult):
+                    e["vivo"] = "tp2"
+                    avisos.append((f"🎯 {nom}: TP2", f"Llegó a {tp2}. Objetivo completo."))
+                elif tp1 and not e.get("aviso_tp1") and any((v["h"] >= tp1) if compra else (v["l"] <= tp1) for v in ult):
+                    e["aviso_tp1"] = True
+                    avisos.append((f"🎯 {nom}: TP1", f"Llegó a {tp1}. Considera asegurar parte y mover el stop a la entrada."))
+    p = me.m["en_vivo"]
+    resumen = f"Oro {p.get('oro', '—')} · NQ {p.get('nq', '—')} · VIX {p.get('vix', '—')}"
+    for t, txt in avisos:
+        base.avisar_telefono("GSAM · " + t, txt, "high")
+    me.paso("vigilante", (" | ".join(t for t, _ in avisos) + " · " if avisos else "") + resumen, trabajando=False)
+
+
 if __name__ == "__main__":
     s = (sys.argv[1] if len(sys.argv) > 1 else "").lower()
-    if s not in SESIONES:
-        sys.exit("Uso: python agentes/mesa.py <asia|londres|nuevayork>")
-    correr(s)
+    if s == "vigilar":
+        vigilar()
+    elif s in SESIONES:
+        correr(s)
+    else:
+        sys.exit("Uso: python agentes/mesa.py <asia|londres|nuevayork|vigilar>")
