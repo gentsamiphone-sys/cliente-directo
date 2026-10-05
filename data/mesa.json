@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4184.4 · NQ 30998.5 · VIX 16.18 · 14 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-05T13:07:39Z"
+   "ultimo_resultado": "Oro 4183.5 · NQ 30999.5 · VIX 16.19 · 12 noticias nuevas (4 alto impacto)",
+   "actualizado": "2026-10-05T13:12:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T13:07:39Z",
-   "ultimo_resultado": "14 titulares nuevos, 3 de alto impacto: Antimony Market Faces a Nov. 27 Export-Control Deadline from China"
+   "actualizado": "2026-10-05T13:12:33Z",
+   "ultimo_resultado": "12 titulares nuevos, 4 de alto impacto: Treasury yields rise as traders await data, Fed minutes this week"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4183.5 · NQ 30999.5 · VIX 16.19 · 12 noticias nuevas (4 alto impacto)",
+   "ts": "2026-10-05T13:12:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4184.4 · NQ 30998.5 · VIX 16.18 · 14 noticias nuevas (3 alto impacto)",
@@ -2034,12 +2039,23 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4184.4,
-  "nq": 30998.5,
-  "vix": 16.18,
-  "ts": "2026-10-05T13:07:39Z"
+  "oro": 4183.5,
+  "nq": 30999.5,
+  "vix": 16.19,
+  "ts": "2026-10-05T13:12:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Treasury yields rise as traders await data, Fed minutes this week",
+   "link": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html",
+   "ts": "2026-10-05T13:09:51Z",
+   "fuente": "CNBC",
+   "id": "1f6fe7deaf",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Antimony Market Faces a Nov. 27 Export-Control Deadline from China",
    "link": "https://finance.yahoo.com/markets/commodities/articles/antimony-market-faces-nov-27-130000305.html?.tsrc=rss",
@@ -2898,19 +2914,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Resolute Mining Targets 500,000 Gold Ounces by 2028 as Doropo Build Advances",
-   "link": "https://www.marketbeat.com/instant-alerts/event-resolute-mining-targets-500000-gold-ounces-by-2028-as-doropo-build-advances-2026-10-05/?utm_source=yahoofinance&amp;utm_medium=yahoofinance&amp;.tsrc=rss",
-   "ts": "2026-10-05T09:02:07Z",
-   "fuente": "Yahoo Finance",
-   "id": "f9e4c33227",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Resolute Mining apunta a 500.000 onzas de oro para 2028 con el avance de Doropo",
-   "efecto": "Ruido corporativo menor; sin impacto institucional en el precio spot del oro."
   }
  ],
  "eventos_avisados": [],
@@ -3460,14 +3463,21 @@
     4184.4,
     4194.0,
     4181.6,
-    4184.9
+    4184.6
    ],
    [
-    1791205056,
-    4184.4,
-    4184.4,
-    4184.4,
-    4184.4
+    1791205200,
+    4184.3,
+    4186.1,
+    4183.2,
+    4183.7
+   ],
+   [
+    1791205351,
+    4183.5,
+    4183.5,
+    4183.5,
+    4183.5
    ]
   ],
   "nq": [
@@ -4015,14 +4025,21 @@
     31021.5,
     31037.0,
     30965.0,
-    31000.25
+    30995.75
    ],
    [
-    1791205057,
-    30998.5,
-    30998.5,
-    30998.5,
-    30998.5
+    1791205200,
+    30995.5,
+    31010.0,
+    30993.75,
+    31001.5
+   ],
+   [
+    1791205351,
+    31000.25,
+    31000.25,
+    31000.25,
+    31000.25
    ]
   ],
   "vix": [
@@ -4461,11 +4478,11 @@
     16.19
    ],
    [
-    1791204751,
-    16.18,
-    16.18,
-    16.18,
-    16.18
+    1791205051,
+    16.19,
+    16.19,
+    16.19,
+    16.19
    ]
   ]
  },
