@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4179.6 · NQ 31017.25 · VIX 16.05 · 12 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-05T13:32:36Z"
+   "ultimo_resultado": "Oro 4180.1 · NQ 31028.25 · VIX 16.01 · 12 noticias nuevas (6 alto impacto)",
+   "actualizado": "2026-10-05T13:37:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T13:32:35Z",
-   "ultimo_resultado": "12 titulares nuevos, 3 de alto impacto: Current price of gold as of October 5, 2026"
+   "actualizado": "2026-10-05T13:37:37Z",
+   "ultimo_resultado": "12 titulares nuevos, 6 de alto impacto: Acciones de Cerebras suben un 10% tras mención de Sam Altman"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4180.1 · NQ 31028.25 · VIX 16.01 · 12 noticias nuevas (6 alto impacto)",
+   "ts": "2026-10-05T13:37:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4179.6 · NQ 31017.25 · VIX 16.05 · 12 noticias nuevas (3 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "macro",
    "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
    "ts": "2026-10-04T16:41:30Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Abriendo la mesa para la sesión de Nueva York.",
-   "ts": "2026-10-04T16:41:29Z"
   }
  ],
  "briefs": [
@@ -2059,12 +2059,25 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4179.6,
-  "nq": 31017.25,
-  "vix": 16.05,
-  "ts": "2026-10-05T13:32:35Z"
+  "oro": 4180.1,
+  "nq": 31028.25,
+  "vix": 16.01,
+  "ts": "2026-10-05T13:37:37Z"
  },
  "noticias": [
+  {
+   "titulo": "Cerebras stock pops 10% after Sam Altman calls the chipmaker a 'close partner'",
+   "link": "https://www.cnbc.com/2026/10/05/cerebras-cbrs-sam-altman-close-partner.html",
+   "ts": "2026-10-05T13:34:56Z",
+   "fuente": "CNBC",
+   "id": "ad14ea0087",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Acciones de Cerebras suben un 10% tras mención de Sam Altman",
+   "efecto": "Impulsa el sector tecnológico y al NQ al alza."
+  },
   {
    "titulo": "JPMorgan’s trading desk is bullish near term once again",
    "link": "https://www.cnbc.com/2026/10/05/jpmorgans-trading-desk-is-bullish-near-term-once-again.html",
@@ -2135,6 +2148,19 @@
    "id": "7a958d6f66",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Nasdaq at Record High: Are You Too Invested in AI?",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQODVzQ25tS3gySXM4WjF5SDF3b1gtLVRWM3JYVkZPRVNfS0xld1N6N1pLZDdCbEpWeGxxTjB6RG95VFFPV0RoQmJIRkFlNVBJM3lzTFVZcHNXa1dBTU9zODg1NmdXV2padUhDbml4WGhTUGd5eTVRYzd1Y2ZJWVhwcXRJbGVaQW1Nc29TVGZYMk9tbVhnbkIw?oc=5",
+   "ts": "2026-10-05T13:04:22Z",
+   "fuente": "MoneyLion",
+   "id": "ee93966642",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "Nasdaq en máximos históricos: ¿Estás sobreinvertido en IA?",
+   "efecto": "Genera cautela institucional por posible sobrecompra en tecnología."
   },
   {
    "titulo": "Antimony Market Faces a Nov. 27 Export-Control Deadline from China",
@@ -2898,31 +2924,6 @@
    "id": "abf3a9f1aa",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Gold Prices Gain as US Employment Data Lowers October Fed Hike Probability",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdV82Rm9LV3VteWk0OGRQWWtmRHdaWnV3Rk84UHhjMlpxNm9kemZOeTFBTkZyR1FfaTZUSW93YnE3a0JPUGVONnBDaFloWFB5V0o5NnNCQ09WQTdGd3Y2YWEwMS1fTVdIR1dUaE9vNzZVaThMeHR2TUJhZDg4VVRLV1BsU3VlUQ?oc=5",
-   "ts": "2026-10-05T09:30:53Z",
-   "fuente": "uk.finance.yahoo.com",
-   "id": "7bddff1f89",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El oro sube porque los datos de empleo en EE. UU. reducen la probabilidad de subida de tasas de la Fed en octubre",
-   "efecto": "Debilita el dólar e impulsa al oro y al NQ al alza."
-  },
-  {
-   "titulo": "Nasdaq-listed tech company names Pa. county as site for big data center campus in the works",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONGh5blNlNGJoZlRmU3pLSmc1R19MYnM4S01CYzRPMTJHa2ktLUJ6OXFlZThfOTNmWWxfZk1XRDRINFVjdllzTWM4R1pYcTdLYzJRMWRwWUxRakJKNzFmZnpJMVNTR1h5VUZERmpvQTAxcGh2aWUtYlNXM1hBZWU4clp0NUJiWUE2RXp2WEtxV2h3UUhvM2FJckFQcy1ndlB2YVMzLWRjZjVySUJZZHZUcTZjUk5ta20yN05mdEFLRG5vd0JPc1Y0aGszNzJrVlpuck4tcS1yWVQ?oc=5",
-   "ts": "2026-10-05T09:30:00Z",
-   "fuente": "lehighvalleylive.com",
-   "id": "534fc4e40d",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3479,14 +3480,14 @@
     4184.3,
     4186.1,
     4174.8,
-    4178.9
+    4180.6
    ],
    [
-    1791206551,
-    4179.6,
-    4179.6,
-    4179.6,
-    4179.6
+    1791206856,
+    4180.0,
+    4180.0,
+    4180.0,
+    4180.0
    ]
   ],
   "nq": [
@@ -4039,16 +4040,16 @@
    [
     1791205200,
     30995.5,
-    31026.0,
+    31039.75,
     30988.5,
-    31015.25
+    31036.75
    ],
    [
-    1791206548,
-    31017.25,
-    31017.25,
-    31017.25,
-    31017.25
+    1791206857,
+    31028.25,
+    31028.25,
+    31028.25,
+    31028.25
    ]
   ],
   "vix": [
@@ -4490,17 +4491,17 @@
     1791205200,
     16.19,
     16.19,
-    16.06,
-    16.06
+    16.01,
+    16.01
    ],
    [
-    1791206251,
-    16.05,
-    16.05,
-    16.05,
-    16.05
+    1791206551,
+    16.01,
+    16.01,
+    16.01,
+    16.01
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-05T13:02:38Z"
+ "noticias_traducidas_ts": "2026-10-05T13:37:33Z"
 }
