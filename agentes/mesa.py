@@ -34,7 +34,7 @@ LV = ZoneInfo("America/Los_Angeles")
 UA = {"User-Agent": "Mozilla/5.0 (GSAM Mesa)"}
 ACTIVOS = {"oro": "GC=F", "nq": "NQ=F"}
 MACRO = {"dxy": "DX-Y.NYB", "us10y": "^TNX", "vix": "^VIX", "spx": "ES=F", "plata": "SI=F", "petroleo": "CL=F"}
-SESIONES = {"asia": "Asia (Tokio/Sídney)", "londres": "Londres", "nuevayork": "Nueva York"}
+SESIONES = {"asia": "Asia (Tokio/Sídney)", "londres": "Londres", "nuevayork": "Nueva York", "semana": "Plan de la semana"}
 
 
 def ahora():
@@ -184,7 +184,7 @@ def macro_datos():
     return out
 
 
-def calendario():
+def calendario(dias=1):
     try:
         r = requests.get("https://nfs.faireconomy.media/ff_calendar_thisweek.json", headers=UA, timeout=30)
         eventos = r.json()
@@ -199,10 +199,10 @@ def calendario():
             t = datetime.fromisoformat(e["date"]).astimezone(LV)
         except Exception:
             continue
-        if hoy <= t.date() <= hoy + timedelta(days=1):
+        if hoy <= t.date() <= hoy + timedelta(days=dias):
             sel.append({"hora_lv": t.strftime("%a %H:%M"), "evento": e.get("title"), "impacto": e.get("impact"),
                         "previsto": e.get("forecast"), "anterior": e.get("previous")})
-    return {"eventos": sel[:12]}
+    return {"eventos": sel[:40 if dias > 1 else 12]}
 
 
 def _cot_tabla(url):
@@ -378,6 +378,15 @@ def auditar(me):
 
 # ───────── la sesión ─────────
 
+SEMANAL = """ESTE ES EL PLAN DE LA SEMANA (domingo, antes de que abra el mercado). Cambia el enfoque:
+- En "Lo que mueve hoy" pon los eventos de TODA la semana, día por día con hora de Las Vegas, y marca los de alto impacto.
+- En "Mapa de liquidez" usa niveles semanales: máximo/mínimo de la semana pasada (PWH/PWL), cierre semanal y los niveles diarios clave.
+- En "Escenarios" piensa en la semana completa: qué tendría que pasar para una semana alcista o bajista y qué días son los peligrosos.
+- En "Plan de entrada" NO des entradas para ejecutar: escribe SIN ENTRADA en ambos activos con el motivo
+  "las entradas se definen en el brief de cada sesión". En su lugar da las ZONAS de la semana donde la mesa buscaría compras y ventas.
+- Termina con un "Resumen de la semana" de 3 líneas: sesgo, días clave y la idea principal."""
+
+
 def correr(sesion):
     nombre = SESIONES[sesion]
     me = Mesa("cio")
@@ -394,7 +403,7 @@ def correr(sesion):
 
     me.paso("macro", "Revisando dólar, tasas a 10 años, VIX y calendario económico…")
     mac = macro_datos()
-    cal = calendario()
+    cal = calendario(6 if sesion == "semana" else 1)
     eventos = cal.get("eventos", [])
     me.paso("macro", f"DXY {mac.get('dxy', {}).get('cambio_1d_pct', '?')}% · 10Y {mac.get('us10y', {}).get('ultimo', '?')} · VIX {mac.get('vix', {}).get('ultimo', '?')} · {len(eventos)} eventos USD en el radar.", trabajando=False)
 
@@ -480,6 +489,7 @@ Escribe el BRIEF DE LA SESIÓN DE {nombre.upper()} en español, claro y directo,
 Termina con una línea: "Análisis educativo de agentes de IA. No es consejo financiero."
 Usa SOLO los números de los datos; si un dato falta dilo. Máximo 650 palabras.
 
+{SEMANAL if sesion == "semana" else ""}
 DATOS:
 {json.dumps(datos, ensure_ascii=False)[:14000]}"""
     try:
