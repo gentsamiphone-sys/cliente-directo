@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4179.0 · NQ 31021.25 · VIX 15.31",
-   "actualizado": "2026-10-05T06:52:33Z"
+   "ultimo_resultado": "Oro 4179.2 · NQ 31022.0 · VIX 15.31 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-05T06:57:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T06:52:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-05T06:57:36Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: El euro cae a mínimo de 17 meses por incertidumbre política en España y Francia."
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4179.2 · NQ 31022.0 · VIX 15.31 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-05T06:57:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4179.0 · NQ 31021.25 · VIX 15.31",
@@ -1399,12 +1404,27 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4179.0,
-  "nq": 31021.25,
+  "oro": 4179.2,
+  "nq": 31022.0,
   "vix": 15.31,
-  "ts": "2026-10-05T06:52:33Z"
+  "ts": "2026-10-05T06:57:36Z"
  },
  "noticias": [
+  {
+   "titulo": "Euro hits 17-month low as political uncertainty in Spain and France rattles markets",
+   "link": "https://www.cnbc.com/2026/10/05/euro-dollar-spain-france-risk.html",
+   "ts": "2026-10-05T06:54:13Z",
+   "fuente": "CNBC",
+   "id": "73355a6fef",
+   "activos": [
+    "dolar",
+    "oro",
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "El euro cae a mínimo de 17 meses por incertidumbre política en España y Francia.",
+   "efecto": "Fortalece al dólar, presionando a la baja al oro y al NQ."
+  },
   {
    "titulo": "The Fed Builds the GENIUS Act Bank-Grade Plumbing — Two NPRMs, Two Paths, One Deadline",
    "link": "https://finance.yahoo.com/markets/crypto/articles/fed-builds-genius-act-bank-062435395.html?.tsrc=rss",
@@ -2584,14 +2604,14 @@
     4162.1,
     4184.1,
     4161.7,
-    4180.6
+    4179.7
    ],
    [
-    1791182549,
-    4179.0,
-    4179.0,
-    4179.0,
-    4179.0
+    1791182854,
+    4179.2,
+    4179.2,
+    4179.2,
+    4179.2
    ]
   ],
   "nq": [
@@ -3100,11 +3120,11 @@
     31023.75
    ],
    [
-    1791182553,
-    31021.25,
-    31021.25,
-    31021.25,
-    31021.25
+    1791182855,
+    31022.0,
+    31022.0,
+    31022.0,
+    31022.0
    ]
   ],
   "vix": [
@@ -3607,5 +3627,5 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-05T06:12:31Z"
+ "noticias_traducidas_ts": "2026-10-05T06:57:34Z"
 }
