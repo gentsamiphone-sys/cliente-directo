@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4156.7 · NQ 31234.5 · VIX 15.51 · 13 noticias nuevas",
-   "actualizado": "2026-10-05T16:42:40Z"
+   "ultimo_resultado": "Oro 4156.9 · NQ 31247.5 · VIX 15.51 · 15 noticias nuevas",
+   "actualizado": "2026-10-05T16:47:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T16:42:39Z",
-   "ultimo_resultado": "13 titulares nuevos: US Equity Indexes Mixed as Treasury Yields Trade at Highest in Two Decades"
+   "actualizado": "2026-10-05T16:47:34Z",
+   "ultimo_resultado": "15 titulares nuevos: Cramer is closely watching Nvidia's massive buyback. Here's what he wants to see"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4156.9 · NQ 31247.5 · VIX 15.51 · 15 noticias nuevas",
+   "ts": "2026-10-05T16:47:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4156.7 · NQ 31234.5 · VIX 15.51 · 13 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "cio",
    "texto": "Abriendo la mesa para la sesión de Asia (Tokio/Sídney).",
    "ts": "2026-10-04T21:47:03Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Brief de Asia (Tokio/Sídney) publicado: Oro bajista por tasas reales; NQ alcista apoyado por VIX a la baja.",
-   "ts": "2026-10-04T20:41:24Z"
   }
  ],
  "briefs": [
@@ -2059,10 +2059,10 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4156.7,
-  "nq": 31234.5,
+  "oro": 4156.9,
+  "nq": 31247.5,
   "vix": 15.51,
-  "ts": "2026-10-05T16:42:40Z"
+  "ts": "2026-10-05T16:47:35Z"
  },
  "noticias": [
   {
@@ -2075,6 +2075,26 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Cramer is closely watching Nvidia's massive buyback. Here's what he wants to see",
+   "link": "https://www.cnbc.com/investingclub/2026/10/05/cramer-is-closely-watching-nvidias-buyback-heres-what-he-wants-to-see.html",
+   "ts": "2026-10-05T16:29:58Z",
+   "fuente": "CNBC",
+   "id": "f7d6940769",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Starbucks recovery plan is working. Here's how Mike Khouw says to trade the coffee giant",
+   "link": "https://www.cnbc.com/2026/10/05/starbucks-recovery-plan-is-working-heres-how-mike-khouw-says-to-trade-the-coffee-giant.html",
+   "ts": "2026-10-05T16:29:29Z",
+   "fuente": "CNBC",
+   "id": "c7980a5bd3",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Canada counter-tariffs on U.S. goods could hit Kern County farmers, professor says",
@@ -2173,6 +2193,15 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Russia plague: What we know about the suspected case reportedly linked to a lab worker’s death",
+   "link": "https://www.cnbc.com/2026/10/05/russia-plague-suspected-case-irkutsk.html",
+   "ts": "2026-10-05T15:57:36Z",
+   "fuente": "CNBC",
+   "id": "ee588b61c8",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
@@ -2891,38 +2920,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Trump's nemesis in Europe: Why Spain's Sanchez is calling a snap election",
-   "link": "https://www.cnbc.com/2026/10/05/spain-sanchez-snap-election-housing-protests.html",
-   "ts": "2026-10-05T12:11:58Z",
-   "fuente": "CNBC",
-   "id": "5dc601f11e",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Gold prices rise after weak September jobs report dims Fed rate hike",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4N0lnTTVpS1lYQjNObkUycnJoVEstb05yQnZIYnhLT1JYa2NUMGZUR1pDd1lfVWNycTJsSFlnclF3S2liZ295MFFCZE14SXI3VkNZME9oVWZaeGFsZkV3UnpZdW5ub1k5ZHpzdHc1Rkk5OU94czJLeHpXOFpVcm8?oc=5",
-   "ts": "2026-10-05T12:09:40Z",
-   "fuente": "qz.com",
-   "id": "81263fa6c6",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Tech Futures Fall; Brazil Stocks Soar On Election Results",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVThkME9ydU1vNDRMUS1kT2lOZ0p1THhFV3owdS1JNUJpeWlLX1p3SGhBa1phaktqQlVqWmRGRDdTcEp6S3lncUVDUVNrSGNmSHZoQVRQb1hPTndoblJXS3hJaWE1TGFHMkRsbFVjUFF1bVItdGcwYUdyMnJMZ25hU3VibkhWN0tsZjFGU25NNUwxdDROU2MyQjZkaXNCbVV6TjE1dnhGNU9rdjFMNjI4T0lwcTVnbHotODBVdnY2cw?oc=5",
-   "ts": "2026-10-05T12:08:00Z",
-   "fuente": "Investor's Business Daily",
-   "id": "6319a1db82",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3500,14 +3497,14 @@
     4164.7,
     4164.8,
     4153.6,
-    4156.0
+    4156.5
    ],
    [
-    1791217957,
-    4156.7,
-    4156.7,
-    4156.7,
-    4156.7
+    1791218249,
+    4156.9,
+    4156.9,
+    4156.9,
+    4156.9
    ]
   ],
   "nq": [
@@ -4081,16 +4078,16 @@
    [
     1791216000,
     31235.5,
-    31244.75,
+    31257.25,
     31200.5,
-    31235.0
+    31245.5
    ],
    [
-    1791217959,
-    31234.5,
-    31234.5,
-    31234.5,
-    31234.5
+    1791218253,
+    31247.5,
+    31247.5,
+    31247.5,
+    31247.5
    ]
   ],
   "vix": [
@@ -4557,7 +4554,7 @@
     15.51
    ],
    [
-    1791217651,
+    1791217951,
     15.51,
     15.51,
     15.51,
