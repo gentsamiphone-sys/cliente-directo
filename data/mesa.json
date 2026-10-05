@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4156.3 · NQ 31204.75 · VIX 15.54 · 13 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-05T16:27:36Z"
+   "ultimo_resultado": "Oro 4156.8 · NQ 31217.25 · VIX 15.54 · 13 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-05T16:33:01Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T16:27:35Z",
-   "ultimo_resultado": "13 titulares nuevos, 2 de alto impacto: The Gold Season 2: Plot, Cast & Where to Watch | Masterpiece | Official Site"
+   "actualizado": "2026-10-05T16:33:00Z",
+   "ultimo_resultado": "13 titulares nuevos, 3 de alto impacto: Canada counter-tariffs on U.S. goods could hit Kern County farmers, professor says"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4156.8 · NQ 31217.25 · VIX 15.54 · 13 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-05T16:33:01Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4156.3 · NQ 31204.75 · VIX 15.54 · 13 noticias nuevas (2 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "riesgo",
    "texto": "Volatilidad normal (VIX 15.31).",
    "ts": "2026-10-04T20:41:06Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "VIX/NQ: DIVERGENCIA: NQ baja pero el VIX también baja (caída sin miedo; posible barrida para comprar)",
-   "ts": "2026-10-04T20:41:04Z"
   }
  ],
  "briefs": [
@@ -2059,12 +2059,21 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4156.3,
-  "nq": 31204.75,
+  "oro": 4156.8,
+  "nq": 31217.25,
   "vix": 15.54,
-  "ts": "2026-10-05T16:27:35Z"
+  "ts": "2026-10-05T16:33:01Z"
  },
  "noticias": [
+  {
+   "titulo": "Canada counter-tariffs on U.S. goods could hit Kern County farmers, professor says",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQb211cVBTQUx3YWM3NnByV21VTjRkZktrQ3NQVXRZdGIydjJkZ3ZscnQ2QTR2QWhTdGtqczBvc204dDNIb2RjTWw4dVVQUWFkQlBQNWphNWZhVE9vdTcxX00wTkdCbHE2WldtX2dxUWRqVUdVR2NXTEY4NjBLUmo1QkhTcmN6R2xIYmhzNDVBQmhFUVVZdGZjZ1VSakxseFhpT2FoeUd4X1NDdnByWjNNelRRSFNnRjU0aG04ejFERkhrRXZ4c0IzbHc0dzRrR0hfS1JTNk92a054WlJPX3FURjJmZ01Qcy1j?oc=5",
+   "ts": "2026-10-05T16:28:10Z",
+   "fuente": "KBAK",
+   "id": "d85dcaf684",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "The Gold Season 2: Plot, Cast & Where to Watch | Masterpiece | Official Site",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbDhPc2JsUHBMY1VfdFFhZHZkMEJzdXdzT1RuMndCX2hXRTN0a2hHTWtOSVRwY1M0bHZ1YS1HM1AyLTlUcFZRbFVzbkVqeVJQNWswdUt6MW9oLU5LZG9NMDI3ZlNmM01yWGNnSTRUbWtoYTEwdEZwcGJzTVJuMkNyUHdIQVBlMGwxM1E3cFNrMnZYcVVRRWVVaXdGa2VHUUhTTUE?oc=5",
@@ -2493,6 +2502,17 @@
    "efecto": "Ruido sectorial, sin efecto directo en futuros del índice."
   },
   {
+   "titulo": "Nvidia's $6 trillion milestone looms. Here's when options traders see it happening",
+   "link": "https://www.cnbc.com/2026/10/05/nvidias-6-trillion-milestone-looms-heres-when-options-traders-see-it-happening.html",
+   "ts": "2026-10-05T13:56:58Z",
+   "fuente": "CNBC",
+   "id": "176750827d",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Canada Commodities: Oil Prices Fall on Higher Middle East Crude Exports",
    "link": "https://finance.yahoo.com/markets/commodities/articles/canada-commodities-oil-prices-fall-135200973.html?.tsrc=rss",
    "ts": "2026-10-05T13:52:00Z",
@@ -2901,28 +2921,6 @@
    "impacto": "bajo",
    "es": "Thunder Mountain Gold nombra a Ron Clayton como ejecutivo minero",
    "efecto": ""
-  },
-  {
-   "titulo": "Osisko Gold Intersects 7.28 g/t Au over 16.15 m (105 m Vertical Depth), including 173.66 g/t Au over 0.60 m, and 7.13 g/t Au over 11.60 m (61 m Vertical Depth) in Lowhee Zone Underground Infill Drilling at Cariboo Gold Project",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/osisko-gold-intersects-7-28-120000024.html?.tsrc=rss",
-   "ts": "2026-10-05T12:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "042a49cf3f",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Argenta Silver Intersects 0.45 g/t Au and 0.19 % Cu over 46.0m at Gold-Copper target; 1,599 g/t Ag over 4.0m including 2,780 g/t Ag over 2.0m at Resource Expansion Drilling Area",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/argenta-silver-intersects-0-45-120000163.html?.tsrc=rss",
-   "ts": "2026-10-05T12:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "b24ddb4815",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3500,14 +3498,14 @@
     4164.7,
     4164.8,
     4154.6,
-    4156.5
+    4156.8
    ],
    [
-    1791217050,
-    4156.3,
-    4156.3,
-    4156.3,
-    4156.3
+    1791217377,
+    4156.8,
+    4156.8,
+    4156.8,
+    4156.8
    ]
   ],
   "nq": [
@@ -4082,15 +4080,15 @@
     1791216000,
     31235.5,
     31237.75,
-    31202.0,
-    31205.5
+    31200.5,
+    31217.25
    ],
    [
-    1791217055,
-    31204.75,
-    31204.75,
-    31204.75,
-    31204.75
+    1791217379,
+    31217.25,
+    31217.25,
+    31217.25,
+    31217.25
    ]
   ],
   "vix": [
@@ -4553,11 +4551,11 @@
     1791216000,
     15.55,
     15.56,
-    15.54,
+    15.53,
     15.54
    ],
    [
-    1791216751,
+    1791217066,
     15.54,
     15.54,
     15.54,
