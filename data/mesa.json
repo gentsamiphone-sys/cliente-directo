@@ -45,11 +45,16 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T21:47:35Z",
-   "ultimo_resultado": "15 titulares nuevos: Satya Nadella reinvented Microsoft once. Can he do it again in the AI era?"
+   "actualizado": "2026-10-05T21:52:47Z",
+   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: Jim Cramer Makes His Feelings About Taiwan Semiconductor (TSM) Clear"
   }
  },
  "actividad": [
+  {
+   "agente": "noticias",
+   "texto": "15 titulares nuevos, 1 de alto impacto: Jim Cramer Makes His Feelings About Taiwan Semiconductor (TSM) Clear",
+   "ts": "2026-10-05T21:52:47Z"
+  },
   {
    "agente": "noticias",
    "texto": "15 titulares nuevos: Satya Nadella reinvented Microsoft once. Can he do it again in the AI era?",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4181.5 · NQ 31045.75 · VIX 15.31",
    "ts": "2026-10-05T06:37:38Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Brief de Londres publicado: Sesgo alcista en Oro y NQ apoyado por VIX bajista y flujos institucionales",
-   "ts": "2026-10-05T06:34:46Z"
   }
  ],
  "briefs": [
@@ -2448,6 +2448,17 @@
  },
  "noticias": [
   {
+   "titulo": "Jim Cramer Makes His Feelings About Taiwan Semiconductor (TSM) Clear",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-makes-feelings-taiwan-213639641.html?.tsrc=rss",
+   "ts": "2026-10-05T21:36:39Z",
+   "fuente": "Yahoo Finance",
+   "id": "8a4147cf5b",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Stock Market Today, Oct. 5: Tech Momentum Lifts Nasdaq as Treasury Yields Surge",
    "link": "https://www.fool.com/coverage/stock-market-today/2026/10/05/stock-market-today-oct-5-tech-momentum-lifts-nasdaq-as-treasury-yields-surge/?.tsrc=rss",
    "ts": "2026-10-05T21:33:29Z",
@@ -2597,6 +2608,15 @@
    "impacto": "alto",
    "es": "Acciones de EE. UU. suben mientras apuestas por IA compensan temores de bonos",
    "efecto": "Fomenta compras masivas en tecnológicas que lideran el NQ."
+  },
+  {
+   "titulo": "U.S. and China Set Plan for Repealing Some Tariffs",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRXMzaW91d3Vqc2lVRG1qdUNEQXpfRUZGMm9YbnNXRVRXcVZfakRPSXlsaG9iNTdrMUlpeE5ZY2lEREpKQmthNXhNX3dnbVpscFlUelRiYXVzdHVWenlKUmV3WFdTbEtERUVlV3JMQ2FCNXJHcGJ6YUd4cURNd3NxTUJsUjE4ODNOMy1DNlQ1SXY?oc=5",
+   "ts": "2026-10-05T20:17:56Z",
+   "fuente": "iowafarmbureau.com",
+   "id": "7a0c0280cf",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Brazil Stocks Hit Record as Dollar Crashes After Election Shock",
@@ -3315,6 +3335,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Crude Oil Prices Weaken on Dollar Strength and Saudi Price Cuts",
+   "link": "https://www.barchart.com/story/news/4964830/crude-oil-prices-weaken-on-dollar-strength-and-saudi-price-cuts?.tsrc=rss",
+   "ts": "2026-10-05T15:40:58Z",
+   "fuente": "Yahoo Finance",
+   "id": "8dbc3500d5",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "3 Nasdaq 100 Stocks with Open Questions",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRFhaaGtmTXVZeHFaaUVUUl9iel84M2MwUmtqOG5rNXozbWZoYTFsM1NIMF9SeUVLRWFlX3ViRTF0bk1ObWR6ZGdHTm1haDNGajBVY3VwWUpzSlFSVWhtN28wbFdNeXlTcTFhUVRaVkoyU2dFTmlLRzhhNVNPS3M5elNCX190Ry1WRmRPNzcxX1JtSXM?oc=5",
    "ts": "2026-10-05T15:39:00Z",
@@ -3322,37 +3353,6 @@
    "id": "e31af09f81",
    "activos": [
     "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "These are the cheapest and most expensive U.S. flights this November",
-   "link": "https://www.cnbc.com/2026/10/05/cheapest-most-expensive-us-flights-in-november.html",
-   "ts": "2026-10-05T15:38:27Z",
-   "fuente": "CNBC",
-   "id": "103ad1921d",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Philly-area Jewish athletes score gold medal at basketball championship",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTEZ3OGt1aVlkcVZjTmozRmE4bU4yaWRaMzVGamZKVW96UGZuSFFMcFJ1Tnl1VGFWMkJLbkFFdUlUZGlmemlwcVRWUFFOZXZsUXF0akp4NFFfSTRCX1NFMzhkdXVJaFF0UnQ2VXgyY3FjRkNmRzhDWG8zLXZHN2xTVWMzbzh6aVg3ZDNGTW5mTV9fSUFFeWhIVlJYWlZSZm5hWFHSAacBQVVfeXFMT3RTLWlHcVBaU1BIeW1DWEpTYjNnMk9YSlBUekhqeWF3OEZJZ0dQNEg5OVVudE9xbWhmU2dLUXZWUnNuOE9JZ1B1OFVyaXg4VG1ENXVaNFdmdDF4MkZXRVNOMko2UkpaN2xHbzltMm8wUDdfa2Zjcm5wYjd1cEVwZFRpaXZQVUd5dzlRUjlqZmVjc2JPSGFvam92cDZ4OUtOanUwNFl2Mnc?oc=5",
-   "ts": "2026-10-05T15:33:53Z",
-   "fuente": "6abc Philadelphia",
-   "id": "7db18032ab",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Watch A Gold Relief Rally on the Horizon?",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN3ctSE9ZbzlQZmRuZjEyckhRajhFaW9NVE5tVjNKeUxGUGtqZTJ4UVpIVjJiMllLcW1vb3hYQXBCbVd6bnFpSUxXNnI4MnlDbVROaXdoV1BZYVVhaE9Qem1lMW9FNzNvUzRud0VKbUE5akIzbl9kXzBraUl4dGNFQWJuZFBkVkJEdEltQWpxa2NkOUE?oc=5",
-   "ts": "2026-10-05T15:32:39Z",
-   "fuente": "Bloomberg.com",
-   "id": "a89f452195",
-   "activos": [
-    "oro"
    ],
    "impacto": "medio"
   }
