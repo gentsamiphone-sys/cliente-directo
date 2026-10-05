@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4169.2 · NQ 31220.25 · VIX 15.56 · 9 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-05T15:22:36Z"
+   "ultimo_resultado": "Oro 4163.7 · NQ 31226.5 · VIX 15.55 · 12 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-05T15:27:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T15:22:35Z",
-   "ultimo_resultado": "9 titulares nuevos, 1 de alto impacto: Can stocks stay resilient with higher Treasury yields?"
+   "actualizado": "2026-10-05T15:27:36Z",
+   "ultimo_resultado": "12 titulares nuevos, 1 de alto impacto: Nasdaq rises to fresh record high led by tech; traders eye oil and yields: Live updates"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4163.7 · NQ 31226.5 · VIX 15.55 · 12 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-05T15:27:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4169.2 · NQ 31220.25 · VIX 15.56 · 9 noticias nuevas (1 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "cio",
    "texto": "Brief de Asia (Tokio/Sídney) publicado: Oro bajista y NQ alcista; sin entradas por ATR consumido >100%",
    "ts": "2026-10-04T16:49:09Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Escribiendo el brief institucional…",
-   "ts": "2026-10-04T16:48:43Z"
   }
  ],
  "briefs": [
@@ -2059,12 +2059,33 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4169.2,
-  "nq": 31220.25,
-  "vix": 15.56,
-  "ts": "2026-10-05T15:22:35Z"
+  "oro": 4163.7,
+  "nq": 31226.5,
+  "vix": 15.55,
+  "ts": "2026-10-05T15:27:37Z"
  },
  "noticias": [
+  {
+   "titulo": "Nasdaq rises to fresh record high led by tech; traders eye oil and yields: Live updates",
+   "link": "https://www.cnbc.com/2026/10/04/stock-market-today-live-updates.html",
+   "ts": "2026-10-05T15:20:32Z",
+   "fuente": "CNBC",
+   "id": "3a213f54bf",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "David Ellison and Ynon Kreiz announce Skydance leadership team",
+   "link": "https://www.cnbc.com/2026/10/05/david-ellison-ynon-kreiz-skydance-leadership-team.html",
+   "ts": "2026-10-05T15:16:17Z",
+   "fuente": "CNBC",
+   "id": "b4c7bafa89",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Trump’s India Tariffs over Russian Oil Were Never about Principle",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GVlcxc25pZEd5aWNrS2hwZnZkYkNmd3dpRHZmSkZmcXJGc2lvcE1hWURSMk9NZFFwVERPSmFFX052T0RwTXRnT196LTZmWlVDS1VPNEtEc2dlODVHdHZ0UmZTNG5XMXVvckI0Y2YxN1U3ekJ6TUdr?oc=5",
@@ -2095,6 +2116,17 @@
    "impacto": "alto"
   },
   {
+   "titulo": "S&P 500 up, Nasdaq at record high as megacap tech stocks rise",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV09jSm4zWHp2ODd2SmNPRHdJcUhDcjNzZ3dwYkwzZ3NSVHdyVUdUVEI0TWltb3RKQUZucVVNa2l1UzAxWmtSd0hQSWFjVXV0WVZiUjJFNGJDeEZQVlhoWDJ5WWpxLWxuc3ZVYXBLR0QxSzdZMVFjSklpUTB2Q2YwdE12VFl0bUw2RGRjZ3VoUmFlMkp4UUstYy1R?oc=5",
+   "ts": "2026-10-05T14:50:41Z",
+   "fuente": "Reuters",
+   "id": "3cde8f322a",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Can stocks stay resilient with higher Treasury yields?",
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRTdBT3VwVkI3cU1VUUxrano4M25PVWxOX0FabW5PR2RFb2F1TEtsejk2cWZoX0hYbm1oemdmbExWWFAwcVJDRmxkSkdsYXVDSlNEaDhnX3N1TUVHUEdqX0s0LTFibG5pR0xYNG1fa0pvTWVzaFFvZDZyd1lhei11ZXhKbWw3ZlVMc3JN?oc=5",
    "ts": "2026-10-05T14:20:24Z",
@@ -2123,6 +2155,15 @@
    "ts": "2026-10-05T14:16:25Z",
    "fuente": "CNBC",
    "id": "28886a2de1",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Can Pan American Silver's Timmins Operations Drive Growth?",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/pan-american-silvers-timmins-operations-141500554.html?.tsrc=rss",
+   "ts": "2026-10-05T14:15:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "71a9106dd9",
    "activos": [],
    "impacto": "bajo"
   },
@@ -2883,50 +2924,6 @@
    "id": "df8412f457",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Satya Nadella reinvented Microsoft once. Can he do it again in the AI era?",
-   "link": "https://www.cnbc.com/2026/10/05/satya-nadella-reinvented-microsoft-once-can-he-do-it-in-the-ai-era.html",
-   "ts": "2026-10-05T11:00:01Z",
-   "fuente": "CNBC",
-   "id": "13d47bc2f3",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Spanish Mountain Gold Announces 2026 AGM Voting Results",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQa2xnNFhudnhWdFJEQTRYaGF0c29RMThtRGxVX3pIMnkyNVNFamRhanFPd0RaZy0yWUFVbWlEc0lvSFBqTGNfdXJnTm9BQzREcDlRanVGMEpzQlh2VjBkUGdhY2VGeVo2ejdzeGJEVnEtOFhYcVhVd3BPWE0zT2VWTlNJY0wtTkJBZ3J5Snk0R25pdmxhZ0syM2NtNEllSWdBOWlF?oc=5",
-   "ts": "2026-10-05T11:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "91449f1955",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "WESCAN GOLDFIELDS COMMENCES DIAMOND DRILLING AT MUNRO LAKE PROJECT",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/wescan-goldfields-commences-diamond-drilling-110000505.html?.tsrc=rss",
-   "ts": "2026-10-05T11:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "f2121b802e",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "RUA GOLD Reports Further High-Grade Drill Results and Mineral Continuity at its Auld Creek Gold-Antimony Project",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/rua-gold-reports-further-high-110000203.html?.tsrc=rss",
-   "ts": "2026-10-05T11:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "8717cbc7da",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3496,15 +3493,15 @@
     1791212400,
     4175.2,
     4176.5,
-    4167.0,
-    4167.7
+    4162.6,
+    4164.6
    ],
    [
-    1791213153,
-    4169.2,
-    4169.2,
-    4169.2,
-    4169.2
+    1791213452,
+    4163.7,
+    4163.7,
+    4163.7,
+    4163.7
    ]
   ],
   "nq": [
@@ -4072,15 +4069,15 @@
     1791212400,
     31248.0,
     31254.5,
-    31214.25,
-    31215.75
+    31206.0,
+    31230.75
    ],
    [
-    1791213155,
-    31220.25,
-    31220.25,
-    31220.25,
-    31220.25
+    1791213454,
+    31226.5,
+    31226.5,
+    31226.5,
+    31226.5
    ]
   ],
   "vix": [
@@ -4535,16 +4532,16 @@
    [
     1791212400,
     15.53,
-    15.55,
+    15.57,
     15.52,
-    15.55
+    15.56
    ],
    [
-    1791212851,
-    15.56,
-    15.56,
-    15.56,
-    15.56
+    1791213151,
+    15.55,
+    15.55,
+    15.55,
+    15.55
    ]
   ]
  },
