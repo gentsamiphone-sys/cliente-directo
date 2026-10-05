@@ -2,10 +2,7 @@ name: Mesa GSAM (oro y NQ)
 
 # Brief institucional antes de cada sesión (horas UTC; Las Vegas = UTC-7 en verano)
 on:
-  schedule:
-    - cron: "30 21 * * 0-4"   # Asia      → 2:30 pm Las Vegas (dom-jue)
-    - cron: "30 6 * * 1-5"    # Londres   → 11:30 pm Las Vegas
-    - cron: "31 12 * * 1-5"   # Nueva York → 5:30 am Las Vegas
+  # Lo despierta el Reloj (Google Apps Script cada 5 min); sin horario propio para no duplicar.
   workflow_dispatch:
     inputs:
       sesion:

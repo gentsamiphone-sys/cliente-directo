@@ -2,8 +2,7 @@ name: Mesa de memecoins
 
 # Cada 5 minutos (lo más rápido que permite GitHub gratis; a veces se atrasa)
 on:
-  schedule:
-    - cron: "3-59/5 * * * *"
+  # Lo despierta el Reloj (Google Apps Script cada 5 min); sin horario propio para no duplicar.
   workflow_dispatch:
 
 permissions:

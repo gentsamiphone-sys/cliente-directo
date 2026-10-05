@@ -2,12 +2,7 @@ name: Agentes Cliente Directo
 
 # Cada agente entra cada 2 horas (horas en UTC; Las Vegas = UTC-7 en verano, UTC-8 en invierno).
 on:
-  schedule:
-    - cron: "2 1-23/2 * * *"    # Buscador
-    - cron: "26 1-23/2 * * *"   # Diseñador
-    - cron: "50 1-23/2 * * *"   # Vendedor
-    - cron: "14 */2 * * *"      # Seguimiento
-    - cron: "39 */2 * * *"      # Gerente
+  # Lo despierta el Reloj (Google Apps Script cada 5 min); sin horario propio para no duplicar.
   workflow_dispatch:
     inputs:
       agente:
