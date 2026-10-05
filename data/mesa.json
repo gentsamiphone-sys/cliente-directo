@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4186.9 · NQ 30971.75 · VIX 16.28 · 4 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-05T10:42:33Z"
+   "ultimo_resultado": "Oro 4187.0 · NQ 30969.0 · VIX 16.31 · 6 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-05T10:47:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T10:42:32Z",
-   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: Trump's nemesis in Europe: Why Spain's Sanchez is calling a snap election"
+   "actualizado": "2026-10-05T10:47:33Z",
+   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: Anthropic, OpenAI, Google and Meta execs set to testify at NYC Council hearing on AI risks"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4187.0 · NQ 30969.0 · VIX 16.31 · 6 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-05T10:47:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4186.9 · NQ 30971.75 · VIX 16.28 · 4 noticias nuevas (1 alto impacto)",
@@ -1629,12 +1634,23 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4186.9,
-  "nq": 30971.75,
-  "vix": 16.28,
-  "ts": "2026-10-05T10:42:32Z"
+  "oro": 4187.0,
+  "nq": 30969.0,
+  "vix": 16.31,
+  "ts": "2026-10-05T10:47:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Anthropic, OpenAI, Google and Meta execs set to testify at NYC Council hearing on AI risks",
+   "link": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
+   "ts": "2026-10-05T10:42:51Z",
+   "fuente": "CNBC",
+   "id": "8ed0367b51",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Trump's nemesis in Europe: Why Spain's Sanchez is calling a snap election",
    "link": "https://www.cnbc.com/2026/10/05/spain-sanchez-snap-election-housing-protests.html",
@@ -1928,6 +1944,18 @@
     "dolar"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Gold Demand Tracks Bond Market Doubts About U.S. Fiscal Sustainability",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMWxuUlRuTXJ5SEMzaWlNMlVYYkZyVGFIV1NONUZ5TnA2R3hHR1hMYUIzVW05dWxMTjFEZjN0M2dQUDY5TXF6UVJIbmU5dkNuN21BZE9PS3lncjBKWmlvMkVfcHoyTHZDNW9wM2ZfQjBTVEgtUGZiLVBGR1NxWlYtczhHTjlTckNIUzNmNDBrWFBtY0d4VkdIbTMyNGc3Z3Vrd0wxV2hZTFFNS3l1?oc=5",
+   "ts": "2026-10-05T08:54:50Z",
+   "fuente": "StoneX",
+   "id": "2cd9f7dd39",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Nasdaq, S&P 500, Dow Futures Steady Ahead Of Fed Minutes This Week: TSLA, SPCX, CBRS, QCOM, PTC, IBRX Stocks In Focus",
@@ -2536,35 +2564,6 @@
    "impacto": "medio",
    "es": "El oro baja ligeramente mientras el dólar se mantiene firme",
    "efecto": "Presiona al oro a la baja por fortaleza del dólar."
-  },
-  {
-   "titulo": "Gold gains as October Fed rate hike prospects fade",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV0dGUTlhay1BaS1nWk41NWd0UFdwbV9QSzNuNGZnTjVYRlpYNXo5NFF6TkZDWV9QNGpDMEhzd3QwUG41clBBTVVGalVyQy1nZkw5SHNRbGktSTJrbjJoMmZNR3NWNTY2WVpIeXA4YUVBOUlkb2dyMExSTXlpaDBvLU93bXpIZWtpbzNTMFAxMmJ5ODhMMmJIWUhVbw?oc=5",
-   "ts": "2026-10-05T02:12:00Z",
-   "fuente": "Reuters",
-   "id": "b43004a99c",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El oro sube al desvanecerse expectativas de alza de tasas de la Fed en octubre",
-   "efecto": ""
-  },
-  {
-   "titulo": "Why surging Treasury yields don’t signal a U.S. 'fiscal apocalypse' — yet",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUGhIWUx2QUNvMjd5bjFJaWE4S2tVRHV3ck1OSjlGVUVKV01EZ01wdGV5N0tnSEM0cUxtWVU3amhlNHdXS3JlMnp2ODJoUlJ5b25kLXllZnhaSTN4ckdWU2hLaXhnVloxdGR4MndkOFJEaFIyVlZqWmtwcVNVeS1Qbi10OTJyNThZYlZpX1VoT3nSAZABQVVfeXFMTVBoSFlMdkFDbzI3eW4xSWlhOEtrVUR1d3JNTko5RlVFSldNRGdNcHRleTdLZ0hDNHFMbVlVN2poZTR3V0tyZTJ6djgyaFJSeW9uZC15ZWZ4WkkzeHJHVlNoS2l4Z1ZaMXRkeDJ3ZDhSRGhSMlZWalprcHFTVXktUG4tdDkycjU4WWJWaV9VaE95?oc=5",
-   "ts": "2026-10-05T02:11:00Z",
-   "fuente": "CNBC",
-   "id": "381b322ef5",
-   "activos": [
-    "dolar",
-    "nq",
-    "oro"
-   ],
-   "impacto": "medio",
-   "es": "Por qué el repunte en rendimientos de bonos no anticipa apocalipsis fiscal",
-   "efecto": "Tasas elevadas limitan valoraciones de tecnológicas e impulsan al dólar."
   }
  ],
  "eventos_avisados": [],
@@ -3100,14 +3099,14 @@
     4187.2,
     4188.1,
     4184.4,
-    4187.3
+    4186.7
    ],
    [
-    1791196327,
-    4186.9,
-    4186.9,
-    4186.9,
-    4186.9
+    1791196643,
+    4187.0,
+    4187.0,
+    4187.0,
+    4187.0
    ]
   ],
   "nq": [
@@ -3640,15 +3639,15 @@
     1791194400,
     30988.25,
     31002.0,
-    30969.0,
-    30972.0
+    30962.0,
+    30967.0
    ],
    [
-    1791196351,
-    30971.75,
-    30971.75,
-    30971.75,
-    30971.75
+    1791196652,
+    30969.0,
+    30969.0,
+    30969.0,
+    30969.0
    ]
   ],
   "vix": [
@@ -4070,14 +4069,14 @@
     16.3,
     16.31,
     16.27,
-    16.27
+    16.3
    ],
    [
-    1791196051,
-    16.28,
-    16.28,
-    16.28,
-    16.28
+    1791196351,
+    16.31,
+    16.31,
+    16.31,
+    16.31
    ]
   ]
  },
