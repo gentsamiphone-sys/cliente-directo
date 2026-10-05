@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4188.5 · NQ 30993.25 · VIX 16.22 · 6 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-05T11:22:35Z"
+   "ultimo_resultado": "Oro 4191.3 · NQ 31011.0 · VIX 16.24 · 7 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-05T11:27:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T11:22:34Z",
-   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: Gold prices today, Monday, October 5, 2026: Gold prices climbing this morning as interest rate expectations shift"
+   "actualizado": "2026-10-05T11:27:37Z",
+   "ultimo_resultado": "7 titulares nuevos, 1 de alto impacto: Los futuros del Dow caen mientras los rendimientos de los bonos se mantienen altos el lunes"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4191.3 · NQ 31011.0 · VIX 16.24 · 7 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-05T11:27:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4188.5 · NQ 30993.25 · VIX 16.22 · 6 noticias nuevas (1 alto impacto)",
@@ -1669,12 +1674,26 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4188.5,
-  "nq": 30993.25,
-  "vix": 16.22,
-  "ts": "2026-10-05T11:22:34Z"
+  "oro": 4191.3,
+  "nq": 31011.0,
+  "vix": 16.24,
+  "ts": "2026-10-05T11:27:37Z"
  },
  "noticias": [
+  {
+   "titulo": "Dow futures slip as Treasury yields stay high Monday",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5BN2poSDZYbVctT1hSNzVJVE40VF9pT0hoblAtZ2VOUldnb21iZmZHVm9sbjlEbzdJQW5SU01fbnR5OTc5VzNmbzJ0dnNJOHpyMWRzdGJEbklXZVVHeXVYeWZWQzhFdzdqM2p1OHMyQzVOQQ?oc=5",
+   "ts": "2026-10-05T11:23:09Z",
+   "fuente": "qz.com",
+   "id": "2c7667ffc9",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "Los futuros del Dow caen mientras los rendimientos de los bonos se mantienen altos el lunes",
+   "efecto": "Presiona al NQ a la baja por tasas de descuento altas."
+  },
   {
    "titulo": "Gold prices today, Monday, October 5, 2026: Gold prices climbing this morning as interest rate expectations shift",
    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZzhWVV9zUHlLMDY4ZnlqWlpTamRGd2VYcGRkTHpKdFBsaGRnOXdsSTFjQmJOckhlR1ZkanJYcXQzblNMLTdSOG8yQndEcjNLTHJ0U0N5SkpHajAzSnFoRzg1aWFfbnZtdzhDU05mNV9zQ1htUl9ueFRSM19hYjhUek56Y181bXZZQUUxM0gzN2VhMDQ4NG52Q3VmNVhUSlZ4Z1hhNDhMRFJ0bDNGUkppR0xhM0l5T016LVRHVy1Sb2JfZGdvXzNoQTl3b0tIMlFIUmhFNmNoYmFnb0NDT2ZrZGhSWk11STlsZDN3YXQ3dHh0UQ?oc=5",
@@ -2459,6 +2478,19 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Russia hospitalizes almost 200 people after researcher's death from plague: Reports",
+   "link": "https://www.cnbc.com/2026/10/05/suspected-plague-cases-reported-in-russias-irkutsk-region.html",
+   "ts": "2026-10-05T05:34:17Z",
+   "fuente": "CNBC",
+   "id": "d53e6b7ddb",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Rusia hospitaliza a casi 200 personas tras la muerte de un investigador por peste",
+   "efecto": "Genera ruido sanitario menor sin impacto institucional inmediato."
+  },
+  {
    "titulo": "Gold Edges Higher as Markets Weigh Jobs Data Impact on Fed Path",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSmh6bExCYzhDSXJEcGJJM0VIa1ltU0RaUnBQY09uZTRTc0hVTTMwbzU3bERvTlNhY29VaGVibk9iOUMtSFJJME9iZG1jaUhzV1JpaVJVWkFTbjBkbkpjT3UtRzUxTmE5QWRHVno5OEY5dEtjSU90V3I0MV8tbWdId3J1T0t4RnVtbmx3WURCaDN3QUxfYkQ5UERZMm0zVGRNd0laZHBlMVpsaXR0WE9OaVNEN3A?oc=5",
    "ts": "2026-10-05T05:21:00Z",
@@ -2549,32 +2581,6 @@
    "impacto": "medio",
    "es": "El punto de inflexión de 2029: la población occidental comenzará a encogerse, presionando las finanzas públicas",
    "efecto": "Genera cautela a largo plazo en bonos y divisa por presión fiscal."
-  },
-  {
-   "titulo": "U.S. Treasury Yields Surge as Allies Turn Net Sellers",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMmFPajlvQUZaSWVTRkdRWldEcG8za3lkcDhqbi1Ud1dudG5HaXpscV80ajM3Zy1abU5yeE1GVXdlcjczN01BSExCb0FDa3g5UDhFWmMxRWMzaEMyNjhtd2NsQXBmRzFHUXZEVzI1YVVOUmVJUkV3cTFfSWZibVRGd0dyZ2ZyS3N2d0xTelVn?oc=5",
-   "ts": "2026-10-05T04:52:51Z",
-   "fuente": "조선일보",
-   "id": "2044170448",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Rendimientos de los bonos del Tesoro de EE. UU. se disparan mientras aliados venden deuda neta",
-   "efecto": ""
-  },
-  {
-   "titulo": "Olympic gold medalist Vladimir Gogoladze passes away",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSWxiTWxXYjY4Zzh4SE9PSVpTQ3ZpMlhEcnJCVGNOZG00anRWOExKS0Vtb3ZHMERVa3FBbnlvU2ZUc2pjVXRHOXdhVE5GdndUWVhtemhmOFpZWXh4VDZZeG9rQ0U2bUdsNW5zT1RnWlJ2VUVEdUMzYmVmVlV3T0RhQXZNSXpmSXRvWG1rWVRYRQ?oc=5",
-   "ts": "2026-10-05T04:52:30Z",
-   "fuente": "International Gymnast Magazine Online",
-   "id": "0b8f9624e2",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Fallece el medallista de oro olímpico Vladimir Gogoladze",
-   "efecto": "Sin impacto financiero institucional."
   }
  ],
  "eventos_avisados": [],
@@ -3115,16 +3121,16 @@
    [
     1791198000,
     4190.8,
-    4190.9,
+    4191.8,
     4187.4,
-    4188.9
+    4191.6
    ],
    [
-    1791198745,
-    4188.5,
-    4188.5,
-    4188.5,
-    4188.5
+    1791199055,
+    4191.3,
+    4191.3,
+    4191.3,
+    4191.3
    ]
   ],
   "nq": [
@@ -3665,14 +3671,14 @@
     31029.25,
     31031.75,
     30986.0,
-    30996.5
+    31011.75
    ],
    [
-    1791198750,
-    30993.25,
-    30993.25,
-    30993.25,
-    30993.25
+    1791199057,
+    31011.25,
+    31011.25,
+    31011.25,
+    31011.25
    ]
   ],
   "vix": [
@@ -4101,16 +4107,16 @@
     16.2,
     16.26,
     16.19,
-    16.21
+    16.23
    ],
    [
-    1791198451,
-    16.22,
-    16.22,
-    16.22,
-    16.22
+    1791198751,
+    16.24,
+    16.24,
+    16.24,
+    16.24
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-05T10:57:34Z"
+ "noticias_traducidas_ts": "2026-10-05T11:27:34Z"
 }
