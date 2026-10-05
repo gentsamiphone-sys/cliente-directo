@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4157.4 · NQ 31248.0 · VIX 15.51 · 13 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-05T17:12:40Z"
+   "ultimo_resultado": "Oro 4157.5 · NQ 31250.25 · VIX 15.49 · 13 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-05T17:17:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T17:12:39Z",
-   "ultimo_resultado": "13 titulares nuevos, 1 de alto impacto: These stocks could benefit from a midterm election shake-up, JPMorgan says"
+   "actualizado": "2026-10-05T17:17:37Z",
+   "ultimo_resultado": "13 titulares nuevos, 1 de alto impacto: Q2 Rundown: Commerce Bancshares (NASDAQ:CBSH) Vs Other Regional Banks Stocks"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4157.5 · NQ 31250.25 · VIX 15.49 · 13 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-05T17:17:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4157.4 · NQ 31248.0 · VIX 15.51 · 13 noticias nuevas (1 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +120,318 contratos.",
    "ts": "2026-10-04T21:47:12Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-10-04T21:47:10Z"
   }
  ],
  "briefs": [
@@ -2059,10 +2059,10 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4157.4,
-  "nq": 31248.0,
-  "vix": 15.51,
-  "ts": "2026-10-05T17:12:39Z"
+  "oro": 4157.5,
+  "nq": 31250.25,
+  "vix": 15.49,
+  "ts": "2026-10-05T17:17:38Z"
  },
  "noticias": [
   {
@@ -2093,6 +2093,17 @@
    "id": "aa79436f85",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Q2 Rundown: Commerce Bancshares (NASDAQ:CBSH) Vs Other Regional Banks Stocks",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMnExTWF3Rjl2b0k3RE1BV1VpcllSNlB3YVFUWTBYOVNJNnZHeHN5bEQ1V3Z5M3RGVmxoUHpuMU1rVk9rWFRoNG0wSGJXNkw3TGtnQVhTVFN0Wk1LUTh2Q3phUkhTMkZQdEtGTnF5Vk9Fb0Vadk8wUk5aZHlFbVlRdDlucUdDdTlzWlc3bDh4OW5YblNHM1dwSVcxMjVKc3JwWHh3dQ?oc=5",
+   "ts": "2026-10-05T16:35:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "2d829f1079",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -2906,18 +2917,6 @@
    "impacto": "bajo",
    "es": "Eric Sprott anuncia cambios en sus participaciones en Outcrop Silver & Gold",
    "efecto": "Ruido corporativo menor, sin impacto macroeconómico."
-  },
-  {
-   "titulo": "Gold Demand Tracks Bond Market Doubts About U.S. Fiscal Sustainability",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZDV5cHV6VE5Ud0FuX2xPdVlVS1hJbVdmUEJoa0h1cUhBTFpsTWFJdDN5VHhQMHAwdEIwRTFpSmtKTGRUVEdLeWFzN01DY1VYckNRLUJiWURHek8tODEtRTBOZEdoZVdseHlhcGtkNmRHZXFiNndlMHpNWC14dl9VWVl6SnF5b3ZzTEtGbTNpZG51Yjc4NXFkemU4S1dwV0k0cV9HakxFelNPeGIy?oc=5",
-   "ts": "2026-10-05T12:23:28Z",
-   "fuente": "StoneX",
-   "id": "2cd9f7dd39",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3501,15 +3500,15 @@
     1791219600,
     4158.3,
     4160.0,
-    4157.3,
+    4156.9,
     4157.5
    ],
    [
-    1791219755,
-    4157.4,
-    4157.4,
-    4157.4,
-    4157.4
+    1791220055,
+    4157.5,
+    4157.5,
+    4157.5,
+    4157.5
    ]
   ],
   "nq": [
@@ -4091,15 +4090,15 @@
     1791219600,
     31249.75,
     31255.0,
-    31242.0,
-    31242.75
+    31235.75,
+    31251.0
    ],
    [
-    1791219759,
-    31247.5,
-    31247.5,
-    31247.5,
-    31247.5
+    1791220057,
+    31250.25,
+    31250.25,
+    31250.25,
+    31250.25
    ]
   ],
   "vix": [
@@ -4563,14 +4562,21 @@
     15.55,
     15.56,
     15.48,
-    15.51
+    15.5
    ],
    [
-    1791219451,
-    15.51,
-    15.51,
-    15.51,
-    15.51
+    1791219600,
+    15.5,
+    15.5,
+    15.49,
+    15.49
+   ],
+   [
+    1791219751,
+    15.49,
+    15.49,
+    15.49,
+    15.49
    ]
   ]
  },
