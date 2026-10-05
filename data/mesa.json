@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4183.1 · NQ 31020.5 · VIX 16.15 · 11 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-05T12:12:38Z"
+   "ultimo_resultado": "Oro 4186.1 · NQ 31022.25 · VIX 16.14 · 13 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-05T12:17:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T12:12:37Z",
-   "ultimo_resultado": "11 titulares nuevos, 3 de alto impacto: Gold prices rise after weak September jobs report dims Fed rate hike"
+   "actualizado": "2026-10-05T12:17:41Z",
+   "ultimo_resultado": "13 titulares nuevos, 2 de alto impacto: Here are Monday's biggest analyst calls: Nvidia, SpaceX, Tesla, Apple, Microsoft, Wells Fargo, Samsara & more"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4186.1 · NQ 31022.25 · VIX 16.14 · 13 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-05T12:17:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4183.1 · NQ 31020.5 · VIX 16.15 · 11 noticias nuevas (3 alto impacto)",
@@ -1719,12 +1724,23 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4183.1,
-  "nq": 31020.5,
-  "vix": 16.15,
-  "ts": "2026-10-05T12:12:38Z"
+  "oro": 4186.1,
+  "nq": 31022.25,
+  "vix": 16.14,
+  "ts": "2026-10-05T12:17:42Z"
  },
  "noticias": [
+  {
+   "titulo": "Here are Monday's biggest analyst calls: Nvidia, SpaceX, Tesla, Apple, Microsoft, Wells Fargo, Samsara & more",
+   "link": "https://www.cnbc.com/2026/10/05/monday-biggest-analyst-calls-on-wall-street.html",
+   "ts": "2026-10-05T12:14:30Z",
+   "fuente": "CNBC",
+   "id": "13106c4787",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Gold prices rise after weak September jobs report dims Fed rate hike",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4N0lnTTVpS1lYQjNObkUycnJoVEstb05yQnZIYnhLT1JYa2NUMGZUR1pDd1lfVWNycTJsSFlnclF3S2liZ295MFFCZE14SXI3VkNZME9oVWZaeGFsZkV3UnpZdW5ub1k5ZHpzdHc1Rkk5OU94czJLeHpXOFpVcm8?oc=5",
@@ -1754,6 +1770,17 @@
    "id": "ee588b61c8",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Argenta Silver Intersects 0.45 g/t Au and 0.19 % Cu over 46.0m at Gold-Copper target; 1,599 g/t Ag over 4.0m including 2,780 g/t Ag over 2.0m at Resource Expansion Drilling Area",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/argenta-silver-intersects-0-45-120000163.html?.tsrc=rss",
+   "ts": "2026-10-05T12:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "b24ddb4815",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Nvidia's $6-trillion milestone looms. Here's when options traders see it happening",
@@ -2580,28 +2607,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Treasury yields inch lower as investors pare back Fed rate hike bets",
-   "link": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html",
-   "ts": "2026-10-05T08:00:01Z",
-   "fuente": "CNBC",
-   "id": "bfca2ca89f",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Dollar Lifted by Rate-Rise Bets",
-   "link": "https://finance.yahoo.com/m/cc6b46d5-12af-352e-acbc-5ce8fd70e66d/dollar-lifted-by-rate-rise.html?.tsrc=rss",
-   "ts": "2026-10-05T07:53:47Z",
-   "fuente": "Yahoo Finance",
-   "id": "3ed0ff7088",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3149,16 +3154,16 @@
    [
     1791201600,
     4184.4,
-    4185.5,
+    4187.3,
     4181.9,
-    4183.3
+    4185.6
    ],
    [
-    1791201754,
-    4183.1,
-    4183.1,
-    4183.1,
-    4183.1
+    1791202056,
+    4186.1,
+    4186.1,
+    4186.1,
+    4186.1
    ]
   ],
   "nq": [
@@ -3704,16 +3709,16 @@
    [
     1791201600,
     31021.5,
-    31027.5,
+    31037.0,
     31009.5,
-    31019.5
+    31024.5
    ],
    [
-    1791201748,
-    31020.5,
-    31020.5,
-    31020.5,
-    31020.5
+    1791202054,
+    31022.25,
+    31022.25,
+    31022.25,
+    31022.25
    ]
   ],
   "vix": [
@@ -4142,14 +4147,21 @@
     16.2,
     16.26,
     16.07,
+    16.15
+   ],
+   [
+    1791201600,
+    16.14,
+    16.15,
+    16.14,
     16.14
    ],
    [
-    1791201451,
-    16.15,
-    16.15,
-    16.15,
-    16.15
+    1791201751,
+    16.14,
+    16.14,
+    16.14,
+    16.14
    ]
   ]
  },
