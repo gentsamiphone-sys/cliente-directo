@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4163.4 · NQ 31300.25 · VIX 15.55 · 15 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-05T18:07:32Z"
+   "ultimo_resultado": "Oro 4166.7 · NQ 31289.0 · VIX 15.56 · 15 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-05T18:12:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T18:07:31Z",
-   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: Cocoa prices are climbing again. Here’s why this time is different"
+   "actualizado": "2026-10-05T18:12:35Z",
+   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: Fairshake crypto PAC network backs 32 House candidates in midterms"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4166.7 · NQ 31289.0 · VIX 15.56 · 15 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-05T18:12:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4163.4 · NQ 31300.25 · VIX 15.55 · 15 noticias nuevas (1 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4172.0 · NQ 31121.0 · VIX 15.31 · 15 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-05T03:43:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4171.7 · NQ 31116.5 · VIX 15.31",
-   "ts": "2026-10-05T03:42:30Z"
   }
  ],
  "briefs": [
@@ -2059,12 +2059,32 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4163.4,
-  "nq": 31300.25,
-  "vix": 15.55,
-  "ts": "2026-10-05T18:07:32Z"
+  "oro": 4166.7,
+  "nq": 31289.0,
+  "vix": 15.56,
+  "ts": "2026-10-05T18:12:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Fairshake crypto PAC network backs 32 House candidates in midterms",
+   "link": "https://www.cnbc.com/2026/10/05/fairshake-crypto-super-pac-house-races.html",
+   "ts": "2026-10-05T18:12:16Z",
+   "fuente": "CNBC",
+   "id": "923a127a42",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Denied a credit card rate decrease? Here’s what to do next",
+   "link": "https://www.cnbc.com/select/what-to-do-if-your-credit-card-issuer-wont-lower-your-interest-rate/",
+   "ts": "2026-10-05T18:08:52Z",
+   "fuente": "CNBC",
+   "id": "052aab0ea6",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Cocoa prices are climbing again. Here’s why this time is different",
    "link": "https://www.cnbc.com/2026/10/05/cocoa-prices-are-climbing-again-heres-why-this-time-is-different.html",
@@ -2906,26 +2926,6 @@
    "id": "c009879b1d",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "JPMorgan’s trading desk is bullish near term once again",
-   "link": "https://www.cnbc.com/2026/10/05/jpmorgans-trading-desk-is-bullish-near-term-once-again.html",
-   "ts": "2026-10-05T13:19:01Z",
-   "fuente": "CNBC",
-   "id": "e87ee4c727",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Higher Treasury Yields Raise Long-Term Farm Finance Risks",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVzhtRjFWY1B2WVR4ZjFmU2hGaFE5MUNBY1NGWUFfRFdqYjg0cTRrSk04S0g4WW9mQkg4eUR5ZDNBRUcwNWRnTnhTdzFjdHEyLUNHMVpXdzg0WmhMV2FQekIwb2l1aEZWcFlVbzJqdWdyN2tsZFRHQTVrQjZHcXJvNE1yNzItQQ?oc=5",
-   "ts": "2026-10-05T13:17:21Z",
-   "fuente": "RFD-TV",
-   "id": "a0f8a5c108",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3508,16 +3508,23 @@
    [
     1791219600,
     4158.3,
-    4164.3,
+    4164.6,
     4152.9,
-    4163.9
+    4164.2
    ],
    [
-    1791223048,
-    4163.4,
-    4163.4,
-    4163.4,
-    4163.4
+    1791223200,
+    4164.4,
+    4167.3,
+    4164.4,
+    4167.0
+   ],
+   [
+    1791223353,
+    4166.7,
+    4166.7,
+    4166.7,
+    4166.7
    ]
   ],
   "nq": [
@@ -4100,14 +4107,21 @@
     31249.75,
     31318.75,
     31235.75,
-    31297.5
+    31296.0
    ],
    [
-    1791223051,
-    31301.0,
-    31301.0,
-    31301.0,
-    31301.0
+    1791223200,
+    31295.5,
+    31298.25,
+    31286.25,
+    31295.5
+   ],
+   [
+    1791223355,
+    31287.25,
+    31287.25,
+    31287.25,
+    31287.25
    ]
   ],
   "vix": [
@@ -4581,11 +4595,11 @@
     15.55
    ],
    [
-    1791222751,
-    15.55,
-    15.55,
-    15.55,
-    15.55
+    1791223051,
+    15.56,
+    15.56,
+    15.56,
+    15.56
    ]
   ]
  },
