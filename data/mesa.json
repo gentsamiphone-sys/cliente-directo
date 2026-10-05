@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4181.3 · NQ 31050.5 · VIX 15.31 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-05T06:32:36Z"
+   "ultimo_resultado": "Oro 4181.5 · NQ 31045.75 · VIX 15.31",
+   "actualizado": "2026-10-05T06:37:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T06:32:36Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: The Fed Builds the GENIUS Act Bank-Grade Plumbing — Two NPRMs, Two Paths, One Deadline"
+   "actualizado": "2026-10-05T06:37:37Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4181.5 · NQ 31045.75 · VIX 15.31",
+   "ts": "2026-10-05T06:37:38Z"
+  },
   {
    "agente": "cio",
    "texto": "Brief de Londres publicado: Sesgo alcista en Oro y NQ apoyado por VIX bajista y flujos institucionales",
@@ -574,7 +579,8 @@
      "rr": "2.15",
      "confluencias": "4/5",
      "cancelar": "Rompe 4140 antes de activar o llega noticia ISM.",
-     "motivo": ""
+     "motivo": "",
+     "vivo": "esperando"
     },
     {
      "activo": "NQ",
@@ -587,7 +593,8 @@
      "rr": "2.10",
      "confluencias": "4/5",
      "cancelar": "VIX supera 16.21.",
-     "motivo": ""
+     "motivo": "",
+     "vivo": "esperando"
     }
    ],
    "mapas": {
@@ -1372,10 +1379,10 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4181.3,
-  "nq": 31050.5,
+  "oro": 4181.5,
+  "nq": 31045.75,
   "vix": 15.31,
-  "ts": "2026-10-05T06:32:36Z"
+  "ts": "2026-10-05T06:37:37Z"
  },
  "noticias": [
   {
@@ -2555,16 +2562,16 @@
    [
     1791180000,
     4162.1,
-    4182.5,
+    4183.7,
     4161.7,
-    4181.5
+    4181.6
    ],
    [
-    1791181355,
-    4181.3,
-    4181.3,
-    4181.3,
-    4181.3
+    1791181655,
+    4181.5,
+    4181.5,
+    4181.5,
+    4181.5
    ]
   ],
   "nq": [
@@ -3070,14 +3077,14 @@
     31045.5,
     31081.0,
     31037.0,
-    31054.25
+    31049.75
    ],
    [
-    1791181352,
-    31050.5,
-    31050.5,
-    31050.5,
-    31050.5
+    1791181656,
+    31045.75,
+    31045.75,
+    31045.75,
+    31045.75
    ]
   ]
  },
