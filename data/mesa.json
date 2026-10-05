@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4169.6 · NQ 31206.75 · VIX 15.58 · 12 noticias nuevas (4 alto impacto)",
-   "actualizado": "2026-10-05T14:52:39Z"
+   "ultimo_resultado": "Oro 4168.2 · NQ 31218.25 · VIX 15.55 · 13 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-05T14:57:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T14:52:38Z",
-   "ultimo_resultado": "12 titulares nuevos, 4 de alto impacto: U.S. and China Set Plan for Repealing Some Tariffs"
+   "actualizado": "2026-10-05T14:57:38Z",
+   "ultimo_resultado": "13 titulares nuevos, 3 de alto impacto: Trump's nemesis in Europe: Why Spain's Sanchez is calling a snap election"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4168.2 · NQ 31218.25 · VIX 15.55 · 13 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-05T14:57:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4169.6 · NQ 31206.75 · VIX 15.58 · 12 noticias nuevas (4 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "liquidez",
    "texto": "Mapa listo: oro 4162.3 · NQ 31061.75.",
    "ts": "2026-10-04T16:48:37Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
-   "ts": "2026-10-04T16:48:35Z"
   }
  ],
  "briefs": [
@@ -2059,10 +2059,10 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4169.6,
-  "nq": 31206.75,
-  "vix": 15.58,
-  "ts": "2026-10-05T14:52:38Z"
+  "oro": 4168.2,
+  "nq": 31218.25,
+  "vix": 15.55,
+  "ts": "2026-10-05T14:57:39Z"
  },
  "noticias": [
   {
@@ -2493,6 +2493,15 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Trump's nemesis in Europe: Why Spain's Sanchez is calling a snap election",
+   "link": "https://www.cnbc.com/2026/10/05/spain-sanchez-snap-election-housing-protests.html",
+   "ts": "2026-10-05T12:11:58Z",
+   "fuente": "CNBC",
+   "id": "5dc601f11e",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "Gold prices rise after weak September jobs report dims Fed rate hike",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4N0lnTTVpS1lYQjNObkUycnJoVEstb05yQnZIYnhLT1JYa2NUMGZUR1pDd1lfVWNycTJsSFlnclF3S2liZ295MFFCZE14SXI3VkNZME9oVWZaeGFsZkV3UnpZdW5ub1k5ZHpzdHc1Rkk5OU94czJLeHpXOFpVcm8?oc=5",
    "ts": "2026-10-05T12:09:40Z",
@@ -2902,6 +2911,17 @@
    "efecto": "Presiona al NQ a la baja y fortalece al dólar."
   },
   {
+   "titulo": "Stock Market Today: Indexes Mixed at Opening Bell as Treasury Yields Rise, Oil Prices Fall",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdnJNTGdrT1JHOUNJelVGcHozSEZUbDJnRkw0WjJyQ1FqWlFKcXRaMmVCNnJaSEhIQ2pjZEFOTnFIZ2tqS3pNWXpxWndHakIwWHM2UjYxX2NNaU5hZkdnYnZEMEZPTVRBNWM4V3pnYlUtQzVjeXJoOXF4Z2lPbGt2blVzV0dmUkNwd1ZYQU5GSE4zeTJ0UEtLcVVKYWlMQQ?oc=5",
+   "ts": "2026-10-05T10:52:48Z",
+   "fuente": "finance.yahoo.com",
+   "id": "1673a2c571",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Wall St futures dip as tech stocks take a breather",
    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1SUThKbFBnT1ZFd0dYbk1mc3Bza2FLaE0tb0ZLckdEWTdUV0NyaU52TjlfeENOamcxVkN1ZWs5V3N2d3RDNWlreTdtYWJlR25tRnA4ZUdUamV5QkRHNWxTRFV6R2hUTmw3TUJ5dEJCNA?oc=5",
    "ts": "2026-10-05T10:46:00Z",
@@ -2913,28 +2933,6 @@
    "impacto": "alto",
    "es": "Futuros de Wall Street caen mientras las tecnológicas pausan",
    "efecto": "Genera toma de beneficios y ventas en el Nasdaq 100."
-  },
-  {
-   "titulo": "Stock Market Fear Index Rises as Bond Worries Resurface",
-   "link": "https://finance.yahoo.com/m/a97295f4-d7cb-3a2b-a1fa-fe06dba243ec/stock-market-fear-index-rises.html?.tsrc=rss",
-   "ts": "2026-10-05T10:43:58Z",
-   "fuente": "Yahoo Finance",
-   "id": "51bc39788c",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Anthropic, OpenAI, Google and Meta execs set to testify at NYC Council hearing on AI risks",
-   "link": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
-   "ts": "2026-10-05T10:42:51Z",
-   "fuente": "CNBC",
-   "id": "8ed0367b51",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3498,14 +3496,14 @@
     4163.0,
     4175.1,
     4160.0,
-    4168.5
+    4169.2
    ],
    [
-    1791211357,
-    4170.0,
-    4170.0,
-    4170.0,
-    4170.0
+    1791211657,
+    4168.6,
+    4168.6,
+    4168.6,
+    4168.6
    ]
   ],
   "nq": [
@@ -4067,14 +4065,14 @@
     31156.5,
     31247.75,
     31115.0,
-    31213.0
+    31223.0
    ],
    [
-    1791211357,
-    31206.75,
-    31206.75,
-    31206.75,
-    31206.75
+    1791211657,
+    31218.25,
+    31218.25,
+    31218.25,
+    31218.25
    ]
   ],
   "vix": [
@@ -4523,15 +4521,15 @@
     1791208800,
     15.75,
     15.88,
-    15.59,
-    15.61
+    15.54,
+    15.54
    ],
    [
-    1791211051,
-    15.58,
-    15.58,
-    15.58,
-    15.58
+    1791211351,
+    15.55,
+    15.55,
+    15.55,
+    15.55
    ]
   ]
  },
