@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4159.6 · NQ 31221.25 · VIX 15.55 · 11 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-05T16:17:41Z"
+   "ultimo_resultado": "Oro 4159.4 · NQ 31218.25 · VIX 15.55 · 13 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-05T16:22:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T16:17:40Z",
-   "ultimo_resultado": "11 titulares nuevos, 3 de alto impacto: Trump exige a Corea del Sur acuerdo de GNL en Alaska bajo amenaza de aranceles."
+   "actualizado": "2026-10-05T16:22:33Z",
+   "ultimo_resultado": "13 titulares nuevos, 2 de alto impacto: AI researcher warns 'we are racing to build and grow our own adversary' in NYC hearing"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4159.4 · NQ 31218.25 · VIX 15.55 · 13 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-05T16:22:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4159.6 · NQ 31221.25 · VIX 15.55 · 11 noticias nuevas (3 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
    "ts": "2026-10-04T20:41:03Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Midiendo volatilidad y rango esperado del día…",
-   "ts": "2026-10-04T20:41:01Z"
   }
  ],
  "briefs": [
@@ -2059,12 +2059,32 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4159.6,
-  "nq": 31221.25,
+  "oro": 4159.4,
+  "nq": 31218.25,
   "vix": 15.55,
-  "ts": "2026-10-05T16:17:40Z"
+  "ts": "2026-10-05T16:22:33Z"
  },
  "noticias": [
+  {
+   "titulo": "AI researcher warns 'we are racing to build and grow our own adversary' in NYC hearing",
+   "link": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
+   "ts": "2026-10-05T16:22:11Z",
+   "fuente": "CNBC",
+   "id": "2a3c162394",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Chattanooga Basketball to Host Annual FREE “Boo & Gold” Halloween Event on Friday, October 30",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNM0w2dFotckxoWFZ0a1BVc0hrVURMS0twYUdZWGdGOTNTNVBGQVVjbW5iSHpyY2pNX191dGUwYlpCeHdyT3hPMl9JSEJtclMtVEJMemxEMU14dG5fMV84Wk9FM1FBT05LQmZTX2tPSWdaYzN4OW1pUkdWM0o2bk5PUENGb3Boc2h3VnROdUNLOGgtcnUyaFo4cUpvTnJ3YWsxbGZUMGJMeEthdmhMQklVUVhDbllqcUtVMFdhNVJHLUM3b2w1dm5UWTBR?oc=5",
+   "ts": "2026-10-05T16:15:33Z",
+   "fuente": "University of Tennessee at Chattanooga Athletics",
+   "id": "8ae80e4a1b",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Trump tells South Korea to sign on to Alaska LNG deal or 'I'll just charge them more'",
    "link": "https://www.cnbc.com/2026/10/05/trump-alaska-lng-south-korea-pay.html",
@@ -2077,6 +2097,17 @@
    "impacto": "medio",
    "es": "Trump exige a Corea del Sur acuerdo de GNL en Alaska bajo amenaza de aranceles.",
    "efecto": "Genera incertidumbre comercial, impulsando levemente al dólar como refugio."
+  },
+  {
+   "titulo": "US stocks are rising near their records, with the Nasdaq composite on track for an all-time high",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeEtuQ0VBX01CSXdjRkpaTnRmUElnZFl0ZUlLdEo3YXR4NW9lcTBIRThlSmVEd3NNdGlfNkFfWkhVZnVNXzlaUU9uNFNSUEhJQXIyMWdHV1hhRWs3Vlh2QkdGMllMRkRqNEtuYWtocm9ObXBreUtMcjcyc090c0NCZDk0RkhaZHk3Q3JSRWJ3d1B4ZVJFUVFZWU90czdaR0k?oc=5",
+   "ts": "2026-10-05T16:08:00Z",
+   "fuente": "AP News",
+   "id": "8442d1ee37",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "AI researchers detail safety risks at NYC Council with Anthropic, OpenAI, Google and Meta execs set to testify",
@@ -2891,39 +2922,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "WISeSat.Space Completes Business Combination and Begins Nasdaq Trading",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORTBzMTJYVzRWRURlbXhoY0tJbU9fRDY4VzRZcm11OUF4Y1ZzVjBwYm9qNWtrTS1TbmN6a1NtT1g3cXk2UnAzNndrZGUtMENlT0xCMHg5bHJzdUphVU90VDJ0Y0tGMUVjNld1d18tcGxmUzFZZjVUbGl5Y05LYmI2TlV0MUt1U2dLSUVrQXd2V2Y4YWg0cWc?oc=5",
-   "ts": "2026-10-05T11:37:30Z",
-   "fuente": "The Quantum Insider",
-   "id": "746ca39c4b",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Dynacor Reports First Gold from Senegal",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/dynacor-reports-first-gold-senegal-113000078.html?.tsrc=rss",
-   "ts": "2026-10-05T11:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "b7c3beda44",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Canadian Goldfields Advances Systematic Exploration and Target Development at Miminiska Gold Project",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/canadian-goldfields-advances-systematic-exploration-113000075.html?.tsrc=rss",
-   "ts": "2026-10-05T11:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "cb2fb28ed7",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3500,15 +3498,15 @@
     1791216000,
     4164.7,
     4164.8,
-    4159.1,
-    4159.9
+    4158.6,
+    4159.7
    ],
    [
-    1791216459,
-    4159.9,
-    4159.9,
-    4159.9,
-    4159.9
+    1791216750,
+    4159.4,
+    4159.4,
+    4159.4,
+    4159.4
    ]
   ],
   "nq": [
@@ -4084,14 +4082,14 @@
     31235.5,
     31237.75,
     31216.0,
-    31218.0
+    31222.5
    ],
    [
-    1791216460,
-    31221.25,
-    31221.25,
-    31221.25,
-    31221.25
+    1791216751,
+    31218.25,
+    31218.25,
+    31218.25,
+    31218.25
    ]
   ],
   "vix": [
@@ -4553,12 +4551,12 @@
    [
     1791216000,
     15.55,
-    15.55,
-    15.55,
+    15.56,
+    15.54,
     15.55
    ],
    [
-    1791216151,
+    1791216436,
     15.55,
     15.55,
     15.55,
