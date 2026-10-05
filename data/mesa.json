@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4180.1 · NQ 31028.25 · VIX 16.01 · 12 noticias nuevas (6 alto impacto)",
-   "actualizado": "2026-10-05T13:37:38Z"
+   "ultimo_resultado": "📍 NQ VENTA: llegó a la zona 31080.0–31120.0 · Oro 4176.6 · NQ 31113.5 · VIX 16.02 · 12 noticias nuevas (4 alto impacto)",
+   "actualizado": "2026-10-05T13:42:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T13:37:37Z",
-   "ultimo_resultado": "12 titulares nuevos, 6 de alto impacto: Acciones de Cerebras suben un 10% tras mención de Sam Altman"
+   "actualizado": "2026-10-05T13:42:32Z",
+   "ultimo_resultado": "12 titulares nuevos, 4 de alto impacto: Cerebras stock pops 9% after Sam Altman calls the chipmaker a 'close partner'"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "📍 NQ VENTA: llegó a la zona 31080.0–31120.0 · Oro 4176.6 · NQ 31113.5 · VIX 16.02 · 12 noticias nuevas (4 alto impacto)",
+   "ts": "2026-10-05T13:42:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4180.1 · NQ 31028.25 · VIX 16.01 · 12 noticias nuevas (6 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "macro",
    "texto": "DXY -0.17% · 10Y 5.277 · VIX 15.31 · 1 eventos USD en el radar.",
    "ts": "2026-10-04T16:41:32Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
-   "ts": "2026-10-04T16:41:30Z"
   }
  ],
  "briefs": [
@@ -1088,7 +1088,7 @@
      "confluencias": "4",
      "cancelar": "NQ rompe y consolida sobre 31221.25 antes de activar.",
      "motivo": "",
-     "vivo": "esperando"
+     "vivo": "en_zona"
     }
    ],
    "mapas": {
@@ -2059,12 +2059,21 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4180.1,
-  "nq": 31028.25,
-  "vix": 16.01,
-  "ts": "2026-10-05T13:37:37Z"
+  "oro": 4176.6,
+  "nq": 31113.5,
+  "vix": 16.02,
+  "ts": "2026-10-05T13:42:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Cerebras stock pops 9% after Sam Altman calls the chipmaker a 'close partner'",
+   "link": "https://www.cnbc.com/2026/10/05/cerebras-cbrs-sam-altman-close-partner.html",
+   "ts": "2026-10-05T13:37:15Z",
+   "fuente": "CNBC",
+   "id": "8c64e86e2d",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Cerebras stock pops 10% after Sam Altman calls the chipmaker a 'close partner'",
    "link": "https://www.cnbc.com/2026/10/05/cerebras-cbrs-sam-altman-close-partner.html",
@@ -2161,6 +2170,15 @@
    "impacto": "bajo",
    "es": "Nasdaq en máximos históricos: ¿Estás sobreinvertido en IA?",
    "efecto": "Genera cautela institucional por posible sobrecompra en tecnología."
+  },
+  {
+   "titulo": "Tariffs, trade, Trump: Sacramento-area’s agriculture community weighs in on midterms",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaMXBBaHVzS3FBc2t1LS1ncUI2RGlFSE1HUWU5OW1sVmtfYndHbzhlcFI3eEhUaXplTUdYWjFTdjQ3akJ0RGRPVENiWGh3VjRjdm54UV9LMk9vbzQwcnV1cnFlMGsyMUnSAWdBVV95cUxNVmhUeDZleTUxbHV2VGp0WVd3NU5xQlZwS2x6Nm5wYUw0TnFiZVctelhYcG9fMVlaSnNQTlhLQm9kZVZaQ19yeUtWUEQtSnlqYkh3MUwwQnJlb1JqYUk4aFBCVEcycDJn?oc=5",
+   "ts": "2026-10-05T13:00:00Z",
+   "fuente": "Sacramento Bee",
+   "id": "c9a5356959",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Antimony Market Faces a Nov. 27 Export-Control Deadline from China",
@@ -2906,24 +2924,6 @@
    "id": "cdc5471c5a",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "SEC Clears Cboe to List Volatility Shares’ 3x Bitcoin and Ether Funds",
-   "link": "https://unchainedcrypto.com/sec-clears-cboe-to-list-volatility-shares-3x-bitcoin-and-ether-funds/?.tsrc=rss",
-   "ts": "2026-10-05T09:38:15Z",
-   "fuente": "Yahoo Finance",
-   "id": "67d3340565",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Bolsonaro beats expectations in Brazil presidential vote, will face Lula in runoff",
-   "link": "https://www.cnbc.com/2026/10/04/brazil-presidential-election-lula-bolsonaro.html",
-   "ts": "2026-10-05T09:33:40Z",
-   "fuente": "CNBC",
-   "id": "abf3a9f1aa",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [],
@@ -3480,14 +3480,14 @@
     4184.3,
     4186.1,
     4174.8,
-    4180.6
+    4176.5
    ],
    [
-    1791206856,
-    4180.0,
-    4180.0,
-    4180.0,
-    4180.0
+    1791207150,
+    4176.6,
+    4176.6,
+    4176.6,
+    4176.6
    ]
   ],
   "nq": [
@@ -4040,16 +4040,16 @@
    [
     1791205200,
     30995.5,
-    31039.75,
+    31127.25,
     30988.5,
-    31036.75
+    31120.0
    ],
    [
-    1791206857,
-    31028.25,
-    31028.25,
-    31028.25,
-    31028.25
+    1791207152,
+    31113.5,
+    31113.5,
+    31113.5,
+    31113.5
    ]
   ],
   "vix": [
@@ -4492,14 +4492,14 @@
     16.19,
     16.19,
     16.01,
-    16.01
+    16.02
    ],
    [
-    1791206551,
-    16.01,
-    16.01,
-    16.01,
-    16.01
+    1791206701,
+    16.02,
+    16.02,
+    16.02,
+    16.02
    ]
   ]
  },
