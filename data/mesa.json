@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4174.2 · NQ 31161.25 · VIX 15.91 · 12 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-05T13:47:33Z"
+   "ultimo_resultado": "Oro 4169.0 · NQ 31201.25 · VIX 15.91 · 12 noticias nuevas (4 alto impacto)",
+   "actualizado": "2026-10-05T13:52:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T13:47:32Z",
-   "ultimo_resultado": "12 titulares nuevos, 3 de alto impacto: Gold Under Pressure as Bond Yields and Dollar Stay Elevated, Speculators Cut Longs"
+   "actualizado": "2026-10-05T13:52:41Z",
+   "ultimo_resultado": "12 titulares nuevos, 4 de alto impacto: Visa Poll Finds Nearly Half Of People In Asia Might Use Stablecoins By 2031"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4169.0 · NQ 31201.25 · VIX 15.91 · 12 noticias nuevas (4 alto impacto)",
+   "ts": "2026-10-05T13:52:41Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4174.2 · NQ 31161.25 · VIX 15.91 · 12 noticias nuevas (3 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +120,318 contratos.",
    "ts": "2026-10-04T16:41:34Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-10-04T16:41:33Z"
   }
  ],
  "briefs": [
@@ -2059,10 +2059,10 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4174.2,
-  "nq": 31161.25,
+  "oro": 4169.0,
+  "nq": 31201.25,
   "vix": 15.91,
-  "ts": "2026-10-05T13:47:32Z"
+  "ts": "2026-10-05T13:52:41Z"
  },
  "noticias": [
   {
@@ -2083,6 +2083,15 @@
    "ts": "2026-10-05T13:37:15Z",
    "fuente": "CNBC",
    "id": "8c64e86e2d",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Visa Poll Finds Nearly Half Of People In Asia Might Use Stablecoins By 2031",
+   "link": "https://www.cryptoprowl.com/releases/visa-poll-finds-nearly-half-of-people-in-asia-might-use-stablecoins-by-2031-7221?.tsrc=rss",
+   "ts": "2026-10-05T13:35:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "0716039206",
    "activos": [],
    "impacto": "bajo"
   },
@@ -2285,6 +2294,18 @@
    "impacto": "bajo",
    "es": "Eric Sprott anuncia cambios en sus participaciones en Outcrop Silver & Gold",
    "efecto": "Ruido corporativo menor, sin impacto macroeconómico."
+  },
+  {
+   "titulo": "Gold Demand Tracks Bond Market Doubts About U.S. Fiscal Sustainability",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZDV5cHV6VE5Ud0FuX2xPdVlVS1hJbVdmUEJoa0h1cUhBTFpsTWFJdDN5VHhQMHAwdEIwRTFpSmtKTGRUVEdLeWFzN01DY1VYckNRLUJiWURHek8tODEtRTBOZEdoZVdseHlhcGtkNmRHZXFiNndlMHpNWC14dl9VWVl6SnF5b3ZzTEtGbTNpZG51Yjc4NXFkemU4S1dwV0k0cV9HakxFelNPeGIy?oc=5",
+   "ts": "2026-10-05T12:23:28Z",
+   "fuente": "StoneX",
+   "id": "2cd9f7dd39",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Here are Monday's biggest analyst calls: Nvidia, SpaceX, Tesla, Apple, Microsoft, Wells Fargo, Samsara & more",
@@ -2909,24 +2930,6 @@
    "impacto": "medio",
    "es": "El jefe de Saudi Aramco dice que reponer inventarios de petróleo podría tomar dos años",
    "efecto": "Impulsa la inflación y al dólar por costos energéticos."
-  },
-  {
-   "titulo": "Bolsonaro beats expectations in Brazil presidential vote, will face Lula in runoff",
-   "link": "https://www.cnbc.com/2026/10/04/brazil-presidential-election-lula-bolsonaro.html",
-   "ts": "2026-10-05T09:45:44Z",
-   "fuente": "CNBC",
-   "id": "abf3a9f1aa",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "US senator moves to raise tariffs on Ecuadorian shrimp",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ3NiVTBsRzhBb01uNVJRbG0yRnB0VWNkdktQZDdVOUFiaGhXT09GVnczQ0t0R3ZUZE96dm50di1aU0V3b2kzX0JpeldsOWZ5S1NfLTMwcnB5QnJ5aWY2enBXUXVGTGFjRVNNaGlCOGlGYjNmV2VRaWgtMGQyRWpoaGw5TnJrcmhybXN0ZXV1c1JsQnM?oc=5",
-   "ts": "2026-10-05T09:45:00Z",
-   "fuente": "SeafoodSource",
-   "id": "78af38a045",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [],
@@ -3482,15 +3485,15 @@
     1791205200,
     4184.3,
     4186.1,
-    4172.4,
-    4172.5
+    4168.0,
+    4170.8
    ],
    [
-    1791207449,
-    4174.2,
-    4174.2,
-    4174.2,
-    4174.2
+    1791207760,
+    4169.0,
+    4169.0,
+    4169.0,
+    4169.0
    ]
   ],
   "nq": [
@@ -4043,16 +4046,16 @@
    [
     1791205200,
     30995.5,
-    31168.5,
+    31207.25,
     30988.5,
-    31163.5
+    31205.25
    ],
    [
-    1791207451,
-    31161.25,
-    31161.25,
-    31161.25,
-    31161.25
+    1791207759,
+    31201.5,
+    31201.5,
+    31201.5,
+    31201.5
    ]
   ],
   "vix": [
@@ -4494,11 +4497,11 @@
     1791205200,
     16.19,
     16.19,
-    15.91,
-    15.91
+    15.9,
+    15.93
    ],
    [
-    1791207151,
+    1791207451,
     15.91,
     15.91,
     15.91,
