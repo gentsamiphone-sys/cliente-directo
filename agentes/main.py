@@ -211,7 +211,7 @@ def modelos_disponibles():
     return _MODELOS_OK or preferidos
 
 
-def gemini(prompt, buscar=False, intentos=3):
+def gemini(prompt, buscar=False, intentos=3, lite=False):
     if not GEMINI_KEY:
         raise RuntimeError("Falta GEMINI_API_KEY")
     errores = []
@@ -220,7 +220,11 @@ def gemini(prompt, buscar=False, intentos=3):
                   "generationConfig": {"temperature": 0.6}}
         if usar_busqueda:
             cuerpo["tools"] = [{"google_search": {}}]
-        for modelo in modelos_disponibles()[:6]:
+        lista = modelos_disponibles()
+        if lite:  # tareas sencillas: primero los modelos "lite" (más cuota gratis) y sin reintentos largos
+            lista = sorted(lista, key=lambda m: "lite" not in m)
+            intentos = 1
+        for modelo in lista[:6]:
             url = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent"
             for i in range(intentos):
                 r = requests.post(url, params={"key": GEMINI_KEY}, json=cuerpo, timeout=120)
@@ -245,8 +249,8 @@ def gemini(prompt, buscar=False, intentos=3):
     raise RuntimeError("Gemini no respondió: " + "; ".join(errores[-4:]))
 
 
-def gemini_json(prompt, buscar=False):
-    texto = gemini(prompt + "\n\nResponde SOLO con JSON válido, sin texto antes ni después.", buscar=buscar)
+def gemini_json(prompt, buscar=False, lite=False):
+    texto = gemini(prompt + "\n\nResponde SOLO con JSON válido, sin texto antes ni después.", buscar=buscar, lite=lite)
     texto = re.sub(r"^```(?:json)?|```$", "", texto.strip(), flags=re.M).strip()
     m = re.search(r"(\[.*\]|\{.*\})", texto, re.S)
     if not m:

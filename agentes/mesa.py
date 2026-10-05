@@ -582,14 +582,17 @@ def noticias(me):
             print("noticias", f, ex)
     nuevas.sort(key=lambda n: n["ts"], reverse=True)
     nuevas = nuevas[:15]
-    if nuevas:
+    ult = me.m.get("noticias_traducidas_ts")
+    toca_traducir = not ult or (datetime.now(timezone.utc) - datetime.fromisoformat(ult.replace("Z", "+00:00"))).total_seconds() > 1800
+    if nuevas and toca_traducir:
+        me.m["noticias_traducidas_ts"] = ahora()
         try:
             r = base.gemini_json("""Eres el analista de noticias de una mesa institucional que opera ORO y NASDAQ 100 (NQ).
 Para cada titular devuelve un objeto con: i (el número), es (el titular traducido al español, corto y claro),
 impacto ("alto" si puede mover fuerte el oro, el NQ, el dólar o las tasas hoy; "medio" si es relevante; "bajo" si es ruido),
 activos (lista con "oro", "nq" y/o "dolar" que afecta), efecto (máx. 12 palabras: qué haría una institución, p. ej. "Presiona al oro al alza por refugio").
 Devuelve una lista JSON. Titulares:
-""" + "\n".join(f"{i}. {n['titulo']}" for i, n in enumerate(nuevas)))
+""" + "\n".join(f"{i}. {n['titulo']}" for i, n in enumerate(nuevas)), lite=True)
             for x in r if isinstance(r, list) else []:
                 try:
                     n = nuevas[int(x.get("i"))]
