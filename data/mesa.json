@@ -31,9 +31,9 @@
    "ultimo_resultado": "Volatilidad normal (VIX 15.31)."
   },
   "auditor": {
-   "estado": "trabajando",
-   "tarea": "Revisando cómo salieron las entradas anteriores…",
-   "actualizado": "2026-10-05T12:32:48Z",
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-05T12:32:49Z",
    "ultimo_resultado": "Todavía no hay operaciones cerradas para medir."
   },
   "vigilante": {
@@ -50,6 +50,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "auditor",
+   "texto": "Todavía no hay operaciones cerradas para medir.",
+   "ts": "2026-10-05T12:32:49Z"
+  },
   {
    "agente": "auditor",
    "texto": "Revisando cómo salieron las entradas anteriores…",
@@ -1139,7 +1144,9 @@
      "confluencias": "4",
      "cancelar": "El precio perfora 30724.75 antes de activar la orden o el VIX supera 16.21.",
      "motivo": "",
-     "vivo": "esperando"
+     "vivo": "esperando",
+     "resultado": "no se activó",
+     "r": 0.0
     }
    ],
    "mapas": {
@@ -1307,7 +1314,9 @@
      "rr": "2.15",
      "confluencias": "4",
      "cancelar": "Rompe con fuerza 30500 o el VIX cruza al alza 16.50.",
-     "motivo": ""
+     "motivo": "",
+     "resultado": "no se activó",
+     "r": 0.0
     }
    ],
    "mapas": {
