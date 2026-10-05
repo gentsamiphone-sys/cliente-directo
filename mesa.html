@@ -140,7 +140,8 @@ let token="";try{token=localStorage.getItem("cd_token")||""}catch{}
 let M={agentes:{},actividad:[],briefs:[]},sel=0,lastOk=0;
 const AG=[{id:"auditor",n:"Auditor"},{id:"macro",n:"Macro"},{id:"flujos",n:"Flujos COT"},{id:"liquidez",n:"Liquidez"},{id:"riesgo",n:"Riesgo"},{id:"cio",n:"CIO"}];
 const SES=[["asia","Asia",21,30,[0,1,2,3,4]],["londres","Londres",6,30,[1,2,3,4,5]],["nuevayork","Nueva York",12,30,[1,2,3,4,5]]];
-function trabajando(id){const s=M.agentes[id];return !!(s&&s.estado==="trabajando"&&(Date.now()-new Date(s.actualizado))<30*60000)}
+function mercadoAbierto(){const t=new Date(),d=t.getUTCDay(),h=t.getUTCHours();if(d===6||(d===5&&h>=21)||(d===0&&h<22))return false;return h!==21}
+function trabajando(id){const s=M.agentes[id];if(mercadoAbierto())return true;return !!(s&&s.estado==="trabajando"&&(Date.now()-new Date(s.actualizado))<30*60000)}
 function proximo(){const now=new Date();let best=null;for(let d=0;d<8;d++)for(const[,n,h,m,dias] of SES){const t=new Date(Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),now.getUTCDate()+d,h,m));if(t>now&&dias.includes(t.getUTCDay())&&(!best||t<best.t))best={t,n}}
   if(!best)return"—";const min=Math.round((best.t-now)/60000);return best.n+" en "+(min<60?min+" min":Math.floor(min/60)+" h "+(min%60)+" m")}
 function md(t){ // markdown sencillo → html
@@ -182,7 +183,7 @@ function render(){
     const last=M.briefs[0];$("kSo").textContent=(last.sesgo?.oro||"—").toUpperCase();$("kSn").textContent=(last.sesgo?.nq||"—").toUpperCase();
   }
   $("feed").innerHTML=(M.actividad||[]).slice(0,40).map(e=>`<div class="ev"><time>${hhmm(e.ts)}</time><span><b>${esc((AG.find(a=>a.id===e.agente)||{}).n||e.agente)}</b> ${esc(e.texto)}</span></div>`).join("")||'<p class="empty">Aquí ves cada paso de los agentes.</p>';
-  const on=AG.filter(a=>trabajando(a.id));$("pTrab").textContent=on.length?"TRABAJANDO: "+on.map(a=>a.n.toUpperCase()).join(", "):"MESA EN ESPERA";$("pTrab").className="pill"+(on.length?" on":"");
+  const on=AG.filter(a=>trabajando(a.id));$("pTrab").textContent=mercadoAbierto()?"MERCADO ABIERTO · MESA EN SUS PUESTOS":on.length?"TRABAJANDO: "+on.map(a=>a.n.toUpperCase()).join(", "):"MERCADO CERRADO · MESA EN DESCANSO";$("pTrab").className="pill"+(on.length?" on":"");
   $("kNext").textContent=proximo();
 }
 $("tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;sel=+b.dataset.i;render()});
@@ -290,8 +291,8 @@ cargar();setInterval(cargar,token?20000:45000);
   function tip(e){const b=cv.getBoundingClientRect(),sx=(e.clientX-b.left-panX)/zoom,sy=(e.clientY-b.top-panY)/zoom,gx=(sx/(TW/2)+sy/(TH/2))/2,gy=(sy/(TH/2)-sx/(TW/2))/2;
     const r=R.find(r=>gx>=r.x&&gx<=r.x+r.w&&gy>=r.y&&gy<=r.y+r.h),el=$("tip");if(!r){el.hidden=true;return}
     const a=AG.find(a=>a.id===r.id),s=M.agentes[r.id]||{};
-    el.innerHTML=r.cafe?'<span class="s">Descanso</span><b>Café</b>Los analistas esperan la próxima sesión.':r.id==="trading"?`<span class="s">Piso</span><b>Sala de trading</b>${esc(M.briefs[0]?.titular||"Se ilumina cuando la mesa prepara un brief.")}`:
-      `<span class="s">${trabajando(r.id)?"Trabajando ahora":"En espera"}</span><b>${a?a.n:r.name}</b>${esc(trabajando(r.id)?s.tarea:(s.ultimo_resultado||"Esperando la próxima sesión"))}`;
+    el.innerHTML=r.cafe?'<span class="s">Descanso</span><b>Café</b>Los analistas descansan cuando el mercado está cerrado.':r.id==="trading"?`<span class="s">Piso</span><b>Sala de trading</b>${esc(M.briefs[0]?.titular||"Se ilumina cuando la mesa prepara un brief.")}`:
+      `<span class="s">${trabajando(r.id)?"Trabajando ahora":"En espera"}</span><b>${a?a.n:r.name}</b>${esc(trabajando(r.id)?(s.tarea||s.ultimo_resultado||"Vigilando el mercado"):(s.ultimo_resultado||"Esperando la próxima sesión"))}`;
     el.hidden=false;el.style.left=Math.min(b.width-280,e.clientX-b.left+14)+"px";el.style.top=Math.max(60,e.clientY-b.top-10)+"px"}
   document.querySelectorAll("[data-w]").forEach(b=>b.onclick=()=>window.__enfocar(b.dataset.w));
   $("bP").onclick=()=>z(W/2,H/2,1.2);$("bM").onclick=()=>z(W/2,H/2,1/1.2);$("bC").onclick=centrar;
