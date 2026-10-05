@@ -92,6 +92,22 @@ th{color:var(--acc);font-weight:700}
 .ley{font-size:12px;margin:8px 0 0;display:flex;gap:14px;flex-wrap:wrap}
 .tomar{margin-top:8px;background:#d7ff3a;color:#0b0d10;border:0;border-radius:8px;padding:6px 12px;font:700 13px inherit;cursor:pointer}.tomar[aria-pressed=true]{background:transparent;color:#d7ff3a;border:1px solid #d7ff3a}
 .dk{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:0 0 12px}.dk div{border:1px solid #23281f;border-radius:10px;padding:8px 10px}.dk small{display:block;opacity:.7;font-size:11px}.dk b{font:700 20px "JetBrains Mono",monospace}
+
+#chatBtn{position:fixed;right:18px;bottom:18px;z-index:50;background:#d7ff3a;color:#0b0d10;border:0;border-radius:999px;padding:12px 18px;font:700 14px "Atkinson Hyperlegible",sans-serif;box-shadow:0 6px 24px rgba(0,0,0,.5);cursor:pointer}
+#chat{position:fixed;right:18px;bottom:72px;z-index:50;width:min(420px,calc(100vw - 32px));height:min(620px,calc(100vh - 110px));background:#0e1013;border:1px solid #2a3026;border-radius:16px;display:flex;flex-direction:column;box-shadow:0 12px 40px rgba(0,0,0,.6)}
+#chat[hidden]{display:none}
+#chat header{padding:12px 14px;border-bottom:1px solid #23281f;display:flex;justify-content:space-between;align-items:center;gap:8px}
+#chat header b{font-size:15px}#chat header button{background:none;border:0;color:inherit;font-size:20px;cursor:pointer}
+.quien{display:flex;gap:6px;flex-wrap:wrap;padding:8px 12px;border-bottom:1px solid #23281f}
+.quien button{background:transparent;border:1px solid #2a3026;color:inherit;border-radius:999px;padding:3px 9px;font:inherit;font-size:12px;cursor:pointer}.quien button[aria-pressed=true]{background:#d7ff3a;color:#0b0d10;border-color:#d7ff3a}
+#msgs{flex:1;overflow:auto;padding:12px;display:flex;flex-direction:column;gap:10px}
+.mg{max-width:88%;padding:9px 12px;border-radius:12px;font-size:14px;line-height:1.45;white-space:pre-wrap}
+.mg.yo{align-self:flex-end;background:#d7ff3a;color:#0b0d10;border-bottom-right-radius:4px}
+.mg.ag{align-self:flex-start;background:#171b17;border:1px solid #23281f;border-bottom-left-radius:4px}.mg.ag small{display:block;font-weight:700;color:#d7ff3a;margin-bottom:3px;font-size:11px;letter-spacing:.04em}
+#chatForm{display:flex;gap:8px;padding:10px;border-top:1px solid #23281f}#chatForm textarea{flex:1;resize:none;background:#0b0d10;color:inherit;border:1px solid #2a3026;border-radius:10px;padding:8px;font:inherit;font-size:14px;height:44px}
+#chatForm button{background:#d7ff3a;color:#0b0d10;border:0;border-radius:10px;padding:0 14px;font-weight:700;cursor:pointer}
+.clave{padding:14px;font-size:14px;line-height:1.5}.clave input{width:100%;margin:8px 0;background:#0b0d10;color:inherit;border:1px solid #2a3026;border-radius:8px;padding:8px}.clave button{background:#d7ff3a;color:#0b0d10;border:0;border-radius:8px;padding:8px 12px;font-weight:700;cursor:pointer}.clave a{color:#d7ff3a}
+.sug{display:flex;gap:6px;flex-wrap:wrap}.sug button{background:#171b17;border:1px solid #2a3026;color:inherit;border-radius:10px;padding:5px 9px;font:inherit;font-size:12px;cursor:pointer;text-align:left}
 </style>
 </head>
 <body>
@@ -142,6 +158,14 @@ th{color:var(--acc);font-weight:700}
   </div>
 </div>
 
+
+<button id="chatBtn" aria-controls="chat">💬 Hablar con la mesa</button>
+<section id="chat" hidden aria-label="Chat con los agentes">
+  <header><b>Mesa Gent Capital</b><span><button id="chatKey" title="Cambiar clave" aria-label="Cambiar clave">⚙︎</button><button id="chatX" aria-label="Cerrar">×</button></span></header>
+  <div class="quien" id="quien"></div>
+  <div id="msgs"></div>
+  <form id="chatForm"><textarea id="chatIn" placeholder="Pregúntale a la mesa… (Enter para enviar)"></textarea><button>Enviar</button></form>
+</section>
 <script src="https://s3.tradingview.com/tv.js"></script>
 <script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"></script>
 <script>
@@ -353,6 +377,58 @@ cargar();setInterval(cargar,token?20000:45000);
 })();
 </script>
 
-<script src="https://s3.tradingview.com/tv.js"></script>
+<script src="https://s3.tradingview.com/tv.js">
+/* ===== Chat con los agentes (Gemini desde tu navegador; la clave se guarda solo en este dispositivo) ===== */
+(()=>{
+const ROLES={mesa:{n:"Toda la mesa",d:"Responde el CIO y, si hace falta, cita lo que dice cada analista (Macro, Flujos, Liquidez, Riesgo, Noticias, Auditor)."},
+  cio:{n:"CIO",d:"Eres el CIO: decides el sesgo y el plan, hablas claro y directo como jefe de mesa institucional."},
+  macro:{n:"Macro",d:"Eres el analista Macro: dólar, tasas, Fed, datos económicos y cómo afectan al oro y al NQ."},
+  flujos:{n:"Flujos COT",d:"Eres el analista de Flujos: posicionamiento COT de fondos, quién está atrapado y hacia dónde empujan."},
+  liquidez:{n:"Liquidez",d:"Eres el analista de Liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP, dónde están los stops."},
+  riesgo:{n:"Riesgo",d:"Eres el gestor de Riesgo: tamaño de posición, stop, R:R, ATR consumido, VIX y cuándo NO operar."},
+  noticias:{n:"Noticias",d:"Eres el analista de Noticias: titulares del día, datos por salir y su efecto en oro y NQ."},
+  auditor:{n:"Auditor",d:"Eres el Auditor: resultados de las entradas de la mesa y del diario de Gent, acierto y R."}};
+let quien="mesa",H=[],KEY="";try{H=JSON.parse(localStorage.getItem("gc_chat")||"[]");KEY=localStorage.getItem("gc_gemini")||""}catch{}
+const $c=id=>document.getElementById(id);
+function guardar(){try{localStorage.setItem("gc_chat",JSON.stringify(H.slice(-40)))}catch{}}
+function pintar(){
+  $c("quien").innerHTML=Object.entries(ROLES).map(([k,r])=>`<button data-q="${k}" aria-pressed="${k===quien}">${r.n}</button>`).join("");
+  if(!KEY){$c("msgs").innerHTML=`<div class="clave"><b>Conecta el cerebro de la mesa</b><br>Para hablar con los agentes necesitas tu clave gratis de Gemini (la misma de Google AI Studio que usan los agentes).<br>1. Ábrela aquí: <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a> y copia tu clave.<br>2. Pégala abajo. Se guarda solo en este dispositivo, nadie más la ve.<input id="keyIn" type="password" placeholder="Pega tu clave de Gemini" autocomplete="off"><button id="keyOk">Guardar clave</button></div>`;
+    $c("keyOk").onclick=()=>{KEY=$c("keyIn").value.trim();try{localStorage.setItem("gc_gemini",KEY)}catch{}pintar()};$c("chatForm").hidden=true;return}
+  $c("chatForm").hidden=false;
+  $c("msgs").innerHTML=(H.length?H:[{r:"ag",q:"cio",t:"Hola Gent. Somos la mesa. Pregúntanos lo que quieras: el plan de hoy, por qué una entrada, qué noticia importa, cuánto arriesgar…"}]).map(m=>m.r==="yo"?`<div class="mg yo">${esc(m.t)}</div>`:`<div class="mg ag"><small>${esc((ROLES[m.q]||ROLES.mesa).n.toUpperCase())}</small>${esc(m.t)}</div>`).join("")+
+    (H.length?"":`<div class="sug">${["¿Cuál es el plan de hoy?","¿Por qué compra en NQ?","¿Qué noticia importa ahora?","¿Cuánto arriesgo en esta entrada?","¿Cómo van mis resultados?"].map(x=>`<button data-s="${esc(x)}">${esc(x)}</button>`).join("")}</div>`);
+  $c("msgs").scrollTop=1e9}
+function contexto(){const b=(M.briefs||[])[0]||{};let dia=[];try{dia=JSON.parse(localStorage.getItem("gc_diario")||"[]")}catch{}
+  return JSON.stringify({hora_las_vegas:new Date().toLocaleString("es-US",{timeZone:"America/Los_Angeles"}),mercado_abierto:typeof mercadoAbierto==="function"?mercadoAbierto():null,
+    precios_en_vivo:M.en_vivo,ultimo_brief:{sesion:b.nombre,hora:b.ts,sesgo:b.sesgo,titular:b.titular,texto:(b.texto||"").slice(0,5000)},entradas:b.entradas,niveles:b.mapas,vix_nq:b.vix_nq,
+    calendario:b.eventos,noticias:(M.noticias||[]).slice(0,12).map(n=>({hora:n.ts,impacto:n.impacto,activos:n.activos,titular:n.es||n.titulo,efecto:n.efecto})),
+    resultados_mesa:M.estadisticas,diario_de_gent:dia.slice(-20),actividad_reciente:(M.actividad||[]).slice(0,15).map(a=>a.agente+": "+a.texto)})}
+async function preguntar(t){H.push({r:"yo",t});guardar();pintar();
+  const pend={r:"ag",q:quien,t:"…pensando"};H.push(pend);pintar();
+  const sys=`Eres parte de la mesa institucional "Gent Capital" que analiza ORO (GC/XAUUSD) y NASDAQ 100 (NQ). ${ROLES[quien].d}
+Hablas con Gent, el dueño, en español sencillo y breve (máximo 120 palabras salvo que pida detalle). Piensas como institución, no como minorista.
+Usa SOLO los datos de la mesa que vienen abajo (precios, brief, entradas, niveles, noticias, resultados). Si un dato no está, dilo; no inventes precios.
+Gent ejecuta sus operaciones; tú solo analizas. No prometas ganancias. Si pregunta cuánto arriesgar, habla en % de su cuenta (normalmente 0.5–1%) y en R.
+DATOS DE LA MESA AHORA:
+${contexto()}`;
+  const hist=H.slice(-12,-1).map(m=>({role:m.r==="yo"?"user":"model",parts:[{text:m.t}]}));
+  let resp="",err="";
+  for(const mod of ["gemini-2.5-flash","gemini-2.0-flash","gemini-flash-latest"]){
+    try{const r=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${mod}:generateContent?key=${encodeURIComponent(KEY)}`,{method:"POST",headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({systemInstruction:{parts:[{text:sys}]},contents:hist,generationConfig:{temperature:.4,maxOutputTokens:900}})});
+      const j=await r.json();if(!r.ok){err=(j.error&&j.error.message)||r.status;if(r.status===400&&/API key/i.test(err))break;continue}
+      resp=(j.candidates?.[0]?.content?.parts||[]).map(p=>p.text||"").join("").trim();if(resp)break}catch(e){err=e.message}}
+  pend.t=resp||("No pude responder ("+String(err).slice(0,120)+"). Si dice que la clave no es válida, toca ⚙︎ y pégala de nuevo.");
+  guardar();pintar()}
+$c("chatBtn").onclick=()=>{$c("chat").hidden=!$c("chat").hidden;if(!$c("chat").hidden){pintar();setTimeout(()=>$c("chatIn")?.focus(),50)}};
+$c("chatX").onclick=()=>$c("chat").hidden=true;
+$c("chatKey").onclick=()=>{KEY="";try{localStorage.removeItem("gc_gemini")}catch{}pintar()};
+$c("quien").onclick=e=>{const b=e.target.closest("[data-q]");if(b){quien=b.dataset.q;pintar()}};
+$c("msgs").onclick=e=>{const b=e.target.closest("[data-s]");if(b)preguntar(b.dataset.s)};
+$c("chatForm").onsubmit=e=>{e.preventDefault();const t=$c("chatIn").value.trim();if(!t||!KEY)return;$c("chatIn").value="";preguntar(t)};
+$c("chatIn").addEventListener("keydown",e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();$c("chatForm").requestSubmit()}});
+})();
+</script>
 </body>
 </html>
