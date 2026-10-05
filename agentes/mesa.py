@@ -528,6 +528,118 @@ BRIEF: {texto[:6000]}""")
                          ("\n".join(lineas) + "\n\n" + corto.get("titular", "") + "\n\n" + texto)[:3800])
 
 
+# ───────── noticias: vigila titulares y calendario (gratis) ─────────
+
+FUENTES_NOTICIAS = [
+    ("Yahoo Finance", "https://feeds.finance.yahoo.com/rss/2.0/headline?s=GC=F,NQ=F,%5EVIX,DX-Y.NYB&region=US&lang=en-US"),
+    ("CNBC", "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"),
+    ("CNBC Economía", "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258"),
+    ("Google News", "https://news.google.com/rss/search?q=gold+OR+nasdaq+OR+%22federal+reserve%22+OR+%22treasury+yields%22+OR+tariffs+when:1d&hl=en-US&gl=US&ceid=US:en"),
+]
+ALTO = r"\b(fed|fomc|powell|rate (cut|hike)|cpi|inflation|payrolls?|jobs report|nfp|gdp|recession|tariffs?|war|attack|missile|sanction|default|shutdown|crash|plunge|emergency|bank failure)\b"
+TEMAS = {"oro": r"\b(gold|bullion|xau|precious metal)", "nq": r"\b(nasdaq|tech stocks?|nvidia|apple|microsoft|meta|amazon|tesla|alphabet|semiconductor|ai stocks?|s&p|stocks|wall street)",
+         "dolar": r"\b(dollar|treasury|yields?|bond|fed|powell|rates?)\b"}
+
+
+def _rss(fuente, url):
+    import email.utils as eu
+    r = requests.get(url, headers=UA, timeout=25)
+    out = []
+    for it in _re.findall(r"<item>(.*?)</item>", r.text, _re.S)[:25]:
+        g = lambda tag: (_re.search(rf"<{tag}[^>]*>(.*?)</{tag}>", it, _re.S) or [None, ""])[1]
+        tit = _re.sub(r"<!\[CDATA\[|\]\]>|<[^>]+>", "", g("title")).strip()
+        tit = tit.replace("&amp;", "&").replace("&#39;", "'").replace("&quot;", '"').replace("&apos;", "'")
+        try:
+            ts = eu.parsedate_to_datetime(g("pubDate").strip()).astimezone(timezone.utc)
+        except Exception:
+            ts = datetime.now(timezone.utc)
+        src = _re.sub(r"<[^>]+>", "", g("source")).strip() or fuente
+        if fuente == "Google News" and " - " in tit:
+            tit, src = tit.rsplit(" - ", 1)
+        if tit:
+            out.append({"titulo": tit, "link": _re.sub(r"<!\[CDATA\[|\]\]>", "", g("link")).strip(), "ts": ts.strftime("%Y-%m-%dT%H:%M:%SZ"), "fuente": src})
+    return out
+
+
+def noticias(me):
+    """Junta titulares nuevos, los traduce y los clasifica; avisa al teléfono los de alto impacto y los datos por salir."""
+    import hashlib
+    lista = me.m.setdefault("noticias", [])
+    vistos = {n["id"] for n in lista}
+    nuevas = []
+    for f, u in FUENTES_NOTICIAS:
+        try:
+            for n in _rss(f, u):
+                n["id"] = hashlib.md5(_re.sub(r"\W", "", n["titulo"].lower())[:80].encode()).hexdigest()[:10]
+                edad = (datetime.now(timezone.utc) - datetime.fromisoformat(n["ts"].replace("Z", "+00:00"))).total_seconds()
+                if n["id"] not in vistos and edad < 12 * 3600:
+                    vistos.add(n["id"])
+                    t = n["titulo"].lower()
+                    n["activos"] = [k for k, rx in TEMAS.items() if _re.search(rx, t)]
+                    n["impacto"] = "alto" if _re.search(ALTO, t) else ("medio" if n["activos"] else "bajo")
+                    nuevas.append(n)
+        except Exception as ex:
+            print("noticias", f, ex)
+    nuevas.sort(key=lambda n: n["ts"], reverse=True)
+    nuevas = nuevas[:15]
+    if nuevas:
+        try:
+            r = base.gemini_json("""Eres el analista de noticias de una mesa institucional que opera ORO y NASDAQ 100 (NQ).
+Para cada titular devuelve un objeto con: i (el número), es (el titular traducido al español, corto y claro),
+impacto ("alto" si puede mover fuerte el oro, el NQ, el dólar o las tasas hoy; "medio" si es relevante; "bajo" si es ruido),
+activos (lista con "oro", "nq" y/o "dolar" que afecta), efecto (máx. 12 palabras: qué haría una institución, p. ej. "Presiona al oro al alza por refugio").
+Devuelve una lista JSON. Titulares:
+""" + "\n".join(f"{i}. {n['titulo']}" for i, n in enumerate(nuevas)))
+            for x in r if isinstance(r, list) else []:
+                try:
+                    n = nuevas[int(x.get("i"))]
+                except Exception:
+                    continue
+                n["es"] = x.get("es") or n["titulo"]
+                if x.get("impacto") in ("alto", "medio", "bajo"):
+                    n["impacto"] = x["impacto"]
+                if isinstance(x.get("activos"), list):
+                    n["activos"] = [a for a in x["activos"] if a in ("oro", "nq", "dolar")]
+                n["efecto"] = x.get("efecto", "")
+        except Exception as ex:
+            print("traducción falló", ex)
+    lista[:0] = nuevas
+    lista.sort(key=lambda n: n["ts"], reverse=True)
+    del lista[80:]
+    avisos = 0
+    for n in nuevas:
+        if n["impacto"] == "alto" and avisos < 3:
+            edad = (datetime.now(timezone.utc) - datetime.fromisoformat(n["ts"].replace("Z", "+00:00"))).total_seconds()
+            if edad < 3 * 3600:
+                avisos += 1
+                base.avisar_telefono("📰 " + (n.get("es") or n["titulo"])[:110],
+                                     (n.get("efecto") or "") + f"\nFuente: {n['fuente']}\n{n.get('link', '')}", "high")
+    # datos económicos que salen en los próximos 20 minutos
+    try:
+        avisados = me.m.setdefault("eventos_avisados", [])
+        r = requests.get("https://nfs.faireconomy.media/ff_calendar_thisweek.json", headers=UA, timeout=25).json()
+        for e in r:
+            if e.get("country") != "USD" or e.get("impact") != "High":
+                continue
+            t = datetime.fromisoformat(e["date"])
+            falta = (t - datetime.now(timezone.utc)).total_seconds() / 60
+            clave = e.get("title", "") + e["date"]
+            if 0 < falta <= 20 and clave not in avisados:
+                avisados.append(clave)
+                del avisados[:-50]
+                base.avisar_telefono(f"⏰ En {int(falta)} min: {e.get('title')} (USD, alto impacto)",
+                                     f"Previsto {e.get('forecast') or '—'} · Anterior {e.get('previous') or '—'}\n"
+                                     f"Hora Las Vegas: {t.astimezone(LV).strftime('%H:%M')}. Cuidado con entradas justo antes del dato.", "high")
+                avisos += 1
+    except Exception as ex:
+        print("calendario", ex)
+    altos = sum(1 for n in nuevas if n["impacto"] == "alto")
+    me.m["agentes"]["noticias"] = {"estado": "descansando", "tarea": "", "actualizado": ahora(),
+                                   "ultimo_resultado": (f"{len(nuevas)} titulares nuevos" + (f", {altos} de alto impacto" if altos else "")
+                                                        + (f": {nuevas[0].get('es') or nuevas[0]['titulo']}" if nuevas else ". Sin novedades."))[:220]}
+    return len(nuevas), altos
+
+
 # ───────── vigilante: mira el precio mientras el mercado está abierto (sin IA, gratis) ─────────
 
 def mercado_abierto(t=None):
@@ -546,10 +658,19 @@ def _rango(x):
 
 
 def vigilar():
-    if not mercado_abierto():
-        print("Mercado cerrado; el vigilante descansa.")
+    abierto = mercado_abierto()
+    if not abierto and datetime.now(LV).weekday() == 5:
+        print("Sábado: la mesa descansa.")
         return
     me = Mesa("vigilante")
+    try:
+        n_nuevas, n_altos = noticias(me)
+    except Exception as ex:
+        print("noticias falló", ex)
+        n_nuevas, n_altos = 0, 0
+    if not abierto:
+        me.paso("noticias", me.m["agentes"].get("noticias", {}).get("ultimo_resultado", "Revisando noticias"), trabajando=False)
+        return
     vivo = {}
     for k, sim in {**ACTIVOS, "vix": MACRO["vix"]}.items():
         try:
@@ -614,7 +735,7 @@ def vigilar():
                     e["aviso_tp1"] = True
                     avisos.append((f"🎯 {nom}: TP1", f"Llegó a {tp1}. Considera asegurar parte y mover el stop a la entrada."))
     p = me.m["en_vivo"]
-    resumen = f"Oro {p.get('oro', '—')} · NQ {p.get('nq', '—')} · VIX {p.get('vix', '—')}"
+    resumen = f"Oro {p.get('oro', '—')} · NQ {p.get('nq', '—')} · VIX {p.get('vix', '—')}" + (f" · {n_nuevas} noticias nuevas" + (f" ({n_altos} alto impacto)" if n_altos else "") if n_nuevas else "")
     for t, txt in avisos:
         base.avisar_telefono("GSAM · " + t, txt, "high")
     me.paso("vigilante", (" | ".join(t for t, _ in avisos) + " · " if avisos else "") + resumen, trabajando=False)

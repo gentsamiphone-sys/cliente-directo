@@ -85,6 +85,8 @@ th{color:var(--acc);font-weight:700}
 .tk h3 span{font:700 .78rem var(--f-m)}.tk.compra h3 span{color:var(--up)}.tk.venta h3 span{color:var(--down)}
 .tk dl{display:grid;grid-template-columns:auto 1fr;gap:3px 12px;margin:0;font-size:.86rem}
 .tk dt{color:var(--muted)}.tk dd{margin:0;font-family:var(--f-m);font-variant-numeric:tabular-nums}
+.nfiltro{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 10px}.nfiltro button{background:transparent;border:1px solid #2a3026;color:inherit;border-radius:999px;padding:4px 10px;font:inherit;font-size:12px;cursor:pointer}.nfiltro button[aria-pressed=true]{background:#d7ff3a;color:#0b0d10;border-color:#d7ff3a}
+.news{display:grid;gap:8px;max-height:420px;overflow:auto}.nw{display:grid;grid-template-columns:52px 1fr;gap:10px;padding:8px 10px;border:1px solid #23281f;border-radius:10px}.nw time{font-family:"JetBrains Mono",monospace;font-size:12px;opacity:.7}.nw a{color:inherit;text-decoration:none;font-weight:700}.nw a:hover{text-decoration:underline}.nw p{margin:3px 0 0;font-size:13px;opacity:.8}.nw .tg{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;border-radius:4px;padding:1px 6px;margin-right:4px;border:1px solid #3a4136}.nw .alto{background:#ff6b5b;color:#120605;border-color:#ff6b5b}.nw .medio{background:#e0b341;color:#120d02;border-color:#e0b341}
 </style>
 </head>
 <body>
@@ -113,6 +115,7 @@ th{color:var(--acc);font-weight:700}
 
   <div class="grid">
     <section class="card" style="grid-column:1/-1"><h2>Entradas de la mesa <span class="when">tú decides y ejecutas</span></h2><div id="entradas" class="ent"><p class="empty">Las entradas aparecen con el próximo brief.</p></div></section>
+    <section class="card" style="grid-column:1/-1"><h2>Noticias en vivo <span class="when" id="nWhen">el agente de Noticias revisa cada 10 min</span></h2><div class="nfiltro" id="nFiltro"><button data-f="todas" aria-pressed="true">Todas</button><button data-f="alto">Alto impacto</button><button data-f="oro">Oro</button><button data-f="nq">NQ</button><button data-f="dolar">Dólar y tasas</button></div><div id="noticias" class="news"><p class="empty">Las noticias aparecen con la próxima revisión del agente.</p></div></section>
     <section class="card">
       <h2>Brief de la sesión <span class="when" id="bWhen"></span></h2>
       <div class="tabs" id="tabs"></div>
@@ -138,7 +141,7 @@ const hhmm=iso=>{const d=new Date(iso);return isNaN(d)?"":d.toLocaleString("es-U
 const REPO=(()=>{const h=location.hostname;if(h.endsWith(".github.io"))return{o:h.split(".")[0],r:location.pathname.split("/").filter(Boolean)[0]};return null})();
 let token="";try{token=localStorage.getItem("cd_token")||""}catch{}
 let M={agentes:{},actividad:[],briefs:[]},sel=0,lastOk=0;
-const AG=[{id:"auditor",n:"Auditor"},{id:"macro",n:"Macro"},{id:"flujos",n:"Flujos COT"},{id:"liquidez",n:"Liquidez"},{id:"riesgo",n:"Riesgo"},{id:"cio",n:"CIO"}];
+const AG=[{id:"auditor",n:"Auditor"},{id:"macro",n:"Macro"},{id:"flujos",n:"Flujos COT"},{id:"liquidez",n:"Liquidez"},{id:"riesgo",n:"Riesgo"},{id:"cio",n:"CIO"},{id:"noticias",n:"Noticias"}];
 const SES=[["asia","Asia",21,30,[0,1,2,3,4]],["londres","Londres",6,30,[1,2,3,4,5]],["nuevayork","Nueva York",12,30,[1,2,3,4,5]]];
 function mercadoAbierto(){const t=new Date(),d=t.getUTCDay(),h=t.getUTCHours();if(d===6||(d===5&&h>=21)||(d===0&&h<22))return false;return h!==21}
 function trabajando(id){const s=M.agentes[id];if(mercadoAbierto())return true;return !!(s&&s.estado==="trabajando"&&(Date.now()-new Date(s.actualizado))<30*60000)}
@@ -153,7 +156,12 @@ function md(t){ // markdown sencillo → html
     if(/^\s*[-*•]\s+/.test(l)){if(!ul){out+="<ul>";ul=true}out+="<li>"+l.replace(/^\s*[-*•]\s+/,"")+"</li>";continue}
     if(ul){out+="</ul>";ul=false}if(l.trim())out+="<p>"+l+"</p>"}
   return out+(ul?"</ul>":"")}
-function render(){
+let nf="todas";
+function renderNoticias(){const L=(M.noticias||[]).filter(n=>nf==="todas"||(nf==="alto"?n.impacto==="alto":(n.activos||[]).includes(nf)));
+  $("noticias").innerHTML=L.length?L.slice(0,40).map(n=>`<div class="nw"><time>${hhmm(n.ts)}</time><div><span class="tg ${esc(n.impacto)}">${esc((n.impacto||"").toUpperCase())}</span>${(n.activos||[]).map(a=>`<span class="tg">${a==="nq"?"NQ":a==="oro"?"ORO":"DÓLAR"}</span>`).join("")}<br><a href="${esc(n.link||"#")}" target="_blank" rel="noopener">${esc(n.es||n.titulo)}</a>${n.efecto?`<p>${esc(n.efecto)}</p>`:""}<p style="font-size:11px">${esc(n.fuente||"")}</p></div></div>`).join(""):'<p class="empty">Sin noticias en este filtro todavía.</p>';
+  const ag=M.agentes?.noticias;if(ag)$("nWhen").textContent="revisado "+hhmm(ag.actualizado)+" · cada 10 min"}
+$("nFiltro").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;nf=b.dataset.f;$("nFiltro").querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",x===b));renderNoticias()});
+function render(){renderNoticias();
   const b=M.briefs[sel];
   $("tabs").innerHTML=M.briefs.slice(0,8).map((x,i)=>`<button aria-pressed="${i===sel}" data-i="${i}">${esc(x.nombre)} · ${hhmm(x.ts)}</button>`).join("");
   if(b){$("bWhen").textContent=hhmm(b.ts);
@@ -166,7 +174,7 @@ function render(){
       <tr><td>Rango Asia</td><td>${asia("oro")?asia("oro").min+"–"+asia("oro").max:"—"}</td><td>${asia("nq")?asia("nq").min+"–"+asia("nq").max:"—"}</td></tr>
       <tr><td>Rango Londres</td><td>${lon("oro")?lon("oro").min+"–"+lon("oro").max:"—"}</td><td>${lon("nq")?lon("nq").min+"–"+lon("nq").max:"—"}</td></tr></tbody></table>`;
     $("cal").innerHTML=(b.eventos||[]).length?`<table><tbody>${b.eventos.map(e=>`<tr><td>${esc(e.hora_lv)}</td><td style="text-align:left">${esc(e.evento)}</td><td>${esc(e.impacto==="High"?"Alto":"Medio")}</td></tr>`).join("")}</tbody></table>`:'<p class="empty">Sin eventos USD importantes hoy.</p>';
-    const p=k=>b.mapas?.[k]?.precio;$("kOro").textContent=p("oro")?Number(p("oro")).toLocaleString("en-US"):"—";$("kNq").textContent=p("nq")?Number(p("nq")).toLocaleString("en-US"):"—";
+    const p=k=>M.en_vivo?.[k]??b.mapas?.[k]?.precio;$("kOro").textContent=p("oro")?Number(p("oro")).toLocaleString("en-US"):"—";$("kNq").textContent=p("nq")?Number(p("nq")).toLocaleString("en-US"):"—";
     const st=M.estadisticas||{},tt=st.total;
     $("stats").innerHTML=tt?`<table><tbody><tr><td>Operaciones cerradas</td><td>${tt.operaciones}</td></tr><tr><td>Acierto</td><td>${tt.acierto_pct}%</td></tr><tr><td>Resultado total</td><td>${tt.r_total>0?"+":""}${tt.r_total} R</td></tr>
       ${Object.entries(st).filter(([k])=>k!=="total").map(([k,v])=>`<tr><td>${esc(k.replace("nuevayork","NY"))}</td><td>${v.acierto_pct}% · ${v.operaciones} op · ${v.r_total>0?"+":""}${v.r_total}R</td></tr>`).join("")}</tbody></table>`
@@ -175,7 +183,7 @@ function render(){
     $("entradas").innerHTML=en.length?en.map(e=>{const d=String(e.direccion||"").toUpperCase(),c=d.startsWith("COMPRA")?"compra":d.startsWith("VENTA")?"venta":"";
       return d.startsWith("SIN")?`<div class="tk"><h3>${esc(e.activo)}<span>SIN ENTRADA</span></h3><p style="margin:0;color:var(--muted)">${esc(e.motivo||e.cancelar||"")}</p></div>`:
       `<div class="tk ${c}"><h3>${esc(e.activo)}<span>${esc(d)}</span></h3><dl><dt>Zona de entrada</dt><dd>${esc(e.zona)}</dd><dt>Stop</dt><dd>${esc(e.stop)}</dd><dt>TP1 / TP2</dt><dd>${esc(e.tp1)} / ${esc(e.tp2)}</dd><dt>R:R</dt><dd>${esc(e.rr)}</dd><dt>Confluencias</dt><dd>${esc(e.confluencias??"—")}/5</dd>${e.resultado?`<dt>Resultado</dt><dd>${esc(e.resultado)}${e.r!=null?" ("+(e.r>0?"+":"")+e.r+" R)":""}</dd>`:""}<dt>Confirmación</dt><dd style="font-family:var(--f-b)">${esc(e.confirmacion)}</dd><dt>Cancelar si</dt><dd style="font-family:var(--f-b)">${esc(e.cancelar)}</dd></dl></div>`}).join(""):'<p class="empty">Este brief no trae entradas.</p>';
-    const x=b.vix_nq||{};$("kVix").textContent=x.vix??"—";
+    const x=b.vix_nq||{};$("kVix").textContent=M.en_vivo?.vix??x.vix??"—";
     $("vixnq").innerHTML=x.vix?`<p style="margin:0 0 8px;font-weight:700;color:${/CONFIRMA ALCISTA/.test(x.lectura)?"var(--up)":/CONFIRMA BAJISTA/.test(x.lectura)?"var(--down)":"var(--acc)"}">${esc(x.lectura||"")}</p>
       <table><tbody><tr><td>VIX</td><td>${x.vix} (${x.cambio_1d_pct>0?"+":""}${x.cambio_1d_pct}%)</td></tr><tr><td>VIX máx./mín. ayer</td><td>${x.vix_PDH} / ${x.vix_PDL}</td></tr>
       <tr><td>Media 20 días</td><td>${x.vix_media20}</td></tr><tr><td>VIX / VIX3M</td><td>${x.vix_vs_vix3m??"—"}</td></tr><tr><td>Estructura</td><td>${esc((x.estructura||"—").split(" (")[0])}</td></tr>
@@ -204,6 +212,7 @@ cargar();setInterval(cargar,token?20000:45000);
     {id:"flujos",name:"FLUJOS · COT",x:9,y:11,w:8,h:6,c:3,r:2,shirt:"#b061d6"},
     {id:"liquidez",name:"LIQUIDEZ",x:18,y:13,w:9,h:6,c:3,r:2,shirt:"#1fb39a"},
     {id:"cafe",name:"CAFÉ",x:0,y:18,w:17,h:4,cafe:true},
+    {id:"noticias",name:"NOTICIAS",x:18,y:20,w:9,h:4,c:3,r:1,shirt:"#e0b341"},
   ];
   // pantallas gigantes en las paredes de la sala de trading (eje x = pared del fondo, eje y = pared izquierda)
   const WALLS=[
@@ -243,7 +252,8 @@ cargar();setInterval(cargar,token?20000:45000);
     cx.fillStyle="#d9a77c";cx.beginPath();cx.arc(x,y-21+b,4.5,0,7);cx.fill();cx.fillStyle="#22180f";cx.beginPath();cx.arc(x,y-22.5+b,4.5,Math.PI,0);cx.fill()}
   function ticker(t){const[x,y]=iso(.6,9.6);cx.save();cx.translate(x,y);cx.transform(1,.5,-1,.5,0,0);cx.fillStyle="rgba(14,16,19,.92)";cx.fillRect(0,-40,380,40);cx.strokeStyle=ACC;cx.strokeRect(0,-40,380,40);
     const b=M.briefs[0];cx.font='700 11px "JetBrains Mono",monospace';cx.fillStyle=ACC;cx.fillText(b?("BRIEF "+(b.nombre||"").toUpperCase()+" · ORO "+(b.sesgo?.oro||"?").toUpperCase()+" · NQ "+(b.sesgo?.nq||"?").toUpperCase()):"ESPERANDO EL PRIMER BRIEF",8,-25);
-    cx.fillStyle="#e9eee4";cx.font='600 11px "Atkinson Hyperlegible",sans-serif';cx.fillText((b?.titular||"").slice(0,58),8,-10);cx.restore()}
+    cx.fillStyle="#e9eee4";cx.font='600 11px "Atkinson Hyperlegible",sans-serif';const NV=(M.noticias||[]).filter(n=>n.impacto!=="bajo").slice(0,6),k=Math.floor(t/7000)%(NV.length+1);
+    if(k&&NV[k-1]){cx.fillStyle=NV[k-1].impacto==="alto"?"#ff6b5b":"#e0b341";cx.fillText(("📰 "+(NV[k-1].es||NV[k-1].titulo)).slice(0,60),8,-10)}else cx.fillText((b?.titular||"").slice(0,58),8,-10);cx.restore()}
   function frame(now){const t=now-t0;let s=0;const free=seats.slice();
     for(const w of workers){if(on(w.r.id)){w.tx=w.d.x;w.ty=w.d.y+.55;w.seat=null}else{if(!w.seat)w.seat=free.length?free.splice((s++*5)%free.length,1)[0]:{x:2+Math.random()*15,y:22};else{const i=free.indexOf(w.seat);if(i>=0)free.splice(i,1)}w.tx=w.seat.x;w.ty=w.seat.y}
       const k=reduce?1:.03;w.x+=(w.tx-w.x)*k;w.y+=(w.ty-w.y)*k;w.at=Math.hypot(w.x-w.d.x,w.y-w.d.y-.55)<.15}
