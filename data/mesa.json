@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4171.6 · NQ 31230.25 · VIX 15.53 · 6 noticias nuevas",
-   "actualizado": "2026-10-05T15:02:45Z"
+   "ultimo_resultado": "Oro 4174.5 · NQ 31238.0 · VIX 15.53 · 11 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-05T15:07:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T15:02:45Z",
-   "ultimo_resultado": "6 titulares nuevos: Anthropic, OpenAI, Google and Meta execs set to testify at NYC Council hearing on AI risks"
+   "actualizado": "2026-10-05T15:07:32Z",
+   "ultimo_resultado": "11 titulares nuevos, 3 de alto impacto: Plea agreement hearing set for ex-CIA officer found with gold bars"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4174.5 · NQ 31238.0 · VIX 15.53 · 11 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-05T15:07:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4171.6 · NQ 31230.25 · VIX 15.53 · 6 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
    "ts": "2026-10-04T16:48:39Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Midiendo volatilidad y rango esperado del día…",
-   "ts": "2026-10-04T16:48:38Z"
   }
  ],
  "briefs": [
@@ -2059,12 +2059,23 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4171.6,
-  "nq": 31230.25,
+  "oro": 4174.5,
+  "nq": 31238.0,
   "vix": 15.53,
-  "ts": "2026-10-05T15:02:45Z"
+  "ts": "2026-10-05T15:07:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Plea agreement hearing set for ex-CIA officer found with gold bars",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOS2FFZHVSOEVLcnJTckt3NEk1V1lUZ09VRDhvanNPNWhySEdraHRzLWJTLTdibXBheFFYdDVfZ0RRUGZBaTNvdkhlaV9mU0xvY2gxQWxubkRJelRrVl9EUmFmX3BwNzZ5S2ljQ3dQSGpUSXg3RF9tX0V2eXczWFk0UmM2bnl0a1o5cjNUNC0yV2QxcE9ESmdBLWRma0p5ZTZNLTZhc2VBWVR6S2NHelIwY250TVUyeGx4TVA1Tw?oc=5",
+   "ts": "2026-10-05T15:02:18Z",
+   "fuente": "NBC News",
+   "id": "62e80533ae",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "U.S. and China Set Plan for Repealing Some Tariffs",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRXMzaW91d3Vqc2lVRG1qdUNEQXpfRUZGMm9YbnNXRVRXcVZfakRPSXlsaG9iNTdrMUlpeE5ZY2lEREpKQmthNXhNX3dnbVpscFlUelRiYXVzdHVWenlKUmV3WFdTbEtERUVlV3JMQ2FCNXJHcGJ6YUd4cURNd3NxTUJsUjE4ODNOMy1DNlQ1SXY?oc=5",
@@ -2920,17 +2931,6 @@
    "impacto": "alto",
    "es": "Futuros de EE. UU. caen por mayores rendimientos de bonos",
    "efecto": "Presiona al NQ a la baja y fortalece al dólar."
-  },
-  {
-   "titulo": "Stock Market Today: Indexes Mixed at Opening Bell as Treasury Yields Rise, Oil Prices Fall",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdnJNTGdrT1JHOUNJelVGcHozSEZUbDJnRkw0WjJyQ1FqWlFKcXRaMmVCNnJaSEhIQ2pjZEFOTnFIZ2tqS3pNWXpxWndHakIwWHM2UjYxX2NNaU5hZkdnYnZEMEZPTVRBNWM4V3pnYlUtQzVjeXJoOXF4Z2lPbGt2blVzV0dmUkNwd1ZYQU5GSE4zeTJ0UEtLcVVKYWlMQQ?oc=5",
-   "ts": "2026-10-05T10:52:48Z",
-   "fuente": "finance.yahoo.com",
-   "id": "1673a2c571",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3492,16 +3492,16 @@
    [
     1791208800,
     4163.0,
-    4175.1,
+    4176.0,
     4160.0,
-    4171.2
+    4175.3
    ],
    [
-    1791211959,
-    4171.6,
-    4171.6,
-    4171.6,
-    4171.6
+    1791212247,
+    4174.5,
+    4174.5,
+    4174.5,
+    4174.5
    ]
   ],
   "nq": [
@@ -4061,16 +4061,16 @@
    [
     1791208800,
     31156.5,
-    31247.75,
+    31254.75,
     31115.0,
-    31226.75
+    31247.25
    ],
    [
-    1791211965,
-    31227.25,
-    31227.25,
-    31227.25,
-    31227.25
+    1791212251,
+    31238.0,
+    31238.0,
+    31238.0,
+    31238.0
    ]
   ],
   "vix": [
@@ -4520,10 +4520,10 @@
     15.75,
     15.88,
     15.5,
-    15.5
+    15.52
    ],
    [
-    1791211651,
+    1791211951,
     15.53,
     15.53,
     15.53,
