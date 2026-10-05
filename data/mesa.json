@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4163.5 · NQ 31285.0 · VIX 15.62 · 14 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-05T18:22:36Z"
+   "ultimo_resultado": "Oro 4163.8 · NQ 31300.5 · VIX 15.6 · 15 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-05T18:27:46Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T18:22:35Z",
-   "ultimo_resultado": "14 titulares nuevos, 1 de alto impacto: Current price of gold as of October 5, 2026"
+   "actualizado": "2026-10-05T18:27:45Z",
+   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: Nvidia looks to take out its record high close — plus, don't worry about Intel's dip"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4163.8 · NQ 31300.5 · VIX 15.6 · 15 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-05T18:27:46Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4163.5 · NQ 31285.0 · VIX 15.62 · 14 noticias nuevas (1 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4170.6 · NQ 31083.0 · VIX 15.31 · 1 noticias nuevas",
    "ts": "2026-10-05T04:12:38Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro — · NQ — · VIX 15.31 · 8 noticias nuevas",
-   "ts": "2026-10-05T04:03:00Z"
   }
  ],
  "briefs": [
@@ -2059,12 +2059,32 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4163.5,
-  "nq": 31285.0,
-  "vix": 15.62,
-  "ts": "2026-10-05T18:22:35Z"
+  "oro": 4163.8,
+  "nq": 31300.5,
+  "vix": 15.6,
+  "ts": "2026-10-05T18:27:46Z"
  },
  "noticias": [
+  {
+   "titulo": "Nvidia looks to take out its record high close — plus, don't worry about Intel's dip",
+   "link": "https://www.cnbc.com/investingclub/2026/10/05/nvidia-looks-to-take-out-its-record-high-close-plus-dont-worry-about-intels-dip.html",
+   "ts": "2026-10-05T18:25:31Z",
+   "fuente": "CNBC",
+   "id": "9639ae769e",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "SEC Clears 3x Leveraged Bitcoin and Ethereum Funds for Trading",
+   "link": "https://decrypt.co/380108/sec-clears-3x-leveraged-bitcoin-ethereum-funds?.tsrc=rss",
+   "ts": "2026-10-05T18:12:28Z",
+   "fuente": "Yahoo Finance",
+   "id": "00e331e57b",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Fairshake crypto PAC network backs 32 House candidates in midterms",
    "link": "https://www.cnbc.com/2026/10/05/fairshake-crypto-super-pac-house-races.html",
@@ -2084,6 +2104,17 @@
     "dolar"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Federal Reserve interest rate decision looms as inflation worries persist",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4ZVZIQnAyNXMtT1dBejBuSXRIOEVmQ015cHRtYjBlSnlFSHNaMTdnTWtGbHBnOGhvMkZJNXp0ZU9wdUZFc21xXzkzb3hOUXJOWG1KOHkxV01Jd2c?oc=5",
+   "ts": "2026-10-05T18:05:55Z",
+   "fuente": "foxbusiness.com",
+   "id": "0c78a3a71c",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Cocoa prices are climbing again. Here’s why this time is different",
@@ -2897,35 +2928,6 @@
    "impacto": "medio",
    "es": "Acciones de Cerebras suben un 10% tras mención de Sam Altman",
    "efecto": "Impulsa el sector tecnológico y al NQ al alza."
-  },
-  {
-   "titulo": "London Gold Body Seeks to Boost Finances With Higher Member Fees",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVmFqeE5lMHpQQ2MwbGRLSjhENEpXNFAzWFhVYXRxal9SUUttWHZCMUJ5Y2VxV3hTUTNRZHZaUXJ5QUJIeFY1UjdkRlBtUHNkR1dkbUJNUUlWQUgxdGJmdXJkVTlBY0hqaU1POWZJdkE3YjFNUlV3aTJNUlZ6dVRBT21zb0c3Vk1UaU1BV1RBNG1JakhrdkphSUpkV24wN1hlWmxuczAyRUlfRDl6SWVSTVFtbURLUQ?oc=5",
-   "ts": "2026-10-05T13:26:27Z",
-   "fuente": "Bloomberg.com",
-   "id": "33725e7d5c",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Trump threatened South Korea with doubled tariffs unless it signs Alaska LNG deal",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JMEdCcUNEaTM4R0RtUGdoc1RxZUlGRUpyU2F1cmF5QzA1WTd6WnVlaFRpbUNRMTVKTW5iZGZfd1c2SUlwZ01iY3dyXzRfQ1ByNnFvQTVBLXVqdVlBLWt1SjFJeDZIcDhDTkxxdjVyU2I?oc=5",
-   "ts": "2026-10-05T13:25:47Z",
-   "fuente": "qz.com",
-   "id": "44b1d6d471",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "China shuts hundreds of banks as Beijing moves to shore up its financial system",
-   "link": "https://www.cnbc.com/2026/10/05/china-banks-consolidation-economy.html",
-   "ts": "2026-10-05T13:23:46Z",
-   "fuente": "CNBC",
-   "id": "c009879b1d",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [],
@@ -3517,14 +3519,14 @@
     4164.4,
     4169.4,
     4163.0,
-    4163.8
+    4163.6
    ],
    [
-    1791223952,
-    4163.5,
-    4163.5,
-    4163.5,
-    4163.5
+    1791224261,
+    4163.8,
+    4163.8,
+    4163.8,
+    4163.8
    ]
   ],
   "nq": [
@@ -4112,16 +4114,16 @@
    [
     1791223200,
     31295.5,
-    31298.25,
+    31302.25,
     31273.5,
-    31286.0
+    31300.75
    ],
    [
-    1791223953,
-    31285.0,
-    31285.0,
-    31285.0,
-    31285.0
+    1791224266,
+    31300.5,
+    31300.5,
+    31300.5,
+    31300.5
    ]
   ],
   "vix": [
@@ -4599,14 +4601,14 @@
     15.56,
     15.62,
     15.56,
-    15.62
+    15.6
    ],
    [
-    1791223651,
-    15.62,
-    15.62,
-    15.62,
-    15.62
+    1791223951,
+    15.6,
+    15.6,
+    15.6,
+    15.6
    ]
   ]
  },
