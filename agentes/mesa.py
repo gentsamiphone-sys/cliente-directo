@@ -684,7 +684,7 @@ def vigilar():
     me.m["en_vivo"] = {k: x["precio"] for k, x in vivo.items()} | {"ts": ahora()}
     # velas de 1 hora para el gráfico del plan en la oficina
     velas_g = me.m.setdefault("velas", {})
-    for k, sim in ACTIVOS.items():
+    for k, sim in {**ACTIVOS, "vix": MACRO["vix"]}.items():
         try:
             velas_g[k] = [[v["t"], round(v["o"], 2), round(v["h"], 2), round(v["l"], 2), round(v["c"], 2)] for v in yahoo(sim, "60m", "5d")][-90:]
         except Exception as ex:

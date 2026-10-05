@@ -137,8 +137,8 @@ th{color:var(--acc);font-weight:700}
   <div class="grid">
     <section class="card" style="grid-column:1/-1"><h2>Entradas de la mesa <span class="when">tú decides y ejecutas</span></h2><div id="entradas" class="ent"><p class="empty">Las entradas aparecen con el próximo brief.</p></div></section>
     <section class="card" style="grid-column:1/-1"><h2>Plan en el gráfico <span class="when" id="pWhen">velas de 1 hora · se actualiza cada 5 min</span></h2>
-      <div class="planes"><div><div class="pt" id="ptNq">NQ</div><div class="plan" id="planNq"></div></div><div><div class="pt" id="ptOro">ORO</div><div class="plan" id="planOro"></div></div></div>
-      <p class="ley"><span style="color:#d7ff3a">━ zona de entrada</span> <span style="color:#ff6b5b">━ stop</span> <span style="color:#3ddc84">━ TP1 / TP2</span> <span style="color:#8b95a1">┅ máx./mín. de ayer y de la semana</span> <span style="color:#5aa9ff">┅ VWAP</span></p></section>
+      <div class="planes"><div><div class="pt" id="ptNq">NQ</div><div class="plan" id="planNq"></div></div><div><div class="pt" id="ptOro">ORO</div><div class="plan" id="planOro"></div></div><div style="grid-column:1/-1"><div class="pt" id="ptVix">VIX</div><div class="plan" id="planVix" style="height:230px"></div></div></div>
+      <p class="ley"><span style="color:#d7ff3a">━ zona de entrada</span> <span style="color:#ff6b5b">━ stop</span> <span style="color:#3ddc84">━ TP1 / TP2</span> <span style="color:#8b95a1">┅ máx./mín. de ayer y de la semana</span> <span style="color:#5aa9ff">┅ VWAP</span> <span style="color:#b98cff">┅ VIX: media 20 días</span></p></section>
     <section class="card" style="grid-column:1/-1"><h2>Mi diario de trading <span class="when">toca "La tomé" en la entrada que operes</span></h2><div id="diario"><p class="empty">Todavía no marcas ninguna entrada como tomada.</p></div></section>
     <section class="card" style="grid-column:1/-1"><h2>Noticias en vivo <span class="when" id="nWhen">el agente de Noticias revisa cada 10 min</span></h2><div class="nfiltro" id="nFiltro"><button data-f="todas" aria-pressed="true">Todas</button><button data-f="alto">Alto impacto</button><button data-f="oro">Oro</button><button data-f="nq">NQ</button><button data-f="dolar">Dólar y tasas</button></div><div id="noticias" class="news"><p class="empty">Las noticias aparecen con la próxima revisión del agente.</p></div></section>
     <section class="card">
@@ -227,6 +227,13 @@ function renderPlan(){const b=M.briefs?.[0];
     else txt+=" · SIN ENTRADA"+(e?.motivo?" — "+e.motivo:"");
     $(t).textContent=txt+(M.en_vivo?.[k]?" · precio "+Number(M.en_vivo[k]).toLocaleString("en-US"):"");
     if(V.length&&!g.fit){g.c.timeScale().fitContent();g.fit=1}}
+  {const g=grafico("vix",$("planVix"));if(g){const V=M.velas?.vix||[],x=b?.vix_nq||{};
+    g.s.setData(V.map(v=>({time:v[0],open:v[1],high:v[2],low:v[3],close:v[4]})));g.lines.forEach(l=>g.s.removePriceLine(l));g.lines=[];
+    const L=(price,color,title,style=0,w=1)=>{if(price&&isFinite(price))g.lines.push(g.s.createPriceLine({price,color,lineWidth:w,lineStyle:style,axisLabelVisible:true,title}))};
+    L(x.vix_PDH,"#ff6b5b","PDH · si lo rompe, cuidado con compras en NQ",2,2);L(x.vix_PDL,"#3ddc84","PDL",2,1);L(x.vix_media20,"#b98cff","Media 20",1,1);
+    const ult=V.length?V[V.length-1][4]:M.en_vivo?.vix;
+    $("ptVix").textContent="VIX"+(ult?" · "+Number(ult).toFixed(2):"")+(x.lectura?" · "+x.lectura:"");
+    if(V.length&&!g.fit){g.c.timeScale().fitContent();g.fit=1}}}
   if(M.en_vivo?.ts)$("pWhen").textContent="velas de 1 hora · actualizado "+hhmm(M.en_vivo.ts)}
 function render(){renderNoticias();renderDiario();renderPlan();
   const b=M.briefs[sel];
