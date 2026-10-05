@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4175.2 · NQ 30990.0 · VIX 16.16 · 15 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-05T13:17:39Z"
+   "ultimo_resultado": "Oro 4179.4 · NQ 31017.25 · VIX 16.13 · 15 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-05T13:22:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T13:17:38Z",
-   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: The price of gold today, Oct. 5, 2026 — and the best places to buy"
+   "actualizado": "2026-10-05T13:22:33Z",
+   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: JPMorgan’s trading desk is bullish near term once again"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4179.4 · NQ 31017.25 · VIX 16.13 · 15 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-05T13:22:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4175.2 · NQ 30990.0 · VIX 16.16 · 15 noticias nuevas (3 alto impacto)",
@@ -2044,12 +2049,32 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4175.2,
-  "nq": 30990.0,
-  "vix": 16.16,
-  "ts": "2026-10-05T13:17:38Z"
+  "oro": 4179.4,
+  "nq": 31017.25,
+  "vix": 16.13,
+  "ts": "2026-10-05T13:22:33Z"
  },
  "noticias": [
+  {
+   "titulo": "JPMorgan’s trading desk is bullish near term once again",
+   "link": "https://www.cnbc.com/2026/10/05/jpmorgans-trading-desk-is-bullish-near-term-once-again.html",
+   "ts": "2026-10-05T13:19:01Z",
+   "fuente": "CNBC",
+   "id": "e87ee4c727",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Current price of gold: Month Day, Year",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVSDRjYk81QjBObDRNTkpRQlBZLWJTQmNOQXpRallJOHNob08yZVptMUhfZndTRUFKaUpRQ2huZXZ2NDVjWERTN3NvcEF2bWhCdElDdkhqOHFjUzg2Xzc5V1JRVHgteHotb0pxRw?oc=5",
+   "ts": "2026-10-05T13:14:00Z",
+   "fuente": "Fortune",
+   "id": "201fc45dc4",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "The price of gold today, Oct. 5, 2026 — and the best places to buy",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGb01FQXlhNHJQOUZnMk5xWEFFTjAteVhsT1ZtMlJ3NzVlT3hNclNLVTA4YjJCYnlLQXlRWHBwRnNGZm83ZWxWZkpiaXc4RXF2cmlpZkFLRkhVaTZoVGJkTEE4amVnei1TMS1xdnRISGnSAXZBVV95cUxPa1dHcVQ5VkdueXFGZ0dBaUtrTUxEbWhLejhNVFl6WThRbWplZ1hFWWcwenZ4RXpkbFFrX0tVekMzZFEtTlk0TDdZVE1xVVJaQk9XRXlFbEJoUGZWanpodFd4VHJLTHVlZ2g1cWRqaklJUUE0U1hB?oc=5",
@@ -2060,6 +2085,15 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Accelevation CEO, CFO talk going public, impact on growth and employee equity",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd3NXbkZLUHdMeW0temZMdjdpNG9yXy0yb0tUOHFTZzRwYU54U2RtS2pHMGRPTWIwQzNQZ2hkY3BBbjBRZ3h0RXhzNVppa0xZeXQ4emVMampTNWw0UGlJalY0Z3EwamQ1Vl9HSElkSUQtS3BDaU1MMHoyWjJSTEs5QUc0dUM2dTlUSTFUX3BZNHF5SkNDOFR0aFB5a0FlQ2FDNllyQWpqQk0?oc=5",
+   "ts": "2026-10-05T13:12:00Z",
+   "fuente": "The Business Journals",
+   "id": "1276b4c409",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Treasury yields rise as traders await data, Fed minutes this week",
@@ -2882,39 +2916,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Should You Invest in the First Trust NASDAQ Bank ETF (FTXO)?",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObHFJQlhjdFo3d0w3WDRBUlNITUhfVklfdnU1Y0txYlFldFZVeUlFQVZ0SnRjeG9zWXpIU2NfX1FVajF3RmZvWHlCYk85X05xUk5DQlhyWFNsX0NHeUFhUkZMSmlSRzJ0NlVweXpkNlc3V1dGdGN1eGN4OExWOFE3Y0U2UnZaaTZjeXJsM3AtZURheFhaQTZkOUlwcw?oc=5",
-   "ts": "2026-10-05T09:20:01Z",
-   "fuente": "Yahoo Finance",
-   "id": "fb4a75e82a",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Stock index futures lower as Treasury yields retreat (SPX:)",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOT1E3Q2pTUm1EZlcxZ19pRlo5ZlBZREhtZlE2cnVoVXhPZkxlcjU2eWxIUHpvcGw3NjNCaGY2OGxDRm50Vk9BRUI3MW5HZjd3QzgyR3d2ZGl4LW5RakJBZWxySDhJaDVNSm0yZlJVUFVJM1Q3R3RrNnd0VVdwOGpWVlJmSFJiMk9o?oc=5",
-   "ts": "2026-10-05T09:17:33Z",
-   "fuente": "Seeking Alpha",
-   "id": "59df868960",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Stock index futures lower as Treasury yields retreat",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbWc3a2ZyNTdxaXN0SkZHbFNaTXIwSkVDaEJCMlYyRXdDLVZUaGZhX2t0alduZ3A4Ri1XTjJtQVdqT2QyZy1VV1cxRHRUU0NWMkpnRmVqVTl2SHp4b2ZDX2xkOFkzSk9rRHZFcUxUeWpiUWo3MlJ1bUZhcVd1Y0wyZ0dvMGstTVJGRUFMR2Y0U1dsWDdyNVRLQ05yMlRjQXJQdTNZekZuZHVTVkM4a2NYbm1aTVlKUQ?oc=5",
-   "ts": "2026-10-05T09:17:33Z",
-   "fuente": "TradingView",
-   "id": "9c275dfa0b",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3471,14 +3472,14 @@
     4184.3,
     4186.1,
     4174.8,
-    4176.5
+    4179.3
    ],
    [
-    1791205656,
-    4175.2,
-    4175.2,
-    4175.2,
-    4175.2
+    1791205949,
+    4179.4,
+    4179.4,
+    4179.4,
+    4179.4
    ]
   ],
   "nq": [
@@ -4031,16 +4032,16 @@
    [
     1791205200,
     30995.5,
-    31010.0,
+    31018.75,
     30988.5,
-    30991.75
+    31018.0
    ],
    [
-    1791205658,
-    30990.0,
-    30990.0,
-    30990.0,
-    30990.0
+    1791205951,
+    31017.75,
+    31017.75,
+    31017.75,
+    31017.75
    ]
   ],
   "vix": [
@@ -4482,15 +4483,15 @@
     1791205200,
     16.19,
     16.19,
-    16.15,
-    16.16
+    16.12,
+    16.12
    ],
    [
-    1791205351,
-    16.16,
-    16.16,
-    16.16,
-    16.16
+    1791205651,
+    16.13,
+    16.13,
+    16.13,
+    16.13
    ]
   ]
  },
