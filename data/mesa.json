@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4156.7 · NQ 31273.25 · VIX 15.49 · 15 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-05T17:32:33Z"
+   "ultimo_resultado": "Oro 4156.8 · NQ 31276.75 · VIX 15.49 · 15 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-05T17:37:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T17:32:32Z",
-   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: Nasdaq and yields in focus: The Investment Committee's strategy"
+   "actualizado": "2026-10-05T17:37:36Z",
+   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: 10-year Treasury yield rise to fresh 2002 high to start the week"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4156.8 · NQ 31276.75 · VIX 15.49 · 15 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-05T17:37:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4156.7 · NQ 31273.25 · VIX 15.49 · 15 noticias nuevas (1 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
    "ts": "2026-10-04T21:47:17Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Midiendo volatilidad y rango esperado del día…",
-   "ts": "2026-10-04T21:47:16Z"
   }
  ],
  "briefs": [
@@ -2059,12 +2059,23 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4156.7,
-  "nq": 31273.25,
+  "oro": 4156.8,
+  "nq": 31276.75,
   "vix": 15.49,
-  "ts": "2026-10-05T17:32:33Z"
+  "ts": "2026-10-05T17:37:36Z"
  },
  "noticias": [
+  {
+   "titulo": "10-year Treasury yield rise to fresh 2002 high to start the week",
+   "link": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html",
+   "ts": "2026-10-05T17:35:25Z",
+   "fuente": "CNBC",
+   "id": "d0ff81669c",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Nasdaq and yields in focus: The Investment Committee's strategy",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMEJxTTRZMldnaW1tNWZITUN5X1JSN3daYUJOMzFEcHY1VjQ1akVPdHViN18tbDdWNDUteXZrR1JtbjVsZDdVZFMzb3N3RlZBN3ZPZHZUZ3pHa2lQTEhHSVJXcmdZNTlQMTByWDNteGo4RHN0eDV6Q0ZSOFpOTWFTVkNCOElWOEJ3N1ZfNUY2a2JORVh3NHFDWlczczg4bE1tSGhndUtCTQ?oc=5",
@@ -2104,6 +2115,17 @@
    "efecto": "Impulsa compras institucionales en tecnología a pesar de la presión de tasas."
   },
   {
+   "titulo": "Update: US Equity Indexes Rise Amid Treasury Yields Touching Highest in Two Decades, Crude Oil Declining",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQM0lfNHhDdDR5MmhsX2VsOGFlTnRsVE1zNl9YRWxCOXpqWm9vMV9TdGsyOHVkWUVwOUlueVlwQTdaY3lyWWh6N3hTakNXeUdXZS1SSklmSVZLb09EYWM4SDNadmQ3Y3hGeXFydkkxUEU3TGlXSDV0S1BTNFB1bTljTlZNX3BmRG5aeVJCMTliSWJVSlNNNm9j?oc=5",
+   "ts": "2026-10-05T17:17:11Z",
+   "fuente": "Yahoo Finance",
+   "id": "91f9a6518c",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Wausau West Publications Lab receives gold medalist rating",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNVdxSjE2eFJEcVhPaEVBOHhreU4teDdad3hLN0hZNEFCU0VtRmtsX19zUVJ4MTFCUjJJMGdxdl96ZWR4RHRYRnR5ektMd2ZETm5vWWtrV3BVakJRbWFVTncwRGtOVHctZjlsT2hHTzc3eDl6SjVaa3otWDJsT2VDb3o5OHFIUWRQSWZ0d0lSUDJHRjBmSWN5SWk5UW4zTXdDcUE1d3Nn?oc=5",
    "ts": "2026-10-05T17:15:00Z",
@@ -2126,6 +2148,18 @@
    "impacto": "medio",
    "es": "Acciones con mayores movimientos al mediodía: Microsoft, SpaceX, Vaxcyte y más",
    "efecto": "Genera rebalanceo táctico en sectores específicos del Nasdaq."
+  },
+  {
+   "titulo": "3 US Tech Stocks Investors Are Repricing As Treasury Yields Pressure Growth",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-us-tech-stocks-investors-170728410.html?.tsrc=rss",
+   "ts": "2026-10-05T17:07:28Z",
+   "fuente": "Yahoo Finance",
+   "id": "89a03a72f2",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "TNT Sports head Luis Silberwasser to depart Skydance as CBS Sports chief David Berson takes over combined global sports group",
@@ -2895,35 +2929,6 @@
    "id": "c9a5356959",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Antimony Market Faces a Nov. 27 Export-Control Deadline from China",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/antimony-market-faces-nov-27-130000305.html?.tsrc=rss",
-   "ts": "2026-10-05T13:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "c899bcca6f",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Fortitude Gold Declares October 2026 Monthly Dividend",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/fortitude-gold-declares-october-2026-130000566.html?.tsrc=rss",
-   "ts": "2026-10-05T13:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "5e60019f42",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Jim Cramer's top 10 things to watch in the stock market Monday",
-   "link": "https://www.cnbc.com/investingclub/2026/10/05/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
-   "ts": "2026-10-05T12:59:40Z",
-   "fuente": "CNBC",
-   "id": "dd79eaa00e",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [],
@@ -3508,14 +3513,14 @@
     4158.3,
     4160.0,
     4152.9,
-    4157.7
+    4156.9
    ],
    [
-    1791220948,
-    4156.7,
-    4156.7,
-    4156.7,
-    4156.7
+    1791221253,
+    4156.8,
+    4156.8,
+    4156.8,
+    4156.8
    ]
   ],
   "nq": [
@@ -4096,16 +4101,16 @@
    [
     1791219600,
     31249.75,
-    31280.0,
+    31288.25,
     31235.75,
-    31273.75
+    31273.25
    ],
    [
-    1791220952,
-    31274.0,
-    31274.0,
-    31274.0,
-    31274.0
+    1791221254,
+    31276.75,
+    31276.75,
+    31276.75,
+    31276.75
    ]
   ],
   "vix": [
@@ -4576,14 +4581,14 @@
     15.5,
     15.51,
     15.48,
-    15.49
+    15.5
    ],
    [
-    1791220651,
-    15.49,
-    15.49,
-    15.49,
-    15.49
+    1791220951,
+    15.5,
+    15.5,
+    15.5,
+    15.5
    ]
   ]
  },
