@@ -35,9 +35,20 @@
    "tarea": "",
    "actualizado": "2026-10-04T21:47:06Z",
    "ultimo_resultado": "Todavía no hay operaciones cerradas para medir."
+  },
+  "vigilante": {
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "Oro 4187.9 · NQ 31192.25 · VIX 15.31",
+   "actualizado": "2026-10-05T02:10:42Z"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4187.9 · NQ 31192.25 · VIX 15.31",
+   "ts": "2026-10-05T02:10:42Z"
+  },
   {
    "agente": "cio",
    "texto": "Brief de Asia (Tokio/Sídney) publicado: NQ alcista impulsado por caída del VIX; Oro presionado a la baja por repunte del US10Y",
@@ -345,7 +356,8 @@
      "rr": "2.18",
      "confluencias": "4",
      "cancelar": "El precio perfora 30724.75 antes de activar la orden o el VIX supera 16.21.",
-     "motivo": ""
+     "motivo": "",
+     "vivo": "esperando"
     }
    ],
    "mapas": {
@@ -953,5 +965,11 @@
  },
  "estadisticas": {
   "total": null
+ },
+ "en_vivo": {
+  "oro": 4187.9,
+  "nq": 31192.25,
+  "vix": 15.31,
+  "ts": "2026-10-05T02:10:42Z"
  }
 }
