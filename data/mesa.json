@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4156.8 · NQ 31276.75 · VIX 15.49 · 15 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-05T17:37:36Z"
+   "ultimo_resultado": "Oro 4157.0 · NQ 31278.0 · VIX 15.51 · 15 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-05T17:42:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T17:37:36Z",
-   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: 10-year Treasury yield rise to fresh 2002 high to start the week"
+   "actualizado": "2026-10-05T17:42:36Z",
+   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: 10-year Treasury yield rises to fresh 2002 high to start the week"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4157.0 · NQ 31278.0 · VIX 15.51 · 15 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-05T17:42:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4156.8 · NQ 31276.75 · VIX 15.49 · 15 noticias nuevas (1 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "riesgo",
    "texto": "VIX/NQ: DIVERGENCIA: NQ baja pero el VIX también baja (caída sin miedo; posible barrida para comprar)",
    "ts": "2026-10-04T21:47:18Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
-   "ts": "2026-10-04T21:47:17Z"
   }
  ],
  "briefs": [
@@ -2059,12 +2059,32 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4156.8,
-  "nq": 31276.75,
-  "vix": 15.49,
-  "ts": "2026-10-05T17:37:36Z"
+  "oro": 4157.0,
+  "nq": 31278.0,
+  "vix": 15.51,
+  "ts": "2026-10-05T17:42:36Z"
  },
  "noticias": [
+  {
+   "titulo": "10-year Treasury yield rises to fresh 2002 high to start the week",
+   "link": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html",
+   "ts": "2026-10-05T17:41:11Z",
+   "fuente": "CNBC",
+   "id": "8babf1c51c",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Wells Fargo gets a bold upgrade ahead of earnings. Why the stock can play catch-up",
+   "link": "https://www.cnbc.com/investingclub/2026/10/05/wells-fargo-gets-a-bold-upgrade-ahead-of-earnings-why-the-stock-can-play-catch-up.html",
+   "ts": "2026-10-05T17:41:11Z",
+   "fuente": "CNBC",
+   "id": "ac77d13b7f",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "10-year Treasury yield rise to fresh 2002 high to start the week",
    "link": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html",
@@ -2085,6 +2105,17 @@
    "activos": [
     "nq",
     "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Pennsylvania police say fake federal agents have stolen $6.5 million in gold bars from Americans across multiple states",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/pennsylvania-police-fake-federal-agents-172500044.html?.tsrc=rss",
+   "ts": "2026-10-05T17:25:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "f3856a6bfd",
+   "activos": [
+    "oro"
    ],
    "impacto": "medio"
   },
@@ -2531,6 +2562,17 @@
    "efecto": "Opinión minorista genérica, sin impacto institucional inmediato en índices."
   },
   {
+   "titulo": "WISeSat.Space Completes Business Combination and Begins Nasdaq Trading",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORTBzMTJYVzRWRURlbXhoY0tJbU9fRDY4VzRZcm11OUF4Y1ZzVjBwYm9qNWtrTS1TbmN6a1NtT1g3cXk2UnAzNndrZGUtMENlT0xCMHg5bHJzdUphVU90VDJ0Y0tGMUVjNld1d18tcGxmUzFZZjVUbGl5Y05LYmI2TlV0MUt1U2dLSUVrQXd2V2Y4YWg0cWc?oc=5",
+   "ts": "2026-10-05T14:56:45Z",
+   "fuente": "The Quantum Insider",
+   "id": "746ca39c4b",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Cripple Creek and Victor gold mine generated about $830 million in economic activity statewide last year",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS3A2a3FRWGhWTkhMeVFvTTNKZ3F0aUcyWl9Ec1BjbHdEUXo0Z09HUWdoSWExN0Jia2pkU1hlekJWMS1ZaUpwWHkyQzIxSVdRTy1sUkROY01GcVRuTkpiNkZ0cWlrWEJsV3cwSXY1dkx5NUZrOFVPbWhoMWFmdWNlV3RzSDE?oc=5",
    "ts": "2026-10-05T14:51:37Z",
@@ -2888,46 +2930,6 @@
    "activos": [
     "dolar"
    ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "High‑Grade Wharekirauponga Drill Results Could Be A Game Changer For OceanaGold (TSX:OGC)",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/high-grade-wharekirauponga-drill-results-130612521.html?.tsrc=rss",
-   "ts": "2026-10-05T13:06:12Z",
-   "fuente": "Yahoo Finance",
-   "id": "7a958d6f66",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Nasdaq at Record High: Are You Too Invested in AI?",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQODVzQ25tS3gySXM4WjF5SDF3b1gtLVRWM3JYVkZPRVNfS0xld1N6N1pLZDdCbEpWeGxxTjB6RG95VFFPV0RoQmJIRkFlNVBJM3lzTFVZcHNXa1dBTU9zODg1NmdXV2padUhDbml4WGhTUGd5eTVRYzd1Y2ZJWVhwcXRJbGVaQW1Nc29TVGZYMk9tbVhnbkIw?oc=5",
-   "ts": "2026-10-05T13:04:22Z",
-   "fuente": "MoneyLion",
-   "id": "ee93966642",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "Nasdaq en máximos históricos: ¿Estás sobreinvertido en IA?",
-   "efecto": "Genera cautela institucional por posible sobrecompra en tecnología."
-  },
-  {
-   "titulo": "US senator moves to raise tariffs on Ecuadorian shrimp",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ3NiVTBsRzhBb01uNVJRbG0yRnB0VWNkdktQZDdVOUFiaGhXT09GVnczQ0t0R3ZUZE96dm50di1aU0V3b2kzX0JpeldsOWZ5S1NfLTMwcnB5QnJ5aWY2enBXUXVGTGFjRVNNaGlCOGlGYjNmV2VRaWgtMGQyRWpoaGw5TnJrcmhybXN0ZXV1c1JsQnM?oc=5",
-   "ts": "2026-10-05T13:00:52Z",
-   "fuente": "seafoodsource.com",
-   "id": "78af38a045",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Tariffs, trade, Trump: Sacramento-area’s agriculture community weighs in on midterms",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaMXBBaHVzS3FBc2t1LS1ncUI2RGlFSE1HUWU5OW1sVmtfYndHbzhlcFI3eEhUaXplTUdYWjFTdjQ3akJ0RGRPVENiWGh3VjRjdm54UV9LMk9vbzQwcnV1cnFlMGsyMUnSAWdBVV95cUxNVmhUeDZleTUxbHV2VGp0WVd3NU5xQlZwS2x6Nm5wYUw0TnFiZVctelhYcG9fMVlaSnNQTlhLQm9kZVZaQ19yeUtWUEQtSnlqYkh3MUwwQnJlb1JqYUk4aFBCVEcycDJn?oc=5",
-   "ts": "2026-10-05T13:00:00Z",
-   "fuente": "Sacramento Bee",
-   "id": "c9a5356959",
-   "activos": [],
    "impacto": "alto"
   }
  ],
@@ -3513,14 +3515,14 @@
     4158.3,
     4160.0,
     4152.9,
-    4156.9
+    4155.8
    ],
    [
-    1791221253,
-    4156.8,
-    4156.8,
-    4156.8,
-    4156.8
+    1791221553,
+    4157.0,
+    4157.0,
+    4157.0,
+    4157.0
    ]
   ],
   "nq": [
@@ -4103,14 +4105,14 @@
     31249.75,
     31288.25,
     31235.75,
-    31273.25
+    31276.75
    ],
    [
-    1791221254,
-    31276.75,
-    31276.75,
-    31276.75,
-    31276.75
+    1791221555,
+    31278.0,
+    31278.0,
+    31278.0,
+    31278.0
    ]
   ],
   "vix": [
@@ -4581,14 +4583,14 @@
     15.5,
     15.51,
     15.48,
-    15.5
+    15.51
    ],
    [
-    1791220951,
-    15.5,
-    15.5,
-    15.5,
-    15.5
+    1791221251,
+    15.51,
+    15.51,
+    15.51,
+    15.51
    ]
   ]
  },
