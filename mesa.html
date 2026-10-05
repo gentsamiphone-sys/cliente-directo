@@ -285,7 +285,7 @@ cargar();setInterval(cargar,token?20000:45000);
   const WALLS=[
     {k:"oro",sym:"OANDA:XAUUSD",lbl:"ORO · XAUUSD 1H",eje:"x",fijo:0,a:.6,b:9.3,alto:150},
     {k:"nq",sym:"PEPPERSTONE:NAS100",lbl:"NQ · NAS100 1H",eje:"x",fijo:0,a:9.7,b:18.4,alto:150},
-    {k:"vix",sym:"TVC:VIX",lbl:"VIX 1H",eje:"y",fijo:0,a:.6,b:9.4,alto:150},
+    {k:"vix",sym:"CAPITALCOM:VIX",lbl:"VIX 1H",eje:"y",fijo:0,a:.6,b:9.4,alto:150},
   ];
   let zoom=1,panX=0,panY=0,W=0,H=0,dpr=1;const t0=performance.now(),reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
   const iso=(x,y)=>[(x-y)*TW/2,(x+y)*TH/2];
