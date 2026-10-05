@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4173.1 · NQ 31242.0 · VIX 15.51 · 11 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-05T15:12:46Z"
+   "ultimo_resultado": "Oro 4170.8 · NQ 31233.25 · VIX 15.55 · 10 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-05T15:18:14Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T15:12:45Z",
-   "ultimo_resultado": "11 titulares nuevos, 3 de alto impacto: Acciones mixtas en la apertura por alza de bonos y caída del petróleo"
+   "actualizado": "2026-10-05T15:18:13Z",
+   "ultimo_resultado": "10 titulares nuevos, 3 de alto impacto: Trump’s India Tariffs over Russian Oil Were Never about Principle"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4170.8 · NQ 31233.25 · VIX 15.55 · 10 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-05T15:18:14Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4173.1 · NQ 31242.0 · VIX 15.51 · 11 noticias nuevas (3 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "riesgo",
    "texto": "Volatilidad normal (VIX 15.31).",
    "ts": "2026-10-04T16:48:42Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "VIX/NQ: DIVERGENCIA: NQ baja pero el VIX también baja (caída sin miedo; posible barrida para comprar)",
-   "ts": "2026-10-04T16:48:41Z"
   }
  ],
  "briefs": [
@@ -2059,12 +2059,21 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4173.1,
-  "nq": 31242.0,
-  "vix": 15.51,
-  "ts": "2026-10-05T15:12:45Z"
+  "oro": 4170.8,
+  "nq": 31233.25,
+  "vix": 15.55,
+  "ts": "2026-10-05T15:18:14Z"
  },
  "noticias": [
+  {
+   "titulo": "Trump’s India Tariffs over Russian Oil Were Never about Principle",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GVlcxc25pZEd5aWNrS2hwZnZkYkNmd3dpRHZmSkZmcXJGc2lvcE1hWURSMk9NZFFwVERPSmFFX052T0RwTXRnT196LTZmWlVDS1VPNEtEc2dlODVHdHZ0UmZTNG5XMXVvckI0Y2YxN1U3ekJ6TUdr?oc=5",
+   "ts": "2026-10-05T15:12:56Z",
+   "fuente": "Geopolitical Monitor",
+   "id": "f618bad999",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "Plea agreement hearing set for ex-CIA officer found with gold bars",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOS2FFZHVSOEVLcnJTckt3NEk1V1lUZ09VRDhvanNPNWhySEdraHRzLWJTLTdibXBheFFYdDVfZ0RRUGZBaTNvdkhlaV9mU0xvY2gxQWxubkRJelRrVl9EUmFmX3BwNzZ5S2ljQ3dQSGpUSXg3RF9tX0V2eXczWFk0UmM2bnl0a1o5cjNUNC0yV2QxcE9ESmdBLWRma0p5ZTZNLTZhc2VBWVR6S2NHelIwY250TVUyeGx4TVA1Tw?oc=5",
@@ -2446,6 +2455,18 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Gold outlook: Inflation, oil and yields keep downside risks elevated",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSkctNXJIanJxTVdQT3c5MUh5bUE5RmVYUlM2cjMxSDllRzFpTExiS2NoRlBIaW9PX2pCdlhSU09WT2llcFpHTDZ5cHUxR0pidWo4MFB2RXd6aHFCSXJWalBPSHBRRmxDX0tkWXN1R0tTYWI0alZ0V0VzTkE2WnRKam9GVGVHYjE2YXd6ZHhaX3k0dmthUDlDZUg5S3k2SF9YNlRjNF80UlRDQWV5V0RHSTNXbHV3ZWg5OTdQNEZ4YzNTTHM?oc=5",
+   "ts": "2026-10-05T12:32:46Z",
+   "fuente": "StoneX",
+   "id": "2c44d316b4",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Omai Gold Files NI 43-101 Technical Report Supporting a Preliminary Economic Assessment Indicating After-Tax NPV5% of $4.0 Billion at a $3,600/oz Gold Price for its Omai Gold Project",
@@ -2905,32 +2926,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Euro, French stocks slide on France debt concerns",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/most-asia-stocks-rally-goldilocks-025417552.html?.tsrc=rss",
-   "ts": "2026-10-05T10:56:51Z",
-   "fuente": "Yahoo Finance",
-   "id": "f891b9f338",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Stock futures fall as investors grapple with higher yields: Live updates",
-   "link": "https://www.cnbc.com/2026/10/04/stock-market-today-live-updates.html",
-   "ts": "2026-10-05T10:56:14Z",
-   "fuente": "CNBC",
-   "id": "cc78433b58",
-   "activos": [
-    "nq",
-    "dolar",
-    "oro"
-   ],
-   "impacto": "alto",
-   "es": "Futuros de EE. UU. caen por mayores rendimientos de bonos",
-   "efecto": "Presiona al NQ a la baja y fortalece al dólar."
   }
  ],
  "eventos_avisados": [],
@@ -3500,15 +3495,15 @@
     1791212400,
     4175.2,
     4176.5,
-    4172.0,
-    4172.6
+    4169.0,
+    4170.7
    ],
    [
-    1791212565,
-    4172.1,
-    4172.1,
-    4172.1,
-    4172.1
+    1791212891,
+    4170.8,
+    4170.8,
+    4170.8,
+    4170.8
    ]
   ],
   "nq": [
@@ -4076,15 +4071,15 @@
     1791212400,
     31248.0,
     31254.5,
-    31241.5,
-    31244.75
+    31220.25,
+    31230.0
    ],
    [
-    1791212563,
-    31244.0,
-    31244.0,
-    31244.0,
-    31244.0
+    1791212893,
+    31233.25,
+    31233.25,
+    31233.25,
+    31233.25
    ]
   ],
   "vix": [
@@ -4533,15 +4528,22 @@
     1791208800,
     15.75,
     15.88,
-    15.5,
-    15.52
+    15.49,
+    15.53
    ],
    [
-    1791212251,
-    15.51,
-    15.51,
-    15.51,
-    15.51
+    1791212400,
+    15.53,
+    15.54,
+    15.52,
+    15.54
+   ],
+   [
+    1791212581,
+    15.55,
+    15.55,
+    15.55,
+    15.55
    ]
   ]
  },
