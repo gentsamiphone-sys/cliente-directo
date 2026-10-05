@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4185.8 · NQ 31027.0 · VIX 16.13 · 12 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-05T12:22:35Z"
+   "ultimo_resultado": "Oro 4184.0 · NQ 31030.25 · VIX 16.12 · 13 noticias nuevas (5 alto impacto)",
+   "actualizado": "2026-10-05T12:27:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T12:22:34Z",
-   "ultimo_resultado": "12 titulares nuevos, 2 de alto impacto: Osisko Gold Intersects 7.28 g/t Au over 16.15 m (105 m Vertical Depth), including 173.66 g/t Au over 0.60 m, and 7.13 g/t Au over 11.60 m (61 m Vertical Depth) in Lowhee Zone Under"
+   "actualizado": "2026-10-05T12:27:41Z",
+   "ultimo_resultado": "13 titulares nuevos, 5 de alto impacto: Thunder Mountain Gold nombra a Ron Clayton como ejecutivo minero"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4184.0 · NQ 31030.25 · VIX 16.12 · 13 noticias nuevas (5 alto impacto)",
+   "ts": "2026-10-05T12:27:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4185.8 · NQ 31027.0 · VIX 16.13 · 12 noticias nuevas (2 alto impacto)",
@@ -1729,10 +1734,10 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4185.8,
-  "nq": 31027.0,
-  "vix": 16.13,
-  "ts": "2026-10-05T12:22:34Z"
+  "oro": 4184.0,
+  "nq": 31030.25,
+  "vix": 16.12,
+  "ts": "2026-10-05T12:27:41Z"
  },
  "noticias": [
   {
@@ -1775,6 +1780,19 @@
    "id": "ee588b61c8",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Thunder Mountain Gold Strengthens Board with Appointment of Veteran Mining Executive Ron Clayton",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOX0VTUVhaa0Y1UDZiTlV0dEsxbFdlVHlvank1aVRaYWJva0RrNTRYWFhjX2dNckxWc1k2aTdrU0VoMEtvVk9WVW5SVzNBTUtmcmFOMGhzUmpXMjFiM24wMWdWVEdUaXBldmlBTy1peXRLY19Ed19aaHYwYXptbGVIeXQ5bjJuVGh0QzJxNFZIQlE4cVo2WjB4ckNWVGlXbUpuTFAtdmFOSks0RkRsZkE?oc=5",
+   "ts": "2026-10-05T12:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "614b8dffe7",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Thunder Mountain Gold nombra a Ron Clayton como ejecutivo minero",
+   "efecto": ""
   },
   {
    "titulo": "Osisko Gold Intersects 7.28 g/t Au over 16.15 m (105 m Vertical Depth), including 173.66 g/t Au over 0.60 m, and 7.13 g/t Au over 11.60 m (61 m Vertical Depth) in Lowhee Zone Underground Infill Drilling at Cariboo Gold Project",
@@ -1906,6 +1924,21 @@
    "impacto": "medio",
    "es": "Los futuros del Dow caen mientras los rendimientos de los bonos se mantienen altos el lunes",
    "efecto": "Presiona al NQ a la baja por tasas de descuento altas."
+  },
+  {
+   "titulo": "Treasury yields hold near multiyear highs as traders await data, Fed minutes this week",
+   "link": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html",
+   "ts": "2026-10-05T11:20:13Z",
+   "fuente": "CNBC",
+   "id": "0c2902e040",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Rendimientos del Tesoro se mantienen altos a la espera de datos y actas de la Fed",
+   "efecto": ""
   },
   {
    "titulo": "US Dollar Rises Early Monday, Focus on FOMC Minutes This Week",
@@ -2592,26 +2625,6 @@
    "impacto": "alto",
    "es": "Rusia intensifica ataques en Kiev mientras EE. UU. impulsa conversaciones de paz",
    "efecto": "Impulsa al oro por refugio y genera cautela en NQ."
-  },
-  {
-   "titulo": "Euro hits 17-month low as political uncertainty in Spain and France rattles markets",
-   "link": "https://www.cnbc.com/2026/10/05/euro-dollar-spain-france-risk.html",
-   "ts": "2026-10-05T08:04:35Z",
-   "fuente": "CNBC",
-   "id": "73355a6fef",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "OceanaGold (NYSE:OGC): Affordable Growth in a Gold and Copper Producer",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZlFnemREQUpfQTk2T2JReC0tSW50V3RaaFdrR0FnYm96ZG1Pczdldkd3U3ZEaTlfaG1WbjFiaVp2c3I3NmozYnVZN3VLRklaSnRNek10andUdkt0VVR1a0Rpcl9SLWROQ1h2azkwTlZoazhJVzVZQUdkLWp3V1ZZS1ZPOERYWUpsWmVERVlTSVNJZlRwa2d1V2dMcWsycGVpQlhubTBGZjJTcllBSTI5ckxDVFRoYTBo?oc=5",
-   "ts": "2026-10-05T08:00:31Z",
-   "fuente": "ChartMill",
-   "id": "26f0030873",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3161,14 +3174,14 @@
     4184.4,
     4187.3,
     4181.9,
-    4186.3
+    4184.1
    ],
    [
-    1791202349,
-    4185.8,
-    4185.8,
-    4185.8,
-    4185.8
+    1791202660,
+    4184.0,
+    4184.0,
+    4184.0,
+    4184.0
    ]
   ],
   "nq": [
@@ -3716,14 +3729,14 @@
     31021.5,
     31037.0,
     31009.25,
-    31030.0
+    31022.0
    ],
    [
-    1791202352,
-    31027.0,
-    31027.0,
-    31027.0,
-    31027.0
+    1791202660,
+    31030.25,
+    31030.25,
+    31030.25,
+    31030.25
    ]
   ],
   "vix": [
@@ -4159,16 +4172,16 @@
     16.14,
     16.15,
     16.12,
-    16.12
+    16.13
    ],
    [
-    1791202051,
-    16.13,
-    16.13,
-    16.13,
-    16.13
+    1791202351,
+    16.12,
+    16.12,
+    16.12,
+    16.12
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-05T11:57:36Z"
+ "noticias_traducidas_ts": "2026-10-05T12:27:37Z"
 }
