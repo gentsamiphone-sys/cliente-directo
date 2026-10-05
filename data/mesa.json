@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4169.5 · NQ 31174.5 · VIX 15.91 · 14 noticias nuevas (4 alto impacto)",
-   "actualizado": "2026-10-05T14:02:40Z"
+   "ultimo_resultado": "Oro 4162.9 · NQ 31148.5 · VIX 15.87 · 15 noticias nuevas (5 alto impacto)",
+   "actualizado": "2026-10-05T14:09:12Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T14:02:39Z",
-   "ultimo_resultado": "14 titulares nuevos, 4 de alto impacto: Tech Futures Fall; Brazil Stocks Soar On Election Results"
+   "actualizado": "2026-10-05T14:09:11Z",
+   "ultimo_resultado": "15 titulares nuevos, 5 de alto impacto: Los rendimientos del Tesoro suben; los operadores esperan las minutas de la Fed"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4162.9 · NQ 31148.5 · VIX 15.87 · 15 noticias nuevas (5 alto impacto)",
+   "ts": "2026-10-05T14:09:12Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4169.5 · NQ 31174.5 · VIX 15.91 · 14 noticias nuevas (4 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-10-04T16:41:38Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 4162.3 · NQ 31061.75.",
-   "ts": "2026-10-04T16:41:37Z"
   }
  ],
  "briefs": [
@@ -2059,12 +2059,66 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4169.5,
-  "nq": 31174.5,
-  "vix": 15.91,
-  "ts": "2026-10-05T14:02:39Z"
+  "oro": 4162.9,
+  "nq": 31148.5,
+  "vix": 15.87,
+  "ts": "2026-10-05T14:09:11Z"
  },
  "noticias": [
+  {
+   "titulo": "Treasury yields rise to start the week; traders look ahead to Fed minutes",
+   "link": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html",
+   "ts": "2026-10-05T14:07:18Z",
+   "fuente": "CNBC",
+   "id": "fcc70b198e",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Los rendimientos del Tesoro suben; los operadores esperan las minutas de la Fed",
+   "efecto": "Presiona al oro y al NQ a la baja por tasas altas."
+  },
+  {
+   "titulo": "This 'premier' data center play has 30% upside ahead, says BMO",
+   "link": "https://www.cnbc.com/2026/10/05/this-premier-data-center-play-has-30percent-upside-ahead-says-bmo.html",
+   "ts": "2026-10-05T14:01:13Z",
+   "fuente": "CNBC",
+   "id": "60893cfa33",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "Esta jugada 'líder' de centros de datos tiene un potencial alcista del 30%, según BMO",
+   "efecto": "Genera interés específico en acciones tecnológicas, impacto marginal en NQ."
+  },
+  {
+   "titulo": "Mark McNees: Data center tariffs put Florida utilities to test",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPc3dHUXFwWXFMLUk3WHpVd0cyM1RzT2lWRkVZLUhzTUF5UkdWdUNzdlhRd2t1aXBUZUVtRzhEMFhQejhReEh0Z0ZIcUVUVi1pVUM4Zm1QVWg1a29BckZhZXlGSV9Cdkl6TjdhbjJIY2VuWlRibWxEZUxPOXVCdU9NR1IxTzVlbjV0LW1aWWZnTXlzRVJhSm8xQ1RiTlJoQTBjUE1yajVsaTdmdw?oc=5",
+   "ts": "2026-10-05T13:57:15Z",
+   "fuente": "Florida Politics",
+   "id": "c7cca1e9db",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "Mark McNees: Los aranceles a centros de datos ponen a prueba a las eléctricas de Florida",
+   "efecto": "Ruido sectorial, sin efecto directo en futuros del índice."
+  },
+  {
+   "titulo": "Canada Commodities: Oil Prices Fall on Higher Middle East Crude Exports",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/canada-commodities-oil-prices-fall-135200973.html?.tsrc=rss",
+   "ts": "2026-10-05T13:52:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "8b1eb60494",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "Materias primas de Canadá: Los precios del petróleo caen por mayores exportaciones de Medio Oriente",
+   "efecto": "Reduce presiones inflacionarias, aliviando ligeramente a los bonos."
+  },
   {
    "titulo": "Egypt Mineral Processing Equipment Market Size, Share, Growth and Forecast, 2026-2035 | Infrastructure and Mining Investment to Drive 5.5% CAGR, Reaching USD 2.76 Billion",
    "link": "https://finance.yahoo.com/markets/commodities/articles/egypt-mineral-processing-equipment-market-134400478.html?.tsrc=rss",
@@ -2884,46 +2938,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "US Equity Investors to Remain Focused on Treasury Yields Amid Light Macroeconomic, Corporate Calendar This Week",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZXFmMDhZOW9pRVhhbzFYWVhLR1NDSVZHM0M3R3JtLW9CUF9HMk5TTVJhb1ZBa1JHTU5wN2xXdG1JWmEzeFRKUkhQLTA2T2dNcC11WURhbkJubGZNYzVZRTBfeURNQVlhQXNmbVVJWE5UeHRhRFhKVFpnQk1SSUV6TkhNTVdFTkZ5ZUEw?oc=5",
-   "ts": "2026-10-05T10:07:53Z",
-   "fuente": "Yahoo! Finance Canada",
-   "id": "3c3ccffaa0",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Cerebras stock climbs 6% after Sam Altman calls the chipmaker a 'close partner'",
-   "link": "https://www.cnbc.com/2026/10/05/cerebras-cbrs-sam-altman-close-partner.html",
-   "ts": "2026-10-05T10:06:13Z",
-   "fuente": "CNBC",
-   "id": "cc94e18ab4",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Harley-Davidson has struggled in recent years. Citi says buy the stock",
-   "link": "https://www.cnbc.com/2026/10/05/harley-davidson-has-struggled-in-recent-years-citi-says-buy-the-stock.html",
-   "ts": "2026-10-05T10:05:07Z",
-   "fuente": "CNBC",
-   "id": "3e3ef1af84",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Cripple Creek and Victor gold mine generated about $830 million in economic activity statewide last year",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS3A2a3FRWGhWTkhMeVFvTTNKZ3F0aUcyWl9Ec1BjbHdEUXo0Z09HUWdoSWExN0Jia2pkU1hlekJWMS1ZaUpwWHkyQzIxSVdRTy1sUkROY01GcVRuTkpiNkZ0cWlrWEJsV3cwSXY1dkx5NUZrOFVPbWhoMWFmdWNlV3RzSDE?oc=5",
-   "ts": "2026-10-05T10:02:25Z",
-   "fuente": "Colorado Public Radio",
-   "id": "379ad58924",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3480,14 +3494,14 @@
     4184.3,
     4186.1,
     4159.1,
-    4169.6
+    4163.4
    ],
    [
-    1791208356,
-    4169.5,
-    4169.5,
-    4169.5,
-    4169.5
+    1791208750,
+    4162.9,
+    4162.9,
+    4162.9,
+    4162.9
    ]
   ],
   "nq": [
@@ -4042,14 +4056,14 @@
     30995.5,
     31229.5,
     30988.5,
-    31168.75
+    31155.25
    ],
    [
-    1791208359,
-    31171.5,
-    31171.5,
-    31171.5,
-    31171.5
+    1791208751,
+    31148.5,
+    31148.5,
+    31148.5,
+    31148.5
    ]
   ],
   "vix": [
@@ -4491,17 +4505,17 @@
     1791205200,
     16.19,
     16.19,
-    15.87,
-    15.9
+    15.86,
+    15.88
    ],
    [
-    1791208051,
-    15.91,
-    15.91,
-    15.91,
-    15.91
+    1791208441,
+    15.87,
+    15.87,
+    15.87,
+    15.87
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-05T13:37:33Z"
+ "noticias_traducidas_ts": "2026-10-05T14:07:37Z"
 }
