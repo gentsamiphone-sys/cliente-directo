@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4186.8 · NQ 30978.5 · VIX 16.29 · 3 noticias nuevas",
-   "actualizado": "2026-10-05T10:12:37Z"
+   "ultimo_resultado": "Oro 4186.4 · NQ 30994.75 · VIX 16.31 · 5 noticias nuevas",
+   "actualizado": "2026-10-05T10:17:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T10:12:36Z",
-   "ultimo_resultado": "3 titulares nuevos: Solidion Technology (NASDAQ: STI) Remains Firm on Flux Power (NASDAQ: FLUX) Below Market Offer in Response to Flux Board Rejection | Corporate"
+   "actualizado": "2026-10-05T10:17:32Z",
+   "ultimo_resultado": "5 titulares nuevos: Harley-Davidson has struggled in recent years. Citi says buy the stock"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4186.4 · NQ 30994.75 · VIX 16.31 · 5 noticias nuevas",
+   "ts": "2026-10-05T10:17:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4186.8 · NQ 30978.5 · VIX 16.29 · 3 noticias nuevas",
@@ -1599,10 +1604,10 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4186.8,
-  "nq": 30978.5,
-  "vix": 16.29,
-  "ts": "2026-10-05T10:12:37Z"
+  "oro": 4186.4,
+  "nq": 30994.75,
+  "vix": 16.31,
+  "ts": "2026-10-05T10:17:33Z"
  },
  "noticias": [
   {
@@ -1626,11 +1631,40 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Harley-Davidson has struggled in recent years. Citi says buy the stock",
+   "link": "https://www.cnbc.com/2026/10/05/harley-davidson-has-struggled-in-recent-years-citi-says-buy-the-stock.html",
+   "ts": "2026-10-05T10:05:07Z",
+   "fuente": "CNBC",
+   "id": "3e3ef1af84",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "Cripple Creek and Victor gold mine generated about $830 million in economic activity statewide last year",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS3A2a3FRWGhWTkhMeVFvTTNKZ3F0aUcyWl9Ec1BjbHdEUXo0Z09HUWdoSWExN0Jia2pkU1hlekJWMS1ZaUpwWHkyQzIxSVdRTy1sUkROY01GcVRuTkpiNkZ0cWlrWEJsV3cwSXY1dkx5NUZrOFVPbWhoMWFmdWNlV3RzSDE?oc=5",
    "ts": "2026-10-05T10:02:25Z",
    "fuente": "Colorado Public Radio",
    "id": "379ad58924",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Three tax votes in November that will affect high earners",
+   "link": "https://www.cnbc.com/2026/10/05/three-tax-votes-in-november-that-will-affect-high-earners.html",
+   "ts": "2026-10-05T10:00:02Z",
+   "fuente": "CNBC",
+   "id": "1ddf3f37a5",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Avanti Gold Intersects 12.27 m at 5.39 g/t Au and 17.25 m at 2.44 g/t Au at Akyanga",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/avanti-gold-intersects-12-27-100000169.html?.tsrc=rss",
+   "ts": "2026-10-05T10:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "915d70de01",
    "activos": [
     "oro"
    ],
@@ -1723,6 +1757,18 @@
    "activos": [
     "oro",
     "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Gold Rises on Fading U.S. Rate-Hike Bets But Stronger Dollar Caps Gains",
+   "link": "https://finance.yahoo.com/m/427cc11f-c8d0-3bcc-83e3-896740df8478/gold-rises-on-fading-u.s..html?.tsrc=rss",
+   "ts": "2026-10-05T09:05:30Z",
+   "fuente": "Yahoo Finance",
+   "id": "b7899a8d9b",
+   "activos": [
+    "oro",
+    "dolar"
    ],
    "impacto": "medio"
   },
@@ -1876,6 +1922,17 @@
     "dolar"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Dollar Lifted by Rate-Rise Bets",
+   "link": "https://finance.yahoo.com/m/cc6b46d5-12af-352e-acbc-5ce8fd70e66d/dollar-lifted-by-rate-rise.html?.tsrc=rss",
+   "ts": "2026-10-05T07:53:47Z",
+   "fuente": "Yahoo Finance",
+   "id": "3ed0ff7088",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Nagel Sees Good Case for Central-Bank Diversification Into Gold",
@@ -2504,61 +2561,6 @@
    "impacto": "bajo",
    "es": "¿Está subvalorada Lundin Gold tras récord de perforación?",
    "efecto": ""
-  },
-  {
-   "titulo": "Men’s Tennis collects eight wins at Black and Gold Invitational",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdG40NXBtNi1QUUxsaUhnbGt1YWZNMEh3TEdWb0pZTjg1Rkh6dmoxRjR4cmFfOHB2cTdQMDdVR01wTXF6V0Q2V3o2SHJ0TFRibGFuRDFzTEhxd2FfN1RaTktlODhyY0QxakxCTlFqRDViYUM2dDl5S3lhZWx6RFE2VUR2V3lyTXpaUURDcEttVGlNOGpBR2lFaGM5RTVNX1hQSGJXQ0hnaHpiTjY1ZkRfbVJZVWZ4WUE?oc=5",
-   "ts": "2026-10-04T23:59:18Z",
-   "fuente": "University of North Alabama Athletics",
-   "id": "d704b42e3e",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Tenis masculino consigue ocho victorias en el Black and Gold Invitational",
-   "efecto": ""
-  },
-  {
-   "titulo": "Dores Wrap Up Black and Gold Invitational",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOUo1Nm1WSHdfdjVtWFQxVTQ4dHUxc1V5UjZ2c3ZsNWJfd3I4TUtnYjlkbG9EdXl5bTVrSTY1bkJqNVhicFd2N0FqY1F4S1p5am1rUGVVZ2ZFenpEVmZuUWFvYzhfOFAyT3FLN2NyR2pPazBvLVZfVXlWa1ZQTlgwZFk3TndRbDVJ?oc=5",
-   "ts": "2026-10-04T23:48:45Z",
-   "fuente": "vucommodores.com",
-   "id": "ace3cb5de8",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Los Dores concluyen el torneo Black and Gold Invitational",
-   "efecto": ""
-  },
-  {
-   "titulo": "Brazil election headed to runoff, projection shows, as Bolsonaro lead narrows",
-   "link": "https://www.cnbc.com/2026/10/04/brazil-presidential-election-lula-bolsonaro.html",
-   "ts": "2026-10-04T23:39:38Z",
-   "fuente": "CNBC",
-   "id": "d388b9c3e2",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Elecciones en Brasil van a segunda vuelta al estrecharse ventaja de Bolsonaro",
-   "efecto": ""
-  },
-  {
-   "titulo": "Warriors and Gold Eagles End in 1-1 Draw",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMFlaRnNVUXpLSEpaM0hheW1YeHA0a1d3MU5CSmx3aERETUJaVkQwY2ZZZGlFR3lqbUVRVHVLS09HSGRGNllKQnVuRHRiWkJqazl2ZG1vVDN3eGRPaGpQZ29wOFp1S2dEbjF3cWN2MGVyd0VmanRtNkxFTEhxLTlKRmM5Smx2S3hTYmxVTHRrQV9vRld4ODJjZzdJbWRvNHNvcnJ6alY4WEI?oc=5",
-   "ts": "2026-10-04T23:13:13Z",
-   "fuente": "Winona State University Athletics",
-   "id": "3680746bd9",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Warriors y Gold Eagles empatan 1-1",
-   "efecto": ""
-  },
-  {
-   "titulo": "Men's Tennis wraps up 2026 Black and Gold Invitational",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSlZGSmpqZWNUT0dPTTM3WF9aQ2NHODRpSG9rS1gtVWNzTFoxN0kxaHJneEZvWldvM0U2X255U1NndHpDNWdOajNFMUVHOG1WLTJSdlJFaEg5dVZQUms2YVlaMTd6YnBNX25sY3ZfRFg2d0t2NFBrSUhTZC1wMHlFbW9SQmJIZVJ4VjRXRWhjQ3JidndLSXJ6YlR3?oc=5",
-   "ts": "2026-10-04T23:05:46Z",
-   "fuente": "Middle Tennessee State University Athletics",
-   "id": "f94b09bc73",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Tenis masculino concluye el torneo Black and Gold Invitational 2026",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [],
@@ -3093,15 +3095,15 @@
     1791194400,
     4187.2,
     4188.0,
-    4186.1,
-    4186.1
+    4185.4,
+    4185.6
    ],
    [
-    1791194554,
-    4186.8,
-    4186.8,
-    4186.8,
-    4186.8
+    1791194848,
+    4186.4,
+    4186.4,
+    4186.4,
+    4186.4
    ]
   ],
   "nq": [
@@ -3633,16 +3635,16 @@
    [
     1791194400,
     30988.25,
-    30991.75,
+    30997.5,
     30977.5,
-    30980.0
+    30995.0
    ],
    [
-    1791194555,
-    30978.5,
-    30978.5,
-    30978.5,
-    30978.5
+    1791194846,
+    30994.75,
+    30994.75,
+    30994.75,
+    30994.75
    ]
   ],
   "vix": [
@@ -4057,14 +4059,21 @@
     16.17,
     16.32,
     16.17,
-    16.29
+    16.3
    ],
    [
-    1791194251,
-    16.29,
-    16.29,
-    16.29,
-    16.29
+    1791194400,
+    16.3,
+    16.31,
+    16.3,
+    16.31
+   ],
+   [
+    1791194551,
+    16.31,
+    16.31,
+    16.31,
+    16.31
    ]
   ]
  },
