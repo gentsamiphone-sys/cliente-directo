@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4168.0 · NQ 31201.0 · VIX 15.64 · 13 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-05T14:27:34Z"
+   "ultimo_resultado": "❌ NQ VENTA: tocó el stop · Oro 4169.5 · NQ 31234.5 · VIX 15.62 · 12 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-05T14:32:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T14:27:33Z",
-   "ultimo_resultado": "13 titulares nuevos, 3 de alto impacto: Social Security checks could increase by just $69 next year. Here's how to close the retirement income gap"
+   "actualizado": "2026-10-05T14:32:32Z",
+   "ultimo_resultado": "12 titulares nuevos, 3 de alto impacto: Watch BMO's Davis Says 30-Year Treasury Yields Will Hit 6%"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "❌ NQ VENTA: tocó el stop · Oro 4169.5 · NQ 31234.5 · VIX 15.62 · 12 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-05T14:32:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4168.0 · NQ 31201.0 · VIX 15.64 · 13 noticias nuevas (3 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "macro",
    "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
    "ts": "2026-10-04T16:48:29Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Abriendo la mesa para la sesión de Asia (Tokio/Sídney).",
-   "ts": "2026-10-04T16:48:27Z"
   }
  ],
  "briefs": [
@@ -1088,7 +1088,7 @@
      "confluencias": "4",
      "cancelar": "NQ rompe y consolida sobre 31221.25 antes de activar.",
      "motivo": "",
-     "vivo": "en_zona"
+     "vivo": "cancelada"
     }
    ],
    "mapas": {
@@ -2059,12 +2059,23 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4168.0,
-  "nq": 31201.0,
-  "vix": 15.64,
-  "ts": "2026-10-05T14:27:34Z"
+  "oro": 4169.5,
+  "nq": 31234.5,
+  "vix": 15.62,
+  "ts": "2026-10-05T14:32:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Watch BMO's Davis Says 30-Year Treasury Yields Will Hit 6%",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX0NnajFGcUR2UWFja25aT3RONHlSSW5WU2VweEgzR0lDMUJlY2drdW5jY2pxT1lYRXI4cm45dFNrcm5fanlhNmJFM25HWXk0dlV3QW85NE1pTnJGUGZ4eTF2bkU2V3ZTbDc2dm1OZE9LX2hrbDFMU2xIR0ltbDFHZWNJUE84eTB6R3ZCY3dObzc5WURkREhKSGV3SHhQem1iMDB2cU9KcWtaUQ?oc=5",
+   "ts": "2026-10-05T14:18:58Z",
+   "fuente": "bloomberg.com",
+   "id": "ece0b7f3c8",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Social Security checks could increase by just $69 next year. Here's how to close the retirement income gap",
    "link": "https://www.cnbc.com/select/social-security-cola-2027/",
@@ -2925,17 +2936,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Exclusive: Soldiers and Gold Star Families Press Army Leadership After Deadly Iranian Drone Strike",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONWFUM3lqR2hudGQ2TFYxLTVldkdmcEFIOEJlMWFDOUNiQWlEREpUbVhWQ0pXc0lYSjVMeE84NjNQMVd6UGVSTE5KLXh3a21HVVBEUF9MeHQyWjJKaUxYOGhGY3BFdENDTmVKVlNraW9xYWwyaUcySjhPWEFXOXA3dGUwR285YkdHUy03ZDVWamxTX2lyQmZEZGlSb21ndXpTS3ZYeHhtY05Ja1ZXWDM2alhCNHQxUUlkOE0tVzZqdkE5U1RhellfajY3anhBR29GTFdVQ1FKQU01THVIaDhvV2VR?oc=5",
-   "ts": "2026-10-05T10:31:00Z",
-   "fuente": "U.S. News & World Report",
-   "id": "700f93d4de",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3499,14 +3499,14 @@
     4163.0,
     4175.1,
     4162.9,
-    4169.8
+    4169.4
    ],
    [
-    1791209853,
-    4168.0,
-    4168.0,
-    4168.0,
-    4168.0
+    1791210149,
+    4169.5,
+    4169.5,
+    4169.5,
+    4169.5
    ]
   ],
   "nq": [
@@ -4066,16 +4066,16 @@
    [
     1791208800,
     31156.5,
-    31214.75,
+    31237.5,
     31115.0,
-    31203.25
+    31227.0
    ],
    [
-    1791209853,
-    31199.0,
-    31199.0,
-    31199.0,
-    31199.0
+    1791210152,
+    31234.5,
+    31234.5,
+    31234.5,
+    31234.5
    ]
   ],
   "vix": [
@@ -4524,15 +4524,15 @@
     1791208800,
     15.75,
     15.88,
-    15.63,
-    15.64
+    15.62,
+    15.62
    ],
    [
-    1791209551,
-    15.64,
-    15.64,
-    15.64,
-    15.64
+    1791209836,
+    15.62,
+    15.62,
+    15.62,
+    15.62
    ]
   ]
  },
