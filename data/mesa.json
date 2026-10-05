@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4186.1 · NQ 30981.75 · VIX 16.28 · 5 noticias nuevas",
-   "actualizado": "2026-10-05T10:22:33Z"
+   "ultimo_resultado": "Oro 4185.2 · NQ 30980.75 · VIX 16.3 · 5 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-05T10:27:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T10:22:32Z",
-   "ultimo_resultado": "5 titulares nuevos: China shuts hundreds of banks as Beijing moves to shore up its financial system"
+   "actualizado": "2026-10-05T10:27:34Z",
+   "ultimo_resultado": "5 titulares nuevos, 2 de alto impacto: El oro sube porque los datos de empleo en EE. UU. reducen la probabilidad de subida de tasas de la Fed en octubre"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4185.2 · NQ 30980.75 · VIX 16.3 · 5 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-05T10:27:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4186.1 · NQ 30981.75 · VIX 16.28 · 5 noticias nuevas",
@@ -1609,10 +1614,10 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4186.1,
-  "nq": 30981.75,
-  "vix": 16.28,
-  "ts": "2026-10-05T10:22:32Z"
+  "oro": 4185.2,
+  "nq": 30980.75,
+  "vix": 16.3,
+  "ts": "2026-10-05T10:27:34Z"
  },
  "noticias": [
   {
@@ -1727,6 +1732,20 @@
    "id": "abf3a9f1aa",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold Prices Gain as US Employment Data Lowers October Fed Hike Probability",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdV82Rm9LV3VteWk0OGRQWWtmRHdaWnV3Rk84UHhjMlpxNm9kemZOeTFBTkZyR1FfaTZUSW93YnE3a0JPUGVONnBDaFloWFB5V0o5NnNCQ09WQTdGd3Y2YWEwMS1fTVdIR1dUaE9vNzZVaThMeHR2TUJhZDg4VVRLV1BsU3VlUQ?oc=5",
+   "ts": "2026-10-05T09:30:53Z",
+   "fuente": "uk.finance.yahoo.com",
+   "id": "7bddff1f89",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El oro sube porque los datos de empleo en EE. UU. reducen la probabilidad de subida de tasas de la Fed en octubre",
+   "efecto": "Debilita el dólar e impulsa al oro y al NQ al alza."
   },
   {
    "titulo": "Nasdaq-listed tech company names Pa. county as site for big data center campus in the works",
@@ -2113,6 +2132,33 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Gold Edges Higher as Markets Weigh Jobs Data Impact on Fed Path",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSmh6bExCYzhDSXJEcGJJM0VIa1ltU0RaUnBQY09uZTRTc0hVTTMwbzU3bERvTlNhY29VaGVibk9iOUMtSFJJME9iZG1jaUhzV1JpaVJVWkFTbjBkbkpjT3UtRzUxTmE5QWRHVno5OEY5dEtjSU90V3I0MV8tbWdId3J1T0t4RnVtbmx3WURCaDN3QUxfYkQ5UERZMm0zVGRNd0laZHBlMVpsaXR0WE9OaVNEN3A?oc=5",
+   "ts": "2026-10-05T05:21:00Z",
+   "fuente": "Bloomberg.com",
+   "id": "0d80e62a9d",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El oro sube levemente mientras el mercado evalúa el impacto de los datos de empleo en la senda de la Fed",
+   "efecto": "Genera compras moderadas de oro por menor presión en tasas."
+  },
+  {
+   "titulo": "Euro falls as Paris debt turmoil overshadows dovish shift in Fed rate expectations",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-weaker-dollar-surges-051653601.html?.tsrc=rss",
+   "ts": "2026-10-05T05:16:53Z",
+   "fuente": "Yahoo Finance",
+   "id": "33970393c5",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "El euro cae al ensombrecer la crisis de deuda en París las expectativas moderadas de la Fed",
+   "efecto": "Fortalece al dólar, presionando a la baja al oro y al NQ."
   },
   {
    "titulo": "Asian currencies weaker as dollar surges, euro hits 17-month low",
@@ -2518,44 +2564,6 @@
    "id": "732dc92407",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "U.S. Treasury Selloff Resumes After Brief Respite",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPamtQaHhNY0lFbDE5MEVzdjBhZnQxcTJxZUV0bFNod045dHNNWVpDOWt1ZEw2U0FVT1h3SWJmYTRiNmtaX0ZSS1Fjb0lKazlUeDdTR0YtS2RYeXNZbEFtYVpZcHpwdkc2aHh6RmV5OUVEbGJYNWh2QWpFbVFDYUF3SXJDQmRWVGRwaktR?oc=5",
-   "ts": "2026-10-05T01:31:29Z",
-   "fuente": "WSJ",
-   "id": "5ef2cf857d",
-   "activos": [
-    "dolar",
-    "nq"
-   ],
-   "impacto": "alto",
-   "es": "Se reanuda la venta masiva de bonos del Tesoro de EE. UU.",
-   "efecto": ""
-  },
-  {
-   "titulo": "They survived World War II and lost decades, but not 2026. Japan's century-old businesses are disappearing at a record pace",
-   "link": "https://www.cnbc.com/2026/10/05/japan-old-business-kadoya-subeshoten-.html",
-   "ts": "2026-10-05T01:08:10Z",
-   "fuente": "CNBC",
-   "id": "c2b3aaa30a",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Empresas centenarias de Japón desaparecen a un ritmo récord",
-   "efecto": "Dato estructural demográfico japonés sin repercusión operativa en la sesión."
-  },
-  {
-   "titulo": "Futures: Growth Thrives But Breadth Weak. What To Do Now.",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVThkME9ydU1vNDRMUS1kT2lOZ0p1THhFV3owdS1JNUJpeWlLX1p3SGhBa1phaktqQlVqWmRGRDdTcEp6S3lncUVDUVNrSGNmSHZoQVRQb1hPTndoblJXS3hJaWE1TGFHMkRsbFVjUFF1bVItdGcwYUdyMnJMZ25hU3VibkhWN0tsZjFGU25NNUwxdDROU2MyQjZkaXNCbVV6TjE1dnhGNU9rdjFMNjI4T0lwcTVnbHotODBVdnY2cw?oc=5",
-   "ts": "2026-10-05T01:01:00Z",
-   "fuente": "Investor's Business Daily",
-   "id": "b3d578a634",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Futuros: el crecimiento resiste pero la amplitud del mercado es débil",
-   "efecto": "Aumento de coberturas en NQ ante debilidad en la amplitud técnica."
   }
  ],
  "eventos_avisados": [],
@@ -3090,15 +3098,15 @@
     1791194400,
     4187.2,
     4188.0,
-    4185.2,
-    4186.0
+    4184.4,
+    4185.1
    ],
    [
-    1791195141,
-    4186.1,
-    4186.1,
-    4186.1,
-    4186.1
+    1791195445,
+    4185.2,
+    4185.2,
+    4185.2,
+    4185.2
    ]
   ],
   "nq": [
@@ -3632,14 +3640,14 @@
     30988.25,
     30997.5,
     30977.5,
-    30982.75
+    30981.0
    ],
    [
-    1791195151,
-    30982.0,
-    30982.0,
-    30982.0,
-    30982.0
+    1791195449,
+    30980.75,
+    30980.75,
+    30980.75,
+    30980.75
    ]
   ],
   "vix": [
@@ -4060,17 +4068,17 @@
     1791194400,
     16.3,
     16.31,
-    16.29,
+    16.28,
     16.29
    ],
    [
-    1791194851,
-    16.28,
-    16.28,
-    16.28,
-    16.28
+    1791195151,
+    16.3,
+    16.3,
+    16.3,
+    16.3
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-05T09:52:34Z"
+ "noticias_traducidas_ts": "2026-10-05T10:27:32Z"
 }
