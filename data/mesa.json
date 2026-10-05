@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4168.2 · NQ 31218.25 · VIX 15.55 · 13 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-05T14:57:39Z"
+   "ultimo_resultado": "Oro 4171.6 · NQ 31230.25 · VIX 15.53 · 6 noticias nuevas",
+   "actualizado": "2026-10-05T15:02:45Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T14:57:38Z",
-   "ultimo_resultado": "13 titulares nuevos, 3 de alto impacto: Trump's nemesis in Europe: Why Spain's Sanchez is calling a snap election"
+   "actualizado": "2026-10-05T15:02:45Z",
+   "ultimo_resultado": "6 titulares nuevos: Anthropic, OpenAI, Google and Meta execs set to testify at NYC Council hearing on AI risks"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4171.6 · NQ 31230.25 · VIX 15.53 · 6 noticias nuevas",
+   "ts": "2026-10-05T15:02:45Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4168.2 · NQ 31218.25 · VIX 15.55 · 13 noticias nuevas (3 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-10-04T16:48:38Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 4162.3 · NQ 31061.75.",
-   "ts": "2026-10-04T16:48:37Z"
   }
  ],
  "briefs": [
@@ -2059,10 +2059,10 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4168.2,
-  "nq": 31218.25,
-  "vix": 15.55,
-  "ts": "2026-10-05T14:57:39Z"
+  "oro": 4171.6,
+  "nq": 31230.25,
+  "vix": 15.53,
+  "ts": "2026-10-05T15:02:45Z"
  },
  "noticias": [
   {
@@ -2478,6 +2478,17 @@
    "activos": [
     "oro",
     "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Anthropic, OpenAI, Google and Meta execs set to testify at NYC Council hearing on AI risks",
+   "link": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
+   "ts": "2026-10-05T12:19:26Z",
+   "fuente": "CNBC",
+   "id": "8ed0367b51",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -2920,19 +2931,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Wall St futures dip as tech stocks take a breather",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1SUThKbFBnT1ZFd0dYbk1mc3Bza2FLaE0tb0ZLckdEWTdUV0NyaU52TjlfeENOamcxVkN1ZWs5V3N2d3RDNWlreTdtYWJlR25tRnA4ZUdUamV5QkRHNWxTRFV6R2hUTmw3TUJ5dEJCNA?oc=5",
-   "ts": "2026-10-05T10:46:00Z",
-   "fuente": "Kansas City Star",
-   "id": "ba6beb179d",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto",
-   "es": "Futuros de Wall Street caen mientras las tecnológicas pausan",
-   "efecto": "Genera toma de beneficios y ventas en el Nasdaq 100."
   }
  ],
  "eventos_avisados": [],
@@ -3496,14 +3494,14 @@
     4163.0,
     4175.1,
     4160.0,
-    4169.2
+    4171.2
    ],
    [
-    1791211657,
-    4168.6,
-    4168.6,
-    4168.6,
-    4168.6
+    1791211959,
+    4171.6,
+    4171.6,
+    4171.6,
+    4171.6
    ]
   ],
   "nq": [
@@ -4065,14 +4063,14 @@
     31156.5,
     31247.75,
     31115.0,
-    31223.0
+    31226.75
    ],
    [
-    1791211657,
-    31218.25,
-    31218.25,
-    31218.25,
-    31218.25
+    1791211965,
+    31227.25,
+    31227.25,
+    31227.25,
+    31227.25
    ]
   ],
   "vix": [
@@ -4521,15 +4519,15 @@
     1791208800,
     15.75,
     15.88,
-    15.54,
-    15.54
+    15.5,
+    15.5
    ],
    [
-    1791211351,
-    15.55,
-    15.55,
-    15.55,
-    15.55
+    1791211651,
+    15.53,
+    15.53,
+    15.53,
+    15.53
    ]
   ]
  },
