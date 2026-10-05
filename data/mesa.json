@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4163.7 · NQ 31226.5 · VIX 15.55 · 12 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-05T15:27:37Z"
+   "ultimo_resultado": "Oro 4153.9 · NQ 31226.75 · VIX 15.56 · 12 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-05T15:32:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T15:27:36Z",
-   "ultimo_resultado": "12 titulares nuevos, 1 de alto impacto: Nasdaq rises to fresh record high led by tech; traders eye oil and yields: Live updates"
+   "actualizado": "2026-10-05T15:32:36Z",
+   "ultimo_resultado": "12 titulares nuevos, 1 de alto impacto: David Ellison just brought in a co-CEO to run his new empire: Meet Ynon Kreiz"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4153.9 · NQ 31226.75 · VIX 15.56 · 12 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-05T15:32:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4163.7 · NQ 31226.5 · VIX 15.55 · 12 noticias nuevas (1 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "cio",
    "texto": "Abriendo la mesa para la sesión de Asia (Tokio/Sídney).",
    "ts": "2026-10-04T20:40:48Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Brief de Asia (Tokio/Sídney) publicado: Oro bajista y NQ alcista; sin entradas por ATR consumido >100%",
-   "ts": "2026-10-04T16:49:09Z"
   }
  ],
  "briefs": [
@@ -2059,12 +2059,32 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4163.7,
-  "nq": 31226.5,
-  "vix": 15.55,
-  "ts": "2026-10-05T15:27:37Z"
+  "oro": 4153.9,
+  "nq": 31226.75,
+  "vix": 15.56,
+  "ts": "2026-10-05T15:32:36Z"
  },
  "noticias": [
+  {
+   "titulo": "David Ellison just brought in a co-CEO to run his new empire: Meet Ynon Kreiz",
+   "link": "https://www.cnbc.com/2026/10/03/david-ellison-ynon-kreiz-skydance.html",
+   "ts": "2026-10-05T15:29:13Z",
+   "fuente": "CNBC",
+   "id": "fd7ce4f41c",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Satya Nadella reinvented Microsoft once. Can he do it again in the AI era?",
+   "link": "https://www.cnbc.com/2026/10/05/satya-nadella-reinvented-microsoft-once-can-he-do-it-in-the-ai-era.html",
+   "ts": "2026-10-05T15:20:39Z",
+   "fuente": "CNBC",
+   "id": "13d47bc2f3",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Nasdaq rises to fresh record high led by tech; traders eye oil and yields: Live updates",
    "link": "https://www.cnbc.com/2026/10/04/stock-market-today-live-updates.html",
@@ -2094,6 +2114,15 @@
    "id": "f618bad999",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "CNBC Points Pro: Is it better to book travel directly or through a credit card issuer's portal?",
+   "link": "https://www.cnbc.com/select/booking-direct-vs-card-issuer-travel-portal/",
+   "ts": "2026-10-05T15:12:05Z",
+   "fuente": "CNBC",
+   "id": "b3c7920b9a",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Plea agreement hearing set for ex-CIA officer found with gold bars",
@@ -2893,37 +2922,6 @@
    "id": "fa569ace2c",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Invivyd Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb2lZZjhTVTFFeTZwRjBIUG1RWTBYUmEzTXUyeUt3Q2psWjBUU2g0YUlWTjhsUDBWV3dBdktPWmdHOUIxbk4wVlR1T0VNb2lvMloyX3VxVDdXQTZxa0phcXJ3Rnp1R0NaWjNjSldPU0NrYWNPUEloWnZIdWZ0OWlTV3hFZ0psQmlVempZTGt4NkgyQkNDZlp5SmdSbUM5RS1UT1FLdUkwcw?oc=5",
-   "ts": "2026-10-05T11:01:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "20e132a47e",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "Invivyd informa concesiones de incentivos bajo la regla de cotización 5635(c)(4) del Nasdaq",
-   "efecto": "Ruido corporativo menor, sin impacto institucional relevante en el índice."
-  },
-  {
-   "titulo": "Saudi Aramco chief says replenishing global oil stockpiles could take two years",
-   "link": "https://www.cnbc.com/2026/10/05/aramco-saudi-arabia-iran-hormuz-oil-energy.html",
-   "ts": "2026-10-05T11:00:27Z",
-   "fuente": "CNBC",
-   "id": "290bab52a3",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Why airfare could rise even more, but airline profits won't",
-   "link": "https://www.cnbc.com/2026/10/05/airfare-prices-airline-profits.html",
-   "ts": "2026-10-05T11:00:01Z",
-   "fuente": "CNBC",
-   "id": "df8412f457",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [],
@@ -3493,15 +3491,15 @@
     1791212400,
     4175.2,
     4176.5,
-    4162.6,
-    4164.6
+    4150.4,
+    4155.0
    ],
    [
-    1791213452,
-    4163.7,
-    4163.7,
-    4163.7,
-    4163.7
+    1791213754,
+    4153.9,
+    4153.9,
+    4153.9,
+    4153.9
    ]
   ],
   "nq": [
@@ -4070,14 +4068,14 @@
     31248.0,
     31254.5,
     31206.0,
-    31230.75
+    31225.5
    ],
    [
-    1791213454,
-    31226.5,
-    31226.5,
-    31226.5,
-    31226.5
+    1791213755,
+    31224.25,
+    31224.25,
+    31224.25,
+    31224.25
    ]
   ],
   "vix": [
@@ -4537,11 +4535,11 @@
     15.56
    ],
    [
-    1791213151,
-    15.55,
-    15.55,
-    15.55,
-    15.55
+    1791213451,
+    15.56,
+    15.56,
+    15.56,
+    15.56
    ]
   ]
  },
