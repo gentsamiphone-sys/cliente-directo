@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4189.3 · NQ 31036.5 · VIX 16.1 · 11 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-05T11:47:35Z"
+   "ultimo_resultado": "Oro 4184.7 · NQ 31020.75 · VIX 16.14 · 14 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-05T11:52:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T11:47:34Z",
-   "ultimo_resultado": "11 titulares nuevos, 2 de alto impacto: Dynacor Reports First Gold from Senegal"
+   "actualizado": "2026-10-05T11:52:34Z",
+   "ultimo_resultado": "14 titulares nuevos, 2 de alto impacto: Stocks making the biggest moves premarket: DraftKings, Itau Unibanco, PTC & more"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4184.7 · NQ 31020.75 · VIX 16.14 · 14 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-05T11:52:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4189.3 · NQ 31036.5 · VIX 16.1 · 11 noticias nuevas (2 alto impacto)",
@@ -1694,12 +1699,23 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4189.3,
-  "nq": 31036.5,
-  "vix": 16.1,
-  "ts": "2026-10-05T11:47:35Z"
+  "oro": 4184.7,
+  "nq": 31020.75,
+  "vix": 16.14,
+  "ts": "2026-10-05T11:52:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Stocks making the biggest moves premarket: DraftKings, Itau Unibanco, PTC & more",
+   "link": "https://www.cnbc.com/2026/10/05/stocks-making-the-biggest-moves-premarket-dkng-itub-ptc.html",
+   "ts": "2026-10-05T11:45:09Z",
+   "fuente": "CNBC",
+   "id": "b74f232057",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "WISeSat.Space Completes Business Combination and Begins Nasdaq Trading",
    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORTBzMTJYVzRWRURlbXhoY0tJbU9fRDY4VzRZcm11OUF4Y1ZzVjBwYm9qNWtrTS1TbmN6a1NtT1g3cXk2UnAzNndrZGUtMENlT0xCMHg5bHJzdUphVU90VDJ0Y0tGMUVjNld1d18tcGxmUzFZZjVUbGl5Y05LYmI2TlV0MUt1U2dLSUVrQXd2V2Y4YWg0cWc?oc=5",
@@ -1979,6 +1995,17 @@
    "efecto": "Genera toma de beneficios y ventas en el Nasdaq 100."
   },
   {
+   "titulo": "Stock Market Fear Index Rises as Bond Worries Resurface",
+   "link": "https://finance.yahoo.com/m/a97295f4-d7cb-3a2b-a1fa-fe06dba243ec/stock-market-fear-index-rises.html?.tsrc=rss",
+   "ts": "2026-10-05T10:43:58Z",
+   "fuente": "Yahoo Finance",
+   "id": "51bc39788c",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Anthropic, OpenAI, Google and Meta execs set to testify at NYC Council hearing on AI risks",
    "link": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
    "ts": "2026-10-05T10:42:51Z",
@@ -2006,6 +2033,17 @@
    "id": "5b930b60a0",
    "activos": [
     "oro",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Dollar Hits Near 18-Month High, Lifted by Slumping Euro as France Debt Woes Rattle Bond Markets",
+   "link": "https://finance.yahoo.com/m/c20a564f-eeb4-3fa0-9cd1-6144753e78f3/dollar-hits-near-18-month.html?.tsrc=rss",
+   "ts": "2026-10-05T10:35:30Z",
+   "fuente": "Yahoo Finance",
+   "id": "2d8bdb0b08",
+   "activos": [
     "dolar"
    ],
    "impacto": "medio"
@@ -2439,6 +2477,15 @@
    "efecto": "Impulsa al oro por refugio y genera cautela en NQ."
   },
   {
+   "titulo": "Euro hits 17-month low as political uncertainty in Spain and France rattles markets",
+   "link": "https://www.cnbc.com/2026/10/05/euro-dollar-spain-france-risk.html",
+   "ts": "2026-10-05T08:04:35Z",
+   "fuente": "CNBC",
+   "id": "73355a6fef",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "OceanaGold (NYSE:OGC): Affordable Growth in a Gold and Copper Producer",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZlFnemREQUpfQTk2T2JReC0tSW50V3RaaFdrR0FnYm96ZG1Pczdldkd3U3ZEaTlfaG1WbjFiaVp2c3I3NmozYnVZN3VLRklaSnRNek10andUdkt0VVR1a0Rpcl9SLWROQ1h2azkwTlZoazhJVzVZQUdkLWp3V1ZZS1ZPOERYWUpsWmVERVlTSVNJZlRwa2d1V2dMcWsycGVpQlhubTBGZjJTcllBSTI5ckxDVFRoYTBo?oc=5",
    "ts": "2026-10-05T08:00:31Z",
@@ -2530,48 +2577,6 @@
    "ts": "2026-10-05T07:06:00Z",
    "fuente": "Automotive News",
    "id": "1611e9f25d",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Nvidia’s Valuations Show AI Rally Isn’t a Bubble, DBS Says",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-valuations-show-ai-rally-070429645.html?.tsrc=rss",
-   "ts": "2026-10-05T07:04:29Z",
-   "fuente": "Yahoo Finance",
-   "id": "cd8f0e87de",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "K92 Mining Nears Stage 3 Completion, Eyes 300,000 Gold-Equivalent Ounces",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS25MS1pMMlRrQTNWMGNwWW9LMzdpQ0ZTVGhmMzA3NDZCUDk0WTYyNUpYRXV6QVdTWFFDcmduaUJlWjNsZ1NZUEQ5TEttekFxRnhIdmNMN1M0eVhXY19BRjZWNU9Cc3FVRUE2c0Fvb1hVZzR0S1VKbzVqNXdHYkJBNE54SUxLalR6cFQ3OHYzRHdOd050WWtnaEln?oc=5",
-   "ts": "2026-10-05T07:02:10Z",
-   "fuente": "Yahoo Finance",
-   "id": "d4ddc94baf",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Sienna Resources Inc. Commences Work on the 31,718-acre Stonesthrow Project, Prospective for Gold, Silver, and Copper, in Saskatchewan",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/sienna-resources-inc-commences-31-070100972.html?.tsrc=rss",
-   "ts": "2026-10-05T07:01:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "d4d4c6a65e",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "'There's too much focus on the US market': How tariffs are forcing shrimp to find a new home",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOFJ2QWFQTXlVRmg2OTRkTnUyd29qMDkwNm16OThkMVN3clFGUHZQQUNiYlhwWFhtcTZ4V2c4MUFsdjdQS3NhdXltU0phNDFUNzhoQTB2MmhrMVM3YWZwbkhlSkNLR25YRmpKZTJKaGM4bW1ZWWt5TTRLSkdVTlcxVDNUbEJoRHhEVzlaQVhfOWhlMGZxc0ctRi0yVmxFcWdUNnNxb2pfcFdHbFFzbVozWGFISTZ0QVlSQzZ5MldoT0VQWkIxVU1tQ1pROWo3Zw?oc=5",
-   "ts": "2026-10-05T06:57:33Z",
-   "fuente": "intrafish.com",
-   "id": "02d00970bf",
    "activos": [],
    "impacto": "alto"
   }
@@ -3115,15 +3120,15 @@
     1791198000,
     4190.8,
     4197.1,
-    4186.9,
-    4189.0
+    4183.9,
+    4184.1
    ],
    [
-    1791200250,
-    4189.3,
-    4189.3,
-    4189.3,
-    4189.3
+    1791200548,
+    4184.7,
+    4184.7,
+    4184.7,
+    4184.7
    ]
   ],
   "nq": [
@@ -3664,14 +3669,14 @@
     31029.25,
     31070.25,
     30986.0,
-    31038.25
+    31019.0
    ],
    [
-    1791200251,
-    31036.75,
-    31036.75,
-    31036.75,
-    31036.75
+    1791200553,
+    31020.5,
+    31020.5,
+    31020.5,
+    31020.5
    ]
   ],
   "vix": [
@@ -4100,14 +4105,14 @@
     16.2,
     16.26,
     16.07,
-    16.1
+    16.14
    ],
    [
-    1791199951,
-    16.1,
-    16.1,
-    16.1,
-    16.1
+    1791200251,
+    16.14,
+    16.14,
+    16.14,
+    16.14
    ]
   ]
  },
