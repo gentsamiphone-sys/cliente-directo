@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4177.9 · NQ 31013.0 · VIX —",
-   "actualizado": "2026-10-05T07:02:34Z"
+   "ultimo_resultado": "Oro 4180.5 · NQ 31027.75 · VIX — · 3 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-05T07:07:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T07:02:34Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-05T07:07:32Z",
+   "ultimo_resultado": "3 titulares nuevos, 3 de alto impacto: 'There's too much focus on the US market': How tariffs are forcing shrimp to find a new home"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4180.5 · NQ 31027.75 · VIX — · 3 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-05T07:07:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4177.9 · NQ 31013.0 · VIX —",
@@ -1409,11 +1414,20 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4177.9,
-  "nq": 31013.0,
-  "ts": "2026-10-05T07:02:34Z"
+  "oro": 4180.5,
+  "nq": 31027.75,
+  "ts": "2026-10-05T07:07:32Z"
  },
  "noticias": [
+  {
+   "titulo": "'There's too much focus on the US market': How tariffs are forcing shrimp to find a new home",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOFJ2QWFQTXlVRmg2OTRkTnUyd29qMDkwNm16OThkMVN3clFGUHZQQUNiYlhwWFhtcTZ4V2c4MUFsdjdQS3NhdXltU0phNDFUNzhoQTB2MmhrMVM3YWZwbkhlSkNLR25YRmpKZTJKaGM4bW1ZWWt5TTRLSkdVTlcxVDNUbEJoRHhEVzlaQVhfOWhlMGZxc0ctRi0yVmxFcWdUNnNxb2pfcFdHbFFzbVozWGFISTZ0QVlSQzZ5MldoT0VQWkIxVU1tQ1pROWo3Zw?oc=5",
+   "ts": "2026-10-05T06:57:33Z",
+   "fuente": "intrafish.com",
+   "id": "02d00970bf",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "Euro hits 17-month low as political uncertainty in Spain and France rattles markets",
    "link": "https://www.cnbc.com/2026/10/05/euro-dollar-spain-france-risk.html",
@@ -1757,6 +1771,18 @@
    "efecto": "Noticia corporativa específica sin impacto relevante en el precio del oro."
   },
   {
+   "titulo": "Gold prices steady after weekly slide as weak jobs data ease Fed hike bets",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-edges-higher-weekly-slide-014610629.html?.tsrc=rss",
+   "ts": "2026-10-05T01:46:10Z",
+   "fuente": "Yahoo Finance",
+   "id": "8734d7c4d3",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Gold edges higher after weekly slide as weak jobs data ease Fed hike bets",
    "link": "https://finance.yahoo.com/markets/commodities/articles/gold-edges-higher-weekly-slide-014610629.html?.tsrc=rss",
    "ts": "2026-10-05T01:46:10Z",
@@ -1781,6 +1807,15 @@
    "impacto": "bajo",
    "es": "Juego 'Black and Gold' muestra nueva plantilla de baloncesto de VCU",
    "efecto": "Noticia deportiva irrelevante para los mercados financieros institucionales."
+  },
+  {
+   "titulo": "UK Expected to Follow EU With China EV Tariffs, Report Says",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMVRFZ2liSUUtX0ctTU1RbzA3V0ZKRU0wZ1lUUXh5bmp5ODljRVJwb2NmUHdHd2lyZEtIQVZFclVHWm9URzg5WGJzd3B5eEVkSi11WlFBQk1mYWVCVl9KTmdiSjI2UHBXOXgwSEdTS3ZLVzlscVJ5TzU3dlpLY2U3VE9vbXRzMmRwRmNYb2JsYmR0Y2hEMGhNcEtVQkFwTDBWWmZWcnJYdzJwZ0tqWmNyRWk3Zk4?oc=5",
+   "ts": "2026-10-05T01:33:00Z",
+   "fuente": "Bloomberg.com",
+   "id": "732dc92407",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "U.S. Treasury Selloff Resumes After Brief Respite",
@@ -2608,14 +2643,14 @@
     4162.1,
     4184.1,
     4161.7,
-    4178.3
+    4181.0
    ],
    [
-    1791183145,
-    4177.9,
-    4177.9,
-    4177.9,
-    4177.9
+    1791183448,
+    4180.5,
+    4180.5,
+    4180.5,
+    4180.5
    ]
   ],
   "nq": [
@@ -3121,14 +3156,14 @@
     31045.5,
     31081.0,
     31003.75,
-    31018.5
+    31032.25
    ],
    [
-    1791183153,
-    31011.5,
-    31011.5,
-    31011.5,
-    31011.5
+    1791183448,
+    31026.75,
+    31026.75,
+    31026.75,
+    31026.75
    ]
   ],
   "vix": [
