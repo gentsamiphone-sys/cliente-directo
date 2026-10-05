@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4157.5 · NQ 31250.25 · VIX 15.49 · 13 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-05T17:17:38Z"
+   "ultimo_resultado": "Oro 4153.6 · NQ 31263.0 · VIX 15.49 · 15 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-05T17:22:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T17:17:37Z",
-   "ultimo_resultado": "13 titulares nuevos, 1 de alto impacto: Q2 Rundown: Commerce Bancshares (NASDAQ:CBSH) Vs Other Regional Banks Stocks"
+   "actualizado": "2026-10-05T17:22:42Z",
+   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: El Nasdaq alcanza máximos históricos impulsado por acciones de IA a pesar de altos rendimientos de bonos"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4153.6 · NQ 31263.0 · VIX 15.49 · 15 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-05T17:22:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4157.5 · NQ 31250.25 · VIX 15.49 · 13 noticias nuevas (1 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "liquidez",
    "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
    "ts": "2026-10-04T21:47:13Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Fondos en oro: neto +120,318 contratos.",
-   "ts": "2026-10-04T21:47:12Z"
   }
  ],
  "briefs": [
@@ -2059,12 +2059,50 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4157.5,
-  "nq": 31250.25,
+  "oro": 4153.6,
+  "nq": 31263.0,
   "vix": 15.49,
-  "ts": "2026-10-05T17:17:38Z"
+  "ts": "2026-10-05T17:22:42Z"
  },
  "noticias": [
+  {
+   "titulo": "Nasdaq hits record high as AI stocks rally amid high bond yields",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tTnpLalgxVnZZSnJRWjN6NzhsRVVTaHBqeTRzQVcxekRBZldXdGVlaDRKeGpNbHJsQWVmdUtqbG81LUFzVWlNTDhTQWN4VmlhTVlnaGZzTVNTR0s2Sy11b2xHSXctcHplQ2pRbkZtSV9tSUQ0?oc=5",
+   "ts": "2026-10-05T17:21:36Z",
+   "fuente": "qz.com",
+   "id": "ae71fb95b6",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El Nasdaq alcanza máximos históricos impulsado por acciones de IA a pesar de altos rendimientos de bonos",
+   "efecto": "Impulsa compras institucionales en tecnología a pesar de la presión de tasas."
+  },
+  {
+   "titulo": "Wausau West Publications Lab receives gold medalist rating",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNVdxSjE2eFJEcVhPaEVBOHhreU4teDdad3hLN0hZNEFCU0VtRmtsX19zUVJ4MTFCUjJJMGdxdl96ZWR4RHRYRnR5ektMd2ZETm5vWWtrV3BVakJRbWFVTncwRGtOVHctZjlsT2hHTzc3eDl6SjVaa3otWDJsT2VDb3o5OHFIUWRQSWZ0d0lSUDJHRjBmSWN5SWk5UW4zTXdDcUE1d3Nn?oc=5",
+   "ts": "2026-10-05T17:15:00Z",
+   "fuente": "wausaupilotandreview.com",
+   "id": "13832fdcf5",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Laboratorio de publicaciones Wausau West recibe calificación de medalla de oro",
+   "efecto": "Sin impacto institucional en mercados financieros."
+  },
+  {
+   "titulo": "Stocks making the biggest moves midday: Microsoft, SpaceX, Vaxcyte, Banco Bradesco, DraftKings & more",
+   "link": "https://www.cnbc.com/2026/10/05/stocks-making-the-biggest-moves-midday-msft-spcx-pcvx-bbd-dkng.html",
+   "ts": "2026-10-05T17:13:38Z",
+   "fuente": "CNBC",
+   "id": "7ec5a3fa8c",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Acciones con mayores movimientos al mediodía: Microsoft, SpaceX, Vaxcyte y más",
+   "efecto": "Genera rebalanceo táctico en sectores específicos del Nasdaq."
+  },
   {
    "titulo": "TNT Sports head Luis Silberwasser to depart Skydance as CBS Sports chief David Berson takes over combined global sports group",
    "link": "https://www.cnbc.com/2026/10/05/cbs-sports-head-david-berson-takes-over-skydance-global-sports-group.html",
@@ -2084,6 +2122,17 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "High-earners beware: This 401(k) rule has been in effect all year. Are you aware of how it affects your retirement?",
+   "link": "https://finance.yahoo.com/markets/options/articles/high-earners-beware-401-k-170000354.html?.tsrc=rss",
+   "ts": "2026-10-05T17:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "5475d8c15b",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Atención altos ingresos: regla de 401(k) afecta el retiro",
+   "efecto": "Noticia de consumo interno, sin efecto en mesa institucional."
   },
   {
    "titulo": "Women's Basketball to Host Blue and Gold Scrimmage",
@@ -2872,51 +2921,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Gold outlook: Inflation, oil and yields keep downside risks elevated",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSkctNXJIanJxTVdQT3c5MUh5bUE5RmVYUlM2cjMxSDllRzFpTExiS2NoRlBIaW9PX2pCdlhSU09WT2llcFpHTDZ5cHUxR0pidWo4MFB2RXd6aHFCSXJWalBPSHBRRmxDX0tkWXN1R0tTYWI0alZ0V0VzTkE2WnRKam9GVGVHYjE2YXd6ZHhaX3k0dmthUDlDZUg5S3k2SF9YNlRjNF80UlRDQWV5V0RHSTNXbHV3ZWg5OTdQNEZ4YzNTTHM?oc=5",
-   "ts": "2026-10-05T12:32:46Z",
-   "fuente": "StoneX",
-   "id": "2c44d316b4",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Omai Gold Files NI 43-101 Technical Report Supporting a Preliminary Economic Assessment Indicating After-Tax NPV5% of $4.0 Billion at a $3,600/oz Gold Price for its Omai Gold Project",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/omai-gold-files-ni-43-123100246.html?.tsrc=rss",
-   "ts": "2026-10-05T12:31:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "8b05e0ca2f",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "GM says hybrid vehicles are coming: 'We're not tone deaf to our customers'",
-   "link": "https://www.cnbc.com/2026/10/05/gm-hybrid-vehicles.html",
-   "ts": "2026-10-05T12:30:01Z",
-   "fuente": "CNBC",
-   "id": "3662015d0d",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Eric Sprott Announces Changes to His Holdings in Outcrop Silver & Gold Corporation",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNemxOMTBweGZmb3JValJIR09Hbmg3dlhPQk1ORWdNeEQ0YW1lbWlsbW1DYkVzUFJxVWxlS3VoOGNyTXJWd19FYXllYURBYmlLLXd5OGtqMVppYXVERDRwNnQycXRHVmZKNE1HV3ZiU250X0ZoN2NUQmFEOTFKeEEzdG15a1RuREFLNmFZa3RXYmVwQ05sV1phRTBlMDhuRHpKUnZVRkxR?oc=5",
-   "ts": "2026-10-05T12:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "81899e5257",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Eric Sprott anuncia cambios en sus participaciones en Outcrop Silver & Gold",
-   "efecto": "Ruido corporativo menor, sin impacto macroeconómico."
   }
  ],
  "eventos_avisados": [],
@@ -3500,15 +3504,15 @@
     1791219600,
     4158.3,
     4160.0,
-    4156.9,
-    4157.5
+    4152.9,
+    4153.6
    ],
    [
-    1791220055,
-    4157.5,
-    4157.5,
-    4157.5,
-    4157.5
+    1791220356,
+    4153.6,
+    4153.6,
+    4153.6,
+    4153.6
    ]
   ],
   "nq": [
@@ -4089,16 +4093,16 @@
    [
     1791219600,
     31249.75,
-    31255.0,
+    31265.25,
     31235.75,
-    31251.0
+    31261.75
    ],
    [
-    1791220057,
-    31250.25,
-    31250.25,
-    31250.25,
-    31250.25
+    1791220361,
+    31261.75,
+    31261.75,
+    31261.75,
+    31261.75
    ]
   ],
   "vix": [
@@ -4569,10 +4573,10 @@
     15.5,
     15.5,
     15.49,
-    15.49
+    15.5
    ],
    [
-    1791219751,
+    1791220051,
     15.49,
     15.49,
     15.49,
@@ -4580,5 +4584,5 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-05T16:52:32Z"
+ "noticias_traducidas_ts": "2026-10-05T17:22:38Z"
 }
