@@ -416,9 +416,9 @@ ${contexto()}`;
   const hist=H.slice(-12,-1).map(m=>({role:m.r==="yo"?"user":"model",parts:[{text:m.t}]}));
   let resp="",err="";
   for(const mod of ["gemini-2.5-flash","gemini-2.0-flash","gemini-flash-latest"]){
-    try{const r=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${mod}:generateContent?key=${encodeURIComponent(KEY)}`,{method:"POST",headers:{"Content-Type":"application/json"},
+    try{const r=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${mod}:generateContent`,{method:"POST",headers:{"Content-Type":"application/json","x-goog-api-key":KEY},
       body:JSON.stringify({systemInstruction:{parts:[{text:sys}]},contents:hist,generationConfig:{temperature:.4,maxOutputTokens:900}})});
-      const j=await r.json();if(!r.ok){err=(j.error&&j.error.message)||r.status;if(r.status===400&&/API key/i.test(err))break;continue}
+      const j=await r.json();if(!r.ok){err=(j.error&&j.error.message)||r.status;if(/API key|API_KEY|PERMISSION|UNAUTHENTICATED/i.test(err+"")&&r.status!==404)break;continue}
       resp=(j.candidates?.[0]?.content?.parts||[]).map(p=>p.text||"").join("").trim();if(resp)break}catch(e){err=e.message}}
   pend.t=resp||("No pude responder ("+String(err).slice(0,120)+"). Si dice que la clave no es válida, toca ⚙︎ y pégala de nuevo.");
   guardar();pintar()}
