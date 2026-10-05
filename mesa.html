@@ -87,6 +87,11 @@ th{color:var(--acc);font-weight:700}
 .tk dt{color:var(--muted)}.tk dd{margin:0;font-family:var(--f-m);font-variant-numeric:tabular-nums}
 .nfiltro{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 10px}.nfiltro button{background:transparent;border:1px solid #2a3026;color:inherit;border-radius:999px;padding:4px 10px;font:inherit;font-size:12px;cursor:pointer}.nfiltro button[aria-pressed=true]{background:#d7ff3a;color:#0b0d10;border-color:#d7ff3a}
 .news{display:grid;gap:8px;max-height:420px;overflow:auto}.nw{display:grid;grid-template-columns:52px 1fr;gap:10px;padding:8px 10px;border:1px solid #23281f;border-radius:10px}.nw time{font-family:"JetBrains Mono",monospace;font-size:12px;opacity:.7}.nw a{color:inherit;text-decoration:none;font-weight:700}.nw a:hover{text-decoration:underline}.nw p{margin:3px 0 0;font-size:13px;opacity:.8}.nw .tg{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;border-radius:4px;padding:1px 6px;margin-right:4px;border:1px solid #3a4136}.nw .alto{background:#ff6b5b;color:#120605;border-color:#ff6b5b}.nw .medio{background:#e0b341;color:#120d02;border-color:#e0b341}
+.planes{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:800px){.planes{grid-template-columns:1fr}}
+.plan{height:340px;border:1px solid #23281f;border-radius:10px;overflow:hidden}.pt{font:700 12px "JetBrains Mono",monospace;margin:0 0 6px;letter-spacing:.04em}
+.ley{font-size:12px;margin:8px 0 0;display:flex;gap:14px;flex-wrap:wrap}
+.tomar{margin-top:8px;background:#d7ff3a;color:#0b0d10;border:0;border-radius:8px;padding:6px 12px;font:700 13px inherit;cursor:pointer}.tomar[aria-pressed=true]{background:transparent;color:#d7ff3a;border:1px solid #d7ff3a}
+.dk{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:0 0 12px}.dk div{border:1px solid #23281f;border-radius:10px;padding:8px 10px}.dk small{display:block;opacity:.7;font-size:11px}.dk b{font:700 20px "JetBrains Mono",monospace}
 </style>
 </head>
 <body>
@@ -115,6 +120,10 @@ th{color:var(--acc);font-weight:700}
 
   <div class="grid">
     <section class="card" style="grid-column:1/-1"><h2>Entradas de la mesa <span class="when">tú decides y ejecutas</span></h2><div id="entradas" class="ent"><p class="empty">Las entradas aparecen con el próximo brief.</p></div></section>
+    <section class="card" style="grid-column:1/-1"><h2>Plan en el gráfico <span class="when" id="pWhen">velas de 1 hora · se actualiza cada 5 min</span></h2>
+      <div class="planes"><div><div class="pt" id="ptNq">NQ</div><div class="plan" id="planNq"></div></div><div><div class="pt" id="ptOro">ORO</div><div class="plan" id="planOro"></div></div></div>
+      <p class="ley"><span style="color:#d7ff3a">━ zona de entrada</span> <span style="color:#ff6b5b">━ stop</span> <span style="color:#3ddc84">━ TP1 / TP2</span> <span style="color:#8b95a1">┅ máx./mín. de ayer y de la semana</span> <span style="color:#5aa9ff">┅ VWAP</span></p></section>
+    <section class="card" style="grid-column:1/-1"><h2>Mi diario de trading <span class="when">toca "La tomé" en la entrada que operes</span></h2><div id="diario"><p class="empty">Todavía no marcas ninguna entrada como tomada.</p></div></section>
     <section class="card" style="grid-column:1/-1"><h2>Noticias en vivo <span class="when" id="nWhen">el agente de Noticias revisa cada 10 min</span></h2><div class="nfiltro" id="nFiltro"><button data-f="todas" aria-pressed="true">Todas</button><button data-f="alto">Alto impacto</button><button data-f="oro">Oro</button><button data-f="nq">NQ</button><button data-f="dolar">Dólar y tasas</button></div><div id="noticias" class="news"><p class="empty">Las noticias aparecen con la próxima revisión del agente.</p></div></section>
     <section class="card">
       <h2>Brief de la sesión <span class="when" id="bWhen"></span></h2>
@@ -134,6 +143,7 @@ th{color:var(--acc);font-weight:700}
 </div>
 
 <script src="https://s3.tradingview.com/tv.js"></script>
+<script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"></script>
 <script>
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -161,7 +171,40 @@ function renderNoticias(){const L=(M.noticias||[]).filter(n=>nf==="todas"||(nf==
   $("noticias").innerHTML=L.length?L.slice(0,40).map(n=>`<div class="nw"><time>${hhmm(n.ts)}</time><div><span class="tg ${esc(n.impacto)}">${esc((n.impacto||"").toUpperCase())}</span>${(n.activos||[]).map(a=>`<span class="tg">${a==="nq"?"NQ":a==="oro"?"ORO":"DÓLAR"}</span>`).join("")}<br><a href="${esc(n.link||"#")}" target="_blank" rel="noopener">${esc(n.es||n.titulo)}</a>${n.efecto?`<p>${esc(n.efecto)}</p>`:""}<p style="font-size:11px">${esc(n.fuente||"")}</p></div></div>`).join(""):'<p class="empty">Sin noticias en este filtro todavía.</p>';
   const ag=M.agentes?.noticias;if(ag)$("nWhen").textContent="revisado "+hhmm(ag.actualizado)+" · cada 10 min"}
 $("nFiltro").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;nf=b.dataset.f;$("nFiltro").querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",x===b));renderNoticias()});
-function render(){renderNoticias();
+/* ===== Mi diario (se guarda en este dispositivo) ===== */
+let D=[];try{D=JSON.parse(localStorage.getItem("gc_diario")||"[]")}catch{}
+const clave=(b,e)=>b.ts+"|"+e.activo;
+function guardarD(){try{localStorage.setItem("gc_diario",JSON.stringify(D))}catch{}}
+function resultadoDe(d){for(const b of M.briefs||[])if(b.ts===d.brief)for(const e of b.entradas||[])if(e.activo===d.activo)return{res:e.resultado||(e.vivo==="stop"?"stop":e.vivo==="tp2"?"TP2":null),r:e.r};return{}}
+function renderDiario(){if(!D.length){$("diario").innerHTML='<p class="empty">Todavía no marcas ninguna entrada como tomada. Cuando operes una, toca "La tomé" en la tarjeta de la entrada.</p>';return}
+  const filas=D.map(d=>({...d,...resultadoDe(d)}));const cer=filas.filter(f=>["stop","TP1","TP2","cerrada sin objetivo"].includes(f.res));
+  const g=cer.filter(f=>f.res==="TP1"||f.res==="TP2").length,R=cer.reduce((a,f)=>a+(f.r||(f.res==="stop"?-1:0)),0);
+  $("diario").innerHTML=`<div class="dk"><div><small>Entradas tomadas</small><b>${D.length}</b></div><div><small>Cerradas</small><b>${cer.length}</b></div><div><small>Mi acierto</small><b>${cer.length?Math.round(g/cer.length*100)+"%":"—"}</b></div><div><small>Mi resultado</small><b>${cer.length?(R>0?"+":"")+R.toFixed(1)+" R":"—"}</b></div></div>
+  <table><thead><tr><th>Fecha</th><th>Activo</th><th>Dirección</th><th>Zona</th><th>Resultado</th><th></th></tr></thead><tbody>${filas.slice().reverse().map(f=>`<tr><td>${esc(f.cuando)}</td><td>${esc(f.activo)}</td><td>${esc(f.dir)}</td><td>${esc(f.zona)}</td><td>${esc(f.res||"en curso")}${f.r!=null&&f.res?" ("+(f.r>0?"+":"")+f.r+" R)":""}</td><td><button class="tomar" data-quitar="${esc(f.brief+"|"+f.activo)}" aria-pressed="true">Quitar</button></td></tr>`).join("")}</tbody></table>
+  <p class="aviso">Tu diario se guarda en este dispositivo. El resultado lo pone solo el Auditor de la mesa.</p>`}
+document.addEventListener("click",e=>{const t=e.target.closest("[data-tomar],[data-quitar]");if(!t)return;
+  if(t.dataset.quitar){D=D.filter(d=>d.brief+"|"+d.activo!==t.dataset.quitar)}else{const[bi,ei]=t.dataset.tomar.split(":").map(Number),b=M.briefs[bi],x=b.entradas[ei],k=clave(b,x);
+    if(D.some(d=>d.brief+"|"+d.activo===k))D=D.filter(d=>d.brief+"|"+d.activo!==k);else D.push({brief:b.ts,activo:x.activo,dir:x.direccion,zona:x.zona,cuando:new Date().toLocaleString("es-US",{dateStyle:"short",timeStyle:"short"})})}
+  guardarD();render()});
+/* ===== Plan en el gráfico ===== */
+const CH={};
+function grafico(k,el){if(!window.LightweightCharts)return null;if(CH[k])return CH[k];
+  const c=LightweightCharts.createChart(el,{layout:{background:{color:"#0b0d10"},textColor:"#c9d1c3",fontFamily:"JetBrains Mono, monospace"},grid:{vertLines:{color:"#161a14"},horzLines:{color:"#161a14"}},
+    timeScale:{timeVisible:true,secondsVisible:false,borderColor:"#23281f"},rightPriceScale:{borderColor:"#23281f"},localization:{timeFormatter:t=>new Date(t*1000).toLocaleString("es-US",{timeZone:"America/Los_Angeles",hour:"2-digit",minute:"2-digit",day:"2-digit",month:"short"})},autoSize:true});
+  const s=c.addCandlestickSeries({upColor:"#3ddc84",downColor:"#ff6b5b",borderVisible:false,wickUpColor:"#3ddc84",wickDownColor:"#ff6b5b"});CH[k]={c,s,lines:[]};return CH[k]}
+function num(x){const m=String(x??"").match(/\d[\d,]*\.?\d*/g);return m?m.map(v=>parseFloat(v.replace(/,/g,""))).filter(v=>v>50):[]}
+function renderPlan(){const b=M.briefs?.[0];
+  for(const[k,id,t] of [["nq","planNq","ptNq"],["oro","planOro","ptOro"]]){const g=grafico(k,$(id));if(!g)continue;const V=M.velas?.[k]||[];
+    g.s.setData(V.map(v=>({time:v[0],open:v[1],high:v[2],low:v[3],close:v[4]})));g.lines.forEach(l=>g.s.removePriceLine(l));g.lines=[];
+    const L=(price,color,title,style=0,w=2)=>{if(price&&isFinite(price))g.lines.push(g.s.createPriceLine({price,color,lineWidth:w,lineStyle:style,axisLabelVisible:true,title}))};
+    const m=b?.mapas?.[k]||{};L(m.PDH,"#8b95a1","PDH",2,1);L(m.PDL,"#8b95a1","PDL",2,1);L(m.PWH,"#8b95a1","PWH",2,1);L(m.PWL,"#8b95a1","PWL",2,1);L(m.vwap_hoy,"#5aa9ff","VWAP",1,1);
+    const e=(b?.entradas||[]).find(x=>String(x.activo).toUpperCase()===(k==="nq"?"NQ":"ORO"));let txt=k==="nq"?"NQ":"ORO";
+    if(e&&!String(e.direccion||"").toUpperCase().startsWith("SIN")){const z=num(e.zona);L(Math.max(...z),"#d7ff3a","ENTRADA");if(z.length>1)L(Math.min(...z),"#d7ff3a","ENTRADA");L(num(e.stop)[0],"#ff6b5b","STOP");L(num(e.tp1)[0],"#3ddc84","TP1");L(num(e.tp2)[0],"#3ddc84","TP2");txt+=" · "+String(e.direccion).toUpperCase()+" · "+(({esperando:"esperando la zona",en_zona:"📍 en la zona",confirmada:"✅ confirmada",cancelada:"❌ cancelada",stop:"🛑 stop",tp2:"🎯 TP2"})[e.vivo]||"esperando la zona")}
+    else txt+=" · SIN ENTRADA"+(e?.motivo?" — "+e.motivo:"");
+    $(t).textContent=txt+(M.en_vivo?.[k]?" · precio "+Number(M.en_vivo[k]).toLocaleString("en-US"):"");
+    if(V.length&&!g.fit){g.c.timeScale().fitContent();g.fit=1}}
+  if(M.en_vivo?.ts)$("pWhen").textContent="velas de 1 hora · actualizado "+hhmm(M.en_vivo.ts)}
+function render(){renderNoticias();renderDiario();renderPlan();
   const b=M.briefs[sel];
   $("tabs").innerHTML=M.briefs.slice(0,8).map((x,i)=>`<button aria-pressed="${i===sel}" data-i="${i}">${esc(x.nombre)} · ${hhmm(x.ts)}</button>`).join("");
   if(b){$("bWhen").textContent=hhmm(b.ts);
@@ -180,9 +223,9 @@ function render(){renderNoticias();
       ${Object.entries(st).filter(([k])=>k!=="total").map(([k,v])=>`<tr><td>${esc(k.replace("nuevayork","NY"))}</td><td>${v.acierto_pct}% · ${v.operaciones} op · ${v.r_total>0?"+":""}${v.r_total}R</td></tr>`).join("")}</tbody></table>`
       :'<p class="empty">Se llena solo: el Auditor revisa si cada entrada tocó primero el stop o el objetivo.</p>';
     const en=b.entradas||[];
-    $("entradas").innerHTML=en.length?en.map(e=>{const d=String(e.direccion||"").toUpperCase(),c=d.startsWith("COMPRA")?"compra":d.startsWith("VENTA")?"venta":"";
+    $("entradas").innerHTML=en.length?en.map((e,ei)=>{const d=String(e.direccion||"").toUpperCase(),c=d.startsWith("COMPRA")?"compra":d.startsWith("VENTA")?"venta":"";
       return d.startsWith("SIN")?`<div class="tk"><h3>${esc(e.activo)}<span>SIN ENTRADA</span></h3><p style="margin:0;color:var(--muted)">${esc(e.motivo||e.cancelar||"")}</p></div>`:
-      `<div class="tk ${c}"><h3>${esc(e.activo)}<span>${esc(d)}</span></h3><dl><dt>Zona de entrada</dt><dd>${esc(e.zona)}</dd><dt>Stop</dt><dd>${esc(e.stop)}</dd><dt>TP1 / TP2</dt><dd>${esc(e.tp1)} / ${esc(e.tp2)}</dd><dt>R:R</dt><dd>${esc(e.rr)}</dd><dt>Confluencias</dt><dd>${esc(e.confluencias??"—")}/5</dd>${e.resultado?`<dt>Resultado</dt><dd>${esc(e.resultado)}${e.r!=null?" ("+(e.r>0?"+":"")+e.r+" R)":""}</dd>`:""}<dt>Confirmación</dt><dd style="font-family:var(--f-b)">${esc(e.confirmacion)}</dd><dt>Cancelar si</dt><dd style="font-family:var(--f-b)">${esc(e.cancelar)}</dd></dl></div>`}).join(""):'<p class="empty">Este brief no trae entradas.</p>';
+      `<div class="tk ${c}"><h3>${esc(e.activo)}<span>${esc(d)}</span></h3><dl><dt>Estado</dt><dd>${esc(({esperando:"Esperando que llegue a la zona",en_zona:"📍 En la zona: espera confirmación",confirmada:"✅ Confirmada",cancelada:"❌ Cancelada",stop:"🛑 Stop",tp2:"🎯 TP2"})[e.vivo]||e.resultado||"Esperando")}</dd><dt>Zona de entrada</dt><dd>${esc(e.zona)}</dd><dt>Stop</dt><dd>${esc(e.stop)}</dd><dt>TP1 / TP2</dt><dd>${esc(e.tp1)} / ${esc(e.tp2)}</dd><dt>R:R</dt><dd>${esc(e.rr)}</dd><dt>Confluencias</dt><dd>${esc(e.confluencias??"—")}/5</dd>${e.resultado?`<dt>Resultado</dt><dd>${esc(e.resultado)}${e.r!=null?" ("+(e.r>0?"+":"")+e.r+" R)":""}</dd>`:""}<dt>Confirmación</dt><dd style="font-family:var(--f-b)">${esc(e.confirmacion)}</dd><dt>Cancelar si</dt><dd style="font-family:var(--f-b)">${esc(e.cancelar)}</dd></dl>${(()=>{const bi=M.briefs.indexOf(b),t=D.some(d=>d.brief===b.ts&&d.activo===e.activo);return `<button class="tomar" data-tomar="${bi}:${ei}" aria-pressed="${t}">${t?"✓ La tomé (quitar)":"La tomé"}</button>`})()}</div>`}).join(""):'<p class="empty">Este brief no trae entradas.</p>';
     const x=b.vix_nq||{};$("kVix").textContent=M.en_vivo?.vix??x.vix??"—";
     $("vixnq").innerHTML=x.vix?`<p style="margin:0 0 8px;font-weight:700;color:${/CONFIRMA ALCISTA/.test(x.lectura)?"var(--up)":/CONFIRMA BAJISTA/.test(x.lectura)?"var(--down)":"var(--acc)"}">${esc(x.lectura||"")}</p>
       <table><tbody><tr><td>VIX</td><td>${x.vix} (${x.cambio_1d_pct>0?"+":""}${x.cambio_1d_pct}%)</td></tr><tr><td>VIX máx./mín. ayer</td><td>${x.vix_PDH} / ${x.vix_PDL}</td></tr>

@@ -34,8 +34,8 @@ jobs:
             case $M in 10) A=seguimiento;; 35) A=gerente;; esac
           fi
           [ -n "$A" ] && lanzar agentes.yml "agente=$A"
-          # Vigilante de la mesa: cada 10 min mientras el mercado de futuros está abierto (él mismo revisa el horario)
-          if [ $((M % 10)) -eq 0 ] && [ $M -ne 30 ]; then lanzar mesa.yml sesion=vigilar; fi
+          # Vigilante de la mesa: cada 5 min
+          lanzar mesa.yml sesion=vigilar   # cada 5 min (él mismo descansa los sábados)
           # Domingo 11:00 am Las Vegas (18:00 UTC): plan de la semana. Sábado: la mesa descansa.
           if [ $DOW -eq 0 ] && [ $H -eq 18 ] && [ $M -eq 0 ]; then lanzar mesa.yml sesion=semana; fi
           if [ $M -eq 30 ]; then
