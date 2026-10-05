@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4162.2 · NQ 31226.75 · VIX 15.57 · 10 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-05T15:57:31Z"
+   "ultimo_resultado": "Oro 4165.7 · NQ 31241.0 · VIX 15.6 · 11 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-05T16:02:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T15:57:31Z",
-   "ultimo_resultado": "10 titulares nuevos, 2 de alto impacto: Market expert discusses Treasury yields, oil prices"
+   "actualizado": "2026-10-05T16:02:35Z",
+   "ultimo_resultado": "11 titulares nuevos, 2 de alto impacto: Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4165.7 · NQ 31241.0 · VIX 15.6 · 11 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-05T16:02:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4162.2 · NQ 31226.75 · VIX 15.57 · 10 noticias nuevas (2 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +120,318 contratos.",
    "ts": "2026-10-04T20:40:57Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-10-04T20:40:55Z"
   }
  ],
  "briefs": [
@@ -2059,12 +2059,43 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4162.2,
-  "nq": 31226.75,
-  "vix": 15.57,
-  "ts": "2026-10-05T15:57:31Z"
+  "oro": 4165.7,
+  "nq": 31241.0,
+  "vix": 15.6,
+  "ts": "2026-10-05T16:02:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
+   "link": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html",
+   "ts": "2026-10-05T15:47:42Z",
+   "fuente": "CNBC",
+   "id": "04f2861ecc",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Nvidia's $20 billion Groq deal faces lawsuit alleging startup's stockholders were shortchanged",
+   "link": "https://www.cnbc.com/2026/10/05/nvidia-groq-deal-stockholder-lawsuit.html",
+   "ts": "2026-10-05T15:46:49Z",
+   "fuente": "CNBC",
+   "id": "32802e30ed",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "More than 20 million Medicare beneficiaries may get one-time $90 payment — here's who qualifies",
+   "link": "https://www.cnbc.com/2026/10/05/medicare-part-b-beneficiaries-90-payment.html",
+   "ts": "2026-10-05T15:44:54Z",
+   "fuente": "CNBC",
+   "id": "fe64607789",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "2 Mining Stocks That Are Quietly Becoming the Trades of the Year",
    "link": "https://www.fool.com/investing/2026/10/05/2-mining-stocks-that-are-quietly-becoming-the/?.tsrc=rss",
@@ -2885,44 +2916,6 @@
    "impacto": "medio",
    "es": "Los futuros del Dow caen mientras los rendimientos de los bonos se mantienen altos el lunes",
    "efecto": "Presiona al NQ a la baja por tasas de descuento altas."
-  },
-  {
-   "titulo": "Treasury yields hold near multiyear highs as traders await data, Fed minutes this week",
-   "link": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html",
-   "ts": "2026-10-05T11:20:13Z",
-   "fuente": "CNBC",
-   "id": "0c2902e040",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Rendimientos del Tesoro se mantienen altos a la espera de datos y actas de la Fed",
-   "efecto": ""
-  },
-  {
-   "titulo": "US Dollar Rises Early Monday, Focus on FOMC Minutes This Week",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-monday-111955131.html?.tsrc=rss",
-   "ts": "2026-10-05T11:19:55Z",
-   "fuente": "Yahoo Finance",
-   "id": "a693667203",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Gold prices today, Monday, October 5, 2026: Gold prices climbing this morning as interest rate expectations shift",
-   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZzhWVV9zUHlLMDY4ZnlqWlpTamRGd2VYcGRkTHpKdFBsaGRnOXdsSTFjQmJOckhlR1ZkanJYcXQzblNMLTdSOG8yQndEcjNLTHJ0U0N5SkpHajAzSnFoRzg1aWFfbnZtdzhDU05mNV9zQ1htUl9ueFRSM19hYjhUek56Y181bXZZQUUxM0gzN2VhMDQ4NG52Q3VmNVhUSlZ4Z1hhNDhMRFJ0bDNGUkppR0xhM0l5T016LVRHVy1Sb2JfZGdvXzNoQTl3b0tIMlFIUmhFNmNoYmFnb0NDT2ZrZGhSWk11STlsZDN3YXQ3dHh0UQ?oc=5",
-   "ts": "2026-10-05T11:18:42Z",
-   "fuente": "Currently.com",
-   "id": "83df5cb6dc",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3493,14 +3486,14 @@
     4175.2,
     4176.5,
     4150.4,
-    4162.8
+    4166.2
    ],
    [
-    1791215248,
-    4162.2,
-    4162.2,
-    4162.2,
-    4162.2
+    1791215553,
+    4165.8,
+    4165.8,
+    4165.8,
+    4165.8
    ]
   ],
   "nq": [
@@ -4069,14 +4062,14 @@
     31248.0,
     31254.5,
     31206.0,
-    31232.0
+    31239.75
    ],
    [
-    1791215248,
-    31226.75,
-    31226.75,
-    31226.75,
-    31226.75
+    1791215553,
+    31241.0,
+    31241.0,
+    31241.0,
+    31241.0
    ]
   ],
   "vix": [
@@ -4531,16 +4524,16 @@
    [
     1791212400,
     15.53,
-    15.59,
+    15.61,
     15.52,
-    15.57
+    15.61
    ],
    [
-    1791214936,
-    15.57,
-    15.57,
-    15.57,
-    15.57
+    1791215251,
+    15.6,
+    15.6,
+    15.6,
+    15.6
    ]
   ]
  },
