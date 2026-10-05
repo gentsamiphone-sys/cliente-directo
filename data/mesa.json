@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4191.3 · NQ 31011.0 · VIX 16.24 · 7 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-05T11:27:37Z"
+   "ultimo_resultado": "Oro 4188.3 · NQ 31018.5 · VIX 16.21 · 9 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-05T11:32:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T11:27:37Z",
-   "ultimo_resultado": "7 titulares nuevos, 1 de alto impacto: Los futuros del Dow caen mientras los rendimientos de los bonos se mantienen altos el lunes"
+   "actualizado": "2026-10-05T11:32:33Z",
+   "ultimo_resultado": "9 titulares nuevos, 3 de alto impacto: Stock futures fall slightly to kick of week as traders eye bond yields and oil: Live updates"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4188.3 · NQ 31018.5 · VIX 16.21 · 9 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-05T11:32:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4191.3 · NQ 31011.0 · VIX 16.24 · 7 noticias nuevas (1 alto impacto)",
@@ -1674,12 +1679,23 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4191.3,
-  "nq": 31011.0,
-  "vix": 16.24,
-  "ts": "2026-10-05T11:27:37Z"
+  "oro": 4188.3,
+  "nq": 31018.5,
+  "vix": 16.21,
+  "ts": "2026-10-05T11:32:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Stock futures fall slightly to kick of week as traders eye bond yields and oil: Live updates",
+   "link": "https://www.cnbc.com/2026/10/04/stock-market-today-live-updates.html",
+   "ts": "2026-10-05T11:29:39Z",
+   "fuente": "CNBC",
+   "id": "50d922750f",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Dow futures slip as Treasury yields stay high Monday",
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5BN2poSDZYbVctT1hSNzVJVE40VF9pT0hoblAtZ2VOUldnb21iZmZHVm9sbjlEbzdJQW5SU01fbnR5OTc5VzNmbzJ0dnNJOHpyMWRzdGJEbklXZVVHeXVYeWZWQzhFdzdqM2p1OHMyQzVOQQ?oc=5",
@@ -1714,6 +1730,28 @@
    "id": "39465cd309",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Wildsky signs LoI for Zimbabwe’s NewRidge Gold Project",
+   "link": "https://www.mining-technology.com/news/wildsky-loi-newridge-gold-project/?.tsrc=rss",
+   "ts": "2026-10-05T11:08:37Z",
+   "fuente": "Yahoo Finance",
+   "id": "e5e5abffd0",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "French, Spanish Bond Yields Rise on Fiscal, Political Uncertainty; Treasury Yields Steady",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeHhVOE91SFdPWGdUVzQxTkZFbUZmc2FoSTAwRHZGR1FKMUNFeGl1eENZRThsUTllZ3VQNDNFeWl4cFp6UEFmZzFVMDNSbkhCLVR1NC1DaWJ4ckdRbDZySjI2VmwwUWlTUHJYbnl2a1REc0tzeEo5aVlmN2RqWnp5T0xLeGg3MXlOQ2ZuUFpRZGVSdktqZEdPMG1qNlQ0Z0w3dmc?oc=5",
+   "ts": "2026-10-05T11:07:00Z",
+   "fuente": "WSJ",
+   "id": "4ea74152d2",
+   "activos": [
+    "dolar"
    ],
    "impacto": "medio"
   },
@@ -2301,6 +2339,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Treasury yields hold near multiyear highs as traders await data, Fed minutes this week",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9IaFZaeFFMQnFxZVQ0dXBXRmExY1pmcHNKUVM1ejBOSWtSQ3huNTlpV2pnTDVvQlJtbV8xV3pyaWFQT1FTWVF2VWgxZDNuR0ZxT2w0YXFCWGs4My1mNFJtcW5ERU1BeUczVHJPdzNoeFZQVTRMaVE40gF8QVVfeXFMUG5tZW9UYkJTZW05R3NiNGdUb3ZZd2puOFo4S2h0UmZudkJ4R2hRU0d5aDM1WmFXY1BBdy1ZWjQ4aGtjVFBQSHEwSnlFYkNLSlhFeFhzVGFzc050QzZqRTVkczVFdjliZ0RtRDlqdWZXNFV3amY4ZDRlQ25RSw?oc=5",
+   "ts": "2026-10-05T08:00:01Z",
+   "fuente": "CNBC",
+   "id": "0c2902e040",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Treasury yields inch lower as investors pare back Fed rate hike bets",
    "link": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html",
    "ts": "2026-10-05T08:00:01Z",
@@ -2531,56 +2580,6 @@
    "impacto": "alto",
    "es": "Monedas asiáticas caen mientras el dólar repunta y el euro toca mínimo de 17 meses",
    "efecto": ""
-  },
-  {
-   "titulo": "The Bull Case For Coeur Mining (CDE) Could Change Following Record 2026 Exploration Spend At New Afton",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/bull-case-coeur-mining-cde-051223642.html?.tsrc=rss",
-   "ts": "2026-10-05T05:12:23Z",
-   "fuente": "Yahoo Finance",
-   "id": "e060ccd33b",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Caso alcista para Coeur Mining tras récord de gasto en exploración en New Afton para 2026",
-   "efecto": "Sin impacto macro; relevancia estrictamente sectorial para minería."
-  },
-  {
-   "titulo": "Skeena Resources Nears 75% Completion at High-Grade Eskay Creek Gold Project",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQlc2dWR5d3ZCR3paUDJpVjA5SEdYRm9ZNUlVU0pSVFlkVFI0M2ZmaDZnVG90ckNEWlgzVDU1M0FjSWVHenhhTE9iZHdxTnlJZklwUTU2cTJzNFJCNDNfaU1pNlB4WEFYVTk2X1hNUHVNbFJBVG9wSE1DYlZGMXVKUkIyUFdfV1BnZ29STXhraHhfc1EySmYweWdZWXB0R05fSGQxSlEzbHBpZw?oc=5",
-   "ts": "2026-10-05T05:02:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "fb0197a5b3",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Skeena Resources alcanza un 75% de avance en el proyecto de oro Eskay Creek",
-   "efecto": ""
-  },
-  {
-   "titulo": "Men's Tennis wraps up 2026 Black and Gold Invitational",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSlZGSmpqZWNUT0dPTTM3WF9aQ2NHODRpSG9rS1gtVWNzTFoxN0kxaHJneEZvWldvM0U2X255U1NndHpDNWdOajNFMUVHOG1WLTJSdlJFaEg5dVZQUms2YVlaMTd6YnBNX25sY3ZfRFg2d0t2NFBrSUhTZC1wMHlFbW9SQmJIZVJ4VjRXRWhjQ3JidndLSXJ6YlR3?oc=5",
-   "ts": "2026-10-05T05:00:24Z",
-   "fuente": "Middle Tennessee State University Athletics",
-   "id": "f94b09bc73",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "The 2029 tipping point: Western populations are about to start shrinking, piling pressure on public finances",
-   "link": "https://www.cnbc.com/2026/10/05/aging-population-moodys-public-finances.html",
-   "ts": "2026-10-05T05:00:01Z",
-   "fuente": "CNBC Economía",
-   "id": "67ae04dd2d",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio",
-   "es": "El punto de inflexión de 2029: la población occidental comenzará a encogerse, presionando las finanzas públicas",
-   "efecto": "Genera cautela a largo plazo en bonos y divisa por presión fiscal."
   }
  ],
  "eventos_avisados": [],
@@ -3123,14 +3122,14 @@
     4190.8,
     4191.8,
     4187.4,
-    4191.6
+    4188.7
    ],
    [
-    1791199055,
-    4191.3,
-    4191.3,
-    4191.3,
-    4191.3
+    1791199346,
+    4188.3,
+    4188.3,
+    4188.3,
+    4188.3
    ]
   ],
   "nq": [
@@ -3671,14 +3670,14 @@
     31029.25,
     31031.75,
     30986.0,
-    31011.75
+    31022.5
    ],
    [
-    1791199057,
-    31011.25,
-    31011.25,
-    31011.25,
-    31011.25
+    1791199348,
+    31018.5,
+    31018.5,
+    31018.5,
+    31018.5
    ]
   ],
   "vix": [
@@ -4107,14 +4106,14 @@
     16.2,
     16.26,
     16.19,
-    16.23
+    16.22
    ],
    [
-    1791198751,
-    16.24,
-    16.24,
-    16.24,
-    16.24
+    1791199051,
+    16.21,
+    16.21,
+    16.21,
+    16.21
    ]
   ]
  },
