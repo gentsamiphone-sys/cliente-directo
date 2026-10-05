@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4165.7 · NQ 31241.0 · VIX 15.6 · 11 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-05T16:02:36Z"
+   "ultimo_resultado": "Oro 4166.7 · NQ 31238.25 · VIX 15.58 · 10 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-05T16:07:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T16:02:35Z",
-   "ultimo_resultado": "11 titulares nuevos, 2 de alto impacto: Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency"
+   "actualizado": "2026-10-05T16:07:32Z",
+   "ultimo_resultado": "10 titulares nuevos, 2 de alto impacto: AI researchers detail safety risks at NYC Council with Anthropic, OpenAI, Google and Meta execs set to testify"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4166.7 · NQ 31238.25 · VIX 15.58 · 10 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-05T16:07:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4165.7 · NQ 31241.0 · VIX 15.6 · 11 noticias nuevas (2 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "liquidez",
    "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
    "ts": "2026-10-04T20:40:58Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Fondos en oro: neto +120,318 contratos.",
-   "ts": "2026-10-04T20:40:57Z"
   }
  ],
  "briefs": [
@@ -2059,12 +2059,23 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4165.7,
-  "nq": 31241.0,
-  "vix": 15.6,
-  "ts": "2026-10-05T16:02:35Z"
+  "oro": 4166.7,
+  "nq": 31238.25,
+  "vix": 15.58,
+  "ts": "2026-10-05T16:07:32Z"
  },
  "noticias": [
+  {
+   "titulo": "AI researchers detail safety risks at NYC Council with Anthropic, OpenAI, Google and Meta execs set to testify",
+   "link": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
+   "ts": "2026-10-05T16:03:35Z",
+   "fuente": "CNBC",
+   "id": "a856b694a4",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
    "link": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html",
@@ -2225,6 +2236,17 @@
    "ts": "2026-10-05T15:02:18Z",
    "fuente": "NBC News",
    "id": "62e80533ae",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Cripple Creek and Victor gold mine generated about $830 million in economic activity statewide last year",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS3A2a3FRWGhWTkhMeVFvTTNKZ3F0aUcyWl9Ec1BjbHdEUXo0Z09HUWdoSWExN0Jia2pkU1hlekJWMS1ZaUpwWHkyQzIxSVdRTy1sUkROY01GcVRuTkpiNkZ0cWlrWEJsV3cwSXY1dkx5NUZrOFVPbWhoMWFmdWNlV3RzSDE?oc=5",
+   "ts": "2026-10-05T14:51:37Z",
+   "fuente": "Colorado Public Radio",
+   "id": "379ad58924",
    "activos": [
     "oro"
    ],
@@ -2891,31 +2913,6 @@
    "id": "b608fd3e9f",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Stock futures fall slightly to kick of week as traders eye bond yields and oil: Live updates",
-   "link": "https://www.cnbc.com/2026/10/04/stock-market-today-live-updates.html",
-   "ts": "2026-10-05T11:29:39Z",
-   "fuente": "CNBC",
-   "id": "50d922750f",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Dow futures slip as Treasury yields stay high Monday",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5BN2poSDZYbVctT1hSNzVJVE40VF9pT0hoblAtZ2VOUldnb21iZmZHVm9sbjlEbzdJQW5SU01fbnR5OTc5VzNmbzJ0dnNJOHpyMWRzdGJEbklXZVVHeXVYeWZWQzhFdzdqM2p1OHMyQzVOQQ?oc=5",
-   "ts": "2026-10-05T11:23:09Z",
-   "fuente": "qz.com",
-   "id": "2c7667ffc9",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio",
-   "es": "Los futuros del Dow caen mientras los rendimientos de los bonos se mantienen altos el lunes",
-   "efecto": "Presiona al NQ a la baja por tasas de descuento altas."
   }
  ],
  "eventos_avisados": [],
@@ -3486,14 +3483,14 @@
     4175.2,
     4176.5,
     4150.4,
-    4166.2
+    4165.7
    ],
    [
-    1791215553,
-    4165.8,
-    4165.8,
-    4165.8,
-    4165.8
+    1791215845,
+    4166.7,
+    4166.7,
+    4166.7,
+    4166.7
    ]
   ],
   "nq": [
@@ -4065,11 +4062,11 @@
     31239.75
    ],
    [
-    1791215553,
-    31241.0,
-    31241.0,
-    31241.0,
-    31241.0
+    1791215849,
+    31238.25,
+    31238.25,
+    31238.25,
+    31238.25
    ]
   ],
   "vix": [
@@ -4526,14 +4523,14 @@
     15.53,
     15.61,
     15.52,
-    15.61
+    15.58
    ],
    [
-    1791215251,
-    15.6,
-    15.6,
-    15.6,
-    15.6
+    1791215536,
+    15.58,
+    15.58,
+    15.58,
+    15.58
    ]
   ]
  },
