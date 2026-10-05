@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4165.7 · NQ 31317.25 · VIX 15.59 · 13 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-05T18:52:35Z"
+   "ultimo_resultado": "Oro 4169.9 · NQ 31322.0 · VIX 15.55 · 15 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-05T19:09:12Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-05T18:52:34Z",
-   "ultimo_resultado": "13 titulares nuevos, 1 de alto impacto: Semiconductor Manufacturing Stocks Q2 In Review: Semtech (NASDAQ:SMTC) Vs Peers"
+   "actualizado": "2026-10-05T19:09:11Z",
+   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: Inversionistas ignoran alza de bonos y llevan a las acciones a máximos"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4169.9 · NQ 31322.0 · VIX 15.55 · 15 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-05T19:09:12Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4165.7 · NQ 31317.25 · VIX 15.59 · 13 noticias nuevas (1 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4161.3 · NQ 31079.0 · VIX 15.31",
    "ts": "2026-10-05T04:57:38Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4160.5 · NQ 31067.75 · VIX 15.31",
-   "ts": "2026-10-05T04:52:32Z"
   }
  ],
  "briefs": [
@@ -2059,12 +2059,53 @@
   "total": null
  },
  "en_vivo": {
-  "oro": 4165.7,
-  "nq": 31317.25,
-  "vix": 15.59,
-  "ts": "2026-10-05T18:52:34Z"
+  "oro": 4169.9,
+  "nq": 31322.0,
+  "vix": 15.55,
+  "ts": "2026-10-05T19:09:12Z"
  },
  "noticias": [
+  {
+   "titulo": "Investors shrug off a fresh surge in bond yields to push stocks to record highs",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZy1TdEdSQlppZmtJa05ZS0JvYmVIWWhFUlRraS1EbGh3OFh3NFJFNzJPYWVXeGxfUFRsOHhOcWp6Y0xMUHVTclU4NmpXREp2b0U1TWJkeG41QXJDbEFCMGJmMWx6clBYLUxGQmtZc2NEUDdWWjNwNFR1YlhuZWl3RDd0b2NUMjZLU05CekNJWGVJNm92TmNvR3UyZjJkQmZa?oc=5",
+   "ts": "2026-10-05T19:07:52Z",
+   "fuente": "Business Insider",
+   "id": "d1970280d0",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Inversionistas ignoran alza de bonos y llevan a las acciones a máximos",
+   "efecto": "Impulsa al Nasdaq a nuevos máximos a pesar de las tasas."
+  },
+  {
+   "titulo": "BC-Gold-Silver",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-silver-190016313.html?.tsrc=rss",
+   "ts": "2026-10-05T19:00:16Z",
+   "fuente": "Yahoo Finance",
+   "id": "a56a6b87c1",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Reporte diario de oro y plata",
+   "efecto": "Sin impacto institucional significativo."
+  },
+  {
+   "titulo": "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdjFPWWhuSFpqX1NvZTVOc3lYSy1Lcl9jVDhVTUowZTVFVjJubGw4Rk5aWHFvZVFIbDNFTS1KeFZxQXphOTk0RlljY0txbUhhc0E5U3FsemNQOFBudWdhNWlXcV9DVkxNTWZCLXNMem5fMEtDc2p6cWVyMlhPQ2swUEhSLTZMeVFZcDNENUlNMUpaTTJuRFhWM3YyRXk2QQ?oc=5",
+   "ts": "2026-10-05T18:53:49Z",
+   "fuente": "The Spokesman-Review",
+   "id": "12d625c5c6",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Nasdaq alcanza récord mientras dólar y rendimientos suben y petróleo baja",
+   "efecto": "Fortalece al dólar y presiona al alza al Nasdaq."
+  },
   {
    "titulo": "Wall Street rewards Microsoft's AI pivot. A longtime skeptic says it's just the beginning",
    "link": "https://www.cnbc.com/investingclub/2026/10/05/wall-street-rewards-microsofts-ai-pivot-a-longtime-skeptic-flips-bullish.html",
@@ -2075,6 +2116,20 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Nasdaq Poised to Hit New High as Treasury Yields Climb",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbFZ1TmhsZVJXVHh3NGo5eWhKcWZyNU8tbk8wYlh4eWd5S2lTNkhSSk5NTGxjcW9uNE8wQlVCekZwZjRRMVhlQ0oxUVNwSEFZeDJjR3dtQ3Nweno0Y3RrdXRYM2Z5TFZzN2djVWdDX21nRVpPZXF4Mk1iRGhpSXphWkFwRTJQa1p0ZUpMMXVjNFp6QU5GVnJLVnpuakNXQm5UQ0E3OE90aFZJM0JobmJXYlY1cDBVNEU?oc=5",
+   "ts": "2026-10-05T18:29:00Z",
+   "fuente": "WSJ",
+   "id": "11a379894b",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Nasdaq listo para nuevo récord mientras suben los rendimientos del Tesoro",
+   "efecto": "Mantiene apetito por riesgo en tecnología pese a tasas altas."
   },
   {
    "titulo": "Nasdaq Hits Fresh Highs While Dow Slips and Small Caps Struggle for Direction",
@@ -2343,6 +2398,19 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Technology Shares Lift Nasdaq as Broader Market Slips",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSTc0MzlHUy00NXRueDJOVmZhbnVRX0lOd09GRklPRUVoVGJ1R0xQb09ydll3a0lBVVZzbUk2SEhYZXhLdDhwcnVhdWRQdjJDNFZqVmotNWFjTFNLVkZsZVZISGs1TndyamVsaHJ5LVFMcTg4VS1HUks2N2tDQmxDWFc1MGFuTkJXSVhNODlTNTNKak5lQ2ExV2JBSF9kUQ?oc=5",
+   "ts": "2026-10-05T17:03:04Z",
+   "fuente": "WSJ",
+   "id": "c1d132270f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Acciones tecnológicas impulsan al Nasdaq mientras el mercado general cae",
+   "efecto": "Soporte selectivo para el Nasdaq frente a debilidad general."
   },
   {
    "titulo": "High-earners beware: This 401(k) rule has been in effect all year. Are you aware of how it affects your retirement?",
@@ -2875,63 +2943,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Dow Jones Forecast: DJIA falls with oil and treasury yields in focus",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRjNCQjFWVWRNT0JsLWRaLUZ5WWhkSXRqUFZjZk40blZ1RUNVbWdDcWxucko3b2psVU83M0oyX0pha3FpVnY2aC1nVWtFWUF0OUFqTG9BUm9Xa1pzR05EU3daM2FZeTU2d3BSWHMwbFdtQm1aMlZXWUczZ1Q3d084dWltVTRTbUlERFh5Q2R2VFV3ajFJWnhJR2FtbjJPMTdZRmdmMnVkWGMtZXNzaERkc0p4LUpPQQ?oc=5",
-   "ts": "2026-10-05T13:58:21Z",
-   "fuente": "StoneX",
-   "id": "f176c471e1",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Mark McNees: Data center tariffs put Florida utilities to test",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPc3dHUXFwWXFMLUk3WHpVd0cyM1RzT2lWRkVZLUhzTUF5UkdWdUNzdlhRd2t1aXBUZUVtRzhEMFhQejhReEh0Z0ZIcUVUVi1pVUM4Zm1QVWg1a29BckZhZXlGSV9Cdkl6TjdhbjJIY2VuWlRibWxEZUxPOXVCdU9NR1IxTzVlbjV0LW1aWWZnTXlzRVJhSm8xQ1RiTlJoQTBjUE1yajVsaTdmdw?oc=5",
-   "ts": "2026-10-05T13:57:15Z",
-   "fuente": "Florida Politics",
-   "id": "c7cca1e9db",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "Mark McNees: Los aranceles a centros de datos ponen a prueba a las eléctricas de Florida",
-   "efecto": "Ruido sectorial, sin efecto directo en futuros del índice."
-  },
-  {
-   "titulo": "Nvidia's $6 trillion milestone looms. Here's when options traders see it happening",
-   "link": "https://www.cnbc.com/2026/10/05/nvidias-6-trillion-milestone-looms-heres-when-options-traders-see-it-happening.html",
-   "ts": "2026-10-05T13:56:58Z",
-   "fuente": "CNBC",
-   "id": "176750827d",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Canada Commodities: Oil Prices Fall on Higher Middle East Crude Exports",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/canada-commodities-oil-prices-fall-135200973.html?.tsrc=rss",
-   "ts": "2026-10-05T13:52:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "8b1eb60494",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio",
-   "es": "Materias primas de Canadá: Los precios del petróleo caen por mayores exportaciones de Medio Oriente",
-   "efecto": "Reduce presiones inflacionarias, aliviando ligeramente a los bonos."
-  },
-  {
-   "titulo": "Egypt Mineral Processing Equipment Market Size, Share, Growth and Forecast, 2026-2035 | Infrastructure and Mining Investment to Drive 5.5% CAGR, Reaching USD 2.76 Billion",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/egypt-mineral-processing-equipment-market-134400478.html?.tsrc=rss",
-   "ts": "2026-10-05T13:44:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "2b42c0070a",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [],
@@ -3521,16 +3532,16 @@
    [
     1791223200,
     4164.4,
-    4169.4,
+    4170.5,
     4160.9,
-    4166.0
+    4170.4
    ],
    [
-    1791225752,
-    4165.7,
-    4165.7,
-    4165.7,
-    4165.7
+    1791226746,
+    4169.9,
+    4169.9,
+    4169.9,
+    4169.9
    ]
   ],
   "nq": [
@@ -4118,16 +4129,16 @@
    [
     1791223200,
     31295.5,
-    31323.25,
+    31325.0,
     31273.5,
-    31317.75
+    31320.5
    ],
    [
-    1791225754,
-    31317.25,
-    31317.25,
-    31317.25,
-    31317.25
+    1791226751,
+    31322.0,
+    31322.0,
+    31322.0,
+    31322.0
    ]
   ],
   "vix": [
@@ -4604,17 +4615,17 @@
     1791223200,
     15.56,
     15.62,
-    15.56,
-    15.59
+    15.55,
+    15.55
    ],
    [
-    1791225451,
-    15.59,
-    15.59,
-    15.59,
-    15.59
+    1791226441,
+    15.55,
+    15.55,
+    15.55,
+    15.55
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-05T18:32:48Z"
+ "noticias_traducidas_ts": "2026-10-05T19:09:06Z"
 }
