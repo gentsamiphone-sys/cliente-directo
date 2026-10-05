@@ -263,10 +263,10 @@ function render(){renderNoticias();renderDiario();renderPlan();
 }
 $("tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;sel=+b.dataset.i;render()});
 async function cargar(){try{
-  const r=REPO?await fetch(`https://api.github.com/repos/${REPO.o}/${REPO.r}/contents/data/mesa.json`,{cache:"no-cache",headers:{Accept:"application/vnd.github.raw+json",...(token?{Authorization:"Bearer "+token}:{})}}):await fetch("data/mesa.json",{cache:"no-cache"});
+  let r=REPO?await fetch(`https://api.github.com/repos/${REPO.o}/${REPO.r}/contents/data/mesa.json`,{cache:"no-cache",headers:{Accept:"application/vnd.github.raw+json",...(token?{Authorization:"Bearer "+token}:{})}}):await fetch("data/mesa.json",{cache:"no-cache"});if(REPO&&!r.ok)r=await fetch(`https://raw.githubusercontent.com/${REPO.o}/${REPO.r}/main/data/mesa.json?t=${Date.now()}`,{cache:"no-store"});
   if(!r.ok)throw new Error(r.status);M=await r.json();window.__M=M;lastOk=Date.now();if(sel>=M.briefs.length)sel=0;render();window.__paredes&&window.__paredes()}catch(e){$("pLive").textContent="SIN CONEXIÓN ("+e.message+")"}}
 setInterval(()=>{if(lastOk){const s=Math.round((Date.now()-lastOk)/1000);$("pLive").textContent="EN VIVO · "+(s<60?s+" S":Math.round(s/60)+" MIN")}$("kNext").textContent=proximo()},5000);
-cargar();setInterval(cargar,token?20000:45000);
+cargar();setInterval(cargar,token?20000:75000);
 
 /* ===== Sala isométrica ===== */
 (()=>{

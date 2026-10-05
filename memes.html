@@ -129,8 +129,8 @@ function render(){
   $("act").innerHTML=(M.actividad||[]).slice(0,40).map(a=>`<div style="padding:4px 0;border-top:1px solid var(--line);font-size:.85rem"><span class="when">${hace(a.ts)}</span> <b style="color:var(--acc)">${esc(a.agente)}</b> ${esc(a.texto)}</div>`).join("");
 }
 document.addEventListener("click",async e=>{const b=e.target.closest("[data-copy]");if(!b)return;try{await navigator.clipboard.writeText(b.dataset.copy);toast("Contrato copiado: pégalo en fomo")}catch{toast(b.dataset.copy)}});
-async function cargar(){try{const r=REPO?await fetch(`https://api.github.com/repos/${REPO.o}/${REPO.r}/contents/data/memes.json`,{cache:"no-cache",headers:{Accept:"application/vnd.github.raw+json"}}):await fetch("data/memes.json",{cache:"no-cache"});if(!r.ok)throw 0;M=await r.json();render()}catch{}}
-cargar();setInterval(cargar,45000);setInterval(()=>M&&render(),15000);
+async function cargar(){try{let r=REPO?await fetch(`https://api.github.com/repos/${REPO.o}/${REPO.r}/contents/data/memes.json`,{cache:"no-cache",headers:{Accept:"application/vnd.github.raw+json"}}):await fetch("data/memes.json",{cache:"no-cache"});if(REPO&&!r.ok)r=await fetch(`https://raw.githubusercontent.com/${REPO.o}/${REPO.r}/main/data/memes.json?t=${Date.now()}`,{cache:"no-store"});if(!r.ok)throw 0;M=await r.json();render()}catch{}}
+cargar();setInterval(cargar,75000);setInterval(()=>M&&render(),15000);
 const TW_=0;
 /* ===== Sala isométrica ===== */
 (()=>{
