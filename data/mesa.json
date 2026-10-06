@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4195.1 · NQ 31511.25 · VIX 15.05 · 15 noticias nuevas",
-   "actualizado": "2026-10-06T18:47:40Z"
+   "ultimo_resultado": "Oro 4197.4 · NQ 31518.5 · VIX 15.04 · 15 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-06T18:52:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T18:47:40Z",
-   "ultimo_resultado": "15 titulares nuevos: Best student loans for nursing school"
+   "actualizado": "2026-10-06T18:52:34Z",
+   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: What Marvell's rosy long-term guidance means for our AI chip stocks"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4197.4 · NQ 31518.5 · VIX 15.04 · 15 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-06T18:52:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4195.1 · NQ 31511.25 · VIX 15.05 · 15 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4153.3 · NQ 31357.75 · VIX 15.52 · 13 noticias nuevas",
    "ts": "2026-10-06T04:47:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4153.6 · NQ 31354.25 · VIX 15.52 · 15 noticias nuevas",
-   "ts": "2026-10-06T04:42:32Z"
   }
  ],
  "briefs": [
@@ -2778,12 +2778,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4195.1,
-  "nq": 31511.25,
-  "vix": 15.05,
-  "ts": "2026-10-06T18:47:40Z"
+  "oro": 4197.4,
+  "nq": 31518.5,
+  "vix": 15.04,
+  "ts": "2026-10-06T18:52:34Z"
  },
  "noticias": [
+  {
+   "titulo": "What Marvell's rosy long-term guidance means for our AI chip stocks",
+   "link": "https://www.cnbc.com/investingclub/2026/10/06/what-marvells-rosy-long-term-guidance-means-for-our-ai-chip-stocks.html",
+   "ts": "2026-10-06T18:51:01Z",
+   "fuente": "CNBC",
+   "id": "7907469173",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Best student loans for nursing school",
    "link": "https://www.cnbc.com/select/best-student-loans-nursing-school/",
@@ -2801,6 +2812,17 @@
    "id": "30888d9df5",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Jim Cramer sees major gold move coming after brutal $1,500 plunge",
+   "link": "https://www.thestreet.com/investing/jim-cramer-sees-gold-rebound?.tsrc=rss",
+   "ts": "2026-10-06T18:40:29Z",
+   "fuente": "Yahoo Finance",
+   "id": "0480694796",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Kalshi launches transparency features on its election contracts ahead of midterms",
@@ -2943,6 +2965,15 @@
     "dolar"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "US trade balance sinks deeper into the red as imports hit record high despite tariffs",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON1IxdUZmenNPcXZRSTEwWDdEUVJNdjBnSEFlYm5JLWRsZm1EaE9iVmV1bGhZLU5Pb3BlRVQwbFZHT2dDbEppNkN6REZZd0JkeXFUbEt4Ync5RW5qREFscFZNVHA1RjdKVjRRcmZPb1ZyaDFhdnVKM2prcHRYd0NUQVVYdHRMdU9lakVQc0NocERlU0JRMDU1V19oMA?oc=5",
+   "ts": "2026-10-06T17:29:09Z",
+   "fuente": "Reuters",
+   "id": "515e9e9c90",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Salesforce shares sit at the epicenter of AI confusion. Here's how to trade it",
@@ -3619,46 +3650,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Current price of gold as of October 6, 2026",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aUDl5bmxGc0prY3o4ZU9VcEdwV0pGUllUYTYxTTE5eVdhVFJVNnNwaDUtVko1bVp5MmFaMUUyckdZWWNlUHQxQVR2LWdORlkyRi1TSDNnSVpvM2kxdEt4Y0k2cHlEMGRMUHpjQkFB?oc=5",
-   "ts": "2026-10-06T13:09:00Z",
-   "fuente": "Fortune",
-   "id": "d41a961257",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Precio actual del oro al 6 de octubre de 2026",
-   "efecto": "Dato informativo histórico sin impacto operativo inmediato en la mesa."
-  },
-  {
-   "titulo": "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year",
-   "link": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html",
-   "ts": "2026-10-06T13:07:57Z",
-   "fuente": "CNBC",
-   "id": "50ae71e309",
-   "activos": [
-    "dolar",
-    "oro",
-    "nq"
-   ],
-   "impacto": "alto",
-   "es": "El déficit comercial alcanza los 105.600 millones de dólares, el mayor desde los aranceles de Trump",
-   "efecto": "Debilita al dólar por temores fiscales, impulsando al oro y activos de riesgo."
-  },
-  {
-   "titulo": "S&P 500 set to open near record highs as Treasury yields cool, oil slips",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ0p5VWxQQ0ZmUUI0Vk5wRUVjTUJhZjZGUlZjU2tWU1AtOEdqYjZ0OFRtRXNrUVdrTFlNZjVWdzluRjUyaWhHTlYxMG5Yc21pMHFubTdiX1RIRTRUSnB4UTZPckRMZTlzTHBEbkZKU1ROMTZpWE9lMXhPQkhyQmhBV3JNdkFrQVk?oc=5",
-   "ts": "2026-10-06T13:06:48Z",
-   "fuente": "Reuters",
-   "id": "c354b6331a",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -4257,14 +4248,14 @@
     4192.2,
     4200.6,
     4191.4,
-    4196.0
+    4197.7
    ],
    [
-    1791311857,
-    4195.1,
-    4195.1,
-    4195.1,
-    4195.1
+    1791312151,
+    4197.4,
+    4197.4,
+    4197.4,
+    4197.4
    ]
   ],
   "nq": [
@@ -4854,14 +4845,14 @@
     31526.25,
     31557.5,
     31505.25,
-    31513.75
+    31516.5
    ],
    [
-    1791311858,
-    31511.25,
-    31511.25,
-    31511.25,
-    31511.25
+    1791312152,
+    31518.5,
+    31518.5,
+    31518.5,
+    31518.5
    ]
   ],
   "vix": [
@@ -5339,14 +5330,14 @@
     15.03,
     15.09,
     14.99,
-    15.06
+    15.05
    ],
    [
-    1791311551,
-    15.05,
-    15.05,
-    15.05,
-    15.05
+    1791311851,
+    15.04,
+    15.04,
+    15.04,
+    15.04
    ]
   ]
  },
