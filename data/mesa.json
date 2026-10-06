@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4183.4 · NQ 31538.5 · VIX 15.04 · 15 noticias nuevas",
-   "actualizado": "2026-10-06T17:03:16Z"
+   "ultimo_resultado": "Oro 4183.4 · NQ 31537.0 · VIX 15.06 · 15 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-06T17:07:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T17:03:16Z",
-   "ultimo_resultado": "15 titulares nuevos: Stock Market Midday, Oct. 6: S&P 500 Sets New High, Nuclear Stocks Surge"
+   "actualizado": "2026-10-06T17:07:39Z",
+   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: Stocks making the biggest moves midday: Marvell, Moderna, Lamb Weston, Constellation Energy & more"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4183.4 · NQ 31537.0 · VIX 15.06 · 15 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-06T17:07:41Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4183.4 · NQ 31538.5 · VIX 15.04 · 15 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4162.2 · NQ 31338.25 · VIX 15.52 · 11 noticias nuevas",
    "ts": "2026-10-06T03:02:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4149.0 · NQ 31329.75 · VIX 15.52 · 13 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-06T02:57:38Z"
   }
  ],
  "briefs": [
@@ -2779,11 +2779,65 @@
  },
  "en_vivo": {
   "oro": 4183.4,
-  "nq": 31538.5,
-  "vix": 15.04,
-  "ts": "2026-10-06T17:03:16Z"
+  "nq": 31537.0,
+  "vix": 15.06,
+  "ts": "2026-10-06T17:07:40Z"
  },
  "noticias": [
+  {
+   "titulo": "Stocks making the biggest moves midday: Marvell, Moderna, Lamb Weston, Constellation Energy & more",
+   "link": "https://www.cnbc.com/2026/10/06/stocks-making-the-biggest-moves-midday-mrvl-mrna-lw-ceg.html",
+   "ts": "2026-10-06T17:00:28Z",
+   "fuente": "CNBC",
+   "id": "8320becf5a",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Honda Announces Return of NC750X DCT and Gold Wing for 2027",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTnlFMHlpNzVKUEJSWnp6ZkdNVXlHTFByMnk2XzNIQnJtb2s2cGxIOEhobmxYZ1kzM3A4OS1URDJOMEMzOGJ1V25NY2lDVW01eWc4ZUVPbzlCeUl0SjNGNU1IXzNPQkE5ZktDYkVRRVIwNkhfYUhGZkV4SmJrZE5PcjNOeHFOQjdUeWNZQjM5aW9xLTZXVG5BSXZiRlljNWNsVEp4dEZTUnJjcUtPZFJTZ3RBYXNmc04xSWROeTVUOWc3WlZrbUd2ZGJzTmJkZzJzWC1ZR29ibk1rU0Q5UEFXak5pWQ?oc=5",
+   "ts": "2026-10-06T17:00:00Z",
+   "fuente": "Honda Newsroom",
+   "id": "c90d149cda",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Fed's Daly: need for more hikes hinges on what happens with shocks",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOS1NIR0txbU9OM3c1aUhGM2doeVltazU2U2YyOHV2YVR4R2lkRG5FUXp2N0VnaVdLVlRCV1BUMXBJWUpBUmVTZTlMQXV2VU1KOXhocElZNGEzYWFnS2xGQ2hCTlRPbzJjN0J5Ty1neVBpdU1UV0JxRlFRTDNjOEk1QjhXQ1otdkhOTG8zLW5QLTRxQVc5dE5KeVNURTlXYWU4Unh4eg?oc=5",
+   "ts": "2026-10-06T16:59:53Z",
+   "fuente": "Reuters",
+   "id": "6fd345468c",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Boomers' dividend stocks take beating as bond yields rise, with retirement income on the line",
+   "link": "https://www.cnbc.com/2026/10/06/dividend-stocks-bond-yields-retirement-income.html",
+   "ts": "2026-10-06T16:59:17Z",
+   "fuente": "CNBC",
+   "id": "2906a83a3f",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Alito plans to stay on Supreme Court, even if Democrats regain Senate: Report",
+   "link": "https://www.cnbc.com/2026/10/06/alito-supreme-court-democrats-senate.html",
+   "ts": "2026-10-06T16:56:33Z",
+   "fuente": "CNBC",
+   "id": "175dec0668",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Stock Market Midday, Oct. 6: S&P 500 Sets New High, Nuclear Stocks Surge",
    "link": "https://www.fool.com/coverage/stock-market-today/2026/10/06/stock-market-midday-oct-6-s-and-p-500-sets-new-high-nuclear-stocks-surge/?.tsrc=rss",
@@ -3191,6 +3245,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Why the Surging Dollar Is Defying Bond Market Stress",
+   "link": "https://finance.yahoo.com/m/4014b221-d931-3898-8150-3bf3f6f0a09e/why-the-surging-dollar-is.html?.tsrc=rss",
+   "ts": "2026-10-06T13:29:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "3dc291f470",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "The Dollar Smile: What the Greenback’s Autumn Rally Is Signaling",
    "link": "https://finance.yahoo.com/m/4014b221-d931-3898-8150-3bf3f6f0a09e/the-dollar-smile%3A-what-the.html?.tsrc=rss",
    "ts": "2026-10-06T13:29:00Z",
@@ -3578,78 +3643,13 @@
    "impacto": "bajo"
   },
   {
-   "titulo": "Gold gains as softer Fed rate expectations offset higher US yields",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS3Z3SEV1TFdScWdiaHBPbEVUTjFEYWV0WjJSQjRPRkl2LTZsNHJoNzU1RGEyM0V2bE5LYk9KUDUtZ0tNMGFKYWw3NWFoUEdkQU5MaklVVy1lUmNMRlJQOUk3VjFjNmJZWGk1bzZtRkpLVWxmTUMzZ0NadVJsZUs3TWNlY0JrdGNubHpXOWNTRXEyVXM0YkUxWGd2UDQ2dkJi?oc=5",
-   "ts": "2026-10-06T12:02:09Z",
-   "fuente": "reuters.com",
-   "id": "769bc38628",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
+   "titulo": "How Fast Do Tariffs Pass Through into Consumer Prices?",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYXRvNnIxajNaZk1IWWR1ckhXSEtaaDFOVEh1UUljTEE1ZWtpY1dVOTBSSXRIWS14eDl2ZGtyTVU4bTd4S1JaMVM4bG83TGNEQm83a2ZoZU1kNlIwSlFtUWdoODFyY3lnVll2YVBrdWExSUpoeUdpN2QxTEx2Z3A0bDZ6eTQzMnRISU9vRTZZOTg1Rmc4bXZwZEptWmhmRU5LSUtOd1V1ejVibUtl?oc=5",
+   "ts": "2026-10-06T12:02:26Z",
+   "fuente": "Liberty Street Economics",
+   "id": "512a2f5c9b",
+   "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Newmont Corporation (NEM) Is a Trending Stock: Facts to Know Before Betting on It",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/newmont-corporation-nem-trending-stock-120005929.html?.tsrc=rss",
-   "ts": "2026-10-06T12:00:05Z",
-   "fuente": "Yahoo Finance",
-   "id": "714846ca06",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "3 Pitt-Greensburg alumni were honored at the Blue and Gold Celebration",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMHY3clVCdmYxOExtUnNYaGRrbGNIbjR6dElHNW9hc09reTNITVdRZFF1T0JTX0k4NThFaTJMUjZLOEd6c2d3cmlZYjJBY2haZklNXzNMZVlfbkpISFZJVk9NcnhzR0pzd29oV3Q0RFpuTlZKSGFRVjF4RWptRXNkUlJFaTVrVF9SX3FLYUoxMTdTTTV2UTFNOTNKSllIWW1rcG9J?oc=5",
-   "ts": "2026-10-06T12:00:00Z",
-   "fuente": "University of Pittsburgh",
-   "id": "c47b7c373e",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Actually, You Can Wear a Gold Watch Every Day",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5neE9MOWoyWTY5Ykdfb3ZLSnBaUUV5VFBzV2VmRHFxOW1wMzVHUjFwbE1FSFdnMUo3QzgwNlNfelc4aXBfWk5FaWZtQ0xWdHBZdzB5YUktSmVpdzl1Q2lLLTNlQXB1VGcwZ1lHNmlIVVAwOVk?oc=5",
-   "ts": "2026-10-06T12:00:00Z",
-   "fuente": "GQ",
-   "id": "03dabf0f68",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Pacific Bay Weaver Lake Rock Sample Returns 0.78 Ounces per Ton Gold",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/pacific-bay-weaver-lake-rock-120000887.html?.tsrc=rss",
-   "ts": "2026-10-06T12:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "f60af100fa",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Contango Intersects 140.23 g/t Gold over 0.63 Meters and 18.16 g/t Gold over 3.65 Meters at Lucky Shot and Advances KM Vein Drilling",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/contango-intersects-140-23-g-120000636.html?.tsrc=rss",
-   "ts": "2026-10-06T12:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "51eab01ff4",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Google enters massive 3.6-GW power deal with Constellation Energy",
-   "link": "https://www.cnbc.com/2026/10/06/google-enters-massive-3point6-gw-power-deal-with-constellation-energy-.html",
-   "ts": "2026-10-06T11:58:52Z",
-   "fuente": "CNBC",
-   "id": "8249745907",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [],
@@ -4233,11 +4233,11 @@
     1791302400,
     4192.7,
     4193.6,
-    4182.9,
-    4183.4
+    4181.6,
+    4182.9
    ],
    [
-    1791305594,
+    1791305859,
     4183.4,
     4183.4,
     4183.4,
@@ -4817,14 +4817,14 @@
     31568.75,
     31573.5,
     31515.75,
-    31541.25
+    31531.25
    ],
    [
-    1791305589,
-    31542.25,
-    31542.25,
-    31542.25,
-    31542.25
+    1791305859,
+    31537.0,
+    31537.0,
+    31537.0,
+    31537.0
    ]
   ],
   "vix": [
@@ -5288,14 +5288,14 @@
     15.2,
     15.2,
     14.96,
-    15.03
+    15.06
    ],
    [
-    1791305296,
-    15.04,
-    15.04,
-    15.04,
-    15.04
+    1791305551,
+    15.06,
+    15.06,
+    15.06,
+    15.06
    ]
   ]
  },
