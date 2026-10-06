@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4189.4 · NQ 31517.75 · VIX 15.39 · 15 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-06T13:37:37Z"
+   "ultimo_resultado": "Oro 4188.5 · NQ 31501.0 · VIX 15.41 · 15 noticias nuevas (4 alto impacto)",
+   "actualizado": "2026-10-06T13:42:40Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T13:37:36Z",
-   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: The price of gold today, Oct. 6, 2026 — and the best places to buy"
+   "actualizado": "2026-10-06T13:42:39Z",
+   "ultimo_resultado": "15 titulares nuevos, 4 de alto impacto: Anduril gana contrato de submarinos de la Marina por 2.9 mil millones"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4188.5 · NQ 31501.0 · VIX 15.41 · 15 noticias nuevas (4 alto impacto)",
+   "ts": "2026-10-06T13:42:40Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4189.4 · NQ 31517.75 · VIX 15.39 · 15 noticias nuevas (2 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4166.7 · NQ 31349.75 · VIX 15.52 · 15 noticias nuevas (4 alto impacto)",
    "ts": "2026-10-05T23:37:38Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4166.6 · NQ 31360.75 · VIX 15.52 · 15 noticias nuevas",
-   "ts": "2026-10-05T23:32:36Z"
   }
  ],
  "briefs": [
@@ -2778,12 +2778,37 @@
   }
  },
  "en_vivo": {
-  "oro": 4189.4,
-  "nq": 31517.75,
-  "vix": 15.39,
-  "ts": "2026-10-06T13:37:37Z"
+  "oro": 4188.5,
+  "nq": 31501.0,
+  "vix": 15.41,
+  "ts": "2026-10-06T13:42:39Z"
  },
  "noticias": [
+  {
+   "titulo": "Anduril lands $2.9 billion Navy submarine shipyard contract days after Luckey joins Pentagon weapons group",
+   "link": "https://www.cnbc.com/2026/10/06/anduril-navy-submarine-shipyard-contract.html",
+   "ts": "2026-10-06T13:42:15Z",
+   "fuente": "CNBC",
+   "id": "efdccdd5dd",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Anduril gana contrato de submarinos de la Marina por 2.9 mil millones",
+   "efecto": "Ruido corporativo y de defensa sin impacto macroeconómico directo hoy."
+  },
+  {
+   "titulo": "S&P 500 rises to record high as oil and yields move lower: Live updates",
+   "link": "https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html",
+   "ts": "2026-10-06T13:41:55Z",
+   "fuente": "CNBC",
+   "id": "4e2be4d6f7",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El S&P 500 alcanza máximo histórico al bajar petróleo y rendimientos",
+   "efecto": "Impulsa al Nasdaq por menores tasas y apetito por riesgo."
+  },
   {
    "titulo": "The price of gold today, Oct. 6, 2026 — and the best places to buy",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PQXJRRVBiZXh4OWk1czRLVDR0bU0yYUNVUjJYV1pqVlQ4OV83T0Y1ZWdkRjhRQmtlekhSNlhDSTZlcFZRdFRMclM3OVlXZkxudWpueGpORmdycURsMTVZOXpzQi15SGplYUVlcl84Q1jSAXZBVV95cUxQX0JjajUtMi1BaDhHcEk2SGVqSjFYZTdVWEdObE1jR0RPdm1hVm1Ic3hfdHdlV0pXeHNjVnQ0UjFOLWhjRHl4TlBYRm1BZGVWcDZkY0lpVldIOUlRdVVXQ25WWXRPNVYzLV9SbWFYTDFnUk52VFVR?oc=5",
@@ -3611,30 +3636,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Newcore Gold Drilling Intersects 1.16 g/t Gold over 41.0 Metres, Including 2.54 g/t Gold over 13.0 Metres, at the Enchi Gold Project, Ghana",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/newcore-gold-drilling-intersects-1-100200636.html?.tsrc=rss",
-   "ts": "2026-10-06T10:02:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "86285377d8",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Paramount's hard-fought takeover of Warner Bros. Discovery closes Tuesday. Here's how we got here",
-   "link": "https://www.cnbc.com/2026/10/06/paramount-wbd-deal-timeline.html",
-   "ts": "2026-10-06T10:00:01Z",
-   "fuente": "CNBC",
-   "id": "037639e0c3",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "La dura adquisición de Warner Bros. Discovery por Paramount se cierra el martes",
-   "efecto": "Ruido corporativo sin impacto macroeconómico relevante para índices."
   }
  ],
  "eventos_avisados": [],
@@ -4197,15 +4198,15 @@
     1791291600,
     4198.2,
     4202.5,
-    4188.7,
-    4189.3
+    4188.5,
+    4189.7
    ],
    [
-    1791293253,
-    4189.4,
-    4189.4,
-    4189.4,
-    4189.4
+    1791293558,
+    4188.5,
+    4188.5,
+    4188.5,
+    4188.5
    ]
   ],
   "nq": [
@@ -4758,16 +4759,16 @@
    [
     1791291600,
     31491.25,
-    31532.0,
-    31486.0,
-    31526.25
+    31567.0,
+    31485.5,
+    31493.25
    ],
    [
-    1791293255,
-    31517.75,
-    31517.75,
-    31517.75,
-    31517.75
+    1791293560,
+    31493.5,
+    31493.5,
+    31493.5,
+    31493.5
    ]
   ],
   "vix": [
@@ -5208,18 +5209,18 @@
    [
     1791291600,
     15.3,
-    15.38,
+    15.42,
     15.28,
-    15.37
+    15.41
    ],
    [
-    1791292951,
-    15.39,
-    15.39,
-    15.39,
-    15.39
+    1791293101,
+    15.41,
+    15.41,
+    15.41,
+    15.41
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-06T13:12:33Z"
+ "noticias_traducidas_ts": "2026-10-06T13:42:35Z"
 }
