@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4191.4 · NQ 31483.75 · VIX 15.42 · 15 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-06T13:47:40Z"
+   "ultimo_resultado": "Oro 4183.9 · NQ 31492.5 · VIX 15.36 · 15 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-06T13:52:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T13:47:39Z",
-   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: S&P 500 hovers near record highs as Treasury yields ease: AlphaCheck"
+   "actualizado": "2026-10-06T13:52:41Z",
+   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: Anduril lands $2.9 billion Navy submarine shipyard contract days after founder joins Pentagon weapons group"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4183.9 · NQ 31492.5 · VIX 15.36 · 15 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-06T13:52:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4191.4 · NQ 31483.75 · VIX 15.42 · 15 noticias nuevas (1 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4166.4 · NQ 31361.75 · VIX 15.52 · 15 noticias nuevas",
    "ts": "2026-10-05T23:47:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4166.5 · NQ 31364.25 · VIX 15.52 · 15 noticias nuevas",
-   "ts": "2026-10-05T23:42:33Z"
   }
  ],
  "briefs": [
@@ -2778,12 +2778,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4191.4,
-  "nq": 31483.75,
-  "vix": 15.42,
-  "ts": "2026-10-06T13:47:39Z"
+  "oro": 4183.9,
+  "nq": 31492.5,
+  "vix": 15.36,
+  "ts": "2026-10-06T13:52:41Z"
  },
  "noticias": [
+  {
+   "titulo": "Anduril lands $2.9 billion Navy submarine shipyard contract days after founder joins Pentagon weapons group",
+   "link": "https://www.cnbc.com/2026/10/06/anduril-navy-submarine-shipyard-contract.html",
+   "ts": "2026-10-06T13:50:57Z",
+   "fuente": "CNBC",
+   "id": "5067b913fc",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Ex-CIA official expected to plead guilty in $40 million gold bar case",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdmUydlJBcXFEOWZYdTR2NTlObklpYzYwTHRqNVcxc1R3clpvVkRaS0tLSGNfcXZNTGtWaHhsVGV4SVFhZ3lBYjdOVk9Oa05XbGhyM2p6ZFQwcEVRQ2ltQzNXZEMtWWlKTWZ1MXBRS3c0U2wtaFZWMTZWWV9wYnkzYTcwZDdCRnB4dElQcDZrQ3lpUnJFbWJHcXo3QUJodHhyVTU1QW5wYWhUNWR2T0JNODJXa2l2c0I1NlFoR2ZuNUg?oc=5",
+   "ts": "2026-10-06T13:46:44Z",
+   "fuente": "The Washington Post",
+   "id": "ed3a09e7ed",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Anduril lands $2.9 billion Navy submarine shipyard contract days after Luckey joins Pentagon weapons group",
    "link": "https://www.cnbc.com/2026/10/06/anduril-navy-submarine-shipyard-contract.html",
@@ -3616,26 +3636,6 @@
    "impacto": "bajo",
    "es": "Omai Gold Mines da a los inversores qué pensar",
    "efecto": ""
-  },
-  {
-   "titulo": "Solidion Technology (NASDAQ: STI) Sees no Basis to Increase Its Offer to Polar Power, Inc. (NASDAQ: POLA) in Response to Board Rejection of All-Cash Asset Acquisition Proposal | Corporate",
-   "link": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxOcVdJVmw5SU9HZ1FMaXZNekRWR2RnbkF0RzRGUnVYZ1d6ZFh3UGJya2xnR0locldad0pfdF8xcmh6MXF0d3RWRldMd3dWZDlzMWIxMHVLQXdWMmwxODRwbGF6QnZOU1JHUEdDbjF5M0c3eFJLeVNaZmlyTzZpQVpmTDRtYnJoRnl4X0t6dUpGSE5lNFRaVmpXcHgyVllJc1hLb25TSTdPZjczelUwQm5laXNqM2pOTEloR0thSUVFeFF6cDVjLTdGQXpVRS1GdHpjWlhTbDhXVWlQQU1jUHZBNFkxd1hkQ0NaaV9RdFBIaWdVOHAtUWxXck5LU3BiZlV2YVdHRW1waVhsUXdjRVFrRmVabnlYNnRmMmVtZTdoRy1ZR1owTFlGdnhwbC1ZNVV2N3NrUXpDTkxLRUNhYVp1TFQ3OS1TRUI5OXpmSVMxTjdxNDdVR2tKc0Z0QU9YX3M2bEtJNzhR?oc=5",
-   "ts": "2026-10-06T10:09:07Z",
-   "fuente": "EQS News",
-   "id": "9dce41a6ef",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Barbie maker Mattel faces investor pressure to consider a sale amid stagnating growth",
-   "link": "https://www.cnbc.com/2026/10/06/mattel-barbie-ariel-sale-investor-pressure.html",
-   "ts": "2026-10-06T10:07:03Z",
-   "fuente": "CNBC",
-   "id": "00c673bd26",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [],
@@ -4198,15 +4198,15 @@
     1791291600,
     4198.2,
     4202.5,
-    4188.5,
-    4190.4
+    4183.2,
+    4185.9
    ],
    [
-    1791293858,
-    4191.4,
-    4191.4,
-    4191.4,
-    4191.4
+    1791294160,
+    4183.9,
+    4183.9,
+    4183.9,
+    4183.9
    ]
   ],
   "nq": [
@@ -4761,14 +4761,14 @@
     31491.25,
     31567.0,
     31457.75,
-    31482.5
+    31501.0
    ],
    [
-    1791293859,
-    31483.75,
-    31483.75,
-    31483.75,
-    31483.75
+    1791294161,
+    31494.0,
+    31494.0,
+    31494.0,
+    31494.0
    ]
   ],
   "vix": [
@@ -5211,14 +5211,14 @@
     15.3,
     15.42,
     15.28,
-    15.41
+    15.36
    ],
    [
-    1791293551,
-    15.42,
-    15.42,
-    15.42,
-    15.42
+    1791293851,
+    15.36,
+    15.36,
+    15.36,
+    15.36
    ]
   ]
  },
