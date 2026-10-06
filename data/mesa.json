@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4197.4 · NQ 31487.75 · VIX 15.32 · 15 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-06T13:07:33Z"
+   "ultimo_resultado": "Oro 4197.9 · NQ 31500.5 · VIX 15.31 · 15 noticias nuevas (6 alto impacto)",
+   "actualizado": "2026-10-06T13:12:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T13:07:33Z",
-   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: This startup wants to reduce liquidation risk from margin calls on prediction markets"
+   "actualizado": "2026-10-06T13:12:37Z",
+   "ultimo_resultado": "15 titulares nuevos, 6 de alto impacto: El déficit comercial alcanza los 105.600 millones de dólares, el mayor desde los aranceles de Trump"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4197.9 · NQ 31500.5 · VIX 15.31 · 15 noticias nuevas (6 alto impacto)",
+   "ts": "2026-10-06T13:12:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4197.4 · NQ 31487.75 · VIX 15.32 · 15 noticias nuevas (2 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4168.4 · NQ 31334.0 · VIX 15.52 · 15 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-05T23:07:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4168.4 · NQ 31331.75 · VIX 15.52 · 15 noticias nuevas",
-   "ts": "2026-10-05T23:02:34Z"
   }
  ],
  "briefs": [
@@ -2778,12 +2778,27 @@
   }
  },
  "en_vivo": {
-  "oro": 4197.4,
-  "nq": 31487.75,
-  "vix": 15.32,
-  "ts": "2026-10-06T13:07:33Z"
+  "oro": 4197.9,
+  "nq": 31500.5,
+  "vix": 15.31,
+  "ts": "2026-10-06T13:12:38Z"
  },
  "noticias": [
+  {
+   "titulo": "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year",
+   "link": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html",
+   "ts": "2026-10-06T13:07:57Z",
+   "fuente": "CNBC",
+   "id": "50ae71e309",
+   "activos": [
+    "dolar",
+    "oro",
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "El déficit comercial alcanza los 105.600 millones de dólares, el mayor desde los aranceles de Trump",
+   "efecto": "Debilita al dólar por temores fiscales, impulsando al oro y activos de riesgo."
+  },
   {
    "titulo": "This startup wants to reduce liquidation risk from margin calls on prediction markets",
    "link": "https://www.cnbc.com/2026/10/06/this-firm-aims-to-reduce-liquidation-risk-from-margin-calls-on-prediction-markets.html",
@@ -2801,6 +2816,19 @@
    "id": "5fa5a0d7df",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Mistral unveils new AI model it says rivals best open systems from China",
+   "link": "https://www.cnbc.com/2026/10/06/mistral-ai-model-le-chonk.html",
+   "ts": "2026-10-06T13:00:01Z",
+   "fuente": "CNBC",
+   "id": "b56d300628",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "Mistral presenta un nuevo modelo de IA que rivaliza con los mejores sistemas abiertos de China",
+   "efecto": "Ruido sectorial tecnológico; sin impacto macroeconómico inmediato."
   },
   {
    "titulo": "Russian lab worker's suspected plague death leaves experts puzzled",
@@ -2839,6 +2867,20 @@
    "id": "f6095956f9",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold, silver prices rise as yields ease but December Fed risk remains - Kitco AM Report",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcmdOTXBpdDBOakU0eEExcUhoM2ZNYXRrZzRjWWlxN2tnd1c0TVhHUmZJcWctRXFhS0lBbkM5aWdIbGt2WXp0ZElPa3NLcEJWNG9HSEVpNkc4RWRlakFtSVJrclFBbC1RNnhZZThMbkVydFExVUh0NXJPSUU3UHZxQUpKU3h2bVliMjhOa0tUMWhxNHdwOW1MeWxscXVRanJBWHBxX0lBZWU0cFY2ZlNyLVdjZWx4dW8?oc=5",
+   "ts": "2026-10-06T12:53:57Z",
+   "fuente": "Kitco",
+   "id": "3228646030",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Los precios del oro y la plata suben al bajar los rendimientos, persiste el riesgo de la Fed",
+   "efecto": "Compra institucional de oro por caída de rendimientos de bonos."
   },
   {
    "titulo": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
@@ -2901,6 +2943,20 @@
    "impacto": "alto",
    "es": "Perspectiva del oro: bajistas apuntan a 4.000 antes de un posible rebote",
    "efecto": "Genera presión vendedora en el oro buscando niveles clave."
+  },
+  {
+   "titulo": "Becton Dickinson to Invest $19 Billion in U.S. in Exchange for Tariff Relief",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOUpSZTYtYk9HcDJtam5qZk9xNE1wS2RWaDlzMVpENWpOR3EzUlpUTDFTOTc0a1N6ZXEzNEwzR0FOVUlMcHZ5LTFneEh3dHVtS0l2aDJXdEJ4aEpkNTBDald6bk5nNDFHdHd1ZHlscnU1OVU4MDdVN0Mwa1RLUEJtWk9TaFc5S0g3cE8xd0NzM0JaakN4T0pBTTR0eXcwdldYdmZjdk55M0NPYWFH?oc=5",
+   "ts": "2026-10-06T12:35:00Z",
+   "fuente": "WSJ",
+   "id": "faa92f9489",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "Becton Dickinson invertirá 19.000 millones en EE. UU. a cambio de alivio arancelario",
+   "efecto": "Favorece al sector salud y corporativo estadounidense, apoyando al NQ."
   },
   {
    "titulo": "Gulf Resources, Inc. Regains Compliance with Nasdaq Listing Requirements",
@@ -3578,52 +3634,6 @@
    "id": "c93325a6a9",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Gold Advances as Lower Oil Prices Shift Focus to U.S. Rate Outlook",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQd040MTkxZzRHbmpHVlJDRGdITGJzYWowbmR5UnMybUZlTVJIQWxZbHpNWkxwaFZlemFEMHFycHpaaC1vbEZDUWltYWc1UUV2YXlEaEhHR2ZHTkJjVzcyV3ZCZFB6OWNobmprSFVWYTdFNXBEcHFyT0lhNzdweWtqS050YUE3dw?oc=5",
-   "ts": "2026-10-06T09:41:02Z",
-   "fuente": "Yahoo Finance UK",
-   "id": "1cfe911f9c",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gold Prices Rise as Oil Decline Eases Some Inflation Concerns",
-   "link": "https://investorshub.advfn.com/market-news/article/37514/gold-prices-rise-as-oil-decline-eases-some-inflation-concerns?.tsrc=rss",
-   "ts": "2026-10-06T09:39:19Z",
-   "fuente": "Yahoo Finance",
-   "id": "a0619bf91e",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Gold Prices Rise, But Focus Remains on U.S. Dollar and Bond Yields",
-   "link": "https://finance.yahoo.com/m/03dde542-0f6b-36bc-836e-2bda8474ba1c/gold-prices-rise%2C-but-focus.html?.tsrc=rss",
-   "ts": "2026-10-06T09:38:24Z",
-   "fuente": "Yahoo Finance",
-   "id": "f73c90ea6b",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "U.S. Treasury Yields Turn Lower, Eurozone Bond Yields Slide",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTFpfSFJVQXNZSERFMG4yaFVObVdNdkZZay1Td0VpbE14enhKd1g2dW5NNldSWU5VR3FFWHFHRXowZmlmSjNya256OUVMOXVFbFVpRGstSlNWbVpaX2NESWF1QUYyTXBfWldfZVhlcUFxN2NSZG16MW42RkhxOUthMFhzYXFUV2hibENLazMyX19pTVNydXNkMExveWxsWktCQUtFZGcyQWJZcmZNb3RtTkQ3M3lKTkpxcXc?oc=5",
-   "ts": "2026-10-06T09:19:00Z",
-   "fuente": "WSJ",
-   "id": "539108d0d1",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -4180,14 +4190,21 @@
     4201.7,
     4208.0,
     4193.5,
-    4199.3
+    4197.9
    ],
    [
-    1791291449,
-    4197.4,
-    4197.4,
-    4197.4,
+    1791291600,
+    4198.2,
+    4199.5,
+    4197.0,
     4197.4
+   ],
+   [
+    1791291757,
+    4197.9,
+    4197.9,
+    4197.9,
+    4197.9
    ]
   ],
   "nq": [
@@ -4735,14 +4752,21 @@
     31509.25,
     31539.0,
     31455.0,
-    31489.75
+    31490.5
    ],
    [
-    1791291452,
-    31488.0,
-    31488.0,
-    31488.0,
-    31488.0
+    1791291600,
+    31491.25,
+    31503.25,
+    31486.0,
+    31497.75
+   ],
+   [
+    1791291757,
+    31500.0,
+    31500.0,
+    31500.0,
+    31500.0
    ]
   ],
   "vix": [
@@ -5178,16 +5202,16 @@
     15.32,
     15.35,
     15.29,
-    15.32
+    15.31
    ],
    [
-    1791291151,
-    15.32,
-    15.32,
-    15.32,
-    15.32
+    1791291451,
+    15.31,
+    15.31,
+    15.31,
+    15.31
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-06T12:42:31Z"
+ "noticias_traducidas_ts": "2026-10-06T13:12:33Z"
 }
