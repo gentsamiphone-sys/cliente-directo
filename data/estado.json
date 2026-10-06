@@ -966,10 +966,10 @@
    "actualizado": "2026-10-06T18:37:35Z"
   },
   "disenador": {
-   "estado": "trabajando",
-   "tarea": "Revisando qué negocios necesitan muestra",
+   "estado": "descansando",
+   "tarea": "",
    "ultimo_resultado": "No había negocios nuevos para armar muestra",
-   "actualizado": "2026-10-06T19:27:33Z"
+   "actualizado": "2026-10-06T19:27:34Z"
   },
   "vendedor": {
    "estado": "descansando",
@@ -985,6 +985,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "disenador",
+   "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
+   "ts": "2026-10-06T19:27:34Z"
+  },
   {
    "agente": "buscador",
    "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
@@ -2479,11 +2484,6 @@
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ts": "2026-10-04T21:05:08Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Owens Ave…",
-   "ts": "2026-10-04T21:01:20Z"
   }
  ],
  "reportes": {
