@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4196.9 · NQ 31472.5 · VIX 15.06 · 15 noticias nuevas",
-   "actualizado": "2026-10-06T20:07:49Z"
+   "ultimo_resultado": "Oro 4196.1 · NQ 31487.5 · VIX 15.05 · 15 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-06T20:12:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T20:07:48Z",
-   "ultimo_resultado": "15 titulares nuevos: Boomers' dividend stocks take beating from bond yields, with retirement income on the line"
+   "actualizado": "2026-10-06T20:12:40Z",
+   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: Trump duda sobre el pago de publicidad gubernamental emitida"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4196.1 · NQ 31487.5 · VIX 15.05 · 15 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-06T20:12:41Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4196.9 · NQ 31472.5 · VIX 15.06 · 15 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4149.0 · NQ 31364.0 · VIX 15.52 · 10 noticias nuevas",
    "ts": "2026-10-06T06:02:39Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4149.2 · NQ 31358.0 · VIX 15.52 · 10 noticias nuevas",
-   "ts": "2026-10-06T05:57:32Z"
   }
  ],
  "briefs": [
@@ -2778,12 +2778,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4196.9,
-  "nq": 31472.5,
-  "vix": 15.06,
-  "ts": "2026-10-06T20:07:49Z"
+  "oro": 4196.1,
+  "nq": 31487.5,
+  "vix": 15.05,
+  "ts": "2026-10-06T20:12:41Z"
  },
  "noticias": [
+  {
+   "titulo": "Trump hedges on paying back government for ads that already aired",
+   "link": "https://www.cnbc.com/2026/10/05/trump-ads-election.html",
+   "ts": "2026-10-06T20:09:17Z",
+   "fuente": "CNBC",
+   "id": "08381d5300",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Trump duda sobre el pago de publicidad gubernamental emitida",
+   "efecto": "Ruido político sin impacto directo en mercados hoy."
+  },
   {
    "titulo": "Boomers' dividend stocks take beating from bond yields, with retirement income on the line",
    "link": "https://www.cnbc.com/2026/10/06/dividend-stocks-bond-yields-retirement-income.html",
@@ -2795,6 +2806,17 @@
     "dolar"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "A new analyst call on Home Depot reflects our feeling on what to do with the stock",
+   "link": "https://www.cnbc.com/investingclub/2026/10/06/a-new-analyst-call-on-home-depot-reflects-our-feeling-on-what-to-do-with-the-stock.html",
+   "ts": "2026-10-06T20:00:53Z",
+   "fuente": "CNBC",
+   "id": "e5270f6c14",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Nueva recomendación de analistas sobre Home Depot",
+   "efecto": "Impacto limitado a acciones específicas del sector consumo."
   },
   {
    "titulo": "Ex-US spy found with $40m in gold bars pleads guilty to wire fraud",
@@ -3628,26 +3650,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Anduril lands $2.9 billion Navy submarine shipyard contract days after founder joins Pentagon weapons group",
-   "link": "https://www.cnbc.com/2026/10/06/anduril-navy-submarine-shipyard-contract.html",
-   "ts": "2026-10-06T13:50:57Z",
-   "fuente": "CNBC",
-   "id": "5067b913fc",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Ex-CIA official expected to plead guilty in $40 million gold bar case",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdmUydlJBcXFEOWZYdTR2NTlObklpYzYwTHRqNVcxc1R3clpvVkRaS0tLSGNfcXZNTGtWaHhsVGV4SVFhZ3lBYjdOVk9Oa05XbGhyM2p6ZFQwcEVRQ2ltQzNXZEMtWWlKTWZ1MXBRS3c0U2wtaFZWMTZWWV9wYnkzYTcwZDdCRnB4dElQcDZrQ3lpUnJFbWJHcXo3QUJodHhyVTU1QW5wYWhUNWR2T0JNODJXa2l2c0I1NlFoR2ZuNUg?oc=5",
-   "ts": "2026-10-06T13:46:44Z",
-   "fuente": "The Washington Post",
-   "id": "ed3a09e7ed",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -4253,14 +4255,21 @@
     4203.4,
     4212.4,
     4194.6,
-    4197.2
+    4197.1
    ],
    [
-    1791316668,
-    4196.9,
-    4196.9,
-    4196.9,
-    4196.9
+    1791316800,
+    4197.1,
+    4198.0,
+    4195.8,
+    4196.5
+   ],
+   [
+    1791316957,
+    4196.1,
+    4196.1,
+    4196.1,
+    4196.1
    ]
   ],
   "nq": [
@@ -4857,14 +4866,21 @@
     31532.75,
     31537.5,
     31467.75,
-    31472.5
+    31480.75
    ],
    [
-    1791316667,
-    31472.5,
-    31472.5,
-    31472.5,
-    31472.5
+    1791316800,
+    31480.5,
+    31488.75,
+    31476.75,
+    31487.75
+   ],
+   [
+    1791316958,
+    31487.5,
+    31487.5,
+    31487.5,
+    31487.5
    ]
   ],
   "vix": [
@@ -5347,18 +5363,18 @@
    [
     1791313200,
     15.0,
-    15.09,
+    15.13,
     14.96,
-    15.05
+    15.06
    ],
    [
-    1791316366,
-    15.06,
-    15.06,
-    15.06,
-    15.06
+    1791316651,
+    15.05,
+    15.05,
+    15.05,
+    15.05
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-06T19:42:36Z"
+ "noticias_traducidas_ts": "2026-10-06T20:12:36Z"
 }
