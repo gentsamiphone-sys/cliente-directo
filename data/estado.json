@@ -889,9 +889,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Eastern Ave…",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-06T15:02:43Z"
+   "actualizado": "2026-10-06T15:02:45Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -919,6 +919,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Eastern Ave…",
+   "ts": "2026-10-06T15:02:45Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 36 textos listos para mandar",
@@ -2413,11 +2418,6 @@
    "agente": "buscador",
    "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Decatur Blvd…",
    "ts": "2026-10-04T16:03:36Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Terminó su turno: No pude buscar hoy (Gemini no respondió: gemini-2.0-flash: 404 {\n  \"error\": {\n    \"code\": 404,\n    \")",
-   "ts": "2026-10-04T16:02:11Z"
   }
  ],
  "reportes": {
