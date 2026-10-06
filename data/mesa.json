@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4193.0 · NQ 31506.5 · VIX 15.29 · 5 noticias nuevas",
-   "actualizado": "2026-10-06T11:32:37Z"
+   "ultimo_resultado": "Oro 4192.4 · NQ 31520.0 · VIX 15.29 · 6 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-06T11:37:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T11:32:36Z",
-   "ultimo_resultado": "5 titulares nuevos: ‘Blue & Gold’ Student-Athlete: Carson Tyler"
+   "actualizado": "2026-10-06T11:37:32Z",
+   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: Los precios de la plata se mantienen estables tras el repunte bursátil"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4192.4 · NQ 31520.0 · VIX 15.29 · 6 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-06T11:37:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4193.0 · NQ 31506.5 · VIX 15.29 · 5 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "cio",
    "texto": "Brief de Asia (Tokio/Sídney) publicado: NQ rompe máximos con VIX bajista; Oro presionado por tasas y DXY fuerte.",
    "ts": "2026-10-05T21:33:38Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Escribiendo el brief institucional…",
-   "ts": "2026-10-05T21:33:07Z"
   }
  ],
  "briefs": [
@@ -2617,12 +2617,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4193.0,
-  "nq": 31506.5,
+  "oro": 4192.4,
+  "nq": 31520.0,
   "vix": 15.29,
-  "ts": "2026-10-06T11:32:36Z"
+  "ts": "2026-10-06T11:37:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Silver price today, Tuesday, October 6, 2026: Silver prices hold following stock rally",
+   "link": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-tuesday-october-6-2026-silver-prices-hold-following-stock-rally-112705762.html?.tsrc=rss",
+   "ts": "2026-10-06T11:27:05Z",
+   "fuente": "Yahoo Finance",
+   "id": "70ade51e32",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Los precios de la plata se mantienen estables tras el repunte bursátil",
+   "efecto": "Sin impacto relevante en oro ni NQ; ruido menor."
+  },
   {
    "titulo": "Corteva just underwent a big spinoff. JPMorgan says the agriculture stock is now poised for big gains",
    "link": "https://www.cnbc.com/2026/10/06/corteva-has-been-in-hot-water-jpmorgan-says-it-will-rally-anyway.html",
@@ -2631,6 +2644,19 @@
    "id": "e3c99519e2",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Oklahoma's ag economy contrasts with rest of Federal Reserve's 10th District",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOa1NGRVlrNC1yMnBjTFNSQlJnekZGVEhMZ2gxUi1qZHRXYko2MWxYMWFIT2xPRDlfeFJUekhQbUlORXRWSEdFY2lFa0FZWVlNU2dlOU9wNzFwS2I4c2tUaEFTVS1FRmYza2VESjFzMXE5LXdaQkZOWGVZWkdhWXlPN3M2MHlLb05IcVVkT1dKek1tdllPajNQOHJEMkxXa1Y3Wk0yeTNpZw?oc=5",
+   "ts": "2026-10-06T11:21:47Z",
+   "fuente": "Southwest Ledger",
+   "id": "577797c7b1",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "bajo",
+   "es": "La economía agrícola de Oklahoma contrasta con el resto del distrito de la Fed",
+   "efecto": "Dato regional irrelevante para tasas o índices globales."
   },
   {
    "titulo": "Gold price today, Tuesday, October 6, 2026: Gold edges higher as investors monitor domestic and global conditions",
@@ -3453,29 +3479,6 @@
    "id": "204b6da69d",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "‘Blue & Gold’ Student-Athlete: Carson Tyler",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbVhEbzRZUmRQd05FRm5KYTNxTEo0a2NrWFh5cW9SdnpIVDZMWVYyVDFrajVNV2piZGJuYkhpdEVINGVnUEItOVZhYmtjekV1WVVXNzc1Y3VhZHlEZEJnV2tHWGZzd0J0UDByOGRkNjRKVEJiUTRTTmlkc3lPNDZaOWVnU1k5Q2FQNHlwUDlhWVF6dU51UExPN2RrZXpjMi1FMS1TeDJlc2VRLTRI?oc=5",
-   "ts": "2026-10-06T02:15:49Z",
-   "fuente": "Marquette University Athletics",
-   "id": "185074a6f2",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gold inches lower as firmer dollar, higher yields weigh",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS3Z3SEV1TFdScWdiaHBPbEVUTjFEYWV0WjJSQjRPRkl2LTZsNHJoNzU1RGEyM0V2bE5LYk9KUDUtZ0tNMGFKYWw3NWFoUEdkQU5MaklVVy1lUmNMRlJQOUk3VjFjNmJZWGk1bzZtRkpLVWxmTUMzZ0NadVJsZUs3TWNlY0JrdGNubHpXOWNTRXEyVXM0YkUxWGd2UDQ2dkJi?oc=5",
-   "ts": "2026-10-06T02:15:00Z",
-   "fuente": "Reuters",
-   "id": "70262e67a6",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -4023,16 +4026,16 @@
    [
     1791284400,
     4186.5,
-    4193.5,
+    4194.0,
     4183.8,
-    4192.8
+    4191.7
    ],
    [
-    1791285754,
-    4193.0,
-    4193.0,
-    4193.0,
-    4193.0
+    1791286043,
+    4192.3,
+    4192.3,
+    4192.3,
+    4192.3
    ]
   ],
   "nq": [
@@ -4571,16 +4574,16 @@
    [
     1791284400,
     31443.5,
-    31517.75,
+    31535.75,
     31440.25,
-    31517.75
+    31517.0
    ],
    [
-    1791285753,
-    31506.5,
-    31506.5,
-    31506.5,
-    31506.5
+    1791286052,
+    31520.0,
+    31520.0,
+    31520.0,
+    31520.0
    ]
   ],
   "vix": [
@@ -5009,10 +5012,10 @@
     15.35,
     15.35,
     15.29,
-    15.29
+    15.3
    ],
    [
-    1791285451,
+    1791285751,
     15.29,
     15.29,
     15.29,
@@ -5020,5 +5023,5 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-06T11:03:10Z"
+ "noticias_traducidas_ts": "2026-10-06T11:37:30Z"
 }
