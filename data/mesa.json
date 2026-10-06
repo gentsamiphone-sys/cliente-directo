@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4165.4 · NQ 31371.5 · VIX 15.49 · 4 noticias nuevas",
-   "actualizado": "2026-10-06T07:32:30Z"
+   "ultimo_resultado": "Oro 4164.7 · NQ 31375.5 · VIX 15.5 · 4 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-06T07:37:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T07:32:30Z",
-   "ultimo_resultado": "4 titulares nuevos: Brazil Stocks Hit Record as Dollar Crashes After Election Shock"
+   "actualizado": "2026-10-06T07:37:32Z",
+   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: Gold slips as dollar, Treasury yields offset fading Fed hike bets ahead of minutes"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4164.7 · NQ 31375.5 · VIX 15.5 · 4 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-06T07:37:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4165.4 · NQ 31371.5 · VIX 15.49 · 4 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4159.6 · NQ 31221.25 · VIX 15.55 · 11 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-05T16:17:41Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4161.8 · NQ 31232.75 · VIX 15.56 · 8 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-05T16:12:39Z"
   }
  ],
  "briefs": [
@@ -2616,10 +2616,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4165.4,
-  "nq": 31371.5,
-  "vix": 15.49,
-  "ts": "2026-10-06T07:32:30Z"
+  "oro": 4164.7,
+  "nq": 31375.5,
+  "vix": 15.5,
+  "ts": "2026-10-06T07:37:33Z"
  },
  "noticias": [
   {
@@ -2919,6 +2919,18 @@
     "dolar"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Gold slips as dollar, Treasury yields offset fading Fed hike bets ahead of minutes",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-4-140-012306866.html?.tsrc=rss",
+   "ts": "2026-10-06T01:23:06Z",
+   "fuente": "Yahoo Finance",
+   "id": "0e5ab3447a",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Gold holds near $4,140 as dollar, yields offset lower Fed hike expectations",
@@ -3500,19 +3512,6 @@
    "impacto": "alto",
    "es": "El Nasdaq cierra en nuevo récord pese a mayores rendimientos de bonos",
    "efecto": "Muestra resiliencia extrema del NQ ignorando vientos en contra de tasas."
-  },
-  {
-   "titulo": "U.S. Stocks Rise as AI Bets Offset Bond Yield Fears",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSVdLNXRUd1JHdk52SC1nZS1pb2REZHVBYVJjQl9uLUNwUTUydWw3NmYxa3p1ZXFzMWtQYW1tX0NoR29ZSGFGUFg2Mk5QNWg3ZTVzY1dXdFg0LS1IX2FNNDdKd3dHQzZqa3FoWU9UWVhnRzQySTdjWVFVZFdKZEJPYUV3LUZjeDRrNFVFemxJcndxbTZOek9WRjZ3?oc=5",
-   "ts": "2026-10-05T20:22:00Z",
-   "fuente": "WSJ",
-   "id": "c93dacbe5c",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto",
-   "es": "Acciones de EE. UU. suben mientras apuestas por IA compensan temores de bonos",
-   "efecto": "Fomenta compras masivas en tecnológicas que lideran el NQ."
   }
  ],
  "eventos_avisados": [],
@@ -4034,14 +4033,14 @@
     4159.0,
     4170.6,
     4155.5,
-    4165.0
+    4164.6
    ],
    [
-    1791271348,
-    4165.4,
-    4165.4,
-    4165.4,
-    4165.4
+    1791271646,
+    4164.7,
+    4164.7,
+    4164.7,
+    4164.7
    ]
   ],
   "nq": [
@@ -4554,14 +4553,14 @@
     31383.0,
     31392.25,
     31340.0,
-    31370.25
+    31373.25
    ],
    [
-    1791271347,
-    31371.5,
-    31371.5,
-    31371.5,
-    31371.5
+    1791271650,
+    31375.5,
+    31375.5,
+    31375.5,
+    31375.5
    ]
   ],
   "vix": [
@@ -4965,11 +4964,11 @@
     15.5
    ],
    [
-    1791271036,
-    15.49,
-    15.49,
-    15.49,
-    15.49
+    1791271351,
+    15.5,
+    15.5,
+    15.5,
+    15.5
    ]
   ]
  },
