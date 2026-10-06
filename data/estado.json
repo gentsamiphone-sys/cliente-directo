@@ -945,10 +945,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "Agregando LV Mobile Auto & Truck",
-   "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-06T15:06:54Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "3 negocios nuevos de talleres cerca de Eastern Ave",
+   "actualizado": "2026-10-06T15:06:55Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -976,6 +976,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: 3 negocios nuevos de talleres cerca de Eastern Ave",
+   "ts": "2026-10-06T15:06:55Z"
+  },
   {
    "agente": "buscador",
    "texto": "Encontré LV Mobile Auto & Truck, sin página web.",
@@ -2470,11 +2475,6 @@
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ts": "2026-10-04T16:16:22Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Decatur Blvd…",
-   "ts": "2026-10-04T16:12:33Z"
   }
  ],
  "reportes": {
