@@ -1071,7 +1071,7 @@
    "rating": "",
    "redes": "",
    "productos": "garden_centre",
-   "notas": "No tiene página web registrada en el mapa. Verifica en Google antes de ofrecer.",
+   "notas": "No tiene página web registrada en el mapa. Verifica en Google antes de ofrecer. | Diseñador: falló (Gemini no respondió: gemini-flash-lite-latest: 503; gemini-3)",
    "fuente": "https://www.openstreetmap.org/way/1254216999 · https://www.google.com/maps?q=36.2694064,-115.265225",
    "etapa": "nuevo",
    "muestra_url": "",
@@ -1096,9 +1096,9 @@
   },
   "disenador": {
    "estado": "trabajando",
-   "tarea": "Diseñando Home Depot Garden Center",
+   "tarea": "No pude armar la muestra de Home Depot Garden Center; lo intento el próximo turno.",
    "ultimo_resultado": "3 muestras nuevas",
-   "actualizado": "2026-10-06T23:28:23Z"
+   "actualizado": "2026-10-06T23:29:14Z"
   },
   "vendedor": {
    "estado": "descansando",
@@ -1114,6 +1114,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "disenador",
+   "texto": "No pude armar la muestra de Home Depot Garden Center; lo intento el próximo turno.",
+   "ts": "2026-10-06T23:29:14Z"
+  },
   {
    "agente": "disenador",
    "texto": "Armando la muestra de Home Depot Garden Center…",
@@ -2608,11 +2613,6 @@
    "agente": "buscador",
    "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
    "ts": "2026-10-04T23:08:32Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ts": "2026-10-04T23:08:19Z"
   }
  ],
  "reportes": {
