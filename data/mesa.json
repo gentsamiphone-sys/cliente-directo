@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4203.5 · NQ 31527.0 · VIX 15.3 · 10 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-06T12:27:33Z"
+   "ultimo_resultado": "Oro 4205.0 · NQ 31511.0 · VIX 15.3 · 11 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-06T12:32:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T12:27:32Z",
-   "ultimo_resultado": "10 titulares nuevos, 1 de alto impacto: Trump allows cheaper, dyed diesel on highways to blunt historic fuel-cost spike ahead of midterms"
+   "actualizado": "2026-10-06T12:32:34Z",
+   "ultimo_resultado": "11 titulares nuevos, 1 de alto impacto: Here are Tuesday's biggest analyst calls of the day: Nvidia, AMD, Procter & Gamble, Meta & more"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4205.0 · NQ 31511.0 · VIX 15.3 · 11 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-06T12:32:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4203.5 · NQ 31527.0 · VIX 15.3 · 10 noticias nuevas (1 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
    "ts": "2026-10-05T21:34:10Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Midiendo volatilidad y rango esperado del día…",
-   "ts": "2026-10-05T21:34:09Z"
   }
  ],
  "briefs": [
@@ -2617,12 +2617,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4203.5,
-  "nq": 31527.0,
+  "oro": 4205.0,
+  "nq": 31511.0,
   "vix": 15.3,
-  "ts": "2026-10-06T12:27:33Z"
+  "ts": "2026-10-06T12:32:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Here are Tuesday's biggest analyst calls of the day: Nvidia, AMD, Procter & Gamble, Meta & more",
+   "link": "https://www.cnbc.com/2026/10/06/tuesday-biggest-analyst-calls-like-nvidia.html",
+   "ts": "2026-10-06T12:27:47Z",
+   "fuente": "CNBC",
+   "id": "d5ad411729",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Russia’s neighbor backs push to lift ban on nuclear weapons, prompting outcry from Moscow",
    "link": "https://www.cnbc.com/2026/10/06/russia-ukraine-lithuania-trump-nato.html",
@@ -3106,6 +3117,17 @@
    "efecto": ""
   },
   {
+   "titulo": "Wall St futures rise as yields, oil dip",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ0p5VWxQQ0ZmUUI0Vk5wRUVjTUJhZjZGUlZjU2tWU1AtOEdqYjZ0OFRtRXNrUVdrTFlNZjVWdzluRjUyaWhHTlYxMG5Yc21pMHFubTdiX1RIRTRUSnB4UTZPckRMZTlzTHBEbkZKU1ROMTZpWE9lMXhPQkhyQmhBV3JNdkFrQVk?oc=5",
+   "ts": "2026-10-06T10:27:43Z",
+   "fuente": "Reuters",
+   "id": "053f0ff405",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Omai Gold Mines (TSXV:OMG) Just Gave Investors Something To Think About",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTi1mRWZjcUxYSHFBVjc1X01pZ3NPOUlOaGFQeFh6dFpaX09sekhUSWl0bGh0YWIxZnNJUlExVEx5ckJaOS1HU3hITVpQVlRtY0MxWGNfRjlKOHJNbEotbUdoanBCWW0wVDNVRlJKT2tTdnlHakFoWW5CV0xoYVhFM2hXaS1KZGxwRzFnWDEtZFdsa00?oc=5",
    "ts": "2026-10-06T10:09:07Z",
@@ -3464,27 +3486,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "How quant funds beat the market by being 'early, contrarian and right'",
-   "link": "https://www.cnbc.com/2026/10/06/trend-following-hedge-funds-beat-stock-market.html",
-   "ts": "2026-10-06T06:57:42Z",
-   "fuente": "CNBC",
-   "id": "589ac15680",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Asian shares track Wall Street higher; Treasury yields near multi-decade highs",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObmVRMWhLWkV3UnBqYWRmMUg0WURRN1lvVzRKMnAyRUJoQTZtUFpXa3FaNG05RUZzWHh3V2RLU3Q2Q052U3FYbnVQWXhVaFItR2pUUzdPTXRfbkZGRTF4ajhrbHE4bzZVTWZhaTQ3YWNCRWlGeWVrQzJrc2ZhTjhwS1ZnWUhhVk4yOEh1c1o0Ym1NTHpHdXltU1pkZEttVC1jX2xpQ2ZFeV9WMG9k?oc=5",
-   "ts": "2026-10-06T06:46:48Z",
-   "fuente": "WTVB",
-   "id": "9438cf3b48",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -4041,14 +4042,14 @@
     4201.7,
     4208.0,
     4201.2,
-    4202.2
+    4206.1
    ],
    [
-    1791289051,
-    4203.5,
-    4203.5,
-    4203.5,
-    4203.5
+    1791289352,
+    4205.0,
+    4205.0,
+    4205.0,
+    4205.0
    ]
   ],
   "nq": [
@@ -4596,14 +4597,14 @@
     31509.25,
     31539.0,
     31502.25,
-    31524.75
+    31518.25
    ],
    [
-    1791289050,
-    31527.0,
-    31527.0,
-    31527.0,
-    31527.0
+    1791289354,
+    31511.0,
+    31511.0,
+    31511.0,
+    31511.0
    ]
   ],
   "vix": [
@@ -5038,11 +5039,11 @@
     1791288000,
     15.32,
     15.33,
-    15.3,
-    15.3
+    15.29,
+    15.29
    ],
    [
-    1791288751,
+    1791289051,
     15.3,
     15.3,
     15.3,
