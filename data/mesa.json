@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4200.8 · NQ 31469.5 · VIX 15.33 · 11 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-06T12:52:37Z"
+   "ultimo_resultado": "Oro 4198.2 · NQ 31471.75 · VIX 15.32 · 14 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-06T12:57:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T12:52:37Z",
-   "ultimo_resultado": "11 titulares nuevos, 1 de alto impacto: Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks"
+   "actualizado": "2026-10-06T12:57:34Z",
+   "ultimo_resultado": "14 titulares nuevos, 1 de alto impacto: Paramount's hard-fought takeover of Warner Bros. Discovery closed Tuesday. Here's how we got here"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4198.2 · NQ 31471.75 · VIX 15.32 · 14 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-06T12:57:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4200.8 · NQ 31469.5 · VIX 15.33 · 11 noticias nuevas (1 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4171.5 · NQ 31334.75 · VIX 15.52 · 15 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-05T22:52:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4171.1 · NQ 31329.25 · VIX 15.52 · 15 noticias nuevas",
-   "ts": "2026-10-05T22:47:37Z"
   }
  ],
  "briefs": [
@@ -2778,12 +2778,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4200.8,
-  "nq": 31469.5,
-  "vix": 15.33,
-  "ts": "2026-10-06T12:52:37Z"
+  "oro": 4198.2,
+  "nq": 31471.75,
+  "vix": 15.32,
+  "ts": "2026-10-06T12:57:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Paramount's hard-fought takeover of Warner Bros. Discovery closed Tuesday. Here's how we got here",
+   "link": "https://www.cnbc.com/2026/10/06/paramount-wbd-deal-timeline.html",
+   "ts": "2026-10-06T12:55:15Z",
+   "fuente": "CNBC",
+   "id": "f6095956f9",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+   "link": "https://www.cnbc.com/investingclub/2026/10/06/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+   "ts": "2026-10-06T12:47:59Z",
+   "fuente": "CNBC",
+   "id": "9007598217",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
    "link": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html",
@@ -2792,6 +2810,17 @@
    "id": "0ebdad03a4",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold Price Volatility Drives Short-Term Pressure on Newmont Corporation (NEM)",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/gold-price-volatility-drives-short-124018633.html?.tsrc=rss",
+   "ts": "2026-10-06T12:40:18Z",
+   "fuente": "Yahoo Finance",
+   "id": "84bd680383",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Russian lab worker's suspected plague death leaves some questions unanswered",
@@ -2816,6 +2845,17 @@
    "impacto": "alto",
    "es": "Perspectiva del oro: bajistas apuntan a 4.000 antes de un posible rebote",
    "efecto": "Genera presión vendedora en el oro buscando niveles clave."
+  },
+  {
+   "titulo": "Gulf Resources, Inc. Regains Compliance with Nasdaq Listing Requirements",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPc2JCUkMxTFhKc1pIX1BHT2hZRTViYlU1ZDJUaUtpX25WM0tCcjNPYUNQdmpVOHhRYjRxT1ZKeHQ5Zjg5RUh3SEwzVHFkN2hyd2haM2lhS1FpNmRySkRyd3d1Yy1XajhpNjNQN0V3RjJPTW9fRkNHR3dKQWhOa3lMcjVER2w3OTV4VTV2WjdMME1yNXlkQlA4aGN6dF8wT1ZYMVo0ZA?oc=5",
+   "ts": "2026-10-06T12:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "dcda6bd9b0",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Here are Tuesday's biggest analyst calls of the day: Nvidia, AMD, Procter & Gamble, Meta & more",
@@ -3598,50 +3638,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Treasury yields fall as investors anticipate FOMC minutes",
-   "link": "https://www.cnbc.com/2026/10/06/treasury-yields-fed-fomc-minutes.html",
-   "ts": "2026-10-06T08:34:20Z",
-   "fuente": "CNBC",
-   "id": "31629fdb0b",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Stock futures rise after Nasdaq hits record high (SPX:)",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUGhSZVQzaXFoTDhnU2pIdVlIeGlpeFk0cDJURG0zUGdLZWpPTTJQV1g1QndDNV81bEt6OEV2NnFudENMdlJNRXFnLU5fQWtGeklUTkVqRnE1WU9XN28xQ3E1SUh0eUphOVM3MlhkRTBfOTl5eU9semFVOTNPaUhLWXljR04yTWR5?oc=5",
-   "ts": "2026-10-06T08:30:23Z",
-   "fuente": "Seeking Alpha",
-   "id": "b83bd94a5f",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Everli, a Leading Italian E-Grocery Marketplace, Advances Toward Nasdaq Listing as SEC Declares Registration Statement Effective",
-   "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQYW5FVXVtaFhnd2VLT0VJZjNFQ1VYS1ZrTkpqbGtsdEl4cmJSWUR4bEVLaW5Rb1E2bkswTkZkTm50YndHTEJxWHBkaUxMMWExN1FhS0ZkbC1mV290QW9VZW5SLUhsVnctRTA5Mkd4djhkbXZBNzltaDBfTTFSZHp3b3R1dmNKUUswcGEtbm5zTDlxYTlRSk0yOExQbXFjYm1wUXk5azNFbmF0VDhqYnVURjlaTFpsSDV1Mm5Bc2JMa092MEdTeVBpLWtaWHlIaGJkeW5nOTdqUGlyci1pVHVFV2tLUXVhV2xrNlRySTI1S3I5OGR6WjRFZmxYN3ZJQTU1QXlHVTVIMjdLY1pweFBrRGFtTFZPOWM?oc=5",
-   "ts": "2026-10-06T08:00:00Z",
-   "fuente": "Morningstar",
-   "id": "a0a7a22803",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ2FISHMxN1ZCSUQwdE9kQVhva1hiRzludFBBOU03aHd0MjdlcldFZDhwUWNjcWl1d25wNUdBa1VpMkpKMjI3YnROUndkT1FjTUxWQnhpUFhULWZjN01IdE8zT2JFUmVTWGJfdTMyc1VaVWRiSWQ1MldyMGRVcmhQTzh5Z0pPT3FDeVMtdTJYbko3WVV0cWJKT3NSV2ZlT29BVUNhSnNvejlDSFhFSjRFeWpsN3BjVzBUeFBj?oc=5",
-   "ts": "2026-10-06T07:56:32Z",
-   "fuente": "gold.org",
-   "id": "b47864a474",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -4197,15 +4193,15 @@
     1791288000,
     4201.7,
     4208.0,
-    4197.6,
-    4200.2
+    4196.9,
+    4197.1
    ],
    [
-    1791290555,
-    4200.8,
-    4200.8,
-    4200.8,
-    4200.8
+    1791290849,
+    4198.2,
+    4198.2,
+    4198.2,
+    4198.2
    ]
   ],
   "nq": [
@@ -4752,15 +4748,15 @@
     1791288000,
     31509.25,
     31539.0,
-    31466.0,
-    31471.5
+    31465.25,
+    31467.25
    ],
    [
-    1791290554,
-    31469.5,
-    31469.5,
-    31469.5,
-    31469.5
+    1791290853,
+    31471.75,
+    31471.75,
+    31471.75,
+    31471.75
    ]
   ],
   "vix": [
@@ -5196,14 +5192,14 @@
     15.32,
     15.33,
     15.29,
-    15.32
+    15.31
    ],
    [
-    1791290251,
-    15.33,
-    15.33,
-    15.33,
-    15.33
+    1791290551,
+    15.32,
+    15.32,
+    15.32,
+    15.32
    ]
   ]
  },
