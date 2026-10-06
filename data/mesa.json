@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4184.3 · NQ 31458.75 · VIX 15.34 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-06T11:17:37Z"
+   "ultimo_resultado": "🎯 NQ COMPRA: TP2 · Oro 4188.3 · NQ 31461.25 · VIX 15.34 · 5 noticias nuevas",
+   "actualizado": "2026-10-06T11:22:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T11:17:36Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Gold price today, Tuesday, October 6, 2026: Gold edges higher as investors monitor domestic and global conditions"
+   "actualizado": "2026-10-06T11:22:36Z",
+   "ultimo_resultado": "5 titulares nuevos: 1911 Gold's True North Resource Expansion Drilling Intersects up to 7.55 g/t Au over 5.00 m, Including 32.90 g/t Au over 0.50 m at the 710-711 Zone, and up to 21.20 g/t Au over 0.60 m at the 007 Zone"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "🎯 NQ COMPRA: TP2 · Oro 4188.3 · NQ 31461.25 · VIX 15.34 · 5 noticias nuevas",
+   "ts": "2026-10-06T11:22:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4184.3 · NQ 31458.75 · VIX 15.34 · 3 noticias nuevas (1 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "riesgo",
    "texto": "VIX/NQ: CONFIRMA ALCISTA: NQ sube y el VIX baja (apetito de riesgo real)",
    "ts": "2026-10-05T21:33:03Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
-   "ts": "2026-10-05T21:33:01Z"
   }
  ],
  "briefs": [
@@ -1088,7 +1088,7 @@
      "confluencias": "4",
      "cancelar": "Rompe con fuerza 31300 antes de activar la entrada o noticia inesperada.",
      "motivo": "",
-     "vivo": "confirmada",
+     "vivo": "tp2",
      "aviso_tp1": true
     }
    ],
@@ -2617,10 +2617,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4184.3,
-  "nq": 31458.75,
+  "oro": 4188.3,
+  "nq": 31461.25,
   "vix": 15.34,
-  "ts": "2026-10-06T11:17:37Z"
+  "ts": "2026-10-06T11:22:36Z"
  },
  "noticias": [
   {
@@ -2655,6 +2655,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "1911 Gold's True North Resource Expansion Drilling Intersects up to 7.55 g/t Au over 5.00 m, Including 32.90 g/t Au over 0.50 m at the 710-711 Zone, and up to 21.20 g/t Au over 0.60 m at the 007 Zone",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/1911-golds-true-north-expansion-110200327.html?.tsrc=rss",
+   "ts": "2026-10-06T11:02:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "528c135920",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Meta Muse gives AMD a boost as AI momentum shifts to personal agents",
    "link": "https://www.cnbc.com/2026/10/06/meta-muse-gives-amd-a-boost-as-ai-momentum-shifts-to-personal-agents-.html",
    "ts": "2026-10-06T11:00:01Z",
@@ -2664,6 +2675,48 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "American Pacific Plans Downhole Surveys to Guide Step-Out Drilling at High-Grade Massive Sulfide Zone at Its Madison Copper-Gold Project in Montana",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/american-pacific-plans-downhole-surveys-110000931.html?.tsrc=rss",
+   "ts": "2026-10-06T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "7f77afbfbb",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Solstice Gold Provides Update on Newly Consolidated Strathy Gold Project, Advances Preparations for Drill Campaign",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/solstice-gold-provides-newly-consolidated-110000839.html?.tsrc=rss",
+   "ts": "2026-10-06T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "7cbdff18fa",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Canagold Successfully Produces Physical Antimony Metal Grading over 99% Sb from New Polaris Concentrate",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/canagold-successfully-produces-physical-antimony-110000098.html?.tsrc=rss",
+   "ts": "2026-10-06T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "b8d89fb318",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Delta Announces Phase II Till Sampling Program to Complete Property-Wide First-Pass Coverage at Delta-1",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/delta-announces-phase-ii-till-110000728.html?.tsrc=rss",
+   "ts": "2026-10-06T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "56c9684641",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Canterra Minerals Expands Lundberg Indicated Mineral Resource by 55% to 26.1 Mt at the Buchans Project in Newfoundland",
@@ -3422,59 +3475,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Trump says MAGA Inc. PAC will pay for controversial TV ads that government funded",
-   "link": "https://www.cnbc.com/2026/10/05/trump-ads-election.html",
-   "ts": "2026-10-06T01:48:22Z",
-   "fuente": "CNBC",
-   "id": "8b2644fa9e",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Stocks climb, yields retreat from multi-decade highs",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZlMwQU1nbHRaZ2dnOUVOM1c1LXBxNXhWUTNzS1ROWDZyODk1NldRTHB2ODNKbnI0am5tUUcwMU9YekUxMWtLOFVGMFczTU12cHpCclQ1cnhDRzBMVGRBWTYwRjZPVUZidVFlT1FMZGdUcnR6MENjNXVMUXRzTlVzdVJkSQ?oc=5",
-   "ts": "2026-10-06T01:48:00Z",
-   "fuente": "Reuters",
-   "id": "7a2c456e12",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Asian shares track Wall Street higher, Treasury yields near multi-decade highs",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZlMwQU1nbHRaZ2dnOUVOM1c1LXBxNXhWUTNzS1ROWDZyODk1NldRTHB2ODNKbnI0am5tUUcwMU9YekUxMWtLOFVGMFczTU12cHpCclQ1cnhDRzBMVGRBWTYwRjZPVUZidVFlT1FMZGdUcnR6MENjNXVMUXRzTlVzdVJkSQ?oc=5",
-   "ts": "2026-10-06T01:48:00Z",
-   "fuente": "Reuters",
-   "id": "9438cf3b48",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Trump offers U.S. help to Russia after plague death; WHO assesses the situation as low risk",
-   "link": "https://www.cnbc.com/2026/10/06/russia-plague-death-trump-offers-us-help.html",
-   "ts": "2026-10-06T01:47:32Z",
-   "fuente": "CNBC",
-   "id": "87d77dfb94",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Trump offers U.S. help after plague death in Russia; WHO assesses the situation as low risk",
-   "link": "https://www.cnbc.com/2026/10/06/russia-plague-death-trump-offers-us-help.html",
-   "ts": "2026-10-06T01:44:17Z",
-   "fuente": "CNBC",
-   "id": "2e1b2d5297",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Trump ofrece ayuda a EE. UU. tras muerte por peste en Rusia; la OMS lo ve de bajo riesgo",
-   "efecto": "Sin impacto relevante en los mercados financieros hoy."
   }
  ],
  "eventos_avisados": [],
@@ -4022,16 +4022,16 @@
    [
     1791284400,
     4186.5,
-    4187.3,
-    4184.1,
-    4184.2
+    4188.5,
+    4183.8,
+    4187.8
    ],
    [
-    1791284854,
-    4184.3,
-    4184.3,
-    4184.3,
-    4184.3
+    1791285154,
+    4188.3,
+    4188.3,
+    4188.3,
+    4188.3
    ]
   ],
   "nq": [
@@ -4570,16 +4570,16 @@
    [
     1791284400,
     31443.5,
-    31460.5,
+    31465.0,
     31440.25,
-    31454.5
+    31462.25
    ],
    [
-    1791284856,
-    31458.75,
-    31458.75,
-    31458.75,
-    31458.75
+    1791285154,
+    31461.25,
+    31461.25,
+    31461.25,
+    31461.25
    ]
   ],
   "vix": [
@@ -5011,7 +5011,7 @@
     15.34
    ],
    [
-    1791284551,
+    1791284851,
     15.34,
     15.34,
     15.34,
