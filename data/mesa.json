@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "🎯 NQ COMPRA: TP2 · Oro 4188.3 · NQ 31461.25 · VIX 15.34 · 5 noticias nuevas",
-   "actualizado": "2026-10-06T11:22:36Z"
+   "ultimo_resultado": "Oro 4189.9 · NQ 31492.5 · VIX 15.32 · 6 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-06T11:27:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T11:22:36Z",
-   "ultimo_resultado": "5 titulares nuevos: 1911 Gold's True North Resource Expansion Drilling Intersects up to 7.55 g/t Au over 5.00 m, Including 32.90 g/t Au over 0.50 m at the 710-711 Zone, and up to 21.20 g/t Au over 0.60 m at the 007 Zone"
+   "actualizado": "2026-10-06T11:27:35Z",
+   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: Corteva just underwent a big spinoff. JPMorgan says the agriculture stock is now poised for big gains"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4189.9 · NQ 31492.5 · VIX 15.32 · 6 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-06T11:27:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "🎯 NQ COMPRA: TP2 · Oro 4188.3 · NQ 31461.25 · VIX 15.34 · 5 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "riesgo",
    "texto": "Volatilidad normal (VIX 15.52).",
    "ts": "2026-10-05T21:33:05Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "VIX/NQ: CONFIRMA ALCISTA: NQ sube y el VIX baja (apetito de riesgo real)",
-   "ts": "2026-10-05T21:33:03Z"
   }
  ],
  "briefs": [
@@ -2617,12 +2617,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4188.3,
-  "nq": 31461.25,
-  "vix": 15.34,
-  "ts": "2026-10-06T11:22:36Z"
+  "oro": 4189.9,
+  "nq": 31492.5,
+  "vix": 15.32,
+  "ts": "2026-10-06T11:27:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Corteva just underwent a big spinoff. JPMorgan says the agriculture stock is now poised for big gains",
+   "link": "https://www.cnbc.com/2026/10/06/corteva-has-been-in-hot-water-jpmorgan-says-it-will-rally-anyway.html",
+   "ts": "2026-10-06T11:23:44Z",
+   "fuente": "CNBC",
+   "id": "e3c99519e2",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Gold price today, Tuesday, October 6, 2026: Gold edges higher as investors monitor domestic and global conditions",
    "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPM2t1Mml1U2VCME1fS0N1c2pXQVB4alNPTER1YTQ4Um5vT0ptT0VCaVlFeGVmdFdvTjgzUEY5bDBfQmotQldJOU12aE1uUU5MRFEwR3l3X2pMUVlKS2tnek1nX29EeXlwQWxlNWVpc0N3U2xtcERhUzdCMTdtdUZ4OGxwb0VvczFCLTFVb1Q5aHJVRnNPdS1ldjNtV1ZMNk04TVNNdnVjMUVzUjFSUUI0Vk5lSjRrc2dUY0FCU0l4R2x3dnBycHVta2RlSnZnTXZMU2xjT25PVThhblBTTlF5TVpzaXdyZjgyQXdRLTZsd2RtMWFlMUpBaHZ0MHVyTzhSWGtEZE55S2FFaTNnZG1jMENScw?oc=5",
@@ -2843,6 +2852,18 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Gold ticks up as softer Fed rate expectations offset higher yields",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS3Z3SEV1TFdScWdiaHBPbEVUTjFEYWV0WjJSQjRPRkl2LTZsNHJoNzU1RGEyM0V2bE5LYk9KUDUtZ0tNMGFKYWw3NWFoUEdkQU5MaklVVy1lUmNMRlJQOUk3VjFjNmJZWGk1bzZtRkpLVWxmTUMzZ0NadVJsZUs3TWNlY0JrdGNubHpXOWNTRXEyVXM0YkUxWGd2UDQ2dkJi?oc=5",
+   "ts": "2026-10-06T10:02:11Z",
+   "fuente": "reuters.com",
+   "id": "2d690d193e",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Newcore Gold Drilling Intersects 1.16 g/t Gold over 41.0 Metres, Including 2.54 g/t Gold over 13.0 Metres, at the Enchi Gold Project, Ghana",
@@ -3149,6 +3170,18 @@
    "impacto": "alto"
   },
   {
+   "titulo": "Asian shares track Wall Street higher; Treasury yields near multi-decade highs",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObmVRMWhLWkV3UnBqYWRmMUg0WURRN1lvVzRKMnAyRUJoQTZtUFpXa3FaNG05RUZzWHh3V2RLU3Q2Q052U3FYbnVQWXhVaFItR2pUUzdPTXRfbkZGRTF4ajhrbHE4bzZVTWZhaTQ3YWNCRWlGeWVrQzJrc2ZhTjhwS1ZnWUhhVk4yOEh1c1o0Ym1NTHpHdXltU1pkZEttVC1jX2xpQ2ZFeV9WMG9k?oc=5",
+   "ts": "2026-10-06T06:46:48Z",
+   "fuente": "WTVB",
+   "id": "9438cf3b48",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "U.S. Long-End Treasury Yields Remain Elevated; Three-Year Auction Awaited",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTFpfSFJVQXNZSERFMG4yaFVObVdNdkZZay1Td0VpbE14enhKd1g2dW5NNldSWU5VR3FFWHFHRXowZmlmSjNya256OUVMOXVFbFVpRGstSlNWbVpaX2NESWF1QUYyTXBfWldfZVhlcUFxN2NSZG16MW42RkhxOUthMFhzYXFUV2hibENLazMyX19pTVNydXNkMExveWxsWktCQUtFZGcyQWJZcmZNb3RtTkQ3M3lKTkpxcXc?oc=5",
    "ts": "2026-10-06T06:40:00Z",
@@ -3441,40 +3474,6 @@
    "id": "f12fd4a88e",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "U.S. stock futures steady after Nasdaq hits record on reduced Fed hike bets",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT0pNVmEwN01jV2d3ZnVqaGtlaW50U0pDNUdMb0pKYTdXQjQ4ZmRNX2MwMjZSQVROU2U1aDJhSGxIWnBSTVRNRmk2ZDg2MWtqWUlxNlJjT1phTGUzOUZiemJqNHQwX2Vta1NqczNWMGtLVFRxZVM1TWxqU0dFYUQ5SndTWDZGd2dzS2w1VmM4RUo2dWYxYXEzcTZn?oc=5",
-   "ts": "2026-10-06T02:03:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "85f2330340",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "‘Blue & Gold’ Student-Athlete: Carson Tyler",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbVhEbzRZUmRQd05FRm5KYTNxTEo0a2NrWFh5cW9SdnpIVDZMWVYyVDFrajVNV2piZGJuYkhpdEVINGVnUEItOVZhYmtjekV1WVVXNzc1Y3VhZHlEZEJnV2tHWGZzd0J0UDByOGRkNjRKVEJiUTRTTmlkc3lPNDZaOWVnU1k5Q2FQNHlwUDlhWVF6dU51UExPN2RrZXpjMi1FMS1TeDJlc2VRLTRI?oc=5",
-   "ts": "2026-10-06T02:00:27Z",
-   "fuente": "Marquette University Athletics",
-   "id": "185074a6f2",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Mt Turner gold: Lightning Minerals starts Phase 2 drilling",
-   "link": "https://finance.yahoo.com/video/mt-turner-gold-lightning-minerals-015742146.html?.tsrc=rss",
-   "ts": "2026-10-06T01:57:42Z",
-   "fuente": "Yahoo Finance",
-   "id": "4466cda575",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -4022,16 +4021,16 @@
    [
     1791284400,
     4186.5,
-    4188.5,
+    4190.9,
     4183.8,
-    4187.8
+    4190.5
    ],
    [
-    1791285154,
-    4188.3,
-    4188.3,
-    4188.3,
-    4188.3
+    1791285453,
+    4189.9,
+    4189.9,
+    4189.9,
+    4189.9
    ]
   ],
   "nq": [
@@ -4570,16 +4569,16 @@
    [
     1791284400,
     31443.5,
-    31465.0,
+    31509.5,
     31440.25,
-    31462.25
+    31499.0
    ],
    [
-    1791285154,
-    31461.25,
-    31461.25,
-    31461.25,
-    31461.25
+    1791285455,
+    31493.75,
+    31493.75,
+    31493.75,
+    31493.75
    ]
   ],
   "vix": [
@@ -5011,11 +5010,11 @@
     15.34
    ],
    [
-    1791284851,
-    15.34,
-    15.34,
-    15.34,
-    15.34
+    1791285151,
+    15.32,
+    15.32,
+    15.32,
+    15.32
    ]
   ]
  },
