@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4153.5 · NQ 31369.0 · VIX 15.52 · 13 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-06T04:37:35Z"
+   "ultimo_resultado": "Oro 4153.6 · NQ 31354.25 · VIX 15.52 · 15 noticias nuevas",
+   "actualizado": "2026-10-06T04:42:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T04:37:35Z",
-   "ultimo_resultado": "13 titulares nuevos, 3 de alto impacto: El Nasdaq apunta a nuevos máximos mientras suben los rendimientos de los bonos"
+   "actualizado": "2026-10-06T04:42:32Z",
+   "ultimo_resultado": "15 titulares nuevos: Stock futures edge higher after Nasdaq hits new record: Live updates"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4153.6 · NQ 31354.25 · VIX 15.52 · 15 noticias nuevas",
+   "ts": "2026-10-06T04:42:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4153.5 · NQ 31369.0 · VIX 15.52 · 13 noticias nuevas (3 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-10-05T12:32:59Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 4183.6 · NQ 31007.75.",
-   "ts": "2026-10-05T12:32:58Z"
   }
  ],
  "briefs": [
@@ -2441,12 +2441,34 @@
   }
  },
  "en_vivo": {
-  "oro": 4153.5,
-  "nq": 31369.0,
+  "oro": 4153.6,
+  "nq": 31354.25,
   "vix": 15.52,
-  "ts": "2026-10-06T04:37:35Z"
+  "ts": "2026-10-06T04:42:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Stock futures edge higher after Nasdaq hits new record: Live updates",
+   "link": "https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html",
+   "ts": "2026-10-06T04:40:18Z",
+   "fuente": "CNBC",
+   "id": "4ee26b44a4",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Asian currencies mixed as dollar climbs, euro nears 17-month low",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-mixed-dollar-climbs-042623593.html?.tsrc=rss",
+   "ts": "2026-10-06T04:26:23Z",
+   "fuente": "Yahoo Finance",
+   "id": "4ad4921de0",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "World Bank warns of AI concentration risks as it lifts East Asia and Pacific growth outlook to 4.5%",
    "link": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html",
@@ -2475,6 +2497,17 @@
    "impacto": "bajo",
    "es": "Las mejores acciones de centavo canadienses en octubre de 2026",
    "efecto": ""
+  },
+  {
+   "titulo": "Wall Street rallies, with Nasdaq notching record high close",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtLU9LWkJjUThWM3pNRU9ILVA5el9PV0hBTXh5M0hsMjkyNjZuVnhDLTI2ZF8wb3N1ZWp5SkdsMktIOXBJZ3lEMnRRUnFKTVI2ZTVGX09tY0d1U2h5aVo2YzRhWDc5QU0?oc=5",
+   "ts": "2026-10-06T02:57:29Z",
+   "fuente": "Reuters",
+   "id": "e53e0c903f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Little room for ‘giving and taking’: India’s finance minister confirms trade impasse with the U.S.",
@@ -3324,40 +3357,6 @@
    "impacto": "bajo",
    "es": "Reporte diario de oro y plata",
    "efecto": "Sin impacto institucional significativo."
-  },
-  {
-   "titulo": "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdjFPWWhuSFpqX1NvZTVOc3lYSy1Lcl9jVDhVTUowZTVFVjJubGw4Rk5aWHFvZVFIbDNFTS1KeFZxQXphOTk0RlljY0txbUhhc0E5U3FsemNQOFBudWdhNWlXcV9DVkxNTWZCLXNMem5fMEtDc2p6cWVyMlhPQ2swUEhSLTZMeVFZcDNENUlNMUpaTTJuRFhWM3YyRXk2QQ?oc=5",
-   "ts": "2026-10-05T18:53:49Z",
-   "fuente": "The Spokesman-Review",
-   "id": "12d625c5c6",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Nasdaq alcanza récord mientras dólar y rendimientos suben y petróleo baja",
-   "efecto": "Fortalece al dólar y presiona al alza al Nasdaq."
-  },
-  {
-   "titulo": "Starbucks recovery plan is working. Here's how Mike Khouw says to trade the coffee giant",
-   "link": "https://www.cnbc.com/2026/10/05/starbucks-recovery-plan-is-working-heres-how-mike-khouw-says-to-trade-the-coffee-giant.html",
-   "ts": "2026-10-05T18:40:35Z",
-   "fuente": "CNBC",
-   "id": "c7980a5bd3",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Wall Street rewards Microsoft's AI pivot. A longtime skeptic says it's just the beginning",
-   "link": "https://www.cnbc.com/investingclub/2026/10/05/wall-street-rewards-microsofts-ai-pivot-a-longtime-skeptic-flips-bullish.html",
-   "ts": "2026-10-05T18:39:51Z",
-   "fuente": "CNBC",
-   "id": "4b53c016cc",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3851,14 +3850,14 @@
     4155.8,
     4158.0,
     4152.5,
-    4153.3
+    4153.0
    ],
    [
-    1791260841,
-    4153.5,
-    4153.5,
-    4153.5,
-    4153.5
+    1791261147,
+    4153.6,
+    4153.6,
+    4153.6,
+    4153.6
    ]
   ],
   "nq": [
@@ -4342,15 +4341,15 @@
     1791259200,
     31366.25,
     31370.0,
-    31351.0,
-    31365.75
+    31350.0,
+    31353.25
    ],
    [
-    1791260844,
-    31369.0,
-    31369.0,
-    31369.0,
-    31369.0
+    1791261152,
+    31354.25,
+    31354.25,
+    31354.25,
+    31354.25
    ]
   ],
   "vix": [
