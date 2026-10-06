@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4164.8 · NQ 31378.25 · VIX 15.52 · 3 noticias nuevas",
-   "actualizado": "2026-10-06T07:47:40Z"
+   "ultimo_resultado": "Oro 4164.0 · NQ 31375.5 · VIX 15.5 · 4 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-06T07:52:46Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T07:47:40Z",
-   "ultimo_resultado": "3 titulares nuevos: Brazil Stocks Hit Record as Dollar Crashes After Election Shock"
+   "actualizado": "2026-10-06T07:52:45Z",
+   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: U.S. stock futures inch up after Nasdaq hits record on reduced Fed hike bets"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4164.0 · NQ 31375.5 · VIX 15.5 · 4 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-06T07:52:46Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4164.8 · NQ 31378.25 · VIX 15.52 · 3 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4156.8 · NQ 31217.25 · VIX 15.54 · 13 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-05T16:33:01Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4156.3 · NQ 31204.75 · VIX 15.54 · 13 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-05T16:27:36Z"
   }
  ],
  "briefs": [
@@ -2616,12 +2616,24 @@
   }
  },
  "en_vivo": {
-  "oro": 4164.8,
-  "nq": 31378.25,
-  "vix": 15.52,
-  "ts": "2026-10-06T07:47:40Z"
+  "oro": 4164.0,
+  "nq": 31375.5,
+  "vix": 15.5,
+  "ts": "2026-10-06T07:52:46Z"
  },
  "noticias": [
+  {
+   "titulo": "U.S. stock futures inch up after Nasdaq hits record on reduced Fed hike bets",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcmc0UzVuZ3pwR0xQTy1oek56blV5eGxKZjNvb3M5YmtOUjB3Z1BWWGxSSUFVakE2c0F0SjJjRFZubGwzdHJRYTlSeUk4QjFwR2wtYm1Qa0NZY280MDJRUDYySDRJbUZKRGVZb21DcC1aTGFoczVpaGFOdDN3SUo2MlNCNG5ZSGtsWHR2REtvNGRDT2ZETVNldjZGMkltX2NyWUo0Z1JiZEtjRlA1ZHRkUHhyQTB3V0RHalZMOHR6TGVSZ1BNd190VE5R?oc=5",
+   "ts": "2026-10-06T07:35:50Z",
+   "fuente": "Investing.com",
+   "id": "d75c9552bb",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Treasury yields are broadly flat as investors anticipate FOMC minutes",
    "link": "https://www.cnbc.com/2026/10/06/treasury-yields-fed-fomc-minutes.html",
@@ -3498,20 +3510,6 @@
    "impacto": "alto",
    "es": "El sector servicios de EE. UU. se desacelera por aranceles y mayores costos de combustible",
    "efecto": "Señales stagflacionarias; presiona al dólar y apoya al oro."
-  },
-  {
-   "titulo": "Nasdaq closes at fresh record as tech shares rise and traders look past higher yields",
-   "link": "https://www.cnbc.com/2026/10/04/stock-market-today-live-updates.html",
-   "ts": "2026-10-05T20:24:26Z",
-   "fuente": "CNBC",
-   "id": "38c65f15d6",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El Nasdaq cierra en nuevo récord pese a mayores rendimientos de bonos",
-   "efecto": "Muestra resiliencia extrema del NQ ignorando vientos en contra de tasas."
   }
  ],
  "eventos_avisados": [],
@@ -4033,14 +4031,14 @@
     4159.0,
     4170.6,
     4155.5,
-    4164.1
+    4164.5
    ],
    [
-    1791272250,
-    4164.8,
-    4164.8,
-    4164.8,
-    4164.8
+    1791272564,
+    4164.0,
+    4164.0,
+    4164.0,
+    4164.0
    ]
   ],
   "nq": [
@@ -4553,14 +4551,14 @@
     31383.0,
     31392.25,
     31340.0,
-    31377.5
+    31375.5
    ],
    [
-    1791272257,
-    31378.25,
-    31378.25,
-    31378.25,
-    31378.25
+    1791272565,
+    31375.5,
+    31375.5,
+    31375.5,
+    31375.5
    ]
   ],
   "vix": [
@@ -4961,14 +4959,14 @@
     15.5,
     15.52,
     15.49,
-    15.52
+    15.5
    ],
    [
-    1791271951,
-    15.52,
-    15.52,
-    15.52,
-    15.52
+    1791272251,
+    15.5,
+    15.5,
+    15.5,
+    15.5
    ]
   ]
  },
