@@ -31,9 +31,9 @@
    "ultimo_resultado": "Volatilidad normal (VIX 15.3)."
   },
   "auditor": {
-   "estado": "trabajando",
-   "tarea": "Revisando cómo salieron las entradas anteriores…",
-   "actualizado": "2026-10-06T21:32:46Z",
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-06T21:32:48Z",
    "ultimo_resultado": "Historial: 3 operaciones, 33% de acierto, -0.89 R."
   },
   "vigilante": {
@@ -50,6 +50,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "auditor",
+   "texto": "Historial: 3 operaciones, 33% de acierto, -0.89 R.",
+   "ts": "2026-10-06T21:32:48Z"
+  },
   {
    "agente": "auditor",
    "texto": "Revisando cómo salieron las entradas anteriores…",
@@ -1044,11 +1049,6 @@
    "agente": "riesgo",
    "texto": "Volatilidad normal (VIX 15.52).",
    "ts": "2026-10-06T06:33:31Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "VIX/NQ: CONFIRMA ALCISTA: NQ sube y el VIX baja (apetito de riesgo real)",
-   "ts": "2026-10-06T06:33:30Z"
   }
  ],
  "briefs": [
@@ -1242,7 +1242,9 @@
      "cancelar": "Rompe con fuerza 31300 antes de activar la entrada o noticia inesperada.",
      "motivo": "",
      "vivo": "tp2",
-     "aviso_tp1": true
+     "aviso_tp1": true,
+     "resultado": "no se activó",
+     "r": 0.0
     }
    ],
    "mapas": {
