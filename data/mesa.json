@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4186.3 · NQ 31442.5 · VIX 15.38 · 4 noticias nuevas",
-   "actualizado": "2026-10-06T10:47:33Z"
+   "ultimo_resultado": "Oro 4186.5 · NQ 31442.25 · VIX 15.38 · 5 noticias nuevas",
+   "actualizado": "2026-10-06T10:52:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T10:47:33Z",
-   "ultimo_resultado": "4 titulares nuevos: AI researcher warns 'we are racing to build and grow our own adversary' in NYC hearing"
+   "actualizado": "2026-10-06T10:52:31Z",
+   "ultimo_resultado": "5 titulares nuevos: This household goods stock has lagged the broader market. Evercore ISI sees a comeback"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4186.5 · NQ 31442.25 · VIX 15.38 · 5 noticias nuevas",
+   "ts": "2026-10-06T10:52:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4186.3 · NQ 31442.5 · VIX 15.38 · 4 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "flujos",
    "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
    "ts": "2026-10-05T21:32:53Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "DXY 0.19% · 10Y 5.311 · VIX 15.52 · 1 eventos USD en el radar.",
-   "ts": "2026-10-05T21:32:52Z"
   }
  ],
  "briefs": [
@@ -2617,12 +2617,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4186.3,
-  "nq": 31442.5,
+  "oro": 4186.5,
+  "nq": 31442.25,
   "vix": 15.38,
-  "ts": "2026-10-06T10:47:33Z"
+  "ts": "2026-10-06T10:52:31Z"
  },
  "noticias": [
+  {
+   "titulo": "This household goods stock has lagged the broader market. Evercore ISI sees a comeback",
+   "link": "https://www.cnbc.com/2026/10/06/this-household-goods-stock-has-lagged-the-broader-market-evercore-isi-sees-a-comeback.html",
+   "ts": "2026-10-06T10:47:46Z",
+   "fuente": "CNBC",
+   "id": "aacccc551d",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "GoldMining Intersects 400 Metres of Continuous Gold-Copper Mineralization at the Yarumalito Project, Colombia",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/goldmining-intersects-400-metres-continuous-103000828.html?.tsrc=rss",
+   "ts": "2026-10-06T10:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "cd4fbef014",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Plea hearing set for former CIA officer who allegedly had gold bars in his home - ABC News",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeU5ockhEYTd6cGNVVVQ5V1hjRDZ3MjFmaFJxbEhnMkdJVTVfUXdEeEpvMEM1cE8zZE15YVVhVlZqdlZ5dHRlal9jRlFsWVBxVmFmTU9lR0pLa1lIWkZsdFFoMDNzbi1NajYydGZXa0ZUNml3T2xUZ0d0U2Q0YjQ4WkttNTZuZTdZVGtFWnF5UHlmalZOU0VnblY1QlY2ZnfSAaQBQVVfeXFMTWRHa1RtTnh0RVdSRklXeXE4Mmk2bDk5M2ZPS1E2cTNPQ0YwNm8yd0FfV3RfYXJQZURpSzhoZXNqdi13cDhKVmZpcnpyQnRyTFk4bDQ0UmlHc01lWmRjV3VDVTJJUzd0MjhuLXFvRVhCNXFkdWNHdmRweDR5NXUwbFVxYkNkTE41VnJFRzFTQ3N2UXVsU29OYmVRRzZ4bFplR0ZzUFo?oc=5",
@@ -3300,6 +3320,18 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Stocks climb, yields retreat from multi-decade highs",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZlMwQU1nbHRaZ2dnOUVOM1c1LXBxNXhWUTNzS1ROWDZyODk1NldRTHB2ODNKbnI0am5tUUcwMU9YekUxMWtLOFVGMFczTU12cHpCclQ1cnhDRzBMVGRBWTYwRjZPVUZidVFlT1FMZGdUcnR6MENjNXVMUXRzTlVzdVJkSQ?oc=5",
+   "ts": "2026-10-06T01:48:00Z",
+   "fuente": "Reuters",
+   "id": "7a2c456e12",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Asian shares track Wall Street higher, Treasury yields near multi-decade highs",
    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZlMwQU1nbHRaZ2dnOUVOM1c1LXBxNXhWUTNzS1ROWDZyODk1NldRTHB2ODNKbnI0am5tUUcwMU9YekUxMWtLOFVGMFczTU12cHpCclQ1cnhDRzBMVGRBWTYwRjZPVUZidVFlT1FMZGdUcnR6MENjNXVMUXRzTlVzdVJkSQ?oc=5",
    "ts": "2026-10-06T01:48:00Z",
@@ -3460,40 +3492,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "CNBC's The China Connection newsletter: Starbucks enters Xinjiang in calculated geopolitical risk",
-   "link": "https://www.cnbc.com/2026/10/06/starbucks-luckin-china-xinjiang-forced-labour-export-trade-.html",
-   "ts": "2026-10-05T23:41:11Z",
-   "fuente": "CNBC",
-   "id": "26206580f7",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Starbucks entra en Xinjiang en un riesgo geopolítico calculado",
-   "efecto": "Ruido corporativo sin impacto macroeconómico relevante."
-  },
-  {
-   "titulo": "Gold Steadies as Stronger Dollar and Yields Weigh on Rate Path",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOckVuVzF3a0QtMHgwcHp2N0IyWnU1OW1jVzBjR28wSm9QdEo2MDdNNjZOVEI3YkxPdnZoVEJSeEdxTG9MLVFPMlp1YVNwUFFwWGVLSHRrcDdZeHN1Skktb3NiRThZMTd5UF9uQ2Q3c3Zsem9hNHEzVEREVnlDTTVLOTdhcUZfM0ZvYmx0R2NMeFBuVnFqaHJkTDFrMzVQcmtjNnZlT08zMVlsTGphTzRTdnVBbw?oc=5",
-   "ts": "2026-10-05T23:39:14Z",
-   "fuente": "Bloomberg.com",
-   "id": "74cb820cc9",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Watch A Gold Relief Rally on the Horizon?",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN3ctSE9ZbzlQZmRuZjEyckhRajhFaW9NVE5tVjNKeUxGUGtqZTJ4UVpIVjJiMllLcW1vb3hYQXBCbVd6bnFpSUxXNnI4MnlDbVROaXdoV1BZYVVhaE9Qem1lMW9FNzNvUzRud0VKbUE5akIzbl9kXzBraUl4dGNFQWJuZFBkVkJEdEltQWpxa2NkOUE?oc=5",
-   "ts": "2026-10-05T23:30:01Z",
-   "fuente": "Bloomberg.com",
-   "id": "a89f452195",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -4034,16 +4032,16 @@
    [
     1791280800,
     4179.9,
-    4186.7,
+    4188.0,
     4176.2,
-    4186.3
+    4186.6
    ],
    [
-    1791283049,
-    4186.3,
-    4186.3,
-    4186.3,
-    4186.3
+    1791283344,
+    4186.5,
+    4186.5,
+    4186.5,
+    4186.5
    ]
   ],
   "nq": [
@@ -4577,14 +4575,14 @@
     31407.5,
     31455.25,
     31393.0,
-    31442.5
+    31443.25
    ],
    [
-    1791283051,
-    31442.5,
-    31442.5,
-    31442.5,
-    31442.5
+    1791283349,
+    31442.25,
+    31442.25,
+    31442.25,
+    31442.25
    ]
   ],
   "vix": [
@@ -5009,7 +5007,7 @@
     15.38
    ],
    [
-    1791282751,
+    1791283036,
     15.38,
     15.38,
     15.38,
