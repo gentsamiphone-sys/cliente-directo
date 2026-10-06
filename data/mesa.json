@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4200.2 · NQ 31512.25 · VIX 15.31 · 12 noticias nuevas (4 alto impacto)",
-   "actualizado": "2026-10-06T12:07:42Z"
+   "ultimo_resultado": "Oro 4204.2 · NQ 31513.75 · VIX 15.31 · 14 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-06T12:12:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T12:07:41Z",
-   "ultimo_resultado": "12 titulares nuevos, 4 de alto impacto: Banco Mundial advierte riesgos de concentración de IA y eleva previsión para Asia Oriental al 4,5%"
+   "actualizado": "2026-10-06T12:12:38Z",
+   "ultimo_resultado": "14 titulares nuevos, 2 de alto impacto: WRN Deep Dive: DATCP Secretary Randy Romanski on diesel, tariffs, farmer wellness and export success"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4204.2 · NQ 31513.75 · VIX 15.31 · 14 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-06T12:12:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4200.2 · NQ 31512.25 · VIX 15.31 · 12 noticias nuevas (4 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +120,318 contratos.",
    "ts": "2026-10-05T21:34:03Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-10-05T21:34:02Z"
   }
  ],
  "briefs": [
@@ -2617,12 +2617,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4200.2,
-  "nq": 31512.25,
+  "oro": 4204.2,
+  "nq": 31513.75,
   "vix": 15.31,
-  "ts": "2026-10-06T12:07:42Z"
+  "ts": "2026-10-06T12:12:38Z"
  },
  "noticias": [
+  {
+   "titulo": "WRN Deep Dive: DATCP Secretary Randy Romanski on diesel, tariffs, farmer wellness and export success",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSTR1MTBUdDA3bXEyRUdjRTdJajV4Z0VxaUo3dlZKMVR6dHpVM0VpMnQ2T0t0WTVJWkRna0FETWQ3cUZZYUpkakJvaWNYdktuV2xEOTlfNW90WFJ1VU52RERpUmVhSlV1UmZiSVlNZGlfUXZ5WUdLcFh6ZDhIV19MRjdzejZDM3M5OGx5Y2tjWGo4eFlzZzRob2wxaWlUQTVnMF9lUGJOeDlKRUtnRUtXWlBQZ05jUGdEa1E?oc=5",
+   "ts": "2026-10-06T12:09:36Z",
+   "fuente": "Wisconsin Radio Network",
+   "id": "3e782cfbbf",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Russia’s neighbor could lift its ban on nuclear weapons, prompting outcry from Moscow",
+   "link": "https://www.cnbc.com/2026/10/06/russia-ukraine-lithuania-trump-nato.html",
+   "ts": "2026-10-06T12:04:46Z",
+   "fuente": "CNBC",
+   "id": "7a4f7afe90",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Google enters massive 3.6-GW power deal with Constellation Energy",
    "link": "https://www.cnbc.com/2026/10/06/google-enters-massive-3point6-gw-power-deal-with-constellation-energy-.html",
@@ -2640,6 +2658,17 @@
    "id": "512a2f5c9b",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Stocks Rise Pre-Bell After Nasdaq Reaches New Record High",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdnViRGl5WEYzUng4QUhWeEVfQlBKTHljdXRhVHhSMjhHbVJ0YVhhRC1ya0ZpdHZQYWF6U3lDYzJsbWFIYmdDZnVRTTExQjNWQ21rTkxSLVQ2X0dHQTRRdHlibXFwUWc1bDNqdGVkTnpjSUlaREJVWEtXdGIwOHZmME9BWm9maDBWS2NXamt3V0Frd25BUjl3?oc=5",
+   "ts": "2026-10-06T11:56:04Z",
+   "fuente": "Yahoo Finance",
+   "id": "73460b1118",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Delta Resources Announces Phase II 2026 Till Sampling Program at Delta-1 Gold Project",
@@ -3456,37 +3485,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Dollar near 18-month highs; ECB’s Lane cautions on inflation pass-through",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-mixed-dollar-climbs-042623593.html?.tsrc=rss",
-   "ts": "2026-10-06T04:26:23Z",
-   "fuente": "Yahoo Finance",
-   "id": "8360395da3",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Asian currencies mixed as dollar climbs, euro nears 17-month low",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-mixed-dollar-climbs-042623593.html?.tsrc=rss",
-   "ts": "2026-10-06T04:26:23Z",
-   "fuente": "Yahoo Finance",
-   "id": "4ad4921de0",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Canada counter-tariffs on U.S. goods could hit Kern County farmers, professor says",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNGFzcGxibmZnMjJ1a1Z1b3QyVTRVMlBLcklSTEZOX2UzQk5jRVhtbWg5RFdGRG1yUWNQSFltWU1sMmQ3QmZjczhYYmxLNGJUMndvRVl0c2x1QVVvNEs4ODhWdlFhQ21WejVqYXhEaUp3bFRBS0pCckxJbUNLUHVQZC11T2E4S1ZLUmxjRnFLbVpfMFh1cmRUbWhFajZ5aXRPdE1DQXZkY3JRVk1odHBtSEU3RDgyWEktWnZ5Tk1SWk9kamJNanFpeWcycw?oc=5",
-   "ts": "2026-10-06T04:18:45Z",
-   "fuente": "KBAK",
-   "id": "d85dcaf684",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [],
@@ -4036,14 +4034,21 @@
     4186.5,
     4202.8,
     4183.8,
-    4200.4
+    4201.5
    ],
    [
-    1791287859,
-    4200.2,
-    4200.2,
-    4200.2,
-    4200.2
+    1791288000,
+    4201.7,
+    4204.6,
+    4201.2,
+    4204.6
+   ],
+   [
+    1791288155,
+    4204.2,
+    4204.2,
+    4204.2,
+    4204.2
    ]
   ],
   "nq": [
@@ -4584,14 +4589,21 @@
     31443.5,
     31535.75,
     31440.25,
-    31511.5
+    31509.5
    ],
    [
-    1791287851,
-    31512.25,
-    31512.25,
-    31512.25,
-    31512.25
+    1791288000,
+    31509.25,
+    31520.75,
+    31502.25,
+    31516.0
+   ],
+   [
+    1791288154,
+    31513.75,
+    31513.75,
+    31513.75,
+    31513.75
    ]
   ],
   "vix": [
@@ -5023,7 +5035,7 @@
     15.31
    ],
    [
-    1791287551,
+    1791287851,
     15.31,
     15.31,
     15.31,
