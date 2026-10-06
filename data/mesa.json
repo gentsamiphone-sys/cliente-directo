@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4155.9 · NQ 31338.0 · VIX 15.52 · 13 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-06T02:22:44Z"
+   "ultimo_resultado": "Oro 4157.3 · NQ 31344.0 · VIX 15.52 · 13 noticias nuevas",
+   "actualizado": "2026-10-06T02:27:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T02:22:43Z",
-   "ultimo_resultado": "13 titulares nuevos, 3 de alto impacto: Satya Nadella y la reinvención de Microsoft en la era de la IA"
+   "actualizado": "2026-10-06T02:27:32Z",
+   "ultimo_resultado": "13 titulares nuevos: Pentagon says Trump approves Army firing squad execution of Fort Hood killer Nidal Hasan"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4157.3 · NQ 31344.0 · VIX 15.52 · 13 noticias nuevas",
+   "ts": "2026-10-06T02:27:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4155.9 · NQ 31338.0 · VIX 15.52 · 13 noticias nuevas (3 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4191.6 · NQ 31026.5 · VIX 16.28 · 7 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-05T11:07:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4187.9 · NQ 30986.5 · VIX 16.3 · 5 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-05T11:02:41Z"
   }
  ],
  "briefs": [
@@ -2441,12 +2441,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4155.9,
-  "nq": 31338.0,
+  "oro": 4157.3,
+  "nq": 31344.0,
   "vix": 15.52,
-  "ts": "2026-10-06T02:22:43Z"
+  "ts": "2026-10-06T02:27:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Pentagon says Trump approves Army firing squad execution of Fort Hood killer Nidal Hasan",
+   "link": "https://www.cnbc.com/2026/10/06/trump-execution-nidal-hasan-firing-squad-fort-hood.html",
+   "ts": "2026-10-06T02:23:18Z",
+   "fuente": "CNBC",
+   "id": "204b6da69d",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Mt Turner gold: Lightning Minerals starts Phase 2 drilling",
+   "link": "https://finance.yahoo.com/video/mt-turner-gold-lightning-minerals-015742146.html?.tsrc=rss",
+   "ts": "2026-10-06T01:57:42Z",
+   "fuente": "Yahoo Finance",
+   "id": "4466cda575",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Trump says MAGA Inc. PAC will pay for controversial TV ads that government funded",
    "link": "https://www.cnbc.com/2026/10/05/trump-ads-election.html",
@@ -2455,6 +2475,18 @@
    "id": "8b2644fa9e",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Asian shares track Wall Street higher, Treasury yields near multi-decade highs",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZlMwQU1nbHRaZ2dnOUVOM1c1LXBxNXhWUTNzS1ROWDZyODk1NldRTHB2ODNKbnI0am5tUUcwMU9YekUxMWtLOFVGMFczTU12cHpCclQ1cnhDRzBMVGRBWTYwRjZPVUZidVFlT1FMZGdUcnR6MENjNXVMUXRzTlVzdVJkSQ?oc=5",
+   "ts": "2026-10-06T01:48:00Z",
+   "fuente": "Reuters",
+   "id": "9438cf3b48",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Trump offers U.S. help to Russia after plague death; WHO assesses the situation as low risk",
@@ -3324,36 +3356,6 @@
    "id": "103ad1921d",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "France debt crisis sends euro to 17-month low amid contagion fears",
-   "link": "https://qz.com/france-debt-crisis-euro-17-month-low-contagion-100526?.tsrc=rss",
-   "ts": "2026-10-05T17:53:06Z",
-   "fuente": "Yahoo Finance",
-   "id": "5f2c49b5be",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "The SEC Approves the First 3x Bitcoin and Ether Funds: Understanding the Risks Involved",
-   "link": "https://247wallst.com/investing/cryptocurrency/2026/10/05/the-sec-approves-the-first-3x-bitcoin-and-ether-funds-understanding-the-risks-involved/?.tsrc=rss",
-   "ts": "2026-10-05T17:51:03Z",
-   "fuente": "Yahoo Finance",
-   "id": "fe7a1c4ccb",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Can stocks stay resilient with higher Treasury yields?",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRTdBT3VwVkI3cU1VUUxrano4M25PVWxOX0FabW5PR2RFb2F1TEtsejk2cWZoX0hYbm1oemdmbExWWFAwcVJDRmxkSkdsYXVDSlNEaDhnX3N1TUVHUEdqX0s0LTFibG5pR0xYNG1fa0pvTWVzaFFvZDZyd1lhei11ZXhKbWw3ZlVMc3JN?oc=5",
-   "ts": "2026-10-05T17:50:57Z",
-   "fuente": "invesco.com",
-   "id": "e2cd4eca91",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3978,16 +3980,16 @@
    [
     1791252000,
     4157.0,
-    4158.0,
+    4158.3,
     4154.7,
-    4156.1
+    4157.1
    ],
    [
-    1791252751,
-    4155.9,
-    4155.9,
-    4155.9,
-    4155.9
+    1791253050,
+    4157.3,
+    4157.3,
+    4157.3,
+    4157.3
    ]
   ],
   "nq": [
@@ -4610,16 +4612,16 @@
    [
     1791252000,
     31337.5,
-    31343.5,
+    31348.25,
     31327.75,
-    31339.75
+    31340.5
    ],
    [
-    1791252762,
-    31338.25,
-    31338.25,
-    31338.25,
-    31338.25
+    1791253039,
+    31344.0,
+    31344.0,
+    31344.0,
+    31344.0
    ]
   ],
   "vix": [
