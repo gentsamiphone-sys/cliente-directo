@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4194.7 · NQ 31578.0 · VIX 15.31 · 12 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-06T15:47:36Z"
+   "ultimo_resultado": "Oro 4193.9 · NQ 31583.5 · VIX 15.29 · 14 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-06T15:52:43Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T15:47:35Z",
-   "ultimo_resultado": "12 titulares nuevos, 1 de alto impacto: Google squeezes more power from existing nuclear plants in Constellation deal. These stocks benefit"
+   "actualizado": "2026-10-06T15:52:43Z",
+   "ultimo_resultado": "14 titulares nuevos, 2 de alto impacto: Los altos precios del diésel podrían presionar al consumidor"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4193.9 · NQ 31583.5 · VIX 15.29 · 14 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-06T15:52:43Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4194.7 · NQ 31578.0 · VIX 15.31 · 12 noticias nuevas (1 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4163.3 · NQ 31353.25 · VIX 15.52 · 14 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-06T01:47:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4163.7 · NQ 31366.25 · VIX 15.52 · 15 noticias nuevas",
-   "ts": "2026-10-06T01:42:34Z"
   }
  ],
  "briefs": [
@@ -2778,12 +2778,26 @@
   }
  },
  "en_vivo": {
-  "oro": 4194.7,
-  "nq": 31578.0,
-  "vix": 15.31,
-  "ts": "2026-10-06T15:47:35Z"
+  "oro": 4193.9,
+  "nq": 31583.5,
+  "vix": 15.29,
+  "ts": "2026-10-06T15:52:43Z"
  },
  "noticias": [
+  {
+   "titulo": "High diesel prices may put 'another squeeze' on the consumer, economist says",
+   "link": "https://www.cnbc.com/2026/10/06/diesel-prices-inflation.html",
+   "ts": "2026-10-06T15:45:52Z",
+   "fuente": "CNBC",
+   "id": "79408f6900",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "Los altos precios del diésel podrían presionar al consumidor",
+   "efecto": "Genera cautela en consumo; presiona al NQ a la baja."
+  },
   {
    "titulo": "British Airways plans record 106-seat business class on Airbus A380 jumbo jets",
    "link": "https://www.cnbc.com/2026/10/06/british-airways-business-class-a380.html",
@@ -2823,6 +2837,21 @@
    "id": "de0497816d",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "U.S. Trade Deficit Hits 17-Month High Despite Trump’s Tariffs",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE41cmdCYWpkdGxsdVd6M0pGSTJDU3R2RXhvaS1sTFU4d0xpSi1LVlVNUWRRYUhFR2tkZUpBUVQ0cjF4ZkszZ1hYUXV5RW5EUXUwbHdkbUVTV0xYSk9fbkRJLUh5YTNCQjd1blh1OXNZY3djRG5pREYtb3dPeGpRdw?oc=5",
+   "ts": "2026-10-06T15:01:36Z",
+   "fuente": "The New York Times",
+   "id": "db2ecde930",
+   "activos": [
+    "dolar",
+    "oro",
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "El déficit comercial de EE. UU. alcanza máximo de 17 meses",
+   "efecto": "Debilita el dólar, impulsando al oro y generando volatilidad."
   },
   {
    "titulo": "Fed plans to overhaul bank supervision responsibilities, Bowman says",
@@ -3613,26 +3642,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Trump allows cheaper, dyed diesel on highways to blunt historic fuel-cost spike ahead of midterms",
-   "link": "https://www.cnbc.com/2026/10/06/us-diesel-fuel-prices-iran-ukraine-energy-crisis-.html",
-   "ts": "2026-10-06T11:32:57Z",
-   "fuente": "CNBC",
-   "id": "98d6813a1e",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Dollar Falls as Euro Recovers After France's Le Pen Vows to Reduce Public Deficit",
-   "link": "https://finance.yahoo.com/m/fcc67c8b-f290-32a4-8e7a-9126d123bcf4/dollar-falls-as-euro-recovers.html?.tsrc=rss",
-   "ts": "2026-10-06T11:30:28Z",
-   "fuente": "Yahoo Finance",
-   "id": "938341e1a7",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -4210,14 +4219,14 @@
     4184.4,
     4197.0,
     4183.9,
-    4194.6
+    4194.4
    ],
    [
-    1791301049,
-    4194.7,
-    4194.7,
-    4194.7,
-    4194.7
+    1791301361,
+    4193.9,
+    4193.9,
+    4193.9,
+    4193.9
    ]
   ],
   "nq": [
@@ -4786,14 +4795,14 @@
     31583.75,
     31616.5,
     31574.5,
-    31578.5
+    31586.25
    ],
    [
-    1791301053,
-    31578.0,
-    31578.0,
-    31578.0,
-    31578.0
+    1791301361,
+    31583.5,
+    31583.5,
+    31583.5,
+    31583.5
    ]
   ],
   "vix": [
@@ -5249,17 +5258,17 @@
     1791298800,
     15.37,
     15.37,
-    15.31,
-    15.32
+    15.3,
+    15.3
    ],
    [
-    1791300751,
-    15.31,
-    15.31,
-    15.31,
-    15.31
+    1791301051,
+    15.29,
+    15.29,
+    15.29,
+    15.29
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-06T15:17:39Z"
+ "noticias_traducidas_ts": "2026-10-06T15:52:38Z"
 }
