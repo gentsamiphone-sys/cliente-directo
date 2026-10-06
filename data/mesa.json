@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4181.1 · NQ 31399.0 · VIX 15.44 · 1 noticias nuevas",
-   "actualizado": "2026-10-06T09:07:33Z"
+   "ultimo_resultado": "🎯 NQ COMPRA: TP1 · Oro 4183.3 · NQ 31407.75 · VIX 15.44",
+   "actualizado": "2026-10-06T09:12:40Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T09:07:32Z",
-   "ultimo_resultado": "1 titulares nuevos: Dow, S&P 500, Nasdaq Futures Edge Higher After Nasdaq Climbs To Record High: SPCX, USAR, CEG, NVAX Stocks In Focus"
+   "actualizado": "2026-10-06T09:12:39Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "🎯 NQ COMPRA: TP1 · Oro 4183.3 · NQ 31407.75 · VIX 15.44",
+   "ts": "2026-10-06T09:12:40Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4181.1 · NQ 31399.0 · VIX 15.44 · 1 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4159.4 · NQ 31282.0 · VIX 15.54 · 14 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-05T17:52:38Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4155.0 · NQ 31284.0 · VIX 15.54 · 15 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-05T17:47:34Z"
   }
  ],
  "briefs": [
@@ -1088,7 +1088,8 @@
      "confluencias": "4",
      "cancelar": "Rompe con fuerza 31300 antes de activar la entrada o noticia inesperada.",
      "motivo": "",
-     "vivo": "confirmada"
+     "vivo": "confirmada",
+     "aviso_tp1": true
     }
    ],
    "mapas": {
@@ -2616,10 +2617,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4181.1,
-  "nq": 31399.0,
+  "oro": 4183.3,
+  "nq": 31407.75,
   "vix": 15.44,
-  "ts": "2026-10-06T09:07:33Z"
+  "ts": "2026-10-06T09:12:39Z"
  },
  "noticias": [
   {
@@ -4028,16 +4029,23 @@
    [
     1791273600,
     4167.5,
-    4181.6,
+    4182.9,
     4165.2,
-    4180.7
+    4182.8
    ],
    [
-    1791277037,
-    4181.1,
-    4181.1,
-    4181.1,
-    4181.1
+    1791277200,
+    4182.6,
+    4184.3,
+    4181.3,
+    4182.8
+   ],
+   [
+    1791277357,
+    4183.3,
+    4183.3,
+    4183.3,
+    4183.3
    ]
   ],
   "nq": [
@@ -4557,14 +4565,21 @@
     31380.5,
     31408.25,
     31361.0,
-    31398.25
+    31390.75
    ],
    [
-    1791277049,
-    31399.0,
-    31399.0,
-    31399.0,
-    31399.0
+    1791277200,
+    31390.25,
+    31410.25,
+    31388.25,
+    31410.25
+   ],
+   [
+    1791277357,
+    31407.75,
+    31407.75,
+    31407.75,
+    31407.75
    ]
   ],
   "vix": [
@@ -4972,10 +4987,10 @@
     15.48,
     15.48,
     15.44,
-    15.44
+    15.45
    ],
    [
-    1791276751,
+    1791277051,
     15.44,
     15.44,
     15.44,
