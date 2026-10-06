@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4197.6 · NQ 31527.75 · VIX 15.08 · 15 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-06T18:32:32Z"
+   "ultimo_resultado": "Oro 4197.2 · NQ 31530.0 · VIX 15.06 · 15 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-06T18:37:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T18:32:31Z",
-   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: Meta joins with group of companies to tame ‘chaos’ of doing business with AI bots"
+   "actualizado": "2026-10-06T18:37:40Z",
+   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: Kalshi lanza funciones de transparencia en contratos electorales"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4197.2 · NQ 31530.0 · VIX 15.06 · 15 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-06T18:37:41Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4197.6 · NQ 31527.75 · VIX 15.08 · 15 noticias nuevas (1 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4154.8 · NQ 31364.0 · VIX 15.52 · 13 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-06T04:32:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4153.2 · NQ 31360.0 · VIX 15.52 · 12 noticias nuevas",
-   "ts": "2026-10-06T04:27:32Z"
   }
  ],
  "briefs": [
@@ -2778,12 +2778,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4197.6,
-  "nq": 31527.75,
-  "vix": 15.08,
-  "ts": "2026-10-06T18:32:32Z"
+  "oro": 4197.2,
+  "nq": 31530.0,
+  "vix": 15.06,
+  "ts": "2026-10-06T18:37:41Z"
  },
  "noticias": [
+  {
+   "titulo": "Kalshi launches transparency features on its election contracts ahead of midterms",
+   "link": "https://www.cnbc.com/2026/10/06/kalshi-launches-transparency-features-on-its-election-contracts-ahead-of-midterms-.html",
+   "ts": "2026-10-06T18:34:49Z",
+   "fuente": "CNBC",
+   "id": "f629391a18",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Kalshi lanza funciones de transparencia en contratos electorales",
+   "efecto": ""
+  },
   {
    "titulo": "Mortgage Rates Rise as Treasury Yields Top 5%",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWWhZMzFXNFpScTNpZ0dEU2VzbDZXRXgtdW44X21QeGkwRUFsemNuUzZGbzlmc0ZnMXJFc2NHTTJPVVI1NnYzeXVUOEpGYUNPU1ZuQVBlMDRaSE85bEtBWWdOSExqUW9Lb3JlQ2dXaXNIbzl1OHZseTdZVldzRFU4TVhaUVc?oc=5",
@@ -2794,6 +2805,28 @@
     "dolar"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Govt airs new ad after Trump says MAGA Inc. PAC will pay for controversial TV spots",
+   "link": "https://www.cnbc.com/2026/10/05/trump-ads-election.html",
+   "ts": "2026-10-06T18:22:05Z",
+   "fuente": "CNBC",
+   "id": "3e5e253dc0",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Gobierno emite nuevo anuncio tras polémica de financiamiento PAC",
+   "efecto": ""
+  },
+  {
+   "titulo": "How event contract bundles are boosting volume on prediction markets",
+   "link": "https://www.cnbc.com/2026/10/06/prediction-market-combo-contract-volume.html",
+   "ts": "2026-10-06T18:20:31Z",
+   "fuente": "CNBC",
+   "id": "a8a0834f90",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Contratos de eventos impulsan volumen en mercados de predicción",
+   "efecto": ""
   },
   {
    "titulo": "Softball Hosts Annual Blue-Gold Series This Week at Frost",
@@ -3164,6 +3197,19 @@
    "id": "de0497816d",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Paramount's hard-fought takeover of Warner Bros. Discovery closed Tuesday. Here's how we got here",
+   "link": "https://www.cnbc.com/2026/10/06/paramount-wbd-deal-timeline.html",
+   "ts": "2026-10-06T15:06:53Z",
+   "fuente": "CNBC",
+   "id": "f6095956f9",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "Se concreta la adquisición de Warner Bros. Discovery por Paramount",
+   "efecto": ""
   },
   {
    "titulo": "U.S. Trade Deficit Hits 17-Month High Despite Trump’s Tariffs",
@@ -3613,50 +3659,6 @@
    "id": "9ccd751cd9",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "AI-related bonds could push Treasury yields up in funding arms race",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVjZVd1h6SjlCUkQ2dkJlMGtfRmZsT2czeWVEZ3RTMC1vc3hQSnZSci00RV9WR1pKTXV1MG5jVmtndEVNR1VJXzNON3U0ZXJWcndVU2s2dGtUTUJ6bFNRMkFIOWo2WEZwZGY5andMMENzbHRGdDlWcEh6NmMya3RRZndlTFpjVll4WWhrNmhlc1FPaHRvdF9nWThXdElENnNjRnpCeEJXdENsNjVzdGFpNW5FOTQ2bTVVcWxETDZWYU5ZV1dTelJzd2tSUndNVTZKNnk1dlM5Z0NMckszRm9BTE93?oc=5",
-   "ts": "2026-10-06T12:58:42Z",
-   "fuente": "troweprice.com",
-   "id": "8ae7d8cf47",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "US Treasury yields are \"screaming good value\" says PIMCO senior advisor",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWmVRdHA4bVRsVmVyUThxTVdUb3AzNklqYnNDS2JvVVVEa2hnbk1qaHVWcHBnN1Bya2piTTM3eEkxRWxrZVE4WDRidzAyZGFocEFVYjN6RENUWm9rbFBKQ1hQRlM5Qi12eTFKV2dxNF80MHF1Xy12NkR6SG9kcllSR2JlalFQZXdPYUtOeXhfMHlwdGdZbEZXTk96ZzhPS3MtUjFfRkNXNzFiWkJzTFNLTVJVQk8?oc=5",
-   "ts": "2026-10-06T12:58:09Z",
-   "fuente": "Reuters",
-   "id": "d772277437",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "1911 Gold drills high-grade extensions at True North in Manitoba",
-   "link": "https://www.proactiveinvestors.com/companies/news/1099659/1911-gold-drills-high-grade-extensions-at-true-north-in-manitoba-1099659.html?.tsrc=rss",
-   "ts": "2026-10-06T12:57:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "962df46206",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "2 Nasdaq 100 Stocks Worth Investigating and 1 We Question",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS3Y3ZGxiX1JOX1NJd01XSEx0eTlJdEp1TjEydDh4UEM3Y1hVakxyMzBGSnFBLUttUHVuX2pYVzN1S1Vfck9EbWZYNTNmOWJ2dkUtWC1jSFlGbDVlYWJWV2g4VzFPVEk1N20wU25CZVhLSWhZZkhpZmZVZTdBTUVrWkhBRTVILVJWMHNyTXpqWWFxN0ho?oc=5",
-   "ts": "2026-10-06T12:56:34Z",
-   "fuente": "Yahoo Finance",
-   "id": "6cef4908fc",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -4255,14 +4257,14 @@
     4192.2,
     4200.6,
     4191.4,
-    4197.6
+    4197.1
    ],
    [
-    1791310937,
-    4197.6,
-    4197.6,
-    4197.6,
-    4197.6
+    1791311259,
+    4197.2,
+    4197.2,
+    4197.2,
+    4197.2
    ]
   ],
   "nq": [
@@ -4851,15 +4853,15 @@
     1791309600,
     31526.25,
     31557.5,
-    31522.5,
-    31527.75
+    31515.75,
+    31526.75
    ],
    [
-    1791310951,
-    31527.75,
-    31527.75,
-    31527.75,
-    31527.75
+    1791311262,
+    31529.5,
+    31529.5,
+    31529.5,
+    31529.5
    ]
   ],
   "vix": [
@@ -5337,16 +5339,16 @@
     15.03,
     15.09,
     14.99,
-    15.08
+    15.07
    ],
    [
-    1791310636,
-    15.08,
-    15.08,
-    15.08,
-    15.08
+    1791310951,
+    15.06,
+    15.06,
+    15.06,
+    15.06
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-06T18:07:31Z"
+ "noticias_traducidas_ts": "2026-10-06T18:37:37Z"
 }
