@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4191.3 · NQ 31493.75 · VIX 15.01 · 15 noticias nuevas",
-   "actualizado": "2026-10-06T20:42:35Z"
+   "ultimo_resultado": "Oro 4192.1 · NQ 31492.0 · VIX 15.01 · 15 noticias nuevas (4 alto impacto)",
+   "actualizado": "2026-10-06T20:47:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T20:42:34Z",
-   "ultimo_resultado": "15 titulares nuevos: Make This 1 Trade Now Amid U.S.-Canada Trade Friction"
+   "actualizado": "2026-10-06T20:47:36Z",
+   "ultimo_resultado": "15 titulares nuevos, 4 de alto impacto: Epic Gold amplía corredor de alta ley y avanza en exploración en Hawkins"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4192.1 · NQ 31492.0 · VIX 15.01 · 15 noticias nuevas (4 alto impacto)",
+   "ts": "2026-10-06T20:47:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4191.3 · NQ 31493.75 · VIX 15.01 · 15 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "cio",
    "texto": "Abriendo la mesa para la sesión de Londres.",
    "ts": "2026-10-06T06:33:18Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4156.4 · NQ 31393.0 · VIX 15.52 · 3 noticias nuevas",
-   "ts": "2026-10-06T06:33:06Z"
   }
  ],
  "briefs": [
@@ -2778,10 +2778,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4191.3,
-  "nq": 31493.75,
+  "oro": 4192.1,
+  "nq": 31492.0,
   "vix": 15.01,
-  "ts": "2026-10-06T20:42:35Z"
+  "ts": "2026-10-06T20:47:37Z"
  },
  "noticias": [
   {
@@ -2794,6 +2794,19 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Epic Gold Expands High-Grade Gold Corridor, Advances District-Scale Hawkins Exploration Model and Appoints VP, Exploration",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/epic-gold-expands-high-grade-203000959.html?.tsrc=rss",
+   "ts": "2026-10-06T20:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "93307b0bf4",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Epic Gold amplía corredor de alta ley y avanza en exploración en Hawkins",
+   "efecto": "Ruido corporativo menor, sin impacto institucional hoy."
+  },
+  {
    "titulo": "S&P 500 and Nasdaq surge to record highs after AI chipmaker rally",
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMmNydTJJRjhlaHZkMm1FYXBxeTNkcXRnLTA1S2YtNWhicmVhc2txU3pfb0p4NmFfVzRRQUdaRVhaUXROMy15a2VSOWZVV3oyTTF3TWZ4MEg3dkJOcTRBUzBIdEJJcXZMeWdBR0FsMHY1UldtTnV5bVRuWDBhQU16WXlkbmtpVzdCWDl3?oc=5",
    "ts": "2026-10-06T20:28:00Z",
@@ -2803,6 +2816,33 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Gold IRA pros and cons: Is Investing in gold for retirement worth It?",
+   "link": "https://www.usatoday.com/story/money/money-management/investing/2026/10/06/are-gold-iras-worth-it/88264898007/?.tsrc=rss",
+   "ts": "2026-10-06T20:22:09Z",
+   "fuente": "Yahoo Finance",
+   "id": "f7ca78dd13",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Pros y contras de las cuentas de jubilación en oro",
+   "efecto": "Artículo educativo de retail, sin impacto en futuros de oro."
+  },
+  {
+   "titulo": "S&P 500 posts first close above 7,800, boosted by tech gains and cooler yields",
+   "link": "https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html",
+   "ts": "2026-10-06T20:19:49Z",
+   "fuente": "CNBC",
+   "id": "aa8cb65505",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El S&P 500 supera los 7,800 impulsado por tecnología y menores rendimientos",
+   "efecto": "Impulsa al NQ al alza por menores tasas."
   },
   {
    "titulo": "This photonics stock is already up 600% in one year. Now it's breaking out again",
@@ -3617,38 +3657,6 @@
    "id": "ebbd6e5255",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Record imports push US trade balance deep into the red in August",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON1IxdUZmenNPcXZRSTEwWDdEUVJNdjBnSEFlYm5JLWRsZm1EaE9iVmV1bGhZLU5Pb3BlRVQwbFZHT2dDbEppNkN6REZZd0JkeXFUbEt4Ync5RW5qREFscFZNVHA1RjdKVjRRcmZPb1ZyaDFhdnVKM2prcHRYd0NUQVVYdHRMdU9lakVQc0NocERlU0JRMDU1V19oMA?oc=5",
-   "ts": "2026-10-06T14:46:54Z",
-   "fuente": "Reuters",
-   "id": "0ecfcbaa46",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "New York Fed says supply chain pressures rose last month relative to August",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT3F6UFhwRldtdmJEZnF0eGdhc05Kc2hsMnhyRFRmZnY0eHdnQVdFUFFMblBjeHFDenR3UUx5RFRsb0xCQXM1LWhnTHQta3g3dzFUZXN4dDA1UDZBZVZ2QmZvcHJwVEJVVWpmN2U4NkVSV2dMcHJ2NWIwYW9rMjVMX0VfQnN1b1dCRE1yZjNKZU9sa0ZIX0k1V1p3cVlyWmFqOTM0LVRFdHNVY25Yb1M1cFR3TXFNNVpT?oc=5",
-   "ts": "2026-10-06T14:37:43Z",
-   "fuente": "Reuters",
-   "id": "722a403c3d",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio",
-   "es": "La Fed de Nueva York dice que las presiones en la cadena de suministro aumentaron",
-   "efecto": "Genera cautela inflacionaria, fortaleciendo ligeramente al dólar y presionando al oro."
-  },
-  {
-   "titulo": "Federal Reserve is trying to avoid a return to the 1980s: Stuart Kaiser",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fbnZybDdZTGZBT2lRVzBOYXVobW1vZHlzREszSDQxSWVkVW1OX3hremtLQjhpRGNucTN4Y0dTeWd1TTV4QWdRa281SHV3dk1UX0oxV2k4TVdKSmM?oc=5",
-   "ts": "2026-10-06T14:10:05Z",
-   "fuente": "Fox Business",
-   "id": "c6f4418605",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [],
@@ -4261,14 +4269,14 @@
     4197.1,
     4198.3,
     4190.3,
-    4191.5
+    4191.8
    ],
    [
-    1791318741,
-    4191.3,
-    4191.3,
-    4191.3,
-    4191.3
+    1791319032,
+    4192.1,
+    4192.1,
+    4192.1,
+    4192.1
    ]
   ],
   "nq": [
@@ -4872,14 +4880,14 @@
     31480.5,
     31504.25,
     31476.75,
-    31492.0
+    31493.25
    ],
    [
-    1791318751,
-    31493.75,
-    31493.75,
-    31493.75,
-    31493.75
+    1791319054,
+    31492.0,
+    31492.0,
+    31492.0,
+    31492.0
    ]
   ],
   "vix": [
@@ -5382,5 +5390,5 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-06T20:12:36Z"
+ "noticias_traducidas_ts": "2026-10-06T20:47:32Z"
 }
