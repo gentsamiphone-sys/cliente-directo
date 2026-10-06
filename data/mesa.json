@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4204.2 · NQ 31513.75 · VIX 15.31 · 14 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-06T12:12:39Z"
+   "ultimo_resultado": "Oro 4204.4 · NQ 31522.0 · VIX 15.32 · 14 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-06T12:17:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T12:12:38Z",
-   "ultimo_resultado": "14 titulares nuevos, 2 de alto impacto: WRN Deep Dive: DATCP Secretary Randy Romanski on diesel, tariffs, farmer wellness and export success"
+   "actualizado": "2026-10-06T12:17:32Z",
+   "ultimo_resultado": "14 titulares nuevos, 1 de alto impacto: Car buyers are stretching loans to afford payments — it's a 'potential warning light,' analyst says"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4204.4 · NQ 31522.0 · VIX 15.32 · 14 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-06T12:17:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4204.2 · NQ 31513.75 · VIX 15.31 · 14 noticias nuevas (2 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "liquidez",
    "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
    "ts": "2026-10-05T21:34:05Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Fondos en oro: neto +120,318 contratos.",
-   "ts": "2026-10-05T21:34:03Z"
   }
  ],
  "briefs": [
@@ -2617,12 +2617,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4204.2,
-  "nq": 31513.75,
-  "vix": 15.31,
-  "ts": "2026-10-06T12:12:38Z"
+  "oro": 4204.4,
+  "nq": 31522.0,
+  "vix": 15.32,
+  "ts": "2026-10-06T12:17:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Car buyers are stretching loans to afford payments — it's a 'potential warning light,' analyst says",
+   "link": "https://www.cnbc.com/2026/10/06/car-loans-are-getting-longer-as-monthly-payments-hit-record-highs.html",
+   "ts": "2026-10-06T12:15:01Z",
+   "fuente": "CNBC",
+   "id": "ca86ffd44d",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "WRN Deep Dive: DATCP Secretary Randy Romanski on diesel, tariffs, farmer wellness and export success",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSTR1MTBUdDA3bXEyRUdjRTdJajV4Z0VxaUo3dlZKMVR6dHpVM0VpMnQ2T0t0WTVJWkRna0FETWQ3cUZZYUpkakJvaWNYdktuV2xEOTlfNW90WFJ1VU52RERpUmVhSlV1UmZiSVlNZGlfUXZ5WUdLcFh6ZDhIV19MRjdzejZDM3M5OGx5Y2tjWGo4eFlzZzRob2wxaWlUQTVnMF9lUGJOeDlKRUtnRUtXWlBQZ05jUGdEa1E?oc=5",
@@ -2633,6 +2642,17 @@
    "impacto": "alto"
   },
   {
+   "titulo": "Wall St futures rise as Treasury yields cool, oil slips",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTlRObEVRbUVwNDRhQWhFb1RDSWJCSmFqWkloemJFYlNwQmpPd0plZ1hYODhCaUhSVXA1cVNKelFBLUxPUXI5bnl5X2ljakh2b2NUbS1aMHhSZ3BwYXVscnZEMmEtUWVWVTR6RVhSdVlSUlloV05CV0FqUXVOMjZsWXFOcFVEeXVXaXdsNlRPWEhMaUVDMXdN?oc=5",
+   "ts": "2026-10-06T12:05:10Z",
+   "fuente": "Yahoo Finance",
+   "id": "f3a5684537",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Russia’s neighbor could lift its ban on nuclear weapons, prompting outcry from Moscow",
    "link": "https://www.cnbc.com/2026/10/06/russia-ukraine-lithuania-trump-nato.html",
    "ts": "2026-10-06T12:04:46Z",
@@ -2640,6 +2660,28 @@
    "id": "7a4f7afe90",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Pacific Bay Weaver Lake Rock Sample Returns 0.78 Ounces per Ton Gold",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/pacific-bay-weaver-lake-rock-120000887.html?.tsrc=rss",
+   "ts": "2026-10-06T12:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "f60af100fa",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Contango Intersects 140.23 g/t Gold over 0.63 Meters and 18.16 g/t Gold over 3.65 Meters at Lucky Shot and Advances KM Vein Drilling",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/contango-intersects-140-23-g-120000636.html?.tsrc=rss",
+   "ts": "2026-10-06T12:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "51eab01ff4",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Google enters massive 3.6-GW power deal with Constellation Energy",
@@ -3445,46 +3487,6 @@
    "id": "1180370a8d",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "India-US trade talks hit 'plateau', finance minister says, as tariffs narrow room for deal",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM1J5UEt2X3M2VGctS2FVQnMtVkJoOEwzdUZ4SENyTzNJRUZkUmJBYjBjWkVCbkVUNG9ITHRueUJONGpBUHVpZ3VaajhUNGY3SThiYTJHQVB3U2l0MXlaaGNKY1NLbWZ6TXNYV3FmNm9BVjJ0Mktod2d3SWV6TWRjUDNkanRCVHdpRU9oZFgtc2RGbUx1TUwyMU0weVM2Ry0wOGJMN0VMZGM5VGhUdDJ5bWNjYWh0WHhWQlE?oc=5",
-   "ts": "2026-10-06T05:40:35Z",
-   "fuente": "Reuters",
-   "id": "83dc96d2d4",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Gold ’29: UCS needs to foster spaces for conservative discourse on campus",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdExNOXR1NVRFSUkta3p6SmwwLVkwY3pRUlAtOEJsVlNYNDVJZ2w0a19WeWNYcXA5NTNxRzIxeVU3MjJxUTBUN0t5by05UUpQZS12TzJCWEdHdjBfa3BZcnpmU1Z2MjQ5ZGxzOGJWbUVLdXlrNW5nM1lvSjN5a1dJUE16RXFyNEN0cHdNRGdrcFdNTklnX01SbFBFRW9xRTgxMlpCcndLOVEyQThZSVZpYnAyZ1R2VV8wZ05paFpn?oc=5",
-   "ts": "2026-10-06T05:06:59Z",
-   "fuente": "Brown Daily Herald",
-   "id": "97318e6995",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "How quant funds beat the market by being 'early, contrarian and right'",
-   "link": "https://www.cnbc.com/2026/10/06/trend-following-hedge-funds-beat-stock-market.html",
-   "ts": "2026-10-06T05:00:01Z",
-   "fuente": "CNBC",
-   "id": "589ac15680",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Stock futures edge higher after Nasdaq hits new record: Live updates",
-   "link": "https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html",
-   "ts": "2026-10-06T04:40:18Z",
-   "fuente": "CNBC",
-   "id": "4ee26b44a4",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -4039,16 +4041,16 @@
    [
     1791288000,
     4201.7,
-    4204.6,
+    4205.4,
     4201.2,
-    4204.6
+    4204.2
    ],
    [
-    1791288155,
-    4204.2,
-    4204.2,
-    4204.2,
-    4204.2
+    1791288451,
+    4204.4,
+    4204.4,
+    4204.4,
+    4204.4
    ]
   ],
   "nq": [
@@ -4594,16 +4596,16 @@
    [
     1791288000,
     31509.25,
-    31520.75,
+    31526.75,
     31502.25,
-    31516.0
+    31519.75
    ],
    [
-    1791288154,
-    31513.75,
-    31513.75,
-    31513.75,
-    31513.75
+    1791288450,
+    31522.0,
+    31522.0,
+    31522.0,
+    31522.0
    ]
   ],
   "vix": [
@@ -5032,14 +5034,21 @@
     15.35,
     15.35,
     15.28,
-    15.31
+    15.32
    ],
    [
-    1791287851,
-    15.31,
-    15.31,
-    15.31,
-    15.31
+    1791288000,
+    15.32,
+    15.33,
+    15.32,
+    15.32
+   ],
+   [
+    1791288151,
+    15.32,
+    15.32,
+    15.32,
+    15.32
    ]
   ]
  },
