@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro — · NQ — · VIX 15.52 · 12 noticias nuevas",
-   "actualizado": "2026-10-06T04:07:34Z"
+   "ultimo_resultado": "Oro 4156.4 · NQ — · VIX 15.52 · 13 noticias nuevas",
+   "actualizado": "2026-10-06T04:12:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T04:07:33Z",
-   "ultimo_resultado": "12 titulares nuevos: Nasdaq Hits Fresh Highs While Dow Slips and Small Caps Struggle for Direction"
+   "actualizado": "2026-10-06T04:12:35Z",
+   "ultimo_resultado": "13 titulares nuevos: World Bank warns of AI concentration risks as it lifts East Asia and Pacific growth outlook to 4.5%"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4156.4 · NQ — · VIX 15.52 · 13 noticias nuevas",
+   "ts": "2026-10-06T04:12:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro — · NQ — · VIX 15.52 · 12 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "macro",
    "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
    "ts": "2026-10-05T12:32:51Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Todavía no hay operaciones cerradas para medir.",
-   "ts": "2026-10-05T12:32:49Z"
   }
  ],
  "briefs": [
@@ -2441,10 +2441,20 @@
   }
  },
  "en_vivo": {
+  "oro": 4156.4,
   "vix": 15.52,
-  "ts": "2026-10-06T04:07:34Z"
+  "ts": "2026-10-06T04:12:35Z"
  },
  "noticias": [
+  {
+   "titulo": "World Bank warns of AI concentration risks as it lifts East Asia and Pacific growth outlook to 4.5%",
+   "link": "https://www.cnbc.com/2026/10/06/world-bank-east-asia-growth-inflation-ai-exports-.html",
+   "ts": "2026-10-06T04:07:24Z",
+   "fuente": "CNBC",
+   "id": "0f36e35837",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Our Pick Of The Best Canadian Penny Stocks In October 2026",
    "link": "https://finance.yahoo.com/markets/stocks/articles/pick-best-canadian-penny-stocks-031102172.html?.tsrc=rss",
@@ -3352,17 +3362,6 @@
    "impacto": "alto",
    "es": "Nasdaq listo para nuevo récord mientras suben los rendimientos del Tesoro",
    "efecto": "Mantiene apetito por riesgo en tecnología pese a tasas altas."
-  },
-  {
-   "titulo": "US stocks rise to the edge of an all-time high",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5RbU5XVlk3MTMxaFVqbTEwTWhTMTJKbFljZkc5VVgzak03LTl5UkY4S1phV2pud0hSTHhCdW5TTzNOWXZmNzlTQXUwdWZyYXFnY0dUNnZrc3BtYk1jVlFtWE5aeTQ0MHl3d0dyVFpSV3gzQQ?oc=5",
-   "ts": "2026-10-05T18:28:14Z",
-   "fuente": "Boston Herald",
-   "id": "59b4431892",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3841,22 +3840,22 @@
     1791248400,
     4178.1,
     4179.6,
-    4156.0,
-    4157.2
+    4161.1,
+    4163.6
    ],
    [
-    1791252000,
-    4157.0,
-    4158.0,
-    4155.6,
-    4155.6
+    1791259200,
+    4155.8,
+    4157.1,
+    4154.2,
+    4156.0
    ],
    [
-    1791259043,
-    4154.0,
-    4154.0,
-    4154.0,
-    4154.0
+    1791259351,
+    4156.4,
+    4156.4,
+    4156.4,
+    4156.4
    ]
   ],
   "nq": [
@@ -4326,22 +4325,15 @@
     1791248400,
     31392.0,
     31411.25,
-    31330.0,
-    31338.0
+    31343.75,
+    31353.25
    ],
    [
-    1791252000,
-    31337.5,
-    31340.5,
-    31327.75,
-    31333.75
-   ],
-   [
-    1791259049,
-    31347.0,
-    31347.0,
-    31347.0,
-    31347.0
+    1791259193,
+    31349.5,
+    31349.5,
+    31349.5,
+    31349.5
    ]
   ],
   "vix": [
