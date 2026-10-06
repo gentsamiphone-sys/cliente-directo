@@ -955,9 +955,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de E Lake Mead Blvd…",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-06T21:02:34Z"
+   "actualizado": "2026-10-06T21:02:35Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -985,6 +985,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de E Lake Mead Blvd…",
+   "ts": "2026-10-06T21:02:35Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 39 textos listos para mandar",
@@ -2479,11 +2484,6 @@
    "agente": "gerente",
    "texto": "Contando cómo vamos hoy…",
    "ts": "2026-10-04T21:29:28Z"
-  },
-  {
-   "agente": "vendedor",
-   "texto": "Terminó su turno: 0 enviados, 0 en borrador, 6 textos listos para ti",
-   "ts": "2026-10-04T21:05:38Z"
   }
  ],
  "reportes": {
