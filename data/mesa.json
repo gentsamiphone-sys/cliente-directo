@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4187.3 · NQ 31444.0 · VIX 15.35 · 7 noticias nuevas",
-   "actualizado": "2026-10-06T11:07:34Z"
+   "ultimo_resultado": "Oro 4185.9 · NQ 31447.25 · VIX 15.35 · 4 noticias nuevas",
+   "actualizado": "2026-10-06T11:12:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T11:07:33Z",
-   "ultimo_resultado": "7 titulares nuevos: Meta Muse gives AMD a boost as AI momentum shifts to personal agents"
+   "actualizado": "2026-10-06T11:12:31Z",
+   "ultimo_resultado": "4 titulares nuevos: Unsure how long this AI bull has? Bonds now offer a cushion at the best values in years"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4185.9 · NQ 31447.25 · VIX 15.35 · 4 noticias nuevas",
+   "ts": "2026-10-06T11:12:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4187.3 · NQ 31444.0 · VIX 15.35 · 7 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-10-05T21:33:00Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 4167.6 · NQ 31339.5.",
-   "ts": "2026-10-05T21:32:59Z"
   }
  ],
  "briefs": [
@@ -2617,12 +2617,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4187.3,
-  "nq": 31444.0,
+  "oro": 4185.9,
+  "nq": 31447.25,
   "vix": 15.35,
-  "ts": "2026-10-06T11:07:33Z"
+  "ts": "2026-10-06T11:12:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Unsure how long this AI bull has? Bonds now offer a cushion at the best values in years",
+   "link": "https://www.cnbc.com/2026/10/06/unsure-how-long-this-ai-bull-has-bonds-now-offer-a-cushion-at-the-best-values-in-years.html",
+   "ts": "2026-10-06T11:08:28Z",
+   "fuente": "CNBC",
+   "id": "c335682392",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Meta Muse gives AMD a boost as AI momentum shifts to personal agents",
    "link": "https://www.cnbc.com/2026/10/06/meta-muse-gives-amd-a-boost-as-ai-momentum-shifts-to-personal-agents-.html",
@@ -2633,6 +2642,15 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Canterra Minerals Expands Lundberg Indicated Mineral Resource by 55% to 26.1 Mt at the Buchans Project in Newfoundland",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/canterra-minerals-expands-lundberg-indicated-110000507.html?.tsrc=rss",
+   "ts": "2026-10-06T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "d579bcc551",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Everspin Technologies to Ring Opening Bell in Celebration of 10-Year Nasdaq Anniversary",
@@ -3280,6 +3298,17 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Dow Jones Futures: Nasdaq Hits Record Highs; TSMC, Nvidia, Elon Musk-Led SpaceX, Tesla Rally",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTUZva3I0Qzg1RmVvWS1lVFU5RjZjOHVvX2hvYXhfbnc3dmVYZmdVeWdKQ3JuQmFBUkUwWnlpM0h3ZUdPTnhvWGh6UEwxQzZ4eHpaNlFlLTNRd3JuZ3M5WlJOZ0NSZkl5cmZHNHhraTEtY3hvQnpIcUZVTm54TzlBZGRCU0VSeFJHbFgtcFJuQ2VtNlZBUFNZaHhLT0VaVW9Mcm9XM3l6MHhPXzE2M1ZVUHQxUmtmRUhWbzZNYVVMazFHUQ?oc=5",
+   "ts": "2026-10-06T02:38:00Z",
+   "fuente": "Investor's Business Daily",
+   "id": "9bc490dfb5",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Watch Treasury Yields Hit Highest Level Since 2002",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SQUxXaHZTb3JuUmNyaTdQckFSV2RyYjE1WGtaSlRCUzNNTzBxNlpkeVUwb1owMFJ6djJaR2RraVZFeTlKVmpDR25pdHVTbm9BX0Q0Zi1Bb24yZ0JjQ3RieGxzUFU2b2N0S0ZWM0QzQzgxR3VTaDlmbFVVVlhjVEk?oc=5",
    "ts": "2026-10-06T02:31:53Z",
@@ -3449,45 +3478,6 @@
     "oro"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Gold slips as dollar, Treasury yields offset fading Fed hike bets ahead of minutes",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-4-140-012306866.html?.tsrc=rss",
-   "ts": "2026-10-06T01:23:06Z",
-   "fuente": "Yahoo Finance",
-   "id": "0e5ab3447a",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Gold holds near $4,140 as dollar, yields offset lower Fed hike expectations",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-4-140-012306866.html?.tsrc=rss",
-   "ts": "2026-10-06T01:23:06Z",
-   "fuente": "Yahoo Finance",
-   "id": "e14020a5ea",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Long-Term JGB Yield Higher Following Gains in U.S. Treasury Yields",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTGt6dmVzelcxTWdpT3llZ3hzRkV1WmFsM2wxU2JkS082RnFOU1Z2OW81cWJtUWNMMF9SanR1Mk56WURGS3BRYnUwcUl3R0xVaW1hZ09vNDJ5aENwc0RtS083bGVoOG9rMXNaLXhmZFgwRmVvRnNqZ2Z0X1h5TGNKYjdzLTVPZDdwOUxwOXIwYXZaY0NoTmwyeHpOTTUxTVZYZFhLdw?oc=5",
-   "ts": "2026-10-06T00:51:00Z",
-   "fuente": "WSJ",
-   "id": "b240460ed7",
-   "activos": [
-    "dolar",
-    "nq",
-    "oro"
-   ],
-   "impacto": "alto",
-   "es": "El rendimiento de los JGB a largo plazo sube tras el alza de los bonos del Tesoro de EE. UU.",
-   "efecto": "Mayor rendimiento de bonos presiona al NQ a la baja y fortalece el dólar."
   }
  ],
  "eventos_avisados": [],
@@ -4030,14 +4020,21 @@
     4179.9,
     4188.7,
     4176.2,
-    4187.1
+    4186.1
    ],
    [
-    1791284245,
+    1791284400,
+    4186.5,
     4187.3,
-    4187.3,
-    4187.3,
-    4187.3
+    4185.4,
+    4186.3
+   ],
+   [
+    1791284549,
+    4185.9,
+    4185.9,
+    4185.9,
+    4185.9
    ]
   ],
   "nq": [
@@ -4571,14 +4568,21 @@
     31407.5,
     31462.75,
     31393.0,
-    31443.25
+    31443.75
    ],
    [
-    1791284252,
-    31444.75,
-    31444.75,
-    31444.75,
-    31444.75
+    1791284400,
+    31443.5,
+    31453.5,
+    31440.25,
+    31449.0
+   ],
+   [
+    1791284548,
+    31447.25,
+    31447.25,
+    31447.25,
+    31447.25
    ]
   ],
   "vix": [
@@ -4999,11 +5003,11 @@
     1791280800,
     15.43,
     15.44,
-    15.35,
-    15.36
+    15.34,
+    15.34
    ],
    [
-    1791283951,
+    1791284251,
     15.35,
     15.35,
     15.35,
