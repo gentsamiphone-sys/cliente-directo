@@ -1,10 +1,10 @@
 {
  "agentes": {
   "cio": {
-   "estado": "trabajando",
-   "tarea": "Escribiendo el brief institucional…",
-   "actualizado": "2026-10-06T12:33:12Z",
-   "ultimo_resultado": "Brief de Londres publicado: DXY presiona al oro a la baja mientras NQ busca máximos apoyado por VIX bajo"
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-06T12:35:19Z",
+   "ultimo_resultado": "Brief de Nueva York publicado: Brief de Nueva York"
   },
   "macro": {
    "estado": "descansando",
@@ -50,6 +50,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "cio",
+   "texto": "Brief de Nueva York publicado: Brief de Nueva York",
+   "ts": "2026-10-06T12:35:19Z"
+  },
   {
    "agente": "cio",
    "texto": "Escribiendo el brief institucional…",
@@ -1044,14 +1049,162 @@
    "agente": "vigilante",
    "texto": "Oro 4170.2 · NQ 31361.25 · VIX 15.52 · 15 noticias nuevas",
    "ts": "2026-10-05T22:27:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4169.2 · NQ 31358.0 · VIX 15.52 · 15 noticias nuevas",
-   "ts": "2026-10-05T22:22:36Z"
   }
  ],
  "briefs": [
+  {
+   "sesion": "nuevayork",
+   "nombre": "Nueva York",
+   "ts": "2026-10-06T12:35:19Z",
+   "texto": "1. **Sesgo institucional** — ORO: Alcista (presión compradora rompiendo máximos previos a pesar de tasas altas); NQ: Alcista (impulso por récord histórico y VIX a la baja).\n2. **Lo que mueve hoy** — DXY baje (-0.36%), US10Y al alza (5.311%, +0.64%), VIX en 15.3 (-1.42%). Calendario: FOMC Meeting Minutes a las Wed 11:00 (Las Vegas).\n3. **Posicionamiento** — Oro: Fondos largos en 131,711 vs cortos 11,393 (neto 120,318), espacio para seguir pero con riesgo de barridas. NQ: Asset Managers netos en 69,744 y Leveraged Funds netos en -24,723 (cortos atrapados en máximos).\n4. **Mapa de liquidez** — \n   - Oro: Arriba (PWH 4259.0, máx 20d 4479.9), Abajo (PWL 4145.2, PDL 4150.4), Valor Justo (VWAP 4170.7), Imán más probable: PWH 4259.0.\n   - NQ: Arriba (max 20d 31539.0), Abajo (PDL 30957.5, PWL 30372.25), Valor Justo (VWAP 31404.95), Imán más probable: Máximo de 20 días 31539.0.\n5. **Escenarios** — \n   - Oro Escenario A (Alcista): Disparador rompimiento y cierre sobre 4208.0, Objetivo 4259.0, Invalidación 4155.5. Escenario B (Bajista): Disparador pérdida de 4155.5, Objetivo 4130.7, Invalidación 4198.9.\n   - NQ Escenario A (Alcista): Disparador ruptura de 31539.0, Objetivo 31762.04, Invalidación 31309.25. Escenario B (Bajista): Disparador rechazo en 31539.0 con caída bajo 31309.25, Objetivo 30957.5, Invalidación 31539.0.\n6. **Riesgo** — Oro: Rango esperado 4164.24 – 4248.15, consumido 92%. NQ: Rango esperado 31274.46 – 31762.04, consumido 47%. Horas peligrosas: apertura NY y minuta FOMC. Mesa reduce tamaño por consumo de ATR en oro.\n7. **VIX y NQ (confluencia)** — VIX en 15.3, bajo su media de 20 (15.91) y operando en contango (0.85). Correlación 48h de -0.55. El VIX CONFIRMA el sesgo alcista de NQ. Invalidación alcista de NQ si el VIX rompe el PDH de 16.38.\n8. **Plan de entrada institucional (Gent ejecuta)** — \n   - ORO: \n     - Dirección: SIN ENTRADA\n     - Zona de entrada: N/A\n     - Confirmación: N/A\n     - Stop: N/A\n     - TP1 / TP2: N/A\n     - R:R: N/A\n     - Cancelar si: N/A\n     - Confluencias: 3/5 ((1) macro/dólar, (2) COT, (4) valor justo). Menos de 4/5.\n   - NQ: \n     - Dirección: SIN ENTRADA\n     - Zona de entrada: N/A\n     - Confirmación: N/A\n     - Stop: N/A\n     - TP1 / TP2: N/A\n     - R:R: N/A\n     - Cancelar si: N/A\n     - Confluencias: 3/5 ((1) macro/dólar, (2) COT, (3) VIX confirma). Menos de 4/5 requeridas por regla de la mesa.\n9. **Nota para tu regla Ruptura EMA9 (1H)** — Una ruptura alcista de EMA9 en 1H no tiene sentido operativo actual ya que NQ está cerca de su máximo de 20 días (31539.0) y el oro ha consumido el 92% de su ATR diario, dejando la liquidez a favor a menos de 2 ATR.\n\nAnálisis educativo de agentes de IA. No es consejo financiero.",
+   "sesgo": {
+    "oro": "?",
+    "nq": "?"
+   },
+   "titular": "Brief de Nueva York",
+   "entradas": [],
+   "mapas": {
+    "oro": {
+     "precio": 4206.2,
+     "cambio_dia_pct": 1.19,
+     "PDH": 4198.9,
+     "PDL": 4150.4,
+     "PDC": 4156.8,
+     "PWH": 4259.0,
+     "PWL": 4145.2,
+     "ATR14_diario": 83.91,
+     "ATR14_1h": 15.1,
+     "EMA20_diaria": 4285.99,
+     "EMA50_diaria": 4332.68,
+     "EMA200_diaria": 4454.6,
+     "max_20d": 4479.9,
+     "min_20d": 4130.7,
+     "asia_hoy": {
+      "max": 4179.6,
+      "min": 4130.7
+     },
+     "londres_hoy": {
+      "max": 4208.0,
+      "min": 4155.5
+     },
+     "ny_ayer": {
+      "max": 4186.1,
+      "min": 4150.4
+     },
+     "vwap_hoy": 4170.7,
+     "rango_hoy": {
+      "max": 4208.0,
+      "min": 4130.7
+     },
+     "rango_hoy_vs_atr_pct": 92
+    },
+    "nq": {
+     "precio": 31518.25,
+     "cambio_dia_pct": 0.64,
+     "PDH": 31371.0,
+     "PDL": 30957.5,
+     "PDC": 31317.75,
+     "PWH": 31371.0,
+     "PWL": 30372.25,
+     "ATR14_diario": 487.59,
+     "ATR14_1h": 47.71,
+     "EMA20_diaria": 30472.83,
+     "EMA50_diaria": 29915.57,
+     "EMA200_diaria": 28001.65,
+     "max_20d": 31539.0,
+     "min_20d": 28763.75,
+     "asia_hoy": {
+      "max": 31411.25,
+      "min": 31309.25
+     },
+     "londres_hoy": {
+      "max": 31539.0,
+      "min": 31340.0
+     },
+     "ny_ayer": {
+      "max": 31371.0,
+      "min": 30988.5
+     },
+     "vwap_hoy": 31404.95,
+     "rango_hoy": {
+      "max": 31539.0,
+      "min": 31309.25
+     },
+     "rango_hoy_vs_atr_pct": 47
+    }
+   },
+   "vix_nq": {
+    "vix": 15.3,
+    "cambio_1d_pct": -1.42,
+    "vix_PDH": 16.38,
+    "vix_PDL": 15.48,
+    "vix_media20": 15.91,
+    "vix_max_20d": 18.94,
+    "vix_min_20d": 14.12,
+    "vix_vs_vix3m": 0.85,
+    "estructura": "contango (calma normal)",
+    "correlacion_48h": -0.55,
+    "nq_6h_pct": 0.56,
+    "vix_6h_pct": -1.42,
+    "lectura": "CONFIRMA ALCISTA: NQ sube y el VIX baja (apetito de riesgo real)"
+   },
+   "macro": {
+    "dxy": {
+     "ultimo": 101.801,
+     "cambio_1d_pct": -0.36,
+     "cambio_5d_pct": 0.43
+    },
+    "us10y": {
+     "ultimo": 5.311,
+     "cambio_1d_pct": 0.64,
+     "cambio_5d_pct": 1.35
+    },
+    "vix": {
+     "ultimo": 15.3,
+     "cambio_1d_pct": -1.42,
+     "cambio_5d_pct": -4.61
+    },
+    "spx": {
+     "ultimo": 7864.0,
+     "cambio_1d_pct": 0.48,
+     "cambio_5d_pct": 1.71
+    },
+    "plata": {
+     "ultimo": 61.83,
+     "cambio_1d_pct": 1.58,
+     "cambio_5d_pct": 1.92
+    },
+    "petroleo": {
+     "ultimo": 86.94,
+     "cambio_1d_pct": -2.78,
+     "cambio_5d_pct": -2.73
+    }
+   },
+   "eventos": [
+    {
+     "hora_lv": "Wed 11:00",
+     "evento": "FOMC Meeting Minutes",
+     "impacto": "High",
+     "previsto": "",
+     "anterior": ""
+    }
+   ],
+   "cot": {
+    "oro": {
+     "fecha": "2026-09-29",
+     "interes_abierto": 406456,
+     "fondos_largos": 131711,
+     "fondos_cortos": 11393,
+     "fondos_neto": 120318
+    },
+    "nq": {
+     "fecha": "2026-09-29",
+     "interes_abierto": 270554,
+     "asset_managers_neto": 69744,
+     "leveraged_funds_neto": -24723
+    }
+   }
+  },
   {
    "sesion": "londres",
    "nombre": "Londres",
