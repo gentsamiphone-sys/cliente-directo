@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4200.0 · NQ 31489.75 · VIX 15.32 · 13 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-06T13:02:39Z"
+   "ultimo_resultado": "Oro 4197.4 · NQ 31487.75 · VIX 15.32 · 15 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-06T13:07:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T13:02:39Z",
-   "ultimo_resultado": "13 titulares nuevos, 2 de alto impacto: Anduril lands $2.9 billion Navy submarine shipyard contract days after CEO joins Pentagon weapons group"
+   "actualizado": "2026-10-06T13:07:33Z",
+   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: This startup wants to reduce liquidation risk from margin calls on prediction markets"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4197.4 · NQ 31487.75 · VIX 15.32 · 15 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-06T13:07:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4200.0 · NQ 31489.75 · VIX 15.32 · 13 noticias nuevas (2 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4168.4 · NQ 31331.75 · VIX 15.52 · 15 noticias nuevas",
    "ts": "2026-10-05T23:02:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4168.8 · NQ 31327.0 · VIX 15.52 · 15 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-05T22:57:32Z"
   }
  ],
  "briefs": [
@@ -2778,12 +2778,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4200.0,
-  "nq": 31489.75,
+  "oro": 4197.4,
+  "nq": 31487.75,
   "vix": 15.32,
-  "ts": "2026-10-06T13:02:39Z"
+  "ts": "2026-10-06T13:07:33Z"
  },
  "noticias": [
+  {
+   "titulo": "This startup wants to reduce liquidation risk from margin calls on prediction markets",
+   "link": "https://www.cnbc.com/2026/10/06/this-firm-aims-to-reduce-liquidation-risk-from-margin-calls-on-prediction-markets.html",
+   "ts": "2026-10-06T13:01:20Z",
+   "fuente": "CNBC",
+   "id": "3d6e429a79",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Anduril lands $2.9 billion Navy submarine shipyard contract days after CEO joins Pentagon weapons group",
    "link": "https://www.cnbc.com/2026/10/06/anduril-navy-submarine-shipyard-contract.html",
@@ -2801,6 +2810,26 @@
    "id": "6e17ba8021",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "DeepSeek considers doubling latest funding round to up to $15 billion, sources say",
+   "link": "https://www.cnbc.com/2026/10/06/deepseek-funding-round.html",
+   "ts": "2026-10-06T12:59:10Z",
+   "fuente": "CNBC",
+   "id": "9ccd751cd9",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "US Treasury yields are \"screaming good value\" says PIMCO senior advisor",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWmVRdHA4bVRsVmVyUThxTVdUb3AzNklqYnNDS2JvVVVEa2hnbk1qaHVWcHBnN1Bya2piTTM3eEkxRWxrZVE4WDRidzAyZGFocEFVYjN6RENUWm9rbFBKQ1hQRlM5Qi12eTFKV2dxNF80MHF1Xy12NkR6SG9kcllSR2JlalFQZXdPYUtOeXhfMHlwdGdZbEZXTk96ZzhPS3MtUjFfRkNXNzFiWkJzTFNLTVJVQk8?oc=5",
+   "ts": "2026-10-06T12:58:09Z",
+   "fuente": "Reuters",
+   "id": "d772277437",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Paramount's hard-fought takeover of Warner Bros. Discovery closed Tuesday. Here's how we got here",
@@ -2826,6 +2855,15 @@
    "ts": "2026-10-06T12:46:04Z",
    "fuente": "CNBC",
    "id": "0ebdad03a4",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "U.S. Trade Deficit Widens in August",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE41cmdCYWpkdGxsdVd6M0pGSTJDU3R2RXhvaS1sTFU4d0xpSi1LVlVNUWRRYUhFR2tkZUpBUVQ0cjF4ZkszZ1hYUXV5RW5EUXUwbHdkbUVTV0xYSk9fbkRJLUh5YTNCQjd1blh1OXNZY3djRG5pREYtb3dPeGpRdw?oc=5",
+   "ts": "2026-10-06T12:42:54Z",
+   "fuente": "The New York Times",
+   "id": "71ccd300df",
    "activos": [],
    "impacto": "bajo"
   },
@@ -3586,52 +3624,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "NYSE Owner Launches Gold Futures in London",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUzlmSUpiM0NHNGFHZXFIT2E0VmpKYUNoSS12eHFxWmhON3U2NHdYWkhzNzNhMkVmWWQ0STgwSHRTOFJ6Vkxfc0wwUUVvcm1YQ28yVndrZGpqVVA0SlNoUVBiUmFOODZkMFdYbVlMbEpDTFZaMXRNLW1vZ2ZrTjRxcXZsNVJ0UGlWamhWQ1V0UXZtalAycXQ5M2NMVnNENkFq?oc=5",
-   "ts": "2026-10-06T09:14:19Z",
-   "fuente": "WSJ",
-   "id": "f12dd3a921",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Provenance Gold Provides an Update on the First Two Core Holes at Eldorado West, Encountering Numerous Zones of Mineralization and Associated Alteration",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUHpmcktOWmNjTXA0aUNmQkJjaVFveHV2V3ZoeHl3ekl6bHhPTlV5SEktS3RBbF9jLUFRcVpGVDM1NHIzVkNtemF2clFnNGJ1QVYxaGZJdkw3eGctNnVoU2NnTVhzNkZvazNRR2lnalhvaHNwOHM3SHJJbExUMnQyaDByUEJoSVNZM2Fla3VUcjRhcEQwWmpFV0VDMU9TTmFhLW0tZGJVbw?oc=5",
-   "ts": "2026-10-06T09:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "ddcea40f05",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Bitcoin Falls as Dollar Rises, Geopolitical Tensions Persist",
-   "link": "https://finance.yahoo.com/m/854c4ac2-f275-30e7-94b5-4d11292f82d5/bitcoin-falls-as-dollar.html?.tsrc=rss",
-   "ts": "2026-10-06T08:58:57Z",
-   "fuente": "Yahoo Finance",
-   "id": "3e61aefc12",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Yemen forces reclaim key Red Sea port city from Iran-backed Houthis in major counteroffensive",
-   "link": "https://www.cnbc.com/2026/10/06/iran-war-yemen-saudi-arabia-mokha-oil.html",
-   "ts": "2026-10-06T08:53:50Z",
-   "fuente": "CNBC",
-   "id": "74d3c188f2",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio",
-   "es": "Fuerzas de Yemen recuperan puerto clave del Mar Rojo de los hutíes respaldados por Irán",
-   "efecto": "Genera leve presión alcista en el oro por riesgo geopolítico en Medio Oriente."
   }
  ],
  "eventos_avisados": [],
@@ -4188,14 +4180,14 @@
     4201.7,
     4208.0,
     4193.5,
-    4198.3
+    4199.3
    ],
    [
-    1791291155,
-    4200.0,
-    4200.0,
-    4200.0,
-    4200.0
+    1791291449,
+    4197.4,
+    4197.4,
+    4197.4,
+    4197.4
    ]
   ],
   "nq": [
@@ -4743,14 +4735,14 @@
     31509.25,
     31539.0,
     31455.0,
-    31492.75
+    31489.75
    ],
    [
-    1791291157,
-    31489.75,
-    31489.75,
-    31489.75,
-    31489.75
+    1791291452,
+    31488.0,
+    31488.0,
+    31488.0,
+    31488.0
    ]
   ],
   "vix": [
@@ -5184,12 +5176,12 @@
    [
     1791288000,
     15.32,
-    15.33,
+    15.35,
     15.29,
-    15.31
+    15.32
    ],
    [
-    1791290851,
+    1791291151,
     15.32,
     15.32,
     15.32,
