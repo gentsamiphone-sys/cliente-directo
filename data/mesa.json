@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4181.9 · NQ 31549.75 · VIX 15.43 · 14 noticias nuevas (5 alto impacto)",
-   "actualizado": "2026-10-06T14:12:42Z"
+   "ultimo_resultado": "Oro 4184.3 · NQ 31557.0 · VIX 15.53 · 12 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-06T14:17:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T14:12:41Z",
-   "ultimo_resultado": "14 titulares nuevos, 5 de alto impacto: S&P 500 y Nasdaq tocan nuevos máximos mientras bajan los rendimientos y el petróleo"
+   "actualizado": "2026-10-06T14:17:34Z",
+   "ultimo_resultado": "12 titulares nuevos, 1 de alto impacto: BC-Gold Futures"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4184.3 · NQ 31557.0 · VIX 15.53 · 12 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-06T14:17:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4181.9 · NQ 31549.75 · VIX 15.43 · 14 noticias nuevas (5 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4164.2 · NQ 31343.25 · VIX 15.52 · 15 noticias nuevas",
    "ts": "2026-10-06T00:12:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4162.2 · NQ 31349.25 · VIX 15.52 · 15 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-06T00:07:52Z"
   }
  ],
  "briefs": [
@@ -2778,10 +2778,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4181.9,
-  "nq": 31549.75,
-  "vix": 15.43,
-  "ts": "2026-10-06T14:12:41Z"
+  "oro": 4184.3,
+  "nq": 31557.0,
+  "vix": 15.53,
+  "ts": "2026-10-06T14:17:35Z"
  },
  "noticias": [
   {
@@ -2806,6 +2806,17 @@
    "impacto": "alto",
    "es": "S&P 500 y Nasdaq tocan nuevos máximos mientras bajan los rendimientos y el petróleo",
    "efecto": "impulsa al Nasdaq al alza por menores rendimientos de bonos."
+  },
+  {
+   "titulo": "BC-Gold Futures",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-futures-140026645.html?.tsrc=rss",
+   "ts": "2026-10-06T14:00:26Z",
+   "fuente": "Yahoo Finance",
+   "id": "ef01beb2d8",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Google DeepMind's Lila Ibrahim, world's top AI 'readiness' officer, on preparing for what's to come",
@@ -3624,15 +3635,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "This household goods stock has lagged the broader market. Evercore ISI sees a comeback",
-   "link": "https://www.cnbc.com/2026/10/06/this-household-goods-stock-has-lagged-the-broader-market-evercore-isi-sees-a-comeback.html",
-   "ts": "2026-10-06T10:47:46Z",
-   "fuente": "CNBC",
-   "id": "aacccc551d",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [],
@@ -4201,16 +4203,16 @@
    [
     1791295200,
     4180.1,
-    4184.2,
+    4185.8,
     4179.1,
-    4181.5
+    4184.6
    ],
    [
-    1791295361,
-    4181.1,
-    4181.1,
-    4181.1,
-    4181.1
+    1791295652,
+    4184.3,
+    4184.3,
+    4184.3,
+    4184.3
    ]
   ],
   "nq": [
@@ -4770,16 +4772,16 @@
    [
     1791295200,
     31548.5,
-    31561.5,
-    31542.75,
-    31546.5
+    31574.75,
+    31523.5,
+    31562.75
    ],
    [
-    1791295361,
-    31549.25,
-    31549.25,
-    31549.25,
-    31549.25
+    1791295653,
+    31557.0,
+    31557.0,
+    31557.0,
+    31557.0
    ]
   ],
   "vix": [
@@ -5220,16 +5222,23 @@
    [
     1791291600,
     15.3,
-    15.43,
+    15.49,
     15.28,
-    15.43
+    15.49
    ],
    [
-    1791295051,
-    15.43,
-    15.43,
-    15.43,
-    15.43
+    1791295200,
+    15.48,
+    15.5,
+    15.48,
+    15.5
+   ],
+   [
+    1791295351,
+    15.53,
+    15.53,
+    15.53,
+    15.53
    ]
   ]
  },
