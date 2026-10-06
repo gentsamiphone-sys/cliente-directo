@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4192.7 · NQ 31501.0 · VIX 15.01 · 15 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-06T22:02:37Z"
+   "ultimo_resultado": "Oro 4192.7 · NQ 31501.0 · VIX 15.01 · 15 noticias nuevas (4 alto impacto)",
+   "actualizado": "2026-10-06T22:07:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T22:02:36Z",
-   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: S&P 500 and Nasdaq notch record closes"
+   "actualizado": "2026-10-06T22:07:31Z",
+   "ultimo_resultado": "15 titulares nuevos, 4 de alto impacto: Ex-CIA official pleads guilty to $195 million fraud involving gold bars"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4192.7 · NQ 31501.0 · VIX 15.01 · 15 noticias nuevas (4 alto impacto)",
+   "ts": "2026-10-06T22:07:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4192.7 · NQ 31501.0 · VIX 15.01 · 15 noticias nuevas (3 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "✅ NQ COMPRA: CONFIRMÓ · Oro 4167.6 · NQ 31383.25 · VIX 15.49 · 3 noticias nuevas",
    "ts": "2026-10-06T07:57:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4164.0 · NQ 31375.5 · VIX 15.5 · 4 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-06T07:52:46Z"
   }
  ],
  "briefs": [
@@ -2963,9 +2963,31 @@
   "oro": 4192.7,
   "nq": 31501.0,
   "vix": 15.01,
-  "ts": "2026-10-06T22:02:36Z"
+  "ts": "2026-10-06T22:07:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Ex-CIA official pleads guilty to $195 million fraud involving gold bars",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdmUydlJBcXFEOWZYdTR2NTlObklpYzYwTHRqNVcxc1R3clpvVkRaS0tLSGNfcXZNTGtWaHhsVGV4SVFhZ3lBYjdOVk9Oa05XbGhyM2p6ZFQwcEVRQ2ltQzNXZEMtWWlKTWZ1MXBRS3c0U2wtaFZWMTZWWV9wYnkzYTcwZDdCRnB4dElQcDZrQ3lpUnJFbWJHcXo3QUJodHhyVTU1QW5wYWhUNWR2T0JNODJXa2l2c0I1NlFoR2ZuNUg?oc=5",
+   "ts": "2026-10-06T22:02:31Z",
+   "fuente": "The Washington Post",
+   "id": "75971cdde9",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Gold Is Becoming More of a Reserve Currency, Taleb Says",
+   "link": "https://finance.yahoo.com/video/gold-becoming-more-currency-taleb-212814513.html?.tsrc=rss",
+   "ts": "2026-10-06T21:28:14Z",
+   "fuente": "Yahoo Finance",
+   "id": "15d852956c",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Treasury yields retreat from multi-decade highs",
    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE43d2xLWWRDbWxkc3p6QWJKMkgtY2h1TFpvU01UT1NHdTJDNDVEajhSQkQ0YUhibkpCTnZGNEV0ZFFGY0djSV9CSHIwUlAzbi1WR3ExdWM1b3QzM28?oc=5",
@@ -3199,6 +3221,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Meta Muse popularity lifts AMD stock to fresh highs as AI agents juice CPU sales",
+   "link": "https://www.cnbc.com/2026/10/06/meta-muse-gives-amd-a-boost-as-ai-momentum-shifts-to-personal-agents-.html",
+   "ts": "2026-10-06T20:05:53Z",
+   "fuente": "CNBC",
+   "id": "b31948965a",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Ex-CIA officer found with over $40M in gold bars pleads guilty to $194M fraud",
    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOXJZN3lWUGJIOHRBcnR5dUtBa1BuOEVFZVd5REV5MVVGQ2VkTzRSYm8xLWRoRGd4T1NmZFI5eEJZNW02VmRrLWNhaHl3X1ExdTdLR2tmR3hzdHE4WUFteGtjNTZaTndENmNGMUpvR0xxcW9nRjhVNHdpcTc3dF9hNEgwWlZNUXFNTEJIQ2NkMDAzVkI5dWfSAZsBQVVfeXFMTjNSY3FoOU5JQ3F0LUpRV1dIT3FxdDk4SzBYemJicmJxZDRVODdIb0VObjFYb0FrejNxNjRtcXF4RlZOTXlJNklZTXBubGUzVlhhWjlNUnliTmVXMkZKLW9YbjlUdlkxalFzVm9xNUEwYWVoMTVRYzRqd01rdGw5RFhGSmRpemZQMVpsRjI2WXJmbDdYQk5EX0p1V2M?oc=5",
    "ts": "2026-10-06T20:02:03Z",
@@ -3239,6 +3272,15 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Most families of US troops killed in the Iran war's deadliest attack weren't at White House event",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa1VpOTVFYU5JaFIxSGZ4SFg1dTVDamJQb2xSc18zanA3Nkc3UGxJTmhXS24xTmxwbUlRb255NGtncnJpSU1fUDBzUzNSREtydzJhdFIzS1kzcEVESGw2UDY4dDN2Sll6Rzg3MlM5REhiOXJSSDYyZW02cWFsendNMGFTbTJyejRILWRMMXNOVzU4blMxQ2NIdHIwSXNTeGkxaFIzdg?oc=5",
+   "ts": "2026-10-06T19:40:00Z",
+   "fuente": "AP News",
+   "id": "5ce5871555",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Former CIA officer pleads guilty in gold bars case, admits to defrauding government of nearly $200M - ABC News",
@@ -3788,52 +3830,6 @@
    "id": "e6c10ffdc6",
    "activos": [
     "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "'Magnificent Seven' profit lag: How the rest of the stock market may outpace tech giants this earnings season",
-   "link": "https://www.cnbc.com/2026/10/06/how-the-rest-of-the-stock-market-may-outpace-tech-giants-this-earnings-season.html",
-   "ts": "2026-10-06T16:33:35Z",
-   "fuente": "CNBC",
-   "id": "d032014bf4",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto",
-   "es": "Las Siete Magníficas rezagadas en beneficios: el resto del mercado podría superar a las tecnológicas",
-   "efecto": "Rota capital fuera de tecnológicas, presionando al NQ a la baja."
-  },
-  {
-   "titulo": "Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
-   "link": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html",
-   "ts": "2026-10-06T16:19:10Z",
-   "fuente": "CNBC",
-   "id": "0ebdad03a4",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Update: Big Tech Helps S&P 500, Nasdaq Composite Scale New Peaks",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMk1Bb1pMX3RNZElyWUhoMWpGRFM3cDhvZ3VKNk1yU1U4Uml5cVRKUkk5ZENWQWdyUDNVQ1BSVnZ3UU1PNENGRkxsS201V2hzaXlWaE9ZVVg0cjBqU3FYUGo1Z29EeVYwX0g1QWp5MEwzbkl6dzJjSTY5YWw4SXRRRE1VanJaUm9OUUpaX3VB?oc=5",
-   "ts": "2026-10-06T16:17:35Z",
-   "fuente": "Yahoo Finance",
-   "id": "9ceab7d47e",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto",
-   "es": "Las grandes tecnológicas impulsan al S&P 500 y al Nasdaq Composite a nuevos máximos",
-   "efecto": "Impulsa compras institucionales en el Nasdaq por optimismo tecnológico."
-  },
-  {
-   "titulo": "US Treasury yields are \"screaming good value\" says PIMCO senior advisor",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWmVRdHA4bVRsVmVyUThxTVdUb3AzNklqYnNDS2JvVVVEa2hnbk1qaHVWcHBnN1Bya2piTTM3eEkxRWxrZVE4WDRidzAyZGFocEFVYjN6RENUWm9rbFBKQ1hQRlM5Qi12eTFKV2dxNF80MHF1Xy12NkR6SG9kcllSR2JlalFQZXdPYUtOeXhfMHlwdGdZbEZXTk96ZzhPS3MtUjFfRkNXNzFiWkJzTFNLTVJVQk8?oc=5",
-   "ts": "2026-10-06T16:15:50Z",
-   "fuente": "Reuters",
-   "id": "d772277437",
-   "activos": [
-    "dolar"
    ],
    "impacto": "medio"
   }
