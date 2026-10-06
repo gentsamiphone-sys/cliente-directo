@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4196.2 · NQ 31500.25 · VIX 15.32 · 8 noticias nuevas",
-   "actualizado": "2026-10-06T11:47:34Z"
+   "ultimo_resultado": "Oro 4198.4 · NQ 31505.25 · VIX 15.31 · 9 noticias nuevas",
+   "actualizado": "2026-10-06T11:52:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T11:47:33Z",
-   "ultimo_resultado": "8 titulares nuevos: SpaceX stock is taking off again, but with one key difference this time"
+   "actualizado": "2026-10-06T11:52:36Z",
+   "ultimo_resultado": "9 titulares nuevos: Lodestar Metals Reports High-Grade Gold at Gomes Prospect at the Gold Run Project in Nevada"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4198.4 · NQ 31505.25 · VIX 15.31 · 9 noticias nuevas",
+   "ts": "2026-10-06T11:52:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4196.2 · NQ 31500.25 · VIX 15.32 · 8 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "auditor",
    "texto": "Historial: 2 operaciones, 50% de acierto, +0.11 R.",
    "ts": "2026-10-05T21:33:56Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Revisando cómo salieron las entradas anteriores…",
-   "ts": "2026-10-05T21:33:55Z"
   }
  ],
  "briefs": [
@@ -2617,10 +2617,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4196.2,
-  "nq": 31500.25,
-  "vix": 15.32,
-  "ts": "2026-10-06T11:47:34Z"
+  "oro": 4198.4,
+  "nq": 31505.25,
+  "vix": 15.31,
+  "ts": "2026-10-06T11:52:36Z"
  },
  "noticias": [
   {
@@ -2640,6 +2640,18 @@
    "id": "0a2025c8e6",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Lodestar Metals Reports High-Grade Gold at Gomes Prospect at the Gold Run Project in Nevada",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/lodestar-metals-reports-high-grade-113500759.html?.tsrc=rss",
+   "ts": "2026-10-06T11:35:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "9ae45dbe81",
+   "activos": [
+    "oro",
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "I Think BND Is the Best Bond ETF for Most Investors: Here's Why I'm Buying More in 2026.",
@@ -2739,6 +2751,17 @@
    "id": "c335682392",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Treasury yields fall as oil prices slide",
+   "link": "https://www.cnbc.com/2026/10/06/treasury-yields-fed-fomc-minutes.html",
+   "ts": "2026-10-06T11:04:49Z",
+   "fuente": "CNBC",
+   "id": "93402fcf53",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Stock futures rise after Nasdaq hits new record high",
@@ -3460,28 +3483,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Gold Price Outlook: Bears Target 4,000 Before a Potential Rebound",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxON1dIcVNiSzhOcDNlZ0ZFXzhBSjZ5TXgycE9FR2RZcVNQT0FJdFZBNG1leS13ZFowTktwanVSOUJlMG8zdzl5dUY0aTJXUkNVSGRRLWdRZ0EyWTRqNkF4czJVVmk3TDloWFVqWkt6R1p3S2tqWDJVUzFpV0oxSmtTd0ZlMmdhd2F1ZU9aOHZHWm8yV0ZiSmFSUVphdEotNmpqYzZhXy1rU0dCd1BuLTZ0RFFHWjdOT092dGpTN2RBNHY?oc=5",
-   "ts": "2026-10-06T03:13:14Z",
-   "fuente": "StoneX",
-   "id": "a89de98084",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Our Pick Of The Best Canadian Penny Stocks In October 2026",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/pick-best-canadian-penny-stocks-031102172.html?.tsrc=rss",
-   "ts": "2026-10-06T03:11:02Z",
-   "fuente": "Yahoo Finance",
-   "id": "e0f93f77cf",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Las mejores acciones de centavo canadienses en octubre de 2026",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [],
@@ -4029,16 +4030,16 @@
    [
     1791284400,
     4186.5,
-    4197.8,
+    4200.2,
     4183.8,
-    4196.4
+    4198.4
    ],
    [
-    1791286651,
-    4196.2,
-    4196.2,
-    4196.2,
-    4196.2
+    1791286956,
+    4198.5,
+    4198.5,
+    4198.5,
+    4198.5
    ]
   ],
   "nq": [
@@ -4579,14 +4580,14 @@
     31443.5,
     31535.75,
     31440.25,
-    31502.25
+    31511.25
    ],
    [
-    1791286651,
-    31501.25,
-    31501.25,
-    31501.25,
-    31501.25
+    1791286954,
+    31509.75,
+    31509.75,
+    31509.75,
+    31509.75
    ]
   ],
   "vix": [
@@ -5015,14 +5016,14 @@
     15.35,
     15.35,
     15.28,
-    15.32
+    15.3
    ],
    [
-    1791286351,
-    15.32,
-    15.32,
-    15.32,
-    15.32
+    1791286651,
+    15.31,
+    15.31,
+    15.31,
+    15.31
    ]
   ]
  },
