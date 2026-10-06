@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4188.4 · NQ 31451.0 · VIX 15.36 · 2 noticias nuevas",
-   "actualizado": "2026-10-06T11:03:12Z"
+   "ultimo_resultado": "Oro 4187.3 · NQ 31444.0 · VIX 15.35 · 7 noticias nuevas",
+   "actualizado": "2026-10-06T11:07:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T11:03:11Z",
-   "ultimo_resultado": "2 titulares nuevos: Starbucks entra en Xinjiang en un riesgo geopolítico calculado"
+   "actualizado": "2026-10-06T11:07:33Z",
+   "ultimo_resultado": "7 titulares nuevos: Meta Muse gives AMD a boost as AI momentum shifts to personal agents"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4187.3 · NQ 31444.0 · VIX 15.35 · 7 noticias nuevas",
+   "ts": "2026-10-06T11:07:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4188.4 · NQ 31451.0 · VIX 15.36 · 2 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "liquidez",
    "texto": "Mapa listo: oro 4167.6 · NQ 31339.5.",
    "ts": "2026-10-05T21:32:59Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
-   "ts": "2026-10-05T21:32:57Z"
   }
  ],
  "briefs": [
@@ -2617,12 +2617,34 @@
   }
  },
  "en_vivo": {
-  "oro": 4188.4,
-  "nq": 31451.0,
-  "vix": 15.36,
-  "ts": "2026-10-06T11:03:11Z"
+  "oro": 4187.3,
+  "nq": 31444.0,
+  "vix": 15.35,
+  "ts": "2026-10-06T11:07:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Meta Muse gives AMD a boost as AI momentum shifts to personal agents",
+   "link": "https://www.cnbc.com/2026/10/06/meta-muse-gives-amd-a-boost-as-ai-momentum-shifts-to-personal-agents-.html",
+   "ts": "2026-10-06T11:00:01Z",
+   "fuente": "CNBC",
+   "id": "42dbada42d",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Everspin Technologies to Ring Opening Bell in Celebration of 10-Year Nasdaq Anniversary",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQX21lUmNnT0NERGpMYi1PelJCM3dWU0N1NFpfSzI5eHFTdkU1ZW9QMHlDbmVPWkhadFpQZEhRYk5uekFzSVE2ZUxpQjhYUTBnc2N5Y1Jubk5iei1Ndi1uWU5Sclp3R2NxcjlJc2hSUkY4Umw1THdvMW5DaWlrZVROOUJIbUM5NEtIdTMwTVEwQUVDZktPS1hBbjZWbG5sclc4SHFidGhDc0hOZkdidzVkTlBVZWZ0aDVtQkdpWGV4OXQ5bmUtOGxkdE9GUGU1b1BqVWROa1BDVFZwZWRC?oc=5",
+   "ts": "2026-10-06T11:00:00Z",
+   "fuente": "Business Wire",
+   "id": "6f66b3e661",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "This household goods stock has lagged the broader market. Evercore ISI sees a comeback",
    "link": "https://www.cnbc.com/2026/10/06/this-household-goods-stock-has-lagged-the-broader-market-evercore-isi-sees-a-comeback.html",
@@ -2640,6 +2662,28 @@
    "id": "7b0d6c9466",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Giga-scale data centers. Ugandan gold. Moscow’s wartime pigeon post & the rise of the Yemeni coffee shop.",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE50VHRQY1pOVFh1UXFuZGsxMGNxQzV6elZaUm5adXVSdHRaMUVoTlVUWkhCZ2d2WUl2bGN5RFJnbTMwU21iZVNVWWMzZUlENEhBTXZOdm9JbjlWMjdIbVYzMnlHUXNpUVJXU2pMMi1PMFVjNExNdXBTNA?oc=5",
+   "ts": "2026-10-06T10:45:44Z",
+   "fuente": "Chartbook | Adam Tooze",
+   "id": "aad6d31e5e",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Amazon's October Big Deal Days sale is back, but don't check out yet. These cards earn rewards and offer 0% interest",
+   "link": "https://www.cnbc.com/select/amazon-prime-big-deal-days-2026/",
+   "ts": "2026-10-06T10:30:01Z",
+   "fuente": "CNBC",
+   "id": "346da89257",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "GoldMining Intersects 400 Metres of Continuous Gold-Copper Mineralization at the Yarumalito Project, Colombia",
@@ -3444,52 +3488,6 @@
    "impacto": "alto",
    "es": "El rendimiento de los JGB a largo plazo sube tras el alza de los bonos del Tesoro de EE. UU.",
    "efecto": "Mayor rendimiento de bonos presiona al NQ a la baja y fortalece el dólar."
-  },
-  {
-   "titulo": "Dow Jones Futures: Nasdaq Hits Record Highs; TSMC, Nvidia, Elon Musk-Led SpaceX, Tesla Rally",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTUZva3I0Qzg1RmVvWS1lVFU5RjZjOHVvX2hvYXhfbnc3dmVYZmdVeWdKQ3JuQmFBUkUwWnlpM0h3ZUdPTnhvWGh6UEwxQzZ4eHpaNlFlLTNRd3JuZ3M5WlJOZ0NSZkl5cmZHNHhraTEtY3hvQnpIcUZVTm54TzlBZGRCU0VSeFJHbFgtcFJuQ2VtNlZBUFNZaHhLT0VaVW9Mcm9XM3l6MHhPXzE2M1ZVUHQxUmtmRUhWbzZNYVVMazFHUQ?oc=5",
-   "ts": "2026-10-06T00:24:00Z",
-   "fuente": "Investor's Business Daily",
-   "id": "9bc490dfb5",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto",
-   "es": "Futuros del Dow: El Nasdaq toca máximos históricos por rally de TSMC, Nvidia y Tesla",
-   "efecto": ""
-  },
-  {
-   "titulo": "Rumble Resources advances Western Queen toward mine decision as October study nears",
-   "link": "https://www.proactiveinvestors.com/companies/news/1099617/rumble-resources-advances-western-queen-toward-mine-decision-as-october-study-nears-1099617.html?.tsrc=rss",
-   "ts": "2026-10-05T23:50:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "3c43131b72",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Earnings not Treasury yields are the key risk for stocks: Emirates NBD",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQS3hwUHhnTE1xbG1raml4Q3hRRmZya2JoZXZ0WlJkZkFIbWl3dWFOMWxVRktoRVdXNHBKcEN5a1IxOElOWGZQRFNrNmNTWkFFY2ttcFpkYVBSZjk3ZU4zY1NlMkpTaWZYWlA5dXV2WlJPYk9zbjNWRGY2WU9hWTFNVmI5SlpWR3VsRHZfY1NTenFvOWM4YVB1U3dpeXpHWkxOc3J4bm14TmtvYWY4dVR6b05R?oc=5",
-   "ts": "2026-10-05T23:42:07Z",
-   "fuente": "CNBC",
-   "id": "0e7701855c",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Earnings, not Yields, are the key risk for stocks: Emirates NBD",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQS3hwUHhnTE1xbG1raml4Q3hRRmZya2JoZXZ0WlJkZkFIbWl3dWFOMWxVRktoRVdXNHBKcEN5a1IxOElOWGZQRFNrNmNTWkFFY2ttcFpkYVBSZjk3ZU4zY1NlMkpTaWZYWlA5dXV2WlJPYk9zbjNWRGY2WU9hWTFNVmI5SlpWR3VsRHZfY1NTenFvOWM4YVB1U3dpeXpHWkxOc3J4bm14TmtvYWY4dVR6b05R?oc=5",
-   "ts": "2026-10-05T23:42:07Z",
-   "fuente": "CNBC",
-   "id": "3f0087afa7",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -4032,14 +4030,14 @@
     4179.9,
     4188.7,
     4176.2,
-    4188.5
+    4187.1
    ],
    [
-    1791283986,
-    4188.4,
-    4188.4,
-    4188.4,
-    4188.4
+    1791284245,
+    4187.3,
+    4187.3,
+    4187.3,
+    4187.3
    ]
   ],
   "nq": [
@@ -4573,14 +4571,14 @@
     31407.5,
     31462.75,
     31393.0,
-    31450.0
+    31443.25
    ],
    [
-    1791283991,
-    31451.0,
-    31451.0,
-    31451.0,
-    31451.0
+    1791284252,
+    31444.75,
+    31444.75,
+    31444.75,
+    31444.75
    ]
   ],
   "vix": [
@@ -5001,15 +4999,15 @@
     1791280800,
     15.43,
     15.44,
-    15.36,
+    15.35,
     15.36
    ],
    [
-    1791283681,
-    15.36,
-    15.36,
-    15.36,
-    15.36
+    1791283951,
+    15.35,
+    15.35,
+    15.35,
+    15.35
    ]
   ]
  },
