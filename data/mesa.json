@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4198.4 · NQ 31505.25 · VIX 15.31 · 9 noticias nuevas",
-   "actualizado": "2026-10-06T11:52:36Z"
+   "ultimo_resultado": "Oro 4201.7 · NQ 31519.5 · VIX 15.31 · 12 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-06T11:57:30Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T11:52:36Z",
-   "ultimo_resultado": "9 titulares nuevos: Lodestar Metals Reports High-Grade Gold at Gomes Prospect at the Gold Run Project in Nevada"
+   "actualizado": "2026-10-06T11:57:30Z",
+   "ultimo_resultado": "12 titulares nuevos, 2 de alto impacto: How Fast Do Tariffs Pass Through into Consumer Prices?"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4201.7 · NQ 31519.5 · VIX 15.31 · 12 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-06T11:57:30Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4198.4 · NQ 31505.25 · VIX 15.31 · 9 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "macro",
    "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
    "ts": "2026-10-05T21:33:57Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Historial: 2 operaciones, 50% de acierto, +0.11 R.",
-   "ts": "2026-10-05T21:33:56Z"
   }
  ],
  "briefs": [
@@ -2617,12 +2617,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4198.4,
-  "nq": 31505.25,
+  "oro": 4201.7,
+  "nq": 31519.5,
   "vix": 15.31,
-  "ts": "2026-10-06T11:52:36Z"
+  "ts": "2026-10-06T11:57:30Z"
  },
  "noticias": [
+  {
+   "titulo": "How Fast Do Tariffs Pass Through into Consumer Prices?",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYXRvNnIxajNaZk1IWWR1ckhXSEtaaDFOVEh1UUljTEE1ZWtpY1dVOTBSSXRIWS14eDl2ZGtyTVU4bTd4S1JaMVM4bG83TGNEQm83a2ZoZU1kNlIwSlFtUWdoODFyY3lnVll2YVBrdWExSUpoeUdpN2QxTEx2Z3A0bDZ6eTQzMnRISU9vRTZZOTg1Rmc4bXZwZEptWmhmRU5LSUtOd1V1ejVibUtl?oc=5",
+   "ts": "2026-10-06T11:56:38Z",
+   "fuente": "Liberty Street Economics",
+   "id": "512a2f5c9b",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Stocks making the biggest moves premarket: Constellation Energy, Option Care Health, Lennar, P&G and more",
+   "link": "https://www.cnbc.com/2026/10/06/stocks-making-the-biggest-moves-premarket-constellation-energy-option-care-health-lennar-pg-and-more.html",
+   "ts": "2026-10-06T11:50:50Z",
+   "fuente": "CNBC",
+   "id": "b7f1efbabb",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "SpaceX stock is taking off again, but with one key difference this time",
    "link": "https://www.cnbc.com/2026/10/06/spacex-stock-is-taking-off-again-but-with-one-key-difference-this-time.html",
@@ -2631,6 +2651,17 @@
    "id": "cca2ff3936",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "US Dollar Falls Early Tuesday Ahead of Trade, Redbook, Consumer Sentiment",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-falls-early-tuesday-114004108.html?.tsrc=rss",
+   "ts": "2026-10-06T11:40:04Z",
+   "fuente": "Yahoo Finance",
+   "id": "f1a344c4b1",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "China Is Building Everything a Reserve Currency Needs",
@@ -2659,6 +2690,17 @@
    "ts": "2026-10-06T11:35:00Z",
    "fuente": "Yahoo Finance",
    "id": "51d3b587ea",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Dollar Falls as Euro Recovers After France's Le Pen Vows to Reduce Public Deficit",
+   "link": "https://finance.yahoo.com/m/fcc67c8b-f290-32a4-8e7a-9126d123bcf4/dollar-falls-as-euro-recovers.html?.tsrc=rss",
+   "ts": "2026-10-06T11:30:28Z",
+   "fuente": "Yahoo Finance",
+   "id": "938341e1a7",
    "activos": [
     "dolar"
    ],
@@ -2751,6 +2793,17 @@
    "id": "c335682392",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Fed Minutes Are Next Key Test For Dollar's Direction",
+   "link": "https://finance.yahoo.com/m/6ff6412a-09d9-306c-922f-e9255987eb0e/fed-minutes-are-next-key-test.html?.tsrc=rss",
+   "ts": "2026-10-06T11:05:30Z",
+   "fuente": "Yahoo Finance",
+   "id": "de29c396c9",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Treasury yields fall as oil prices slide",
@@ -3433,56 +3486,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "War and tariffs: How foreign policy is impacting the midterms - Christian Science Monitor",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ1I3Z2ZfTGM2THJYTVpoVi1EUVdtRnNLT3B0eV9LVG5mMEY0TU9lOENUWDdpSWY1S0dlQWhrUnNLRVBad01idjdHMTRnUVdSVGljTFRpeVZHdGJWanRLTFJrSWhyTjhzcnNJWlhaMk51eDRMczdsbWZiQUJNUHBFUzhRWGFnRWhUdXBiWGRnT2RnTDYtZERnSzRKcEg3UQ?oc=5",
-   "ts": "2026-10-06T04:00:00Z",
-   "fuente": "CSMonitor.com",
-   "id": "a85f14eaa7",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "War and tariffs: How foreign policy is impacting the midterms",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ1I3Z2ZfTGM2THJYTVpoVi1EUVdtRnNLT3B0eV9LVG5mMEY0TU9lOENUWDdpSWY1S0dlQWhrUnNLRVBad01idjdHMTRnUVdSVGljTFRpeVZHdGJWanRLTFJrSWhyTjhzcnNJWlhaMk51eDRMczdsbWZiQUJNUHBFUzhRWGFnRWhUdXBiWGRnT2RnTDYtZERnSzRKcEg3UQ?oc=5",
-   "ts": "2026-10-06T04:00:00Z",
-   "fuente": "csmonitor.com",
-   "id": "1d0c90da79",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Guest editorial: Trump's tariffs hitting U.S. agriculture hard",
-   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNVENWd0VRRldGYTgxai00NDhpRV9uQzlkT1JQVS1GalFBT2xRQW41X0dhUkMwNG1aaHVjSEJDcnJlOEdzdU9NZDBubm9HeE1kN1NNaDZiVUZLXy16ZEVuQ0p0YmRfalBXUm9PcDA4TFZRSDR1SzN1MXBadlgzNHR0X2tCcDN2RGdaTjFlbXBRRExPRk84MVNOVkUzTGpJeUd3YXAxdXFnRlJmQ2g2NDNtMlEwMFA5NHg2WTVqRk1PZ21vOHhHZ1VQUkZDZjJVU1JtX1IzRWtYb0E3OHBueEhsNDRXcy05MGYwUFo5QWpn?oc=5",
-   "ts": "2026-10-06T04:00:00Z",
-   "fuente": "Charleston Gazette-Mail",
-   "id": "8e797614af",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "OKX debuts a platform that turns 50 currencies into digital dollars, betting emerging market investors want stablecoins",
-   "link": "https://finance.yahoo.com/markets/crypto/articles/okx-debuts-platform-turns-50-034000213.html?.tsrc=rss",
-   "ts": "2026-10-06T03:40:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "54d5c630ba",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "OKX lanza plataforma para convertir 50 monedas en dólares digitales.",
-   "efecto": "Sin impacto directo en mercados institucionales tradicionales."
-  },
-  {
-   "titulo": "Gold inches lower as firmer dollar, higher yields weigh",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQmpjMk1XeVZHbEtNQTlBeS1yWVhuRnl0REt3WDhhSWQzSUZpT3NqOVQxQlhGcEQ4QVd6ZDNENW9pV293VXhMbWNkNjlrQV80Q0V6YjBjaF9QVF9yMURvYmdhbzhoVFcwa0hUd2VLZW1LYVg3WVlGSUd2T1RJTndlOTZHSDc5cjdsemJlNk1hek4tcDVvR0HSAZsBQVVfeXFMTVVabmJrMWc1bWU2ODhLb1NMcVpVaXhhUDNWLXZfbG5qT0xVdVgteEdGdGJScng5blZIa2JGR0pwcTU3SGJXS2NlVlY5Vlo0VXZqM2pDcHN0eEtLQWRBUnQ5UlN5VEcxdDU4Zm4tWFlzcXJQM1liVkY2Rl9aNTRZbnR4NWxJUlQ5bzh4OVczaVRaQ3g3U3RGX3RpbTg?oc=5",
-   "ts": "2026-10-06T03:25:00Z",
-   "fuente": "CNBC",
-   "id": "70262e67a6",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -4030,16 +4033,16 @@
    [
     1791284400,
     4186.5,
-    4200.2,
+    4202.2,
     4183.8,
-    4198.4
+    4201.5
    ],
    [
-    1791286956,
-    4198.5,
-    4198.5,
-    4198.5,
-    4198.5
+    1791287249,
+    4201.7,
+    4201.7,
+    4201.7,
+    4201.7
    ]
   ],
   "nq": [
@@ -4580,14 +4583,14 @@
     31443.5,
     31535.75,
     31440.25,
-    31511.25
+    31519.5
    ],
    [
-    1791286954,
-    31509.75,
-    31509.75,
-    31509.75,
-    31509.75
+    1791287249,
+    31519.5,
+    31519.5,
+    31519.5,
+    31519.5
    ]
   ],
   "vix": [
@@ -5016,10 +5019,10 @@
     15.35,
     15.35,
     15.28,
-    15.3
+    15.31
    ],
    [
-    1791286651,
+    1791286936,
     15.31,
     15.31,
     15.31,
