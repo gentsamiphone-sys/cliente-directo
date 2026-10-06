@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4140.7 · NQ 31373.0 · VIX 15.52 · 5 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-06T06:13:09Z"
+   "ultimo_resultado": "Oro 4144.2 · NQ 31373.5 · VIX 15.52 · 7 noticias nuevas",
+   "actualizado": "2026-10-06T06:17:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T06:13:09Z",
-   "ultimo_resultado": "5 titulares nuevos, 2 de alto impacto: La debilidad del euro y el aumento de los rendimientos de los bonos impulsan al dólar"
+   "actualizado": "2026-10-06T06:17:31Z",
+   "ultimo_resultado": "7 titulares nuevos: Trump allows cheaper, dyed diesel on highways to blunt historic fuel-cost spike ahead of midterms"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4144.2 · NQ 31373.5 · VIX 15.52 · 7 noticias nuevas",
+   "ts": "2026-10-06T06:17:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4140.7 · NQ 31373.0 · VIX 15.52 · 5 noticias nuevas (2 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "📍 NQ VENTA: llegó a la zona 31080.0–31120.0 · Oro 4176.6 · NQ 31113.5 · VIX 16.02 · 12 noticias nuevas (4 alto impacto)",
    "ts": "2026-10-05T13:42:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4180.1 · NQ 31028.25 · VIX 16.01 · 12 noticias nuevas (6 alto impacto)",
-   "ts": "2026-10-05T13:37:38Z"
   }
  ],
  "briefs": [
@@ -2441,12 +2441,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4140.7,
-  "nq": 31373.0,
+  "oro": 4144.2,
+  "nq": 31373.5,
   "vix": 15.52,
-  "ts": "2026-10-06T06:13:09Z"
+  "ts": "2026-10-06T06:17:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Trump allows cheaper, dyed diesel on highways to blunt historic fuel-cost spike ahead of midterms",
+   "link": "https://www.cnbc.com/2026/10/06/us-diesel-fuel-prices-iran-ukraine-energy-crisis-.html",
+   "ts": "2026-10-06T06:09:21Z",
+   "fuente": "CNBC",
+   "id": "98d6813a1e",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Production update and FTSE 250 Index inclusion",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/production-ftse-250-index-inclusion-060000416.html?.tsrc=rss",
+   "ts": "2026-10-06T06:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "1180370a8d",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Gold ’29: UCS needs to foster spaces for conservative discourse on campus",
    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdExNOXR1NVRFSUkta3p6SmwwLVkwY3pRUlAtOEJsVlNYNDVJZ2w0a19WeWNYcXA5NTNxRzIxeVU3MjJxUTBUN0t5by05UUpQZS12TzJCWEdHdjBfa3BZcnpmU1Z2MjQ5ZGxzOGJWbUVLdXlrNW5nM1lvSjN5a1dJUE16RXFyNEN0cHdNRGdrcFdNTklnX01SbFBFRW9xRTgxMlpCcndLOVEyQThZSVZpYnAyZ1R2VV8wZ05paFpn?oc=5",
@@ -3324,31 +3342,6 @@
    "impacto": "bajo",
    "es": "Estudiante-atleta 'Blue & Gold': Carson Tyler",
    "efecto": "Sin impacto financiero."
-  },
-  {
-   "titulo": "Update: US Equity Indexes Advance Amid Elevated Treasury Yields, Sliding Crude Oil",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUjR5Y3kyNW4xb19uanZHZVBqLTQwX3plMURnYTBJMGFvbFNrWXF1RnhITUZ6cnYwX294SmpnMVBSN2NKZWRUOEZTOENNaWYwenhMdmIxbVZnMmpoNnhxUFZBNHJqeEZhNGJyUUxEUzdVQm5EbXd2ejNHMHV0ekc2cV8zOTBiOGtHR1dMREVobENKUEduVzc4OGtDYw?oc=5",
-   "ts": "2026-10-05T19:51:04Z",
-   "fuente": "Yahoo Finance",
-   "id": "2199a068d6",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Actualización: Índices de EE. UU. avanzan con altos rendimientos del Tesoro y caída de crudo",
-   "efecto": "Baja de crudo alivia inflación, permitiendo al NQ subir pese a tasas."
-  },
-  {
-   "titulo": "Treasury yields hit 2002 highs as bond market selloff deepens",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdVpRX18tS3hWVEFrUFk2OGg4a1B2Yi1CN0tEY0tHUVNyODZzZFlUeWlKa2hYcFNsODdDZWR2eHRSaVlfcDlxVnlMSVlNRnJPdkZab293RzM1eFljbnRPdEhBcGJ6TDNCZ0dVNUo3UF9uTzhKNTMxY2hPc3loaGtOWk9DTmFuN0lBZ1BJSmpvVURLSWt2SVdEenRJN3ZrTHh1eHFLbDBieWJwTXhydmVQRmIzSGNBUThaZkhRNWxCZWJuMXFJTFE?oc=5",
-   "ts": "2026-10-05T19:40:12Z",
-   "fuente": "mpamag.com",
-   "id": "3883a27687",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3856,14 +3849,14 @@
     4146.6,
     4147.5,
     4140.1,
-    4143.6
+    4144.3
    ],
    [
-    1791266587,
-    4140.3,
-    4140.3,
-    4140.3,
-    4140.3
+    1791266848,
+    4144.2,
+    4144.2,
+    4144.2,
+    4144.2
    ]
   ],
   "nq": [
@@ -4365,11 +4358,11 @@
     31372.25
    ],
    [
-    1791266583,
-    31373.0,
-    31373.0,
-    31373.0,
-    31373.0
+    1791266848,
+    31373.5,
+    31373.5,
+    31373.5,
+    31373.5
    ]
   ],
   "vix": [
