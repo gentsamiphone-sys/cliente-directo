@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4169.6 · NQ 31395.25 · VIX 15.47",
-   "actualizado": "2026-10-06T08:27:35Z"
+   "ultimo_resultado": "Oro 4171.6 · NQ 31381.75 · VIX 15.45 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-06T08:32:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T08:27:34Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-06T08:32:34Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Everli, a Leading Italian E-Grocery Marketplace, Advances Toward Nasdaq Listing as SEC Declares Registration Statement Effective"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4171.6 · NQ 31381.75 · VIX 15.45 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-06T08:32:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4169.6 · NQ 31395.25 · VIX 15.47",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4157.4 · NQ 31248.0 · VIX 15.51 · 13 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-05T17:12:40Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4159.5 · NQ 31255.25 · VIX 15.51 · 13 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-05T17:07:35Z"
   }
  ],
  "briefs": [
@@ -2616,12 +2616,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4169.6,
-  "nq": 31395.25,
-  "vix": 15.47,
-  "ts": "2026-10-06T08:27:35Z"
+  "oro": 4171.6,
+  "nq": 31381.75,
+  "vix": 15.45,
+  "ts": "2026-10-06T08:32:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Everli, a Leading Italian E-Grocery Marketplace, Advances Toward Nasdaq Listing as SEC Declares Registration Statement Effective",
+   "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQYW5FVXVtaFhnd2VLT0VJZjNFQ1VYS1ZrTkpqbGtsdEl4cmJSWUR4bEVLaW5Rb1E2bkswTkZkTm50YndHTEJxWHBkaUxMMWExN1FhS0ZkbC1mV290QW9VZW5SLUhsVnctRTA5Mkd4djhkbXZBNzltaDBfTTFSZHp3b3R1dmNKUUswcGEtbm5zTDlxYTlRSk0yOExQbXFjYm1wUXk5azNFbmF0VDhqYnVURjlaTFpsSDV1Mm5Bc2JMa092MEdTeVBpLWtaWHlIaGJkeW5nOTdqUGlyci1pVHVFV2tLUXVhV2xrNlRySTI1S3I5OGR6WjRFZmxYN3ZJQTU1QXlHVTVIMjdLY1pweFBrRGFtTFZPOWM?oc=5",
+   "ts": "2026-10-06T08:00:00Z",
+   "fuente": "Morningstar",
+   "id": "a0a7a22803",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Central Bank Gold Statistics: Central banks continue summer spree in August | Post by Marissa Salim | Insights",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ2FISHMxN1ZCSUQwdE9kQVhva1hiRzludFBBOU03aHd0MjdlcldFZDhwUWNjcWl1d25wNUdBa1VpMkpKMjI3YnROUndkT1FjTUxWQnhpUFhULWZjN01IdE8zT2JFUmVTWGJfdTMyc1VaVWRiSWQ1MldyMGRVcmhQTzh5Z0pPT3FDeVMtdTJYbko3WVV0cWJKT3NSV2ZlT29BVUNhSnNvejlDSFhFSjRFeWpsN3BjVzBUeFBj?oc=5",
@@ -2651,6 +2662,17 @@
    "ts": "2026-10-06T07:05:14Z",
    "fuente": "CNBC",
    "id": "fa0de5866f",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "House China committee chair urges Fed to review Hong Kong’s access to dollar lifeline",
+   "link": "https://www.cnbc.com/2026/10/06/hong-kong-fed-fima-dollar-liquidity-china-moolenaar.html",
+   "ts": "2026-10-06T07:00:01Z",
+   "fuente": "CNBC",
+   "id": "6cbfb9c178",
    "activos": [
     "dolar"
    ],
@@ -3482,27 +3504,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Update: Nasdaq Composite Reaches New High, 10-Year Yield Tops 5.3%",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYlZmQWlaQjdzdEs1MEtSM25FektxSEt3QUZYMnhOYlJDcU9yaGh0bGFnME9xSnh0QWhpblRtSURxR2NlcU1IcGRZeXNlZVIwcW9zVE1OQ0hWdW5TN0ZJRlRNYndMdkFEeldYdV8yM0NJN2dMRUlkWGFqenZSMXNRdlhUYld5TnJxQkRpVHc3aWs2cFpKMWNHblFaTVhudw?oc=5",
-   "ts": "2026-10-05T20:32:43Z",
-   "fuente": "Yahoo Finance",
-   "id": "a3aabc8d81",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Trump threatened South Korea with doubled tariffs unless it signs Alaska LNG deal",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JMEdCcUNEaTM4R0RtUGdoc1RxZUlGRUpyU2F1cmF5QzA1WTd6WnVlaFRpbUNRMTVKTW5iZGZfd1c2SUlwZ01iY3dyXzRfQ1ByNnFvQTVBLXVqdVlBLWt1SjFJeDZIcDhDTkxxdjVyU2I?oc=5",
-   "ts": "2026-10-05T20:31:58Z",
-   "fuente": "qz.com",
-   "id": "44b1d6d471",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [],
@@ -4029,16 +4030,16 @@
    [
     1791273600,
     4167.5,
-    4171.7,
+    4173.1,
     4165.2,
-    4169.0
+    4173.0
    ],
    [
-    1791274652,
-    4169.6,
-    4169.6,
-    4169.6,
-    4169.6
+    1791274950,
+    4171.6,
+    4171.6,
+    4171.6,
+    4171.6
    ]
   ],
   "nq": [
@@ -4558,14 +4559,14 @@
     31380.5,
     31408.25,
     31376.25,
-    31390.25
+    31386.5
    ],
    [
-    1791274652,
-    31395.25,
-    31395.25,
-    31395.25,
-    31395.25
+    1791274951,
+    31381.75,
+    31381.75,
+    31381.75,
+    31381.75
    ]
   ],
   "vix": [
@@ -4972,15 +4973,15 @@
     1791273600,
     15.48,
     15.48,
-    15.46,
-    15.47
+    15.45,
+    15.45
    ],
    [
-    1791274351,
-    15.47,
-    15.47,
-    15.47,
-    15.47
+    1791274651,
+    15.45,
+    15.45,
+    15.45,
+    15.45
    ]
   ]
  },
