@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4188.4 · NQ 31515.25 · VIX 15.17 · 15 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-06T17:42:35Z"
+   "ultimo_resultado": "Oro 4190.6 · NQ 31531.75 · VIX 15.14 · 15 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-06T17:47:44Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T17:42:34Z",
-   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: Why deep-red Kansas has become an unexpected Senate battleground"
+   "actualizado": "2026-10-06T17:47:43Z",
+   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: Update: S&P 500, Nasdaq Composite Hit Records Amid Big-Tech Gains While Treasury Yields Decline"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4190.6 · NQ 31531.75 · VIX 15.14 · 15 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-06T17:47:44Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4188.4 · NQ 31515.25 · VIX 15.17 · 15 noticias nuevas (1 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4153.8 · NQ 31348.5 · VIX 15.52 · 13 noticias nuevas",
    "ts": "2026-10-06T03:42:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4153.2 · NQ 31356.75 · VIX 15.52 · 13 noticias nuevas",
-   "ts": "2026-10-06T03:38:41Z"
   }
  ],
  "briefs": [
@@ -2778,10 +2778,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4188.4,
-  "nq": 31515.25,
-  "vix": 15.17,
-  "ts": "2026-10-06T17:42:34Z"
+  "oro": 4190.6,
+  "nq": 31531.75,
+  "vix": 15.14,
+  "ts": "2026-10-06T17:47:43Z"
  },
  "noticias": [
   {
@@ -2792,6 +2792,18 @@
    "id": "32a711e58f",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Update: S&P 500, Nasdaq Composite Hit Records Amid Big-Tech Gains While Treasury Yields Decline",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU19LWms4c1lzY0FFdHVvMVQ5LWNyOUZ6cjlXR09zTEE0WkctYmNfSDNrTjY0WTFjQWhfWkxFTUhBclBSbVEyZ0RKS0Z5SFdxMW9pMm84RS1fLUJGWXV0b095MjZPTkZvRVFGSGN1cEJ1cDhsYlZFcUJBeFFYQkNMeFBDUU9BQjJRN0dmam9wTlhEUDh3aWc?oc=5",
+   "ts": "2026-10-06T17:29:16Z",
+   "fuente": "Yahoo Finance",
+   "id": "cf061e0f81",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Salesforce shares sit at the epicenter of AI confusion. Here's how to trade it",
@@ -2863,6 +2875,17 @@
    "ts": "2026-10-06T17:00:28Z",
    "fuente": "CNBC",
    "id": "8320becf5a",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "The Nasdaq Just Hit a Record High -- Are You Overexposed to AI Without Realizing It?",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbk5CcnVRd1JzN0VuN19KSmIzeGx2SFh3OURuLW9oeEVlSTZ3dDhEc2t3TzAtQXRMazNkb2VHQ0FZY25qWTZFaTFqOHRnbWF2RkJqOGhDRnNreXZSVmNtaW1DZWd5WkpmVVdFMzlqY0RxVWxIY3F6R3FqZE1EUkVXcllIV0RRek9RRVN5ek56WGRYeGx2MTBF?oc=5",
+   "ts": "2026-10-06T17:00:26Z",
+   "fuente": "Yahoo Finance",
+   "id": "31dbf1c921",
    "activos": [
     "nq"
    ],
@@ -3635,31 +3658,6 @@
    "impacto": "alto",
    "es": "Perspectiva del oro: bajistas apuntan a 4.000 antes de un posible rebote",
    "efecto": "Genera presión vendedora en el oro buscando niveles clave."
-  },
-  {
-   "titulo": "Becton Dickinson to Invest $19 Billion in U.S. in Exchange for Tariff Relief",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOUpSZTYtYk9HcDJtam5qZk9xNE1wS2RWaDlzMVpENWpOR3EzUlpUTDFTOTc0a1N6ZXEzNEwzR0FOVUlMcHZ5LTFneEh3dHVtS0l2aDJXdEJ4aEpkNTBDald6bk5nNDFHdHd1ZHlscnU1OVU4MDdVN0Mwa1RLUEJtWk9TaFc5S0g3cE8xd0NzM0JaakN4T0pBTTR0eXcwdldYdmZjdk55M0NPYWFH?oc=5",
-   "ts": "2026-10-06T12:35:00Z",
-   "fuente": "WSJ",
-   "id": "faa92f9489",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio",
-   "es": "Becton Dickinson invertirá 19.000 millones en EE. UU. a cambio de alivio arancelario",
-   "efecto": "Favorece al sector salud y corporativo estadounidense, apoyando al NQ."
-  },
-  {
-   "titulo": "Gulf Resources, Inc. Regains Compliance with Nasdaq Listing Requirements",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPc2JCUkMxTFhKc1pIX1BHT2hZRTViYlU1ZDJUaUtpX25WM0tCcjNPYUNQdmpVOHhRYjRxT1ZKeHQ5Zjg5RUh3SEwzVHFkN2hyd2haM2lhS1FpNmRySkRyd3d1Yy1XajhpNjNQN0V3RjJPTW9fRkNHR3dKQWhOa3lMcjVER2w3OTV4VTV2WjdMME1yNXlkQlA4aGN6dF8wT1ZYMVo0ZA?oc=5",
-   "ts": "2026-10-06T12:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "dcda6bd9b0",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -4251,14 +4249,14 @@
     4184.2,
     4192.2,
     4183.8,
-    4188.5
+    4190.5
    ],
    [
-    1791307952,
-    4188.2,
-    4188.2,
-    4188.2,
-    4188.2
+    1791308259,
+    4190.6,
+    4190.6,
+    4190.6,
+    4190.6
    ]
   ],
   "nq": [
@@ -4839,16 +4837,16 @@
    [
     1791306000,
     31529.25,
-    31534.5,
+    31537.75,
     31480.75,
-    31515.25
+    31532.75
    ],
    [
-    1791307953,
-    31515.5,
-    31515.5,
-    31515.5,
-    31515.5
+    1791308263,
+    31531.75,
+    31531.75,
+    31531.75,
+    31531.75
    ]
   ],
   "vix": [
@@ -5319,14 +5317,14 @@
     15.07,
     15.21,
     15.07,
-    15.18
+    15.15
    ],
    [
-    1791307651,
-    15.17,
-    15.17,
-    15.17,
-    15.17
+    1791307951,
+    15.14,
+    15.14,
+    15.14,
+    15.14
    ]
   ]
  },
