@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4197.2 · NQ 31530.0 · VIX 15.06 · 15 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-06T18:37:41Z"
+   "ultimo_resultado": "Oro 4195.9 · NQ 31524.0 · VIX 15.05 · 15 noticias nuevas",
+   "actualizado": "2026-10-06T18:42:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T18:37:40Z",
-   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: Kalshi lanza funciones de transparencia en contratos electorales"
+   "actualizado": "2026-10-06T18:42:41Z",
+   "ultimo_resultado": "15 titulares nuevos: Oil prices stable as market weighs supply risks, rising Middle East exports"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4195.9 · NQ 31524.0 · VIX 15.05 · 15 noticias nuevas",
+   "ts": "2026-10-06T18:42:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4197.2 · NQ 31530.0 · VIX 15.06 · 15 noticias nuevas (3 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4153.5 · NQ 31369.0 · VIX 15.52 · 13 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-06T04:37:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4154.8 · NQ 31364.0 · VIX 15.52 · 13 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-06T04:32:31Z"
   }
  ],
  "briefs": [
@@ -2778,12 +2778,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4197.2,
-  "nq": 31530.0,
-  "vix": 15.06,
-  "ts": "2026-10-06T18:37:41Z"
+  "oro": 4195.9,
+  "nq": 31524.0,
+  "vix": 15.05,
+  "ts": "2026-10-06T18:42:42Z"
  },
  "noticias": [
+  {
+   "titulo": "Oil prices stable as market weighs supply risks, rising Middle East exports",
+   "link": "https://www.cnbc.com/2026/10/06/oil-fell-as-traders-weigh-strong-mideast-exports-against-gulf-tensions.html",
+   "ts": "2026-10-06T18:41:03Z",
+   "fuente": "CNBC",
+   "id": "30888d9df5",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Kalshi launches transparency features on its election contracts ahead of midterms",
    "link": "https://www.cnbc.com/2026/10/06/kalshi-launches-transparency-features-on-its-election-contracts-ahead-of-midterms-.html",
@@ -2796,11 +2805,33 @@
    "efecto": ""
   },
   {
+   "titulo": "Market One: Omega Pacific Resources Reopens a Toodoggone Gold Discovery After Two Quiet Years",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/market-one-omega-pacific-resources-183100261.html?.tsrc=rss",
+   "ts": "2026-10-06T18:31:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "ce8654859c",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Mortgage Rates Rise as Treasury Yields Top 5%",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWWhZMzFXNFpScTNpZ0dEU2VzbDZXRXgtdW44X21QeGkwRUFsemNuUzZGbzlmc0ZnMXJFc2NHTTJPVVI1NnYzeXVUOEpGYUNPU1ZuQVBlMDRaSE85bEtBWWdOSExqUW9Lb3JlQ2dXaXNIbzl1OHZseTdZVldzRFU4TVhaUVc?oc=5",
    "ts": "2026-10-06T18:26:12Z",
    "fuente": "Eye On Housing",
    "id": "40ac7f4c0a",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Update: Big Tech Pushes US Equity Indexes Higher Amid Lower Treasury Yields",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaFRmY3U5R0tVRUgwdGdOb1pPdno0Vnd5WHdYa291VUY5VzlMb1hMYVh1LUtCeU1jVl9yRnprLURlYXhuaWZlcGN5emkxZ2VQVklTaEJpbnFfOG9XUWZXQ2ZxTjM3S1E2RFFSVEhVUjNMaUpwRmM3dGZhMXY4QlAxM3dCNnpnS21PQjlCUjZDa3Nka3hS?oc=5",
+   "ts": "2026-10-06T18:24:32Z",
+   "fuente": "Yahoo Finance",
+   "id": "cee4f66033",
    "activos": [
     "dolar"
    ],
@@ -3091,6 +3122,17 @@
    "impacto": "alto",
    "es": "Las grandes tecnológicas impulsan al S&P 500 y al Nasdaq Composite a nuevos máximos",
    "efecto": "Impulsa compras institucionales en el Nasdaq por optimismo tecnológico."
+  },
+  {
+   "titulo": "US Treasury yields are \"screaming good value\" says PIMCO senior advisor",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWmVRdHA4bVRsVmVyUThxTVdUb3AzNklqYnNDS2JvVVVEa2hnbk1qaHVWcHBnN1Bya2piTTM3eEkxRWxrZVE4WDRidzAyZGFocEFVYjN6RENUWm9rbFBKQ1hQRlM5Qi12eTFKV2dxNF80MHF1Xy12NkR6SG9kcllSR2JlalFQZXdPYUtOeXhfMHlwdGdZbEZXTk96ZzhPS3MtUjFfRkNXNzFiWkJzTFNLTVJVQk8?oc=5",
+   "ts": "2026-10-06T16:15:50Z",
+   "fuente": "Reuters",
+   "id": "d772277437",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Meta Muse popularity lifts AMD stock to fresh highs as AI agents juice CPU sales",
@@ -3615,48 +3657,6 @@
    "ts": "2026-10-06T13:00:07Z",
    "fuente": "CNBC",
    "id": "5fa5a0d7df",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Mistral unveils new AI model it says rivals best open systems from China",
-   "link": "https://www.cnbc.com/2026/10/06/mistral-ai-model-le-chonk.html",
-   "ts": "2026-10-06T13:00:01Z",
-   "fuente": "CNBC",
-   "id": "b56d300628",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "Mistral presenta un nuevo modelo de IA que rivaliza con los mejores sistemas abiertos de China",
-   "efecto": "Ruido sectorial tecnológico; sin impacto macroeconómico inmediato."
-  },
-  {
-   "titulo": "Why Nathaniel Philbrick says California’s Gold Rush led to the Civil War",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdDlaVTBZSjktMkE3SjBCTUJjYzJRTW1NTk1Way1RQ0dfUGdXdDJlQ2N0ZExVeFJuOGFoMGpPMnV3amZ5OTdIbWpDdTVPbDFWYVFWRDFKTVFtbmtXSF9lem1jdlktaTdITmswMml1b0pmZlRyVDktVEVkTjEtNERsQjg1QnhsVUxLZTJsZFVfV2k0OV9aWmN1R1pBMVp1OFBieHZDLXlPb2NvcW9VaWRF?oc=5",
-   "ts": "2026-10-06T13:00:00Z",
-   "fuente": "Orange County Register",
-   "id": "e0408101bc",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Russian lab worker's suspected plague death leaves experts puzzled",
-   "link": "https://www.cnbc.com/2026/10/06/plague-russia-person-died-lab-infection-pneumonic.html",
-   "ts": "2026-10-06T12:59:40Z",
-   "fuente": "CNBC",
-   "id": "6e17ba8021",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "DeepSeek considers doubling latest funding round to up to $15 billion, sources say",
-   "link": "https://www.cnbc.com/2026/10/06/deepseek-funding-round.html",
-   "ts": "2026-10-06T12:59:10Z",
-   "fuente": "CNBC",
-   "id": "9ccd751cd9",
    "activos": [],
    "impacto": "bajo"
   }
@@ -4257,14 +4257,14 @@
     4192.2,
     4200.6,
     4191.4,
-    4197.1
+    4195.4
    ],
    [
-    1791311259,
-    4197.2,
-    4197.2,
-    4197.2,
-    4197.2
+    1791311556,
+    4195.9,
+    4195.9,
+    4195.9,
+    4195.9
    ]
   ],
   "nq": [
@@ -4853,15 +4853,15 @@
     1791309600,
     31526.25,
     31557.5,
-    31515.75,
-    31526.75
+    31512.75,
+    31519.25
    ],
    [
-    1791311262,
-    31529.5,
-    31529.5,
-    31529.5,
-    31529.5
+    1791311561,
+    31524.0,
+    31524.0,
+    31524.0,
+    31524.0
    ]
   ],
   "vix": [
@@ -5339,14 +5339,14 @@
     15.03,
     15.09,
     14.99,
-    15.07
+    15.05
    ],
    [
-    1791310951,
-    15.06,
-    15.06,
-    15.06,
-    15.06
+    1791311251,
+    15.05,
+    15.05,
+    15.05,
+    15.05
    ]
   ]
  },
