@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4181.4 · NQ 31414.25 · VIX 15.4 · 1 noticias nuevas",
-   "actualizado": "2026-10-06T09:27:38Z"
+   "ultimo_resultado": "Oro 4183.3 · NQ 31410.75 · VIX 15.42 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-06T09:32:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T09:27:37Z",
-   "ultimo_resultado": "1 titulares nuevos: Gran Bretaña está sobre 'hielo delgado', advierte execonomista del Banco de Inglaterra"
+   "actualizado": "2026-10-06T09:32:35Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: War and tariffs: How foreign policy is impacting the midterms"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4183.3 · NQ 31410.75 · VIX 15.42 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-06T09:32:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4181.4 · NQ 31414.25 · VIX 15.4 · 1 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4166.7 · NQ 31289.0 · VIX 15.56 · 15 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-05T18:12:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4163.4 · NQ 31300.25 · VIX 15.55 · 15 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-05T18:07:32Z"
   }
  ],
  "briefs": [
@@ -2617,10 +2617,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4181.4,
-  "nq": 31414.25,
-  "vix": 15.4,
-  "ts": "2026-10-06T09:27:37Z"
+  "oro": 4183.3,
+  "nq": 31410.75,
+  "vix": 15.42,
+  "ts": "2026-10-06T09:32:35Z"
  },
  "noticias": [
   {
@@ -2872,6 +2872,15 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "War and tariffs: How foreign policy is impacting the midterms",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ1I3Z2ZfTGM2THJYTVpoVi1EUVdtRnNLT3B0eV9LVG5mMEY0TU9lOENUWDdpSWY1S0dlQWhrUnNLRVBad01idjdHMTRnUVdSVGljTFRpeVZHdGJWanRLTFJrSWhyTjhzcnNJWlhaMk51eDRMczdsbWZiQUJNUHBFUzhRWGFnRWhUdXBiWGRnT2RnTDYtZERnSzRKcEg3UQ?oc=5",
+   "ts": "2026-10-06T04:00:00Z",
+   "fuente": "csmonitor.com",
+   "id": "1d0c90da79",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Guest editorial: Trump's tariffs hitting U.S. agriculture hard",
@@ -3270,6 +3279,15 @@
    "impacto": "medio"
   },
   {
+   "titulo": "This satellite stock has crashed 66%. Jim Cramer says it's time to start buying",
+   "link": "https://www.cnbc.com/2026/10/05/jim-cramer-planet-labs-stock-buy.html",
+   "ts": "2026-10-05T22:48:48Z",
+   "fuente": "CNBC",
+   "id": "41d12c372a",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "Trump says he'll pay for TV ads that praised him and which government funded",
    "link": "https://www.cnbc.com/2026/10/05/trump-ads-election.html",
    "ts": "2026-10-05T22:45:54Z",
@@ -3478,30 +3496,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "U.S. stocks rise as Nasdaq hits record on buyout deals",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1YQk5kUkdaOU80RUtEd21SVkRsM0pfdTBMU25EbnoyUEF5VXFoeWI3N0FOT3RTcE03WmJxR1hJSFZKczhsd1RicVV3WFctWlZQeHh0c0VoQ1V1bURuRkE1dkFBb2xoZFdqSGhDZjI5LVlucEVMaURZYW1JRQ?oc=5",
-   "ts": "2026-10-05T21:30:31Z",
-   "fuente": "thebusinessjournal.com",
-   "id": "7ce32b555a",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto",
-   "es": "Acciones de EE. UU. suben y el Nasdaq alcanza récord por acuerdos de compra",
-   "efecto": "Impulsa al NQ al alza por optimismo en el sector tecnológico."
-  },
-  {
-   "titulo": "House Democrat targets candidate prediction market trades after opponent’s Kalshi penalty",
-   "link": "https://www.cnbc.com/2026/10/05/don-davis-prediction-market-candidate-trading.html",
-   "ts": "2026-10-05T21:24:25Z",
-   "fuente": "CNBC",
-   "id": "71f7d3498d",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Demócrata de la Cámara apunta a apuestas en mercados de predicción tras penalización a rival",
-   "efecto": "Sin impacto relevante en mercados financieros."
   }
  ],
  "eventos_avisados": [],
@@ -4035,16 +4029,16 @@
    [
     1791277200,
     4182.6,
-    4184.3,
+    4185.1,
     4177.2,
-    4182.1
+    4182.7
    ],
    [
-    1791278255,
-    4181.4,
-    4181.4,
-    4181.4,
-    4181.4
+    1791278551,
+    4183.3,
+    4183.3,
+    4183.3,
+    4183.3
    ]
   ],
   "nq": [
@@ -4571,14 +4565,14 @@
     31390.25,
     31418.0,
     31387.25,
-    31416.75
+    31409.0
    ],
    [
-    1791278255,
-    31414.25,
-    31414.25,
-    31414.25,
-    31414.25
+    1791278554,
+    31412.0,
+    31412.0,
+    31412.0,
+    31412.0
    ]
   ],
   "vix": [
@@ -4992,15 +4986,15 @@
     1791277200,
     15.45,
     15.45,
-    15.43,
-    15.45
+    15.39,
+    15.42
    ],
    [
-    1791277951,
-    15.4,
-    15.4,
-    15.4,
-    15.4
+    1791278251,
+    15.42,
+    15.42,
+    15.42,
+    15.42
    ]
   ]
  },
