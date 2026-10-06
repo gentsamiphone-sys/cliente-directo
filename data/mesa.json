@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4178.9 · NQ 31409.5 · VIX 15.42 · 7 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-06T10:07:35Z"
+   "ultimo_resultado": "Oro 4180.1 · NQ 31401.0 · VIX 15.43 · 3 noticias nuevas",
+   "actualizado": "2026-10-06T10:12:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T10:07:35Z",
-   "ultimo_resultado": "7 titulares nuevos, 1 de alto impacto: Ex-CIA official expected to plead guilty in $40 million gold bar case"
+   "actualizado": "2026-10-06T10:12:35Z",
+   "ultimo_resultado": "3 titulares nuevos: Barbie maker Mattel faces investor pressure to consider a sale amid stagnating growth"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4180.1 · NQ 31401.0 · VIX 15.43 · 3 noticias nuevas",
+   "ts": "2026-10-06T10:12:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4178.9 · NQ 31409.5 · VIX 15.42 · 7 noticias nuevas (1 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4165.7 · NQ 31317.25 · VIX 15.59 · 13 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-05T18:52:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4164.7 · NQ 31311.0 · VIX 15.61 · 13 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-05T18:47:38Z"
   }
  ],
  "briefs": [
@@ -2617,12 +2617,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4178.9,
-  "nq": 31409.5,
-  "vix": 15.42,
-  "ts": "2026-10-06T10:07:35Z"
+  "oro": 4180.1,
+  "nq": 31401.0,
+  "vix": 15.43,
+  "ts": "2026-10-06T10:12:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Barbie maker Mattel faces investor pressure to consider a sale amid stagnating growth",
+   "link": "https://www.cnbc.com/2026/10/06/mattel-barbie-ariel-sale-investor-pressure.html",
+   "ts": "2026-10-06T10:07:03Z",
+   "fuente": "CNBC",
+   "id": "00c673bd26",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Ex-CIA official expected to plead guilty in $40 million gold bar case",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdmUydlJBcXFEOWZYdTR2NTlObklpYzYwTHRqNVcxc1R3clpvVkRaS0tLSGNfcXZNTGtWaHhsVGV4SVFhZ3lBYjdOVk9Oa05XbGhyM2p6ZFQwcEVRQ2ltQzNXZEMtWWlKTWZ1MXBRS3c0U2wtaFZWMTZWWV9wYnkzYTcwZDdCRnB4dElQcDZrQ3lpUnJFbWJHcXo3QUJodHhyVTU1QW5wYWhUNWR2T0JNODJXa2l2c0I1NlFoR2ZuNUg?oc=5",
@@ -3120,6 +3129,17 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Watch Treasury Yields Hit Highest Level Since 2002",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SQUxXaHZTb3JuUmNyaTdQckFSV2RyYjE1WGtaSlRCUzNNTzBxNlpkeVUwb1owMFJ6djJaR2RraVZFeTlKVmpDR25pdHVTbm9BX0Q0Zi1Bb24yZ0JjQ3RieGxzUFU2b2N0S0ZWM0QzQzgxR3VTaDlmbFVVVlhjVEk?oc=5",
+   "ts": "2026-10-06T02:31:53Z",
+   "fuente": "Bloomberg.com",
+   "id": "8f0c75903e",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Little room for ‘giving and taking’: India’s finance minister flags trade impasse with the U.S.",
    "link": "https://www.cnbc.com/2026/10/06/india-us-trade-deal-deal-sitharaman.html",
    "ts": "2026-10-06T02:29:06Z",
@@ -3387,6 +3407,15 @@
    "impacto": "medio"
   },
   {
+   "titulo": "AI researcher warns 'we are racing to build and grow our own adversary' in NYC hearing",
+   "link": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
+   "ts": "2026-10-05T23:28:31Z",
+   "fuente": "CNBC",
+   "id": "2a3c162394",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "Philly-area Jewish athletes score gold medal at basketball championship",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTEZ3OGt1aVlkcVZjTmozRmE4bU4yaWRaMzVGamZKVW96UGZuSFFMcFJ1Tnl1VGFWMkJLbkFFdUlUZGlmemlwcVRWUFFOZXZsUXF0akp4NFFfSTRCX1NFMzhkdXVJaFF0UnQ2VXgyY3FjRkNmRzhDWG8zLXZHN2xTVWMzbzh6aVg3ZDNGTW5mTV9fSUFFeWhIVlJYWlZSZm5hWFHSAacBQVVfeXFMT3RTLWlHcVBaU1BIeW1DWEpTYjNnMk9YSlBUekhqeWF3OEZJZ0dQNEg5OVVudE9xbWhmU2dLUXZWUnNuOE9JZ1B1OFVyaXg4VG1ENXVaNFdmdDF4MkZXRVNOMko2UkpaN2xHbzltMm8wUDdfa2Zjcm5wYjd1cEVwZFRpaXZQVUd5dzlRUjlqZmVjc2JPSGFvam92cDZ4OUtOanUwNFl2Mnc?oc=5",
    "ts": "2026-10-05T23:15:00Z",
@@ -3459,37 +3488,6 @@
    "id": "dd96532203",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Trump Threatens 300% Tariffs on Foreign Countries and Enterprises That Fail to Invest in US",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNHFRa1RNaDdlcXFVejU4cnNGVWJXNENzcHFpVHpVVTZjWGJBVEdoa19WRTR6RHg4Q1ZpNXIzUUJxTldQWEpGcmtYTEUydnJmT05fWURnYlpiMl9wVU4wZHZWcWl2S01rRUctMUpCSEVCeU5GSTlhWE9kOTZ3RjhKbDVWbmVkOXNlRTRIQmE1NktzdWtnVmlJODFxOA?oc=5",
-   "ts": "2026-10-05T22:41:15Z",
-   "fuente": "WWD",
-   "id": "cf8781f506",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Nasdaq notches record high close as investors focus on earnings",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV09jSm4zWHp2ODd2SmNPRHdJcUhDcjNzZ3dwYkwzZ3NSVHdyVUdUVEI0TWltb3RKQUZucVVNa2l1UzAxWmtSd0hQSWFjVXV0WVZiUjJFNGJDeEZQVlhoWDJ5WWpxLWxuc3ZVYXBLR0QxSzdZMVFjSklpUTB2Q2YwdE12VFl0bUw2RGRjZ3VoUmFlMkp4UUstYy1R?oc=5",
-   "ts": "2026-10-05T22:38:44Z",
-   "fuente": "Reuters",
-   "id": "796738df17",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "A proposed nickel mine near Gold Beach has a buyer, but years of studies remain",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaThIa0dzZExBNTVCOGxSaFg0d0M0WjVhRmdZZW5GbTVYRFVfaFlrUG8wRThuRjRFTHlGd2lwbHp3ZkZYN1E4eHZyMzJUZ2pHektvenBiT2I2bDBNRnBEcTJTMEpvQlpJMXM1TTBXOHozd1R1dXJ5bWZZcVJoSjZLcHQwSUE3cF9Rb0JmS2ZYc3FBVk9lVTdmcThqTGpfQk9hUXF0TnhLQjcxMDQwT0xzTTM3YlJaOUV6NzNCaWpLQQ?oc=5",
-   "ts": "2026-10-05T22:37:00Z",
-   "fuente": "NPR for Oregonians",
-   "id": "a5970459a8",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -4025,14 +4023,21 @@
     4182.6,
     4185.9,
     4177.2,
-    4180.0
+    4180.2
    ],
    [
-    1791280652,
-    4178.9,
-    4178.9,
-    4178.9,
-    4178.9
+    1791280800,
+    4179.9,
+    4180.5,
+    4179.5,
+    4180.4
+   ],
+   [
+    1791280947,
+    4180.1,
+    4180.1,
+    4180.1,
+    4180.1
    ]
   ],
   "nq": [
@@ -4559,14 +4564,21 @@
     31390.25,
     31427.75,
     31387.25,
-    31408.75
+    31407.5
    ],
    [
-    1791280649,
+    1791280800,
+    31407.5,
     31409.5,
-    31409.5,
-    31409.5,
-    31409.5
+    31401.0,
+    31402.75
+   ],
+   [
+    1791280954,
+    31402.0,
+    31402.0,
+    31402.0,
+    31402.0
    ]
   ],
   "vix": [
@@ -4981,14 +4993,14 @@
     15.45,
     15.45,
     15.39,
-    15.42
+    15.43
    ],
    [
-    1791280351,
-    15.42,
-    15.42,
-    15.42,
-    15.42
+    1791280651,
+    15.43,
+    15.43,
+    15.43,
+    15.43
    ]
   ]
  },
