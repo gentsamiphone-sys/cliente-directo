@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4204.2 · NQ 31527.75 · VIX 15.06 · 13 noticias nuevas",
-   "actualizado": "2026-10-06T19:27:35Z"
+   "ultimo_resultado": "Oro 4202.1 · NQ 31517.0 · VIX 15.07 · 15 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-06T19:32:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-06T19:27:34Z",
-   "ultimo_resultado": "13 titulares nuevos: Ether.fi Is Launching Its Own Stablecoin, With Ethena Running the Reserves"
+   "actualizado": "2026-10-06T19:32:34Z",
+   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: Iran war, Trump tariffs and Michigan data centers dominate questions during Barrett-Lawrence debate"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4202.1 · NQ 31517.0 · VIX 15.07 · 15 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-06T19:32:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4204.2 · NQ 31527.75 · VIX 15.06 · 13 noticias nuevas",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4152.0 · NQ 31362.25 · VIX 15.52 · 13 noticias nuevas",
    "ts": "2026-10-06T05:27:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4147.7 · NQ 31356.0 · VIX 15.52 · 13 noticias nuevas",
-   "ts": "2026-10-06T05:22:38Z"
   }
  ],
  "briefs": [
@@ -2778,12 +2778,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4204.2,
-  "nq": 31527.75,
-  "vix": 15.06,
-  "ts": "2026-10-06T19:27:35Z"
+  "oro": 4202.1,
+  "nq": 31517.0,
+  "vix": 15.07,
+  "ts": "2026-10-06T19:32:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Iran war, Trump tariffs and Michigan data centers dominate questions during Barrett-Lawrence debate",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTWNGbDc3WXhVR3Y2VHFGSUhORkxmdHgtR2R3RTkzYV9vQmFMek44V1lyanlwdTREMDNRakdWM20zX0hVUEJGTXJkZ19jWWJKLVhVWjEzWlZpQjVtLUlEYmQwRHllTTUyejhBMTVtdE9od3BxeVFxcm01R0ZZeWxLZ3F1ZThyaFFnR0NoV0Y0RGlDMDFaamxpT2pvbG1vX01GTEp4MTR6amVyRnNvX19tWmxvYTZBM1NKNHpwd0VpeWNEd29CQlFhNmxpV2N5MU15RnlyaQ?oc=5",
+   "ts": "2026-10-06T19:26:31Z",
+   "fuente": "Michigan Advance",
+   "id": "05d88bd08a",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Ex-CIA official found with gold bars admits to sprawling scheme, agrees to forfeit $194 million",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Bc3NfZk9QMl84SnBvbGNZMVhUR3FSbkxNcUhiZW5sWGswMmF5bFhuU3pOZ1E0UWVvNTRiSnhtc1g3YnNSUUxRaUstOHlZYk4xd2FKSlpLVHlyZWtDdGJjdWVUTTdheW50YW9RcG5jeWhKc0Rz?oc=5",
+   "ts": "2026-10-06T19:23:00Z",
+   "fuente": "CBS News",
+   "id": "a961333f76",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Private credit woes aren’t dampening demand for alternatives, says Goldman Sachs Asset Management",
    "link": "https://www.cnbc.com/2026/10/06/private-credit-woes-not-curbing-demand-for-alternatives-goldman-says.html",
@@ -3624,30 +3644,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "The Dollar Smile: What the Greenback’s Autumn Rally Is Signaling",
-   "link": "https://finance.yahoo.com/m/4014b221-d931-3898-8150-3bf3f6f0a09e/the-dollar-smile%3A-what-the.html?.tsrc=rss",
-   "ts": "2026-10-06T13:29:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "62d570b1f4",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Trump allows cheaper, dyed diesel on highways to blunt historic fuel cost spike ahead of midterms",
-   "link": "https://www.cnbc.com/2026/10/06/us-diesel-fuel-prices-iran-ukraine-energy-crisis-.html",
-   "ts": "2026-10-06T13:26:52Z",
-   "fuente": "CNBC",
-   "id": "98d6813a1e",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio",
-   "es": "Trump permite diésel más barato para frenar costo de combustible antes de elecciones",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [],
@@ -4252,15 +4248,15 @@
     1791313200,
     4203.4,
     4212.4,
-    4203.1,
-    4203.9
+    4201.6,
+    4202.1
    ],
    [
-    1791314249,
-    4204.2,
-    4204.2,
-    4204.2,
-    4204.2
+    1791314546,
+    4202.1,
+    4202.1,
+    4202.1,
+    4202.1
    ]
   ],
   "nq": [
@@ -4857,14 +4853,14 @@
     31532.75,
     31537.5,
     31506.5,
-    31526.5
+    31515.5
    ],
    [
-    1791314252,
-    31527.75,
-    31527.75,
-    31527.75,
-    31527.75
+    1791314553,
+    31517.0,
+    31517.0,
+    31517.0,
+    31517.0
    ]
   ],
   "vix": [
@@ -5347,16 +5343,16 @@
    [
     1791313200,
     15.0,
-    15.06,
+    15.09,
     15.0,
-    15.06
+    15.07
    ],
    [
-    1791313951,
-    15.06,
-    15.06,
-    15.06,
-    15.06
+    1791314251,
+    15.07,
+    15.07,
+    15.07,
+    15.07
    ]
   ]
  },
