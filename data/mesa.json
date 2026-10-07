@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4143.3 · NQ 31342.25 · VIX 15.39 · 1 noticias nuevas",
-   "actualizado": "2026-10-07T09:57:34Z"
+   "ultimo_resultado": "Oro 4144.5 · NQ 31344.75 · VIX 15.4 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-07T10:02:44Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-07T09:57:34Z",
-   "ultimo_resultado": "1 titulares nuevos: Former CIA official accused of stealing $40M in gold bars pleads guilty"
+   "actualizado": "2026-10-07T10:02:43Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: 'Get your house in order': IMF chief's stark warning for France over surging bond yields"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4144.5 · NQ 31344.75 · VIX 15.4 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-07T10:02:44Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4143.3 · NQ 31342.25 · VIX 15.39 · 1 noticias nuevas",
@@ -1050,11 +1055,6 @@
    "agente": "vigilante",
    "texto": "Oro 4196.9 · NQ 31472.5 · VIX 15.06 · 15 noticias nuevas",
    "ts": "2026-10-06T20:07:49Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4195.3 · NQ 31496.75 · VIX 15.05 · 15 noticias nuevas",
-   "ts": "2026-10-06T20:02:39Z"
   }
  ],
  "briefs": [
@@ -2966,12 +2966,35 @@
   }
  },
  "en_vivo": {
-  "oro": 4143.3,
-  "nq": 31342.25,
-  "vix": 15.39,
-  "ts": "2026-10-07T09:57:34Z"
+  "oro": 4144.5,
+  "nq": 31344.75,
+  "vix": 15.4,
+  "ts": "2026-10-07T10:02:43Z"
  },
  "noticias": [
+  {
+   "titulo": "'Get your house in order': IMF chief's stark warning for France over surging bond yields",
+   "link": "https://www.cnbc.com/2026/10/07/imf-france-debt-student-protests-yields.html",
+   "ts": "2026-10-07T09:57:23Z",
+   "fuente": "CNBC",
+   "id": "811ace0ec5",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "U.S. stock futures dip after S&P 500, Nasdaq hit records; Fed minutes awaited",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQm5JR1Q5NDRrNTM3MEc0VlpHYUhGUlBpdTNKcFRwNWllc0ZFdFIxeVhnclEtZmRDNE9TTTFhM0o0YjBRRURBS0pKU3VvRU1wOTJTZDBHMHU3RVZVWm5IZ0I0bUtWcmVIUGhqWUFnSzlFWVVYMjRBbkg0UDZBS1dCX3htamJoellzYWJ1ZHcwaDRVeE1wbFJmem9Gb0VXZEhrVm5hNFBWUUNqRUNKZ09ydkxkZ0FYeFItTF9jRUl4VExkQTlTRlpR?oc=5",
+   "ts": "2026-10-07T09:49:36Z",
+   "fuente": "Investing.com",
+   "id": "9d472b255f",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Rubio says Tehran missed 'multiple' chances for nuclear deal amid Iran stalemate",
    "link": "https://www.cnbc.com/2026/10/07/us-iran-war-trump-hormuz.html",
@@ -3817,30 +3840,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Update: S&P 500, Nasdaq Hit Record Highs as Focus Shifts to Fed Minutes",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNXVaRVhoZFR1UDJkVDc1ZFJlZkJhdVdDSHdIVDd2ZmN1b3JtdXh0SjdFMUdZb0hWOWlYdHJ0MmM4al9IMDRjTFBRRXVJVUJtQmNfbWw5NjZSaXRISGl4SE9qVHFaX3I4OE83Zk5vTmxNUmVycEZxRFdwN1puWkNEdURra2dYQWRKWmtOamo5bWxyUQ?oc=5",
-   "ts": "2026-10-06T20:48:48Z",
-   "fuente": "Yahoo Finance",
-   "id": "65ec09d298",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Wall Street shares notch records as oil prices stabilize, bond yields retreat",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZlMwQU1nbHRaZ2dnOUVOM1c1LXBxNXhWUTNzS1ROWDZyODk1NldRTHB2ODNKbnI0am5tUUcwMU9YekUxMWtLOFVGMFczTU12cHpCclQ1cnhDRzBMVGRBWTYwRjZPVUZidVFlT1FMZGdUcnR6MENjNXVMUXRzTlVzdVJkSQ?oc=5",
-   "ts": "2026-10-06T20:42:27Z",
-   "fuente": "Reuters",
-   "id": "b345069b3a",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -4376,14 +4375,14 @@
     4149.7,
     4151.9,
     4143.0,
-    4145.4
+    4144.7
    ],
    [
-    1791366453,
-    4143.3,
-    4143.3,
-    4143.3,
-    4143.3
+    1791366762,
+    4144.5,
+    4144.5,
+    4144.5,
+    4144.5
    ]
   ],
   "nq": [
@@ -4917,14 +4916,14 @@
     31411.5,
     31413.5,
     31336.5,
-    31342.75
+    31343.25
    ],
    [
-    1791366453,
-    31342.25,
-    31342.25,
-    31342.25,
-    31342.25
+    1791366760,
+    31344.75,
+    31344.75,
+    31344.75,
+    31344.75
    ]
   ],
   "vix": [
@@ -5337,16 +5336,16 @@
    [
     1791363600,
     15.24,
-    15.38,
+    15.39,
     15.24,
-    15.38
+    15.39
    ],
    [
-    1791366151,
-    15.39,
-    15.39,
-    15.39,
-    15.39
+    1791366451,
+    15.4,
+    15.4,
+    15.4,
+    15.4
    ]
   ]
  },
