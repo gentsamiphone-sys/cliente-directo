@@ -1417,9 +1417,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Civic Center Dr…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-07T21:02:31Z"
+   "actualizado": "2026-10-07T21:06:20Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -1447,6 +1447,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-07T21:06:20Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Civic Center Dr…",
@@ -2941,11 +2946,6 @@
    "agente": "buscador",
    "texto": "Encontré Peru Chicken, sin página web.",
    "ts": "2026-10-06T01:06:47Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ts": "2026-10-06T01:06:28Z"
   }
  ],
  "reportes": {
