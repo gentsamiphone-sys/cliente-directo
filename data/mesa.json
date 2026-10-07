@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4130.9 · NQ 31444.75 · VIX 15.08 · 8 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-07T22:42:33Z"
+   "ultimo_resultado": "Oro 4129.1 · NQ 31428.5 · VIX 15.08 · 9 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-07T22:47:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-07T22:42:33Z",
-   "ultimo_resultado": "8 titulares nuevos, 1 de alto impacto: Michael Gladchun Promoted to Co-Portfolio Manager of Loomis Sayles Core Plus Fixed Income Strategy"
+   "actualizado": "2026-10-07T22:47:31Z",
+   "ultimo_resultado": "9 titulares nuevos, 2 de alto impacto: America’s Global Trade Deficit Grew in August While Canadian Imports Surged"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4129.1 · NQ 31428.5 · VIX 15.08 · 9 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-07T22:47:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4130.9 · NQ 31444.75 · VIX 15.08 · 8 noticias nuevas (1 alto impacto)",
@@ -1050,11 +1055,6 @@
    "agente": "vigilante",
    "texto": "Oro 4154.6 · NQ 31427.75 · VIX 15.25 · 1 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-07T08:42:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4154.4 · NQ 31436.75 · VIX 15.25 · 1 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-07T08:37:39Z"
   }
  ],
  "briefs": [
@@ -3160,10 +3160,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4130.9,
-  "nq": 31444.75,
+  "oro": 4129.1,
+  "nq": 31428.5,
   "vix": 15.08,
-  "ts": "2026-10-07T22:42:33Z"
+  "ts": "2026-10-07T22:47:31Z"
  },
  "noticias": [
   {
@@ -3194,6 +3194,15 @@
    "id": "01f79eedd2",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "America’s Global Trade Deficit Grew in August While Canadian Imports Surged",
+   "link": "https://wwd.com/sourcing-journal/trade/us-global-trade-deficit-canadian-imports-tariffs-1239320248/?.tsrc=rss",
+   "ts": "2026-10-07T21:58:28Z",
+   "fuente": "Yahoo Finance",
+   "id": "8c3f24cebb",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Are gold IRAs safe? What investors should know",
@@ -3331,6 +3340,18 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Update: Nasdaq Composite, S&P 500 Fall From Record Following Fed Meeting Minutes",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONzIzT1g1MGpRNmt3dHFhQm1PV1gwOFFVUXdsNGRTYWNqd2ZFcnJQaTBEY0RwenhYUW9sOGM4aEgwb0EwMDVqZUlOcjNYNkwzeEk5NDdrY3B3QjM3Q2d5dXlvTFpzbmpkVzZKWG85WjBWTUN6d2JwS2VuQVFCOVVwc1ZyLUdWei1mczY5bVRwUFZNckI5bmZZ?oc=5",
+   "ts": "2026-10-07T20:50:40Z",
+   "fuente": "Yahoo Finance",
+   "id": "6f4531b2e3",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Lululemon poaches Athleta CEO as new chief product officer",
@@ -3984,29 +4005,6 @@
    "id": "4208797c60",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "I'm a Financial Expert: What Retirees Should Do Next If Gold and Silver Keep Falling Over the Next 12 Months",
-   "link": "https://moneylion.com/trending/money/financial-expert-what-retirees-do-next-gold-silver-keep-falling-next-12-months?.tsrc=rss",
-   "ts": "2026-10-07T17:00:23Z",
-   "fuente": "Yahoo Finance",
-   "id": "edd0cfdce2",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Goodbye TINA? High Treasury yields give investors an alternative to stocks",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSXZVUXZOakhMbGQzSjZwc05uRmg0amV6UE1DNk5IMmJHNUtrRHpiUUNyMXRnMzlLRl84elFPd01QZDhmc3RXcmpGbXJwXzd0ekdZcjV6QWJ1RGRzdmZ0bkFDR29aVjAwUGpxVjNJa3VpTmdFdm1IcUVvUlU3RTNPcVl30gGHAUFVX3lxTE5EdHJnRXd5ZEJCbUpQalJ4eURhVldpWjFhMnBicklzWi1KT0FBNnpiN25CSm8zWFVrMFJnUUJwRzN3SkxzYkhUd21kNGhMeVRvZkNFd0paYU5vZndLNVIzMHdSMFhXMlRMWDVVMWJZWjJWdjFNZk0ydkw0Tmx1OS1TdXNlUXd0dw?oc=5",
-   "ts": "2026-10-07T17:00:08Z",
-   "fuente": "CNBC",
-   "id": "bdf82c7bb4",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -4628,14 +4626,14 @@
     4140.5,
     4140.8,
     4128.1,
-    4130.9
+    4128.7
    ],
    [
-    1791412342,
-    4130.9,
-    4130.9,
-    4130.9,
-    4130.9
+    1791412641,
+    4129.1,
+    4129.1,
+    4129.1,
+    4129.1
    ]
   ],
   "nq": [
@@ -5253,14 +5251,14 @@
     31411.75,
     31446.75,
     31403.0,
-    31446.0
+    31428.5
    ],
    [
-    1791412353,
-    31444.75,
-    31444.75,
-    31444.75,
-    31444.75
+    1791412641,
+    31428.5,
+    31428.5,
+    31428.5,
+    31428.5
    ]
   ],
   "vix": [
