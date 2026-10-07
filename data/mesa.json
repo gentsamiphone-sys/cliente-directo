@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4143.3 · NQ 31302.25 · VIX 15.65 · 4 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-07T11:03:42Z"
+   "ultimo_resultado": "Oro 4144.3 · NQ 31303.75 · VIX 15.68 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-07T11:07:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-07T11:03:42Z",
-   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: Los vínculos de Webull con China plantean riesgos de seguridad nacional, según panel del Congreso"
+   "actualizado": "2026-10-07T11:07:39Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Meta's Muse assistant tops app charts. Now it needs to become a habit"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4144.3 · NQ 31303.75 · VIX 15.68 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-07T11:07:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4143.3 · NQ 31302.25 · VIX 15.65 · 4 noticias nuevas (1 alto impacto)",
@@ -1050,11 +1055,6 @@
    "agente": "noticias",
    "texto": "15 titulares nuevos, 1 de alto impacto: Wall Street shares notch records as oil prices stabilize, bond yields retreat",
    "ts": "2026-10-06T21:12:34Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "15 titulares nuevos: Shopping for a car on Amazon? Compare these auto lenders before financing",
-   "ts": "2026-10-06T21:07:34Z"
   }
  ],
  "briefs": [
@@ -2966,12 +2966,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4143.3,
-  "nq": 31302.25,
-  "vix": 15.65,
-  "ts": "2026-10-07T11:03:42Z"
+  "oro": 4144.3,
+  "nq": 31303.75,
+  "vix": 15.68,
+  "ts": "2026-10-07T11:07:39Z"
  },
  "noticias": [
+  {
+   "titulo": "Meta's Muse assistant tops app charts. Now it needs to become a habit",
+   "link": "https://www.cnbc.com/2026/10/07/meta-muse-personal-ai-agents-dazzle.html",
+   "ts": "2026-10-07T11:00:01Z",
+   "fuente": "CNBC",
+   "id": "649f8e73e3",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Trading platform Webull's China ties create national security risk, congressional panel finds",
    "link": "https://www.cnbc.com/2026/10/07/webull-china-national-security-risk-congress.html",
@@ -3425,6 +3436,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Will 30-Year US Treasury Yields Climb Higher?",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUC1EQ2IxSkxPWTQxRVQ0VG5DbklURTlXNEJqNzVycGxscEg5cU16QnEyRVJaQi13Tk55U0ZXWERqOVJJSWVRM2xRMFBEZkh5UFpTVWh0cERteVdMZVJaZjF2VXR3N2JyTE0tdUNtUDN1SWVxODF3am5kNWVTdnJnUERlVUdyWFgxVFFPbWRiVVFnSVNubkE?oc=5",
+   "ts": "2026-10-07T07:01:06Z",
+   "fuente": "Goldman Sachs",
+   "id": "ef91c007df",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Former CIA official accused of stealing $40M in gold bars pleads guilty",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWDNUaHNkUkhjbElXamZ2cWdQekN1VUFXZ19uLUlvWXAwdmVLNC0tM1lON293QjBMMWg2c3BTMmlSdFVJblE1WTltRkVHUWpsc1l3TWhGUzhVU3BEc2hGazNVNFVjQUhBeXpiUmVlU3VnbjZkc2ZVZjg5emNzbS1qSndSYlJYcmszNkl2YlNKQU1EODEz?oc=5",
    "ts": "2026-10-07T06:52:18Z",
@@ -3475,6 +3497,17 @@
    "id": "03f5953d0a",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "US Dollar Price Forecast: Fed Minutes Loom, Can GBP/USD and EUR/USD Recover?",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-054605230.html?.tsrc=rss",
+   "ts": "2026-10-07T05:46:05Z",
+   "fuente": "Yahoo Finance",
+   "id": "24a7592a06",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Regis Resources shares fall as Q1 gold production remains weak",
@@ -3819,38 +3852,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Trillions are being ‘wasted’ on the AI boom, Arthur Hayes says. He’s betting on what comes next",
-   "link": "https://www.cnbc.com/2026/10/07/flop-ai-boom-arthur-hayes-bitcoin-bitmex-coinferencex-.html",
-   "ts": "2026-10-07T00:49:34Z",
-   "fuente": "CNBC",
-   "id": "9e84d01ed3",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "U.S. stock futures steady after tech rally lifts S&P 500, Nasdaq to records",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN1h2RUZNbXFSZVNmZEZpWWRtYXdLNmhubTgzdG40cGVoNE9QZ2d6cTVKbi1CVmpDeWYySXRhT1JFTWM4NU5oNWs3M0dNQ0FmMDdxNXoyUktfR1dTemxTaWpKUXRsbjZRY1BvTTEzOUJSX09fdFZZZ3FNa3VsOU1UemJyOVFJSy1ON1NfMzRsd2c3anY1bDV3?oc=5",
-   "ts": "2026-10-07T00:44:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "8ba003436b",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gold Ticks Lower as Investors Await Fed Meeting Minutes",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMHNrUWF6d0ZiUUhYUGszdUpmRnF3X1d3S0NaYXRIRENXVGJ0aXRnNjVVZ3lqYWVoTktzMUsxZ1NLeTBxcGg5eDlrcmJDcVdGd1U2Z0R0T3c4ZzhuSDRhM0VqZ2VTa3hqdXplNnBfdkkyRzRiOGVvZ3NvYUxWWWVtNXdJWFV6eVpRbzA3S0NZZTdGS1pqRVptbm44OWpYbnNQNmtVNHd5SGhITVlab2ktZzZ3?oc=5",
-   "ts": "2026-10-07T00:40:00Z",
-   "fuente": "WSJ",
-   "id": "b8e944786c",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [],
@@ -4393,14 +4394,14 @@
     4145.7,
     4146.9,
     4135.0,
-    4142.4
+    4143.7
    ],
    [
-    1791370414,
-    4143.3,
-    4143.3,
-    4143.3,
-    4143.3
+    1791370655,
+    4144.3,
+    4144.3,
+    4144.3,
+    4144.3
    ]
   ],
   "nq": [
@@ -4941,14 +4942,14 @@
     31359.0,
     31368.5,
     31280.5,
-    31301.75
+    31303.25
    ],
    [
-    1791370421,
-    31302.25,
-    31302.25,
-    31302.25,
-    31302.25
+    1791370655,
+    31303.75,
+    31303.75,
+    31303.75,
+    31303.75
    ]
   ],
   "vix": [
@@ -5368,16 +5369,16 @@
    [
     1791367200,
     15.52,
-    15.65,
+    15.68,
     15.5,
-    15.64
+    15.67
    ],
    [
-    1791370111,
-    15.65,
-    15.65,
-    15.65,
-    15.65
+    1791370351,
+    15.68,
+    15.68,
+    15.68,
+    15.68
    ]
   ]
  },
