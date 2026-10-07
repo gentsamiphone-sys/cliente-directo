@@ -227,7 +227,12 @@ def gemini(prompt, buscar=False, intentos=3, lite=False):
         for modelo in lista[:6]:
             url = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent"
             for i in range(intentos):
-                r = requests.post(url, params={"key": GEMINI_KEY}, json=cuerpo, timeout=120)
+                try:
+                    r = requests.post(url, params={"key": GEMINI_KEY}, json=cuerpo, timeout=240)
+                except requests.exceptions.RequestException as ex:  # tardó demasiado o se cortó: prueba el siguiente modelo
+                    errores.append(f"{modelo}: {type(ex).__name__}")
+                    print("Gemini", modelo, "sin respuesta:", str(ex)[:120])
+                    break
                 if r.status_code == 200:
                     partes = r.json().get("candidates", [{}])[0].get("content", {}).get("parts", [])
                     texto = "".join(p.get("text", "") for p in partes)
