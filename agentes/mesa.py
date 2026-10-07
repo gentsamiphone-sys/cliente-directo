@@ -5,6 +5,7 @@ Cinco agentes con mentalidad de fondo institucional preparan el brief de cada se
   flujos       → posicionamiento de grandes jugadores (reporte COT de la CFTC)
   liquidez     → mapa de liquidez: máximos/mínimos previos, rangos de sesión, VWAP
   riesgo       → rango esperado (ATR), régimen de volatilidad, eventos
+  historiador  → estacionalidad: misma fecha en los últimos 10 años, día de la semana y años análogos
   cio          → junta todo y escribe el brief institucional de la sesión
 
 Uso: python agentes/mesa.py <asia|londres|nuevayork>
@@ -297,6 +298,83 @@ def vix_confluencia():
     return out
 
 
+# ───────── historiador: estacionalidad y años análogos ─────────
+
+HIST = {"oro": "GC=F", "nq": "^NDX"}  # ^NDX tiene más años de historia que el futuro NQ
+
+
+def historico(simbolo, anios=10):
+    """Cómo se movió el activo en esta misma ventana del calendario en años anteriores, patrón del día
+    de la semana y los 3 años más parecidos al actual (por rendimiento en lo que va del año)."""
+    d = yahoo(simbolo, "1d", "max")
+    if len(d) < 300:
+        return {"error": "pocos datos"}
+    hoy = datetime.now(timezone.utc).date()
+    fechas = [datetime.fromtimestamp(v["t"], timezone.utc).date() for v in d]
+    cierres = [v["c"] for v in d]
+
+    def idx_en(fecha):  # primer día hábil >= fecha
+        for i, f in enumerate(fechas):
+            if f >= fecha:
+                return i
+        return None
+
+    def ret(i, n):
+        return (cierres[i + n] / cierres[i - 1] - 1) * 100 if i and i - 1 >= 0 and i + n < len(cierres) else None
+
+    filas = []
+    for k in range(1, anios + 1):
+        y = hoy.year - k
+        try:
+            f0 = hoy.replace(year=y)
+        except ValueError:
+            f0 = hoy.replace(year=y, day=28)
+        i = idx_en(f0)
+        if i is None:
+            continue
+        r5, r20 = ret(i, 4), ret(i, 19)
+        ini = idx_en(f0.replace(month=1, day=1))
+        ytd = (cierres[i - 1] / cierres[ini - 1] - 1) * 100 if ini and i - 1 > ini else None
+        if r5 is not None:
+            filas.append({"anio": y, "semana_pct": round(r5, 2), "20dias_pct": round(r20, 2) if r20 is not None else None,
+                          "ytd_a_la_fecha_pct": round(ytd, 1) if ytd is not None else None})
+    if not filas:
+        return {"error": "sin años comparables"}
+    sub5 = sum(1 for f in filas if f["semana_pct"] > 0)
+    r20s = [f["20dias_pct"] for f in filas if f["20dias_pct"] is not None]
+    sub20 = sum(1 for x in r20s if x > 0)
+    # día de la semana: últimos 2 años
+    dia = hoy.weekday()
+    rd = [(cierres[i] / cierres[i - 1] - 1) * 100 for i in range(max(1, len(d) - 504), len(d)) if fechas[i].weekday() == dia]
+    # años análogos: rendimiento en lo que va del año más parecido al actual
+    ini_act = idx_en(hoy.replace(month=1, day=1))
+    ytd_act = (cierres[-1] / cierres[ini_act - 1] - 1) * 100 if ini_act else None
+    analogos = []
+    if ytd_act is not None:
+        cand = [f for f in filas if f["ytd_a_la_fecha_pct"] is not None and f["20dias_pct"] is not None]
+        cand.sort(key=lambda f: abs(f["ytd_a_la_fecha_pct"] - ytd_act))
+        analogos = cand[:3]
+    votos = (1 if sub5 / len(filas) >= 0.6 else -1 if sub5 / len(filas) <= 0.4 else 0) + \
+            ((1 if sub20 / len(r20s) >= 0.6 else -1 if sub20 / len(r20s) <= 0.4 else 0) if r20s else 0) + \
+            ((1 if statistics.mean(a["20dias_pct"] for a in analogos) > 0 else -1) if analogos else 0)
+    sesgo = "alcista" if votos >= 2 else "bajista" if votos <= -2 else "neutral"
+    return {
+        "esta_semana": {"anios": len(filas), "anios_alcistas": sub5, "promedio_pct": round(statistics.mean(f["semana_pct"] for f in filas), 2)},
+        "proximos_20_dias": {"anios": len(r20s), "anios_alcistas": sub20, "promedio_pct": round(statistics.mean(r20s), 2) if r20s else None},
+        "dia_semana": {"dia": ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"][dia],
+                       "muestras_2_anios": len(rd), "pct_alcistas": round(sum(1 for x in rd if x > 0) / len(rd) * 100) if rd else None,
+                       "promedio_pct": round(statistics.mean(rd), 3) if rd else None},
+        "ytd_actual_pct": round(ytd_act, 1) if ytd_act is not None else None,
+        "anios_analogos": analogos,
+        "detalle": filas,
+        "sesgo_historico": sesgo,
+        "lectura": f"Sesgo histórico {sesgo}: {sub5} de {len(filas)} años subió esta semana"
+                   + (f"; {sub20} de {len(r20s)} subió los 20 días siguientes" if r20s else "")
+                   + (f"; análogos {', '.join(str(a['anio']) for a in analogos)}" if analogos else ""),
+    }
+
+
+
 # ───────── auditor: revisa cómo salió cada entrada ─────────
 
 import re as _re
@@ -442,8 +520,17 @@ def correr(sesion):
     regimen = "estrés" if isinstance(vix, (int, float)) and vix >= 25 else "elevada" if isinstance(vix, (int, float)) and vix >= 18 else "normal"
     me.paso("riesgo", f"Volatilidad {regimen} (VIX {vix}).", trabajando=False)
 
+    me.paso("historiador", "Revisando qué pasó en esta misma fecha los últimos 10 años y buscando años parecidos…")
+    hist = {}
+    for k, sim in HIST.items():
+        try:
+            hist[k] = historico(sim)
+        except Exception as ex:
+            hist[k] = {"error": str(ex)[:80]}
+    me.paso("historiador", " · ".join(f"{k.upper()}: {v.get('lectura', v.get('error', 'sin datos'))}" for k, v in hist.items())[:300], trabajando=False)
+
     me.paso("cio", "Escribiendo el brief institucional…")
-    datos = {"sesion": nombre, "hora_las_vegas": datetime.now(LV).strftime("%Y-%m-%d %H:%M"), "macro": mac,
+    datos = {"historico": hist, "sesion": nombre, "hora_las_vegas": datetime.now(LV).strftime("%Y-%m-%d %H:%M"), "macro": mac,
              "calendario_usd": eventos, "cot": pos, "mapas": mapas, "riesgo": riesgo, "regimen_vol": regimen, "vix_nq": vixc, "historial_de_la_mesa": stats,
              "titulares": titulares()}
     prompt = f"""Eres el CIO (director de inversiones) de GSAM Capital, un fondo macro que opera oro (futuro GC / XAUUSD)
@@ -484,10 +571,14 @@ Escribe el BRIEF DE LA SESIÓN DE {nombre.upper()} en español, claro y directo,
    Reglas de la mesa: solo propones entrada si el R:R al TP2 es 2 o más; si hay noticia de impacto alto en los próximos
    30 minutos o el ATR del día ya está consumido más del 100%, la respuesta es SIN ENTRADA y explicas por qué.
    Una sola idea por activo. Nunca entres persiguiendo el precio.
-9. **Nota para tu regla Ruptura EMA9 (1H)** — en 2-3 líneas: qué ruptura tendría sentido con este mapa y dónde está
+9. **Historia y estacionalidad** — para ORO y NQ: cuántos de los últimos 10 años subieron esta misma semana y los
+   20 días siguientes, el patrón del día de la semana y los 3 años análogos (qué hicieron después). Cierra con
+   "Sesgo histórico: alcista / bajista / neutral". La historia es CONFLUENCIA, nunca el gatillo: si el sesgo histórico
+   CONTRADICE la dirección de una entrada, esa entrada necesita 5/5 confluencias o es SIN ENTRADA.
+10. **Nota para tu regla Ruptura EMA9 (1H)** — en 2-3 líneas: qué ruptura tendría sentido con este mapa y dónde está
    la liquidez a favor (recuerda que no se entra si la liquidez a favor está a menos de 2 ATR de 1H).
 Termina con una línea: "Análisis educativo de agentes de IA. No es consejo financiero."
-Usa SOLO los números de los datos; si un dato falta dilo. Máximo 650 palabras.
+Usa SOLO los números de los datos; si un dato falta dilo. Máximo 750 palabras.
 
 {SEMANAL if sesion == "semana" else ""}
 DATOS:
