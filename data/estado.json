@@ -1419,10 +1419,10 @@
    "actualizado": "2026-10-07T13:06:35Z"
   },
   "gerente": {
-   "estado": "trabajando",
-   "tarea": "Actualicé el reporte del día.",
-   "ultimo_resultado": "55 textos listos para mandar",
-   "actualizado": "2026-10-07T14:37:36Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "59 textos listos para mandar",
+   "actualizado": "2026-10-07T14:37:38Z"
   },
   "disenador": {
    "estado": "descansando",
@@ -1444,6 +1444,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "gerente",
+   "texto": "Terminó su turno: 59 textos listos para mandar",
+   "ts": "2026-10-07T14:37:38Z"
+  },
   {
    "agente": "gerente",
    "texto": "Actualicé el reporte del día.",
@@ -2938,11 +2943,6 @@
    "agente": "disenador",
    "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
    "ts": "2026-10-05T17:27:34Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "ts": "2026-10-05T17:06:37Z"
   }
  ],
  "reportes": {
@@ -2975,5 +2975,6 @@
  "aviso_2026-10-05am": true,
  "aviso_2026-10-05pm": true,
  "aviso_2026-10-06am": true,
- "aviso_2026-10-06pm": true
+ "aviso_2026-10-06pm": true,
+ "aviso_2026-10-07am": true
 }
