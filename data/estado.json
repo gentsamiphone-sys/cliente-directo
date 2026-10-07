@@ -1401,10 +1401,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "Agregando Chill Haus",
-   "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-07T13:06:34Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "3 negocios nuevos de restaurantes y comida cerca de Eastern Ave",
+   "actualizado": "2026-10-07T13:06:35Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -1432,6 +1432,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: 3 negocios nuevos de restaurantes y comida cerca de Eastern Ave",
+   "ts": "2026-10-07T13:06:35Z"
+  },
   {
    "agente": "buscador",
    "texto": "Encontré Chill Haus, sin página web.",
@@ -2926,11 +2931,6 @@
    "agente": "seguimiento",
    "texto": "Terminó su turno: 0 respuestas nuevas, 0 bajas, 0 seguimientos",
    "ts": "2026-10-05T14:12:46Z"
-  },
-  {
-   "agente": "vendedor",
-   "texto": "Terminó su turno: Fuera de horario: 0 correos listos para la mañana",
-   "ts": "2026-10-05T13:52:45Z"
   }
  ],
  "reportes": {
