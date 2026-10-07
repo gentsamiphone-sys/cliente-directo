@@ -455,6 +455,14 @@ def auditar(me):
     return stats
 
 
+
+def racha_mala(me, activo="NQ", n=2):
+    """True si las últimas n entradas cerradas de ese activo terminaron en stop (briefs: el más reciente primero)."""
+    res = [e["resultado"] for b in me.m.get("briefs", []) for e in (b.get("entradas") or [])
+           if activo in str(e.get("activo", "")).upper() and e.get("resultado") in ("stop", "TP1", "TP2", "cerrada sin objetivo")]
+    return len(res) >= n and all(r == "stop" for r in res[:n])
+
+
 # ───────── la sesión ─────────
 
 SEMANAL = """ESTE ES EL PLAN DE LA SEMANA (domingo, antes de que abra el mercado). Cambia el enfoque:
@@ -531,7 +539,7 @@ def correr(sesion):
     me.paso("historiador", " · ".join(f"{k.upper()}: {v.get('lectura', v.get('error', 'sin datos'))}" for k, v in hist.items())[:300], trabajando=False)
 
     me.paso("cio", "Escribiendo el brief institucional…")
-    datos = {"historico": hist, "sesion": nombre, "hora_las_vegas": datetime.now(LV).strftime("%Y-%m-%d %H:%M"), "macro": mac,
+    datos = {"racha": {"nq_ultimas_2_en_stop": racha_mala(me, "NQ"), "oro_ultimas_2_en_stop": racha_mala(me, "ORO")}, "historico": hist, "sesion": nombre, "hora_las_vegas": datetime.now(LV).strftime("%Y-%m-%d %H:%M"), "macro": mac,
              "calendario_usd": eventos, "cot": pos, "mapas": mapas, "riesgo": riesgo, "regimen_vol": regimen, "vix_nq": vixc, "historial_de_la_mesa": stats,
              "titulares": titulares()}
     prompt = f"""Eres el CIO (director de inversiones) de GSAM Capital, un fondo macro que opera oro (futuro GC / XAUUSD)
@@ -569,6 +577,8 @@ Escribe el BRIEF DE LA SESIÓN DE {nombre.upper()} en español, claro y directo,
    ALTA PROBABILIDAD SOLAMENTE: si una idea tiene menos de 4/5 confluencias, la respuesta es SIN ENTRADA.
    Si el historial muestra que una combinación (activo + dirección + sesión) tiene menos de 45% de acierto con 5 o más
    operaciones, no la propongas. Es mejor no operar que operar una idea mediocre.
+   MALA RACHA: si en DATOS.racha un activo tiene sus últimas 2 entradas en stop, ese activo necesita 5/5
+   confluencias o es SIN ENTRADA (como un fondo que baja el riesgo en una mala racha). Dilo en el brief.
    Reglas de la mesa: solo propones entrada si el R:R al TP2 es 2 o más; si hay noticia de impacto alto en los próximos
    30 minutos o el ATR del día ya está consumido más del 100%, la respuesta es SIN ENTRADA y explicas por qué.
    Una sola idea por activo. Nunca entres persiguiendo el precio.
@@ -584,10 +594,20 @@ Usa SOLO los números de los datos; si un dato falta dilo. Máximo 750 palabras.
 {SEMANAL if sesion == "semana" else ""}
 DATOS:
 {json.dumps(datos, ensure_ascii=False)[:14000]}"""
-    try:
-        texto = base.gemini(prompt)
-    except Exception as ex:
-        me.paso("cio", f"No pude escribir el brief ({str(ex)[:70]}).", trabajando=False)
+    texto, intentos = None, 3
+    for intento in range(1, intentos + 1):
+        try:
+            texto = base.gemini(prompt)
+            break
+        except Exception as ex:
+            me.paso("cio", f"Intento {intento}/{intentos}: no pude escribir el brief ({str(ex)[:70]}).", trabajando=False)
+            if intento < intentos:
+                me.paso("cio", "Reintento en 5 minutos…")
+                time.sleep(300)
+    if not texto:
+        me.paso("cio", f"Sin brief de {nombre} hoy: Gemini no respondió tras {intentos} intentos.", trabajando=False)
+        base.avisar_telefono(f"GSAM · Mesa sin brief ({nombre})",
+                             f"La mesa no pudo escribir el brief de {nombre} tras {intentos} intentos. Hoy no habrá orden automática en esta sesión.", "high")
         return
     try:
         corto = base.gemini_json(f"""Del siguiente brief, devuelve JSON {{"oro": "alcista|bajista|neutral", "nq": "alcista|bajista|neutral",
@@ -660,6 +680,9 @@ def enviar_traderspost(me, entradas):
     compra = str(e.get("direccion", "")).upper().startswith("COMPRA")
     lo, hi = _rango(e.get("zona"))
     stop, tp = _n(e.get("stop")), _n(e.get("tp2")) or _n(e.get("tp1"))
+    if racha_mala(me, "NQ") and conf < 5:
+        me.paso("ejecucion", f"Mala racha en NQ (últimas 2 en stop): se exige 5/5 y hay {conf}/5. No se envía.", trabajando=False)
+        return
     if conf < 4 or not (lo and stop and tp):
         me.paso("ejecucion", f"Entrada de NQ incompleta o con {conf}/5 confluencias: no se envía.", trabajando=False)
         return
