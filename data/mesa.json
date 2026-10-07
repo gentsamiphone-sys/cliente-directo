@@ -13,9 +13,9 @@
    "ultimo_resultado": "DXY 0.45% · 10Y 5.277 · VIX 15.08 · 4 eventos USD en el radar."
   },
   "flujos": {
-   "estado": "descansando",
-   "tarea": "",
-   "actualizado": "2026-10-07T12:32:54Z",
+   "estado": "trabajando",
+   "tarea": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
+   "actualizado": "2026-10-07T21:32:52Z",
    "ultimo_resultado": "COT leído."
   },
   "liquidez": {
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "flujos",
+   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
+   "ts": "2026-10-07T21:32:52Z"
+  },
   {
    "agente": "macro",
    "texto": "DXY 0.45% · 10Y 5.277 · VIX 15.08 · 4 eventos USD en el radar.",
@@ -1050,11 +1055,6 @@
    "agente": "cio",
    "texto": "No pude escribir el brief (HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443).",
    "ts": "2026-10-07T06:35:07Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Escribiendo el brief institucional…",
-   "ts": "2026-10-07T06:33:05Z"
   }
  ],
  "briefs": [
