@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4139.4 · NQ 31295.5 · VIX 15.6 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-07T10:57:34Z"
+   "ultimo_resultado": "Oro 4143.3 · NQ 31302.25 · VIX 15.65 · 4 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-07T11:03:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-07T10:57:33Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Gold price today, Wednesday, October 7, 2026: Gold prices losing ground ahead of Fed minutes"
+   "actualizado": "2026-10-07T11:03:42Z",
+   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: Los vínculos de Webull con China plantean riesgos de seguridad nacional, según panel del Congreso"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4143.3 · NQ 31302.25 · VIX 15.65 · 4 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-07T11:03:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4139.4 · NQ 31295.5 · VIX 15.6 · 3 noticias nuevas (1 alto impacto)",
@@ -1050,11 +1055,6 @@
    "agente": "noticias",
    "texto": "15 titulares nuevos: Shopping for a car on Amazon? Compare these auto lenders before financing",
    "ts": "2026-10-06T21:07:34Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "15 titulares nuevos, 1 de alto impacto: Before the Midterms: What Americans Think About Trade and Tariffs",
-   "ts": "2026-10-06T21:02:38Z"
   }
  ],
  "briefs": [
@@ -2966,12 +2966,39 @@
   }
  },
  "en_vivo": {
-  "oro": 4139.4,
-  "nq": 31295.5,
-  "vix": 15.6,
-  "ts": "2026-10-07T10:57:34Z"
+  "oro": 4143.3,
+  "nq": 31302.25,
+  "vix": 15.65,
+  "ts": "2026-10-07T11:03:42Z"
  },
  "noticias": [
+  {
+   "titulo": "Trading platform Webull's China ties create national security risk, congressional panel finds",
+   "link": "https://www.cnbc.com/2026/10/07/webull-china-national-security-risk-congress.html",
+   "ts": "2026-10-07T11:00:01Z",
+   "fuente": "CNBC",
+   "id": "fcaf7df561",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "Los vínculos de Webull con China plantean riesgos de seguridad nacional, según panel del Congreso",
+   "efecto": "Ruido regulatorio menor para tecnológicas chinas y plataformas de trading."
+  },
+  {
+   "titulo": "Mortgage rates sit at nearly 3-year high, and demand continues to shrink",
+   "link": "https://www.cnbc.com/2026/10/07/mortgage-rates-sit-at-nearly-3-year-high-and-demand-continues-to-shrink.html",
+   "ts": "2026-10-07T11:00:01Z",
+   "fuente": "CNBC",
+   "id": "55d644ce4b",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "Las tasas hipotecarias alcanzan máximos de casi 3 años y la demanda sigue contrayéndose",
+   "efecto": "Refleja presión inmobiliaria, limitando alzas agresivas en el NQ."
+  },
   {
    "titulo": "Gold price today, Wednesday, October 7, 2026: Gold prices losing ground ahead of Fed minutes",
    "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-october-7-2026-gold-prices-losing-ground-ahead-of-fed-minutes-105600743.html?.tsrc=rss",
@@ -2992,6 +3019,17 @@
    "id": "06726a6b8d",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Tropical Storm Isaias forms, forecast to become a hurricane and hit the U.S. Gulf Coast this week",
+   "link": "https://www.cnbc.com/2026/10/07/tropical-storm-isaias-us-gulf-coast.html",
+   "ts": "2026-10-07T10:53:30Z",
+   "fuente": "CNBC",
+   "id": "1cca22b9f3",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Se forma la tormenta tropical Isaías y prevén que golpee la costa del Golfo de EE.UU.",
+   "efecto": "Impacto temporal y localizado sin repercusión macroeconómica sistémica."
   },
   {
    "titulo": "RPX Gold Further Extends Zone of High-Grade Mineralization Within the PEA Open Pit",
@@ -3512,6 +3550,20 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Gold Steady as More Oil and Falling Yields Ease Rate-Hike Bets",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdGpoVjItaDZJaTZmNzBfekFfXzEyeUdQY2NRaWJwSUEtVDU1dmRlZHE2TjE0RWRWdnlWbWctX1FOdGI5OVBLWmtGTTVTRkRDYkt4WnBsN0k4Y3JucGJobnN3blo3N25HeXJQdlY0TW1Bb0hhbFBlV0xZWVlkX0hRRFQzdGxLbkZ2YkFYNHBadUQzeTU4SHpKakhoWVpTTEc0TW5jaE5NUDFCZ2pHd2NyQU1ZUQ?oc=5",
+   "ts": "2026-10-07T04:31:00Z",
+   "fuente": "Bloomberg.com",
+   "id": "6b31a87ed9",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El oro se mantiene estable mientras el petróleo y la caída de rendimientos alivian apuestas de tasas",
+   "efecto": "Soporta al oro y debilita al dólar por menores expectativas de tasas."
+  },
+  {
    "titulo": "“Digger” strikes gold: A film review",
    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5jdEtSd21SSGpvVnpIcGxnNlRXZlExeWZ1RUQ5ZG5yOW9aMFJQRy1vVkRzT1k1N1JlUXVLaC04c1UyUllpMnZwY1ZHT2F1N1Rudk5fWGw4Y1RKd3ljaEZ4ZXpwOGl4QTJEYS00?oc=5",
    "ts": "2026-10-07T04:30:19Z",
@@ -3799,50 +3851,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Former CIA official with Top Secret clearance admits to $194 million fraud, including 298 gold bars",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV0Z2aWRXSkhueHRHZVpmQndRODN2dHk1UmFlNW50b0NpZXNKY0h6ZGUwcmZWUUljNzluRG5wdnQ0QXVqMy1paEhydlhGQ0hiclhPQlMwQi0yZGJlcWFoQXpMZFQ0eEx1RHNHWGJ3RXRPSVJGcUFjcGlNTkd6WHlYYWZuMVg1ZHJTV2hLT0VZdHh5WjN6bjBHMQ?oc=5",
-   "ts": "2026-10-07T00:28:00Z",
-   "fuente": "Fortune",
-   "id": "b97f31952e",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Will 30-Year US Treasury Yields Climb Higher?",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUC1EQ2IxSkxPWTQxRVQ0VG5DbklURTlXNEJqNzVycGxscEg5cU16QnEyRVJaQi13Tk55U0ZXWERqOVJJSWVRM2xRMFBEZkh5UFpTVWh0cERteVdMZVJaZjF2VXR3N2JyTE0tdUNtUDN1SWVxODF3am5kNWVTdnJnUERlVUdyWFgxVFFPbWRiVVFnSVNubkE?oc=5",
-   "ts": "2026-10-07T00:26:02Z",
-   "fuente": "Goldman Sachs",
-   "id": "ef91c007df",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "How Gold Shipment Deferrals and Steady Copper Output Could Shape Freeport-McMoRan’s (FCX) Risk Profile",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-shipment-deferrals-steady-copper-001634905.html?.tsrc=rss",
-   "ts": "2026-10-07T00:16:34Z",
-   "fuente": "Yahoo Finance",
-   "id": "f09ffa481a",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Perseus says gold M&A activity high but deals hard to close over price uncertainty",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOUFYek1HVm9UdU50Z2VLYmY1SW5JeldJeVQ5bDMzbEQzYmdLeGlhbFhoNzg0QUxhQndGUjZLS0ZFUVcwMkd1eFV2UTR3THlLY1JDYU9Dam0weFEyTEFiakNIRGJzTGFIRTVNWkNqU3ZwdE5NLTF0Q3AwZlZOdjlnM3d4YVdpMGhvdUNHYWtna1VQTjFmQjlqa3NWU29xeFpPTUhMQ1AzQjN4UGxzTmg2T3R0ZmNZNTk4ZF96OG1qNHY?oc=5",
-   "ts": "2026-10-07T00:06:00Z",
-   "fuente": "Reuters",
-   "id": "172a84fa23",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -4385,14 +4393,14 @@
     4145.7,
     4146.9,
     4135.0,
-    4139.2
+    4142.4
    ],
    [
-    1791370049,
-    4139.4,
-    4139.4,
-    4139.4,
-    4139.4
+    1791370414,
+    4143.3,
+    4143.3,
+    4143.3,
+    4143.3
    ]
   ],
   "nq": [
@@ -4932,15 +4940,15 @@
     1791367200,
     31359.0,
     31368.5,
-    31282.25,
-    31292.0
+    31280.5,
+    31301.75
    ],
    [
-    1791370053,
-    31294.75,
-    31294.75,
-    31294.75,
-    31294.75
+    1791370421,
+    31302.25,
+    31302.25,
+    31302.25,
+    31302.25
    ]
   ],
   "vix": [
@@ -5360,18 +5368,18 @@
    [
     1791367200,
     15.52,
-    15.61,
+    15.65,
     15.5,
-    15.6
+    15.64
    ],
    [
-    1791369751,
-    15.6,
-    15.6,
-    15.6,
-    15.6
+    1791370111,
+    15.65,
+    15.65,
+    15.65,
+    15.65
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-07T10:32:32Z"
+ "noticias_traducidas_ts": "2026-10-07T11:02:45Z"
 }
