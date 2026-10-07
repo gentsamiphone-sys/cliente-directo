@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4141.8 · NQ 31233.0 · VIX 16.0 · 3 noticias nuevas",
-   "actualizado": "2026-10-07T12:02:39Z"
+   "ultimo_resultado": "Oro 4146.0 · NQ 31256.0 · VIX 16.0 · 4 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-07T12:07:43Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-07T12:02:39Z",
-   "ultimo_resultado": "3 titulares nuevos: ICE came to town and left behind weakened economies"
+   "actualizado": "2026-10-07T12:07:43Z",
+   "ultimo_resultado": "4 titulares nuevos, 2 de alto impacto: Principales recomendaciones de analistas: Nvidia, Apple, Tesla y más"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4146.0 · NQ 31256.0 · VIX 16.0 · 4 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-07T12:07:43Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4141.8 · NQ 31233.0 · VIX 16.0 · 3 noticias nuevas",
@@ -1050,11 +1055,6 @@
    "agente": "liquidez",
    "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
    "ts": "2026-10-06T21:32:55Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Fondos en oro: neto +120,318 contratos.",
-   "ts": "2026-10-06T21:32:54Z"
   }
  ],
  "briefs": [
@@ -2966,12 +2966,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4141.8,
-  "nq": 31233.0,
+  "oro": 4146.0,
+  "nq": 31256.0,
   "vix": 16.0,
-  "ts": "2026-10-07T12:02:39Z"
+  "ts": "2026-10-07T12:07:43Z"
  },
  "noticias": [
+  {
+   "titulo": "Here are Wednesday's biggest analyst calls: Nvidia, SpaceX, Apple, Tesla, Marvell, Flutter, Micron & more",
+   "link": "https://www.cnbc.com/2026/10/07/biggest-analyst-calls-on-wall-street-like-nvidia.html",
+   "ts": "2026-10-07T12:01:22Z",
+   "fuente": "CNBC",
+   "id": "ed8bf3f3ba",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Principales recomendaciones de analistas: Nvidia, Apple, Tesla y más",
+   "efecto": "Impulsa la volatilidad selectiva en tecnológicas del NQ."
+  },
   {
    "titulo": "ICE came to town and left behind weakened economies",
    "link": "https://www.cnbc.com/2026/10/07/ice-raids-local-economies.html",
@@ -2980,6 +2993,20 @@
    "id": "09e288e621",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold falls as investors await Fed September meeting minutes",
+   "link": "https://qz.com/gold-price-fed-minutes-september-meeting-100726?.tsrc=rss",
+   "ts": "2026-10-07T11:51:31Z",
+   "fuente": "Yahoo Finance",
+   "id": "f3eca540c6",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El oro cae mientras inversores esperan minutas de la Fed",
+   "efecto": "Presiona al oro a la baja por prudencia previa a la Fed."
   },
   {
    "titulo": "This data infrastructure app has had a strong 2026. It could get even better, Evercore ISI says",
@@ -3820,24 +3847,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Trump set to talk to Russia's Putin 'very soon' about plague-related death in Siberia",
-   "link": "https://www.cnbc.com/2026/10/07/trump-putin-russian-plague-death-cdc-pneumonic-.html",
-   "ts": "2026-10-07T02:26:49Z",
-   "fuente": "CNBC",
-   "id": "2d800a8807",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Families of some US troops killed in the Iran war's deadliest strike absent from White House event",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa1VpOTVFYU5JaFIxSGZ4SFg1dTVDamJQb2xSc18zanA3Nkc3UGxJTmhXS24xTmxwbUlRb255NGtncnJpSU1fUDBzUzNSREtydzJhdFIzS1kzcEVESGw2UDY4dDN2Sll6Rzg3MlM5REhiOXJSSDYyZW02cWFsendNMGFTbTJyejRILWRMMXNOVzU4blMxQ2NIdHIwSXNTeGkxaFIzdg?oc=5",
-   "ts": "2026-10-07T02:19:00Z",
-   "fuente": "AP News",
-   "id": "4878e2044a",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [],
@@ -4387,14 +4396,14 @@
     4143.1,
     4148.3,
     4140.9,
-    4140.9
+    4146.9
    ],
    [
-    1791373955,
-    4141.8,
-    4141.8,
-    4141.8,
-    4141.8
+    1791374261,
+    4147.4,
+    4147.4,
+    4147.4,
+    4147.4
    ]
   ],
   "nq": [
@@ -4942,14 +4951,14 @@
     31298.75,
     31304.0,
     31217.25,
-    31226.5
+    31257.0
    ],
    [
-    1791373958,
-    31232.5,
-    31232.5,
-    31232.5,
-    31232.5
+    1791374261,
+    31256.0,
+    31256.0,
+    31256.0,
+    31256.0
    ]
   ],
   "vix": [
@@ -5376,12 +5385,12 @@
    [
     1791370800,
     15.69,
-    16.0,
+    16.01,
     15.69,
-    16.0
+    16.01
    ],
    [
-    1791373651,
+    1791373951,
     16.0,
     16.0,
     16.0,
@@ -5389,5 +5398,5 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-07T11:37:32Z"
+ "noticias_traducidas_ts": "2026-10-07T12:07:40Z"
 }
