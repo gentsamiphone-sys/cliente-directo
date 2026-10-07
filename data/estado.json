@@ -1417,9 +1417,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Civic Center Dr…",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-07T21:02:29Z"
+   "actualizado": "2026-10-07T21:02:31Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -1447,6 +1447,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Civic Center Dr…",
+   "ts": "2026-10-07T21:02:31Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 60 textos listos para mandar",
@@ -2941,11 +2946,6 @@
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ts": "2026-10-06T01:06:28Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Buscando restaurantes y comida sin página web cerca de Civic Center Dr…",
-   "ts": "2026-10-06T01:02:39Z"
   }
  ],
  "reportes": {
