@@ -7,6 +7,7 @@ Cinco agentes con mentalidad de fondo institucional preparan el brief de cada se
   riesgo       → rango esperado (ATR), régimen de volatilidad, eventos
   historiador  → estacionalidad: misma fecha en los últimos 10 años, día de la semana y años análogos
   cio          → junta todo y escribe el brief institucional de la sesión
+  ejecucion    → en Nueva York, manda la entrada de NQ a TradersPost como orden límite (1 MNQ)
 
 Uso: python agentes/mesa.py <asia|londres|nuevayork>
 Todo queda en data/mesa.json (la sala de trading lo lee en vivo).
@@ -609,6 +610,11 @@ BRIEF: {texto[:6000]}""")
              "titular": corto.get("titular", ""), "entradas": corto.get("entradas", []), "mapas": mapas, "vix_nq": vixc, "macro": mac, "eventos": eventos, "cot": pos}
     me.m["briefs"].insert(0, brief)
     me.paso("cio", f"Brief de {nombre} publicado: {corto.get('titular', '')}", trabajando=False)
+    if sesion == "nuevayork":
+        try:
+            enviar_traderspost(me, corto.get("entradas", []))
+        except Exception as ex:
+            me.paso("ejecucion", f"Error al preparar la orden ({str(ex)[:60]}).", trabajando=False)
     lineas = []
     for e in corto.get("entradas", []) or []:
         if str(e.get("direccion", "")).upper().startswith("SIN"):
@@ -617,6 +623,63 @@ BRIEF: {texto[:6000]}""")
             lineas.append(f"{e.get('activo')} {e.get('direccion')} en {e.get('zona')} · SL {e.get('stop')} · TP1 {e.get('tp1')} · TP2 {e.get('tp2')} · R:R {e.get('rr')}\n  Confirmación: {e.get('confirmacion')}")
     base.avisar_telefono(f"GSAM · {nombre}: oro {corto.get('oro')} · NQ {corto.get('nq')}",
                          ("\n".join(lineas) + "\n\n" + corto.get("titular", "") + "\n\n" + texto)[:3800])
+
+
+# ───────── ejecución: manda la entrada de NQ a TradersPost (orden límite, 1 MNQ) ─────────
+
+def _tick(x, t=0.25):
+    return round(round(x / t) * t, 2)
+
+
+def enviar_traderspost(me, entradas):
+    """Si el brief de Nueva York trae una entrada de NQ con 4/5 confluencias o más, la manda como orden límite.
+    Una sola orden por día. La URL del webhook vive en el secreto TRADERSPOST_WEBHOOK de GitHub."""
+    url = os.environ.get("TRADERSPOST_WEBHOOK", "").strip()
+    if not url:
+        me.paso("ejecucion", "Sin webhook de TradersPost configurado: no se envía ninguna orden.", trabajando=False)
+        return
+    hoy = datetime.now(LV).strftime("%Y-%m-%d")
+    if me.m.get("orden_enviada_fecha") == hoy:
+        me.paso("ejecucion", "Ya se envió una orden hoy: regla de una sola orden por día.", trabajando=False)
+        return
+    e = next((x for x in entradas or [] if str(x.get("activo", "")).upper() == "NQ"), None)
+    if not e or str(e.get("direccion", "")).upper().startswith("SIN"):
+        me.paso("ejecucion", "NQ sin entrada de alta probabilidad: no se envía orden.", trabajando=False)
+        return
+    try:
+        conf = int(_n(e.get("confluencias")) or 0)
+    except Exception:
+        conf = 0
+    compra = str(e.get("direccion", "")).upper().startswith("COMPRA")
+    entrada, stop, tp = _n(e.get("zona")), _n(e.get("stop")), _n(e.get("tp2")) or _n(e.get("tp1"))
+    if conf < 4 or not (entrada and stop and tp):
+        me.paso("ejecucion", f"Entrada de NQ incompleta o con {conf}/5 confluencias: no se envía.", trabajando=False)
+        return
+    if (compra and not (stop < entrada < tp)) or (not compra and not (tp < entrada < stop)):
+        me.paso("ejecucion", "Niveles de NQ incoherentes (stop/objetivo del lado equivocado): no se envía.", trabajando=False)
+        return
+    rr = abs(tp - entrada) / abs(entrada - stop)
+    if rr < 2:
+        me.paso("ejecucion", f"R:R de NQ {rr:.1f} menor a 2: no se envía.", trabajando=False)
+        return
+    senal = {"ticker": "MNQ", "action": "buy" if compra else "sell", "orderType": "limit",
+             "limitPrice": _tick(entrada), "price": _tick(entrada), "quantity": 1,
+             "stopLoss": {"type": "stop", "stopPrice": _tick(stop)}, "takeProfit": {"limitPrice": _tick(tp)}}
+    try:
+        r = requests.post(url, json=senal, timeout=20)
+        ok = r.status_code < 300
+    except Exception as ex:
+        ok, r = False, None
+        me.paso("ejecucion", f"No pude enviar la orden ({str(ex)[:60]}).", trabajando=False)
+    if ok:
+        me.m["orden_enviada_fecha"] = hoy
+        lado = "COMPRA" if compra else "VENTA"
+        txt = f"Orden enviada a TradersPost: {lado} 1 MNQ límite {senal['limitPrice']} · SL {senal['stopLoss']['stopPrice']} · TP {senal['takeProfit']['limitPrice']} · R:R {rr:.1f}"
+        me.paso("ejecucion", txt, trabajando=False)
+        base.avisar_telefono("GSAM · Orden NQ enviada", txt + "\nSi te pide aprobación, apruébala en TradersPost.", "high")
+    elif r is not None:
+        me.paso("ejecucion", f"TradersPost respondió {r.status_code}: {r.text[:80]}", trabajando=False)
+
 
 
 # ───────── noticias: vigila titulares y calendario (gratis) ─────────
