@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4145.6 · NQ 31262.75 · VIX 15.78 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-07T11:27:32Z"
+   "ultimo_resultado": "Oro 4146.0 · NQ 31252.75 · VIX 15.8 · 4 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-07T11:32:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-07T11:27:31Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: US Futures Edge Lower Ahead of FOMC Minutes as Constellation Brands Reports Results: Dow Jones, S&P, Nasdaq, Wall Street"
+   "actualizado": "2026-10-07T11:32:32Z",
+   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: Stocks making the biggest moves premarket: Constellation Brands, Flutter Entertainment, Neogen & more"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4146.0 · NQ 31252.75 · VIX 15.8 · 4 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-07T11:32:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4145.6 · NQ 31262.75 · VIX 15.78 · 2 noticias nuevas (1 alto impacto)",
@@ -1050,11 +1055,6 @@
    "agente": "cio",
    "texto": "Abriendo la mesa para la sesión de Asia (Tokio/Sídney).",
    "ts": "2026-10-06T21:32:45Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "15 titulares nuevos, 1 de alto impacto: British Airways plans record 106-seat business class on Airbus A380 jumbo jets",
-   "ts": "2026-10-06T21:32:33Z"
   }
  ],
  "briefs": [
@@ -2966,12 +2966,35 @@
   }
  },
  "en_vivo": {
-  "oro": 4145.6,
-  "nq": 31262.75,
-  "vix": 15.78,
-  "ts": "2026-10-07T11:27:31Z"
+  "oro": 4146.0,
+  "nq": 31252.75,
+  "vix": 15.8,
+  "ts": "2026-10-07T11:32:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Stocks making the biggest moves premarket: Constellation Brands, Flutter Entertainment, Neogen & more",
+   "link": "https://www.cnbc.com/2026/10/07/stocks-making-the-biggest-moves-premarket-stz-flut-neog.html",
+   "ts": "2026-10-07T11:27:57Z",
+   "fuente": "CNBC",
+   "id": "f6358804e7",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "US Dollar Rises Early Wednesday Ahead of Oil Stocks, New York Fed Inflation Expectations, FOMC Minutes",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-wednesday-112144512.html?.tsrc=rss",
+   "ts": "2026-10-07T11:21:44Z",
+   "fuente": "Yahoo Finance",
+   "id": "481ae603b4",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Meta's Muse assistant tops app charts. Now it needs to become a habit",
    "link": "https://www.cnbc.com/2026/10/07/meta-muse-personal-ai-agents-dazzle.html",
@@ -3066,6 +3089,17 @@
    "ts": "2026-10-07T10:45:00Z",
    "fuente": "Yahoo Finance",
    "id": "b3c981a867",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Hearts of Gold cantaloupes return flavor and nostalgia to Spokane Valley",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVExuX0Y4TTV3V3o1YlBITXBIMjNESE9qRC0tdkhtN1JjRDdQUjg4T0hXdnJ6N1FKNnhxUjU5V01PZDVSeEpYZm5CaFlTcXl3M2s1LU9Ga1RaZ2xPemd0MUpUbS1feVlOVTVNOE51NmJIVUQ0VVk1b1BHNFVtbkFwcWZ1Z2JLNFlXSjVjektxanJUQnp6OHJoU3hiODJRZw?oc=5",
+   "ts": "2026-10-07T10:30:00Z",
+   "fuente": "The Spokesman-Review",
+   "id": "f0f20d85e9",
    "activos": [
     "oro"
    ],
@@ -3814,41 +3848,6 @@
    "id": "8425d74318",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Trump isn't ‘completely wrong’: Hormuz disruption is Asia’s problem, says Singapore's foreign minister",
-   "link": "https://www.cnbc.com/2026/10/07/hormuz-iran-war-singapore-vivian-balakrishnan.html",
-   "ts": "2026-10-07T02:05:20Z",
-   "fuente": "CNBC",
-   "id": "b883b6ed98",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Gold slips below $4,150 as stronger dollar offsets fading Fed hike bets",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-gains-oil-flows-013012289.html?.tsrc=rss",
-   "ts": "2026-10-07T01:30:12Z",
-   "fuente": "Yahoo Finance",
-   "id": "6b7f8922d9",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Gold holds gains as oil flows recover, Treasury yields ease",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-gains-oil-flows-013012289.html?.tsrc=rss",
-   "ts": "2026-10-07T01:30:12Z",
-   "fuente": "Yahoo Finance",
-   "id": "6fca549416",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El oro mantiene ganancias por la recuperación del petróleo y la baja de los rendimientos del Tesoro",
-   "efecto": "Soporte alcista para el oro por caída de rendimientos."
   }
  ],
  "eventos_avisados": [],
@@ -4398,14 +4397,14 @@
     4143.1,
     4147.9,
     4142.2,
-    4145.6
+    4145.8
    ],
    [
-    1791371849,
-    4145.6,
-    4145.6,
-    4145.6,
-    4145.6
+    1791372148,
+    4146.0,
+    4146.0,
+    4146.0,
+    4146.0
    ]
   ],
   "nq": [
@@ -4952,15 +4951,15 @@
     1791370800,
     31298.75,
     31304.0,
-    31251.0,
-    31258.5
+    31239.0,
+    31255.0
    ],
    [
-    1791371850,
-    31262.75,
-    31262.75,
-    31262.75,
-    31262.75
+    1791372151,
+    31252.75,
+    31252.75,
+    31252.75,
+    31252.75
    ]
   ],
   "vix": [
@@ -5392,11 +5391,11 @@
     15.8
    ],
    [
-    1791371551,
-    15.78,
-    15.78,
-    15.78,
-    15.78
+    1791371851,
+    15.8,
+    15.8,
+    15.8,
+    15.8
    ]
   ]
  },
