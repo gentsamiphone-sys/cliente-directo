@@ -2,8 +2,8 @@
  "agentes": {
   "cio": {
    "estado": "trabajando",
-   "tarea": "Abriendo la mesa para la sesión de Nueva York.",
-   "actualizado": "2026-10-07T12:32:46Z",
+   "tarea": "Escribiendo el brief institucional…",
+   "actualizado": "2026-10-07T12:33:05Z",
    "ultimo_resultado": "No pude escribir el brief (HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443)."
   },
   "macro": {
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "cio",
+   "texto": "Escribiendo el brief institucional…",
+   "ts": "2026-10-07T12:33:05Z"
+  },
   {
    "agente": "historiador",
    "texto": "ORO: pocos datos · NQ: pocos datos",
@@ -1050,11 +1055,6 @@
    "agente": "vigilante",
    "texto": "Oro 4193.0 · NQ 31506.0 · VIX 15.01 · 15 noticias nuevas (4 alto impacto)",
    "ts": "2026-10-06T22:42:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4194.4 · NQ 31508.0 · VIX 15.01 · 15 noticias nuevas (3 alto impacto)",
-   "ts": "2026-10-06T22:37:36Z"
   }
  ],
  "briefs": [
