@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4146.0 · NQ 31267.25 · VIX 15.79 · 5 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-07T12:22:41Z"
+   "ultimo_resultado": "Oro 4145.1 · NQ 31269.5 · VIX 15.78 · 6 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-07T12:27:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-07T12:22:36Z",
-   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: The SALT deduction limit is $40,400 for 2026. Here's how to maximize it"
+   "actualizado": "2026-10-07T12:27:32Z",
+   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: Treasury yields rise as traders await key 10-year note auction"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4145.1 · NQ 31269.5 · VIX 15.78 · 6 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-07T12:27:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4146.0 · NQ 31267.25 · VIX 15.79 · 5 noticias nuevas (1 alto impacto)",
@@ -1050,11 +1055,6 @@
    "agente": "riesgo",
    "texto": "VIX/NQ: DIVERGENCIA: NQ baja pero el VIX también baja (caída sin miedo; posible barrida para comprar)",
    "ts": "2026-10-06T21:33:00Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
-   "ts": "2026-10-06T21:32:59Z"
   }
  ],
  "briefs": [
@@ -2966,12 +2966,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4146.0,
-  "nq": 31267.25,
-  "vix": 15.79,
-  "ts": "2026-10-07T12:22:38Z"
+  "oro": 4145.1,
+  "nq": 31269.5,
+  "vix": 15.78,
+  "ts": "2026-10-07T12:27:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Treasury yields rise as traders await key 10-year note auction",
+   "link": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html",
+   "ts": "2026-10-07T12:26:15Z",
+   "fuente": "CNBC",
+   "id": "3e656f4f98",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "The SALT deduction limit is $40,400 for 2026. Here's how to maximize it",
    "link": "https://www.cnbc.com/2026/10/07/salt-deduction-limit-2026.html",
@@ -3037,6 +3048,17 @@
    "id": "beb7d136cc",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Dow futures fall 201 points as Treasury yields rise",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMDFyZDBhTmlOQUwxeDRScXB0NlhtODZiNTViMVdMbFFYR1NKSFpiVjVYWU8tVHJULUZMUE5XRjVOUWgtVk9vYkpGa25pbUdIeEVLT203cXlNWjdNUmxuZG1LSlBvTjBER1QyUF96VXN0bGR6NlBoTE9PYlVydWR4X0ZreVVXellXc1VMcWR0TTZfT2YxU3Q5WGFjNjI5cXFh?oc=5",
+   "ts": "2026-10-07T11:34:02Z",
+   "fuente": "Yahoo Finance",
+   "id": "70f11f7970",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Noble Minerals Prepares for Drill Program on the Lucas Gold Project",
@@ -3179,6 +3201,17 @@
    "id": "b3c981a867",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Coinbase, Robinhood Stocks Fall. The Crypto Rally Is Facing a Perfect Storm.",
+   "link": "https://finance.yahoo.com/m/d1dfde8a-ea6d-3cf2-a563-f464d2d90f55/coinbase%2C-robinhood-stocks.html?.tsrc=rss",
+   "ts": "2026-10-07T10:41:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "452bbc47ad",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -3815,39 +3848,6 @@
    "impacto": "medio",
    "es": "Monedas asiáticas mixtas mientras el dólar mantiene ganancias y el yen se debilita cerca de 158",
    "efecto": "Fortalece al dólar y presiona al oro a la baja."
-  },
-  {
-   "titulo": "Trump set to talk to Russia's Putin 'very soon' about plague-related death in Siberia",
-   "link": "https://www.cnbc.com/2026/10/07/trump-putin-russian-plague-death-cdc-pneumonic-.html",
-   "ts": "2026-10-07T04:12:27Z",
-   "fuente": "CNBC",
-   "id": "2d800a8807",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "How did an ex-CIA senior official who stole $40M in gold get hired?",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MR1Z6bHIwd1B3YXk4UVpHcnlJZzBmZmVEQzFpMV9oNFltTzZjWk1iekFjbHVpa2RwOWtHeU9aZEM5LTZWaEVLakVCY05aSHhFbnlmT2FvOHR6RGJmeXhQdnVXdGlEUWxoaDFn0gFwQVVfeXFMT29JMGZHTENXRm9vcTlyYTdUeENka09SdW5ubWNlaHhzT012U3lLN0RsUmdzWndCb1BqLUcyNm1rbS1nN1VxSDFXWXlnbzR4TU5ONFVOY01uYmRob3FHVy1wWlkyZ2NhNkVqeUNnY2JJQw?oc=5",
-   "ts": "2026-10-07T03:28:10Z",
-   "fuente": "NewsNation",
-   "id": "b5b7d6572c",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Collective Mining (TSX:CNL) Could Be 47% Undervalued As New High Grade Zone Extends Apollo",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/collective-mining-tsx-cnl-could-031708008.html?.tsrc=rss",
-   "ts": "2026-10-07T03:17:08Z",
-   "fuente": "Yahoo Finance",
-   "id": "3e9a929529",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Collective Mining podría estar infravalorada un 47%",
-   "efecto": "Sin impacto institucional significativo en el oro."
   }
  ],
  "eventos_avisados": [],
@@ -4403,15 +4403,15 @@
     1791374400,
     4147.5,
     4150.4,
-    4145.4,
-    4146.2
+    4141.6,
+    4144.8
    ],
    [
-    1791375156,
-    4146.0,
-    4146.0,
-    4146.0,
-    4146.0
+    1791375444,
+    4145.1,
+    4145.1,
+    4145.1,
+    4145.1
    ]
   ],
   "nq": [
@@ -4964,16 +4964,16 @@
    [
     1791374400,
     31267.0,
-    31277.0,
-    31260.75,
-    31264.25
+    31280.75,
+    31259.75,
+    31264.0
    ],
    [
-    1791375157,
-    31266.25,
-    31266.25,
-    31266.25,
-    31266.25
+    1791375453,
+    31270.5,
+    31270.5,
+    31270.5,
+    31270.5
    ]
   ],
   "vix": [
@@ -5408,15 +5408,15 @@
     1791374400,
     15.82,
     15.82,
-    15.79,
+    15.78,
     15.79
    ],
    [
-    1791374851,
-    15.79,
-    15.79,
-    15.79,
-    15.79
+    1791375151,
+    15.78,
+    15.78,
+    15.78,
+    15.78
    ]
   ]
  },
