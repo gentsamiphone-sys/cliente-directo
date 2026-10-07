@@ -1345,9 +1345,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando restaurantes y comida sin página web cerca de Eastern Ave…",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-07T13:02:32Z"
+   "actualizado": "2026-10-07T13:02:33Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -1375,6 +1375,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando restaurantes y comida sin página web cerca de Eastern Ave…",
+   "ts": "2026-10-07T13:02:33Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 55 textos listos para mandar",
@@ -2869,11 +2874,6 @@
    "agente": "buscador",
    "texto": "Buscando restaurantes y comida sin página web cerca de Decatur Blvd…",
    "ts": "2026-10-05T13:02:34Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Terminó su turno: 27 textos listos para mandar",
-   "ts": "2026-10-05T12:37:33Z"
   }
  ],
  "reportes": {
