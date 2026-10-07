@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4145.3 · NQ 31251.0 · VIX 15.84 · 3 noticias nuevas",
-   "actualizado": "2026-10-07T11:37:35Z"
+   "ultimo_resultado": "Oro 4144.3 · NQ 31236.75 · VIX 15.86 · 2 noticias nuevas",
+   "actualizado": "2026-10-07T11:42:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-07T11:37:34Z",
-   "ultimo_resultado": "3 titulares nuevos: Ministro de Singapur: interrupción en Ormuz es un problema de Asia."
+   "actualizado": "2026-10-07T11:42:32Z",
+   "ultimo_resultado": "2 titulares nuevos: This data infrastructure app has had a strong 2026. It could get even better, Evercore ISI says"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4144.3 · NQ 31236.75 · VIX 15.86 · 2 noticias nuevas",
+   "ts": "2026-10-07T11:42:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4145.3 · NQ 31251.0 · VIX 15.84 · 3 noticias nuevas",
@@ -1050,11 +1055,6 @@
    "agente": "auditor",
    "texto": "Historial: 3 operaciones, 33% de acierto, -0.89 R.",
    "ts": "2026-10-06T21:32:48Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Revisando cómo salieron las entradas anteriores…",
-   "ts": "2026-10-06T21:32:46Z"
   }
  ],
  "briefs": [
@@ -2966,12 +2966,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4145.3,
-  "nq": 31251.0,
-  "vix": 15.84,
-  "ts": "2026-10-07T11:37:34Z"
+  "oro": 4144.3,
+  "nq": 31236.75,
+  "vix": 15.86,
+  "ts": "2026-10-07T11:42:32Z"
  },
  "noticias": [
+  {
+   "titulo": "This data infrastructure app has had a strong 2026. It could get even better, Evercore ISI says",
+   "link": "https://www.cnbc.com/2026/10/07/netapp-has-had-a-strong-2026-it-could-get-better-evercore-isi-says.html",
+   "ts": "2026-10-07T11:38:42Z",
+   "fuente": "CNBC",
+   "id": "beb7d136cc",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Stocks making the biggest moves premarket: Constellation Brands, Flutter Entertainment, Neogen & more",
    "link": "https://www.cnbc.com/2026/10/07/stocks-making-the-biggest-moves-premarket-stz-flut-neog.html",
@@ -3839,20 +3848,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Trump isn't ‘completely wrong’: Hormuz disruption is Asia’s problem, says Singapore's foreign minister",
-   "link": "https://www.cnbc.com/2026/10/07/hormuz-iran-war-singapore-vivian-balakrishnan.html",
-   "ts": "2026-10-07T02:10:52Z",
-   "fuente": "CNBC",
-   "id": "b883b6ed98",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio",
-   "es": "Ministro de Singapur: interrupción en Ormuz es un problema de Asia.",
-   "efecto": "Impulsa al oro al alza por posibles tensiones geopolíticas y energéticas."
   }
  ],
  "eventos_avisados": [],
@@ -4400,16 +4395,16 @@
    [
     1791370800,
     4143.1,
-    4147.9,
+    4148.3,
     4142.2,
-    4144.8
+    4144.3
    ],
    [
-    1791372442,
-    4145.3,
-    4145.3,
-    4145.3,
-    4145.3
+    1791372750,
+    4144.3,
+    4144.3,
+    4144.3,
+    4144.3
    ]
   ],
   "nq": [
@@ -4956,15 +4951,15 @@
     1791370800,
     31298.75,
     31304.0,
-    31239.0,
-    31246.75
+    31217.25,
+    31230.0
    ],
    [
-    1791372453,
-    31251.0,
-    31251.0,
-    31251.0,
-    31251.0
+    1791372751,
+    31236.75,
+    31236.75,
+    31236.75,
+    31236.75
    ]
   ],
   "vix": [
@@ -5391,16 +5386,16 @@
    [
     1791370800,
     15.69,
-    15.85,
+    15.86,
     15.69,
-    15.83
+    15.85
    ],
    [
-    1791372151,
-    15.84,
-    15.84,
-    15.84,
-    15.84
+    1791372436,
+    15.86,
+    15.86,
+    15.86,
+    15.86
    ]
   ]
  },
