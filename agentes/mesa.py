@@ -307,7 +307,7 @@ HIST = {"oro": "GC=F", "nq": "^NDX"}  # ^NDX tiene más años de historia que el
 def historico(simbolo, anios=10):
     """Cómo se movió el activo en esta misma ventana del calendario en años anteriores, patrón del día
     de la semana y los 3 años más parecidos al actual (por rendimiento en lo que va del año)."""
-    d = yahoo(simbolo, "1d", "max")
+    d = yahoo(simbolo, "1d", "10y")  # "max" devuelve velas mensuales; 10y sí da velas diarias
     if len(d) < 300:
         return {"error": "pocos datos"}
     hoy = datetime.now(timezone.utc).date()
