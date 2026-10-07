@@ -1285,9 +1285,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Decatur Blvd…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "3 negocios nuevos de restaurantes y comida cerca de Nellis Blvd",
-   "actualizado": "2026-10-07T09:02:33Z"
+   "actualizado": "2026-10-07T09:06:21Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -1315,6 +1315,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-07T09:06:21Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Decatur Blvd…",
@@ -2809,11 +2814,6 @@
    "agente": "gerente",
    "texto": "Contando cómo vamos hoy…",
    "ts": "2026-10-05T08:37:31Z"
-  },
-  {
-   "agente": "seguimiento",
-   "texto": "Terminó su turno: 0 respuestas nuevas, 0 bajas, 0 seguimientos",
-   "ts": "2026-10-05T08:12:37Z"
   }
  ],
  "reportes": {
