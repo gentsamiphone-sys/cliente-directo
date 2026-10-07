@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4117.3 · NQ 31217.5 · VIX 15.78 · 10 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-07T14:07:34Z"
+   "ultimo_resultado": "Oro 4121.1 · NQ 31206.0 · VIX 15.66 · 13 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-07T14:12:44Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-07T14:07:33Z",
-   "ultimo_resultado": "10 titulares nuevos, 1 de alto impacto: Canada Commodities: Oil Prices Advance as Houthi Attacks Against Saudi Arabia Intensify"
+   "actualizado": "2026-10-07T14:12:43Z",
+   "ultimo_resultado": "13 titulares nuevos, 3 de alto impacto: Steve Adubato Examines How Tariffs and Supply Chain Issues Affect NJ Manufacturers"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4121.1 · NQ 31206.0 · VIX 15.66 · 13 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-07T14:12:44Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4117.3 · NQ 31217.5 · VIX 15.78 · 10 noticias nuevas (1 alto impacto)",
@@ -1050,11 +1055,6 @@
    "agente": "vigilante",
    "texto": "Oro 4195.6 · NQ 31497.5 · VIX 15.01 · 15 noticias nuevas (2 alto impacto)",
    "ts": "2026-10-07T00:27:39Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4195.4 · NQ 31491.0 · VIX 15.01 · 15 noticias nuevas (3 alto impacto)",
-   "ts": "2026-10-07T00:22:30Z"
   }
  ],
  "briefs": [
@@ -2966,12 +2966,55 @@
   }
  },
  "en_vivo": {
-  "oro": 4117.3,
-  "nq": 31217.5,
-  "vix": 15.78,
-  "ts": "2026-10-07T14:07:33Z"
+  "oro": 4121.1,
+  "nq": 31206.0,
+  "vix": 15.66,
+  "ts": "2026-10-07T14:12:43Z"
  },
  "noticias": [
+  {
+   "titulo": "Steve Adubato Examines How Tariffs and Supply Chain Issues Affect NJ Manufacturers",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMU11aG4tZDIxTmpiaHNvYy1NdVR0SzdrT0RUQ1p4X1Fla0UybTd0dWxBMEhzZkM2NHpueWVQU1VVRk9MbmVHQzRRMUNRZTExaTdIanZYN3JmVE52V2RMQUtZWGVGU0VTTlViOXVaVkxHQmUwVXU0RXZWeGIyN3hfNmZIQVFIR3M4WnpHOGNYUlJSSGt2b0JWSGNraWtnMnI5WUlJ?oc=5",
+   "ts": "2026-10-07T14:11:20Z",
+   "fuente": "New Jersey Business & Industry Association",
+   "id": "e3a818bebc",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Dow drops 451 points as Treasury yields hit 24-year highs",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MZHNqMnpvZC1tNXFWVWw4bU5CS0NUUmphLVRUM3Zoa3FtMDVBUUV5NEMwaGhkYXBkOVl3OGxBX3NNbFJzekNmYjF3UzU4UDh2Y0JHVFVhcVltT3NhZkJ5R2ItYzQwTF8yVVFB?oc=5",
+   "ts": "2026-10-07T14:02:33Z",
+   "fuente": "Quartz",
+   "id": "8854e86f82",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "What If You Invested $1,000 in Bitcoin 5 Years Ago? Gold and US Stocks Both Did Better",
+   "link": "https://247wallst.com/investing/cryptocurrency/2026/10/07/what-if-you-invested-1000-in-bitcoin-5-years-ago-gold-and-us-stocks-both-did-better/?.tsrc=rss",
+   "ts": "2026-10-07T14:00:37Z",
+   "fuente": "Yahoo Finance",
+   "id": "49103c2e71",
+   "activos": [
+    "oro",
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "BC-Gold Futures",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-futures-140022645.html?.tsrc=rss",
+   "ts": "2026-10-07T14:00:22Z",
+   "fuente": "Yahoo Finance",
+   "id": "ef01beb2d8",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Stocks made a record high. Two big bearish trades point to skepticism",
    "link": "https://www.cnbc.com/2026/10/07/stocks-made-a-record-high-two-big-bearish-trades-point-to-skepticism.html",
@@ -3055,6 +3098,18 @@
    "ts": "2026-10-07T13:20:38Z",
    "fuente": "Yahoo Finance",
    "id": "bb8ee52ebc",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "US Futures Point Lower as Treasury Yields Rebound Ahead of Fed Minutes: Dow Jones, S&P, Nasdaq, Wall Street",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMmZkZm1FQzhHRllEWWF6UUdBc2lFNHUzWDBlTUhCUTFsVjRUSE4zOHhycUVwdEI1Wk1qeFREd09YbS1fVTdFRVBzS21YVURscmt0S1oxM3M2amp5VFRaTU0tLXdtNk1yemtESWw5Q1RyQ2R6NjJFWG9ER2xJTHVLdmI2QnBlSGc?oc=5",
+   "ts": "2026-10-07T13:20:28Z",
+   "fuente": "Yahoo Finance UK",
+   "id": "db5989ade6",
    "activos": [
     "nq",
     "dolar"
@@ -3781,57 +3836,6 @@
    "id": "05090d3ff7",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "US Futures Edge Lower Ahead of FOMC Minutes as Constellation Brands Reports Results: Dow Jones, S&P, Nasdaq, Wall Street",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOFIzb2wyanNPSjZmd2Z5TFpNOEthNW9zTFpFcm41S0hqdGZTdGwzSUFTTlhZampDU3FJY3NWZ1R1clZMT0pmLVk3SkJmZjZ0bGJlOWk3TzVSS0dlekZ3NWpOX2EtNEJYazhxMkF6US1hVjhRTkxFdm5PSWROR2FCMzdLT1VYdzNQYW5Ra1BoRS1fV0tTV3Vr?oc=5",
-   "ts": "2026-10-07T09:28:11Z",
-   "fuente": "Yahoo Finance",
-   "id": "5b9e3dd4e6",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Google ordered to halt work on two data centers in ‘Texas of Europe’",
-   "link": "https://www.cnbc.com/2026/10/07/google-finland-data-center-halt.html",
-   "ts": "2026-10-07T09:26:02Z",
-   "fuente": "CNBC",
-   "id": "64790e4cbb",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "U.S., European Government-Bond Yields Rise; French Bonds Underperform on Budget Worries",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOS3lkUHdVT3kyMlo2aEQ4TWZDNDFYdVh2YzAxYXBoengxU2dkM0lVWjVia3pDRVJGUmVmaVFsaldoWThMVlZ4eG03dTNKZW1oeElRbUU4MTRlVi1NcVl1QzEwcmI4Z25EQXFZZkgyeDZCSzNzUm5GTEJycGFRSy1CQ1ZqS0xnTzk4RjJiaDFKbHU0QTFGZkw3SDllZEZobDVGSTF6QVFVRU12TVpSUTJzZ2QtN3oxd05lVE9hNU5fck9yMHRxa3RYV0F4MA?oc=5",
-   "ts": "2026-10-07T09:20:00Z",
-   "fuente": "WSJ",
-   "id": "b2ead7766f",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Jaguar unveils $130,000 electric vehicle two years after controversial rebrand",
-   "link": "https://www.cnbc.com/2026/10/07/jaguar-electric-vehicle-autos-type-01.html",
-   "ts": "2026-10-07T09:18:30Z",
-   "fuente": "CNBC",
-   "id": "cf801982e2",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Treasury Yields Climb to Fresh Highs While Oil Rises",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNV2R4R21MaGQtVmxfM1dQcl9RZDl3TjlyOTg4WERvdGIwRlJ6NFZZRERhU3hYeDBVOGp6MlVHekZTTUhNS0JHclVRSTN0Vm5GQmVVU3E0Tm9hYkEyaXgwT01MT0Vnb3h2b3JCRXVsR2x6S1AzeVZua3RPWGZVeVFJZEtSVmEzanU2a0NaMHdRQTYwX0xXVFdWTUd6di1yaWt0?oc=5",
-   "ts": "2026-10-07T09:16:02Z",
-   "fuente": "WSJ",
-   "id": "be39eb3d6a",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -3846,14 +3850,14 @@
    ],
    [
     1790917200,
-    4214.6,
+    4214.5,
     4222.3,
     4212.8,
     4216.0
    ],
    [
     1790920800,
-    4216.5,
+    4216.1,
     4226.8,
     4207.4,
     4211.0
@@ -3895,7 +3899,7 @@
    ],
    [
     1790942400,
-    4211.3,
+    4211.5,
     4259.0,
     4204.4,
     4248.2
@@ -3905,25 +3909,25 @@
     4248.4,
     4255.9,
     4207.7,
-    4220.5
+    4221.2
    ],
    [
     1790949600,
-    4220.6,
+    4220.7,
     4226.6,
     4184.5,
-    4188.2
+    4188.3
    ],
    [
     1790953200,
-    4188.5,
+    4188.4,
     4189.4,
     4153.8,
     4156.1
    ],
    [
     1790956800,
-    4156.3,
+    4156.2,
     4170.5,
     4154.6,
     4168.2
@@ -3944,14 +3948,14 @@
    ],
    [
     1790967600,
-    4175.8,
+    4175.7,
     4178.9,
     4169.4,
-    4176.4
+    4176.6
    ],
    [
     1790971200,
-    4176.9,
+    4176.8,
     4177.7,
     4162.3,
     4162.3
@@ -4007,28 +4011,28 @@
    ],
    [
     1791176400,
-    4159.2,
+    4159.0,
     4168.6,
     4157.6,
     4162.4
    ],
    [
     1791180000,
-    4161.8,
+    4162.1,
     4184.1,
     4161.7,
-    4183.9
+    4183.7
    ],
    [
     1791183600,
-    4184.0,
+    4183.7,
     4194.9,
     4177.9,
     4188.7
    ],
    [
     1791187200,
-    4188.7,
+    4189.0,
     4198.9,
     4187.5,
     4195.7
@@ -4066,14 +4070,14 @@
     4184.3,
     4186.1,
     4159.1,
-    4163.0
+    4163.4
    ],
    [
     1791208800,
-    4162.9,
+    4163.0,
     4176.6,
     4160.0,
-    4175.1
+    4175.0
    ],
    [
     1791212400,
@@ -4112,7 +4116,7 @@
    ],
    [
     1791230400,
-    4168.2,
+    4168.4,
     4170.7,
     4165.0,
     4167.3
@@ -4126,7 +4130,7 @@
    ],
    [
     1791237600,
-    4168.9,
+    4169.2,
     4172.5,
     4167.6,
     4167.9
@@ -4140,14 +4144,14 @@
    ],
    [
     1791244800,
-    4161.0,
+    4161.2,
     4178.8,
     4160.1,
-    4178.3
+    4178.4
    ],
    [
     1791248400,
-    4177.9,
+    4178.1,
     4179.6,
     4156.0,
     4157.2
@@ -4178,11 +4182,11 @@
     4147.9,
     4152.8,
     4143.3,
-    4146.6
+    4146.7
    ],
    [
     1791266400,
-    4146.3,
+    4146.6,
     4162.6,
     4140.1,
     4158.9
@@ -4196,14 +4200,14 @@
    ],
    [
     1791273600,
-    4167.4,
+    4167.5,
     4182.9,
     4165.2,
     4182.8
    ],
    [
     1791277200,
-    4182.5,
+    4182.6,
     4185.9,
     4177.2,
     4180.2
@@ -4234,11 +4238,11 @@
     4198.2,
     4202.5,
     4179.3,
-    4180.1
+    4180.0
    ],
    [
     1791295200,
-    4180.0,
+    4180.1,
     4185.9,
     4170.6,
     4184.5
@@ -4276,7 +4280,7 @@
     4203.4,
     4212.4,
     4194.6,
-    4197.3
+    4197.1
    ],
    [
     1791316800,
@@ -4294,14 +4298,14 @@
    ],
    [
     1791327600,
-    4192.5,
-    4197.7,
-    4192.3,
+    4190.8,
+    4197.8,
+    4190.0,
     4193.6
    ],
    [
     1791331200,
-    4192.9,
+    4193.2,
     4197.3,
     4182.9,
     4183.6
@@ -4322,7 +4326,7 @@
    ],
    [
     1791342000,
-    4168.7,
+    4168.9,
     4174.5,
     4164.2,
     4170.3
@@ -4350,7 +4354,7 @@
    ],
    [
     1791356400,
-    4156.6,
+    4156.7,
     4165.8,
     4154.5,
     4159.0
@@ -4360,7 +4364,7 @@
     4159.1,
     4163.3,
     4148.4,
-    4150.1
+    4149.8
    ],
    [
     1791363600,
@@ -4371,7 +4375,7 @@
    ],
    [
     1791367200,
-    4146.1,
+    4145.7,
     4146.9,
     4135.0,
     4142.9
@@ -4385,24 +4389,31 @@
    ],
    [
     1791374400,
-    4147.5,
+    4147.4,
     4150.4,
     4091.2,
     4112.8
    ],
    [
     1791378000,
-    4113.2,
+    4112.6,
     4125.0,
     4108.0,
-    4118.1
+    4124.0
    ],
    [
-    1791381451,
-    4117.3,
-    4117.3,
-    4117.3,
-    4117.3
+    1791381600,
+    4124.0,
+    4127.4,
+    4119.9,
+    4121.2
+   ],
+   [
+    1791381761,
+    4121.1,
+    4121.1,
+    4121.1,
+    4121.1
    ]
   ],
   "nq": [
@@ -4425,18 +4436,18 @@
     30874.0,
     30902.75,
     30839.5,
-    30877.25
+    30877.5
    ],
    [
     1790924400,
-    30875.0,
+    30876.5,
     30990.0,
     30866.75,
     30973.25
    ],
    [
     1790928000,
-    30973.75,
+    30974.0,
     31029.5,
     30953.0,
     31015.75
@@ -4453,7 +4464,7 @@
     31005.75,
     31008.5,
     30940.0,
-    30985.25
+    30986.5
    ],
    [
     1790938800,
@@ -4464,42 +4475,42 @@
    ],
    [
     1790942400,
-    30932.0,
+    30934.75,
     31179.0,
     30918.0,
-    31168.75
+    31169.0
    ],
    [
     1790946000,
-    31169.5,
+    31169.0,
     31222.25,
     31056.25,
-    31184.75
+    31185.0
    ],
    [
     1790949600,
-    31185.5,
+    31185.25,
     31282.5,
     31155.75,
-    31165.25
+    31166.5
    ],
    [
     1790953200,
-    31166.75,
+    31166.0,
     31181.25,
     30988.0,
     31101.25
    ],
    [
     1790956800,
-    31102.25,
+    31102.0,
     31130.25,
     31042.0,
     31071.5
    ],
    [
     1790960400,
-    31072.0,
+    31071.75,
     31108.5,
     30994.75,
     31047.75
@@ -4516,11 +4527,11 @@
     31043.75,
     31090.75,
     31026.75,
-    31069.75
+    31070.0
    ],
    [
     1790971200,
-    31069.5,
+    31070.0,
     31094.0,
     31043.75,
     31061.75
@@ -4537,11 +4548,11 @@
     31160.5,
     31169.0,
     31120.0,
-    31146.25
+    31146.75
    ],
    [
     1791158400,
-    31140.75,
+    31144.75,
     31194.5,
     31124.25,
     31187.0
@@ -4551,11 +4562,11 @@
     31186.75,
     31221.25,
     31180.25,
-    31190.75
+    31189.75
    ],
    [
     1791165600,
-    31189.0,
+    31188.75,
     31202.25,
     31100.25,
     31105.5
@@ -4565,7 +4576,7 @@
     31105.0,
     31129.5,
     31075.75,
-    31076.5
+    31077.0
    ],
    [
     1791172800,
@@ -4586,11 +4597,11 @@
     31045.5,
     31081.0,
     31003.75,
-    31041.0
+    31040.0
    ],
    [
     1791183600,
-    31039.75,
+    31040.25,
     31072.75,
     31022.75,
     31060.0
@@ -4611,7 +4622,7 @@
    ],
    [
     1791194400,
-    30987.75,
+    30988.25,
     31046.75,
     30960.0,
     31028.0
@@ -4635,11 +4646,11 @@
     30995.5,
     31229.5,
     30988.5,
-    31155.5
+    31155.25
    ],
    [
     1791208800,
-    31156.0,
+    31156.5,
     31254.75,
     31115.0,
     31248.25
@@ -4660,21 +4671,21 @@
    ],
    [
     1791219600,
-    31250.5,
+    31249.75,
     31318.75,
     31235.75,
     31296.0
    ],
    [
     1791223200,
-    31296.25,
+    31295.5,
     31325.0,
     31273.5,
     31320.5
    ],
    [
     1791226800,
-    31321.5,
+    31320.75,
     31371.0,
     31291.25,
     31338.5
@@ -4688,14 +4699,14 @@
    ],
    [
     1791237600,
-    31349.5,
+    31346.75,
     31385.25,
     31325.5,
-    31332.25
+    31332.0
    ],
    [
     1791241200,
-    31331.5,
+    31331.75,
     31368.25,
     31328.75,
     31349.5
@@ -4705,7 +4716,7 @@
     31350.25,
     31394.75,
     31337.25,
-    31391.5
+    31391.25
    ],
    [
     1791248400,
@@ -4716,14 +4727,14 @@
    ],
    [
     1791252000,
-    31337.25,
+    31337.5,
     31350.0,
     31309.25,
-    31340.75
+    31341.0
    ],
    [
     1791255600,
-    31342.5,
+    31342.0,
     31366.25,
     31339.0,
     31350.0
@@ -4737,35 +4748,35 @@
    ],
    [
     1791262800,
-    31340.25,
+    31340.75,
     31380.25,
     31336.0,
     31377.75
    ],
    [
     1791266400,
-    31379.5,
+    31378.75,
     31399.0,
     31363.5,
     31382.75
    ],
    [
     1791270000,
-    31383.25,
+    31383.0,
     31392.25,
     31340.0,
     31380.75
    ],
    [
     1791273600,
-    31381.0,
+    31380.5,
     31408.25,
     31361.0,
     31390.75
    ],
    [
     1791277200,
-    31390.5,
+    31390.25,
     31427.75,
     31387.25,
     31407.5
@@ -4775,28 +4786,28 @@
     31407.5,
     31462.75,
     31393.0,
-    31443.25
+    31443.75
    ],
    [
     1791284400,
-    31443.25,
+    31443.5,
     31535.75,
     31440.25,
     31509.5
    ],
    [
     1791288000,
-    31510.25,
+    31509.25,
     31539.0,
     31455.0,
     31490.5
    ],
    [
     1791291600,
-    31490.25,
+    31491.25,
     31567.0,
     31457.75,
-    31548.75
+    31548.0
    ],
    [
     1791295200,
@@ -4807,42 +4818,42 @@
    ],
    [
     1791298800,
-    31584.0,
+    31583.75,
     31616.5,
     31563.0,
     31569.0
    ],
    [
     1791302400,
-    31569.0,
+    31568.75,
     31573.5,
     31515.75,
     31529.5
    ],
    [
     1791306000,
-    31529.0,
+    31529.25,
     31546.0,
     31480.75,
-    31526.25
+    31526.0
    ],
    [
     1791309600,
     31526.25,
     31557.5,
     31505.25,
-    31532.75
+    31533.0
    ],
    [
     1791313200,
-    31532.25,
+    31532.75,
     31537.5,
     31467.75,
     31480.75
    ],
    [
     1791316800,
-    31481.25,
+    31480.5,
     31504.25,
     31476.75,
     31500.5
@@ -4863,7 +4874,7 @@
    ],
    [
     1791327600,
-    31495.0,
+    31491.75,
     31510.5,
     31486.25,
     31487.0
@@ -4873,7 +4884,7 @@
     31486.25,
     31517.25,
     31478.75,
-    31493.0
+    31493.5
    ],
    [
     1791334800,
@@ -4893,7 +4904,7 @@
     1791342000,
     31460.25,
     31483.75,
-    31450.75,
+    31445.0,
     31480.25
    ],
    [
@@ -4901,7 +4912,7 @@
     31472.25,
     31487.5,
     31465.25,
-    31473.0
+    31472.5
    ],
    [
     1791349200,
@@ -4919,7 +4930,7 @@
    ],
    [
     1791356400,
-    31453.5,
+    31455.0,
     31482.0,
     31401.5,
     31429.5
@@ -4933,14 +4944,14 @@
    ],
    [
     1791363600,
-    31412.25,
+    31411.5,
     31413.5,
     31325.0,
-    31359.25
+    31359.0
    ],
    [
     1791367200,
-    31359.5,
+    31359.0,
     31368.5,
     31280.5,
     31299.5
@@ -4954,7 +4965,7 @@
    ],
    [
     1791374400,
-    31267.0,
+    31266.75,
     31280.75,
     31206.25,
     31259.25
@@ -4964,14 +4975,21 @@
     31259.25,
     31275.5,
     31143.0,
-    31220.0
+    31238.0
    ],
    [
-    1791381452,
-    31217.5,
-    31217.5,
-    31217.5,
-    31217.5
+    1791381600,
+    31238.75,
+    31243.5,
+    31199.25,
+    31208.25
+   ],
+   [
+    1791381763,
+    31206.0,
+    31206.0,
+    31206.0,
+    31206.0
    ]
   ],
   "vix": [
@@ -5413,15 +5431,15 @@
     1791378000,
     15.76,
     15.93,
-    15.67,
-    15.79
+    15.64,
+    15.67
    ],
    [
-    1791381151,
-    15.78,
-    15.78,
-    15.78,
-    15.78
+    1791381451,
+    15.66,
+    15.66,
+    15.66,
+    15.66
    ]
   ]
  },
