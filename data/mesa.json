@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4168.8 · NQ 31482.5 · VIX 15.01 · 11 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-07T04:37:48Z"
+   "ultimo_resultado": "Oro 4165.9 · NQ 31482.0 · VIX 15.01 · 11 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-07T04:42:29Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-07T04:37:47Z",
-   "ultimo_resultado": "11 titulares nuevos, 1 de alto impacto: Monedas asiáticas mixtas mientras el dólar mantiene ganancias y el yen se debilita cerca de 158"
+   "actualizado": "2026-10-07T04:42:29Z",
+   "ultimo_resultado": "11 titulares nuevos, 3 de alto impacto: India’s central bank hikes rates for the first time since 2023 as inflation creeps up"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4165.9 · NQ 31482.0 · VIX 15.01 · 11 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-07T04:42:29Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4168.8 · NQ 31482.5 · VIX 15.01 · 11 noticias nuevas (1 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4197.4 · NQ 31514.0 · VIX 15.3 · 15 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-06T13:17:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4197.9 · NQ 31500.5 · VIX 15.31 · 15 noticias nuevas (6 alto impacto)",
-   "ts": "2026-10-06T13:12:38Z"
   }
  ],
  "briefs": [
@@ -2960,12 +2960,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4168.8,
-  "nq": 31482.5,
+  "oro": 4165.9,
+  "nq": 31482.0,
   "vix": 15.01,
-  "ts": "2026-10-07T04:37:47Z"
+  "ts": "2026-10-07T04:42:29Z"
  },
  "noticias": [
+  {
+   "titulo": "India’s central bank hikes rates for the first time since 2023 as inflation creeps up",
+   "link": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
+   "ts": "2026-10-07T04:38:00Z",
+   "fuente": "CNBC",
+   "id": "b407c7856f",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Singapore's Temasek warns of the ‘biggest risk’ facing markets right now",
+   "link": "https://www.cnbc.com/2026/10/07/singapore-temasek-warns-of-the-biggest-risk-facing-markets.html",
+   "ts": "2026-10-07T04:33:47Z",
+   "fuente": "CNBC",
+   "id": "537d394b38",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Asian currencies mixed as dollar holds gains, yen weakens near 158",
    "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-mixed-dollar-holds-042114378.html?.tsrc=rss",
@@ -3019,6 +3039,17 @@
    "id": "1a37588d2f",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Dow, S&P 500, Nasdaq Futures Mixed After S&P 500, Nasdaq Notch Record Highs: SPCX, NLST, PENG, WDC Stocks In Focus",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVU1HczZtTUc0YWM1STh4aGdaVm5OSFdhb3VfU1dkVndTQXZIZ0ZlWXJJc1phYjFPVnFhLWQyRE5zQ3otbkt6dkZFYjM0b19BMlVwSFpDdndTdFJSTHVnNEt0V184ZGVqdVFnbVo4YlFLWGFsUW1RWGlaWGVuaWFKNTZPTWdUZkt1SDRwRktIanlJUEU?oc=5",
+   "ts": "2026-10-07T02:40:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "e3e05b6598",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -3812,37 +3843,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Meta joins with group of companies to tame ‘chaos’ of doing business with AI bots",
-   "link": "https://www.cnbc.com/2026/10/06/meta-joins-companies-to-tame-chaos-of-doing-business-with-ai-bots.html",
-   "ts": "2026-10-06T18:48:36Z",
-   "fuente": "CNBC",
-   "id": "e1f2b9bb1c",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "How event contract bundles are boosting volume on prediction markets",
-   "link": "https://www.cnbc.com/2026/10/06/prediction-market-combo-contract-volume.html",
-   "ts": "2026-10-06T18:46:16Z",
-   "fuente": "CNBC",
-   "id": "a8a0834f90",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "CIA officer arrested with gold bars admits he exposed secret intelligence source to a foreign official",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZ0RiQk1vTmZFUGxIWlVxYXJ0dGFuajQzMXRTNlA5Z3BWMV85V3ZTaEJhMDh3ZWdtN3FLNzVkS24yR3B3RUFHcF9RaVU0Rm9URzI3Si1wV0o3MnIyVHNvb3ItbVlYZ0o1c1NqVV9NaWxTMFlCcHJLVllscDl5d1VDaEtoMWZmWEdNZWdKbFoxdUdYbDBsb1Nab01iLTdvV25ZUU8tZGJUWFowVmxJYnN5eGx5SnVBRVFC?oc=5",
-   "ts": "2026-10-06T18:45:20Z",
-   "fuente": "NBC News",
-   "id": "fc19b16863",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [],
@@ -4328,15 +4328,15 @@
     1791345600,
     4169.9,
     4171.1,
-    4167.0,
-    4168.8
+    4165.5,
+    4166.4
    ],
    [
-    1791347263,
-    4168.8,
-    4168.8,
-    4168.8,
-    4168.8
+    1791347548,
+    4165.9,
+    4165.9,
+    4165.9,
+    4165.9
    ]
   ],
   "nq": [
@@ -4835,14 +4835,14 @@
     31472.25,
     31485.5,
     31471.5,
-    31484.0
+    31482.25
    ],
    [
-    1791347263,
-    31482.5,
-    31482.5,
-    31482.5,
-    31482.5
+    1791347543,
+    31482.0,
+    31482.0,
+    31482.0,
+    31482.0
    ]
   ],
   "vix": [
