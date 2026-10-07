@@ -39,17 +39,22 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4174.8 · NQ 31489.0 · VIX 15.01 · 11 noticias nuevas (4 alto impacto)",
-   "actualizado": "2026-10-07T02:07:34Z"
+   "ultimo_resultado": "Oro 4172.1 · NQ 31462.25 · VIX 15.01 · 13 noticias nuevas (4 alto impacto)",
+   "actualizado": "2026-10-07T02:12:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-07T02:07:32Z",
-   "ultimo_resultado": "11 titulares nuevos, 4 de alto impacto: Trump isn't ‘completely wrong’: Hormuz disruption is Asia’s problem, says Singapore's foreign minister"
+   "actualizado": "2026-10-07T02:12:35Z",
+   "ultimo_resultado": "13 titulares nuevos, 4 de alto impacto: Oil rises as concerns over Houthi attacks on Saudi Arabia eclipse supply recovery"
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4172.1 · NQ 31462.25 · VIX 15.01 · 13 noticias nuevas (4 alto impacto)",
+   "ts": "2026-10-07T02:12:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4174.8 · NQ 31489.0 · VIX 15.01 · 11 noticias nuevas (4 alto impacto)",
@@ -1044,11 +1049,6 @@
    "agente": "vigilante",
    "texto": "Oro 4201.8 · NQ 31517.25 · VIX 15.32 · 12 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-06T12:02:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4201.7 · NQ 31519.5 · VIX 15.31 · 12 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-06T11:57:30Z"
   }
  ],
  "briefs": [
@@ -2960,12 +2960,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4174.8,
-  "nq": 31489.0,
+  "oro": 4172.1,
+  "nq": 31462.25,
   "vix": 15.01,
-  "ts": "2026-10-07T02:07:33Z"
+  "ts": "2026-10-07T02:12:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Oil rises as concerns over Houthi attacks on Saudi Arabia eclipse supply recovery",
+   "link": "https://www.cnbc.com/2026/10/07/oil-prices-today-brent-wti-hormuz.html",
+   "ts": "2026-10-07T02:09:50Z",
+   "fuente": "CNBC",
+   "id": "8425d74318",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Trump isn't ‘completely wrong’: Hormuz disruption is Asia’s problem, says Singapore's foreign minister",
    "link": "https://www.cnbc.com/2026/10/07/hormuz-iran-war-singapore-vivian-balakrishnan.html",
@@ -2997,6 +3006,17 @@
    "id": "9e84d01ed3",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "U.S. stock futures steady after tech rally lifts S&P 500, Nasdaq to records",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN1h2RUZNbXFSZVNmZEZpWWRtYXdLNmhubTgzdG40cGVoNE9QZ2d6cTVKbi1CVmpDeWYySXRhT1JFTWM4NU5oNWs3M0dNQ0FmMDdxNXoyUktfR1dTemxTaWpKUXRsbjZRY1BvTTEzOUJSX09fdFZZZ3FNa3VsOU1UemJyOVFJSy1ON1NfMzRsd2c3anY1bDV3?oc=5",
+   "ts": "2026-10-07T00:44:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "8ba003436b",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Gold Ticks Lower as Investors Await Fed Meeting Minutes",
@@ -3811,36 +3831,11 @@
    "id": "133fb3308e",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Alito plans to stay on Supreme Court, even if Democrats regain Senate: Report",
-   "link": "https://www.cnbc.com/2026/10/06/alito-supreme-court-democrats-senate.html",
-   "ts": "2026-10-06T18:04:56Z",
-   "fuente": "CNBC",
-   "id": "175dec0668",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Market risks are building — how to prepare for the next pullback",
-   "link": "https://www.thestreet.com/video/market-risks-are-building-how-to-prepare-for-next-pullback?.tsrc=rss",
-   "ts": "2026-10-06T17:54:44Z",
-   "fuente": "Yahoo Finance",
-   "id": "ab266e984f",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [],
  "velas": {
   "oro": [
-   [
-    1790834400,
-    4217.6,
-    4222.1,
-    4210.4,
-    4211.6
-   ],
    [
     1790838000,
     4211.9,
@@ -4455,24 +4450,24 @@
     4183.8,
     4183.8,
     4173.1,
-    4175.0
+    4174.3
    ],
    [
-    1791338247,
+    1791338400,
+    4174.3,
     4174.8,
-    4174.8,
-    4174.8,
-    4174.8
+    4171.9,
+    4172.3
+   ],
+   [
+    1791338552,
+    4172.1,
+    4172.1,
+    4172.1,
+    4172.1
    ]
   ],
   "nq": [
-   [
-    1790834400,
-    31093.75,
-    31151.5,
-    31025.0,
-    31025.0
-   ],
    [
     1790838000,
     31024.25,
@@ -5087,14 +5082,21 @@
     31492.75,
     31510.5,
     31478.0,
-    31489.5
+    31481.0
    ],
    [
-    1791338249,
-    31489.0,
-    31489.0,
-    31489.0,
-    31489.0
+    1791338400,
+    31480.75,
+    31483.0,
+    31457.5,
+    31458.25
+   ],
+   [
+    1791338553,
+    31462.25,
+    31462.25,
+    31462.25,
+    31462.25
    ]
   ],
   "vix": [
