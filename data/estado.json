@@ -1615,9 +1615,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando restaurantes y comida sin página web cerca de Owens Ave…",
    "ultimo_resultado": "0 negocios nuevos de herrerías y oficios cerca de Eastern Ave",
-   "actualizado": "2026-10-08T13:02:32Z"
+   "actualizado": "2026-10-08T13:02:33Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -1645,6 +1645,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando restaurantes y comida sin página web cerca de Owens Ave…",
+   "ts": "2026-10-08T13:02:33Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 69 textos listos para mandar",
@@ -3139,11 +3144,6 @@
    "agente": "buscador",
    "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
    "ts": "2026-10-06T17:06:38Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ts": "2026-10-06T17:06:24Z"
   }
  ],
  "reportes": {
