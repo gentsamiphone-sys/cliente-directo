@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4147.1 · NQ 31187.0 · VIX 15.7 · 5 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-08T12:28:14Z"
+   "ultimo_resultado": "Oro 4148.6 · NQ 31190.25 · VIX 15.75 · 6 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-08T12:32:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T12:28:13Z",
-   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: Los codirectores ejecutivos de Skydance hablan con la CNBC tras finalizar la adquisición de WBD"
+   "actualizado": "2026-10-08T12:32:33Z",
+   "ultimo_resultado": "6 titulares nuevos, 2 de alto impacto: Stocks making the biggest moves premarket: Haemonetics, Broadcom, Lululemon, Palantir, Wolfspeed & more"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4148.6 · NQ 31190.25 · VIX 15.75 · 6 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-08T12:32:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4147.1 · NQ 31187.0 · VIX 15.7 · 5 noticias nuevas (1 alto impacto)",
@@ -1050,11 +1055,6 @@
    "agente": "historiador",
    "texto": "ORO: Sesgo histórico neutral: 6 de 9 años subió esta semana; 7 de 9 subió los 20 días siguientes; análogos 2022, 2021, 2018 · NQ: Sesgo histórico alcista: 6 de 9 años subió esta semana; 5 de 9 subió los 20 días siguientes; análogos 2019, 2017, 2024",
    "ts": "2026-10-07T21:33:06Z"
-  },
-  {
-   "agente": "historiador",
-   "texto": "Revisando qué pasó en esta misma fecha los últimos 10 años y buscando años parecidos…",
-   "ts": "2026-10-07T21:33:05Z"
   }
  ],
  "briefs": [
@@ -3349,12 +3349,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4147.1,
-  "nq": 31187.0,
-  "vix": 15.7,
-  "ts": "2026-10-08T12:28:13Z"
+  "oro": 4148.6,
+  "nq": 31190.25,
+  "vix": 15.75,
+  "ts": "2026-10-08T12:32:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Stocks making the biggest moves premarket: Haemonetics, Broadcom, Lululemon, Palantir, Wolfspeed & more",
+   "link": "https://www.cnbc.com/2026/10/08/stocks-making-the-biggest-moves-premarket-hae-avgo-lulu-wolf.html",
+   "ts": "2026-10-08T12:28:26Z",
+   "fuente": "CNBC",
+   "id": "057f8d478b",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Skydance co-CEOs Ellison and Kreiz speak with CNBC days after finalizing WBD acquisition",
    "link": "https://www.cnbc.com/2026/10/08/skydance-co-ceos-ellison-kreiz.html",
@@ -3365,6 +3376,17 @@
    "impacto": "bajo",
    "es": "Los codirectores ejecutivos de Skydance hablan con la CNBC tras finalizar la adquisición de WBD",
    "efecto": ""
+  },
+  {
+   "titulo": "Amazon makes fresh job cuts, mainly in retail division",
+   "link": "https://www.cnbc.com/2026/10/08/amazon-makes-fresh-job-cuts-mainly-in-retail-division.html",
+   "ts": "2026-10-08T12:24:41Z",
+   "fuente": "CNBC",
+   "id": "52ff9d63bf",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Hundreds of new pro sports team ETFs lead world of retail investing to the edge of gambling",
@@ -3381,6 +3403,17 @@
    "ts": "2026-10-08T12:12:50Z",
    "fuente": "CNBC",
    "id": "1ef606900b",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Nvidia-backed Iambic Therapeutics targets up to $806 million valuation in US IPO",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOT2duSWZGV1gtNHhZUVRCMHQ4QTN4ZzAzOFR1QjVlbmNfdEYwRG9HRWc1ai1WUXV0TFlESmpzSnhQSW1jT2xDYmdhSXZrXzZTUFVyX1N5VFltX2VyVDZPeEUzZ0hxYnB1MmpYYVhvU3h0VlB3MjZrMThFZFhwMkk2cEw0eGdKSHdySTJEWTNsZklka25TamNFbG91UXRPSjJPYjl4d2JvREdwa2QyeTh5bHpRN3dmUXJzbXRUOFJacHpuM3M0?oc=5",
+   "ts": "2026-10-08T12:08:52Z",
+   "fuente": "Reuters",
+   "id": "99df7f6a23",
    "activos": [
     "nq"
    ],
@@ -4187,35 +4220,6 @@
    "id": "71607ddd4a",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "France to release diesel reserves in a bid to calm student protests",
-   "link": "https://www.cnbc.com/2026/10/08/france-diesel-reserves-protests.html",
-   "ts": "2026-10-08T08:32:44Z",
-   "fuente": "CNBC",
-   "id": "c4d53fa5c0",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Global Stocks Fall on Higher Oil Prices, AI Pullback",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnpOX3pQSGJpZi1qRFNMSVR3SzRoaEJPaVFIYVQ2NGNETExDT0RjWEFjS1lUUzVOVVBsLWtnY2lHU3NmV3FNQjNpMllWb01sdWpmYXdhd29oSXNVTXYyaFhRZzZUX3JoWGNtV1VPaW1IcldFbEdXeGRaVkZyTG9nUmJDS1ptSmFQZWxITkhpMVRTM19SMzlneDBHMzFrS2xrZHFHMFBnNURhdE40?oc=5",
-   "ts": "2026-10-08T08:32:37Z",
-   "fuente": "WSJ",
-   "id": "7eab451eae",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Is Vault Minerals (ASX:VAU) Below Fair Value On Its Daisy Milano Contract Extension?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/vault-minerals-asx-vau-below-081456694.html?.tsrc=rss",
-   "ts": "2026-10-08T08:14:56Z",
-   "fuente": "Yahoo Finance",
-   "id": "b17e0bd142",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -4814,16 +4818,16 @@
    [
     1791460800,
     4148.7,
-    4152.4,
+    4152.6,
     4145.8,
-    4146.0
+    4149.5
    ],
    [
-    1791461888,
-    4147.1,
-    4147.1,
-    4147.1,
-    4147.1
+    1791462152,
+    4148.6,
+    4148.6,
+    4148.6,
+    4148.6
    ]
   ],
   "nq": [
@@ -5420,14 +5424,14 @@
     31183.5,
     31212.0,
     31170.5,
-    31181.25
+    31192.0
    ],
    [
-    1791461891,
-    31187.0,
-    31187.0,
-    31187.0,
-    31187.0
+    1791462152,
+    31191.75,
+    31191.75,
+    31191.75,
+    31191.75
    ]
   ],
   "vix": [
@@ -5863,14 +5867,14 @@
     15.77,
     15.77,
     15.68,
-    15.7
+    15.74
    ],
    [
-    1791461581,
-    15.7,
-    15.7,
-    15.7,
-    15.7
+    1791461851,
+    15.75,
+    15.75,
+    15.75,
+    15.75
    ]
   ]
  },
