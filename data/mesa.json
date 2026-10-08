@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4148.4 · NQ 31228.0 · VIX 15.73",
-   "actualizado": "2026-10-08T09:37:40Z"
+   "ultimo_resultado": "Oro 4148.1 · NQ 31258.5 · VIX 15.74 · 3 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-08T09:42:44Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T09:37:38Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-08T09:42:44Z",
+   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: La libra cae mientras las actas de la Fed impulsan al dólar"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4148.1 · NQ 31258.5 · VIX 15.74 · 3 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-08T09:42:44Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4148.4 · NQ 31228.0 · VIX 15.73",
@@ -1050,11 +1055,6 @@
    "agente": "vigilante",
    "texto": "Oro 4128.8 · NQ 31384.5 · VIX 15.01 · 15 noticias nuevas (2 alto impacto)",
    "ts": "2026-10-07T19:57:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4132.2 · NQ 31387.25 · VIX 15.04 · 15 noticias nuevas (4 alto impacto)",
-   "ts": "2026-10-07T19:52:41Z"
   }
  ],
  "briefs": [
@@ -3349,12 +3349,27 @@
   }
  },
  "en_vivo": {
-  "oro": 4148.4,
-  "nq": 31228.0,
-  "vix": 15.73,
-  "ts": "2026-10-08T09:37:39Z"
+  "oro": 4148.1,
+  "nq": 31258.5,
+  "vix": 15.74,
+  "ts": "2026-10-08T09:42:44Z"
  },
  "noticias": [
+  {
+   "titulo": "Sterling today: Pound slips as hawkish Fed minutes lift dollar",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/sterling-today-pound-slips-hawkish-093201323.html?.tsrc=rss",
+   "ts": "2026-10-08T09:32:01Z",
+   "fuente": "Yahoo Finance",
+   "id": "ebe242c49e",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "La libra cae mientras las actas de la Fed impulsan al dólar",
+   "efecto": "Fortalece el dólar, presionando a la baja al oro y al NQ."
+  },
   {
    "titulo": "After a yearslong slump, China's real estate market may be set for a turnaround",
    "link": "https://www.cnbc.com/2026/10/08/chinas-real-estate-market-may-be-set-for-a-turnaround-sp-says.html",
@@ -3383,6 +3398,19 @@
    "id": "ab2c92c1ed",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Why Is Berkshire Hathaway (BRK.A) Facing A Texas Chemical Probe?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/why-berkshire-hathaway-brk-facing-091514231.html?.tsrc=rss",
+   "ts": "2026-10-08T09:15:14Z",
+   "fuente": "Yahoo Finance",
+   "id": "3d556912c5",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "¿Por qué Berkshire Hathaway enfrenta una investigación química en Texas?",
+   "efecto": "Ruido corporativo aislado; impacto nulo en índices macro y oro."
   },
   {
    "titulo": "Total Metals Mobilizes Drill Rig to its High-Grade High Lake Gold Project, Northwestern Ontario",
@@ -3765,6 +3793,20 @@
    "id": "42bb907118",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold steadies after touching two-month low as traders eye Fed rate outlook",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-nine-week-021738988.html?.tsrc=rss",
+   "ts": "2026-10-08T02:17:38Z",
+   "fuente": "Yahoo Finance",
+   "id": "740b89a4e0",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El oro se estabiliza tras mínimos de dos meses por perspectivas de tasas de la Fed",
+   "efecto": "Genera compras institucionales defensivas en soportes clave del oro."
   },
   {
    "titulo": "Gold steadies after nine-week low as Hormuz tensions lift Fed hike bets",
@@ -4166,38 +4208,6 @@
    "id": "2ec3bc9433",
    "activos": [
     "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Strategy (MSTR) Stock Trades Down, Here Is Why",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/strategy-mstr-stock-trades-down-215247913.html?.tsrc=rss",
-   "ts": "2026-10-07T21:52:47Z",
-   "fuente": "Yahoo Finance",
-   "id": "055d3d1db5",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "U.S. Stocks Fall as Treasury Yields Test Multidecade Highs",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPc0kta0ZSTzVRZ0RIME01UkItZW9vRl82MmdGM19yUHlhbklXRmlHaU5lZjRVSW5mYmZTOTVKYWhJSEpMRm5qT2I1eGxVTkJQQXM3N004ZjRxS19fTVZyYm16QTBxUTJlTnRXX1JRaDlRcUtUNmJzeEx5RkpVazRnOEtXdWZPTXpISTZCeWhPUG5LLVhOUzY4a2lMN3NCR1Frd2lGSVZrcw?oc=5",
-   "ts": "2026-10-07T21:49:18Z",
-   "fuente": "WSJ",
-   "id": "9712056dac",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Irruptive Metals Grants Deferred Share Units for Q3 2026",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/irruptive-metals-grants-deferred-share-214400260.html?.tsrc=rss",
-   "ts": "2026-10-07T21:44:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "9f9184d012",
-   "activos": [
-    "nq"
    ],
    "impacto": "medio"
   }
@@ -4778,15 +4788,15 @@
     1791450000,
     4151.1,
     4155.3,
-    4146.7,
-    4148.9
+    4146.2,
+    4147.3
    ],
    [
-    1791451655,
-    4148.4,
-    4148.4,
-    4148.4,
-    4148.4
+    1791451960,
+    4148.3,
+    4148.3,
+    4148.3,
+    4148.3
    ]
   ],
   "nq": [
@@ -5362,14 +5372,14 @@
     31216.25,
     31267.25,
     31214.75,
-    31234.75
+    31259.0
    ],
    [
-    1791451650,
-    31228.0,
-    31228.0,
-    31228.0,
-    31228.0
+    1791451961,
+    31258.5,
+    31258.5,
+    31258.5,
+    31258.5
    ]
   ],
   "vix": [
@@ -5782,18 +5792,18 @@
    [
     1791450000,
     15.68,
-    15.73,
+    15.74,
     15.62,
-    15.73
+    15.74
    ],
    [
-    1791451351,
-    15.73,
-    15.73,
-    15.73,
-    15.73
+    1791451651,
+    15.74,
+    15.74,
+    15.74,
+    15.74
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-08T09:07:33Z"
+ "noticias_traducidas_ts": "2026-10-08T09:42:35Z"
 }
