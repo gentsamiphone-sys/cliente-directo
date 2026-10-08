@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>GSAM Capital · Mesa cripto</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@600;800&family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0d10;--panel:#12161b;--line:#222932;--ink:#e9eee4;--mut:#8a948c;--acc:#d7ff3a;--btc:#f7931a;--eth:#8c8cff;--up:#22c55e;--dn:#ff5d5d}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--ink);font-family:"Atkinson Hyperlegible",system-ui,sans-serif}
+body{padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+.wrap{max-width:1180px;margin:0 auto;padding:28px 18px 80px}
+h1{font-family:"Familjen Grotesk",sans-serif;font-weight:800;font-size:clamp(26px,4vw,40px);margin:0}
+h1 b{color:var(--acc)}.sub{color:var(--mut);margin:6px 0 18px}.sub a{color:var(--acc)}
+.mono{font-family:"IBM Plex Mono",monospace}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:18px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.card .k{font:500 11px "IBM Plex Mono",monospace;letter-spacing:.08em;color:var(--mut);text-transform:uppercase}
+.card .v{font:500 22px "IBM Plex Mono",monospace;margin-top:4px}
+.card .d{font-size:13px;margin-top:2px}.up{color:var(--up)}.dn{color:var(--dn)}
+.grid{display:grid;grid-template-columns:1.6fr 1fr;gap:14px}@media(max-width:860px){.grid{grid-template-columns:1fr}}
+section{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+section h2{font-family:"Familjen Grotesk",sans-serif;font-size:20px;margin:0 0 12px}
+.agentes{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:14px}
+.ag{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px;position:relative;overflow:hidden}
+.ag .n{font-weight:700}.ag .t{font-size:12.5px;color:var(--mut);margin-top:4px;min-height:32px}
+.ag .dot{position:absolute;top:12px;right:12px;width:9px;height:9px;border-radius:50%;background:#3a424c}
+.ag.on{border-color:color-mix(in srgb,var(--acc) 50%,var(--line))}.ag.on .dot{background:var(--acc);box-shadow:0 0 10px var(--acc);animation:p 1.2s infinite}
+@keyframes p{50%{opacity:.35}}
+.brief{line-height:1.55;font-size:15px;white-space:normal}.brief strong{color:var(--acc)}
+.brief p{margin:.45em 0}.brief li{margin:.2em 0}
+.ent{display:grid;gap:10px;margin-bottom:12px}
+.e{border:1px solid var(--line);border-radius:12px;padding:10px 12px}.e .h{display:flex;justify-content:space-between;font-weight:700}
+.e .h span{font:500 12px "IBM Plex Mono",monospace;padding:2px 8px;border-radius:999px;background:#1c2229}
+.e.compra .h span{background:color-mix(in srgb,var(--up) 25%,transparent);color:var(--up)}
+.e.venta .h span{background:color-mix(in srgb,var(--dn) 25%,transparent);color:var(--dn)}
+.e .r{font:500 13px "IBM Plex Mono",monospace;color:var(--mut);margin-top:6px}
+.feed{max-height:520px;overflow:auto}.f{padding:8px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+.f b{color:var(--acc);font-weight:700}.f time{color:var(--mut);font:500 11px "IBM Plex Mono",monospace;display:block}
+.vacío{color:var(--mut)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>GSAM <b>Capital</b> · Mesa cripto</h1>
+  <p class="sub">Siete agentes con mentalidad de fondo cripto institucional analizan BTC y ETH dos veces al día. <a href="mesa.html">Mesa de oro y NQ →</a></p>
+
+  <div class="cards" id="cards"></div>
+  <div class="agentes" id="agentes"></div>
+
+  <div class="grid">
+    <section><h2 id="bt">Brief</h2><div class="ent" id="entradas"></div><div class="brief" id="brief"><p class="vacío">Esperando el primer brief…</p></div></section>
+    <section><h2>Actividad en vivo</h2><div class="feed" id="feed"></div></section>
+  </div>
+  <p class="sub" style="margin-top:18px">Análisis educativo de agentes de IA. No es consejo financiero ni ejecuta operaciones.</p>
+</div>
+<script>
+const AG=[["cio","CIO"],["macro","Macro"],["flujos","Flujos"],["sentimiento","Sentimiento"],["liquidez","Liquidez"],["historiador","Historiador"],["riesgo","Riesgo"]];
+const $=id=>document.getElementById(id),esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt=n=>n==null?"—":Number(n).toLocaleString("es-US",{maximumFractionDigits:n>1000?0:2});
+const hora=ts=>{try{return new Date(ts).toLocaleString("es-US",{timeZone:"America/Los_Angeles",hour:"numeric",minute:"2-digit",day:"numeric",month:"short"})}catch{return ts}};
+function md(t){return esc(t).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").split(/\n{1,}/).map(l=>/^\s*[-•]\s+/.test(l)?"<li>"+l.replace(/^\s*[-•]\s+/,"")+"</li>":"<p>"+l+"</p>").join("")}
+async function cargar(){
+  let d;try{const r=await fetch(`https://raw.githubusercontent.com/gentsamiphone-sys/cliente-directo/main/data/cripto.json?t=${Date.now()}`,{cache:"no-store"});if(!r.ok)throw 0;d=await r.json()}
+  catch{try{d=await (await fetch("data/cripto.json",{cache:"no-cache"})).json()}catch{return}}
+  const b=(d.briefs||[])[0]||{},s=b.sesgo||{},cl=v=>/alc/i.test(v)?"up":/baj/i.test(v)?"dn":"";
+  $("cards").innerHTML=[["BTC",fmt(b.precios?.btc),`<span class="${cl(s.btc)}">${esc(s.btc||"—")}</span>`],["ETH",fmt(b.precios?.eth),`<span class="${cl(s.eth)}">${esc(s.eth||"—")}</span>`],
+    ["Fear & Greed",b.fear_greed??"—",""],["Dominancia BTC",b.dominancia_btc!=null?b.dominancia_btc+"%":"—",""],["Último brief",b.ts?hora(b.ts):"—",esc(b.turno||"")]]
+    .map(([k,v,x])=>`<div class="card"><div class="k">${k}</div><div class="v">${v}</div><div class="d">${x}</div></div>`).join("");
+  $("agentes").innerHTML=AG.map(([id,n])=>{const a=(d.agentes||{})[id]||{},on=a.estado==="trabajando"&&Date.now()-new Date(a.actualizado)<15*60e3;
+    return `<div class="ag ${on?"on":""}"><span class="dot"></span><div class="n">${n}</div><div class="t">${esc(on?a.tarea:(a.ultimo_resultado||"En espera"))}</div></div>`}).join("");
+  $("bt").textContent=b.turno?`Brief · ${b.turno}`:"Brief";
+  $("entradas").innerHTML=(b.entradas||[]).map(e=>{const dir=String(e.direccion||"").toLowerCase(),c=dir.startsWith("compra")?"compra":dir.startsWith("venta")?"venta":"";
+    return `<div class="e ${c}"><div class="h">${esc(e.activo)}<span>${esc(e.direccion)}</span></div>${c?`<div class="r">Zona ${esc(e.zona)} · SL ${esc(e.stop)} · TP2 ${esc(e.tp2)} · ${esc(e.confluencias)}</div>`:""}</div>`}).join("");
+  if(b.texto)$("brief").innerHTML=md(b.texto);
+  $("feed").innerHTML=(d.actividad||[]).slice(0,60).map(a=>`<div class="f"><time>${hora(a.ts)}</time><b>${esc((AG.find(x=>x[0]===a.agente)||[0,a.agente])[1])}</b> · ${esc(a.texto)}</div>`).join("")||'<p class="vacío">Sin actividad todavía.</p>';
+}
+cargar();setInterval(cargar,20000);
+</script>
+</body>
+</html>
