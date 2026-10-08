@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4152.0 · NQ 31260.5 · VIX 15.61 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-08T08:22:34Z"
+   "ultimo_resultado": "Oro 4153.3 · NQ 31253.75 · VIX 15.6 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-08T08:27:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T08:22:33Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Supertanker chartered from Gulf Coast to China for $76 million, 10 times higher than pre-war level"
+   "actualizado": "2026-10-08T08:27:33Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Intercontinental Exchange (ICE) Stock May Be Near Fair Value On Tokenized Trading Filing"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4153.3 · NQ 31253.75 · VIX 15.6 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-08T08:27:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4152.0 · NQ 31260.5 · VIX 15.61 · 3 noticias nuevas (1 alto impacto)",
@@ -1050,11 +1055,6 @@
    "agente": "vigilante",
    "texto": "Oro 4137.2 · NQ 31392.75 · VIX 15.13 · 15 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-07T18:42:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4137.3 · NQ 31388.25 · VIX 15.13 · 14 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-07T18:37:36Z"
   }
  ],
  "briefs": [
@@ -3349,12 +3349,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4152.0,
-  "nq": 31260.5,
-  "vix": 15.61,
-  "ts": "2026-10-08T08:22:33Z"
+  "oro": 4153.3,
+  "nq": 31253.75,
+  "vix": 15.6,
+  "ts": "2026-10-08T08:27:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Intercontinental Exchange (ICE) Stock May Be Near Fair Value On Tokenized Trading Filing",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/intercontinental-exchange-ice-stock-may-080852409.html?.tsrc=rss",
+   "ts": "2026-10-08T08:08:52Z",
+   "fuente": "Yahoo Finance",
+   "id": "0d4f479aae",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "XP (NASDAQ:XP) Stock Gets Fair Value Boost As Analysts Raise Targets",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOTR4NS1hWW5wWXZ5Z2FMNW0zbTlmZFlrZVlWbk5wT2dPME0wREdNMUtCS0phNzZUekxZWWhRX1ZXRG9pTXpTeVZsUzViOFJzWmQtYTg2YllhSnJHU2trM1VCUTVtZlh6d1k0Uy1XSzI4TVo5YTJGNXhDZlpkUmprQnhhNldWM2c3X1dTam93VVltdw?oc=5",
+   "ts": "2026-10-08T08:08:42Z",
+   "fuente": "Yahoo Finance",
+   "id": "c9367b45eb",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Russia's internet giant Yandex halts operations at major data center after drone attack",
    "link": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html",
@@ -4182,27 +4202,6 @@
    "id": "95ab318fa8",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Jackson, Collins tangle on Canada tariffs: ‘We can’t eat road salt’",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPS0lCU0ZIenVsTkRtaEo4VXRzcFFJWGxIUm5CYUZKVFc3dUVXU204S2FhQ3RhbUxnZTJWVHhoN0pnMWJEdk1hUVVCT25lZHNxUDA1LWJMZFBKVE5zT1VaR2lvS0k2MjRsQmFPUHRfNkVDTlBJR3Zhd2hDanJuT3ZPc0pR?oc=5",
-   "ts": "2026-10-07T20:36:00Z",
-   "fuente": "The Hill",
-   "id": "0fc023eb8b",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "US stocks close lower as elevated Treasury yields weigh on markets",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOU9NMk5WZmFpWVZyaU1mQW1MN1g0UlFmV1Q5U1gtWkYzTlpIcmRzQi1Qc0RycVdUMG1MVXF2TTUxRXZBWjFodjlKMFh4MXQ3WHNXX0ZGNHM1NWJpN3RjMzFEZ3dpdEk3LXB1ZjZJYmlsbnpyaWh0R3p4dE4xX0pDMmdmUEVmUHVyWEVQWDFZVmtUZ3BrOVp5d2p5NzhqRVpDZDdxeVZ3?oc=5",
-   "ts": "2026-10-07T20:35:04Z",
-   "fuente": "Anadolu Ajansı",
-   "id": "f7d60fdb33",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -4773,16 +4772,16 @@
    [
     1791446400,
     4144.4,
-    4153.3,
+    4154.9,
     4142.5,
-    4152.4
+    4153.1
    ],
    [
-    1791447149,
-    4152.0,
-    4152.0,
-    4152.0,
-    4152.0
+    1791447451,
+    4153.3,
+    4153.3,
+    4153.3,
+    4153.3
    ]
   ],
   "nq": [
@@ -5351,14 +5350,14 @@
     31224.75,
     31270.75,
     31217.25,
-    31267.0
+    31257.25
    ],
    [
-    1791447151,
-    31260.5,
-    31260.5,
-    31260.5,
-    31260.5
+    1791447446,
+    31253.75,
+    31253.75,
+    31253.75,
+    31253.75
    ]
   ],
   "vix": [
@@ -5765,15 +5764,15 @@
     1791446400,
     15.66,
     15.67,
-    15.6,
-    15.61
+    15.58,
+    15.6
    ],
    [
-    1791446851,
-    15.61,
-    15.61,
-    15.61,
-    15.61
+    1791447151,
+    15.6,
+    15.6,
+    15.6,
+    15.6
    ]
   ]
  },
