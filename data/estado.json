@@ -1614,10 +1614,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ultimo_resultado": "0 negocios nuevos de herrerías y oficios cerca de Eastern Ave",
-   "actualizado": "2026-10-08T13:06:22Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
+   "actualizado": "2026-10-08T13:06:33Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -1645,6 +1645,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
+   "ts": "2026-10-08T13:06:33Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -3139,11 +3144,6 @@
    "agente": "vendedor",
    "texto": "Terminó su turno: 0 enviados, 0 en borrador, 39 textos listos para ti",
    "ts": "2026-10-06T17:52:34Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
-   "ts": "2026-10-06T17:27:31Z"
   }
  ],
  "reportes": {
