@@ -1,10 +1,10 @@
 {
  "agentes": {
   "cio": {
-   "estado": "trabajando",
-   "tarea": "Escribiendo el brief institucional…",
-   "actualizado": "2026-10-08T12:33:04Z",
-   "ultimo_resultado": "Brief de Londres publicado: NQ busca compras tras barrida en Asia con VIX bajista; Oro neutral esperando al FOMC."
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-08T12:33:14Z",
+   "ultimo_resultado": "Brief de Nueva York publicado: Oro busca barrer liquidez superior tras soporte; NQ mantiene presión vendedora con VIX al alza"
   },
   "macro": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "cio",
+   "texto": "Brief de Nueva York publicado: Oro busca barrer liquidez superior tras soporte; NQ mantiene presión vendedora con VIX al alza",
+   "ts": "2026-10-08T12:33:14Z"
+  },
   {
    "agente": "cio",
    "texto": "Escribiendo el brief institucional…",
@@ -1050,14 +1055,203 @@
    "agente": "vigilante",
    "texto": "Oro 4129.1 · NQ 31428.5 · VIX 15.08 · 9 noticias nuevas (2 alto impacto)",
    "ts": "2026-10-07T22:47:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4130.9 · NQ 31444.75 · VIX 15.08 · 8 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-07T22:42:33Z"
   }
  ],
  "briefs": [
+  {
+   "sesion": "nuevayork",
+   "nombre": "Nueva York",
+   "ts": "2026-10-08T12:33:14Z",
+   "texto": "1. **Sesgo institucional**\n- ORO: Alcista — El precio respeta mínimos y busca barrer liquidez superior tras soporte en 4091.2.\n- NQ: Bajista — Estructura de presión vendedora con VIX repuntando y rompiendo soportes de sesión previa.\n\n2. **Lo que mueve hoy**\nTasas reales altas con US10Y en 5.277% (+0.15%) y DXY firme en 102.33 (+0.09%). El VIX sube a 15.73 (+4.31%) reflejando demanda de cobertura. Eventos clave en Las Vegas: Jueves 05:30 Unemployment Claims (previsto 200K, anterior 197K); Viernes 07:00 Prelim UoM Consumer Sentiment (previsto 47.5) e Inflation Expectations (anterior 4.6%).\n\n3. **Posicionamiento**\nDatos COT no disponibles por error 403 en la API de la CFTC; operamos estrictamente en base a la acción de precio, mapa de liquidez y flujos institucionales actuales.\n\n4. **Mapa de liquidez**\n- ORO: Liquidez por arriba en 4166.8 (máx Asia) y 4197.8 (PDH); liquidez por abajo en 4128.1 (mín hoy) y 4091.2 (PDL/PWL); valor justo en VWAP 4149.17; imán más probable hacia 4166.8.\n- NQ: Liquidez por arriba en 31466.0 (máx Asia) y 31521.0 (PDH); liquidez por abajo en 31119.75 (mín Londres) y 31143.0 (PDL); valor justo en VWAP 31280.23; imán más probable hacia 31119.75.\n\n5. **Escenarios**\n- ORO Escenario A (Alcista): Disparador rebote y cierre sobre 4157.7; objetivo 4197.8; invalidación 4128.1.\n- ORO Escenario B (Bajista): Disparador pérdida de 4128.1; objetivo 4091.2; invalidación 4157.7.\n- NQ Escenario A (Bajista): Disparador rechazo en VWAP (31280.23) o barrida de 31294.0; objetivo 31119.75; invalidación 31466.0.\n- NQ Escenario B (Alcista): Disparador recuperación y cierre sobre 31466.0; objetivo 31521.0; invalidación 31119.75.\n\n6. **Riesgo**\n- ORO: Rango esperado 4108.32 – 4188.89, consumido 48%.\n- NQ: Rango esperado 30948.79 – 31432.71, consumido 72%.\nHoras peligrosas: Apertura de Nueva York (06:30 - 08:30 LV). La mesa reduce tamaño un 50% debido al consumo elevado de rango en NQ.\n\n7. **VIX y NQ (confluencia)**\nVIX en 15.73 (media de 20 en 15.72, VIX_PDH en 16.01, VIX_PDL en 14.97). Estructura en contango (0.888 frente a VIX3M). Correlación 48h a -0.57. En las últimas 6 horas, NQ cae -0.67% mientras VIX sube 4.38%. El VIX CONFIRMA el sesgo bajista de NQ. Un cierre del VIX por encima de su PDH (16.01) invalidaría cualquier sesgo alcista en NQ.\n\n8. **Plan de entrada institucional (Gent ejecuta)**\n- ORO:\n  - Dirección: COMPRA\n  - Zona de entrada: 4130.0 – 4134.3 (tras barrer mínimos de Asia/Londres)\n  - Confirmación: Barrida de mínimos y cierre de vela 1H de regreso por encima de 4135.0\n  - Stop: 4125.0\n  - TP1 / TP2: 4166.8 / 4197.8\n  - R:R: 3.3x al TP2\n  - Cancelar si: Rompe con fuerza 4125.0 antes de activar.\n  - Confluencias: 4/5 ((1) sesgo macro/tasas, (3) dólar/tasas reales confirman, (4) entrada en zona de barrida/valor justo, (5) historial neutro sin sesgo negativo).\n\n- NQ:\n  - Dirección: VENTA\n  - Zona de entrada: 31280.0 – 31294.0 (rechazo en VWAP / máximo de Londres)\n  - Confirmación: Barrida del VWAP / 31294.0 con rechazo institucional y VIX al alza\n  - Stop: 31475.0\n  - TP1 / TP2: 31119.75 / 30950.0\n  - R:R: 2.1x al TP2\n  - Cancelar si: El precio consolida por encima de 31466.0.\n  - Confluencias: 4/5 ((1) sesgo macro/tasas, (2) VIX confirma bajista, (4) entrada en valor justo/barrida, (5) mesa opera con cautela pero sin racha perdedora activa en NQ NY).\n\n9. **Historia y estacionalidad**\n- ORO: 6 de 9 años subieron esta semana (promedio 1.34%); 6 de 9 subieron los 20 días siguientes (promedio 1.48%). Día jueves: 49% alcistas, promedio -0.112%. Análogos: 2022, 2021, 2018. Sesgo histórico: alcista.\n- NQ: 6 de 9 años subieron esta semana (promedio 0.35%); 7 de 9 subieron los 20 días siguientes (promedio 2.08%). Día jueves: 48% alcistas, promedio -0.123%. Análogos: 2017, 2019, 2025. Sesgo histórico: alcista.\nSesgo histórico alcista en ambos, actuando como confluencia de soporte macro temporal.\n\n10. **Nota para tu regla Ruptura EMA9 (1H)**\nLa ruptura bajista de la EMA9 de 1H en NQ tiene sentido si el precio valida el rechazo en el VWAP (31280), alineándose con la presión del VIX y buscando la liquidez inferior en 31119.75. Para ORO, una ruptura alcista de la EMA9 de 1H tras el testeo de 4130 habilita el impulso hacia el imán superior en 4166.8.\n\nAnálisis educativo de agentes de IA. No es consejo financiero.",
+   "sesgo": {
+    "oro": "alcista",
+    "nq": "bajista"
+   },
+   "titular": "Oro busca barrer liquidez superior tras soporte; NQ mantiene presión vendedora con VIX al alza",
+   "entradas": [
+    {
+     "activo": "ORO",
+     "direccion": "COMPRA",
+     "zona": "4130.0 – 4134.3",
+     "confirmacion": "Barrida de mínimos y cierre de vela 1H de regreso por encima de 4135.0",
+     "stop": "4125.0",
+     "tp1": "4166.8",
+     "tp2": "4197.8",
+     "rr": "3.3",
+     "confluencias": "4/5",
+     "cancelar": "Rompe con fuerza 4125.0 antes de activar.",
+     "motivo": ""
+    },
+    {
+     "activo": "NQ",
+     "direccion": "VENTA",
+     "zona": "31280.0 – 31294.0",
+     "confirmacion": "Barrida del VWAP / 31294.0 con rechazo institucional y VIX al alza",
+     "stop": "31475.0",
+     "tp1": "31119.75",
+     "tp2": "30950.0",
+     "rr": "2.1",
+     "confluencias": "4/5",
+     "cancelar": "El precio consolida por encima de 31466.0.",
+     "motivo": ""
+    }
+   ],
+   "mapas": {
+    "oro": {
+     "precio": 4148.6,
+     "cambio_dia_pct": 0.19,
+     "PDH": 4197.8,
+     "PDL": 4091.2,
+     "PDC": 4140.7,
+     "PWH": 4259.0,
+     "PWL": 4091.2,
+     "ATR14_diario": 80.57,
+     "ATR14_1h": 12.92,
+     "EMA20_diaria": 4258.9,
+     "EMA50_diaria": 4318.09,
+     "EMA200_diaria": 4473.99,
+     "max_20d": 4444.9,
+     "min_20d": 4091.2,
+     "asia_hoy": {
+      "max": 4166.8,
+      "min": 4130.0
+     },
+     "londres_hoy": {
+      "max": 4157.7,
+      "min": 4134.3
+     },
+     "ny_ayer": {
+      "max": 4153.2,
+      "min": 4108.0
+     },
+     "vwap_hoy": 4149.17,
+     "rango_hoy": {
+      "max": 4166.8,
+      "min": 4128.1
+     },
+     "rango_hoy_vs_atr_pct": 48
+    },
+    "nq": {
+     "precio": 31190.75,
+     "cambio_dia_pct": -0.67,
+     "PDH": 31521.0,
+     "PDL": 31143.0,
+     "PDC": 31402.25,
+     "PWH": 31616.5,
+     "PWL": 30529.25,
+     "ATR14_diario": 483.92,
+     "ATR14_1h": 68.66,
+     "EMA20_diaria": 30618.56,
+     "EMA50_diaria": 30024.6,
+     "EMA200_diaria": 28265.51,
+     "max_20d": 31616.5,
+     "min_20d": 28763.75,
+     "asia_hoy": {
+      "max": 31466.0,
+      "min": 31248.0
+     },
+     "londres_hoy": {
+      "max": 31294.0,
+      "min": 31119.75
+     },
+     "ny_ayer": {
+      "max": 31422.25,
+      "min": 31143.0
+     },
+     "vwap_hoy": 31280.23,
+     "rango_hoy": {
+      "max": 31466.0,
+      "min": 31119.75
+     },
+     "rango_hoy_vs_atr_pct": 72
+    }
+   },
+   "vix_nq": {
+    "vix": 15.73,
+    "cambio_1d_pct": 4.31,
+    "vix_PDH": 16.01,
+    "vix_PDL": 14.97,
+    "vix_media20": 15.72,
+    "vix_max_20d": 18.94,
+    "vix_min_20d": 14.12,
+    "vix_vs_vix3m": 0.888,
+    "estructura": "contango (calma normal)",
+    "correlacion_48h": -0.57,
+    "nq_6h_pct": -0.67,
+    "vix_6h_pct": 4.38,
+    "lectura": "CONFIRMA BAJISTA: NQ baja y el VIX sube (se compra protección)"
+   },
+   "macro": {
+    "dxy": {
+     "ultimo": 102.33,
+     "cambio_1d_pct": 0.09,
+     "cambio_5d_pct": 0.23
+    },
+    "us10y": {
+     "ultimo": 5.277,
+     "cambio_1d_pct": 0.15,
+     "cambio_5d_pct": -0.3
+    },
+    "vix": {
+     "ultimo": 15.73,
+     "cambio_1d_pct": 4.31,
+     "cambio_5d_pct": -4.03
+    },
+    "spx": {
+     "ultimo": 7820.25,
+     "cambio_1d_pct": -0.41,
+     "cambio_5d_pct": 1.25
+    },
+    "plata": {
+     "ultimo": 59.115,
+     "cambio_1d_pct": -1.31,
+     "cambio_5d_pct": -2.65
+    },
+    "petroleo": {
+     "ultimo": 92.63,
+     "cambio_1d_pct": 4.93,
+     "cambio_5d_pct": -0.26
+    }
+   },
+   "eventos": [
+    {
+     "hora_lv": "Thu 01:30",
+     "evento": "FOMC Member Waller Speaks",
+     "impacto": "Medium",
+     "previsto": "",
+     "anterior": ""
+    },
+    {
+     "hora_lv": "Thu 05:30",
+     "evento": "Unemployment Claims",
+     "impacto": "Medium",
+     "previsto": "200K",
+     "anterior": "197K"
+    },
+    {
+     "hora_lv": "Fri 07:00",
+     "evento": "Prelim UoM Consumer Sentiment",
+     "impacto": "Medium",
+     "previsto": "47.5",
+     "anterior": "47.8"
+    },
+    {
+     "hora_lv": "Fri 07:00",
+     "evento": "Prelim UoM Inflation Expectations",
+     "impacto": "Medium",
+     "previsto": "",
+     "anterior": "4.6%"
+    }
+   ],
+   "cot": {
+    "oro": {
+     "error": "403 Client Error: Forbidden for url: https://www.cftc.gov/dea/newcot/f_disagg.tx"
+    },
+    "nq": {
+     "error": "403 Client Error: Forbidden for url: https://www.cftc.gov/dea/newcot/FinFutWk.tx"
+    }
+   }
+  },
   {
    "sesion": "londres",
    "nombre": "Londres",
