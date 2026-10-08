@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4147.9 · NQ 31160.25 · VIX 15.86 · 7 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-08T11:42:34Z"
+   "ultimo_resultado": "Oro 4147.6 · NQ 31178.0 · VIX 15.89 · 11 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-08T11:47:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T11:42:33Z",
-   "ultimo_resultado": "7 titulares nuevos, 2 de alto impacto: StrikePoint Resumes Trading After Completion of Acquisition of Northumberland Gold Project, Emerging as a Tier-One Gold Explorer in Nevada's Walker Lane"
+   "actualizado": "2026-10-08T11:47:31Z",
+   "ultimo_resultado": "11 titulares nuevos, 3 de alto impacto: Dow futures tumble 400 points as yields continue rising; oil surges 5%: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4147.6 · NQ 31178.0 · VIX 15.89 · 11 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-08T11:47:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4147.9 · NQ 31160.25 · VIX 15.86 · 7 noticias nuevas (2 alto impacto)",
@@ -1050,11 +1055,6 @@
    "agente": "flujos",
    "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
    "ts": "2026-10-07T21:32:52Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "DXY 0.45% · 10Y 5.277 · VIX 15.08 · 4 eventos USD en el radar.",
-   "ts": "2026-10-07T21:32:51Z"
   }
  ],
  "briefs": [
@@ -3349,12 +3349,65 @@
   }
  },
  "en_vivo": {
-  "oro": 4147.9,
-  "nq": 31160.25,
-  "vix": 15.86,
-  "ts": "2026-10-08T11:42:34Z"
+  "oro": 4147.6,
+  "nq": 31178.0,
+  "vix": 15.89,
+  "ts": "2026-10-08T11:47:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Dow futures tumble 400 points as yields continue rising; oil surges 5%: Live updates",
+   "link": "https://www.cnbc.com/2026/10/07/stock-market-today-live-updates-.html",
+   "ts": "2026-10-08T11:42:43Z",
+   "fuente": "CNBC",
+   "id": "14e601a268",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Stocks making the biggest moves premarket: Haemonetics, Broadcom, Lululemon, Wolfspeed & more",
+   "link": "https://www.cnbc.com/2026/10/08/stocks-making-the-biggest-moves-premarket-hae-avgo-lulu-wolf.html",
+   "ts": "2026-10-08T11:42:14Z",
+   "fuente": "CNBC",
+   "id": "3492679737",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Silver X Grows the AgEq Processed by 42% and Gold 119% YoY As Nueva Recuperada Plant Expansion to 1,000 tpd Advances",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/silver-x-grows-ageq-processed-113500396.html?.tsrc=rss",
+   "ts": "2026-10-08T11:35:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "acbc65a929",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Daura Gold Commences Phase II Drill Program at Cerro Bayo & La Flora in Argentina",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/daura-gold-commences-phase-ii-113000237.html?.tsrc=rss",
+   "ts": "2026-10-08T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "1daf67df9f",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "World Copper Announces Brassie Creek Claim Package Expanded by 1,473 Hectares to 3,335 Hectares",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/world-copper-announces-brassie-creek-113000230.html?.tsrc=rss",
+   "ts": "2026-10-08T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "77a0a2ae55",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "StrikePoint Resumes Trading After Completion of Acquisition of Northumberland Gold Project, Emerging as a Tier-One Gold Explorer in Nevada's Walker Lane",
    "link": "https://finance.yahoo.com/markets/stocks/articles/strikepoint-resumes-trading-completion-acquisition-113000190.html?.tsrc=rss",
@@ -3385,6 +3438,18 @@
    "id": "25aa13b4a8",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Metals Creek Signs Drilling Contract for the Ogden Gold Project in Timmins, Ontario",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/metals-creek-signs-drilling-contract-112900887.html?.tsrc=rss",
+   "ts": "2026-10-08T11:29:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "923679e496",
+   "activos": [
+    "oro",
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -3478,6 +3543,15 @@
    "id": "48a8d3ff2b",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Counter-tariffs: The federal government is undermining U.S. legal challenges to Section 338",
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNMzlMakZXTGNLcFZod3Y1U2lPcFlnRGt3QmsyU2RXbDNWMVBDQ1FXMXRiRDBzcVZlVlg2LUM1Ym95TUJrU1hzTHVsdVcxNDh4QXc1ZjlCS3ktZ0ZieFloNzdDcGFXdXN5ZTU5d3Z5d0Z4ZlI1djhjVDJHU3dkd1Q5eDVDM2FHZlpTN3BvSks5S0Z3ZzRwNVZFbHU5bjRQeGM2bTJETXlyN2RXdGRoZExpRXpLU2laSDRIam9HVEJBcXhZbEE0RmZ3MUpZMlpEc3llMnRlSzVvcFQ1dEJMbzhLNGdNZE1pYURHVWxKQ2JxU2hHdjA?oc=5",
+   "ts": "2026-10-08T11:00:00Z",
+   "fuente": "GlobeNewswire",
+   "id": "4f5fce9560",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Spanish Mountain Gold Expands Near Surface Mineralization Intersecting 295.50 Metres of 0.54 G/T Gold Including a Higher Grade Interval of 107.00 Meters of 0.93 G/T Gold as Part of Its Feasibility Study Drill Program",
@@ -3771,6 +3845,17 @@
    "id": "2dfb4c6cbc",
    "activos": [
     "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "The Ring or the Gold? Lu Dort knows his choice",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaXpwdVFZOV85eU9XSk5yd25ZaTNsRzJkVHk4YWZ5bFROaXlxdnNSY2o3SzFva1A5TlNIQlZ2TXE4TlBpeUM4c1RlQVlyRXpSQ3BxcGxuZm5wUWVmWWlWSVVaTmVxZU45SHdRMWlXUkdNU1lXNl9qb2dWcFBHNmthN3VHOWFEZXJj?oc=5",
+   "ts": "2026-10-08T09:34:44Z",
+   "fuente": "FIBA",
+   "id": "0a28297f49",
+   "activos": [
+    "oro"
    ],
    "impacto": "medio"
   },
@@ -4115,97 +4200,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "TSMC's September sales jump more than 50% year over year",
-   "link": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html",
-   "ts": "2026-10-08T05:58:50Z",
-   "fuente": "CNBC",
-   "id": "0a4197279f",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "TSMC September sales hit another record as AI boom rolls on",
-   "link": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html",
-   "ts": "2026-10-08T05:45:21Z",
-   "fuente": "CNBC",
-   "id": "1390d89847",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Las ventas de septiembre de TSMC alcanzan otro récord por el auge de la IA",
-   "efecto": "Impulsa al Nasdaq 100 al alza por el optimismo tecnológico."
-  },
-  {
-   "titulo": "America shut out Chinese EVs. Britain welcomed them — and now faces a difficult choice",
-   "link": "https://www.cnbc.com/2026/10/08/autos-china-evs-uk-tariffs-hybrid-cars.html",
-   "ts": "2026-10-08T05:30:49Z",
-   "fuente": "CNBC",
-   "id": "1093151bdb",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Barclays sees big haircare gains for this consumer stock as shoppers prioritize self-care",
-   "link": "https://www.cnbc.com/2026/10/08/barclays-haircare-gains-self-care-consumers.html",
-   "ts": "2026-10-08T05:00:01Z",
-   "fuente": "CNBC",
-   "id": "0b2ae4ba91",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Euro limps toward fifth weekly loss as dollar pauses near 18-month highs",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-rangebound-dollar-holds-043147698.html?.tsrc=rss",
-   "ts": "2026-10-08T04:31:47Z",
-   "fuente": "Yahoo Finance",
-   "id": "dc942f9792",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Asian currencies rangebound as dollar holds 18-month high, euro under pressure",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-rangebound-dollar-holds-043147698.html?.tsrc=rss",
-   "ts": "2026-10-08T04:31:47Z",
-   "fuente": "Yahoo Finance",
-   "id": "a85946ea1b",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Asian currencies rangebound as dollar holds near 18-month high, yen slips",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-rangebound-dollar-holds-043147698.html?.tsrc=rss",
-   "ts": "2026-10-08T04:31:47Z",
-   "fuente": "Yahoo Finance",
-   "id": "5d6f4f0d66",
-   "activos": [
-    "dolar",
-    "oro",
-    "nq"
-   ],
-   "impacto": "alto",
-   "es": "Divisas asiáticas estables mientras el dólar se mantiene cerca de máximos de 18 meses y el yen cae",
-   "efecto": "Dólar fuerte presiona a la baja al oro y afecta al NQ."
-  },
-  {
-   "titulo": "Oil gains as Middle East hostilities, potential escalation stoke supply worries",
-   "link": "https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html",
-   "ts": "2026-10-08T04:07:51Z",
-   "fuente": "CNBC",
-   "id": "56a9059f51",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio",
-   "es": "El petróleo sube por hostilidades en Oriente Medio y temores de suministro",
-   "efecto": "Impulsa al oro como refugio seguro por riesgos geopolíticos."
   }
  ],
  "eventos_avisados": [
@@ -4264,7 +4258,7 @@
    ],
    [
     1791176400,
-    4159.0,
+    4159.2,
     4168.6,
     4157.6,
     4162.4
@@ -4274,11 +4268,11 @@
     4162.1,
     4184.1,
     4161.7,
-    4183.7
+    4183.8
    ],
    [
     1791183600,
-    4183.7,
+    4184.0,
     4194.9,
     4177.9,
     4188.7
@@ -4320,17 +4314,17 @@
    ],
    [
     1791205200,
-    4184.3,
+    4184.2,
     4186.1,
     4159.1,
-    4163.4
+    4163.0
    ],
    [
     1791208800,
-    4163.0,
+    4164.2,
     4176.6,
     4160.0,
-    4175.0
+    4175.1
    ],
    [
     1791212400,
@@ -4341,7 +4335,7 @@
    ],
    [
     1791216000,
-    4164.7,
+    4164.6,
     4164.8,
     4153.6,
     4158.3
@@ -4383,7 +4377,7 @@
    ],
    [
     1791237600,
-    4169.2,
+    4168.8,
     4172.5,
     4167.6,
     4167.9
@@ -4397,10 +4391,10 @@
    ],
    [
     1791244800,
-    4161.2,
+    4160.9,
     4178.8,
     4160.1,
-    4178.4
+    4178.3
    ],
    [
     1791248400,
@@ -4418,7 +4412,7 @@
    ],
    [
     1791255600,
-    4157.6,
+    4157.5,
     4160.8,
     4151.0,
     4154.5
@@ -4446,7 +4440,7 @@
    ],
    [
     1791270000,
-    4159.0,
+    4159.1,
     4170.6,
     4155.5,
     4167.5
@@ -4491,11 +4485,11 @@
     4198.2,
     4202.5,
     4179.3,
-    4180.0
+    4180.1
    ],
    [
     1791295200,
-    4180.1,
+    4179.8,
     4185.9,
     4170.6,
     4184.5
@@ -4505,14 +4499,14 @@
     4184.4,
     4198.7,
     4183.9,
-    4192.4
+    4192.3
    ],
    [
     1791302400,
     4192.7,
     4193.6,
     4181.6,
-    4184.3
+    4184.2
    ],
    [
     1791306000,
@@ -4533,7 +4527,7 @@
     4203.4,
     4212.4,
     4194.6,
-    4197.1
+    4197.3
    ],
    [
     1791316800,
@@ -4544,9 +4538,9 @@
    ],
    [
     1791324000,
-    4195.0,
     4195.9,
-    4189.3,
+    4195.9,
+    4190.0,
     4190.7
    ],
    [
@@ -4558,7 +4552,7 @@
    ],
    [
     1791331200,
-    4193.2,
+    4193.3,
     4197.3,
     4182.9,
     4183.6
@@ -4586,7 +4580,7 @@
    ],
    [
     1791345600,
-    4169.9,
+    4170.1,
     4171.1,
     4161.0,
     4161.6
@@ -4600,10 +4594,10 @@
    ],
    [
     1791352800,
-    4154.8,
+    4154.7,
     4161.9,
     4153.2,
-    4156.7
+    4156.8
    ],
    [
     1791356400,
@@ -4628,10 +4622,10 @@
    ],
    [
     1791367200,
-    4145.7,
+    4146.0,
     4146.9,
     4135.0,
-    4142.9
+    4143.0
    ],
    [
     1791370800,
@@ -4652,18 +4646,18 @@
     4112.6,
     4125.0,
     4108.0,
-    4124.0
+    4123.9
    ],
    [
     1791381600,
-    4124.0,
+    4124.1,
     4134.9,
     4119.0,
-    4130.1
+    4130.0
    ],
    [
     1791385200,
-    4130.4,
+    4130.5,
     4139.1,
     4124.5,
     4131.3
@@ -4677,14 +4671,14 @@
    ],
    [
     1791392400,
-    4135.0,
+    4134.9,
     4153.2,
     4133.9,
     4136.4
    ],
    [
     1791396000,
-    4136.5,
+    4136.3,
     4146.0,
     4132.8,
     4135.5
@@ -4719,10 +4713,10 @@
    ],
    [
     1791417600,
-    4133.0,
+    4133.6,
     4145.2,
     4130.0,
-    4141.6
+    4142.0
    ],
    [
     1791421200,
@@ -4733,14 +4727,14 @@
    ],
    [
     1791424800,
-    4156.6,
+    4156.8,
     4166.8,
     4155.5,
     4157.1
    ],
    [
     1791428400,
-    4157.0,
+    4157.3,
     4163.7,
     4151.8,
     4160.4
@@ -4750,7 +4744,7 @@
     4159.8,
     4165.7,
     4154.7,
-    4157.7
+    4157.8
    ],
    [
     1791435600,
@@ -4768,14 +4762,14 @@
    ],
    [
     1791442800,
-    4145.7,
+    4145.5,
     4154.3,
     4142.1,
     4144.1
    ],
    [
     1791446400,
-    4144.4,
+    4144.3,
     4157.7,
     4142.5,
     4150.9
@@ -4785,7 +4779,7 @@
     4151.1,
     4155.3,
     4144.0,
-    4147.8
+    4147.9
    ],
    [
     1791453600,
@@ -4796,17 +4790,17 @@
    ],
    [
     1791457200,
-    4146.1,
+    4146.5,
     4148.2,
     4138.9,
-    4147.9
+    4146.5
    ],
    [
-    1791459153,
-    4147.9,
-    4147.9,
-    4147.9,
-    4147.9
+    1791459449,
+    4147.6,
+    4147.6,
+    4147.6,
+    4147.6
    ]
   ],
   "nq": [
@@ -5396,14 +5390,14 @@
     31154.25,
     31185.0,
     31131.25,
-    31151.5
+    31173.25
    ],
    [
-    1791459153,
-    31160.25,
-    31160.25,
-    31160.25,
-    31160.25
+    1791459452,
+    31175.5,
+    31175.5,
+    31175.5,
+    31175.5
    ]
   ],
   "vix": [
@@ -5831,15 +5825,15 @@
     1791457200,
     15.95,
     16.0,
-    15.86,
-    15.86
+    15.83,
+    15.85
    ],
    [
-    1791458851,
-    15.86,
-    15.86,
-    15.86,
-    15.86
+    1791459136,
+    15.89,
+    15.89,
+    15.89,
+    15.89
    ]
   ]
  },
