@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4139.3 · NQ 31151.5 · VIX 15.97 · 6 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-08T11:17:45Z"
+   "ultimo_resultado": "Oro 4140.8 · NQ 31143.25 · VIX 15.98 · 5 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-08T11:22:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T11:17:44Z",
-   "ultimo_resultado": "6 titulares nuevos, 2 de alto impacto: Por qué los REITs no sufren tanto con las tasas altas esta vez"
+   "actualizado": "2026-10-08T11:22:32Z",
+   "ultimo_resultado": "5 titulares nuevos, 3 de alto impacto: The Morning Risk Report: Trump’s Tariffs Put a Spotlight on Forced Labor. It Isn’t Going Away."
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4140.8 · NQ 31143.25 · VIX 15.98 · 5 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-08T11:22:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4139.3 · NQ 31151.5 · VIX 15.97 · 6 noticias nuevas (2 alto impacto)",
@@ -1050,11 +1055,6 @@
    "agente": "cio",
    "texto": "Abriendo la mesa para la sesión de Asia (Tokio/Sídney).",
    "ts": "2026-10-07T21:32:45Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "11 titulares nuevos, 3 de alto impacto: Research shows tariffs push prices higher for up to a year",
-   "ts": "2026-10-07T21:32:31Z"
   }
  ],
  "briefs": [
@@ -3349,12 +3349,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4139.3,
-  "nq": 31151.5,
-  "vix": 15.97,
-  "ts": "2026-10-08T11:17:44Z"
+  "oro": 4140.8,
+  "nq": 31143.25,
+  "vix": 15.98,
+  "ts": "2026-10-08T11:22:33Z"
  },
  "noticias": [
+  {
+   "titulo": "The Morning Risk Report: Trump’s Tariffs Put a Spotlight on Forced Labor. It Isn’t Going Away.",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZnpEM053ZUV4R2xxTU80dFR5cEtLT3NvQUtReVhUdGtZSnVoRHhFQkdhTUFUdEdJeHlUNkNESEwxMk91eUtPbzdnY1VQRzdPTXFBcGVUTXFBZF94eUJpeVhnR3FtYmJVTDR6cTh2TzZvMGw4RUg3SDU3bEpic2lNSHRSVThqYTllZzJKbGhWcUh6TmpldUV5NXR4QWZ6N1pCMEltZ1lKRmlwc045RGF4b1ZNY0NqQUpOWlpEZWpiWVdpX05KTHdYempKb1puenE0QUt1Q3R5RmFIQQ?oc=5",
+   "ts": "2026-10-08T11:15:00Z",
+   "fuente": "WSJ",
+   "id": "c7d45e35c6",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "Dow futures tumble 500 points as yields continue rising; oil surges 5%: Live updates",
    "link": "https://www.cnbc.com/2026/10/07/stock-market-today-live-updates-.html",
@@ -3378,6 +3387,15 @@
    "impacto": "bajo",
    "es": "Por qué los REITs no sufren tanto con las tasas altas esta vez",
    "efecto": "Ruido sectorial sin impacto directo en ORO o NQ."
+  },
+  {
+   "titulo": "Russia, China hypersonic missile threats fuel need for space defense, satellite CEO says",
+   "link": "https://www.cnbc.com/2026/10/08/space-missile-defense-interceptors-russia-china.html",
+   "ts": "2026-10-08T11:04:39Z",
+   "fuente": "CNBC",
+   "id": "73704c3a51",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "The Spice Trader vs. the Tariffs",
@@ -3407,6 +3425,17 @@
    "id": "302d43ca99",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Spanish Mountain Gold Expands Near Surface Mineralization Intersecting 295.50 Metres of 0.54 G/T Gold Including a Higher Grade Interval of 107.00 Meters of 0.93 G/T Gold as Part of Its Feasibility Study Drill Program",
+   "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxQaDBaQnF4THZ3ckhUeEFjNUVkY1BSaFRoU1dEOVRzNndwMzBFdWh3V2ppd21ETjFQdENHTEhHdnFMR1hlTzlOTHZQYUZ3OUhoN1NiRkl2NzdZb2hKbzJkU0FPdVZjNmRlMlZvTVM3VG96VmprZ21nZHJIaHV1RkhBM19JeTluQ3cyb3lwQks2MEk3VTRqQTJTc0VBV19xa0tHOFpVYWdkRncwb0t1TFFHQjl6bHV5akFlSy0ydXVLLVRITW1NNHFaOXVrZkp6ZWs2NnFSTGxtVF9yeElPT0haX3ZsWVhSUGhlRkdmYklOblk4RGNBTGRaTUFxZDRmYTNpUm15eVg4VkNSVTh5eWs5al9GcEl3UDVzbTlnN2ZWaHotdnR1X3FHTXlWZDRWbEg5cmZqT0pCM212NTBPcTNUSnh6TnZOd0FJMk9CcUluUk9NUHBTM1A1QkMtdVh6a2ptaElrdUxjV3hQYzljNkRrQ2x1TkdxWmZYZmpScTN5TlFVWnN1OVZn?oc=5",
+   "ts": "2026-10-08T11:00:00Z",
+   "fuente": "Morningstar",
+   "id": "3d6f690260",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "K2 Extends Dragonfly Structure and Identifies Additional High-Grade Gold at Flores Target",
@@ -4177,44 +4206,6 @@
    "id": "42bb907118",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Gold steadies after touching two-month low as traders eye Fed rate outlook",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-nine-week-021738988.html?.tsrc=rss",
-   "ts": "2026-10-08T02:17:38Z",
-   "fuente": "Yahoo Finance",
-   "id": "740b89a4e0",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El oro se estabiliza tras mínimos de dos meses por perspectivas de tasas de la Fed",
-   "efecto": "Genera compras institucionales defensivas en soportes clave del oro."
-  },
-  {
-   "titulo": "Gold steadies after nine-week low as Hormuz tensions lift Fed hike bets",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-nine-week-021738988.html?.tsrc=rss",
-   "ts": "2026-10-08T02:17:38Z",
-   "fuente": "Yahoo Finance",
-   "id": "bc592792ca",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Gold holds near nine-week low as Hormuz tensions raise Fed hike bets",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-nine-week-021738988.html?.tsrc=rss",
-   "ts": "2026-10-08T02:17:38Z",
-   "fuente": "Yahoo Finance",
-   "id": "4665c1e6d7",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -4807,15 +4798,15 @@
     1791457200,
     4146.1,
     4146.6,
-    4139.2,
-    4139.4
+    4138.9,
+    4141.4
    ],
    [
-    1791457660,
-    4139.3,
-    4139.3,
-    4139.3,
-    4139.3
+    1791457949,
+    4140.8,
+    4140.8,
+    4140.8,
+    4140.8
    ]
   ],
   "nq": [
@@ -5404,15 +5395,15 @@
     1791457200,
     31154.25,
     31159.5,
-    31136.25,
-    31152.25
+    31131.25,
+    31144.5
    ],
    [
-    1791457663,
-    31151.5,
-    31151.5,
-    31151.5,
-    31151.5
+    1791457952,
+    31143.25,
+    31143.25,
+    31143.25,
+    31143.25
    ]
   ],
   "vix": [
@@ -5839,16 +5830,16 @@
    [
     1791457200,
     15.95,
-    15.97,
+    16.0,
     15.95,
-    15.96
+    16.0
    ],
    [
-    1791457351,
-    15.97,
-    15.97,
-    15.97,
-    15.97
+    1791457651,
+    15.98,
+    15.98,
+    15.98,
+    15.98
    ]
   ]
  },
