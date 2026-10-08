@@ -8,12 +8,14 @@ Siete agentes con mentalidad de fondo cripto institucional preparan el brief dos
   historiador  → estacionalidad de BTC en los últimos años y años análogos
   riesgo       → volatilidad (ATR), régimen y tamaño de posición
   cio          → junta todo y escribe el brief con sesgo, zonas y escenarios
+  ejecucion    → (opcional) compra en Blockchain.com Exchange con orden límite, riesgo 1% y stop protegiendo
 
-Uso: python agentes/cripto.py <manana|noche>
+Uso: python agentes/cripto.py <manana|noche|vigilar>
 Todo queda en data/cripto.json (la página cripto.html lo lee en vivo).
-Es análisis educativo; no es consejo financiero ni ejecuta operaciones.
+Es análisis educativo; no es consejo financiero. Solo ejecuta si MODO_CRIPTO=real.
 """
 import json
+import os
 import statistics
 import sys
 import time
@@ -266,13 +268,202 @@ DATOS:
     me.paso("cio", f"Brief publicado: {corto.get('titular', '')}", trabajando=False)
     lineas = [f"{e.get('activo')}: {e.get('direccion')} {e.get('zona', '')} · SL {e.get('stop', '')} · TP2 {e.get('tp2', '')} · {e.get('confluencias', '')}"
               for e in corto.get("entradas", []) if not str(e.get("direccion", "")).upper().startswith("SIN")]
+    try:
+        ejecutar_cripto(me, corto.get("entradas", []), mapas)
+    except Exception as ex:
+        me.paso("ejecucion", f"Error en la ejecución ({str(ex)[:80]}).", trabajando=False)
     s = corto.get("sesgo", {})
     base.avisar_telefono(f"GSAM Cripto · BTC {s.get('btc', '?')} · ETH {s.get('eth', '?')}",
                          (corto.get("titular", "") + ("\n" + "\n".join(lineas) if lineas else "\nSin entrada de alta probabilidad."))[:900], "default")
 
 
+# ───────── ejecución en Blockchain.com Exchange (solo spot: solo compras) ─────────
+# Seguridad: la llave de API se crea SOLO con permiso de operar (nunca de retirar) y vive en el secreto
+# BLOCKCHAIN_API_KEY de GitHub. Mientras el secreto MODO_CRIPTO no diga "real", todo es simulado.
+
+API_BC = "https://api.blockchain.com/v3/exchange"
+RIESGO_PCT = 1.0           # % del capital que se arriesga por idea
+MAX_POSICION_PCT = 40.0    # nunca más de este % del capital en una sola posición
+VENCE_HORAS = 24           # si la compra límite no se llena en 24 h, se cancela
+DECIMALES = {"BTC": 5, "ETH": 4}
+
+
+def _modo_real():
+    return os.environ.get("MODO_CRIPTO", "").strip().lower() == "real" and bool(os.environ.get("BLOCKCHAIN_API_KEY", "").strip())
+
+
+def _bc(metodo, ruta, **kw):
+    key = os.environ.get("BLOCKCHAIN_API_KEY", "").strip()
+    r = requests.request(metodo, API_BC + ruta, headers={"X-API-Token": key, "Accept": "application/json"}, timeout=30, **kw)
+    if r.status_code >= 400:
+        raise RuntimeError(f"Blockchain.com {r.status_code}: {r.text[:120]}")
+    return r.json() if r.text.strip() else {}
+
+
+def _saldos():
+    """Saldos disponibles de la cuenta principal: {"USD": 123.4, "BTC": 0.001, ...}."""
+    d = _bc("GET", "/accounts")
+    filas = d.get("primary") if isinstance(d, dict) else d
+    out = {}
+    for f in filas or []:
+        try:
+            out[f["currency"]] = float(f.get("available", f.get("balance", 0)))
+        except Exception:
+            pass
+    return out
+
+
+def _orden(simbolo, lado, qty, tipo="LIMIT", precio=None, stop=None, ref=""):
+    cuerpo = {"clOrdId": f"gsam{ref}{int(time.time())}"[:20], "ordType": tipo, "symbol": simbolo, "side": lado,
+              "orderQty": qty, "timeInForce": "GTC"}
+    if precio is not None:
+        cuerpo["price"] = precio
+    if stop is not None:
+        cuerpo["stopPx"] = stop
+    return _bc("POST", "/orders", json=cuerpo)
+
+
+def ejecutar_cripto(me, entradas, mapas):
+    real = _modo_real()
+    etiqueta = "" if real else "[SIMULADO] "
+    pos = me.m.setdefault("posiciones", [])
+    capital = None
+    if real:
+        try:
+            sal = _saldos()
+            capital = sal.get("USD", 0) + sum(sal.get(a, 0) * (mapas.get(a.lower(), {}).get("precio") or 0) for a in ("BTC", "ETH"))
+            usd_libre = sal.get("USD", 0)
+        except Exception as ex:
+            me.paso("ejecucion", f"No pude leer tu cuenta de Blockchain.com ({str(ex)[:80]}). No se opera.", trabajando=False)
+            return
+    else:
+        capital, usd_libre = 1000.0, 1000.0   # cuenta de práctica para la simulación
+    for e in entradas or []:
+        act = str(e.get("activo", "")).upper()
+        if act not in ("BTC", "ETH"):
+            continue
+        if not str(e.get("direccion", "")).upper().startswith("COMPRA"):
+            me.paso("ejecucion", f"{act}: {e.get('direccion', 'SIN ENTRADA')} · en spot solo se compra, no se opera.", trabajando=False)
+            continue
+        if any(p["activo"] == act and p["estado"] in ("pendiente", "abierta") for p in pos):
+            me.paso("ejecucion", f"{act}: ya hay una posición u orden activa, no se duplica.", trabajando=False)
+            continue
+        try:
+            conf = int(M._n(e.get("confluencias")) or 0)
+        except Exception:
+            conf = 0
+        lo, hi = M._rango(e.get("zona"))
+        stop, tp = M._n(e.get("stop")), M._n(e.get("tp2")) or M._n(e.get("tp1"))
+        if conf < 4 or not (lo and stop and tp) or not (stop < lo < tp):
+            me.paso("ejecucion", f"{act}: entrada incompleta o con {conf}/5 confluencias. No se envía.", trabajando=False)
+            continue
+        entrada = lo   # borde de la zona (donde está la liquidez)
+        rr = (tp - entrada) / (entrada - stop)
+        if rr < 2:
+            me.paso("ejecucion", f"{act}: R:R {rr:.1f} menor a 2. No se envía.", trabajando=False)
+            continue
+        riesgo = capital * RIESGO_PCT / 100
+        qty = riesgo / (entrada - stop)
+        qty = min(qty, capital * MAX_POSICION_PCT / 100 / entrada, usd_libre * 0.98 / entrada)
+        qty = round(qty, DECIMALES[act])
+        if qty <= 0:
+            me.paso("ejecucion", f"{act}: no hay saldo en USD suficiente para la compra.", trabajando=False)
+            continue
+        simbolo = f"{act}-USD"
+        p = {"activo": act, "simbolo": simbolo, "qty": qty, "entrada": round(entrada, 2), "stop": round(stop, 2), "tp": round(tp, 2),
+             "estado": "pendiente", "creada": base.ahora(), "real": real, "orden": None, "orden_stop": None}
+        if real:
+            try:
+                r = _orden(simbolo, "BUY", qty, "LIMIT", precio=p["entrada"], ref=act.lower())
+                p["orden"] = r.get("exOrdId") or r.get("orderId") or r.get("clOrdId")
+            except Exception as ex:
+                me.paso("ejecucion", f"{act}: no pude enviar la orden ({str(ex)[:80]}).", trabajando=False)
+                continue
+        pos.insert(0, p)
+        txt = (f"{etiqueta}COMPRA límite {qty} {act} en {p['entrada']:,} · stop {p['stop']:,} · objetivo {p['tp']:,} · "
+               f"riesgo ${(entrada - stop) * qty:,.0f} ({RIESGO_PCT}% del capital) · R:R {rr:.1f}")
+        me.paso("ejecucion", txt, trabajando=False)
+        base.avisar_telefono(f"GSAM Cripto · orden {act}", txt, "high")
+    me.m["posiciones"] = pos[:50]
+
+
+def vigilar_cripto():
+    """Revisa las órdenes: pone el stop cuando la compra se llena, vende en el objetivo y cancela compras viejas."""
+    me = Mesa()
+    pos = me.m.get("posiciones", [])
+    activas = [p for p in pos if p["estado"] in ("pendiente", "abierta")]
+    if not activas:
+        return
+    real = _modo_real()
+    for p in activas:
+        try:
+            precio = M.yahoo(f"{p['activo']}-USD", "1h", "1d")[-1]["c"]
+        except Exception:
+            continue
+        horas = (datetime.now(timezone.utc) - datetime.fromisoformat(p["creada"].replace("Z", "+00:00"))).total_seconds() / 3600
+        if p["estado"] == "pendiente":
+            lleno = False
+            if real and p.get("orden"):
+                try:
+                    o = _bc("GET", f"/orders/{p['orden']}")
+                    lleno = str(o.get("ordStatus", "")).upper() == "FILLED"
+                except Exception:
+                    pass
+            elif not real:
+                lleno = precio <= p["entrada"]
+            if lleno:
+                p["estado"] = "abierta"
+                if real:
+                    try:
+                        r = _orden(p["simbolo"], "SELL", p["qty"], "STOP", stop=p["stop"], ref="sl")
+                        p["orden_stop"] = r.get("exOrdId") or r.get("orderId")
+                    except Exception as ex:
+                        me.paso("ejecucion", f"{p['activo']}: ¡no pude poner el stop! ({str(ex)[:60]}) Revísalo a mano.", trabajando=False)
+                        base.avisar_telefono("GSAM Cripto · ¡STOP SIN PONER!", f"{p['activo']}: la compra se llenó pero no pude poner el stop en {p['stop']}. Ponlo a mano.", "urgent")
+                me.paso("ejecucion", f"{'' if real else '[SIMULADO] '}{p['activo']}: compra llena en {p['entrada']:,}. Stop protegiendo en {p['stop']:,}.", trabajando=False)
+                base.avisar_telefono(f"GSAM Cripto · {p['activo']} dentro", f"Compra llena en {p['entrada']:,}. Stop en {p['stop']:,}, objetivo {p['tp']:,}.", "high")
+            elif horas > VENCE_HORAS:
+                if real and p.get("orden"):
+                    try:
+                        _bc("DELETE", f"/orders/{p['orden']}")
+                    except Exception:
+                        pass
+                p["estado"] = "cancelada"
+                me.paso("ejecucion", f"{p['activo']}: la compra no se llenó en {VENCE_HORAS} h. Cancelada.", trabajando=False)
+        elif p["estado"] == "abierta":
+            if precio <= p["stop"] and not real:
+                p["estado"], p["resultado"] = "cerrada", "stop"
+            elif precio >= p["tp"]:
+                if real:
+                    try:
+                        if p.get("orden_stop"):
+                            _bc("DELETE", f"/orders/{p['orden_stop']}")
+                        _orden(p["simbolo"], "SELL", p["qty"], "LIMIT", precio=round(precio * 0.999, 2), ref="tp")
+                    except Exception as ex:
+                        me.paso("ejecucion", f"{p['activo']}: no pude vender en el objetivo ({str(ex)[:60]}).", trabajando=False)
+                        continue
+                p["estado"], p["resultado"] = "cerrada", "objetivo"
+            elif real and p.get("orden_stop"):
+                try:
+                    o = _bc("GET", f"/orders/{p['orden_stop']}")
+                    if str(o.get("ordStatus", "")).upper() == "FILLED":
+                        p["estado"], p["resultado"] = "cerrada", "stop"
+                except Exception:
+                    pass
+            if p["estado"] == "cerrada":
+                ganancia = (p["tp"] if p["resultado"] == "objetivo" else p["stop"]) - p["entrada"]
+                txt = f"{'' if real else '[SIMULADO] '}{p['activo']} cerrada en {p['resultado']}: {ganancia * p['qty']:+,.0f} USD."
+                me.paso("ejecucion", txt, trabajando=False)
+                base.avisar_telefono(f"GSAM Cripto · {p['activo']} cerrada", txt, "high")
+    me.m["posiciones"] = pos
+    me.guardar("vigilancia de posiciones")
+
+
 if __name__ == "__main__":
     t = (sys.argv[1] if len(sys.argv) > 1 else "manana").lower()
+    if t == "vigilar":
+        vigilar_cripto()
+        sys.exit(0)
     if t not in TURNOS:
-        sys.exit("Uso: python agentes/cripto.py <manana|noche>")
+        sys.exit("Uso: python agentes/cripto.py <manana|noche|vigilar>")
     correr(t)
