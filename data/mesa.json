@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4130.1 · NQ 31179.5 · VIX 15.47 · 10 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-08T16:17:38Z"
+   "ultimo_resultado": "✅ ORO COMPRA: CONFIRMÓ · Oro 4136.1 · NQ 31199.5 · VIX 15.5 · 10 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-08T16:22:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T16:17:37Z",
-   "ultimo_resultado": "10 titulares nuevos, 2 de alto impacto: StrikePoint reanuda operaciones tras completar adquisición del proyecto aurífero Northumberland"
+   "actualizado": "2026-10-08T16:22:33Z",
+   "ultimo_resultado": "10 titulares nuevos, 2 de alto impacto: S&P 500 slides as traders monitor Treasury yields; oil gains 3%: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "✅ ORO COMPRA: CONFIRMÓ · Oro 4136.1 · NQ 31199.5 · VIX 15.5 · 10 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-08T16:22:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4130.1 · NQ 31179.5 · VIX 15.47 · 10 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4162.3 · NQ 31452.25 · VIX 15.08 · 6 noticias nuevas (2 alto impacto)",
    "ts": "2026-10-08T02:42:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4161.1 · NQ 31443.25 · VIX 15.08 · 6 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-08T02:37:33Z"
   }
  ],
  "briefs": [
@@ -1087,7 +1087,7 @@
      "confluencias": "4/5",
      "cancelar": "Rompe con fuerza 4125.0 antes de activar.",
      "motivo": "",
-     "vivo": "en_zona"
+     "vivo": "confirmada"
     },
     {
      "activo": "NQ",
@@ -3551,12 +3551,24 @@
   }
  },
  "en_vivo": {
-  "oro": 4130.1,
-  "nq": 31179.5,
-  "vix": 15.47,
-  "ts": "2026-10-08T16:17:37Z"
+  "oro": 4136.1,
+  "nq": 31199.5,
+  "vix": 15.5,
+  "ts": "2026-10-08T16:22:33Z"
  },
  "noticias": [
+  {
+   "titulo": "S&P 500 slides as traders monitor Treasury yields; oil gains 3%: Live updates",
+   "link": "https://www.cnbc.com/2026/10/07/stock-market-today-live-updates-.html",
+   "ts": "2026-10-08T16:20:59Z",
+   "fuente": "CNBC",
+   "id": "6335c9d284",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "The Fed's going to take its time with rate hikes",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRbjZBYktnZmU3Y3pEZGtCQUprVkUtTk95YVVobXBfRjdXeXVna3ZUSks5VVRLN3dTdDAtMlhiR2xyRGdkOVpQSFRmYUJ6R1hKTGlZRjJMdTZhLThSMHZZYmc5V1l0c011LUc4ZXZkd1E?oc=5",
@@ -4380,6 +4392,15 @@
    "impacto": "medio"
   },
   {
+   "titulo": "World Copper Announces Brassie Creek Claim Package Expanded by 1,473 Hectares to 3,335 Hectares",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/world-copper-announces-brassie-creek-113000230.html?.tsrc=rss",
+   "ts": "2026-10-08T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "77a0a2ae55",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "StrikePoint Resumes Trading After Completion of Acquisition of Northumberland Gold Project, Emerging as a Tier-One Gold Explorer in Nevada's Walker Lane",
    "link": "https://finance.yahoo.com/markets/stocks/articles/strikepoint-resumes-trading-completion-acquisition-113000190.html?.tsrc=rss",
    "ts": "2026-10-08T11:30:00Z",
@@ -4409,28 +4430,6 @@
    "ts": "2026-10-08T11:30:00Z",
    "fuente": "Yahoo Finance",
    "id": "25aa13b4a8",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Carlin Gold Announces Snowline Gold and Fireweed Zinc Royalties",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcHAzQ2QtQVVyUkdCR3l2aFdaQVdYSFd3SXhSM0tfQlBGODNUZEtJUENzU1J3dFg3eEtIOGxmYm1mQ0oxX3o3YjNMNGNYSUFOYWZXTl9Sb1FFNzlHOFdMUktxM0ZmQ0hOa2ctRXZMclZyZEYwWGg3RlhGd25uTWUzZVd0dUZkTzZXMXVfT3cydGEta1lVeDYyLWVMMXF4UGw4cUZvbkRGeWQ?oc=5",
-   "ts": "2026-10-08T11:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "447758566d",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Daura Gold Commences Phase II Drill Program at Cerro Bayo & La Flora in Argentina",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/daura-gold-commences-phase-ii-113000237.html?.tsrc=rss",
-   "ts": "2026-10-08T11:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "1daf67df9f",
    "activos": [
     "oro"
    ],
@@ -5061,16 +5060,16 @@
    [
     1791475200,
     4135.8,
-    4136.7,
+    4136.8,
     4129.2,
-    4129.7
+    4136.6
    ],
    [
-    1791475654,
-    4130.2,
-    4130.2,
-    4130.2,
-    4130.2
+    1791475948,
+    4136.5,
+    4136.5,
+    4136.5,
+    4136.5
    ]
   ],
   "nq": [
@@ -5693,16 +5692,16 @@
    [
     1791475200,
     31191.25,
-    31197.25,
+    31206.0,
     31165.25,
-    31179.25
+    31204.0
    ],
    [
-    1791475656,
-    31179.5,
-    31179.5,
-    31179.5,
-    31179.5
+    1791475950,
+    31199.5,
+    31199.5,
+    31199.5,
+    31199.5
    ]
   ],
   "vix": [
@@ -6164,16 +6163,16 @@
    [
     1791475200,
     15.48,
-    15.49,
-    15.48,
+    15.5,
+    15.47,
     15.49
    ],
    [
-    1791475351,
-    15.47,
-    15.47,
-    15.47,
-    15.47
+    1791475651,
+    15.5,
+    15.5,
+    15.5,
+    15.5
    ]
   ]
  },
