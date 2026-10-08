@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4152.7 · NQ 31235.25 · VIX 15.52 · 2 noticias nuevas",
-   "actualizado": "2026-10-08T13:42:44Z"
+   "ultimo_resultado": "Oro 4149.6 · NQ 31225.0 · VIX 15.39 · 10 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-08T13:47:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T13:42:42Z",
-   "ultimo_resultado": "2 titulares nuevos: Elon Musk blames Indian 'oligarchs' for stalling Starlink launch"
+   "actualizado": "2026-10-08T13:47:31Z",
+   "ultimo_resultado": "10 titulares nuevos, 3 de alto impacto: The price of gold today, Oct. 8, 2026 — and the best places to buy"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4149.6 · NQ 31225.0 · VIX 15.39 · 10 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-08T13:47:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4152.7 · NQ 31235.25 · VIX 15.52 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4134.0 · NQ 31434.25 · VIX 15.08 · 8 noticias nuevas",
    "ts": "2026-10-08T00:07:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4134.1 · NQ 31437.5 · VIX 15.08 · 7 noticias nuevas",
-   "ts": "2026-10-08T00:02:36Z"
   }
  ],
  "briefs": [
@@ -3551,12 +3551,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4152.7,
-  "nq": 31235.25,
-  "vix": 15.52,
-  "ts": "2026-10-08T13:42:43Z"
+  "oro": 4149.6,
+  "nq": 31225.0,
+  "vix": 15.39,
+  "ts": "2026-10-08T13:47:32Z"
  },
  "noticias": [
+  {
+   "titulo": "The price of gold today, Oct. 8, 2026 — and the best places to buy",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE03enl4ZmhwWFl2MzNWMS1tNTlzTlowTG1wVTdXM1RZZF9OOVoxcnJBSXQ5WGdJSFhHMkJVX2M1Y2pWb243WXJwZGZ0X2JSYjFETmRKaC1vRnYtV2hKNDZKeHhGV2JSbWVrWVI3MHZjSmPSAXZBVV95cUxPaXlFQjJTbHZIUzBfZzFsWUlXaG5WVG0xM0ZMS2ZJcEh5VzRBckNzeG1CN2JWQVBhN3lrYnBlTGpjZXkyNi12cUV6Yks2eDRRaGVVSGFJSEJtdElINnNod1N0WWlDU3RmN0xsQXRhQjBqWnZwMDhR?oc=5",
+   "ts": "2026-10-08T13:33:52Z",
+   "fuente": "CNBC",
+   "id": "790f998b10",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Stocks slide as Treasury yields continue climb; oil gains 4%: Live updates",
    "link": "https://www.cnbc.com/2026/10/07/stock-market-today-live-updates-.html",
@@ -3571,6 +3582,17 @@
    "impacto": "alto",
    "es": "Acciones caen por subida de rendimientos de bonos; petróleo gana 4%",
    "efecto": "Presiona al NQ a la baja y fortalece al dólar."
+  },
+  {
+   "titulo": "Precore Gold MagDrone Survey Defines Kilometer-Scale Gold and Copper-Gold Porphyry Systems Along Major Andean Structure at Arikepay, Peru",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/precore-gold-magdrone-survey-defines-133000360.html?.tsrc=rss",
+   "ts": "2026-10-08T13:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "c8caa579bd",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "The politics of tariffs after Trump",
@@ -4395,24 +4417,6 @@
    "impacto": "medio",
    "es": "Beneficios de PepsiCo superan estimaciones, pero rebaja previsión anual",
    "efecto": "Genera cautela en consumo discrecional, limitando alzas en el NQ."
-  },
-  {
-   "titulo": "NFL tells Supreme Court prediction markets are gambling and should be regulated by the states",
-   "link": "https://www.cnbc.com/2026/10/08/nfl-tells-supreme-court-prediction-markets-are-gambling-and-should-be-regulated-by-the-states.html",
-   "ts": "2026-10-08T10:00:02Z",
-   "fuente": "CNBC",
-   "id": "b689ca8dd0",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges, CNBC analysis finds",
-   "link": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html",
-   "ts": "2026-10-08T10:00:02Z",
-   "fuente": "CNBC",
-   "id": "638242a52d",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -5020,14 +5024,14 @@
     4142.4,
     4154.2,
     4139.3,
-    4152.2
+    4151.3
    ],
    [
-    1791466362,
-    4153.3,
-    4153.3,
-    4153.3,
-    4153.3
+    1791466647,
+    4149.6,
+    4149.6,
+    4149.6,
+    4149.6
    ]
   ],
   "nq": [
@@ -5629,16 +5633,16 @@
    [
     1791464400,
     31199.0,
-    31254.75,
+    31275.5,
     31193.5,
-    31224.75
+    31224.0
    ],
    [
-    1791466363,
-    31235.25,
-    31235.25,
-    31235.25,
-    31235.25
+    1791466651,
+    31231.25,
+    31231.25,
+    31231.25,
+    31231.25
    ]
   ],
   "vix": [
@@ -6080,15 +6084,15 @@
     1791464400,
     15.66,
     15.66,
-    15.49,
-    15.52
+    15.39,
+    15.39
    ],
    [
-    1791465901,
-    15.52,
-    15.52,
-    15.52,
-    15.52
+    1791466336,
+    15.39,
+    15.39,
+    15.39,
+    15.39
    ]
   ]
  },
