@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4143.9 · NQ 31148.25 · VIX 15.95 · 4 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-08T11:07:32Z"
+   "ultimo_resultado": "Oro 4143.5 · NQ 31140.0 · VIX 15.94 · 10 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-08T11:12:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T11:07:31Z",
-   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: The Spice Trader vs. the Tariffs"
+   "actualizado": "2026-10-08T11:12:35Z",
+   "ultimo_resultado": "10 titulares nuevos, 3 de alto impacto: Dow futures tumble 500 points as yields continue rising; oil surges 5%: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4143.5 · NQ 31140.0 · VIX 15.94 · 10 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-08T11:12:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4143.9 · NQ 31148.25 · VIX 15.95 · 4 noticias nuevas (1 alto impacto)",
@@ -1050,11 +1055,6 @@
    "agente": "noticias",
    "texto": "11 titulares nuevos, 3 de alto impacto: Ataques a petroleros en Irán impulsan el petróleo al alza y bajan el Bitcoin",
    "ts": "2026-10-07T21:27:43Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "11 titulares nuevos, 2 de alto impacto: Kinross Gold (TSX:K) Has A Fresh Update, So What Are Investors Weighing Now?",
-   "ts": "2026-10-07T21:22:37Z"
   }
  ],
  "briefs": [
@@ -3349,12 +3349,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4143.9,
-  "nq": 31148.25,
-  "vix": 15.95,
-  "ts": "2026-10-08T11:07:32Z"
+  "oro": 4143.5,
+  "nq": 31140.0,
+  "vix": 15.94,
+  "ts": "2026-10-08T11:12:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Dow futures tumble 500 points as yields continue rising; oil surges 5%: Live updates",
+   "link": "https://www.cnbc.com/2026/10/07/stock-market-today-live-updates-.html",
+   "ts": "2026-10-08T11:09:32Z",
+   "fuente": "CNBC",
+   "id": "dba08c1755",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "The Spice Trader vs. the Tariffs",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5NWkxnT0tXXzlVS1hBVms2eVB5N2llYUFyWnc1UTBMR0E4cHNIOWlPZVdPOTRzVVRMNDl1TzE1c0ZjQ3hJVmVGNDRQM09MOFJnVUZPLW5NOFRBdnNva01FcHByOWlUdUgyUy1admhR?oc=5",
@@ -3363,6 +3374,48 @@
    "id": "e79935bec7",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Report: Trump tariffs drove up consumer prices, New York Fed finds",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNc3pxOVNwaTFVbXp0TUdNMFVockFkN2xTUkU0MGxYRUNDcGlBT21WZmZDNkwzZ1ZKOXlnZ0VsRXFXMFU2RzdlUzZ2bzVEYlpVLU9BakYzcl9qS1k4aVpES1RRMjJjYmphb0hqY3prb3hhZVlNNU9QUmwwU1dQbTVBZXhDN3MtRVZTWTU3Qk11VDI4MEEtN3dDTFdUWXExUWRFM0QyTGxRZGVSWmxzWWZQcTktZzNwblp6N0w2SkZBVjN5OEpKV2ZHYjdkeWh5ZXoyOS1lQndRU1RuTWc?oc=5",
+   "ts": "2026-10-08T11:04:00Z",
+   "fuente": "cbs19.tv",
+   "id": "cde483e791",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Mexican auto exports slump in September as US tariffs take toll",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaGJBQ3U5X1l4T0ZNV3EwRlRRdDI3TFlOdTRoa2Z1V24tTE5DSTBDaS1obFFQczhfeG02WmpBZmlCQmRROGtYTzRzQTBzZGxrSEFxNGVWaWF6X0VnMUVrMzkzMmpweHg5RFRpc1g0ZXV0NjRiN3phampReEdnY3ZNNnVCMDhvLXlYdGVqaXRvZ2x0MkF4c1ltQ2dJLTNZZ0J4dnFORG5pMEc1T0dPb2VRX3R1Rjhid2R0Z19NUVY0aWM?oc=5",
+   "ts": "2026-10-08T11:03:44Z",
+   "fuente": "Reuters",
+   "id": "302d43ca99",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Broad, Shallow Copper-Gold Intersections Continue to Grow La Verde",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/broad-shallow-copper-gold-intersections-110000737.html?.tsrc=rss",
+   "ts": "2026-10-08T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "761dcab9f9",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Pacific Ridge Signs Exploration Agreements with Tsay Keh Dene Nation for the Kliyul and RDP Copper-Gold Projects",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/pacific-ridge-signs-exploration-agreements-110000466.html?.tsrc=rss",
+   "ts": "2026-10-08T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "8eac07f9c5",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Gold price today, Thursday, October 8, 2026: Yearly gold gains evaporate after Fed says higher rates are expected",
@@ -3395,6 +3448,17 @@
    "id": "809e1659f4",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Endeavour Silver Produces 2,096,545 Oz Silver and 10,126 Oz Gold, for a total of 3.6 Million Silver Equivalent Oz in Q3 2026",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/endeavour-silver-produces-2-096-105000288.html?.tsrc=rss",
+   "ts": "2026-10-08T10:50:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "b301e8ba68",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Largo Receives Environmental Permit for GAN Open Pit Vanadium-Copper-Gold-PGM Mine Development",
@@ -3442,6 +3506,17 @@
    "id": "61cb4ee0c5",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "U.S. Dollar, Treasury Yields Rise With Inflation Fears in Focus",
+   "link": "https://finance.yahoo.com/m/ed6a1880-c6fe-3483-b5e8-afb9a2521804/u.s.-dollar%2C-treasury-yields.html?.tsrc=rss",
+   "ts": "2026-10-08T10:10:19Z",
+   "fuente": "Yahoo Finance",
+   "id": "80b1d89392",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "CNBC's Financial Advisor 100: Best financial advisors, top firms for 2026 ranked",
@@ -3612,6 +3687,17 @@
     "dolar"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Dollar Likely to Remain Lifted by U.S. Rate-Rise Bets",
+   "link": "https://finance.yahoo.com/m/e6229986-24e1-37cf-adf4-6d4d2cadaf79/dollar-likely-to-remain.html?.tsrc=rss",
+   "ts": "2026-10-08T09:19:13Z",
+   "fuente": "Yahoo Finance",
+   "id": "a38e9a6dec",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "France to release diesel reserves as student protests resume",
@@ -4114,102 +4200,6 @@
    "id": "56703fe57e",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Men’s Tennis to Play at Regional Championship, Play Host to Gold Invite",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLXZ2M0laNGowY2lOZ21tV2lITElpUmw5eU5La0l0YVljbXdSeS0zRXNDT0pKTU5DTlJrcEhpbkVuRHZLLWYxbk9FVmtReGNEdmgwYklDaWg4RHkxX29LTUc5anYxZGg0bFpOX2JlamQ3LUp2UmNXSWNaRHFVQVd3cXlXajhNZHNuc0Q2VXdJUkM4TnVPN3NfZE1Wc2hzOGYzek9WS2Z1NC1tbFF5Q2d5NWpldHNCT2EtOHBNTjJhWkphdw?oc=5",
-   "ts": "2026-10-08T01:57:51Z",
-   "fuente": "Naval Academy Athletics",
-   "id": "917685da9d",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Oil gains as Middle East hostilities stoke supply worries",
-   "link": "https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html",
-   "ts": "2026-10-08T01:46:56Z",
-   "fuente": "CNBC",
-   "id": "49a5cf74f1",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Hot Chili extends broad shallow copper-gold mineralisation at La Verde",
-   "link": "https://www.proactiveinvestors.com/companies/news/1099780/hot-chili-extends-broad-shallow-copper-gold-mineralisation-at-la-verde-1099780.html?.tsrc=rss",
-   "ts": "2026-10-08T01:29:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "1438454de2",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Hot Chili amplía la mineralización de cobre y oro en La Verde",
-   "efecto": "Ruido sectorial minero, sin impacto institucional inmediato en oro."
-  },
-  {
-   "titulo": "Gold edges up after hitting 2-month low as markets weigh Fed rate path",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaTl2VDRiV2EtanRNTGxRVGc4OEhQUUhZOEV1MXduVGNBOW1wa2V6N2lqaXJaX2hiVnpPdU5kSC05VGNVUV9ydExDbnVral9vVW1qTFlvYTZSMGY2cTFraXRJeEthaEZmMFRuVmtVYzc2azRkYlM5MVBvWG9nUGY0LUFBX2VmZHNWTkxHTVZGdUtvTWd2NGlJbg?oc=5",
-   "ts": "2026-10-08T01:21:00Z",
-   "fuente": "Reuters",
-   "id": "4e36f8f7dd",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Gold pauses decline after two-month low as traders weigh US Fed move",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaTl2VDRiV2EtanRNTGxRVGc4OEhQUUhZOEV1MXduVGNBOW1wa2V6N2lqaXJaX2hiVnpPdU5kSC05VGNVUV9ydExDbnVral9vVW1qTFlvYTZSMGY2cTFraXRJeEthaEZmMFRuVmtVYzc2azRkYlM5MVBvWG9nUGY0LUFBX2VmZHNWTkxHTVZGdUtvTWd2NGlJbg?oc=5",
-   "ts": "2026-10-08T01:21:00Z",
-   "fuente": "Reuters",
-   "id": "6f8b64ab78",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El oro pausa su caída tras mínimos de dos meses mientras el mercado evalúa a la Fed",
-   "efecto": "Genera compras de oportunidad en el oro, frenando la tendencia bajista previa."
-  },
-  {
-   "titulo": "Gold prices recover from two-month low as dollar rally stalls",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaTl2VDRiV2EtanRNTGxRVGc4OEhQUUhZOEV1MXduVGNBOW1wa2V6N2lqaXJaX2hiVnpPdU5kSC05VGNVUV9ydExDbnVral9vVW1qTFlvYTZSMGY2cTFraXRJeEthaEZmMFRuVmtVYzc2azRkYlM5MVBvWG9nUGY0LUFBX2VmZHNWTkxHTVZGdUtvTWd2NGlJbg?oc=5",
-   "ts": "2026-10-08T01:21:00Z",
-   "fuente": "Reuters",
-   "id": "e1a08945d0",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gold edges higher after hitting a two-month low",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaTl2VDRiV2EtanRNTGxRVGc4OEhQUUhZOEV1MXduVGNBOW1wa2V6N2lqaXJaX2hiVnpPdU5kSC05VGNVUV9ydExDbnVral9vVW1qTFlvYTZSMGY2cTFraXRJeEthaEZmMFRuVmtVYzc2azRkYlM5MVBvWG9nUGY0LUFBX2VmZHNWTkxHTVZGdUtvTWd2NGlJbg?oc=5",
-   "ts": "2026-10-08T01:21:00Z",
-   "fuente": "Reuters",
-   "id": "42b9cf7f53",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Morning Wrap | U.S. Stocks Fall as Treasury Yields Hit 24-Year Highs; SIA Expands Air India Ties",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV1FiU2JUdW1PSFRRQkwtUjBwM2dCNGVzbGlfWGY1SGd4X3FKclJPT28yanhxZ3VoemZhRlhtclFIRjVwZ1Y0UmxjbkhsbEhPekdiODNzOE5tNjRCNFhJQVRYNm5VOXpyQ21rdFpMLUdPMWVjbFBrbk1RdjV1RlBLS0pUZndmbkcwM3dtSHFDUXYxWGZ2SktsR0ZheUFjbzltT1NlX3JHazg?oc=5",
-   "ts": "2026-10-08T01:14:23Z",
-   "fuente": "Moomoo",
-   "id": "aea659d1aa",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Acciones de EE. UU. caen por rendimientos de bonos a máximos de 24 años",
-   "efecto": "Presiona al NQ a la baja y fortalece al dólar."
   }
  ],
  "eventos_avisados": [
@@ -4796,14 +4786,21 @@
     4147.9,
     4150.8,
     4134.3,
-    4143.6
+    4146.4
    ],
    [
-    1791457050,
-    4143.9,
-    4143.9,
-    4143.9,
-    4143.9
+    1791457200,
+    4146.1,
+    4146.6,
+    4142.8,
+    4142.9
+   ],
+   [
+    1791457352,
+    4143.5,
+    4143.5,
+    4143.5,
+    4143.5
    ]
   ],
   "nq": [
@@ -5386,14 +5383,21 @@
     31227.0,
     31232.25,
     31119.75,
-    31149.0
+    31155.5
    ],
    [
-    1791457048,
-    31148.25,
-    31148.25,
-    31148.25,
-    31148.25
+    1791457200,
+    31154.25,
+    31157.5,
+    31136.5,
+    31146.25
+   ],
+   [
+    1791457355,
+    31140.0,
+    31140.0,
+    31140.0,
+    31140.0
    ]
   ],
   "vix": [
@@ -5815,14 +5819,14 @@
     15.72,
     16.02,
     15.71,
-    15.95
+    15.94
    ],
    [
-    1791456736,
-    15.95,
-    15.95,
-    15.95,
-    15.95
+    1791457051,
+    15.94,
+    15.94,
+    15.94,
+    15.94
    ]
   ]
  },
