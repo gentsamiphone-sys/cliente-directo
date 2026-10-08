@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4146.2 · NQ 31234.25 · VIX 15.73 · 1 noticias nuevas",
-   "actualizado": "2026-10-08T10:02:32Z"
+   "ultimo_resultado": "Oro 4147.0 · NQ 31223.5 · VIX 15.72 · 4 noticias nuevas",
+   "actualizado": "2026-10-08T10:07:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T10:02:31Z",
-   "ultimo_resultado": "1 titulares nuevos: Why Are Nasdaq, Dow Futures Falling Premarket? MU, TSM, APLD, IONQ, HOOD, BULL, SLS In Focus"
+   "actualizado": "2026-10-08T10:07:33Z",
+   "ultimo_resultado": "4 titulares nuevos: CNBC's Financial Advisor 100: Best financial advisors, top firms for 2026 ranked"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4147.0 · NQ 31223.5 · VIX 15.72 · 4 noticias nuevas",
+   "ts": "2026-10-08T10:07:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4146.2 · NQ 31234.25 · VIX 15.73 · 1 noticias nuevas",
@@ -1050,11 +1055,6 @@
    "agente": "vigilante",
    "texto": "Oro 4131.4 · NQ 31396.25 · VIX 15.07 · 15 noticias nuevas (4 alto impacto)",
    "ts": "2026-10-07T20:22:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4131.5 · NQ 31400.75 · VIX 15.06 · 15 noticias nuevas (4 alto impacto)",
-   "ts": "2026-10-07T20:17:33Z"
   }
  ],
  "briefs": [
@@ -3349,12 +3349,39 @@
   }
  },
  "en_vivo": {
-  "oro": 4146.2,
-  "nq": 31234.25,
-  "vix": 15.73,
-  "ts": "2026-10-08T10:02:31Z"
+  "oro": 4147.0,
+  "nq": 31223.5,
+  "vix": 15.72,
+  "ts": "2026-10-08T10:07:33Z"
  },
  "noticias": [
+  {
+   "titulo": "CNBC's Financial Advisor 100: Best financial advisors, top firms for 2026 ranked",
+   "link": "https://www.cnbc.com/2026/10/08/best-financial-advisors.html",
+   "ts": "2026-10-08T10:07:13Z",
+   "fuente": "CNBC",
+   "id": "1fd769f2a8",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "NFL tells Supreme Court prediction markets are gambling and should be regulated by the states",
+   "link": "https://www.cnbc.com/2026/10/08/nfl-tells-supreme-court-prediction-markets-are-gambling-and-should-be-regulated-by-the-states.html",
+   "ts": "2026-10-08T10:00:02Z",
+   "fuente": "CNBC",
+   "id": "b689ca8dd0",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges, CNBC analysis finds",
+   "link": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html",
+   "ts": "2026-10-08T10:00:02Z",
+   "fuente": "CNBC",
+   "id": "638242a52d",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Trump says he doesn't want Iran deal as U.S. reportedly prepares for 'massive bombing'",
    "link": "https://www.cnbc.com/2026/10/08/us-iran-war-trump-hormuz.html",
@@ -3363,6 +3390,17 @@
    "id": "efe6ead9cc",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Nasdaq Ventures Invests in 24/7 Venue, One Trading",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWENyYUpDZzQyQVVrSnJYOFBZcUg3V29DNmdGbG5CdnNLbldwRGh4aWtWekVFMk85RW93V1RhM1dnVGktd0ZmeTJrSGdNT3YxZ181Ni1vd09qN1JURXNKOXRfWFF4MTRtU3JIa0R4S2xPUDhBY21OQUlGYVpXVFhUYVpyeXZfdw?oc=5",
+   "ts": "2026-10-08T09:44:47Z",
+   "fuente": "Markets Media",
+   "id": "2dfb4c6cbc",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Sterling today: Pound slips as hawkish Fed minutes lift dollar",
@@ -4169,47 +4207,6 @@
    "id": "494fdd296f",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Majority of Americans disapprove of how Trump is handling tariffs: ABC/Post/Ipsos poll - ABC News",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRkMzY1Y1VTFIRFpldFV5RnctWEZDdnNsemQzUGtvWi1sMEFQZThtYzZvNDRBZk84WkFMQThubmx6aUwycWRsTDI2Zk5MbHRCV3JQUXBCSC0xQTBuMXFRTVVXSWVfQUcxZzQ1LWxvUWNNQmFyQ2ZsNmhnT0FZWmQyajNDOTdRT1lGRXRFWlJERVJiZXl2cHhwLWxZdFp3UFB3NnVnaDc5aWZxbGg3QmxMeUJkNGM0TllBSlE?oc=5",
-   "ts": "2026-10-07T22:27:38Z",
-   "fuente": "Breaking News, Latest News and Videos",
-   "id": "19f7fdf1c6",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Cramer says higher rates are splitting the market in two — and AI stocks have a big advantage",
-   "link": "https://www.cnbc.com/2026/10/07/jim-cramer-spacex-wall-street-bull-case.html",
-   "ts": "2026-10-07T22:22:32Z",
-   "fuente": "CNBC",
-   "id": "a31d3d3a32",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Mike Rogers changes tune on tariffs, trade war with Canada",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOWp6bDlZclZYVm5hTFlZa2VUN180SjhDRHJWVU1NeWh6dWpUUHUzRFlLenhGT2R2eDUyYzRGR1p3ZjMwRFFWOTF1YlQ3d19odkpnaGdZbHJoVXRXOFEyRmJqeXVTSTRCZnV2RTBCb1JPcFBRSlNtdXNVbW1tVnNxYnNwdER1dUFqZTBqM0ZDenhaY1Y2YWwxbTIzWnN1ZUZGbEJRcmRUU0FOM3ZqbWl6VXJGNUhDMnBKX0UxUG82Yw?oc=5",
-   "ts": "2026-10-07T22:15:00Z",
-   "fuente": "Detroit Free Press",
-   "id": "c609c9061e",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Treasury Yields Keep Hitting New Highs. Can Savers Still Cash In?",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPb0F3UFppQ01GbDM4RENjRVVCcm5QSUE0aFZSRTQ4dTRGOHVLT0daQm9hVjM4eXhFWGg5dnI1OG9taUxnU1k4dWNFSjQtUnpuLVdxUVJhWVNsaE9MY3pyOWFrREVnb1FjLXo2MTNuYjBnWEZfSjFxZnBZVnBxbW1vUTdqNDFkUmdUR3IwY0lUei04QXh0S0RwcGtqcGdaeEJPRlNJ?oc=5",
-   "ts": "2026-10-07T22:01:13Z",
-   "fuente": "Investopedia",
-   "id": "99046e81ac",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -4789,14 +4786,14 @@
     4151.1,
     4155.3,
     4144.0,
-    4146.1
+    4147.7
    ],
    [
-    1791453148,
-    4146.2,
-    4146.2,
-    4146.2,
-    4146.2
+    1791453449,
+    4147.0,
+    4147.0,
+    4147.0,
+    4147.0
    ]
   ],
   "nq": [
@@ -5372,14 +5369,14 @@
     31216.25,
     31269.75,
     31214.75,
-    31232.25
+    31226.0
    ],
    [
-    1791453144,
-    31234.25,
-    31234.25,
-    31234.25,
-    31234.25
+    1791453450,
+    31223.5,
+    31223.5,
+    31223.5,
+    31223.5
    ]
   ],
   "vix": [
@@ -5797,11 +5794,11 @@
     15.72
    ],
    [
-    1791452836,
-    15.73,
-    15.73,
-    15.73,
-    15.73
+    1791453151,
+    15.72,
+    15.72,
+    15.72,
+    15.72
    ]
   ]
  },
