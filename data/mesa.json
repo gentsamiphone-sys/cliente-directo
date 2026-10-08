@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4155.7 · NQ 31411.75 · VIX 15.08 · 6 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-08T03:37:34Z"
+   "ultimo_resultado": "Oro 4159.3 · NQ 31407.0 · VIX 15.08 · 8 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-08T03:42:29Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T03:37:33Z",
-   "ultimo_resultado": "6 titulares nuevos, 2 de alto impacto: Temores de inflación aumentan al nivel más alto desde mayo de 2023 según encuesta de la Fed"
+   "actualizado": "2026-10-08T03:42:29Z",
+   "ultimo_resultado": "8 titulares nuevos, 3 de alto impacto: Dow, S&P 500, Nasdaq Futures Mixed As Long-Term Yields Pull Back From Multi-Decade Highs: APLD, BULL, WOLF, NLST In Focus"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4159.3 · NQ 31407.0 · VIX 15.08 · 8 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-08T03:42:29Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4155.7 · NQ 31411.75 · VIX 15.08 · 6 noticias nuevas (2 alto impacto)",
@@ -1050,11 +1055,6 @@
    "agente": "riesgo",
    "texto": "Volatilidad normal (VIX 15.76).",
    "ts": "2026-10-07T12:33:01Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "VIX/NQ: CONFIRMA BAJISTA: NQ baja y el VIX sube (se compra protección)",
-   "ts": "2026-10-07T12:33:00Z"
   }
  ],
  "briefs": [
@@ -3160,18 +3160,39 @@
   }
  },
  "en_vivo": {
-  "oro": 4155.7,
-  "nq": 31411.75,
+  "oro": 4159.3,
+  "nq": 31407.0,
   "vix": 15.08,
-  "ts": "2026-10-08T03:37:34Z"
+  "ts": "2026-10-08T03:42:29Z"
  },
  "noticias": [
+  {
+   "titulo": "Dow, S&P 500, Nasdaq Futures Mixed As Long-Term Yields Pull Back From Multi-Decade Highs: APLD, BULL, WOLF, NLST In Focus",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY19neTdteUhULTZ3eldxcGk3Wmx1NjQtMV85OXNHYUpJLUF0MDdodC1fUmoyREZNOGd6d1U0ZXNBWHJWYWptVHlxbWVqRmJQNmRaNE43bHB1ZVhGY000RHdaZjFvaXRRRzBuaDFncmlyMzZxN1hKR2hyMEsyTXVHbnptamlmdG1wYXIwNGZlUFk1NVU?oc=5",
+   "ts": "2026-10-08T03:24:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "6cae494453",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Trump says he is not keen on a deal with Iran as U.S. reportedly prepares for 'massive bombing'",
    "link": "https://www.cnbc.com/2026/10/08/us-iran-war-trump-hormuz.html",
    "ts": "2026-10-08T03:18:52Z",
    "fuente": "CNBC",
    "id": "5099c1bfba",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Bank of America sees Asia FX split as $100 oil meets chip boom",
+   "link": "https://www.thestreet.com/investing/stocks/bank-of-america-sees-asia-fx-split-as-100-oil-meets-chip-boom?.tsrc=rss",
+   "ts": "2026-10-08T03:17:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "6d185b1daa",
    "activos": [],
    "impacto": "bajo"
   },
@@ -4006,26 +4027,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Modelo owner Constellation is getting creative to bring back beer drinkers as overall demand weakens",
-   "link": "https://www.cnbc.com/2026/10/07/constellation-brands-earnings-beer-demand.html",
-   "ts": "2026-10-07T19:14:03Z",
-   "fuente": "CNBC",
-   "id": "bbd6d838d1",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "New data strengthens our faith in a TJX comeback. Plus, the Nvidia-Microsoft PC is here",
-   "link": "https://www.cnbc.com/investingclub/2026/10/07/new-data-strengthens-our-faith-in-a-tjx-comeback-plus-the-nvidia-microsoft-pc-is-here.html",
-   "ts": "2026-10-07T19:07:37Z",
-   "fuente": "CNBC",
-   "id": "025a3e124b",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -4654,14 +4655,14 @@
     4157.2,
     4160.7,
     4151.8,
-    4155.8
+    4158.6
    ],
    [
-    1791430044,
-    4155.7,
-    4155.7,
-    4155.7,
-    4155.7
+    1791430346,
+    4159.3,
+    4159.3,
+    4159.3,
+    4159.3
    ]
   ],
   "nq": [
@@ -5286,14 +5287,14 @@
     31418.75,
     31421.5,
     31377.0,
-    31415.75
+    31408.25
    ],
    [
-    1791430052,
-    31411.75,
-    31411.75,
-    31411.75,
-    31411.75
+    1791430350,
+    31407.0,
+    31407.0,
+    31407.0,
+    31407.0
    ]
   ],
   "vix": [
