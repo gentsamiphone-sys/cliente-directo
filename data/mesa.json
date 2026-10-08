@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4141.7 · NQ 31193.0 · VIX 15.71 · 7 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-08T13:07:37Z"
+   "ultimo_resultado": "Oro 4140.3 · NQ 31206.25 · VIX 15.67 · 10 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-08T13:12:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T13:07:35Z",
-   "ultimo_resultado": "7 titulares nuevos, 3 de alto impacto: Sitka Gold Strengthens Board of Directors with Appointment of Samantha Shorter"
+   "actualizado": "2026-10-08T13:12:33Z",
+   "ultimo_resultado": "10 titulares nuevos, 3 de alto impacto: Royal Caribbean to rally after agreeing to take 50% stake in Sandals Resorts, Jefferies says"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4140.3 · NQ 31206.25 · VIX 15.67 · 10 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-08T13:12:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4141.7 · NQ 31193.0 · VIX 15.71 · 7 noticias nuevas (3 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4136.5 · NQ 31452.5 · VIX 15.08 · 6 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-07T23:32:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4135.8 · NQ 31451.0 · VIX 15.08 · 6 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-07T23:27:33Z"
   }
  ],
  "briefs": [
@@ -3551,12 +3551,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4141.7,
-  "nq": 31193.0,
-  "vix": 15.71,
-  "ts": "2026-10-08T13:07:36Z"
+  "oro": 4140.3,
+  "nq": 31206.25,
+  "vix": 15.67,
+  "ts": "2026-10-08T13:12:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Royal Caribbean to rally after agreeing to take 50% stake in Sandals Resorts, Jefferies says",
+   "link": "https://www.cnbc.com/2026/10/08/royal-caribbean-to-rally-after-taking-stake-in-sandals-jefferies-says.html",
+   "ts": "2026-10-08T13:06:16Z",
+   "fuente": "CNBC",
+   "id": "938fc7a669",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Jim Cramer's top 10 things to watch in the stock market Thursday",
+   "link": "https://www.cnbc.com/investingclub/2026/10/08/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
+   "ts": "2026-10-08T13:04:30Z",
+   "fuente": "CNBC",
+   "id": "8444c1e2b0",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Amazon overhauls aging devices lineup with higher priced Alexa tablet, dumping the budget Fire",
    "link": "https://www.cnbc.com/2026/10/08/amazon-alexa-tablet-release.html",
@@ -3600,6 +3618,17 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Gold price at $4,122/oz after U.S. weekly jobless claims fall to 197k",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcFEyYkhodFBheWNtMFA2SWtXZlhSdVUxa3ZIalJYZTB1QUNQN1NNOVVrdzhNUmhQZ0tza3VBQnBzVWpLcHVlUGRTWUxSSnRpVGlLZ0ZmclpqQXpmSEFadW8weXNpQlRPcTJhNmtrMjhpZ0hpMFJta0dabXhNcHR1bV9CWDMzNWh4dU1aWnl1cXR2aXNMU3dQMmsyc3JiT0V2bFZpd0xiWQ?oc=5",
+   "ts": "2026-10-08T12:44:10Z",
+   "fuente": "Kitco",
+   "id": "aacc7678b2",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Dow futures slide 300 points as yields continue rising; oil surges 5%: Live updates",
    "link": "https://www.cnbc.com/2026/10/07/stock-market-today-live-updates-.html",
    "ts": "2026-10-08T12:36:27Z",
@@ -3609,6 +3638,15 @@
     "dolar"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Stock Futures Fall on Higher Oil Prices, AI Pullback",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnpOX3pQSGJpZi1qRFNMSVR3SzRoaEJPaVFIYVQ2NGNETExDT0RjWEFjS1lUUzVOVVBsLWtnY2lHU3NmV3FNQjNpMllWb01sdWpmYXdhd29oSXNVTXYyaFhRZzZUX3JoWGNtV1VPaW1IcldFbEdXeGRaVkZyTG9nUmJDS1ptSmFQZWxITkhpMVRTM19SMzlneDBHMzFrS2xrZHFHMFBnNURhdE40?oc=5",
+   "ts": "2026-10-08T12:35:00Z",
+   "fuente": "WSJ",
+   "id": "d7e621e396",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Sitka Gold Strengthens Board of Directors with Appointment of Samantha Shorter",
@@ -4380,50 +4418,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "France to release diesel reserves as student protests resume",
-   "link": "https://www.cnbc.com/2026/10/08/france-diesel-reserves-protests.html",
-   "ts": "2026-10-08T09:16:41Z",
-   "fuente": "CNBC",
-   "id": "ab2c92c1ed",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Why Is Berkshire Hathaway (BRK.A) Facing A Texas Chemical Probe?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/why-berkshire-hathaway-brk-facing-091514231.html?.tsrc=rss",
-   "ts": "2026-10-08T09:15:14Z",
-   "fuente": "Yahoo Finance",
-   "id": "3d556912c5",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "¿Por qué Berkshire Hathaway enfrenta una investigación química en Texas?",
-   "efecto": "Ruido corporativo aislado; impacto nulo en índices macro y oro."
-  },
-  {
-   "titulo": "Global Stocks Fall on Higher Oil Prices, AI Pullback",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnpOX3pQSGJpZi1qRFNMSVR3SzRoaEJPaVFIYVQ2NGNETExDT0RjWEFjS1lUUzVOVVBsLWtnY2lHU3NmV3FNQjNpMllWb01sdWpmYXdhd29oSXNVTXYyaFhRZzZUX3JoWGNtV1VPaW1IcldFbEdXeGRaVkZyTG9nUmJDS1ptSmFQZWxITkhpMVRTM19SMzlneDBHMzFrS2xrZHFHMFBnNURhdE40?oc=5",
-   "ts": "2026-10-08T09:15:00Z",
-   "fuente": "WSJ",
-   "id": "7eab451eae",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Why Are Nasdaq, Dow Futures Falling Premarket? MU, TSM, APLD, IONQ, HOOD, BULL, SLS In Focus",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZUNsdEN3QVhMYWNpaEx2VDBINGJPdEY0ZUw2VlM4azE0NU55T3ZDVVVfVFpsT0JtQjM3bXZjd1NCb0pqMjd0WG14Z05ZUDRuVWNiS0lvWHZlbWU1Z0FlN19acC05QzhscWFBNEdYdzNnVWdNN0ZnOFBzLXVXU2xaTVo4cU9rZEJ2S2tseXU5WUNhM3pXVkRtS2puWQ?oc=5",
-   "ts": "2026-10-08T08:45:53Z",
-   "fuente": "Yahoo Finance",
-   "id": "40b8e28ff1",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -5024,14 +5018,21 @@
     4148.7,
     4156.7,
     4137.3,
-    4141.7
+    4142.5
    ],
    [
-    1791464254,
-    4141.8,
-    4141.8,
-    4141.8,
-    4141.8
+    1791464400,
+    4142.9,
+    4145.4,
+    4139.3,
+    4142.0
+   ],
+   [
+    1791464553,
+    4140.3,
+    4140.3,
+    4140.3,
+    4140.3
    ]
   ],
   "nq": [
@@ -5628,14 +5629,21 @@
     31186.25,
     31219.5,
     31168.25,
-    31195.25
+    31199.75
    ],
    [
-    1791464255,
-    31193.0,
-    31193.0,
-    31193.0,
-    31193.0
+    1791464400,
+    31199.25,
+    31209.75,
+    31193.5,
+    31206.0
+   ],
+   [
+    1791464553,
+    31206.25,
+    31206.25,
+    31206.25,
+    31206.25
    ]
   ],
   "vix": [
@@ -6071,14 +6079,14 @@
     15.77,
     15.77,
     15.56,
-    15.72
+    15.7
    ],
    [
-    1791463951,
-    15.71,
-    15.71,
-    15.71,
-    15.71
+    1791464251,
+    15.67,
+    15.67,
+    15.67,
+    15.67
    ]
   ]
  },
