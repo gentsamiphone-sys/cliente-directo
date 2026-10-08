@@ -7,7 +7,7 @@ Cinco agentes con mentalidad de fondo institucional preparan el brief de cada se
   riesgo       → rango esperado (ATR), régimen de volatilidad, eventos
   historiador  → estacionalidad: misma fecha en los últimos 10 años, día de la semana y años análogos
   cio          → junta todo y escribe el brief institucional de la sesión
-  ejecucion    → en Nueva York, manda la entrada de NQ a TradersPost en el borde de la zona, tamaño según riesgo ($350, máx. 10 MNQ)
+  ejecucion    → en Nueva York, manda las entradas de NQ (MNQ) y oro (MGC) a TradersPost en el borde de la zona, riesgo fijo $350
 
 Uso: python agentes/mesa.py <asia|londres|nuevayork>
 Todo queda en data/mesa.json (la sala de trading lo lee en vivo).
@@ -579,6 +579,10 @@ Escribe el BRIEF DE LA SESIÓN DE {nombre.upper()} en español, claro y directo,
    operaciones, no la propongas. Es mejor no operar que operar una idea mediocre.
    MALA RACHA: si en DATOS.racha un activo tiene sus últimas 2 entradas en stop, ese activo necesita 5/5
    confluencias o es SIN ENTRADA (como un fondo que baja el riesgo en una mala racha). Dilo en el brief.
+   STOPS INSTITUCIONALES: el stop va justo detrás de la zona de liquidez más cercana que invalida la idea (máximo
+   ~1 ATR de 1H), nunca en el extremo lejano del rango. La mesa arriesga $350 fijos por operación: en NQ un stop
+   de más de ~80 puntos o en oro de más de ~25 puntos no se puede ejecutar; si la idea necesita un stop más amplio,
+   es SIN ENTRADA.
    Reglas de la mesa: solo propones entrada si el R:R al TP2 es 2 o más; si hay noticia de impacto alto en los próximos
    30 minutos o el ATR del día ya está consumido más del 100%, la respuesta es SIN ENTRADA y explicas por qué.
    Una sola idea por activo. Nunca entres persiguiendo el precio.
@@ -647,11 +651,12 @@ BRIEF: {texto[:6000]}""")
 
 # ───────── ejecución: manda la entrada de NQ a TradersPost (borde de la zona · riesgo fijo $350 · hasta 10 MNQ) ─────────
 
-CONTRATOS = 10         # máximo de micros (MNQ) por entrada
 RIESGO_MAX = 350       # dólares máximos de pérdida por operación (riesgo fijo, tamaño variable)
-VALOR_PUNTO_MNQ = 2    # dólares por punto por cada MNQ
-MARGEN_ZONA = 3        # puntos de margen del stop detrás de la zona
-STOP_MIN_PTS = 8       # stop mínimo para no quedar dentro del ruido
+# cómo se ejecuta cada activo con micros: dólares por punto, tick, margen del stop detrás de la zona y stop mínimo
+EJEC = {
+    "NQ":  {"ticker": "MNQ", "vp": 2,  "tick": 0.25, "margen": 3,   "stop_min": 8, "max": 10},
+    "ORO": {"ticker": "MGC", "vp": 10, "tick": 0.1,  "margen": 0.5, "stop_min": 2, "max": 10},
+}
 
 
 def _tick(x, t=0.25):
@@ -659,19 +664,27 @@ def _tick(x, t=0.25):
 
 
 def enviar_traderspost(me, entradas):
-    """Si el brief de Nueva York trae una entrada de NQ con 4/5 confluencias o más, la manda como orden límite.
-    Una sola orden por día. La URL del webhook vive en el secreto TRADERSPOST_WEBHOOK de GitHub."""
+    """Manda a TradersPost cada entrada de NQ y ORO con 4/5 confluencias o más, como orden límite en el borde de la zona.
+    Una orden por activo por día. La URL del webhook vive en el secreto TRADERSPOST_WEBHOOK de GitHub."""
     url = os.environ.get("TRADERSPOST_WEBHOOK", "").strip()
     if not url:
         me.paso("ejecucion", "Sin webhook de TradersPost configurado: no se envía ninguna orden.", trabajando=False)
         return
+    for activo, c in EJEC.items():
+        try:
+            _enviar_activo(me, url, activo, c, entradas)
+        except Exception as ex:
+            me.paso("ejecucion", f"{activo}: error al preparar la orden ({str(ex)[:60]}).", trabajando=False)
+
+
+def _enviar_activo(me, url, activo, c, entradas):
     hoy = datetime.now(LV).strftime("%Y-%m-%d")
-    if me.m.get("orden_enviada_fecha") == hoy:
-        me.paso("ejecucion", "Ya se envió una orden hoy: regla de una sola orden por día.", trabajando=False)
+    if me.m.get(f"orden_enviada_{activo}") == hoy:
+        me.paso("ejecucion", f"{activo}: ya se envió una orden hoy (una por activo por día).", trabajando=False)
         return
-    e = next((x for x in entradas or [] if str(x.get("activo", "")).upper() == "NQ"), None)
+    e = next((x for x in entradas or [] if str(x.get("activo", "")).upper() == activo), None)
     if not e or str(e.get("direccion", "")).upper().startswith("SIN"):
-        me.paso("ejecucion", "NQ sin entrada de alta probabilidad: no se envía orden.", trabajando=False)
+        me.paso("ejecucion", f"{activo} sin entrada de alta probabilidad: no se envía orden.", trabajando=False)
         return
     try:
         conf = int(_n(e.get("confluencias")) or 0)
@@ -680,53 +693,52 @@ def enviar_traderspost(me, entradas):
     compra = str(e.get("direccion", "")).upper().startswith("COMPRA")
     lo, hi = _rango(e.get("zona"))
     stop, tp = _n(e.get("stop")), _n(e.get("tp2")) or _n(e.get("tp1"))
-    if racha_mala(me, "NQ") and conf < 5:
-        me.paso("ejecucion", f"Mala racha en NQ (últimas 2 en stop): se exige 5/5 y hay {conf}/5. No se envía.", trabajando=False)
+    if racha_mala(me, activo) and conf < 5:
+        me.paso("ejecucion", f"Mala racha en {activo} (últimas 2 en stop): se exige 5/5 y hay {conf}/5. No se envía.", trabajando=False)
         return
     if conf < 4 or not (lo and stop and tp):
-        me.paso("ejecucion", f"Entrada de NQ incompleta o con {conf}/5 confluencias: no se envía.", trabajando=False)
+        me.paso("ejecucion", f"Entrada de {activo} incompleta o con {conf}/5 confluencias: no se envía.", trabajando=False)
         return
     # 1) entrada institucional: en el borde de la zona donde está la liquidez (abajo para compras, arriba para ventas)
     entrada = lo if compra else hi
     # stop detrás de la zona, nunca dentro de ella, y nunca más corto que el ruido mínimo
     if compra:
-        stop = min(stop, lo - MARGEN_ZONA)
-        stop = min(stop, entrada - STOP_MIN_PTS)
+        stop = min(stop, lo - c["margen"], entrada - c["stop_min"])
     else:
-        stop = max(stop, hi + MARGEN_ZONA)
-        stop = max(stop, entrada + STOP_MIN_PTS)
+        stop = max(stop, hi + c["margen"], entrada + c["stop_min"])
     if (compra and not (stop < entrada < tp)) or (not compra and not (tp < entrada < stop)):
-        me.paso("ejecucion", "Niveles de NQ incoherentes (stop/objetivo del lado equivocado): no se envía.", trabajando=False)
+        me.paso("ejecucion", f"Niveles de {activo} incoherentes (stop/objetivo del lado equivocado): no se envía.", trabajando=False)
         return
     rr = abs(tp - entrada) / abs(entrada - stop)
     if rr < 2:
-        me.paso("ejecucion", f"R:R de NQ {rr:.1f} menor a 2: no se envía.", trabajando=False)
+        me.paso("ejecucion", f"R:R de {activo} {rr:.1f} menor a 2: no se envía.", trabajando=False)
         return
     # 2) tamaño según el riesgo: el stop lo decide la mesa, los contratos se ajustan para no pasar de RIESGO_MAX
     pts = abs(entrada - stop)
-    contratos = min(CONTRATOS, int(RIESGO_MAX // (pts * VALOR_PUNTO_MNQ)))
+    contratos = min(c["max"], int(RIESGO_MAX // (pts * c["vp"])))
     if contratos < 1:
-        me.paso("ejecucion", f"El stop de NQ ({pts:.1f} pts) es demasiado amplio: ni 1 MNQ cabe en ${RIESGO_MAX}. No se envía.", trabajando=False)
+        me.paso("ejecucion", f"El stop de {activo} ({pts:.1f} pts) es demasiado amplio: ni 1 {c['ticker']} cabe en ${RIESGO_MAX}. No se envía.", trabajando=False)
         return
-    riesgo = pts * VALOR_PUNTO_MNQ * contratos
-    senal = {"ticker": "MNQ", "action": "buy" if compra else "sell", "orderType": "limit",
-             "limitPrice": _tick(entrada), "price": _tick(entrada), "quantity": contratos,
-             "stopLoss": {"type": "stop", "stopPrice": _tick(stop)}, "takeProfit": {"limitPrice": _tick(tp)}}
+    riesgo = pts * c["vp"] * contratos
+    t = c["tick"]
+    senal = {"ticker": c["ticker"], "action": "buy" if compra else "sell", "orderType": "limit",
+             "limitPrice": _tick(entrada, t), "price": _tick(entrada, t), "quantity": contratos,
+             "stopLoss": {"type": "stop", "stopPrice": _tick(stop, t)}, "takeProfit": {"limitPrice": _tick(tp, t)}}
     try:
         r = requests.post(url, json=senal, timeout=20)
         ok = r.status_code < 300
     except Exception as ex:
         ok, r = False, None
-        me.paso("ejecucion", f"No pude enviar la orden ({str(ex)[:60]}).", trabajando=False)
+        me.paso("ejecucion", f"{activo}: no pude enviar la orden ({str(ex)[:60]}).", trabajando=False)
     if ok:
-        me.m["orden_enviada_fecha"] = hoy
+        me.m[f"orden_enviada_{activo}"] = hoy
         lado = "COMPRA" if compra else "VENTA"
-        txt = (f"Orden enviada a TradersPost: {lado} {contratos} MNQ límite {senal['limitPrice']} (borde de la zona) · "
+        txt = (f"Orden enviada a TradersPost: {lado} {contratos} {c['ticker']} límite {senal['limitPrice']} (borde de la zona) · "
                f"SL {senal['stopLoss']['stopPrice']} ({pts:.1f} pts, riesgo ${riesgo:.0f}) · TP {senal['takeProfit']['limitPrice']} · R:R {rr:.1f}")
         me.paso("ejecucion", txt, trabajando=False)
-        base.avisar_telefono("GSAM · Orden NQ enviada", txt + "\nSi te pide aprobación, apruébala en TradersPost.", "high")
+        base.avisar_telefono(f"GSAM · Orden {activo} enviada", txt + "\nSi te pide aprobación, apruébala en TradersPost.", "high")
     elif r is not None:
-        me.paso("ejecucion", f"TradersPost respondió {r.status_code}: {r.text[:80]}", trabajando=False)
+        me.paso("ejecucion", f"{activo}: TradersPost respondió {r.status_code}: {r.text[:80]}", trabajando=False)
 
 
 
