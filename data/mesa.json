@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4143.5 · NQ 31140.0 · VIX 15.94 · 10 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-08T11:12:35Z"
+   "ultimo_resultado": "Oro 4139.3 · NQ 31151.5 · VIX 15.97 · 6 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-08T11:17:45Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T11:12:35Z",
-   "ultimo_resultado": "10 titulares nuevos, 3 de alto impacto: Dow futures tumble 500 points as yields continue rising; oil surges 5%: Live updates"
+   "actualizado": "2026-10-08T11:17:44Z",
+   "ultimo_resultado": "6 titulares nuevos, 2 de alto impacto: Por qué los REITs no sufren tanto con las tasas altas esta vez"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4139.3 · NQ 31151.5 · VIX 15.97 · 6 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-08T11:17:45Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4143.5 · NQ 31140.0 · VIX 15.94 · 10 noticias nuevas (3 alto impacto)",
@@ -1050,11 +1055,6 @@
    "agente": "noticias",
    "texto": "11 titulares nuevos, 3 de alto impacto: Research shows tariffs push prices higher for up to a year",
    "ts": "2026-10-07T21:32:31Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "11 titulares nuevos, 3 de alto impacto: Ataques a petroleros en Irán impulsan el petróleo al alza y bajan el Bitcoin",
-   "ts": "2026-10-07T21:27:43Z"
   }
  ],
  "briefs": [
@@ -3349,10 +3349,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4143.5,
-  "nq": 31140.0,
-  "vix": 15.94,
-  "ts": "2026-10-08T11:12:35Z"
+  "oro": 4139.3,
+  "nq": 31151.5,
+  "vix": 15.97,
+  "ts": "2026-10-08T11:17:44Z"
  },
  "noticias": [
   {
@@ -3365,6 +3365,19 @@
     "dolar"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Why REITs aren't getting killed by rising interest rates this time around",
+   "link": "https://www.cnbc.com/2026/10/08/why-reits-arent-getting-killed-by-rising-interest-rates-this-time.html",
+   "ts": "2026-10-08T11:04:46Z",
+   "fuente": "CNBC",
+   "id": "da5b640ece",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "bajo",
+   "es": "Por qué los REITs no sufren tanto con las tasas altas esta vez",
+   "efecto": "Ruido sectorial sin impacto directo en ORO o NQ."
   },
   {
    "titulo": "The Spice Trader vs. the Tariffs",
@@ -3394,6 +3407,19 @@
    "id": "302d43ca99",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "K2 Extends Dragonfly Structure and Identifies Additional High-Grade Gold at Flores Target",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/k2-extends-dragonfly-structure-identifies-110000353.html?.tsrc=rss",
+   "ts": "2026-10-08T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "6667abf9de",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "K2 extiende estructura Dragonfly e identifica oro de alta ley en Flores",
+   "efecto": "Noticia microeconómica de minería, irrelevante para el precio macro."
   },
   {
    "titulo": "Broad, Shallow Copper-Gold Intersections Continue to Grow La Verde",
@@ -3459,6 +3485,19 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "2 Nasdaq 100 Stocks with Promising Prospects and 1 We Avoid",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaDF3VEFXTlNjZEtQYXd2ek1nLWUtOXZxdDdRUVFrTGtnc21BS1JwTW92Z3ZZMUszTTROR0lXUzU2OHdLU2w4MDlfTHE5OGNVUE1oWWZMUFdJN0lDbG1fWHlNakhjSFA5RkYxQS1MRGJEYXktNm5UQ25ZWnlmdFMyT1NEQXFfWHhFRkZSTXcxcm5JUGNnVWw1dDV3?oc=5",
+   "ts": "2026-10-08T10:48:09Z",
+   "fuente": "Yahoo Finance",
+   "id": "c73d47cfc5",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "Dos acciones del Nasdaq 100 con futuro prometedor y una a evitar",
+   "efecto": "Análisis bursátil general, sin efecto macro en el índice."
   },
   {
    "titulo": "Largo Receives Environmental Permit for GAN Open Pit Vanadium-Copper-Gold-PGM Mine Development",
@@ -4108,6 +4147,20 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Gold prices recover from two-month low as dollar rally stalls",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZERPbHV4UkxnSVhHbmd6SUx4SEtFSGU3bVN0cjBVdmxnelNSS1RpVzc3akVzVGxwblpBZFNfdVM0dENpWW9uWnNyMFJRa2NvOFZEcS1wT3VkNk1ISHhYaTRTMW15UkFYLTFEdHhvRHpIdEdlUFZPakxDUnRxc2pDUzJELV9MZk5qQ0Q0NEY2S2pnRFk0LThWdjBSVkg2SXPSAaQBQVVfeXFMTjhneXF3VlNWMWgtRDhFcy1VT0tFR3pKdlhwS1Rtal9YQ2x4VDUtNkNvNUxXQUFsNnFwTno5V3VEY2xEbml6R254NGhQQjZlSWJ6Q0hnVHkySFpqTFJCZ0M2ZUhuUzBsVEl4WG1KRnc1amZjeHVPVzI5bkJUSEJKeVFzQ2dVYW8tdnpSYnFFVGFlNWxPR0FYYmNNUDJvLWY1eHhMVjU?oc=5",
+   "ts": "2026-10-08T03:14:00Z",
+   "fuente": "CNBC",
+   "id": "e1a08945d0",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El oro recupera mínimos de dos meses tras frenarse el dólar",
+   "efecto": "Compra técnica en el oro por debilitamiento del dólar."
+  },
+  {
    "titulo": "Tariffs drove up prices for consumer goods, study finds",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWThaYVdHekItYl9fUUYtSWhPUktMbGNMcU1pNXAyVTE5S3pkdVJCbTNlYUNjRzR0VHVweHBxOXNzbW5IY2VkRWczMGtLaTBYYXRQa0g2Yzk1SmwwYlFwSEFaaDJpWUEwQUxFc2d3Xy05TVljSFZZbnZCX01Wd2MzSHZ1SkdmQmRkdlRmSUlqVkdmdVNNeHpJdWtISTZ4Wlg5czRoNQ?oc=5",
    "ts": "2026-10-08T03:00:00Z",
@@ -4162,44 +4215,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Tech Beats Tariffs: Global Trade Growth Accelerates and Globalization Sets New Record",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOYlFxdEoxOURUZGVCLXVYUENmVjlNRDlDa3hKTmVWTGZZWkpXSTNKRnFFa1JndGczMU41S1U4YWo5NjF1dkt4MU14dElCdkVhd0ZXZTBSam5WTXlZMzNIY255VG1NaGsxYnZ3b1hWSE8zaGktdWhVemNLVjFDME00VFA2QTNnekpvb0J1RWszZEFpVVVFeUJuWm5RMzRab2dDTVpUejlwWGRCR2NEcml0NHNMRlhDNzQyYkUxYVZoVnhZQkQzSm16eTlrVVhjMXZoMUhVMnVTTDlZNUVUSlE?oc=5",
-   "ts": "2026-10-08T02:16:08Z",
-   "fuente": "DHL",
-   "id": "ac5d07485d",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Stock futures are little changed after S&P 500 retreats from record: Live updates",
-   "link": "https://www.cnbc.com/2026/10/07/stock-market-today-live-updates-.html",
-   "ts": "2026-10-08T02:15:32Z",
-   "fuente": "CNBC",
-   "id": "b60d43522a",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Derek Merrin talks taxes, tariffs and energy ahead of 9th Congressional District race",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeWtFMG1oRnNPWVUyRjNWanczNzZvV2treFBGeUoyaEprZDFIUDZTVUJQN2lPU3FEU19BTEFsdXpiWUV3aFZ1U0NOd2pIeElGbWxma1BESXJlSXVudlFlRXhqT1dZV0E3X3pKWjU4VkFka19DQVFhODNnUVdIQUxNV01ZRHJkeTdYZmVZOVo5VHRCbmowWEVFWUJaVllmSHZtaVVZbWJySnJFMXRMT0Q4SdIBxAFBVV95cUxPc2FJdGE5SUxPZWV2SXVkNWpTdXVVd2dGQ1p2ZkZYZUR2b1ZtdlIycGtyUEZrX3p4NzFtalE5VFdoZ0IxN1dzc0ljcnFsc1RVX0xVQWdOMVBtemdJbWUyZ2tRSHVpVW1VbG0wMVpyaWxWdm5WV1hvSkVNaWRYMG1qcndZQWJ3X0hnVDRsMUVCNHQ0Qll1MG5ZdmE5NWtJc3g4LVdiRmt1NDB1UTd3dDVFNGMwdXgwQ2FQODd0OGtDeVI5bXpj?oc=5",
-   "ts": "2026-10-08T02:01:00Z",
-   "fuente": "WTVG",
-   "id": "26a4aa5c97",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Former world No. 1 Jon Rahm's lawyer tells court Spaniard is done with LIV Golf after three seasons",
-   "link": "https://www.cnbc.com/2026/10/08/rahms-lawyer-tells-court-spaniard-done-with-liv-golf.html",
-   "ts": "2026-10-08T02:00:06Z",
-   "fuente": "CNBC",
-   "id": "56703fe57e",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -4792,15 +4807,15 @@
     1791457200,
     4146.1,
     4146.6,
-    4142.8,
-    4142.9
+    4139.2,
+    4139.4
    ],
    [
-    1791457352,
-    4143.5,
-    4143.5,
-    4143.5,
-    4143.5
+    1791457660,
+    4139.3,
+    4139.3,
+    4139.3,
+    4139.3
    ]
   ],
   "nq": [
@@ -5388,16 +5403,16 @@
    [
     1791457200,
     31154.25,
-    31157.5,
-    31136.5,
-    31146.25
+    31159.5,
+    31136.25,
+    31152.25
    ],
    [
-    1791457355,
-    31140.0,
-    31140.0,
-    31140.0,
-    31140.0
+    1791457663,
+    31151.5,
+    31151.5,
+    31151.5,
+    31151.5
    ]
   ],
   "vix": [
@@ -5819,16 +5834,23 @@
     15.72,
     16.02,
     15.71,
-    15.94
+    15.95
    ],
    [
-    1791457051,
-    15.94,
-    15.94,
-    15.94,
-    15.94
+    1791457200,
+    15.95,
+    15.97,
+    15.95,
+    15.96
+   ],
+   [
+    1791457351,
+    15.97,
+    15.97,
+    15.97,
+    15.97
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-08T10:47:32Z"
+ "noticias_traducidas_ts": "2026-10-08T11:17:41Z"
 }
