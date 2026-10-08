@@ -1615,9 +1615,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Spring Mountain Rd…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "3 negocios nuevos de restaurantes y comida cerca de Decatur Blvd",
-   "actualizado": "2026-10-08T09:02:38Z"
+   "actualizado": "2026-10-08T09:06:27Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -1645,6 +1645,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-08T09:06:27Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Spring Mountain Rd…",
@@ -3139,11 +3144,6 @@
    "agente": "buscador",
    "texto": "Encontré Payless Tires & Wheels, sin página web.",
    "ts": "2026-10-06T15:06:43Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Encontré Pop's Automotive, sin página web.",
-   "ts": "2026-10-06T15:06:42Z"
   }
  ],
  "reportes": {
