@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4147.7 · NQ 30928.0 · VIX 15.72 · 14 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-08T18:52:33Z"
+   "ultimo_resultado": "Oro 4149.5 · NQ 30924.0 · VIX 15.72 · 14 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-08T18:57:59Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T18:52:33Z",
-   "ultimo_resultado": "14 titulares nuevos, 1 de alto impacto: Why a Starbucks takeover of Chipotle would — and wouldn't — make sense for both companies"
+   "actualizado": "2026-10-08T18:57:58Z",
+   "ultimo_resultado": "14 titulares nuevos, 3 de alto impacto: Podcast de Lear Capital sobre salir del dólar entra al Top 15 de Apple"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4149.5 · NQ 30924.0 · VIX 15.72 · 14 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-08T18:57:59Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4147.7 · NQ 30928.0 · VIX 15.72 · 14 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4158.6 · NQ 31393.75 · VIX 15.08 · 9 noticias nuevas (2 alto impacto)",
    "ts": "2026-10-08T05:17:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4156.3 · NQ 31385.5 · VIX 15.08 · 9 noticias nuevas (5 alto impacto)",
-   "ts": "2026-10-08T05:12:32Z"
   }
  ],
  "briefs": [
@@ -3553,12 +3553,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4147.7,
-  "nq": 30928.0,
+  "oro": 4149.5,
+  "nq": 30924.0,
   "vix": 15.72,
-  "ts": "2026-10-08T18:52:33Z"
+  "ts": "2026-10-08T18:57:58Z"
  },
  "noticias": [
+  {
+   "titulo": "Lear Capital's New \"Outside the Dollar\" Podcast Reaches Top 15 on Apple Investing Chart",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/lear-capitals-outside-dollar-podcast-184700448.html?.tsrc=rss",
+   "ts": "2026-10-08T18:47:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "b0fdecf3bb",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "bajo",
+   "es": "Podcast de Lear Capital sobre salir del dólar entra al Top 15 de Apple",
+   "efecto": "Ruido minorista sin impacto institucional inmediato en el mercado."
+  },
   {
    "titulo": "Palmer named to Minneapolis Fed leadership",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLXhWUmVjb1p3blJIN0cyUE43MVdhdFNYby1rUGo3RmJFcy1laFFYUlNQRjFodkZRTEJYTHpqWlMtLUlFV1ZZeFBVSGotczhIRlRBNV9JT2hsQXNzWVZheDFpOG5ENElUWG1odUJ0ZDQ5cFhFUFpiSVNpZmNMdV9xTnU2OERGdi10b1RoNkxodGtxUlJ4cHNv?oc=5",
@@ -3667,6 +3680,19 @@
    "id": "9c9d011be0",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Q2 Testing & Diagnostics Services Earnings: RadNet (NASDAQ:RDNT) Earns Top Marks",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWVVUVFNVaWk1ZGRpLXVBUkk4MWViMkhybnJ3TUhYYTF0STR6X0RIb0cycFh6Y3hTdVJ0QXJIenEta3l4MlBtT3pMcmVmVjNaQVdLV1psbzNLWU40cURuSWhqY01QWENrUUgyUmYtWGRlNDh3b2JENVBFaWZKRThtTmotY0NPUmlGS1o1anQxNVN6QjVMRm1RaXlFQmotQVVRbmkw?oc=5",
+   "ts": "2026-10-08T17:44:09Z",
+   "fuente": "Yahoo Finance",
+   "id": "9eb9217a37",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "RadNet (NASDAQ:RDNT) obtiene excelentes calificaciones de ganancias en el segundo trimestre",
+   "efecto": "Noticia corporativa aislada, sin impacto macro en el Nasdaq."
   },
   {
    "titulo": "Nasdaq Drops Over 300 Points After OpenAI's Revenue Comes In $20 Billion Short",
@@ -3979,6 +4005,21 @@
    "id": "bb6a6d9d0c",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Fed rate hikes and rising Treasury yields fuel inflation fears",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9JVlMyVUp1YklVbWlxZlU0b0tYWUFZQmlwUDZ3QVNaY0JCU1dnZTJha0U4aXJUWmt4RVZXMzdFRDdKdndPSVpzejVzdzdfLS1obFJ2WFZhVUxPak0?oc=5",
+   "ts": "2026-10-08T15:59:57Z",
+   "fuente": "Fox Business",
+   "id": "f3acdac02f",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Subidas de tasas de la Fed y rendimientos del Tesoro alimentan temores de inflación",
+   "efecto": "Presiona al oro a la baja y castiga al Nasdaq por tasas altas."
   },
   {
    "titulo": "The Fed's going to take its time with rate hikes",
@@ -4388,40 +4429,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Nasdaq 100 Forecast: NDX falls as oil jumps 5%, Treasury yields rise",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNnFkNUdFQU9CTG1KODBhX05zMXlHOXFyV1dxVXdING5MejJNQlV2aDY1RXB5YnNWakxYdHNkdUYyZHBpUjhNakkycm55aVdnZUdMekgza2FDWUVfTXRVWDF3QlZBNVdxaWhBc3VJTnM0VktVZ3BIeU5zci1QOVdqSGFONV9qZERtYjloNXZoNGpzU3VRS2RiN0lLWkJNUWdsYlE1T3F1eG5kdUpfMnlGM1dsMmNvaGM?oc=5",
-   "ts": "2026-10-08T13:29:10Z",
-   "fuente": "StoneX",
-   "id": "3ceb4edb6e",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Pronóstico Nasdaq 100: NDX cae por salto del petróleo y rendimientos",
-   "efecto": "Posiciona vendedores institucionales en contratos de futuros del NQ."
-  },
-  {
-   "titulo": "Trump bought up to $25 million in Meta and millions in SpaceX debt in August",
-   "link": "https://www.cnbc.com/2026/10/08/trump-august-trades-meta-spacex-financial-disclosure.html",
-   "ts": "2026-10-08T13:18:47Z",
-   "fuente": "CNBC",
-   "id": "247d12812b",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Pharmalittle: We're reading about PhRMA suing Trump, biotech frustration over tariffs, and more",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZkszY0E3YXBpMHE2LW81N3BZR1ByRlhXQU1tLVNRSHQtdW05VTJhWW84LXQyRlZHSkJwLVFYZkQweUM0dDJoWDRPNHBGMDZ5RFlQeGhPOFA2QUxTa2ZpNm42SUViX1RQYS1wVU5Bc3JydWdzemhOZE04UU03STN5WDUyTTNCcDl5Zk5Ib2FqLVNraUtDVGpueTNKYVBHRzR6dDMwMXVEa09SUkhZWm1PS2RyeGxfTjA?oc=5",
-   "ts": "2026-10-08T13:18:36Z",
-   "fuente": "STAT",
-   "id": "94f4edef1a",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -5050,14 +5057,14 @@
     4157.5,
     4159.0,
     4146.1,
-    4147.7
+    4149.4
    ],
    [
-    1791484940,
-    4147.7,
-    4147.7,
-    4147.7,
-    4147.7
+    1791485276,
+    4149.4,
+    4149.4,
+    4149.4,
+    4149.4
    ]
   ],
   "nq": [
@@ -5682,14 +5689,14 @@
     30900.25,
     31022.75,
     30858.75,
-    30927.0
+    30925.25
    ],
    [
-    1791484951,
-    30928.0,
-    30928.0,
-    30928.0,
-    30928.0
+    1791485277,
+    30924.0,
+    30924.0,
+    30924.0,
+    30924.0
    ]
   ],
   "vix": [
@@ -6167,10 +6174,10 @@
     15.94,
     16.02,
     15.53,
-    15.73
+    15.69
    ],
    [
-    1791484651,
+    1791484966,
     15.72,
     15.72,
     15.72,
@@ -6178,5 +6185,5 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-08T18:27:31Z"
+ "noticias_traducidas_ts": "2026-10-08T18:57:38Z"
 }
