@@ -1615,9 +1615,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Eastern Ave…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with)",
-   "actualizado": "2026-10-08T11:02:31Z"
+   "actualizado": "2026-10-08T11:06:19Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -1645,6 +1645,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-08T11:06:19Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Eastern Ave…",
@@ -3139,11 +3144,6 @@
    "agente": "disenador",
    "texto": "Terminó su turno: 3 muestras nuevas",
    "ts": "2026-10-06T15:28:54Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Muestra lista de LV Mobile Auto & Truck y su mensaje para mandar por texto.",
-   "ts": "2026-10-06T15:28:51Z"
   }
  ],
  "reportes": {
