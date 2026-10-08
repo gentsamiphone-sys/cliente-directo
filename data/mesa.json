@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4131.2 · NQ 31382.5 · VIX 15.08 · 8 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-08T00:52:32Z"
+   "ultimo_resultado": "Oro 4134.8 · NQ 31382.25 · VIX 15.08 · 9 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-08T00:57:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T00:52:31Z",
-   "ultimo_resultado": "8 titulares nuevos, 1 de alto impacto: Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand"
+   "actualizado": "2026-10-08T00:57:32Z",
+   "ultimo_resultado": "9 titulares nuevos, 2 de alto impacto: Gold Falls as Higher Yields, Stronger Dollar Weigh"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4134.8 · NQ 31382.25 · VIX 15.08 · 9 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-08T00:57:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4131.2 · NQ 31382.5 · VIX 15.08 · 8 noticias nuevas (1 alto impacto)",
@@ -1050,11 +1055,6 @@
    "agente": "vigilante",
    "texto": "Oro 4140.0 · NQ 31322.5 · VIX 15.6",
    "ts": "2026-10-07T10:52:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4139.5 · NQ 31323.75 · VIX 15.6 · 3 noticias nuevas",
-   "ts": "2026-10-07T10:47:32Z"
   }
  ],
  "briefs": [
@@ -3160,10 +3160,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4131.2,
-  "nq": 31382.5,
+  "oro": 4134.8,
+  "nq": 31382.25,
   "vix": 15.08,
-  "ts": "2026-10-08T00:52:32Z"
+  "ts": "2026-10-08T00:57:32Z"
  },
  "noticias": [
   {
@@ -3174,6 +3174,18 @@
    "id": "ee5f51603d",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold Falls as Higher Yields, Stronger Dollar Weigh",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOWNLM2k3dTJvRmVsbGNLR0hmeWQ4QmJqSC11ZEl6emhmQXhqSUFBaUxxSDNJelFZcHc4SC1JQjBJZFQwSmttU0Mxc2NJWFNRS3Izd3JrdE84WER1dDZ3Q016TU9Vb1RmdHN3b1RZRDBYQmlKZV9KT0VBd3phQThaek9VMzV0eFFTYURTWmdZWW1DcUZhc1FJdmRYbGpSTXhkbFh3VkJvaDlLQQ?oc=5",
+   "ts": "2026-10-08T00:50:00Z",
+   "fuente": "WSJ",
+   "id": "b356c1db60",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Live Nation Entertainment Announces Pricing of Private Senior Notes Offering",
@@ -3871,11 +3883,31 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Fed officials see another hike coming, but no sign as to when, minutes show",
+   "link": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html",
+   "ts": "2026-10-07T18:42:36Z",
+   "fuente": "CNBC",
+   "id": "7ee004fb6f",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Trump doesn't think Russia plague incident is bioweapon, plans Putin call Wednesday",
    "link": "https://www.cnbc.com/2026/10/07/trump-russia-plague-bioweapon-putin.html",
    "ts": "2026-10-07T18:38:51Z",
    "fuente": "CNBC",
    "id": "484546c4ea",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Sugar Prices Supported by Delayed Brazil Harvest",
+   "link": "https://www.barchart.com/story/news/5012563/sugar-prices-supported-by-delayed-brazil-harvest?.tsrc=rss",
+   "ts": "2026-10-07T18:34:56Z",
+   "fuente": "Yahoo Finance",
+   "id": "e8b14f98d2",
    "activos": [],
    "impacto": "bajo"
   },
@@ -3982,37 +4014,6 @@
    "fuente": "Fortune",
    "id": "42f6d62292",
    "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Nasdaq and S&P Hold Weekly Gains as Small Caps and Dow Slip Midweek",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUUU4T2tTV2dNYXZFSjhfZk1jRHZQWTdCUGRyOERfWVY4YkpNNjIwWGFhQkNaUW8tQXZxRmFZNHpPdjlHNDhid3ZfUElsancxMU05STBnYzU1a0JMZXdQZUtiUU1GSEIzcHAtblhRb3dYTUs1V2pJOTFlbFFyTzlkMjVEZm9LdVJnYnY4S1I3dDhUbk1ialE?oc=5",
-   "ts": "2026-10-07T18:14:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "1d426b6b59",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Trump’s diesel order exposes White House limits to counter surging fuel prices",
-   "link": "https://www.cnbc.com/2026/10/07/trump-red-dye-offroad-diesel-price-iran-ukraine-war-midterm.html",
-   "ts": "2026-10-07T18:09:33Z",
-   "fuente": "CNBC",
-   "id": "52f39105d6",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Federal Reserve officials expect another rate hike will be needed this year, according to minutes",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeElxWlJKWlViNURWZzFOQUxVcTNDVW1VUVpZRFVpRHhGNmNLUGZPRWxpRENFR28zODZ6bThZdEpVTFowWnZmMGxNaElmdHBEdVlld0dna2R0NUtQbzdzVG0xSzJMd1pIRVJXZHB3eUlzdmc4bmdxTk83ZzdHN0tTbWNsQ0x5T1c4THVUVm9oNko1TVhQTDJXTTU3NGhxMk9HdkxlQldBMGpVRHpiUGNwZXVCZkVJLUhlc2g2LUk2UC15aGdOQTViRDRibw?oc=5",
-   "ts": "2026-10-07T18:08:05Z",
-   "fuente": "WTOP News",
-   "id": "95e7b751cc",
-   "activos": [
-    "dolar"
-   ],
    "impacto": "alto"
   }
  ],
@@ -4642,14 +4643,14 @@
     4133.0,
     4137.0,
     4130.0,
-    4130.8
+    4135.3
    ],
    [
-    1791420151,
-    4131.4,
-    4131.4,
-    4131.4,
-    4131.4
+    1791420451,
+    4134.3,
+    4134.3,
+    4134.3,
+    4134.3
    ]
   ],
   "nq": [
@@ -5273,15 +5274,15 @@
     1791417600,
     31430.5,
     31440.0,
-    31380.25,
-    31383.75
+    31372.25,
+    31382.0
    ],
    [
-    1791420150,
-    31382.5,
-    31382.5,
-    31382.5,
-    31382.5
+    1791420451,
+    31382.25,
+    31382.25,
+    31382.25,
+    31382.25
    ]
   ],
   "vix": [
