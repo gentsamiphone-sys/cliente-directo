@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro — · NQ — · VIX 15.08 · 8 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-08T04:07:30Z"
+   "ultimo_resultado": "Oro 4160.8 · NQ — · VIX 15.08 · 8 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-08T04:12:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T04:07:30Z",
-   "ultimo_resultado": "8 titulares nuevos, 3 de alto impacto: Gold surged to a record, then fell hard. What happened?"
+   "actualizado": "2026-10-08T04:12:36Z",
+   "ultimo_resultado": "8 titulares nuevos, 2 de alto impacto: El petróleo sube por hostilidades en Oriente Medio y temores de suministro"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4160.8 · NQ — · VIX 15.08 · 8 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-08T04:12:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro — · NQ — · VIX 15.08 · 8 noticias nuevas (3 alto impacto)",
@@ -1050,11 +1055,6 @@
    "agente": "vigilante",
    "texto": "Oro 4112.2 · NQ 31239.25 · VIX 15.85 · 5 noticias nuevas (2 alto impacto)",
    "ts": "2026-10-07T12:42:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4117.3 · NQ 31219.0 · VIX 15.81 · 8 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-07T12:37:34Z"
   }
  ],
  "briefs": [
@@ -3160,10 +3160,25 @@
   }
  },
  "en_vivo": {
+  "oro": 4160.8,
   "vix": 15.08,
-  "ts": "2026-10-08T04:07:30Z"
+  "ts": "2026-10-08T04:12:37Z"
  },
  "noticias": [
+  {
+   "titulo": "Oil gains as Middle East hostilities, potential escalation stoke supply worries",
+   "link": "https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html",
+   "ts": "2026-10-08T04:07:51Z",
+   "fuente": "CNBC",
+   "id": "56a9059f51",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "El petróleo sube por hostilidades en Oriente Medio y temores de suministro",
+   "efecto": "Impulsa al oro como refugio seguro por riesgos geopolíticos."
+  },
   {
    "titulo": "Dow, S&P 500, Nasdaq Futures Mixed As Long-Term Yields Pull Back From Multi-Decade Highs: APLD, BULL, WOLF, NLST In Focus",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY19neTdteUhULTZ3eldxcGk3Wmx1NjQtMV85OXNHYUpJLUF0MDdodC1fUmoyREZNOGd6d1U0ZXNBWHJWYWptVHlxbWVqRmJQNmRaNE43bHB1ZVhGY000RHdaZjFvaXRRRzBuaDFncmlyMzZxN1hKR2hyMEsyTXVHbnptamlmdG1wYXIwNGZlUFk1NVU?oc=5",
@@ -4003,17 +4018,6 @@
    "id": "b74d991290",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Americans grow more pessimistic about their finances, New York Fed finds — expert warns of ‘tough choices’ ahead",
-   "link": "https://www.cnbc.com/2026/10/07/new-york-fed-financial-outlook-inflation.html",
-   "ts": "2026-10-07T19:40:31Z",
-   "fuente": "CNBC",
-   "id": "ec3aedb881",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -4547,11 +4551,18 @@
     4164.8
    ],
    [
-    1791431844,
-    4159.0,
-    4159.0,
-    4159.0,
-    4159.0
+    1791432000,
+    4159.8,
+    4161.5,
+    4159.8,
+    4160.9
+   ],
+   [
+    1791432153,
+    4160.8,
+    4160.8,
+    4160.8,
+    4160.8
    ]
   ],
   "nq": [
@@ -4927,11 +4938,11 @@
     31480.25
    ],
    [
-    1791431849,
-    31357.0,
-    31357.0,
-    31357.0,
-    31357.0
+    1791431999,
+    31351.5,
+    31351.5,
+    31351.5,
+    31351.5
    ]
   ],
   "vix": [
@@ -5434,5 +5445,5 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-08T03:37:31Z"
+ "noticias_traducidas_ts": "2026-10-08T04:12:34Z"
 }
