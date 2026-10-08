@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "🎯 NQ VENTA: TP2 · Oro 4151.4 · NQ 30964.25 · VIX 15.73 · 14 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-08T17:12:34Z"
+   "ultimo_resultado": "Oro 4158.2 · NQ 30944.5 · VIX 15.86 · 15 noticias nuevas (4 alto impacto)",
+   "actualizado": "2026-10-08T17:17:56Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T17:12:33Z",
-   "ultimo_resultado": "14 titulares nuevos, 2 de alto impacto: Gold ETF Down 13% in Six Months: 4 Bullish Reasons for Long Term"
+   "actualizado": "2026-10-08T17:17:55Z",
+   "ultimo_resultado": "15 titulares nuevos, 4 de alto impacto: Acciones caen presionadas por precios del petróleo y tecnológicas"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4158.2 · NQ 30944.5 · VIX 15.86 · 15 noticias nuevas (4 alto impacto)",
+   "ts": "2026-10-08T17:17:56Z"
+  },
   {
    "agente": "vigilante",
    "texto": "🎯 NQ VENTA: TP2 · Oro 4151.4 · NQ 30964.25 · VIX 15.73 · 14 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4155.7 · NQ 31411.75 · VIX 15.08 · 6 noticias nuevas (2 alto impacto)",
    "ts": "2026-10-08T03:37:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4157.1 · NQ 31396.0 · VIX 15.08 · 6 noticias nuevas (3 alto impacto)",
-   "ts": "2026-10-08T03:32:32Z"
   }
  ],
  "briefs": [
@@ -3552,12 +3552,26 @@
   }
  },
  "en_vivo": {
-  "oro": 4151.4,
-  "nq": 30964.25,
-  "vix": 15.73,
-  "ts": "2026-10-08T17:12:33Z"
+  "oro": 4158.2,
+  "nq": 30944.5,
+  "vix": 15.86,
+  "ts": "2026-10-08T17:17:56Z"
  },
  "noticias": [
+  {
+   "titulo": "Stocks fall, weighed down by oil prices and tech declines: Live updates",
+   "link": "https://www.cnbc.com/2026/10/07/stock-market-today-live-updates-.html",
+   "ts": "2026-10-08T17:17:20Z",
+   "fuente": "CNBC",
+   "id": "00898c1c31",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Acciones caen presionadas por precios del petróleo y tecnológicas",
+   "efecto": "Presiona al Nasdaq a la baja por debilidad tecnológica."
+  },
   {
    "titulo": "Oil prices jump as Iran steps up tanker attacks, hurricane threatens U.S. Gulf production",
    "link": "https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html",
@@ -3806,6 +3820,21 @@
    "impacto": "bajo",
    "es": "Mondelez respalda a los agricultores canadienses a través del fondo Area One Farms",
    "efecto": "Sin impacto institucional en los activos principales."
+  },
+  {
+   "titulo": "U.S. stock market drops: S&P 500 and Nasdaq fall as oil surges past $104 and inflation fears return",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSVRIeHUzemdGQTBmbVU5YjNTTmsta0ZxbmUyMlhYRFJQRkJIazBvUE9MSHZHUGFySzFwdndKUEZrT044ZnZUTkxtZHMwWmlWMDZXejlKZl9Ra2JIa3RKM3plUUhCQVJoMU5HS28wUkR0Q28yOEg2RGtOakh4NThqb3lRcGk5ZTlWd2U0aFhrczRJUURfRFZsVVlUWV83NmhjMGlNM0lqdEZ3U0M0dnlSMVFlaDkzX3hydGMxeVNVZUwwNEpLajFDWWFpVGJjb19jR3RrM0RpZVVKVnPSAeABQVVfeXFMUEhSYlpoVEVzVTU5bzRjd21NMUw1OGxZZE9kQ05VT1ZvUGJxY1g4OVVpcXFENWYxX3FmZVVlOWw1dDE5NFNubWRKY3o3bF8tSzZXTVdyR29pUFVBZ2UtS0hKbE81bU82VGRvR0hHZDZ3Rnl6c2lxT0hOVGx4VGJLazZXN1cxVHMxbG8yaUZLR05MN0c2dEM4WjZZYno3WFhwZXh2VERRLXN0UVpaaFB6WVN3SXlpWXNIcjMxR1ZaMlptX1h1czE3Uzg5WEtsMGI5M216Qkp2SWRVWGdpLUZYd2E?oc=5",
+   "ts": "2026-10-08T15:04:08Z",
+   "fuente": "Clarin.com",
+   "id": "73e27134ba",
+   "activos": [
+    "nq",
+    "dolar",
+    "oro"
+   ],
+   "impacto": "alto",
+   "es": "Bolsa de EE. UU. cae: S&P y Nasdaq bajan por petróleo sobre $104 e inflación",
+   "efecto": "Fuerte presión vendedora en Nasdaq; impulsa al oro por refugio."
   },
   {
    "titulo": "Oil prices jump 4% as Iran steps up tanker attacks, hurricane threatens U.S. Gulf production",
@@ -4400,26 +4429,6 @@
    "id": "79f3330331",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "The most common personal loan fees and how to avoid them",
-   "link": "https://www.cnbc.com/select/how-to-avoid-personal-loan-fees/",
-   "ts": "2026-10-08T12:00:01Z",
-   "fuente": "CNBC",
-   "id": "397161c2b1",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Gold ETF Down 13% in Six Months: 4 Bullish Reasons for Long Term",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-etf-down-13-six-120000828.html?.tsrc=rss",
-   "ts": "2026-10-08T12:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "12ceac48ca",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -5046,16 +5055,16 @@
    [
     1791478800,
     4148.2,
-    4152.9,
+    4159.6,
     4146.9,
-    4152.9
+    4157.6
    ],
    [
-    1791478951,
-    4151.4,
-    4151.4,
-    4151.4,
-    4151.4
+    1791479274,
+    4158.2,
+    4158.2,
+    4158.2,
+    4158.2
    ]
   ],
   "nq": [
@@ -5679,15 +5688,15 @@
     1791478800,
     31001.25,
     31001.25,
-    30924.0,
-    30992.25
+    30908.5,
+    30939.5
    ],
    [
-    1791478954,
-    30965.25,
-    30965.25,
-    30965.25,
-    30965.25
+    1791479275,
+    30944.5,
+    30944.5,
+    30944.5,
+    30944.5
    ]
   ],
   "vix": [
@@ -6151,16 +6160,23 @@
     15.48,
     15.79,
     15.15,
-    15.64
+    15.68
    ],
    [
-    1791478651,
-    15.73,
-    15.73,
-    15.73,
-    15.73
+    1791478800,
+    15.69,
+    15.92,
+    15.69,
+    15.8
+   ],
+   [
+    1791478966,
+    15.86,
+    15.86,
+    15.86,
+    15.86
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-08T16:47:34Z"
+ "noticias_traducidas_ts": "2026-10-08T17:17:40Z"
 }
