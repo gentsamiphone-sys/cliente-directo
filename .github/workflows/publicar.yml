@@ -4,7 +4,7 @@ name: Publicar panel
 on:
   push:
     branches: [main]
-    paths: ["index.html", "mesa.html", "memes.html", "plantilla/**", "muestras/**"]
+    paths: ["index.html", "mesa.html", "memes.html", "cripto.html", "plantilla/**", "muestras/**"]
   workflow_dispatch:
 
 permissions:
