@@ -1,0 +1,48 @@
+name: Mesa cripto GSAM (BTC y ETH)
+
+# Brief cripto dos veces al día (hora UTC; Las Vegas = UTC-7 en verano): 6:00 AM y 6:00 PM.
+on:
+  schedule:
+    - cron: "0 13 * * *"
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+    inputs:
+      turno:
+        description: "Turno"
+        required: true
+        default: manana
+        type: choice
+        options: [manana, noche]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cripto
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r agentes/requirements.txt
+      - name: Mesa cripto
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          SITIO_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/cripto.html
+        run: |
+          case "${{ github.event.schedule }}" in
+            "0 13 * * *") T=manana ;;
+            "0 1 * * *")  T=noche ;;
+            *)            T="${{ inputs.turno }}" ;;
+          esac
+          git config user.name "Mesa GSAM"
+          git config user.email "mesa@users.noreply.github.com"
+          python agentes/cripto.py "$T"
