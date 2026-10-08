@@ -1,9 +1,10 @@
 {
  "agentes": {
   "cio": {
-   "estado": "trabajando",
-   "tarea": "Escribiendo el brief cripto…",
-   "actualizado": "2026-10-08T21:06:49Z"
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-08T21:07:23Z",
+   "ultimo_resultado": "Brief publicado: Presión vendedora y salida de liquidez frenan a cripto, sin entradas claras por falta de confluencias"
   },
   "liquidez": {
    "estado": "descansando",
@@ -43,6 +44,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "cio",
+   "texto": "Brief publicado: Presión vendedora y salida de liquidez frenan a cripto, sin entradas claras por falta de confluencias",
+   "ts": "2026-10-08T21:07:23Z"
+  },
   {
    "agente": "cio",
    "texto": "Escribiendo el brief cripto…",
@@ -114,5 +120,44 @@
    "ts": "2026-10-08T21:06:31Z"
   }
  ],
- "briefs": []
+ "briefs": [
+  {
+   "turno": "Mañana (apertura de EE. UU.)",
+   "ts": "2026-10-08T21:07:23Z",
+   "texto": "### 1. **Sesgo**\n* **BTC:** Bajista a corto plazo; presión vendedora macro tras rechazo en máximos y pérdida del mínimo de ayer (82771.79).\n* **ETH:** Bajista; marcada debilidad relativa frente a BTC y quiebre por debajo de su EMA50 diaria (2501.75).\n\n### 2. **Liquidez global**\nFrenan a cripto hoy. Aunque el DXY (102.12, -0.11%) y el rendimiento del bono a 10 años (5.23%, -0.87%) ceden levemente, la fuerte aversión al riesgo en renta variable con el Nasdaq cayendo -1.26% (31006.0) y el repunte del VIX (+2.19% a 15.41) drenan liquidez de los activos de riesgo.\n\n### 3. **Flujos**\nSale dinero del ecosistema. El suministro total de stablecoins se sitúa en 281.1 MM, registrando salidas netas de -7.19 MM a 7 días y -6.88 MM a 30 días. La dominancia de BTC sube al 59.07% mientras la de ETH cae al 10.86% (con la capitalización total retrocediendo -5.08%), confirmando una rotación defensiva hacia refugio en BTC y castigo severo a las altcoins.\n\n### 4. **Apalancamiento y sentimiento**\nEl índice Fear & Greed marca 64 (Codicia, bajando desde 72), indicando que el mercado aún no capitula ni ofrece valoraciones contrarias extremas. En derivados, el funding de BTC es plano (+0.0017%), mientras que ETH presenta funding negativo (-0.0078%), reflejando acumulación de posiciones cortas institucionales tras la debilidad estructural.\n\n### 5. **Mapa de liquidez**\n* **BTC:** Mínimo de la semana en 80464.05 y máximo de la semana en 87146.35; mínimo del mes en 74944.59 y máximo del mes en 87363.76; EMA200 diaria en 75606.28. Imán más probable: barrido del mínimo de la semana (80464.05) hacia la EMA50 diaria (79627.83).\n* **ETH:** Mínimo de la semana en 2410.09 y máximo de la semana en 2773.52; mínimo del mes en 2357.96 y máximo del mes en 2805.50; EMA200 diaria en 2323.42. Imán más probable: prueba del mínimo de la semana (2410.09) y soporte del mes (2357.96).\n\n### 6. **Plan**\n\n**BTC**\n* **Dirección:** SIN ENTRADA\n* **Zona de entrada:** N/A\n* **Stop:** N/A\n* **TP1 / TP2:** N/A\n* **R:R al TP2:** N/A\n* **Confluencias (1/5):** (1) Macro en contra por caída de Nasdaq; (2) Fuga neta de stablecoins; (3) Sentimiento sin extremo contrario (64); (4) Precio en tierra de nadie sobre mínimos; (5) Estacionalidad neutral. Menos de 4/5 = SIN ENTRADA.\n\n**ETH**\n* **Dirección:** SIN ENTRADA\n* **Zona de entrada:** N/A\n* **Stop:** N/A\n* **TP1 / TP2:** N/A\n* **R:R al TP2:** N/A\n* **Confluencias (1/5):** (1) Macro desfavorable; (2) Salida de liquidez global cripto; (3) Funding negativo sin capitulación minorista; (4) Pérdida de EMA50; (5) Estacionalidad semanal históricamente negativa (promedio -1.9%). Menos de 4/5 = SIN ENTRADA.\n\n### 7. **Historia**\nBTC subió esta semana en 4 de 8 años (promedio -0.17%), con un desempeño en jueves bajista (42% alcistas, promedio -0.561%). No obstante, a 20 días vista subió en 6 de 8 años (+9.85%). Análogos (2025: -5.17%; 2018: -4.97%; 2022: -1.99%). Sesgo histórico: neutral.\n\n### 8. **Riesgo**\nAmbos activos operan en régimen de **volatilidad normal** (ATR diario BTC: 1994.42 / 2.44%; ETH: 77.99 / 3.16%). Regla de gestión institucional GSAM: arriesgar como máximo el 1% del capital por idea en régimen normal (0.5% en volatilidad alta). Ante falta de confluencias (1/5), preservamos el 100% del capital.\n\nAnálisis educativo de agentes de IA. No es consejo financiero.",
+   "titular": "Presión vendedora y salida de liquidez frenan a cripto, sin entradas claras por falta de confluencias",
+   "sesgo": {
+    "btc": "bajista",
+    "eth": "bajista"
+   },
+   "entradas": [
+    {
+     "activo": "BTC",
+     "direccion": "SIN ENTRADA",
+     "zona": "N/A",
+     "stop": "N/A",
+     "tp1": "N/A",
+     "tp2": "N/A",
+     "rr": "N/A",
+     "confluencias": "1/5"
+    },
+    {
+     "activo": "ETH",
+     "direccion": "SIN ENTRADA",
+     "zona": "N/A",
+     "stop": "N/A",
+     "tp1": "N/A",
+     "tp2": "N/A",
+     "rr": "N/A",
+     "confluencias": "1/5"
+    }
+   ],
+   "precios": {
+    "btc": 81591.43,
+    "eth": 2469.08
+   },
+   "fear_greed": 64,
+   "dominancia_btc": 59.07
+  }
+ ]
 }
