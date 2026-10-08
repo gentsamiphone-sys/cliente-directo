@@ -8,9 +8,9 @@ Siete agentes con mentalidad de fondo cripto institucional preparan el brief dos
   historiador  → estacionalidad de BTC en los últimos años y años análogos
   riesgo       → volatilidad (ATR), régimen y tamaño de posición
   cio          → junta todo y escribe el brief con sesgo, zonas y escenarios
-  ejecucion    → (opcional) compra en Blockchain.com Exchange con orden límite, riesgo 1% y stop protegiendo
+  ejecucion    → (opcional) compra BTC on-chain en Solana (Jupiter) desde la billetera del bot, riesgo 1% y stop vigilado
 
-Uso: python agentes/cripto.py <manana|noche|vigilar>
+Uso: python agentes/cripto.py <manana|noche|vigilar|billetera>
 Todo queda en data/cripto.json (la página cripto.html lo lee en vivo).
 Es análisis educativo; no es consejo financiero. Solo ejecuta si MODO_CRIPTO=real.
 """
@@ -277,76 +277,116 @@ DATOS:
                          (corto.get("titular", "") + ("\n" + "\n".join(lineas) if lineas else "\nSin entrada de alta probabilidad."))[:900], "default")
 
 
-# ───────── ejecución en Blockchain.com Exchange (solo spot: solo compras) ─────────
-# Seguridad: la llave de API se crea SOLO con permiso de operar (nunca de retirar) y vive en el secreto
-# BLOCKCHAIN_API_KEY de GitHub. Mientras el secreto MODO_CRIPTO no diga "real", todo es simulado.
+# ───────── ejecución on-chain en Solana con Jupiter (sin exchange, sin KYC) ─────────
+# La billetera del bot es una cuenta NUEVA de Phantom solo con el capital del bot. Su llave privada vive en el
+# secreto SOLANA_BOT_KEY de GitHub. Mientras el secreto MODO_CRIPTO no diga "real", todo es simulado.
+# En un DEX no hay órdenes límite ni stops en el libro: el vigilante revisa el precio cada 30 min y compra en la
+# zona, vende en el stop o vende en el objetivo con un swap de Jupiter. Solo BTC (cbBTC de Coinbase) y solo compras.
 
-API_BC = "https://api.blockchain.com/v3/exchange"
+RPC = os.environ.get("SOLANA_RPC", "https://api.mainnet-beta.solana.com")
+JUP = "https://lite-api.jup.ag/swap/v1"
+USDC = "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+TOKENS = {"BTC": {"mint": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij", "dec": 8}}
 RIESGO_PCT = 1.0           # % del capital que se arriesga por idea
-MAX_POSICION_PCT = 40.0    # nunca más de este % del capital en una sola posición
-VENCE_HORAS = 24           # si la compra límite no se llena en 24 h, se cancela
-DECIMALES = {"BTC": 5, "ETH": 4}
+MAX_POSICION_PCT = 90.0    # cuenta pequeña: puede usar casi todo el USDC en una idea (el riesgo sigue siendo 1%)
+VENCE_HORAS = 24           # si el precio no llega a la zona en 24 h, la idea se cancela
+SLIPPAGE_BPS = 50
 
 
 def _modo_real():
-    return os.environ.get("MODO_CRIPTO", "").strip().lower() == "real" and bool(os.environ.get("BLOCKCHAIN_API_KEY", "").strip())
+    return os.environ.get("MODO_CRIPTO", "").strip().lower() == "real" and bool(os.environ.get("SOLANA_BOT_KEY", "").strip())
 
 
-def _bc(metodo, ruta, **kw):
-    key = os.environ.get("BLOCKCHAIN_API_KEY", "").strip()
-    r = requests.request(metodo, API_BC + ruta, headers={"X-API-Token": key, "Accept": "application/json"}, timeout=30, **kw)
-    if r.status_code >= 400:
-        raise RuntimeError(f"Blockchain.com {r.status_code}: {r.text[:120]}")
-    return r.json() if r.text.strip() else {}
+def _llave():
+    from solders.keypair import Keypair
+    return Keypair.from_base58_string(os.environ["SOLANA_BOT_KEY"].strip())
+
+
+def _rpc(metodo, params):
+    r = requests.post(RPC, json={"jsonrpc": "2.0", "id": 1, "method": metodo, "params": params}, timeout=30)
+    r.raise_for_status()
+    j = r.json()
+    if "error" in j:
+        raise RuntimeError(f"RPC {j['error'].get('message', j['error'])}")
+    return j["result"]
+
+
+def _saldo_token(dueno, mint):
+    res = _rpc("getTokenAccountsByOwner", [dueno, {"mint": mint}, {"encoding": "jsonParsed"}])
+    return sum(float(a["account"]["data"]["parsed"]["info"]["tokenAmount"]["uiAmount"] or 0) for a in res.get("value", []))
 
 
 def _saldos():
-    """Saldos disponibles de la cuenta principal: {"USD": 123.4, "BTC": 0.001, ...}."""
-    d = _bc("GET", "/accounts")
-    filas = d.get("primary") if isinstance(d, dict) else d
-    out = {}
-    for f in filas or []:
-        try:
-            out[f["currency"]] = float(f.get("available", f.get("balance", 0)))
-        except Exception:
-            pass
-    return out
+    dueno = str(_llave().pubkey())
+    sol = _rpc("getBalance", [dueno])["value"] / 1e9
+    return {"SOL": sol, "USDC": _saldo_token(dueno, USDC), "BTC": _saldo_token(dueno, TOKENS["BTC"]["mint"]), "direccion": dueno}
 
 
-def _orden(simbolo, lado, qty, tipo="LIMIT", precio=None, stop=None, ref=""):
-    cuerpo = {"clOrdId": f"gsam{ref}{int(time.time())}"[:20], "ordType": tipo, "symbol": simbolo, "side": lado,
-              "orderQty": qty, "timeInForce": "GTC"}
-    if precio is not None:
-        cuerpo["price"] = precio
-    if stop is not None:
-        cuerpo["stopPx"] = stop
-    return _bc("POST", "/orders", json=cuerpo)
+def _swap(entrada_mint, salida_mint, cantidad_base):
+    """Swap en Jupiter firmado con la billetera del bot. Devuelve la firma de la transacción."""
+    import base64
+    from solders.transaction import VersionedTransaction
+    kp = _llave()
+    q = requests.get(f"{JUP}/quote", params={"inputMint": entrada_mint, "outputMint": salida_mint, "amount": int(cantidad_base),
+                                             "slippageBps": SLIPPAGE_BPS, "restrictIntermediateTokens": "true"}, timeout=30)
+    q.raise_for_status()
+    cot = q.json()
+    if not cot.get("outAmount"):
+        raise RuntimeError("Jupiter no dio cotización")
+    sw = requests.post(f"{JUP}/swap", json={"quoteResponse": cot, "userPublicKey": str(kp.pubkey()), "wrapAndUnwrapSol": True,
+                                            "dynamicComputeUnitLimit": True, "prioritizationFeeLamports": "auto"}, timeout=30)
+    sw.raise_for_status()
+    tx = VersionedTransaction.from_bytes(base64.b64decode(sw.json()["swapTransaction"]))
+    firmada = VersionedTransaction(tx.message, [kp])
+    sig = _rpc("sendTransaction", [base64.b64encode(bytes(firmada)).decode(), {"encoding": "base64", "maxRetries": 3}])
+    for _ in range(30):
+        time.sleep(2)
+        st = _rpc("getSignatureStatuses", [[sig]])["value"][0]
+        if st and st.get("confirmationStatus") in ("confirmed", "finalized"):
+            if st.get("err"):
+                raise RuntimeError(f"la transacción falló en la red: {st['err']}")
+            return sig
+    raise RuntimeError(f"sin confirmación todavía (firma {sig[:12]}…)")
+
+
+def _comprar(p, usd):
+    return _swap(USDC, TOKENS[p["activo"]]["mint"], usd * 1e6)
+
+
+def _vender_todo(p):
+    sal = _saldos()
+    cant = sal.get(p["activo"], 0)
+    if cant <= 0:
+        raise RuntimeError("no hay saldo para vender")
+    return _swap(TOKENS[p["activo"]]["mint"], USDC, cant * 10 ** TOKENS[p["activo"]]["dec"])
 
 
 def ejecutar_cripto(me, entradas, mapas):
+    """Tras el brief: registra la idea de compra. El vigilante la ejecuta cuando el precio llega a la zona."""
     real = _modo_real()
     etiqueta = "" if real else "[SIMULADO] "
     pos = me.m.setdefault("posiciones", [])
-    capital = None
     if real:
         try:
             sal = _saldos()
-            capital = sal.get("USD", 0) + sum(sal.get(a, 0) * (mapas.get(a.lower(), {}).get("precio") or 0) for a in ("BTC", "ETH"))
-            usd_libre = sal.get("USD", 0)
+            capital = sal["USDC"] + sal["BTC"] * (mapas.get("btc", {}).get("precio") or 0)
+            usd_libre = sal["USDC"]
+            if sal["SOL"] < 0.005:
+                me.paso("ejecucion", f"La billetera del bot tiene muy poco SOL ({sal['SOL']:.4f}) para comisiones. Agrega ~0.02 SOL.", trabajando=False)
         except Exception as ex:
-            me.paso("ejecucion", f"No pude leer tu cuenta de Blockchain.com ({str(ex)[:80]}). No se opera.", trabajando=False)
+            me.paso("ejecucion", f"No pude leer la billetera del bot ({str(ex)[:80]}). No se opera.", trabajando=False)
             return
     else:
-        capital, usd_libre = 1000.0, 1000.0   # cuenta de práctica para la simulación
+        capital, usd_libre = 60.0, 60.0   # cuenta de práctica para la simulación
     for e in entradas or []:
         act = str(e.get("activo", "")).upper()
-        if act not in ("BTC", "ETH"):
+        if act not in TOKENS:
             continue
         if not str(e.get("direccion", "")).upper().startswith("COMPRA"):
-            me.paso("ejecucion", f"{act}: {e.get('direccion', 'SIN ENTRADA')} · en spot solo se compra, no se opera.", trabajando=False)
+            me.paso("ejecucion", f"{act}: {e.get('direccion', 'SIN ENTRADA')} · el bot solo compra, no se opera.", trabajando=False)
             continue
         if any(p["activo"] == act and p["estado"] in ("pendiente", "abierta") for p in pos):
-            me.paso("ejecucion", f"{act}: ya hay una posición u orden activa, no se duplica.", trabajando=False)
+            me.paso("ejecucion", f"{act}: ya hay una idea o posición activa, no se duplica.", trabajando=False)
             continue
         try:
             conf = int(M._n(e.get("confluencias")) or 0)
@@ -354,116 +394,92 @@ def ejecutar_cripto(me, entradas, mapas):
             conf = 0
         lo, hi = M._rango(e.get("zona"))
         stop, tp = M._n(e.get("stop")), M._n(e.get("tp2")) or M._n(e.get("tp1"))
-        if conf < 4 or not (lo and stop and tp) or not (stop < lo < tp):
-            me.paso("ejecucion", f"{act}: entrada incompleta o con {conf}/5 confluencias. No se envía.", trabajando=False)
+        if conf < 4 or not (lo and hi and stop and tp) or not (stop < lo <= hi < tp):
+            me.paso("ejecucion", f"{act}: entrada incompleta o con {conf}/5 confluencias. No se opera.", trabajando=False)
             continue
-        entrada = lo   # borde de la zona (donde está la liquidez)
-        rr = (tp - entrada) / (entrada - stop)
+        rr = (tp - hi) / (hi - stop)
         if rr < 2:
-            me.paso("ejecucion", f"{act}: R:R {rr:.1f} menor a 2. No se envía.", trabajando=False)
+            me.paso("ejecucion", f"{act}: R:R {rr:.1f} menor a 2. No se opera.", trabajando=False)
             continue
-        riesgo = capital * RIESGO_PCT / 100
-        qty = riesgo / (entrada - stop)
-        qty = min(qty, capital * MAX_POSICION_PCT / 100 / entrada, usd_libre * 0.98 / entrada)
-        qty = round(qty, DECIMALES[act])
-        if qty <= 0:
-            me.paso("ejecucion", f"{act}: no hay saldo en USD suficiente para la compra.", trabajando=False)
+        usd = min(capital * RIESGO_PCT / 100 / ((hi - stop) / hi), capital * MAX_POSICION_PCT / 100, usd_libre * 0.98)
+        if usd < 5:
+            me.paso("ejecucion", f"{act}: el tamaño quedaría en ${usd:.2f}, demasiado pequeño. No se opera.", trabajando=False)
             continue
-        simbolo = f"{act}-USD"
-        p = {"activo": act, "simbolo": simbolo, "qty": qty, "entrada": round(entrada, 2), "stop": round(stop, 2), "tp": round(tp, 2),
-             "estado": "pendiente", "creada": base.ahora(), "real": real, "orden": None, "orden_stop": None}
-        if real:
-            try:
-                r = _orden(simbolo, "BUY", qty, "LIMIT", precio=p["entrada"], ref=act.lower())
-                p["orden"] = r.get("exOrdId") or r.get("orderId") or r.get("clOrdId")
-            except Exception as ex:
-                me.paso("ejecucion", f"{act}: no pude enviar la orden ({str(ex)[:80]}).", trabajando=False)
-                continue
+        p = {"activo": act, "usd": round(usd, 2), "zona_baja": round(lo, 2), "entrada": round(hi, 2), "stop": round(stop, 2), "tp": round(tp, 2),
+             "estado": "pendiente", "creada": base.ahora(), "real": real}
         pos.insert(0, p)
-        txt = (f"{etiqueta}COMPRA límite {qty} {act} en {p['entrada']:,} · stop {p['stop']:,} · objetivo {p['tp']:,} · "
-               f"riesgo ${(entrada - stop) * qty:,.0f} ({RIESGO_PCT}% del capital) · R:R {rr:.1f}")
+        txt = (f"{etiqueta}Idea de COMPRA {act}: compra ${p['usd']} si el precio entra en {lo:,.0f}–{hi:,.0f} · stop {stop:,.0f} · "
+               f"objetivo {tp:,.0f} · riesgo ~${p['usd'] * (hi - stop) / hi:,.2f} ({RIESGO_PCT}% del capital) · R:R {rr:.1f}")
         me.paso("ejecucion", txt, trabajando=False)
-        base.avisar_telefono(f"GSAM Cripto · orden {act}", txt, "high")
+        base.avisar_telefono(f"GSAM Cripto · idea {act}", txt, "high")
     me.m["posiciones"] = pos[:50]
 
 
 def vigilar_cripto():
-    """Revisa las órdenes: pone el stop cuando la compra se llena, vende en el objetivo y cancela compras viejas."""
+    """Cada 30 min: compra cuando el precio entra en la zona, vende en el stop o en el objetivo, y cancela ideas viejas."""
     me = Mesa()
     pos = me.m.get("posiciones", [])
     activas = [p for p in pos if p["estado"] in ("pendiente", "abierta")]
     if not activas:
         return
     real = _modo_real()
+    et = "" if real else "[SIMULADO] "
     for p in activas:
         try:
-            precio = M.yahoo(f"{p['activo']}-USD", "1h", "1d")[-1]["c"]
+            precio = M.yahoo(f"{p['activo']}-USD", "5m", "1d")[-1]["c"]
         except Exception:
             continue
         horas = (datetime.now(timezone.utc) - datetime.fromisoformat(p["creada"].replace("Z", "+00:00"))).total_seconds() / 3600
-        if p["estado"] == "pendiente":
-            lleno = False
-            if real and p.get("orden"):
-                try:
-                    o = _bc("GET", f"/orders/{p['orden']}")
-                    lleno = str(o.get("ordStatus", "")).upper() == "FILLED"
-                except Exception:
-                    pass
-            elif not real:
-                lleno = precio <= p["entrada"]
-            if lleno:
-                p["estado"] = "abierta"
-                if real:
-                    try:
-                        r = _orden(p["simbolo"], "SELL", p["qty"], "STOP", stop=p["stop"], ref="sl")
-                        p["orden_stop"] = r.get("exOrdId") or r.get("orderId")
-                    except Exception as ex:
-                        me.paso("ejecucion", f"{p['activo']}: ¡no pude poner el stop! ({str(ex)[:60]}) Revísalo a mano.", trabajando=False)
-                        base.avisar_telefono("GSAM Cripto · ¡STOP SIN PONER!", f"{p['activo']}: la compra se llenó pero no pude poner el stop en {p['stop']}. Ponlo a mano.", "urgent")
-                me.paso("ejecucion", f"{'' if real else '[SIMULADO] '}{p['activo']}: compra llena en {p['entrada']:,}. Stop protegiendo en {p['stop']:,}.", trabajando=False)
-                base.avisar_telefono(f"GSAM Cripto · {p['activo']} dentro", f"Compra llena en {p['entrada']:,}. Stop en {p['stop']:,}, objetivo {p['tp']:,}.", "high")
-            elif horas > VENCE_HORAS:
-                if real and p.get("orden"):
-                    try:
-                        _bc("DELETE", f"/orders/{p['orden']}")
-                    except Exception:
-                        pass
-                p["estado"] = "cancelada"
-                me.paso("ejecucion", f"{p['activo']}: la compra no se llenó en {VENCE_HORAS} h. Cancelada.", trabajando=False)
-        elif p["estado"] == "abierta":
-            if precio <= p["stop"] and not real:
-                p["estado"], p["resultado"] = "cerrada", "stop"
-            elif precio >= p["tp"]:
-                if real:
-                    try:
-                        if p.get("orden_stop"):
-                            _bc("DELETE", f"/orders/{p['orden_stop']}")
-                        _orden(p["simbolo"], "SELL", p["qty"], "LIMIT", precio=round(precio * 0.999, 2), ref="tp")
-                    except Exception as ex:
-                        me.paso("ejecucion", f"{p['activo']}: no pude vender en el objetivo ({str(ex)[:60]}).", trabajando=False)
-                        continue
-                p["estado"], p["resultado"] = "cerrada", "objetivo"
-            elif real and p.get("orden_stop"):
-                try:
-                    o = _bc("GET", f"/orders/{p['orden_stop']}")
-                    if str(o.get("ordStatus", "")).upper() == "FILLED":
-                        p["estado"], p["resultado"] = "cerrada", "stop"
-                except Exception:
-                    pass
-            if p["estado"] == "cerrada":
-                ganancia = (p["tp"] if p["resultado"] == "objetivo" else p["stop"]) - p["entrada"]
-                txt = f"{'' if real else '[SIMULADO] '}{p['activo']} cerrada en {p['resultado']}: {ganancia * p['qty']:+,.0f} USD."
-                me.paso("ejecucion", txt, trabajando=False)
-                base.avisar_telefono(f"GSAM Cripto · {p['activo']} cerrada", txt, "high")
+        try:
+            if p["estado"] == "pendiente":
+                if precio <= p["stop"]:
+                    p["estado"] = "cancelada"
+                    me.paso("ejecucion", f"{p['activo']}: el precio rompió el stop antes de entrar. Idea cancelada.", trabajando=False)
+                elif precio <= p["entrada"]:
+                    if real:
+                        p["firma_compra"] = _comprar(p, p["usd"])
+                    p["estado"], p["precio_compra"] = "abierta", round(precio, 2)
+                    txt = f"{et}{p['activo']}: COMPRADO ${p['usd']} a ~{precio:,.0f}. Stop {p['stop']:,.0f} · objetivo {p['tp']:,.0f}."
+                    me.paso("ejecucion", txt, trabajando=False)
+                    base.avisar_telefono(f"GSAM Cripto · {p['activo']} dentro", txt, "high")
+                elif horas > VENCE_HORAS:
+                    p["estado"] = "cancelada"
+                    me.paso("ejecucion", f"{p['activo']}: el precio no llegó a la zona en {VENCE_HORAS} h. Idea cancelada.", trabajando=False)
+            elif p["estado"] == "abierta":
+                motivo = "stop" if precio <= p["stop"] else "objetivo" if precio >= p["tp"] else None
+                if motivo:
+                    if real:
+                        p["firma_venta"] = _vender_todo(p)
+                    p["estado"], p["resultado"], p["precio_venta"] = "cerrada", motivo, round(precio, 2)
+                    gan = p["usd"] * (precio / p["precio_compra"] - 1)
+                    txt = f"{et}{p['activo']} cerrada en {motivo} a ~{precio:,.0f}: {gan:+,.2f} USD."
+                    me.paso("ejecucion", txt, trabajando=False)
+                    base.avisar_telefono(f"GSAM Cripto · {p['activo']} cerrada", txt, "high")
+        except Exception as ex:
+            me.paso("ejecucion", f"{p['activo']}: no pude ejecutar el swap ({str(ex)[:90]}). Lo reintento en 30 min.", trabajando=False)
+            base.avisar_telefono("GSAM Cripto · error de ejecución", f"{p['activo']}: {str(ex)[:200]}", "high")
     me.m["posiciones"] = pos
     me.guardar("vigilancia de posiciones")
 
+
+def revisar_billetera():
+    """Lee la billetera del bot sin operar: confirma que la conexión funciona."""
+    me = Mesa()
+    try:
+        sal = _saldos()
+        me.paso("ejecucion", f"Billetera del bot conectada ({sal['direccion'][:4]}…{sal['direccion'][-4:]}): {sal['USDC']:.2f} USDC · "
+                             f"{sal['BTC']:.6f} BTC · {sal['SOL']:.4f} SOL. Modo: {'REAL' if _modo_real() else 'simulado'}.", trabajando=False)
+    except Exception as ex:
+        me.paso("ejecucion", f"No pude leer la billetera del bot ({str(ex)[:100]}).", trabajando=False)
 
 if __name__ == "__main__":
     t = (sys.argv[1] if len(sys.argv) > 1 else "manana").lower()
     if t == "vigilar":
         vigilar_cripto()
         sys.exit(0)
+    if t == "billetera":
+        revisar_billetera()
+        sys.exit(0)
     if t not in TURNOS:
-        sys.exit("Uso: python agentes/cripto.py <manana|noche|vigilar>")
+        sys.exit("Uso: python agentes/cripto.py <manana|noche|vigilar|billetera>")
     correr(t)
