@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4150.3 · NQ 31246.25 · VIX 15.6 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-08T08:47:35Z"
+   "ultimo_resultado": "Oro 4148.0 · NQ 31245.75 · VIX 15.61 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-08T08:52:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T08:47:34Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Fed's Waller: More hikes needed, but there is 'flexibility' about the pace"
+   "actualizado": "2026-10-08T08:52:34Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: U.S. Treasury Yields, Eurozone Bond Yields Rise Relentlessly"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4148.0 · NQ 31245.75 · VIX 15.61 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-08T08:52:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4150.3 · NQ 31246.25 · VIX 15.6 · 1 noticias nuevas (1 alto impacto)",
@@ -1050,11 +1055,6 @@
    "agente": "vigilante",
    "texto": "Oro 4137.5 · NQ 31388.75 · VIX 15.09 · 15 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-07T19:07:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4138.0 · NQ 31386.0 · VIX 15.11 · 15 noticias nuevas (3 alto impacto)",
-   "ts": "2026-10-07T19:02:40Z"
   }
  ],
  "briefs": [
@@ -3349,12 +3349,34 @@
   }
  },
  "en_vivo": {
-  "oro": 4150.3,
-  "nq": 31246.25,
-  "vix": 15.6,
-  "ts": "2026-10-08T08:47:35Z"
+  "oro": 4148.0,
+  "nq": 31245.75,
+  "vix": 15.61,
+  "ts": "2026-10-08T08:52:34Z"
  },
  "noticias": [
+  {
+   "titulo": "U.S. Treasury Yields, Eurozone Bond Yields Rise Relentlessly",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVktTdlI3bkRJUTFtb0hZd1RNa1F2UmRlRy1LTWxpR0txNmgyX0R2TnNCbXFpZ3pVTUFuSTJGc2U2T3Z0WkZIenpzNDBtdUxqbEIzOTNtU0hNR3g3OXYxNFVxS192VTNaSGdfbl8xVXotMUVieHgzUlpTVkwxbHhMdTdJcjNuU0lXYTFYZFhtUkxiSjdIOUVDcS1DNnp6VzFPaWNrVWxVbnA?oc=5",
+   "ts": "2026-10-08T08:42:00Z",
+   "fuente": "WSJ",
+   "id": "4150c83355",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "A Top Fed Official Casts Further Doubt on a Rate Rise This Month",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNckNMd0xCc1RMemJpSlNXQVBEeVFKUktQWmFwTlBZWTFrM19DWTA1d1dtN3djS0tSbTY3VzhWYlp2NEdpQ1RIdUthT2xGMVhPNmxqRXFyUEloVVNRQWZ6S3VQeHlZaklEbGh2SWRmckNONnZXaV81TjItOTAwZlBPakZsTzRoVHpMUDVEYlFpbTJraXM?oc=5",
+   "ts": "2026-10-08T08:38:56Z",
+   "fuente": "The New York Times",
+   "id": "07b8c7947d",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Fed's Waller: More hikes needed, but there is 'flexibility' about the pace",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVlJjTS1oeE1aRmVEcC05dTZkd25ONVRidzJkTlozaEE3Q0tvQ2hPd0dYemMxNWUzTUZORnFfb0FWZUdDOVp3QUVwelQ5cjJzcV9oMl9mZmpCTnJOaGh6XzZXLXlxOWJBUVhTX05oOVhwS2hhZG1WbmppWlRRRGNDOGZneGNneTRiLXBhVHd1Z3FGc1JaZC14Qm14SVRlYi1Cd3MxSjVR?oc=5",
@@ -4179,28 +4201,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Sacral Neuromodulation Still Seen as OAB Gold Standard in Review",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZzFfeDlCTGtBTzBsUjByTmUwN1RlSC1DVnNnZDFXb1hDWmwwN2RpYlNGNGRlRDFpS09nV0FpcW91bUtnUW5xTmNuZFhUVHVTYllrXy1ySXlWNWpSUXFvdGZMckszYzl0a3BsSDR5T2FjYTJFVTNwQVp0dHNLejZMREMwTVpTaHkyM3g5VkNDbjBGTXk4?oc=5",
-   "ts": "2026-10-07T21:02:36Z",
-   "fuente": "AJMC",
-   "id": "3f94f06bd0",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "TRX Gold Targets 5,500 TPD Buckreef Expansion, Updated PEA by Year-End",
-   "link": "https://www.marketbeat.com/instant-alerts/event-trx-gold-targets-5500-tpd-buckreef-expansion-updated-pea-by-year-end-2026-10-07/?utm_source=yahoofinance&amp;utm_medium=yahoofinance&amp;.tsrc=rss",
-   "ts": "2026-10-07T21:02:02Z",
-   "fuente": "Yahoo Finance",
-   "id": "d030041e5b",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -4773,14 +4773,14 @@
     4144.4,
     4157.7,
     4142.5,
-    4150.1
+    4147.9
    ],
    [
-    1791448653,
-    4150.3,
-    4150.3,
-    4150.3,
-    4150.3
+    1791448949,
+    4148.0,
+    4148.0,
+    4148.0,
+    4148.0
    ]
   ],
   "nq": [
@@ -5349,14 +5349,14 @@
     31224.75,
     31294.0,
     31217.25,
-    31247.25
+    31246.5
    ],
    [
-    1791448652,
-    31246.25,
-    31246.25,
-    31246.25,
-    31246.25
+    1791448951,
+    31245.75,
+    31245.75,
+    31245.75,
+    31245.75
    ]
   ],
   "vix": [
@@ -5764,14 +5764,14 @@
     15.66,
     15.67,
     15.51,
-    15.56
+    15.6
    ],
    [
-    1791448351,
-    15.6,
-    15.6,
-    15.6,
-    15.6
+    1791448651,
+    15.61,
+    15.61,
+    15.61,
+    15.61
    ]
   ]
  },
