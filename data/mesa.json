@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4153.9 · NQ 31230.0 · VIX 15.67",
-   "actualizado": "2026-10-08T09:12:32Z"
+   "ultimo_resultado": "Oro 4152.6 · NQ 31241.75 · VIX 15.67 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-08T09:17:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T09:12:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-08T09:17:34Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: France to release diesel reserves as student protests resume"
   },
   "historiador": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4152.6 · NQ 31241.75 · VIX 15.67 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-08T09:17:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4153.9 · NQ 31230.0 · VIX 15.67",
@@ -1050,11 +1055,6 @@
    "agente": "vigilante",
    "texto": "Oro 4134.4 · NQ 31353.5 · VIX 15.12 · 15 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-07T19:32:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4134.6 · NQ 31359.0 · VIX 15.11 · 15 noticias nuevas (3 alto impacto)",
-   "ts": "2026-10-07T19:27:36Z"
   }
  ],
  "briefs": [
@@ -3349,12 +3349,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4153.9,
-  "nq": 31230.0,
+  "oro": 4152.6,
+  "nq": 31241.75,
   "vix": 15.67,
-  "ts": "2026-10-08T09:12:32Z"
+  "ts": "2026-10-08T09:17:34Z"
  },
  "noticias": [
+  {
+   "titulo": "France to release diesel reserves as student protests resume",
+   "link": "https://www.cnbc.com/2026/10/08/france-diesel-reserves-protests.html",
+   "ts": "2026-10-08T09:16:41Z",
+   "fuente": "CNBC",
+   "id": "ab2c92c1ed",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Total Metals Mobilizes Drill Rig to its High-Grade High Lake Gold Project, Northwestern Ontario",
    "link": "https://finance.yahoo.com/markets/commodities/articles/total-metals-mobilizes-drill-rig-084500434.html?.tsrc=rss",
@@ -3495,6 +3504,18 @@
    "id": "92373aa776",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Markets Breathe Easier After Fed Minutes. Gold Doesn’t. What Gives?",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMUF1RW1OUE45MThKblRNN0JnNVVWNmlYMUVJWFVfRU1Ua2tjSVhNelJHN3dJLXU4dmF5b21oR3RDZnVOLVd3Z2dfSWt6NFdvZ3pNT0pGYWVWem5mdTljZ3JOU0RDZzZZRWNOc3p1eTVIN3BtQU5LSU1DdUM1c2JWZklSbWFfMmpqOXo5dUFWc0tkSWtYT0s4ck1YU2pSZ3Y1LWVLblJPcw?oc=5",
+   "ts": "2026-10-08T07:16:18Z",
+   "fuente": "tastylive",
+   "id": "6663deb91f",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Uniper (XTRA:UN0) Secures Sustainable Aviation Fuel Supply For Its Low Carbon Portfolio",
@@ -4178,30 +4199,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "AngloGold Ashanti (AU) Dips More Than Broader Market: What You Should Know",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/anglogold-ashanti-au-dips-more-211507472.html?.tsrc=rss",
-   "ts": "2026-10-07T21:15:07Z",
-   "fuente": "Yahoo Finance",
-   "id": "fdb05fdefb",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "AngloGold Ashanti cae más que el mercado general",
-   "efecto": "Ruido corporativo menor, sin impacto macro en el oro."
-  },
-  {
-   "titulo": "Kinross Gold (TSX:K) Has A Fresh Update, So What Are Investors Weighing Now?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-tsx-k-fresh-211225988.html?.tsrc=rss",
-   "ts": "2026-10-07T21:12:25Z",
-   "fuente": "Yahoo Finance",
-   "id": "4819236d7a",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -4779,16 +4776,16 @@
    [
     1791450000,
     4151.1,
-    4155.2,
+    4155.3,
     4150.3,
-    4154.8
+    4153.2
    ],
    [
-    1791450151,
-    4153.9,
-    4153.9,
-    4153.9,
-    4153.9
+    1791450446,
+    4152.4,
+    4152.4,
+    4152.4,
+    4152.4
    ]
   ],
   "nq": [
@@ -5362,16 +5359,16 @@
    [
     1791450000,
     31216.25,
-    31246.0,
+    31250.0,
     31214.75,
-    31239.75
+    31244.75
    ],
    [
-    1791450146,
-    31230.5,
-    31230.5,
-    31230.5,
-    31230.5
+    1791450452,
+    31241.75,
+    31241.75,
+    31241.75,
+    31241.75
    ]
   ],
   "vix": [
@@ -5782,7 +5779,14 @@
     15.68
    ],
    [
-    1791449851,
+    1791450000,
+    15.68,
+    15.69,
+    15.63,
+    15.66
+   ],
+   [
+    1791450151,
     15.67,
     15.67,
     15.67,
