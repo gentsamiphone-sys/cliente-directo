@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4159.3 · NQ 30971.75 · VIX 16.07 · 15 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-08T17:22:39Z"
+   "ultimo_resultado": "🎯 ORO COMPRA: TP1 · Oro 4162.4 · NQ 30929.75 · VIX 15.84 · 15 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-08T17:27:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-08T17:22:38Z",
-   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: CNBC's Financial Advisor 100: Best financial advisors, top firms for 2026 ranked"
+   "actualizado": "2026-10-08T17:27:34Z",
+   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: Gold, silver and bronze honors within USA Archery Achievement Award Program as 13 enjoy triple triumph"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "🎯 ORO COMPRA: TP1 · Oro 4162.4 · NQ 30929.75 · VIX 15.84 · 15 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-08T17:27:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4159.3 · NQ 30971.75 · VIX 16.07 · 15 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4159.1 · NQ 31392.25 · VIX 15.08 · 6 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-08T03:47:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4159.3 · NQ 31407.0 · VIX 15.08 · 8 noticias nuevas (3 alto impacto)",
-   "ts": "2026-10-08T03:42:29Z"
   }
  ],
  "briefs": [
@@ -1087,7 +1087,8 @@
      "confluencias": "4/5",
      "cancelar": "Rompe con fuerza 4125.0 antes de activar.",
      "motivo": "",
-     "vivo": "confirmada"
+     "vivo": "confirmada",
+     "aviso_tp1": true
     },
     {
      "activo": "NQ",
@@ -3552,12 +3553,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4159.3,
-  "nq": 30971.75,
-  "vix": 16.07,
-  "ts": "2026-10-08T17:22:38Z"
+  "oro": 4162.4,
+  "nq": 30929.75,
+  "vix": 15.84,
+  "ts": "2026-10-08T17:27:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Gold, silver and bronze honors within USA Archery Achievement Award Program as 13 enjoy triple triumph",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOVp1ZnJ6a0ZNUm5GRjVPVXdYbXdsbjFtTVJKREpEZG0wQWw4MmpYMVdwaVVQa01GUzFKV2NkRTNEaFZiSnF6R1FTeVhHX3UtQUlQek5kX2pxRkNmd0xpRjNKSFhNVzRmb2VjMC1rMWozSmI2WDU1Y1NCTGpKbHh1T1NKTlEySnl3WlZPSVg4U3pGM09YUG1YZnF1ZUZCNEhORldzaTBTektzM0J0RGVOT1c1SHl3c0EyakpKblVqWkx3b29lWXdBOW10OFJXd2Nq?oc=5",
+   "ts": "2026-10-08T17:19:53Z",
+   "fuente": "USA Archery",
+   "id": "5e60d1bd7a",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "CNBC's Financial Advisor 100: Best financial advisors, top firms for 2026 ranked",
    "link": "https://www.cnbc.com/2026/10/08/best-financial-advisors.html",
@@ -4420,17 +4432,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
-   "link": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
-   "ts": "2026-10-08T12:05:16Z",
-   "fuente": "CNBC",
-   "id": "a2fd1c203d",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -5057,16 +5058,16 @@
    [
     1791478800,
     4148.3,
-    4160.5,
+    4168.6,
     4146.9,
-    4159.8
+    4168.1
    ],
    [
-    1791479557,
-    4158.7,
-    4158.7,
-    4158.7,
-    4158.7
+    1791479851,
+    4162.4,
+    4162.4,
+    4162.4,
+    4162.4
    ]
   ],
   "nq": [
@@ -5689,16 +5690,16 @@
    [
     1791478800,
     31001.25,
-    31001.25,
+    31015.75,
     30908.5,
-    30980.0
+    30933.25
    ],
    [
-    1791479557,
-    30971.75,
-    30971.75,
-    30971.75,
-    30971.75
+    1791479853,
+    30929.75,
+    30929.75,
+    30929.75,
+    30929.75
    ]
   ],
   "vix": [
@@ -6167,16 +6168,16 @@
    [
     1791478800,
     15.69,
-    16.06,
+    16.07,
     15.69,
-    16.06
+    15.91
    ],
    [
-    1791479251,
-    16.07,
-    16.07,
-    16.07,
-    16.07
+    1791479551,
+    15.84,
+    15.84,
+    15.84,
+    15.84
    ]
   ]
  },
