@@ -13,7 +13,7 @@ on:
         required: true
         default: manana
         type: choice
-        options: [manana, noche, vigilar]
+        options: [manana, noche, vigilar, billetera]
 
 permissions:
   contents: write
@@ -37,7 +37,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-          BLOCKCHAIN_API_KEY: ${{ secrets.BLOCKCHAIN_API_KEY }}
+          SOLANA_BOT_KEY: ${{ secrets.SOLANA_BOT_KEY }}
           MODO_CRIPTO: ${{ secrets.MODO_CRIPTO }}
           SITIO_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/cripto.html
         run: |
