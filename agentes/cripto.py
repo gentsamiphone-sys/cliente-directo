@@ -272,6 +272,10 @@ DATOS:
         ejecutar_cripto(me, corto.get("entradas", []), mapas)
     except Exception as ex:
         me.paso("ejecucion", f"Error en la ejecución ({str(ex)[:80]}).", trabajando=False)
+    try:
+        enviar_futuros(me, corto.get("entradas", []))
+    except Exception as ex:
+        me.paso("futuros", f"Error enviando futuros ({str(ex)[:80]}).", trabajando=False)
     s = corto.get("sesgo", {})
     base.avisar_telefono(f"GSAM Cripto · BTC {s.get('btc', '?')} · ETH {s.get('eth', '?')}",
                          (corto.get("titular", "") + ("\n" + "\n".join(lineas) if lineas else "\nSin entrada de alta probabilidad."))[:900], "default")
@@ -413,6 +417,91 @@ def ejecutar_cripto(me, entradas, mapas):
         me.paso("ejecucion", txt, trabajando=False)
         base.avisar_telefono(f"GSAM Cripto · idea {act}", txt, "high")
     me.m["posiciones"] = pos[:50]
+
+
+# ───────── futuros micro de CME en la cuenta DEMO (TradersPost → Tradovate): compras Y ventas ─────────
+# BTC → MBT (Micro Bitcoin, 0.1 BTC) · ETH → MET (Micro Ether, 0.1 ETH). Riesgo fijo $350, tamaño variable, máx 10.
+RIESGO_FUT = 350
+FUT = {"BTC": {"ticker": "MBT", "vp": 0.1, "tick": 5.0, "margen": 50, "stop_min": 150, "max": 10},
+       "ETH": {"ticker": "MET", "vp": 0.1, "tick": 0.5, "margen": 3, "stop_min": 10, "max": 10}}
+
+
+def _cme_abierto():
+    """CME cripto: domingo 6 pm ET a viernes 5 pm ET (aprox. en UTC)."""
+    t = datetime.now(timezone.utc)
+    d, h = t.weekday(), t.hour
+    return not (d == 5 or (d == 4 and h >= 21) or (d == 6 and h < 22))
+
+
+def _conf(x):
+    import re
+    m = re.search(r"\d", str(x or ""))
+    return int(m.group()) if m else 0
+
+
+def enviar_futuros(me, entradas):
+    url = os.environ.get("TRADERSPOST_WEBHOOK", "").strip()
+    if not url:
+        return
+    if not _cme_abierto():
+        me.paso("futuros", "Mercado de futuros CME cerrado (fin de semana). No se envían órdenes.", trabajando=False)
+        return
+    hoy = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    env = me.m.setdefault("futuros_enviados", {})
+    for e in entradas or []:
+        act = str(e.get("activo", "")).upper()
+        c = FUT.get(act)
+        d = str(e.get("direccion", "")).upper()
+        if not c or d.startswith("SIN"):
+            continue
+        compra = d.startswith("COMPRA")
+        if env.get(act) == hoy:
+            me.paso("futuros", f"{c['ticker']}: ya se envió una orden hoy.", trabajando=False)
+            continue
+        conf = _conf(e.get("confluencias"))
+        lo, hi = M._rango(e.get("zona"))
+        stop, tp = M._n(e.get("stop")), M._n(e.get("tp2")) or M._n(e.get("tp1"))
+        if conf < 4 or not (lo and hi and stop and tp):
+            me.paso("futuros", f"{c['ticker']}: entrada incompleta o con {conf}/5 confluencias. No se envía.", trabajando=False)
+            continue
+        r = lambda x: round(round(x / c["tick"]) * c["tick"], 2)
+        if compra:
+            ent = lo
+            stop = min(stop, lo - c["margen"], ent - c["stop_min"])
+            ok = stop < ent < tp
+        else:
+            ent = hi
+            stop = max(stop, hi + c["margen"], ent + c["stop_min"])
+            ok = tp < ent < stop
+        ent, stop, tp = r(ent), r(stop), r(tp)
+        if not ok:
+            me.paso("futuros", f"{c['ticker']}: niveles incoherentes. No se envía.", trabajando=False)
+            continue
+        pts = abs(ent - stop)
+        rr = abs(tp - ent) / pts
+        if rr < 2:
+            me.paso("futuros", f"{c['ticker']}: R:R {rr:.1f} menor a 2. No se envía.", trabajando=False)
+            continue
+        q = min(c["max"], int(RIESGO_FUT // (pts * c["vp"])))
+        if q < 1:
+            me.paso("futuros", f"{c['ticker']}: stop muy amplio para ${RIESGO_FUT}. No se envía.", trabajando=False)
+            continue
+        orden = {"ticker": c["ticker"], "action": "buy" if compra else "sell", "orderType": "limit", "limitPrice": ent,
+                 "price": ent, "quantity": q, "stopLoss": {"type": "stop", "stopPrice": stop}, "takeProfit": {"limitPrice": tp}}
+        try:
+            resp = requests.post(url, json=orden, timeout=20)
+            ok_envio = resp.status_code < 300
+        except Exception as ex:
+            ok_envio, resp = False, ex
+        lado = "COMPRA" if compra else "VENTA"
+        txt = (f"[DEMO] {lado} {q} {c['ticker']} límite {ent:,.2f} · stop {stop:,.2f} · objetivo {tp:,.2f} · "
+               f"riesgo ${pts * c['vp'] * q:,.0f} · R:R {rr:.1f}")
+        if ok_envio:
+            env[act] = hoy
+            me.paso("futuros", txt, trabajando=False)
+            base.avisar_telefono(f"GSAM Cripto · {lado} {c['ticker']} (demo)", txt, "high")
+        else:
+            me.paso("futuros", f"{c['ticker']}: TradersPost no aceptó la orden ({str(getattr(resp, 'status_code', resp))[:60]}).", trabajando=False)
 
 
 def vigilar_cripto():
