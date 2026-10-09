@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4213.0 · NQ 31041.0 · VIX 15.08 · 13 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-09T14:17:34Z"
+   "ultimo_resultado": "Oro 4212.5 · NQ 31026.5 · VIX 15.04 · 10 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-09T14:22:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-09T14:17:34Z",
-   "ultimo_resultado": "13 titulares nuevos, 3 de alto impacto: New York Federal Reserve says inflation on everyday items is because of tariffs"
+   "actualizado": "2026-10-09T14:22:37Z",
+   "ultimo_resultado": "10 titulares nuevos, 1 de alto impacto: NBA commissioner says league wants access to prediction market data to detect manipulation"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4212.5 · NQ 31026.5 · VIX 15.04 · 10 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-09T14:22:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4213.0 · NQ 31041.0 · VIX 15.08 · 13 noticias nuevas (3 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4168.0 · NQ 31005.25 · VIX 15.41 · 14 noticias nuevas (2 alto impacto)",
    "ts": "2026-10-09T01:02:41Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4170.5 · NQ 31028.25 · VIX 15.41 · 14 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-09T00:57:33Z"
   }
  ],
  "briefs": [
@@ -4156,10 +4156,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4213.0,
-  "nq": 31041.0,
-  "vix": 15.08,
-  "ts": "2026-10-09T14:17:34Z"
+  "oro": 4212.5,
+  "nq": 31026.5,
+  "vix": 15.04,
+  "ts": "2026-10-09T14:22:38Z"
  },
  "noticias": [
   {
@@ -4181,6 +4181,15 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "NBA commissioner says league wants access to prediction market data to detect manipulation",
+   "link": "https://www.cnbc.com/2026/10/09/nba-commissioner-says-league-wants-access-to-prediction-market-data-to-detect-manipulation.html",
+   "ts": "2026-10-09T14:12:35Z",
+   "fuente": "CNBC",
+   "id": "139862f4bd",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Trump appoints committee to investigate statements by the Fed's Lisa Cook",
@@ -4353,6 +4362,15 @@
     "dolar"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Canada Manufacturing Grows More Modestly in September",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNY1NfOFFkM25TRUVCSjVBOUpkQXZ5T0dqeGFpTTdobjMwVGh6ekpfYWZ4cXdIUVp3LVlDWG5XSEM3VzNOT0RoOUtSYkZOdE93b1BueEtpZDlCV0JHbjJrbVJPaVVYSm92elJvOUlhbjl0RDRvbW9mLUdLYW1LWkNseUhtbExQbXJqLUtPcnpma0huYzlw?oc=5",
+   "ts": "2026-10-09T13:27:54Z",
+   "fuente": "WSJ",
+   "id": "b71836fabd",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Gold Advances as Strong Auction Demand Lowers Treasury Yields",
@@ -4900,6 +4918,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Four signs it is about to get uglier in the bond market",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZnpPbXRYRlc0T3dINmZIZnM3VEgxWWJzS2tLRVBadmJMVnQ2ekdHaTQ1NG1SZlhfTV84VjNsM3JNR0RRSTZyVWJ1ODJFZmxpa1pxckluaktPY0d6T0d3bUVUUnRGQjlCVmwxWUNGWEs2cEo1VGV4R3MxN19PakJaZ3FUZnZfMWxqUHAzNk1nOTVFT0hr?oc=5",
+   "ts": "2026-10-09T10:29:48Z",
+   "fuente": "Reuters",
+   "id": "5133847e79",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Fuel prices, tariffs weigh heavily in east Arkansas’ US House race",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM0U1SFVMYzJwRGZyZy1nU1VzcXdzeUVOc3pKakdnM0dVR3M3VldyTUN6LVRSUzU5ZlNEYjdzNXFMczFIYjluRTZwTDB0d09CQk9RUWlObnpaNzhUc0Nyc0VMbWhUTTlpRFBCcWM4aWk2NWVaR3ZVTEdrYlp1aGVaTnNONnhoWDVFaU5FbGxHcnZIMVNiUzV1WEpPZXZfS1VmTk4yWERQWUE?oc=5",
    "ts": "2026-10-09T10:29:01Z",
@@ -4958,35 +4987,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Okta (OKTA) Is Pushing Phishing Resistant Authentication In The AI Era",
-   "link": "https://finance.yahoo.com/technology/ai/articles/okta-okta-pushing-phishing-resistant-101356400.html?.tsrc=rss",
-   "ts": "2026-10-09T10:13:56Z",
-   "fuente": "Yahoo Finance",
-   "id": "d59e5b331a",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "South Africa lawyer 'Navi' Pillay wins Nobel Peace Prize for efforts to prosecute war crimes, genocide",
-   "link": "https://www.cnbc.com/2026/10/09/nobel-peace-prize-navanethem-navi-pillay-winner.html",
-   "ts": "2026-10-09T10:13:41Z",
-   "fuente": "CNBC",
-   "id": "0698941c9e",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "La abogada sudafricana 'Navi' Pillay gana el Premio Nobel de la Paz",
-   "efecto": ""
-  },
-  {
-   "titulo": "OpenAI defends decision to fire researchers: 'These decisions were not about raising safety concerns or speaking out'",
-   "link": "https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-concerns.html",
-   "ts": "2026-10-09T10:12:53Z",
-   "fuente": "CNBC",
-   "id": "171f3cd95d",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -5614,15 +5614,15 @@
     1791554400,
     4215.1,
     4216.2,
-    4210.0,
-    4214.6
+    4209.6,
+    4213.0
    ],
    [
-    1791554852,
-    4213.0,
-    4213.0,
-    4213.0,
-    4213.0
+    1791555156,
+    4212.5,
+    4212.5,
+    4212.5,
+    4212.5
    ]
   ],
   "nq": [
@@ -6245,16 +6245,16 @@
    [
     1791554400,
     31036.5,
-    31053.75,
-    31005.25,
-    31052.75
+    31065.5,
+    30991.0,
+    31036.0
    ],
    [
-    1791554853,
-    31041.0,
-    31041.0,
-    31041.0,
-    31041.0
+    1791555155,
+    31026.0,
+    31026.0,
+    31026.0,
+    31026.0
    ]
   ],
   "vix": [
@@ -6702,16 +6702,16 @@
    [
     1791554400,
     14.98,
-    15.07,
+    15.11,
     14.98,
-    15.05
+    15.08
    ],
    [
-    1791554551,
-    15.08,
-    15.08,
-    15.08,
-    15.08
+    1791554851,
+    15.04,
+    15.04,
+    15.04,
+    15.04
    ]
   ]
  },
