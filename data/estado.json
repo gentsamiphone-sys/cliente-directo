@@ -1878,10 +1878,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ultimo_resultado": "3 negocios nuevos de restaurantes y comida cerca de Spring Mountain Rd",
-   "actualizado": "2026-10-09T09:06:24Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
+   "actualizado": "2026-10-09T09:06:42Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -1909,6 +1909,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
+   "ts": "2026-10-09T09:06:42Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -3403,11 +3408,6 @@
    "agente": "disenador",
    "texto": "No pude armar la muestra de Ted Wiens Complete Auto Service; lo intento el próximo turno.",
    "ts": "2026-10-07T09:31:45Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Armando la muestra de Ted Wiens Complete Auto Service…",
-   "ts": "2026-10-07T09:29:44Z"
   }
  ],
  "reportes": {
