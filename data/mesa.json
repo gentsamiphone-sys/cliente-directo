@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4221.1 · NQ 31119.75 · VIX 14.84 · 15 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-09T20:52:33Z"
+   "ultimo_resultado": "Oro 4221.0 · NQ 31129.5 · VIX 14.84 · 15 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-09T20:57:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-09T20:52:31Z",
-   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: S&P/TSX Composite Index Jumps Friday Morning as Metal Prices Rally"
+   "actualizado": "2026-10-09T20:57:31Z",
+   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: French yields are near levels not seen since 2002. Why that could give U.S. Treasurys a boost"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4221.0 · NQ 31129.5 · VIX 14.84 · 15 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-09T20:57:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4221.1 · NQ 31119.75 · VIX 14.84 · 15 noticias nuevas (3 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "historiador",
    "texto": "Revisando qué pasó en esta misma fecha los últimos 10 años y buscando años parecidos…",
    "ts": "2026-10-09T06:33:01Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Volatilidad normal (VIX 15.41).",
-   "ts": "2026-10-09T06:33:00Z"
   }
  ],
  "briefs": [
@@ -4156,12 +4156,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4221.1,
-  "nq": 31119.75,
+  "oro": 4221.0,
+  "nq": 31129.5,
   "vix": 14.84,
-  "ts": "2026-10-09T20:52:33Z"
+  "ts": "2026-10-09T20:57:32Z"
  },
  "noticias": [
+  {
+   "titulo": "French yields are near levels not seen since 2002. Why that could give U.S. Treasurys a boost",
+   "link": "https://www.cnbc.com/2026/10/09/french-bond-yields-us-treasurys.html",
+   "ts": "2026-10-09T20:51:37Z",
+   "fuente": "CNBC",
+   "id": "8b213a6d29",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Tariffs pushed up consumer goods prices by 2.9 percentage points: NY Fed",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR0NJbXg0VW80eHY3QXIwUndTZko0bWlCSHFTS3ZiQjJ6VVVUOTBzTHNwelRkejZMeUMxa3F5QkxBVUdKLWVGTTlmdHZrbDc1aWF6V1hydzRfLWdvOWlIbndySWp1UThQaXkycHZIcFhoRWdwR2pscTR6bmNGNGZtMGRlQXVNdEE0QXk5akFkOW9JbjBxdF9SNHBZZ3NndWFhbU03RFZ5N2JTVUo3QkhOcUt1OA?oc=5",
@@ -4992,17 +5003,6 @@
    "id": "2fd2f55f3f",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Stocks rise as tech shares rebound following sell-off: Live updates",
-   "link": "https://www.cnbc.com/2026/10/08/stock-market-today-live-updates.html",
-   "ts": "2026-10-09T14:39:37Z",
-   "fuente": "CNBC",
-   "id": "425c8f8483",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -5631,14 +5631,14 @@
     4220.2,
     4222.6,
     4219.1,
-    4220.8
+    4220.9
    ],
    [
-    1791578546,
-    4221.1,
-    4221.1,
-    4221.1,
-    4221.1
+    1791578849,
+    4221.0,
+    4221.0,
+    4221.0,
+    4221.0
    ]
   ],
   "nq": [
@@ -6261,16 +6261,16 @@
    [
     1791576000,
     31112.0,
-    31121.5,
+    31130.0,
     31106.5,
-    31118.0
+    31128.75
    ],
    [
-    1791578549,
-    31119.75,
-    31119.75,
-    31119.75,
-    31119.75
+    1791578851,
+    31129.5,
+    31129.5,
+    31129.5,
+    31129.5
    ]
   ],
   "vix": [
@@ -6774,10 +6774,10 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-09T20:37:34Z",
- "ult_4h": 1791578552.5947402,
+ "ult_4h": 1791579452.346432,
  "estrategia_4h": {
   "oro": {
-   "precio": 4221.3,
+   "precio": 4221.0,
    "atr_4h": 25.88,
    "setups": [
     {
@@ -6794,11 +6794,11 @@
    ]
   },
   "nq": {
-   "precio": 31114.5,
-   "atr_4h": 164.29,
+   "precio": 31129.5,
+   "atr_4h": 164.89,
    "setups": []
   },
-  "ts": "2026-10-09T20:42:33Z"
+  "ts": "2026-10-09T20:57:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo"
