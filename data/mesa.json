@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4205.1 · NQ 31205.75 · VIX 15.23 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-09T11:12:35Z"
+   "ultimo_resultado": "Oro 4202.3 · NQ 31194.75 · VIX 15.21 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-09T11:17:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-09T11:12:34Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: For the final 10% of cystic fibrosis, the breakthrough still hasn't come"
+   "actualizado": "2026-10-09T11:17:32Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: UBS Picks Top Gold Mining Stocks as Sector Faces Cost Pressures in 2027"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4202.3 · NQ 31194.75 · VIX 15.21 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-09T11:17:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4205.1 · NQ 31205.75 · VIX 15.23 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Historial: 5 operaciones, 40% de acierto, -0.1 R.",
    "ts": "2026-10-08T21:32:48Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Revisando cómo salieron las entradas anteriores…",
-   "ts": "2026-10-08T21:32:47Z"
   }
  ],
  "briefs": [
@@ -3965,10 +3965,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4205.1,
-  "nq": 31205.75,
-  "vix": 15.23,
-  "ts": "2026-10-09T11:12:35Z"
+  "oro": 4202.3,
+  "nq": 31194.75,
+  "vix": 15.21,
+  "ts": "2026-10-09T11:17:33Z"
  },
  "noticias": [
   {
@@ -4008,6 +4008,18 @@
    "id": "70ec4179bb",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "UBS Picks Top Gold Mining Stocks as Sector Faces Cost Pressures in 2027",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/ubs-picks-top-gold-mining-105742872.html?.tsrc=rss",
+   "ts": "2026-10-09T10:57:42Z",
+   "fuente": "Yahoo Finance",
+   "id": "3ba3d2ea0d",
+   "activos": [
+    "oro",
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -4526,6 +4538,18 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Gold Steadies as Traders Assess US-Iran Tensions, Fed Rate Path",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZDFBZHA2ZldZVC1QZXBxNEIzTlRYcGdFWFJNRWlRLVJremJKZWt2bnJ0LUVTWXhnWWQwdFhwN0JyT3VMazZRdmVnTnVQMjBHSUpYTUQtRk1Kdld3X0JqWHBDOERUNEFaQlhJWklmLXZVblVxOFZURUR1QzBUV2NmRko0NURramJ3OFV3Z0o1UHpFZWNyYTl5cFR2Z3RLWFBIMzBUS1pJZTJrZEVQZzY3SVJxRQ?oc=5",
+   "ts": "2026-10-09T05:46:00Z",
+   "fuente": "Bloomberg.com",
+   "id": "fd8839ad6d",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "India withdraws bank tax benefit on gold, silver, platinum imports",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRmU4eF9SMk8zdTl4VlRfT0phZUl0UW5aeUxMUkV4RGsyU1BFcllDV3NMYVBhYVpORUU0dU5OZzdnMFlIRDVqLS1TUVJVbG5UX1dPSjltYkh3U19lZmx5UnI3dzdzMmhhZzEtYXExTHNqSlFseDl6SlZvYkhBYVIwcUdPRzBTazBGb3JnZ0JnRUl4a0ViZERFeHp6UTJQZGw3TFVrRlF1dE0xNmJhOHc?oc=5",
    "ts": "2026-10-09T05:10:00Z",
@@ -4822,29 +4846,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Gold rises on softer dollar, easing yields; Fed outlook in focus",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVl80MTVLVXR1WWd1MGxyNFRNN1VaNlJ2WFNIeGlrLS1HTGwzc1pZZ3FqaFZyOFBZcDk0VGRnMzVvSUtiSGFyR3c2Z29Fa25XZk1xX0JlWGpJZVlNaEJhWXhoenc3enFGZGZ3QnVUaGg1U2ZTNE9GZGxfTDIyb3hoMl9ycTNsOHpHeWdKRXk1VmdZZ1VITnhMR29NQ3JYUmV4TXJpemVRaw?oc=5",
-   "ts": "2026-10-09T01:58:00Z",
-   "fuente": "Reuters",
-   "id": "7619d28767",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Moderna (MRNA) Was Removed From the Nasdaq-100 and Is Going Back In. What Changed?",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZS1TSVd2VDV5ZG1EMVhTWTh4TzhLakwwV2hILWlpLTBkaU9DRTJKRTlwYWkxWTg3b1h3VS1jMk51VVNyNnI3bVlLNVFpYmtmVnd5RE1WTnhwNHEzTDRpNWoyMjVUN2NlbkQxdFFyS0JQZnlNVXAzVFktNnZ5NDYtYjQzT3lSaUtudVowU2QydTduUzNVbTMxbUtmcHc?oc=5",
-   "ts": "2026-10-09T01:44:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "5a35ae470f",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -5472,15 +5473,15 @@
     1791543600,
     4204.0,
     4207.1,
-    4203.6,
-    4203.6
+    4201.8,
+    4202.0
    ],
    [
-    1791543747,
-    4204.6,
-    4204.6,
-    4204.6,
-    4204.6
+    1791544051,
+    4202.3,
+    4202.3,
+    4202.3,
+    4202.3
    ]
   ],
   "nq": [
@@ -6104,15 +6105,15 @@
     1791543600,
     31200.25,
     31215.0,
-    31190.25,
-    31198.5
+    31187.5,
+    31199.5
    ],
    [
-    1791543753,
-    31206.75,
-    31206.75,
-    31206.75,
-    31206.75
+    1791544054,
+    31194.75,
+    31194.75,
+    31194.75,
+    31194.75
    ]
   ],
   "vix": [
@@ -6534,14 +6535,21 @@
     15.22,
     15.31,
     15.21,
-    15.25
+    15.24
    ],
    [
-    1791543451,
-    15.23,
-    15.23,
-    15.23,
-    15.23
+    1791543600,
+    15.25,
+    15.26,
+    15.2,
+    15.2
+   ],
+   [
+    1791543751,
+    15.21,
+    15.21,
+    15.21,
+    15.21
    ]
   ]
  },
