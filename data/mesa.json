@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4220.5 · NQ 31116.5 · VIX 14.81 · 15 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-09T20:12:37Z"
+   "ultimo_resultado": "Oro 4219.9 · NQ 31112.25 · VIX 14.79 · 15 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-09T20:17:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-09T20:12:36Z",
-   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: Trump appoints committee to investigate statements by the Fed's Lisa Cook"
+   "actualizado": "2026-10-09T20:17:31Z",
+   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: Verizon posts worst day since 2002 as SpaceX U.S. network plans whack cell provider stocks"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4219.9 · NQ 31112.25 · VIX 14.79 · 15 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-09T20:17:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4220.5 · NQ 31116.5 · VIX 14.81 · 15 noticias nuevas (3 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
    "ts": "2026-10-09T06:32:50Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "DXY -0.1% · 10Y 5.231 · VIX 15.41 · 4 eventos USD en el radar.",
-   "ts": "2026-10-09T06:32:49Z"
   }
  ],
  "briefs": [
@@ -4156,12 +4156,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4220.5,
-  "nq": 31116.5,
-  "vix": 14.81,
-  "ts": "2026-10-09T20:12:36Z"
+  "oro": 4219.9,
+  "nq": 31112.25,
+  "vix": 14.79,
+  "ts": "2026-10-09T20:17:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Verizon posts worst day since 2002 as SpaceX U.S. network plans whack cell provider stocks",
+   "link": "https://www.cnbc.com/2026/10/09/verizon-att-tmobile-stocks-spacex-network.html",
+   "ts": "2026-10-09T20:16:58Z",
+   "fuente": "CNBC",
+   "id": "753e37b505",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Inside the 16th Annual T.H.I.N.K. Gold Conference at Levi's® Stadium",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUGVXRjJLLWRlRHMzOWllQXVkTXd6Y25mTlZiV25uYnRkeGJjOTlhNXhoZXBHYXdsU0tiSFpXM3BITmpRTHBjT2ppcGhod3lRX1dhbkFsSWk2a1lQZkUtbV9mRnRGckVkZ0k3eDFPT3lQdTRmd1pLdTlVWXo3ZkNib2w1bWxtbVhwQ2JnNW5XVjBEdC1qajhvTElB?oc=5",
@@ -4984,15 +4995,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "NBA commissioner says league wants access to prediction market data to detect manipulation",
-   "link": "https://www.cnbc.com/2026/10/09/nba-commissioner-says-league-wants-access-to-prediction-market-data-to-detect-manipulation.html",
-   "ts": "2026-10-09T14:12:35Z",
-   "fuente": "CNBC",
-   "id": "139862f4bd",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -5620,15 +5622,15 @@
     1791576000,
     4220.2,
     4221.0,
-    4219.2,
-    4220.6
+    4219.1,
+    4220.0
    ],
    [
-    1791576153,
-    4220.4,
-    4220.4,
-    4220.4,
-    4220.4
+    1791576447,
+    4219.9,
+    4219.9,
+    4219.9,
+    4219.9
    ]
   ],
   "nq": [
@@ -6253,14 +6255,14 @@
     31112.0,
     31120.0,
     31106.5,
-    31117.25
+    31113.5
    ],
    [
-    1791576155,
-    31117.25,
-    31117.25,
-    31117.25,
-    31117.25
+    1791576438,
+    31112.0,
+    31112.0,
+    31112.0,
+    31112.0
    ]
   ],
   "vix": [
@@ -6745,14 +6747,14 @@
     14.82,
     14.89,
     14.79,
-    14.81
+    14.79
    ],
    [
-    1791575851,
-    14.81,
-    14.81,
-    14.81,
-    14.81
+    1791576000,
+    14.77,
+    14.8,
+    14.77,
+    14.79
    ]
   ]
  },
