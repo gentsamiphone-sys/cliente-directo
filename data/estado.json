@@ -1890,10 +1890,10 @@
    "actualizado": "2026-10-09T08:37:33Z"
   },
   "disenador": {
-   "estado": "trabajando",
-   "tarea": "Revisando qué negocios necesitan muestra",
-   "ultimo_resultado": "3 muestras nuevas",
-   "actualizado": "2026-10-09T09:28:24Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "No había negocios nuevos para armar muestra",
+   "actualizado": "2026-10-09T09:28:25Z"
   },
   "vendedor": {
    "estado": "descansando",
@@ -1909,6 +1909,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "disenador",
+   "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
+   "ts": "2026-10-09T09:28:25Z"
+  },
   {
    "agente": "buscador",
    "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
@@ -3403,11 +3408,6 @@
    "agente": "disenador",
    "texto": "Terminó su turno: 1 muestras nuevas",
    "ts": "2026-10-07T09:31:46Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "No pude armar la muestra de Ted Wiens Complete Auto Service; lo intento el próximo turno.",
-   "ts": "2026-10-07T09:31:45Z"
   }
  ],
  "reportes": {
