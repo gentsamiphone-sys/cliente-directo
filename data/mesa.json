@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4206.4 · NQ 31203.25 · VIX 15.23 · 5 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-09T11:32:36Z"
+   "ultimo_resultado": "Oro 4207.3 · NQ 31212.75 · VIX 15.25 · 4 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-09T11:37:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-09T11:32:35Z",
-   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: 2 Semiconductor Stocks to Buy and Hold Through 2032"
+   "actualizado": "2026-10-09T11:37:32Z",
+   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: Stocks making the biggest moves premarket: Delta Air Lines, SpaceX, T-Mobile, Humana & more"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4207.3 · NQ 31212.75 · VIX 15.25 · 4 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-09T11:37:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4206.4 · NQ 31203.25 · VIX 15.23 · 5 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +120,318 contratos.",
    "ts": "2026-10-08T21:32:54Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-10-08T21:32:52Z"
   }
  ],
  "briefs": [
@@ -3965,12 +3965,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4206.4,
-  "nq": 31203.25,
-  "vix": 15.23,
-  "ts": "2026-10-09T11:32:35Z"
+  "oro": 4207.3,
+  "nq": 31212.75,
+  "vix": 15.25,
+  "ts": "2026-10-09T11:37:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Stocks making the biggest moves premarket: Delta Air Lines, SpaceX, T-Mobile, Humana & more",
+   "link": "https://www.cnbc.com/2026/10/09/stocks-making-the-biggest-moves-premarket-dal-spcx-tmus.html",
+   "ts": "2026-10-09T11:31:07Z",
+   "fuente": "CNBC",
+   "id": "2e2b36d70b",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "2 Semiconductor Stocks to Buy and Hold Through 2032",
    "link": "https://www.fool.com/investing/2026/10/09/2-semiconductor-stocks-to-buy-and-hold-through-203/?.tsrc=rss",
@@ -3990,6 +4001,18 @@
    "id": "10a735f9b1",
    "activos": [
     "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "3 US Life Insurance Stocks Linked To Higher Treasury Yields",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaHpRQ3JpYTNtOE1XU2RUVzZGYzJOYjFLQ2pRa0xSTVlyNGFLV0RNMHZHWVo3OGRISTlrR0U3NTZCTzliOWpBM3NlRlZRUWMxU28xY0U0eEhMN2RPTW9SMzBNQzhpOWlRbWdreDhsYTRyMXRxZTIwVDl4RHFwdzlxckZEQ3g2N01tSllBMWx1cnRxbVh2cHc?oc=5",
+   "ts": "2026-10-09T11:16:03Z",
+   "fuente": "Yahoo Finance",
+   "id": "9596d06785",
+   "activos": [
+    "nq",
+    "dolar"
    ],
    "impacto": "medio"
   },
@@ -4831,31 +4854,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Gold rises over 1% as dollar weakens, Treasury yields retreat",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-rises-over-1-dollar-032631854.html?.tsrc=rss",
-   "ts": "2026-10-09T03:26:31Z",
-   "fuente": "Yahoo Finance",
-   "id": "7903ebd5df",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Americas Gold And Silver (TSX:USA) Following The Cosalá Growth Story And Its Undervalued View",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSXR6dkxTQjNZeWx0X1Jpa2JvUzBjVWZaSEhCRGN3OVhEOFROTmlmMENuc3JDNlZHWjV1RDlwNE56ZHhhbGZ6YXZHUlJ5ZjFhT1NEYjM1a1Jrd2xRNFVpRkdUQ2plZi1KS1JFU0VFWTlta0pjbHRxNHdFa2JlVERwZklCVXF3ZTA1a3pfdGxfSG5BcnNSdTh6aQ?oc=5",
-   "ts": "2026-10-09T03:25:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "2e597801ae",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Americas Gold And Silver analiza la historia de crecimiento de Cosalá",
-   "efecto": "Contenido promocional o de análisis sectorial específico; sin efecto institucional."
   }
  ],
  "eventos_avisados": [
@@ -4865,7 +4863,7 @@
   "oro": [
    [
     1791216000,
-    4164.7,
+    4164.6,
     4164.8,
     4153.6,
     4158.3
@@ -4907,7 +4905,7 @@
    ],
    [
     1791237600,
-    4169.2,
+    4168.8,
     4172.5,
     4167.6,
     4167.9
@@ -4921,10 +4919,10 @@
    ],
    [
     1791244800,
-    4161.2,
+    4160.9,
     4178.8,
     4160.1,
-    4178.4
+    4178.3
    ],
    [
     1791248400,
@@ -4942,7 +4940,7 @@
    ],
    [
     1791255600,
-    4157.6,
+    4157.5,
     4160.8,
     4151.0,
     4154.5
@@ -4970,7 +4968,7 @@
    ],
    [
     1791270000,
-    4159.0,
+    4159.1,
     4170.6,
     4155.5,
     4167.5
@@ -5015,11 +5013,11 @@
     4198.2,
     4202.5,
     4179.3,
-    4180.0
+    4180.1
    ],
    [
     1791295200,
-    4180.1,
+    4179.8,
     4185.9,
     4170.6,
     4184.5
@@ -5029,14 +5027,14 @@
     4184.4,
     4198.7,
     4183.9,
-    4192.4
+    4192.3
    ],
    [
     1791302400,
     4192.7,
     4193.6,
     4181.6,
-    4184.3
+    4184.2
    ],
    [
     1791306000,
@@ -5057,7 +5055,7 @@
     4203.4,
     4212.4,
     4194.6,
-    4197.1
+    4197.3
    ],
    [
     1791316800,
@@ -5068,9 +5066,9 @@
    ],
    [
     1791324000,
-    4195.0,
     4195.9,
-    4189.3,
+    4195.9,
+    4190.0,
     4190.7
    ],
    [
@@ -5082,7 +5080,7 @@
    ],
    [
     1791331200,
-    4193.2,
+    4193.3,
     4197.3,
     4182.9,
     4183.6
@@ -5110,7 +5108,7 @@
    ],
    [
     1791345600,
-    4169.9,
+    4170.1,
     4171.1,
     4161.0,
     4161.6
@@ -5124,10 +5122,10 @@
    ],
    [
     1791352800,
-    4154.8,
+    4154.7,
     4161.9,
     4153.2,
-    4156.7
+    4156.8
    ],
    [
     1791356400,
@@ -5152,10 +5150,10 @@
    ],
    [
     1791367200,
-    4145.7,
+    4146.0,
     4146.9,
     4135.0,
-    4142.9
+    4143.0
    ],
    [
     1791370800,
@@ -5176,18 +5174,18 @@
     4112.6,
     4125.0,
     4108.0,
-    4124.0
+    4123.9
    ],
    [
     1791381600,
-    4124.0,
+    4124.1,
     4134.9,
     4119.0,
-    4130.1
+    4130.0
    ],
    [
     1791385200,
-    4130.4,
+    4130.5,
     4139.1,
     4124.5,
     4131.3
@@ -5201,14 +5199,14 @@
    ],
    [
     1791392400,
-    4135.0,
+    4134.9,
     4153.2,
     4133.9,
     4136.4
    ],
    [
     1791396000,
-    4136.5,
+    4136.3,
     4146.0,
     4132.8,
     4135.5
@@ -5243,10 +5241,10 @@
    ],
    [
     1791417600,
-    4133.0,
+    4133.6,
     4145.2,
     4130.0,
-    4141.6
+    4142.0
    ],
    [
     1791421200,
@@ -5257,14 +5255,14 @@
    ],
    [
     1791424800,
-    4156.6,
+    4156.8,
     4166.8,
     4155.5,
     4157.1
    ],
    [
     1791428400,
-    4157.0,
+    4157.3,
     4163.7,
     4151.8,
     4160.4
@@ -5274,7 +5272,7 @@
     4159.8,
     4165.7,
     4154.7,
-    4157.7
+    4157.8
    ],
    [
     1791435600,
@@ -5292,14 +5290,14 @@
    ],
    [
     1791442800,
-    4145.7,
+    4145.5,
     4154.3,
     4142.1,
     4144.1
    ],
    [
     1791446400,
-    4144.4,
+    4144.3,
     4157.7,
     4142.5,
     4150.9
@@ -5309,7 +5307,7 @@
     4151.1,
     4155.3,
     4144.0,
-    4147.8
+    4147.9
    ],
    [
     1791453600,
@@ -5320,21 +5318,21 @@
    ],
    [
     1791457200,
-    4146.1,
+    4146.5,
     4154.5,
     4138.9,
     4149.1
    ],
    [
     1791460800,
-    4148.7,
+    4148.4,
     4156.7,
     4137.3,
     4142.5
    ],
    [
     1791464400,
-    4142.9,
+    4142.4,
     4158.8,
     4139.3,
     4154.7
@@ -5348,14 +5346,14 @@
    ],
    [
     1791471600,
-    4148.9,
+    4148.6,
     4149.0,
     4134.6,
     4135.9
    ],
    [
     1791475200,
-    4135.8,
+    4135.4,
     4157.0,
     4129.2,
     4148.1
@@ -5379,18 +5377,18 @@
     4151.5,
     4159.1,
     4151.5,
-    4158.3
+    4158.1
    ],
    [
     1791489600,
-    4158.1,
+    4158.0,
     4161.2,
     4156.9,
     4158.3
    ],
    [
     1791496800,
-    4159.7,
+    4159.3,
     4165.9,
     4156.1,
     4163.3
@@ -5404,14 +5402,14 @@
    ],
    [
     1791504000,
-    4169.4,
+    4169.3,
     4175.3,
     4166.4,
     4168.1
    ],
    [
     1791507600,
-    4167.9,
+    4168.7,
     4199.9,
     4167.9,
     4199.8
@@ -5425,14 +5423,14 @@
    ],
    [
     1791514800,
-    4202.6,
+    4202.5,
     4204.6,
     4198.1,
     4202.3
    ],
    [
     1791518400,
-    4202.1,
+    4202.3,
     4210.2,
     4201.3,
     4206.4
@@ -5446,14 +5444,14 @@
    ],
    [
     1791525600,
-    4218.0,
+    4218.4,
     4224.0,
     4213.5,
     4220.6
    ],
    [
     1791529200,
-    4220.7,
+    4220.8,
     4222.8,
     4214.2,
     4219.2
@@ -5481,17 +5479,17 @@
    ],
    [
     1791543600,
-    4204.0,
-    4208.6,
+    4204.1,
+    4208.8,
     4199.2,
-    4208.5
+    4207.9
    ],
    [
-    1791544953,
-    4206.4,
-    4206.4,
-    4206.4,
-    4206.4
+    1791545242,
+    4207.3,
+    4207.3,
+    4207.3,
+    4207.3
    ]
   ],
   "nq": [
@@ -6116,14 +6114,14 @@
     31200.25,
     31218.75,
     31184.25,
-    31212.75
+    31216.5
    ],
    [
-    1791544953,
-    31203.25,
-    31203.25,
-    31203.25,
-    31203.25
+    1791545248,
+    31212.75,
+    31212.75,
+    31212.75,
+    31212.75
    ]
   ],
   "vix": [
@@ -6552,14 +6550,14 @@
     15.25,
     15.29,
     15.2,
-    15.23
+    15.24
    ],
    [
-    1791544651,
-    15.23,
-    15.23,
-    15.23,
-    15.23
+    1791544951,
+    15.25,
+    15.25,
+    15.25,
+    15.25
    ]
   ]
  },
