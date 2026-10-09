@@ -1890,10 +1890,10 @@
    "actualizado": "2026-10-09T10:37:39Z"
   },
   "disenador": {
-   "estado": "trabajando",
-   "tarea": "Revisando qué negocios necesitan muestra",
+   "estado": "descansando",
+   "tarea": "",
    "ultimo_resultado": "No había negocios nuevos para armar muestra",
-   "actualizado": "2026-10-09T11:27:33Z"
+   "actualizado": "2026-10-09T11:27:34Z"
   },
   "vendedor": {
    "estado": "descansando",
@@ -1909,6 +1909,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "disenador",
+   "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
+   "ts": "2026-10-09T11:27:34Z"
+  },
   {
    "agente": "buscador",
    "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
@@ -3403,11 +3408,6 @@
    "agente": "disenador",
    "texto": "Armando la muestra de Audio Express…",
    "ts": "2026-10-07T11:27:30Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "ts": "2026-10-07T11:06:31Z"
   }
  ],
  "reportes": {
