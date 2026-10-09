@@ -10,7 +10,7 @@ Siete agentes con mentalidad de fondo cripto institucional preparan el brief dos
   cio          → junta todo y escribe el brief con sesgo, zonas y escenarios
   ejecucion    → (opcional) compra BTC on-chain en Solana (Jupiter) desde la billetera del bot, riesgo 1% y stop vigilado
 
-Uso: python agentes/cripto.py <manana|noche|vigilar|billetera|devolver>
+Uso: python agentes/cripto.py <manana|noche|vigilar|billetera|preparar|devolver>
 Todo queda en data/cripto.json (la página cripto.html lo lee en vivo).
 Es análisis educativo; no es consejo financiero. Solo ejecuta si MODO_CRIPTO=real.
 """
@@ -473,6 +473,27 @@ def revisar_billetera():
         me.paso("ejecucion", f"No pude leer la billetera del bot ({str(ex)[:100]}).", trabajando=False)
 
 
+def preparar():
+    """Cambia el SOL de la billetera del bot a USDC (deja 0.03 SOL para comisiones). Lo lanzas tú desde GitHub Actions."""
+    me = Mesa()
+    try:
+        sal = _saldos()
+        reserva = 0.03
+        cambiar = sal["SOL"] - reserva
+        if cambiar < 0.01:
+            me.paso("ejecucion", f"No hay SOL suficiente para cambiar (hay {sal['SOL']:.4f}, se dejan {reserva} para comisiones).", trabajando=False)
+            return
+        sig = _swap("So11111111111111111111111111111111111111112", USDC, int(cambiar * 1e9))
+        time.sleep(3)
+        nuevo = _saldos()
+        txt = (f"Cambiados {cambiar:.4f} SOL a USDC (firma {sig[:10]}…). Billetera del bot: {nuevo['USDC']:.2f} USDC · "
+               f"{nuevo['SOL']:.4f} SOL. Lista para operar.")
+        me.paso("ejecucion", txt, trabajando=False)
+        base.avisar_telefono("GSAM Cripto · billetera lista", txt, "high")
+    except Exception as ex:
+        me.paso("ejecucion", f"No pude cambiar SOL a USDC ({str(ex)[:100]}).", trabajando=False)
+
+
 def devolver(destino):
     """Envía todo el SOL de la billetera del bot a 'destino' (una dirección tuya). Lo lanzas tú desde GitHub Actions."""
     import base64
@@ -510,9 +531,12 @@ if __name__ == "__main__":
     if t == "billetera":
         revisar_billetera()
         sys.exit(0)
+    if t == "preparar":
+        preparar()
+        sys.exit(0)
     if t == "devolver":
         devolver(os.environ.get("DESTINO", ""))
         sys.exit(0)
     if t not in TURNOS:
-        sys.exit("Uso: python agentes/cripto.py <manana|noche|vigilar|billetera|devolver>")
+        sys.exit("Uso: python agentes/cripto.py <manana|noche|vigilar|billetera|preparar|devolver>")
     correr(t)
