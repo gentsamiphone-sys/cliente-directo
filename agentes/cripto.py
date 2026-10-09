@@ -10,7 +10,7 @@ Siete agentes con mentalidad de fondo cripto institucional preparan el brief dos
   cio          → junta todo y escribe el brief con sesgo, zonas y escenarios
   ejecucion    → (opcional) compra BTC on-chain en Solana (Jupiter) desde la billetera del bot, riesgo 1% y stop vigilado
 
-Uso: python agentes/cripto.py <manana|noche|vigilar|billetera>
+Uso: python agentes/cripto.py <manana|noche|vigilar|billetera|devolver>
 Todo queda en data/cripto.json (la página cripto.html lo lee en vivo).
 Es análisis educativo; no es consejo financiero. Solo ejecuta si MODO_CRIPTO=real.
 """
@@ -472,6 +472,36 @@ def revisar_billetera():
     except Exception as ex:
         me.paso("ejecucion", f"No pude leer la billetera del bot ({str(ex)[:100]}).", trabajando=False)
 
+
+def devolver(destino):
+    """Envía todo el SOL de la billetera del bot a 'destino' (una dirección tuya). Lo lanzas tú desde GitHub Actions."""
+    import base64
+    from solders.hash import Hash
+    from solders.message import Message
+    from solders.pubkey import Pubkey
+    from solders.system_program import TransferParams, transfer
+    from solders.transaction import Transaction
+    me = Mesa()
+    try:
+        dest = Pubkey.from_string(destino.strip())
+        kp = _llave()
+        sal = _saldos()
+        if sal["USDC"] > 0 or sal["BTC"] > 0:
+            me.paso("ejecucion", f"La billetera del bot tiene {sal['USDC']:.2f} USDC y {sal['BTC']:.6f} BTC: pásalos a SOL o muévelos desde Phantom antes de devolver.", trabajando=False)
+        lam = _rpc("getBalance", [str(kp.pubkey())])["value"] - 5000
+        if lam <= 0:
+            me.paso("ejecucion", "La billetera del bot no tiene SOL para devolver.", trabajando=False)
+            return
+        bh = _rpc("getLatestBlockhash", [{"commitment": "finalized"}])["value"]["blockhash"]
+        ix = transfer(TransferParams(from_pubkey=kp.pubkey(), to_pubkey=dest, lamports=lam))
+        tx = Transaction([kp], Message([ix], kp.pubkey()), Hash.from_string(bh))
+        sig = _rpc("sendTransaction", [base64.b64encode(bytes(tx)).decode(), {"encoding": "base64"}])
+        txt = f"Devueltos {lam / 1e9:.4f} SOL a {str(dest)[:4]}…{str(dest)[-4:]} (firma {sig[:10]}…)."
+        me.paso("ejecucion", txt, trabajando=False)
+        base.avisar_telefono("GSAM Cripto · SOL devuelto", txt, "high")
+    except Exception as ex:
+        me.paso("ejecucion", f"No pude devolver el SOL ({str(ex)[:100]}).", trabajando=False)
+
 if __name__ == "__main__":
     t = (sys.argv[1] if len(sys.argv) > 1 else "manana").lower()
     if t == "vigilar":
@@ -480,6 +510,9 @@ if __name__ == "__main__":
     if t == "billetera":
         revisar_billetera()
         sys.exit(0)
+    if t == "devolver":
+        devolver(os.environ.get("DESTINO", ""))
+        sys.exit(0)
     if t not in TURNOS:
-        sys.exit("Uso: python agentes/cripto.py <manana|noche|vigilar|billetera>")
+        sys.exit("Uso: python agentes/cripto.py <manana|noche|vigilar|billetera|devolver>")
     correr(t)
