@@ -1747,9 +1747,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Boulder Hwy…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-09T03:02:35Z"
+   "actualizado": "2026-10-09T03:06:24Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -1777,6 +1777,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-09T03:06:24Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Boulder Hwy…",
@@ -3271,11 +3276,6 @@
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ts": "2026-10-07T05:06:23Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de E Charleston Blvd…",
-   "ts": "2026-10-07T05:02:34Z"
   }
  ],
  "reportes": {
