@@ -16,6 +16,7 @@ Es análisis educativo; no es consejo financiero. Solo ejecuta si MODO_CRIPTO=re
 """
 import json
 import os
+import re
 import statistics
 import sys
 import time
@@ -234,6 +235,9 @@ Escribe el BRIEF CRIPTO · {nombre.upper()} en español, claro y directo, con es
    - R:R al TP2 (mínimo 2, si no: SIN ENTRADA)
    - Confluencias (0 a 5): (1) liquidez global, (2) flujos de stablecoins, (3) funding/sentimiento a favor
      (contrario en extremos), (4) zona de liquidez/valor justo, (5) estacionalidad. Menos de 4/5 = SIN ENTRADA.
+     Escribe las confluencias SIEMPRE como "N/5".
+   - Sesgo neutral NO impide operar: si hay un soporte (o resistencia) clave con 4/5 o más y R:R mínimo 2, propone
+     COMPRA (o VENTA) con orden límite esperando en esa zona, como los fondos que dejan órdenes en los niveles.
 7. **Historia** — qué hizo BTC en esta fecha en los últimos años y "Sesgo histórico: …". Es confluencia, nunca gatillo.
 8. **Riesgo** — régimen de volatilidad y regla de tamaño: arriesgar como máximo 1% del capital por idea; en volatilidad
    alta, la mitad.
@@ -258,7 +262,7 @@ DATOS:
     try:
         corto = base.gemini_json(f"""Del siguiente brief, extrae en JSON: {{"titular": "una frase", "sesgo": {{"btc": "alcista|bajista|neutral",
 "eth": "alcista|bajista|neutral"}}, "entradas": [{{"activo": "BTC|ETH", "direccion": "COMPRA|VENTA|SIN ENTRADA", "zona": "", "stop": "",
-"tp1": "", "tp2": "", "rr": "", "confluencias": ""}}]}}\n\nBRIEF:\n{texto[:6000]}""", lite=True)
+"tp1": "", "tp2": "", "rr": "", "confluencias": "N/5 (solo cuántas confluencias se cumplen, ej. 4/5)"}}]}}\n\nBRIEF:\n{texto[:6000]}""", lite=True)
     except Exception:
         corto = {"titular": texto.split("\n")[0][:140], "sesgo": {}, "entradas": []}
 
@@ -268,12 +272,20 @@ DATOS:
     me.paso("cio", f"Brief publicado: {corto.get('titular', '')}", trabajando=False)
     lineas = [f"{e.get('activo')}: {e.get('direccion')} {e.get('zona', '')} · SL {e.get('stop', '')} · TP2 {e.get('tp2', '')} · {e.get('confluencias', '')}"
               for e in corto.get("entradas", []) if not str(e.get("direccion", "")).upper().startswith("SIN")]
+    entradas = []
+    for e in corto.get("entradas", []) or []:
+        e2 = dict(e)
+        d = _direccion(e, (corto.get("sesgo") or {}).get(str(e.get("activo", "")).lower()))
+        if d != "SIN ENTRADA" and not str(e.get("direccion", "")).upper().startswith(d):
+            e2["direccion"] = d
+            me.paso("cio", f"{e.get('activo')}: zona clave con {_conf(e.get('confluencias'))}/5 → orden límite de {d} esperando en {e.get('zona')}.", trabajando=False)
+        entradas.append(e2)
     try:
-        ejecutar_cripto(me, corto.get("entradas", []), mapas)
+        ejecutar_cripto(me, entradas, mapas)
     except Exception as ex:
         me.paso("ejecucion", f"Error en la ejecución ({str(ex)[:80]}).", trabajando=False)
     try:
-        enviar_futuros(me, corto.get("entradas", []))
+        enviar_futuros(me, entradas)
     except Exception as ex:
         me.paso("futuros", f"Error enviando futuros ({str(ex)[:80]}).", trabajando=False)
     s = corto.get("sesgo", {})
@@ -294,6 +306,7 @@ TOKENS = {"BTC": {"mint": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij", "dec": 
 RIESGO_PCT = 1.0           # % del capital que se arriesga por idea
 MAX_POSICION_PCT = 90.0    # cuenta pequeña: puede usar casi todo el USDC en una idea (el riesgo sigue siendo 1%)
 VENCE_HORAS = 24           # si el precio no llega a la zona en 24 h, la idea se cancela
+PAUSA_HORAS = 72           # freno: tras 2 stops seguidos, no se abren ideas nuevas en 72 h
 SLIPPAGE_BPS = 50
 
 
@@ -370,6 +383,16 @@ def ejecutar_cripto(me, entradas, mapas):
     real = _modo_real()
     etiqueta = "" if real else "[SIMULADO] "
     pos = me.m.setdefault("posiciones", [])
+    cerradas = [p for p in pos if p.get("estado") == "cerrada"]
+    if len(cerradas) >= 2 and all(c.get("resultado") == "stop" for c in cerradas[:2]):
+        ult = datetime.fromisoformat((cerradas[0].get("cerrada_ts") or cerradas[0]["creada"]).replace("Z", "+00:00"))
+        horas = (datetime.now(timezone.utc) - ult).total_seconds() / 3600
+        if horas < PAUSA_HORAS:
+            me.paso("riesgo", f"Freno de pérdidas: 2 stops seguidos. No se abren ideas nuevas por {PAUSA_HORAS - horas:.0f} h más.", trabajando=False)
+            if me.m.get("freno_avisado") != cerradas[0].get("cerrada_ts"):
+                base.avisar_telefono("GSAM Cripto · freno de pérdidas", f"2 pérdidas seguidas: el bot se pausa {PAUSA_HORAS} h para proteger el capital.", "high")
+                me.m["freno_avisado"] = cerradas[0].get("cerrada_ts")
+            return
     if real:
         try:
             sal = _saldos()
@@ -392,10 +415,7 @@ def ejecutar_cripto(me, entradas, mapas):
         if any(p["activo"] == act and p["estado"] in ("pendiente", "abierta") for p in pos):
             me.paso("ejecucion", f"{act}: ya hay una idea o posición activa, no se duplica.", trabajando=False)
             continue
-        try:
-            conf = int(M._n(e.get("confluencias")) or 0)
-        except Exception:
-            conf = 0
+        conf = _conf(e.get("confluencias"))
         lo, hi = M._rango(e.get("zona"))
         stop, tp = M._n(e.get("stop")), M._n(e.get("tp2")) or M._n(e.get("tp1"))
         if conf < 4 or not (lo and hi and stop and tp) or not (stop < lo <= hi < tp):
@@ -409,7 +429,9 @@ def ejecutar_cripto(me, entradas, mapas):
         if usd < 5:
             me.paso("ejecucion", f"{act}: el tamaño quedaría en ${usd:.2f}, demasiado pequeño. No se opera.", trabajando=False)
             continue
+        tp1 = M._n(e.get("tp1"))
         p = {"activo": act, "usd": round(usd, 2), "zona_baja": round(lo, 2), "entrada": round(hi, 2), "stop": round(stop, 2), "tp": round(tp, 2),
+             "tp1": round(tp1, 2) if tp1 and hi < tp1 < tp else None,
              "estado": "pendiente", "creada": base.ahora(), "real": real}
         pos.insert(0, p)
         txt = (f"{etiqueta}Idea de COMPRA {act}: compra ${p['usd']} si el precio entra en {lo:,.0f}–{hi:,.0f} · stop {stop:,.0f} · "
@@ -434,9 +456,35 @@ def _cme_abierto():
 
 
 def _conf(x):
-    import re
-    m = re.search(r"\d", str(x or ""))
+    """Confluencias como número: acepta "4/5", "4 de 5" o una lista "(1) … (2) …"."""
+    s = str(x or "")
+    m = re.search(r"(\d)\s*(?:/|de)\s*5", s)
+    if m:
+        return int(m.group(1))
+    marcas = set(re.findall(r"\((\d)\)", s))
+    if marcas:
+        return len(marcas)
+    m = re.search(r"\d", s)
     return int(m.group()) if m else 0
+
+
+def _direccion(e, sesgo):
+    """COMPRA/VENTA/SIN ENTRADA. Si el CIO dejó una zona clave completa (4/5+) sin dirección y el sesgo no va en contra,
+    se trata como orden límite esperando en la zona, como hacen los fondos."""
+    d = str(e.get("direccion", "")).upper()
+    if d.startswith("COMPRA"):
+        return "COMPRA"
+    if d.startswith("VENTA"):
+        return "VENTA"
+    lo, hi = M._rango(e.get("zona"))
+    stop, tp = M._n(e.get("stop")), M._n(e.get("tp2")) or M._n(e.get("tp1"))
+    s = str(sesgo or "").lower()
+    if _conf(e.get("confluencias")) >= 4 and lo and hi and stop and tp:
+        if stop < lo <= hi < tp and (tp - hi) / (hi - stop) >= 2 and "bajista" not in s:
+            return "COMPRA"
+        if tp < lo <= hi < stop and (lo - tp) / (stop - lo) >= 2 and "alcista" not in s:
+            return "VENTA"
+    return "SIN ENTRADA"
 
 
 def enviar_futuros(me, entradas):
@@ -535,11 +583,18 @@ def vigilar_cripto():
                     p["estado"] = "cancelada"
                     me.paso("ejecucion", f"{p['activo']}: el precio no llegó a la zona en {VENCE_HORAS} h. Idea cancelada.", trabajando=False)
             elif p["estado"] == "abierta":
+                if p.get("tp1") and not p.get("be") and precio >= p["tp1"]:
+                    p["stop"], p["be"] = p.get("precio_compra") or p["entrada"], True
+                    txt = f"{et}{p['activo']}: llegó al TP1 ({p['tp1']:,.0f}). Stop movido a la entrada ({p['stop']:,.0f}): ya no puede perder."
+                    me.paso("riesgo", txt, trabajando=False)
+                    base.avisar_telefono(f"GSAM Cripto · {p['activo']} protegida", txt, "default")
                 motivo = "stop" if precio <= p["stop"] else "objetivo" if precio >= p["tp"] else None
                 if motivo:
                     if real:
                         p["firma_venta"] = _vender_todo(p)
-                    p["estado"], p["resultado"], p["precio_venta"] = "cerrada", motivo, round(precio, 2)
+                    if motivo == "stop" and p.get("be"):
+                        motivo = "breakeven"
+                    p["estado"], p["resultado"], p["precio_venta"], p["cerrada_ts"] = "cerrada", motivo, round(precio, 2), base.ahora()
                     gan = p["usd"] * (precio / p["precio_compra"] - 1)
                     txt = f"{et}{p['activo']} cerrada en {motivo} a ~{precio:,.0f}: {gan:+,.2f} USD."
                     me.paso("ejecucion", txt, trabajando=False)
