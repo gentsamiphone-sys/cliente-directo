@@ -138,6 +138,98 @@ def vwap_sesion(horas, dia):
     return pv / vol if vol else None
 
 
+def setup_4h(simbolo):
+    """Estrategia de Gent en 4H: ruptura con fuerza de un máximo/mínimo anterior + retesteo del nivel.
+    Devuelve los setups vivos: nivel, entrada, stop (al otro lado del nivel), objetivo (siguiente liquidez) y R:R."""
+    h = yahoo(simbolo, "1h", "60d")
+    grupos = {}
+    for v in h:
+        k = v["t"] // 14400
+        g = grupos.get(k)
+        if not g:
+            grupos[k] = dict(v)
+        else:
+            g["h"], g["l"], g["c"] = max(g["h"], v["h"]), min(g["l"], v["l"]), v["c"]
+    v4 = [grupos[k] for k in sorted(grupos)]
+    if len(v4) < 40:
+        return {"error": "pocas velas 4H"}
+    a = atr(v4, 14) or 1
+    precio = v4[-1]["c"]
+    piv = []
+    for i in range(2, len(v4) - 2):
+        if v4[i]["h"] >= max(x["h"] for x in v4[i - 2:i + 3]):
+            piv.append(("max", i, v4[i]["h"]))
+        if v4[i]["l"] <= min(x["l"] for x in v4[i - 2:i + 3]):
+            piv.append(("min", i, v4[i]["l"]))
+    setups = []
+    for tipo, i, nivel in piv[-30:]:
+        alcista = tipo == "max"
+        j = next((k for k in range(i + 1, len(v4)) if (v4[k]["c"] > nivel if alcista else v4[k]["c"] < nivel)), None)
+        if j is None or len(v4) - j > 30:
+            continue
+        vela = v4[j]
+        fuerza = max(abs(x["c"] - x["o"]) for x in v4[j:j + 3]) / a   # la vela de ruptura o una de las 2 siguientes
+        despues = v4[j + 1:]
+        if any((x["c"] < nivel - 0.3 * a) if alcista else (x["c"] > nivel + 0.3 * a) for x in despues):
+            continue                        # volvió a cerrar al otro lado: la ruptura falló
+        extremo = max([vela["h"]] + [x["h"] for x in despues]) if alcista else min([vela["l"]] + [x["l"] for x in despues])
+        entrada = nivel
+        stop = nivel - 0.6 * a if alcista else nivel + 0.6 * a
+        objetivo = extremo
+        if alcista:
+            mas = sorted(p for t, k, p in piv if t == "max" and p > extremo)
+        else:
+            mas = sorted((p for t, k, p in piv if t == "min" and p < extremo), reverse=True)
+        rr = abs(objetivo - entrada) / abs(entrada - stop)
+        if rr < 2 and mas:
+            objetivo = mas[0]
+            rr = abs(objetivo - entrada) / abs(entrada - stop)
+        dist = (precio - nivel) / a
+        estado = "en retesteo" if abs(dist) <= 0.5 else ("esperando retesteo" if (dist > 0 if alcista else dist < 0) else "por debajo del nivel" if alcista else "por encima del nivel")
+        setups.append({"direccion": "COMPRA" if alcista else "VENTA", "nivel": round(nivel, 2), "entrada": round(entrada, 2),
+                       "stop": round(stop, 2), "objetivo": round(objetivo, 2), "rr": round(rr, 2), "estado": estado,
+                       "fuerza_ruptura_atr": round(fuerza, 2), "ruptura": datetime.fromtimestamp(vela["t"], timezone.utc).strftime("%Y-%m-%d %H:%M UTC")})
+    setups = [x for x in setups if x["rr"] >= 2 and x["fuerza_ruptura_atr"] >= 0.8 and x["estado"] in ("en retesteo", "esperando retesteo")]
+    vistos, unicos = set(), []
+    for x in setups:
+        if (x["direccion"], round(x["nivel"] / a)) not in vistos:
+            vistos.add((x["direccion"], round(x["nivel"] / a)))
+            unicos.append(x)
+    setups = unicos
+    setups.sort(key=lambda x: x["ruptura"], reverse=True)
+    return {"precio": round(precio, 2), "atr_4h": round(a, 2), "setups": setups[:2]}
+
+
+def _seguro(fn, *a):
+    try:
+        return fn(*a)
+    except Exception as ex:
+        return {"error": str(ex)[:80]}
+
+
+def avisar_4h(me):
+    """Señales de la estrategia 4H de Gent (ruptura + retesteo). Solo avisa: Gent ejecuta a mano, la mesa NO envía orden."""
+    res = {k: _seguro(setup_4h, s) for k, s in ACTIVOS.items()}
+    me.m["estrategia_4h"] = res | {"ts": ahora()}
+    vistos = me.m.setdefault("avisos_4h", [])
+    for k, r in res.items():
+        for x in r.get("setups", []) if isinstance(r, dict) else []:
+            clave = f"{k}|{x['direccion']}|{x['nivel']}|{x['estado']}"
+            if clave in vistos:
+                continue
+            vistos.append(clave)
+            if x["estado"] == "en retesteo":
+                titulo = f"GSAM · Estrategia 4H · {k.upper()} EN RETESTEO"
+                cuerpo = f"{x['direccion']} en el nivel {x['nivel']} · stop {x['stop']} · objetivo {x['objetivo']} · R:R {x['rr']}"
+            else:
+                titulo = f"GSAM · Estrategia 4H · {k.upper()} ruptura detectada"
+                cuerpo = f"{x['direccion']}: esperar retesteo de {x['nivel']} · stop {x['stop']} · objetivo {x['objetivo']} · R:R {x['rr']}"
+            me.paso("liquidez", f"Estrategia 4H {k.upper()}: {cuerpo} ({x['estado']}). Tú ejecutas.", trabajando=False)
+            base.avisar_telefono(titulo, cuerpo + "\nSeñal para que tú la ejecutes; la mesa no envía orden.", "high")
+    me.m["avisos_4h"] = vistos[-60:]
+    return res
+
+
 def mapa_activo(simbolo):
     d = yahoo(simbolo, "1d", "6mo")
     h = yahoo(simbolo, "1h", "10d")
@@ -541,7 +633,8 @@ def correr(sesion):
     me.paso("cio", "Escribiendo el brief institucional…")
     datos = {"racha": {"nq_ultimas_2_en_stop": racha_mala(me, "NQ"), "oro_ultimas_2_en_stop": racha_mala(me, "ORO")}, "historico": hist, "sesion": nombre, "hora_las_vegas": datetime.now(LV).strftime("%Y-%m-%d %H:%M"), "macro": mac,
              "calendario_usd": eventos, "cot": pos, "mapas": mapas, "riesgo": riesgo, "regimen_vol": regimen, "vix_nq": vixc, "historial_de_la_mesa": stats,
-             "titulares": titulares()}
+             "titulares": titulares(), "evaluacion_alpha": estado_alpha(me),
+             "estrategia_4h_de_gent": _seguro(avisar_4h, me)}
     prompt = f"""Eres el CIO (director de inversiones) de GSAM Capital, un fondo macro que opera oro (futuro GC / XAUUSD)
 y el Nasdaq 100 (futuro NQ). Piensas como una institución, no como un trader minorista:
 - Partes del contexto macro (dólar, tasas reales, apetito de riesgo, volatilidad) y del flujo/posicionamiento (COT).
@@ -586,11 +679,22 @@ Escribe el BRIEF DE LA SESIÓN DE {nombre.upper()} en español, claro y directo,
    Reglas de la mesa: solo propones entrada si el R:R al TP2 es 2 o más; si hay noticia de impacto alto en los próximos
    30 minutos o el ATR del día ya está consumido más del 100%, la respuesta es SIN ENTRADA y explicas por qué.
    Una sola idea por activo. Nunca entres persiguiendo el precio.
+   EVALUACIÓN ALPHA FUTURES ACTIVA (cuenta de $50,000; ver DATOS.evaluacion_alpha): objetivo +$4,000; pérdida máxima
+   $1,750 con drawdown que sigue al saldo de cierre de cada día (si el saldo baja de ese límite, se pierde la cuenta);
+   el mejor día no puede pasar del 40% de la ganancia total; todo cerrado antes de las 4:20 pm de Nueva York.
+   Mientras dure la evaluación la mesa opera POCO y de CALIDAD: solo propone la MEJOR idea del día (5/5 confluencias),
+   nunca dos ideas mediocres. Di en el brief cuánto falta para el objetivo, cuánto colchón queda antes del límite
+   de pérdida y cuál es el riesgo de hoy (DATOS.evaluacion_alpha.riesgo_hoy). Si el colchón es pequeño, se protege la cuenta.
 9. **Historia y estacionalidad** — para ORO y NQ: cuántos de los últimos 10 años subieron esta misma semana y los
    20 días siguientes, el patrón del día de la semana y los 3 años análogos (qué hicieron después). Cierra con
    "Sesgo histórico: alcista / bajista / neutral". La historia es CONFLUENCIA, nunca el gatillo: si el sesgo histórico
    CONTRADICE la dirección de una entrada, esa entrada necesita 5/5 confluencias o es SIN ENTRADA.
-10. **Nota para tu regla Ruptura EMA9 (1H)** — en 2-3 líneas: qué ruptura tendría sentido con este mapa y dónde está
+10. **Estrategia 4H de Gent (ruptura y retesteo · Gent ejecuta)** — con DATOS.estrategia_4h_de_gent: para ORO y NQ,
+   cada setup vivo con dirección, nivel (entrada en el retesteo), stop, objetivo, R:R y estado ("en retesteo" o
+   "esperando retesteo"). Di si va a favor o en contra del sesgo de la mesa. Es una señal para que Gent la ejecute él:
+   NO es una entrada de la mesa ni cambia el plan del punto 8. En el backtest de 2 años acierta ~31% en NQ con ~3R por
+   ganancia (positiva) y ~26% en oro (casi neutra): recomiéndala sobre todo en NQ. Si no hay setups, dilo.
+11. **Nota para tu regla Ruptura EMA9 (1H)** — en 2-3 líneas: qué ruptura tendría sentido con este mapa y dónde está
    la liquidez a favor (recuerda que no se entra si la liquidez a favor está a menos de 2 ATR de 1H).
 Termina con una línea: "Análisis educativo de agentes de IA. No es consejo financiero."
 Usa SOLO los números de los datos; si un dato falta dilo. Máximo 750 palabras.
@@ -659,6 +763,40 @@ EJEC = {
 }
 
 
+# ───────── evaluación de Alpha Futures: pocas operaciones, de calidad, protegiendo la cuenta ─────────
+ALPHA = {"activa": True, "inicio": "2026-10-09", "saldo": 50000, "objetivo": 4000, "perdida_max": 1750, "consistencia": 0.40}
+
+
+def estado_alpha(me):
+    """Resultado estimado de la evaluación con las órdenes que mandó la mesa (resultado auditado × riesgo de cada orden)."""
+    if not ALPHA["activa"]:
+        return {"activa": False}
+    ords = me.m.setdefault("alpha_ordenes", [])
+    res = {(b.get("ts"), str(e.get("activo", "")).upper()): e for b in me.m.get("briefs", []) for e in (b.get("entradas") or [])}
+    dias = {}
+    for o in ords:
+        e = res.get((o.get("brief"), o.get("activo")))
+        if e and e.get("resultado") in ("stop", "TP1", "TP2", "cerrada sin objetivo"):
+            o["pnl"] = round(e.get("r", 0) * o.get("riesgo", RIESGO_MAX), 2)
+        if "pnl" in o:
+            dias[o["dia"]] = dias.get(o["dia"], 0) + o["pnl"]
+    saldo, pico = ALPHA["saldo"], ALPHA["saldo"]
+    for dia in sorted(dias):
+        saldo += dias[dia]
+        pico = max(pico, saldo)
+    limite = min(pico - ALPHA["perdida_max"], ALPHA["saldo"] + 100)   # el límite deja de subir al saldo inicial + 100
+    limite = max(limite, ALPHA["saldo"] - ALPHA["perdida_max"])
+    pnl = round(saldo - ALPHA["saldo"], 2)
+    colchon = round(saldo - limite, 2)
+    mejor = max(dias.values()) if dias else 0
+    falta = max(0, ALPHA["objetivo"] - pnl, (mejor / ALPHA["consistencia"] - pnl) if mejor > 0 else 0)
+    riesgo = RIESGO_MAX if colchon >= 3 * RIESGO_MAX else max(0, int(colchon / 3))   # con poco colchón, se baja el riesgo
+    return {"activa": True, "pnl_estimado": pnl, "saldo_estimado": round(saldo, 2), "limite_perdida": round(limite, 2),
+            "colchon": colchon, "falta_para_pasar": round(falta, 2), "mejor_dia": round(mejor, 2), "dias_operados": len(dias),
+            "riesgo_hoy": riesgo, "pasada": falta == 0 and pnl >= ALPHA["objetivo"],
+            "nota": "Estimado con las órdenes de la mesa; el saldo real está en la página de Alpha."}
+
+
 def _tick(x, t=0.25):
     return round(round(x / t) * t, 2)
 
@@ -670,6 +808,42 @@ def enviar_traderspost(me, entradas):
     if not url:
         me.paso("ejecucion", "Sin webhook de TradersPost configurado: no se envía ninguna orden.", trabajando=False)
         return
+    if ALPHA["activa"]:
+        ev = estado_alpha(me)
+        hoy = datetime.now(LV).strftime("%Y-%m-%d")
+        if ev["pasada"]:
+            me.paso("ejecucion", f"Evaluación Alpha: objetivo cumplido (+${ev['pnl_estimado']:,.0f}). La mesa no envía más órdenes; revisa la cuenta en Alpha.", trabajando=False)
+            base.avisar_telefono("GSAM · Evaluación Alpha", "Objetivo estimado cumplido. Confirma en la página de Alpha.", "high")
+            return
+        if any(o.get("dia") == hoy for o in me.m.get("alpha_ordenes", [])):
+            me.paso("ejecucion", "Evaluación Alpha: ya hay una orden hoy. Una sola operación por día, la mejor.", trabajando=False)
+            return
+        if ev["riesgo_hoy"] < 100:
+            me.paso("ejecucion", f"Evaluación Alpha: colchón de ${ev['colchon']:,.0f} muy pequeño. La mesa protege la cuenta y no opera.", trabajando=False)
+            return
+        # solo la mejor idea del día: 5/5 confluencias y el mejor R:R
+        cand = []
+        for x in entradas or []:
+            if str(x.get("direccion", "")).upper().startswith("SIN"):
+                continue
+            try:
+                cf = int(_n(x.get("confluencias")) or 0)
+            except Exception:
+                cf = 0
+            cand.append((cf, _n(x.get("rr")) or 0, x))
+        cand = [c for c in cand if c[0] >= 5]
+        if not cand:
+            me.paso("ejecucion", "Evaluación Alpha: ninguna idea con 5/5 confluencias. Hoy no se opera (calidad antes que cantidad).", trabajando=False)
+            return
+        mejor = max(cand, key=lambda c: (c[0], c[1]))[2]
+        activo = str(mejor.get("activo", "")).upper()
+        if activo not in EJEC:
+            return
+        try:
+            _enviar_activo(me, url, activo, EJEC[activo], [mejor], riesgo_max=ev["riesgo_hoy"])
+        except Exception as ex:
+            me.paso("ejecucion", f"{activo}: error al preparar la orden ({str(ex)[:60]}).", trabajando=False)
+        return
     for activo, c in EJEC.items():
         try:
             _enviar_activo(me, url, activo, c, entradas)
@@ -677,7 +851,7 @@ def enviar_traderspost(me, entradas):
             me.paso("ejecucion", f"{activo}: error al preparar la orden ({str(ex)[:60]}).", trabajando=False)
 
 
-def _enviar_activo(me, url, activo, c, entradas):
+def _enviar_activo(me, url, activo, c, entradas, riesgo_max=RIESGO_MAX):
     hoy = datetime.now(LV).strftime("%Y-%m-%d")
     if me.m.get(f"orden_enviada_{activo}") == hoy:
         me.paso("ejecucion", f"{activo}: ya se envió una orden hoy (una por activo por día).", trabajando=False)
@@ -715,9 +889,9 @@ def _enviar_activo(me, url, activo, c, entradas):
         return
     # 2) tamaño según el riesgo: el stop lo decide la mesa, los contratos se ajustan para no pasar de RIESGO_MAX
     pts = abs(entrada - stop)
-    contratos = min(c["max"], int(RIESGO_MAX // (pts * c["vp"])))
+    contratos = min(c["max"], int(riesgo_max // (pts * c["vp"])))
     if contratos < 1:
-        me.paso("ejecucion", f"El stop de {activo} ({pts:.1f} pts) es demasiado amplio: ni 1 {c['ticker']} cabe en ${RIESGO_MAX}. No se envía.", trabajando=False)
+        me.paso("ejecucion", f"El stop de {activo} ({pts:.1f} pts) es demasiado amplio: ni 1 {c['ticker']} cabe en ${riesgo_max}. No se envía.", trabajando=False)
         return
     riesgo = pts * c["vp"] * contratos
     t = c["tick"]
@@ -732,6 +906,9 @@ def _enviar_activo(me, url, activo, c, entradas):
         me.paso("ejecucion", f"{activo}: no pude enviar la orden ({str(ex)[:60]}).", trabajando=False)
     if ok:
         me.m[f"orden_enviada_{activo}"] = hoy
+        if ALPHA["activa"]:
+            me.m.setdefault("alpha_ordenes", []).append({"dia": hoy, "activo": activo, "riesgo": round(riesgo, 2),
+                                                         "brief": (me.m.get("briefs") or [{}])[0].get("ts")})
         lado = "COMPRA" if compra else "VENTA"
         txt = (f"Orden enviada a TradersPost: {lado} {contratos} {c['ticker']} límite {senal['limitPrice']} (borde de la zona) · "
                f"SL {senal['stopLoss']['stopPrice']} ({pts:.1f} pts, riesgo ${riesgo:.0f}) · TP {senal['takeProfit']['limitPrice']} · R:R {rr:.1f}")
@@ -896,6 +1073,10 @@ def vigilar():
         except Exception as ex:
             print("sin precio", k, ex)
     me.m["en_vivo"] = {k: x["precio"] for k, x in vivo.items()} | {"ts": ahora()}
+    # estrategia 4H de Gent: revisa cada 15 min si hay ruptura o retesteo y le avisa al teléfono (él ejecuta)
+    if time.time() - me.m.get("ult_4h", 0) > 14 * 60:
+        me.m["ult_4h"] = time.time()
+        _seguro(avisar_4h, me)
     # velas de 1 hora para el gráfico del plan en la oficina
     velas_g = me.m.setdefault("velas", {})
     for k, sim in {**ACTIVOS, "vix": MACRO["vix"]}.items():
