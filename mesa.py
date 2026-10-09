@@ -1,0 +1,1156 @@
+"""Mesa de inversión GSAM · Oro y NQ.
+
+Cinco agentes con mentalidad de fondo institucional preparan el brief de cada sesión:
+  macro        → dólar, tasas, volatilidad y calendario económico
+  flujos       → posicionamiento de grandes jugadores (reporte COT de la CFTC)
+  liquidez     → mapa de liquidez: máximos/mínimos previos, rangos de sesión, VWAP
+  riesgo       → rango esperado (ATR), régimen de volatilidad, eventos
+  historiador  → estacionalidad: misma fecha en los últimos 10 años, día de la semana y años análogos
+  cio          → junta todo y escribe el brief institucional de la sesión
+  ejecucion    → en Nueva York, manda las entradas de NQ (MNQ) y oro (MGC) a TradersPost en el borde de la zona, riesgo fijo $350
+
+Uso: python agentes/mesa.py <asia|londres|nuevayork>
+Todo queda en data/mesa.json (la sala de trading lo lee en vivo).
+Es análisis educativo; no es consejo financiero ni ejecuta operaciones.
+"""
+import csv
+import io
+import json
+import os
+import statistics
+import subprocess
+import sys
+import time
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+from zoneinfo import ZoneInfo
+
+import requests
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import main as base  # reutiliza Gemini, ntfy y git
+
+RAIZ = Path(__file__).resolve().parent.parent
+MESA = RAIZ / "data" / "mesa.json"
+LV = ZoneInfo("America/Los_Angeles")
+UA = {"User-Agent": "Mozilla/5.0 (GSAM Mesa)"}
+ACTIVOS = {"oro": "GC=F", "nq": "NQ=F"}
+MACRO = {"dxy": "DX-Y.NYB", "us10y": "^TNX", "vix": "^VIX", "spx": "ES=F", "plata": "SI=F", "petroleo": "CL=F"}
+SESIONES = {"asia": "Asia (Tokio/Sídney)", "londres": "Londres", "nuevayork": "Nueva York", "semana": "Plan de la semana"}
+
+
+def ahora():
+    return base.ahora()
+
+
+# ───────── estado de la mesa ─────────
+
+class Mesa:
+    def __init__(self, agente):
+        self.agente = agente
+        if base.EN_ACTIONS:
+            base.git("pull", "--rebase", "--quiet", check=False)
+        try:
+            self.m = json.loads(MESA.read_text(encoding="utf-8"))
+        except Exception:
+            self.m = {"agentes": {}, "actividad": [], "briefs": [], "cot_previo": {}}
+
+    def guardar(self, msg):
+        self.m["actividad"] = self.m["actividad"][:200]
+        self.m["briefs"] = self.m["briefs"][:60]
+        MESA.write_text(json.dumps(self.m, ensure_ascii=False, indent=1), encoding="utf-8")
+        if not base.EN_ACTIONS:
+            return
+        base.git("add", "data/mesa.json")
+        if base.git("diff", "--cached", "--quiet", check=False).returncode == 0:
+            return
+        base.git("commit", "-q", "-m", f"[mesa:{self.agente}] {msg[:60]}")
+        for i in range(4):
+            if base.git("push", "-q", check=False).returncode == 0:
+                return
+            base.git("pull", "--rebase", "-X", "theirs", "--quiet", check=False)
+            time.sleep(2 + 2 * i)
+
+    def paso(self, agente, texto, trabajando=True):
+        print(f"[{agente}] {texto}")
+        self.agente = agente
+        self.m["actividad"].insert(0, {"agente": agente, "texto": texto, "ts": ahora()})
+        a = self.m["agentes"].setdefault(agente, {})
+        if trabajando:
+            a.update(estado="trabajando", tarea=texto, actualizado=ahora())
+        else:
+            a.update(estado="descansando", tarea="", ultimo_resultado=texto, actualizado=ahora())
+        self.guardar(texto)
+
+
+# ───────── datos de mercado (gratis) ─────────
+
+def yahoo(simbolo, intervalo="1d", rango="3mo"):
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{simbolo}"
+    r = requests.get(url, params={"interval": intervalo, "range": rango}, headers=UA, timeout=30)
+    r.raise_for_status()
+    res = r.json()["chart"]["result"][0]
+    q = res["indicators"]["quote"][0]
+    velas = []
+    for i, t in enumerate(res.get("timestamp") or []):
+        o, h, l, c, v = (q[k][i] for k in ("open", "high", "low", "close", "volume"))
+        if None in (o, h, l, c):
+            continue
+        velas.append({"t": t, "o": o, "h": h, "l": l, "c": c, "v": v or 0})
+    return velas
+
+
+def atr(velas, n=14):
+    trs = []
+    for a, b in zip(velas, velas[1:]):
+        trs.append(max(b["h"] - b["l"], abs(b["h"] - a["c"]), abs(b["l"] - a["c"])))
+    return statistics.mean(trs[-n:]) if len(trs) >= n else None
+
+
+def ema(vals, n):
+    k, e = 2 / (n + 1), None
+    for v in vals:
+        e = v if e is None else v * k + e * (1 - k)
+    return e
+
+
+def rango_sesion(horas, desde_utc, hasta_utc, dia):
+    """Máximo/mínimo de las velas 1H entre dos horas UTC del día indicado (date UTC)."""
+    sel = []
+    for v in horas:
+        t = datetime.fromtimestamp(v["t"], timezone.utc)
+        h = t.hour
+        dentro = (desde_utc <= h < hasta_utc) if desde_utc < hasta_utc else (h >= desde_utc or h < hasta_utc)
+        dia_sesion = t.date() + timedelta(days=1) if desde_utc > hasta_utc and h >= desde_utc else t.date()
+        if dentro and dia_sesion == dia:
+            sel.append(v)
+    if not sel:
+        return None
+    return {"max": round(max(v["h"] for v in sel), 2), "min": round(min(v["l"] for v in sel), 2)}
+
+
+def vwap_sesion(horas, dia):
+    sel = [v for v in horas if datetime.fromtimestamp(v["t"], timezone.utc).date() == dia and v["v"]]
+    if not sel:
+        return None
+    pv = sum((v["h"] + v["l"] + v["c"]) / 3 * v["v"] for v in sel)
+    vol = sum(v["v"] for v in sel)
+    return pv / vol if vol else None
+
+
+def setup_4h(simbolo):
+    """Estrategia de Gent en 4H: ruptura con fuerza de un máximo/mínimo anterior + retesteo del nivel.
+    Devuelve los setups vivos: nivel, entrada, stop (al otro lado del nivel), objetivo (siguiente liquidez) y R:R."""
+    h = yahoo(simbolo, "1h", "60d")
+    grupos = {}
+    for v in h:
+        k = v["t"] // 14400
+        g = grupos.get(k)
+        if not g:
+            grupos[k] = dict(v)
+        else:
+            g["h"], g["l"], g["c"] = max(g["h"], v["h"]), min(g["l"], v["l"]), v["c"]
+    v4 = [grupos[k] for k in sorted(grupos)]
+    if len(v4) < 40:
+        return {"error": "pocas velas 4H"}
+    a = atr(v4, 14) or 1
+    precio = v4[-1]["c"]
+    piv = []
+    for i in range(2, len(v4) - 2):
+        if v4[i]["h"] >= max(x["h"] for x in v4[i - 2:i + 3]):
+            piv.append(("max", i, v4[i]["h"]))
+        if v4[i]["l"] <= min(x["l"] for x in v4[i - 2:i + 3]):
+            piv.append(("min", i, v4[i]["l"]))
+    setups = []
+    for tipo, i, nivel in piv[-30:]:
+        alcista = tipo == "max"
+        j = next((k for k in range(i + 1, len(v4)) if (v4[k]["c"] > nivel if alcista else v4[k]["c"] < nivel)), None)
+        if j is None or len(v4) - j > 30:
+            continue
+        vela = v4[j]
+        fuerza = max(abs(x["c"] - x["o"]) for x in v4[j:j + 3]) / a   # la vela de ruptura o una de las 2 siguientes
+        despues = v4[j + 1:]
+        if any((x["c"] < nivel - 0.3 * a) if alcista else (x["c"] > nivel + 0.3 * a) for x in despues):
+            continue                        # volvió a cerrar al otro lado: la ruptura falló
+        extremo = max([vela["h"]] + [x["h"] for x in despues]) if alcista else min([vela["l"]] + [x["l"] for x in despues])
+        entrada = nivel
+        stop = nivel - 0.6 * a if alcista else nivel + 0.6 * a
+        objetivo = extremo
+        if alcista:
+            mas = sorted(p for t, k, p in piv if t == "max" and p > extremo)
+        else:
+            mas = sorted((p for t, k, p in piv if t == "min" and p < extremo), reverse=True)
+        rr = abs(objetivo - entrada) / abs(entrada - stop)
+        if rr < 2 and mas:
+            objetivo = mas[0]
+            rr = abs(objetivo - entrada) / abs(entrada - stop)
+        dist = (precio - nivel) / a
+        estado = "en retesteo" if abs(dist) <= 0.5 else ("esperando retesteo" if (dist > 0 if alcista else dist < 0) else "por debajo del nivel" if alcista else "por encima del nivel")
+        setups.append({"direccion": "COMPRA" if alcista else "VENTA", "nivel": round(nivel, 2), "entrada": round(entrada, 2),
+                       "stop": round(stop, 2), "objetivo": round(objetivo, 2), "rr": round(rr, 2), "estado": estado,
+                       "fuerza_ruptura_atr": round(fuerza, 2), "ruptura": datetime.fromtimestamp(vela["t"], timezone.utc).strftime("%Y-%m-%d %H:%M UTC")})
+    setups = [x for x in setups if x["rr"] >= 2 and x["fuerza_ruptura_atr"] >= 0.8 and x["estado"] in ("en retesteo", "esperando retesteo")]
+    vistos, unicos = set(), []
+    for x in setups:
+        if (x["direccion"], round(x["nivel"] / a)) not in vistos:
+            vistos.add((x["direccion"], round(x["nivel"] / a)))
+            unicos.append(x)
+    setups = unicos
+    setups.sort(key=lambda x: x["ruptura"], reverse=True)
+    return {"precio": round(precio, 2), "atr_4h": round(a, 2), "setups": setups[:2]}
+
+
+def _seguro(fn, *a):
+    try:
+        return fn(*a)
+    except Exception as ex:
+        return {"error": str(ex)[:80]}
+
+
+def avisar_4h(me):
+    """Señales de la estrategia 4H de Gent (ruptura + retesteo). Solo avisa: Gent ejecuta a mano, la mesa NO envía orden."""
+    res = {k: _seguro(setup_4h, s) for k, s in ACTIVOS.items()}
+    me.m["estrategia_4h"] = res | {"ts": ahora()}
+    vistos = me.m.setdefault("avisos_4h", [])
+    for k, r in res.items():
+        for x in r.get("setups", []) if isinstance(r, dict) else []:
+            clave = f"{k}|{x['direccion']}|{x['nivel']}|{x['estado']}"
+            if clave in vistos:
+                continue
+            vistos.append(clave)
+            if x["estado"] == "en retesteo":
+                titulo = f"GSAM · Estrategia 4H · {k.upper()} EN RETESTEO"
+                cuerpo = f"{x['direccion']} en el nivel {x['nivel']} · stop {x['stop']} · objetivo {x['objetivo']} · R:R {x['rr']}"
+            else:
+                titulo = f"GSAM · Estrategia 4H · {k.upper()} ruptura detectada"
+                cuerpo = f"{x['direccion']}: esperar retesteo de {x['nivel']} · stop {x['stop']} · objetivo {x['objetivo']} · R:R {x['rr']}"
+            me.paso("liquidez", f"Estrategia 4H {k.upper()}: {cuerpo} ({x['estado']}). Tú ejecutas.", trabajando=False)
+            base.avisar_telefono(titulo, cuerpo + "\nSeñal para que tú la ejecutes; la mesa no envía orden.", "high")
+    me.m["avisos_4h"] = vistos[-60:]
+    return res
+
+
+def mapa_activo(simbolo):
+    d = yahoo(simbolo, "1d", "6mo")
+    h = yahoo(simbolo, "1h", "10d")
+    ult, prev = d[-1], d[-2]
+    hoy = datetime.now(timezone.utc).date()
+    ayer = datetime.fromtimestamp(prev["t"], timezone.utc).date()
+    semana = d[-6:-1]
+    cierres = [v["c"] for v in d]
+    mapa = {
+        "precio": round(h[-1]["c"] if h else ult["c"], 2),
+        "cambio_dia_pct": round((ult["c"] / prev["c"] - 1) * 100, 2),
+        "PDH": round(prev["h"], 2), "PDL": round(prev["l"], 2), "PDC": round(prev["c"], 2),
+        "PWH": round(max(v["h"] for v in semana), 2), "PWL": round(min(v["l"] for v in semana), 2),
+        "ATR14_diario": round(atr(d) or 0, 2),
+        "ATR14_1h": round(atr(h) or 0, 2),
+        "EMA20_diaria": round(ema(cierres, 20), 2), "EMA50_diaria": round(ema(cierres, 50), 2),
+        "EMA200_diaria": round(ema(cierres, 200), 2) if len(cierres) >= 120 else None,
+        "max_20d": round(max(v["h"] for v in d[-20:]), 2), "min_20d": round(min(v["l"] for v in d[-20:]), 2),
+        "asia_hoy": rango_sesion(h, 23, 7, hoy) or rango_sesion(h, 23, 7, ayer),
+        "londres_hoy": rango_sesion(h, 7, 13, hoy),
+        "ny_ayer": rango_sesion(h, 13, 20, ayer),
+        "vwap_hoy": round(vwap_sesion(h, hoy) or 0, 2) or None,
+    }
+    # rango realizado vs esperado
+    # día de futuros: empieza a las 22:00 UTC (apertura de Globex); se mide solo lo que va de HOY
+    ahora_u = datetime.now(timezone.utc)
+    inicio = ahora_u.replace(hour=22, minute=0, second=0, microsecond=0)
+    if inicio > ahora_u:
+        inicio -= timedelta(days=1)
+    hoy_v = [v for v in h if v["t"] >= inicio.timestamp()]
+    mapa["rango_hoy"] = {"max": round(max(v["h"] for v in hoy_v), 2), "min": round(min(v["l"] for v in hoy_v), 2)} if hoy_v else None
+    if mapa["ATR14_diario"]:
+        mapa["rango_hoy_vs_atr_pct"] = round((max(v["h"] for v in hoy_v) - min(v["l"] for v in hoy_v)) / mapa["ATR14_diario"] * 100) if hoy_v else 0
+    return mapa
+
+
+def macro_datos():
+    out = {}
+    for k, s in MACRO.items():
+        try:
+            d = yahoo(s, "1d", "1mo")
+            out[k] = {"ultimo": round(d[-1]["c"], 3), "cambio_1d_pct": round((d[-1]["c"] / d[-2]["c"] - 1) * 100, 2),
+                      "cambio_5d_pct": round((d[-1]["c"] / d[-6]["c"] - 1) * 100, 2)}
+        except Exception as ex:
+            out[k] = {"error": str(ex)[:60]}
+    return out
+
+
+def calendario(dias=1):
+    try:
+        r = requests.get("https://nfs.faireconomy.media/ff_calendar_thisweek.json", headers=UA, timeout=30)
+        eventos = r.json()
+    except Exception as ex:
+        return {"error": str(ex)[:80], "eventos": []}
+    hoy = datetime.now(LV).date()
+    sel = []
+    for e in eventos:
+        if e.get("country") != "USD" or e.get("impact") not in ("High", "Medium"):
+            continue
+        try:
+            t = datetime.fromisoformat(e["date"]).astimezone(LV)
+        except Exception:
+            continue
+        if hoy <= t.date() <= hoy + timedelta(days=dias):
+            sel.append({"hora_lv": t.strftime("%a %H:%M"), "evento": e.get("title"), "impacto": e.get("impact"),
+                        "previsto": e.get("forecast"), "anterior": e.get("previous")})
+    return {"eventos": sel[:40 if dias > 1 else 12]}
+
+
+def _cot_tabla(url):
+    r = requests.get(url, headers=UA, timeout=60)
+    r.raise_for_status()
+    return list(csv.reader(io.StringIO(r.text)))
+
+
+def _num(x):
+    try:
+        return int(str(x).strip())
+    except Exception:
+        return None
+
+
+def cot():
+    """Posicionamiento semanal (CFTC). Oro: Managed Money (fondos). NQ: Asset Managers y Leveraged Funds."""
+    out = {}
+    try:
+        for fila in _cot_tabla("https://www.cftc.gov/dea/newcot/f_disagg.txt"):
+            if fila and fila[0].strip().startswith("GOLD - COMMODITY EXCHANGE"):
+                oi, mm_l, mm_s = _num(fila[7]), _num(fila[13]), _num(fila[14])
+                out["oro"] = {"fecha": fila[2].strip(), "interes_abierto": oi, "fondos_largos": mm_l,
+                              "fondos_cortos": mm_s, "fondos_neto": (mm_l or 0) - (mm_s or 0)}
+                break
+    except Exception as ex:
+        out["oro"] = {"error": str(ex)[:80]}
+    try:
+        for fila in _cot_tabla("https://www.cftc.gov/dea/newcot/FinFutWk.txt"):
+            nombre = fila[0].strip() if fila else ""
+            if nombre.startswith("NASDAQ MINI") or nombre.startswith("NASDAQ-100 STOCK INDEX (MINI)"):
+                oi = _num(fila[7])
+                am_l, am_s, lev_l, lev_s = _num(fila[11]), _num(fila[12]), _num(fila[14]), _num(fila[15])
+                out["nq"] = {"fecha": fila[2].strip(), "interes_abierto": oi,
+                             "asset_managers_neto": (am_l or 0) - (am_s or 0),
+                             "leveraged_funds_neto": (lev_l or 0) - (lev_s or 0)}
+                break
+    except Exception as ex:
+        out["nq"] = {"error": str(ex)[:80]}
+    return out
+
+
+def titulares():
+    try:
+        r = requests.get("https://feeds.finance.yahoo.com/rss/2.0/headline", params={"s": "GC=F,NQ=F,^IXIC", "region": "US", "lang": "en-US"},
+                         headers=UA, timeout=30)
+        import re
+        return re.findall(r"<item>.*?<title>(.*?)</title>", r.text, re.S)[:10]
+    except Exception:
+        return []
+
+
+def vix_confluencia():
+    """VIX vs NQ: estructura de volatilidad, correlación y divergencias (lo que mira una mesa antes de tomar riesgo en NQ)."""
+    vd, vh = yahoo("^VIX", "1d", "3mo"), yahoo("^VIX", "1h", "10d")
+    nh = yahoo("NQ=F", "1h", "10d")
+    out = {"vix": round(vd[-1]["c"], 2), "cambio_1d_pct": round((vd[-1]["c"] / vd[-2]["c"] - 1) * 100, 2),
+           "vix_PDH": round(vd[-2]["h"], 2), "vix_PDL": round(vd[-2]["l"], 2),
+           "vix_media20": round(statistics.mean(v["c"] for v in vd[-20:]), 2),
+           "vix_max_20d": round(max(v["h"] for v in vd[-20:]), 2), "vix_min_20d": round(min(v["l"] for v in vd[-20:]), 2)}
+    try:
+        v3 = yahoo("^VIX3M", "1d", "1mo")
+        ratio = vd[-1]["c"] / v3[-1]["c"]
+        out["vix_vs_vix3m"] = round(ratio, 3)
+        out["estructura"] = "backwardation (estrés: cobertura cara a corto plazo)" if ratio > 1 else "contango (calma normal)"
+    except Exception:
+        pass
+    # correlación de retornos 1H en las últimas 48 velas comunes
+    vm = {v["t"]: v["c"] for v in vh}
+    pares = [(n["c"], vm[n["t"]]) for n in nh if n["t"] in vm][-49:]
+    if len(pares) > 10:
+        rn = [b[0] / a[0] - 1 for a, b in zip(pares, pares[1:])]
+        rv = [b[1] / a[1] - 1 for a, b in zip(pares, pares[1:])]
+        try:
+            out["correlacion_48h"] = round(statistics.correlation(rn, rv), 2)
+        except Exception:
+            pass
+        # últimas 6 horas: ¿confirman o divergen?
+        n6 = pares[-1][0] / pares[-7][0] - 1 if len(pares) > 7 else 0
+        v6 = pares[-1][1] / pares[-7][1] - 1 if len(pares) > 7 else 0
+        out["nq_6h_pct"], out["vix_6h_pct"] = round(n6 * 100, 2), round(v6 * 100, 2)
+        if n6 > 0 and v6 < 0:
+            out["lectura"] = "CONFIRMA ALCISTA: NQ sube y el VIX baja (apetito de riesgo real)"
+        elif n6 < 0 and v6 > 0:
+            out["lectura"] = "CONFIRMA BAJISTA: NQ baja y el VIX sube (se compra protección)"
+        elif n6 > 0 and v6 > 0:
+            out["lectura"] = "DIVERGENCIA: NQ sube pero el VIX también sube (las instituciones se cubren; subida sospechosa)"
+        elif n6 < 0 and v6 < 0:
+            out["lectura"] = "DIVERGENCIA: NQ baja pero el VIX también baja (caída sin miedo; posible barrida para comprar)"
+        else:
+            out["lectura"] = "SIN SEÑAL clara"
+    return out
+
+
+# ───────── historiador: estacionalidad y años análogos ─────────
+
+HIST = {"oro": "GC=F", "nq": "^NDX"}  # ^NDX tiene más años de historia que el futuro NQ
+
+
+def historico(simbolo, anios=10):
+    """Cómo se movió el activo en esta misma ventana del calendario en años anteriores, patrón del día
+    de la semana y los 3 años más parecidos al actual (por rendimiento en lo que va del año)."""
+    d = yahoo(simbolo, "1d", "10y")  # "max" devuelve velas mensuales; 10y sí da velas diarias
+    if len(d) < 300:
+        return {"error": "pocos datos"}
+    hoy = datetime.now(timezone.utc).date()
+    fechas = [datetime.fromtimestamp(v["t"], timezone.utc).date() for v in d]
+    cierres = [v["c"] for v in d]
+
+    def idx_en(fecha):  # primer día hábil >= fecha
+        for i, f in enumerate(fechas):
+            if f >= fecha:
+                return i
+        return None
+
+    def ret(i, n):
+        return (cierres[i + n] / cierres[i - 1] - 1) * 100 if i and i - 1 >= 0 and i + n < len(cierres) else None
+
+    filas = []
+    for k in range(1, anios + 1):
+        y = hoy.year - k
+        try:
+            f0 = hoy.replace(year=y)
+        except ValueError:
+            f0 = hoy.replace(year=y, day=28)
+        i = idx_en(f0)
+        if i is None:
+            continue
+        r5, r20 = ret(i, 4), ret(i, 19)
+        ini = idx_en(f0.replace(month=1, day=1))
+        ytd = (cierres[i - 1] / cierres[ini - 1] - 1) * 100 if ini and i - 1 > ini else None
+        if r5 is not None:
+            filas.append({"anio": y, "semana_pct": round(r5, 2), "20dias_pct": round(r20, 2) if r20 is not None else None,
+                          "ytd_a_la_fecha_pct": round(ytd, 1) if ytd is not None else None})
+    if not filas:
+        return {"error": "sin años comparables"}
+    sub5 = sum(1 for f in filas if f["semana_pct"] > 0)
+    r20s = [f["20dias_pct"] for f in filas if f["20dias_pct"] is not None]
+    sub20 = sum(1 for x in r20s if x > 0)
+    # día de la semana: últimos 2 años
+    dia = hoy.weekday()
+    rd = [(cierres[i] / cierres[i - 1] - 1) * 100 for i in range(max(1, len(d) - 504), len(d)) if fechas[i].weekday() == dia]
+    # años análogos: rendimiento en lo que va del año más parecido al actual
+    ini_act = idx_en(hoy.replace(month=1, day=1))
+    ytd_act = (cierres[-1] / cierres[ini_act - 1] - 1) * 100 if ini_act else None
+    analogos = []
+    if ytd_act is not None:
+        cand = [f for f in filas if f["ytd_a_la_fecha_pct"] is not None and f["20dias_pct"] is not None]
+        cand.sort(key=lambda f: abs(f["ytd_a_la_fecha_pct"] - ytd_act))
+        analogos = cand[:3]
+    votos = (1 if sub5 / len(filas) >= 0.6 else -1 if sub5 / len(filas) <= 0.4 else 0) + \
+            ((1 if sub20 / len(r20s) >= 0.6 else -1 if sub20 / len(r20s) <= 0.4 else 0) if r20s else 0) + \
+            ((1 if statistics.mean(a["20dias_pct"] for a in analogos) > 0 else -1) if analogos else 0)
+    sesgo = "alcista" if votos >= 2 else "bajista" if votos <= -2 else "neutral"
+    return {
+        "esta_semana": {"anios": len(filas), "anios_alcistas": sub5, "promedio_pct": round(statistics.mean(f["semana_pct"] for f in filas), 2)},
+        "proximos_20_dias": {"anios": len(r20s), "anios_alcistas": sub20, "promedio_pct": round(statistics.mean(r20s), 2) if r20s else None},
+        "dia_semana": {"dia": ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"][dia],
+                       "muestras_2_anios": len(rd), "pct_alcistas": round(sum(1 for x in rd if x > 0) / len(rd) * 100) if rd else None,
+                       "promedio_pct": round(statistics.mean(rd), 3) if rd else None},
+        "ytd_actual_pct": round(ytd_act, 1) if ytd_act is not None else None,
+        "anios_analogos": analogos,
+        "detalle": filas,
+        "sesgo_historico": sesgo,
+        "lectura": f"Sesgo histórico {sesgo}: {sub5} de {len(filas)} años subió esta semana"
+                   + (f"; {sub20} de {len(r20s)} subió los 20 días siguientes" if r20s else "")
+                   + (f"; análogos {', '.join(str(a['anio']) for a in analogos)}" if analogos else ""),
+    }
+
+
+
+# ───────── auditor: revisa cómo salió cada entrada ─────────
+
+import re as _re
+
+
+def _n(x):
+    m = _re.findall(r"\d[\d,]*\.?\d*", str(x or ""))
+    vals = [float(v.replace(",", "")) for v in m]
+    return sum(vals) / len(vals) if vals else None
+
+
+def auditar(me):
+    """Para cada entrada propuesta: ¿se activó? ¿tocó primero el stop o el objetivo? Guarda el resultado."""
+    velas = {}
+    for b in me.m.get("briefs", []):
+        for e in b.get("entradas") or []:
+            if e.get("resultado") or str(e.get("direccion", "")).upper().startswith("SIN"):
+                continue
+            act = "oro" if "ORO" in str(e.get("activo", "")).upper() else "nq"
+            ent, sl, tp1, tp2 = _n(e.get("zona")), _n(e.get("stop")), _n(e.get("tp1")), _n(e.get("tp2"))
+            if None in (ent, sl, tp1):
+                e["resultado"] = "sin datos"
+                continue
+            if act not in velas:
+                velas[act] = yahoo(ACTIVOS[act], "1h", "1mo")
+            t0 = datetime.fromisoformat(b["ts"].replace("Z", "+00:00")).timestamp()
+            compra = str(e.get("direccion", "")).upper().startswith("COMPRA")
+            activa, res = False, None
+            for v in velas[act]:
+                if v["t"] < t0:
+                    continue
+                if v["t"] > t0 + 30 * 3600:
+                    break
+                if not activa:
+                    if v["l"] <= ent <= v["h"]:
+                        activa = True
+                    elif (v["t"] - t0) > 12 * 3600:
+                        res = "no se activó"
+                        break
+                    else:
+                        continue
+                toca_sl = v["l"] <= sl if compra else v["h"] >= sl
+                toca_tp2 = tp2 and (v["h"] >= tp2 if compra else v["l"] <= tp2)
+                toca_tp1 = v["h"] >= tp1 if compra else v["l"] <= tp1
+                if toca_sl:
+                    res = "stop"
+                    break
+                if toca_tp2:
+                    res = "TP2"
+                    break
+                if toca_tp1 and not e.get("tp1_tocado"):
+                    e["tp1_tocado"] = True
+            if res is None and (datetime.now(timezone.utc).timestamp() - t0) > 30 * 3600:
+                res = "TP1" if e.get("tp1_tocado") else ("cerrada sin objetivo" if activa else "no se activó")
+            if res:
+                riesgo = abs(ent - sl) or 1
+                e["resultado"] = res
+                e["r"] = {"stop": -1.0, "TP2": round(abs(tp2 - ent) / riesgo, 2) if tp2 else 0, "TP1": round(abs(tp1 - ent) / riesgo, 2)}.get(res, 0.0)
+    # estadísticas
+    cerradas = [(b, e) for b in me.m.get("briefs", []) for e in (b.get("entradas") or [])
+                if e.get("resultado") in ("stop", "TP1", "TP2", "cerrada sin objetivo")]
+    def resumen(lista):
+        if not lista:
+            return None
+        g = sum(1 for _, e in lista if e["resultado"] in ("TP1", "TP2"))
+        return {"operaciones": len(lista), "ganadas": g, "acierto_pct": round(g / len(lista) * 100),
+                "r_total": round(sum(e.get("r", 0) for _, e in lista), 2)}
+    stats = {"total": resumen(cerradas)}
+    for act in ("ORO", "NQ"):
+        for ses in SESIONES:
+            for d in ("COMPRA", "VENTA"):
+                sub = [(b, e) for b, e in cerradas if act in str(e.get("activo", "")).upper() and b.get("sesion") == ses
+                       and str(e.get("direccion", "")).upper().startswith(d)]
+                if sub:
+                    stats[f"{act} {d} {ses}"] = resumen(sub)
+    me.m["estadisticas"] = stats
+    return stats
+
+
+
+def racha_mala(me, activo="NQ", n=2):
+    """True si las últimas n entradas cerradas de ese activo terminaron en stop (briefs: el más reciente primero)."""
+    res = [e["resultado"] for b in me.m.get("briefs", []) for e in (b.get("entradas") or [])
+           if activo in str(e.get("activo", "")).upper() and e.get("resultado") in ("stop", "TP1", "TP2", "cerrada sin objetivo")]
+    return len(res) >= n and all(r == "stop" for r in res[:n])
+
+
+# ───────── la sesión ─────────
+
+SEMANAL = """ESTE ES EL PLAN DE LA SEMANA (domingo, antes de que abra el mercado). Cambia el enfoque:
+- En "Lo que mueve hoy" pon los eventos de TODA la semana, día por día con hora de Las Vegas, y marca los de alto impacto.
+- En "Mapa de liquidez" usa niveles semanales: máximo/mínimo de la semana pasada (PWH/PWL), cierre semanal y los niveles diarios clave.
+- En "Escenarios" piensa en la semana completa: qué tendría que pasar para una semana alcista o bajista y qué días son los peligrosos.
+- En "Plan de entrada" NO des entradas para ejecutar: escribe SIN ENTRADA en ambos activos con el motivo
+  "las entradas se definen en el brief de cada sesión". En su lugar da las ZONAS de la semana donde la mesa buscaría compras y ventas.
+- Termina con un "Resumen de la semana" de 3 líneas: sesgo, días clave y la idea principal."""
+
+
+def correr(sesion):
+    nombre = SESIONES[sesion]
+    me = Mesa("cio")
+    me.paso("cio", f"Abriendo la mesa para la sesión de {nombre}.")
+    me.paso("auditor", "Revisando cómo salieron las entradas anteriores…")
+    try:
+        stats = auditar(me)
+        t = stats.get("total")
+        me.paso("auditor", (f"Historial: {t['operaciones']} operaciones, {t['acierto_pct']}% de acierto, {t['r_total']:+} R."
+                            if t else "Todavía no hay operaciones cerradas para medir."), trabajando=False)
+    except Exception as ex:
+        stats = {}
+        me.paso("auditor", f"No pude auditar ({str(ex)[:60]}).", trabajando=False)
+
+    me.paso("macro", "Revisando dólar, tasas a 10 años, VIX y calendario económico…")
+    mac = macro_datos()
+    cal = calendario(6 if sesion == "semana" else 1)
+    eventos = cal.get("eventos", [])
+    me.paso("macro", f"DXY {mac.get('dxy', {}).get('cambio_1d_pct', '?')}% · 10Y {mac.get('us10y', {}).get('ultimo', '?')} · VIX {mac.get('vix', {}).get('ultimo', '?')} · {len(eventos)} eventos USD en el radar.", trabajando=False)
+
+    me.paso("flujos", "Leyendo el reporte COT de la CFTC (posición de fondos)…")
+    pos = cot()
+    previo = me.m.get("cot_previo", {})
+    for k in ("oro", "nq"):
+        if k in pos and "error" not in pos[k] and previo.get(k, {}).get("fecha") != pos[k].get("fecha"):
+            pos[k]["semana_anterior"] = previo.get(k)
+            me.m.setdefault("cot_previo", {})[k] = {kk: vv for kk, vv in pos[k].items() if kk != "semana_anterior"}
+    oro_neto = pos.get("oro", {}).get("fondos_neto")
+    me.paso("flujos", f"Fondos en oro: neto {oro_neto:+,} contratos." if isinstance(oro_neto, int) else "COT leído.", trabajando=False)
+
+    me.paso("liquidez", "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…")
+    mapas = {}
+    for k, s in ACTIVOS.items():
+        try:
+            mapas[k] = mapa_activo(s)
+        except Exception as ex:
+            mapas[k] = {"error": str(ex)[:80]}
+    me.paso("liquidez", "Mapa listo: oro {} · NQ {}.".format(mapas.get("oro", {}).get("precio", "?"), mapas.get("nq", {}).get("precio", "?")), trabajando=False)
+
+    me.paso("riesgo", "Midiendo volatilidad y rango esperado del día…")
+    riesgo = {}
+    for k, m in mapas.items():
+        if "ATR14_diario" in m:
+            riesgo[k] = {"rango_esperado": f"{round(m['precio'] - m['ATR14_diario'] / 2, 2)} – {round(m['precio'] + m['ATR14_diario'] / 2, 2)}",
+                         "consumido_pct": m.get("rango_hoy_vs_atr_pct")}
+    me.paso("riesgo", "Cruzando el VIX con el NQ: estructura, correlación y divergencias…")
+    try:
+        vixc = vix_confluencia()
+    except Exception as ex:
+        vixc = {"error": str(ex)[:80]}
+    me.paso("riesgo", "VIX/NQ: " + vixc.get("lectura", "sin datos"))
+    vix = vixc.get("vix") or mac.get("vix", {}).get("ultimo")
+    regimen = "estrés" if isinstance(vix, (int, float)) and vix >= 25 else "elevada" if isinstance(vix, (int, float)) and vix >= 18 else "normal"
+    me.paso("riesgo", f"Volatilidad {regimen} (VIX {vix}).", trabajando=False)
+
+    me.paso("historiador", "Revisando qué pasó en esta misma fecha los últimos 10 años y buscando años parecidos…")
+    hist = {}
+    for k, sim in HIST.items():
+        try:
+            hist[k] = historico(sim)
+        except Exception as ex:
+            hist[k] = {"error": str(ex)[:80]}
+    me.paso("historiador", " · ".join(f"{k.upper()}: {v.get('lectura', v.get('error', 'sin datos'))}" for k, v in hist.items())[:300], trabajando=False)
+
+    me.paso("cio", "Escribiendo el brief institucional…")
+    datos = {"racha": {"nq_ultimas_2_en_stop": racha_mala(me, "NQ"), "oro_ultimas_2_en_stop": racha_mala(me, "ORO")}, "historico": hist, "sesion": nombre, "hora_las_vegas": datetime.now(LV).strftime("%Y-%m-%d %H:%M"), "macro": mac,
+             "calendario_usd": eventos, "cot": pos, "mapas": mapas, "riesgo": riesgo, "regimen_vol": regimen, "vix_nq": vixc, "historial_de_la_mesa": stats,
+             "titulares": titulares(), "evaluacion_alpha": estado_alpha(me),
+             "estrategia_4h_de_gent": _seguro(avisar_4h, me)}
+    prompt = f"""Eres el CIO (director de inversiones) de GSAM Capital, un fondo macro que opera oro (futuro GC / XAUUSD)
+y el Nasdaq 100 (futuro NQ). Piensas como una institución, no como un trader minorista:
+- Partes del contexto macro (dólar, tasas reales, apetito de riesgo, volatilidad) y del flujo/posicionamiento (COT).
+- Ves el gráfico como un mapa de liquidez: dónde están los stops de los minoristas (máximos y mínimos previos,
+  rangos de Asia y Londres, máximos/mínimos iguales), adónde necesita ir el precio para llenar órdenes grandes,
+  y dónde está el valor justo (VWAP, medias diarias).
+- No persigues precio: esperas que el mercado barra liquidez y luego confirme. Gestionas riesgo y tamaño primero.
+- Hablas en escenarios con disparador e invalidación, nunca en certezas.
+
+Escribe el BRIEF DE LA SESIÓN DE {nombre.upper()} en español, claro y directo, con estos títulos exactos:
+1. **Sesgo institucional** — una línea para ORO y una para NQ (alcista / bajista / neutral) y la razón principal.
+2. **Lo que mueve hoy** — macro, dólar, tasas, VIX y los eventos del calendario con hora de Las Vegas.
+3. **Posicionamiento** — qué dicen los datos COT y qué implica (¿gente atrapada? ¿espacio para seguir?).
+4. **Mapa de liquidez** — para cada activo, los niveles clave con su número: liquidez por arriba, por abajo,
+   valor justo, y cuál es el imán más probable de la sesión.
+5. **Escenarios** — para cada activo: Escenario A y B, cada uno con disparador, objetivo e invalidación (con números).
+6. **Riesgo** — rango esperado (ATR), cuánto ya se consumió, horas peligrosas y qué haría la mesa con el tamaño.
+7. **VIX y NQ (confluencia)** — nivel del VIX y sus niveles (PDH/PDL del VIX, media 20), estructura VIX/VIX3M,
+   correlación con NQ y la lectura de las últimas 6 horas. Di claramente si el VIX CONFIRMA o CONTRADICE el sesgo de NQ,
+   y qué nivel del VIX invalidaría el escenario alcista de NQ (por ejemplo, si rompe su máximo de ayer).
+8. **Plan de entrada institucional (Gent ejecuta)** — para ORO y para NQ, en este formato exacto:
+   - Dirección: COMPRA / VENTA / SIN ENTRADA
+   - Zona de entrada: precio o rango (donde una institución pondría su orden límite: tras barrer liquidez, en valor justo o en la última vela contraria)
+   - Confirmación: qué tiene que pasar antes de entrar (barrida + cierre de vela 1H de regreso, VIX confirmando, etc.)
+   - Stop: más allá de la liquidez que protege la idea (con número)
+   - TP1 / TP2: en la liquidez opuesta (con números)
+   - R:R: relación riesgo/beneficio al TP2
+   - Cancelar si: qué invalida la entrada antes de activarse (hora, noticia, nivel)
+   - Confluencias (0 a 5): suma 1 por cada una que se cumpla a favor de la idea: (1) sesgo macro/dólar/tasas,
+     (2) posicionamiento COT, (3) VIX confirma (para NQ) o dólar/tasas reales confirman (para oro),
+     (4) la entrada está en una zona donde ya se barrió liquidez o en valor justo, (5) el historial de la mesa para ese
+     activo + dirección + sesión no es negativo. Escribe "Confluencias: X/5" y cuáles.
+   ALTA PROBABILIDAD SOLAMENTE: si una idea tiene menos de 4/5 confluencias, la respuesta es SIN ENTRADA.
+   Si el historial muestra que una combinación (activo + dirección + sesión) tiene menos de 45% de acierto con 5 o más
+   operaciones, no la propongas. Es mejor no operar que operar una idea mediocre.
+   MALA RACHA: si en DATOS.racha un activo tiene sus últimas 2 entradas en stop, ese activo necesita 5/5
+   confluencias o es SIN ENTRADA (como un fondo que baja el riesgo en una mala racha). Dilo en el brief.
+   STOPS INSTITUCIONALES: el stop va justo detrás de la zona de liquidez más cercana que invalida la idea (máximo
+   ~1 ATR de 1H), nunca en el extremo lejano del rango. La mesa arriesga $350 fijos por operación: en NQ un stop
+   de más de ~80 puntos o en oro de más de ~25 puntos no se puede ejecutar; si la idea necesita un stop más amplio,
+   es SIN ENTRADA.
+   Reglas de la mesa: solo propones entrada si el R:R al TP2 es 2 o más; si hay noticia de impacto alto en los próximos
+   30 minutos o el ATR del día ya está consumido más del 100%, la respuesta es SIN ENTRADA y explicas por qué.
+   Una sola idea por activo. Nunca entres persiguiendo el precio.
+   EVALUACIÓN ALPHA FUTURES ACTIVA (cuenta de $50,000; ver DATOS.evaluacion_alpha): objetivo +$4,000; pérdida máxima
+   $1,750 con drawdown que sigue al saldo de cierre de cada día (si el saldo baja de ese límite, se pierde la cuenta);
+   el mejor día no puede pasar del 40% de la ganancia total; todo cerrado antes de las 4:20 pm de Nueva York.
+   Mientras dure la evaluación la mesa opera POCO y de CALIDAD: solo propone la MEJOR idea del día (5/5 confluencias),
+   nunca dos ideas mediocres. Di en el brief cuánto falta para el objetivo, cuánto colchón queda antes del límite
+   de pérdida y cuál es el riesgo de hoy (DATOS.evaluacion_alpha.riesgo_hoy). Si el colchón es pequeño, se protege la cuenta.
+9. **Historia y estacionalidad** — para ORO y NQ: cuántos de los últimos 10 años subieron esta misma semana y los
+   20 días siguientes, el patrón del día de la semana y los 3 años análogos (qué hicieron después). Cierra con
+   "Sesgo histórico: alcista / bajista / neutral". La historia es CONFLUENCIA, nunca el gatillo: si el sesgo histórico
+   CONTRADICE la dirección de una entrada, esa entrada necesita 5/5 confluencias o es SIN ENTRADA.
+10. **Estrategia 4H de Gent (ruptura y retesteo · Gent ejecuta)** — con DATOS.estrategia_4h_de_gent: para ORO y NQ,
+   cada setup vivo con dirección, nivel (entrada en el retesteo), stop, objetivo, R:R y estado ("en retesteo" o
+   "esperando retesteo"). Di si va a favor o en contra del sesgo de la mesa. Es una señal para que Gent la ejecute él:
+   NO es una entrada de la mesa ni cambia el plan del punto 8. En el backtest de 2 años acierta ~31% en NQ con ~3R por
+   ganancia (positiva) y ~26% en oro (casi neutra): recomiéndala sobre todo en NQ. Si no hay setups, dilo.
+11. **Nota para tu regla Ruptura EMA9 (1H)** — en 2-3 líneas: qué ruptura tendría sentido con este mapa y dónde está
+   la liquidez a favor (recuerda que no se entra si la liquidez a favor está a menos de 2 ATR de 1H).
+Termina con una línea: "Análisis educativo de agentes de IA. No es consejo financiero."
+Usa SOLO los números de los datos; si un dato falta dilo. Máximo 750 palabras.
+
+{SEMANAL if sesion == "semana" else ""}
+DATOS:
+{json.dumps(datos, ensure_ascii=False)[:14000]}"""
+    texto, intentos = None, 3
+    for intento in range(1, intentos + 1):
+        try:
+            texto = base.gemini(prompt)
+            break
+        except Exception as ex:
+            me.paso("cio", f"Intento {intento}/{intentos}: no pude escribir el brief ({str(ex)[:70]}).", trabajando=False)
+            if intento < intentos:
+                me.paso("cio", "Reintento en 5 minutos…")
+                time.sleep(300)
+    if not texto:
+        me.paso("cio", f"Sin brief de {nombre} hoy: Gemini no respondió tras {intentos} intentos.", trabajando=False)
+        base.avisar_telefono(f"GSAM · Mesa sin brief ({nombre})",
+                             f"La mesa no pudo escribir el brief de {nombre} tras {intentos} intentos. Hoy no habrá orden automática en esta sesión.", "high")
+        return
+    try:
+        corto = base.gemini_json(f"""Del siguiente brief, devuelve JSON {{"oro": "alcista|bajista|neutral", "nq": "alcista|bajista|neutral",
+"titular": "frase de máximo 90 caracteres con lo más importante de la sesión",
+"entradas": [{{"activo": "ORO|NQ", "direccion": "COMPRA|VENTA|SIN ENTRADA", "zona": "precio o rango", "confirmacion": "texto corto",
+"stop": "número", "tp1": "número", "tp2": "número", "rr": "número", "confluencias": "número 0-5", "cancelar": "texto corto", "motivo": "si es SIN ENTRADA, por qué"}}]}}.
+Copia los números tal cual aparecen en el brief.
+BRIEF: {texto[:6000]}""")
+    except Exception:
+        corto = {"oro": "?", "nq": "?", "titular": f"Brief de {nombre}", "entradas": []}
+    for e in corto.get("entradas", []) or []:
+        try:
+            conf = int(_n(e.get("confluencias")) or 0)
+        except Exception:
+            conf = 0
+        if not str(e.get("direccion", "")).upper().startswith("SIN") and conf < 4:
+            e["motivo"] = f"Solo {conf}/5 confluencias: no es de alta probabilidad."
+            e["direccion"] = "SIN ENTRADA"
+    brief = {"sesion": sesion, "nombre": nombre, "ts": ahora(), "texto": texto, "sesgo": {"oro": corto.get("oro"), "nq": corto.get("nq")},
+             "titular": corto.get("titular", ""), "entradas": corto.get("entradas", []), "mapas": mapas, "vix_nq": vixc, "macro": mac, "eventos": eventos, "cot": pos}
+    me.m["briefs"].insert(0, brief)
+    me.paso("cio", f"Brief de {nombre} publicado: {corto.get('titular', '')}", trabajando=False)
+    if sesion == "nuevayork":
+        try:
+            enviar_traderspost(me, corto.get("entradas", []))
+        except Exception as ex:
+            me.paso("ejecucion", f"Error al preparar la orden ({str(ex)[:60]}).", trabajando=False)
+    lineas = []
+    for e in corto.get("entradas", []) or []:
+        if str(e.get("direccion", "")).upper().startswith("SIN"):
+            lineas.append(f"{e.get('activo')}: SIN ENTRADA — {e.get('motivo', '')}")
+        else:
+            lineas.append(f"{e.get('activo')} {e.get('direccion')} en {e.get('zona')} · SL {e.get('stop')} · TP1 {e.get('tp1')} · TP2 {e.get('tp2')} · R:R {e.get('rr')}\n  Confirmación: {e.get('confirmacion')}")
+    base.avisar_telefono(f"GSAM · {nombre}: oro {corto.get('oro')} · NQ {corto.get('nq')}",
+                         ("\n".join(lineas) + "\n\n" + corto.get("titular", "") + "\n\n" + texto)[:3800])
+
+
+# ───────── ejecución: manda la entrada de NQ a TradersPost (borde de la zona · riesgo fijo $350 · hasta 10 MNQ) ─────────
+
+RIESGO_MAX = 350       # dólares máximos de pérdida por operación (riesgo fijo, tamaño variable)
+# cómo se ejecuta cada activo con micros: dólares por punto, tick, margen del stop detrás de la zona y stop mínimo
+EJEC = {
+    "NQ":  {"ticker": "MNQ", "vp": 2,  "tick": 0.25, "margen": 3,   "stop_min": 8, "max": 10},
+    "ORO": {"ticker": "MGC", "vp": 10, "tick": 0.1,  "margen": 0.5, "stop_min": 2, "max": 10},
+}
+
+
+# ───────── evaluación de Alpha Futures: pocas operaciones, de calidad, protegiendo la cuenta ─────────
+ALPHA = {"activa": True, "inicio": "2026-10-09", "saldo": 50000, "objetivo": 4000, "perdida_max": 1750, "consistencia": 0.40}
+
+
+def estado_alpha(me):
+    """Resultado estimado de la evaluación con las órdenes que mandó la mesa (resultado auditado × riesgo de cada orden)."""
+    if not ALPHA["activa"]:
+        return {"activa": False}
+    ords = me.m.setdefault("alpha_ordenes", [])
+    res = {(b.get("ts"), str(e.get("activo", "")).upper()): e for b in me.m.get("briefs", []) for e in (b.get("entradas") or [])}
+    dias = {}
+    for o in ords:
+        e = res.get((o.get("brief"), o.get("activo")))
+        if e and e.get("resultado") in ("stop", "TP1", "TP2", "cerrada sin objetivo"):
+            o["pnl"] = round(e.get("r", 0) * o.get("riesgo", RIESGO_MAX), 2)
+        if "pnl" in o:
+            dias[o["dia"]] = dias.get(o["dia"], 0) + o["pnl"]
+    saldo, pico = ALPHA["saldo"], ALPHA["saldo"]
+    for dia in sorted(dias):
+        saldo += dias[dia]
+        pico = max(pico, saldo)
+    limite = min(pico - ALPHA["perdida_max"], ALPHA["saldo"] + 100)   # el límite deja de subir al saldo inicial + 100
+    limite = max(limite, ALPHA["saldo"] - ALPHA["perdida_max"])
+    pnl = round(saldo - ALPHA["saldo"], 2)
+    colchon = round(saldo - limite, 2)
+    mejor = max(dias.values()) if dias else 0
+    falta = max(0, ALPHA["objetivo"] - pnl, (mejor / ALPHA["consistencia"] - pnl) if mejor > 0 else 0)
+    riesgo = RIESGO_MAX if colchon >= 3 * RIESGO_MAX else max(0, int(colchon / 3))   # con poco colchón, se baja el riesgo
+    return {"activa": True, "pnl_estimado": pnl, "saldo_estimado": round(saldo, 2), "limite_perdida": round(limite, 2),
+            "colchon": colchon, "falta_para_pasar": round(falta, 2), "mejor_dia": round(mejor, 2), "dias_operados": len(dias),
+            "riesgo_hoy": riesgo, "pasada": falta == 0 and pnl >= ALPHA["objetivo"],
+            "nota": "Estimado con las órdenes de la mesa; el saldo real está en la página de Alpha."}
+
+
+def _tick(x, t=0.25):
+    return round(round(x / t) * t, 2)
+
+
+def enviar_traderspost(me, entradas):
+    """Manda a TradersPost cada entrada de NQ y ORO con 4/5 confluencias o más, como orden límite en el borde de la zona.
+    Una orden por activo por día. La URL del webhook vive en el secreto TRADERSPOST_WEBHOOK de GitHub."""
+    url = os.environ.get("TRADERSPOST_WEBHOOK", "").strip()
+    if not url:
+        me.paso("ejecucion", "Sin webhook de TradersPost configurado: no se envía ninguna orden.", trabajando=False)
+        return
+    if ALPHA["activa"]:
+        ev = estado_alpha(me)
+        hoy = datetime.now(LV).strftime("%Y-%m-%d")
+        if ev["pasada"]:
+            me.paso("ejecucion", f"Evaluación Alpha: objetivo cumplido (+${ev['pnl_estimado']:,.0f}). La mesa no envía más órdenes; revisa la cuenta en Alpha.", trabajando=False)
+            base.avisar_telefono("GSAM · Evaluación Alpha", "Objetivo estimado cumplido. Confirma en la página de Alpha.", "high")
+            return
+        if any(o.get("dia") == hoy for o in me.m.get("alpha_ordenes", [])):
+            me.paso("ejecucion", "Evaluación Alpha: ya hay una orden hoy. Una sola operación por día, la mejor.", trabajando=False)
+            return
+        if ev["riesgo_hoy"] < 100:
+            me.paso("ejecucion", f"Evaluación Alpha: colchón de ${ev['colchon']:,.0f} muy pequeño. La mesa protege la cuenta y no opera.", trabajando=False)
+            return
+        # solo la mejor idea del día: 5/5 confluencias y el mejor R:R
+        cand = []
+        for x in entradas or []:
+            if str(x.get("direccion", "")).upper().startswith("SIN"):
+                continue
+            try:
+                cf = int(_n(x.get("confluencias")) or 0)
+            except Exception:
+                cf = 0
+            cand.append((cf, _n(x.get("rr")) or 0, x))
+        cand = [c for c in cand if c[0] >= 5]
+        if not cand:
+            me.paso("ejecucion", "Evaluación Alpha: ninguna idea con 5/5 confluencias. Hoy no se opera (calidad antes que cantidad).", trabajando=False)
+            return
+        mejor = max(cand, key=lambda c: (c[0], c[1]))[2]
+        activo = str(mejor.get("activo", "")).upper()
+        if activo not in EJEC:
+            return
+        try:
+            _enviar_activo(me, url, activo, EJEC[activo], [mejor], riesgo_max=ev["riesgo_hoy"])
+        except Exception as ex:
+            me.paso("ejecucion", f"{activo}: error al preparar la orden ({str(ex)[:60]}).", trabajando=False)
+        return
+    for activo, c in EJEC.items():
+        try:
+            _enviar_activo(me, url, activo, c, entradas)
+        except Exception as ex:
+            me.paso("ejecucion", f"{activo}: error al preparar la orden ({str(ex)[:60]}).", trabajando=False)
+
+
+def _enviar_activo(me, url, activo, c, entradas, riesgo_max=RIESGO_MAX):
+    hoy = datetime.now(LV).strftime("%Y-%m-%d")
+    if me.m.get(f"orden_enviada_{activo}") == hoy:
+        me.paso("ejecucion", f"{activo}: ya se envió una orden hoy (una por activo por día).", trabajando=False)
+        return
+    e = next((x for x in entradas or [] if str(x.get("activo", "")).upper() == activo), None)
+    if not e or str(e.get("direccion", "")).upper().startswith("SIN"):
+        me.paso("ejecucion", f"{activo} sin entrada de alta probabilidad: no se envía orden.", trabajando=False)
+        return
+    try:
+        conf = int(_n(e.get("confluencias")) or 0)
+    except Exception:
+        conf = 0
+    compra = str(e.get("direccion", "")).upper().startswith("COMPRA")
+    lo, hi = _rango(e.get("zona"))
+    stop, tp = _n(e.get("stop")), _n(e.get("tp2")) or _n(e.get("tp1"))
+    if racha_mala(me, activo) and conf < 5:
+        me.paso("ejecucion", f"Mala racha en {activo} (últimas 2 en stop): se exige 5/5 y hay {conf}/5. No se envía.", trabajando=False)
+        return
+    if conf < 4 or not (lo and stop and tp):
+        me.paso("ejecucion", f"Entrada de {activo} incompleta o con {conf}/5 confluencias: no se envía.", trabajando=False)
+        return
+    # 1) entrada institucional: en el borde de la zona donde está la liquidez (abajo para compras, arriba para ventas)
+    entrada = lo if compra else hi
+    # stop detrás de la zona, nunca dentro de ella, y nunca más corto que el ruido mínimo
+    if compra:
+        stop = min(stop, lo - c["margen"], entrada - c["stop_min"])
+    else:
+        stop = max(stop, hi + c["margen"], entrada + c["stop_min"])
+    if (compra and not (stop < entrada < tp)) or (not compra and not (tp < entrada < stop)):
+        me.paso("ejecucion", f"Niveles de {activo} incoherentes (stop/objetivo del lado equivocado): no se envía.", trabajando=False)
+        return
+    rr = abs(tp - entrada) / abs(entrada - stop)
+    if rr < 2:
+        me.paso("ejecucion", f"R:R de {activo} {rr:.1f} menor a 2: no se envía.", trabajando=False)
+        return
+    # 2) tamaño según el riesgo: el stop lo decide la mesa, los contratos se ajustan para no pasar de RIESGO_MAX
+    pts = abs(entrada - stop)
+    contratos = min(c["max"], int(riesgo_max // (pts * c["vp"])))
+    if contratos < 1:
+        me.paso("ejecucion", f"El stop de {activo} ({pts:.1f} pts) es demasiado amplio: ni 1 {c['ticker']} cabe en ${riesgo_max}. No se envía.", trabajando=False)
+        return
+    riesgo = pts * c["vp"] * contratos
+    t = c["tick"]
+    senal = {"ticker": c["ticker"], "action": "buy" if compra else "sell", "orderType": "limit",
+             "limitPrice": _tick(entrada, t), "price": _tick(entrada, t), "quantity": contratos,
+             "stopLoss": {"type": "stop", "stopPrice": _tick(stop, t)}, "takeProfit": {"limitPrice": _tick(tp, t)}}
+    try:
+        r = requests.post(url, json=senal, timeout=20)
+        ok = r.status_code < 300
+    except Exception as ex:
+        ok, r = False, None
+        me.paso("ejecucion", f"{activo}: no pude enviar la orden ({str(ex)[:60]}).", trabajando=False)
+    if ok:
+        me.m[f"orden_enviada_{activo}"] = hoy
+        if ALPHA["activa"]:
+            me.m.setdefault("alpha_ordenes", []).append({"dia": hoy, "activo": activo, "riesgo": round(riesgo, 2),
+                                                         "brief": (me.m.get("briefs") or [{}])[0].get("ts")})
+        lado = "COMPRA" if compra else "VENTA"
+        txt = (f"Orden enviada a TradersPost: {lado} {contratos} {c['ticker']} límite {senal['limitPrice']} (borde de la zona) · "
+               f"SL {senal['stopLoss']['stopPrice']} ({pts:.1f} pts, riesgo ${riesgo:.0f}) · TP {senal['takeProfit']['limitPrice']} · R:R {rr:.1f}")
+        me.paso("ejecucion", txt, trabajando=False)
+        base.avisar_telefono(f"GSAM · Orden {activo} enviada", txt + "\nSi te pide aprobación, apruébala en TradersPost.", "high")
+    elif r is not None:
+        me.paso("ejecucion", f"{activo}: TradersPost respondió {r.status_code}: {r.text[:80]}", trabajando=False)
+
+
+
+# ───────── noticias: vigila titulares y calendario (gratis) ─────────
+
+FUENTES_NOTICIAS = [
+    ("Yahoo Finance", "https://feeds.finance.yahoo.com/rss/2.0/headline?s=GC=F,NQ=F,%5EVIX,DX-Y.NYB&region=US&lang=en-US"),
+    ("CNBC", "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"),
+    ("CNBC Economía", "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258"),
+    ("Google News", "https://news.google.com/rss/search?q=gold+OR+nasdaq+OR+%22federal+reserve%22+OR+%22treasury+yields%22+OR+tariffs+when:1d&hl=en-US&gl=US&ceid=US:en"),
+]
+ALTO = r"\b(fed|fomc|powell|rate (cut|hike)|cpi|inflation|payrolls?|jobs report|nfp|gdp|recession|tariffs?|war|attack|missile|sanction|default|shutdown|crash|plunge|emergency|bank failure)\b"
+TEMAS = {"oro": r"\b(gold|bullion|xau|precious metal)", "nq": r"\b(nasdaq|tech stocks?|nvidia|apple|microsoft|meta|amazon|tesla|alphabet|semiconductor|ai stocks?|s&p|stocks|wall street)",
+         "dolar": r"\b(dollar|treasury|yields?|bond|fed|powell|rates?)\b"}
+
+
+def _rss(fuente, url):
+    import email.utils as eu
+    r = requests.get(url, headers=UA, timeout=25)
+    out = []
+    for it in _re.findall(r"<item>(.*?)</item>", r.text, _re.S)[:25]:
+        g = lambda tag: (_re.search(rf"<{tag}[^>]*>(.*?)</{tag}>", it, _re.S) or [None, ""])[1]
+        tit = _re.sub(r"<!\[CDATA\[|\]\]>|<[^>]+>", "", g("title")).strip()
+        tit = tit.replace("&amp;", "&").replace("&#39;", "'").replace("&quot;", '"').replace("&apos;", "'")
+        try:
+            ts = eu.parsedate_to_datetime(g("pubDate").strip()).astimezone(timezone.utc)
+        except Exception:
+            ts = datetime.now(timezone.utc)
+        src = _re.sub(r"<[^>]+>", "", g("source")).strip() or fuente
+        if fuente == "Google News" and " - " in tit:
+            tit, src = tit.rsplit(" - ", 1)
+        if tit:
+            out.append({"titulo": tit, "link": _re.sub(r"<!\[CDATA\[|\]\]>", "", g("link")).strip(), "ts": ts.strftime("%Y-%m-%dT%H:%M:%SZ"), "fuente": src})
+    return out
+
+
+def noticias(me):
+    """Junta titulares nuevos, los traduce y los clasifica; avisa al teléfono los de alto impacto y los datos por salir."""
+    import hashlib
+    lista = me.m.setdefault("noticias", [])
+    vistos = {n["id"] for n in lista}
+    nuevas = []
+    for f, u in FUENTES_NOTICIAS:
+        try:
+            for n in _rss(f, u):
+                n["id"] = hashlib.md5(_re.sub(r"\W", "", n["titulo"].lower())[:80].encode()).hexdigest()[:10]
+                edad = (datetime.now(timezone.utc) - datetime.fromisoformat(n["ts"].replace("Z", "+00:00"))).total_seconds()
+                if n["id"] not in vistos and edad < 12 * 3600:
+                    vistos.add(n["id"])
+                    t = n["titulo"].lower()
+                    n["activos"] = [k for k, rx in TEMAS.items() if _re.search(rx, t)]
+                    n["impacto"] = "alto" if _re.search(ALTO, t) else ("medio" if n["activos"] else "bajo")
+                    nuevas.append(n)
+        except Exception as ex:
+            print("noticias", f, ex)
+    nuevas.sort(key=lambda n: n["ts"], reverse=True)
+    nuevas = nuevas[:15]
+    ult = me.m.get("noticias_traducidas_ts")
+    toca_traducir = not ult or (datetime.now(timezone.utc) - datetime.fromisoformat(ult.replace("Z", "+00:00"))).total_seconds() > 1800
+    if nuevas and toca_traducir:
+        me.m["noticias_traducidas_ts"] = ahora()
+        try:
+            r = base.gemini_json("""Eres el analista de noticias de una mesa institucional que opera ORO y NASDAQ 100 (NQ).
+Para cada titular devuelve un objeto con: i (el número), es (el titular traducido al español, corto y claro),
+impacto ("alto" si puede mover fuerte el oro, el NQ, el dólar o las tasas hoy; "medio" si es relevante; "bajo" si es ruido),
+activos (lista con "oro", "nq" y/o "dolar" que afecta), efecto (máx. 12 palabras: qué haría una institución, p. ej. "Presiona al oro al alza por refugio").
+Devuelve una lista JSON. Titulares:
+""" + "\n".join(f"{i}. {n['titulo']}" for i, n in enumerate(nuevas)), lite=True)
+            for x in r if isinstance(r, list) else []:
+                try:
+                    n = nuevas[int(x.get("i"))]
+                except Exception:
+                    continue
+                n["es"] = x.get("es") or n["titulo"]
+                if x.get("impacto") in ("alto", "medio", "bajo"):
+                    n["impacto"] = x["impacto"]
+                if isinstance(x.get("activos"), list):
+                    n["activos"] = [a for a in x["activos"] if a in ("oro", "nq", "dolar")]
+                n["efecto"] = x.get("efecto", "")
+        except Exception as ex:
+            print("traducción falló", ex)
+    lista[:0] = nuevas
+    lista.sort(key=lambda n: n["ts"], reverse=True)
+    del lista[80:]
+    avisos = 0
+    for n in nuevas:
+        if n["impacto"] == "alto" and avisos < 3:
+            edad = (datetime.now(timezone.utc) - datetime.fromisoformat(n["ts"].replace("Z", "+00:00"))).total_seconds()
+            if edad < 3 * 3600:
+                avisos += 1
+                base.avisar_telefono("📰 " + (n.get("es") or n["titulo"])[:110],
+                                     (n.get("efecto") or "") + f"\nFuente: {n['fuente']}\n{n.get('link', '')}", "high")
+    # datos económicos que salen en los próximos 20 minutos
+    try:
+        avisados = me.m.setdefault("eventos_avisados", [])
+        r = requests.get("https://nfs.faireconomy.media/ff_calendar_thisweek.json", headers=UA, timeout=25).json()
+        for e in r:
+            if e.get("country") != "USD" or e.get("impact") != "High":
+                continue
+            t = datetime.fromisoformat(e["date"])
+            falta = (t - datetime.now(timezone.utc)).total_seconds() / 60
+            clave = e.get("title", "") + e["date"]
+            if 0 < falta <= 20 and clave not in avisados:
+                avisados.append(clave)
+                del avisados[:-50]
+                base.avisar_telefono(f"⏰ En {int(falta)} min: {e.get('title')} (USD, alto impacto)",
+                                     f"Previsto {e.get('forecast') or '—'} · Anterior {e.get('previous') or '—'}\n"
+                                     f"Hora Las Vegas: {t.astimezone(LV).strftime('%H:%M')}. Cuidado con entradas justo antes del dato.", "high")
+                avisos += 1
+    except Exception as ex:
+        print("calendario", ex)
+    altos = sum(1 for n in nuevas if n["impacto"] == "alto")
+    me.m["agentes"]["noticias"] = {"estado": "descansando", "tarea": "", "actualizado": ahora(),
+                                   "ultimo_resultado": (f"{len(nuevas)} titulares nuevos" + (f", {altos} de alto impacto" if altos else "")
+                                                        + (f": {nuevas[0].get('es') or nuevas[0]['titulo']}" if nuevas else ". Sin novedades."))[:220]}
+    return len(nuevas), altos
+
+
+# ───────── vigilante: mira el precio mientras el mercado está abierto (sin IA, gratis) ─────────
+
+def mercado_abierto(t=None):
+    """Globex (oro y NQ): domingo 22:00 UTC → viernes 21:00 UTC, con pausa diaria 21:00–22:00 UTC."""
+    t = t or datetime.now(timezone.utc)
+    d, h = t.weekday(), t.hour  # lunes=0 … domingo=6
+    if d == 5 or (d == 4 and h >= 21) or (d == 6 and h < 22):
+        return False
+    return h != 21
+
+
+def _rango(x):
+    vals = [float(v.replace(",", "")) for v in _re.findall(r"\d[\d,]*\.?\d*", str(x or ""))]
+    vals = [v for v in vals if v > 50]
+    return (min(vals), max(vals)) if vals else (None, None)
+
+
+def vigilar():
+    abierto = mercado_abierto()
+    if not abierto and datetime.now(LV).weekday() == 5:
+        print("Sábado: la mesa descansa.")
+        return
+    me = Mesa("vigilante")
+    try:
+        n_nuevas, n_altos = noticias(me)
+    except Exception as ex:
+        print("noticias falló", ex)
+        n_nuevas, n_altos = 0, 0
+    if not abierto:
+        me.paso("noticias", me.m["agentes"].get("noticias", {}).get("ultimo_resultado", "Revisando noticias"), trabajando=False)
+        return
+    vivo = {}
+    for k, sim in {**ACTIVOS, "vix": MACRO["vix"]}.items():
+        try:
+            v = yahoo(sim, "5m", "1d")
+            vivo[k] = {"precio": round(v[-1]["c"], 2), "velas": v}
+        except Exception as ex:
+            print("sin precio", k, ex)
+    me.m["en_vivo"] = {k: x["precio"] for k, x in vivo.items()} | {"ts": ahora()}
+    # estrategia 4H de Gent: revisa cada 15 min si hay ruptura o retesteo y le avisa al teléfono (él ejecuta)
+    if time.time() - me.m.get("ult_4h", 0) > 14 * 60:
+        me.m["ult_4h"] = time.time()
+        _seguro(avisar_4h, me)
+    # velas de 1 hora para el gráfico del plan en la oficina
+    velas_g = me.m.setdefault("velas", {})
+    for k, sim in {**ACTIVOS, "vix": MACRO["vix"]}.items():
+        try:
+            velas_g[k] = [[v["t"], round(v["o"], 2), round(v["h"], 2), round(v["l"], 2), round(v["c"], 2)] for v in yahoo(sim, "60m", "5d")][-90:]
+        except Exception as ex:
+            print("velas", k, ex)
+    b = next((x for x in me.m.get("briefs", []) if x.get("entradas")), None)
+    avisos = []
+    if b:
+        t0 = datetime.fromisoformat(b["ts"].replace("Z", "+00:00")).timestamp()
+        for e in b["entradas"]:
+            if str(e.get("direccion", "")).upper().startswith("SIN") or e.get("resultado"):
+                continue
+            act = "oro" if "ORO" in str(e.get("activo", "")).upper() else "nq"
+            if act not in vivo:
+                continue
+            lo, hi = _rango(e.get("zona"))
+            sl, tp1, tp2 = _n(e.get("stop")), _n(e.get("tp1")), _n(e.get("tp2"))
+            if lo is None or sl is None:
+                continue
+            compra = str(e.get("direccion", "")).upper().startswith("COMPRA")
+            velas = [v for v in vivo[act]["velas"] if v["t"] >= t0]
+            precio = vivo[act]["precio"]
+            nom = f"{e.get('activo')} {e.get('direccion')}"
+            est = e.setdefault("vivo", "esperando")
+            if est == "esperando":
+                if any((v["l"] <= sl) if compra else (v["h"] >= sl) for v in velas):
+                    e["vivo"] = "cancelada"
+                    avisos.append((f"❌ {nom}: cancelada", f"El precio llegó al stop ({sl}) sin activarse. No entres."))
+                elif any(v["l"] <= hi and v["h"] >= lo for v in velas):
+                    e["vivo"] = "en_zona"
+                    avisos.append((f"📍 {nom}: llegó a la zona {lo}–{hi}",
+                                   f"Precio {precio}. Todavía NO entres: espera la confirmación → {e.get('confirmacion', '')}\n"
+                                   f"Stop {sl} · TP1 {tp1} · TP2 {tp2}"))
+            elif est == "en_zona":
+                # confirmación: la última vela de 1 hora cerrada termina a favor y de regreso fuera del lado malo de la zona
+                try:
+                    h1 = [v for v in yahoo(ACTIVOS[act], "60m", "2d") if v["t"] >= t0][:-1]
+                except Exception:
+                    h1 = []
+                if h1:
+                    u = h1[-1]
+                    ok = (u["c"] > u["o"] and u["c"] >= lo) if compra else (u["c"] < u["o"] and u["c"] <= hi)
+                    if ok:
+                        e["vivo"] = "confirmada"
+                        avisos.append((f"✅ {nom}: CONFIRMÓ", f"Vela 1H cerró a favor en {round(u['c'], 2)}. Precio {precio}.\n"
+                                       f"Si entras: stop {sl} · TP1 {tp1} · TP2 {tp2}. Tú decides."))
+                if any((v["l"] <= sl) if compra else (v["h"] >= sl) for v in velas[-3:]):
+                    e["vivo"] = "cancelada"
+                    avisos.append((f"❌ {nom}: tocó el stop", f"No confirmó y llegó a {sl}. Idea cancelada."))
+            elif est == "confirmada":
+                ult = velas[-3:]
+                if any((v["l"] <= sl) if compra else (v["h"] >= sl) for v in ult):
+                    e["vivo"] = "stop"
+                    avisos.append((f"🛑 {nom}: STOP", f"Tocó {sl}."))
+                elif tp2 and any((v["h"] >= tp2) if compra else (v["l"] <= tp2) for v in ult):
+                    e["vivo"] = "tp2"
+                    avisos.append((f"🎯 {nom}: TP2", f"Llegó a {tp2}. Objetivo completo."))
+                elif tp1 and not e.get("aviso_tp1") and any((v["h"] >= tp1) if compra else (v["l"] <= tp1) for v in ult):
+                    e["aviso_tp1"] = True
+                    avisos.append((f"🎯 {nom}: TP1", f"Llegó a {tp1}. Considera asegurar parte y mover el stop a la entrada."))
+    p = me.m["en_vivo"]
+    resumen = f"Oro {p.get('oro', '—')} · NQ {p.get('nq', '—')} · VIX {p.get('vix', '—')}" + (f" · {n_nuevas} noticias nuevas" + (f" ({n_altos} alto impacto)" if n_altos else "") if n_nuevas else "")
+    for t, txt in avisos:
+        base.avisar_telefono("GSAM · " + t, txt, "high")
+    me.paso("vigilante", (" | ".join(t for t, _ in avisos) + " · " if avisos else "") + resumen, trabajando=False)
+
+
+if __name__ == "__main__":
+    s = (sys.argv[1] if len(sys.argv) > 1 else "").lower()
+    if s == "vigilar":
+        vigilar()
+    elif s in SESIONES:
+        correr(s)
+    else:
+        sys.exit("Uso: python agentes/mesa.py <asia|londres|nuevayork|vigilar>")
