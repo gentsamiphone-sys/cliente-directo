@@ -1879,9 +1879,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Owens Ave…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-09T11:02:33Z"
+   "actualizado": "2026-10-09T11:06:21Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -1909,6 +1909,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-09T11:06:21Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Owens Ave…",
@@ -3403,11 +3408,6 @@
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ts": "2026-10-07T11:06:20Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Spring Mountain Rd…",
-   "ts": "2026-10-07T11:02:32Z"
   }
  ],
  "reportes": {
