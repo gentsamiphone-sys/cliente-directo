@@ -31,10 +31,10 @@
    "ultimo_resultado": "Volatilidad normal (VIX 15.41)."
   },
   "auditor": {
-   "estado": "trabajando",
-   "tarea": "Revisando cómo salieron las entradas anteriores…",
-   "actualizado": "2026-10-09T06:32:45Z",
-   "ultimo_resultado": "Historial: 5 operaciones, 40% de acierto, -0.1 R."
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-09T06:32:46Z",
+   "ultimo_resultado": "Historial: 6 operaciones, 50% de acierto, +9.08 R."
   },
   "vigilante": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "auditor",
+   "texto": "Historial: 6 operaciones, 50% de acierto, +9.08 R.",
+   "ts": "2026-10-09T06:32:46Z"
+  },
   {
    "agente": "auditor",
    "texto": "Revisando cómo salieron las entradas anteriores…",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4139.4 · NQ 31237.25 · VIX 15.56 · 12 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-08T15:37:38Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4140.2 · NQ 31243.0 · VIX 15.54 · 11 noticias nuevas (3 alto impacto)",
-   "ts": "2026-10-08T15:32:38Z"
   }
  ],
  "briefs": [
@@ -1291,7 +1291,9 @@
      "motivo": "",
      "vivo": "confirmada",
      "aviso_tp1": true,
-     "tp1_tocado": true
+     "tp1_tocado": true,
+     "resultado": "TP2",
+     "r": 9.18
     },
     {
      "activo": "NQ",
@@ -3736,16 +3738,22 @@
  },
  "estadisticas": {
   "total": {
-   "operaciones": 5,
-   "ganadas": 2,
-   "acierto_pct": 40,
-   "r_total": -0.1
+   "operaciones": 6,
+   "ganadas": 3,
+   "acierto_pct": 50,
+   "r_total": 9.08
   },
   "ORO COMPRA londres": {
    "operaciones": 1,
    "ganadas": 0,
    "acierto_pct": 0,
    "r_total": -1.0
+  },
+  "ORO COMPRA nuevayork": {
+   "operaciones": 1,
+   "ganadas": 1,
+   "acierto_pct": 100,
+   "r_total": 9.18
   },
   "NQ COMPRA londres": {
    "operaciones": 2,
