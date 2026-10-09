@@ -31,9 +31,9 @@
    "ultimo_resultado": "Volatilidad normal (VIX 15.41)."
   },
   "auditor": {
-   "estado": "trabajando",
-   "tarea": "Revisando cómo salieron las entradas anteriores…",
-   "actualizado": "2026-10-09T12:32:48Z",
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-09T12:32:49Z",
    "ultimo_resultado": "Historial: 6 operaciones, 50% de acierto, +9.08 R."
   },
   "vigilante": {
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "auditor",
+   "texto": "Historial: 6 operaciones, 50% de acierto, +9.08 R.",
+   "ts": "2026-10-09T12:32:49Z"
+  },
   {
    "agente": "auditor",
    "texto": "Revisando cómo salieron las entradas anteriores…",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "15 titulares nuevos, 4 de alto impacto: Mondelez International (MDLZ) Backs Canadian Farmers Through Area One Farms Fund V",
    "ts": "2026-10-08T21:52:37Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "15 titulares nuevos, 4 de alto impacto: Tariffs added 2.9 percentage points to goods inflation, New York Fed finds",
-   "ts": "2026-10-08T21:47:31Z"
   }
  ],
  "briefs": [
@@ -1283,7 +1283,9 @@
      "confluencias": "4",
      "cancelar": "Noticia imprevista o pérdida de 4090 antes de activar.",
      "motivo": "",
-     "vivo": "esperando"
+     "vivo": "esperando",
+     "resultado": "no se activó",
+     "r": 0.0
     },
     {
      "activo": "NQ",
