@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4198.2 · NQ 31169.5 · VIX 15.24 · 5 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-09T13:07:33Z"
+   "ultimo_resultado": "✅ ORO COMPRA: CONFIRMÓ | ✅ NQ COMPRA: CONFIRMÓ · Oro 4201.1 · NQ 31190.5 · VIX 15.23 · 9 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-09T13:12:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-09T13:07:32Z",
-   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: Tokenization could unleash tens of billions of dollars in trapped capital, Nasdaq CEO says"
+   "actualizado": "2026-10-09T13:12:33Z",
+   "ultimo_resultado": "9 titulares nuevos, 2 de alto impacto: Tech stocks' resilience has puzzled investors. The options market could hold some clues"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "✅ ORO COMPRA: CONFIRMÓ | ✅ NQ COMPRA: CONFIRMÓ · Oro 4201.1 · NQ 31190.5 · VIX 15.23 · 9 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-09T13:12:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4198.2 · NQ 31169.5 · VIX 15.24 · 5 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4167.1 · NQ 31004.0 · VIX 15.41 · 14 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-08T23:52:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4167.2 · NQ 30999.5 · VIX 15.41 · 14 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-08T23:47:32Z"
   }
  ],
  "briefs": [
@@ -1087,7 +1087,7 @@
      "confluencias": "5",
      "cancelar": "Noticias de impacto a las 07:00 rompen el rango antes de la activación",
      "motivo": "",
-     "vivo": "en_zona"
+     "vivo": "confirmada"
     },
     {
      "activo": "NQ",
@@ -1101,7 +1101,7 @@
      "confluencias": "5",
      "cancelar": "El VIX supera los 16.46 (PDH del VIX)",
      "motivo": "",
-     "vivo": "en_zona"
+     "vivo": "confirmada"
     }
    ],
    "mapas": {
@@ -4156,12 +4156,41 @@
   }
  },
  "en_vivo": {
-  "oro": 4198.2,
-  "nq": 31169.5,
-  "vix": 15.24,
-  "ts": "2026-10-09T13:07:33Z"
+  "oro": 4201.1,
+  "nq": 31190.5,
+  "vix": 15.23,
+  "ts": "2026-10-09T13:12:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Tech stocks' resilience has puzzled investors. The options market could hold some clues",
+   "link": "https://www.cnbc.com/2026/10/09/tech-stocks-resilience-has-puzzled-investors-the-options-market-could-hold-some-clues.html",
+   "ts": "2026-10-09T13:07:30Z",
+   "fuente": "CNBC",
+   "id": "b4576dee58",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Jim Cramer's top 10 things to watch in the stock market Friday",
+   "link": "https://www.cnbc.com/investingclub/2026/10/09/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
+   "ts": "2026-10-09T13:01:32Z",
+   "fuente": "CNBC",
+   "id": "34daaff073",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Discovery Enters into Asset Purchase Agreement to Acquire Certain Timmins Mineral Properties from McEwen Inc.",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/discovery-enters-asset-purchase-agreement-130000292.html?.tsrc=rss",
+   "ts": "2026-10-09T13:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "90ae923768",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Nasdaq futures rise as tech shares rebound following sell-off: Live updates",
    "link": "https://www.cnbc.com/2026/10/08/stock-market-today-live-updates.html",
@@ -4204,6 +4233,17 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "New York Fed Says Tariffs Responsible for Nearly 3% Price Hikes on Popular Products",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR2M1WWFjeW5FSHBBYmtRS01Xa1E1eWwxZGNYcjlCWWZJOV81Tzc3T1owNXR5Z093elAzOVBqcjlBbnNKSDJHU3pOTkhzb1RmdjViRkItOV9Cc0VsSlAxMFdPQXlkZnJQTHFxcUVjN0VuWklkLThQdnIzR0ZIN2hKdFh5R1pMWlduNnJqeGxtV3hCZ05HMnE2VjJBMHAzb05XcFd4NzN6UDNXUHNaYWxIOG1fdlNNMVJoWGN6OWxYUQ?oc=5",
+   "ts": "2026-10-09T12:32:16Z",
+   "fuente": "WWD",
+   "id": "d8688a1c40",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Leifras Marks First Anniversary of Nasdaq Listing",
@@ -4984,46 +5024,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "JVS has a Heart of Gold",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWS1OUlZiYW1VQzFtX3ZoQ0xqYVhvdTIzTDNYSU9GaEVPbXAwMy1yREQ5RXFEbkJsRXJDbl9hZUlaRWxwdlNIeHBJNllyeDVpeUExdFBtWTQzNnM1VVZZOFhSRV9WOEREMmVicGVtMTYwQUZyMUNOejdBay1KZzVMeHVjRHFvak1n?oc=5",
-   "ts": "2026-10-09T07:58:02Z",
-   "fuente": "Weirton Daily Times",
-   "id": "ff36853f62",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "OpenAI defends decision to fire researchers: 'These decisions were not about raising safety concerns or speaking out'",
-   "link": "https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-concerns.html",
-   "ts": "2026-10-09T07:23:48Z",
-   "fuente": "CNBC",
-   "id": "171f3cd95d",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Caledonia Mining says Blanket mines remains a robust operation as 2026 production target is clipped",
-   "link": "https://www.proactiveinvestors.com/companies/news/1099881/caledonia-mining-says-blanket-mines-remains-a-robust-operation-as-2026-production-target-is-clipped-1099881.html?.tsrc=rss",
-   "ts": "2026-10-09T07:17:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "d5061c929b",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "India Scraps Key Tax Relief for Gold Imports, Raising Costs",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTVFwaW5xV3BwMVk1bHBWXzh1NUs3YzM1WVU0U0RqTVA0bnJuLU9aMlhmeXgzVW1Cd0RNQlJWaFpHdmRmVGtkcjJzS0wwSTMtYlpkbHk4amM4ZHVBQWE2cGRmN0RBLUxtVmlaX0Fqdm5mYkszYVM2a1k3NTJieGlNQ1hWWlVLR3E5V2ZySTgybmVsd0ZGaENmWE1HWk9CcnhqVFhTTXh4MnpUNjJTX0E?oc=5",
-   "ts": "2026-10-09T07:14:17Z",
-   "fuente": "Bloomberg.com",
-   "id": "211e0d4584",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -5031,13 +5031,6 @@
  ],
  "velas": {
   "oro": [
-   [
-    1791219600,
-    4158.3,
-    4164.6,
-    4152.9,
-    4164.2
-   ],
    [
     1791223200,
     4164.4,
@@ -5652,24 +5645,24 @@
     4207.8,
     4216.4,
     4193.2,
-    4200.1
+    4200.4
    ],
    [
-    1791550651,
-    4198.2,
-    4198.2,
-    4198.2,
-    4198.2
+    1791550800,
+    4200.4,
+    4204.1,
+    4200.0,
+    4200.9
+   ],
+   [
+    1791550951,
+    4201.1,
+    4201.1,
+    4201.1,
+    4201.1
    ]
   ],
   "nq": [
-   [
-    1791219600,
-    31250.5,
-    31318.75,
-    31235.75,
-    31296.0
-   ],
    [
     1791223200,
     31296.25,
@@ -6284,14 +6277,21 @@
     31235.5,
     31253.25,
     31135.0,
-    31175.25
+    31190.5
    ],
    [
-    1791550651,
-    31169.5,
-    31169.5,
-    31169.5,
-    31169.5
+    1791550800,
+    31191.25,
+    31202.5,
+    31181.5,
+    31193.25
+   ],
+   [
+    1791550950,
+    31190.5,
+    31190.5,
+    31190.5,
+    31190.5
    ]
   ],
   "vix": [
@@ -6725,16 +6725,16 @@
    [
     1791547200,
     15.12,
-    15.24,
+    15.27,
     15.1,
     15.24
    ],
    [
-    1791550351,
-    15.24,
-    15.24,
-    15.24,
-    15.24
+    1791550651,
+    15.23,
+    15.23,
+    15.23,
+    15.23
    ]
   ]
  },
