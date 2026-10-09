@@ -1,10 +1,10 @@
 {
  "agentes": {
   "cio": {
-   "estado": "trabajando",
-   "tarea": "Escribiendo el brief cripto…",
-   "actualizado": "2026-10-09T13:18:56Z",
-   "ultimo_resultado": "Brief publicado: Presión vendedora y falta de confluencias obligan a proteger el capital en liquidez"
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-09T13:19:04Z",
+   "ultimo_resultado": "Brief publicado: Consolidación en cripto con sesgo neutral y flujos de stablecoins a la baja ante un entorno macro mixto"
   },
   "liquidez": {
    "estado": "descansando",
@@ -50,6 +50,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "cio",
+   "texto": "Brief publicado: Consolidación en cripto con sesgo neutral y flujos de stablecoins a la baja ante un entorno macro mixto",
+   "ts": "2026-10-09T13:19:04Z"
+  },
   {
    "agente": "cio",
    "texto": "Escribiendo el brief cripto…",
@@ -337,6 +342,44 @@
   }
  ],
  "briefs": [
+  {
+   "turno": "Mañana (apertura de EE. UU.)",
+   "ts": "2026-10-09T13:19:04Z",
+   "texto": "**BRIEF CRIPTO · MAÑANA (APERTURA DE EE. UU.)**\n\n1. **Sesgo**\n- BTC: Neutral. Consolidación tras el rechazo en la parte alta del rango semanal, manteniendo estructura de soporte superior a las EMAs.\n- ETH: Neutral / Bajista. Presión vendedora relativa mayor, cediendo terreno frente a BTC y perdiendo la EMA50 diaria.\n\n2. **Liquidez global**\n- DXY en 102.29 (+0.14%), US10Y en 5.25% (+0.42%) y Nasdaq en 31,210.5 (+0.78%). El Nasdaq impulsa el apetito por riesgo en la apertura de EE. UU., pero las tasas de los bonos a 10 años en 5.25% y un DXY al alza frenan la expansión agresiva de liquidez para cripto. Resultado mixto con sesgo de freno macro.\n\n3. **Flujos**\n- Stablecoins totales en 289.1 mm, con contracción semanal (-0.49 mm) y mensual (-0.12 mm), indicando salida neta de dinero fresco del ecosistema. Dominancia de BTC en 59.25% y ETH en 10.84%; la alta dominancia de BTC confirma refugio institucional y nula rotación efectiva hacia altcoins.\n\n4. **Apalancamiento y sentimiento**\n- Fear & Greed en 59 (Greed moderado, bajando desde 67). Funding rates de perpetuos negativos en BTC (-0.0002% cada 8h) y ETH (-0.0044% cada 8h), lo que evidencia cortos pagando a largos o escepticismo bajista rezagado. No hay euforia minorista; los cortos tardíos están expuestos a un short squeeze si se defienden soportes.\n\n5. **Mapa de liquidez**\n- BTC: Máximo de la semana/mes: 86,971.78 / 87,363.76. Mínimo de la semana: 80,336.91 (mínimo de ayer: 80,336.91). EMA200 diaria: 75,638.74. Imán más probable: la liquidez superior hacia los 83,650 (máximo de 48h).\n- ETH: Máximo de la semana/mes: 2,738.26 / 2,805.50. Mínimo de la semana: 2,406.15 (mínimo de ayer: 2,406.15). EMA200 diaria: 2,321.10. Imán más probable: soporte en la zona de la EMA50 diaria (2,501.69) antes de buscar el rango previo.\n\n6. **Plan**\n- BTC:\n  - Dirección: SIN ENTRADA\n  - Zona de entrada: 80,336.91\n  - Stop: 79,500.00\n  - TP1 / TP2: 83,650.00 / 86,971.78\n  - R:R al TP2: 3.4\n  - Confluencias (2/5): (1) liquidez global mixta, (2) flujos negativos de stablecoins, (3) funding negativo a favor, (4) zona de soporte semanal, (5) estacionalidad. Menos de 4/5 = SIN ENTRADA.\n- ETH:\n  - Dirección: SIN ENTRADA\n  - Zona de entrada: 2,406.15\n  - Stop: 2,350.00\n  - TP1 / TP2: 2,585.30 / 2,738.26\n  - R:R al TP2: 3.1\n  - Confluencias (2/5): (1) liquidez global mixta, (2) flujos negativos, (3) funding negativo, (4) soporte de mínimo semanal, (5) estacionalidad. Menos de 4/5 = SIN ENTRADA.\n\n7. **Historia**\n- Qué hizo BTC en esta fecha: En los últimos 8 años, el rendimiento promedio de esta semana ha sido de -0.34%, pero los próximos 20 días muestran un sesgo positivo con 6 de 8 años alcistas y un promedio de +9.51%. Análogos: 2025, 2018, 2024.\n- Sesgo histórico: Alcista (para el ciclo de 20 días posteriores). Confluencia macro-estacional, nunca gatillo operativo directo.\n\n8. **Riesgo**\n- Régimen de volatilidad: Normal (ATR diario BTC 2.38%, ETH 3.03%). Regla de tamaño: arriesgar como máximo 1% del capital por idea; en volatilidad alta, la mitad. Hoy aplicamos el límite estándar del 1% bajo estricta disciplina de órdenes límite.\n\nAnálisis educativo de agentes de IA. No es consejo financiero.",
+   "titular": "Consolidación en cripto con sesgo neutral y flujos de stablecoins a la baja ante un entorno macro mixto",
+   "sesgo": {
+    "btc": "neutral",
+    "eth": "neutral"
+   },
+   "entradas": [
+    {
+     "activo": "BTC",
+     "direccion": "SIN ENTRADA",
+     "zona": "80,336.91",
+     "stop": "79,500.00",
+     "tp1": "83,650.00",
+     "tp2": "86,971.78",
+     "rr": "3.4",
+     "confluencias": "(1) liquidez global mixta, (2) flujos negativos de stablecoins, (3) funding negativo a favor, (4) zona de soporte semanal, (5) estacionalidad"
+    },
+    {
+     "activo": "ETH",
+     "direccion": "SIN ENTRADA",
+     "zona": "2,406.15",
+     "stop": "2,350.00",
+     "tp1": "2,585.30",
+     "tp2": "2,738.26",
+     "rr": "3.1",
+     "confluencias": "(1) liquidez global mixta, (2) flujos negativos, (3) funding negativo, (4) soporte de mínimo semanal, (5) estacionalidad"
+    }
+   ],
+   "precios": {
+    "btc": 83049.97,
+    "eth": 2497.34
+   },
+   "fear_greed": 59,
+   "dominancia_btc": 59.25
+  },
   {
    "turno": "Noche (Asia)",
    "ts": "2026-10-09T01:11:33Z",
