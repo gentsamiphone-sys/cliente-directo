@@ -2076,10 +2076,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "estado": "descansando",
+   "tarea": "",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-09T23:06:21Z"
+   "actualizado": "2026-10-09T23:06:36Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2107,6 +2107,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
+   "ts": "2026-10-09T23:06:36Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -3601,11 +3606,6 @@
    "agente": "buscador",
    "texto": "Buscando restaurantes y comida sin página web cerca de Cheyenne Ave…",
    "ts": "2026-10-08T01:02:29Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Terminó su turno: 60 textos listos para mandar",
-   "ts": "2026-10-08T00:37:44Z"
   }
  ],
  "reportes": {
