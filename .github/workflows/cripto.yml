@@ -43,6 +43,7 @@ jobs:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           SOLANA_BOT_KEY: ${{ secrets.SOLANA_BOT_KEY }}
           MODO_CRIPTO: ${{ secrets.MODO_CRIPTO }}
+          TRADERSPOST_WEBHOOK: ${{ secrets.TRADERSPOST_WEBHOOK }}
           DESTINO: ${{ inputs.destino }}
           SITIO_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/cripto.html
         run: |
