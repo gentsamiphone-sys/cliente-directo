@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-09T12:32:56Z",
-   "ultimo_resultado": "Mapa listo: oro 4207.8 · NQ 31209.5."
+   "actualizado": "2026-10-09T19:57:35Z",
+   "ultimo_resultado": "Estrategia 4H ORO: COMPRA: esperar retesteo de 4166.8 · stop 4148.89 · objetivo 4233.7 · R:R 3.73 (esperando retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-09T19:52:31Z",
-   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: Gold price holds critical $4,100 support, but can it break $4,200 as inflation risks loom?"
+   "actualizado": "2026-10-09T19:57:34Z",
+   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: Eldorado Gold's Skouries Project Chosen as Strategic Project Under EU Critical Raw Materials Act"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H ORO: COMPRA: esperar retesteo de 4166.8 · stop 4148.89 · objetivo 4233.7 · R:R 3.73 (esperando retesteo). Tú ejecutas.",
+   "ts": "2026-10-09T19:57:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4222.3 · NQ 31092.75 · VIX 14.85 · 15 noticias nuevas (3 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Abriendo la mesa para la sesión de Londres.",
    "ts": "2026-10-09T06:32:43Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4216.9 · NQ 31148.5 · VIX 15.41 · 5 noticias nuevas",
-   "ts": "2026-10-09T06:32:32Z"
   }
  ],
  "briefs": [
@@ -4156,12 +4156,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4222.3,
-  "nq": 31092.75,
-  "vix": 14.85,
-  "ts": "2026-10-09T19:52:32Z"
+  "oro": 4221.4,
+  "nq": 31091.25,
+  "vix": 14.88,
+  "ts": "2026-10-09T19:57:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Eldorado Gold's Skouries Project Chosen as Strategic Project Under EU Critical Raw Materials Act",
+   "link": "https://finance.yahoo.com/energy/articles/eldorado-gold-apos-skouries-project-194331623.html?.tsrc=rss",
+   "ts": "2026-10-09T19:43:31Z",
+   "fuente": "Yahoo Finance",
+   "id": "b88c55e4dd",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Junk bonds are 'flashing yellow.' Watch these warning signs",
    "link": "https://www.cnbc.com/2026/10/09/junk-bonds-are-flashing-yellow-watch-these-warning-signs.html",
@@ -4971,15 +4982,6 @@
    "activos": [
     "dolar"
    ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Americans' debt problems are flashing a warning not seen since the Great Recession",
-   "link": "https://www.cnbc.com/2026/10/09/american-debt-delinquency.html",
-   "ts": "2026-10-09T14:03:24Z",
-   "fuente": "CNBC Economía",
-   "id": "b293f8ede0",
-   "activos": [],
    "impacto": "alto"
   }
  ],
@@ -6744,5 +6746,34 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-09T19:37:30Z"
+ "noticias_traducidas_ts": "2026-10-09T19:37:30Z",
+ "ult_4h": 1791575855.1359892,
+ "estrategia_4h": {
+  "oro": {
+   "precio": 4221.4,
+   "atr_4h": 29.86,
+   "setups": [
+    {
+     "direccion": "COMPRA",
+     "nivel": 4166.8,
+     "entrada": 4166.8,
+     "stop": 4148.89,
+     "objetivo": 4233.7,
+     "rr": 3.73,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 1.1,
+     "ruptura": "2026-10-08 20:00 UTC"
+    }
+   ]
+  },
+  "nq": {
+   "precio": 31092.75,
+   "atr_4h": 179.64,
+   "setups": []
+  },
+  "ts": "2026-10-09T19:57:35Z"
+ },
+ "avisos_4h": [
+  "oro|COMPRA|4166.8|esperando retesteo"
+ ]
 }
