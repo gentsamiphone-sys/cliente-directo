@@ -49,6 +49,22 @@ section h2{font-family:"Familjen Grotesk",sans-serif;font-size:20px;margin:0 0 1
 .tip b{display:block;font:700 .95rem "Familjen Grotesk",sans-serif}.tip .s{font:500 .66rem "IBM Plex Mono",monospace;color:var(--acc);text-transform:uppercase}
 .ctrl{position:absolute;right:12px;bottom:12px;display:flex;gap:6px;z-index:2}
 .ctrl button{font:600 .8rem "Atkinson Hyperlegible",sans-serif;color:var(--ink);background:rgba(14,17,20,.9);border:1px solid #2a3026;border-radius:8px;padding:6px 11px;cursor:pointer}
+#chatBtn{position:fixed;right:18px;bottom:18px;z-index:50;background:#d7ff3a;color:#0b0d10;border:0;border-radius:999px;padding:12px 18px;font:700 14px "Atkinson Hyperlegible",sans-serif;box-shadow:0 6px 24px rgba(0,0,0,.5);cursor:pointer}
+#chat{position:fixed;right:18px;bottom:72px;z-index:50;width:min(420px,calc(100vw - 32px));height:min(620px,calc(100vh - 110px));background:#0e1013;border:1px solid #2a3026;border-radius:16px;display:flex;flex-direction:column;box-shadow:0 12px 40px rgba(0,0,0,.6)}
+#chat[hidden]{display:none}
+#chat header{padding:12px 14px;border-bottom:1px solid #23281f;display:flex;justify-content:space-between;align-items:center;gap:8px}
+#chat header b{font-size:15px}#chat header button{background:none;border:0;color:inherit;font-size:20px;cursor:pointer}
+.quien{display:flex;gap:6px;flex-wrap:wrap;padding:8px 12px;border-bottom:1px solid #23281f}
+.quien button{background:transparent;border:1px solid #2a3026;color:inherit;border-radius:999px;padding:3px 9px;font:inherit;font-size:12px;cursor:pointer}.quien button[aria-pressed=true]{background:#d7ff3a;color:#0b0d10;border-color:#d7ff3a}
+#msgs{flex:1;overflow:auto;padding:12px;display:flex;flex-direction:column;gap:10px}
+.mg{max-width:88%;padding:9px 12px;border-radius:12px;font-size:14px;line-height:1.45;white-space:pre-wrap}
+.mg.yo{align-self:flex-end;background:#d7ff3a;color:#0b0d10;border-bottom-right-radius:4px}
+.mg.ag{align-self:flex-start;background:#171b17;border:1px solid #23281f;border-bottom-left-radius:4px}.mg.ag small{display:block;font-weight:700;color:#d7ff3a;margin-bottom:3px;font-size:11px;letter-spacing:.04em}
+#chatForm{display:flex;gap:8px;padding:10px;border-top:1px solid #23281f}#chatForm textarea{flex:1;resize:none;background:#0b0d10;color:inherit;border:1px solid #2a3026;border-radius:10px;padding:8px;font:inherit;font-size:14px;height:44px}
+#chatForm button{background:#d7ff3a;color:#0b0d10;border:0;border-radius:10px;padding:0 14px;font-weight:700;cursor:pointer}
+.clave{padding:14px;font-size:14px;line-height:1.5}.clave input{width:100%;margin:8px 0;background:#0b0d10;color:inherit;border:1px solid #2a3026;border-radius:8px;padding:8px}.clave button{background:#d7ff3a;color:#0b0d10;border:0;border-radius:8px;padding:8px 12px;font-weight:700;cursor:pointer}.clave a{color:#d7ff3a}
+.sug{display:flex;gap:6px;flex-wrap:wrap}.sug button{background:#171b17;border:1px solid #2a3026;color:inherit;border-radius:10px;padding:5px 9px;font:inherit;font-size:12px;cursor:pointer;text-align:left}
+#chatForm[hidden]{display:none}
 </style>
 </head>
 <body>
@@ -296,6 +312,68 @@ cargar();setInterval(cargar,20000);
   document.querySelectorAll("[data-w]").forEach(b=>b.onclick=()=>window.__enfocar(b.dataset.w));
   $("bP").onclick=()=>z(W/2,H/2,1.2);$("bM").onclick=()=>z(W/2,H/2,1/1.2);$("bC").onclick=centrar;
   new ResizeObserver(resize).observe(cv);resize();requestAnimationFrame(frame);
+})();
+</script>
+<button id="chatBtn" aria-controls="chat">💬 Hablar con la mesa cripto</button>
+<section id="chat" hidden aria-label="Chat con los agentes cripto">
+  <header><b>Mesa cripto GSAM</b><span><button id="chatKey" title="Cambiar clave" aria-label="Cambiar clave">⚙︎</button><button id="chatX" aria-label="Cerrar">×</button></span></header>
+  <div class="quien" id="quien"></div>
+  <div id="msgs"></div>
+  <form id="chatForm"><textarea id="chatIn" placeholder="Pregúntale a la mesa cripto… (Enter para enviar)"></textarea><button>Enviar</button></form>
+</section>
+<script>
+/* ===== Chat con la mesa cripto (Gemini desde tu navegador; la clave se guarda solo en este dispositivo) ===== */
+(()=>{
+const ROLES={mesa:{n:"Toda la mesa",d:"Responde el CIO cripto y, si hace falta, cita a cada analista (Macro, Flujos, Sentimiento, Liquidez, Historiador, Riesgo, Ejecución)."},
+  cio:{n:"CIO",d:"Eres el CIO de la mesa cripto: decides el sesgo de BTC y ETH, las zonas y si se opera o no, como un fondo cripto grande."},
+  macro:{n:"Macro",d:"Eres el analista Macro: dólar (DXY), tasas a 10 años y Nasdaq, y cómo empujan o frenan a cripto."},
+  flujos:{n:"Flujos",d:"Eres el analista de Flujos: stablecoins (dinero nuevo que entra o sale) y dominancia de BTC."},
+  sentimiento:{n:"Sentimiento",d:"Eres el analista de Sentimiento: Fear & Greed y funding de perpetuos; quién está apalancado y atrapado."},
+  liquidez:{n:"Liquidez",d:"Eres el analista de Liquidez: máximos y mínimos de la semana y del mes, EMA200 diaria, zonas donde están los stops."},
+  historiador:{n:"Historiador",d:"Eres el Historiador: qué hizo BTC en estas fechas en años anteriores y años parecidos."},
+  riesgo:{n:"Riesgo",d:"Eres el gestor de Riesgo: 1% por idea, stop, R:R, freno tras 2 pérdidas, volatilidad."},
+  ejecucion:{n:"Ejecución",d:"Eres Ejecución: órdenes de BTC en la billetera real de Solana (solo compra) y órdenes demo de MBT/MET en Tradovate."}};
+let quien="mesa",H=[],KEY="";try{H=JSON.parse(localStorage.getItem("gc_chat_cripto")||"[]");KEY=localStorage.getItem("gc_gemini")||""}catch{}
+const $c=id=>document.getElementById(id);
+function guardar(){try{localStorage.setItem("gc_chat_cripto",JSON.stringify(H.slice(-40)))}catch{}}
+function pintar(){
+  $c("quien").innerHTML=Object.entries(ROLES).map(([k,r])=>`<button data-q="${k}" aria-pressed="${k===quien}">${r.n}</button>`).join("");
+  if(!KEY){$c("msgs").innerHTML=`<div class="clave"><b>Conecta el cerebro de la mesa</b><br>Para hablar con los agentes necesitas tu clave gratis de Gemini (la misma de Google AI Studio que usan los agentes).<br>1. Ábrela aquí: <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a> y copia tu clave.<br>2. Pégala abajo. Se guarda solo en este dispositivo, nadie más la ve.<input id="keyIn" type="password" placeholder="Pega tu clave de Gemini" autocomplete="off"><button id="keyOk">Guardar clave</button></div>`;
+    $c("keyOk").onclick=()=>{KEY=$c("keyIn").value.trim();try{localStorage.setItem("gc_gemini",KEY)}catch{}pintar()};$c("chatForm").hidden=true;return}
+  $c("chatForm").hidden=false;
+  $c("msgs").innerHTML=(H.length?H:[{r:"ag",q:"cio",t:"Hola Gent. Somos la mesa cripto. Pregúntanos lo que quieras: el sesgo de BTC y ETH, por qué no entramos, qué órdenes hay, cómo va tu billetera…"}]).map(m=>m.r==="yo"?`<div class="mg yo">${esc(m.t)}</div>`:`<div class="mg ag"><small>${esc((ROLES[m.q]||ROLES.mesa).n.toUpperCase())}</small>${esc(m.t)}</div>`).join("")+
+    (H.length?"":`<div class="sug">${["¿Cuál es el sesgo de BTC hoy?","¿Por qué no entramos?","¿Hay alguna orden esperando?","¿Cómo va mi capital real?","¿Qué dice el historiador?"].map(x=>`<button data-s="${esc(x)}">${esc(x)}</button>`).join("")}</div>`);
+  $c("msgs").scrollTop=1e9}
+function contexto(){const B=M.briefs||[],b=B[0]||{};
+  return JSON.stringify({hora_las_vegas:new Date().toLocaleString("es-US",{timeZone:"America/Los_Angeles"}),
+    ultimo_brief:{turno:b.turno,hora:b.ts,sesgo:b.sesgo,titular:b.titular,precios:b.precios,fear_greed:b.fear_greed,dominancia_btc:b.dominancia_btc,texto:(b.texto||"").slice(0,5000)},
+    entradas:b.entradas,briefs_anteriores:B.slice(1,4).map(x=>({turno:x.turno,hora:x.ts,sesgo:x.sesgo,titular:x.titular})),
+    posiciones_billetera_real:(M.posiciones||[]).slice(0,10),ordenes_futuros_demo:M.futuros_enviados,
+    actividad_reciente:(M.actividad||[]).slice(0,25).map(a=>a.ts+" "+a.agente+": "+a.texto)})}
+async function preguntar(t){H.push({r:"yo",t});guardar();pintar();
+  const pend={r:"ag",q:quien,t:"…pensando"};H.push(pend);pintar();
+  const sys=`Eres parte de la mesa cripto institucional "GSAM Capital" que analiza BTC y ETH como un fondo grande. ${ROLES[quien].d}
+Hablas con Gent, el dueño, en español sencillo y breve (máximo 120 palabras salvo que pida detalle).
+Reglas de la mesa: riesgo 1% por idea, mínimo 4/5 confluencias y R:R 2; la billetera real de Solana (~$57) solo COMPRA BTC; las ventas en corto van solo en demo (MBT/MET); tras 2 stops seguidos el bot se pausa 72 h; al llegar al TP1 el stop pasa a la entrada.
+Usa SOLO los datos de abajo. Si un dato no está, dilo; no inventes precios. No prometas ganancias; es análisis educativo, no consejo financiero.
+DATOS DE LA MESA AHORA:
+${contexto()}`;
+  const hist=H.slice(-12,-1).map(m=>({role:m.r==="yo"?"user":"model",parts:[{text:m.t}]}));
+  let resp="",err="";
+  for(const mod of ["gemini-2.5-flash-lite","gemini-flash-lite-latest","gemini-2.5-flash","gemini-flash-latest"]){
+    try{const r=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${mod}:generateContent`,{method:"POST",headers:{"Content-Type":"application/json","x-goog-api-key":KEY},
+      body:JSON.stringify({systemInstruction:{parts:[{text:sys}]},contents:hist,generationConfig:{temperature:.4,maxOutputTokens:900}})});
+      const j=await r.json();if(!r.ok){err=(j.error&&j.error.message)||r.status;if(/API key|API_KEY|PERMISSION|UNAUTHENTICATED/i.test(err+"")&&r.status!==404)break;continue}
+      resp=(j.candidates?.[0]?.content?.parts||[]).map(p=>p.text||"").join("").trim();if(resp)break}catch(e){err=e.message}}
+  pend.t=resp||("No pude responder ("+String(err).slice(0,120)+"). Si dice que la clave no es válida, toca ⚙︎ y pégala de nuevo.");
+  guardar();pintar()}
+$c("chatBtn").onclick=()=>{$c("chat").hidden=!$c("chat").hidden;if(!$c("chat").hidden){pintar();setTimeout(()=>$c("chatIn")?.focus(),50)}};
+$c("chatX").onclick=()=>$c("chat").hidden=true;
+$c("chatKey").onclick=()=>{KEY="";try{localStorage.removeItem("gc_gemini")}catch{}pintar()};
+$c("quien").onclick=e=>{const b=e.target.closest("[data-q]");if(b){quien=b.dataset.q;pintar()}};
+$c("msgs").onclick=e=>{const b=e.target.closest("[data-s]");if(b)preguntar(b.dataset.s)};
+$c("chatForm").onsubmit=e=>{e.preventDefault();const t=$c("chatIn").value.trim();if(!t||!KEY)return;$c("chatIn").value="";preguntar(t)};
+$c("chatIn").addEventListener("keydown",e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();$c("chatForm").requestSubmit()}});
 })();
 </script>
 </body>
