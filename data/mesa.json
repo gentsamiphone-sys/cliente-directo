@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4220.7 · NQ 31120.0 · VIX 14.84 · 15 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-09T20:07:34Z"
+   "ultimo_resultado": "Oro 4220.5 · NQ 31116.5 · VIX 14.81 · 15 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-09T20:12:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-09T20:07:34Z",
-   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: Dentro de la 16ª Conferencia Anual T.H.I.N.K. Gold"
+   "actualizado": "2026-10-09T20:12:36Z",
+   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: Trump appoints committee to investigate statements by the Fed's Lisa Cook"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4220.5 · NQ 31116.5 · VIX 14.81 · 15 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-09T20:12:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4220.7 · NQ 31120.0 · VIX 14.84 · 15 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "DXY -0.1% · 10Y 5.231 · VIX 15.41 · 4 eventos USD en el radar.",
    "ts": "2026-10-09T06:32:49Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
-   "ts": "2026-10-09T06:32:47Z"
   }
  ],
  "briefs": [
@@ -4156,10 +4156,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4220.7,
-  "nq": 31120.0,
-  "vix": 14.84,
-  "ts": "2026-10-09T20:07:34Z"
+  "oro": 4220.5,
+  "nq": 31116.5,
+  "vix": 14.81,
+  "ts": "2026-10-09T20:12:36Z"
  },
  "noticias": [
   {
@@ -4470,6 +4470,17 @@
    "id": "5a2f0b6377",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Trump appoints committee to investigate statements by the Fed's Lisa Cook",
+   "link": "https://www.cnbc.com/2026/10/09/fed-lisa-cook-trump.html",
+   "ts": "2026-10-09T17:56:24Z",
+   "fuente": "CNBC",
+   "id": "754ef64c0b",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "At New Mexico Piñon Coffee, Luján Hears Directly About Impact of Tariffs on New Mexico Small Businesses and Consumers",
@@ -4982,15 +4993,6 @@
    "id": "139862f4bd",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "South Africa lawyer 'Navi' Pillay wins Nobel Peace Prize for efforts to prosecute war crimes, genocide",
-   "link": "https://www.cnbc.com/2026/10/09/nobel-peace-prize-navanethem-navi-pillay-winner.html",
-   "ts": "2026-10-09T14:12:23Z",
-   "fuente": "CNBC",
-   "id": "0698941c9e",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -4998,13 +5000,6 @@
  ],
  "velas": {
   "oro": [
-   [
-    1791244800,
-    4161.0,
-    4178.8,
-    4160.1,
-    4178.3
-   ],
    [
     1791248400,
     4177.9,
@@ -5619,24 +5614,24 @@
     4224.6,
     4226.8,
     4217.8,
-    4220.1
+    4220.2
    ],
    [
-    1791575852,
-    4220.7,
-    4220.7,
-    4220.7,
-    4220.7
+    1791576000,
+    4220.2,
+    4221.0,
+    4219.2,
+    4220.6
+   ],
+   [
+    1791576153,
+    4220.4,
+    4220.4,
+    4220.4,
+    4220.4
    ]
   ],
   "nq": [
-   [
-    1791248400,
-    31392.0,
-    31411.25,
-    31330.0,
-    31338.0
-   ],
    [
     1791252000,
     31337.25,
@@ -6251,14 +6246,21 @@
     31113.25,
     31137.0,
     31087.5,
-    31117.0
+    31112.25
    ],
    [
-    1791575854,
-    31118.75,
-    31118.75,
-    31118.75,
-    31118.75
+    1791576000,
+    31112.0,
+    31120.0,
+    31106.5,
+    31117.25
+   ],
+   [
+    1791576155,
+    31117.25,
+    31117.25,
+    31117.25,
+    31117.25
    ]
   ],
   "vix": [
@@ -6742,44 +6744,44 @@
     1791572400,
     14.82,
     14.89,
-    14.8,
-    14.84
+    14.79,
+    14.81
    ],
    [
-    1791575551,
-    14.84,
-    14.84,
-    14.84,
-    14.84
+    1791575851,
+    14.81,
+    14.81,
+    14.81,
+    14.81
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-09T20:07:30Z",
- "ult_4h": 1791575855.1359892,
+ "ult_4h": 1791576756.694399,
  "estrategia_4h": {
   "oro": {
-   "precio": 4221.4,
-   "atr_4h": 29.86,
+   "precio": 4220.5,
+   "atr_4h": 25.76,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4148.89,
+     "stop": 4151.35,
      "objetivo": 4233.7,
-     "rr": 3.73,
+     "rr": 4.33,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.1,
+     "fuerza_ruptura_atr": 1.27,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 31092.75,
-   "atr_4h": 179.64,
+   "precio": 31117.25,
+   "atr_4h": 164.18,
    "setups": []
   },
-  "ts": "2026-10-09T19:57:35Z"
+  "ts": "2026-10-09T20:12:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo"
