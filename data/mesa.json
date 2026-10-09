@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4214.6 · NQ 31115.75 · VIX 15.19 · 10 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-09T13:42:32Z"
+   "ultimo_resultado": "Oro 4211.4 · NQ 31102.25 · VIX 15.08 · 11 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-09T13:48:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-09T13:42:31Z",
-   "ultimo_resultado": "10 titulares nuevos, 1 de alto impacto: Stock Market Today: Dow, S&P 500, and Nasdaq in Focus at the Opening Bell"
+   "actualizado": "2026-10-09T13:48:33Z",
+   "ultimo_resultado": "11 titulares nuevos, 1 de alto impacto: ICE won't pause enforcement in NY after Bronx shooting, DHS's Mullin says"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4211.4 · NQ 31102.25 · VIX 15.08 · 11 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-09T13:48:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4214.6 · NQ 31115.75 · VIX 15.19 · 10 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4173.5 · NQ 30978.5 · VIX 15.41 · 14 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-09T00:27:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4170.7 · NQ 30975.25 · VIX 15.41 · 14 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-09T00:22:32Z"
   }
  ],
  "briefs": [
@@ -4156,12 +4156,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4214.6,
-  "nq": 31115.75,
-  "vix": 15.19,
-  "ts": "2026-10-09T13:42:32Z"
+  "oro": 4211.4,
+  "nq": 31102.25,
+  "vix": 15.08,
+  "ts": "2026-10-09T13:48:33Z"
  },
  "noticias": [
+  {
+   "titulo": "ICE won't pause enforcement in NY after Bronx shooting, DHS's Mullin says",
+   "link": "https://www.cnbc.com/2026/10/09/ice-bronx-shooting-mamdani-dhs.html",
+   "ts": "2026-10-09T13:44:29Z",
+   "fuente": "CNBC",
+   "id": "63a557c895",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Bull market turns four next week. Rallies that make it this far usually keep going",
+   "link": "https://www.cnbc.com/2026/10/09/bull-market-turns-four-next-week-rallies-that-make-it-this-far-usually-keep-going.html",
+   "ts": "2026-10-09T13:42:14Z",
+   "fuente": "CNBC",
+   "id": "955436659e",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Nasdaq jumps as tech shares rebound following sell-off: Live updates",
    "link": "https://www.cnbc.com/2026/10/08/stock-market-today-live-updates.html",
@@ -4357,6 +4375,15 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Stock Market News for Oct 9, 2026",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-oct-9-122400860.html?.tsrc=rss",
+   "ts": "2026-10-09T12:24:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "22c4831a4d",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "Dollar eyes longest winning streak since early 2025 on oil, Fed bets",
    "link": "https://qz.com/dollar-winning-streak-oil-prices-fed-rate-hikes-100926?.tsrc=rss",
    "ts": "2026-10-09T12:21:15Z",
@@ -4431,6 +4458,15 @@
     "dolar"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Delta CEO: 'Safety is going to make the call' on launching Saudi Arabia flight",
+   "link": "https://www.cnbc.com/2026/10/09/delta-riyadh-flight-safety-houthi-attacks.html",
+   "ts": "2026-10-09T11:57:05Z",
+   "fuente": "CNBC",
+   "id": "2bb18b68a7",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Ferrari’s chairman is bullish on AI. He’s less certain how businesses will cash in",
@@ -4976,46 +5012,6 @@
    "impacto": "alto",
    "es": "El oro sube por un dólar estadounidense más débil y menores precios del petróleo",
    "efecto": "Compra institucional de oro ante la debilidad del dólar."
-  },
-  {
-   "titulo": "Trump slashes tariffs to flood U.S. with 661 million pounds of foreign beef — Nebraska ranchers push back",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTjJYSnRtdnlPT1pGWkVpN1ljTTF3emdfaWpfR1hXREJRRVRWU3VqSlpJZ0ZSZlhDYlUyUTFQeFQ1UmhvMEU4OFRGUEZtSi1LRWZaSENSWDFCeUNFR1dnckJPcXFmZW04bHNyWmNJdDNvd1pfZFF0bWhOZzFrWXhId19WTGZ2Q25FQWdVSGtOM2hRV1QxVVlOMy13?oc=5",
-   "ts": "2026-10-09T09:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "a3cbbcf510",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "UTA and Gold House Set Partnership to Build Asia-Hollywood Bridge (EXCLUSIVE)",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZVZQWUc1R1FSM1Juc05hWGhIR0g1Y2tKcHpYZUpWOGhXTjFGZTlaYkNwT1dJZy1LczBsQ1dHMmlOVWhWejh6V1ZmWENYVlQ2dktGZnRxUWpjckQ2M3JmRkxTSzV3LU9qVmV3RFhKc1Zabm00STJiOHM2aGtqRVdrZUFVbURES19jblF4Ml9tN3RGbGpER3dVQWIyd1E1Zw?oc=5",
-   "ts": "2026-10-09T09:00:00Z",
-   "fuente": "Variety",
-   "id": "bea8cd4191",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Midterm Elections Shift Market Focus to the U.S. Deficit and Tariffs",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSWdYU0NFX1hkcnIwbzk4V3laQm5NQ3p5OFhOVzdRSTJDLVlYYjQ5MFU0RXlPS211NW42MDdiTkxGVDRmeEFMRmVHam55eUpQNW05Vm1POXdLRTRpdndCdk52MWpUbW1kSXVQMy1WSEFFendjb0RKdFRIQmNRcTF0dEFJSU5neFNIaDliOG5rVmY5LXZENzlsLXlOVGdfX2ZDM0tGUzNyUDhEQQ?oc=5",
-   "ts": "2026-10-09T08:59:04Z",
-   "fuente": "StoneX",
-   "id": "d61725a24c",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "AI Stocks Recover as Futures Rise, Oil Slips",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVFVNTHp4c1Z2OFRpUnNldTJxV3dZV2kzWWhmUnNzNGoyQ3RhUk4zZDNrUW9XTUR3U0ZybFMtUTdOZGY5Y3FLSVJfdGtCcGxxeFFwR3FKMmpmTHZXVDB6R0lhVTlyeFlEY2xnWkpqY2xHbUtFb0EyQmtaeGgyby1MLUhJYklZZjB4Rlp1STF3YXI?oc=5",
-   "ts": "2026-10-09T08:59:00Z",
-   "fuente": "WSJ",
-   "id": "f0117052b1",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -5644,14 +5640,14 @@
     4200.4,
     4217.6,
     4199.2,
-    4213.1
+    4210.4
    ],
    [
-    1791552751,
-    4214.6,
-    4214.6,
-    4214.6,
-    4214.6
+    1791553103,
+    4210.4,
+    4210.4,
+    4210.4,
+    4210.4
    ]
   ],
   "nq": [
@@ -6275,15 +6271,15 @@
     1791550800,
     31191.25,
     31223.5,
-    31113.0,
-    31135.25
+    31069.0,
+    31108.0
    ],
    [
-    1791552751,
-    31115.75,
-    31115.75,
-    31115.75,
-    31115.75
+    1791553112,
+    31102.25,
+    31102.25,
+    31102.25,
+    31102.25
    ]
   ],
   "vix": [
@@ -6725,15 +6721,15 @@
     1791550800,
     15.17,
     15.2,
-    15.13,
-    15.2
+    15.07,
+    15.07
    ],
    [
-    1791552301,
-    15.19,
-    15.19,
-    15.19,
-    15.19
+    1791552811,
+    15.08,
+    15.08,
+    15.08,
+    15.08
    ]
   ]
  },
