@@ -1,10 +1,10 @@
 {
  "agentes": {
   "cio": {
-   "estado": "trabajando",
-   "tarea": "Escribiendo el brief cripto…",
-   "actualizado": "2026-10-09T01:11:18Z",
-   "ultimo_resultado": "Brief publicado: Presión vendedora y salida de liquidez frenan a cripto, sin entradas claras por falta de confluencias"
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-09T01:11:33Z",
+   "ultimo_resultado": "Brief publicado: Presión vendedora y falta de confluencias obligan a proteger el capital en liquidez"
   },
   "liquidez": {
    "estado": "descansando",
@@ -50,6 +50,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "cio",
+   "texto": "Brief publicado: Presión vendedora y falta de confluencias obligan a proteger el capital en liquidez",
+   "ts": "2026-10-09T01:11:33Z"
+  },
   {
    "agente": "cio",
    "texto": "Escribiendo el brief cripto…",
@@ -242,6 +247,44 @@
   }
  ],
  "briefs": [
+  {
+   "turno": "Noche (Asia)",
+   "ts": "2026-10-09T01:11:33Z",
+   "texto": "**BRIEF CRIPTO · NOCHE (ASIA)**\n\n1. **Sesgo**\n- BTC: Bajista. Presión vendedora a corto plazo tras perder soportes clave intradía.\n- ETH: Bajista. Mayor debilidad relativa y corrección más pronunciada que el activo principal.\n\n2. **Liquidez global**\n- DXY (102.07): Ligera caída (-0.16%), dando un respiro marginal.\n- US10Y (5.23%): Tasas altas y estables, frenando activos de riesgo.\n- Nasdaq (30,993.5): Fuerte caída (-1.3%), arrastrando a la baja la liquidez de los activos digitales.\n- Conclusión: El freno en renta variable y los rendimientos elevados de los bonos presionan negativamente a cripto hoy.\n\n3. **Flujos**\n- Stablecoins: Total en 288.5 mm, con variación marginal de +0.14 mm en 7 días y +0.46 mm en 30 días; ausencia de entradas frescas significativas de dinero nuevo.\n- Dominancia: BTC en 59.07% y ETH en 10.87%; caída de -5.11% en la capitalización total, reflejando salida de riesgo generalizada sin rotación clara a altcoins, manteniendo la preferencia defensiva en BTC.\n\n4. **Apalancamiento y sentimiento**\n- Funding: BTC positivo en 0.0032% (apalancamiento largo remanente) y ETH negativo en -0.005% (sesgo corto). \n- Sentimiento: Fear & Greed en 59 (Greed), bajando desde 67 hace una semana. Los largos tardíos en BTC atrapados tras el retroceso de las últimas horas muestran complacencia frente a la caída.\n\n5. **Mapa de liquidez**\n- BTC: Máximo semana 87,146.35 | Mínimo semana 81,668.55 | Máximo mes 87,363.76 | Mínimo mes 74,944.59 | EMA200 diaria: 75,564.48. Precio actual: 81,698.7. Imán más probable: Barrida del mínimo semanal hacia la zona de la EMA50 diaria (79,632.03).\n- ETH: Máximo semana 2,773.52 | Mínimo semana 2,472.47 | Máximo mes 2,805.5 | Mínimo mes 2,357.96 | EMA200 diaria: 2,319.35. Precio actual: 2,474.38. Imán más probable: Testeo de la EMA200 diaria (2,319.35).\n\n6. **Plan**\n- BTC:\n  - Dirección: SIN ENTRADA\n  - Zona de entrada: N/A\n  - Stop: N/A\n  - TP1 / TP2: N/A\n  - R:R al TP2: N/A\n  - Confluencias (0 a 5): 2/5 ((1) liquidez global desfavorable por caída en Nasdaq, (2) flujos planos). Menos de 4/5 = SIN ENTRADA.\n\n- ETH:\n  - Dirección: SIN ENTRADA\n  - Zona de entrada: N/A\n  - Stop: N/A\n  - TP1 / TP2: N/A\n  - R:R al TP2: N/A\n  - Confluencias (0 a 5): 2/5 ((1) liquidez global desfavorable, (3) funding negativo en contra del rebote inmediato). Menos de 4/5 = SIN ENTRADA.\n\n7. **Historia**\n- Qué hizo BTC en esta fecha: En los últimos 8 años, el promedio de esta semana ha sido de -0.34% (4 de 8 años alcistas), mientras que los 20 días posteriores muestran un promedio de +9.51% (6 de 8 años alcistas). Análogos: 2025, 2018, 2022.\n- Sesgo histórico: Neutro para BTC y alcista para ETH en el horizonte de 20 días. (Es confluencia, nunca gatillo).\n\n8. **Riesgo**\n- Régimen de volatilidad: Volatilidad normal para BTC y ETH (ATR diario de 1,897.58 y 72.8 respectivamente).\n- Regla de tamaño: Arriesgar como máximo 1% del capital por idea; en volatilidad alta, la mitad. Hoy operamos bajo disciplina estricta: ante la falta de confluencias mínimas (4/5), el capital se protege en liquidez (cash).\n\nAnálisis educativo de agentes de IA. No es consejo financiero.",
+   "titular": "Presión vendedora y falta de confluencias obligan a proteger el capital en liquidez",
+   "sesgo": {
+    "btc": "bajista",
+    "eth": "bajista"
+   },
+   "entradas": [
+    {
+     "activo": "BTC",
+     "direccion": "SIN ENTRADA",
+     "zona": "N/A",
+     "stop": "N/A",
+     "tp1": "N/A",
+     "tp2": "N/A",
+     "rr": "N/A",
+     "confluencias": "2/5"
+    },
+    {
+     "activo": "ETH",
+     "direccion": "SIN ENTRADA",
+     "zona": "N/A",
+     "stop": "N/A",
+     "tp1": "N/A",
+     "tp2": "N/A",
+     "rr": "N/A",
+     "confluencias": "2/5"
+    }
+   ],
+   "precios": {
+    "btc": 81698.7,
+    "eth": 2474.38
+   },
+   "fear_greed": 59,
+   "dominancia_btc": 59.07
+  },
   {
    "turno": "Mañana (apertura de EE. UU.)",
    "ts": "2026-10-08T21:07:23Z",
