@@ -2341,9 +2341,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de E Charleston Blvd…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-10T21:02:33Z"
+   "actualizado": "2026-10-10T21:06:21Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2371,6 +2371,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-10T21:06:21Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de E Charleston Blvd…",
@@ -3865,11 +3870,6 @@
    "agente": "disenador",
    "texto": "Armando la muestra de Meineke Car Care Center…",
    "ts": "2026-10-08T21:28:26Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Muestra lista de Pacific Empire Motors y su mensaje para mandar por texto.",
-   "ts": "2026-10-08T21:28:22Z"
   }
  ],
  "reportes": {
