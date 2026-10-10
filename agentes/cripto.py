@@ -625,6 +625,11 @@ def ejecutar_desplazamiento(me, sesgos=None):
             hechos.append(o["id"])
             continue
         c = FUT[act]
+        if (not url or not _cme_abierto()) and o["dir"] == "COMPRA" and act in TOKENS:
+            # fin de semana: la COMPRA sale en spot (BTC real de la billetera del bot) en vez de futuros
+            hechos.append(o["id"])
+            _idea_spot_desp(me, act, o)
+            continue
         if not url or not _cme_abierto():
             av = me.m.setdefault("desp_avisados", [])
             if o["id"] in av:
@@ -657,6 +662,48 @@ def ejecutar_desplazamiento(me, sesgos=None):
             me.paso("futuros", txt, trabajando=False)
             base.avisar_telefono(f"GSAM Cripto · {o['dir']} {c['ticker']} (desplazamiento)", txt, "high")
     me.m["desp_enviados"] = hechos[-40:]
+
+
+def _idea_spot_desp(me, act, o):
+    """Registra una idea de COMPRA spot (billetera real) con los niveles de la vela de desplazamiento.
+    El vigilante compra cuando el precio llega a la entrada y vende en stop/objetivo. Riesgo RIESGO_PCT del capital."""
+    pos = me.m.setdefault("posiciones", [])
+    if any(p["activo"] == act and p["estado"] in ("pendiente", "abierta") for p in pos):
+        me.paso("ejecucion", f"{act}: desplazamiento de compra, pero ya hay una posición spot activa. No se duplica.", trabajando=False)
+        return
+    cerradas = [p for p in pos if p.get("estado") == "cerrada"]
+    if len(cerradas) >= 2 and all(c.get("resultado") == "stop" for c in cerradas[:2]):
+        ult = datetime.fromisoformat((cerradas[0].get("cerrada_ts") or cerradas[0]["creada"]).replace("Z", "+00:00"))
+        if (datetime.now(timezone.utc) - ult).total_seconds() / 3600 < PAUSA_HORAS:
+            me.paso("riesgo", f"{act}: desplazamiento de compra, pero el freno de pérdidas está activo. No se opera.", trabajando=False)
+            return
+    real = _modo_real()
+    entrada, stop, tp = o["entrada"], o["stop"], o["objetivo"]
+    if not (stop < entrada < tp):
+        return
+    if real:
+        try:
+            sal = _saldos()
+            capital = sal["USDC"] + sal["BTC"] * o["precio"]
+            usd_libre = sal["USDC"]
+        except Exception as ex:
+            me.paso("ejecucion", f"No pude leer la billetera del bot ({str(ex)[:80]}). No se opera el desplazamiento spot.", trabajando=False)
+            return
+    else:
+        capital, usd_libre = 60.0, 60.0
+    usd = min(capital * RIESGO_PCT / 100 / ((entrada - stop) / entrada), capital * MAX_POSICION_PCT / 100, usd_libre * 0.98)
+    if usd < 5:
+        me.paso("ejecucion", f"{act}: desplazamiento de compra, pero el tamaño spot quedaría en ${usd:.2f}. No se opera.", trabajando=False)
+        return
+    p = {"activo": act, "usd": round(usd, 2), "zona_baja": round(entrada, 2), "entrada": round(entrada, 2), "stop": round(stop, 2),
+         "tp": round(tp, 2), "tp1": None, "estado": "pendiente", "creada": base.ahora(), "real": real, "origen": "desplazamiento"}
+    pos.insert(0, p)
+    me.m["posiciones"] = pos[:50]
+    et = "" if real else "[SIMULADO] "
+    txt = (f"{et}Desplazamiento de COMPRA {act} en spot (CME cerrado): compra ${p['usd']} en {entrada:,.0f} · stop {stop:,.0f} · "
+           f"objetivo {tp:,.0f} · riesgo ~${usd * (entrada - stop) / entrada:,.2f} ({RIESGO_PCT}% del capital) · R:R {o['rr']}")
+    me.paso("ejecucion", txt, trabajando=False)
+    base.avisar_telefono(f"GSAM Cripto · {act} desplazamiento spot", txt, "high")
 
 
 def vigilar_cripto():
