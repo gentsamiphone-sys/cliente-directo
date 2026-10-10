@@ -2208,10 +2208,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-10T11:06:20Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "0 negocios nuevos de herrerías y oficios cerca de Las Vegas Blvd N",
+   "actualizado": "2026-10-10T11:06:34Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2239,6 +2239,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: 0 negocios nuevos de herrerías y oficios cerca de Las Vegas Blvd N",
+   "ts": "2026-10-10T11:06:34Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -3733,11 +3738,6 @@
    "agente": "buscador",
    "texto": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Eastern Ave…",
    "ts": "2026-10-08T11:02:31Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Terminó su turno: 69 textos listos para mandar",
-   "ts": "2026-10-08T10:38:08Z"
   }
  ],
  "reportes": {
