@@ -45,11 +45,16 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: SIN ENTRADA · el bot solo compra, no se opera.",
-   "actualizado": "2026-10-09T13:19:06Z"
+   "ultimo_resultado": "Idea de COMPRA BTC: compra $39.88 si el precio entra en 80,350–80,350 · stop 79,200 · objetivo 86,900 · riesgo ~$0.57 (1.0% del capital) · R:R 5.7",
+   "actualizado": "2026-10-10T01:11:13Z"
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "Idea de COMPRA BTC: compra $39.88 si el precio entra en 80,350–80,350 · stop 79,200 · objetivo 86,900 · riesgo ~$0.57 (1.0% del capital) · R:R 5.7",
+   "ts": "2026-10-10T01:11:13Z"
+  },
   {
    "agente": "cio",
    "texto": "Brief publicado: Consolidación en rangos estrechos con defensa de soportes clave y sesgo neutral",
@@ -575,5 +580,18 @@
    "dominancia_btc": 59.07
   }
  ],
- "posiciones": []
+ "posiciones": [
+  {
+   "activo": "BTC",
+   "usd": 39.88,
+   "zona_baja": 80350.0,
+   "entrada": 80350.0,
+   "stop": 79200.0,
+   "tp": 86900.0,
+   "tp1": 83400.0,
+   "estado": "pendiente",
+   "creada": "2026-10-10T01:11:13Z",
+   "real": true
+  }
+ ]
 }
