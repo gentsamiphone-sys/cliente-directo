@@ -40,10 +40,10 @@ def _limpiar(t):
 
 def _cripto(desde):
     out = []
-    claves = ("Idea de COMPRA", "Desplazamiento de COMPRA", "Vela de desplazamiento", "setup de desplazamiento",
+    claves = ("Idea de COMPRA", "Desplazamiento de COMPRA", "Vela de desplazamiento", "setup de desplazamiento", "Ruptura y retesteo",
               "dentro", "COMPRADO", "cerrada en", "llegó al TP1", "Brief publicado")
     for a in reversed(_leer("cripto.json").get("actividad", [])):
-        if a.get("ts", "") <= desde or not any(k in a.get("texto", "") for k in claves):
+        if a.get("ts", "") <= desde or not any(k in a.get("texto", "") for k in claves) or "No se" in a.get("texto", "") or "pero" in a.get("texto", ""):
             continue
         t = _limpiar(a["texto"])
         if "Brief publicado" in t:

@@ -602,20 +602,70 @@ def desplazamiento(act):
     return None
 
 
+def retesteo_zona(act):
+    """Ruptura y retesteo de zona en 1H (como el trade de Gent): un máximo/mínimo se rompe con fuerza,
+    el precio se aleja y vuelve a tocar el nivel. Compra (o vende) en el retesteo, stop al otro lado, objetivo en el extremo."""
+    c = DESP[act]
+    v = M.yahoo(c["sim"], "1h", "10d")
+    if len(v) < 60:
+        return None
+    a = M.atr(v, 14) or 1
+    precio, n = v[-1]["c"], len(v)
+    piv = []
+    for i in range(max(2, n - 160), n - 3):
+        if v[i]["h"] >= max(x["h"] for x in v[i - 2:i + 3]):
+            piv.append(("max", i, v[i]["h"]))
+        if v[i]["l"] <= min(x["l"] for x in v[i - 2:i + 3]):
+            piv.append(("min", i, v[i]["l"]))
+    for tipo, i, nivel in reversed(piv):
+        al = tipo == "max"                       # se rompe un máximo hacia arriba → compra en el retesteo
+        j = next((k for k in range(i + 1, n) if (v[k]["c"] > nivel + 0.3 * a if al else v[k]["c"] < nivel - 0.3 * a)), None)
+        if j is None or not (3 <= n - 1 - j <= 48):
+            continue
+        fuerza = max(abs(x["c"] - x["o"]) for x in v[j:j + 3]) / a
+        despues = v[j:]
+        if fuerza < 0.8 or any((x["c"] < nivel - 0.9 * a) if al else (x["c"] > nivel + 0.9 * a) for x in despues):
+            continue
+        ext = max(x["h"] for x in despues) if al else min(x["l"] for x in despues)
+        if abs(ext - nivel) < 1.2 * a:
+            continue                             # no se alejó lo suficiente: no hay retesteo real
+        dist = (precio - nivel) / a if al else (nivel - precio) / a
+        if not (-0.7 <= dist <= 0.7):
+            continue                             # el precio no está en la zona de retesteo
+        ent = nivel + 0.1 * a if al else nivel - 0.1 * a
+        sl = nivel - 1.1 * a - c["margen"] if al else nivel + 1.1 * a + c["margen"]
+        obj = ext
+        rr = abs(obj - ent) / abs(ent - sl)
+        if rr < 1.5:
+            continue
+        return {"dir": "COMPRA" if al else "VENTA", "entrada": round(ent, 2), "stop": round(sl, 2), "objetivo": round(obj, 2),
+                "id": f"{act}-ret-{'L' if al else 'S'}-{round(nivel)}", "rr": round(rr, 2), "precio": round(precio, 2),
+                "tipo": "Ruptura y retesteo 1H"}
+    return None
+
+
 def ejecutar_desplazamiento(me, sesgos=None):
     """Busca la vela de desplazamiento en BTC y ETH y manda la orden a la cuenta DEMO (MBT/MET) en compra o en venta.
     No va contra el sesgo de la mesa. Una orden por setup."""
     url = os.environ.get("TRADERSPOST_WEBHOOK", "").strip()
     sesgos = sesgos or ((me.m.get("briefs") or [{}])[0].get("sesgo") or {})
     hechos = me.m.setdefault("desp_enviados", [])
+    cands = []
     for act in DESP:
-        try:
-            o = desplazamiento(act)
-        except Exception as ex:
-            print("desplazamiento", act, ex)
+        for fn in (desplazamiento, retesteo_zona):
+            try:
+                o = fn(act)
+            except Exception as ex:
+                print(fn.__name__, act, ex)
+                continue
+            if o:
+                o.setdefault("tipo", "Vela de desplazamiento")
+                cands.append((act, o))
+    usados = set()
+    for act, o in cands:
+        if o["id"] in hechos or act in usados:
             continue
-        if not o or o["id"] in hechos:
-            continue
+        usados.add(act)                          # una sola orden por activo en cada revisión
         s = str(sesgos.get(act.lower(), "")).lower()
         if (o["dir"] == "VENTA" and "alcista" in s) or (o["dir"] == "COMPRA" and "bajista" in s):
             me.paso("futuros", f"{act}: vela de desplazamiento {o['dir']} pero el sesgo es {s}. No se opera.", trabajando=False)
@@ -636,7 +686,7 @@ def ejecutar_desplazamiento(me, sesgos=None):
                 continue
             av.append(o["id"])
             me.m["desp_avisados"] = av[-40:]
-            base.avisar_telefono(f"GSAM Cripto · {act} desplazamiento {o['dir']}", f"Entrada {o['entrada']:,.0f} · stop {o['stop']:,.0f} · objetivo {o['objetivo']:,.0f}. CME cerrado: la orden demo sale cuando abra.", "default")
+            base.avisar_telefono(f"GSAM Cripto · {act} {o['tipo']} {o['dir']}", f"Entrada {o['entrada']:,.0f} · stop {o['stop']:,.0f} · objetivo {o['objetivo']:,.0f}. CME cerrado: la orden demo sale cuando abra.", "default")
             me.paso("futuros", f"{act}: setup de desplazamiento {o['dir']} en {o['entrada']:,.0f} (stop {o['stop']:,.0f}, objetivo {o['objetivo']:,.0f}). "
                                "Mercado CME cerrado: se envía cuando abra.", trabajando=False)
             continue
@@ -657,7 +707,7 @@ def ejecutar_desplazamiento(me, sesgos=None):
             ok = False
         if ok:
             hechos.append(o["id"])
-            txt = (f"[DEMO] Vela de desplazamiento · {o['dir']} {q} {c['ticker']} límite {orden['limitPrice']:,} (50% del impulso) · "
+            txt = (f"[DEMO] {o['tipo']} · {o['dir']} {q} {c['ticker']} límite {orden['limitPrice']:,} (50% del impulso) · "
                    f"stop {orden['stopLoss']['stopPrice']:,} · objetivo {orden['takeProfit']['limitPrice']:,} · R:R {o['rr']}")
             me.paso("futuros", txt, trabajando=False)
             base.avisar_telefono(f"GSAM Cripto · {o['dir']} {c['ticker']} (desplazamiento)", txt, "high")
@@ -668,9 +718,13 @@ def _idea_spot_desp(me, act, o):
     """Registra una idea de COMPRA spot (billetera real) con los niveles de la vela de desplazamiento.
     El vigilante compra cuando el precio llega a la entrada y vende en stop/objetivo. Riesgo RIESGO_PCT del capital."""
     pos = me.m.setdefault("posiciones", [])
-    if any(p["activo"] == act and p["estado"] in ("pendiente", "abierta") for p in pos):
-        me.paso("ejecucion", f"{act}: desplazamiento de compra, pero ya hay una posición spot activa. No se duplica.", trabajando=False)
+    if any(p["activo"] == act and p["estado"] == "abierta" for p in pos):
+        me.paso("ejecucion", f"{act}: {o.get('tipo', 'setup')} de compra, pero ya hay una posición spot abierta. No se duplica.", trabajando=False)
         return
+    for p in pos:
+        if p["activo"] == act and p["estado"] == "pendiente":
+            p["estado"] = "cancelada"            # la idea lejana del brief cede su lugar al setup que está pasando ahora
+            me.paso("ejecucion", f"{act}: idea pendiente en {p['entrada']:,.0f} cancelada; entra el setup de {o.get('tipo', 'desplazamiento')}.", trabajando=False)
     cerradas = [p for p in pos if p.get("estado") == "cerrada"]
     if len(cerradas) >= 2 and all(c.get("resultado") == "stop" for c in cerradas[:2]):
         ult = datetime.fromisoformat((cerradas[0].get("cerrada_ts") or cerradas[0]["creada"]).replace("Z", "+00:00"))
@@ -696,14 +750,14 @@ def _idea_spot_desp(me, act, o):
         me.paso("ejecucion", f"{act}: desplazamiento de compra, pero el tamaño spot quedaría en ${usd:.2f}. No se opera.", trabajando=False)
         return
     p = {"activo": act, "usd": round(usd, 2), "zona_baja": round(entrada, 2), "entrada": round(entrada, 2), "stop": round(stop, 2),
-         "tp": round(tp, 2), "tp1": None, "estado": "pendiente", "creada": base.ahora(), "real": real, "origen": "desplazamiento"}
+         "tp": round(tp, 2), "tp1": None, "estado": "pendiente", "creada": base.ahora(), "real": real, "origen": o.get("tipo", "desplazamiento")}
     pos.insert(0, p)
     me.m["posiciones"] = pos[:50]
     et = "" if real else "[SIMULADO] "
-    txt = (f"{et}Desplazamiento de COMPRA {act} en spot (CME cerrado): compra ${p['usd']} en {entrada:,.0f} · stop {stop:,.0f} · "
+    txt = (f"{et}{o.get('tipo', 'Desplazamiento')} · COMPRA {act} en spot (CME cerrado): compra ${p['usd']} en {entrada:,.0f} · stop {stop:,.0f} · "
            f"objetivo {tp:,.0f} · riesgo ~${usd * (entrada - stop) / entrada:,.2f} ({RIESGO_PCT}% del capital) · R:R {o['rr']}")
     me.paso("ejecucion", txt, trabajando=False)
-    base.avisar_telefono(f"GSAM Cripto · {act} desplazamiento spot", txt, "high")
+    base.avisar_telefono(f"GSAM Cripto · {act} {o.get('tipo', 'desplazamiento')} (spot)", txt, "high")
 
 
 def vigilar_cripto():
