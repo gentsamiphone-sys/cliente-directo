@@ -2088,10 +2088,10 @@
    "actualizado": "2026-10-10T00:37:36Z"
   },
   "disenador": {
-   "estado": "trabajando",
-   "tarea": "Revisando qué negocios necesitan muestra",
+   "estado": "descansando",
+   "tarea": "",
    "ultimo_resultado": "No había negocios nuevos para armar muestra",
-   "actualizado": "2026-10-10T01:27:31Z"
+   "actualizado": "2026-10-10T01:27:33Z"
   },
   "vendedor": {
    "estado": "descansando",
@@ -2107,6 +2107,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "disenador",
+   "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
+   "ts": "2026-10-10T01:27:33Z"
+  },
   {
    "agente": "buscador",
    "texto": "Terminó su turno: No pude buscar en este turno (HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with)",
@@ -3601,11 +3606,6 @@
    "agente": "disenador",
    "texto": "Armando la muestra de Tex mex tequila bar & grill…",
    "ts": "2026-10-08T01:28:22Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Muestra lista de Pro Kabob y su mensaje para mandar por texto.",
-   "ts": "2026-10-08T01:28:21Z"
   }
  ],
  "reportes": {
