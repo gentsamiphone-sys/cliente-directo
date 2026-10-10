@@ -2275,9 +2275,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Civic Center Dr…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "3 negocios nuevos de restaurantes y comida cerca de E Lake Mead Blvd",
-   "actualizado": "2026-10-10T15:02:30Z"
+   "actualizado": "2026-10-10T15:06:19Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2305,6 +2305,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-10T15:06:19Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Civic Center Dr…",
@@ -3799,11 +3804,6 @@
    "agente": "gerente",
    "texto": "Terminó su turno: 69 textos listos para mandar",
    "ts": "2026-10-08T16:37:36Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Actualicé el reporte del día.",
-   "ts": "2026-10-08T16:37:35Z"
   }
  ],
  "reportes": {
