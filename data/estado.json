@@ -2292,10 +2292,10 @@
    "actualizado": "2026-10-10T13:34:59Z"
   },
   "vendedor": {
-   "estado": "trabajando",
-   "tarea": "Revisando a quién escribirle",
+   "estado": "descansando",
+   "tarea": "",
    "ultimo_resultado": "Fuera de horario: 0 correos listos para la mañana",
-   "actualizado": "2026-10-10T13:52:32Z"
+   "actualizado": "2026-10-10T13:52:36Z"
   },
   "seguimiento": {
    "estado": "descansando",
@@ -2305,6 +2305,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vendedor",
+   "texto": "Terminó su turno: Fuera de horario: 0 correos listos para la mañana",
+   "ts": "2026-10-10T13:52:36Z"
+  },
   {
    "agente": "disenador",
    "texto": "Terminó su turno: 3 muestras nuevas",
@@ -3799,11 +3804,6 @@
    "agente": "buscador",
    "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
    "ts": "2026-10-08T15:06:48Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ts": "2026-10-08T15:06:31Z"
   }
  ],
  "reportes": {
