@@ -285,6 +285,10 @@ DATOS:
     except Exception as ex:
         me.paso("ejecucion", f"Error en la ejecución ({str(ex)[:80]}).", trabajando=False)
     try:
+        ejecutar_desplazamiento(me, corto.get("sesgo") or {})
+    except Exception as ex:
+        me.paso("futuros", f"Error en desplazamiento ({str(ex)[:80]}).", trabajando=False)
+    try:
         enviar_futuros(me, entradas)
     except Exception as ex:
         me.paso("futuros", f"Error enviando futuros ({str(ex)[:80]}).", trabajando=False)
@@ -552,12 +556,120 @@ def enviar_futuros(me, entradas):
             me.paso("futuros", f"{c['ticker']}: TradersPost no aceptó la orden ({str(getattr(resp, 'status_code', resp))[:60]}).", trabajando=False)
 
 
+# ───────── estrategia de Gent: vela de desplazamiento (1H) → orden límite en el 50% del impulso ─────────
+# Igual que su indicador de TradingView: vela grande (cuerpo ≥ 3 ATR y ≥ 70% de la vela), se sigue el impulso hasta que
+# retrocede 20%, orden límite en el 50%, stop en el 62% + margen, objetivo en el extremo del impulso. Compras y VENTAS.
+DESP = {"BTC": {"sim": "BTC-USD", "margen": 60}, "ETH": {"sim": "ETH-USD", "margen": 4}}
+
+
+def desplazamiento(act):
+    c = DESP[act]
+    v = M.yahoo(c["sim"], "1h", "7d")
+    if len(v) < 30:
+        return None
+    fase, dirx, ini, ext, orden, t0 = 0, 0, None, None, None, None
+    for i in range(15, len(v)):
+        x, a = v[i], M.atr(v[:i], 14) or 1
+        cuerpo, rango = abs(x["c"] - x["o"]), (x["h"] - x["l"]) or 1
+        if fase in (0, 3) and cuerpo >= 3 * a and cuerpo >= 0.7 * rango:
+            dirx = -1 if x["c"] < x["o"] else 1
+            ini, ext, t0, fase, orden = (x["h"] if dirx < 0 else x["l"]), (x["l"] if dirx < 0 else x["h"]), x["t"], 1, None
+            continue
+        if fase == 1:
+            ext = min(ext, x["l"]) if dirx < 0 else max(ext, x["h"])
+            leg = abs(ini - ext)
+            if (x["h"] > ini) if dirx < 0 else (x["l"] < ini):
+                fase = 0
+                continue
+            retro = (x["c"] - ext) if dirx < 0 else (ext - x["c"])
+            if leg > 0 and retro >= 0.2 * leg:
+                ent = ext + 0.5 * leg if dirx < 0 else ext - 0.5 * leg
+                sl = ext + 0.62 * leg + c["margen"] if dirx < 0 else ext - 0.62 * leg - c["margen"]
+                orden, fase = {"dir": "VENTA" if dirx < 0 else "COMPRA", "entrada": round(ent, 2), "stop": round(sl, 2),
+                               "objetivo": round(ext, 2), "id": f"{act}-{t0}-{round(ext)}"}, 2
+            continue
+        if fase == 2:
+            if (x["l"] < ext) if dirx < 0 else (x["h"] > ext):
+                ext, fase = (x["l"] if dirx < 0 else x["h"]), 1          # el impulso siguió: se recalcula
+            elif (x["h"] >= orden["entrada"]) if dirx < 0 else (x["l"] <= orden["entrada"]):
+                fase = 3                                                  # ya se llenó antes: no se persigue
+            elif x["t"] - t0 > 72 * 3600:
+                fase = 0
+    if fase == 2 and orden:
+        orden["rr"] = round(abs(orden["objetivo"] - orden["entrada"]) / abs(orden["stop"] - orden["entrada"]), 2)
+        orden["precio"] = round(v[-1]["c"], 2)
+        return orden
+    return None
+
+
+def ejecutar_desplazamiento(me, sesgos=None):
+    """Busca la vela de desplazamiento en BTC y ETH y manda la orden a la cuenta DEMO (MBT/MET) en compra o en venta.
+    No va contra el sesgo de la mesa. Una orden por setup."""
+    url = os.environ.get("TRADERSPOST_WEBHOOK", "").strip()
+    sesgos = sesgos or ((me.m.get("briefs") or [{}])[0].get("sesgo") or {})
+    hechos = me.m.setdefault("desp_enviados", [])
+    for act in DESP:
+        try:
+            o = desplazamiento(act)
+        except Exception as ex:
+            print("desplazamiento", act, ex)
+            continue
+        if not o or o["id"] in hechos:
+            continue
+        s = str(sesgos.get(act.lower(), "")).lower()
+        if (o["dir"] == "VENTA" and "alcista" in s) or (o["dir"] == "COMPRA" and "bajista" in s):
+            me.paso("futuros", f"{act}: vela de desplazamiento {o['dir']} pero el sesgo es {s}. No se opera.", trabajando=False)
+            hechos.append(o["id"])
+            continue
+        if o["rr"] < 1.5:
+            hechos.append(o["id"])
+            continue
+        c = FUT[act]
+        if not url or not _cme_abierto():
+            av = me.m.setdefault("desp_avisados", [])
+            if o["id"] in av:
+                continue
+            av.append(o["id"])
+            me.m["desp_avisados"] = av[-40:]
+            base.avisar_telefono(f"GSAM Cripto · {act} desplazamiento {o['dir']}", f"Entrada {o['entrada']:,.0f} · stop {o['stop']:,.0f} · objetivo {o['objetivo']:,.0f}. CME cerrado: la orden demo sale cuando abra.", "default")
+            me.paso("futuros", f"{act}: setup de desplazamiento {o['dir']} en {o['entrada']:,.0f} (stop {o['stop']:,.0f}, objetivo {o['objetivo']:,.0f}). "
+                               "Mercado CME cerrado: se envía cuando abra.", trabajando=False)
+            continue
+        pts = abs(o["entrada"] - o["stop"])
+        q = min(c["max"], int(RIESGO_FUT // (pts * c["vp"])))
+        if q < 1:
+            me.paso("futuros", f"{act}: desplazamiento con stop muy amplio para ${RIESGO_FUT}. No se envía.", trabajando=False)
+            hechos.append(o["id"])
+            continue
+        r = lambda x: round(round(x / c["tick"]) * c["tick"], 2)
+        compra = o["dir"] == "COMPRA"
+        orden = {"ticker": c["ticker"], "action": "buy" if compra else "sell", "orderType": "limit", "limitPrice": r(o["entrada"]),
+                 "price": r(o["entrada"]), "quantity": q, "stopLoss": {"type": "stop", "stopPrice": r(o["stop"])},
+                 "takeProfit": {"limitPrice": r(o["objetivo"])}}
+        try:
+            ok = requests.post(url, json=orden, timeout=20).status_code < 300
+        except Exception:
+            ok = False
+        if ok:
+            hechos.append(o["id"])
+            txt = (f"[DEMO] Vela de desplazamiento · {o['dir']} {q} {c['ticker']} límite {orden['limitPrice']:,} (50% del impulso) · "
+                   f"stop {orden['stopLoss']['stopPrice']:,} · objetivo {orden['takeProfit']['limitPrice']:,} · R:R {o['rr']}")
+            me.paso("futuros", txt, trabajando=False)
+            base.avisar_telefono(f"GSAM Cripto · {o['dir']} {c['ticker']} (desplazamiento)", txt, "high")
+    me.m["desp_enviados"] = hechos[-40:]
+
+
 def vigilar_cripto():
     """Cada 30 min: compra cuando el precio entra en la zona, vende en el stop o en el objetivo, y cancela ideas viejas."""
     me = Mesa()
+    try:
+        ejecutar_desplazamiento(me)
+    except Exception as ex:
+        print("desplazamiento", ex)
     pos = me.m.get("posiciones", [])
     activas = [p for p in pos if p["estado"] in ("pendiente", "abierta")]
     if not activas:
+        me.guardar("vigilancia de desplazamiento")
         return
     real = _modo_real()
     et = "" if real else "[SIMULADO] "
