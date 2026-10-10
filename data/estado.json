@@ -2077,9 +2077,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Nellis Blvd…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with)",
-   "actualizado": "2026-10-10T03:02:44Z"
+   "actualizado": "2026-10-10T03:06:33Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2107,6 +2107,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-10T03:06:33Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Nellis Blvd…",
@@ -3601,11 +3606,6 @@
    "agente": "gerente",
    "texto": "Terminó su turno: 63 textos listos para mandar",
    "ts": "2026-10-08T02:37:34Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Actualicé el reporte del día.",
-   "ts": "2026-10-08T02:37:33Z"
   }
  ],
  "reportes": {
