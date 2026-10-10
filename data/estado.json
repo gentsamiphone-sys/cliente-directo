@@ -2209,9 +2209,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando restaurantes y comida sin página web cerca de E Lake Mead Blvd…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "0 negocios nuevos de herrerías y oficios cerca de Las Vegas Blvd N",
-   "actualizado": "2026-10-10T13:02:30Z"
+   "actualizado": "2026-10-10T13:06:18Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2239,6 +2239,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-10T13:06:18Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando restaurantes y comida sin página web cerca de E Lake Mead Blvd…",
@@ -3733,11 +3738,6 @@
    "agente": "gerente",
    "texto": "Terminó su turno: 69 textos listos para mandar",
    "ts": "2026-10-08T12:37:36Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Actualicé el reporte del día.",
-   "ts": "2026-10-08T12:37:34Z"
   }
  ],
  "reportes": {
