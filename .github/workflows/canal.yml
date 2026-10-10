@@ -1,0 +1,45 @@
+name: Canal de señales GSAM (Telegram)
+
+# Cada 15 min publica en Telegram los setups nuevos de los agentes. Solo lee los datos; no opera.
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "publicar · prueba (manda un mensaje de prueba) · reiniciar"
+        required: true
+        default: prueba
+        type: choice
+        options: [prueba, publicar, reiniciar]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: canal
+  cancel-in-progress: false
+
+jobs:
+  canal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests
+      - name: Publicar señales
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CANAL: ${{ secrets.TELEGRAM_CANAL }}
+        run: python agentes/canal.py "${{ inputs.modo || 'publicar' }}"
+      - name: Guardar estado
+        run: |
+          git config user.name "Mesa GSAM"
+          git config user.email "mesa@users.noreply.github.com"
+          git add data/canal.json
+          git diff --cached --quiet && exit 0
+          git commit -q -m "[canal] señales publicadas"
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && exit 0; sleep 5; done
