@@ -1,10 +1,10 @@
 {
  "agentes": {
   "cio": {
-   "estado": "trabajando",
-   "tarea": "Escribiendo el brief cripto…",
-   "actualizado": "2026-10-10T01:09:29Z",
-   "ultimo_resultado": "Brief publicado: Consolidación en cripto con sesgo neutral y flujos de stablecoins a la baja ante un entorno macro mixto"
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-10T01:11:08Z",
+   "ultimo_resultado": "Brief publicado: Consolidación en rangos estrechos con defensa de soportes clave y sesgo neutral"
   },
   "liquidez": {
    "estado": "descansando",
@@ -50,6 +50,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "cio",
+   "texto": "Brief publicado: Consolidación en rangos estrechos con defensa de soportes clave y sesgo neutral",
+   "ts": "2026-10-10T01:11:08Z"
+  },
   {
    "agente": "cio",
    "texto": "Escribiendo el brief cripto…",
@@ -417,6 +422,44 @@
   }
  ],
  "briefs": [
+  {
+   "turno": "Noche (Asia)",
+   "ts": "2026-10-10T01:11:08Z",
+   "texto": "**BRIEF CRIPTO · NOCHE (ASIA)**\n\n1. **Sesgo**\n- BTC: Neutral. Consolidación tras la corrección semanal, defendiendo soportes clave.\n- ETH: Neutral. Débil frente a BTC, atrapado en rango bajo con presión vendedora.\n\n2. **Liquidez global**\nDXY en 102.23 (+0.09%) y US10Y en 5.24% (+0.25%) frenan el ímpetu al mantener la presión sobre los activos de riesgo. Sin embargo, el Nasdaq acompaña con un rebote moderado (31,123.25, +0.5%), mitigando el impacto macro negativo en cripto.\n\n3. **Flujos**\nLas stablecoins muestran contracción semanal (-1.79B), reflejando salida neta de liquidez nueva del ecosistema. La dominancia de BTC se mantiene elevada en 59.15%, confirmando refugio de capital en el activo principal frente a la debilidad de las altcoins (ETH en 10.84%).\n\n4. **Apalancamiento y sentimiento**\nFunding rates estables pero positivos (BTC 0.0007%, ETH 0.0026% por 8h), sin apalancamiento excesivo. Fear & Greed en 64 (Greed), mostrando optimismo moderado sin llegar a euforia extrema; los longs tardíos son vulnerables a barridas de liquidez en rangos estrechos.\n\n5. **Mapa de liquidez**\n- BTC: Máximo de la semana y del mes en 86,971.78 / 87,363.76; mínimo de la semana y ayer en 80,336.91 / 80,336.91; EMA200 diaria en 75,412.83. Imán más probable: la zona de liquidez superior hacia los 83,500 antes de buscar rangos amplios.\n- ETH: Máximo de la semana y del mes en 2,738.26 / 2,805.50; mínimo de la semana y ayer en 2,406.15 / 2,406.15; EMA200 diaria en 2,307.32. Imán más probable: el soporte de los 2,400.\n\n6. **Plan**\n- **BTC**:\n  - Dirección: COMPRA\n  - Zona de entrada: 80,350 (orden límite)\n  - Stop: 79,200\n  - TP1 / TP2: 83,400 / 86,900\n  - R:R al TP2: 5.7\n  - Confluencias: 4/5\n- **ETH**:\n  - Dirección: SIN ENTRADA\n  - Zona de entrada: N/A\n  - Stop: N/A\n  - TP1 / TP2: N/A\n  - R:R al TP2: 1.2\n  - Confluencias: 3/5\n\n7. **Historia**\nEn esta fecha (9 de octubre), BTC ha mostrado un comportamiento mixto con 3 de 8 años alcistas en la semana, pero con un sesgo favorable a 20 días (6 de 8 alcistas). Años análogos: 2025, 2018, 2024. Sesgo histórico: neutral.\n\n8. **Riesgo**\nRégimen de volatilidad normal para ambos activos. Regla de tamaño: arriesgar como máximo 1% del capital por idea; en volatilidad alta, la mitad.\n\nAnálisis educativo de agentes de IA. No es consejo financiero.",
+   "titular": "Consolidación en rangos estrechos con defensa de soportes clave y sesgo neutral",
+   "sesgo": {
+    "btc": "neutral",
+    "eth": "neutral"
+   },
+   "entradas": [
+    {
+     "activo": "BTC",
+     "direccion": "COMPRA",
+     "zona": "80,350",
+     "stop": "79,200",
+     "tp1": "83,400",
+     "tp2": "86,900",
+     "rr": "5.7",
+     "confluencias": "4/5"
+    },
+    {
+     "activo": "ETH",
+     "direccion": "SIN ENTRADA",
+     "zona": "N/A",
+     "stop": "N/A",
+     "tp1": "N/A",
+     "tp2": "N/A",
+     "rr": "1.2",
+     "confluencias": "3/5"
+    }
+   ],
+   "precios": {
+    "btc": 82524.58,
+    "eth": 2487.19
+   },
+   "fear_greed": 64,
+   "dominancia_btc": 59.15
+  },
   {
    "turno": "Mañana (apertura de EE. UU.)",
    "ts": "2026-10-09T13:19:04Z",
