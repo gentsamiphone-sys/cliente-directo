@@ -2341,9 +2341,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando restaurantes y comida sin página web cerca de Cheyenne Ave…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "0 negocios nuevos de herrerías y oficios cerca de Craig Rd",
-   "actualizado": "2026-10-10T19:02:32Z"
+   "actualizado": "2026-10-10T19:06:20Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2371,6 +2371,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-10T19:06:20Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando restaurantes y comida sin página web cerca de Cheyenne Ave…",
@@ -3865,11 +3870,6 @@
    "agente": "gerente",
    "texto": "Terminó su turno: 72 textos listos para mandar",
    "ts": "2026-10-08T20:37:56Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Actualicé el reporte del día.",
-   "ts": "2026-10-08T20:37:55Z"
   }
  ],
  "reportes": {
