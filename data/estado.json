@@ -2077,9 +2077,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando restaurantes y comida sin página web cerca de Boulder Hwy…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-10T01:02:31Z"
+   "actualizado": "2026-10-10T01:06:19Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2107,6 +2107,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-10T01:06:19Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando restaurantes y comida sin página web cerca de Boulder Hwy…",
@@ -3601,11 +3606,6 @@
    "agente": "disenador",
    "texto": "Armando la muestra de Pro Kabob…",
    "ts": "2026-10-08T01:27:56Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Muestra lista de blueberry hill Family Restaurant y su mensaje para mandar por texto.",
-   "ts": "2026-10-08T01:27:52Z"
   }
  ],
  "reportes": {
