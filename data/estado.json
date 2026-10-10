@@ -2209,9 +2209,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Owens Ave…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "3 negocios nuevos de restaurantes y comida cerca de Eastern Ave",
-   "actualizado": "2026-10-10T09:02:32Z"
+   "actualizado": "2026-10-10T09:06:20Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2239,6 +2239,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-10T09:06:20Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Owens Ave…",
@@ -3733,11 +3738,6 @@
    "agente": "gerente",
    "texto": "Terminó su turno: 69 textos listos para mandar",
    "ts": "2026-10-08T08:37:51Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Actualicé el reporte del día.",
-   "ts": "2026-10-08T08:37:50Z"
   }
  ],
  "reportes": {
