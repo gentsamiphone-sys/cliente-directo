@@ -1,10 +1,10 @@
 {
  "agentes": {
   "cio": {
-   "estado": "trabajando",
-   "tarea": "Escribiendo el brief cripto…",
-   "actualizado": "2026-10-10T13:14:31Z",
-   "ultimo_resultado": "Brief publicado: Consolidación en rangos estrechos con defensa de soportes clave y sesgo neutral"
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-10T13:14:54Z",
+   "ultimo_resultado": "Brief publicado: Consolidación en rango y macro restrictivo frenan la expansión de liquidez en cripto"
   },
   "liquidez": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "cio",
+   "texto": "Brief publicado: Consolidación en rango y macro restrictivo frenan la expansión de liquidez en cripto",
+   "ts": "2026-10-10T13:14:54Z"
+  },
   {
    "agente": "cio",
    "texto": "Escribiendo el brief cripto…",
@@ -508,6 +513,44 @@
   }
  ],
  "briefs": [
+  {
+   "turno": "Mañana (apertura de EE. UU.)",
+   "ts": "2026-10-10T13:14:54Z",
+   "texto": "### 1. Sesgo\n* **BTC:** Neutral; consolida en rango medio semanal sin demanda fresca de capital institucional.\n* **ETH:** Neutral-bajista; debilidad relativa evidente frente a BTC y rechazado por su EMA50 diaria (2500.95).\n\n### 2. Liquidez global\nFrena a cripto. Aunque el Nasdaq sube (+0.45% a 31108.75) y el VIX se comprime a 14.84 (-3.70%), el rendimiento del bono estadounidense a 10 años en 5.24% (+0.25%) y el DXY firme en 102.21 (+0.07%) mantienen restrictivo el costo del capital, limitando la expansión de liquidez hacia activos de riesgo.\n\n### 3. Flujos\n* **Stablecoins:** Salidas netas (-1.1 mm en 7 días y -0.44 mm en 30 días sobre un total de 288.7 mm) y contracción de la capitalización total (-2.73% en 24h); no hay entrada de dinero nuevo.\n* **Dominancia:** BTC domina con 59.09% frente a apenas 10.82% de ETH. No existe rotación a altcoins; el mercado busca refugio relativo dentro del ecosistema en BTC.\n\n### 4. Apalancamiento y sentimiento\n* **Sentimiento:** Fear & Greed en 64 (Greed), nivel moderado que no ofrece ventaja contraria por complacencia extrema.\n* **Apalancamiento:** Funding neutral-bajo en perpetuos (BTC +0.0025% y ETH +0.0032% cada 8h). No hay exceso de apalancamiento ni acumulación evidente de participantes atrapados.\n\n### 5. Mapa de liquidez\n* **BTC:** \n  * Máximo del mes: 87363.76 | Máximo de la semana: 86971.78\n  * Mínimo de la semana: 80336.91 | Mínimo del mes: 74944.59 | EMA200 diaria: 75486.00\n  * *Imán más probable:* Barrido de liquidez hacia el mínimo semanal (80336.91) y mínimo de 48h (80315.93).\n* **ETH:** \n  * Máximo del mes: 2805.50 | Máximo de la semana: 2738.26\n  * Mínimo de la semana: 2406.15 | Mínimo del mes: 2357.96 | EMA200 diaria: 2309.17\n  * *Imán más probable:* Test de liquidez vendedora en el soporte semanal de 2406.15.\n\n### 6. Plan\n\n**BTC:**\n- Dirección: SIN ENTRADA\n- Zona de entrada: N/A\n- Stop: N/A\n- TP1 / TP2: N/A\n- R:R al TP2: N/A\n- Confluencias (0 a 5): 2/5 (Falta liquidez global favorable, flujos de stablecoins negativos y estacionalidad neutral). Menos de 4/5 = SIN ENTRADA.\n\n**ETH:**\n- Dirección: SIN ENTRADA\n- Zona de entrada: N/A\n- Stop: N/A\n- TP1 / TP2: N/A\n- R:R al TP2: N/A\n- Confluencias (0 a 5): 1/5 (Debilidad técnica frente a EMA50, salida de flujos y macro restrictivo). Menos de 4/5 = SIN ENTRADA.\n\n### 7. Historia\nEn esta semana BTC subió 3 de 8 años (promedio -0.29%), mientras que en los 20 días posteriores fue alcista 6 de 8 años (+10.3% promedio). Análogos principales: 2025, 2018 y 2024. Sesgo histórico: neutral.\n\n### 8. Riesgo\nRégimen: volatilidad normal para BTC (ATR diario 1972.56, 2.38%) y ETH (ATR diario 74.94, 3.0%). Regla de tamaño: arriesgar como máximo el 1% del capital por idea. Se preserva el 100% de la pólvora al no cumplirse el umbral institucional de confluencias.\n\nAnálisis educativo de agentes de IA. No es consejo financiero.",
+   "titular": "Consolidación en rango y macro restrictivo frenan la expansión de liquidez en cripto",
+   "sesgo": {
+    "btc": "neutral",
+    "eth": "bajista"
+   },
+   "entradas": [
+    {
+     "activo": "BTC",
+     "direccion": "SIN ENTRADA",
+     "zona": "N/A",
+     "stop": "N/A",
+     "tp1": "N/A",
+     "tp2": "N/A",
+     "rr": "N/A",
+     "confluencias": "2/5"
+    },
+    {
+     "activo": "ETH",
+     "direccion": "SIN ENTRADA",
+     "zona": "N/A",
+     "stop": "N/A",
+     "tp1": "N/A",
+     "tp2": "N/A",
+     "rr": "N/A",
+     "confluencias": "1/5"
+    }
+   ],
+   "precios": {
+    "btc": 82745.37,
+    "eth": 2494.14
+   },
+   "fear_greed": 64,
+   "dominancia_btc": 59.09
+  },
   {
    "turno": "Noche (Asia)",
    "ts": "2026-10-10T01:11:08Z",
