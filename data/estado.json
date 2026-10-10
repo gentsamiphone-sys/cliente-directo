@@ -2133,10 +2133,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "Agregando Showtime Carwash",
-   "ultimo_resultado": "No pude buscar en este turno (HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with)",
-   "actualizado": "2026-10-10T03:06:47Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "3 negocios nuevos de talleres cerca de Nellis Blvd",
+   "actualizado": "2026-10-10T03:06:48Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2164,6 +2164,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: 3 negocios nuevos de talleres cerca de Nellis Blvd",
+   "ts": "2026-10-10T03:06:48Z"
+  },
   {
    "agente": "buscador",
    "texto": "Encontré Showtime Carwash, sin página web.",
@@ -3658,11 +3663,6 @@
    "agente": "buscador",
    "texto": "Encontré Walmart Tire & Lube Express, sin página web.",
    "ts": "2026-10-08T03:06:26Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Encontré SmartFilm, sin página web.",
-   "ts": "2026-10-08T03:06:25Z"
   }
  ],
  "reportes": {
