@@ -12,6 +12,7 @@ from pathlib import Path
 import requests
 
 RAIZ = Path(__file__).resolve().parent.parent
+CANAL_ID = None
 ESTADO = RAIZ / "data" / "canal.json"
 PIE = "\n\n<i>GSAM Capital · señal educativa, no es consejo financiero. Opera bajo tu propio riesgo.</i>"
 SALAS = ("https://gentsamiphone-sys.github.io/cliente-directo/sala3d.html (cripto) · "
@@ -87,8 +88,38 @@ def _mesa_ordenes(desde):
     return out
 
 
+def _canal_auto(tok):
+    """Si no hay TELEGRAM_CANAL, lo descubre solo: busca el canal donde el bot es administrador
+    (hace falta escribir cualquier mensaje en el canal). Lo guarda en data/canal.json."""
+    try:
+        guardado = json.loads(ESTADO.read_text(encoding="utf-8")).get("canal_id") if ESTADO.exists() else None
+    except Exception:
+        guardado = None
+    if guardado:
+        return guardado
+    me = requests.get(f"https://api.telegram.org/bot{tok}/getMe", timeout=20).json()
+    if not me.get("ok"):
+        print("TOKEN DE TELEGRAM INVÁLIDO:", me.get("description"))
+        return None
+    print("Bot conectado:", "@" + me["result"].get("username", ""))
+    r = requests.get(f"https://api.telegram.org/bot{tok}/getUpdates", params={"allowed_updates": json.dumps(["channel_post", "my_chat_member"])}, timeout=20).json()
+    for u in reversed(r.get("result", [])):
+        chat = (u.get("channel_post") or u.get("my_chat_member") or {}).get("chat") or {}
+        if chat.get("type") == "channel":
+            print("Canal encontrado:", chat.get("title"), chat.get("id"))
+            return str(chat["id"])
+    print("No encontré el canal: escribe cualquier mensaje en el canal y vuelve a correr.")
+    return None
+
+
 def enviar(texto):
     tok, canal = os.environ.get("TELEGRAM_TOKEN", "").strip(), os.environ.get("TELEGRAM_CANAL", "").strip()
+    if tok and not canal:
+        canal = _canal_auto(tok) or ""
+        if canal:
+            os.environ["TELEGRAM_CANAL"] = canal
+            global CANAL_ID
+            CANAL_ID = canal
     if not (tok and canal):
         print("[sin Telegram]", texto)
         return True
@@ -102,22 +133,25 @@ def enviar(texto):
 def main(modo="publicar"):
     ahora = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     st = json.loads(ESTADO.read_text(encoding="utf-8")) if ESTADO.exists() else None
+    guardar = lambda: ESTADO.write_text(json.dumps(dict(st, **({"canal_id": CANAL_ID} if CANAL_ID else {})), ensure_ascii=False, indent=1), encoding="utf-8")
     if st is None or modo == "reiniciar":
         # primera vez: no se publica lo viejo, se arranca desde ahora
-        st = {"desde": ahora, "publicados": []}
+        st = {"desde": ahora, "publicados": [], **({"canal_id": st["canal_id"]} if st and st.get("canal_id") else {})}
         _estrategia_4h(st["publicados"])
         if modo != "prueba":
-            ESTADO.write_text(json.dumps(st, ensure_ascii=False, indent=1), encoding="utf-8")
             enviar(f"✅ <b>Canal GSAM activo</b>\nAquí llegan los setups de la mesa cripto (BTC/ETH) y de NQ y oro en cuanto los agentes los detecten.\n🏢 Salas en vivo: {SALAS}")
+            guardar()
             return
     if modo == "prueba":
-        return enviar("🧪 <b>Prueba del canal GSAM</b>\nSi ves esto, el bot de Telegram está bien conectado.")
+        ok = enviar("🧪 <b>Prueba del canal GSAM</b>\nSi ves esto, el bot de Telegram está bien conectado.")
+        guardar()
+        return ok
     msgs = sorted(_cripto(st["desde"]) + _mesa_ordenes(st["desde"]) + _estrategia_4h(st["publicados"]), key=lambda x: x[0])
     for _, m in msgs[:10]:
         enviar(m)
     st["desde"] = max([st["desde"]] + [a.get("ts", "") for f in ("cripto.json", "mesa.json") for a in _leer(f).get("actividad", [])[:1]])
     st["publicados"] = st["publicados"][-200:]
-    ESTADO.write_text(json.dumps(st, ensure_ascii=False, indent=1), encoding="utf-8")
+    guardar()
     print(f"{len(msgs)} mensajes publicados")
 
 
