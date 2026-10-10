@@ -42,6 +42,18 @@ form button{background:var(--acc);color:#0b0d10;border:0;border-radius:10px;padd
 <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
 </head>
 <body>
+<div id="gsamGate" style="position:fixed;inset:0;z-index:2147483647;background:radial-gradient(800px 500px at 50% 30%,rgba(212,175,55,.16),transparent 60%),#07090d;display:flex;align-items:center;justify-content:center;font-family:Inter,system-ui,sans-serif;color:#fff;padding:16px">
+<form id="gsamGateF" style="display:block!important;flex-direction:column;width:100%;max-width:380px;background:rgba(17,22,31,.95);border:1px solid rgba(212,175,55,.3);border-radius:20px;padding:28px;text-align:center">
+<div style="font-size:12px;letter-spacing:3px;color:#d4af37;font-weight:700">GSAM CAPITAL</div>
+<h2 style="margin:10px 0 6px;font-size:24px">Sala privada</h2>
+<p style="margin:0 0 18px;color:#9aa3b2;font-size:14px">Solo para miembros de GSAM Señales. La contraseña está en tu panel de Whop.</p>
+<input id="gsamGateP" type="password" autocomplete="current-password" placeholder="Contraseña" style="display:block;width:100%;box-sizing:border-box;padding:13px 14px;border-radius:12px;border:1px solid #2a3140;background:#0b0f16;color:#fff;font-size:16px">
+<button style="display:block;margin-top:12px;width:100%;padding:13px;border:0;border-radius:12px;background:linear-gradient(90deg,#f5d77a,#d4af37);color:#111;font-weight:800;font-size:16px;cursor:pointer">Entrar</button>
+<p id="gsamGateE" style="color:#ef4444;font-size:13px;min-height:18px;margin:10px 0 0"></p>
+</form></div>
+<script>(function(){var H='8a40c5ca2803b44bd9cf6e96928d94374c021537eda0728b8a6c4ad8caeaa340',g=document.getElementById('gsamGate');function ok(){g&&g.remove()}
+try{if(localStorage.getItem('gsam_pase')===H){ok();return}}catch(e){}
+document.getElementById('gsamGateF').addEventListener('submit',async function(e){e.preventDefault();var v=document.getElementById('gsamGateP').value.trim();var b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(v));var h=Array.from(new Uint8Array(b)).map(function(x){return x.toString(16).padStart(2,'0')}).join('');if(h===H){try{localStorage.setItem('gsam_pase',H)}catch(e){}ok()}else{document.getElementById('gsamGateE').textContent='Contraseña incorrecta'}})})();</script>
 <div id="escena"></div><div id="labels"></div>
 <aside id="panel" aria-label="Panel de la sala">
   <header><h1>GSAM <span>Capital</span> · Sala 3D</h1><div class="sub">Mesa de NQ y oro en vivo · <a href="mesa.html">volver al edificio</a></div><button id="tog" aria-label="Mostrar u ocultar panel">▾</button></header>
