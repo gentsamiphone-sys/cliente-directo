@@ -2352,10 +2352,10 @@
    "actualizado": "2026-10-10T18:37:33Z"
   },
   "disenador": {
-   "estado": "trabajando",
-   "tarea": "Revisando qué negocios necesitan muestra",
+   "estado": "descansando",
+   "tarea": "",
    "ultimo_resultado": "No había negocios nuevos para armar muestra",
-   "actualizado": "2026-10-10T19:27:39Z"
+   "actualizado": "2026-10-10T19:27:40Z"
   },
   "vendedor": {
    "estado": "descansando",
@@ -2371,6 +2371,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "disenador",
+   "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
+   "ts": "2026-10-10T19:27:40Z"
+  },
   {
    "agente": "buscador",
    "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
@@ -3865,11 +3870,6 @@
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ts": "2026-10-08T21:06:25Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Craig Rd…",
-   "ts": "2026-10-08T21:02:37Z"
   }
  ],
  "reportes": {
