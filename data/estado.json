@@ -2473,9 +2473,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando restaurantes y comida sin página web cerca de Owens Ave…",
    "ultimo_resultado": "No pude buscar en este turno (HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with)",
-   "actualizado": "2026-10-11T07:02:28Z"
+   "actualizado": "2026-10-11T07:02:29Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2503,6 +2503,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando restaurantes y comida sin página web cerca de Owens Ave…",
+   "ts": "2026-10-11T07:02:29Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 108 textos listos para mandar",
@@ -3997,11 +4002,6 @@
    "agente": "disenador",
    "texto": "Muestra lista de Amancer y su mensaje para mandar por texto.",
    "ts": "2026-10-09T07:27:51Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Armando la muestra de Amancer…",
-   "ts": "2026-10-09T07:27:32Z"
   }
  ],
  "reportes": {
