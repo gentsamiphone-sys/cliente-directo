@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: idea pendiente en 82,706 cancelada; entra el setup de Vela de desplazamiento.",
-   "actualizado": "2026-10-11T16:02:31Z"
+   "ultimo_resultado": "Vela de desplazamiento · COMPRA BTC en spot (CME cerrado): compra $51.37 en 83,462 · stop 83,297 · objetivo 83,900 · riesgo ~$0.10 (1.0% del capital) · R:R 2.65",
+   "actualizado": "2026-10-11T16:02:33Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "Vela de desplazamiento · COMPRA BTC en spot (CME cerrado): compra $51.37 en 83,462 · stop 83,297 · objetivo 83,900 · riesgo ~$0.10 (1.0% del capital) · R:R 2.65",
+   "ts": "2026-10-11T16:02:33Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "BTC: idea pendiente en 82,706 cancelada; entra el setup de Vela de desplazamiento.",
@@ -981,6 +986,19 @@
   }
  ],
  "posiciones": [
+  {
+   "activo": "BTC",
+   "usd": 51.37,
+   "zona_baja": 83462.09,
+   "entrada": 83462.09,
+   "stop": 83296.9,
+   "tp": 83900.4,
+   "tp1": null,
+   "estado": "pendiente",
+   "creada": "2026-10-11T16:02:33Z",
+   "real": true,
+   "origen": "Vela de desplazamiento"
+  },
   {
    "activo": "BTC",
    "usd": 51.37,
