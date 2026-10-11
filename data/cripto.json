@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: idea pendiente en 83,476 cancelada; entra el setup de Ruptura y retesteo 1H.",
-   "actualizado": "2026-10-11T21:38:43Z"
+   "ultimo_resultado": "Ruptura y retesteo 1H · COMPRA BTC en spot (CME cerrado): compra $51.37 en 83,456 · stop 83,100 · objetivo 84,111 · riesgo ~$0.22 (1.0% del capital) · R:R 1.84",
+   "actualizado": "2026-10-11T21:38:44Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "Ruptura y retesteo 1H · COMPRA BTC en spot (CME cerrado): compra $51.37 en 83,456 · stop 83,100 · objetivo 84,111 · riesgo ~$0.22 (1.0% del capital) · R:R 1.84",
+   "ts": "2026-10-11T21:38:44Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "BTC: idea pendiente en 83,476 cancelada; entra el setup de Ruptura y retesteo 1H.",
@@ -1051,6 +1056,19 @@
   }
  ],
  "posiciones": [
+  {
+   "activo": "BTC",
+   "usd": 51.37,
+   "zona_baja": 83455.76,
+   "entrada": 83455.76,
+   "stop": 83099.87,
+   "tp": 84110.54,
+   "tp1": null,
+   "estado": "pendiente",
+   "creada": "2026-10-11T21:38:44Z",
+   "real": true,
+   "origen": "Ruptura y retesteo 1H"
+  },
   {
    "activo": "BTC",
    "usd": 51.37,
