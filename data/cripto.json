@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: SIN ENTRADA · el bot solo compra, no se opera.",
-   "actualizado": "2026-10-11T01:08:58Z"
+   "ultimo_resultado": "BTC: el precio no llegó a la zona en 24 h. Idea cancelada.",
+   "actualizado": "2026-10-11T01:38:35Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "BTC: el precio no llegó a la zona en 24 h. Idea cancelada.",
+   "ts": "2026-10-11T01:38:35Z"
+  },
   {
    "agente": "futuros",
    "texto": "Mercado de futuros CME cerrado (fin de semana). No se envían órdenes.",
@@ -846,7 +851,7 @@
    "stop": 79200.0,
    "tp": 86900.0,
    "tp1": 83400.0,
-   "estado": "pendiente",
+   "estado": "cancelada",
    "creada": "2026-10-10T01:11:13Z",
    "real": true
   }
