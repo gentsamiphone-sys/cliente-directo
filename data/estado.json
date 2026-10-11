@@ -2473,9 +2473,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Las Vegas Blvd N…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-11T09:02:29Z"
+   "actualizado": "2026-10-11T09:06:18Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2503,6 +2503,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-11T09:06:18Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Las Vegas Blvd N…",
@@ -3997,11 +4002,6 @@
    "agente": "gerente",
    "texto": "Terminó su turno: 81 textos listos para mandar",
    "ts": "2026-10-09T08:37:33Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Actualicé el reporte del día.",
-   "ts": "2026-10-09T08:37:32Z"
   }
  ],
  "reportes": {
