@@ -2473,9 +2473,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Craig Rd…",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-11T15:02:29Z"
+   "actualizado": "2026-10-11T15:02:30Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2503,6 +2503,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Craig Rd…",
+   "ts": "2026-10-11T15:02:30Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 108 textos listos para mandar",
@@ -3997,11 +4002,6 @@
    "agente": "disenador",
    "texto": "Muestra lista de Habaneros Taco Grill y su mensaje para mandar por texto.",
    "ts": "2026-10-09T13:27:54Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Armando la muestra de Habaneros Taco Grill…",
-   "ts": "2026-10-09T13:27:38Z"
   }
  ],
  "reportes": {
