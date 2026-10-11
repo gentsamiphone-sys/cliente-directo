@@ -2473,9 +2473,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando restaurantes y comida sin página web cerca de Civic Center Dr…",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-11T13:02:30Z"
+   "actualizado": "2026-10-11T13:02:31Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2503,6 +2503,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando restaurantes y comida sin página web cerca de Civic Center Dr…",
+   "ts": "2026-10-11T13:02:31Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 108 textos listos para mandar",
@@ -3997,11 +4002,6 @@
    "agente": "gerente",
    "texto": "Actualicé el reporte del día.",
    "ts": "2026-10-09T12:37:33Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Contando cómo vamos hoy…",
-   "ts": "2026-10-09T12:37:32Z"
   }
  ],
  "reportes": {
