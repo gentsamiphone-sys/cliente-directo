@@ -51,11 +51,16 @@
   "futuros": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Mercado de futuros CME cerrado (fin de semana). No se envían órdenes.",
-   "actualizado": "2026-10-11T13:15:48Z"
+   "ultimo_resultado": "ETH: setup de desplazamiento COMPRA en 2,520 (stop 2,512, objetivo 2,536). Mercado CME cerrado: se envía cuando abra.",
+   "actualizado": "2026-10-11T16:02:35Z"
   }
  },
  "actividad": [
+  {
+   "agente": "futuros",
+   "texto": "ETH: setup de desplazamiento COMPRA en 2,520 (stop 2,512, objetivo 2,536). Mercado CME cerrado: se envía cuando abra.",
+   "ts": "2026-10-11T16:02:35Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "Vela de desplazamiento · COMPRA BTC en spot (CME cerrado): compra $51.37 en 83,462 · stop 83,297 · objetivo 83,900 · riesgo ~$0.10 (1.0% del capital) · R:R 2.65",
@@ -1029,5 +1034,8 @@
   "BTC-ret-L-82694",
   "ETH-ret-L-2497",
   "BTC-1791730800-83900"
+ ],
+ "desp_avisados": [
+  "ETH-1791730800-2536"
  ]
 }
