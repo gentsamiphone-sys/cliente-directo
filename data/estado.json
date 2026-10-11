@@ -2538,10 +2538,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ultimo_resultado": "3 negocios nuevos de talleres cerca de Boulder Hwy",
-   "actualizado": "2026-10-11T23:06:21Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
+   "actualizado": "2026-10-11T23:06:35Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2569,6 +2569,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
+   "ts": "2026-10-11T23:06:35Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -4063,11 +4068,6 @@
    "agente": "disenador",
    "texto": "Muestra lista de Pronto by Giada y su mensaje para mandar por texto.",
    "ts": "2026-10-09T19:28:35Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Armando la muestra de Pronto by Giada…",
-   "ts": "2026-10-09T19:28:18Z"
   }
  ],
  "reportes": {
