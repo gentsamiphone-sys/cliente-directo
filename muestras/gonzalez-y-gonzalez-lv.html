@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Gonzalez y Gonzalez — muestra</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;600;700&display=swap">
+<style>
+:root{--brand:#0f7a52;--ink:#1b1a17;--muted:#6a675f;--bg:#fbf8f3;--card:#ffffff;--line:#e8e2d6;--ok:#1f8a4c;
+  --f-d:"Bricolage Grotesque",Georgia,serif;--f-b:"Figtree",system-ui,sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--f-b);padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+.aviso{background:var(--ink);color:#fff;font-size:.8rem;text-align:center;padding:8px 16px}
+.aviso a{color:#fff}
+header{background:var(--brand);color:#fff;padding:36px 16px 30px}
+.wrap{max-width:720px;margin:0 auto;padding-inline:16px}
+header .wrap{padding:0}
+h1{font:800 clamp(2rem,7vw,3rem)/1.02 var(--f-d);margin:0 0 8px;letter-spacing:-.02em;text-wrap:balance}
+.eslogan{font-size:1.1rem;opacity:.95;margin:0}
+.ingles{font-size:.9rem;opacity:.8;margin:4px 0 0;font-style:italic}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.chip{background:rgba(255,255,255,.16);border-radius:999px;padding:6px 12px;font-size:.88rem}
+.abierto{background:#fff;color:var(--brand);font-weight:700}
+section{padding-block:26px}
+h2{font:800 1.5rem var(--f-d);margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 16px;font-size:.92rem}
+.items{display:grid;gap:10px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;grid-template-columns:1fr auto;gap:4px 12px;align-items:center}
+.item b{font-weight:700}
+.item .d{color:var(--muted);font-size:.88rem;grid-column:1}
+.item .p{font-weight:700;color:var(--brand);white-space:nowrap}
+.qty{display:flex;align-items:center;gap:8px;grid-column:2;grid-row:2}
+.qty button{width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--bg);font:700 1.1rem var(--f-b);cursor:pointer;color:var(--ink)}
+.qty span{min-width:1.2em;text-align:center;font-weight:700}
+.item.sel{border-color:var(--brand);box-shadow:0 0 0 2px color-mix(in srgb,var(--brand) 25%,transparent)}
+label.item{cursor:pointer}
+label.item input{width:22px;height:22px;accent-color:var(--brand);grid-column:2;grid-row:1/3}
+.form{display:grid;gap:10px;margin-top:14px}
+.form input,.form textarea{width:100%;font:inherit;padding:12px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.info{display:grid;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.info div{display:flex;gap:10px}
+.info span:first-child{min-width:84px;color:var(--muted)}
+.barra{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));display:flex;gap:8px;justify-content:center}
+.barra a{flex:1;max-width:340px;text-align:center;text-decoration:none;font-weight:700;border-radius:12px;padding:13px 10px}
+.wa{background:#1f9d55;color:#fff}
+.tel{background:var(--bg);color:var(--ink);border:1px solid var(--line)}
+.total{font:800 1.2rem var(--f-d);margin-top:10px}
+.cd{background:var(--ink);color:#fff;border-radius:16px;padding:20px;margin-block:10px 30px}
+.cd h3{font:800 1.25rem var(--f-d);margin:0 0 6px}
+.cd a{display:inline-block;margin-top:10px;background:#fff;color:var(--ink);text-decoration:none;font-weight:700;padding:10px 16px;border-radius:10px}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #f0a020;outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="aviso">Muestra gratis hecha por <b>Cliente Directo</b> · no es el sitio oficial del negocio</div>
+<header><div class="wrap">
+  <h1 id="nombre"></h1>
+  <p class="eslogan" id="eslogan"></p>
+  <p class="ingles" id="ingles"></p>
+  <div class="chips" id="chips"></div>
+</div></header>
+<main class="wrap">
+  <section>
+    <h2 id="tituloItems"></h2>
+    <p class="sub" id="subItems"></p>
+    <div class="items" id="items"></div>
+    <div class="form" id="form"></div>
+    <div class="total" id="total" hidden></div>
+  </section>
+  <section>
+    <h2>Encuéntranos</h2>
+    <div class="info" id="info"></div>
+  </section>
+  <div class="cd">
+    <h3>¿Le gusta cómo se ve su negocio aquí?</h3>
+    <p style="margin:0;opacity:.85">Esta página puede ser suya, con sus fotos y precios reales. Los clientes le escriben directo a su WhatsApp, sin comisiones.</p>
+    <a id="cdLink" target="_blank" rel="noopener">Hablar con <span id="cdNombre"></span></a>
+  </div>
+</main>
+<nav class="barra">
+  <a class="wa" id="btnWa" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+  <a class="tel" id="btnTel">Llamar</a>
+</nav>
+<script>
+const D = {"nombre": "Gonzalez y Gonzalez", "tipo": "comida", "tel": "", "wa": "", "direccion": "", "horario": "", "rating": "", "eslogan": "Auténtico sabor mexicano en Las Vegas", "color": "#C83E1C", "ingles": "Authentic Mexican cuisine and drinks in Las Vegas", "items": [{"nombre": "Tacos de Asada", "precio": "$18.50", "desc": "Tres tacos con guacamole fresco, cebolla y cilantro picado."}, {"nombre": "Enchiladas Suizas", "precio": "$21.00", "desc": "Pollo tierno bañado en salsa verde con queso gratinado."}, {"nombre": "Fajitas Mixtas", "precio": "$26.00", "desc": "Carne asada y pollo con pimientos salteados y tortillas."}, {"nombre": "Guacamole Tradicional", "precio": "$14.00", "desc": "Aguacate fresco preparado al momento con totopos de maíz."}, {"nombre": "Quesabirria con Consomé", "precio": "$19.50", "desc": "Tortillas crujientes con queso fundido y birria de res."}, {"nombre": "Carnitas al Estilo Michoacán", "precio": "$22.50", "desc": "Carne tierna dorada servida con arroz, frijoles y salsa."}, {"nombre": "Margarita de la Casa", "precio": "$15.00", "desc": "Tequila prémium con jugo natural de lima y sal."}, {"nombre": "Churros con Cajeta", "precio": "$11.00", "desc": "Crujientes churros espolvoreados de canela con dulce de leche."}], "precios_reales": false, "empresa": "Cliente Directo", "dueno": "Gent Paulino", "dueno_wa": "17027646315"};
+const $ = id => document.getElementById(id);
+document.documentElement.style.setProperty("--brand", D.color || "#0f7a52");
+$("nombre").textContent = D.nombre || "Su negocio";
+$("eslogan").textContent = D.eslogan || "";
+$("ingles").textContent = D.ingles || "";
+const chips = [];
+if (D.rating) chips.push(`<span class="chip">★ ${esc(D.rating)}</span>`);
+if (D.horario) chips.push(`<span class="chip">${esc(D.horario)}</span>`);
+$("chips").innerHTML = chips.join("");
+function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function precioNum(p){const m=String(p||"").replace(",","").match(/\d+(\.\d+)?/);return m?parseFloat(m[0]):0}
+const tipo = D.tipo || "oficio";
+const items = (D.items||[]).map((x,i)=>({...x,i,q:0,sel:false}));
+const info = [["Dirección",D.direccion],["Teléfono",D.tel],["Horario",D.horario]].filter(x=>x[1]);
+$("info").innerHTML = info.map(([k,v])=>`<div><span>${k}</span><span>${esc(v)}</span></div>`).join("") || "<div>Escríbanos por WhatsApp.</div>";
+$("btnTel").href = "tel:+" + (D.wa||"");
+const ownerWa = D.dueno_wa || "";
+$("cdNombre").textContent = D.dueno || "Cliente Directo";
+$("cdLink").href = `https://wa.me/${ownerWa}?text=${encodeURIComponent(`Hola ${D.dueno||""}, vi la muestra de ${D.nombre} y me interesa.`)}`;
+
+if (tipo === "comida") {
+  $("tituloItems").textContent = "Nuestro menú";
+  $("subItems").textContent = D.precios_reales ? "Elige lo que quieras y mándanos tu pedido." : "Precios de ejemplo. Elige y mándanos tu pedido.";
+  $("form").innerHTML = `<input id="fNombre" placeholder="Tu nombre"><input id="fHora" placeholder="¿A qué hora pasas a recoger?">`;
+} else if (tipo === "taller") {
+  $("tituloItems").textContent = "Servicios";
+  $("subItems").textContent = "Marca lo que necesita su carro y le cotizamos por WhatsApp.";
+  $("form").innerHTML = `<input id="fCarro" placeholder="Año, marca y modelo"><textarea id="fFalla" rows="3" placeholder="¿Qué le está pasando?"></textarea>`;
+} else {
+  $("tituloItems").textContent = "Servicios";
+  $("subItems").textContent = "Marque lo que necesita. Al abrir WhatsApp mándenos 2-3 fotos para cotizarle.";
+  $("form").innerHTML = `<textarea id="fTrabajo" rows="3" placeholder="Describa el trabajo (medidas aproximadas)"></textarea><input id="fZona" placeholder="¿En qué zona o calle?">`;
+}
+
+function render(){
+  $("items").innerHTML = items.map(x => tipo==="comida"
+    ? `<div class="item ${x.q?"sel":""}"><b>${esc(x.nombre)}</b><span class="p">${esc(x.precio)}</span><span class="d">${esc(x.desc)}</span>
+        <div class="qty"><button aria-label="Quitar" data-i="${x.i}" data-d="-1">−</button><span>${x.q}</span><button aria-label="Agregar" data-i="${x.i}" data-d="1">+</button></div></div>`
+    : `<label class="item ${x.sel?"sel":""}"><b>${esc(x.nombre)}</b><input type="checkbox" data-i="${x.i}" ${x.sel?"checked":""}><span class="d">${esc(x.desc)}${x.precio?` · <b>${esc(x.precio)}</b>`:""}</span></label>`
+  ).join("");
+  if (tipo==="comida"){const t=items.reduce((s,x)=>s+x.q*precioNum(x.precio),0);$("total").hidden=!t;$("total").textContent=`Total aproximado: $${t.toFixed(2)}`}
+  actualizarWa();
+}
+function mensaje(){
+  const v=id=>($(id)?.value||"").trim();
+  if (tipo==="comida"){
+    const l=items.filter(x=>x.q).map(x=>`• ${x.q} x ${x.nombre}`);
+    return `Hola ${D.nombre}, quiero hacer un pedido:\n${l.join("\n")||"(todavía no elijo)"}${v("fNombre")?`\nNombre: ${v("fNombre")}`:""}${v("fHora")?`\nPaso a recoger: ${v("fHora")}`:""}`;
+  }
+  const s=items.filter(x=>x.sel).map(x=>`• ${x.nombre}`);
+  if (tipo==="taller") return `Hola ${D.nombre}, quiero una cotización:\n${s.join("\n")}${v("fCarro")?`\nCarro: ${v("fCarro")}`:""}${v("fFalla")?`\nFalla: ${v("fFalla")}`:""}`;
+  return `Hola ${D.nombre}, quiero una cotización:\n${s.join("\n")}${v("fTrabajo")?`\nTrabajo: ${v("fTrabajo")}`:""}${v("fZona")?`\nZona: ${v("fZona")}`:""}\n(Le mando fotos aquí abajo)`;
+}
+function actualizarWa(){ $("btnWa").href = `https://wa.me/${D.wa||ownerWa}?text=${encodeURIComponent(mensaje())}`; $("btnWa").textContent = tipo==="comida"?"Pedir por WhatsApp":"Cotizar por WhatsApp"; }
+$("items").addEventListener("click",e=>{const b=e.target.closest("button[data-i]");if(!b)return;const x=items[b.dataset.i];x.q=Math.max(0,x.q+Number(b.dataset.d));render()});
+$("items").addEventListener("change",e=>{const c=e.target.closest("input[data-i]");if(!c)return;items[c.dataset.i].sel=c.checked;render()});
+$("form").addEventListener("input",actualizarWa);
+render();
+</script>
+</body>
+</html>
