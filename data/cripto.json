@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Ruptura y retesteo 1H · COMPRA BTC en spot (CME cerrado): compra $51.37 en 83,591 · stop 83,255 · objetivo 84,111 · riesgo ~$0.21 (1.0% del capital) · R:R 1.55",
-   "actualizado": "2026-10-11T19:03:51Z"
+   "ultimo_resultado": "BTC: idea pendiente en 83,591 cancelada; entra el setup de Ruptura y retesteo 1H.",
+   "actualizado": "2026-10-11T20:02:11Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "BTC: idea pendiente en 83,591 cancelada; entra el setup de Ruptura y retesteo 1H.",
+   "ts": "2026-10-11T20:02:11Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "Ruptura y retesteo 1H · COMPRA BTC en spot (CME cerrado): compra $51.37 en 83,591 · stop 83,255 · objetivo 84,111 · riesgo ~$0.21 (1.0% del capital) · R:R 1.55",
@@ -1034,7 +1039,7 @@
    "stop": 83255.01,
    "tp": 84110.54,
    "tp1": null,
-   "estado": "pendiente",
+   "estado": "cancelada",
    "creada": "2026-10-11T19:03:51Z",
    "real": true,
    "origen": "Ruptura y retesteo 1H"
@@ -1110,7 +1115,8 @@
   "BTC-1791730800-83900",
   "BTC-1791730800-83948",
   "BTC-1791730800-84111",
-  "BTC-ret-L-83568"
+  "BTC-ret-L-83568",
+  "BTC-ret-L-83472"
  ],
  "desp_avisados": [
   "ETH-1791730800-2536",
