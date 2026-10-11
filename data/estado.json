@@ -2341,9 +2341,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando restaurantes y comida sin página web cerca de Nellis Blvd…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "0 negocios nuevos de herrerías y oficios cerca de Boulder Hwy",
-   "actualizado": "2026-10-11T01:02:32Z"
+   "actualizado": "2026-10-11T01:06:20Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2371,6 +2371,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-11T01:06:20Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando restaurantes y comida sin página web cerca de Nellis Blvd…",
@@ -3865,11 +3870,6 @@
    "agente": "gerente",
    "texto": "Terminó su turno: 75 textos listos para mandar",
    "ts": "2026-10-09T00:37:33Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Actualicé el reporte del día.",
-   "ts": "2026-10-09T00:37:32Z"
   }
  ],
  "reportes": {
