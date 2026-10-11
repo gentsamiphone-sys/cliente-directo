@@ -311,7 +311,7 @@ RIESGO_PCT = 1.0           # % del capital que se arriesga por idea
 MAX_POSICION_PCT = 90.0    # cuenta pequeña: puede usar casi todo el USDC en una idea (el riesgo sigue siendo 1%)
 VENCE_HORAS = 24           # si el precio no llega a la zona en 24 h, la idea se cancela
 PAUSA_HORAS = 72           # freno: tras 2 stops seguidos, no se abren ideas nuevas en 72 h
-SLIPPAGE_BPS = 50
+SLIPPAGE_BPS = 150   # 1.5%: con 0.5% Jupiter rechazaba (error 6001 = deslizamiento excedido)
 
 
 def _modo_real():
@@ -343,13 +343,24 @@ def _saldos():
     return {"SOL": sol, "USDC": _saldo_token(dueno, USDC), "BTC": _saldo_token(dueno, TOKENS["BTC"]["mint"]), "direccion": dueno}
 
 
-def _swap(entrada_mint, salida_mint, cantidad_base):
+def _swap(entrada_mint, salida_mint, cantidad_base, intentos=3):
+    """Swap en Jupiter; si falla por deslizamiento (6001) pide cotización nueva y reintenta."""
+    for i in range(intentos):
+        try:
+            return _swap1(entrada_mint, salida_mint, cantidad_base, SLIPPAGE_BPS + 50 * i)
+        except RuntimeError as ex:
+            if "6001" not in str(ex) or i == intentos - 1:
+                raise
+            time.sleep(3)
+
+
+def _swap1(entrada_mint, salida_mint, cantidad_base, slippage):
     """Swap en Jupiter firmado con la billetera del bot. Devuelve la firma de la transacción."""
     import base64
     from solders.transaction import VersionedTransaction
     kp = _llave()
     q = requests.get(f"{JUP}/quote", params={"inputMint": entrada_mint, "outputMint": salida_mint, "amount": int(cantidad_base),
-                                             "slippageBps": SLIPPAGE_BPS, "restrictIntermediateTokens": "true"}, timeout=30)
+                                             "slippageBps": slippage, "restrictIntermediateTokens": "true"}, timeout=30)
     q.raise_for_status()
     cot = q.json()
     if not cot.get("outAmount"):
