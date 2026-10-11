@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: no pude ejecutar el swap (la transacción falló en la red: {'InstructionError': [2, {'Custom': 6001}]}). Lo reintento en 30 min.",
-   "actualizado": "2026-10-11T21:38:50Z"
+   "ultimo_resultado": "BTC: no pude ejecutar el swap (503 Server Error: Service Temporarily Unavailable for url: https://lite-api.jup.ag/swap/v1). Lo reintento en 30 min.",
+   "actualizado": "2026-10-11T22:02:57Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "BTC: no pude ejecutar el swap (503 Server Error: Service Temporarily Unavailable for url: https://lite-api.jup.ag/swap/v1). Lo reintento en 30 min.",
+   "ts": "2026-10-11T22:02:57Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "BTC: no pude ejecutar el swap (la transacción falló en la red: {'InstructionError': [2, {'Custom': 6001}]}). Lo reintento en 30 min.",
