@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: SIN ENTRADA · el bot solo compra, no se opera.",
-   "actualizado": "2026-10-11T13:15:46Z"
+   "ultimo_resultado": "BTC: idea pendiente en 82,706 cancelada; entra el setup de Vela de desplazamiento.",
+   "actualizado": "2026-10-11T16:02:31Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "BTC: idea pendiente en 82,706 cancelada; entra el setup de Vela de desplazamiento.",
+   "ts": "2026-10-11T16:02:31Z"
+  },
   {
    "agente": "futuros",
    "texto": "Mercado de futuros CME cerrado (fin de semana). No se envían órdenes.",
@@ -984,7 +989,7 @@
    "stop": 82502.68,
    "tp": 83093.39,
    "tp1": null,
-   "estado": "pendiente",
+   "estado": "cancelada",
    "creada": "2026-10-11T04:03:42Z",
    "real": true,
    "origen": "Ruptura y retesteo 1H"
@@ -1004,6 +1009,7 @@
  ],
  "desp_enviados": [
   "BTC-ret-L-82694",
-  "ETH-ret-L-2497"
+  "ETH-ret-L-2497",
+  "BTC-1791730800-83900"
  ]
 }
