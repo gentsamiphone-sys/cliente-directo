@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro — · NQ — · VIX 14.84 · 7 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-11T22:02:33Z"
+   "ultimo_resultado": "Oro — · NQ — · VIX 14.84 · 9 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-11T22:07:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-11T22:02:32Z",
-   "ultimo_resultado": "7 titulares nuevos, 2 de alto impacto: Roth vs. Traditional IRA: The better choice isn’t as obvious as you might think — here’s how to make the call in 2026"
+   "actualizado": "2026-10-11T22:07:31Z",
+   "ultimo_resultado": "9 titulares nuevos, 2 de alto impacto: Stock futures are little changed with big banks set to kick off earnings season: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro — · NQ — · VIX 14.84 · 9 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-11T22:07:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro — · NQ — · VIX 14.84 · 7 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-11T08:17:35Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-11T08:12:35Z"
   }
  ],
  "briefs": [
@@ -4586,9 +4586,29 @@
  },
  "en_vivo": {
   "vix": 14.84,
-  "ts": "2026-10-11T22:02:32Z"
+  "ts": "2026-10-11T22:07:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Stock futures are little changed with big banks set to kick off earnings season: Live updates",
+   "link": "https://www.cnbc.com/2026/10/11/stock-market-today-live-updates.html",
+   "ts": "2026-10-11T22:06:40Z",
+   "fuente": "CNBC",
+   "id": "f41500858c",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Did Deferred Gold Sales Just Shift Freeport McMoRan's Stock Narrative?",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOEtCTnBiWjNzcmstWEc2UVhrU2JQMXNudVlQR2s5cWJvenJ1SDZReTlabmtxN0pBV3JYVG43R2lEbEhFUXRSeERNNURka2dPWjF3M2p6dUZSLTFCd2lPSUlFUVhZVkYyTHFJbG54SmR4dy13TTdUYzBTbTdJUW9aMmplSWhZOEw4LVd6ZnlsdUtKU241SVl0eFRkcGIySnRjZmdybXVDdUlZN3JsZWhuQ1ljaWxEa2JVal9QUnlCTlctQXk2REh4UUtHdkFEZ9IB0wFBVV95cUxQaGFocVJKY29WZmwtT1FpZ2xZR2F5Y3dmYVNJQjRFVDR4Mm91dXFFeHdIeDQzSVNMREViV3RfR3Y2bGdaV3JOdXFyWVVlNUJ2cnNGNmQxTFFuRGRmeld1MkM2QkZBMm9WNHJTY0NPVzA1YzJYNDM2aHJlRWJub1d3OUphWVMzNW1IZE50WkhpX3JBR3RxYzlEOXJyZkU1SDhRRVpsMUxJY1JCNVFHTkF1ZU9GYmNBWGpPVlFkZG5tSEFsN3NiTm1OVWFWV1lxdnRpWEtF?oc=5",
+   "ts": "2026-10-11T22:04:12Z",
+   "fuente": "Simply Wall Street",
+   "id": "40ad5d1517",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Futures Due Amid Trump Claims; Six Stocks Near Buy Points",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQREhqRW9yMTk2QWxZb0k1a19pUVZhNFF6WkRVRVVndFVCM05zTDlfdFg2dmlVNlY3bm1ydGswcWsxdWJwOHJWa1dFelhCNC1jTUdHdUE0QzJLUkUzMFZJckVMTWhiSVM1R0k2OGdINEJmSkxRMHFZYThJNWJLd0FwakV2LWJrYkV3Tzdta3R0MEZrYjFHaHRidEJwUzB3LXEzNmZJSC04alY1c2w1emdBcHhTc0xObW54bm0yckpTMVNzUUdNOW9hQ0pzRlNqUQ?oc=5",
@@ -4641,6 +4661,17 @@
    "id": "4f8e97361d",
    "activos": [
     "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Deadly air strike kills dozens at Sudan gold mine near Egypt border",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY05UZ1lfbkpBUlBmdGtnZ183QWJVT3dzaENLMFZLWHdmcUJPaG1MdENVSXhWV0ZFclFXb0dzUl81OHkyZTlmdWl6Skx0bE1hNFJXbXBCT1BnSjdEWnJXT2ludXF3RGEwSWtnNk5xekJ3ZndIakRjWmxpeHpvQWlHODV2eGdJQTV1SkVxNzh5QWlsbmt6RGxZM0dMS0dPVGo3c2hjS0Etd1hEQ1M5U3JjY0VVb2tJMlpqY19xdkFBSTXSAcABQVVfeXFMT2NOVGdZX25KQVJQZnRrZ2dfN0FiVU93c2hDSzBWS1h3ZnFCT2htTHRDVUl4VldGRXJRV29Hc1JfNTh5MmU5ZnVpekpMdGxNYTRSV21wQk9QZ0o3RFpyV09pbnVxd0RhMElrZzZOcXpCd2Z3SGpEY1psaXh6b0FpRzg1dnhnSUE1dUpFcTc4eUFpbG5rekRsWTNHTEtHT1RqN3NoY0tBLXdYRENTOVNyY2NFVW9rSTJaamNfcXZBQUk1?oc=5",
+   "ts": "2026-10-11T20:44:58Z",
+   "fuente": "Al Jazeera",
+   "id": "500a937c8b",
+   "activos": [
+    "oro"
    ],
    "impacto": "medio"
   },
@@ -5430,37 +5461,6 @@
    "id": "7c42a67173",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Price to earnings ratio of Southern Cross Acquisition II Corp. – NASDAQ:SCATW",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNczRid05rcFVtXy1xb1p4NUNMSm1yTnZUMHQ2clZ6RVBDdnZQMW96R0xHNVQ2QllHZDFOQ1NtVHZJeXhsZUJ0d0dROUc2S2gtdF84ckNDUmw3WHZGM095RzN1Z0h0RTM1dEtXY1NuSExvUU9KLVpwQklBQTVQOUJ1OFhFUFJRWmp5YS1vd28tdmluUGs3NU5ZRVFCNUg0UQ?oc=5",
-   "ts": "2026-10-11T12:45:03Z",
-   "fuente": "TradingView",
-   "id": "a5dad63576",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Pope Leo XIV will undergo surgery to remove a nodule on his lung",
-   "link": "https://www.cnbc.com/2026/10/11/pope-leo-xiv-will-undergo-surgery-to-remove-a-nodule-on-his-lung.html",
-   "ts": "2026-10-11T12:40:47Z",
-   "fuente": "CNBC",
-   "id": "6eb253aa95",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Southern Cross Acquisition II Corp. Earnings and Revenue – NASDAQ:SCATR",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUnFnNW5mMlJCX0liMkRZN3pQdm8zX1JIWE85VmFpcGZMaUJBMHkxaTVDSGRMS0JKLXUxXzhMRkVjUzJpak11bHQwVGpYRHR1Mk54Y0JQTzFfdjlVOHFJdU43a0psNWc5V0RnemJBV3hwZ2Q2b2gwOEt3U28xVzE1TV9CQTYtZlVQd3N6TDlRQXA1RHBhbGRzVEZ2YWJwNTVpRmlXUUtybjJVaHc?oc=5",
-   "ts": "2026-10-11T12:40:40Z",
-   "fuente": "TradingView",
-   "id": "bc9460f380",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Ganancias e ingresos de Southern Cross Acquisition II Corp.",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
