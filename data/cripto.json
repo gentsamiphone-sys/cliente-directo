@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: el precio no llegó a la zona en 24 h. Idea cancelada.",
-   "actualizado": "2026-10-11T01:38:35Z"
+   "ultimo_resultado": "Ruptura y retesteo 1H · COMPRA BTC en spot (CME cerrado): compra $51.37 en 82,706 · stop 82,503 · objetivo 83,093 · riesgo ~$0.13 (1.0% del capital) · R:R 1.9",
+   "actualizado": "2026-10-11T04:03:42Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "Ruptura y retesteo 1H · COMPRA BTC en spot (CME cerrado): compra $51.37 en 82,706 · stop 82,503 · objetivo 83,093 · riesgo ~$0.13 (1.0% del capital) · R:R 1.9",
+   "ts": "2026-10-11T04:03:42Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "BTC: el precio no llegó a la zona en 24 h. Idea cancelada.",
@@ -845,6 +850,19 @@
  "posiciones": [
   {
    "activo": "BTC",
+   "usd": 51.37,
+   "zona_baja": 82706.43,
+   "entrada": 82706.43,
+   "stop": 82502.68,
+   "tp": 83093.39,
+   "tp1": null,
+   "estado": "pendiente",
+   "creada": "2026-10-11T04:03:42Z",
+   "real": true,
+   "origen": "Ruptura y retesteo 1H"
+  },
+  {
+   "activo": "BTC",
    "usd": 39.88,
    "zona_baja": 80350.0,
    "entrada": 80350.0,
@@ -856,5 +874,7 @@
    "real": true
   }
  ],
- "desp_enviados": []
+ "desp_enviados": [
+  "BTC-ret-L-82694"
+ ]
 }
