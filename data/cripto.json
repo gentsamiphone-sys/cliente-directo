@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: COMPRADO $51.37 a ~83,452. Stop 83,100 · objetivo 84,111.",
-   "actualizado": "2026-10-12T04:06:31Z"
+   "ultimo_resultado": "BTC cerrada en objetivo a ~84,159: +0.44 USD.",
+   "actualizado": "2026-10-12T07:13:30Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "BTC cerrada en objetivo a ~84,159: +0.44 USD.",
+   "ts": "2026-10-12T07:13:30Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "BTC: COMPRADO $51.37 a ~83,452. Stop 83,100 · objetivo 84,111.",
@@ -800,11 +805,6 @@
    "agente": "ejecucion",
    "texto": "No pude leer la billetera del bot (TooShort).",
    "ts": "2026-10-09T00:27:04Z"
-  },
-  {
-   "agente": "ejecucion",
-   "texto": "No pude leer la billetera del bot (TooShort).",
-   "ts": "2026-10-09T00:16:48Z"
   }
  ],
  "briefs": [
@@ -1122,12 +1122,16 @@
    "stop": 83099.87,
    "tp": 84110.54,
    "tp1": null,
-   "estado": "abierta",
+   "estado": "cerrada",
    "creada": "2026-10-11T21:38:44Z",
    "real": true,
    "origen": "Ruptura y retesteo 1H",
    "firma_compra": "2dFkybrGBQxp9w9UsQKaQG8LpgFpcsoCogVNsPnfdz944jTJTs1n2hHwhjwxYDCkiKZFc6obgJuNRU67WhADb3M4",
-   "precio_compra": 83451.54
+   "precio_compra": 83451.54,
+   "firma_venta": "3q7ZYNeHgTRDW5PxKbwj3zVfuTnh2Vxb9Dbe7Q8zdeBV71MWZ4ZiAvNcWv4tUFpqWrChiDsZ4EHgGi8MfBjUcNF7",
+   "resultado": "objetivo",
+   "precio_venta": 84159.36,
+   "cerrada_ts": "2026-10-12T07:13:30Z"
   },
   {
    "activo": "BTC",
