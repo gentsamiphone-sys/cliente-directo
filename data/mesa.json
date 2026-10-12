@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4189.6 · NQ 31065.25 · VIX 15.42 · 6 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-12T12:37:40Z"
+   "ultimo_resultado": "Oro 4185.2 · NQ 31028.5 · VIX 15.44 · 5 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-12T12:42:46Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T12:37:40Z",
-   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: FAA warns U.S. airlines of safety risks over Saudi Arabia after attacks"
+   "actualizado": "2026-10-12T12:42:45Z",
+   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: Zelenskyy accuses Russia of violating Trump’s energy ceasefire as drone attacks continue"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4185.2 · NQ 31028.5 · VIX 15.44 · 5 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-12T12:42:46Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4189.6 · NQ 31065.25 · VIX 15.42 · 6 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4210.3 · NQ 31185.25 · VIX 14.84 · 8 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-11T23:02:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4212.2 · NQ 31199.0 · VIX 14.84 · 9 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-11T22:57:31Z"
   }
  ],
  "briefs": [
@@ -4929,12 +4929,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4189.6,
-  "nq": 31065.25,
-  "vix": 15.42,
-  "ts": "2026-10-12T12:37:40Z"
+  "oro": 4185.2,
+  "nq": 31028.5,
+  "vix": 15.44,
+  "ts": "2026-10-12T12:42:46Z"
  },
  "noticias": [
+  {
+   "titulo": "Zelenskyy accuses Russia of violating Trump’s energy ceasefire as drone attacks continue",
+   "link": "https://www.cnbc.com/2026/10/12/russia-ukraine-energy-ceasefire-trump.html",
+   "ts": "2026-10-12T12:36:21Z",
+   "fuente": "CNBC",
+   "id": "98aa4b7221",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "FAA warns U.S. airlines of safety risks over Saudi Arabia after attacks",
    "link": "https://www.cnbc.com/2026/10/12/faa-saudi-arabia-flight-risks.html",
@@ -5601,6 +5610,28 @@
    "impacto": "medio"
   },
   {
+   "titulo": "USA’s youth team snatch gold at the Men's IHF Trophy – North America and the Caribbean",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVWVQTTYxT3M3VmpLU0JlTUIxX1FwYnQ1WXlVS1VoX3NRbXQ1Nm1IaXJ5NTJfcVFpWEtULThBNjh1Q1FHbVlkb2lDNDBncjdGc2tHQkFYNWNjaGRpT2RyNHlVMG1aLW1HZDZneEo2OEgxcmxmcWowc1pqdDktMGJsZ0JyV1EtZ2EyeWp6dkc1MUVvQzBjWDJDMW1talM0Y0w2MnU3ZERLbkt3cEpFdzFJ?oc=5",
+   "ts": "2026-10-12T07:50:53Z",
+   "fuente": "IHF",
+   "id": "3f5299e837",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "US Dollar Price Forecast: DXY Eyes 102.49, Can EUR/USD Hold 1.1180 Ahead of CPI?",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-072924993.html?.tsrc=rss",
+   "ts": "2026-10-12T07:29:24Z",
+   "fuente": "Yahoo Finance",
+   "id": "5872ca98b4",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Is the stock market open on Columbus Day? NYSE, Nasdaq hours today",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTVk1bklMUV9fM3YyYUYybUxjQTE2dmpUenZPYjhaMnlPdlhxUTl3NmhyemlFMWQ2MHhibGlBMDBtMVN2czJ0M2Yzd2ExaU9YLVF5RE9HdTZpWERnZXp4c3V6TlJKSVE0akVCNHFJX0hMb0FPX0NMV016OTAzbGVramtWMTlBd0VINlN5R1RCZkNLQ1Zia3E2VXNDRGNFZTF2U2M2SmpCeUdJbWJHZ3c?oc=5",
    "ts": "2026-10-12T07:19:00Z",
@@ -5751,37 +5782,6 @@
    "impacto": "alto",
    "es": "El dólar se mantiene cerca de máximos de 18 meses; la rupia sube por medidas del Banco Central de la India",
    "efecto": "Fortalece al dólar, presionando al oro y al NQ a la baja."
-  },
-  {
-   "titulo": "Asia FX steady as dollar holds near 18-mth high; rupee jumps on RBI measures",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-steady-dollar-holds-043326017.html?.tsrc=rss",
-   "ts": "2026-10-12T04:33:26Z",
-   "fuente": "Yahoo Finance",
-   "id": "48876f4808",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Air strikes kill dozens of gold miners on Sudan-Egypt border",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ2p1Ny1DbVRQYVVOYThwejFiOU5ndDFhaXBFZHk0UWhoWDJRbXAwdHVIUDJncEZvRFNxeWRnTzA2SFVpZmQxZnUxUXp0NTI0cHVrQXQ4OWhBX2UyUmVOT3JuTG9ocGlYbmM0TmpxOTFCTkxsUE4tZTFoeVF4X3UtbVk3dVFZQ3pydFMtd0ctVzFJdmYtYWxQR9IBmAFBVV95cUxQbkJJQlVKMWhWWUwwTXlUQWdFcVJaTU9EYUdSQkFpZ29yY2l1b3laLVNFOUliT1I5YV9ILThWZGt3M3lzNE9PbFZMT01GQS1LQkl3eUZkODZUbGZQRkRZMzBDRFFfb1BJSzFlaFNkZEYyMFcxMUZ3UUpGdEhyZFNreTFRU2Eyd3F0VENGMUpiRGFyN1YzaUQ1WQ?oc=5",
-   "ts": "2026-10-12T04:25:22Z",
-   "fuente": "DW.com",
-   "id": "872f5f0b4b",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "TikTok CEO sees major scientific breakthroughs from AI within three years",
-   "link": "https://www.cnbc.com/2026/10/12/tiktok-ceo-bytedance-ai-scientific-breakthroughs.html",
-   "ts": "2026-10-12T04:24:33Z",
-   "fuente": "CNBC",
-   "id": "9f7c869f19",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -6332,15 +6332,15 @@
     1791806400,
     4192.7,
     4197.4,
-    4186.6,
-    4189.8
+    4184.2,
+    4184.3
    ],
    [
-    1791808058,
-    4189.6,
-    4189.6,
-    4189.6,
-    4189.6
+    1791808362,
+    4185.2,
+    4185.2,
+    4185.2,
+    4185.2
    ]
   ],
   "nq": [
@@ -6887,15 +6887,15 @@
     1791806400,
     31058.5,
     31089.0,
-    31043.25,
-    31062.0
+    31024.75,
+    31025.5
    ],
    [
-    1791808059,
-    31065.25,
-    31065.25,
-    31065.25,
-    31065.25
+    1791808364,
+    31028.5,
+    31028.5,
+    31028.5,
+    31028.5
    ]
   ],
   "vix": [
@@ -7331,14 +7331,14 @@
     15.47,
     15.47,
     15.39,
-    15.42
+    15.44
    ],
    [
-    1791807751,
-    15.42,
-    15.42,
-    15.42,
-    15.42
+    1791808051,
+    15.44,
+    15.44,
+    15.44,
+    15.44
    ]
   ]
  },
