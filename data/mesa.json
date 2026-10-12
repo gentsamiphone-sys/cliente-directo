@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4199.6 · NQ 31052.0 · VIX 15.49 · 3 noticias nuevas",
-   "actualizado": "2026-10-12T11:12:40Z"
+   "ultimo_resultado": "Oro 4197.8 · NQ 31038.0 · VIX 15.49 · 1 noticias nuevas",
+   "actualizado": "2026-10-12T11:17:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T11:12:39Z",
-   "ultimo_resultado": "3 titulares nuevos: Robinhood has underperformed this year. Evercore ISI says the stock is a buy"
+   "actualizado": "2026-10-12T11:17:34Z",
+   "ultimo_resultado": "1 titulares nuevos: La abundancia juega en contra de este mercado; aun así sigo invertido"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4197.8 · NQ 31038.0 · VIX 15.49 · 1 noticias nuevas",
+   "ts": "2026-10-12T11:17:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4199.6 · NQ 31052.0 · VIX 15.49 · 3 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "8 titulares nuevos, 2 de alto impacto: Lehigh Competes at the Navy Gold Invite",
    "ts": "2026-10-11T21:32:30Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "8 titulares nuevos, 2 de alto impacto: Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says",
-   "ts": "2026-10-11T21:22:34Z"
   }
  ],
  "briefs": [
@@ -4754,10 +4754,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4199.6,
-  "nq": 31052.0,
+  "oro": 4197.8,
+  "nq": 31038.0,
   "vix": 15.49,
-  "ts": "2026-10-12T11:12:39Z"
+  "ts": "2026-10-12T11:17:34Z"
  },
  "noticias": [
   {
@@ -6178,15 +6178,15 @@
     1791802800,
     4201.8,
     4201.9,
-    4199.5,
-    4199.7
+    4197.1,
+    4197.8
    ],
    [
-    1791802955,
-    4199.6,
-    4199.6,
-    4199.6,
-    4199.6
+    1791803254,
+    4197.5,
+    4197.5,
+    4197.5,
+    4197.5
    ]
   ],
   "nq": [
@@ -6726,15 +6726,15 @@
     1791802800,
     31077.0,
     31078.0,
-    31046.75,
-    31050.0
+    31030.75,
+    31043.0
    ],
    [
-    1791802957,
-    31052.0,
-    31052.0,
-    31052.0,
-    31052.0
+    1791803253,
+    31038.0,
+    31038.0,
+    31038.0,
+    31038.0
    ]
   ],
   "vix": [
@@ -7156,10 +7156,17 @@
     15.48,
     15.5,
     15.46,
+    15.47
+   ],
+   [
+    1791802800,
+    15.47,
+    15.49,
+    15.47,
     15.49
    ],
    [
-    1791802651,
+    1791802951,
     15.49,
     15.49,
     15.49,
@@ -7167,11 +7174,11 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-12T10:47:30Z",
- "ult_4h": 1791802996.013417,
+ "noticias_traducidas_ts": "2026-10-12T11:17:33Z",
+ "ult_4h": 1791803854.4387262,
  "estrategia_4h": {
   "oro": {
-   "precio": 4201.9,
+   "precio": 4197.5,
    "atr_4h": 24.63,
    "setups": [
     {
@@ -7188,11 +7195,11 @@
    ]
   },
   "nq": {
-   "precio": 31072.5,
-   "atr_4h": 168.02,
+   "precio": 31038.0,
+   "atr_4h": 168.61,
    "setups": []
   },
-  "ts": "2026-10-12T11:03:16Z"
+  "ts": "2026-10-12T11:17:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo"
