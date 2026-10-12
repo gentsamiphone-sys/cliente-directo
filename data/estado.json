@@ -2605,9 +2605,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando restaurantes y comida sin página web cerca de Craig Rd…",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-12T13:03:55Z"
+   "actualizado": "2026-10-12T13:03:56Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2635,6 +2635,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando restaurantes y comida sin página web cerca de Craig Rd…",
+   "ts": "2026-10-12T13:03:56Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 114 textos listos para mandar",
@@ -4129,11 +4134,6 @@
    "agente": "disenador",
    "texto": "Muestra lista de Texas Melz y su mensaje para mandar por texto.",
    "ts": "2026-10-10T07:27:38Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Armando la muestra de Texas Melz…",
-   "ts": "2026-10-10T07:27:33Z"
   }
  ],
  "reportes": {
