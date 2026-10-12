@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4189.6 · NQ 30955.75 · VIX 15.12 · 15 noticias nuevas (4 alto impacto)",
-   "actualizado": "2026-10-12T16:32:34Z"
+   "ultimo_resultado": "Oro 4188.5 · NQ 30932.75 · VIX 15.16 · 15 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-12T16:37:48Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T16:32:33Z",
-   "ultimo_resultado": "15 titulares nuevos, 4 de alto impacto: Fortuna Mining's Q3 Gold-Equivalent Production Dips Sequentially"
+   "actualizado": "2026-10-12T16:37:46Z",
+   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: El Dow sube mientras los inversores rotan hacia acciones de valor"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4188.5 · NQ 30932.75 · VIX 15.16 · 15 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-12T16:37:48Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4189.6 · NQ 30955.75 · VIX 15.12 · 15 noticias nuevas (4 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4224.4 · NQ 31239.25 · VIX 14.84 · 1 noticias nuevas",
    "ts": "2026-10-12T04:17:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4227.0 · NQ 31233.0 · VIX 14.84",
-   "ts": "2026-10-12T04:12:34Z"
   }
  ],
  "briefs": [
@@ -5102,12 +5102,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4189.6,
-  "nq": 30955.75,
-  "vix": 15.12,
-  "ts": "2026-10-12T16:32:33Z"
+  "oro": 4188.5,
+  "nq": 30932.75,
+  "vix": 15.16,
+  "ts": "2026-10-12T16:37:47Z"
  },
  "noticias": [
+  {
+   "titulo": "Stock Market Midday, Oct. 12: Dow Edges Higher as Investors Rotate Into Value Stocks",
+   "link": "https://www.fool.com/coverage/stock-market-today/2026/10/12/stock-market-midday-oct-12-dow-edges-higher-as-investors-rotate-into-value-stocks/?.tsrc=rss",
+   "ts": "2026-10-12T16:25:19Z",
+   "fuente": "Yahoo Finance",
+   "id": "7e27548e6d",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "El Dow sube mientras los inversores rotan hacia acciones de valor",
+   "efecto": "Presiona ligeramente al NQ a la baja por rotación sectorial."
+  },
   {
    "titulo": "UCR Health expands direct access through Blue & Gold",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTnRLbm54dmdNSi1HdUNoaUdaMjhXejA0NWRrRW5qRmFUUVI1WkQyUXF5YmJJMkZGZmRKOWR1bXlBWjkyM3N4UDVqZlZ5YjlHek54OTB1WjNkaFJNYnloS1RMNGNpcjhHTFpHajAyMGVlamZaMUFyMTJIYUNGVHdJajRCSlppUkJvY0NuNjRhVG4zNnpLMlpTMmxKNA?oc=5",
@@ -5118,6 +5131,17 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "3 Australian Undervalued Stocks With Up To 84% Fair Value Upside",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-australian-undervalued-stocks-84-161032356.html?.tsrc=rss",
+   "ts": "2026-10-12T16:10:32Z",
+   "fuente": "Yahoo Finance",
+   "id": "f0c2630314",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Tres acciones australianas infravaloradas con gran potencial",
+   "efecto": "Sin impacto institucional en los activos principales."
   },
   {
    "titulo": "Oil rally pressures S&P, Nasdaq; Microsoft, Salesforce buoy Dow",
@@ -5510,6 +5534,17 @@
    "id": "b4549c893a",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Axe Compute Inc. Rings the Opening Bell",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwZDNuYUxKcWY4d3NDNHBTak01RVlnRDd2bW0zZ1lzOGFYQ3lJN3UtVFVZLXd0WDNOSDNIZ0cybG1zTnNrM2lGTTV1UUJyWUg1NmRNZXgxcG5zNVAtUEtpNHBwakVoNUcyWXpFdnpXbk9Ydw?oc=5",
+   "ts": "2026-10-12T13:15:00Z",
+   "fuente": "Nasdaq",
+   "id": "3429644d47",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Axe Compute Inc. toca la campana de apertura",
+   "efecto": "Evento corporativo sin relevancia macroeconómica."
   },
   {
    "titulo": "Gold prices struggle to hold early gains as U.S. dollar nears 18-month high, bond yields remain elevated - Kitco AM Report",
@@ -5930,37 +5965,6 @@
    "id": "debaefc7ff",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Oil rises as Trump comments roil energy markets",
-   "link": "https://finance.yahoo.com/markets/articles/stocks-rise-oil-prices-tumble-023050308.html?.tsrc=rss",
-   "ts": "2026-10-12T11:10:46Z",
-   "fuente": "Yahoo Finance",
-   "id": "d89c14d461",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Robinhood has underperformed this year. Evercore ISI says the stock is a buy",
-   "link": "https://www.cnbc.com/2026/10/12/robinhood-has-underperformed-this-year-evercore-isi-says-the-stock-is-a-buy.html",
-   "ts": "2026-10-12T11:10:16Z",
-   "fuente": "CNBC",
-   "id": "c40159c1a1",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "The economy: Is G the new K?",
-   "link": "https://www.cnbc.com/video/2026/10/12/the-economy-is-g-the-new-k.html",
-   "ts": "2026-10-12T11:09:57Z",
-   "fuente": "CNBC",
-   "id": "bd7968739c",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "La economía: ¿Es la recuperación en 'G' la nueva en 'K'?",
-   "efecto": "Opinión macro genérica sin gatillo operativo inmediato."
   }
  ],
  "eventos_avisados": [
@@ -6539,15 +6543,15 @@
     1791820800,
     4188.6,
     4189.9,
-    4187.4,
-    4189.2
+    4186.5,
+    4188.3
    ],
    [
-    1791822151,
-    4189.6,
-    4189.6,
-    4189.6,
-    4189.6
+    1791822458,
+    4188.5,
+    4188.5,
+    4188.5,
+    4188.5
    ]
   ],
   "nq": [
@@ -6570,39 +6574,39 @@
     31477.75,
     31480.75,
     31450.0,
-    31456.0
+    31455.25
    ],
    [
     1791356400,
-    31455.0,
+    31454.25,
     31482.0,
     31401.5,
-    31429.5
+    31430.0
    ],
    [
     1791360000,
-    31430.0,
+    31430.75,
     31447.5,
     31405.5,
     31411.75
    ],
    [
     1791363600,
-    31411.5,
+    31410.25,
     31413.5,
     31325.0,
     31359.0
    ],
    [
     1791367200,
-    31359.0,
+    31359.75,
     31368.5,
     31280.5,
     31299.5
    ],
    [
     1791370800,
-    31298.75,
+    31299.5,
     31304.0,
     31217.25,
     31267.5
@@ -6630,7 +6634,7 @@
    ],
    [
     1791385200,
-    31254.0,
+    31255.0,
     31373.0,
     31228.5,
     31338.5
@@ -6644,28 +6648,28 @@
    ],
    [
     1791392400,
-    31330.0,
+    31329.25,
     31386.5,
     31317.5,
     31356.0
    ],
    [
     1791396000,
-    31356.0,
+    31355.5,
     31394.25,
     31341.5,
     31374.25
    ],
    [
     1791399600,
-    31374.25,
+    31375.0,
     31422.25,
     31335.25,
-    31396.25
+    31395.5
    ],
    [
     1791403200,
-    31396.0,
+    31395.5,
     31416.5,
     31380.0,
     31403.75
@@ -6679,21 +6683,21 @@
    ],
    [
     1791414000,
-    31426.0,
+    31425.0,
     31459.0,
     31425.0,
     31430.0
    ],
    [
     1791417600,
-    31430.5,
+    31429.25,
     31440.0,
     31372.25,
     31382.25
    ],
    [
     1791421200,
-    31380.75,
+    31381.0,
     31450.5,
     31377.5,
     31444.0
@@ -6703,7 +6707,7 @@
     31445.75,
     31466.0,
     31406.5,
-    31419.0
+    31418.0
    ],
    [
     1791428400,
@@ -6735,7 +6739,7 @@
    ],
    [
     1791442800,
-    31253.5,
+    31253.0,
     31269.75,
     31196.75,
     31224.0
@@ -6745,7 +6749,7 @@
     31224.75,
     31294.0,
     31215.25,
-    31216.5
+    31216.25
    ],
    [
     1791450000,
@@ -6791,38 +6795,38 @@
    ],
    [
     1791471600,
-    31269.75,
+    31269.25,
     31273.0,
     31169.5,
-    31191.75
+    31191.5
    ],
    [
     1791475200,
-    31191.25,
+    31191.5,
     31305.0,
     30962.0,
     31000.75
    ],
    [
     1791478800,
-    31001.25,
+    31001.0,
     31015.75,
     30792.0,
-    30900.25
+    30900.5
    ],
    [
     1791482400,
-    30901.0,
+    30900.5,
     31022.75,
     30858.75,
-    30936.0
+    30935.25
    ],
    [
     1791486000,
     30935.75,
     30984.5,
     30892.5,
-    30976.0
+    30975.75
    ],
    [
     1791489600,
@@ -6841,7 +6845,7 @@
    [
     1791500400,
     31033.5,
-    31036.5,
+    31036.0,
     30967.75,
     30982.0
    ],
@@ -6861,7 +6865,7 @@
    ],
    [
     1791511200,
-    31067.5,
+    31068.0,
     31089.75,
     31046.5,
     31082.0
@@ -6892,18 +6896,18 @@
     31158.0,
     31216.5,
     31133.25,
-    31189.75
+    31189.5
    ],
    [
     1791529200,
-    31189.25,
+    31190.5,
     31238.5,
     31188.25,
-    31223.25
+    31223.0
    ],
    [
     1791532800,
-    31223.25,
+    31222.75,
     31266.5,
     31213.25,
     31240.25
@@ -6920,7 +6924,7 @@
     31221.0,
     31233.25,
     31178.5,
-    31200.5
+    31200.25
    ],
    [
     1791543600,
@@ -6931,28 +6935,28 @@
    ],
    [
     1791547200,
-    31235.75,
+    31235.5,
     31253.25,
     31135.0,
     31190.5
    ],
    [
     1791550800,
-    31190.25,
+    31191.25,
     31223.5,
     30995.5,
-    31036.75
+    31036.25
    ],
    [
     1791554400,
-    31036.5,
+    31038.0,
     31095.25,
     30991.0,
-    31082.0
+    31081.5
    ],
    [
     1791558000,
-    31082.25,
+    31082.0,
     31096.25,
     31018.75,
     31063.25
@@ -6962,7 +6966,7 @@
     31063.5,
     31122.5,
     31036.25,
-    31086.25
+    31086.75
    ],
    [
     1791565200,
@@ -6973,21 +6977,21 @@
    ],
    [
     1791568800,
-    31095.0,
+    31095.25,
     31145.25,
     31081.5,
     31113.0
    ],
    [
     1791572400,
-    31113.5,
+    31114.0,
     31137.0,
     31087.5,
-    31111.75
+    31112.0
    ],
    [
     1791576000,
-    31112.0,
+    31112.75,
     31139.75,
     31106.5,
     31108.75
@@ -7001,14 +7005,14 @@
    ],
    [
     1791759600,
-    31188.0,
+    31187.5,
     31289.25,
     31183.0,
     31260.25
    ],
    [
     1791763200,
-    31260.5,
+    31259.0,
     31268.25,
     31194.75,
     31207.75
@@ -7022,7 +7026,7 @@
    ],
    [
     1791770400,
-    31223.25,
+    31223.75,
     31242.5,
     31194.25,
     31232.5
@@ -7046,11 +7050,11 @@
     31253.5,
     31259.75,
     31195.5,
-    31203.25
+    31204.25
    ],
    [
     1791784800,
-    31203.5,
+    31203.75,
     31208.5,
     31156.0,
     31168.0
@@ -7064,7 +7068,7 @@
    ],
    [
     1791792000,
-    31188.0,
+    31187.75,
     31194.5,
     31058.25,
     31069.75
@@ -7085,52 +7089,52 @@
    ],
    [
     1791802800,
-    31076.25,
+    31077.5,
     31079.75,
     31030.0,
     31058.75
    ],
    [
     1791806400,
-    31058.5,
+    31060.5,
     31089.0,
     31017.25,
     31069.75
    ],
    [
     1791810000,
-    31070.25,
+    31071.75,
     31087.5,
     30936.0,
     30960.75
    ],
    [
     1791813600,
-    30960.75,
+    30961.5,
     30974.5,
     30857.25,
     30918.75
    ],
    [
     1791817200,
-    30919.75,
+    30921.25,
     30975.0,
     30877.75,
     30957.0
    ],
    [
     1791820800,
-    30957.0,
+    30957.5,
     30979.75,
-    30945.5,
-    30946.25
+    30915.75,
+    30931.75
    ],
    [
-    1791822153,
-    30955.75,
-    30955.75,
-    30955.75,
-    30955.75
+    1791822467,
+    30931.75,
+    30931.75,
+    30931.75,
+    30931.75
    ]
   ],
   "vix": [
@@ -7594,43 +7598,43 @@
     15.15,
     15.15,
     15.11,
-    15.12
+    15.13
    ],
    [
-    1791821851,
-    15.12,
-    15.12,
-    15.12,
-    15.12
+    1791822166,
+    15.16,
+    15.16,
+    15.16,
+    15.16
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-12T16:07:38Z",
- "ult_4h": 1791822154.8223424,
+ "noticias_traducidas_ts": "2026-10-12T16:37:43Z",
+ "ult_4h": 1791823067.263298,
  "estrategia_4h": {
   "oro": {
-   "precio": 4187.8,
-   "atr_4h": 22.51,
+   "precio": 4188.5,
+   "atr_4h": 22.58,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4153.29,
+     "stop": 4153.25,
      "objetivo": 4242.3,
-     "rr": 5.59,
+     "rr": 5.57,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.47,
+     "fuerza_ruptura_atr": 1.46,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30956.5,
-   "atr_4h": 159.95,
+   "precio": 30931.75,
+   "atr_4h": 162.09,
    "setups": []
   },
-  "ts": "2026-10-12T16:22:35Z"
+  "ts": "2026-10-12T16:37:47Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo"
