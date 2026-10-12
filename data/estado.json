@@ -2605,9 +2605,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando restaurantes y comida sin página web cerca de Las Vegas Blvd N…",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-12T07:02:32Z"
+   "actualizado": "2026-10-12T07:02:33Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2635,6 +2635,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando restaurantes y comida sin página web cerca de Las Vegas Blvd N…",
+   "ts": "2026-10-12T07:02:33Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 114 textos listos para mandar",
@@ -4129,11 +4134,6 @@
    "agente": "disenador",
    "texto": "Muestra lista de Sportsman Cycle y su mensaje para mandar por texto.",
    "ts": "2026-10-10T03:28:08Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Armando la muestra de Sportsman Cycle…",
-   "ts": "2026-10-10T03:27:31Z"
   }
  ],
  "reportes": {
