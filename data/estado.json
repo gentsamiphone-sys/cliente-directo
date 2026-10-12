@@ -2605,9 +2605,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Civic Center Dr…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with)",
-   "actualizado": "2026-10-12T11:03:09Z"
+   "actualizado": "2026-10-12T11:06:58Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2635,6 +2635,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-12T11:06:58Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Civic Center Dr…",
@@ -4129,11 +4134,6 @@
    "agente": "gerente",
    "texto": "Terminó su turno: 93 textos listos para mandar",
    "ts": "2026-10-10T06:37:34Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Actualicé el reporte del día.",
-   "ts": "2026-10-10T06:37:32Z"
   }
  ],
  "reportes": {
