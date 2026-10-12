@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4197.8 · NQ 31038.0 · VIX 15.49 · 1 noticias nuevas",
-   "actualizado": "2026-10-12T11:17:34Z"
+   "ultimo_resultado": "Oro 4196.9 · NQ 31039.25 · VIX 15.51 · 4 noticias nuevas",
+   "actualizado": "2026-10-12T11:22:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T11:17:34Z",
-   "ultimo_resultado": "1 titulares nuevos: La abundancia juega en contra de este mercado; aun así sigo invertido"
+   "actualizado": "2026-10-12T11:22:36Z",
+   "ultimo_resultado": "4 titulares nuevos: Silver prices today, Monday, October 12, 2026: Back in line with last week's prices"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4196.9 · NQ 31039.25 · VIX 15.51 · 4 noticias nuevas",
+   "ts": "2026-10-12T11:22:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4197.8 · NQ 31038.0 · VIX 15.49 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Abriendo la mesa para la sesión de Asia (Tokio/Sídney).",
    "ts": "2026-10-11T21:32:40Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "8 titulares nuevos, 2 de alto impacto: Lehigh Competes at the Navy Gold Invite",
-   "ts": "2026-10-11T21:32:30Z"
   }
  ],
  "briefs": [
@@ -4754,12 +4754,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4197.8,
-  "nq": 31038.0,
-  "vix": 15.49,
-  "ts": "2026-10-12T11:17:34Z"
+  "oro": 4196.9,
+  "nq": 31039.25,
+  "vix": 15.51,
+  "ts": "2026-10-12T11:22:36Z"
  },
  "noticias": [
+  {
+   "titulo": "Silver prices today, Monday, October 12, 2026: Back in line with last week's prices",
+   "link": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-october-12-2026-back-in-line-with-last-weeks-prices-111231056.html?.tsrc=rss",
+   "ts": "2026-10-12T11:12:31Z",
+   "fuente": "Yahoo Finance",
+   "id": "debaefc7ff",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Oil rises as Trump comments roil energy markets",
+   "link": "https://finance.yahoo.com/markets/articles/stocks-rise-oil-prices-tumble-023050308.html?.tsrc=rss",
+   "ts": "2026-10-12T11:10:46Z",
+   "fuente": "Yahoo Finance",
+   "id": "d89c14d461",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Robinhood has underperformed this year. Evercore ISI says the stock is a buy",
    "link": "https://www.cnbc.com/2026/10/12/robinhood-has-underperformed-this-year-evercore-isi-says-the-stock-is-a-buy.html",
@@ -4804,6 +4822,15 @@
    "ts": "2026-10-12T10:48:00Z",
    "fuente": "CNBC",
    "id": "afabb7cc11",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Bitwise CIO Ranks 4 Crypto for Long-Term Growth, Starting With Bitcoin",
+   "link": "https://beincrypto.com/bitwise-cio-four-cryptos-long-term-growth/?.tsrc=rss",
+   "ts": "2026-10-12T10:44:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "5cff48862b",
    "activos": [],
    "impacto": "bajo"
   },
@@ -5604,37 +5631,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Gold Rises as Markets Weigh Oil Pullback",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU1NaYzlBbFJ6S05MLUFaVVlCOXhGMjdJcnZMa0JvQ0w4YXl2RjN6RVZadEt5MGMteFIzdTFIcm5sWVhPdW9FSHZjUVpGbWY2cEU5elBhV0h1UF9xaTNydmNTR0NnMnFYel9vU3J2T0Rwa29IVWZRMHEtaG1ERDdiQ2ZFaEp2alBNcUVuaExZenFfM0NYYnR3cHZoLXJadw?oc=5",
-   "ts": "2026-10-12T00:43:00Z",
-   "fuente": "WSJ",
-   "id": "38d7ca180f",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gold Edges Up as Traders Weigh Russia-Ukraine ‘Energy Ceasefire’",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdlp6WE1FS1VVV0pZcUV2VGJROHpVZWxvVmtrbUNyUGJXc2RxbFRMZWIwWFpEXzBkdnVObU8xSjJodC1HYjAyV2lGaFdQX0NiaTFCYll2T2JFTzlNcWxDYzdwRGZSSmM4WVFYYTBra1VUMVhqVnlEc2VqaUsyTFB4T2czemYtcmd6N2pBZHVWWk5VUnlzYTR5WkhacEZ6QnFERm1SZWthOHB4bEdEMHluaXA2ZEJuMTRiaE1FZjIxZUY0WVp5N1psdEs0NjhDUFk?oc=5",
-   "ts": "2026-10-12T00:38:00Z",
-   "fuente": "Bloomberg.com",
-   "id": "06cf8e9311",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Judge orders Trump admin to stop airing challenged government-funded ads immediately",
-   "link": "https://www.cnbc.com/2026/10/11/trump-ads-dhs-judge-order.html",
-   "ts": "2026-10-12T00:29:50Z",
-   "fuente": "CNBC",
-   "id": "0b100b3bb7",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -6178,15 +6174,15 @@
     1791802800,
     4201.8,
     4201.9,
-    4197.1,
-    4197.8
+    4193.7,
+    4196.8
    ],
    [
-    1791803254,
-    4197.5,
-    4197.5,
-    4197.5,
-    4197.5
+    1791803554,
+    4196.9,
+    4196.9,
+    4196.9,
+    4196.9
    ]
   ],
   "nq": [
@@ -6726,15 +6722,15 @@
     1791802800,
     31077.0,
     31078.0,
-    31030.75,
-    31043.0
+    31030.0,
+    31036.25
    ],
    [
-    1791803253,
-    31038.0,
-    31038.0,
-    31038.0,
-    31038.0
+    1791803556,
+    31039.25,
+    31039.25,
+    31039.25,
+    31039.25
    ]
   ],
   "vix": [
@@ -7161,16 +7157,16 @@
    [
     1791802800,
     15.47,
-    15.49,
+    15.51,
     15.47,
-    15.49
+    15.51
    ],
    [
-    1791802951,
-    15.49,
-    15.49,
-    15.49,
-    15.49
+    1791803251,
+    15.51,
+    15.51,
+    15.51,
+    15.51
    ]
   ]
  },
