@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4208.4 · NQ 31177.75 · VIX 14.84 · 1 noticias nuevas",
-   "actualizado": "2026-10-12T06:32:35Z"
+   "ultimo_resultado": "Oro 4208.0 · NQ 31169.5 · VIX 14.84 · 1 noticias nuevas",
+   "actualizado": "2026-10-12T06:41:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T06:32:34Z",
-   "ultimo_resultado": "1 titulares nuevos: Tres acciones de centavo con ingresos de hasta el 18%"
+   "actualizado": "2026-10-12T06:41:36Z",
+   "ultimo_resultado": "1 titulares nuevos: Asia FX steady as dollar holds near 18-mth high; rupee jumps on RBI measures"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4208.0 · NQ 31169.5 · VIX 14.84 · 1 noticias nuevas",
+   "ts": "2026-10-12T06:41:36Z"
+  },
   {
    "agente": "cio",
    "texto": "Brief de Londres publicado: Oro y NQ con sesgo alcista; NQ con plan de compra en soporte y Oro sin entrada clara.",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Revisando cómo salieron las entradas anteriores…",
    "ts": "2026-10-11T18:02:47Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Abriendo la mesa para la sesión de Plan de la semana.",
-   "ts": "2026-10-11T18:02:46Z"
   }
  ],
  "briefs": [
@@ -1099,7 +1099,8 @@
      "rr": "2.5",
      "confluencias": "5",
      "cancelar": "Pérdida de 31090.0 antes de activar la orden o inicio de sesión NY.",
-     "motivo": ""
+     "motivo": "",
+     "vivo": "esperando"
     }
    ],
    "mapas": {
@@ -4753,10 +4754,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4208.4,
-  "nq": 31177.75,
+  "oro": 4208.0,
+  "nq": 31169.5,
   "vix": 14.84,
-  "ts": "2026-10-12T06:32:35Z"
+  "ts": "2026-10-12T06:41:36Z"
  },
  "noticias": [
   {
@@ -4824,6 +4825,17 @@
    "id": "ba039e99e3",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Asia FX steady as dollar holds near 18-mth high; rupee jumps on RBI measures",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-steady-dollar-holds-043326017.html?.tsrc=rss",
+   "ts": "2026-10-12T04:33:26Z",
+   "fuente": "Yahoo Finance",
+   "id": "48876f4808",
+   "activos": [
+    "dolar"
    ],
    "impacto": "medio"
   },
@@ -5630,17 +5642,6 @@
    "id": "22c36fb17b",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Asset turnover of OceanLight Acquisition Corporation – NASDAQ:OCLTW",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORGQzTHlYMFlRd2tRV0RLN1ljWl9WZ01tZEJydXZiTXFVby12SkJvWGRDcjRuR1kxaGNNVWN1RWN5LVBHLVhKMXh6bll4TndNTml3TzRjU1ZaYUxLWUNLQ1pIQngyaXN2Z0M0Nl9PRVE4ck8wbk5nbENEM01Jd3piSF9vcWpvbk5GM28wRTFVVU5Iem9UNE5ZNnJOY2M5QQ?oc=5",
-   "ts": "2026-10-11T18:07:06Z",
-   "fuente": "TradingView",
-   "id": "e7762ad768",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -6149,15 +6150,15 @@
     1791784800,
     4215.4,
     4217.0,
-    4205.4,
-    4208.5
+    4205.1,
+    4208.3
    ],
    [
-    1791786149,
-    4208.4,
-    4208.4,
-    4208.4,
-    4208.4
+    1791786689,
+    4208.0,
+    4208.0,
+    4208.0,
+    4208.0
    ]
   ],
   "nq": [
@@ -6663,14 +6664,14 @@
     31203.75,
     31208.5,
     31159.25,
-    31176.5
+    31173.0
    ],
    [
-    1791786153,
-    31177.75,
-    31177.75,
-    31177.75,
-    31177.75
+    1791786685,
+    31169.5,
+    31169.5,
+    31169.5,
+    31169.5
    ]
   ],
   "vix": [
