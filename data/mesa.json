@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4194.2 · NQ 31012.75 · VIX 15.4 · 10 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-12T13:48:16Z"
+   "ultimo_resultado": "Oro 4196.4 · NQ 30985.5 · VIX 15.39 · 11 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-12T13:52:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T13:48:15Z",
-   "ultimo_resultado": "10 titulares nuevos, 1 de alto impacto: S&P 500 is little changed to start the week; Micron leads tech lower: Live updates"
+   "actualizado": "2026-10-12T13:52:35Z",
+   "ultimo_resultado": "11 titulares nuevos, 2 de alto impacto: As midterms approach, Trump is sticking with tariffs even though voters disapprove"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4196.4 · NQ 30985.5 · VIX 15.39 · 11 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-12T13:52:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4194.2 · NQ 31012.75 · VIX 15.4 · 10 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4216.1 · NQ 31260.5 · VIX 14.84 · 6 noticias nuevas",
    "ts": "2026-10-12T00:02:46Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4220.7 · NQ 31260.75 · VIX 14.84 · 6 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-11T23:57:31Z"
   }
  ],
  "briefs": [
@@ -4929,12 +4929,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4194.2,
-  "nq": 31012.75,
-  "vix": 15.4,
-  "ts": "2026-10-12T13:48:16Z"
+  "oro": 4196.4,
+  "nq": 30985.5,
+  "vix": 15.39,
+  "ts": "2026-10-12T13:52:36Z"
  },
  "noticias": [
+  {
+   "titulo": "As midterms approach, Trump is sticking with tariffs even though voters disapprove",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZlZsWUFqNHBHR19aUXU1dE00VFFlblpHSUdua3hEQzBCYnVOMDZMWTE3WXc5eGl5eldqMFBmNDJmLWF1U1RfN21fc3BuM3FCMEdhZXAwT1hYYkQzdVppNkkyUDZ2aXhOX1FqcUtRdW5jclhhRE00WnNlRGpKRkFDNkJPaTlnYjl4M0N4NWowQlhmMUlPLVpvVnV5ZU9EWWhiSVlmZlBkRGNJTG8?oc=5",
+   "ts": "2026-10-12T13:45:08Z",
+   "fuente": "Fast Company",
+   "id": "8762067cba",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "S&P 500 is little changed to start the week; Micron leads tech lower: Live updates",
    "link": "https://www.cnbc.com/2026/10/11/stock-market-today-live-updates.html",
@@ -5321,6 +5330,18 @@
    "id": "ccea9efd24",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Viva Gold to Present at the Precious Metals & Critical Minerals Virtual Investor Conference October 13th",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUHZoQnh2a3lUTjVzZjRrY25yejRIdS0xYUhYMXQ2QXlVTFhtMHB2Yk5vcVdJWDlkbHpNYVNOeUVzTl91WjZCYlRXaEV6cmNiZE4xTlUzSHNsZHRJR09YeDRkSkUzMmNKWlJWalRnNFBmY2NjMlNGbEItd3pBbHB5el96TGtmeE41dEE3OXJINmgwdHQtNGVDTXlkWmdTM0VDYnhwMGFR?oc=5",
+   "ts": "2026-10-12T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "58b088d3d1",
+   "activos": [
+    "oro",
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -5744,26 +5765,6 @@
    "ts": "2026-10-12T08:27:52Z",
    "fuente": "CNBC",
    "id": "ee6e59953b",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Michael Burry Shifts Bearish Bets To Nasdaq, Semiconductor ETF Puts — Sees Market Top Within 9 Months",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTGVNcUQ4UGd1VWxJeXZFd0otNlRBVFMwV2hBYmQ2U2Yzd2hWZzc2aXUtd3V2MXhrSXJ0U2xOMl9haDlWb2s5dFRDM2M4ZG9xcFUzcFM5WlJ3Y0dwX21WV3BOUm0zYUwzeDVvd085QVhla2liT1pwQUZONUlHOGNfWU5CTG9FWTdhRW9HX3pIVFhUcV80eElaSjN2cUgxRUxx?oc=5",
-   "ts": "2026-10-12T08:22:31Z",
-   "fuente": "Yahoo Finance",
-   "id": "5b06a0e4b8",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "World Bank jobs council urges 'crisis-era' support measures as IMF warns of AI ‘tsunami’ hit",
-   "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html",
-   "ts": "2026-10-12T08:11:46Z",
-   "fuente": "CNBC",
-   "id": "111de4cf6d",
    "activos": [],
    "impacto": "bajo"
   }
@@ -6324,14 +6325,14 @@
     4189.2,
     4199.3,
     4186.5,
-    4196.0
+    4197.5
    ],
    [
-    1791812292,
-    4194.2,
-    4194.2,
-    4194.2,
-    4194.2
+    1791812555,
+    4196.4,
+    4196.4,
+    4196.4,
+    4196.4
    ]
   ],
   "nq": [
@@ -6886,14 +6887,14 @@
     31070.25,
     31087.5,
     30936.0,
-    31010.75
+    30986.5
    ],
    [
-    1791812296,
-    31012.75,
-    31012.75,
-    31012.75,
-    31012.75
+    1791812557,
+    30988.75,
+    30988.75,
+    30988.75,
+    30988.75
    ]
   ],
   "vix": [
@@ -7336,22 +7337,22 @@
     15.49,
     15.49,
     15.35,
-    15.38
+    15.39
    ],
    [
-    1791811981,
-    15.4,
-    15.4,
-    15.4,
-    15.4
+    1791812251,
+    15.39,
+    15.39,
+    15.39,
+    15.39
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-12T13:28:17Z",
- "ult_4h": 1791812256.7623804,
+ "ult_4h": 1791813156.5207822,
  "estrategia_4h": {
   "oro": {
-   "precio": 4198.5,
+   "precio": 4196.4,
    "atr_4h": 24.54,
    "setups": [
     {
@@ -7368,11 +7369,11 @@
    ]
   },
   "nq": {
-   "precio": 31064.5,
-   "atr_4h": 161.34,
+   "precio": 30985.5,
+   "atr_4h": 167.14,
    "setups": []
   },
-  "ts": "2026-10-12T13:37:37Z"
+  "ts": "2026-10-12T13:52:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo"
