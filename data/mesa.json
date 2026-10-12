@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4198.7 · NQ 31073.5 · VIX 15.49 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-12T10:27:31Z"
+   "ultimo_resultado": "Oro 4200.9 · NQ 31080.25 · VIX 15.49 · 3 noticias nuevas",
+   "actualizado": "2026-10-12T10:32:54Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T10:27:30Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Brent tops $105 as doubts grow over supply boost from Trump’s ‘energy ceasefire’"
+   "actualizado": "2026-10-12T10:32:53Z",
+   "ultimo_resultado": "3 titulares nuevos: Stock futures are little changed to start the week: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4200.9 · NQ 31080.25 · VIX 15.49 · 3 noticias nuevas",
+   "ts": "2026-10-12T10:32:54Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4198.7 · NQ 31073.5 · VIX 15.49 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "7 titulares nuevos, 2 de alto impacto: Trump mantiene los aranceles a pesar de la oposición de los votantes antes de las elecciones.",
    "ts": "2026-10-11T20:42:55Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "7 titulares nuevos, 2 de alto impacto: Trump sticks with tariffs even as US voters turn against them before the midterms",
-   "ts": "2026-10-11T20:37:32Z"
   }
  ],
  "briefs": [
@@ -4754,18 +4754,36 @@
   }
  },
  "en_vivo": {
-  "oro": 4198.7,
-  "nq": 31073.5,
+  "oro": 4200.9,
+  "nq": 31080.25,
   "vix": 15.49,
-  "ts": "2026-10-12T10:27:31Z"
+  "ts": "2026-10-12T10:32:54Z"
  },
  "noticias": [
+  {
+   "titulo": "Stock futures are little changed to start the week: Live updates",
+   "link": "https://www.cnbc.com/2026/10/11/stock-market-today-live-updates.html",
+   "ts": "2026-10-12T10:32:23Z",
+   "fuente": "CNBC",
+   "id": "e2dfa75447",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Brent tops $105 as doubts grow over supply boost from Trump’s ‘energy ceasefire’",
    "link": "https://www.cnbc.com/2026/10/12/oil-prics-today-iran-us-saudi-arabia-crude-.html",
    "ts": "2026-10-12T10:26:41Z",
    "fuente": "CNBC",
    "id": "67f1296904",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "I’m 55 and serious health issues run in my family. Should I get long-term care insurance, or is it just a scam?",
+   "link": "https://finance.yahoo.com/healthcare/articles/m-55-serious-health-issues-101500576.html?.tsrc=rss",
+   "ts": "2026-10-12T10:15:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "7f6abb502d",
    "activos": [],
    "impacto": "bajo"
   },
@@ -5102,6 +5120,18 @@
    "impacto": "alto",
    "es": "El dólar alcanza máximo de 18 meses y genera debate analítico",
    "efecto": "Fortalece el dólar, presionando a la baja al oro y al NQ."
+  },
+  {
+   "titulo": "Gold breaks out as dollar rally cracks and Treasury futures find buyers",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX2dSSkFQb2J2VDZ0RV9fM1JWV0toY2pfQXF0Tml3NlB3dUpncjFsZGpaUzU5UFBDdDNRYTI3WXMyWVVJaG9vRkV0R1FTZDl2dlN4M2c5RlVBNDJkSGpyYWlZUy1hVXpQaHV0Q3l0T3ZYNGd1OWNfa2FLYjcxVEY3OHEtdTBVMGwyR0YzOTZrLVhoRF9CSzg0ZXlVOTcyWjhCT3FFUTRWQXZmOHVjeWQ5WVZvVUZpWUtDWlBZ?oc=5",
+   "ts": "2026-10-12T05:26:24Z",
+   "fuente": "StoneX",
+   "id": "c198c77d93",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Idaho’s living ghost town holds stories of gold, murder and survival",
@@ -5605,37 +5635,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "XRP’s Nasdaq Moment Nears: 5 Things to Know About Evernorth",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMEU4ZjBiNmVsc3dWZVFERnBuS3B5RkRoQUZSQmF2SGtXVXpfOGJLV1I3Qm9oMTZYSEJvZU1XZ2E3N1dqY21GeUhOWXU3QWxQNmtMSVExSUo1X2lSSFZxLU1sVk1xdGV3UmdOeS1YNXJDUEd1NHJiRDlDV09xQnFKNEtqQlJhNkJheFVKcmt4R2k5TmRG?oc=5",
-   "ts": "2026-10-11T22:50:19Z",
-   "fuente": "Yahoo Finance",
-   "id": "884f217168",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Free float of City Therapeutics Inc. – NASDAQ:CTY",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbmdKQWp1dWZobXMwYTdpZ0hWMWJDX2EyZnJ2d2I3VmpVODh3UkdYS0t4OXZkSnRhbDNpclNEWThlaGNGRlE1S2pTbFpEZWpnR3JhOUNxN0ZRZzNxTXdaMHN4V3ZZQlJlZ0NZVG56UWViWDFDYWRMRTRQNjh2bGo5QWVtd3VhMGxFalhua0lWRUF2TF9zYlllbWxYU2lGdmZudFZkUFNFTjE?oc=5",
-   "ts": "2026-10-11T22:44:55Z",
-   "fuente": "TradingView",
-   "id": "81196c3f8c",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Colorful tricycles steal the show at Filipino American History Month celebration",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX2k3ay1yM2F4S0FiVnU4MGtWVkFVbXVDYjVNbzFWWFExMTdqclNOY0pmOTNSV1FPSDJOSDYxYnJmc09wQV9salR6ampfdlRIM1JTNXJlalZSYmJzc3lRNm9OX3VLYzFGOEdzdU03MHludlU2Um5fcG90RTVFUVpRenpLRWFvLVBIMHlkWWJfMU9MNEJ1MTZlM0tQME5WRGU0WlJISDdYdEZhOXNBZXlnSw?oc=5",
-   "ts": "2026-10-11T22:42:13Z",
-   "fuente": "KSNV",
-   "id": "9ad9046b3c",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -6171,16 +6170,16 @@
    [
     1791799200,
     4197.7,
-    4199.5,
+    4201.5,
     4196.6,
-    4198.4
+    4200.8
    ],
    [
-    1791800246,
-    4198.7,
-    4198.7,
-    4198.7,
-    4198.7
+    1791800572,
+    4200.9,
+    4200.9,
+    4200.9,
+    4200.9
    ]
   ],
   "nq": [
@@ -6713,15 +6712,15 @@
     1791799200,
     31090.75,
     31096.0,
-    31070.75,
-    31073.25
+    31068.25,
+    31078.5
    ],
    [
-    1791800251,
-    31074.0,
-    31074.0,
-    31074.0,
-    31074.0
+    1791800574,
+    31079.0,
+    31079.0,
+    31079.0,
+    31079.0
    ]
   ],
   "vix": [
@@ -7141,12 +7140,12 @@
    [
     1791799200,
     15.48,
-    15.49,
+    15.5,
     15.47,
-    15.49
+    15.5
    ],
    [
-    1791799936,
+    1791800266,
     15.49,
     15.49,
     15.49,
@@ -7155,10 +7154,10 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-12T10:12:38Z",
- "ult_4h": 1791800252.1950145,
+ "ult_4h": 1791801174.316654,
  "estrategia_4h": {
   "oro": {
-   "precio": 4198.3,
+   "precio": 4200.9,
    "atr_4h": 24.63,
    "setups": [
     {
@@ -7175,11 +7174,11 @@
    ]
   },
   "nq": {
-   "precio": 31086.75,
+   "precio": 31079.0,
    "atr_4h": 166.64,
    "setups": []
   },
-  "ts": "2026-10-12T10:17:32Z"
+  "ts": "2026-10-12T10:32:54Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo"
