@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4192.4 · NQ 30874.5 · VIX 15.26 · 15 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-12T18:47:42Z"
+   "ultimo_resultado": "Oro 4192.8 · NQ 30880.5 · VIX 15.26 · 15 noticias nuevas (4 alto impacto)",
+   "actualizado": "2026-10-12T18:52:44Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T18:47:41Z",
-   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: Operación masiva en acciones de Snap"
+   "actualizado": "2026-10-12T18:52:42Z",
+   "ultimo_resultado": "15 titulares nuevos, 4 de alto impacto: Microsoft, Micron and Meta make news. Here's what the updates mean for our stakes"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4192.8 · NQ 30880.5 · VIX 15.26 · 15 noticias nuevas (4 alto impacto)",
+   "ts": "2026-10-12T18:52:44Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4192.4 · NQ 30874.5 · VIX 15.26 · 15 noticias nuevas (3 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4208.4 · NQ 31177.75 · VIX 14.84 · 1 noticias nuevas",
    "ts": "2026-10-12T06:32:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4206.3 · NQ 31164.25 · VIX 14.84",
-   "ts": "2026-10-12T06:27:31Z"
   }
  ],
  "briefs": [
@@ -5102,12 +5102,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4192.4,
-  "nq": 30874.5,
+  "oro": 4192.8,
+  "nq": 30880.5,
   "vix": 15.26,
-  "ts": "2026-10-12T18:47:42Z"
+  "ts": "2026-10-12T18:52:43Z"
  },
  "noticias": [
+  {
+   "titulo": "Microsoft, Micron and Meta make news. Here's what the updates mean for our stakes",
+   "link": "https://www.cnbc.com/investingclub/2026/10/12/microsoft-micron-and-meta-make-news-what-it-all-means-for-our-stakes.html",
+   "ts": "2026-10-12T18:47:58Z",
+   "fuente": "CNBC",
+   "id": "7ba1d7dbf7",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "News | Distressed Federal Reserve landmark poised for revival in downtown San Francisco",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaFF4ZGIyZkkzd3I3Qnl6TzhEWlJzUGZTYTBQSmdqZnJLWmZSSDN3Q2lyVWNORWZXaWxVQnNGdzgxNzE0bTBISmVjcmh4Q0preHJTcGlLcnVGcTVnZU5KSm1qSHYxVEJPMzhHMUJ4QXBxNU5Ub1U3UE4ycFVBLTBWeWFoVkpGVGVZQUVqcWNXNlpzbjVDdmRDeWhuSm9wWlAzLWxlUkd1bEF0SExyRnk2MloyNUtrcUJfLUV6SnRRUQ?oc=5",
+   "ts": "2026-10-12T18:46:52Z",
+   "fuente": "CoStar",
+   "id": "ab224e5f7f",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "A massive trade just happened in surging shares of Snap",
    "link": "https://www.cnbc.com/2026/10/12/a-massive-trade-just-happens-in-surging-shares-of-snap.html",
@@ -5443,6 +5463,17 @@
    "ts": "2026-10-12T15:42:34Z",
    "fuente": "Al Jazeera",
    "id": "b55a698192",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Why Gold Is Stuck Right Now",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVkRsbFRWRTREbkRtRjhDeXVNUnpBRVpQVXZLck12UGszeWRFc2xJb2NzODZtSTVIcmNyZFJPcXBnWldwRG1nWHpOZHFvQzVuNEpQQ1hUbTlLd0ZPMnJvMmVjWGhlcnNjRjBiRmdLMHc0M2lWSmZCSUZ5dDR6ajF1UXYwTm1NSEFLempPTA?oc=5",
+   "ts": "2026-10-12T15:39:28Z",
+   "fuente": "Bloomberg.com",
+   "id": "150e2ecba8",
    "activos": [
     "oro"
    ],
@@ -5919,40 +5950,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Wall Street Analysts Predict a 102.47% Upside in Dakota Gold Corp. (DC): Here's What You Should Know",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVmcweHdjX2lvWktOQjYwMFhzOHAxTS1QYzloTWRIREJxOG5mR0lLaU9lT2RPc3RRZkZXN3hPV0YtVUtnZ29qUDlPeFFUVVRlUnVnYUtiZGpBQTBKUjM5anBXZzk4OTlhUHkya0JYbzI4M1o2ZzFrWHBjOC1GOUswN0lzc1FBeWUxaVppTDNuZWdPY0VxelFDS1JGNUZ1UQ?oc=5",
-   "ts": "2026-10-12T12:55:02Z",
-   "fuente": "Yahoo Finance",
-   "id": "d9d91f8193",
-   "activos": [
-    "oro",
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gold Extends Longest Drop in a Decade as Diesel Rises Despite Trump's Russia Deal",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMXRndms2WmxVVUt1QzNickVveEZlTldtYnI1RmVGMTUtTllBVFQ3OFFMbTdFODY2Rl9VTlc3cnVMbTdjVmZnajlOYkxiamdzX2p2X3lJQ1hJcXk3QTgwV3VrYkJEOXBQQi1UTTBKSHpNV0JwYjJKYnR6R2VPUHhkSUt2dXNERjRWZGc?oc=5",
-   "ts": "2026-10-12T12:54:58Z",
-   "fuente": "BullionVault",
-   "id": "3bde87685e",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Rep. Ilhan Omar's home raided by DHS in fraud probe of immigration paperwork: Report",
-   "link": "https://www.cnbc.com/2026/10/12/ilhan-omar-home-raided-dhs-immigration-investigation.html",
-   "ts": "2026-10-12T12:52:03Z",
-   "fuente": "CNBC",
-   "id": "464731e6a8",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Allanan la casa de la representante Ilhan Omar por fraude migratorio",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -6546,14 +6543,14 @@
     4194.4,
     4196.6,
     4192.1,
-    4192.2
+    4192.7
    ],
    [
-    1791830256,
-    4192.4,
-    4192.4,
-    4192.4,
-    4192.4
+    1791830558,
+    4192.8,
+    4192.8,
+    4192.8,
+    4192.8
    ]
   ],
   "nq": [
@@ -7143,14 +7140,14 @@
     30877.75,
     30892.0,
     30864.25,
-    30872.0
+    30881.75
    ],
    [
-    1791830261,
-    30874.25,
-    30874.25,
-    30874.25,
-    30874.25
+    1791830561,
+    30880.5,
+    30880.5,
+    30880.5,
+    30880.5
    ]
   ],
   "vix": [
@@ -7626,12 +7623,12 @@
    [
     1791828000,
     15.18,
-    15.25,
+    15.26,
     15.18,
     15.25
    ],
    [
-    1791829951,
+    1791830251,
     15.26,
     15.26,
     15.26,
@@ -7640,19 +7637,19 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-12T18:47:38Z",
- "ult_4h": 1791830252.3077176,
+ "ult_4h": 1791831163.3508394,
  "estrategia_4h": {
   "oro": {
-   "precio": 4194.4,
-   "atr_4h": 23.19,
+   "precio": 4192.8,
+   "atr_4h": 23.27,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4152.88,
+     "stop": 4152.84,
      "objetivo": 4242.3,
-     "rr": 5.43,
+     "rr": 5.41,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.41,
      "ruptura": "2026-10-08 20:00 UTC"
@@ -7660,11 +7657,11 @@
    ]
   },
   "nq": {
-   "precio": 30877.75,
-   "atr_4h": 165.52,
+   "precio": 30880.5,
+   "atr_4h": 165.77,
    "setups": []
   },
-  "ts": "2026-10-12T18:37:32Z"
+  "ts": "2026-10-12T18:52:43Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo"
