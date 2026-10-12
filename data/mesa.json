@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4193.8 · NQ 31071.0 · VIX 15.44 · 5 noticias nuevas",
-   "actualizado": "2026-10-12T12:07:37Z"
+   "ultimo_resultado": "Oro 4193.5 · NQ 31054.0 · VIX 15.45 · 5 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-12T12:12:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T12:07:36Z",
-   "ultimo_resultado": "5 titulares nuevos: MBA expects two more Federal Reserve hikes, in December and Q1 2027"
+   "actualizado": "2026-10-12T12:12:38Z",
+   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: Gold gains on weaker oil, dollar; U.S. inflation data in focus"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4193.5 · NQ 31054.0 · VIX 15.45 · 5 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-12T12:12:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4193.8 · NQ 31071.0 · VIX 15.44 · 5 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
    "ts": "2026-10-11T21:32:52Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Midiendo volatilidad y rango esperado del día…",
-   "ts": "2026-10-11T21:32:51Z"
   }
  ],
  "briefs": [
@@ -4754,10 +4754,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4193.8,
-  "nq": 31071.0,
-  "vix": 15.44,
-  "ts": "2026-10-12T12:07:36Z"
+  "oro": 4193.5,
+  "nq": 31054.0,
+  "vix": 15.45,
+  "ts": "2026-10-12T12:12:39Z"
  },
  "noticias": [
   {
@@ -5530,6 +5530,18 @@
    "efecto": "Sin impacto en los mercados financieros."
   },
   {
+   "titulo": "Gold gains on weaker oil, dollar; U.S. inflation data in focus",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMlhWTHdSdFRQSzNiRDFDWW9HVUc3Tlk2SkQ3dlhvUlVSbEdhT1ZlMWMtMzdLaFpqWThqWDRCaE1ucThSTm1sNERpamxhb3F3WVdTQkF0dVVQNkFBVHR0WEVXYzRFeThQaDJVdWFPRnFQUEtFVW5tbFRwdU1uRFlnMFFwMGxLbWZ4S0F1REZYMU93clp3b0ZZdGRyTdIBoAFBVV95cUxQaWY4cGVTQ0Rla0E1dHl5UE9MSll1TzFacjRqRFNYWjF3U0xZeU8zVEJhZ1F3aDUyNGQ2YlZNVnhZTTNmLVNaem5ETzJjX1o5Tl8xcFo3U3RaUFFHYXNCLUdpd2ZLQm9FLVZOZjlDc2RlQXp0LUlYeUlNX2NVUzJIOTV0dU8wUDFTTGR4ZmpKS2cwTXRLb2lrRkEwOVV4endO?oc=5",
+   "ts": "2026-10-12T04:08:08Z",
+   "fuente": "CNBC",
+   "id": "0c0bf877f4",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "GDX Vs. SGDM Is A Draw, Gold Miners Are A Buy (NYSEARCA:GDX)",
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNd0pJYktfcjZ0Z3gwNjBJeV9aTE5ESjczNXU5S1Ftanltdm9RY2dVbkdHbEtvSWpEdEVNWXFtaXlaU0V4UVNneEt4UGYxYmQxa1IxMmwxcndGM19zOXh6NTFqQ1ZoTzdEMHBUOS1FTUJCMmdUQ1ZYQlJwTlRkWGJtN3VBN0xtc2ZTZjJZVw?oc=5",
    "ts": "2026-10-12T03:57:34Z",
@@ -5589,6 +5601,15 @@
    "efecto": "Presiona al oro y al NQ a la baja por tasas altas."
   },
   {
+   "titulo": "At least 72 Sudanese miners killed in air strike: Rights monitor",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTFNLVEYyaVhLYjdPQ0o5aDJzRU5vcXFKVUtuRXhmV0pRcTJubjE1cTBtYjA2MnMxbXdGd3dPMEFnUnNqT0pKMDF6T2pBX1RBcmgzcDRqQ2hMeGhrNHdZN0dGRkdXeTRjajJfOVlXUFR4OV9SMll3Qkp5Nl9sSFRtTzFnakFxYzZSU0tUWVduSk1ZOTV4bFpOcjFsTEFJbENOdnM3anlKclrSAa4BQVVfeXFMTUZEMmdWbVFqaVJZR1otUVZKUlFPN2ZFY0FqbVIxblBCa0VjLXdGLUNQR0Vacjc4UTJSdFZPVjA2X0Fjb3VZMW5xVC1aSExpWmNPWDZDU19rTG1yTUJSR3RkdzNxeWFWYWlXNi02VEd5dU41Tk1TZjlyUEZyU1ZhbmVFZ0xkMUJzbFEtT1FZT3gtQmtlSWR6LUJReE1YdEQzUjU4SmJBazBHQWdVMjJR?oc=5",
+   "ts": "2026-10-12T03:15:14Z",
+   "fuente": "Al Jazeera",
+   "id": "38228750a0",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "China Gold Demand Is Supporting Gold Stocks Like Alamos Gold and B2Gold",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcmtqZEgyb1B5VUxLaFo5N3pqN29ieVlwYmdWd1EwQWZnSlFROHZoaGNlZ0x1T0Y5U3BMbk9WTEZpcGZHamtGQWY5dVF5VEJUVTI3R2YtWEo5LU9lZGpBYV9uQ0RFcWhsdkVWcDEtOHdkazBBc3JqQVFQNzBxMDcyTlUyV1dZUlhvbTRBUUFZR2tCNXVKWEdmdXU1ZXJHUmNpUUpQc013?oc=5",
    "ts": "2026-10-12T03:15:00Z",
@@ -5599,29 +5620,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Gold slips from one-week high as firm US dollar weighs",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSTdfbFRJUWVBUW5ndjBGSlJ6aGRQYi1saWxfVU5haEdOVXJaNzFuRnlyZ1F6eGVPb2tGYVczeXlRWEI5WmVHeVFGMTVqd2I5dEZCVDNrNDBkS2N1Q2NWWlRQMzhSa3BPMlZnVElqaFhaQkRLWnJrMG1NUnlvYVE5OWZGTXZucUJoaTUzTmxJeS1mUHpRSVVNT2xlRUI5dmtoQmc?oc=5",
-   "ts": "2026-10-12T03:13:00Z",
-   "fuente": "Reuters",
-   "id": "d80e8db22e",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gold retreats as markets await key US inflation data",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSTdfbFRJUWVBUW5ndjBGSlJ6aGRQYi1saWxfVU5haEdOVXJaNzFuRnlyZ1F6eGVPb2tGYVczeXlRWEI5WmVHeVFGMTVqd2I5dEZCVDNrNDBkS2N1Q2NWWlRQMzhSa3BPMlZnVElqaFhaQkRLWnJrMG1NUnlvYVE5OWZGTXZucUJoaTUzTmxJeS1mUHpRSVVNT2xlRUI5dmtoQmc?oc=5",
-   "ts": "2026-10-12T03:13:00Z",
-   "fuente": "Reuters",
-   "id": "05029c68fe",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -6166,14 +6164,21 @@
     4201.8,
     4201.9,
     4191.6,
-    4193.8
+    4192.6
    ],
    [
-    1791806250,
-    4193.8,
-    4193.8,
-    4193.8,
-    4193.8
+    1791806400,
+    4192.7,
+    4194.3,
+    4192.6,
+    4194.3
+   ],
+   [
+    1791806552,
+    4193.5,
+    4193.5,
+    4193.5,
+    4193.5
    ]
   ],
   "nq": [
@@ -6714,14 +6719,21 @@
     31077.0,
     31079.75,
     31030.0,
-    31072.25
+    31058.75
    ],
    [
-    1791806251,
-    31071.0,
-    31071.0,
-    31071.0,
-    31071.0
+    1791806400,
+    31058.5,
+    31064.0,
+    31051.25,
+    31056.75
+   ],
+   [
+    1791806553,
+    31054.0,
+    31054.0,
+    31054.0,
+    31054.0
    ]
   ],
   "vix": [
@@ -7149,15 +7161,15 @@
     1791802800,
     15.47,
     15.51,
-    15.44,
-    15.44
+    15.43,
+    15.45
    ],
    [
-    1791805951,
-    15.44,
-    15.44,
-    15.44,
-    15.44
+    1791806251,
+    15.45,
+    15.45,
+    15.45,
+    15.45
    ]
   ]
  },
