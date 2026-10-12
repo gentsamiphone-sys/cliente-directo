@@ -522,19 +522,19 @@ const MU={on:false,ctx:null,out:null,paso:0,prox:0,tm:null};
 const ACORDES=[[57,60,64,67],[53,57,60,64],[48,52,55,59],[55,59,62,65]];const hz=n=>440*Math.pow(2,(n-69)/12);
 function muNota(f,t,dur,tipo,vol,filtro){const c=MU.ctx,o=c.createOscillator(),g=c.createGain(),fl=c.createBiquadFilter();o.type=tipo;o.frequency.value=f;fl.type="lowpass";fl.frequency.value=filtro;
   g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(vol,t+Math.min(.4,dur*.3));g.gain.exponentialRampToValueAtTime(.0005,t+dur);o.connect(fl).connect(g).connect(MU.out);o.start(t);o.stop(t+dur+.05)}
-function muGolpe(t,tipo){const c=MU.ctx;if(tipo==="bombo"){const o=c.createOscillator(),g=c.createGain();o.frequency.setValueAtTime(110,t);o.frequency.exponentialRampToValueAtTime(42,t+.18);
-  g.gain.setValueAtTime(.55,t);g.gain.exponentialRampToValueAtTime(.001,t+.3);o.connect(g).connect(MU.out);o.start(t);o.stop(t+.32)}
+function muGolpe(t,tipo){const c=MU.ctx;if(tipo==="bombo"){const o=c.createOscillator(),g=c.createGain();o.frequency.setValueAtTime(160,t);o.frequency.exponentialRampToValueAtTime(55,t+.18);
+  g.gain.setValueAtTime(.7,t);g.gain.exponentialRampToValueAtTime(.001,t+.3);o.connect(g).connect(MU.out);o.start(t);o.stop(t+.32)}
   else{const b=c.createBuffer(1,c.sampleRate*.05,c.sampleRate),d=b.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=(Math.random()*2-1)*(1-i/d.length);
-  const s=c.createBufferSource(),f=c.createBiquadFilter(),g=c.createGain();s.buffer=b;f.type="highpass";f.frequency.value=7000;g.gain.value=tipo==="plato"?.12:.06;s.connect(f).connect(g).connect(MU.out);s.start(t)}}
+  const s=c.createBufferSource(),f=c.createBiquadFilter(),g=c.createGain();s.buffer=b;f.type="highpass";f.frequency.value=7000;g.gain.value=tipo==="plato"?.18:.09;s.connect(f).connect(g).connect(MU.out);s.start(t)}}
 function muProgramar(){const c=MU.ctx,neg=60/84/2;while(MU.prox<c.currentTime+.25){const t=MU.prox,k=MU.paso%32,ac=ACORDES[Math.floor(MU.paso/32)%4];
-  if(k===0)ac.forEach(n=>muNota(hz(n),t,neg*32,"sawtooth",.035,900));
-  if(k%16===0)muNota(hz(ac[0]-24),t,neg*7,"sine",.22,400);if(k%16===10)muNota(hz(ac[0]-24),t,neg*4,"sine",.16,400);
+  if(k===0)ac.forEach(n=>muNota(hz(n+12),t,neg*32,"sawtooth",.06,1800));
+  if(k%16===0)muNota(hz(ac[0]-12),t,neg*7,"triangle",.3,900);if(k%16===10)muNota(hz(ac[0]-12),t,neg*4,"triangle",.22,900);
   if(k%8===0)muGolpe(t,"bombo");if(k%8===4)muGolpe(t,"plato");if(k%2===1)muGolpe(t,"hat");
-  if([0,3,6,10,12,14].includes(k%16)&&Math.random()<.7)muNota(hz(ac[(k/2|0)%4]+12),t,neg*1.5,"triangle",.05,2600);
+  if([0,3,6,10,12,14].includes(k%16)&&Math.random()<.7)muNota(hz(ac[(k/2|0)%4]+12),t,neg*1.5,"triangle",.14,3200);
   MU.prox+=neg;MU.paso++}}
 function musica(on,guardar=true){MUSICA=on;if(guardar)try{localStorage.setItem("gsam_musica",on?"1":"0")}catch{};$("musica").classList.toggle("off",!on);
-  if(on){if(!MU.ctx){try{MU.ctx=new (window.AudioContext||window.webkitAudioContext)();MU.out=MU.ctx.createGain();MU.out.gain.value=.0001;MU.out.connect(MU.ctx.destination)}catch{return}}
-    MU.ctx.resume();MU.out.gain.cancelScheduledValues(MU.ctx.currentTime);MU.out.gain.setTargetAtTime(.35,MU.ctx.currentTime,.8);
+  if(on){if(!MU.ctx){try{MU.ctx=new (window.AudioContext||window.webkitAudioContext)();try{if(navigator.audioSession)navigator.audioSession.type="playback"}catch{};MU.out=MU.ctx.createGain();MU.out.gain.value=.0001;const cp=MU.ctx.createDynamicsCompressor();cp.threshold.value=-14;cp.ratio.value=4;MU.out.connect(cp).connect(MU.ctx.destination)}catch{return}}
+    MU.ctx.resume();MU.out.gain.cancelScheduledValues(MU.ctx.currentTime);MU.out.gain.setTargetAtTime(.9,MU.ctx.currentTime,.3);
     if(!MU.tm){MU.prox=MU.ctx.currentTime+.1;MU.tm=setInterval(muProgramar,100)}}
   else if(MU.ctx){MU.out.gain.setTargetAtTime(.0001,MU.ctx.currentTime,.4);setTimeout(()=>{if(!MUSICA&&MU.tm){clearInterval(MU.tm);MU.tm=null}},1500)}}
 $("musica").onclick=e=>{e.stopPropagation();musica(!MUSICA)};$("musica").classList.toggle("off",!MUSICA);if(MUSICA){
