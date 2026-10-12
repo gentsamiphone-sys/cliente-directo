@@ -176,21 +176,65 @@ cyl(.22,.22,.9,mat(0xe9edf2,.4),X1-5,.45,Z0+.55);cyl(.16,.16,.45,new THREE.MeshP
 
 /* ---------- puesto de trabajo + agente ---------- */
 const PIEL=[0xf1c9a5,0xd9a77c,0xc08a60,0x8d5a3b,0x5e3b25],PELO=[0x1b130c,0x3b2414,0x6b4423,0xa8742f,0x2a2a2a];
-function persona(g,camisa,i,sentado=true){const p=new THREE.Group();g.add(p);
-  const mC=mat(camisa,.8),mP=mat(PIEL[i%5],.7),mPel=mat(PELO[(i*3)%5],.9),mPan=mat(0x22262d,.8);
-  const torso=new THREE.Mesh(new THREE.CapsuleGeometry(.2,.38,6,12),mC);torso.position.set(0,1.02,.05);torso.castShadow=true;p.add(torso);
-  const cab=new THREE.Group();cab.position.set(0,1.5,.02);p.add(cab);
-  const ca=new THREE.Mesh(new THREE.SphereGeometry(.15,20,16),mP);ca.castShadow=true;cab.add(ca);
-  const pe=new THREE.Mesh(new THREE.SphereGeometry(.158,20,16,0,Math.PI*2,0,Math.PI*.55),mPel);pe.rotation.x=-.25;pe.castShadow=true;cab.add(pe);
-  cyl(.06,.07,.1,mP,0,1.33,.03,p);
-  const brazos=[];for(const s of[-1,1]){const b=new THREE.Group();b.position.set(s*.25,1.2,.05);p.add(b);
-    const up=new THREE.Mesh(new THREE.CapsuleGeometry(.065,.26,4,8),mC);up.position.set(0,-.13,-.04);up.rotation.x=.5;up.castShadow=true;b.add(up);
-    const fo=new THREE.Mesh(new THREE.CapsuleGeometry(.055,.24,4,8),mC);fo.position.set(-s*.04,-.28,-.24);fo.rotation.x=1.45;fo.castShadow=true;b.add(fo);
-    const ma=new THREE.Mesh(new THREE.SphereGeometry(.055,10,8),mP);ma.position.set(-s*.06,-.3,-.42);b.add(ma);brazos.push(b)}
-  for(const s of[-1,1]){const mu=new THREE.Mesh(new THREE.CapsuleGeometry(.085,.36,4,8),mPan);mu.rotation.x=Math.PI/2;mu.position.set(s*.11,.68,-.16);mu.castShadow=true;p.add(mu);
-    const pi=new THREE.Mesh(new THREE.CapsuleGeometry(.075,.36,4,8),mPan);pi.position.set(s*.11,.35,-.38);pi.castShadow=true;p.add(pi);
-    box(.12,.07,.22,M_TECLA,s*.11,.04,-.44,p)}
-  return {p,cab,brazos,torso}}
+/* ---------- personas más realistas: traje, camisa, cara, pelo, manos y zapatos ---------- */
+const H_GEO={};const hg=(k,f)=>H_GEO[k]||(H_GEO[k]=f());
+const H_ZAP=mat(0x111214,.35,.2),H_BLANCO=mat(0xf2f2ee,.6),H_OJO=mat(0x101012,.2),H_BOCA=mat(0x8a3b3b,.6),H_PANT=[mat(0x22262d,.8),mat(0x2b2f3a,.8),mat(0x3a3328,.8)],H_GAFAS=mat(0x0d0d0f,.3,.6);
+function torsoGeo(){return hg("torso",()=>{const pts=[[.15,0],[.175,.06],[.165,.2],[.19,.38],[.225,.52],[.23,.58],[.2,.64],[.09,.68],[.05,.7]].map(([r,y])=>new THREE.Vector2(r,y));
+  const g=new THREE.LatheGeometry(pts,24);g.scale(1,1,.68);return g})}
+function malla(geo,m,p,x=0,y=0,z=0){const o=new THREE.Mesh(geo,m);o.position.set(x,y,z);o.castShadow=true;p.add(o);return o}
+// cabeza con cara; f = hacia dónde mira la cara (-1 = -z, 1 = +z)
+function cabeza(p,i,mP,f){const c=new THREE.Group();p.add(c);const est=i%6,mPel=mat(PELO[(i*3)%5],.85);
+  malla(hg("cab",()=>{const g=new THREE.SphereGeometry(.125,24,18);g.scale(.92,1.1,1);return g}),mP,c);
+  malla(hg("men",()=>{const g=new THREE.SphereGeometry(.07,14,10);g.scale(1.1,.8,1);return g}),mP,c,0,-.085,f*.055);           // mandíbula
+  for(const s of[-1,1]){malla(hg("ore",()=>{const g=new THREE.SphereGeometry(.03,10,8);g.scale(.5,1,.8);return g}),mP,c,s*.117,0,0);
+    malla(hg("ojo",()=>new THREE.SphereGeometry(.019,10,8)),H_BLANCO,c,s*.045,.02,f*.112);
+    malla(hg("pup",()=>new THREE.SphereGeometry(.01,8,6)),H_OJO,c,s*.045,.02,f*.128);
+    malla(hg("cej",()=>new THREE.BoxGeometry(.05,.011,.012)),mPel,c,s*.047,.058,f*.118).rotation.z=-s*.12}
+  malla(hg("nar",()=>{const g=new THREE.ConeGeometry(.02,.05,8);g.rotateX(Math.PI/2);return g}),mP,c,0,-.012,f*.13).rotation.y=f>0?0:Math.PI;
+  malla(hg("boc",()=>new THREE.BoxGeometry(.045,.009,.01)),H_BOCA,c,0,-.065,f*.118);
+  // pelo: 0 corto, 1 largo, 2 moño, 3 rapado, 4 corto con flequillo, 5 rizado
+  const casco=malla(hg("pel"+(est===3?"r":""),()=>new THREE.SphereGeometry(est===3?.129:.134,24,16,0,Math.PI*2,0,Math.PI*.52)),mPel,c,0,.01,-f*.006);casco.scale.set(.95,1.12,1.04);
+  if(est===1){malla(hg("lar",()=>{const g=new THREE.CylinderGeometry(.11,.125,.26,18,1,true,0,Math.PI);return g}),mPel,c,0,-.1,-f*.02).rotation.y=f>0?Math.PI/2:-Math.PI/2}
+  if(est===2)malla(hg("mon",()=>new THREE.SphereGeometry(.05,12,10)),mPel,c,0,.11,-f*.11);
+  if(est===4)malla(hg("fle",()=>new THREE.BoxGeometry(.2,.035,.05)),mPel,c,0,.1,f*.09).rotation.x=-f*.35;
+  if(est===5)for(let k=0;k<7;k++){const a=k/7*Math.PI*2;malla(hg("riz",()=>new THREE.SphereGeometry(.045,10,8)),mPel,c,Math.cos(a)*.1,.08+Math.sin(k)*.02,Math.sin(a)*.1)}
+  if(i%4===1){for(const s of[-1,1])malla(hg("len",()=>new THREE.TorusGeometry(.026,.004,6,16)),H_GAFAS,c,s*.045,.02,f*.13);
+    malla(hg("pue",()=>new THREE.BoxGeometry(.03,.004,.004)),H_GAFAS,c,0,.022,f*.13)}
+  if(i%3===0){const d=new THREE.Mesh(hg("dia",()=>new THREE.TorusGeometry(.14,.01,6,24,Math.PI)),H_GAFAS);d.position.y=.02;d.castShadow=true;c.add(d);
+    for(const s of[-1,1])malla(hg("cas",()=>{const g=new THREE.CylinderGeometry(.04,.04,.03,14);g.rotateZ(Math.PI/2);return g}),H_GAFAS,c,s*.13,0,0);
+    malla(hg("mic",()=>new THREE.BoxGeometry(.008,.008,.11)),H_GAFAS,c,-.12,-.06,f*.06)}
+  return c}
+// cuerpo completo; sentado = en la silla mirando a -z; de pie = mirando a +z
+function humano(p,color,i,sentado){const f=sentado?-1:1,mC=mat(color,.75),mP=mat(PIEL[i%5],.65),mPan=H_PANT[i%3],y0=sentado?.6:.92;
+  const torso=malla(torsoGeo(),mC,p,0,y0,sentado?.05:0);
+  // camisa y corbata al frente
+  {const v=malla(hg("cam",()=>{const g=new THREE.CircleGeometry(.085,3);g.rotateZ(-Math.PI/2);g.scale(1,1.5,1);return g}),H_BLANCO,p,0,y0+.55,(sentado?.05:0)+f*.16);v.rotation.y=f>0?0:Math.PI;v.castShadow=false}
+  if(i%2===0)malla(hg("cor",()=>new THREE.BoxGeometry(.03,.2,.012)),mat([0x8a1c1c,0x1d2a44,0xd4af37,0x2f6b3a][i%4],.5),p,0,y0+.5,(sentado?.05:0)+f*.168);
+  malla(hg("cue",()=>new THREE.CylinderGeometry(.052,.058,.1,14)),mP,p,0,y0+.73,sentado?.04:0);
+  const cab=cabeza(p,i,mP,f);cab.position.set(0,y0+.9,sentado?.03:0);
+  // brazos: hombro → codo → mano
+  const brazos=[];for(const s of[-1,1]){const b=new THREE.Group();b.position.set(s*.235,y0+.6,sentado?.05:0);p.add(b);
+    if(sentado){malla(hg("bra",()=>new THREE.CapsuleGeometry(.058,.24,4,10)),mC,b,0,-.13,-.04).rotation.x=.5;
+      const fo=malla(hg("ant",()=>new THREE.CapsuleGeometry(.05,.22,4,10)),mC,b,-s*.04,-.28,-.24);fo.rotation.x=1.45;
+      malla(hg("puñ",()=>{const g=new THREE.CylinderGeometry(.052,.052,.03,12);g.rotateX(Math.PI/2);return g}),H_BLANCO,b,-s*.05,-.29,-.37);
+      malla(hg("man",()=>new THREE.BoxGeometry(.075,.035,.1)),mP,b,-s*.06,-.3,-.43)}
+    else{malla(hg("brap",()=>new THREE.CapsuleGeometry(.056,.26,4,10)),mC,b,0,-.18,0);
+      malla(hg("antp",()=>new THREE.CapsuleGeometry(.048,.22,4,10)),mC,b,0,-.44,.01);
+      malla(hg("manp",()=>{const g=new THREE.SphereGeometry(.045,10,8);g.scale(.8,1.2,.9);return g}),mP,b,0,-.6,.02)}
+    brazos.push(b)}
+  // piernas y zapatos
+  const piernas=[];for(const s of[-1,1]){
+    if(sentado){const mu=malla(hg("mus",()=>new THREE.CapsuleGeometry(.08,.34,4,10)),mPan,p,s*.1,.62,-.15);mu.rotation.x=Math.PI/2;
+      malla(hg("pie",()=>new THREE.CapsuleGeometry(.068,.34,4,10)),mPan,p,s*.1,.34,-.37);
+      malla(hg("zap",()=>new THREE.BoxGeometry(.1,.07,.24)),H_ZAP,p,s*.1,.04,-.43)}
+    else{const pg=new THREE.Group();pg.position.set(s*.095,.92,0);p.add(pg);
+      malla(hg("musp",()=>new THREE.CapsuleGeometry(.078,.36,4,10)),mPan,pg,0,-.22,0);
+      malla(hg("piep",()=>new THREE.CapsuleGeometry(.064,.34,4,10)),mPan,pg,0,-.6,0);
+      malla(hg("zap",()=>new THREE.BoxGeometry(.1,.07,.24)),H_ZAP,pg,0,-.88,.05);piernas.push(pg)}}
+  return {torso,cab,brazos,piernas}}
+function persona(g,camisa,i,sentado=true){const p=new THREE.Group();g.add(p);const h=humano(p,camisa,i,true);return {p,cab:h.cab,brazos:h.brazos,torso:h.torso}}
+function caminante(col,piel){const g=new THREE.Group();g.visible=false;sc.add(g);const i=(PIEL.indexOf(piel)+1+(col%7))%12;const h=humano(g,col,i,false);
+  return {g,piernas:h.piernas,brazos:h.brazos,cab:h.cab}}
 function puesto(x,z,rot,ag,i,jefe=false){const g=new THREE.Group();g.position.set(x,0,z);g.rotation.y=rot;sc.add(g);
   const ancho=jefe?2.6:1.9;box(ancho,.06,.95,M_MESA,0,.76,-.55,g);box(.06,.74,.85,M_PATA,-ancho/2+.08,.38,-.55,g);box(.06,.74,.85,M_PATA,ancho/2-.08,.38,-.55,g);
   // monitor curvo
@@ -329,12 +373,6 @@ function dibujarVW(t){const g=VW.cv.getContext("2d"),w=1280,h=668;g.fillStyle="#
   VW.tex.needsUpdate=true;if($("vwBig").classList.contains("on"))$("vwC").getContext("2d").drawImage(VW.cv,0,0)}
 
 /* ---------- agentes que caminan: reunión en la oficina del CIO, agua y celebración ---------- */
-function caminante(col,piel){const g=new THREE.Group();g.visible=false;sc.add(g);const mC=mat(col,.8),mP=mat(piel,.7),mPan=mat(0x22262d,.8);
-  const torso=new THREE.Mesh(new THREE.CapsuleGeometry(.2,.4,6,12),mC);torso.position.y=1.12;torso.castShadow=true;g.add(torso);
-  const cab=new THREE.Mesh(new THREE.SphereGeometry(.15,18,14),mP);cab.position.y=1.62;cab.castShadow=true;g.add(cab);
-  const piernas=[],brazos=[];for(const s of[-1,1]){const pg=new THREE.Group();pg.position.set(s*.1,.78,0);g.add(pg);const l=new THREE.Mesh(new THREE.CapsuleGeometry(.08,.56,4,8),mPan);l.position.y=-.38;l.castShadow=true;pg.add(l);piernas.push(pg);
-    const ag=new THREE.Group();ag.position.set(s*.27,1.32,0);g.add(ag);const a=new THREE.Mesh(new THREE.CapsuleGeometry(.06,.42,4,8),mC);a.position.y=-.26;a.castShadow=true;ag.add(a);brazos.push(ag)}
-  return {g,piernas,brazos,cab}}
 const SALIDA=new THREE.Vector3(.707,0,.707);
 const OFI_C=new THREE.Vector3(5,0,2);const ENC=[];for(let k=0;k<7;k++){const a=-Math.PI*.75+k/6*Math.PI*1.5;ENC.push(new THREE.Vector3(OFI_C.x+Math.cos(a)*1.7+.9,0,OFI_C.z+Math.sin(a)*1.7+.9))}
 const AGUA=new THREE.Vector3(X1-5,0,Z0+1.3);
