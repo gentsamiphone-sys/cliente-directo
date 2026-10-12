@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4221.6 · NQ 31240.25 · VIX 14.84 · 1 noticias nuevas",
-   "actualizado": "2026-10-12T04:47:35Z"
+   "ultimo_resultado": "Oro 4221.5 · NQ 31238.25 · VIX 14.84 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-12T04:52:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T04:47:34Z",
-   "ultimo_resultado": "1 titulares nuevos: China Gold Demand Is Supporting Gold Stocks Like Alamos Gold and B2Gold"
+   "actualizado": "2026-10-12T04:52:33Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Trump evaluará unirse a Arabia Saudita contra los hutíes tras ataque a aeropuerto"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4221.5 · NQ 31238.25 · VIX 14.84 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-12T04:52:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4221.6 · NQ 31240.25 · VIX 14.84 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "6 titulares nuevos, 2 de alto impacto: US companies link layoffs to President Trump’s tariffs — Fortune",
    "ts": "2026-10-11T15:02:35Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "6 titulares nuevos, 1 de alto impacto: The AI Boom Has Stoked a Gold Rush for Compute Power | Technology for Oct. 11",
-   "ts": "2026-10-11T14:57:30Z"
   }
  ],
  "briefs": [
@@ -4585,10 +4585,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4221.6,
-  "nq": 31240.25,
+  "oro": 4221.5,
+  "nq": 31238.25,
   "vix": 14.84,
-  "ts": "2026-10-12T04:47:35Z"
+  "ts": "2026-10-12T04:52:34Z"
  },
  "noticias": [
   {
@@ -5089,6 +5089,20 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Trump says he is 'going to look at' joining Saudi Arabia in the fight against Iran-backed Houthis after deadly airport strike",
+   "link": "https://www.cnbc.com/2026/10/11/trump-saudi-arabia-iran-houthis.html",
+   "ts": "2026-10-11T21:30:45Z",
+   "fuente": "CNBC",
+   "id": "8ea2052959",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Trump evaluará unirse a Arabia Saudita contra los hutíes tras ataque a aeropuerto",
+   "efecto": "Impulsa al oro al alza por mayor tensión geopolítica en Oriente Medio."
+  },
+  {
    "titulo": "Lehigh Competes at the Navy Gold Invite",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZWc5dHhHREgwSnlRRjdCazVQa2xGOUtNeVg2N3RLanctR2R6eXBMQWI5b0hyQjJ2clVzc3lCS2pTOUZyZFJKZjlYejlRMDJpaC1HQmE3NkZ4dmNwQWswRGhKVktnalVIcGtpaExNTUJKN1J5TGVXVm9rVmVEQ21JRnpIVFZETXdnWUMtMzIzckp1M3d5TnJR?oc=5",
    "ts": "2026-10-11T21:27:10Z",
@@ -5459,17 +5473,6 @@
    "impacto": "medio",
    "es": "Bitcoin se vincula a acciones, dólar y oro mientras el dólar sube",
    "efecto": "Fortalece al dólar y presiona a la baja a activos de riesgo."
-  },
-  {
-   "titulo": "Everyday Economics: Higher rates have winners. The price squeeze leaves most households worse off.",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPV1RoQlg4eWZHN0hNMElISzk2QXNCb0FnX3dZVmFmUkdNVGNSZ3JoS0dKNDhnS3VXSDQwQVFSU1hUSGs2cDB0SEJsYjFKMjFWQVowMG9LNlhkNnpMbzdCMk9sT2UzVDdJV3VWcFZnR2NNZXE4SW9COFpzUng0WXdSajB1RWFxWERIQ3IxbFZ6dzZ1NVlv0gGaAUFVX3lxTE5RQWxDX05LQzdtOU0taWdjTlpLOHlFMnhBV09oc2luVkhSRUVKdEZTeTF0ZGRxR2JjLXlpaHZ4OURybmI4aXdUWHp0Ry1LUGYxcnlfWlpROGdQT2VhQVo4UC0zSXZMVWozZDVhbWFENkJmWHVONkpWcHhTbzNyeTlYQlFnamRnUUNzTVlqb0JMeFBhODEwNjNuM0E?oc=5",
-   "ts": "2026-10-11T16:30:00Z",
-   "fuente": "The Center Square",
-   "id": "47064f33f6",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -5964,15 +5967,15 @@
     1791777600,
     4227.4,
     4228.5,
-    4220.9,
-    4221.5
+    4220.3,
+    4221.3
    ],
    [
-    1791779843,
-    4221.6,
-    4221.6,
-    4221.6,
-    4221.6
+    1791780149,
+    4221.5,
+    4221.5,
+    4221.5,
+    4221.5
    ]
   ],
   "nq": [
@@ -6441,16 +6444,16 @@
    [
     1791777600,
     31233.5,
-    31245.0,
+    31249.0,
     31207.0,
-    31238.0
+    31247.75
    ],
    [
-    1791779853,
-    31240.25,
-    31240.25,
-    31240.25,
-    31240.25
+    1791780147,
+    31238.25,
+    31238.25,
+    31238.25,
+    31238.25
    ]
   ],
   "vix": [
@@ -6953,7 +6956,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-12T04:17:35Z",
+ "noticias_traducidas_ts": "2026-10-12T04:52:32Z",
  "ult_4h": 1791780455.1238422,
  "estrategia_4h": {
   "oro": {
