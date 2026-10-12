@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4217.8 · NQ 31253.0 · VIX 14.84 · 6 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-12T00:07:30Z"
+   "ultimo_resultado": "Oro 4215.0 · NQ 31249.5 · VIX 14.84 · 8 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-12T00:12:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T00:07:30Z",
-   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: Free float of City Therapeutics Inc. – NASDAQ:CTY"
+   "actualizado": "2026-10-12T00:12:33Z",
+   "ultimo_resultado": "8 titulares nuevos, 1 de alto impacto: Price to earnings forward of City Therapeutics Inc. – NASDAQ:CTY"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4215.0 · NQ 31249.5 · VIX 14.84 · 8 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-12T00:12:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4217.8 · NQ 31253.0 · VIX 14.84 · 6 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-11T10:22:33Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "2 titulares nuevos: DOJ says it's investigating whether White House TV pool's coverage halt violated antitrust law",
-   "ts": "2026-10-11T10:17:30Z"
   }
  ],
  "briefs": [
@@ -4585,10 +4585,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4217.8,
-  "nq": 31253.0,
+  "oro": 4215.0,
+  "nq": 31249.5,
   "vix": 14.84,
-  "ts": "2026-10-12T00:07:30Z"
+  "ts": "2026-10-12T00:12:34Z"
  },
  "noticias": [
   {
@@ -4619,6 +4619,17 @@
    "id": "f9f9a5b76b",
    "activos": [
     "oro",
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Price to earnings forward of City Therapeutics Inc. – NASDAQ:CTY",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNDJYQ3h1RUgwWmlmNWt0VVR6NWktMU9OR0FjNFdKd3lnR0VDdXViemdkcTF2bU9tS1ZTSTB2UXVESGxZRWNYajJEWHVob1VpcWc5T1FuWk1VckhRNUhoMWtlSHkzdXFaS2VlNGp6cWFIVGVub3BKZF9KT3o2cG1zVzlYYzNxUklIbHdFREJ3VFpnd1gyWUxDZGkzUWFQVXFh?oc=5",
+   "ts": "2026-10-11T22:58:21Z",
+   "fuente": "TradingView",
+   "id": "9584001464",
+   "activos": [
     "nq"
    ],
    "impacto": "medio"
@@ -5458,18 +5469,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Stocks Have Ignored 5% Treasury Yields — JPMorgan Strategist Says AI May Be Changing The Rules",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOOERXcTljT3ctUWpmT1BnUlU0U01nNW1PdWg2eEZCTm1oUGU0MVkxVzdFYnRlcl84UnR1Q0pQRGtvWVg5aHZmUEE4bHhNdm5pbjZjUnZ2VHA1UkxTaF9LWG1ZU3lIdU5CVEEwdHRvMzFvbi1ubFlUMUkwNmxwc25oVXJqU0tFMENjU0UxMG5fTUxQSVdwZkRBTXU1c3c1TUZpRkt4d0VQZld1ZU5vcFBfLTd4aml3ZjFtZFVzeVc4SXpNY19Za3NROXpkSjJ0ck56V2huZkd0QXpCcng0cG5zbUhKRzVQZkE?oc=5",
-   "ts": "2026-10-11T13:37:54Z",
-   "fuente": "TradingView",
-   "id": "5a1704f4c7",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -6091,24 +6090,24 @@
     4211.1,
     4224.4,
     4209.1,
-    4216.5
+    4215.5
    ],
    [
-    1791763048,
-    4217.0,
-    4217.0,
-    4217.0,
-    4217.0
+    1791763200,
+    4215.5,
+    4217.2,
+    4212.5,
+    4216.8
+   ],
+   [
+    1791763352,
+    4215.0,
+    4215.0,
+    4215.0,
+    4215.0
    ]
   ],
   "nq": [
-   [
-    1791259200,
-    31366.25,
-    31370.0,
-    31332.25,
-    31341.0
-   ],
    [
     1791262800,
     31340.25,
@@ -6723,14 +6722,21 @@
     31188.0,
     31289.25,
     31183.0,
-    31258.25
+    31260.25
    ],
    [
-    1791763047,
-    31253.0,
-    31253.0,
-    31253.0,
-    31253.0
+    1791763200,
+    31259.0,
+    31262.5,
+    31247.5,
+    31252.25
+   ],
+   [
+    1791763354,
+    31249.0,
+    31249.0,
+    31249.0,
+    31249.0
    ]
   ],
   "vix": [
