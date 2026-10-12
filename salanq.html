@@ -578,9 +578,9 @@ const TOMAS=[
   ()=>{const w=posMundo(due);volar(new THREE.Vector3(w.x,1.1,w.z),2.8,-.2,3,11,["Gent Sam · dueño","Supervisando la mesa"])},
 ];
 function siguienteToma(){const f=TOMAS[DIR.i++%TOMAS.length];try{f()}catch{DIR.hasta=performance.now()+3000}}
-function enfocarCharla(A,B){if(!DIRECTO)return;const a=posMundo(A.g),b=posMundo(B.g),m=a.clone().add(b).multiplyScalar(.5),d=a.distanceTo(b);
+function enfocarCharla(A,B){if(!DIRECTO&&!AUTO)return;const a=posMundo(A.g),b=posMundo(B.g),m=a.clone().add(b).multiplyScalar(.5),d=a.distanceTo(b);
   volar(new THREE.Vector3(m.x,1.1,m.z),Math.max(1.3,Math.min(2.6,3-d*.16)),(Math.random()-.5)*.4,2.2,9,null)}
-function enfocarAlerta(){if(!DIRECTO||!VW.mesh)return;const p=posMundo(VW.mesh);volar(new THREE.Vector3(p.x,1.2,p.z+2.6),2.1,0,1.8,14,null)}
+function enfocarAlerta(){if((!DIRECTO&&!AUTO)||!VW.mesh)return;const p=posMundo(VW.mesh);volar(new THREE.Vector3(p.x,1.2,p.z+2.6),2.1,0,1.8,14,null)}
 function dirigir(t){const now=performance.now();if(now>DIR.hasta)siguienteToma();if(!DIR.to)return;
   const k=Math.min(1,(now-DIR.t0)/(DIR.dur*1000)),e=k<.5?2*k*k:1-Math.pow(-2*k+2,2)/2;
   ctl.target.lerpVectors(DIR.from.t,DIR.to.t,e);cam.zoom=DIR.from.z+(DIR.to.z-DIR.from.z)*e;DIR.az=DIR.from.a+(DIR.to.a-DIR.from.a)*e;
@@ -592,6 +592,11 @@ function cintaD(){const e=M.en_vivo||{},b=(M.briefs||[])[0]||{},sg=b.sesgo||{},m
   $("dG").textContent=mc.g;$("dP").textContent=mc.pe;$("dR").textContent=(mc.r>=0?"+":"")+mc.r.toFixed(1)+"R";$("dA").textContent=mc.ac!=null?mc.ac+"%":"—"}
 function relojD(){const h=horaLVm(),s=SESIONES.find(x=>enRango(h,x.ini,x.fin));let p=SESIONES[0],dm=99;for(const x of SESIONES){const d=(x.ini-h+24)%24;if(d<dm){dm=d;p=x}}
   $("vivoTxt").textContent=`Las Vegas ${new Date().toLocaleTimeString("es-US",{timeZone:"America/Los_Angeles",hour:"numeric",minute:"2-digit"})} · `+(s?`Sesión de ${s.n} en curso`:`Próxima sesión: ${p.n} a las ${hTxt(p.ini)}`)}
+/* cámara automática también fuera del modo directo: arranca sola si nadie toca la sala por 8 s */
+let AUTO=false,ultimoToque=performance.now();
+function tocar(){ultimoToque=performance.now();if(AUTO&&!DIRECTO){AUTO=false;ctl.enabled=true;DIR.to=null}}
+for(const ev of["pointerdown","wheel","touchstart"])ren.domElement.addEventListener(ev,tocar,{passive:true});
+setInterval(()=>{if(!DIRECTO&&!AUTO&&performance.now()-ultimoToque>8000&&!$("vwBig").classList.contains("on")){AUTO=true;ctl.enabled=false;DIR.hasta=0;DIR.az=0}},1000);
 $("directo").onclick=e=>{e.stopPropagation();const u=new URL(location.href);u.searchParams.set("directo","1");location.href=u.toString()};
 if(DIRECTO){document.body.classList.add("directo");ctl.enabled=false;relojD();setInterval(relojD,20000);setTimeout(cintaD,2500);setInterval(cintaD,30000);setInterval(cargar,30000);
   setTimeout(()=>{try{musica(true,false)}catch{}},1500);setTimeout(()=>location.reload(),6*3600*1000)}
@@ -610,7 +615,7 @@ function loop(){const t=clk.getElapsedTime(),dt=Math.min(.05,t-tAnt);tAnt=t;
   due.rotation.y=.5+(reduce?0:Math.sin(t*.35)*.5);
   if(performance.now()>globoHasta&&globoP){globoP.glo.hidden=true;globoP=null}for(const p of PUESTOS)if(p.gloHasta&&performance.now()>p.gloHasta&&p!==globoP){p.glo.hidden=true;p.gloHasta=0}
   if(performance.now()>sigGlobo){sigGlobo=performance.now()+11000+Math.random()*6000;charla()}
-  if(DIRECTO)dirigir(t);else ctl.update();ren.render(sc,cam);lab.render(sc,cam);requestAnimationFrame(loop)}
+  if(DIRECTO||AUTO)dirigir(t);else ctl.update();ren.render(sc,cam);lab.render(sc,cam);requestAnimationFrame(loop)}
 addEventListener("resize",()=>{cam.left=-VIEW*asp();cam.right=VIEW*asp();cam.updateProjectionMatrix();ren.setSize(W(),H());lab.setSize(W(),H())});
 TEX.forEach((t,i)=>dibujar(t,i));loop();cargar();velas();proceso();
 setInterval(velas,60000);setInterval(cargar,90000);setInterval(proceso,30000);
