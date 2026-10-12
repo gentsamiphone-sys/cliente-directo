@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4229.9 · NQ 31237.0 · VIX 14.84 · 1 noticias nuevas",
-   "actualizado": "2026-10-12T03:42:30Z"
+   "ultimo_resultado": "Oro 4228.0 · NQ 31235.25 · VIX 14.84 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-12T03:47:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T03:42:29Z",
-   "ultimo_resultado": "1 titulares nuevos: XRP’s Nasdaq Moment Nears: 5 Things to Know About Evernorth"
+   "actualizado": "2026-10-12T03:47:37Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Los rendimientos de los bonos del Tesoro de EE. UU. superan el 5%"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4228.0 · NQ 31235.25 · VIX 14.84 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-12T03:47:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4229.9 · NQ 31237.0 · VIX 14.84 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: Some in Florida and Alabama without power as Isaias moves north to Appalachians and Mid-Atlantic",
    "ts": "2026-10-11T13:57:33Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Nyls Korstanje Takes 50 Fly Gold At 2026 Aachen Swim Festival",
-   "ts": "2026-10-11T13:52:33Z"
   }
  ],
  "briefs": [
@@ -4585,10 +4585,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4229.9,
-  "nq": 31237.0,
+  "oro": 4228.0,
+  "nq": 31235.25,
   "vix": 14.84,
-  "ts": "2026-10-12T03:42:30Z"
+  "ts": "2026-10-12T03:47:38Z"
  },
  "noticias": [
   {
@@ -4601,6 +4601,21 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "U.S. Treasury yields breaking above 5% have weighed on Bitcoin, with institutional outflows causing it to fall 33% short of its all-time high.",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeUNnMUhXNDN4NEdiM2swb1RUWkYycDdCTFpiUHM2ZEcxcG01UElTZFF4RnVWRkZyRWFKSjF2YTQ0WXBYRVF6VzVPWG1RbjJyWm9HRXd6aGtZdUZaaXYtc0lMRXhHdWh5SC1PMTM3VnhHS1ZvSXh3TkNpc2tTOFctcEVWbWc4TWRSYjRieU1Vd2pVYkZsajJWSkxfMnFUN0lmaVdNVlp3?oc=5",
+   "ts": "2026-10-12T03:23:47Z",
+   "fuente": "Moomoo",
+   "id": "e1c3ec0d1d",
+   "activos": [
+    "dolar",
+    "nq",
+    "oro"
+   ],
+   "impacto": "alto",
+   "es": "Los rendimientos de los bonos del Tesoro de EE. UU. superan el 5%",
+   "efecto": "Presiona al oro y al NQ a la baja por tasas altas."
   },
   {
    "titulo": "Gold gains on weaker oil, dollar; US inflation data in focus",
@@ -5452,21 +5467,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "US Treasury Yields Stabilize Ahead of Inflation Data as Experts Warn of More Volatility",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZ3A4WGp2OE1JM2ZvWmZsSDlyenhhd0NrUzY3a2pGNWs2VDE2N2JZQk1UT1J3aGhMZjQ2SkQ5QXlQWHRYVDlTcmxXYjRwTzRwQjV5VGtmRUt4UGxLWTlCeFg5SjVHdjVZb1FRLWkwRm5qdko2Y0Iwb0szZGJlRGc0bUdUenh2M1NKRmF3RjZzT0pTZEdWVXZKNkFaMzJ2SDJsMmxkeE9iVkNLak9aZGIyT2hXRnp1Z3p6LTVxcjJUcm1HamtmeEJLMnJJUzZpZFpMSVVNNk1ETk0?oc=5",
-   "ts": "2026-10-11T15:46:11Z",
-   "fuente": "Benzinga",
-   "id": "59ad215b27",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Los rendimientos del Tesoro de EE. UU. se estabilizan antes de datos de inflación.",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -6095,14 +6095,14 @@
     4228.7,
     4231.1,
     4225.4,
-    4230.3
+    4227.8
    ],
    [
-    1791775942,
-    4229.9,
-    4229.9,
-    4229.9,
-    4229.9
+    1791776254,
+    4227.8,
+    4227.8,
+    4227.8,
+    4227.8
    ]
   ],
   "nq": [
@@ -6725,16 +6725,16 @@
    [
     1791774000,
     31233.75,
-    31241.5,
+    31241.75,
     31214.0,
-    31238.0
+    31239.0
    ],
    [
-    1791775945,
-    31236.75,
-    31236.75,
-    31236.75,
-    31236.75
+    1791776251,
+    31235.25,
+    31235.25,
+    31235.25,
+    31235.25
    ]
   ],
   "vix": [
@@ -7237,11 +7237,11 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-12T03:17:30Z",
- "ult_4h": 1791775955.9389622,
+ "noticias_traducidas_ts": "2026-10-12T03:47:32Z",
+ "ult_4h": 1791776858.0577543,
  "estrategia_4h": {
   "oro": {
-   "precio": 4228.4,
+   "precio": 4227.8,
    "atr_4h": 26.46,
    "setups": [
     {
@@ -7258,11 +7258,11 @@
    ]
   },
   "nq": {
-   "precio": 31228.75,
+   "precio": 31235.25,
    "atr_4h": 172.93,
    "setups": []
   },
-  "ts": "2026-10-12T03:32:36Z"
+  "ts": "2026-10-12T03:47:38Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo"
