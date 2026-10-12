@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4207.3 · NQ 31177.75 · VIX 15.4",
-   "actualizado": "2026-10-12T07:32:33Z"
+   "ultimo_resultado": "Oro 4207.3 · NQ 31169.5 · VIX 15.4 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-12T07:37:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T07:32:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-12T07:37:32Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: US Tariffs Could Give Kimberly Clark Stock And Peers More Pricing Power"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4207.3 · NQ 31169.5 · VIX 15.4 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-12T07:37:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4207.3 · NQ 31177.75 · VIX 15.4",
@@ -1056,11 +1061,6 @@
    "agente": "historiador",
    "texto": "Revisando qué pasó en esta misma fecha los últimos 10 años y buscando años parecidos…",
    "ts": "2026-10-11T18:03:06Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Volatilidad normal (VIX 14.84).",
-   "ts": "2026-10-11T18:03:04Z"
   }
  ],
  "briefs": [
@@ -4755,9 +4755,9 @@
  },
  "en_vivo": {
   "oro": 4207.3,
-  "nq": 31177.75,
+  "nq": 31169.5,
   "vix": 15.4,
-  "ts": "2026-10-12T07:32:32Z"
+  "ts": "2026-10-12T07:37:32Z"
  },
  "noticias": [
   {
@@ -4882,6 +4882,15 @@
    "id": "9f7c869f19",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "US Tariffs Could Give Kimberly Clark Stock And Peers More Pricing Power",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUzJ0dVpTanB4TmRkRy1TSUZ5OGNURzZabDdDekpObUZMcVJOMEdEUDNBeVlqaHNBUkltOUNOaTd6MnphcDY1QlJLWmxReE80aE8zUm5RVkRSRGpuTDluY3RteUxPcDdZaWdVbkVoZzhJMXF4eGd3S0xpUmtDX29NVm1WeDNsWUswQ3pHRF9GY0VfbmN3bndIZXI4Q3o?oc=5",
+   "ts": "2026-10-12T04:24:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "6627042e13",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "S&P 500 futures rise as big banks set to kick off earnings season: Live updates",
@@ -5637,17 +5646,6 @@
    "impacto": "medio",
    "es": "Perspectiva semanal de los índices bursátiles de EE. UU.",
    "efecto": "Genera cautela en el NQ a la espera de flujos institucionales."
-  },
-  {
-   "titulo": "Dow Jones, S&P 500, Nasdaq 100 Outlook: Top Stock Market News This Week",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNFFUTVVKcDBXdHUxNFVHWlhnT0lPMzhva1F3TVFmdWE0WWljenJyd194enNnbk1ITDV3aWxvTW1MTFZqZ3d4aEhlY0JHLTFMazdEaEJFalFudWp5ZFZsLXFHeHJsS0pEbnBnRzNwblJRUkRFNGNTM21Yd2xaOVhIal9pcm1odklMVEJDWDZDQVppeVQwakNrVkdpZFVmVlRLTURUNXNrZzg3eWFFZEEzemhmRGZGSDZZaXpXalJ5RWZQUQ?oc=5",
-   "ts": "2026-10-11T18:45:06Z",
-   "fuente": "Benzinga",
-   "id": "6255a1b136",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -6163,11 +6161,11 @@
     1791788400,
     4209.8,
     4211.9,
-    4206.9,
-    4207.6
+    4206.6,
+    4207.4
    ],
    [
-    1791789747,
+    1791790050,
     4207.3,
     4207.3,
     4207.3,
@@ -6684,14 +6682,14 @@
     31167.75,
     31194.5,
     31157.0,
-    31182.5
+    31170.5
    ],
    [
-    1791789753,
-    31179.75,
-    31179.75,
-    31179.75,
-    31179.75
+    1791790043,
+    31169.5,
+    31169.5,
+    31169.5,
+    31169.5
    ]
   ],
   "vix": [
@@ -7092,10 +7090,10 @@
     15.39,
     15.4,
     15.39,
-    15.4
+    15.39
    ],
    [
-    1791789451,
+    1791789751,
     15.4,
     15.4,
     15.4,
