@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4204.1 · NQ 31180.0 · VIX 15.37",
-   "actualizado": "2026-10-12T08:17:33Z"
+   "ultimo_resultado": "Oro 4202.3 · NQ 31186.0 · VIX 15.39 · 1 noticias nuevas",
+   "actualizado": "2026-10-12T08:22:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T08:17:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-12T08:22:32Z",
+   "ultimo_resultado": "1 titulares nuevos: World Bank jobs council urges 'crisis-era' support measures as IMF warns of AI ‘tsunami’ hit"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4202.3 · NQ 31186.0 · VIX 15.39 · 1 noticias nuevas",
+   "ts": "2026-10-12T08:22:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4204.1 · NQ 31180.0 · VIX 15.37",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "5 titulares nuevos, 1 de alto impacto: Flujo de caja operativo por acción de ARC Group Securities",
    "ts": "2026-10-11T18:32:37Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "3 titulares nuevos: Kyiv pushes back on Trump’s call for a new Ukrainian president as drones hit Russian data hub",
-   "ts": "2026-10-11T18:27:31Z"
   }
  ],
  "briefs": [
@@ -4754,12 +4754,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4204.1,
-  "nq": 31180.0,
-  "vix": 15.37,
-  "ts": "2026-10-12T08:17:33Z"
+  "oro": 4202.3,
+  "nq": 31186.0,
+  "vix": 15.39,
+  "ts": "2026-10-12T08:22:32Z"
  },
  "noticias": [
+  {
+   "titulo": "World Bank jobs council urges 'crisis-era' support measures as IMF warns of AI ‘tsunami’ hit",
+   "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html",
+   "ts": "2026-10-12T08:11:46Z",
+   "fuente": "CNBC",
+   "id": "111de4cf6d",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Egypt’s Attack on Sudan’s Gold Mines and the Long Road That Led to It",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQLVNGbUhfTEE2VVZfMmtNc2dhbndreHU2TGNTeEdEeUFqQlYzZ1MzZ0lNYkwyOVFhVG9aTXowNUNENWU4UnBRYkluNXhpa0FnUWxMVGlJbVJSbHpGZXg1ZGR1VEozUGZ4bjZmMjlrOG9uXzZQQUZ5bm5MYUxMR1JzaUVreERmSE82ZXh6RDkxbVE1dHk3WXQ0TGxnQmI4eEptNW1JYQ?oc=5",
@@ -5637,21 +5646,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Trump declares 'energy ceasefire' between Russia and Ukraine; Zelenskyy is waiting for details",
-   "link": "https://www.cnbc.com/2026/10/11/trump-energy-ceasefire-russia-ukraine-zelenskyy.html",
-   "ts": "2026-10-11T19:33:51Z",
-   "fuente": "CNBC",
-   "id": "4de8385040",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Trump declara 'alto el fuego energético' entre Rusia y Ucrania; Zelenskyy espera detalles",
-   "efecto": "Reduce la prima de riesgo geopolítico, bajando al oro y alza en NQ."
   }
  ],
  "eventos_avisados": [
@@ -6138,9 +6132,9 @@
    [
     1791774000,
     4228.7,
-    4230.4,
-    4227.6,
-    4227.9
+    4232.6,
+    4225.4,
+    4227.4
    ],
    [
     1791777600,
@@ -6174,15 +6168,15 @@
     1791792000,
     4204.5,
     4205.7,
-    4203.1,
-    4204.7
+    4201.1,
+    4201.8
    ],
    [
-    1791792447,
-    4204.1,
-    4204.1,
-    4204.1,
-    4204.1
+    1791792750,
+    4202.3,
+    4202.3,
+    4202.3,
+    4202.3
    ]
   ],
   "nq": [
@@ -6702,14 +6696,14 @@
     31188.0,
     31194.5,
     31161.75,
-    31190.5
+    31177.0
    ],
    [
-    1791792450,
-    31180.0,
-    31180.0,
-    31180.0,
-    31180.0
+    1791792751,
+    31186.0,
+    31186.0,
+    31186.0,
+    31186.0
    ]
   ],
   "vix": [
@@ -7115,16 +7109,16 @@
    [
     1791792000,
     15.37,
+    15.4,
     15.37,
-    15.37,
-    15.37
+    15.39
    ],
    [
-    1791792136,
-    15.37,
-    15.37,
-    15.37,
-    15.37
+    1791792436,
+    15.39,
+    15.39,
+    15.39,
+    15.39
    ]
   ]
  },
