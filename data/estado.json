@@ -2605,9 +2605,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Cheyenne Ave…",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-12T15:03:57Z"
+   "actualizado": "2026-10-12T15:03:58Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2635,6 +2635,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Cheyenne Ave…",
+   "ts": "2026-10-12T15:03:58Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 114 textos listos para mandar",
@@ -4129,11 +4134,6 @@
    "agente": "gerente",
    "texto": "Actualicé el reporte del día.",
    "ts": "2026-10-10T08:37:30Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Contando cómo vamos hoy…",
-   "ts": "2026-10-10T08:37:29Z"
   }
  ],
  "reportes": {
