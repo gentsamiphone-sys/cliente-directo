@@ -2616,10 +2616,10 @@
    "actualizado": "2026-10-12T04:37:38Z"
   },
   "disenador": {
-   "estado": "trabajando",
-   "tarea": "Revisando qué negocios necesitan muestra",
-   "ultimo_resultado": "3 muestras nuevas",
-   "actualizado": "2026-10-12T05:27:29Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "No había negocios nuevos para armar muestra",
+   "actualizado": "2026-10-12T05:27:30Z"
   },
   "vendedor": {
    "estado": "descansando",
@@ -2635,6 +2635,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "disenador",
+   "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
+   "ts": "2026-10-12T05:27:30Z"
+  },
   {
    "agente": "buscador",
    "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
@@ -4129,11 +4134,6 @@
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ts": "2026-10-10T03:06:33Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Nellis Blvd…",
-   "ts": "2026-10-10T03:02:44Z"
   }
  ],
  "reportes": {
