@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4189.2 · NQ 31076.5 · VIX 15.42 · 6 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-12T12:32:46Z"
+   "ultimo_resultado": "Oro 4189.6 · NQ 31065.25 · VIX 15.42 · 6 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-12T12:37:40Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T12:32:45Z",
-   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: Converting Waste to Black Gold"
+   "actualizado": "2026-10-12T12:37:40Z",
+   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: FAA warns U.S. airlines of safety risks over Saudi Arabia after attacks"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4189.6 · NQ 31065.25 · VIX 15.42 · 6 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-12T12:37:40Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "NQ: no pude enviar la orden (Invalid URL 'TRADERSPOST_WEBHOOK': No scheme supplied. Perha).",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4212.2 · NQ 31199.0 · VIX 14.84 · 9 noticias nuevas (2 alto impacto)",
    "ts": "2026-10-11T22:57:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4212.2 · NQ 31196.75 · VIX 14.84 · 10 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-11T22:52:32Z"
   }
  ],
  "briefs": [
@@ -1099,7 +1099,8 @@
      "rr": "3.05",
      "confluencias": "5",
      "cancelar": "NQ supera 31215.0 antes de la entrada o VIX cae bajo 14.90",
-     "motivo": ""
+     "motivo": "",
+     "vivo": "esperando"
     }
    ],
    "mapas": {
@@ -4928,12 +4929,41 @@
   }
  },
  "en_vivo": {
-  "oro": 4189.2,
-  "nq": 31076.5,
+  "oro": 4189.6,
+  "nq": 31065.25,
   "vix": 15.42,
-  "ts": "2026-10-12T12:32:45Z"
+  "ts": "2026-10-12T12:37:40Z"
  },
  "noticias": [
+  {
+   "titulo": "FAA warns U.S. airlines of safety risks over Saudi Arabia after attacks",
+   "link": "https://www.cnbc.com/2026/10/12/faa-saudi-arabia-flight-risks.html",
+   "ts": "2026-10-12T12:31:05Z",
+   "fuente": "CNBC",
+   "id": "6191aa8bbb",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "WVU Homecoming brings generations of gold and blue spirit to Morgantown",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPT0VjNnRPa0ZvVEpfN0JYZEJEZDRmWVlJMFlaZTZEWHZYWTV4NHdzenB4U2QzeXRfMENUVHFkb1VFMWZjdnAwTUg5aXJ3ZmF2S0VyNENERjE2VC1VLTlOR3VvcmVwMEZpdGx2ZXBHbWxNOFVBR1R0MnZfYVBsSEM0SUpHcTUxNThBX3VZOXBxWTdPUFVZQy1UZDBDdzY3YTF0a2JUbE5Kang1WG42VFBSb3M0TDJqZw?oc=5",
+   "ts": "2026-10-12T12:30:00Z",
+   "fuente": "WVU Today",
+   "id": "c2ec7baf79",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "How Tariffs Are Testing Indie Retail",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zdVZXOXU3aFNaMlBpODA0ZjlibmU3dHpSM0FqcjZZbURFQXZkZ0xESloyYjlLd2h1QWMzRUZNOElhc085bWZwcDFWLTctejdvRHRySEpHNWZlRlgtT2NkOVNEVGIwYWl0eFBkN3M1VVNwc2Nh?oc=5",
+   "ts": "2026-10-12T12:30:00Z",
+   "fuente": "Vogue",
+   "id": "c3a4175176",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "Converting Waste to Black Gold",
    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50TW9ucE5UcjFjd1JpVGo0V0JzOVl5S2tfSENOZGd1V1F1Vi1qQnRGZDhTVHZGUDdXS0sydVp5Z3lmaDVvTDMwdzhfOUVjLU9URWdyOEY1aDlIS1dGUl9FSE9iVDhNU1dYZnc?oc=5",
@@ -5752,39 +5782,6 @@
    "id": "9f7c869f19",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "US Tariffs Could Give Kimberly Clark Stock And Peers More Pricing Power",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUzJ0dVpTanB4TmRkRy1TSUZ5OGNURzZabDdDekpObUZMcVJOMEdEUDNBeVlqaHNBUkltOUNOaTd6MnphcDY1QlJLWmxReE80aE8zUm5RVkRSRGpuTDluY3RteUxPcDdZaWdVbkVoZzhJMXF4eGd3S0xpUmtDX29NVm1WeDNsWUswQ3pHRF9GY0VfbmN3bndIZXI4Q3o?oc=5",
-   "ts": "2026-10-12T04:24:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "6627042e13",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "S&P 500 futures rise as big banks set to kick off earnings season: Live updates",
-   "link": "https://www.cnbc.com/2026/10/11/stock-market-today-live-updates.html",
-   "ts": "2026-10-12T04:16:44Z",
-   "fuente": "CNBC",
-   "id": "fedbdb01a8",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Los futuros del S&P 500 suben mientras los grandes bancos inician la temporada de resultados",
-   "efecto": "Impulsa al NASDAQ al alza por optimismo en resultados corporativos."
-  },
-  {
-   "titulo": "Japan reclaims 8th Judo world championships mixed team gold",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15ZUx4X1p5WEI1WTNoYUNqcHhlLTNuVTBwUTZjZXdpUm5zTW5YVVJfUlVtbVRvNFNZVVhIYTJoelQyTUVUa0xXWV9WZnlVbklHV0xqWmdrZjNLdw?oc=5",
-   "ts": "2026-10-12T04:11:00Z",
-   "fuente": "Japan Wire by Kyodo News",
-   "id": "07ac731127",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Japón recupera el oro mundial por equipos mixtos de judo",
-   "efecto": "Sin impacto en los mercados financieros."
   }
  ],
  "eventos_avisados": [
@@ -6335,15 +6332,15 @@
     1791806400,
     4192.7,
     4197.4,
-    4188.1,
-    4188.4
+    4186.6,
+    4189.8
    ],
    [
-    1791807764,
-    4189.2,
-    4189.2,
-    4189.2,
-    4189.2
+    1791808058,
+    4189.6,
+    4189.6,
+    4189.6,
+    4189.6
    ]
   ],
   "nq": [
@@ -6891,14 +6888,14 @@
     31058.5,
     31089.0,
     31043.25,
-    31076.25
+    31062.0
    ],
    [
-    1791807762,
-    31076.5,
-    31076.5,
-    31076.5,
-    31076.5
+    1791808059,
+    31065.25,
+    31065.25,
+    31065.25,
+    31065.25
    ]
   ],
   "vix": [
@@ -7337,7 +7334,7 @@
     15.42
    ],
    [
-    1791807451,
+    1791807751,
     15.42,
     15.42,
     15.42,
