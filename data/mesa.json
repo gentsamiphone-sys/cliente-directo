@@ -39,13 +39,13 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4209.2 · NQ 31173.0 · VIX —",
-   "actualizado": "2026-10-12T07:07:31Z"
+   "ultimo_resultado": "✅ NQ COMPRA: CONFIRMÓ · Oro 4211.1 · NQ 31175.0 · VIX —",
+   "actualizado": "2026-10-12T07:12:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T07:07:30Z",
+   "actualizado": "2026-10-12T07:12:32Z",
    "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "✅ NQ COMPRA: CONFIRMÓ · Oro 4211.1 · NQ 31175.0 · VIX —",
+   "ts": "2026-10-12T07:12:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4209.2 · NQ 31173.0 · VIX —",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Mapa listo: oro 4216.3 · NQ 31108.75.",
    "ts": "2026-10-11T18:02:59Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
-   "ts": "2026-10-11T18:02:58Z"
   }
  ],
  "briefs": [
@@ -1100,7 +1100,7 @@
      "confluencias": "5",
      "cancelar": "Pérdida de 31090.0 antes de activar la orden o inicio de sesión NY.",
      "motivo": "",
-     "vivo": "en_zona"
+     "vivo": "confirmada"
     }
    ],
    "mapas": {
@@ -4754,9 +4754,9 @@
   }
  },
  "en_vivo": {
-  "oro": 4209.2,
-  "nq": 31173.0,
-  "ts": "2026-10-12T07:07:30Z"
+  "oro": 4211.1,
+  "nq": 31175.0,
+  "ts": "2026-10-12T07:12:32Z"
  },
  "noticias": [
   {
@@ -6152,14 +6152,21 @@
     4215.4,
     4217.0,
     4205.1,
-    4209.2
+    4209.8
    ],
    [
-    1791788243,
-    4209.2,
-    4209.2,
-    4209.2,
-    4209.2
+    1791788400,
+    4209.8,
+    4211.6,
+    4209.1,
+    4210.3
+   ],
+   [
+    1791788550,
+    4211.1,
+    4211.1,
+    4211.1,
+    4211.1
    ]
   ],
   "nq": [
@@ -6665,14 +6672,21 @@
     31203.75,
     31208.5,
     31156.0,
-    31171.5
+    31168.0
    ],
    [
-    1791788245,
-    31173.0,
-    31173.0,
-    31173.0,
-    31173.0
+    1791788400,
+    31167.75,
+    31183.0,
+    31163.0,
+    31170.25
+   ],
+   [
+    1791788552,
+    31175.0,
+    31175.0,
+    31175.0,
+    31175.0
    ]
   ],
   "vix": [
