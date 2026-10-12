@@ -1,10 +1,10 @@
 {
  "agentes": {
   "cio": {
-   "estado": "trabajando",
-   "tarea": "Escribiendo el brief cripto…",
-   "actualizado": "2026-10-12T01:12:19Z",
-   "ultimo_resultado": "Brief publicado: Consolidación en rango estrecho con sesgo neutral y baja volatilidad macro"
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-12T01:12:42Z",
+   "ultimo_resultado": "Brief publicado: BTC y ETH buscan soporte institucional con funding negativo y riesgo de short squeeze"
   },
   "liquidez": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "cio",
+   "texto": "Brief publicado: BTC y ETH buscan soporte institucional con funding negativo y riesgo de short squeeze",
+   "ts": "2026-10-12T01:12:42Z"
+  },
   {
    "agente": "cio",
    "texto": "Escribiendo el brief cripto…",
@@ -800,14 +805,47 @@
    "agente": "cio",
    "texto": "Brief publicado: Presión vendedora y salida de liquidez frenan a cripto, sin entradas claras por falta de confluencias",
    "ts": "2026-10-08T21:07:23Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Escribiendo el brief cripto…",
-   "ts": "2026-10-08T21:06:49Z"
   }
  ],
  "briefs": [
+  {
+   "turno": "Noche (Asia)",
+   "ts": "2026-10-12T01:12:42Z",
+   "texto": "1. **Sesgo**\n- BTC: Neutral con sesgo alcista; cotiza sobre la EMA50 diaria (80024.37) y funding negativo presiona a cortos, pero sin nuevo capital en stablecoins.\n- ETH: Neutral; consolidando sobre EMA50 diaria (2502.95) tras retroceso semanal (-6.75%), limitado por baja dominancia (10.99%).\n\n2. **Liquidez global**\nAyudan levemente. El DXY retrocede a 102.11 (-0.10% en 1d) y el VIX se comprime a 14.84 (-3.70%), aliviando el estrés de mercado. El Nasdaq avanza a 31229.5 (+0.39%), contrarrestando la leve presión del bono US10Y en 5.24% (+0.25%).\n\n3. **Flujos**\nFrenan el impulso. En stablecoins no entra dinero fresco: oferta total en 288.9 mm con salida neta semanal de -0.94 mm (apenas +0.12 mm a 30 días). La dominancia de BTC en 59.61% frente al 10.99% de ETH confirma búsqueda de refugio interno en BTC y rotación defensiva fuera de altcoins.\n\n4. **Apalancamiento y sentimiento**\nFear & Greed marca 69 (Greed, moderándose desde 73 hace 7 días). Pese a la codicia, el funding en perpetuos es negativo (BTC: -0.0019%, ETH: -0.0020% cada 8h). Hay cortos minoristas atrapados pagando tasas a los largos en pleno rebote, aumentando el riesgo de un short squeeze hacia la liquidez superior.\n\n5. **Mapa de liquidez**\n- **BTC**: Mínimo semanal en 80336.91 y EMA50 diaria en 80024.37 forman el piso institucional; EMA200 diaria en 75621.96 y mínimo del mes en 74944.59. Máximo de la semana en 86971.78 y máximo del mes en 87363.76. Imán principal: zona de máximos 86971.78–87363.76.\n- **ETH**: Soporte en mínimo semanal de 2406.15 y mínimo mensual de 2357.96 (EMA200 diaria en 2319.96). Techos en máximo semanal de 2736.79 y mensual de 2805.50. Imán principal: 2736.79.\n\n6. **Plan**\n**BTC**\n- Dirección: COMPRA\n- Zona de entrada: 80500.00 (límite en barrido hacia soporte de mínimo semanal)\n- Stop: 79800.00 (invalida bajo EMA50 diaria de 80024.37)\n- TP1: 83800.00 / TP2: 86970.00 (reserva de liquidez en máx_semana)\n- R:R al TP2: 9.24\n- Confluencias: 4/5 ((1) macro distendido, (3) funding negativo pro-squeeze, (4) soporte en mín_semana/EMA50, (5) estacionalidad alcista; falla flujos de stablecoins)\n\n**ETH**\n- Dirección: COMPRA\n- Zona de entrada: 2420.00 (límite esperando testeo de liquidez en mínimo semanal)\n- Stop: 2350.00 (invalida bajo mínimo del mes 2357.96)\n- TP1: 2550.00 / TP2: 2736.00 (máx_semana)\n- R:R al TP2: 4.51\n- Confluencias: 4/5 ((1) macro favorable, (3) funding negativo a favor, (4) soporte sobre mín_semana, (5) estacionalidad histórica positiva; falla flujos de stablecoins)\n\n7. **Historia**\nPara esta semana, BTC subió en 5 de 8 años (promedio +2.59%) y en 7 de 8 en los siguientes 20 días (+10.89%). Lunes promedia +0.412% con 59% alcista. ETH subió en 6 de 8 años esta semana (+3.53%) y 8 de 8 a 20 días (+9.20%). \nSesgo histórico: alcista.\n\n8. **Riesgo**\nRégimen: volatilidad normal en BTC (ATR 2.37%, 1988.95) y ETH (ATR 2.98%, 75.64). Rango intradía consumido es bajo (12% y 14% del ATR). Tamaño de posición: riesgo máximo del 1.0% del capital por idea con órdenes límite estrictas.\n\nAnálisis educativo de agentes de IA. No es consejo financiero.",
+   "titular": "BTC y ETH buscan soporte institucional con funding negativo y riesgo de short squeeze",
+   "sesgo": {
+    "btc": "alcista",
+    "eth": "neutral"
+   },
+   "entradas": [
+    {
+     "activo": "BTC",
+     "direccion": "COMPRA",
+     "zona": "80500.00",
+     "stop": "79800.00",
+     "tp1": "83800.00",
+     "tp2": "86970.00",
+     "rr": "9.24",
+     "confluencias": "4/5"
+    },
+    {
+     "activo": "ETH",
+     "direccion": "COMPRA",
+     "zona": "2420.00",
+     "stop": "2350.00",
+     "tp1": "2550.00",
+     "tp2": "2736.00",
+     "rr": "4.51",
+     "confluencias": "4/5"
+    }
+   ],
+   "precios": {
+    "btc": 83814.91,
+    "eth": 2542.56
+   },
+   "fear_greed": 69,
+   "dominancia_btc": 59.61
+  },
   {
    "turno": "Mañana (apertura de EE. UU.)",
    "ts": "2026-10-11T13:15:44Z",
