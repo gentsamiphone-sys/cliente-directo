@@ -2661,10 +2661,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "Agregando Las Vegas Auto Parts & Salvage",
-   "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-12T15:07:56Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "3 negocios nuevos de talleres cerca de Cheyenne Ave",
+   "actualizado": "2026-10-12T15:07:57Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2692,6 +2692,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: 3 negocios nuevos de talleres cerca de Cheyenne Ave",
+   "ts": "2026-10-12T15:07:57Z"
+  },
   {
    "agente": "buscador",
    "texto": "Encontré Las Vegas Auto Parts & Salvage, sin página web.",
@@ -4186,11 +4191,6 @@
    "agente": "disenador",
    "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
    "ts": "2026-10-10T09:27:29Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "ts": "2026-10-10T09:06:35Z"
   }
  ],
  "reportes": {
