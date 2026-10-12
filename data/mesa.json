@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4227.0 · NQ 31233.0 · VIX 14.84",
-   "actualizado": "2026-10-12T04:12:34Z"
+   "ultimo_resultado": "Oro 4224.4 · NQ 31239.25 · VIX 14.84 · 1 noticias nuevas",
+   "actualizado": "2026-10-12T04:17:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T04:12:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-12T04:17:35Z",
+   "ultimo_resultado": "1 titulares nuevos: Los futuros del S&P 500 suben mientras los grandes bancos inician la temporada de resultados"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4224.4 · NQ 31239.25 · VIX 14.84 · 1 noticias nuevas",
+   "ts": "2026-10-12T04:17:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4227.0 · NQ 31233.0 · VIX 14.84",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "5 titulares nuevos: Pakistani Gold Medalist’s Death Sparks Fraud Investigation Over Fake US Scholarship",
    "ts": "2026-10-11T14:27:31Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "5 titulares nuevos: Stocks Have Ignored 5% Treasury Yields — JPMorgan Strategist Says AI May Be Changing The Rules",
-   "ts": "2026-10-11T14:22:31Z"
   }
  ],
  "briefs": [
@@ -4585,12 +4585,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4227.0,
-  "nq": 31233.0,
+  "oro": 4224.4,
+  "nq": 31239.25,
   "vix": 14.84,
-  "ts": "2026-10-12T04:12:34Z"
+  "ts": "2026-10-12T04:17:36Z"
  },
  "noticias": [
+  {
+   "titulo": "S&P 500 futures rise as big banks set to kick off earnings season: Live updates",
+   "link": "https://www.cnbc.com/2026/10/11/stock-market-today-live-updates.html",
+   "ts": "2026-10-12T04:16:44Z",
+   "fuente": "CNBC",
+   "id": "fedbdb01a8",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Los futuros del S&P 500 suben mientras los grandes bancos inician la temporada de resultados",
+   "efecto": "Impulsa al NASDAQ al alza por optimismo en resultados corporativos."
+  },
   {
    "titulo": "Dow, S&P 500, Nasdaq Futures Climb After Oil In Focus As Trump Declares ‘Energy Ceasefire’ Between Russia And Ukraine: IREN, WFF, VSTM, CIFR Stocks In Focus",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeVN5dnJQZk9OYjM4eG5uWmZ0ejFQdUVFUGpxdElyTUJxWmZpcFRKRU9KMTkzdjgwd1Fwb1hncXNSUkp6bVBncDJCMklqYXZOZjNNbFE2XzF2d3BNWkljenNzb19xMTVvQkpnM0FUS1RZdkQ0eVpTalJkZktYbERvY24xSS12bEZqSDdUck9SY1g1T1k?oc=5",
@@ -5456,18 +5469,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "U.S. Stocks Rise as AI Bets Offset Bond Yield Fears",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSVdLNXRUd1JHdk52SC1nZS1pb2REZHVBYVJjQl9uLUNwUTUydWw3NmYxa3p1ZXFzMWtQYW1tX0NoR29ZSGFGUFg2Mk5QNWg3ZTVzY1dXdFg0LS1IX2FNNDdKd3dHQzZqa3FoWU9UWVhnRzQySTdjWVFVZFdKZEJPYUV3LUZjeDRrNFVFemxJcndxbTZOek9WRjZ3?oc=5",
-   "ts": "2026-10-11T16:12:20Z",
-   "fuente": "WSJ",
-   "id": "c93dacbe5c",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -5934,15 +5935,15 @@
     1791777600,
     4227.4,
     4228.5,
-    4226.2,
-    4226.2
+    4223.9,
+    4224.5
    ],
    [
-    1791777748,
-    4227.0,
-    4227.0,
-    4227.0,
-    4227.0
+    1791778040,
+    4224.4,
+    4224.4,
+    4224.4,
+    4224.4
    ]
   ],
   "nq": [
@@ -6404,16 +6405,16 @@
    [
     1791777600,
     31233.5,
-    31237.75,
-    31230.5,
-    31234.75
+    31243.5,
+    31225.5,
+    31243.0
    ],
    [
-    1791777750,
-    31233.0,
-    31233.0,
-    31233.0,
-    31233.0
+    1791778053,
+    31239.25,
+    31239.25,
+    31239.25,
+    31239.25
    ]
   ],
   "vix": [
@@ -6916,32 +6917,32 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-12T03:47:32Z",
- "ult_4h": 1791777752.34613,
+ "noticias_traducidas_ts": "2026-10-12T04:17:35Z",
+ "ult_4h": 1791778656.4302864,
  "estrategia_4h": {
   "oro": {
-   "precio": 4229.0,
-   "atr_4h": 26.46,
+   "precio": 4224.4,
+   "atr_4h": 25.11,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4150.93,
-     "objetivo": 4242.3,
-     "rr": 4.76,
+     "stop": 4151.74,
+     "objetivo": 4233.7,
+     "rr": 4.44,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.25,
+     "fuerza_ruptura_atr": 1.31,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 31239.75,
-   "atr_4h": 172.93,
+   "precio": 31239.25,
+   "atr_4h": 167.61,
    "setups": []
   },
-  "ts": "2026-10-12T04:02:32Z"
+  "ts": "2026-10-12T04:17:36Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo"
