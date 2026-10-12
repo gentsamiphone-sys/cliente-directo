@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4190.5 · NQ 30890.0 · VIX 15.23 · 15 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-12T19:52:37Z"
+   "ultimo_resultado": "Oro 4192.6 · NQ 30892.75 · VIX 15.24 · 15 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-12T19:57:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T19:52:36Z",
-   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: Axe Compute Inc. toca la campana de apertura"
+   "actualizado": "2026-10-12T19:57:30Z",
+   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: Bear to bull: A double upgrade of Salesforce illustrates the folly of the 'SaaSpocalypse'"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4192.6 · NQ 30892.75 · VIX 15.24 · 15 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-12T19:57:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4190.5 · NQ 30890.0 · VIX 15.23 · 15 noticias nuevas (3 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Volatilidad normal (VIX 14.84).",
    "ts": "2026-10-12T06:33:06Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "VIX/NQ: CONFIRMA ALCISTA: NQ sube y el VIX baja (apetito de riesgo real)",
-   "ts": "2026-10-12T06:33:05Z"
   }
  ],
  "briefs": [
@@ -5102,12 +5102,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4190.5,
-  "nq": 30890.0,
-  "vix": 15.23,
-  "ts": "2026-10-12T19:52:36Z"
+  "oro": 4192.6,
+  "nq": 30892.75,
+  "vix": 15.24,
+  "ts": "2026-10-12T19:57:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Bear to bull: A double upgrade of Salesforce illustrates the folly of the 'SaaSpocalypse'",
+   "link": "https://www.cnbc.com/investingclub/2026/10/12/bear-to-bull-a-double-upgrade-of-salesforce-illustrates-the-folly-of-the-saaspocalypse-.html",
+   "ts": "2026-10-12T19:50:19Z",
+   "fuente": "CNBC",
+   "id": "5bf6be1963",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Axe Compute rings Nasdaq bell after pivoting from biotech to AI tokens",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUzVrXzJZUjVheU9oTWxkb3VydHI4bGtWOFdkeGVFcTk0dVIyTDljNldIYTUyMnJQTlRHSjB2cXRpU1JEYUJQd25ienVuT0d0T1NRR1JaNDN3SVVVZzRuZHRjaFd1ODA2bGEwTWtaT0RmcXNSLUc3QUZ2Znl1cWoxM0dLNWs?oc=5",
+   "ts": "2026-10-12T19:46:00Z",
+   "fuente": "The Business Journals",
+   "id": "024bb080d1",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Why Gold Would Love a Fed Rate Pause",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS2RBbXFaaFZKSnVsRkY2VGZhYlFYbWN4dzFSQ282VGtUazU5eTVLRTN6YkwzTVBJRjNoLU1ob3NjNF9WdWh1b1hNbmlickZQcmpSMzVzNkRPQ3NublZBVWJHUGNrZ05sajdjS0QyLS1iMnEySkxySW5xbXYweUQ2dnpkSm9PMTA?oc=5",
@@ -5153,6 +5173,29 @@
    "id": "a56a6b87c1",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "$4,000 Gold Could Be Wall Street's Next Big Buying Opportunity",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/4-000-gold-could-wall-190000036.html?.tsrc=rss",
+   "ts": "2026-10-12T19:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "cc2529c2b8",
+   "activos": [
+    "oro",
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Global Bond Yields Edge Higher on Slowing Bond Selloff",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXFheWdiVEtRYmd1ZEtRVXBWRzJZS05pR3Vmcm4xXy05SnlxZ0F1ZkNOUjFTMkppSklPMUh4b1NObWE3ZFdad3U2dnJndXhCYm1qRko3LUMyTU5nelExdFV1UnBtRkRxcG82NkdYWnd6N2JHSDBUTGFqMHhaeEdpajFja0tlek5aR191WXFIV01wdHQ5d25MMURSYlZwamk2RFZTeUl6d3Y3MUE?oc=5",
+   "ts": "2026-10-12T18:55:00Z",
+   "fuente": "WSJ",
+   "id": "604415f8a8",
+   "activos": [
+    "dolar"
    ],
    "impacto": "medio"
   },
@@ -5908,49 +5951,6 @@
    "id": "78a0f2a3b4",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Goldman upgrades stock and bond markets on strong earnings growth, little recession risk",
-   "link": "https://www.cnbc.com/2026/10/12/goldman-sachs-stocks-bonds-outlook.html",
-   "ts": "2026-10-12T13:31:13Z",
-   "fuente": "CNBC",
-   "id": "12460a8788",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Westgate Resorts Named Gold Winner in 2026 Travel Weekly Magellan Awards",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbHc4N05naXd1YzViQlI4SU5aYXVlNGx4cUdVakJ3TDJUOTI3YUdvdFZobmF4d1dvU1AzMWRSMUlYckUwX3hTU2xQNDRxaHZBSVVOSHRLak5WTUwwVW40eThNRHlSZmd0bDc0UEtGeDROZTNqOHRKc2pWekhaaENTa3c2b1JwdDhMZHZjT29JejJPR1dmbGNxUU5NU0dWYTR5X3RBT29mb2hONDhWeExFUkppRGt1cFozTU96aEc3ZFZadnRWQnFfYW1TQUVLR1lLaXpIWjE3YkY3S09M?oc=5",
-   "ts": "2026-10-12T13:30:00Z",
-   "fuente": "GlobeNewswire",
-   "id": "398753efd3",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Stewards Inc. to Ring Nasdaq Opening Bell on Oct. 14, Celebrating Company's Next Chapter",
-   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPTmJ6QkRoNFhxaERINUpBdGtVc3ktRzI4MEo1dFFZMVdKd3U5ZkMtUjg4MnBsVVlacjJacUpxek5ZX3dRUE4yZDB1UGlVVDFnVHhzNXZkdnQwZjUycF9KblpuTnVCazNXS2dpNjVjcFoyX0tYZ0dDNFRiXzJFX01TeWtneDlUMy1RMU94NzU0SzFnTWpIZXJPRENmMTFidy1CWkZNSm5yVjV6VWtPUi1lY0I2RXQyQlhHalpGdjdZVE1oQ3BkU3MyZnItd0h4NUh1a3dsRVNNSWowbVF3ZkV5S3VVV3RRSm1iS1hMYkZ3?oc=5",
-   "ts": "2026-10-12T13:30:00Z",
-   "fuente": "GlobeNewswire",
-   "id": "ce45d2c4ad",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Banks are set to report this week. Here's what the options market expects",
-   "link": "https://www.cnbc.com/2026/10/12/banks-are-set-to-report-this-week-heres-what-the-options-market-expects.html",
-   "ts": "2026-10-12T13:27:20Z",
-   "fuente": "CNBC",
-   "id": "b4549c893a",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -6549,16 +6549,16 @@
    [
     1791831600,
     4192.0,
-    4192.4,
+    4193.1,
     4187.7,
-    4189.7
+    4192.9
    ],
    [
-    1791834140,
-    4190.5,
-    4190.5,
-    4190.5,
-    4190.5
+    1791834440,
+    4192.6,
+    4192.6,
+    4192.6,
+    4192.6
    ]
   ],
   "nq": [
@@ -7155,14 +7155,14 @@
     30850.0,
     30911.0,
     30846.0,
-    30888.75
+    30888.5
    ],
    [
-    1791834155,
-    30890.0,
-    30890.0,
-    30890.0,
-    30890.0
+    1791834449,
+    30892.75,
+    30892.75,
+    30892.75,
+    30892.75
    ]
   ],
   "vix": [
@@ -7650,11 +7650,11 @@
     15.23
    ],
    [
-    1791833851,
-    15.23,
-    15.23,
-    15.23,
-    15.23
+    1791834136,
+    15.24,
+    15.24,
+    15.24,
+    15.24
    ]
   ]
  },
