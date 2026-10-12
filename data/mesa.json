@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4202.2 · NQ 31069.25 · VIX 15.49",
-   "actualizado": "2026-10-12T11:07:34Z"
+   "ultimo_resultado": "Oro 4199.6 · NQ 31052.0 · VIX 15.49 · 3 noticias nuevas",
+   "actualizado": "2026-10-12T11:12:40Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T11:07:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-12T11:12:39Z",
+   "ultimo_resultado": "3 titulares nuevos: Robinhood has underperformed this year. Evercore ISI says the stock is a buy"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4199.6 · NQ 31052.0 · VIX 15.49 · 3 noticias nuevas",
+   "ts": "2026-10-12T11:12:40Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4202.2 · NQ 31069.25 · VIX 15.49",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "8 titulares nuevos, 2 de alto impacto: Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says",
    "ts": "2026-10-11T21:22:34Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "7 titulares nuevos, 3 de alto impacto: IRA Roth vs. Tradicional: Cómo decidir en 2026",
-   "ts": "2026-10-11T21:17:34Z"
   }
  ],
  "briefs": [
@@ -4754,12 +4754,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4202.2,
-  "nq": 31069.25,
+  "oro": 4199.6,
+  "nq": 31052.0,
   "vix": 15.49,
-  "ts": "2026-10-12T11:07:33Z"
+  "ts": "2026-10-12T11:12:39Z"
  },
  "noticias": [
+  {
+   "titulo": "Robinhood has underperformed this year. Evercore ISI says the stock is a buy",
+   "link": "https://www.cnbc.com/2026/10/12/robinhood-has-underperformed-this-year-evercore-isi-says-the-stock-is-a-buy.html",
+   "ts": "2026-10-12T11:10:16Z",
+   "fuente": "CNBC",
+   "id": "c40159c1a1",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Gold prices today, Monday, October 12, 2026: Gold opens at the highest point in over a week",
    "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-october-12-2026-gold-opens-at-the-highest-point-in-over-a-week-110103415.html?.tsrc=rss",
@@ -4770,6 +4779,15 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "World's Largest Stock Transfer Agent Computershare Begins Trading on OTCQX Best Market",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/worlds-largest-stock-transfer-agent-110000883.html?.tsrc=rss",
+   "ts": "2026-10-12T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "1fe64dc6b5",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Tariffs Put Trump’s Republican Support to the Test in Factory Towns",
@@ -5007,6 +5025,17 @@
    "id": "547e36700a",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Should you buy gold now?",
+   "link": "https://moneyweek.com/investments/gold/is-now-a-good-time-to-invest-in-gold?.tsrc=rss",
+   "ts": "2026-10-12T08:54:08Z",
+   "fuente": "Yahoo Finance",
+   "id": "037d9f30a4",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Why Are Nasdaq Futures Rising Premarket? MU, IREN, SLS, NIO, ASTS, WFF Stocks In Focus",
@@ -5606,35 +5635,6 @@
    "id": "0b100b3bb7",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Plenty is working against this market. Here's why I'm staying invested anyway",
-   "link": "https://www.cnbc.com/investingclub/2026/10/11/plenty-is-working-against-this-market-why-im-staying-invested-anyway.html",
-   "ts": "2026-10-12T00:23:07Z",
-   "fuente": "CNBC",
-   "id": "738b7f7cb5",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "FF EAI Robotics Ecosystem Inc. (NASDAQ: FFR) Highlights Faraday Future Announcement: This Week's Investor Weekly Report from YT Jia Rescheduled to October 14; FFR and FFAI to Host Joint New Product Launch Event on October 14",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSEY5V3ByTWV6elBDOWstbFF5MGVjbF9wdDFicG1ZVHRYdVRVUGJzNmtBNXVsZHMzX1otOVlhaE44eml3aW5tZndZTzF5MkhMeDJXaWo2Uk5rNmxCaE9kaDVHbkttaW5QeWExNUhKa1lHMklkWHZZUDNNdWdfZ0Rvd2EwT08xRWxKNUxxdXdDVWRQSFF1NnNyaQ?oc=5",
-   "ts": "2026-10-12T00:22:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "d3ca3e7cfe",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "FFR reprograma informe de inversores y anuncia evento de lanzamiento conjunto para el 14 de octubre.",
-   "efecto": ""
-  },
-  {
-   "titulo": "Futures Rise Amid Trump Claims, Oil-Related News",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQREhqRW9yMTk2QWxZb0k1a19pUVZhNFF6WkRVRVVndFVCM05zTDlfdFg2dmlVNlY3bm1ydGswcWsxdWJwOHJWa1dFelhCNC1jTUdHdUE0QzJLUkUzMFZJckVMTWhiSVM1R0k2OGdINEJmSkxRMHFZYThJNWJLd0FwakV2LWJrYkV3Tzdta3R0MEZrYjFHaHRidEJwUzB3LXEzNmZJSC04alY1c2w1emdBcHhTc0xObW54bm0yckpTMVNzUUdNOW9hQ0pzRlNqUQ?oc=5",
-   "ts": "2026-10-12T00:09:00Z",
-   "fuente": "Investor's Business Daily",
-   "id": "effb79b12f",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -6172,14 +6172,21 @@
     4197.7,
     4204.8,
     4196.6,
-    4201.8
+    4202.0
    ],
    [
-    1791802639,
-    4202.2,
-    4202.2,
-    4202.2,
-    4202.2
+    1791802800,
+    4201.8,
+    4201.9,
+    4199.5,
+    4199.7
+   ],
+   [
+    1791802955,
+    4199.6,
+    4199.6,
+    4199.6,
+    4199.6
    ]
   ],
   "nq": [
@@ -6713,14 +6720,21 @@
     31090.75,
     31096.0,
     31039.0,
-    31068.75
+    31076.75
    ],
    [
-    1791802649,
-    31069.25,
-    31069.25,
-    31069.25,
-    31069.25
+    1791802800,
+    31077.0,
+    31078.0,
+    31046.75,
+    31050.0
+   ],
+   [
+    1791802957,
+    31052.0,
+    31052.0,
+    31052.0,
+    31052.0
    ]
   ],
   "vix": [
@@ -7145,7 +7159,7 @@
     15.49
    ],
    [
-    1791802351,
+    1791802651,
     15.49,
     15.49,
     15.49,
