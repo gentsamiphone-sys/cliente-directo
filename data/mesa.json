@@ -31,10 +31,10 @@
    "ultimo_resultado": "Volatilidad normal (VIX 14.84)."
   },
   "auditor": {
-   "estado": "trabajando",
-   "tarea": "Revisando cómo salieron las entradas anteriores…",
-   "actualizado": "2026-10-12T12:32:58Z",
-   "ultimo_resultado": "Historial: 9 operaciones, 33% de acierto, +9.08 R."
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-12T12:33:00Z",
+   "ultimo_resultado": "Historial: 10 operaciones, 30% de acierto, +8.08 R."
   },
   "vigilante": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "auditor",
+   "texto": "Historial: 10 operaciones, 30% de acierto, +8.08 R.",
+   "ts": "2026-10-12T12:33:00Z"
+  },
   {
    "agente": "auditor",
    "texto": "Revisando cómo salieron las entradas anteriores…",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "8 titulares nuevos, 2 de alto impacto: Roth vs. Traditional IRA: The better choice isn’t as obvious as you might think — here’s how to make the call in 2026",
    "ts": "2026-10-11T21:37:32Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Brief de Asia (Tokio/Sídney) publicado: Sesgo alcista en Oro y NQ apoyado por macro; mesa en postura defensiva",
-   "ts": "2026-10-11T21:34:58Z"
   }
  ],
  "briefs": [
@@ -1100,7 +1100,9 @@
      "confluencias": "5",
      "cancelar": "Pérdida de 31090.0 antes de activar la orden o inicio de sesión NY.",
      "motivo": "",
-     "vivo": "stop"
+     "vivo": "stop",
+     "resultado": "stop",
+     "r": -1.0
     }
    ],
    "mapas": {
@@ -4711,10 +4713,10 @@
  },
  "estadisticas": {
   "total": {
-   "operaciones": 9,
+   "operaciones": 10,
    "ganadas": 3,
-   "acierto_pct": 33,
-   "r_total": 9.08
+   "acierto_pct": 30,
+   "r_total": 8.08
   },
   "ORO COMPRA londres": {
    "operaciones": 1,
@@ -4729,10 +4731,10 @@
    "r_total": 9.18
   },
   "NQ COMPRA londres": {
-   "operaciones": 2,
+   "operaciones": 3,
    "ganadas": 1,
-   "acierto_pct": 50,
-   "r_total": 0.11
+   "acierto_pct": 33,
+   "r_total": -0.89
   },
   "NQ VENTA londres": {
    "operaciones": 1,
