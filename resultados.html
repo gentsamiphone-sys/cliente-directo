@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>GSAM Señales · Resultados</title>
+<meta name="description" content="Historial real de las señales de la mesa de trading con IA de GSAM Capital: NQ, oro, cripto y memecoins.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@600;800&family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@500;700&display=swap">
+<style>
+:root{--bg:#07090d;--panel:#10141b;--line:#222a35;--ink:#eef1f5;--mut:#8b95a3;--gold:#d4af37;--lime:#d7ff3a;--up:#3fd68b;--down:#ff5b5b;
+  --fd:"Familjen Grotesk",Arial,sans-serif;--fb:"Atkinson Hyperlegible",system-ui,sans-serif;--fm:"IBM Plex Mono",ui-monospace,Menlo,monospace;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(900px 500px at 85% -10%,rgba(212,175,55,.14),transparent 60%),var(--bg);color:var(--ink);font:16px/1.55 var(--fb)}
+.wrap{max-width:1080px;margin:0 auto;padding:28px 16px 56px;display:grid;gap:22px}
+header{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:flex-end}
+.tag{font:700 12px var(--fm);letter-spacing:.16em;color:var(--gold);text-transform:uppercase;display:flex;align-items:center;gap:8px}
+.tag i{width:9px;height:9px;border-radius:50%;background:var(--up);box-shadow:0 0 12px var(--up)}
+h1{font:800 clamp(2rem,5vw,3.2rem)/1.05 var(--fd);margin:8px 0 6px;letter-spacing:-.02em}h1 span{color:var(--gold)}
+.sub{color:var(--mut);margin:0;max-width:640px}
+.cta{display:inline-block;background:linear-gradient(90deg,#f5d77a,#d4af37);color:#111;font:800 16px var(--fd);padding:13px 22px;border-radius:12px;text-decoration:none;white-space:nowrap}
+.cta:focus-visible{outline:2px solid var(--lime);outline-offset:3px}
+.big{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.k{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.k small{display:block;font:500 11px var(--fm);letter-spacing:.1em;text-transform:uppercase;color:var(--mut)}
+.k b{display:block;font:700 1.9rem var(--fm);font-variant-numeric:tabular-nums;margin-top:4px}
+.al{color:var(--up)}.ba{color:var(--down)}.go{color:var(--gold)}
+section.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;min-width:0}
+.card h2{font:800 1.35rem var(--fd);margin:0 0 4px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
+.card h2 em{font:500 12px var(--fm);color:var(--mut);font-style:normal}
+.card p.n{color:var(--mut);margin:0 0 12px;font-size:.92rem}
+.mini{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin-bottom:12px}
+.mini div{background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.mini small{display:block;font:500 10px var(--fm);letter-spacing:.08em;color:var(--mut);text-transform:uppercase}
+.mini b{font:700 1.15rem var(--fm);font-variant-numeric:tabular-nums}
+.tw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font:500 .86rem var(--fm);font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{color:var(--mut);font-weight:500;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase}
+td.r,th.r{text-align:right}
+.pill{font:700 .7rem var(--fm);padding:3px 8px;border-radius:999px;background:#1d232c;color:var(--mut)}
+.pill.g{background:rgba(63,214,139,.15);color:var(--up)}.pill.p{background:rgba(255,91,91,.15);color:var(--down)}.pill.b{background:rgba(212,175,55,.15);color:var(--gold)}
+.vacio{color:var(--mut);padding:10px 0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:22px}@media (max-width:820px){.grid2{grid-template-columns:1fr}}
+.aviso{font-size:.8rem;color:var(--mut);border-top:1px solid var(--line);padding-top:14px}
+.upd{font:500 12px var(--fm);color:var(--mut)}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div>
+      <div class="tag"><i></i>Historial en vivo · se actualiza solo</div>
+      <h1>Resultados de <span>GSAM Señales</span></h1>
+      <p class="sub">Todo lo que proponen y operan los agentes de IA, ganado o perdido. Sin capturas elegidas: estos números salen directo de los datos de la mesa.</p>
+    </div>
+    <a class="cta" href="https://whop.com/gsamtrader/gsam-senales-mesa-de-trading-con-ia/">Únete a las señales →</a>
+  </header>
+
+  <div class="big" aria-label="Resumen">
+    <div class="k"><small>Operaciones cerradas</small><b id="tOps">—</b></div>
+    <div class="k"><small>Acierto global</small><b id="tAc">—</b></div>
+    <div class="k"><small>Mesa NQ y oro</small><b id="tR" class="go">—</b></div>
+    <div class="k"><small>Cripto real (Solana)</small><b id="tC">—</b></div>
+  </div>
+
+  <section class="card" aria-labelledby="h-mesa">
+    <h2 id="h-mesa">Mesa NQ y oro <em>futuros · resultado en R (riesgo por operación)</em></h2>
+    <p class="n">Cada operación arriesga 1R. Una ganadora típica paga 2R o más, por eso se puede ganar con menos del 50% de acierto.</p>
+    <div class="mini"><div><small>Operaciones</small><b id="mOps">—</b></div><div><small>Ganadas</small><b id="mG" class="al">—</b></div><div><small>Acierto</small><b id="mAc">—</b></div><div><small>Resultado</small><b id="mR">—</b></div></div>
+    <div class="tw"><table><thead><tr><th>Activo · dirección · sesión</th><th class="r">Ops</th><th class="r">Ganadas</th><th class="r">Acierto</th><th class="r">Resultado</th></tr></thead><tbody id="mTb"></tbody></table></div>
+  </section>
+
+  <div class="grid2">
+    <section class="card" aria-labelledby="h-cr">
+      <h2 id="h-cr">Cripto · BTC en spot <em>dinero real</em></h2>
+      <p class="n">La billetera del bot compra BTC en Solana cuando el precio llega a la zona y vende en el stop o en el objetivo.</p>
+      <div class="tw"><table><thead><tr><th>Fecha</th><th>Setup</th><th class="r">Entrada</th><th class="r">Salida</th><th class="r">%</th><th>Resultado</th></tr></thead><tbody id="cTb"></tbody></table></div>
+    </section>
+    <section class="card" aria-labelledby="h-me">
+      <h2 id="h-me">Radar de memecoins <em>señales de wallets top</em></h2>
+      <p class="n">Señal cuando 2 o más wallets top compran la misma moneda y pasa los filtros de seguridad. Altísimo riesgo.</p>
+      <div class="mini"><div><small>Señales</small><b id="eS">—</b></div><div><small>Ganadoras</small><b id="eG" class="al">—</b></div><div><small>Acierto</small><b id="eA">—</b></div><div><small>Mejor subida</small><b id="eM" class="al">—</b></div></div>
+      <div class="tw"><table><thead><tr><th>Moneda</th><th>Estado</th><th class="r">Wallets</th><th class="r">MCAP</th><th>Cuándo</th></tr></thead><tbody id="eTb"></tbody></table></div>
+    </section>
+  </div>
+
+  <p class="upd" id="upd">Cargando datos…</p>
+  <p class="aviso">Contenido educativo generado por agentes de IA. No es consejo financiero. Resultados pasados no garantizan resultados futuros. Los resultados de la mesa NQ/oro se miden en R sobre las entradas propuestas; parte de la ejecución se hace en cuenta de práctica.</p>
+</main>
+<script>
+const RAW="https://raw.githubusercontent.com/gentsamiphone-sys/cliente-directo/main/data/";
+const $=id=>document.getElementById(id),esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const sg=v=>(v>=0?"+":"")+v,R=v=>v==null?"—":sg(Number(v).toFixed(1))+"R",fmt=v=>v==null?"—":Number(v).toLocaleString("en-US",{maximumFractionDigits:0});
+const usdK=v=>v==null?"—":v>=1e6?"$"+(v/1e6).toFixed(2)+"M":v>=1e3?"$"+(v/1e3).toFixed(0)+"K":"$"+Math.round(v);
+const fecha=ts=>ts?new Date(ts).toLocaleDateString("es-US",{day:"numeric",month:"short",timeZone:"America/Los_Angeles"}):"—";
+async function get(f){try{const r=await fetch(RAW+f+"?t="+Date.now(),{cache:"no-store"});return r.ok?await r.json():{}}catch{return {}}}
+async function cargar(){
+  const [me,cr,mm]=await Promise.all([get("mesa.json"),get("cripto.json"),get("memes.json")]);
+  // mesa
+  const st=me.estadisticas||{},t=st.total||{};
+  $("mOps").textContent=t.operaciones??"—";$("mG").textContent=t.ganadas??"—";$("mAc").textContent=t.acierto_pct!=null?t.acierto_pct+"%":"—";
+  $("mR").textContent=R(t.r_total);$("mR").className=(t.r_total||0)>=0?"al":"ba";$("tR").textContent=R(t.r_total);
+  const filas=Object.entries(st).filter(([k])=>k!=="total").sort((a,b)=>(b[1].r_total||0)-(a[1].r_total||0));
+  $("mTb").innerHTML=filas.length?filas.map(([k,v])=>`<tr><td>${esc(k.replace("nuevayork","Nueva York").replace("londres","Londres").replace("asia","Asia"))}</td><td class="r">${v.operaciones}</td><td class="r">${v.ganadas}</td><td class="r">${v.acierto_pct}%</td><td class="r ${v.r_total>=0?"al":"ba"}">${R(v.r_total)}</td></tr>`).join(""):`<tr><td colspan="5" class="vacio">Todavía no hay operaciones cerradas.</td></tr>`;
+  // cripto
+  const cer=(cr.posiciones||[]).filter(p=>p.estado==="cerrada"&&p.precio_compra&&p.precio_venta);
+  let cg=0,cpct=0;
+  $("cTb").innerHTML=cer.length?cer.map(p=>{const pc=(p.precio_venta/p.precio_compra-1)*100;cpct+=pc;if(pc>0)cg++;
+    const cl={objetivo:"g",stop:"p",breakeven:"b",tendencia:"b"}[p.resultado]||"";
+    return `<tr><td>${fecha(p.cerrada_ts)}</td><td>${esc(p.origen||"Brief")}</td><td class="r">${fmt(p.precio_compra)}</td><td class="r">${fmt(p.precio_venta)}</td><td class="r ${pc>=0?"al":"ba"}">${sg(pc.toFixed(2))}%</td><td><span class="pill ${cl}">${esc(p.resultado)}</span></td></tr>`}).join(""):`<tr><td colspan="6" class="vacio">Todavía no hay operaciones cerradas.</td></tr>`;
+  $("tC").textContent=cer.length?sg(cpct.toFixed(2))+"%":"—";$("tC").className=cpct>=0?"al":"ba";
+  // memes
+  const e=mm.estadisticas||{};$("eS").textContent=e.senales??"—";$("eG").textContent=e.ganadoras??"—";$("eA").textContent=e.acierto_pct!=null?e.acierto_pct+"%":"—";
+  $("eM").textContent=e.mejor_max_pct!=null?"+"+Math.round(e.mejor_max_pct)+"%":"—";
+  const env=(mm.senales||[]).filter(x=>x.estado==="enviada").slice(0,8),lista=env.length?env:(mm.senales||[]).slice(0,6);
+  $("eTb").innerHTML=lista.length?lista.map(x=>{const d=x.datos||{};return `<tr><td>$${esc(d.simbolo||"?")}</td><td><span class="pill ${x.estado==="enviada"?"g":""}">${esc(x.estado)}</span></td><td class="r">${(x.wallets||[]).length}</td><td class="r">${usdK(d.mcap)}</td><td>${fecha(x.ts)}</td></tr>`}).join(""):`<tr><td colspan="5" class="vacio">Sin señales todavía.</td></tr>`;
+  // totales
+  const ops=(t.operaciones||0)+cer.length+(e.senales||0),gan=(t.ganadas||0)+cg+(e.ganadoras||0);
+  $("tOps").textContent=ops||"—";$("tAc").textContent=ops?Math.round(gan/ops*100)+"%":"—";
+  $("upd").textContent="Actualizado: "+new Date().toLocaleString("es-US",{timeZone:"America/Los_Angeles"})+" (hora de Las Vegas)";
+}
+cargar();setInterval(cargar,300000);
+</script>
+</body>
+</html>
