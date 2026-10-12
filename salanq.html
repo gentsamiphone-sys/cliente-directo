@@ -38,13 +38,14 @@ form button{background:var(--acc);color:#0b0d10;border:0;border-radius:10px;padd
   font:700 15px "IBM Plex Mono",monospace;color:#0b0d10;box-shadow:0 18px 50px rgba(0,0,0,.55);transition:transform .45s cubic-bezier(.2,1.4,.4,1);text-align:center}
 #alerta.on{transform:translate(-50%,0)}#alerta small{display:block;font:500 12px "Atkinson Hyperlegible",sans-serif;margin-top:3px;opacity:.85}
 #alerta.compra{background:#3fd68b}#alerta.venta{background:#ff5b5b;color:#fff}#alerta.gana{background:linear-gradient(90deg,#f5d77a,#d7ff3a)}#alerta.pierde{background:#2b2f36;color:#fff;border:1px solid #ff5b5b}#alerta.be{background:#8a948c}
+#musica,#voces{position:fixed;right:14px;z-index:6;background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:6px 10px;font-size:16px;cursor:pointer}#musica{bottom:96px}#voces{bottom:140px}#musica.off{opacity:.55}
 #sonido{position:fixed;right:14px;bottom:52px;z-index:6;background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:6px 10px;font-size:16px;cursor:pointer}
 .marc{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:8px 12px;border-bottom:1px solid var(--line)}
 #vwBig{position:fixed;inset:0;z-index:30;background:rgba(5,7,9,.92);display:none;align-items:center;justify-content:center;padding:16px;cursor:zoom-out}#vwBig.on{display:flex}#vwBig canvas{max-width:100%;max-height:100%;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
 .marc div{text-align:center;background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:9px;padding:5px 2px}
 .marc small{display:block;font:500 9px "IBM Plex Mono",monospace;color:var(--mut);letter-spacing:.06em}.marc b{font:700 15px "IBM Plex Mono",monospace}
 .ayuda{position:fixed;right:14px;bottom:14px;z-index:4;font:500 11px "IBM Plex Mono",monospace;color:var(--mut);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 9px}
-@media (max-width:760px){#sonido{bottom:auto;top:46px;right:10px}#panel.min .marc{display:none}#panel{left:8px;right:8px;top:auto;bottom:8px;width:auto;height:46vh}#panel.min{height:auto}#panel.min .kpis,#panel.min #feed,#panel.min .proc,#panel.min form{display:none}
+@media (max-width:760px){#sonido{bottom:auto;top:46px;right:10px}#musica{bottom:auto;top:46px;right:58px}#voces{bottom:auto;top:46px;right:106px}#panel.min .marc{display:none}#panel{left:8px;right:8px;top:auto;bottom:8px;width:auto;height:46vh}#panel.min{height:auto}#panel.min .kpis,#panel.min #feed,#panel.min .proc,#panel.min form{display:none}
     .tag{font-size:9.5px;padding:2px 5px}.globo{font-size:10px;max-width:170px}
   #tog{display:block;position:absolute;right:12px;top:12px;background:none;border:1px solid var(--line);color:inherit;border-radius:8px;padding:2px 8px;font-size:16px}.ayuda{top:10px;bottom:auto;right:10px}}
 </style>
@@ -77,7 +78,7 @@ document.getElementById('gsamGateF').addEventListener('submit',async function(e)
   <div class="proc"><span>Próximo análisis</span><div class="bar"><i id="pBar"></i></div><span id="pTxt">—</span></div>
   <form id="f"><input id="q" placeholder="Escribe a toda la sala…" autocomplete="off"><button aria-label="Enviar">➤</button></form>
 </aside>
-<div id="alerta" role="status" aria-live="assertive"></div><div id="vwBig" aria-label="Pantalla gigante ampliada"><canvas id="vwC" width="1280" height="668"></canvas></div><button id="sonido" aria-label="Activar o silenciar sonido">🔊</button>
+<div id="alerta" role="status" aria-live="assertive"></div><div id="vwBig" aria-label="Pantalla gigante ampliada"><canvas id="vwC" width="1280" height="668"></canvas></div><button id="voces" aria-label="Activar o silenciar las voces de los agentes" title="Voces de los agentes">🤐</button><button id="musica" aria-label="Activar o silenciar la música" title="Música">🎵</button><button id="sonido" aria-label="Activar o silenciar sonido">🔊</button>
 <div class="ayuda">Arrastra para girar · rueda o pellizco para zoom · toca un agente o la pantalla gigante</div>
 <script type="module">
 import * as THREE from "three";
@@ -235,6 +236,19 @@ function humano(p,color,i,sentado){const f=sentado?-1:1,mC=mat(color,.75),mP=mat
 function persona(g,camisa,i,sentado=true){const p=new THREE.Group();g.add(p);const h=humano(p,camisa,i,true);return {p,cab:h.cab,brazos:h.brazos,torso:h.torso}}
 function caminante(col,piel){const g=new THREE.Group();g.visible=false;sc.add(g);const i=(PIEL.indexOf(piel)+1+(col%7))%12;const h=humano(g,col,i,false);
   return {g,piernas:h.piernas,brazos:h.brazos,cab:h.cab}}
+// gorra GSAM CAPITAL para los agentes
+const GORRA_TEX=(()=>{const c=document.createElement("canvas");c.width=256;c.height=128;const g=c.getContext("2d");g.textAlign="center";
+  g.font="900 64px Arial Black,Arial,sans-serif";g.fillStyle="#d7ff3a";g.fillText("GSAM",128,62);g.font="800 34px Arial,sans-serif";g.fillStyle="#f2f4ee";g.fillText("CAPITAL",128,108);
+  const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=8;return t})();
+const M_GORRA=mat(0x16191f,.7),M_VISERA=mat(0xd7ff3a,.5);
+function gorra(cab,f){const gr=new THREE.Group();cab.add(gr);
+  const d=new THREE.Mesh(new THREE.SphereGeometry(.146,24,14,0,Math.PI*2,0,Math.PI*.5),M_GORRA);d.scale.set(.97,.95,1.02);d.position.y=.03;d.castShadow=true;gr.add(d);
+  const bo=new THREE.Mesh(new THREE.SphereGeometry(.018,10,8),M_GORRA);bo.position.y=.168;gr.add(bo);
+  const v=new THREE.Mesh(new THREE.CylinderGeometry(.13,.13,.012,24,1,false,-Math.PI/2,Math.PI),M_VISERA);v.scale.set(1,1,1.05);v.position.set(0,.035,f*.07);
+  v.rotation.y=f>0?0:Math.PI;v.rotation.x=f*.12;v.castShadow=true;gr.add(v);
+  const M_LG=new THREE.MeshBasicMaterial({map:GORRA_TEX,transparent:true,toneMapped:false});
+  for(const s of[1,-1]){const ff=f*s,lg=new THREE.Mesh(new THREE.PlaneGeometry(.17,.085),M_LG);lg.position.set(0,.09,ff*.13);lg.rotation.order="YXZ";lg.rotation.y=ff>0?0:Math.PI;lg.rotation.x=-.4;gr.add(lg)}
+  return gr}
 function puesto(x,z,rot,ag,i,jefe=false){const g=new THREE.Group();g.position.set(x,0,z);g.rotation.y=rot;sc.add(g);
   const ancho=jefe?2.6:1.9;box(ancho,.06,.95,M_MESA,0,.76,-.55,g);box(.06,.74,.85,M_PATA,-ancho/2+.08,.38,-.55,g);box(.06,.74,.85,M_PATA,ancho/2-.08,.38,-.55,g);
   // monitor curvo
@@ -257,7 +271,7 @@ function puesto(x,z,rot,ag,i,jefe=false){const g=new THREE.Group();g.position.se
   const sg=new THREE.Group();sg.position.set(0,0,.05);g.add(sg);
   cyl(.03,.03,.38,M_PATA,0,.25,0,sg,8);for(let k=0;k<5;k++){const a=k/5*Math.PI*2;const pt=box(.32,.03,.04,M_PATA,Math.cos(a)*.16,.06,Math.sin(a)*.16,sg);pt.rotation.y=-a;cyl(.035,.035,.04,M_SILLA,Math.cos(a)*.3,.03,Math.sin(a)*.3,sg,8)}
   box(.52,.08,.5,M_SILLA,0,.47,0,sg);box(.5,.62,.07,M_SILLA,0,.85,.25,sg).rotation.x=-.12;
-  const per=persona(g,ag.col,i);per.p.position.z=.08;
+  const per=persona(g,ag.col,i);per.p.position.z=.08;gorra(per.cab,-1);
   if(jefe){const t2=pantallaTex("linea");TEX.push(t2);}
   // etiqueta y diamante
   const div=document.createElement("div");div.className="tag";div.innerHTML=`${esc(ag.n)} · <b>${esc(ag.a)}</b>`;const tag=new CSS2DObject(div);tag.position.set(0,2.35,0);g.add(tag);
@@ -457,6 +471,73 @@ DATOS: ${JSON.stringify({hora:new Date().toLocaleString("es-US",{timeZone:"Ameri
   const p=PUESTOS[Math.floor(Math.random()*PUESTOS.length)];if(resp){p.glo.textContent=resp.slice(0,140)+(resp.length>140?"…":"");PUESTOS.forEach(q=>q.glo.hidden=true);p.glo.hidden=false;globoP=p;globoHasta=performance.now()+9000}};
 $("tog").onclick=()=>{$("panel").classList.toggle("min");$("tog").textContent=$("panel").classList.contains("min")?"▴":"▾"};
 
+
+/* ---------- los agentes conversan entre ellos (globos + voz opcional) ---------- */
+const _n=v=>v==null||v===""?null:Number(v).toLocaleString("en-US",{maximumFractionDigits:v<100?2:0});
+const DIALOGOS=[
+ ()=>["nq","riesgo",`Liquidez, ¿cuánto tamaño damos hoy?${_n(M.en_vivo?.vix)?" El VIX está en "+_n(M.en_vivo.vix)+".":""}`,"liquidez","Riesgo fijo de $350 por operación. El stop no se mueve."],
+ ()=>["nq","macro","Noticias, ¿qué hay en el calendario?","noticias",(M.noticias||[])[0]?("Ojo con esto: "+String(M.noticias[0].es||M.noticias[0].titulo).slice(0,90)):"Nada de alto impacto por ahora. Seguimos atentos."],
+ ()=>["nq","ejecucion","Auditor, ¿cómo vamos en resultados?","auditor",M.estadisticas?.total?`Llevamos ${(M.estadisticas.total.r_total>=0?"+":"")+Number(M.estadisticas.total.r_total).toFixed(1)}R con ${M.estadisticas.total.acierto_pct}% de acierto.`:"Todavía no hay entradas cerradas. Paciencia."],
+ ()=>["nq","historiador",`Macro, ${_n(M.en_vivo?.oro)?"el oro está en "+_n(M.en_vivo.oro)+". ":""}¿Qué sesgo tenemos?`,"macro",M.briefs?.[0]?.sesgo?.oro?`Sesgo del oro: ${M.briefs[0].sesgo.oro}. Esperamos confirmación en la zona.`:"Neutral hasta el próximo brief."],
+ ()=>["nq","liquidez",`Vigilante, ${_n(M.en_vivo?.nq)?"NQ en "+_n(M.en_vivo.nq)+". ":""}¿Ves barrido de liquidez?`,"vigilante","Lo estoy mirando en vivo. Te aviso si toca la zona."],
+ ()=>["nq","historiador","Flujos, ¿qué dice el COT esta semana?","flujos","Las manos grandes siguen posicionadas. Lo anoto en el brief."],
+ ()=>["nq","vigilante","Ejecución, ¿tenemos orden activa?","ejecucion","Solo con 4 de 5 confluencias y R:R mínimo de 2. Si no, no entramos."],
+ ()=>["nq","auditor","Riesgo, ¿respetamos el plan ayer?","riesgo","Sí. Stop institucional y nada de operar por venganza."],
+ ()=>["nq","noticias","Macro, ¿cómo está el dólar?","macro","El DXY manda hoy. Si sube, presiona al oro y a las cripto."],
+ ()=>["cripto","sentimiento","Liquidez, el miedo y codicia se está moviendo. ¿Lo ves?","liquidez","Sí. Cuando hay miedo extremo buscamos compras en zona, no persecuciones."],
+ ()=>["cripto","flujos","Riesgo, entraron stablecoins a los exchanges.","riesgo","Bien. Igual el tamaño no cambia: riesgo fijo y stop claro."],
+ ()=>["cripto","ejecucion","Historiador, ¿esta zona de BTC ha funcionado antes?","historiador","Sí, ha sido soporte varias veces. Si la pierde, nos salimos."],
+ ()=>["cripto","sentimiento","Macro, ¿afecta la tasa de la Fed a cripto hoy?","macro","Mucho. Tasas altas frenan el apetito por riesgo."],
+ ()=>["memes","vigia","Señal, dos wallets top compraron el mismo token.","senal","Lo marco como señal. Seguridad, ¿lo revisas?"],
+ ()=>["memes","senal","Seguridad, ¿pasó el rugcheck?","seguridad","Liquidez bloqueada y sin permisos raros. Puede pasar."],
+ ()=>["memes","seguridad","Auditor, ¿cuántas señales salieron bien?","auditor",M.estadisticas?.acierto_pct!=null?`Vamos con ${M.estadisticas.acierto_pct}% de acierto.`:"Todavía estoy contando. Te paso el número pronto."],
+ ()=>["memes","auditor","Vigía, ¿alguna wallet nueva que seguir?","vigia","Tengo una con buen historial. La sigo de cerca antes de sumarla."],
+
+ ()=>["nq","cio","Equipo, ¿tenemos el brief listo antes de la sesión?","liquidez","Casi. Falta que Riesgo apruebe el tamaño."],
+ ()=>["nq","ejecucion","CIO, ¿damos luz verde a la entrada?","cio","Solo si cumple el plan. Sin confluencias, no hay operación."],
+ ()=>["cripto","riesgo","Ejecución, ¿el stop de SOL está puesto?","ejecucion","Sí, puesto desde la entrada. No lo tocamos."],
+ ()=>["cripto","macro","Historiador, ¿cómo le fue a ETH en meses como este?","historiador","Mixto. Por eso operamos zonas, no corazonadas."],];
+let VOZ=false;try{VOZ=localStorage.getItem("gsam_voz")==="1"}catch{}
+const VOCES=()=>{try{const v=speechSynthesis.getVoices().filter(x=>/^es/i.test(x.lang));return v}catch{return[]}};
+function decir(txt,i){if(!VOZ||!("speechSynthesis" in window))return;try{const u=new SpeechSynthesisUtterance(txt.replace(/^→ [^:]+: /,""));const vs=VOCES();
+  if(vs.length)u.voice=vs[i%vs.length];u.lang=u.voice?.lang||"es-US";u.pitch=.75+(i%5)*.12;u.rate=1.05;u.volume=.9;speechSynthesis.speak(u)}catch{}}
+function mirar(a,b,ms){try{const l=a.g.worldToLocal(b.g.getWorldPosition(new THREE.Vector3()));let y=Math.atan2(-l.x,-l.z);y=Math.max(-1.25,Math.min(1.25,y));a.mira=y;a.miraHasta=performance.now()+ms}catch{}}
+function hablar(p,txt,ms){PUESTOS.forEach(q=>{if(q!==p&&q!==CHARLA.otro)q.glo.hidden=true});p.glo.textContent=txt;p.glo.hidden=false;p.gloHasta=performance.now()+ms}
+const CHARLA={otro:null,hasta:0};
+function charla(){if(globoP||document.hidden)return;const ids=PUESTOS.map(p=>p.ag.id);
+  const SALA=/cripto/.test(document.title)?"cripto":/Memes/i.test(document.title)?"memes":"nq";const op=DIALOGOS.map(f=>{try{return f()}catch{return null}}).filter(d=>d&&d.shift()===SALA&&ids.includes(d[0])&&ids.includes(d[2]));
+  let A,B,t1,t2;if(op.length){const d=op[Math.floor(Math.random()*op.length)];A=PUESTOS[ids.indexOf(d[0])];B=PUESTOS[ids.indexOf(d[2])];t1=d[1];t2=d[3]}
+  else{A=PUESTOS[Math.floor(Math.random()*PUESTOS.length)];do{B=PUESTOS[Math.floor(Math.random()*PUESTOS.length)]}while(B===A&&PUESTOS.length>1);t1=`${B.ag.n}, ¿cómo vas con ${B.ag.a}?`;t2="Todo en orden. Sigo el plan."}
+  const ia=PUESTOS.indexOf(A),ib=PUESTOS.indexOf(B);CHARLA.otro=B;
+  mirar(A,B,8000);mirar(B,A,8000);hablar(A,"→ "+B.ag.n+": "+t1,4200);decir(t1,ia);
+  setTimeout(()=>{if(globoP)return;A.glo.hidden=true;hablar(B,"→ "+A.ag.n+": "+t2,4800);decir(t2,ib)},3600)}
+
+/* ---------- música ambiente generada (sin archivos, sin derechos) ---------- */
+let MUSICA=false;try{MUSICA=localStorage.getItem("gsam_musica")==="1"}catch{}
+const MU={on:false,ctx:null,out:null,paso:0,prox:0,tm:null};
+const ACORDES=[[57,60,64,67],[53,57,60,64],[48,52,55,59],[55,59,62,65]];const hz=n=>440*Math.pow(2,(n-69)/12);
+function muNota(f,t,dur,tipo,vol,filtro){const c=MU.ctx,o=c.createOscillator(),g=c.createGain(),fl=c.createBiquadFilter();o.type=tipo;o.frequency.value=f;fl.type="lowpass";fl.frequency.value=filtro;
+  g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(vol,t+Math.min(.4,dur*.3));g.gain.exponentialRampToValueAtTime(.0005,t+dur);o.connect(fl).connect(g).connect(MU.out);o.start(t);o.stop(t+dur+.05)}
+function muGolpe(t,tipo){const c=MU.ctx;if(tipo==="bombo"){const o=c.createOscillator(),g=c.createGain();o.frequency.setValueAtTime(110,t);o.frequency.exponentialRampToValueAtTime(42,t+.18);
+  g.gain.setValueAtTime(.55,t);g.gain.exponentialRampToValueAtTime(.001,t+.3);o.connect(g).connect(MU.out);o.start(t);o.stop(t+.32)}
+  else{const b=c.createBuffer(1,c.sampleRate*.05,c.sampleRate),d=b.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=(Math.random()*2-1)*(1-i/d.length);
+  const s=c.createBufferSource(),f=c.createBiquadFilter(),g=c.createGain();s.buffer=b;f.type="highpass";f.frequency.value=7000;g.gain.value=tipo==="plato"?.12:.06;s.connect(f).connect(g).connect(MU.out);s.start(t)}}
+function muProgramar(){const c=MU.ctx,neg=60/84/2;while(MU.prox<c.currentTime+.25){const t=MU.prox,k=MU.paso%32,ac=ACORDES[Math.floor(MU.paso/32)%4];
+  if(k===0)ac.forEach(n=>muNota(hz(n),t,neg*32,"sawtooth",.035,900));
+  if(k%16===0)muNota(hz(ac[0]-24),t,neg*7,"sine",.22,400);if(k%16===10)muNota(hz(ac[0]-24),t,neg*4,"sine",.16,400);
+  if(k%8===0)muGolpe(t,"bombo");if(k%8===4)muGolpe(t,"plato");if(k%2===1)muGolpe(t,"hat");
+  if([0,3,6,10,12,14].includes(k%16)&&Math.random()<.7)muNota(hz(ac[(k/2|0)%4]+12),t,neg*1.5,"triangle",.05,2600);
+  MU.prox+=neg;MU.paso++}}
+function musica(on,guardar=true){MUSICA=on;if(guardar)try{localStorage.setItem("gsam_musica",on?"1":"0")}catch{};$("musica").classList.toggle("off",!on);
+  if(on){if(!MU.ctx){try{MU.ctx=new (window.AudioContext||window.webkitAudioContext)();MU.out=MU.ctx.createGain();MU.out.gain.value=.0001;MU.out.connect(MU.ctx.destination)}catch{return}}
+    MU.ctx.resume();MU.out.gain.cancelScheduledValues(MU.ctx.currentTime);MU.out.gain.setTargetAtTime(.35,MU.ctx.currentTime,.8);
+    if(!MU.tm){MU.prox=MU.ctx.currentTime+.1;MU.tm=setInterval(muProgramar,100)}}
+  else if(MU.ctx){MU.out.gain.setTargetAtTime(.0001,MU.ctx.currentTime,.4);setTimeout(()=>{if(!MUSICA&&MU.tm){clearInterval(MU.tm);MU.tm=null}},1500)}}
+$("musica").onclick=e=>{e.stopPropagation();musica(!MUSICA)};$("musica").classList.toggle("off",!MUSICA);if(MUSICA){
+  addEventListener("pointerdown",function f(){removeEventListener("pointerdown",f);if(MUSICA)musica(true)},{passive:true})}
+$("voces").textContent=VOZ?"🗣️":"🤐";$("voces").onclick=e=>{e.stopPropagation();VOZ=!VOZ;$("voces").textContent=VOZ?"🗣️":"🤐";try{localStorage.setItem("gsam_voz",VOZ?"1":"0")}catch{};
+  if(VOZ)decir("Mesa GSAM Capital, en línea.",0);else try{speechSynthesis.cancel()}catch{}};
+
 /* ---------- animación ---------- */
 const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;const clk=new THREE.Clock();let sigGlobo=performance.now()+4000;
 let tAnt=0,tVW=0,sigAgua=performance.now()+25000;
@@ -467,10 +548,10 @@ function loop(){const t=clk.getElapsedTime(),dt=Math.min(.05,t-tAnt);tAnt=t;
   for(const p of PUESTOS){const on=p.on||!M.actividad.length;p.dia.rotation.y=t*1.2+p.ph;p.dia.position.y=2+(reduce?0:Math.sin(t*2+p.ph)*.06);
     p.dia.material.emissive.setHex(on?0xd7ff3a:0xffffff);p.dia.material.emissiveIntensity=on?.9:.3;
     if(!reduce){const [a,b]=p.per.brazos;const k=on?1:.25;a.rotation.x=Math.sin(t*14+p.ph)*.06*k;b.rotation.x=Math.sin(t*14+p.ph+1.7)*.06*k;
-      p.per.cab.rotation.y=Math.sin(t*.4+p.ph)*.25;p.per.cab.rotation.x=.08+Math.sin(t*.3+p.ph*2)*.05;p.per.torso.rotation.x=Math.sin(t*.5+p.ph)*.03}}
+      if(p.miraHasta>performance.now())p.per.cab.rotation.y+=(p.mira-p.per.cab.rotation.y)*.12;else p.per.cab.rotation.y=Math.sin(t*.4+p.ph)*.25;p.per.cab.rotation.x=.08+Math.sin(t*.3+p.ph*2)*.05;p.per.torso.rotation.x=Math.sin(t*.5+p.ph)*.03}}
   due.rotation.y=.5+(reduce?0:Math.sin(t*.35)*.5);
-  if(performance.now()>globoHasta&&globoP){globoP.glo.hidden=true;globoP=null}
-  if(performance.now()>sigGlobo){sigGlobo=performance.now()+9000+Math.random()*6000;const c=PUESTOS.filter(p=>M.agentes[p.ag.id]);if(c.length)mostrarGlobo(c[Math.floor(Math.random()*c.length)],false)}
+  if(performance.now()>globoHasta&&globoP){globoP.glo.hidden=true;globoP=null}for(const p of PUESTOS)if(p.gloHasta&&performance.now()>p.gloHasta&&p!==globoP){p.glo.hidden=true;p.gloHasta=0}
+  if(performance.now()>sigGlobo){sigGlobo=performance.now()+11000+Math.random()*6000;charla()}
   ctl.update();ren.render(sc,cam);lab.render(sc,cam);requestAnimationFrame(loop)}
 addEventListener("resize",()=>{cam.left=-VIEW*asp();cam.right=VIEW*asp();cam.updateProjectionMatrix();ren.setSize(W(),H());lab.setSize(W(),H())});
 TEX.forEach((t,i)=>dibujar(t,i));loop();cargar();velas();proceso();
