@@ -2604,10 +2604,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "estado": "descansando",
+   "tarea": "",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-12T07:06:21Z"
+   "actualizado": "2026-10-12T07:06:33Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2635,6 +2635,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
+   "ts": "2026-10-12T07:06:33Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -4129,11 +4134,6 @@
    "agente": "disenador",
    "texto": "Muestra lista de Nevada Pic a Part y su mensaje para mandar por texto.",
    "ts": "2026-10-10T03:28:50Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Armando la muestra de Nevada Pic a Part…",
-   "ts": "2026-10-10T03:28:12Z"
   }
  ],
  "reportes": {
