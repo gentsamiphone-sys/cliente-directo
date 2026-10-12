@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: no pude ejecutar el swap (503 Server Error: Service Temporarily Unavailable for url: https://lite-api.jup.ag/swap/v1). Lo reintento en 30 min.",
-   "actualizado": "2026-10-11T22:02:57Z"
+   "ultimo_resultado": "BTC: ya hay una idea o posición activa, no se duplica.",
+   "actualizado": "2026-10-12T01:12:46Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "BTC: ya hay una idea o posición activa, no se duplica.",
+   "ts": "2026-10-12T01:12:46Z"
+  },
   {
    "agente": "cio",
    "texto": "Brief publicado: BTC y ETH buscan soporte institucional con funding negativo y riesgo de short squeeze",
@@ -800,11 +805,6 @@
    "agente": "ejecucion",
    "texto": "No pude leer la billetera del bot (InvalidChar(79)).",
    "ts": "2026-10-08T22:17:02Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Brief publicado: Presión vendedora y salida de liquidez frenan a cripto, sin entradas claras por falta de confluencias",
-   "ts": "2026-10-08T21:07:23Z"
   }
  ],
  "briefs": [
