@@ -39,6 +39,24 @@ form button{background:var(--acc);color:#0b0d10;border:0;border-radius:10px;padd
 #alerta.on{transform:translate(-50%,0)}#alerta small{display:block;font:500 12px "Atkinson Hyperlegible",sans-serif;margin-top:3px;opacity:.85}
 #alerta.compra{background:#3fd68b}#alerta.venta{background:#ff5b5b;color:#fff}#alerta.gana{background:linear-gradient(90deg,#f5d77a,#d7ff3a)}#alerta.pierde{background:#2b2f36;color:#fff;border:1px solid #ff5b5b}#alerta.be{background:#8a948c}
 #musica,#voces{position:fixed;right:14px;z-index:6;background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:6px 10px;font-size:16px;cursor:pointer}#musica{bottom:96px}#voces{bottom:140px}#musica.off{opacity:.55}
+#vivo,#cinta,#toma,#marcD{display:none}
+body.directo #panel,body.directo #sonido,body.directo #musica,body.directo #voces,body.directo #directo,body.directo .ayuda{display:none!important}
+body.directo #vivo{display:flex;position:fixed;left:24px;top:22px;z-index:8;gap:12px;align-items:center;background:rgba(11,13,16,.9);border:1px solid #2a3026;border-radius:14px;padding:12px 18px;font:800 22px "Familjen Grotesk",sans-serif;color:#f4f7ee}
+#vivo .rojo{background:#e0261b;color:#fff;font:800 14px "IBM Plex Mono",monospace;padding:5px 10px;border-radius:8px;animation:lat 1.4s infinite}#vivo b{color:#d7ff3a}#vivo small{display:block;font:500 14px "IBM Plex Mono",monospace;color:#8a948c}
+@keyframes lat{50%{opacity:.55}}
+body.directo #marcD{display:flex;position:fixed;right:24px;top:22px;z-index:8;gap:8px;font:700 13px "IBM Plex Mono",monospace;color:#8a948c}
+#marcD div{background:rgba(11,13,16,.9);border:1px solid #2a3026;border-radius:12px;padding:8px 14px;text-align:center}#marcD b{display:block;font:800 26px "Familjen Grotesk",sans-serif;color:#f4f7ee}#marcD .up b{color:#3fd68b}#marcD .dn b{color:#ff5b5b}
+body.directo #cinta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:8;height:48px;overflow:hidden;background:rgba(7,9,12,.95);border-top:3px solid #d7ff3a;font:700 20px/45px "IBM Plex Mono",monospace;white-space:nowrap;color:#f4f7ee}
+#cinta div{display:inline-block;padding-left:100%;animation:corre 75s linear infinite}#cinta i{font-style:normal;color:#d7ff3a;margin:0 10px}#cinta .alto{color:#ff8a7a}
+@keyframes corre{to{transform:translateX(-100%)}}
+body.directo #toma{display:block;position:fixed;left:24px;bottom:70px;z-index:8;background:rgba(11,13,16,.9);border-left:4px solid #d7ff3a;border-radius:10px;padding:10px 16px;font:800 22px "Familjen Grotesk",sans-serif;color:#f4f7ee;max-width:760px;opacity:0;transform:translateY(8px);transition:opacity .4s,transform .4s}
+body.directo #toma.on{opacity:1;transform:none}#toma small{display:block;font:500 15px "IBM Plex Mono",monospace;color:#9aa39b;margin-top:2px}
+body.directo .globo{font-size:17px;line-height:1.35;max-width:380px;padding:10px 14px;border-radius:14px}
+body.directo .tag{font-size:14px;padding:4px 10px}
+body.directo #alerta{top:120px;min-width:min(760px,92vw);max-width:92vw;padding:26px 36px;border-radius:20px;font:900 50px/1.05 "Familjen Grotesk",sans-serif;text-align:center;box-shadow:0 20px 70px rgba(0,0,0,.6)}
+body.directo #alerta small{font:700 20px/1.35 "IBM Plex Mono",monospace;margin-top:10px}
+#directo{position:fixed;right:14px;bottom:184px;z-index:6;background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:6px 10px;font-size:16px;cursor:pointer}
+@media (max-width:760px){#directo{bottom:auto;top:46px;right:154px}}
 #sonido{position:fixed;right:14px;bottom:52px;z-index:6;background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:6px 10px;font-size:16px;cursor:pointer}
 .marc{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:8px 12px;border-bottom:1px solid var(--line)}
 #vwBig{position:fixed;inset:0;z-index:30;background:rgba(5,7,9,.92);display:none;align-items:center;justify-content:center;padding:16px;cursor:zoom-out}#vwBig.on{display:flex}#vwBig canvas{max-width:100%;max-height:100%;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
@@ -78,7 +96,10 @@ document.getElementById('gsamGateF').addEventListener('submit',async function(e)
   <div class="proc"><span>Próximo análisis</span><div class="bar"><i id="pBar"></i></div><span id="pTxt">—</span></div>
   <form id="f"><input id="q" placeholder="Escribe a toda la sala…" autocomplete="off"><button aria-label="Enviar">➤</button></form>
 </aside>
-<div id="alerta" role="status" aria-live="assertive"></div><div id="vwBig" aria-label="Pantalla gigante ampliada"><canvas id="vwC" width="1280" height="668"></canvas></div><button id="voces" aria-label="Activar o silenciar las voces de los agentes" title="Voces de los agentes">🤐</button><button id="musica" aria-label="Activar o silenciar la música" title="Música">🎵</button><button id="sonido" aria-label="Activar o silenciar sonido">🔊</button>
+<div id="alerta" role="status" aria-live="assertive"></div><div id="vwBig" aria-label="Pantalla gigante ampliada"><canvas id="vwC" width="1280" height="668"></canvas></div><div id="vivo"><div class="rojo">● EN VIVO</div><span>GSAM <b>CAPITAL</b> · Sala de NQ y oro<small id="vivoTxt">—</small></span></div>
+<div id="marcD"><div class="up"><b id="dG">0</b>GANADAS</div><div class="dn"><b id="dP">0</b>PERDIDAS</div><div><b id="dR">0R</b>R TOTAL</div><div><b id="dA">—</b>ACIERTO</div></div>
+<div id="toma"></div><div id="cinta"><div id="cintaTxt">Cargando datos de la mesa…</div></div>
+<button id="directo" title="Modo directo para Kick/OBS" aria-label="Activar el modo directo">📺</button><button id="voces" aria-label="Activar o silenciar las voces de los agentes" title="Voces de los agentes">🤐</button><button id="musica" aria-label="Activar o silenciar la música" title="Música">🎵</button><button id="sonido" aria-label="Activar o silenciar sonido">🔊</button>
 <div class="ayuda">Arrastra para girar · rueda o pellizco para zoom · toca un agente o la pantalla gigante</div>
 <script type="module">
 import * as THREE from "three";
@@ -419,7 +440,7 @@ function pitido(tipo){if(!SONIDO||!AC)return;const notas={compra:[660,880],venta
   notas.forEach((f,i)=>{const o=AC.createOscillator(),g=AC.createGain();o.type="triangle";o.frequency.value=f;g.gain.setValueAtTime(0,AC.currentTime+i*.16);g.gain.linearRampToValueAtTime(.18,AC.currentTime+i*.16+.02);
     g.gain.exponentialRampToValueAtTime(.001,AC.currentTime+i*.16+.3);o.connect(g).connect(AC.destination);o.start(AC.currentTime+i*.16);o.stop(AC.currentTime+i*.16+.32)})}
 let FLASH={hasta:0,col:0xffffff};
-function alerta(tipo,titulo,detalle){const a=$("alerta");a.className=tipo;a.innerHTML=`${esc(titulo)}<small>${esc(detalle||"")}</small>`;requestAnimationFrame(()=>a.classList.add("on"));
+function alerta(tipo,titulo,detalle){if(window.__DIRECTO)setTimeout(()=>enfocarAlerta(),0);const a=$("alerta");a.className=tipo;a.innerHTML=`${esc(titulo)}<small>${esc(detalle||"")}</small>`;requestAnimationFrame(()=>a.classList.add("on"));
   clearTimeout(alerta.tm);alerta.tm=setTimeout(()=>a.classList.remove("on"),9000);
   FLASH={hasta:performance.now()+4500,col:{compra:0x3fd68b,venta:0xff5b5b,gana:0xd7ff3a,pierde:0xff3b3b,be:0xb0b8b0}[tipo]||0xffffff};LUZ.color.setHex(FLASH.col);
   pitido(tipo);if(tipo==="gana"){reunion(true);setTimeout(confeti,2600)}else if(tipo!=="be")reunion(false)}
@@ -451,7 +472,7 @@ async function cargar(){try{const r=await fetch(`https://raw.githubusercontent.c
   if(!$("feed").dataset.chat)$("feed").innerHTML=(M.actividad||[]).slice(0,40).map(a=>`<div class="ev"><b>${esc(a.agente)}</b><time>${hace(a.ts)}</time><br>${esc(a.texto)}</div>`).join("");
   PUESTOS.forEach(p=>{const st=M.agentes[p.ag.id]||{},on=st.estado==="trabajando";p.on=on;p.div.classList.toggle("on",on)});
   const mc=marcador();$("mG").textContent=mc.g;$("mP").textContent=mc.pe;$("mU").textContent=(mc.r>=0?"+":"")+mc.r.toFixed(1)+"R";$("mU").className=mc.r>=0?"al":"ba";
-  $("mR").textContent=mc.ac!=null?mc.ac+"%":"—";revisarEventos();dibujarVW(clk.getElapsedTime())}
+  $("mR").textContent=mc.ac!=null?mc.ac+"%":"—";revisarEventos();dibujarVW(clk.getElapsedTime());if(window.__DIRECTO)cintaD()}
 async function velas(){await cargar()}
 function proceso(){const n=new Date(),hs=[[21,30],[6,30],[12,31]].map(([h,mi])=>{const t=new Date(Date.UTC(n.getUTCFullYear(),n.getUTCMonth(),n.getUTCDate(),h,mi));if(t<=n)t.setUTCDate(t.getUTCDate()+1);return t});
   const prox=new Date(Math.min(...hs)),falta=(prox-n)/6e4,tot=600;$("pBar").style.width=(100-falta/tot*100).toFixed(1)+"%";$("pTxt").textContent=falta>60?Math.floor(falta/60)+"h "+Math.round(falta%60)+"m":Math.round(falta)+"m"}
@@ -508,7 +529,7 @@ function charla(){if(globoP||document.hidden)return;const ids=PUESTOS.map(p=>p.a
   const SALA=/cripto/.test(document.title)?"cripto":/Memes/i.test(document.title)?"memes":"nq";const op=DIALOGOS.map(f=>{try{return f()}catch{return null}}).filter(d=>d&&d.shift()===SALA&&ids.includes(d[0])&&ids.includes(d[2]));
   let A,B,t1,t2;if(op.length){const d=op[Math.floor(Math.random()*op.length)];A=PUESTOS[ids.indexOf(d[0])];B=PUESTOS[ids.indexOf(d[2])];t1=d[1];t2=d[3]}
   else{A=PUESTOS[Math.floor(Math.random()*PUESTOS.length)];do{B=PUESTOS[Math.floor(Math.random()*PUESTOS.length)]}while(B===A&&PUESTOS.length>1);t1=`${B.ag.n}, ¿cómo vas con ${B.ag.a}?`;t2="Todo en orden. Sigo el plan."}
-  const ia=PUESTOS.indexOf(A),ib=PUESTOS.indexOf(B);CHARLA.otro=B;
+  const ia=PUESTOS.indexOf(A),ib=PUESTOS.indexOf(B);CHARLA.otro=B;enfocarCharla(A,B);
   mirar(A,B,8000);mirar(B,A,8000);hablar(A,"→ "+B.ag.n+": "+t1,4200);decir(t1,ia);
   setTimeout(()=>{if(globoP)return;A.glo.hidden=true;hablar(B,"→ "+A.ag.n+": "+t2,4800);decir(t2,ib)},3600)}
 
@@ -538,6 +559,43 @@ $("musica").onclick=e=>{e.stopPropagation();musica(!MUSICA)};$("musica").classLi
 $("voces").textContent=VOZ?"🗣️":"🤐";$("voces").onclick=e=>{e.stopPropagation();VOZ=!VOZ;$("voces").textContent=VOZ?"🗣️":"🤐";try{localStorage.setItem("gsam_voz",VOZ?"1":"0")}catch{};
   if(VOZ)decir("Mesa GSAM Capital, en línea.",0);else try{speechSynthesis.cancel()}catch{}};
 
+
+/* ---------- modo directo (Kick / OBS): pantalla limpia, cámara que sigue la acción, marcador y cintillo ---------- */
+const DIRECTO=new URLSearchParams(location.search).has("directo");window.__DIRECTO=DIRECTO;
+const SESIONES=[{n:"Asia",ini:14.5,fin:22.5},{n:"Londres",ini:23.5,fin:4.5},{n:"Nueva York",ini:5.5,fin:13}];
+const horaLVm=()=>{const p=new Intl.DateTimeFormat("en-US",{timeZone:"America/Los_Angeles",hour:"numeric",minute:"numeric",hour12:false}).formatToParts(new Date());return(+p.find(x=>x.type==="hour").value%24)+(+p.find(x=>x.type==="minute").value)/60};
+const enRango=(h,a,b)=>a<b?h>=a&&h<b:h>=a||h<b,hTxt=v=>{const h=Math.floor(v),mi=Math.round((v-h)*60);return`${(h%12)||12}:${String(mi).padStart(2,"0")} ${h>=12?"pm":"am"}`};
+const OFF=new THREE.Vector3(16,15,16).sub(new THREE.Vector3(0,0,0)),DIR={hasta:0,i:0,t0:0,dur:2.5,from:null,to:null,az:0};
+const posMundo=o=>o.getWorldPosition(new THREE.Vector3());
+function toma(a,b){const e=$("toma");e.innerHTML=`${esc(a)}${b?`<small>${esc(b)}</small>`:""}`;e.classList.add("on");clearTimeout(toma.tm);toma.tm=setTimeout(()=>e.classList.remove("on"),7000)}
+function volar(t,zoom,az,dur,hold,txt){DIR.from={t:ctl.target.clone(),z:cam.zoom,a:DIR.az};DIR.to={t:t.clone(),z:zoom,a:az};DIR.t0=performance.now();DIR.dur=dur;DIR.hasta=performance.now()+hold*1000;if(txt)toma(...txt)}
+const estadoAg=p=>{const s=M.agentes[p.ag.id]||{};return String((s.estado==="trabajando"?s.tarea:s.ultimo_resultado)||"Revisando el mercado").slice(0,90)};
+const TOMAS=[
+  ()=>volar(new THREE.Vector3(-4.6,0,.6),1.0,0,3,14,["La mesa completa","Agentes de IA trabajando en vivo"]),
+  ()=>{if(!VW.mesh)return;const p=posMundo(VW.mesh);volar(new THREE.Vector3(p.x,1.2,p.z+2.4),2.3,-.25,3,14,["Pantalla gigante","Gráfico en vivo con las entradas de los agentes"])},
+  ()=>{const p=PUESTOS[Math.floor(Math.random()*PUESTOS.length)],w=posMundo(p.g);volar(new THREE.Vector3(w.x,1,w.z),2.7,.3,3,12,[`Agente ${p.ag.n} · ${p.ag.a}`,estadoAg(p)])},
+  ()=>{const p=PUESTOS.find(q=>q.ag.id==="cio");if(!p)return;const w=posMundo(p.g);volar(new THREE.Vector3(w.x,1,w.z),2.2,.15,3,12,["Oficina del CIO","Aprueba cada entrada antes de ejecutar"])},
+  ()=>{const w=posMundo(due);volar(new THREE.Vector3(w.x,1.1,w.z),2.8,-.2,3,11,["Gent Sam · dueño","Supervisando la mesa"])},
+];
+function siguienteToma(){const f=TOMAS[DIR.i++%TOMAS.length];try{f()}catch{DIR.hasta=performance.now()+3000}}
+function enfocarCharla(A,B){if(!DIRECTO)return;const a=posMundo(A.g),b=posMundo(B.g),m=a.clone().add(b).multiplyScalar(.5),d=a.distanceTo(b);
+  volar(new THREE.Vector3(m.x,1.1,m.z),Math.max(1.3,Math.min(2.6,3-d*.16)),(Math.random()-.5)*.4,2.2,9,null)}
+function enfocarAlerta(){if(!DIRECTO||!VW.mesh)return;const p=posMundo(VW.mesh);volar(new THREE.Vector3(p.x,1.2,p.z+2.6),2.1,0,1.8,14,null)}
+function dirigir(t){const now=performance.now();if(now>DIR.hasta)siguienteToma();if(!DIR.to)return;
+  const k=Math.min(1,(now-DIR.t0)/(DIR.dur*1000)),e=k<.5?2*k*k:1-Math.pow(-2*k+2,2)/2;
+  ctl.target.lerpVectors(DIR.from.t,DIR.to.t,e);cam.zoom=DIR.from.z+(DIR.to.z-DIR.from.z)*e;DIR.az=DIR.from.a+(DIR.to.a-DIR.from.a)*e;
+  const az=DIR.az+(reduce?0:Math.sin(t*.06)*.18),o=OFF.clone().applyAxisAngle(new THREE.Vector3(0,1,0),az);cam.position.copy(ctl.target).add(o);cam.lookAt(ctl.target);cam.updateProjectionMatrix()}
+function cintaD(){const e=M.en_vivo||{},b=(M.briefs||[])[0]||{},sg=b.sesgo||{},mc=marcador(),N=(M.noticias||[]).filter(n=>n.impacto!=="bajo").slice(0,8),f=(v,d=0)=>v==null?"—":Number(v).toLocaleString("en-US",{maximumFractionDigits:d,minimumFractionDigits:d});
+  const P=[`<i>ORO</i>${f(e.oro,1)}`,`<i>NQ</i>${f(e.nq)}`,`<i>VIX</i>${f(e.vix,2)}`].concat([sg.oro?`<i>SESGO ORO</i>${esc(String(sg.oro).toUpperCase())}`:"",sg.nq?`<i>SESGO NQ</i>${esc(String(sg.nq).toUpperCase())}`:"",mc.n?`<i>MESA</i>${mc.r>=0?"+":""}${mc.r.toFixed(1)}R · ${mc.ac}% acierto`:"",
+    ...N.map(n=>`<span class="${n.impacto==="alto"?"alto":""}">📰 ${esc(n.es||n.titulo)}</span>`),"<i>GSAM SEÑALES</i>únete en Whop"]).filter(Boolean);
+  $("cintaTxt").innerHTML=P.join("<i>◆</i>");
+  $("dG").textContent=mc.g;$("dP").textContent=mc.pe;$("dR").textContent=(mc.r>=0?"+":"")+mc.r.toFixed(1)+"R";$("dA").textContent=mc.ac!=null?mc.ac+"%":"—"}
+function relojD(){const h=horaLVm(),s=SESIONES.find(x=>enRango(h,x.ini,x.fin));let p=SESIONES[0],dm=99;for(const x of SESIONES){const d=(x.ini-h+24)%24;if(d<dm){dm=d;p=x}}
+  $("vivoTxt").textContent=`Las Vegas ${new Date().toLocaleTimeString("es-US",{timeZone:"America/Los_Angeles",hour:"numeric",minute:"2-digit"})} · `+(s?`Sesión de ${s.n} en curso`:`Próxima sesión: ${p.n} a las ${hTxt(p.ini)}`)}
+$("directo").onclick=e=>{e.stopPropagation();const u=new URL(location.href);u.searchParams.set("directo","1");location.href=u.toString()};
+if(DIRECTO){document.body.classList.add("directo");ctl.enabled=false;relojD();setInterval(relojD,20000);setTimeout(cintaD,2500);setInterval(cintaD,30000);setInterval(cargar,30000);
+  setTimeout(()=>{try{musica(true,false)}catch{}},1500);setTimeout(()=>location.reload(),6*3600*1000)}
+
 /* ---------- animación ---------- */
 const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;const clk=new THREE.Clock();let sigGlobo=performance.now()+4000;
 let tAnt=0,tVW=0,sigAgua=performance.now()+25000;
@@ -552,7 +610,7 @@ function loop(){const t=clk.getElapsedTime(),dt=Math.min(.05,t-tAnt);tAnt=t;
   due.rotation.y=.5+(reduce?0:Math.sin(t*.35)*.5);
   if(performance.now()>globoHasta&&globoP){globoP.glo.hidden=true;globoP=null}for(const p of PUESTOS)if(p.gloHasta&&performance.now()>p.gloHasta&&p!==globoP){p.glo.hidden=true;p.gloHasta=0}
   if(performance.now()>sigGlobo){sigGlobo=performance.now()+11000+Math.random()*6000;charla()}
-  ctl.update();ren.render(sc,cam);lab.render(sc,cam);requestAnimationFrame(loop)}
+  if(DIRECTO)dirigir(t);else ctl.update();ren.render(sc,cam);lab.render(sc,cam);requestAnimationFrame(loop)}
 addEventListener("resize",()=>{cam.left=-VIEW*asp();cam.right=VIEW*asp();cam.updateProjectionMatrix();ren.setSize(W(),H());lab.setSize(W(),H())});
 TEX.forEach((t,i)=>dibujar(t,i));loop();cargar();velas();proceso();
 setInterval(velas,60000);setInterval(cargar,90000);setInterval(proceso,30000);
