@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4195.2 · NQ 30874.5 · VIX 15.24 · 15 noticias nuevas (5 alto impacto)",
-   "actualizado": "2026-10-12T18:42:32Z"
+   "ultimo_resultado": "Oro 4192.4 · NQ 30874.5 · VIX 15.26 · 15 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-12T18:47:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T18:42:31Z",
-   "ultimo_resultado": "15 titulares nuevos, 5 de alto impacto: Nasdaq Files Proposed Rule Change Regarding the $5 Million MVLS Continued Listing Requirement Amid SEC Stay"
+   "actualizado": "2026-10-12T18:47:41Z",
+   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: Operación masiva en acciones de Snap"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4192.4 · NQ 30874.5 · VIX 15.26 · 15 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-12T18:47:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4195.2 · NQ 30874.5 · VIX 15.24 · 15 noticias nuevas (5 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4206.3 · NQ 31164.25 · VIX 14.84",
    "ts": "2026-10-12T06:27:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4210.4 · NQ 31168.25 · VIX 14.84",
-   "ts": "2026-10-12T06:22:34Z"
   }
  ],
  "briefs": [
@@ -5102,12 +5102,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4195.2,
+  "oro": 4192.4,
   "nq": 30874.5,
-  "vix": 15.24,
-  "ts": "2026-10-12T18:42:32Z"
+  "vix": 15.26,
+  "ts": "2026-10-12T18:47:42Z"
  },
  "noticias": [
+  {
+   "titulo": "A massive trade just happened in surging shares of Snap",
+   "link": "https://www.cnbc.com/2026/10/12/a-massive-trade-just-happens-in-surging-shares-of-snap.html",
+   "ts": "2026-10-12T18:43:44Z",
+   "fuente": "CNBC",
+   "id": "4fb5407271",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Operación masiva en acciones de Snap",
+   "efecto": ""
+  },
   {
    "titulo": "The bull market turned 4 years old on Monday. Investors say reaching a fifth birthday could be challenging",
    "link": "https://www.cnbc.com/2026/10/12/the-bull-market-just-turned-four-after-climbing-a-wall-of-worry.html",
@@ -5942,17 +5953,6 @@
    "impacto": "bajo",
    "es": "Allanan la casa de la representante Ilhan Omar por fraude migratorio",
    "efecto": ""
-  },
-  {
-   "titulo": "Construction Update for Gold Country Corridor in Nevada County",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNb1hLVDgxMnIxS0NpR3pmQnA0Q25yOU1TNkljS2EwN3Q1RjI0SXFCSU9Ba0xPTWNGcHlPUzVxZnlobGt3MTMzLXdCLUxuU2lXMVZXdEZUVDlZeFFDS1JmS2pVOU1Za1haVnZReFhsb0piSE9LRVp6LWdNajJici1PNHlpSFVPd1NLbXZsQkpxcHhRQzU4R0tv?oc=5",
-   "ts": "2026-10-12T12:46:00Z",
-   "fuente": "YubaNet",
-   "id": "fe2f464d24",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -6545,15 +6545,15 @@
     1791828000,
     4194.4,
     4196.6,
-    4193.1,
-    4195.3
+    4192.1,
+    4192.2
    ],
    [
-    1791829950,
-    4195.5,
-    4195.5,
-    4195.5,
-    4195.5
+    1791830256,
+    4192.4,
+    4192.4,
+    4192.4,
+    4192.4
    ]
   ],
   "nq": [
@@ -7143,14 +7143,14 @@
     30877.75,
     30892.0,
     30864.25,
-    30867.25
+    30872.0
    ],
    [
-    1791829950,
-    30874.5,
-    30874.5,
-    30874.5,
-    30874.5
+    1791830261,
+    30874.25,
+    30874.25,
+    30874.25,
+    30874.25
    ]
   ],
   "vix": [
@@ -7628,18 +7628,18 @@
     15.18,
     15.25,
     15.18,
-    15.24
+    15.25
    ],
    [
-    1791829636,
-    15.24,
-    15.24,
-    15.24,
-    15.24
+    1791829951,
+    15.26,
+    15.26,
+    15.26,
+    15.26
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-12T18:17:32Z",
+ "noticias_traducidas_ts": "2026-10-12T18:47:38Z",
  "ult_4h": 1791830252.3077176,
  "estrategia_4h": {
   "oro": {
