@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4188.4 · NQ 30960.5 · VIX 15.13 · 15 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-12T16:12:38Z"
+   "ultimo_resultado": "Oro 4189.6 · NQ 30973.5 · VIX 15.13 · 15 noticias nuevas (4 alto impacto)",
+   "actualizado": "2026-10-12T16:17:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T16:12:37Z",
-   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: Trump defends Russia diesel deal after bipartisan pushback: 'I made the right choice'"
+   "actualizado": "2026-10-12T16:17:35Z",
+   "ultimo_resultado": "15 titulares nuevos, 4 de alto impacto: Oil rally pressures S&P, Nasdaq; Microsoft, Salesforce buoy Dow"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4189.6 · NQ 30973.5 · VIX 15.13 · 15 noticias nuevas (4 alto impacto)",
+   "ts": "2026-10-12T16:17:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4188.4 · NQ 30960.5 · VIX 15.13 · 15 noticias nuevas (3 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4231.7 · NQ 31230.5 · VIX 14.84 · 1 noticias nuevas",
    "ts": "2026-10-12T03:57:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4228.8 · NQ 31230.5 · VIX 14.84",
-   "ts": "2026-10-12T03:52:41Z"
   }
  ],
  "briefs": [
@@ -5102,12 +5102,34 @@
   }
  },
  "en_vivo": {
-  "oro": 4188.4,
-  "nq": 30960.5,
+  "oro": 4189.6,
+  "nq": 30973.5,
   "vix": 15.13,
-  "ts": "2026-10-12T16:12:37Z"
+  "ts": "2026-10-12T16:17:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Oil rally pressures S&P, Nasdaq; Microsoft, Salesforce buoy Dow",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOck00LVRZX0lQNUw5SGlYU09FOWw1dUVTNjZTQ0p6YklVVUlRSms1eVZRcDd6VjRySF9rOEptM3Nrd19mSURMa1dmbTdIOE1VZjJKdThIR0tabGRTdjBiX0JCWkVndjJFNkZrT0w4NzZ2VWVibjlyeVZHRmszeXRraWRfT0p2SDhSQnFTY3QycG05eHpjQVVLYk9yRF9UYzZ0VmZ6Sw?oc=5",
+   "ts": "2026-10-12T16:00:34Z",
+   "fuente": "Reuters",
+   "id": "be615e686f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Without Trump’s tariffs, goods prices would have dipped, say New York Fed economists. Here’s the real cost to Americans",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMXpRcGNmM2tXZ1plcm0tNHpzSWJXU3NCNndWRFlVQVhUU1Q4VC1VMHZ2U25qUEw2VXNvQTVuVllFXzZNa19WSEQ2clZQU1ZYdHQ4ckRqWmxpSjV0X3FCS3FVWlk2c203WHB2N1JpcjEzY0JIRWhEVE82bkpPLUtaTU5scUFjcFRzUzJsNFZGT0FEMGlvWW5wT3ZSbmJrZUlk?oc=5",
+   "ts": "2026-10-12T16:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "de47a5bb03",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Trump defends Russia diesel deal after bipartisan pushback: 'I made the right choice'",
    "link": "https://www.cnbc.com/2026/10/12/trump-russia-diesel-putin.html",
@@ -5205,6 +5227,15 @@
    "ts": "2026-10-12T14:56:42Z",
    "fuente": "CNBC",
    "id": "6a5489228c",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "First Majestic's Silver Production Decreases 11% Y/Y in Q3",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/first-majestics-silver-production-decreases-145400142.html?.tsrc=rss",
+   "ts": "2026-10-12T14:54:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "cdc4a06af2",
    "activos": [],
    "impacto": "bajo"
   },
@@ -5928,33 +5959,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "World's Largest Stock Transfer Agent Computershare Begins Trading on OTCQX Best Market",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/worlds-largest-stock-transfer-agent-110000883.html?.tsrc=rss",
-   "ts": "2026-10-12T11:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "1fe64dc6b5",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Tariffs Put Trump’s Republican Support to the Test in Factory Towns",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQkNRZzdoUlpqOW9pOGhMM1NYQVg4cmE2MmREaU5wdlJ2TGlFSC1KQ2JySXlIWXpWUDVER2JMdVY5bkdqWERmR19RMkZPUi15WEVzVFBrM1RfYko1aDN1aW9DcnlMTEVSdmFYQThUSHN1YVM5VnRIem1Rd0RpeGNyTnZoSGFtNVlGUWhCeEtUaTBBOHRjRnJ3VFRoMEpBeU9KbzVCcDZ6alBUTXNGOEp2ZHYtUzE?oc=5",
-   "ts": "2026-10-12T10:53:48Z",
-   "fuente": "La Voce di New York",
-   "id": "28032f009a",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "India’s retail inflation jumps to 5.54% in September, above estimates",
-   "link": "https://www.cnbc.com/2026/10/12/india-inflation-oil-energy-iran-war.html",
-   "ts": "2026-10-12T10:49:24Z",
-   "fuente": "CNBC Economía",
-   "id": "f95c5b45f9",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -6532,16 +6536,16 @@
    [
     1791820800,
     4188.7,
-    4189.7,
+    4189.9,
     4187.6,
-    4188.1
+    4188.7
    ],
    [
-    1791820956,
-    4188.4,
-    4188.4,
-    4188.4,
-    4188.4
+    1791821251,
+    4189.6,
+    4189.6,
+    4189.6,
+    4189.6
    ]
   ],
   "nq": [
@@ -7115,16 +7119,16 @@
    [
     1791820800,
     30957.5,
-    30965.5,
+    30979.75,
     30945.75,
-    30954.75
+    30977.25
    ],
    [
-    1791820957,
-    30960.25,
-    30960.25,
-    30960.25,
-    30960.25
+    1791821254,
+    30973.5,
+    30973.5,
+    30973.5,
+    30973.5
    ]
   ],
   "vix": [
@@ -7581,10 +7585,17 @@
     15.22,
     15.23,
     15.11,
-    15.13
+    15.14
    ],
    [
-    1791820651,
+    1791820800,
+    15.15,
+    15.15,
+    15.13,
+    15.14
+   ],
+   [
+    1791820951,
     15.13,
     15.13,
     15.13,
