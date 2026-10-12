@@ -31,9 +31,9 @@
    "ultimo_resultado": "Volatilidad normal (VIX 14.84)."
   },
   "auditor": {
-   "estado": "trabajando",
-   "tarea": "Revisando cómo salieron las entradas anteriores…",
-   "actualizado": "2026-10-12T06:32:50Z",
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-12T06:32:52Z",
    "ultimo_resultado": "Historial: 9 operaciones, 33% de acierto, +9.08 R."
   },
   "vigilante": {
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "auditor",
+   "texto": "Historial: 9 operaciones, 33% de acierto, +9.08 R.",
+   "ts": "2026-10-12T06:32:52Z"
+  },
   {
    "agente": "auditor",
    "texto": "Revisando cómo salieron las entradas anteriores…",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "2 titulares nuevos: ¿Riley Exploration Permian sigue infravalorada o ya está descontada?",
    "ts": "2026-10-11T16:57:44Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "3 titulares nuevos: A deadly airstrike hits a Sudan-Egypt border gold mine, killing at least 13 miners",
-   "ts": "2026-10-11T16:52:30Z"
   }
  ],
  "briefs": [
@@ -1246,7 +1246,9 @@
      "rr": "4.28",
      "confluencias": "4",
      "cancelar": "N/A",
-     "motivo": ""
+     "motivo": "",
+     "resultado": "no se activó",
+     "r": 0.0
     },
     {
      "activo": "NQ",
