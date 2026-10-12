@@ -2622,10 +2622,10 @@
    "actualizado": "2026-10-12T03:29:08Z"
   },
   "vendedor": {
-   "estado": "trabajando",
-   "tarea": "Revisando a quién escribirle",
+   "estado": "descansando",
+   "tarea": "",
    "ultimo_resultado": "Fuera de horario: 0 correos listos para la mañana",
-   "actualizado": "2026-10-12T03:52:29Z"
+   "actualizado": "2026-10-12T03:52:30Z"
   },
   "seguimiento": {
    "estado": "descansando",
@@ -2635,6 +2635,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vendedor",
+   "texto": "Terminó su turno: Fuera de horario: 0 correos listos para la mañana",
+   "ts": "2026-10-12T03:52:30Z"
+  },
   {
    "agente": "disenador",
    "texto": "Terminó su turno: 3 muestras nuevas",
@@ -4129,11 +4134,6 @@
    "agente": "buscador",
    "texto": "Terminó su turno: No pude buscar en este turno (HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with)",
    "ts": "2026-10-10T01:09:24Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ts": "2026-10-10T01:06:19Z"
   }
  ],
  "reportes": {
