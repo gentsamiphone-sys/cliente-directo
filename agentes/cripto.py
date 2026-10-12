@@ -771,6 +771,23 @@ def _idea_spot_desp(me, act, o):
     base.avisar_telefono(f"GSAM Cripto · {act} {o.get('tipo', 'desplazamiento')} (spot)", txt, "high")
 
 
+def tendencia_bajista(act):
+    """Salida defensiva en spot: la última vela 1H cerrada quedó bajo la EMA50 de 1H y rompió el mínimo de las 12 h previas.
+    Si pasa con una compra abierta, se vende a USDC para proteger el capital (no hay cortos en spot)."""
+    try:
+        h = M.yahoo(f"{act}-USD", "1h", "5d")
+        c = [v["c"] for v in h]
+        if len(h) < 60:
+            return False, ""
+        e50 = M.ema(c[:-1], 50)
+        minimo = min(v["l"] for v in h[-14:-2])
+        if c[-2] < e50 and c[-2] < minimo:
+            return True, f"cierre 1H {c[-2]:,.0f} bajo la EMA50 ({e50:,.0f}) y bajo el mínimo de 12 h ({minimo:,.0f})"
+    except Exception:
+        pass
+    return False, ""
+
+
 def vigilar_cripto():
     """Cada 30 min: compra cuando el precio entra en la zona, vende en el stop o en el objetivo, y cancela ideas viejas."""
     me = Mesa()
@@ -813,6 +830,11 @@ def vigilar_cripto():
                     me.paso("riesgo", txt, trabajando=False)
                     base.avisar_telefono(f"GSAM Cripto · {p['activo']} protegida", txt, "default")
                 motivo = "stop" if precio <= p["stop"] else "objetivo" if precio >= p["tp"] else None
+                if not motivo:
+                    baja, por = tendencia_bajista(p["activo"])
+                    if baja:
+                        motivo = "tendencia"
+                        me.paso("riesgo", f"{p['activo']}: la tendencia giró a bajista ({por}). Paso a USDC para proteger el capital.", trabajando=False)
                 if motivo:
                     if real:
                         p["firma_venta"] = _vender_todo(p)

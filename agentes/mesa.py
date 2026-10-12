@@ -391,6 +391,40 @@ def vix_confluencia():
     return out
 
 
+def es_confluencia():
+    """S&P 500 (ES) vs NQ: si el S&P no acompaña, la idea de NQ es más débil. Devuelve tendencia 1H del ES y lectura de 6h."""
+    eh, nh = yahoo("ES=F", "1h", "10d"), yahoo("NQ=F", "1h", "10d")
+    ce = [v["c"] for v in eh]
+    out = {"es": round(ce[-1], 2), "es_ema20_1h": round(ema(ce[-60:], 20), 2)}
+    out["es_tendencia_1h"] = "alcista" if ce[-1] > out["es_ema20_1h"] else "bajista"
+    em = {v["t"]: v["c"] for v in eh}
+    pares = [(n["c"], em[n["t"]]) for n in nh if n["t"] in em][-49:]
+    if len(pares) > 10:
+        rn = [b[0] / a[0] - 1 for a, b in zip(pares, pares[1:])]
+        re_ = [b[1] / a[1] - 1 for a, b in zip(pares, pares[1:])]
+        try:
+            out["correlacion_48h"] = round(statistics.correlation(rn, re_), 2)
+        except Exception:
+            pass
+        n6 = pares[-1][0] / pares[-7][0] - 1 if len(pares) > 7 else 0
+        e6 = pares[-1][1] / pares[-7][1] - 1 if len(pares) > 7 else 0
+        out["nq_6h_pct"], out["es_6h_pct"] = round(n6 * 100, 2), round(e6 * 100, 2)
+        out["lectura"] = ("CONFIRMA: ES y NQ van en la misma dirección" if n6 * e6 > 0 else
+                          "DIVERGENCIA: el ES no acompaña al NQ (movimiento débil o rotación)" if n6 * e6 < 0 else "SIN SEÑAL clara")
+    return out
+
+
+def es_contradice(compra):
+    """True si el S&P va claramente en contra de la dirección de una entrada de NQ (tendencia 1H y últimas 6h en contra)."""
+    try:
+        c = es_confluencia()
+    except Exception:
+        return False, "sin datos del ES"
+    e6 = c.get("es_6h_pct", 0) or 0
+    contra = (c["es_tendencia_1h"] == "bajista" and e6 < -0.15) if compra else (c["es_tendencia_1h"] == "alcista" and e6 > 0.15)
+    return contra, f"ES {c['es_tendencia_1h']} en 1H y {e6:+.2f}% en 6h"
+
+
 # ───────── historiador: estacionalidad y años análogos ─────────
 
 HIST = {"oro": "GC=F", "nq": "^NDX"}  # ^NDX tiene más años de historia que el futuro NQ
@@ -620,6 +654,12 @@ def correr(sesion):
     vix = vixc.get("vix") or mac.get("vix", {}).get("ultimo")
     regimen = "estrés" if isinstance(vix, (int, float)) and vix >= 25 else "elevada" if isinstance(vix, (int, float)) and vix >= 18 else "normal"
     me.paso("riesgo", f"Volatilidad {regimen} (VIX {vix}).", trabajando=False)
+    me.paso("riesgo", "Cruzando el S&P 500 (ES) con el NQ…")
+    try:
+        esc = es_confluencia()
+    except Exception as ex:
+        esc = {"error": str(ex)[:80]}
+    me.paso("riesgo", "ES/NQ: " + esc.get("lectura", "sin datos") + (f" · ES {esc['es_tendencia_1h']} en 1H" if "es_tendencia_1h" in esc else ""), trabajando=False)
 
     me.paso("historiador", "Revisando qué pasó en esta misma fecha los últimos 10 años y buscando años parecidos…")
     hist = {}
@@ -632,7 +672,7 @@ def correr(sesion):
 
     me.paso("cio", "Escribiendo el brief institucional…")
     datos = {"racha": {"nq_ultimas_2_en_stop": racha_mala(me, "NQ"), "oro_ultimas_2_en_stop": racha_mala(me, "ORO")}, "historico": hist, "sesion": nombre, "hora_las_vegas": datetime.now(LV).strftime("%Y-%m-%d %H:%M"), "macro": mac,
-             "calendario_usd": eventos, "cot": pos, "mapas": mapas, "riesgo": riesgo, "regimen_vol": regimen, "vix_nq": vixc, "historial_de_la_mesa": stats,
+             "calendario_usd": eventos, "cot": pos, "mapas": mapas, "riesgo": riesgo, "regimen_vol": regimen, "vix_nq": vixc, "es_nq": esc, "historial_de_la_mesa": stats,
              "titulares": titulares(), "evaluacion_alpha": estado_alpha(me),
              "estrategia_4h_de_gent": _seguro(avisar_4h, me)}
     prompt = f"""Eres el CIO (director de inversiones) de GSAM Capital, un fondo macro que opera oro (futuro GC / XAUUSD)
@@ -655,6 +695,7 @@ Escribe el BRIEF DE LA SESIÓN DE {nombre.upper()} en español, claro y directo,
 7. **VIX y NQ (confluencia)** — nivel del VIX y sus niveles (PDH/PDL del VIX, media 20), estructura VIX/VIX3M,
    correlación con NQ y la lectura de las últimas 6 horas. Di claramente si el VIX CONFIRMA o CONTRADICE el sesgo de NQ,
    y qué nivel del VIX invalidaría el escenario alcista de NQ (por ejemplo, si rompe su máximo de ayer).
+   Incluye también el S&P 500 (DATOS.es_nq): tendencia 1H del ES, correlación y si en las últimas 6 horas acompaña o diverge del NQ.
 8. **Plan de entrada institucional (Gent ejecuta)** — para ORO y para NQ, en este formato exacto:
    - Dirección: COMPRA / VENTA / SIN ENTRADA
    - Zona de entrada: precio o rango (donde una institución pondría su orden límite: tras barrer liquidez, en valor justo o en la última vela contraria)
@@ -664,7 +705,7 @@ Escribe el BRIEF DE LA SESIÓN DE {nombre.upper()} en español, claro y directo,
    - R:R: relación riesgo/beneficio al TP2
    - Cancelar si: qué invalida la entrada antes de activarse (hora, noticia, nivel)
    - Confluencias (0 a 5): suma 1 por cada una que se cumpla a favor de la idea: (1) sesgo macro/dólar/tasas,
-     (2) posicionamiento COT, (3) VIX confirma (para NQ) o dólar/tasas reales confirman (para oro),
+     (2) posicionamiento COT, (3) VIX y S&P 500 (DATOS.es_nq) confirman (para NQ: si el ES diverge o su tendencia 1H va en contra, esta NO suma) o dólar/tasas reales confirman (para oro),
      (4) la entrada está en una zona donde ya se barrió liquidez o en valor justo, (5) el historial de la mesa para ese
      activo + dirección + sesión no es negativo. Escribe "Confluencias: X/5" y cuáles.
    ALTA PROBABILIDAD SOLAMENTE: si una idea tiene menos de 4/5 confluencias, la respuesta es SIN ENTRADA.
@@ -873,6 +914,11 @@ def _enviar_activo(me, url, activo, c, entradas, riesgo_max=RIESGO_MAX):
     if conf < 4 or not (lo and stop and tp):
         me.paso("ejecucion", f"Entrada de {activo} incompleta o con {conf}/5 confluencias: no se envía.", trabajando=False)
         return
+    if activo == "NQ":
+        contra, det = es_contradice(compra)
+        if contra:
+            me.paso("ejecucion", f"NQ: el S&P 500 va en contra ({det}). Filtro ES: no se envía la orden.", trabajando=False)
+            return
     # 1) entrada institucional: en el borde de la zona donde está la liquidez (abajo para compras, arriba para ventas)
     entrada = lo if compra else hi
     # stop detrás de la zona, nunca dentro de ella, y nunca más corto que el ruido mínimo
