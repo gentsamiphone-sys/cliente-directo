@@ -2671,9 +2671,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Decatur Blvd…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-12T23:02:33Z"
+   "actualizado": "2026-10-12T23:06:21Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2701,6 +2701,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-12T23:06:21Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Decatur Blvd…",
@@ -4195,11 +4200,6 @@
    "agente": "disenador",
    "texto": "Muestra lista de U.S. LLantera y su mensaje para mandar por texto.",
    "ts": "2026-10-10T15:28:06Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Armando la muestra de U.S. LLantera…",
-   "ts": "2026-10-10T15:27:53Z"
   }
  ],
  "reportes": {
