@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4211.3 · NQ 31180.75 · VIX 15.41 · 1 noticias nuevas",
-   "actualizado": "2026-10-12T07:47:32Z"
+   "ultimo_resultado": "Oro 4208.6 · NQ 31189.25 · VIX 15.39 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-12T07:52:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T07:47:31Z",
-   "ultimo_resultado": "1 titulares nuevos: 3 Energy Stocks With Fee Based Cash Flow as Oil Markets Stay Volatile"
+   "actualizado": "2026-10-12T07:52:42Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: El dólar se mantiene cerca de máximos de 18 meses; la rupia sube por medidas del Banco Central de la India"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4208.6 · NQ 31189.25 · VIX 15.39 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-12T07:52:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4211.3 · NQ 31180.75 · VIX 15.41 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Brief de Plan de la semana publicado: Sesgo alcista en Oro y NQ; cautela por datos de CPI y PPI esta semana.",
    "ts": "2026-10-11T18:03:18Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Escribiendo el brief institucional…",
-   "ts": "2026-10-11T18:03:08Z"
   }
  ],
  "briefs": [
@@ -4754,10 +4754,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4211.3,
-  "nq": 31180.75,
-  "vix": 15.41,
-  "ts": "2026-10-12T07:47:31Z"
+  "oro": 4208.6,
+  "nq": 31189.25,
+  "vix": 15.39,
+  "ts": "2026-10-12T07:52:42Z"
  },
  "noticias": [
   {
@@ -4873,6 +4873,21 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Dollar holds near 18-mth high; rupee jumps on RBI measures",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-steady-dollar-holds-043326017.html?.tsrc=rss",
+   "ts": "2026-10-12T04:33:26Z",
+   "fuente": "Yahoo Finance",
+   "id": "f3a7ff162e",
+   "activos": [
+    "dolar",
+    "oro",
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "El dólar se mantiene cerca de máximos de 18 meses; la rupia sube por medidas del Banco Central de la India",
+   "efecto": "Fortalece al dólar, presionando al oro y al NQ a la baja."
   },
   {
    "titulo": "Asia FX steady as dollar holds near 18-mth high; rupee jumps on RBI measures",
@@ -5635,15 +5650,6 @@
    "id": "14f46c1e38",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "A colorful celebration of Ugandan history",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNk1NN3FfN1dvSXMyV2RrMy1nVXlNaTh6RVVfTTkzSXZKZlRUaGtjX1h6VTZpdEtJQVZzTlQweVd2SU9tNXdVTUkwdTNRaGM2bkM1Y3JKTVYxWlE3U2d0NTBab0lSYno1cDdSUjRiWjd6Qmk0NWRJSk1nMEJvREllVU9iMWU?oc=5",
-   "ts": "2026-10-11T19:00:11Z",
-   "fuente": "Waltham Times",
-   "id": "e03a1ff11e",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -6158,16 +6164,16 @@
    [
     1791788400,
     4210.1,
-    4212.2,
+    4212.3,
     4206.6,
-    4210.3
+    4209.3
    ],
    [
-    1791790645,
-    4211.3,
-    4211.3,
-    4211.3,
-    4211.3
+    1791790959,
+    4208.6,
+    4208.6,
+    4208.6,
+    4208.6
    ]
   ],
   "nq": [
@@ -6678,16 +6684,16 @@
    [
     1791788400,
     31167.75,
-    31194.5,
+    31207.25,
     31155.25,
-    31178.25
+    31198.0
    ],
    [
-    1791790649,
-    31180.75,
-    31180.75,
-    31180.75,
-    31180.75
+    1791790957,
+    31189.25,
+    31189.25,
+    31189.25,
+    31189.25
    ]
   ],
   "vix": [
@@ -7088,18 +7094,18 @@
     15.39,
     15.41,
     15.39,
-    15.41
+    15.4
    ],
    [
-    1791790336,
-    15.41,
-    15.41,
-    15.41,
-    15.41
+    1791790651,
+    15.39,
+    15.39,
+    15.39,
+    15.39
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-12T07:17:34Z",
+ "noticias_traducidas_ts": "2026-10-12T07:52:36Z",
  "ult_4h": 1791791251.6446142,
  "estrategia_4h": {
   "oro": {
