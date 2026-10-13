@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4183.6 · NQ 30787.0 · VIX 15.27 · 15 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-13T20:27:32Z"
+   "ultimo_resultado": "Oro 4180.5 · NQ 30764.75 · VIX 15.27 · 15 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-13T20:32:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T20:27:32Z",
-   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: Joint Center Releases Statement Strongly Opposing Trump’s Committee of Inquiry into Federal Reserve Governor Dr. Lisa Cook"
+   "actualizado": "2026-10-13T20:32:38Z",
+   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: Bank of America multado con 1.200 millones por violaciones de blanqueo de capitales"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4180.5 · NQ 30764.75 · VIX 15.27 · 15 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-13T20:32:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4183.6 · NQ 30787.0 · VIX 15.27 · 15 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Volatilidad normal (VIX 15.21).",
    "ts": "2026-10-13T06:32:58Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "VIX/NQ: DIVERGENCIA: NQ baja pero el VIX también baja (caída sin miedo; posible barrida para comprar)",
-   "ts": "2026-10-13T06:32:57Z"
   }
  ],
  "briefs": [
@@ -5444,12 +5444,47 @@
   }
  },
  "en_vivo": {
-  "oro": 4183.6,
-  "nq": 30787.0,
+  "oro": 4180.5,
+  "nq": 30764.75,
   "vix": 15.27,
-  "ts": "2026-10-13T20:27:32Z"
+  "ts": "2026-10-13T20:32:38Z"
  },
  "noticias": [
+  {
+   "titulo": "Bank of America fined $1.2 billion over money-laundering violations",
+   "link": "https://www.cnbc.com/2026/10/13/bank-of-america-treasury-money-laundering.html",
+   "ts": "2026-10-13T20:31:46Z",
+   "fuente": "CNBC",
+   "id": "aa27936654",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Bank of America multado con 1.200 millones por violaciones de blanqueo de capitales",
+   "efecto": ""
+  },
+  {
+   "titulo": "S&P 500 closes near flat after big banks post earnings and memory chip stocks decline",
+   "link": "https://www.cnbc.com/2026/10/12/stock-market-today-live-updates.html",
+   "ts": "2026-10-13T20:31:00Z",
+   "fuente": "CNBC",
+   "id": "8efa00a794",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "El S&P 500 cierra plano tras resultados bancarios y caída en chips",
+   "efecto": ""
+  },
+  {
+   "titulo": "Judge says Musk engaged in intimidation of ex-FEMA CFO Mary Comans, clears her name",
+   "link": "https://www.cnbc.com/2026/10/13/judge-says-elon-musk-engaged-intimidation-of-ex-fema-cfo-mary-comans.html",
+   "ts": "2026-10-13T20:30:08Z",
+   "fuente": "CNBC",
+   "id": "296f501b1a",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Juez dice que Musk intimidó a exfuncionaria de FEMA y limpia su nombre",
+   "efecto": ""
+  },
   {
    "titulo": "Micron sinks, other memory-linked names dip for a second day",
    "link": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
@@ -6220,35 +6255,6 @@
    "id": "5b83f040bb",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Goolsbee says AI-induced inflation is 'jumping out of its lane,' Semafor reports",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdHM0clpOMnFqajYyN2FLbEZGZ0FyRUxDc1B1WGI4Nnd1ZDV0dUtEQ3BOa2lEbHBUN3JmWklkNGhuZDZ2dHJmTTZ0STRseE1KU1JHSlkySXhXbHRzMGdZbkh0OUM2NGdtbVhwUU9UbkRIeFhNWjUtbEJ3aDN6RjhzMXgwMUdtSXpaQmF0ajBCSTdzNnZIZENIMTRXMlhEc1NXeUdNczRxdm1CMnBsYmJETk5ibGV5Z19jMzNn?oc=5",
-   "ts": "2026-10-13T14:39:22Z",
-   "fuente": "Reuters",
-   "id": "39cb328e81",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Bank earnings live updates: AI dominates analyst calls from JPMorgan, Goldman and Wells Fargo",
-   "link": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html",
-   "ts": "2026-10-13T14:26:18Z",
-   "fuente": "CNBC",
-   "id": "06204beed0",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Huge profits at tech and energy companies are masking this key trend",
-   "link": "https://www.cnbc.com/2026/10/13/huge-profits-at-tech-and-energy-companies-are-masking-this-key-trend.html",
-   "ts": "2026-10-13T14:23:29Z",
-   "fuente": "CNBC",
-   "id": "d98cf85e14",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -6855,15 +6861,15 @@
     1791921600,
     4186.1,
     4186.9,
-    4183.3,
-    4183.4
+    4180.3,
+    4180.6
    ],
    [
-    1791922647,
-    4183.6,
-    4183.6,
-    4183.6,
-    4183.6
+    1791922952,
+    4180.8,
+    4180.8,
+    4180.8,
+    4180.8
    ]
   ],
   "nq": [
@@ -7466,15 +7472,15 @@
     1791921600,
     30789.25,
     30803.25,
-    30777.25,
-    30787.75
+    30763.5,
+    30765.5
    ],
    [
-    1791922650,
-    30786.5,
-    30786.5,
-    30786.5,
-    30786.5
+    1791922959,
+    30765.0,
+    30765.0,
+    30765.0,
+    30765.0
    ]
   ],
   "vix": [
@@ -7967,10 +7973,17 @@
     15.3,
     15.24,
     15.27
+   ],
+   [
+    1791922500,
+    15.27,
+    15.27,
+    15.27,
+    15.27
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-13T20:02:31Z",
+ "noticias_traducidas_ts": "2026-10-13T20:32:34Z",
  "ult_4h": 1791922958.8432088,
  "estrategia_4h": {
   "oro": {
