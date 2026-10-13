@@ -2820,10 +2820,10 @@
    "actualizado": "2026-10-13T13:27:39Z"
   },
   "vendedor": {
-   "estado": "trabajando",
-   "tarea": "Revisando a quién escribirle",
+   "estado": "descansando",
+   "tarea": "",
    "ultimo_resultado": "Fuera de horario: 0 correos listos para la mañana",
-   "actualizado": "2026-10-13T13:52:34Z"
+   "actualizado": "2026-10-13T13:52:36Z"
   },
   "seguimiento": {
    "estado": "descansando",
@@ -2833,6 +2833,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vendedor",
+   "texto": "Terminó su turno: Fuera de horario: 0 correos listos para la mañana",
+   "ts": "2026-10-13T13:52:36Z"
+  },
   {
    "agente": "disenador",
    "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
@@ -4327,11 +4332,6 @@
    "agente": "disenador",
    "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
    "ts": "2026-10-11T05:27:36Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Terminó su turno: No pude buscar en este turno (HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with)",
-   "ts": "2026-10-11T05:09:23Z"
   }
  ],
  "reportes": {
