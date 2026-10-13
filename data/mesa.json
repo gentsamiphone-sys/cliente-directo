@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4205.6 · NQ 30710.75 · VIX 15.55 · 12 noticias nuevas (5 alto impacto)",
-   "actualizado": "2026-10-13T11:12:37Z"
+   "ultimo_resultado": "Oro 4207.5 · NQ 30697.25 · VIX 15.56 · 15 noticias nuevas (5 alto impacto)",
+   "actualizado": "2026-10-13T11:17:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T11:12:36Z",
-   "ultimo_resultado": "12 titulares nuevos, 5 de alto impacto: The stock market is at a critical juncture. Wall Street is convinced it will resolve in the bulls' favor"
+   "actualizado": "2026-10-13T11:17:32Z",
+   "ultimo_resultado": "15 titulares nuevos, 5 de alto impacto: Bank earnings live updates: JPMorgan posts rare earnings miss, Wells Fargo reports mixed results"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4207.5 · NQ 30697.25 · VIX 15.56 · 15 noticias nuevas (5 alto impacto)",
+   "ts": "2026-10-13T11:17:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4205.6 · NQ 30710.75 · VIX 15.55 · 12 noticias nuevas (5 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +110,987 contratos.",
    "ts": "2026-10-12T21:32:54Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-10-12T21:32:53Z"
   }
  ],
  "briefs": [
@@ -5444,12 +5444,54 @@
   }
  },
  "en_vivo": {
-  "oro": 4205.6,
-  "nq": 30710.75,
-  "vix": 15.55,
-  "ts": "2026-10-13T11:12:36Z"
+  "oro": 4207.5,
+  "nq": 30697.25,
+  "vix": 15.56,
+  "ts": "2026-10-13T11:17:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Bank earnings live updates: JPMorgan posts rare earnings miss, Wells Fargo reports mixed results",
+   "link": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html",
+   "ts": "2026-10-13T11:14:50Z",
+   "fuente": "CNBC",
+   "id": "bbb6c9b081",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Silver price today, Tuesday, October 13, 2026: Sticky silver prices hold along with Fed expectations",
+   "link": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-tuesday-october-13-2026-sticky-silver-prices-hold-along-with-fed-expectations-110635800.html?.tsrc=rss",
+   "ts": "2026-10-13T11:06:35Z",
+   "fuente": "Yahoo Finance",
+   "id": "5c08a8a4b3",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Patagonia Gold Intersects High-Grade Gold-Silver Mineralization at Belén West, Calcatreu",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/patagonia-gold-intersects-high-grade-110000458.html?.tsrc=rss",
+   "ts": "2026-10-13T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "c8d78e775f",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Trifecta Gold Secures 100% Interest in Tombstone Gold Belt Projects, Yukon",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcHpiVTRzY3RUeUhPTTZHaWxfVmx4YXpPNnFBRXdRdWFBNmU2VkJjSV9sam9pQ3dRS0VfNi1aZXVEU3lHYnVZeWl6R1NXRkw0bkJsSmNGdVpVMWQ2cGNCRnlmR0Vyc0VFaTNYUWMybU1fN2Y5NFF2UG9lMzN2dDNnOUpmdWlyVlhXT28xdUlELTVKWTVZYmt5ZDRwaVIzaWptZmhOZ2dPOA?oc=5",
+   "ts": "2026-10-13T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "e564010f04",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Toogood Gold Commences 3,000-Sample Soil Program to Advance District-Scale Gold Targets in Newfoundland",
    "link": "https://finance.yahoo.com/markets/commodities/articles/toogood-gold-commences-3-000-110000598.html?.tsrc=rss",
@@ -5517,6 +5559,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "SSR Mining Outlines 20-Year Marigold Mine Plan with Gold Reserves Rising 43% to 4.6 Million Ounces",
+   "link": "https://investorshub.advfn.com/market-news/article/37960/ssr-mining-outlines-20-year-marigold-mine-plan-with-gold-reserves-rising-43-to-4-6-million-ounces?.tsrc=rss",
+   "ts": "2026-10-13T10:58:50Z",
+   "fuente": "Yahoo Finance",
+   "id": "9697d45aeb",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Bank earnings live updates: JPMorgan stock falls on rare earnings miss",
    "link": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html",
    "ts": "2026-10-13T10:56:22Z",
@@ -5549,6 +5602,17 @@
    "ts": "2026-10-13T10:50:35Z",
    "fuente": "Yahoo Finance",
    "id": "91fc0286df",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "First Au signs binding deal to buy Ida Valley gold project",
+   "link": "https://www.mining-technology.com/news/first-au-to-buy-ida-valley-project/?.tsrc=rss",
+   "ts": "2026-10-13T10:49:03Z",
+   "fuente": "Yahoo Finance",
+   "id": "454c2255ab",
    "activos": [
     "oro"
    ],
@@ -6231,74 +6295,6 @@
    "id": "547e36700a",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
-   "link": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html",
-   "ts": "2026-10-13T04:54:07Z",
-   "fuente": "CNBC",
-   "id": "5989ab5a4e",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Rupee extends surge;  Dollar consolidates near peaks ahead of inflation data",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-steady-dollar-holds-043452263.html?.tsrc=rss",
-   "ts": "2026-10-13T04:34:52Z",
-   "fuente": "Yahoo Finance",
-   "id": "b264bf9a7c",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Asia FX steady as dollar holds near 18-mth high, U.S. CPI awaited",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-steady-dollar-holds-043452263.html?.tsrc=rss",
-   "ts": "2026-10-13T04:34:52Z",
-   "fuente": "Yahoo Finance",
-   "id": "54540379be",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Divisas asiáticas estables mientras el dólar ronda máximos de 18 meses a la espera del IPC de EE. UU.",
-   "efecto": ""
-  },
-  {
-   "titulo": "Yankees Trade Pitch Lands 24-Year-Old Gold Glover to Replace Ryan McMahon",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOa2lYOXRSR2YzYTBTMEtfSzhoWUtsdGlYNmZ4RnpZa3JfUUlMVlhaQ1g1bVpCenE1SWxTR29xYXFUM1ozNFVHZllTMlZrN1J3c1Rmek1YSXlBMDgxN0lvMEtjMWJKNFUzWWtvVUFNN01NMHhKQndMTHdYMzJOVEFRQnNVbw?oc=5",
-   "ts": "2026-10-13T04:32:00Z",
-   "fuente": "Yahoo Sports",
-   "id": "1ca80079c1",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Traspaso en la MLB de los Yankees por un ganador del Guante de Oro",
-   "efecto": ""
-  },
-  {
-   "titulo": "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNendGRHJlLVlnV2t4aUVVQlo5WnFmOS1tS29KcWRia0QwZnNaOFEyTFVhcldVQ2E3VEdiYnpfVl93UU5QRlhzOXlHdDFuTjV1d1FIbmhOcmZNaVNGZHM1ZGh1WDhaN3BTOVlIaWdUS0c1MmtFeXdUOXdRdlp3S0ZWbXNlMU5FYlVRSWQ4OVBfOWsxbVNRZlJhMkNJckpCelJKUTVrZmstWHhJY2hHLXM2eTRwY3VBUjU2c0hGTlE5dnlyWDFVcGNPblBlU2xmVHNRN0NDdGtn?oc=5",
-   "ts": "2026-10-13T04:18:20Z",
-   "fuente": "CoinDesk",
-   "id": "97bc8dfc7e",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "e.l.f. Beauty CEO Tarang Amin on why it ‘never hurts to have a conversation’",
-   "link": "https://www.cnbc.com/video/2026/10/13/elf-beauty-ceo-tarang-amin-on-the-meeting-that-changed-his-mind.html",
-   "ts": "2026-10-13T04:00:01Z",
-   "fuente": "CNBC",
-   "id": "c98f1f380e",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -6841,16 +6837,16 @@
    [
     1791889200,
     4205.5,
-    4206.0,
+    4208.6,
     4203.8,
-    4205.9
+    4208.0
    ],
    [
-    1791889353,
-    4205.6,
-    4205.6,
-    4205.6,
-    4205.6
+    1791889630,
+    4207.5,
+    4207.5,
+    4207.5,
+    4207.5
    ]
   ],
   "nq": [
@@ -7390,15 +7386,15 @@
     1791889200,
     30721.0,
     30721.25,
-    30701.0,
-    30708.0
+    30692.25,
+    30703.25
    ],
    [
-    1791889354,
-    30710.75,
-    30710.75,
-    30710.75,
-    30710.75
+    1791889648,
+    30697.25,
+    30697.25,
+    30697.25,
+    30697.25
    ]
   ],
   "vix": [
@@ -7820,39 +7816,46 @@
     15.29,
     15.57,
     15.28,
+    15.53
+   ],
+   [
+    1791889200,
+    15.53,
+    15.56,
+    15.53,
     15.56
    ],
    [
-    1791889051,
-    15.55,
-    15.55,
-    15.55,
-    15.55
+    1791889351,
+    15.56,
+    15.56,
+    15.56,
+    15.56
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-13T11:02:32Z",
- "ult_4h": 1791889355.4443722,
+ "ult_4h": 1791890252.7221134,
  "estrategia_4h": {
   "oro": {
-   "precio": 4204.9,
-   "atr_4h": 19.98,
+   "precio": 4207.5,
+   "atr_4h": 20.0,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4154.81,
+     "stop": 4154.8,
      "objetivo": 4242.3,
-     "rr": 6.3,
+     "rr": 6.29,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.64,
+     "fuerza_ruptura_atr": 1.65,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30720.25,
+   "precio": 30697.25,
    "atr_4h": 140.02,
    "setups": [
     {
@@ -7865,21 +7868,10 @@
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.98,
      "ruptura": "2026-10-13 00:00 UTC"
-    },
-    {
-     "direccion": "VENTA",
-     "nivel": 30957.5,
-     "entrada": 30957.5,
-     "stop": 31041.51,
-     "objetivo": 30604.75,
-     "rr": 4.2,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.98,
-     "ruptura": "2026-10-12 16:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-13T11:02:35Z"
+  "ts": "2026-10-13T11:17:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
