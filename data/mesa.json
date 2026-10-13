@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4192.1 · NQ 30664.0 · VIX 15.21 · 11 noticias nuevas",
-   "actualizado": "2026-10-13T02:27:32Z"
+   "ultimo_resultado": "Oro 4193.0 · NQ 30660.0 · VIX 15.21 · 12 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-13T02:32:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T02:27:31Z",
-   "ultimo_resultado": "11 titulares nuevos: Horizon Gold advances 2.3Moz Gum Creek project"
+   "actualizado": "2026-10-13T02:32:33Z",
+   "ultimo_resultado": "12 titulares nuevos, 2 de alto impacto: Six Flags shares plunge after-hours following report of deadly roller coaster incident"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4193.0 · NQ 30660.0 · VIX 15.21 · 12 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-13T02:32:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4192.1 · NQ 30664.0 · VIX 15.21 · 11 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4188.6 · NQ 31062.75 · VIX 15.5 · 4 noticias nuevas",
    "ts": "2026-10-12T13:03:53Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4187.5 · NQ 31057.5 · VIX 15.51 · 2 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-12T12:52:36Z"
   }
  ],
  "briefs": [
@@ -5274,12 +5274,33 @@
   }
  },
  "en_vivo": {
-  "oro": 4192.1,
-  "nq": 30664.0,
+  "oro": 4193.0,
+  "nq": 30660.0,
   "vix": 15.21,
-  "ts": "2026-10-13T02:27:31Z"
+  "ts": "2026-10-13T02:32:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Six Flags shares plunge after-hours following report of deadly roller coaster incident",
+   "link": "https://www.cnbc.com/2026/10/13/six-flags-shares-plunge-after-hours-deadly-roller-coaster-incident-goliath-georgia.html",
+   "ts": "2026-10-13T02:29:14Z",
+   "fuente": "CNBC",
+   "id": "c14d561af3",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Gold eases on firm dollar; spotlight on US inflation data",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRnRSZTl3U0dwUkZRSkNlalhmeF94cE1aaGV4NjNZdll2aENMRDZTWGNTTnhjMS1BQ1hKUG9qc2hKS185eXpWTjFfUnBwN1cwdVNIUllaMnc0Tno2SnFBaXp4RGxMWkd1eFhXR1VTLV9qN25ETlIyeEVLNXNGX2NqZV80SUk5WG5IeEVDNGpRbTRfaVliMk9HVk5vQ0lyVnc?oc=5",
+   "ts": "2026-10-13T02:23:00Z",
+   "fuente": "Reuters",
+   "id": "fba6e475c2",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
    "link": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
@@ -6121,26 +6142,6 @@
    "impacto": "alto",
    "es": "Hammack de la Fed advierte que se podrían necesitar tasas más altas por riesgos inflacionarios",
    "efecto": "Presiona al oro y al NQ a la baja, fortalece al dólar."
-  },
-  {
-   "titulo": "Meta debuts Muse Wonder AI model in latest test of users' willingness to pay",
-   "link": "https://www.cnbc.com/2026/10/12/meta-muse-wonder-ai-model-agent.html",
-   "ts": "2026-10-12T17:05:02Z",
-   "fuente": "CNBC",
-   "id": "c2d6568c9b",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Federal Reserve selects KC executive to lead its nationwide payments system",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcDBXMVZrSjU5WnliWGJGSG1qZlYxR0lPSFNuMW13R1BCTjNFV0xOYmVKRVN4dzBueFVnaUtYNTJHeW42Rl9Na0NDdFRZaF9FV0FwMGdFRVhaZ2xoOFpUQWh1QUVYQjZfMndCTENxNUlfOXpSQ1ZZdllMWmtNSmd1OGVWSlc3UncyTC11ZURKbzI0LWJaMi1UY25PeWVfeFFlNTUtekJMQ0dBdw?oc=5",
-   "ts": "2026-10-12T17:01:00Z",
-   "fuente": "The Business Journals",
-   "id": "054ac26226",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -6767,16 +6768,16 @@
    [
     1791856800,
     4188.1,
-    4193.2,
+    4193.3,
     4187.0,
-    4191.7
+    4192.0
    ],
    [
-    1791857848,
-    4192.1,
-    4192.1,
-    4192.1,
-    4192.1
+    1791858152,
+    4193.0,
+    4193.0,
+    4193.0,
+    4193.0
    ]
   ],
   "nq": [
@@ -7401,14 +7402,14 @@
     30665.25,
     30679.0,
     30644.0,
-    30675.0
+    30661.0
    ],
    [
-    1791857848,
-    30664.0,
-    30664.0,
-    30664.0,
-    30664.0
+    1791858153,
+    30659.25,
+    30659.25,
+    30659.25,
+    30659.25
    ]
   ],
   "vix": [
@@ -7912,10 +7913,10 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-13T02:08:21Z",
- "ult_4h": 1791857853.2410507,
+ "ult_4h": 1791858753.9187193,
  "estrategia_4h": {
   "oro": {
-   "precio": 4190.5,
+   "precio": 4193.0,
    "atr_4h": 21.64,
    "setups": [
     {
@@ -7926,17 +7927,29 @@
      "objetivo": 4242.3,
      "rr": 5.82,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.53,
+     "fuerza_ruptura_atr": 1.52,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30667.5,
+   "precio": 30659.25,
    "atr_4h": 144.75,
-   "setups": []
+   "setups": [
+    {
+     "direccion": "VENTA",
+     "nivel": 30957.5,
+     "entrada": 30957.5,
+     "stop": 31044.35,
+     "objetivo": 30644.0,
+     "rr": 3.61,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 1.04,
+     "ruptura": "2026-10-12 16:00 UTC"
+    }
+   ]
   },
-  "ts": "2026-10-13T02:17:33Z"
+  "ts": "2026-10-13T02:32:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
