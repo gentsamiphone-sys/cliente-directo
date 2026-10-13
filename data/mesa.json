@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4205.3 · NQ 30731.0 · VIX 15.41 · 12 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-13T10:37:38Z"
+   "ultimo_resultado": "Oro 4206.0 · NQ 30735.25 · VIX 15.4 · 12 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-13T10:42:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T10:37:37Z",
-   "ultimo_resultado": "12 titulares nuevos, 1 de alto impacto: Bank earnings live updates: JPMorgan and Wells Fargo report results"
+   "actualizado": "2026-10-13T10:42:31Z",
+   "ultimo_resultado": "12 titulares nuevos, 1 de alto impacto: TSX futures rise as yields ease, gold gains"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4206.0 · NQ 30735.25 · VIX 15.4 · 12 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-13T10:42:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4205.3 · NQ 30731.0 · VIX 15.41 · 12 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "15 titulares nuevos, 2 de alto impacto: Trump 'not happy' with Kimberly Guilfoyle, weighs firing her as ambassador to Greece",
    "ts": "2026-10-12T21:32:35Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "15 titulares nuevos, 4 de alto impacto: Kazajistán inicia ventas de oro mientras los bonos del Tesoro revalorizan el dólar",
-   "ts": "2026-10-12T21:27:38Z"
   }
  ],
  "briefs": [
@@ -5444,10 +5444,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4205.3,
-  "nq": 30731.0,
-  "vix": 15.41,
-  "ts": "2026-10-13T10:37:38Z"
+  "oro": 4206.0,
+  "nq": 30735.25,
+  "vix": 15.4,
+  "ts": "2026-10-13T10:42:31Z"
  },
  "noticias": [
   {
@@ -5467,6 +5467,60 @@
    "id": "7e6fe00a04",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "TSX futures rise as yields ease, gold gains",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMU5CeGQ3TVIwRXJjUklacE5fMGdDR1NSQnFjcnVabGxaWHI3dTlkUUlEVGViTUlYNDhsa2VCR3BPMl9qdTRmZDlvOUtudUhDel9PLXZSVDJ1dXJYcDdTVDlmLS0tMVEzMjRSVzlMSk9WWVQwQXVtMnB5TzhLcUk3REZBZzNjNWl4TGhBTg?oc=5",
+   "ts": "2026-10-13T10:30:11Z",
+   "fuente": "Reuters",
+   "id": "04849f2cb6",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Torreon Group Inc./NEXT10 Inc. Completes Phase One Investment at Panuco Mining Operations and Advances Gold Production Expansion",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/torreon-group-inc-next10-inc-103000327.html?.tsrc=rss",
+   "ts": "2026-10-13T10:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "4e691dce46",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Equinox Gold Reports Q3 Production Results Following Transformational Combination with Orla; Expanded Canadian Production Platform Positioned for Strong Finish to 2026",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/equinox-gold-reports-q3-production-103000764.html?.tsrc=rss",
+   "ts": "2026-10-13T10:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "7a1a917eb1",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Integra Provides DeLamar Project Update: Detailed Engineering, Permitting, Procurement and State of Good Repairs Work Advancing in Line with Plan, Appoints GenCap as Project Financing Advisor",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/integra-provides-delamar-project-detailed-103000939.html?.tsrc=rss",
+   "ts": "2026-10-13T10:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "7fc13fc523",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Collective Mining Discovers Shallow High-Grade Silver-Tungsten Mineralization in Northern Apollo, Drilling 5.50m at 1,283 g/t Silver, 0.83% WO₃, 0.57% Copper and 0.17 g/t Gold from 89.15m",
+   "link": "https://finance.yahoo.com/news/collective-mining-discovers-shallow-high-103000288.html?.tsrc=rss",
+   "ts": "2026-10-13T10:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "41d5096798",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Bank earnings live updates: JPMorgan and Wells Fargo results are up first",
@@ -6246,64 +6300,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
-   "link": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
-   "ts": "2026-10-13T02:11:41Z",
-   "fuente": "CNBC",
-   "id": "63469627a1",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Global economy to slow less than expected in 2026 as AI boom offsets war hit: IMF",
-   "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
-   "ts": "2026-10-13T02:08:05Z",
-   "fuente": "CNBC",
-   "id": "80aeb7dee3",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "FMI prevé desaceleración global menor en 2026 por auge de IA frente a guerras",
-   "efecto": "Soporta al NQ por optimismo tecnológico a mediano plazo."
-  },
-  {
-   "titulo": "PHOTOS: Alpha Phi Alpha's Miss Old and Gold Pageant makes a comeback -",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOTN4cTFrR3FiMjl2cHY0Nmk5OXNTbWpxODFsY0V5UU9XYlJWZGhrRUc5QjhTd3Qxd0oxZXB6WUllN3J3bnZvX0o2N1RvUWx5TkFoTjk1TmUzT3ZndHZ6aHNaWVVMSzk4M1FoUWNNQjlrRDNwZDU5dWlpSHR0VFJ4MlZOQm5VYmdTMlY4bEtyMG0zdw?oc=5",
-   "ts": "2026-10-13T01:52:00Z",
-   "fuente": "The Mercer Cluster",
-   "id": "520d5e0cf5",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gold inches up as oil dips, traders look ahead to U.S. inflation data",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-slips-near-4-160-015039835.html?.tsrc=rss",
-   "ts": "2026-10-13T01:50:39Z",
-   "fuente": "Yahoo Finance",
-   "id": "2da13a6390",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Gold rebounds as dollar retreats, Middle East tensions sustain inflation concerns",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-slips-near-4-160-015039835.html?.tsrc=rss",
-   "ts": "2026-10-13T01:50:39Z",
-   "fuente": "Yahoo Finance",
-   "id": "8666c8778b",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -6840,15 +6836,15 @@
     1791885600,
     4210.8,
     4213.5,
-    4204.8,
-    4204.8
+    4204.7,
+    4205.9
    ],
    [
-    1791887254,
-    4205.3,
-    4205.3,
-    4205.3,
-    4205.3
+    1791887544,
+    4206.0,
+    4206.0,
+    4206.0,
+    4206.0
    ]
   ],
   "nq": [
@@ -7381,15 +7377,15 @@
     1791885600,
     30762.5,
     30763.75,
-    30728.25,
-    30731.0
+    30725.25,
+    30737.25
    ],
    [
-    1791887257,
-    30731.75,
-    30731.75,
-    30731.75,
-    30731.75
+    1791887548,
+    30735.25,
+    30735.25,
+    30735.25,
+    30735.25
    ]
   ],
   "vix": [
@@ -7811,14 +7807,14 @@
     15.29,
     15.41,
     15.28,
-    15.41
+    15.39
    ],
    [
-    1791886951,
-    15.41,
-    15.41,
-    15.41,
-    15.41
+    1791887236,
+    15.4,
+    15.4,
+    15.4,
+    15.4
    ]
   ]
  },
