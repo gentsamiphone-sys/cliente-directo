@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4210.0 · NQ 30678.5 · VIX 15.42 · 14 noticias nuevas (7 alto impacto)",
-   "actualizado": "2026-10-13T11:52:37Z"
+   "ultimo_resultado": "Oro 4212.2 · NQ 30686.0 · VIX 15.44 · 14 noticias nuevas (6 alto impacto)",
+   "actualizado": "2026-10-13T11:57:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T11:52:37Z",
-   "ultimo_resultado": "14 titulares nuevos, 7 de alto impacto: US Dollar Falls Early Tuesday Ahead of Existing Home Sales, Treasury Budget"
+   "actualizado": "2026-10-13T11:57:38Z",
+   "ultimo_resultado": "14 titulares nuevos, 6 de alto impacto: Bank earnings live updates: Goldman Sachs posts massive revenue beat, fueled by equities trading"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4212.2 · NQ 30686.0 · VIX 15.44 · 14 noticias nuevas (6 alto impacto)",
+   "ts": "2026-10-13T11:57:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4210.0 · NQ 30678.5 · VIX 15.42 · 14 noticias nuevas (7 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "ES/NQ: CONFIRMA: ES y NQ van en la misma dirección · ES bajista en 1H",
    "ts": "2026-10-12T21:33:04Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el S&P 500 (ES) con el NQ…",
-   "ts": "2026-10-12T21:33:02Z"
   }
  ],
  "briefs": [
@@ -5444,12 +5444,43 @@
   }
  },
  "en_vivo": {
-  "oro": 4210.0,
-  "nq": 30678.5,
-  "vix": 15.42,
-  "ts": "2026-10-13T11:52:37Z"
+  "oro": 4212.2,
+  "nq": 30686.0,
+  "vix": 15.44,
+  "ts": "2026-10-13T11:57:38Z"
  },
  "noticias": [
+  {
+   "titulo": "Bank earnings live updates: Goldman Sachs posts massive revenue beat, fueled by equities trading",
+   "link": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html",
+   "ts": "2026-10-13T11:53:52Z",
+   "fuente": "CNBC",
+   "id": "762e2b8bf5",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Iran reportedly fortifies nuclear sites as it prepares for possible U.S. strikes after midterms",
+   "link": "https://www.cnbc.com/2026/10/13/iran-us-war-houthis-saudi-arabia-airport.html",
+   "ts": "2026-10-13T11:53:45Z",
+   "fuente": "CNBC",
+   "id": "3563d6bb23",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Stocks making the biggest moves premarket: JPMorgan Chase, Micron, UnitedHealth & more",
+   "link": "https://www.cnbc.com/2026/10/13/stocks-making-the-biggest-moves-premarket-jpm-mu-unh.html",
+   "ts": "2026-10-13T11:49:04Z",
+   "fuente": "CNBC",
+   "id": "a637cb70e0",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Only 18% of Americans use a high-yield savings account — and they reap hundreds more in interest. Here’s how you can too",
    "link": "https://finance.yahoo.com/markets/currencies/articles/only-18-americans-high-yield-114000340.html?.tsrc=rss",
@@ -6259,39 +6290,6 @@
    "impacto": "alto",
    "es": "Las acciones tecnológicas caen al extenderse la liquidación de chips en Wall Street. SK Hynix, SoftBank y ASML se desploman",
    "efecto": "Presiona al NQ a la baja por el desplome en semiconductores."
-  },
-  {
-   "titulo": "Gold and silver fall ahead of U.S. CPI: Rebound opportunity or further downside?",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5DblBXek5TZDVUelhuRF9fVm5tQ3luWkxObFEtejMyUlZqNF9PSG9Yb0tYN1VkemFaNjF3UWpOZzdCc3lKNUttdzczaVd0WEVlWTAzeHVUR25STFU5dU5lSTR2RDdQQmZPbWdmMTRxWm9mUmZQUVZFcFhKQk54dw?oc=5",
-   "ts": "2026-10-13T07:15:37Z",
-   "fuente": "Yahoo Finance Australia",
-   "id": "acbf024e7e",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Silver One's ZTEM Airborne Geophysical Survey Identifies 7 Additional Silver Targets and 6 Potential Porphyry Copper-Silver-Gold Systems at the Candelaria Project, Nevada",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/silver-ones-ztem-airborne-geophysical-071400350.html?.tsrc=rss",
-   "ts": "2026-10-13T07:14:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "d5a7c4af78",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Dream Vacations Wins Five 2026 Travel Weekly Magellan Awards, Including Three Gold and Two Silver",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxON05VX3hReF82VHk2NjFqQXpGbTRvcEQ3Sm5pZnN0ZnRqQmN1eEkyM3RGRzg1SWJsbGd5MkN4QVNQNjdQb0txNDFndzVzUzhNalNtUk5iVDZVLWxNREVPZ1g1MnZtM0pqazlUX0VyMTQ1TDBINS1FeXhKbEdzTG53MGxmd2p3MEhIZzR3OGNiQlNGZWRiQnczZTM4OXUwNlZ2UUtTWXRVSTl6Sjc3eDlIaVJVVFpzc0g0MEwxLUtEQ1VQN1R2blZvUktVdVZfMFhNamxYc21yMlRoS3pYQ1VUWDlIcGxOWk0?oc=5",
-   "ts": "2026-10-13T07:00:00Z",
-   "fuente": "PR Newswire",
-   "id": "1b1eee84da",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -6834,16 +6832,16 @@
    [
     1791889200,
     4205.4,
-    4211.0,
+    4212.6,
     4203.8,
-    4210.0
+    4212.2
    ],
    [
-    1791891754,
-    4210.0,
-    4210.0,
-    4210.0,
-    4210.0
+    1791892045,
+    4212.2,
+    4212.2,
+    4212.2,
+    4212.2
    ]
   ],
   "nq": [
@@ -7384,14 +7382,14 @@
     30719.5,
     30721.25,
     30654.5,
-    30679.75
+    30688.25
    ],
    [
-    1791891753,
-    30678.5,
-    30678.5,
-    30678.5,
-    30678.5
+    1791892055,
+    30686.0,
+    30686.0,
+    30686.0,
+    30686.0
    ]
   ],
   "vix": [
@@ -7820,14 +7818,14 @@
     15.53,
     15.58,
     15.39,
-    15.42
+    15.44
    ],
    [
-    1791891451,
-    15.42,
-    15.42,
-    15.42,
-    15.42
+    1791891751,
+    15.44,
+    15.44,
+    15.44,
+    15.44
    ]
   ]
  },
