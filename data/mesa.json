@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4207.1 · NQ 30742.75 · VIX 15.4 · 6 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-13T10:32:37Z"
+   "ultimo_resultado": "Oro 4205.3 · NQ 30731.0 · VIX 15.41 · 12 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-13T10:37:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T10:32:36Z",
-   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: Bank earnings live updates: Wells Fargo reports results"
+   "actualizado": "2026-10-13T10:37:37Z",
+   "ultimo_resultado": "12 titulares nuevos, 1 de alto impacto: Bank earnings live updates: JPMorgan and Wells Fargo report results"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4205.3 · NQ 30731.0 · VIX 15.41 · 12 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-13T10:37:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4207.1 · NQ 30742.75 · VIX 15.4 · 6 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "15 titulares nuevos, 4 de alto impacto: Kazajistán inicia ventas de oro mientras los bonos del Tesoro revalorizan el dólar",
    "ts": "2026-10-12T21:27:38Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "15 titulares nuevos, 2 de alto impacto: Trump 'not happy' with Kimberly Guilfoyle, weighs firing her",
-   "ts": "2026-10-12T21:22:32Z"
   }
  ],
  "briefs": [
@@ -5444,12 +5444,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4207.1,
-  "nq": 30742.75,
-  "vix": 15.4,
-  "ts": "2026-10-13T10:32:36Z"
+  "oro": 4205.3,
+  "nq": 30731.0,
+  "vix": 15.41,
+  "ts": "2026-10-13T10:37:38Z"
  },
  "noticias": [
+  {
+   "titulo": "Bank earnings live updates: JPMorgan and Wells Fargo report results",
+   "link": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html",
+   "ts": "2026-10-13T10:36:17Z",
+   "fuente": "CNBC",
+   "id": "900a59a250",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Bank earnings live updates: Wells Fargo reports results",
    "link": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html",
@@ -5474,11 +5483,42 @@
    "efecto": "Mueve futuros del Nasdaq y dólar según la salud bancaria."
   },
   {
+   "titulo": "Commerzbank Says Treasuries Rally as US Equity Futures Decline, Oil Prices Slip, US Dollar Lower",
+   "link": "https://finance.yahoo.com/economy/policy/articles/commerzbank-says-treasuries-rally-us-101959189.html?.tsrc=rss",
+   "ts": "2026-10-13T10:19:59Z",
+   "fuente": "Yahoo Finance",
+   "id": "01c0881548",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "S&P 500 futures are mixed ahead of bank earnings; memory stocks fall after sell-off in Korea: Live updates",
    "link": "https://www.cnbc.com/2026/10/12/stock-market-today-live-updates.html",
    "ts": "2026-10-13T10:17:18Z",
    "fuente": "CNBC",
    "id": "7a9f681f71",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "SSR Mining Announces the Acquisition of Roxmore Resources",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/ssr-mining-announces-acquisition-roxmore-101300891.html?.tsrc=rss",
+   "ts": "2026-10-13T10:13:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "259b784bf2",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "3 Oil Stocks Worth Watching As Higher Crude Prices Lift Energy Cash Flow",
+   "link": "https://finance.yahoo.com/energy/articles/3-oil-stocks-worth-watching-101004484.html?.tsrc=rss",
+   "ts": "2026-10-13T10:10:04Z",
+   "fuente": "Yahoo Finance",
+   "id": "49f3215269",
    "activos": [
     "nq"
    ],
@@ -5499,6 +5539,15 @@
    "ts": "2026-10-13T10:00:01Z",
    "fuente": "CNBC",
    "id": "1a631db918",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "SSR Mining Announces 20-Year Life of Mine Plan for Marigold Based on Expanded 4.6 Million Ounce Mineral Reserve",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/ssr-mining-announces-20-life-100000356.html?.tsrc=rss",
+   "ts": "2026-10-13T10:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "d09ee47b92",
    "activos": [],
    "impacto": "bajo"
   },
@@ -5541,6 +5590,17 @@
    "id": "d6ab7bcbe4",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Stock Market Today: Dow Jones, S&P 500 Futures Gain While Nasdaq 100 Falls as Scott Bessent Says Iran's E",
+   "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQYm04Q1VfLWNuMGpHTHN0NUpxbzA4cHBneW50MGpMSUFtZHNEQ0Q2anNDdlg0dzRMbnR2d0hNWnlscGJmUXpXbWVPX0xGRlhKZ1Fjd01rSkVSWko4Vm1taGoyUmdnOVZqSF9zcTVoVkpvRjRoNGc5aC0zOXB1VHBSY1BtdEJwdUtWSlBBamRnZV9hTzR4cUMzTWFDR2Z2dGVWVzZtT3ludVlZSk1OT0VMNnoyMGJjZWRYYy1ncjBjWEdVZENrMzlXZmVyRHVGbUd2elMyTVNKcFlnX1hfS0xNaHBWak5JU0FPNVp1Z2pYdllaamhfZHk2S3pMZllCcDBHVlE3bEV4cW9uajRNZDRFNnE3WWZBamJKaG5sRGM4ZHhmaGpPQUdaMQ?oc=5",
+   "ts": "2026-10-13T09:55:18Z",
+   "fuente": "Benzinga",
+   "id": "18a40428d5",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -6244,73 +6304,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Gold slips near $4,160 as Middle East tensions fuel rate-hike concerns",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-slips-near-4-160-015039835.html?.tsrc=rss",
-   "ts": "2026-10-13T01:50:39Z",
-   "fuente": "Yahoo Finance",
-   "id": "1c61cb1e41",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El oro cae cerca de $4,160 por temores de subidas de tasas ante tensiones en Oriente Medio",
-   "efecto": "Presiona al oro a la baja por fortaleza del dólar y tasas."
-  },
-  {
-   "titulo": "S&P 500 futures are flat ahead of bank earnings; South Korea's Kospi falls below 6,000: Live updates",
-   "link": "https://www.cnbc.com/2026/10/12/stock-market-today-live-updates.html",
-   "ts": "2026-10-13T01:42:40Z",
-   "fuente": "CNBC",
-   "id": "5bde34eb1a",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Why Lundin Gold (TSX:LUG) Is Up 11.3% After Record Q3 Output At Fruta del Norte",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTUw2SmpGWG1qcDV2a1dVRVdYZFNyY19GcEJLVXRjM0RNeFpkeXdpcVUyRXV2c1pFRzc5bERMWjlWNTVYX2w2YnRXMGhaR2oxS2R6V0FsbTBzdUlIUUVBX2s3Tm9QWC1XOHl4UF9wSTEydzk2aThRSGhTVWQ2SWlNUU5tZkJsVzc5X0Jaa003ZDJPUQ?oc=5",
-   "ts": "2026-10-13T01:28:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "1f4199aa98",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil",
-   "link": "https://www.cnbc.com/2026/10/13/singapore-war-geopolitics-dbs-bank-ceo.html",
-   "ts": "2026-10-13T01:26:41Z",
-   "fuente": "CNBC",
-   "id": "06fd3a1bc2",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Gold Falls as Markets Focus on U.S. Data",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ0l3aTVSWWxrcm9PSDRHcnhuRExZQzc2QS1kRFZzYlZsbXUtaFQtaWh5SGxiaGtXVW5HM3pGdXBOa2E2SFZlVUpLWUZHRG1hb3h0NnJqeHdfR045N2FNR2I4T3FZVnF5UlB2QmZOcGZjQ000R0pIZWdlMVNMc2tiYXBuWEZmN0ZlRHpqcFd4RkhtMUtiejFZZndBbmI?oc=5",
-   "ts": "2026-10-13T01:19:00Z",
-   "fuente": "WSJ",
-   "id": "bfedd8c861",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "S&P 500 futures are little changed after mixed session; traders await bank earnings: Live updates",
-   "link": "https://www.cnbc.com/2026/10/12/stock-market-today-live-updates.html",
-   "ts": "2026-10-13T00:56:40Z",
-   "fuente": "CNBC",
-   "id": "02013d390a",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -6847,15 +6840,15 @@
     1791885600,
     4210.8,
     4213.5,
-    4205.9,
-    4207.6
+    4204.8,
+    4204.8
    ],
    [
-    1791886953,
-    4207.1,
-    4207.1,
-    4207.1,
-    4207.1
+    1791887254,
+    4205.3,
+    4205.3,
+    4205.3,
+    4205.3
    ]
   ],
   "nq": [
@@ -7388,15 +7381,15 @@
     1791885600,
     30762.5,
     30763.75,
-    30732.75,
-    30746.25
+    30728.25,
+    30731.0
    ],
    [
-    1791886942,
-    30742.75,
-    30742.75,
-    30742.75,
-    30742.75
+    1791887257,
+    30731.75,
+    30731.75,
+    30731.75,
+    30731.75
    ]
   ],
   "vix": [
@@ -7816,16 +7809,16 @@
    [
     1791885600,
     15.29,
-    15.4,
+    15.41,
     15.28,
-    15.4
+    15.41
    ],
    [
-    1791886651,
-    15.4,
-    15.4,
-    15.4,
-    15.4
+    1791886951,
+    15.41,
+    15.41,
+    15.41,
+    15.41
    ]
   ]
  },
