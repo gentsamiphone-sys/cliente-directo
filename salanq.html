@@ -70,7 +70,7 @@ body.directo #alerta small{font:700 20px/1.35 "IBM Plex Mono",monospace;margin-t
 body.directo.graf #grafV{display:flex;flex-direction:column;position:fixed;right:24px;top:96px;z-index:7;width:44vw;height:calc(66vh - 100px);background:rgba(8,10,13,.96);border:2px solid #d7ff3a;border-radius:16px;overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.6)}
 #grafV header{display:flex;align-items:center;gap:12px;padding:8px 14px;background:#0f1318;font:800 22px "Familjen Grotesk",sans-serif;color:#f4f7ee}#grafV header .rojo{background:#e0261b;color:#fff;font:800 12px "IBM Plex Mono",monospace;padding:4px 8px;border-radius:7px;animation:lat 1.4s infinite}
 #grafV header b{color:#d7ff3a}#gvPx{margin-left:auto;font:800 26px "IBM Plex Mono",monospace;color:#d7ff3a}#gvPx.up{color:#3fd68b}#gvPx.dn{color:#ff5b5b}
-#gvTV{flex:1;min-height:0}#gvTV>div{height:100%}
+.gvB{background:#161b21;color:#f4f7ee;border:1px solid #2a3026;border-radius:8px;font:800 14px "IBM Plex Mono",monospace;padding:5px 10px;cursor:pointer}.gvB.on{background:#d7ff3a;color:#0b0d10}#gvTV{flex:1;min-height:0}#gvTV>div{height:100%}
 #gvNiv{display:flex;gap:8px;padding:8px 12px;background:#0f1318;font:700 15px "IBM Plex Mono",monospace;color:#8a948c;flex-wrap:wrap}#gvNiv span{border-radius:8px;padding:4px 10px;background:#161b21}#gvNiv b{color:#f4f7ee}
 body.directo.graf #predV{display:block;position:fixed;left:24px;top:110px;z-index:8;width:330px;background:rgba(11,13,16,.94);border:2px solid #2a3026;border-radius:14px;padding:12px 16px;color:#f4f7ee;font:500 15px "IBM Plex Mono",monospace}
 #predV h4{margin:0 0 6px;font:800 20px "Familjen Grotesk",sans-serif;color:#d7ff3a}#predV .q{font:800 19px "Familjen Grotesk",sans-serif}#predV .t{font:800 34px "IBM Plex Mono",monospace;margin-top:4px}#predV .r{font:800 22px "Familjen Grotesk",sans-serif}#predV .gana{color:#3fd68b}#predV .pierde{color:#ff5b5b}
@@ -104,7 +104,7 @@ document.getElementById('gsamGateF').addEventListener('submit',async function(e)
   <div class="proc"><span>Próximo análisis</span><div class="bar"><i id="pBar"></i></div><span id="pTxt">—</span></div>
   <form id="f"><input id="q" placeholder="Escribe a toda la sala…" autocomplete="off"><button aria-label="Enviar">➤</button></form>
 </aside>
-<div id="alerta" role="status" aria-live="assertive"></div><div id="vwBig" aria-label="Pantalla gigante ampliada"><canvas id="vwC" width="1280" height="668"></canvas></div><div id="grafV"><header><div class="rojo">● LIVE</div><span id="gvTit">NQ · <b>NASDAQ 100</b></span><span id="gvPx">—</span></header><div id="gvTV"></div><div id="gvNiv"></div></div><div id="predV" aria-live="polite"></div><div id="vivo"><div class="rojo">● EN VIVO</div><span>GSAM <b>CAPITAL</b> · Sala de NQ y oro<small id="vivoTxt">—</small></span></div>
+<div id="alerta" role="status" aria-live="assertive"></div><div id="vwBig" aria-label="Pantalla gigante ampliada"><canvas id="vwC" width="1280" height="668"></canvas></div><div id="grafV"><header><div class="rojo">● LIVE</div><span id="gvTit">NQ · <b>NASDAQ 100</b></span><span id="gvPx">—</span><button class="gvB" data-s="nq">NQ</button><button class="gvB" data-s="oro">ORO</button></header><div id="gvTV"></div><div id="gvNiv"></div></div><div id="predV" aria-live="polite"></div><div id="vivo"><div class="rojo">● EN VIVO</div><span>GSAM <b>CAPITAL</b> · Sala de NQ y oro<small id="vivoTxt">—</small></span></div>
 <div id="marcD"><div class="up"><b id="dG">0</b>GANADAS</div><div class="dn"><b id="dP">0</b>PERDIDAS</div><div><b id="dR">0R</b>R TOTAL</div><div><b id="dA">—</b>ACIERTO</div></div>
 <div id="toma"></div><div id="cinta"><div id="cintaTxt">Cargando datos de la mesa…</div></div>
 <button id="directo" title="Modo directo para Kick/OBS" aria-label="Activar el modo directo">📺</button><button id="voces" aria-label="Activar o silenciar las voces de los agentes" title="Voces de los agentes">🤐</button><button id="musica" aria-label="Activar o silenciar la música" title="Música">🎵</button><button id="sonido" aria-label="Activar o silenciar sonido">🔊</button>
@@ -612,10 +612,10 @@ if(DIRECTO){ren.setPixelRatio(1);ren.setSize(W(),H());ren.shadowMap.enabled=fals
 /* ---------- gráfico en vivo para el stream ---------- */
 const GV={sim:"nq",cambio:0,pred:null,ant:{}};
 const GV_TV={nq:["OANDA:NAS100USD","NQ · <b>NASDAQ 100</b>"],oro:["OANDA:XAUUSD","ORO · <b>XAU/USD</b>"]};
-function gvMontar(sim){GV.sim=sim;const c=$("gvTV");c.innerHTML="";$("gvTit").innerHTML=GV_TV[sim][1];
+function gvMontar(sim){GV.sim=sim;const c=$("gvTV");c.innerHTML="";$("gvTit").innerHTML=GV_TV[sim][1];for(const b of document.querySelectorAll("#grafV .gvB"))b.classList.toggle("on",b.dataset.s===sim);
   const w=document.createElement("div");w.className="tradingview-widget-container";w.innerHTML='<div class="tradingview-widget-container__widget" style="height:100%"></div>';
   const sc2=document.createElement("script");sc2.src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";sc2.async=true;
-  sc2.textContent=JSON.stringify({autosize:true,symbol:GV_TV[sim][0],interval:"5",timezone:"America/Los_Angeles",theme:"dark",style:"1",locale:"es",hide_top_toolbar:true,hide_legend:false,hide_side_toolbar:true,allow_symbol_change:false,save_image:false,backgroundColor:"rgba(8,10,13,1)",gridColor:"rgba(255,255,255,0.05)",studies:["STD;EMA"],support_host:"https://www.tradingview.com"});
+  sc2.textContent=JSON.stringify({autosize:true,symbol:GV_TV[sim][0],interval:"5",timezone:"America/Los_Angeles",theme:"dark",style:"1",locale:"es",hide_top_toolbar:false,hide_legend:false,hide_side_toolbar:false,withdateranges:true,allow_symbol_change:false,save_image:false,backgroundColor:"rgba(8,10,13,1)",gridColor:"rgba(255,255,255,0.05)",studies:["STD;EMA"],support_host:"https://www.tradingview.com"});
   w.appendChild(sc2);c.appendChild(w);gvNiveles()}
 function gvNiveles(){const ev=M.en_vivo||{},px=ev[GV.sim],el=$("gvPx");
   if(px){const a=GV.ant[GV.sim];el.textContent=Number(px).toLocaleString("en-US",{maximumFractionDigits:2});el.className=a==null?"":px>a?"up":px<a?"dn":el.className;GV.ant[GV.sim]=px}
@@ -634,7 +634,7 @@ function gvPred(){const px=(M.en_vivo||{}).nq,box=$("predV");if(!px){box.innerHT
   else{if(P.res==null)P.res=px;const up=P.res>P.ini,eq=P.res===P.ini;
     box.innerHTML=`<h4>⏱ RESULTADO</h4><div class="q">NQ ${f(P.ini)} → ${f(P.res)}</div><div class="r ${eq?"":up?"gana":"pierde"}">${eq?"= SIN CAMBIO":up?"↑ GANÓ SUBE":"↓ GANÓ BAJA"}</div><div>Nueva ronda en 1 min · ¡comenta!</div>`}}
 if(DIRECTO&&new URLSearchParams(location.search).get("grafico")!=="0"){document.body.classList.add("graf");gvMontar("nq");
-  setInterval(()=>gvMontar(GV.sim==="nq"?"oro":"nq"),240000);setInterval(gvNiveles,5000);setInterval(gvPred,1000);setInterval(cargar,15000)}
+  for(const b of document.querySelectorAll("#grafV .gvB"))b.onclick=()=>{if(b.dataset.s!==GV.sim)gvMontar(b.dataset.s)};setInterval(gvNiveles,5000);setInterval(gvPred,1000);setInterval(cargar,15000)}
 addEventListener("keydown",e=>{if(DIRECTO&&(e.key==="g"||e.key==="G"))document.body.classList.toggle("graf")});
 
 /* ---------- animación ---------- */
