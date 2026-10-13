@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4188.2 · NQ 30784.25 · VIX 15.21 · 13 noticias nuevas",
-   "actualizado": "2026-10-13T00:47:35Z"
+   "ultimo_resultado": "Oro 4186.2 · NQ 30748.0 · VIX 15.21 · 14 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-13T00:52:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T00:47:33Z",
-   "ultimo_resultado": "13 titulares nuevos: Delta delays debut of Saudi Arabia service until March after Riyadh airport attacks"
+   "actualizado": "2026-10-13T00:52:36Z",
+   "ultimo_resultado": "14 titulares nuevos, 1 de alto impacto: Singapore PM Wong rejects weaker currency as shortcut to competitiveness"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4186.2 · NQ 30748.0 · VIX 15.21 · 14 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-13T00:52:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4188.2 · NQ 30784.25 · VIX 15.21 · 13 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Revisando cómo salieron las entradas anteriores…",
    "ts": "2026-10-12T12:32:58Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Abriendo la mesa para la sesión de Nueva York.",
-   "ts": "2026-10-12T12:32:57Z"
   }
  ],
  "briefs": [
@@ -5274,12 +5274,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4188.2,
-  "nq": 30784.25,
+  "oro": 4186.2,
+  "nq": 30748.0,
   "vix": 15.21,
-  "ts": "2026-10-13T00:47:34Z"
+  "ts": "2026-10-13T00:52:36Z"
  },
  "noticias": [
+  {
+   "titulo": "Singapore PM Wong rejects weaker currency as shortcut to competitiveness",
+   "link": "https://www.cnbc.com/2026/10/13/singapore-pm-wong-rejects-weakening-currency-for-competitiveness.html",
+   "ts": "2026-10-13T00:39:36Z",
+   "fuente": "CNBC",
+   "id": "1cc4b76948",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "GM CEO: We're making leaps and bounds toward 'eyes-off, hands-off' driving",
    "link": "https://www.cnbc.com/2026/10/12/cramer-gm-eyes-off-driving-2028.html",
@@ -5288,6 +5297,17 @@
    "id": "40c4648762",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold Holds Drop as Middle East Fighting Stokes Inflation Fears",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNGxFTlR1SHo4d3B6YnI0bEpxUTNSeE92ZkRWNW45WG5wMDhCcVJqSDdjVDZXWnpEV2xlTWlVbnVxYWJ3Y0V2SGpaVjB0MldSWllRQS1rREVnamFUTGxIWlhTSk0tT3BRUEFkbVVuSWlxa3UxMFRxOS11RXMzR3VvVExCTDM2ZE9DbmN2cnp1XzBFblA1cmo1STBzTGJYLWxhak1Ma2NBMGpsUDJOWU92REt0SQ?oc=5",
+   "ts": "2026-10-12T23:54:56Z",
+   "fuente": "Bloomberg.com",
+   "id": "9a5fc6abe0",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Nasdaq ends lower as oil prices surge ahead of earnings, economic data",
@@ -6112,24 +6132,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Trump defends Russia diesel deal after bipartisan pushback: 'I made the right choice'",
-   "link": "https://www.cnbc.com/2026/10/12/trump-russia-diesel-putin.html",
-   "ts": "2026-10-12T15:55:38Z",
-   "fuente": "CNBC",
-   "id": "3459d5d1ce",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Oil rises as Trump comments roil energy markets",
-   "link": "https://finance.yahoo.com/markets/articles/stocks-rise-oil-prices-tumble-023050308.html?.tsrc=rss",
-   "ts": "2026-10-12T15:55:03Z",
-   "fuente": "Yahoo Finance",
-   "id": "d89c14d461",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -6758,14 +6760,14 @@
     4194.5,
     4195.7,
     4184.5,
-    4188.7
+    4185.9
    ],
    [
-    1791851840,
-    4188.2,
-    4188.2,
-    4188.2,
-    4188.2
+    1791852143,
+    4186.2,
+    4186.2,
+    4186.2,
+    4186.2
    ]
   ],
   "nq": [
@@ -7390,14 +7392,14 @@
     30810.25,
     30845.0,
     30730.5,
-    30788.25
+    30751.75
    ],
    [
-    1791851852,
-    30784.25,
-    30784.25,
-    30784.25,
-    30784.25
+    1791852155,
+    30748.0,
+    30748.0,
+    30748.0,
+    30748.0
    ]
   ],
   "vix": [
