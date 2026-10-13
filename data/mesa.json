@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4200.8 · NQ 30650.5 · VIX 15.31 · 15 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-13T13:17:36Z"
+   "ultimo_resultado": "Oro 4200.6 · NQ 30657.0 · VIX 15.31 · 15 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-13T13:22:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T13:17:35Z",
-   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: Micron drops 5% as tech stocks rattled by China chip breakthrough claims"
+   "actualizado": "2026-10-13T13:22:37Z",
+   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: Martin Shkreli violated lifetime pharma industry ban, FTC and states say in contempt claim"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4200.6 · NQ 30657.0 · VIX 15.31 · 15 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-13T13:22:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4200.8 · NQ 30650.5 · VIX 15.31 · 15 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4191.1 · NQ 30758.75 · VIX 15.21 · 13 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-13T00:32:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4191.4 · NQ 30774.75 · VIX 15.21 · 14 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-13T00:27:39Z"
   }
  ],
  "briefs": [
@@ -5444,12 +5444,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4200.8,
-  "nq": 30650.5,
+  "oro": 4200.6,
+  "nq": 30657.0,
   "vix": 15.31,
-  "ts": "2026-10-13T13:17:35Z"
+  "ts": "2026-10-13T13:22:38Z"
  },
  "noticias": [
+  {
+   "titulo": "Martin Shkreli violated lifetime pharma industry ban, FTC and states say in contempt claim",
+   "link": "https://www.cnbc.com/2026/10/13/martin-shkreli-ftc-pharma-contempt.html",
+   "ts": "2026-10-13T13:21:26Z",
+   "fuente": "CNBC",
+   "id": "53d85ee675",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Micron drops 5% as tech stocks rattled by China chip breakthrough claims",
    "link": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
@@ -5476,6 +5485,17 @@
    "ts": "2026-10-13T13:05:00Z",
    "fuente": "Fortune",
    "id": "3a66bca593",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Barranco Gold Expands Soil and Rock Sampling at King Project",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdjVLNVpLclpTWFZjLU9lbW9pSjNkMnpPeXVNZnU3Z3BqX0U3NUF4SF93Q3YzQlFaUVlFWnRLV0lVVUp6bV9rYllqYkExUjdBcXBhT2g3Qm9kUlhRWlVSWGZ3M01YUTExUlpQNlJHTVdrQ2Jna29OakVVSnZSSXFNLU85c3FIeF85NjJ5NDRIcjRqVDk5WDBaMVhzQmVvOElOQ0pJ?oc=5",
+   "ts": "2026-10-13T13:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "763daf18eb",
    "activos": [
     "oro"
    ],
@@ -6277,26 +6297,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Equinox Gold Reports Q3 Production Results Following Transformational Combination with Orla; Expanded Canadian Production Platform Positioned for Strong Finish to 2026",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/equinox-gold-reports-q3-production-103000764.html?.tsrc=rss",
-   "ts": "2026-10-13T10:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "7a1a917eb1",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Integra Provides DeLamar Project Update: Detailed Engineering, Permitting, Procurement and State of Good Repairs Work Advancing in Line with Plan, Appoints GenCap as Project Financing Advisor",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/integra-provides-delamar-project-detailed-103000939.html?.tsrc=rss",
-   "ts": "2026-10-13T10:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "7fc13fc523",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -6855,14 +6855,14 @@
     4203.1,
     4206.3,
     4196.0,
-    4201.3
+    4200.5
    ],
    [
-    1791896851,
-    4200.8,
-    4200.8,
-    4200.8,
-    4200.8
+    1791897153,
+    4200.6,
+    4200.6,
+    4200.6,
+    4200.6
    ]
   ],
   "nq": [
@@ -7417,14 +7417,14 @@
     30658.25,
     30666.5,
     30634.0,
-    30652.25
+    30655.0
    ],
    [
-    1791896855,
-    30652.0,
-    30652.0,
-    30652.0,
-    30652.0
+    1791897157,
+    30654.0,
+    30654.0,
+    30654.0,
+    30654.0
    ]
   ],
   "vix": [
@@ -7865,12 +7865,12 @@
    [
     1791896400,
     15.3,
-    15.31,
+    15.33,
     15.3,
-    15.31
+    15.32
    ],
    [
-    1791896551,
+    1791896851,
     15.31,
     15.31,
     15.31,
