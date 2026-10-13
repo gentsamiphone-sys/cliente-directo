@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4189.3 · NQ 30738.5 · VIX 15.18 · 15 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-13T14:42:41Z"
+   "ultimo_resultado": "Oro 4191.0 · NQ 30745.5 · VIX 15.22 · 15 noticias nuevas (4 alto impacto)",
+   "actualizado": "2026-10-13T14:47:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T14:42:39Z",
-   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: CANEX Metals obtiene fallo judicial sobre propiedad Gold Basin"
+   "actualizado": "2026-10-13T14:47:38Z",
+   "ultimo_resultado": "15 titulares nuevos, 4 de alto impacto: Thousands of homeowners face adjustable-rate mortgage resets — and much higher payments"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4191.0 · NQ 30745.5 · VIX 15.22 · 15 noticias nuevas (4 alto impacto)",
+   "ts": "2026-10-13T14:47:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4189.3 · NQ 30738.5 · VIX 15.18 · 15 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4175.2 · NQ 30672.25 · VIX 15.21 · 13 noticias nuevas",
    "ts": "2026-10-13T01:57:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4180.7 · NQ 30683.5 · VIX 15.21 · 13 noticias nuevas",
-   "ts": "2026-10-13T01:52:36Z"
   }
  ],
  "briefs": [
@@ -5444,10 +5444,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4189.3,
-  "nq": 30738.5,
-  "vix": 15.18,
-  "ts": "2026-10-13T14:42:40Z"
+  "oro": 4191.0,
+  "nq": 30745.5,
+  "vix": 15.22,
+  "ts": "2026-10-13T14:47:38Z"
  },
  "noticias": [
   {
@@ -5640,6 +5640,17 @@
    "ts": "2026-10-13T13:35:17Z",
    "fuente": "Yahoo Finance",
    "id": "6b0b3178f7",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Thousands of homeowners face adjustable-rate mortgage resets — and much higher payments",
+   "link": "https://www.cnbc.com/2026/10/13/arm-mortgage-borrowers-rate-adjustment.html",
+   "ts": "2026-10-13T13:35:01Z",
+   "fuente": "CNBC",
+   "id": "0840ffad36",
    "activos": [
     "dolar"
    ],
@@ -6297,17 +6308,6 @@
    "id": "acdcdebb61",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Galiano Gold Provides Notice of Third Quarter 2026 Results",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/galiano-gold-provides-notice-third-113000863.html?.tsrc=rss",
-   "ts": "2026-10-13T11:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "cd63c73709",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -6873,14 +6873,14 @@
     4192.5,
     4196.9,
     4185.9,
-    4188.7
+    4190.7
    ],
    [
-    1791901957,
-    4189.3,
-    4189.3,
-    4189.3,
-    4189.3
+    1791902254,
+    4191.0,
+    4191.0,
+    4191.0,
+    4191.0
    ]
   ],
   "nq": [
@@ -7441,15 +7441,15 @@
     1791900000,
     30792.5,
     30814.75,
-    30732.0,
-    30748.0
+    30725.75,
+    30763.0
    ],
    [
-    1791901961,
-    30744.0,
-    30744.0,
-    30744.0,
-    30744.0
+    1791902257,
+    30745.5,
+    30745.5,
+    30745.5,
+    30745.5
    ]
   ],
   "vix": [
@@ -7898,15 +7898,15 @@
     1791900000,
     15.26,
     15.34,
-    15.18,
-    15.19
+    15.17,
+    15.23
    ],
    [
-    1791901651,
-    15.18,
-    15.18,
-    15.18,
-    15.18
+    1791901951,
+    15.22,
+    15.22,
+    15.22,
+    15.22
    ]
   ]
  },
