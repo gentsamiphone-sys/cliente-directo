@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4211.5 · NQ 30744.5 · VIX 15.33 · 4 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-13T10:02:33Z"
+   "ultimo_resultado": "Oro 4211.7 · NQ 30754.5 · VIX 15.33 · 6 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-13T10:07:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T10:02:33Z",
-   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs"
+   "actualizado": "2026-10-13T10:07:34Z",
+   "ultimo_resultado": "6 titulares nuevos, 2 de alto impacto: Trump census plan to cut noncitizens from 2030 count spurs critics toward legal fight"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4211.7 · NQ 30754.5 · VIX 15.33 · 6 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-13T10:07:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4211.5 · NQ 30744.5 · VIX 15.33 · 4 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4194.6 · NQ 30882.5 · VIX 15.21 · 15 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-12T20:57:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4194.3 · NQ 30876.5 · VIX 15.21 · 15 noticias nuevas (5 alto impacto)",
-   "ts": "2026-10-12T20:52:41Z"
   }
  ],
  "briefs": [
@@ -5444,10 +5444,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4211.5,
-  "nq": 30744.5,
+  "oro": 4211.7,
+  "nq": 30754.5,
   "vix": 15.33,
-  "ts": "2026-10-13T10:02:33Z"
+  "ts": "2026-10-13T10:07:35Z"
  },
  "noticias": [
   {
@@ -5458,6 +5458,24 @@
    "id": "c3d3bf381c",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Trump census plan to cut noncitizens from 2030 count spurs critics toward legal fight",
+   "link": "https://www.cnbc.com/2026/10/13/trump-census-rule-noncitizens.html",
+   "ts": "2026-10-13T10:00:01Z",
+   "fuente": "CNBC",
+   "id": "1a631db918",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "What BD’s tariff deal could mean for providers, medtech companies",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSHFBTjZMejVaektQU3U0Z2pkTHBUXzhpRTBobXAyRlNGYmlYVEtkMTUtMlMydE5EQjlLS2NJakZCOXRSUDJ6cURaekRsb2dCdWo4M1VpQ1pLd0hFdmdONldNRDN2eDNNSGU1VjRTZVlyY0dCeVlXTzkxWXl4bzZsZmRtMHEwNFhhaEh1LWgySllJckNMbFczQUl1dW5JaWJHSkxN?oc=5",
+   "ts": "2026-10-13T10:00:00Z",
+   "fuente": "Modern Healthcare",
+   "id": "088951ac34",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Cerrado Orienteering Trophy puts Brazil on the GOLD WRE map",
@@ -5851,6 +5869,17 @@
    "id": "547e36700a",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Rupee extends surge;  Dollar consolidates near peaks ahead of inflation data",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-steady-dollar-holds-043452263.html?.tsrc=rss",
+   "ts": "2026-10-13T04:34:52Z",
+   "fuente": "Yahoo Finance",
+   "id": "b264bf9a7c",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Asia FX steady as dollar holds near 18-mth high, U.S. CPI awaited",
@@ -6279,39 +6308,6 @@
    "fuente": "NGA",
    "id": "cc00c8421e",
    "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
-   "link": "https://www.cnbc.com/2026/10/12/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
-   "ts": "2026-10-12T23:20:20Z",
-   "fuente": "CNBC",
-   "id": "1cb42641c1",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "S&P 500, Nasdaq 100 End Lower On Chipmaker Weakness, While Salesforce Gains Aid Dow — META, MSFT, BMBL, CRM, SNAP In Focus",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPalhvNElFbWZ6YmU1V2lYRV93MUdwblVmMlpoWDZhQTZ0LU9oSTRJYWJmeTJ0YlRvUENxQkFHdW9hTFg2MWQ5NlFLSkpDVjRfVHhzSWxMNVVJcVhYYnFzMC1jaDhiNlRaZzB5MHRFTGFtNmRaQ0k3QmI4T2VJdlpvVWQ0NzY3S2VFeGQwTVZR?oc=5",
-   "ts": "2026-10-12T23:10:18Z",
-   "fuente": "Yahoo Finance",
-   "id": "f59ed50737",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto",
-   "es": "S&P 500 y Nasdaq 100 cierran a la baja por debilidad en fabricantes de chips",
-   "efecto": "Presiona al Nasdaq 100 a la baja por ventas en tecnológicas."
-  },
-  {
-   "titulo": "Gold Line Service Shutdown Oct. 24 – 26",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbXRoZ1dnTlpLMGVVLUM2WE9JNE5kaUw0Vmc5OWdFd1dLS2NIME43ZDZCbjdGWE9LLWVkRWxRZXF1cldzYmU4a1puSDltdmJEOFpnb3NzMDBIeXA0N0ViN2JjVElPN24ybXd5VFIyTVZNN0lJSWZJQ0dqcWl1STY0NWVjVG5YVktIUWdwZmZB?oc=5",
-   "ts": "2026-10-12T23:04:30Z",
-   "fuente": "City of Charlotte (.gov)",
-   "id": "1aac56f926",
-   "activos": [
-    "oro"
-   ],
    "impacto": "alto"
   }
  ],
@@ -6843,14 +6839,14 @@
     4210.6,
     4213.0,
     4204.9,
-    4211.5
+    4210.3
    ],
    [
-    1791885150,
-    4211.5,
-    4211.5,
-    4211.5,
-    4211.5
+    1791885450,
+    4211.7,
+    4211.7,
+    4211.7,
+    4211.7
    ]
   ],
   "nq": [
@@ -7377,14 +7373,14 @@
     30752.0,
     30773.5,
     30735.5,
-    30742.0
+    30760.5
    ],
    [
-    1791885152,
-    30744.5,
-    30744.5,
-    30744.5,
-    30744.5
+    1791885452,
+    30754.5,
+    30754.5,
+    30754.5,
+    30754.5
    ]
   ],
   "vix": [
@@ -7802,7 +7798,7 @@
     15.33
    ],
    [
-    1791884851,
+    1791885151,
     15.33,
     15.33,
     15.33,
