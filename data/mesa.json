@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4209.2 · NQ 30747.5 · VIX 15.29 · 8 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-13T10:12:42Z"
+   "ultimo_resultado": "Oro 4209.9 · NQ 30756.5 · VIX 15.3 · 8 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-13T10:17:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T10:12:40Z",
-   "ultimo_resultado": "8 titulares nuevos, 1 de alto impacto: Stardust Identifies High-Grade Gold West of the Amikougami Fault, Adjacent to Agnico Eagle's Macassa Mine"
+   "actualizado": "2026-10-13T10:17:34Z",
+   "ultimo_resultado": "8 titulares nuevos, 3 de alto impacto: S&P 500 futures are mixed ahead of bank earnings; memory stocks fall after sell-off in Korea: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4209.9 · NQ 30756.5 · VIX 15.3 · 8 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-13T10:17:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4209.2 · NQ 30747.5 · VIX 15.29 · 8 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "15 titulares nuevos, 3 de alto impacto: Microsoft to rely more on homegrown AI chips, reducing dependence on Nvidia",
    "ts": "2026-10-12T21:07:31Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "15 titulares nuevos, 3 de alto impacto: Microsoft to rely more on homegrown AI chips, reducing dependence on Nvidia",
-   "ts": "2026-10-12T21:02:35Z"
   }
  ],
  "briefs": [
@@ -5444,12 +5444,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4209.2,
-  "nq": 30747.5,
-  "vix": 15.29,
-  "ts": "2026-10-13T10:12:41Z"
+  "oro": 4209.9,
+  "nq": 30756.5,
+  "vix": 15.3,
+  "ts": "2026-10-13T10:17:35Z"
  },
  "noticias": [
+  {
+   "titulo": "S&P 500 futures are mixed ahead of bank earnings; memory stocks fall after sell-off in Korea: Live updates",
+   "link": "https://www.cnbc.com/2026/10/12/stock-market-today-live-updates.html",
+   "ts": "2026-10-13T10:17:18Z",
+   "fuente": "CNBC",
+   "id": "7a9f681f71",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
    "link": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html",
@@ -5516,6 +5527,28 @@
    "ts": "2026-10-13T09:38:33Z",
    "fuente": "CNBC",
    "id": "9df215656d",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Gold Prices Rise as Oil Retreats Ahead of US Inflation Data and Federal Reserve Decision",
+   "link": "https://investorshub.advfn.com/market-news/article/37939/gold-prices-rise-as-oil-retreats-ahead-of-us-inflation-data-and-federal-reserve-decision?.tsrc=rss",
+   "ts": "2026-10-13T09:36:08Z",
+   "fuente": "Yahoo Finance",
+   "id": "fba3e92956",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "US Stock Futures Mixed as AI Concerns, LVMH Sales and Bank Earnings Shape Market Sentiment: Dow Jones, S&P, Nasdaq, Wall Street",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTW5wVjJWbzltNW1KVHJzdWxBU3gyY0dvOHM4RjlJZ29JSXJUaUtONk5YVHc4SGQ2UUtXcGpldk5vbTE0dGtNODY4YkxCYUtjMlM2MmQ2QTg1elE4REY4S211azN6UmZybHFiMFVSajFXLU1nVEdIaXZ0MFRnY3dGZnp2Sy1oWC11MG1iZGdUSURYNTlL?oc=5",
+   "ts": "2026-10-13T09:28:44Z",
+   "fuente": "Yahoo Finance",
+   "id": "feb7a988f4",
    "activos": [
     "nq"
    ],
@@ -5847,6 +5880,17 @@
    "id": "fde244f226",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold Holds Drop as Middle East Fighting Stokes Inflation Fears",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNGxFTlR1SHo4d3B6YnI0bEpxUTNSeE92ZkRWNW45WG5wMDhCcVJqSDdjVDZXWnpEV2xlTWlVbnVxYWJ3Y0V2SGpaVjB0MldSWllRQS1rREVnamFUTGxIWlhTSk0tT3BRUEFkbVVuSWlxa3UxMFRxOS11RXMzR3VvVExCTDM2ZE9DbmN2cnp1XzBFblA1cmo1STBzTGJYLWxhak1Ma2NBMGpsUDJOWU92REt0SQ?oc=5",
+   "ts": "2026-10-13T06:13:00Z",
+   "fuente": "Bloomberg.com",
+   "id": "9a5fc6abe0",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Gold price prediction today: Will gold prices rise? Check October 13, 2026 outlook",
@@ -6267,48 +6311,6 @@
    "id": "1cc4b76948",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "GM CEO: We're making leaps and bounds toward 'eyes-off, hands-off' driving",
-   "link": "https://www.cnbc.com/2026/10/12/cramer-gm-eyes-off-driving-2028.html",
-   "ts": "2026-10-13T00:24:23Z",
-   "fuente": "CNBC",
-   "id": "40c4648762",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Republican U.S. Lauren Boebert vs. Democrat Eileen Laubacher on tariffs | Debate for Colorado's 4th Congressional District",
-   "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQcFYwTF9YcmNnNEVpZ2xwLTB6SXUzV3kxMU5FeklETGF2SnZERUN6dGtZbTVUbWRhRnU4aXcwRDJTbW5uYmxUTW5WQkw5RUh5VUpJb3kyanhDV29xd05HZktGM1d6N0pGam1JTWJzQ0lETVp0dkVFTDdGWENnUHNJWkZwQU5Nak1lR05CSmN6czg0MGtZUGRIUkNvdWJEOElvLXVGOWhKRmJfTk5aNVJmMllaWU1HdGVmRTVtX3pmZXptMXBuMUo5Z2d4WHNqWmdZVUg1a19sQTUwczF2UTJIbW83MF92NHFyUVlHZFBjeVZiUUlvd2IxRTRIamlCMEl6Nmk4R3hSMC1RdE9EYmhIRzFpWDBkbGxES3JmdWlwM3N0bEFWcG5KOVFRWFhaV0ZoT0E?oc=5",
-   "ts": "2026-10-13T00:16:00Z",
-   "fuente": "9News",
-   "id": "dc8721b3ba",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Beyond the Podium: Josh Turek discusses tariffs, healthcare and responds to GOP criticism",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ0tqcFY0bUU2M3dpZTBSZHlFX2lfZURPZFhqU1BYci00TW8xalRpd0F3blJlejNpSVBRYWNSNHBhczE0dUVpd2NxSGJ1ZHI2ck01Y1BvbTRPYW5FdS0tdXlIMURVZDlSNm85cklqWUkxalA3VW90X1NuWTB2dHEwX1pJcm9SYm5XNU9ScGtrS1N4V1J1clgtUy01T1Q1dTYxUGl1NmpNT3A0ZWdRNjhLWWxtU0Q3N0lKdlZv?oc=5",
-   "ts": "2026-10-13T00:06:17Z",
-   "fuente": "KGAN",
-   "id": "98d4e38cc8",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "U.S. Treasury Yields Retreat From Early Highs; Eurozone Yields Remain Elevated",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVktTdlI3bkRJUTFtb0hZd1RNa1F2UmRlRy1LTWxpR0txNmgyX0R2TnNCbXFpZ3pVTUFuSTJGc2U2T3Z0WkZIenpzNDBtdUxqbEIzOTNtU0hNR3g3OXYxNFVxS192VTNaSGdfbl8xVXotMUVieHgzUlpTVkwxbHhMdTdJcjNuU0lXYTFYZFhtUkxiSjdIOUVDcS1DNnp6VzFPaWNrVWxVbnA?oc=5",
-   "ts": "2026-10-13T00:03:17Z",
-   "fuente": "WSJ",
-   "id": "746d9fea73",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Los rendimientos del Tesoro de EE. UU. retroceden desde máximos",
-   "efecto": "Alivia la presión sobre NQ y oro, debilita levemente al dólar."
   }
  ],
  "eventos_avisados": [
@@ -6321,7 +6323,7 @@
     4159.8,
     4165.7,
     4154.7,
-    4157.7
+    4157.8
    ],
    [
     1791435600,
@@ -6332,21 +6334,21 @@
    ],
    [
     1791439200,
-    4142.0,
+    4141.9,
     4150.5,
     4138.1,
     4145.5
    ],
    [
     1791442800,
-    4145.7,
+    4145.5,
     4154.3,
     4142.1,
     4144.1
    ],
    [
     1791446400,
-    4144.4,
+    4144.3,
     4157.7,
     4142.5,
     4150.9
@@ -6360,21 +6362,21 @@
    ],
    [
     1791453600,
-    4147.9,
+    4148.0,
     4150.8,
     4134.3,
     4146.4
    ],
    [
     1791457200,
-    4146.1,
+    4146.5,
     4154.5,
     4138.9,
     4149.1
    ],
    [
     1791460800,
-    4148.7,
+    4148.4,
     4156.7,
     4137.3,
     4142.5
@@ -6395,24 +6397,24 @@
    ],
    [
     1791471600,
-    4148.9,
+    4148.6,
     4149.0,
     4134.6,
     4135.9
    ],
    [
     1791475200,
-    4135.8,
+    4135.4,
     4157.0,
     4129.2,
     4148.1
    ],
    [
     1791478800,
-    4148.3,
+    4148.2,
     4170.7,
     4146.9,
-    4157.4
+    4157.3
    ],
    [
     1791482400,
@@ -6430,14 +6432,14 @@
    ],
    [
     1791489600,
-    4158.1,
+    4158.0,
     4161.2,
     4156.9,
     4158.3
    ],
    [
     1791496800,
-    4159.9,
+    4159.3,
     4165.9,
     4156.1,
     4163.3
@@ -6451,14 +6453,14 @@
    ],
    [
     1791504000,
-    4169.5,
+    4169.3,
     4175.3,
     4166.4,
-    4168.3
+    4168.1
    ],
    [
     1791507600,
-    4168.2,
+    4168.7,
     4199.9,
     4167.9,
     4199.8
@@ -6472,14 +6474,14 @@
    ],
    [
     1791514800,
-    4202.3,
+    4202.5,
     4204.6,
     4198.1,
     4202.3
    ],
    [
     1791518400,
-    4202.1,
+    4202.3,
     4210.2,
     4201.3,
     4206.4
@@ -6493,14 +6495,14 @@
    ],
    [
     1791525600,
-    4218.2,
+    4218.4,
     4224.0,
     4213.5,
-    4220.5
+    4220.6
    ],
    [
     1791529200,
-    4220.6,
+    4220.8,
     4222.8,
     4214.2,
     4219.2
@@ -6528,7 +6530,7 @@
    ],
    [
     1791543600,
-    4204.0,
+    4204.1,
     4211.0,
     4199.2,
     4207.7
@@ -6542,7 +6544,7 @@
    ],
    [
     1791550800,
-    4200.4,
+    4200.2,
     4221.7,
     4199.2,
     4215.2
@@ -6563,14 +6565,14 @@
    ],
    [
     1791561600,
-    4213.1,
+    4213.6,
     4218.9,
     4209.9,
     4215.9
    ],
    [
     1791565200,
-    4216.2,
+    4215.9,
     4223.0,
     4212.2,
     4220.7
@@ -6580,7 +6582,7 @@
     4220.8,
     4227.8,
     4217.7,
-    4224.5
+    4224.2
    ],
    [
     1791572400,
@@ -6591,7 +6593,7 @@
    ],
    [
     1791576000,
-    4220.2,
+    4220.0,
     4222.6,
     4216.3,
     4216.3
@@ -6619,7 +6621,7 @@
    ],
    [
     1791766800,
-    4234.4,
+    4234.2,
     4242.3,
     4224.2,
     4236.0
@@ -6647,28 +6649,28 @@
    ],
    [
     1791781200,
-    4218.4,
+    4218.5,
     4219.8,
     4202.9,
     4215.2
    ],
    [
     1791784800,
-    4215.4,
+    4215.3,
     4217.0,
     4205.1,
     4209.8
    ],
    [
     1791788400,
-    4209.8,
+    4209.9,
     4212.3,
     4203.6,
     4204.9
    ],
    [
     1791792000,
-    4204.5,
+    4204.9,
     4205.7,
     4196.7,
     4197.7
@@ -6678,7 +6680,7 @@
     4198.0,
     4202.5,
     4192.5,
-    4197.5
+    4197.3
    ],
    [
     1791799200,
@@ -6696,21 +6698,21 @@
    ],
    [
     1791806400,
-    4192.7,
+    4192.8,
     4197.4,
     4178.1,
-    4188.9
+    4188.8
    ],
    [
     1791810000,
-    4189.2,
+    4189.0,
     4199.3,
     4186.5,
     4195.2
    ],
    [
     1791813600,
-    4196.0,
+    4195.4,
     4199.3,
     4182.5,
     4187.9
@@ -6724,7 +6726,7 @@
    ],
    [
     1791820800,
-    4188.7,
+    4188.6,
     4190.0,
     4183.5,
     4188.3
@@ -6738,7 +6740,7 @@
    ],
    [
     1791828000,
-    4194.4,
+    4194.7,
     4196.6,
     4190.5,
     4191.7
@@ -6752,14 +6754,14 @@
    ],
    [
     1791835200,
-    4193.8,
+    4193.7,
     4196.3,
     4191.7,
     4195.9
    ],
    [
     1791842400,
-    4195.5,
+    4195.9,
     4201.7,
     4192.6,
     4193.4
@@ -6773,14 +6775,14 @@
    ],
    [
     1791849600,
-    4194.8,
+    4194.5,
     4195.7,
     4177.0,
     4181.5
    ],
    [
     1791853200,
-    4181.6,
+    4181.8,
     4193.4,
     4173.7,
     4188.3
@@ -6790,18 +6792,18 @@
     4188.1,
     4205.0,
     4187.0,
-    4204.1
+    4204.0
    ],
    [
     1791860400,
-    4203.7,
+    4203.8,
     4211.7,
     4199.5,
     4211.1
    ],
    [
     1791864000,
-    4212.4,
+    4212.6,
     4220.7,
     4211.4,
     4219.8
@@ -6815,14 +6817,14 @@
    ],
    [
     1791871200,
-    4216.8,
+    4217.0,
     4217.9,
     4207.7,
     4215.8
    ],
    [
     1791874800,
-    4215.7,
+    4215.5,
     4217.7,
     4207.2,
     4211.5
@@ -6846,14 +6848,14 @@
     4210.8,
     4210.8,
     4208.3,
-    4209.4
+    4210.6
    ],
    [
-    1791885751,
-    4209.2,
-    4209.2,
-    4209.2,
-    4209.2
+    1791886045,
+    4209.9,
+    4209.9,
+    4209.9,
+    4209.9
    ]
   ],
   "nq": [
@@ -6911,63 +6913,63 @@
     31154.25,
     31211.0,
     31131.25,
-    31187.0
+    31186.5
    ],
    [
     1791460800,
-    31183.5,
+    31186.25,
     31219.5,
     31168.25,
-    31199.5
+    31199.75
    ],
    [
     1791464400,
-    31199.0,
+    31199.25,
     31275.5,
     31156.25,
     31191.75
    ],
    [
     1791468000,
-    31192.75,
+    31192.25,
     31369.75,
     31190.0,
     31269.5
    ],
    [
     1791471600,
-    31268.5,
+    31269.25,
     31273.0,
     31169.5,
-    31191.75
+    31191.5
    ],
    [
     1791475200,
-    31191.25,
+    31191.5,
     31305.0,
     30962.0,
     31000.75
    ],
    [
     1791478800,
-    31001.25,
+    31001.0,
     31015.75,
     30792.0,
-    30900.25
+    30900.5
    ],
    [
     1791482400,
-    30900.25,
+    30900.5,
     31022.75,
     30858.75,
     30935.25
    ],
    [
     1791486000,
-    30935.5,
+    30935.75,
     30984.5,
     30892.5,
-    30976.0
+    30975.75
    ],
    [
     1791489600,
@@ -6978,7 +6980,7 @@
    ],
    [
     1791496800,
-    31017.0,
+    31020.5,
     31072.5,
     30995.0,
     31033.75
@@ -6999,7 +7001,7 @@
    ],
    [
     1791507600,
-    30995.0,
+    30993.25,
     31068.25,
     30966.5,
     31067.25
@@ -7009,7 +7011,7 @@
     31068.0,
     31089.75,
     31046.5,
-    31081.5
+    31082.0
    ],
    [
     1791514800,
@@ -7041,7 +7043,7 @@
    ],
    [
     1791529200,
-    31189.25,
+    31190.5,
     31238.5,
     31188.25,
     31223.0
@@ -7055,7 +7057,7 @@
    ],
    [
     1791536400,
-    31241.0,
+    31240.0,
     31243.5,
     31209.0,
     31221.5
@@ -7065,7 +7067,7 @@
     31221.0,
     31233.25,
     31178.5,
-    31200.5
+    31200.25
    ],
    [
     1791543600,
@@ -7086,11 +7088,11 @@
     31191.25,
     31223.5,
     30995.5,
-    31036.75
+    31036.25
    ],
    [
     1791554400,
-    31036.5,
+    31038.0,
     31095.25,
     30991.0,
     31081.5
@@ -7104,35 +7106,35 @@
    ],
    [
     1791561600,
-    31063.75,
+    31063.5,
     31122.5,
     31036.25,
-    31086.25
+    31086.75
    ],
    [
     1791565200,
-    31086.75,
+    31086.25,
     31101.25,
     31063.25,
     31095.0
    ],
    [
     1791568800,
-    31095.0,
+    31095.25,
     31145.25,
     31081.5,
     31113.0
    ],
    [
     1791572400,
-    31113.25,
+    31114.0,
     31137.0,
     31087.5,
-    31112.25
+    31112.0
    ],
    [
     1791576000,
-    31112.0,
+    31112.75,
     31139.75,
     31106.5,
     31108.75
@@ -7146,7 +7148,7 @@
    ],
    [
     1791759600,
-    31188.0,
+    31187.5,
     31289.25,
     31183.0,
     31260.25
@@ -7160,7 +7162,7 @@
    ],
    [
     1791766800,
-    31206.25,
+    31206.75,
     31242.5,
     31158.0,
     31222.0
@@ -7209,7 +7211,7 @@
    ],
    [
     1791792000,
-    31188.0,
+    31187.75,
     31194.5,
     31058.25,
     31069.75
@@ -7223,45 +7225,45 @@
    ],
    [
     1791799200,
-    31090.75,
+    31090.0,
     31096.0,
     31039.0,
     31076.75
    ],
    [
     1791802800,
-    31077.0,
+    31077.5,
     31079.75,
     31030.0,
     31058.75
    ],
    [
     1791806400,
-    31058.5,
+    31060.5,
     31089.0,
     31017.25,
     31069.75
    ],
    [
     1791810000,
-    31070.25,
+    31071.75,
     31087.5,
     30936.0,
-    30960.25
+    30960.75
    ],
    [
     1791813600,
-    30961.25,
+    30961.5,
     30974.5,
     30857.25,
-    30918.25
+    30918.75
    ],
    [
     1791817200,
-    30919.75,
+    30921.25,
     30975.0,
     30877.75,
-    30957.5
+    30957.0
    ],
    [
     1791820800,
@@ -7272,28 +7274,28 @@
    ],
    [
     1791824400,
-    30881.75,
+    30881.25,
     30905.0,
     30871.75,
     30877.75
    ],
    [
     1791828000,
-    30877.75,
+    30878.25,
     30892.0,
     30844.25,
-    30850.25
+    30850.75
    ],
    [
     1791831600,
-    30850.0,
+    30850.5,
     30911.0,
     30846.0,
-    30896.5
+    30896.25
    ],
    [
     1791835200,
-    30896.25,
+    30895.75,
     30898.75,
     30870.0,
     30877.5
@@ -7307,7 +7309,7 @@
    ],
    [
     1791846000,
-    30878.75,
+    30878.5,
     30879.0,
     30803.5,
     30811.25
@@ -7328,14 +7330,14 @@
    ],
    [
     1791856800,
-    30665.25,
+    30664.5,
     30679.0,
     30604.75,
     30651.5
    ],
    [
     1791860400,
-    30652.25,
+    30652.75,
     30682.75,
     30613.0,
     30672.5
@@ -7352,25 +7354,25 @@
     30647.0,
     30741.25,
     30642.0,
-    30693.5
+    30693.0
    ],
    [
     1791871200,
-    30693.75,
+    30692.5,
     30694.25,
     30633.25,
     30681.0
    ],
    [
     1791874800,
-    30680.5,
+    30682.0,
     30725.25,
     30628.5,
     30702.25
    ],
    [
     1791878400,
-    30701.5,
+    30702.75,
     30770.25,
     30688.25,
     30751.75
@@ -7384,17 +7386,17 @@
    ],
    [
     1791885600,
-    30762.5,
+    30762.25,
     30763.75,
     30747.25,
-    30747.25
+    30748.75
    ],
    [
-    1791885756,
-    30747.5,
-    30747.5,
-    30747.5,
-    30747.5
+    1791886047,
+    30756.5,
+    30756.5,
+    30756.5,
+    30756.5
    ]
   ],
   "vix": [
@@ -7812,19 +7814,26 @@
     15.29
    ],
    [
-    1791885451,
+    1791885600,
     15.29,
-    15.29,
+    15.3,
     15.29,
     15.29
+   ],
+   [
+    1791885751,
+    15.3,
+    15.3,
+    15.3,
+    15.3
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-13T09:57:38Z",
- "ult_4h": 1791885753.2919717,
+ "ult_4h": 1791886655.1753874,
  "estrategia_4h": {
   "oro": {
-   "precio": 4211.5,
+   "precio": 4209.9,
    "atr_4h": 19.91,
    "setups": [
     {
@@ -7835,13 +7844,13 @@
      "objetivo": 4242.3,
      "rr": 6.32,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.65,
+     "fuerza_ruptura_atr": 1.66,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30744.5,
+   "precio": 30756.5,
    "atr_4h": 140.02,
    "setups": [
     {
@@ -7854,21 +7863,10 @@
      "estado": "en retesteo",
      "fuerza_ruptura_atr": 0.98,
      "ruptura": "2026-10-13 00:00 UTC"
-    },
-    {
-     "direccion": "VENTA",
-     "nivel": 30957.5,
-     "entrada": 30957.5,
-     "stop": 31041.51,
-     "objetivo": 30604.75,
-     "rr": 4.2,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.98,
-     "ruptura": "2026-10-12 16:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-13T10:02:33Z"
+  "ts": "2026-10-13T10:17:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
