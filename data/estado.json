@@ -2803,9 +2803,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Craig Rd…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-13T11:02:45Z"
+   "actualizado": "2026-10-13T11:06:34Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2833,6 +2833,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-13T11:06:34Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Craig Rd…",
@@ -4327,11 +4332,6 @@
    "agente": "disenador",
    "texto": "Muestra lista de Brake Masters y su mensaje para mandar por texto.",
    "ts": "2026-10-11T03:27:38Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Armando la muestra de Brake Masters…",
-   "ts": "2026-10-11T03:27:34Z"
   }
  ],
  "reportes": {
