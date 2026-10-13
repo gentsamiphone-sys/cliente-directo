@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4180.0 · NQ 30784.75 · VIX 15.27 · 15 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-13T23:27:41Z"
+   "ultimo_resultado": "Oro 4178.7 · NQ 30770.25 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-13T23:32:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T23:27:40Z",
-   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: Goldman says investors are looking for 'profitable' Chinese business growth overseas"
+   "actualizado": "2026-10-13T23:32:32Z",
+   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: Here's where Jim Cramer stands on this newly public AI infrastructure stock"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4178.7 · NQ 30770.25 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-13T23:32:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4180.0 · NQ 30784.75 · VIX 15.27 · 15 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4207.1 · NQ 30742.75 · VIX 15.4 · 6 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-13T10:32:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4207.0 · NQ 30736.5 · VIX 15.38 · 6 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-13T10:27:41Z"
   }
  ],
  "briefs": [
@@ -5645,10 +5645,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4180.0,
-  "nq": 30784.75,
+  "oro": 4178.7,
+  "nq": 30770.25,
   "vix": 15.27,
-  "ts": "2026-10-13T23:27:41Z"
+  "ts": "2026-10-13T23:32:32Z"
  },
  "noticias": [
   {
@@ -5677,6 +5677,15 @@
    "ts": "2026-10-13T22:54:21Z",
    "fuente": "CNBC",
    "id": "13cbaba33a",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Here's where Jim Cramer stands on this newly public AI infrastructure stock",
+   "link": "https://www.cnbc.com/2026/10/13/jim-cramer-accelevation-stock.html",
+   "ts": "2026-10-13T22:47:07Z",
+   "fuente": "CNBC",
+   "id": "09386e40ee",
    "activos": [],
    "impacto": "bajo"
   },
@@ -6452,15 +6461,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Stock Market Midday, Oct. 13: Bank Earnings and Chip Pressure Drive Mixed Trading",
-   "link": "https://www.fool.com/coverage/stock-market-today/2026/10/13/stock-market-midday-oct-13-bank-earnings-and-chip-pressure-drives-mixed-trading/?.tsrc=rss",
-   "ts": "2026-10-13T16:34:02Z",
-   "fuente": "Yahoo Finance",
-   "id": "c010d1638e",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7088,15 +7088,15 @@
     1791932400,
     4184.5,
     4185.1,
-    4180.6,
-    4180.6
+    4178.4,
+    4178.7
    ],
    [
-    1791933451,
-    4180.0,
-    4180.0,
-    4180.0,
-    4180.0
+    1791933747,
+    4178.7,
+    4178.7,
+    4178.7,
+    4178.7
    ]
   ],
   "nq": [
@@ -7713,15 +7713,15 @@
     1791932400,
     30810.75,
     30811.75,
-    30777.0,
-    30785.75
+    30760.0,
+    30769.0
    ],
    [
-    1791933458,
-    30784.75,
-    30784.75,
-    30784.75,
-    30784.75
+    1791933750,
+    30770.25,
+    30770.25,
+    30770.25,
+    30770.25
    ]
   ],
   "vix": [
@@ -8225,19 +8225,19 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-13T23:17:31Z",
- "ult_4h": 1791933455.131278,
+ "ult_4h": 1791934352.572904,
  "estrategia_4h": {
   "oro": {
-   "precio": 4182.8,
-   "atr_4h": 19.13,
+   "precio": 4178.7,
+   "atr_4h": 19.26,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4155.32,
+     "stop": 4155.24,
      "objetivo": 4242.3,
-     "rr": 6.58,
+     "rr": 6.53,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.71,
      "ruptura": "2026-10-08 20:00 UTC"
@@ -8245,34 +8245,23 @@
    ]
   },
   "nq": {
-   "precio": 30780.25,
-   "atr_4h": 138.95,
+   "precio": 30770.25,
+   "atr_4h": 138.98,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30792.0,
      "entrada": 30792.0,
-     "stop": 30875.37,
+     "stop": 30875.39,
      "objetivo": 30591.25,
      "rr": 2.41,
      "estado": "en retesteo",
      "fuerza_ruptura_atr": 0.99,
      "ruptura": "2026-10-13 00:00 UTC"
-    },
-    {
-     "direccion": "VENTA",
-     "nivel": 30957.5,
-     "entrada": 30957.5,
-     "stop": 31040.87,
-     "objetivo": 30591.25,
-     "rr": 4.39,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.99,
-     "ruptura": "2026-10-12 16:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-13T23:17:35Z"
+  "ts": "2026-10-13T23:32:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
