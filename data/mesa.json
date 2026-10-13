@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4187.0 · NQ 30756.75 · VIX 15.32 · 15 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-13T20:02:36Z"
+   "ultimo_resultado": "Oro 4187.5 · NQ 30779.25 · VIX 15.33 · 15 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-13T20:07:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T20:02:35Z",
-   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: El dólar gana fuerza: ETFs para aprovechar el rally del billete verde"
+   "actualizado": "2026-10-13T20:07:41Z",
+   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: S&P 500 closes near flat after big banks post earnings and memory chip stocks decline: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4187.5 · NQ 30779.25 · VIX 15.33 · 15 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-13T20:07:41Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4187.0 · NQ 30756.75 · VIX 15.32 · 15 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
    "ts": "2026-10-13T06:32:52Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Fondos en oro: neto +110,987 contratos.",
-   "ts": "2026-10-13T06:32:51Z"
   }
  ],
  "briefs": [
@@ -5444,18 +5444,40 @@
   }
  },
  "en_vivo": {
-  "oro": 4187.0,
-  "nq": 30756.75,
-  "vix": 15.32,
-  "ts": "2026-10-13T20:02:36Z"
+  "oro": 4187.5,
+  "nq": 30779.25,
+  "vix": 15.33,
+  "ts": "2026-10-13T20:07:41Z"
  },
  "noticias": [
+  {
+   "titulo": "S&P 500 closes near flat after big banks post earnings and memory chip stocks decline: Live updates",
+   "link": "https://www.cnbc.com/2026/10/12/stock-market-today-live-updates.html",
+   "ts": "2026-10-13T20:03:27Z",
+   "fuente": "CNBC",
+   "id": "7531695419",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
    "link": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html",
    "ts": "2026-10-13T19:46:12Z",
    "fuente": "CNBC",
    "id": "78476764de",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Fed's Williams sees no need for rate hike in 2027, Bloomberg News reports",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVlpnSjdVeERKaFdNRkxCTHhRNmY5Y0FFN3k0by1ndE9MYXIzN0pybnJzUFBqR1hOaHpUYjFjODI1ZGNSMjVLRF83S19ZNXB6eGU0YU5MUUVMWEFtSjN4UlRReUpsWFktZ2lfX1pQZDBNS1Qtbk02bXNGRVNQZUlSS2pKZ2wxRUtGZzBWYUxCdGJpbHZkOFlMYWhtb0lRNFZEMDd6ZnY2RjdDRXpVdWhsUVhwN3ZsZ1k?oc=5",
+   "ts": "2026-10-13T19:23:55Z",
+   "fuente": "Reuters",
+   "id": "60a43d821d",
    "activos": [
     "dolar"
    ],
@@ -6232,28 +6254,6 @@
    "impacto": "bajo",
    "es": "CANEX Metals obtiene fallo judicial sobre propiedad Gold Basin",
    "efecto": "Ruido corporativo menor sin impacto en el precio del metal."
-  },
-  {
-   "titulo": "Catch a new season of ‘The Gold’",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tNHAzQ3lmNWg4VzV1M1hlanVjbldZOG0yUnQ2aGZudWxpemJHOTFCc3NaRW9wZmMzXzBXOWlXMVphc3FWSXEtMHdZLUljYVVxbHhlLThJY01LNmJVaFhrUU1oeV9xRk9abUc2bTZ3?oc=5",
-   "ts": "2026-10-13T14:04:14Z",
-   "fuente": "Arizona PBS",
-   "id": "ef588dcc71",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Vans is gaining ground with teens. Its owner's stock stands to gain too, Piper Sandler says",
-   "link": "https://www.cnbc.com/2026/10/13/vans-rising-popularity-should-boost-owners-stock-piper-sandler-says.html",
-   "ts": "2026-10-13T14:03:32Z",
-   "fuente": "CNBC",
-   "id": "153902476e",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Vans gana terreno entre los adolescentes y su matriz podría subir, según Piper Sandler",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -6854,14 +6854,14 @@
     4186.3,
     4189.5,
     4184.6,
-    4187.7
+    4187.4
    ],
    [
-    1791921153,
-    4187.0,
-    4187.0,
-    4187.0,
-    4187.0
+    1791921456,
+    4187.5,
+    4187.5,
+    4187.5,
+    4187.5
    ]
   ],
   "nq": [
@@ -7458,14 +7458,14 @@
     30738.25,
     30793.5,
     30734.25,
-    30760.0
+    30777.5
    ],
    [
-    1791921156,
-    30756.75,
-    30756.75,
-    30756.75,
-    30756.75
+    1791921461,
+    30779.5,
+    30779.5,
+    30779.5,
+    30779.5
    ]
   ],
   "vix": [
@@ -7950,22 +7950,22 @@
     15.46,
     15.49,
     15.29,
-    15.33
+    15.36
    ],
    [
-    1791920851,
-    15.32,
-    15.32,
-    15.32,
-    15.32
+    1791921151,
+    15.33,
+    15.33,
+    15.33,
+    15.33
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-13T20:02:31Z",
- "ult_4h": 1791921157.4778767,
+ "ult_4h": 1791922061.472391,
  "estrategia_4h": {
   "oro": {
-   "precio": 4188.2,
+   "precio": 4187.5,
    "atr_4h": 19.94,
    "setups": [
     {
@@ -7976,13 +7976,13 @@
      "objetivo": 4242.3,
      "rr": 6.31,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.66,
+     "fuerza_ruptura_atr": 1.65,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30772.75,
+   "precio": 30779.25,
    "atr_4h": 141.95,
    "setups": [
     {
@@ -7995,10 +7995,21 @@
      "estado": "en retesteo",
      "fuerza_ruptura_atr": 0.97,
      "ruptura": "2026-10-13 00:00 UTC"
+    },
+    {
+     "direccion": "VENTA",
+     "nivel": 30957.5,
+     "entrada": 30957.5,
+     "stop": 31042.67,
+     "objetivo": 30591.25,
+     "rr": 4.3,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 0.97,
+     "ruptura": "2026-10-12 16:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-13T19:52:37Z"
+  "ts": "2026-10-13T20:07:41Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
