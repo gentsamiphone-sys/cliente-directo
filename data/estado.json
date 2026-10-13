@@ -2859,10 +2859,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "Agregando JPR Automotive",
-   "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-13T21:06:33Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "3 negocios nuevos de talleres cerca de Decatur Blvd",
+   "actualizado": "2026-10-13T21:06:34Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2890,6 +2890,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: 3 negocios nuevos de talleres cerca de Decatur Blvd",
+   "ts": "2026-10-13T21:06:34Z"
+  },
   {
    "agente": "buscador",
    "texto": "Encontré JPR Automotive, sin página web.",
@@ -4384,11 +4389,6 @@
    "agente": "vendedor",
    "texto": "Terminó su turno: Fuera de horario: 0 correos listos para la mañana",
    "ts": "2026-10-11T13:52:31Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
-   "ts": "2026-10-11T13:27:31Z"
   }
  ],
  "reportes": {
