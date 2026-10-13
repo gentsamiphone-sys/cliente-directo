@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4209.7 · NQ 30667.25 · VIX 15.21 · 1 noticias nuevas",
-   "actualizado": "2026-10-13T06:42:39Z"
+   "ultimo_resultado": "Oro 4208.6 · NQ 30665.0 · VIX 15.21 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-13T06:47:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T06:42:38Z",
-   "ultimo_resultado": "1 titulares nuevos: A massive trade just happened in surging shares of Snap"
+   "actualizado": "2026-10-13T06:47:31Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Cyber attack hits hundreds of French supermarkets, heating fridges to 122°F and sparking fires"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4208.6 · NQ 30665.0 · VIX 15.21 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-13T06:47:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4209.7 · NQ 30667.25 · VIX 15.21 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4191.0 · NQ 30897.0 · VIX 15.21 · 15 noticias nuevas (6 alto impacto)",
    "ts": "2026-10-12T17:32:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4191.9 · NQ 30895.25 · VIX 15.21 · 15 noticias nuevas (5 alto impacto)",
-   "ts": "2026-10-12T17:27:38Z"
   }
  ],
  "briefs": [
@@ -5444,12 +5444,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4209.7,
-  "nq": 30667.25,
+  "oro": 4208.6,
+  "nq": 30665.0,
   "vix": 15.21,
-  "ts": "2026-10-13T06:42:38Z"
+  "ts": "2026-10-13T06:47:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Cyber attack hits hundreds of French supermarkets, heating fridges to 122°F and sparking fires",
+   "link": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+   "ts": "2026-10-13T06:44:00Z",
+   "fuente": "CNBC",
+   "id": "2a6840be2a",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
    "link": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
@@ -6309,18 +6318,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "$4,000 Gold Could Be Wall Street's Next Big Buying Opportunity",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/4-000-gold-could-wall-190000036.html?.tsrc=rss",
-   "ts": "2026-10-12T19:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "cc2529c2b8",
-   "activos": [
-    "oro",
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -6829,15 +6826,15 @@
     1791871200,
     4216.8,
     4217.9,
-    4208.1,
-    4209.7
+    4207.7,
+    4208.8
    ],
    [
-    1791873157,
-    4209.7,
-    4209.7,
-    4209.7,
-    4209.7
+    1791873447,
+    4208.6,
+    4208.6,
+    4208.6,
+    4208.6
    ]
   ],
   "nq": [
@@ -7336,14 +7333,14 @@
     30693.75,
     30694.25,
     30633.25,
-    30658.25
+    30662.25
    ],
    [
-    1791873157,
-    30667.25,
-    30667.25,
-    30667.25,
-    30667.25
+    1791873451,
+    30665.0,
+    30665.0,
+    30665.0,
+    30665.0
    ]
   ],
   "vix": [
@@ -7847,27 +7844,27 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-13T06:32:31Z",
- "ult_4h": 1791873152.325225,
+ "ult_4h": 1791874051.446889,
  "estrategia_4h": {
   "oro": {
-   "precio": 4212.3,
-   "atr_4h": 21.02,
+   "precio": 4208.6,
+   "atr_4h": 21.26,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4154.19,
+     "stop": 4154.05,
      "objetivo": 4242.3,
-     "rr": 5.99,
+     "rr": 5.92,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.56,
+     "fuerza_ruptura_atr": 1.54,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30659.0,
+   "precio": 30665.0,
    "atr_4h": 140.86,
    "setups": [
     {
@@ -7894,7 +7891,7 @@
     }
    ]
   },
-  "ts": "2026-10-13T06:33:06Z"
+  "ts": "2026-10-13T06:47:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
