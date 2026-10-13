@@ -2803,9 +2803,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando restaurantes y comida sin página web cerca de Cheyenne Ave…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-13T13:02:32Z"
+   "actualizado": "2026-10-13T13:06:21Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2833,6 +2833,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-13T13:06:21Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando restaurantes y comida sin página web cerca de Cheyenne Ave…",
@@ -4327,11 +4332,6 @@
    "agente": "buscador",
    "texto": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Spring Mountain Rd…",
    "ts": "2026-10-11T05:02:30Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Terminó su turno: 108 textos listos para mandar",
-   "ts": "2026-10-11T04:37:29Z"
   }
  ],
  "reportes": {
