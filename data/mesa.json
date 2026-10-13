@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4184.2 · NQ 30782.0 · VIX 15.27 · 15 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-13T22:07:32Z"
+   "ultimo_resultado": "Oro 4185.1 · NQ 30791.25 · VIX 15.27 · 15 noticias nuevas",
+   "actualizado": "2026-10-13T22:12:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T22:07:32Z",
-   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: AI Predicts SUI as Sui Buys a Whole Blockchain for $30M"
+   "actualizado": "2026-10-13T22:12:40Z",
+   "ultimo_resultado": "15 titulares nuevos: RoboStrategy toca la campana de cierre"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4185.1 · NQ 30791.25 · VIX 15.27 · 15 noticias nuevas",
+   "ts": "2026-10-13T22:12:41Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4184.2 · NQ 30782.0 · VIX 15.27 · 15 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4210.7 · NQ 30755.25 · VIX 15.41 · 1 noticias nuevas",
    "ts": "2026-10-13T09:12:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4211.3 · NQ 30746.75 · VIX 15.4 · 1 noticias nuevas",
-   "ts": "2026-10-13T09:07:35Z"
   }
  ],
  "briefs": [
@@ -5645,10 +5645,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4184.2,
-  "nq": 30782.0,
+  "oro": 4185.1,
+  "nq": 30791.25,
   "vix": 15.27,
-  "ts": "2026-10-13T22:07:32Z"
+  "ts": "2026-10-13T22:12:40Z"
  },
  "noticias": [
   {
@@ -5902,6 +5902,17 @@
     "dolar"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "LIVE: RoboStrategy Rings the Closing Bell",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAzVXFnT24wWTFmOGJUMTBPS3lCbUZhU1pkQng1YVpYNWE1T0hqSFNCNGN6a0t1RDFFcUhtNlUwODBCSURIVkNiTTZCXzJaTDZScHljZktDQ3dRNF9mTWlxTk14RWRxbjYyQWxjNk13?oc=5",
+   "ts": "2026-10-13T19:45:00Z",
+   "fuente": "Nasdaq",
+   "id": "eae1609c68",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "RoboStrategy toca la campana de cierre",
+   "efecto": ""
   },
   {
    "titulo": "RoboStrategy Rings the Closing Bell",
@@ -6447,15 +6458,6 @@
    "ts": "2026-10-13T15:52:09Z",
    "fuente": "CNBC",
    "id": "e64a01913d",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Trump's diesel deal with Russia equals less than two weeks of U.S. demand",
-   "link": "https://www.cnbc.com/2026/10/13/trump-putin-zelenskyy-russia-ukraine-diesel-oil-price.html",
-   "ts": "2026-10-13T15:50:09Z",
-   "fuente": "CNBC",
-   "id": "15246af605",
    "activos": [],
    "impacto": "bajo"
   }
@@ -7073,6 +7075,20 @@
     4184.2,
     4184.2,
     4184.2
+   ],
+   [
+    1791928800,
+    4184.8,
+    4185.3,
+    4183.0,
+    4184.8
+   ],
+   [
+    1791928957,
+    4185.1,
+    4185.1,
+    4185.1,
+    4185.1
    ]
   ],
   "nq": [
@@ -7679,11 +7695,18 @@
     30782.0
    ],
    [
-    1791925198,
-    30782.0,
-    30782.0,
-    30782.0,
-    30782.0
+    1791928800,
+    30799.5,
+    30802.5,
+    30785.0,
+    30789.75
+   ],
+   [
+    1791928957,
+    30791.25,
+    30791.25,
+    30791.25,
+    30791.25
    ]
   ],
   "vix": [
@@ -8186,7 +8209,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-13T21:37:34Z",
+ "noticias_traducidas_ts": "2026-10-13T22:12:37Z",
  "ult_4h": 1791928953.4070268,
  "estrategia_4h": {
   "oro": {
