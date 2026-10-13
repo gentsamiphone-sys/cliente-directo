@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4185.8 · NQ 30779.5 · VIX 15.3 · 15 noticias nuevas",
-   "actualizado": "2026-10-13T20:12:38Z"
+   "ultimo_resultado": "Oro 4185.9 · NQ 30785.25 · VIX 15.28 · 15 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-13T20:17:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T20:12:37Z",
-   "ultimo_resultado": "15 titulares nuevos: Bank of America hit with more than $1.2 billion in penalties over money-laundering violations"
+   "actualizado": "2026-10-13T20:17:34Z",
+   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: Micron sinks, other memory-linked names dip for a second day"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4185.9 · NQ 30785.25 · VIX 15.28 · 15 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-13T20:17:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4185.8 · NQ 30779.5 · VIX 15.3 · 15 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-10-13T06:32:54Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 4212.4 · NQ 30664.25.",
-   "ts": "2026-10-13T06:32:53Z"
   }
  ],
  "briefs": [
@@ -5444,18 +5444,36 @@
   }
  },
  "en_vivo": {
-  "oro": 4185.8,
-  "nq": 30779.5,
-  "vix": 15.3,
-  "ts": "2026-10-13T20:12:38Z"
+  "oro": 4185.9,
+  "nq": 30785.25,
+  "vix": 15.28,
+  "ts": "2026-10-13T20:17:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Micron sinks, other memory-linked names dip for a second day",
+   "link": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+   "ts": "2026-10-13T20:12:36Z",
+   "fuente": "CNBC",
+   "id": "94b3e22e40",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Bank of America hit with more than $1.2 billion in penalties over money-laundering violations",
    "link": "https://www.cnbc.com/2026/10/13/bank-of-america-treasury-money-laundering.html",
    "ts": "2026-10-13T20:11:16Z",
    "fuente": "CNBC",
    "id": "0857b3f41a",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Mastercard is up 8 days in a row. The charts indicate the run isn't over",
+   "link": "https://www.cnbc.com/2026/10/13/mastercard-is-up-8-days-in-a-row-the-charts-indicate-the-run-isnt-over.html",
+   "ts": "2026-10-13T20:09:23Z",
+   "fuente": "CNBC",
+   "id": "c4fde623c7",
    "activos": [],
    "impacto": "bajo"
   },
@@ -5480,6 +5498,15 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "We're upgrading our rating on Wells Fargo as the stock's pullback offers a nice entry point",
+   "link": "https://www.cnbc.com/investingclub/2026/10/13/were-upgrading-our-rating-on-wells-fargo-as-the-stocks-pullback-offers-a-nice-entry-point.html",
+   "ts": "2026-10-13T19:51:06Z",
+   "fuente": "CNBC",
+   "id": "24e5687d4c",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
@@ -5620,6 +5647,17 @@
    "id": "ff9ab48792",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "S&P 500 flat as chipmakers fall and bank earnings roll in",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdkNncVkwQU9JeFhSRFFWQ1FhcW5SUk5hY1hQMkpocmdCRlZ5b04zOGJnZ184T1lONDh1cUQwZFY3RVJxUmJzZDhpUWZ0RlhsUGluV3hoVG1TV2JWNEZtUS12R1Z0VURRQmt3SjkyUU44UkZTcmF1RnFaTm9POE9LYW5TWjY3el9jNzQwV1lOVkhaOGFDTE9Wc1NrM0RYTzJ5UFM4eF92UWV3LW03SHJ1U1I5cHF4eDNFS1liNw?oc=5",
+   "ts": "2026-10-13T18:28:46Z",
+   "fuente": "Reuters",
+   "id": "3adf29a2b0",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -6209,46 +6247,6 @@
    "ts": "2026-10-13T14:23:29Z",
    "fuente": "CNBC",
    "id": "d98cf85e14",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "US Gold ETFs Hit Record-Low Market Share as Asia Expands on Falling Price",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTE1Ma3hsaUxnMlV1dHpHd3BSSGRfaHp3MkxHS2hHdzF2NUJ3dE1HdTliM3k3aEFmRjZMRGNnNmNfZGdrcEZTZFBfT3dlQWI5WmE0TFhVSTBUNlg5djEyN3AtYUF0NjdZMGZjbTluOEFDUjlyUWg2TUxONXplUlB6SjNfVVFCTV9Yb0E?oc=5",
-   "ts": "2026-10-13T14:21:42Z",
-   "fuente": "BullionVault",
-   "id": "42e62638f5",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Updated Advisory: Olympic gold medalist Amber Glenn to speak at CU Boulder | Newswise",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPa01lcjlock15TWJGUF83X0gybHQxdnAzelo0aS10VzJiclJVSUJQbE9fUS0tcmZURWtEV3Y4bFd2SWhsc0NreUxLRW5NalFVSFN1VUFPX0NjTnRmRHVueERxaFA4VzBJTFpZdGtXdFdLcHV6SWU5WHFOdGg4UWplX2tfY1JvVTJuQmZCWTFRQWc1XzViMVlxenR2NlJJM2Jvc1Fwd2I3LW5FVE3SAasBQVVfeXFMT2tNZXI5aHJNeU1iRlBfN19IMmx0MXZwM3paNGktdFcyYnJSVUlCUGxPX1EtLXJmVEVrRFd2OGxXdklobHNDa3lMS0VuTWpRVUhTdVVBT19DY050ZkR1bnhEcWhQOFcwSUxaWXRrV3RXS3B1ekllOVhxTnRoOFFqZV9rX2NSb1UybkJmQlkxUUFnNV81YjFZcXp0djZSSTNib3NRcHdiNy1uRVRN?oc=5",
-   "ts": "2026-10-13T14:20:00Z",
-   "fuente": "Newswise",
-   "id": "7f70a90302",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Beyond Health Care: Has Labor Market Improvement Broadened in 2026?",
-   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNOE5tdkIzdWpnUVlRenJWaTF6ZklOT2hwRVc1YjlidDhadGhIRzNMRmdrTUtkTGhMeHIxcXNFWG5maC1RcUpiUHBYeUsyR3ZWYjdqZFR2MXJvWlNiQ0ZSZkI1dElhajUtUjZqWkxDOWMtcmxqZV9RM1ZRMUQ5R1dORVNoTVlmNGhOZVBuOU9ZUmFrMm5vZzMzZGVnUkZyd3NzcmttVkxXN1pLWklmZ3ZwZjk1UjFSMVJ0Xy1EYV9HVGxHSndSQTFsLU13QnBrdVNsdTFGWFc2Zk5uaDlYWkFHODEySGk0VVdsbVhV?oc=5",
-   "ts": "2026-10-13T14:14:23Z",
-   "fuente": "Federal Reserve Bank of Atlanta",
-   "id": "f2c62808c4",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Joint Center Releases Statement Strongly Opposing Trump’s Committee of Inquiry into Federal Reserve Governor Dr. Lisa Cook",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOMVh2YmM2T05aN2N1ejRrNXQ1TnZVbzdWSEZsOGFiOVVRZndGY2tZUUZEdDhiU1d6MlpTR0ZSOE82MlFYZ25mYWd5UDBxYWMwNkc2Z2Y4a0JCU3NocGZDUHdpc1lJLWJ4aF96NDgydkYxaTM1WmxQMk5JR1dpdVlRbGdOU1lXSnp4V082ZmcwQk1WcmNaZ1FFNWk5TWhQQlRONVBNdExYTWN4cF9SUXViblZOc0t1bGt0ZGloZUlIM0l3ajZjcE02WEh4OTlvMkZyWGQ2dHpKMmZnUWNtNWc?oc=5",
-   "ts": "2026-10-13T14:13:26Z",
-   "fuente": "Joint Center",
-   "id": "fb8059b937",
    "activos": [],
    "impacto": "bajo"
   }
@@ -6858,14 +6856,14 @@
     4186.1,
     4186.9,
     4185.2,
-    4185.6
+    4186.3
    ],
    [
-    1791921750,
-    4185.8,
-    4185.8,
-    4185.8,
-    4185.8
+    1791922043,
+    4185.9,
+    4185.9,
+    4185.9,
+    4185.9
    ]
   ],
   "nq": [
@@ -7467,16 +7465,16 @@
    [
     1791921600,
     30789.25,
-    30791.0,
+    30792.25,
     30777.25,
-    30783.25
+    30790.75
    ],
    [
-    1791921757,
-    30779.5,
-    30779.5,
-    30779.5,
-    30779.5
+    1791922052,
+    30785.25,
+    30785.25,
+    30785.25,
+    30785.25
    ]
   ],
   "vix": [
@@ -7960,15 +7958,15 @@
     1791918000,
     15.46,
     15.49,
-    15.29,
-    15.32
+    15.25,
+    15.25
    ],
    [
-    1791921451,
+    1791921600,
+    15.28,
     15.3,
-    15.3,
-    15.3,
-    15.3
+    15.28,
+    15.28
    ]
   ]
  },
