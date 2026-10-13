@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4211.7 · NQ 30645.25 · VIX —",
-   "actualizado": "2026-10-13T07:17:31Z"
+   "ultimo_resultado": "Oro 4212.8 · NQ 30647.25 · VIX — · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-13T07:22:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T07:17:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-13T07:22:31Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Las acciones tecnológicas caen al extenderse la liquidación de chips en Wall Street. SK Hynix, SoftBank y ASML se desploman"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4212.8 · NQ 30647.25 · VIX — · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-13T07:22:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4211.7 · NQ 30645.25 · VIX —",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4193.3 · NQ 30885.75 · VIX 15.19 · 15 noticias nuevas (6 alto impacto)",
    "ts": "2026-10-12T18:07:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4193.5 · NQ 30889.25 · VIX 15.18 · 15 noticias nuevas (6 alto impacto)",
-   "ts": "2026-10-12T18:02:36Z"
   }
  ],
  "briefs": [
@@ -5444,11 +5444,24 @@
   }
  },
  "en_vivo": {
-  "oro": 4211.7,
-  "nq": 30645.25,
-  "ts": "2026-10-13T07:17:31Z"
+  "oro": 4212.8,
+  "nq": 30647.25,
+  "ts": "2026-10-13T07:22:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Tech stocks slide as Wall Street chip rout spreads. SK Hynix, SoftBank and ASML slump",
+   "link": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+   "ts": "2026-10-13T07:22:07Z",
+   "fuente": "CNBC",
+   "id": "6319f6c6d8",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Las acciones tecnológicas caen al extenderse la liquidación de chips en Wall Street. SK Hynix, SoftBank y ASML se desploman",
+   "efecto": "Presiona al NQ a la baja por el desplome en semiconductores."
+  },
   {
    "titulo": "As 'Cockroach' protests grow over alleged voter fraud, Modi defends India as ‘mother of democracy’",
    "link": "https://www.cnbc.com/2026/10/13/cockroach-fraud-india-protest-modi.html",
@@ -5466,6 +5479,19 @@
    "id": "2a6840be2a",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "TSMC Stock Falls 2 Days Before Earnings on a Memory Scare It Doesn’t Face",
+   "link": "https://www.tikr.com/blog/tsmc-stock-falls-2-days-before-earnings-on-a-memory-scare-it-doesnt-face?ref=yahoofinance&amp;.tsrc=rss",
+   "ts": "2026-10-13T06:39:02Z",
+   "fuente": "Yahoo Finance",
+   "id": "990385ef11",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Las acciones de TSMC caen dos días antes de resultados por un susto de memoria que no enfrenta",
+   "efecto": "Genera presión bajista temporal en el NQ dentro del sector tecnológico."
   },
   {
    "titulo": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
@@ -6295,26 +6321,6 @@
    "impacto": "alto",
    "es": "Por qué el oro se beneficiaría de una pausa en las tasas de la Fed",
    "efecto": "Impulsa compras de oro por menores tasas y dólar débil."
-  },
-  {
-   "titulo": "Threats to Global Supplies Push Crude Oil Prices Sharply Higher",
-   "link": "https://www.barchart.com/story/news/6257478/threats-to-global-supplies-push-crude-oil-prices-sharply-higher?.tsrc=rss",
-   "ts": "2026-10-12T19:16:03Z",
-   "fuente": "Yahoo Finance",
-   "id": "ee57c3e69a",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Katie Stockton says retail stocks could be primed for a counter-trend rally. These stocks may lead the bounce",
-   "link": "https://www.cnbc.com/2026/10/12/katie-stockton-says-retail-stocks-could-be-primed-for-a-counter-trend-rally-these-stocks-may-lead-the-bounce.html",
-   "ts": "2026-10-12T19:09:50Z",
-   "fuente": "CNBC",
-   "id": "d5d95e1d99",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -6831,14 +6837,14 @@
     4215.7,
     4217.6,
     4211.0,
-    4211.6
+    4212.4
    ],
    [
-    1791875247,
-    4211.7,
-    4211.7,
-    4211.7,
-    4211.7
+    1791875550,
+    4211.5,
+    4211.5,
+    4211.5,
+    4211.5
    ]
   ],
   "nq": [
@@ -7314,9 +7320,16 @@
    [
     1791856800,
     30665.25,
-    30669.25,
-    30644.0,
-    30659.25
+    30679.0,
+    30604.75,
+    30651.5
+   ],
+   [
+    1791860400,
+    30652.25,
+    30682.75,
+    30613.0,
+    30672.5
    ],
    [
     1791864000,
@@ -7344,14 +7357,14 @@
     30680.5,
     30691.75,
     30628.5,
-    30643.25
+    30652.0
    ],
    [
-    1791875247,
-    30645.25,
-    30645.25,
-    30645.25,
-    30645.25
+    1791875550,
+    30647.25,
+    30647.25,
+    30647.25,
+    30647.25
    ]
   ],
   "vix": [
@@ -7756,7 +7769,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-13T06:32:31Z",
+ "noticias_traducidas_ts": "2026-10-13T07:22:30Z",
  "ult_4h": 1791875851.2472146,
  "estrategia_4h": {
   "oro": {
