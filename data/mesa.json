@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4178.7 · NQ 30769.25 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-13T23:37:31Z"
+   "ultimo_resultado": "Oro 4178.7 · NQ 30761.75 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-13T23:42:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T23:37:30Z",
-   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: Dual MVP gold Logoman Judge, Ohtani card sells for $2.16M"
+   "actualizado": "2026-10-13T23:42:32Z",
+   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: US dollar strength masks growing disconnect with Treasury yields"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4178.7 · NQ 30761.75 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-13T23:42:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4178.7 · NQ 30769.25 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4206.0 · NQ 30735.25 · VIX 15.4 · 12 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-13T10:42:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4205.3 · NQ 30731.0 · VIX 15.41 · 12 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-13T10:37:38Z"
   }
  ],
  "briefs": [
@@ -5646,9 +5646,9 @@
  },
  "en_vivo": {
   "oro": 4178.7,
-  "nq": 30769.25,
+  "nq": 30761.75,
   "vix": 15.27,
-  "ts": "2026-10-13T23:37:31Z"
+  "ts": "2026-10-13T23:42:32Z"
  },
  "noticias": [
   {
@@ -5728,6 +5728,17 @@
    "id": "95a1b920be",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "US dollar strength masks growing disconnect with Treasury yields",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdERMVzNQLWRrNFBLLTZPSkVBNHN4TTk4WVNSa2xTck5DaUZmRVpralBrUjVudUVhejU4S1FIT3NsazJ2ZXFXY2ZPd3ctZ1EtbC1fcGJyMGJTR1hLdlIwTEhtSlV6Vk53TzNLZHZ1bWZ3NE5taXNWMEc4QTRMODBOUmtVakQ2MTRuVTFsQ3lHZnZrYnNJRkNRejZCUkwzS2hfeDBMazZzc2F1UFFOVHhaSNIBvAFBVV95cUxPRXYxUlg2WmYtb2JKSDFsSi1Od2ZwaVpTSUY3RVFrZUJBMzJFY1ZoMmNtYlFLZE9wUWFmSkg1UnFtem8wTldwUEVybkdLVTFQX29MUExrMjZZRi1uU0N2MzVLMTctbDlvUGtiQUZqaExURFFnWjhFMC1DQmxqbjhWa2RrOW1GWTlXRHFVd2hGVjl1X3hTdWdYZk9aQURBUi13ZE5JX2FNYzlna1FhOExNMXhJVnUtaU1kZWtvdQ?oc=5",
+   "ts": "2026-10-13T22:02:15Z",
+   "fuente": "FOREX.com",
+   "id": "5910cc05cb",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Unexpected tariffs increase the cost of West Maui’s Olowalu Fire Station project",
@@ -6106,6 +6117,17 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Bank earnings takeaways: Here's how JPMorgan, Goldman, Wells Fargo and Citi performed in Q3",
+   "link": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html",
+   "ts": "2026-10-13T19:12:04Z",
+   "fuente": "CNBC",
+   "id": "e9916ed213",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Michael Dell says AI needs safeguards and controls, and government has a role to play",
    "link": "https://www.cnbc.com/2026/10/13/michael-dell-ai-safeguards-government.html",
    "ts": "2026-10-13T19:08:28Z",
@@ -6437,30 +6459,6 @@
    "id": "4a1df08bb3",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Centene to launch prior authorization gold card program",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaUFMSjcyUE13RXFFc3VtSmVzT2ZVc29GUUR6cDhoWFdOOU5sT2RLNmZ6NmF3X1JGYkoyYXRyVUVrV0FXODhSZFZhNFJaWkdWT3kyckI4WmVtRDljYktlcTRLVk0teXc4Vm5MQ0FiVzNTV0RXaGNwa0lEMU5SSDhLaVlWS0c2Y3BxZTB1RGhhWFRvdGFFWnN4MQ?oc=5",
-   "ts": "2026-10-13T16:43:00Z",
-   "fuente": "Modern Healthcare",
-   "id": "70b2eb9f2f",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Centene lanzará un programa de tarjeta dorada de autorización previa",
-   "efecto": "Noticia corporativa sectorial sin relevancia macro institucional."
-  },
-  {
-   "titulo": "How options traders can prepare for a Nasdaq pullback",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNM1hwVXZMSzliMURXNXd3RW9zSUtjdDBoVklGUzJialUyVUxWZDdkUl9rTUh0anB0aW1hdXFKdTR3dUFpWkRVcXZUU1cweFpqNk9tZmtqUDltMzB6bUNLYWpMTHlER0FnTnZqUVFrS0ViN0pudEJaMklzcWZDOWRQQ3dUYy1fdWNCUVQ0dDg2eGh4NFdZNmpnZzk3aUM?oc=5",
-   "ts": "2026-10-13T16:40:54Z",
-   "fuente": "CNBC",
-   "id": "5449fd073b",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Cómo los operadores de opciones pueden prepararse para un retroceso del Nasdaq",
-   "efecto": "Genera cautela y posicionamiento bajista institucional en el NQ."
   }
  ],
  "eventos_avisados": [
@@ -7089,10 +7087,10 @@
     4184.5,
     4185.1,
     4178.1,
-    4179.2
+    4179.3
    ],
    [
-    1791934049,
+    1791934332,
     4178.7,
     4178.7,
     4178.7,
@@ -7713,15 +7711,15 @@
     1791932400,
     30811.75,
     30811.75,
-    30760.0,
-    30769.25
+    30758.75,
+    30763.0
    ],
    [
-    1791934040,
-    30769.25,
-    30769.25,
-    30769.25,
-    30769.25
+    1791934350,
+    30761.75,
+    30761.75,
+    30761.75,
+    30761.75
    ]
   ],
   "vix": [
