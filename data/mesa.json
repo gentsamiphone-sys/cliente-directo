@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4214.4 · NQ 30731.25 · VIX 15.45 · 3 noticias nuevas",
-   "actualizado": "2026-10-13T08:32:36Z"
+   "ultimo_resultado": "Oro 4214.9 · NQ 30751.25 · VIX 15.45 · 2 noticias nuevas",
+   "actualizado": "2026-10-13T08:37:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T08:32:34Z",
-   "ultimo_resultado": "3 titulares nuevos: Anthropic warns AI models could soon copy themselves across home devices"
+   "actualizado": "2026-10-13T08:37:41Z",
+   "ultimo_resultado": "2 titulares nuevos: EPC Mineex Sénégal wins Sabodala blasting contract"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4214.9 · NQ 30751.25 · VIX 15.45 · 2 noticias nuevas",
+   "ts": "2026-10-13T08:37:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4214.4 · NQ 30731.25 · VIX 15.45 · 3 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4190.2 · NQ 30854.25 · VIX 15.31 · 15 noticias nuevas (4 alto impacto)",
    "ts": "2026-10-12T19:27:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4189.6 · NQ 30856.25 · VIX 15.32 · 15 noticias nuevas (3 alto impacto)",
-   "ts": "2026-10-12T19:22:40Z"
   }
  ],
  "briefs": [
@@ -5444,12 +5444,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4214.4,
-  "nq": 30731.25,
+  "oro": 4214.9,
+  "nq": 30751.25,
   "vix": 15.45,
-  "ts": "2026-10-13T08:32:34Z"
+  "ts": "2026-10-13T08:37:41Z"
  },
  "noticias": [
+  {
+   "titulo": "EPC Mineex Sénégal wins Sabodala blasting contract",
+   "link": "https://www.mining-technology.com/news/epc-mineex-senegal-sabodala-blasting-contract/?.tsrc=rss",
+   "ts": "2026-10-13T08:30:15Z",
+   "fuente": "Yahoo Finance",
+   "id": "25c5e710c6",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Anthropic warns AI models could soon copy themselves across home devices",
    "link": "https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html",
@@ -5478,6 +5487,17 @@
    "id": "825a6627f1",
    "activos": [
     "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "QQQI: A Near-Term Nasdaq Pullback Does Not End The Bull Case",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOV2dGUEd6TnVZclJ6OXJpZ3ltUEgwaExfWXJqZ19GaFkwVU9GbTVUbzBkUnBiT0xBYzRDcnNsVG1COFV6NWIwTHBlZF9hNjhQU0ZzWnh4UGVGY25zQ0JyR1l6V3JXSkc3b2dJWTNOSnl0YXVWRGZobThjLUFoZy1HdXUzVTRWU0hiM09IUVFiTlRPOHd0OVVnNkdjMHRhRlNuQ1E?oc=5",
+   "ts": "2026-10-13T07:27:28Z",
+   "fuente": "Seeking Alpha",
+   "id": "02ddd55e2f",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -6295,32 +6315,6 @@
    "id": "64a37eff61",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "West Coast Community Bancorp Rings the Nasdaq Stock Market Closing Bell",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxONWJib3JUMDZqTFF4VXlGNzY3RDhuYlUxSExNZnlNUGM5MksxRW5LTWVmUVYtdTNMY0ZKeXNoeFVEVWJ2MkhpZDczWEw2VkJPMFdIZl9YSF9qczgxNnZ5WE9yX2puTmstREhoc2t1dnRwU01VVnBfTTcwTjVKdXlWUF9Nc0llNHozb3FHYnRUOHhrM0xXbThNZFF6VEdPdw?oc=5",
-   "ts": "2026-10-12T21:00:50Z",
-   "fuente": "Nasdaq",
-   "id": "843007f284",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Fed's Hammack backs restrictive policy, says better if it comes 'relatively quickly'",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQS3JSQmJSVHVtZDBjMUV0VUlYb0xQaGJvUUkyZG12VVQzVWJYc0pIcjZjQ2R5VUR5Nm1MaTV4SVpLOTB2Rno0b0lRak5ORWFKX21GdGVrTm51b2VKYU9DQWdBUk1TNWlUZkt4WjQ2dEx1OEt0N2hKNjYtVUh1elVZSFJMNG80WUxVUTdqVTdMaU43VUE5SzVGd1FsWnlGSU95VElLNk92VzlMU0NIU1VkZW5nc0xrak11STE1MTl4X19kRUpHZ1E?oc=5",
-   "ts": "2026-10-12T20:54:20Z",
-   "fuente": "Reuters",
-   "id": "bebaf8c9c2",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Hammack de la Fed apoya una política restrictiva rápida",
-   "efecto": "Presiona al oro y al NQ a la baja, fortalece al dólar."
   }
  ],
  "eventos_avisados": [
@@ -6844,14 +6838,14 @@
     4211.6,
     4216.3,
     4208.9,
-    4213.0
+    4214.9
    ],
    [
-    1791879750,
-    4214.4,
-    4214.4,
-    4214.4,
-    4214.4
+    1791880053,
+    4214.9,
+    4214.9,
+    4214.9,
+    4214.9
    ]
   ],
   "nq": [
@@ -7369,16 +7363,16 @@
    [
     1791878400,
     30702.75,
-    30739.0,
+    30754.75,
     30688.25,
-    30728.25
+    30752.25
    ],
    [
-    1791879751,
-    30731.25,
-    30731.25,
-    30731.25,
-    30731.25
+    1791880058,
+    30751.25,
+    30751.25,
+    30751.25,
+    30751.25
    ]
   ],
   "vix": [
@@ -7786,10 +7780,10 @@
     15.5,
     15.52,
     15.44,
-    15.46
+    15.44
    ],
    [
-    1791879451,
+    1791879751,
     15.45,
     15.45,
     15.45,
