@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4178.7 · NQ 30694.75 · VIX 15.21 · 11 noticias nuevas",
-   "actualizado": "2026-10-13T02:02:41Z"
+   "ultimo_resultado": "Oro 4189.4 · NQ 30665.0 · VIX 15.21 · 13 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-13T02:08:26Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T02:02:39Z",
-   "ultimo_resultado": "11 titulares nuevos: Stock Market Midday, Oct. 12: Dow Edges Higher as Investors Rotate Into Value Stocks"
+   "actualizado": "2026-10-13T02:08:24Z",
+   "ultimo_resultado": "13 titulares nuevos, 2 de alto impacto: FMI prevé desaceleración global menor en 2026 por auge de IA frente a guerras"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4189.4 · NQ 30665.0 · VIX 15.21 · 13 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-13T02:08:26Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4178.7 · NQ 30694.75 · VIX 15.21 · 11 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "ejecucion",
    "texto": "NQ: no pude enviar la orden (Invalid URL 'TRADERSPOST_WEBHOOK': No scheme supplied. Perha).",
    "ts": "2026-10-12T12:33:47Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Brief de Nueva York publicado: DXY y VIX al alza presionan al oro y NQ; venta intradía en NQ en zona VWAP",
-   "ts": "2026-10-12T12:33:46Z"
   }
  ],
  "briefs": [
@@ -5274,12 +5274,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4178.7,
-  "nq": 30694.75,
+  "oro": 4189.4,
+  "nq": 30665.0,
   "vix": 15.21,
-  "ts": "2026-10-13T02:02:39Z"
+  "ts": "2026-10-13T02:08:25Z"
  },
  "noticias": [
+  {
+   "titulo": "Global economy to slow less than expected in 2026 as AI boom offsets war hit: IMF",
+   "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
+   "ts": "2026-10-13T02:08:05Z",
+   "fuente": "CNBC",
+   "id": "80aeb7dee3",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "FMI prevé desaceleración global menor en 2026 por auge de IA frente a guerras",
+   "efecto": "Soporta al NQ por optimismo tecnológico a mediano plazo."
+  },
   {
    "titulo": "PHOTOS: Alpha Phi Alpha's Miss Old and Gold Pageant makes a comeback -",
    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOTN4cTFrR3FiMjl2cHY0Nmk5OXNTbWpxODFsY0V5UU9XYlJWZGhrRUc5QjhTd3Qxd0oxZXB6WUllN3J3bnZvX0o2N1RvUWx5TkFoTjk1TmUzT3ZndHZ6aHNaWVVMSzk4M1FoUWNNQjlrRDNwZDU5dWlpSHR0VFJ4MlZOQm5VYmdTMlY4bEtyMG0zdw?oc=5",
@@ -5290,6 +5303,20 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Gold slips near $4,160 as Middle East tensions fuel rate-hike concerns",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-slips-near-4-160-015039835.html?.tsrc=rss",
+   "ts": "2026-10-13T01:50:39Z",
+   "fuente": "Yahoo Finance",
+   "id": "1c61cb1e41",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El oro cae cerca de $4,160 por temores de subidas de tasas ante tensiones en Oriente Medio",
+   "efecto": "Presiona al oro a la baja por fortaleza del dólar y tasas."
   },
   {
    "titulo": "S&P 500 futures are flat ahead of bank earnings; South Korea's Kospi falls below 6,000: Live updates",
@@ -6110,26 +6137,6 @@
    "id": "6a0f28f9dd",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Bowie State Football Set to Host Virginia Union for Heroes Day / Gold Rush",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNXBUSlF5LUZsYVdVU3duMkphcExjWHRwd3p4QURXeXh5UnlBQjlja2FfVjlGd3pnSV9Qa3lqRHZHSVgxSlBfWUNoU1dtczVEVVBRWFhMaUMxZEE0Zzk2UV9tLTNqQU5BMVhITDVWakY3UXhTUHB6TjdpTzlWWVdvOGhnTUlqaWh0eE9ZNWdWY2dMbEhqTWt6WHdkWDBrTnN6X1dQWndnMG1oSHdfeUpUVVlNeEZIWXl5?oc=5",
-   "ts": "2026-10-12T16:42:28Z",
-   "fuente": "Bowie State University Athletics",
-   "id": "7e23e32600",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "UnitedHealth shares are doing something unusual ahead of earnings",
-   "link": "https://www.cnbc.com/2026/10/12/unitedhealth-shares-are-doing-something-unusual-ahead-of-earnings.html",
-   "ts": "2026-10-12T16:42:13Z",
-   "fuente": "CNBC",
-   "id": "65ebe8e4e7",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -6758,14 +6765,14 @@
     4181.6,
     4193.4,
     4173.7,
-    4179.5
+    4189.5
    ],
    [
-    1791856342,
-    4178.7,
-    4178.7,
-    4178.7,
-    4178.7
+    1791856703,
+    4189.4,
+    4189.4,
+    4189.4,
+    4189.4
    ]
   ],
   "nq": [
@@ -7389,15 +7396,15 @@
     1791853200,
     30721.25,
     30769.0,
-    30668.0,
-    30693.0
+    30657.25,
+    30657.75
    ],
    [
-    1791856360,
-    30693.5,
-    30693.5,
-    30693.5,
-    30693.5
+    1791856705,
+    30665.0,
+    30665.0,
+    30665.0,
+    30665.0
    ]
   ],
   "vix": [
@@ -7900,7 +7907,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-13T01:37:33Z",
+ "noticias_traducidas_ts": "2026-10-13T02:08:21Z",
  "ult_4h": 1791856959.443097,
  "estrategia_4h": {
   "oro": {
