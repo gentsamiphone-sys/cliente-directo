@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T02:02:39Z",
-   "ultimo_resultado": "Estrategia 4H NQ: VENTA: esperar retesteo de 30957.5 · stop 31043.32 · objetivo 30668.0 · R:R 3.37 (esperando retesteo). Tú ejecutas."
+   "actualizado": "2026-10-13T02:47:35Z",
+   "ultimo_resultado": "Estrategia 4H NQ: VENTA: esperar retesteo de 30792.0 · stop 30880.06 · objetivo 30615.75 · R:R 2.0 (esperando retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T02:42:33Z",
-   "ultimo_resultado": "11 titulares nuevos, 2 de alto impacto: El equipo de F1 de Red Bull usa IA para decisiones de Max Verstappen"
+   "actualizado": "2026-10-13T02:47:34Z",
+   "ultimo_resultado": "12 titulares nuevos, 2 de alto impacto: Republican U.S. Lauren Boebert vs. Democrat Eileen Laubacher on tariffs | Debate for Colorado's 4th Congressional District"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H NQ: VENTA: esperar retesteo de 30792.0 · stop 30880.06 · objetivo 30615.75 · R:R 2.0 (esperando retesteo). Tú ejecutas.",
+   "ts": "2026-10-13T02:47:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4192.2 · NQ 30644.0 · VIX 15.21 · 11 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4194.7 · NQ 31079.5 · VIX 15.47 · 7 noticias nuevas",
    "ts": "2026-10-12T13:17:38Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4187.6 · NQ 31071.75 · VIX 15.5 · 7 noticias nuevas",
-   "ts": "2026-10-12T13:12:40Z"
   }
  ],
  "briefs": [
@@ -5274,10 +5274,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4192.2,
-  "nq": 30644.0,
+  "oro": 4196.3,
+  "nq": 30640.0,
   "vix": 15.21,
-  "ts": "2026-10-13T02:42:34Z"
+  "ts": "2026-10-13T02:47:34Z"
  },
  "noticias": [
   {
@@ -5456,6 +5456,15 @@
    "id": "40c4648762",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Republican U.S. Lauren Boebert vs. Democrat Eileen Laubacher on tariffs | Debate for Colorado's 4th Congressional District",
+   "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQcFYwTF9YcmNnNEVpZ2xwLTB6SXUzV3kxMU5FeklETGF2SnZERUN6dGtZbTVUbWRhRnU4aXcwRDJTbW5uYmxUTW5WQkw5RUh5VUpJb3kyanhDV29xd05HZktGM1d6N0pGam1JTWJzQ0lETVp0dkVFTDdGWENnUHNJWkZwQU5Nak1lR05CSmN6czg0MGtZUGRIUkNvdWJEOElvLXVGOWhKRmJfTk5aNVJmMllaWU1HdGVmRTVtX3pmZXptMXBuMUo5Z2d4WHNqWmdZVUg1a19sQTUwczF2UTJIbW83MF92NHFyUVlHZFBjeVZiUUlvd2IxRTRIamlCMEl6Nmk4R3hSMC1RdE9EYmhIRzFpWDBkbGxES3JmdWlwM3N0bEFWcG5KOVFRWFhaV0ZoT0E?oc=5",
+   "ts": "2026-10-13T00:16:00Z",
+   "fuente": "9News",
+   "id": "dc8721b3ba",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Beyond the Podium: Josh Turek discusses tariffs, healthcare and responds to GOP criticism",
@@ -6050,6 +6059,15 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Rep. Ilhan Omar blasts federal criminal raid on home: 'I will not be silenced'",
+   "link": "https://www.cnbc.com/2026/10/12/ilhan-omar-home-raided-dhs-immigration-investigation.html",
+   "ts": "2026-10-12T18:29:28Z",
+   "fuente": "CNBC",
+   "id": "076b3b5142",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "Cocoa Harvest Delays in the Ivory Coast Support Prices",
    "link": "https://www.barchart.com/story/news/6242446/cocoa-harvest-delays-in-the-ivory-coast-support-prices?.tsrc=rss",
    "ts": "2026-10-12T18:27:08Z",
@@ -6128,26 +6146,6 @@
    "impacto": "bajo",
    "es": "Guía de cuentas y niveles de LXT Group Trading",
    "efecto": ""
-  },
-  {
-   "titulo": "Nasdaq Files Proposed Rule Change Regarding the $5 Million MVLS Continued Listing Requirement Amid SEC Stay",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNDRRV3NCa0JfR2NRSHF5MlhRYlN0VjAyS0tSczFHazlQRjlJbnZObVNjdG5WejhJSG8yMWZtRmpFV1J3TGdBamFxV2o3TmhjalNXUzRsOEtuRVYyYlJjSGdtZXREWmZVOUFiRlhPV0ZxaExEWGRTWF9kVGF0bHVGb1c5SWhWSnB2cmFycEhOTldnYkc4S3FfN1Q0R1lWLVE3SVhlTThsdTV3TVBzeGfSAbMBQVVfeXFMTldkRmlxQmN1MXUySGtuTEJDX0R2amplbkFnU1h1LXdhNU4yQktDVGl6cTlFSTBzS1FrMUhQY1Rrb29BMGxXOW9GUU1lcWJ3b29adEpnaHhxcTI0d3hSU085MEJDRzJGN05mMWVsY20zUlcteEFidzlmSjdhQVFWcUtHMGZTV0k2eVUybGhWVVh5bmZuZkVieUtkaGtUTkdTZG9XMUJIazl4X0FidGxLWTdTc3M?oc=5",
-   "ts": "2026-10-12T17:28:00Z",
-   "fuente": "The National Law Review",
-   "id": "9790f7122b",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Why older Americans' wealth may be helping keep consumer spending strong",
-   "link": "https://www.cnbc.com/2026/10/12/baby-boomers-may-be-driving-resilient-consumer-spending.html",
-   "ts": "2026-10-12T17:23:35Z",
-   "fuente": "CNBC",
-   "id": "05d809650e",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7919,19 +7917,19 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-13T02:42:30Z",
- "ult_4h": 1791858753.9187193,
+ "ult_4h": 1791859654.7966795,
  "estrategia_4h": {
   "oro": {
-   "precio": 4193.0,
-   "atr_4h": 21.64,
+   "precio": 4196.3,
+   "atr_4h": 21.76,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4153.82,
+     "stop": 4153.75,
      "objetivo": 4242.3,
-     "rr": 5.82,
+     "rr": 5.78,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.52,
      "ruptura": "2026-10-08 20:00 UTC"
@@ -7939,27 +7937,28 @@
    ]
   },
   "nq": {
-   "precio": 30659.25,
-   "atr_4h": 144.75,
+   "precio": 30640.0,
+   "atr_4h": 146.77,
    "setups": [
     {
      "direccion": "VENTA",
-     "nivel": 30957.5,
-     "entrada": 30957.5,
-     "stop": 31044.35,
-     "objetivo": 30644.0,
-     "rr": 3.61,
+     "nivel": 30792.0,
+     "entrada": 30792.0,
+     "stop": 30880.06,
+     "objetivo": 30615.75,
+     "rr": 2.0,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.04,
-     "ruptura": "2026-10-12 16:00 UTC"
+     "fuerza_ruptura_atr": 1.16,
+     "ruptura": "2026-10-13 00:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-13T02:32:34Z"
+  "ts": "2026-10-13T02:47:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
-  "nq|VENTA|30957.5|esperando retesteo"
+  "nq|VENTA|30957.5|esperando retesteo",
+  "nq|VENTA|30792.0|esperando retesteo"
  ],
  "alpha_ordenes": []
 }
