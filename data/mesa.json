@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4209.0 · NQ 30692.25 · VIX 15.43 · 13 noticias nuevas (5 alto impacto)",
-   "actualizado": "2026-10-13T11:42:31Z"
+   "ultimo_resultado": "Oro 4209.8 · NQ 30677.5 · VIX 15.39 · 15 noticias nuevas (6 alto impacto)",
+   "actualizado": "2026-10-13T11:47:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T11:42:30Z",
-   "ultimo_resultado": "13 titulares nuevos, 5 de alto impacto: Gold has been surging in value. Why?"
+   "actualizado": "2026-10-13T11:47:35Z",
+   "ultimo_resultado": "15 titulares nuevos, 6 de alto impacto: Only 18% of Americans use a high-yield savings account — and they reap hundreds more in interest. Here’s how you can too"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4209.8 · NQ 30677.5 · VIX 15.39 · 15 noticias nuevas (6 alto impacto)",
+   "ts": "2026-10-13T11:47:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4209.0 · NQ 30692.25 · VIX 15.43 · 13 noticias nuevas (5 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Volatilidad normal (VIX 15.21).",
    "ts": "2026-10-12T21:33:01Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "VIX/NQ: DIVERGENCIA: NQ baja pero el VIX también baja (caída sin miedo; posible barrida para comprar)",
-   "ts": "2026-10-12T21:33:00Z"
   }
  ],
  "briefs": [
@@ -5444,12 +5444,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4209.0,
-  "nq": 30692.25,
-  "vix": 15.43,
-  "ts": "2026-10-13T11:42:31Z"
+  "oro": 4209.8,
+  "nq": 30677.5,
+  "vix": 15.39,
+  "ts": "2026-10-13T11:47:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Only 18% of Americans use a high-yield savings account — and they reap hundreds more in interest. Here’s how you can too",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/only-18-americans-high-yield-114000340.html?.tsrc=rss",
+   "ts": "2026-10-13T11:40:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "1c9a2625e1",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Gold has been surging in value. Why?",
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qYV8tMGRUUnZhN1lhMlQ4LWpCUTFWMy1oQnZ3RGk3R0o0by1STEhwa0piUDM4eE0zZ0ttZEJCRnpCdThHUzJkWUJDMVVHRUc4V19Mbk15WDY1ZUttWkZzaXAzNk5jOE1hLWhacDdpbjh3ZnFa?oc=5",
@@ -5828,6 +5839,17 @@
    "id": "01c0881548",
    "activos": [
     "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Domino's (NASDAQ:DPZ) Surprises With Q3 2026 Sales",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVU9TOUY4VzZ5ZldGOHZZS2hoU3pvUFhpODBTRDBQcXUydkdYeVo5ZG90SHJXZzVPTnpEZG5NY1hvMUh6Uk0wNXRndzRSUHhBb0NxbDN5V253VjhwMWluaVFPX0hwSG0yQXczX2J1Y0hObkxfTzFOUWl6VlY3ckVUaGVIcjgzVDctcXFKTnhDMTdmOWRpb2stb042YzE?oc=5",
+   "ts": "2026-10-13T10:19:09Z",
+   "fuente": "Yahoo Finance",
+   "id": "c323a99d76",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -6267,30 +6289,6 @@
    "fuente": "CNBC",
    "id": "2a6840be2a",
    "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "TSMC Stock Falls 2 Days Before Earnings on a Memory Scare It Doesn’t Face",
-   "link": "https://www.tikr.com/blog/tsmc-stock-falls-2-days-before-earnings-on-a-memory-scare-it-doesnt-face?ref=yahoofinance&amp;.tsrc=rss",
-   "ts": "2026-10-13T06:39:02Z",
-   "fuente": "Yahoo Finance",
-   "id": "990385ef11",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Las acciones de TSMC caen dos días antes de resultados por un susto de memoria que no enfrenta",
-   "efecto": "Genera presión bajista temporal en el NQ dentro del sector tecnológico."
-  },
-  {
-   "titulo": "Gold: Soft Debt Default Using Inflation (Commodity:XAUUSD:CUR)",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOYTlRLU5FWjF6ajRsSUVwVlUzLS1BLWVmTTdtRnZfaDl4MVBCaG41YldFV0dnWmdJek1tMVZ0bFlZY3hfOFMxRTExVXNwT1hINWJ5VWJCdk1kVDhUdUZWLXpxY2JpRGR2SktyOExlTjduQmptdkhQVTB1dUREalBabklNSUpOdw?oc=5",
-   "ts": "2026-10-13T06:35:23Z",
-   "fuente": "Seeking Alpha",
-   "id": "5f0ae59c98",
-   "activos": [
-    "oro"
-   ],
    "impacto": "alto"
   }
  ],
@@ -6836,14 +6834,14 @@
     4205.4,
     4211.0,
     4203.8,
-    4209.8
+    4210.5
    ],
    [
-    1791891125,
-    4209.0,
-    4209.0,
-    4209.0,
-    4209.0
+    1791891451,
+    4209.8,
+    4209.8,
+    4209.8,
+    4209.8
    ]
   ],
   "nq": [
@@ -7384,14 +7382,14 @@
     30719.5,
     30721.25,
     30654.5,
-    30691.75
+    30673.75
    ],
    [
-    1791891150,
-    30692.25,
-    30692.25,
-    30692.25,
-    30692.25
+    1791891453,
+    30676.75,
+    30676.75,
+    30676.75,
+    30676.75
    ]
   ],
   "vix": [
@@ -7819,23 +7817,23 @@
     1791889200,
     15.53,
     15.58,
-    15.42,
-    15.43
+    15.4,
+    15.4
    ],
    [
-    1791890836,
-    15.43,
-    15.43,
-    15.43,
-    15.43
+    1791891151,
+    15.39,
+    15.39,
+    15.39,
+    15.39
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-13T11:32:33Z",
- "ult_4h": 1791891157.006197,
+ "ult_4h": 1791892055.7979724,
  "estrategia_4h": {
   "oro": {
-   "precio": 4209.9,
+   "precio": 4209.8,
    "atr_4h": 20.0,
    "setups": [
     {
@@ -7852,7 +7850,7 @@
    ]
   },
   "nq": {
-   "precio": 30672.25,
+   "precio": 30676.75,
    "atr_4h": 142.43,
    "setups": [
     {
@@ -7879,7 +7877,7 @@
     }
    ]
   },
-  "ts": "2026-10-13T11:32:37Z"
+  "ts": "2026-10-13T11:47:36Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
