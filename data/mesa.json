@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4193.1 · NQ 30785.75 · VIX 15.19 · 15 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-13T14:09:07Z"
+   "ultimo_resultado": "Oro 4192.5 · NQ 30803.25 · VIX 15.23 · 15 noticias nuevas (5 alto impacto)",
+   "actualizado": "2026-10-13T14:12:40Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T14:09:06Z",
-   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: Vans gana terreno entre los adolescentes y su matriz podría subir, según Piper Sandler"
+   "actualizado": "2026-10-13T14:12:38Z",
+   "ultimo_resultado": "15 titulares nuevos, 5 de alto impacto: Factory workers blame Trump’s tariffs for lost jobs"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4192.5 · NQ 30803.25 · VIX 15.23 · 15 noticias nuevas (5 alto impacto)",
+   "ts": "2026-10-13T14:12:40Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4193.1 · NQ 30785.75 · VIX 15.19 · 15 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4190.8 · NQ 30765.25 · VIX 15.21 · 10 noticias nuevas",
    "ts": "2026-10-13T01:22:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4184.7 · NQ 30744.5 · VIX 15.21 · 10 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-13T01:17:35Z"
   }
  ],
  "briefs": [
@@ -5444,10 +5444,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4193.1,
-  "nq": 30785.75,
-  "vix": 15.19,
-  "ts": "2026-10-13T14:09:06Z"
+  "oro": 4192.5,
+  "nq": 30803.25,
+  "vix": 15.23,
+  "ts": "2026-10-13T14:12:39Z"
  },
  "noticias": [
   {
@@ -5473,6 +5473,15 @@
    "efecto": ""
   },
   {
+   "titulo": "Factory workers blame Trump’s tariffs for lost jobs",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWndSeGVZOWNnSVNjRk91UGNSWXRGYzRqZlRILVBaRkhhdXJBYUVzT01HTGtCZWVQWjdJMEtDMVFYa2p6QkdFWjI4dWdiTEI4eVNzQmFhOFp2c1pMSGlsRWpXa2JLZzlZbHVsUzRpeG1DWHpQNUZNdjVIeTlidFJJQlJFTTZaTHEyalp6S29CanhKdnlhRElnaWw2bVNuVXlfaGc?oc=5",
+   "ts": "2026-10-13T14:03:00Z",
+   "fuente": "Los Angeles Times",
+   "id": "76333db706",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Bank earnings live updates: JPMorgan and Goldman execs discuss AI, deal backlog on analyst calls",
    "link": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html",
    "ts": "2026-10-13T14:02:56Z",
@@ -5485,6 +5494,17 @@
    "impacto": "medio",
    "es": "Resultados bancarios: directivos de JPMorgan y Goldman discuten IA y cartera de negocios",
    "efecto": ""
+  },
+  {
+   "titulo": "More homebuyers are taking a chance on adjustable-rate mortgages, hoping rates will fall—here’s how to think about that bet",
+   "link": "https://www.cnbc.com/make-it/2026/10/13/adjustable-rate-mortgage-arm-risks.html",
+   "ts": "2026-10-13T14:00:02Z",
+   "fuente": "CNBC",
+   "id": "262ef32047",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Raleigh CVB promotes Gold to CEO",
@@ -6285,28 +6305,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Lavras Gold Defines a District-Scale Gold-in-Soil Corridor at Lavras do Sul and Identifies Cerrito North as a New Exploration Target",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/lavras-gold-defines-district-scale-110000697.html?.tsrc=rss",
-   "ts": "2026-10-13T11:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "6a978bd2c8",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Centene to Launch Nationwide Gold Card Program for Qualifying Providers",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbmtoYi0zMXMwM3Q0YlJnbVhCWVhnN2I0alVQU1RtUkNaQXZ2WEVYNHdYbzJRdTIwMVFMRElTTUQ4SDl0cUVXZmQwOTdscXFocWg4SHhsczlSYVZndHNtdnQ1NDJrNERCVVVlcFpRXzF1SVVxYWpYZWdHRVJ5QnRTR3JYSVdjVi1HTy1sZ1paOXptX0dzVnpzMXVRX3psUXhDZG5SWW4yT2xMX1lCa2dpa1U4YTlOV2xMMDhKSllDbkc1Mm1qX0E?oc=5",
-   "ts": "2026-10-13T11:00:00Z",
-   "fuente": "PR Newswire",
-   "id": "eddffa9d76",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -6868,11 +6866,18 @@
     4192.7
    ],
    [
-    1791899945,
-    4193.1,
-    4193.1,
-    4193.1,
-    4193.1
+    1791900000,
+    4192.5,
+    4196.0,
+    4191.3,
+    4191.8
+   ],
+   [
+    1791900156,
+    4192.5,
+    4192.5,
+    4192.5,
+    4192.5
    ]
   ],
   "nq": [
@@ -7427,14 +7432,21 @@
     30658.0,
     30806.25,
     30591.25,
-    30792.0
+    30792.75
    ],
    [
-    1791899945,
-    30785.75,
-    30785.75,
-    30785.75,
-    30785.75
+    1791900000,
+    30792.75,
+    30814.75,
+    30770.75,
+    30788.75
+   ],
+   [
+    1791900159,
+    30803.25,
+    30803.25,
+    30803.25,
+    30803.25
    ]
   ],
   "vix": [
@@ -7877,14 +7889,14 @@
     15.3,
     15.34,
     15.17,
-    15.19
+    15.21
    ],
    [
-    1791899641,
-    15.19,
-    15.19,
-    15.19,
-    15.19
+    1791899851,
+    15.23,
+    15.23,
+    15.23,
+    15.23
    ]
   ]
  },
