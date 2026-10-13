@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4186.9 · NQ 30783.5 · VIX 15.21 · 13 noticias nuevas (4 alto impacto)",
-   "actualizado": "2026-10-13T00:37:40Z"
+   "ultimo_resultado": "Oro 4187.7 · NQ 30763.25 · VIX 15.21 · 14 noticias nuevas",
+   "actualizado": "2026-10-13T00:42:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T00:37:39Z",
-   "ultimo_resultado": "13 titulares nuevos, 4 de alto impacto: El Nasdaq cierra a la baja por el alza del petróleo ante resultados y datos"
+   "actualizado": "2026-10-13T00:42:30Z",
+   "ultimo_resultado": "14 titulares nuevos: GM CEO: We're making leaps and bounds toward 'eyes-off, hands-off' driving"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4187.7 · NQ 30763.25 · VIX 15.21 · 14 noticias nuevas",
+   "ts": "2026-10-13T00:42:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4186.9 · NQ 30783.5 · VIX 15.21 · 13 noticias nuevas (4 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4189.2 · NQ 31076.5 · VIX 15.42 · 6 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-12T12:32:46Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4195.2 · NQ 31079.25 · VIX 15.41 · 5 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-12T12:27:47Z"
   }
  ],
  "briefs": [
@@ -5274,12 +5274,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4186.9,
-  "nq": 30783.5,
+  "oro": 4187.7,
+  "nq": 30763.25,
   "vix": 15.21,
-  "ts": "2026-10-13T00:37:39Z"
+  "ts": "2026-10-13T00:42:31Z"
  },
  "noticias": [
+  {
+   "titulo": "GM CEO: We're making leaps and bounds toward 'eyes-off, hands-off' driving",
+   "link": "https://www.cnbc.com/2026/10/12/cramer-gm-eyes-off-driving-2028.html",
+   "ts": "2026-10-13T00:24:23Z",
+   "fuente": "CNBC",
+   "id": "40c4648762",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Nasdaq ends lower as oil prices surge ahead of earnings, economic data",
    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9mWTBMQkJBb2RfU2dFSkY0NTBXRXJMU3Qtb2ZNZEU4WUlFN3NITVNkX0VPckJIUmU3TFhYdEgwRWtsVHg2U3JjaEhfd3ZyVmFNaEN3WDI3SlZBaVpkVm93RDNmX3g5QQ?oc=5",
@@ -5292,6 +5301,15 @@
    "impacto": "alto",
    "es": "El Nasdaq cierra a la baja por el alza del petróleo ante resultados y datos",
    "efecto": "Presiona al Nasdaq a la baja por mayores costos energéticos."
+  },
+  {
+   "titulo": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
+   "link": "https://www.cnbc.com/2026/10/12/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "ts": "2026-10-12T23:20:20Z",
+   "fuente": "CNBC",
+   "id": "1cb42641c1",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "S&P 500, Nasdaq 100 End Lower On Chipmaker Weakness, While Salesforce Gains Aid Dow — META, MSFT, BMBL, CRM, SNAP In Focus",
@@ -5754,6 +5772,15 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Cocoa Harvest Delays in the Ivory Coast Support Prices",
+   "link": "https://www.barchart.com/story/news/6242446/cocoa-harvest-delays-in-the-ivory-coast-support-prices?.tsrc=rss",
+   "ts": "2026-10-12T18:27:08Z",
+   "fuente": "Yahoo Finance",
+   "id": "860cab2a5e",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "Fed’s Hammack says Treasury yields modest by historic standards",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZTVCWDdqM0M2ejhKMjJJOGEzWUxrUWpzWjRobmZvSTJ3VXRfVm04UVJtT2JQZmZNQzlmOURhSHhyXzItT1JtdjBRMi1tSUgtMHdpbUtoZ3pFY29jNUJRY0lxWWFFa2JFakRtT0ZOUmdpU1FoSDktbHRobm1aOXR1cUxUN3hfUmNkVHRvZ1BoY3kzeWVDWGk2c1d1RzNMZw?oc=5",
    "ts": "2026-10-12T18:20:06Z",
@@ -6103,37 +6130,6 @@
    "id": "d89c14d461",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Investors can now see how Meta's big AI spending will pay off with Muse. Why I am buying now",
-   "link": "https://www.cnbc.com/2026/10/12/investors-can-now-see-how-metas-big-ai-spending-will-pay-off-with-muse-why-i-am-buying-now.html",
-   "ts": "2026-10-12T15:54:41Z",
-   "fuente": "CNBC",
-   "id": "dcf98299d1",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Delta delays debut of Saudi Arabia service until March after Riyadh airport attacks",
-   "link": "https://www.cnbc.com/2026/10/12/delta-riyadh-nonstop-service-delay.html",
-   "ts": "2026-10-12T15:48:28Z",
-   "fuente": "CNBC",
-   "id": "f498c20408",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Deadly gold mine air strikes highlight Egypt-Sudan border insecurity",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU2dnaHNITDBvX213czhVVkliQlljXzFiY2diU2tmRXo4NUpfWXlJUFZRSUI2V0NVWFNxa0wtRGNQYlR6b1FLWUY0R0V0UW1xVEV5c0xJZlBMTzNMajU3ME5KN1NZb1RiSzJuV2t4QU9LMWNXa0E2TW9XLW9vbFhaY2lvUEVWNXNmRXl5ek9ySmVCWlZGdllIZXJjVjNRUXZ1RHhEdm9nUlR6Y2xab3FR0gG0AUFVX3lxTE9scUJENm5GandPYWxfYnJ0MnFOYWI5WFZNVUxxd0N5N2ktSzJubkhLeGpWdDVKODhYSi14NVdQM2JsY1p2LUxXamJpOE1PU0x4ZkRkTkVjdTRyaUlFSGxJWVl0UW82NjFzUklzSm1hNlBNVmhxN1ZZb3lXNUJWVlNQeGItOGprXzZ6TFoxaG0wZzNuWTVNSlJjRFNzZHpSTUVSZHVfSWd2ZE1SR0xOT2hmdGI3Ng?oc=5",
-   "ts": "2026-10-12T15:42:34Z",
-   "fuente": "Al Jazeera",
-   "id": "b55a698192",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -6762,14 +6758,14 @@
     4194.8,
     4195.7,
     4184.5,
-    4186.2
+    4185.3
    ],
    [
-    1791851256,
-    4186.9,
-    4186.9,
-    4186.9,
-    4186.9
+    1791851540,
+    4187.7,
+    4187.7,
+    4187.7,
+    4187.7
    ]
   ],
   "nq": [
@@ -7394,14 +7390,14 @@
     30810.25,
     30845.0,
     30730.5,
-    30772.75
+    30768.25
    ],
    [
-    1791851258,
-    30783.5,
-    30783.5,
-    30783.5,
-    30783.5
+    1791851548,
+    30763.25,
+    30763.25,
+    30763.25,
+    30763.25
    ]
   ],
   "vix": [
