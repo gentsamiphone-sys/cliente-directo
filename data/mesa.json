@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4181.4 · NQ 30767.75 · VIX 15.27 · 15 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-13T20:42:36Z"
+   "ultimo_resultado": "Oro 4181.0 · NQ 30764.75 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-13T20:47:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T20:42:35Z",
-   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade"
+   "actualizado": "2026-10-13T20:47:34Z",
+   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: Six Flags shares decline following deadly roller coaster incident"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4181.0 · NQ 30764.75 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-13T20:47:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4181.4 · NQ 30767.75 · VIX 15.27 · 15 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "historiador",
    "texto": "Revisando qué pasó en esta misma fecha los últimos 10 años y buscando años parecidos…",
    "ts": "2026-10-13T06:33:01Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "ES/NQ: CONFIRMA: ES y NQ van en la misma dirección · ES bajista en 1H",
-   "ts": "2026-10-13T06:33:00Z"
   }
  ],
  "briefs": [
@@ -5444,12 +5444,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4181.4,
-  "nq": 30767.75,
+  "oro": 4181.0,
+  "nq": 30764.75,
   "vix": 15.27,
-  "ts": "2026-10-13T20:42:35Z"
+  "ts": "2026-10-13T20:47:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Six Flags shares decline following deadly roller coaster incident",
+   "link": "https://www.cnbc.com/2026/10/13/six-flags-shares-plunge-after-hours-deadly-roller-coaster-incident-goliath-georgia.html",
+   "ts": "2026-10-13T20:43:11Z",
+   "fuente": "CNBC",
+   "id": "5b83f040bb",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Don't let inflation bite — how to hedge with TIPS, commodities and infrastructure funds",
+   "link": "https://www.cnbc.com/2026/10/13/inflation-hedge-tips-commodities-infrastructure.html",
+   "ts": "2026-10-13T20:42:56Z",
+   "fuente": "CNBC",
+   "id": "a24922eb27",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "Bank of America fined $1.2 billion over money-laundering violations",
    "link": "https://www.cnbc.com/2026/10/13/bank-of-america-treasury-money-laundering.html",
@@ -6240,26 +6258,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Stocks fall after bank earnings deluge; chipmakers slide: Live updates",
-   "link": "https://www.cnbc.com/2026/10/12/stock-market-today-live-updates.html",
-   "ts": "2026-10-13T15:01:29Z",
-   "fuente": "CNBC",
-   "id": "1e7d6f37c9",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
-   "link": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html",
-   "ts": "2026-10-13T14:56:32Z",
-   "fuente": "CNBC",
-   "id": "c3d3bf381c",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -6867,14 +6865,14 @@
     4185.9,
     4186.9,
     4180.3,
-    4181.5
+    4181.0
    ],
    [
-    1791923547,
-    4181.4,
-    4181.4,
-    4181.4,
-    4181.4
+    1791923848,
+    4181.0,
+    4181.0,
+    4181.0,
+    4181.0
    ]
   ],
   "nq": [
@@ -7477,15 +7475,15 @@
     1791921600,
     30789.25,
     30803.25,
-    30763.5,
-    30770.25
+    30760.5,
+    30766.0
    ],
    [
-    1791923553,
-    30767.75,
-    30767.75,
-    30767.75,
-    30767.75
+    1791923852,
+    30764.75,
+    30764.75,
+    30764.75,
+    30764.75
    ]
   ],
   "vix": [
