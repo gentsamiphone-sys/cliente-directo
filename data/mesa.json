@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4222.1 · NQ 30657.25 · VIX 15.21 · 7 noticias nuevas",
-   "actualizado": "2026-10-13T05:12:31Z"
+   "ultimo_resultado": "Oro 4221.7 · NQ 30676.75 · VIX 15.21 · 7 noticias nuevas",
+   "actualizado": "2026-10-13T05:17:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T05:12:30Z",
-   "ultimo_resultado": "7 titulares nuevos: Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures"
+   "actualizado": "2026-10-13T05:17:32Z",
+   "ultimo_resultado": "7 titulares nuevos: World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4221.7 · NQ 30676.75 · VIX 15.21 · 7 noticias nuevas",
+   "ts": "2026-10-13T05:17:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4222.1 · NQ 30657.25 · VIX 15.21 · 7 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4191.7 · NQ 30944.25 · VIX 15.14 · 15 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-12T15:57:39Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4192.4 · NQ 30920.25 · VIX 15.17 · 15 noticias nuevas (3 alto impacto)",
-   "ts": "2026-10-12T15:52:35Z"
   }
  ],
  "briefs": [
@@ -5274,12 +5274,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4222.1,
-  "nq": 30657.25,
+  "oro": 4221.7,
+  "nq": 30676.75,
   "vix": 15.21,
-  "ts": "2026-10-13T05:12:31Z"
+  "ts": "2026-10-13T05:17:32Z"
  },
  "noticias": [
+  {
+   "titulo": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
+   "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html",
+   "ts": "2026-10-13T05:16:06Z",
+   "fuente": "CNBC Economía",
+   "id": "547e36700a",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Asia FX steady as dollar holds near 18-mth high, U.S. CPI awaited",
    "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-steady-dollar-holds-043452263.html?.tsrc=rss",
@@ -6141,17 +6150,6 @@
    "impacto": "bajo",
    "es": "Operación masiva en acciones de Snap",
    "efecto": ""
-  },
-  {
-   "titulo": "S&P 500, Nasdaq Slip as Oil Rises on Russia Strikes in Ukraine",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPamJ2ZGp1bmNfdEs1MUlid3YzVTcxNmRtZW9DRjE5LUhjM0E5cHJ3elNrYzVXTVBWOVNYX0hVTVJ2anJUUG44QnBvWnJfNVVUbnRTTDZEcVdqSTFSeWxuemlXOVJvWUhObmhiOVk0X083ckp4WEtQTUU3dnVNMW1wd3VxUlctaG5RbGpISVI3bVNQZXpHT3hWVEZZbDJrblZTYmhPVG9pVlJxUUJ3MnFNUmozQk5iNkp6OFlzNWppUEN1VXc?oc=5",
-   "ts": "2026-10-12T18:43:00Z",
-   "fuente": "WSJ",
-   "id": "daefd74142",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -6652,16 +6650,16 @@
    [
     1791867600,
     4219.9,
-    4222.5,
+    4223.0,
     4219.6,
-    4221.7
+    4222.1
    ],
    [
-    1791867748,
-    4222.1,
-    4222.1,
-    4222.1,
-    4222.1
+    1791868050,
+    4221.4,
+    4221.4,
+    4221.4,
+    4221.4
    ]
   ],
   "nq": [
@@ -7151,16 +7149,16 @@
    [
     1791867600,
     30647.0,
-    30658.75,
+    30681.75,
     30642.0,
-    30656.25
+    30678.0
    ],
    [
-    1791867748,
-    30657.25,
-    30657.25,
-    30657.25,
-    30657.25
+    1791868052,
+    30679.0,
+    30679.0,
+    30679.0,
+    30679.0
    ]
   ],
   "vix": [
@@ -7664,27 +7662,27 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-13T04:52:35Z",
- "ult_4h": 1791867756.0657043,
+ "ult_4h": 1791868652.7885687,
  "estrategia_4h": {
   "oro": {
-   "precio": 4219.2,
-   "atr_4h": 20.66,
+   "precio": 4221.4,
+   "atr_4h": 20.89,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4154.41,
+     "stop": 4154.27,
      "objetivo": 4242.3,
-     "rr": 6.09,
+     "rr": 6.02,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.59,
+     "fuerza_ruptura_atr": 1.57,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30640.5,
+   "precio": 30679.0,
    "atr_4h": 136.41,
    "setups": [
     {
@@ -7711,7 +7709,7 @@
     }
    ]
   },
-  "ts": "2026-10-13T05:02:36Z"
+  "ts": "2026-10-13T05:17:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
