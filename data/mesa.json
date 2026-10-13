@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T06:32:53Z",
-   "ultimo_resultado": "Mapa listo: oro 4212.4 · NQ 30664.25."
+   "actualizado": "2026-10-13T08:32:35Z",
+   "ultimo_resultado": "Estrategia 4H NQ: VENTA en el nivel 30792.0 · stop 30874.53 · objetivo 30604.75 · R:R 2.27 (en retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T08:27:33Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Los futuros del Nasdaq caen por venta de chips; se acercan ganancias del 3T e inflación"
+   "actualizado": "2026-10-13T08:32:34Z",
+   "ultimo_resultado": "3 titulares nuevos: Anthropic warns AI models could soon copy themselves across home devices"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H NQ: VENTA en el nivel 30792.0 · stop 30874.53 · objetivo 30604.75 · R:R 2.27 (en retesteo). Tú ejecutas.",
+   "ts": "2026-10-13T08:32:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4215.8 · NQ 30721.5 · VIX 15.46 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4190.2 · NQ 30859.25 · VIX 15.31 · 15 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-12T19:17:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4190.9 · NQ 30862.0 · VIX 15.32 · 15 noticias nuevas (4 alto impacto)",
-   "ts": "2026-10-12T19:12:44Z"
   }
  ],
  "briefs": [
@@ -5444,12 +5444,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4215.8,
-  "nq": 30721.5,
-  "vix": 15.46,
-  "ts": "2026-10-13T08:27:34Z"
+  "oro": 4214.4,
+  "nq": 30731.25,
+  "vix": 15.45,
+  "ts": "2026-10-13T08:32:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Anthropic warns AI models could soon copy themselves across home devices",
+   "link": "https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html",
+   "ts": "2026-10-13T08:27:20Z",
+   "fuente": "CNBC",
+   "id": "9040df4abe",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Micron, SoftBank and ASML slide as Wall Street chip rout spreads",
    "link": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
@@ -6029,6 +6038,17 @@
    "impacto": "alto"
   },
   {
+   "titulo": "Nasdaq falls ahead of earnings, economic data while oil rallies",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOck00LVRZX0lQNUw5SGlYU09FOWw1dUVTNjZTQ0p6YklVVUlRSms1eVZRcDd6VjRySF9rOEptM3Nrd19mSURMa1dmbTdIOE1VZjJKdThIR0tabGRTdjBiX0JCWkVndjJFNkZrT0w4NzZ2VWVibjlyeVZHRmszeXRraWRfT0p2SDhSQnFTY3QycG05eHpjQVVLYk9yRF9UYzZ0VmZ6Sw?oc=5",
+   "ts": "2026-10-12T23:50:15Z",
+   "fuente": "Reuters",
+   "id": "2b61048c5f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Nasdaq ends lower as oil prices surge ahead of earnings, economic data",
    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9mWTBMQkJBb2RfU2dFSkY0NTBXRXJMU3Qtb2ZNZEU4WUlFN3NITVNkX0VPckJIUmU3TFhYdEgwRWtsVHg2U3JjaEhfd3ZyVmFNaEN3WDI3SlZBaVpkVm93RDNmX3g5QQ?oc=5",
    "ts": "2026-10-12T23:49:10Z",
@@ -6301,28 +6321,6 @@
    "impacto": "alto",
    "es": "Hammack de la Fed apoya una política restrictiva rápida",
    "efecto": "Presiona al oro y al NQ a la baja, fortalece al dólar."
-  },
-  {
-   "titulo": "Gold.com (GOLD) Registers a Bigger Fall Than the Market: Important Facts to Note",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdzdGRk1Ic2RBQS1YWFVLaEFCdXg3LVpyYU40LTZPcG5kbjZMcGRjMXJVZGpDUGV6LVprZ19ETFVxWl8yMFFISUdLXzNBMDFyNmx0NEpSRDhUWFFnRHluY0NjYVlZa1lWY3JFak5PdG4xMGhSc0xkb29ncHk5TFhkTUEzX0RhUmRBV01QdVFTNFhiWFZYdHNIQ0N1aw?oc=5",
-   "ts": "2026-10-12T20:50:05Z",
-   "fuente": "Yahoo Finance",
-   "id": "c875054c3a",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Africa’s most powerful military launches crackdown on illegal prospecting of Eastern desert gold in a North African nation",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaWpucjE2YmNEZ2lHQkZWUFVlVk54c01Ea291UUM5TFk2M0sxNVhNNF8ycWdUczJPZUxrRHh4UTB2WUczbWJRZUJ0b2dwUzF6Skx6S2NURUlWa01tNDZiU0dueWExdmxMQWZUcGlNOU9QNWVXYmZ6QU52QzFocFlnNjNjVWZQUE5sOEwtT01adTVzR0hHYlR3clM4ZkNPQlFWQWdGN1Vyb0Z6dU15SnNiaXpnSk1ZbVo2dFo0OXQzX3RaSldtcUltNFNjN1pZdjVjUVZ1TFRn?oc=5",
-   "ts": "2026-10-12T20:41:04Z",
-   "fuente": "Business Insider Africa",
-   "id": "f57257557f",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -7800,48 +7798,49 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-13T08:27:32Z",
- "ult_4h": 1791879459.2051558,
+ "ult_4h": 1791880354.7604914,
  "estrategia_4h": {
   "oro": {
-   "precio": 4209.2,
-   "atr_4h": 19.24,
+   "precio": 4214.4,
+   "atr_4h": 19.51,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4155.25,
+     "stop": 4155.1,
      "objetivo": 4242.3,
-     "rr": 6.54,
+     "rr": 6.45,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.71,
+     "fuerza_ruptura_atr": 1.69,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30707.25,
-   "atr_4h": 136.36,
+   "precio": 30731.25,
+   "atr_4h": 137.55,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30792.0,
      "entrada": 30792.0,
-     "stop": 30873.81,
+     "stop": 30874.53,
      "objetivo": 30604.75,
-     "rr": 2.29,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.01,
+     "rr": 2.27,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 1.0,
      "ruptura": "2026-10-13 00:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-13T08:17:39Z"
+  "ts": "2026-10-13T08:32:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
   "nq|VENTA|30957.5|esperando retesteo",
-  "nq|VENTA|30792.0|esperando retesteo"
+  "nq|VENTA|30792.0|esperando retesteo",
+  "nq|VENTA|30792.0|en retesteo"
  ],
  "alpha_ordenes": []
 }
