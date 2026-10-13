@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4223.9 · NQ 30713.25 · VIX 15.21 · 7 noticias nuevas",
-   "actualizado": "2026-10-13T05:27:35Z"
+   "ultimo_resultado": "Oro 4221.9 · NQ 30718.75 · VIX 15.21 · 6 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-13T05:32:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T05:27:34Z",
-   "ultimo_resultado": "7 titulares nuevos: Traspaso en la MLB de los Yankees por un ganador del Guante de Oro"
+   "actualizado": "2026-10-13T05:32:31Z",
+   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: Gold ticks up as oil eases; spotlight on US inflation data"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4221.9 · NQ 30718.75 · VIX 15.21 · 6 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-13T05:32:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4223.9 · NQ 30713.25 · VIX 15.21 · 7 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Revisando cómo salieron las entradas anteriores…",
    "ts": "2026-10-12T16:03:59Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Abriendo la mesa para la sesión de Nueva York.",
-   "ts": "2026-10-12T16:03:57Z"
   }
  ],
  "briefs": [
@@ -5274,10 +5274,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4223.9,
-  "nq": 30713.25,
+  "oro": 4221.9,
+  "nq": 30718.75,
   "vix": 15.21,
-  "ts": "2026-10-13T05:27:34Z"
+  "ts": "2026-10-13T05:32:32Z"
  },
  "noticias": [
   {
@@ -5422,6 +5422,17 @@
    "fuente": "CNBC",
    "id": "c14d561af3",
    "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Gold ticks up as oil eases; spotlight on US inflation data",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRnRSZTl3U0dwUkZRSkNlalhmeF94cE1aaGV4NjNZdll2aENMRDZTWGNTTnhjMS1BQ1hKUG9qc2hKS185eXpWTjFfUnBwN1cwdVNIUllaMnc0Tno2SnFBaXp4RGxMWkd1eFhXR1VTLV9qN25ETlIyeEVLNXNGX2NqZV80SUk5WG5IeEVDNGpRbTRfaVliMk9HVk5vQ0lyVnc?oc=5",
+   "ts": "2026-10-13T02:23:00Z",
+   "fuente": "Reuters",
+   "id": "057df8b221",
+   "activos": [
+    "oro"
+   ],
    "impacto": "alto"
   },
   {
@@ -6141,15 +6152,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "News | Distressed Federal Reserve landmark poised for revival in downtown San Francisco",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaFF4ZGIyZkkzd3I3Qnl6TzhEWlJzUGZTYTBQSmdqZnJLWmZSSDN3Q2lyVWNORWZXaWxVQnNGdzgxNzE0bTBISmVjcmh4Q0preHJTcGlLcnVGcTVnZU5KSm1qSHYxVEJPMzhHMUJ4QXBxNU5Ub1U3UE4ycFVBLTBWeWFoVkpGVGVZQUVqcWNXNlpzbjVDdmRDeWhuSm9wWlAzLWxlUkd1bEF0SExyRnk2MloyNUtrcUJfLUV6SnRRUQ?oc=5",
-   "ts": "2026-10-12T18:46:52Z",
-   "fuente": "CoStar",
-   "id": "ab224e5f7f",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -6650,16 +6652,16 @@
    [
     1791867600,
     4219.9,
-    4224.3,
+    4224.8,
     4219.6,
-    4223.8
+    4221.7
    ],
    [
-    1791868652,
-    4223.9,
-    4223.9,
-    4223.9,
-    4223.9
+    1791868944,
+    4221.9,
+    4221.9,
+    4221.9,
+    4221.9
    ]
   ],
   "nq": [
@@ -7149,16 +7151,16 @@
    [
     1791867600,
     30647.0,
-    30717.0,
+    30723.75,
     30642.0,
-    30713.0
+    30721.0
    ],
    [
-    1791868653,
-    30713.25,
-    30713.25,
-    30713.25,
-    30713.25
+    1791868949,
+    30718.75,
+    30718.75,
+    30718.75,
+    30718.75
    ]
   ],
   "vix": [
@@ -7662,54 +7664,54 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-13T05:27:31Z",
- "ult_4h": 1791868652.7885687,
+ "ult_4h": 1791869552.1906028,
  "estrategia_4h": {
   "oro": {
-   "precio": 4221.4,
-   "atr_4h": 20.89,
+   "precio": 4221.9,
+   "atr_4h": 21.01,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4154.27,
+     "stop": 4154.19,
      "objetivo": 4242.3,
-     "rr": 6.02,
+     "rr": 5.99,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.57,
+     "fuerza_ruptura_atr": 1.56,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30679.0,
-   "atr_4h": 136.41,
+   "precio": 30718.75,
+   "atr_4h": 139.38,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30792.0,
      "entrada": 30792.0,
-     "stop": 30873.85,
+     "stop": 30875.62,
      "objetivo": 30529.25,
-     "rr": 3.21,
+     "rr": 3.14,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.11,
+     "fuerza_ruptura_atr": 1.08,
      "ruptura": "2026-10-13 00:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30957.5,
      "entrada": 30957.5,
-     "stop": 31039.35,
+     "stop": 31041.12,
      "objetivo": 30636.5,
-     "rr": 3.92,
+     "rr": 3.84,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.11,
+     "fuerza_ruptura_atr": 1.08,
      "ruptura": "2026-10-12 16:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-13T05:17:33Z"
+  "ts": "2026-10-13T05:32:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
