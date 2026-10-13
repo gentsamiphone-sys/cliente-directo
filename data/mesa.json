@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4208.2 · NQ 30767.25 · VIX 15.37",
-   "actualizado": "2026-10-13T09:42:35Z"
+   "ultimo_resultado": "Oro 4207.7 · NQ 30757.0 · VIX 15.36 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-13T09:47:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T09:42:35Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-13T09:47:36Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: S&P 500 futures are mixed ahead of bank earnings; South Korea's Kospi falls below 6,000: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4207.7 · NQ 30757.0 · VIX 15.36 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-13T09:47:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4208.2 · NQ 30767.25 · VIX 15.37",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4195.0 · NQ 30878.0 · VIX 15.21 · 15 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-12T20:37:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4193.9 · NQ 30880.75 · VIX 15.21 · 15 noticias nuevas (3 alto impacto)",
-   "ts": "2026-10-12T20:32:34Z"
   }
  ],
  "briefs": [
@@ -5444,12 +5444,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4208.2,
-  "nq": 30767.25,
-  "vix": 15.37,
-  "ts": "2026-10-13T09:42:35Z"
+  "oro": 4207.7,
+  "nq": 30757.0,
+  "vix": 15.36,
+  "ts": "2026-10-13T09:47:36Z"
  },
  "noticias": [
+  {
+   "titulo": "S&P 500 futures are mixed ahead of bank earnings; South Korea's Kospi falls below 6,000: Live updates",
+   "link": "https://www.cnbc.com/2026/10/12/stock-market-today-live-updates.html",
+   "ts": "2026-10-13T09:38:33Z",
+   "fuente": "CNBC",
+   "id": "9df215656d",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Trump 'not happy' with Kimberly Guilfoyle, weighs firing her as ambassador to Greece",
    "link": "https://www.cnbc.com/2026/10/12/trump-kimberly-guilfoyle-ambassador.html",
@@ -6029,6 +6040,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Gold inches up as oil dips, traders look ahead to U.S. inflation data",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-slips-near-4-160-015039835.html?.tsrc=rss",
+   "ts": "2026-10-13T01:50:39Z",
+   "fuente": "Yahoo Finance",
+   "id": "2da13a6390",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Gold rebounds as dollar retreats, Middle East tensions sustain inflation concerns",
    "link": "https://finance.yahoo.com/markets/commodities/articles/gold-slips-near-4-160-015039835.html?.tsrc=rss",
    "ts": "2026-10-13T01:50:39Z",
@@ -6288,28 +6310,6 @@
    "ts": "2026-10-12T22:28:00Z",
    "fuente": "Yahoo Finance",
    "id": "260ae879d6",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Q2 Earnings Outperformers: CrowdStrike (NASDAQ:CRWD) And The Rest Of The Cybersecurity Stocks",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLU9yQ3RneEtQZDFPXzBWXzE1Rk8tN3E5bUc2Q0RnNTB1QkdPWmQ1TGJMVFYxTjd1ZkVSUTlwMEprR1JzNlFxS1V3bF9oMklfa2FuRHZHOUJSV053V3V3NzVWQUNQSHc5M3FZSGdjNWx3QWQ5ZjNjbFFBU2c1YUFEd3ZfOS1qSTVkYm5yU1hJRkQwYjBZNmJLNTFweFVZektweDB1cm5aVi1Cek5GMmc?oc=5",
-   "ts": "2026-10-12T22:23:03Z",
-   "fuente": "Yahoo Finance",
-   "id": "cbe48b51b7",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Bowie State Football Set to Host Virginia Union for Heroes Day / Gold Rush",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNXBUSlF5LUZsYVdVU3duMkphcExjWHRwd3p4QURXeXh5UnlBQjlja2FfVjlGd3pnSV9Qa3lqRHZHSVgxSlBfWUNoU1dtczVEVVBRWFhMaUMxZEE0Zzk2UV9tLTNqQU5BMVhITDVWakY3UXhTUHB6TjdpTzlWWVdvOGhnTUlqaWh0eE9ZNWdWY2dMbEhqTWt6WHdkWDBrTnN6X1dQWndnMG1oSHdfeUpUVVlNeEZIWXl5?oc=5",
-   "ts": "2026-10-12T22:16:39Z",
-   "fuente": "Bowie State University Athletics",
-   "id": "7e23e32600",
    "activos": [
     "oro"
    ],
@@ -6844,14 +6844,14 @@
     4210.6,
     4213.0,
     4204.9,
-    4207.9
+    4208.0
    ],
    [
-    1791883953,
-    4208.2,
-    4208.2,
-    4208.2,
-    4208.2
+    1791884251,
+    4207.7,
+    4207.7,
+    4207.7,
+    4207.7
    ]
   ],
   "nq": [
@@ -7378,14 +7378,14 @@
     30752.0,
     30773.5,
     30735.5,
-    30766.0
+    30757.5
    ],
    [
-    1791883952,
-    30768.25,
-    30768.25,
-    30768.25,
-    30768.25
+    1791884251,
+    30757.0,
+    30757.0,
+    30757.0,
+    30757.0
    ]
   ],
   "vix": [
@@ -7799,47 +7799,47 @@
     1791882000,
     15.4,
     15.41,
-    15.37,
-    15.37
+    15.36,
+    15.36
    ],
    [
-    1791883651,
-    15.37,
-    15.37,
-    15.37,
-    15.37
+    1791883951,
+    15.36,
+    15.36,
+    15.36,
+    15.36
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-13T09:27:33Z",
- "ult_4h": 1791883954.9167957,
+ "ult_4h": 1791884856.2738414,
  "estrategia_4h": {
   "oro": {
-   "precio": 4210.1,
-   "atr_4h": 19.69,
+   "precio": 4207.7,
+   "atr_4h": 19.91,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4154.99,
+     "stop": 4154.86,
      "objetivo": 4242.3,
-     "rr": 6.39,
+     "rr": 6.32,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.68,
+     "fuerza_ruptura_atr": 1.66,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30763.75,
-   "atr_4h": 139.86,
+   "precio": 30757.0,
+   "atr_4h": 140.02,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30792.0,
      "entrada": 30792.0,
-     "stop": 30875.91,
+     "stop": 30876.01,
      "objetivo": 30604.75,
      "rr": 2.23,
      "estado": "en retesteo",
@@ -7848,7 +7848,7 @@
     }
    ]
   },
-  "ts": "2026-10-13T09:32:35Z"
+  "ts": "2026-10-13T09:47:36Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
