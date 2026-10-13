@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-12T21:32:57Z",
-   "ultimo_resultado": "Mapa listo: oro 4195.9 · NQ 30877.5."
+   "actualizado": "2026-10-13T02:02:39Z",
+   "ultimo_resultado": "Estrategia 4H NQ: VENTA: esperar retesteo de 30957.5 · stop 31043.32 · objetivo 30668.0 · R:R 3.37 (esperando retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T01:57:33Z",
-   "ultimo_resultado": "13 titulares nuevos: PHOTOS: Alpha Phi Alpha's Miss Old and Gold Pageant makes a comeback -"
+   "actualizado": "2026-10-13T02:02:39Z",
+   "ultimo_resultado": "11 titulares nuevos: Stock Market Midday, Oct. 12: Dow Edges Higher as Investors Rotate Into Value Stocks"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H NQ: VENTA: esperar retesteo de 30957.5 · stop 31043.32 · objetivo 30668.0 · R:R 3.37 (esperando retesteo). Tú ejecutas.",
+   "ts": "2026-10-13T02:02:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4175.2 · NQ 30672.25 · VIX 15.21 · 13 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Escribiendo el brief institucional…",
    "ts": "2026-10-12T12:33:18Z"
-  },
-  {
-   "agente": "historiador",
-   "texto": "ORO: Sesgo histórico alcista: 6 de 9 años subió esta semana; 6 de 9 subió los 20 días siguientes; análogos 2018, 2021, 2022 · NQ: Sesgo histórico alcista: 9 de 10 años subió esta semana; 9 de 10 subió los 20 días siguientes; análogos 2019, 2024, 2017",
-   "ts": "2026-10-12T12:33:17Z"
   }
  ],
  "briefs": [
@@ -5274,10 +5274,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4175.2,
-  "nq": 30672.25,
+  "oro": 4178.7,
+  "nq": 30694.75,
   "vix": 15.21,
-  "ts": "2026-10-13T01:57:34Z"
+  "ts": "2026-10-13T02:02:39Z"
  },
  "noticias": [
   {
@@ -7901,34 +7901,47 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-13T01:37:33Z",
- "ult_4h": 1791856056.498869,
+ "ult_4h": 1791856959.443097,
  "estrategia_4h": {
   "oro": {
-   "precio": 4179.6,
-   "atr_4h": 21.5,
+   "precio": 4178.7,
+   "atr_4h": 21.64,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4153.9,
+     "stop": 4153.82,
      "objetivo": 4242.3,
-     "rr": 5.85,
+     "rr": 5.82,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.53,
+     "fuerza_ruptura_atr": 1.52,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30711.5,
-   "atr_4h": 142.39,
-   "setups": []
+   "precio": 30694.75,
+   "atr_4h": 143.04,
+   "setups": [
+    {
+     "direccion": "VENTA",
+     "nivel": 30957.5,
+     "entrada": 30957.5,
+     "stop": 31043.32,
+     "objetivo": 30668.0,
+     "rr": 3.37,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 0.81,
+     "ruptura": "2026-10-12 16:00 UTC"
+    }
+   ]
   },
-  "ts": "2026-10-13T01:47:36Z"
+  "ts": "2026-10-13T02:02:39Z"
  },
  "avisos_4h": [
-  "oro|COMPRA|4166.8|esperando retesteo"
+  "oro|COMPRA|4166.8|esperando retesteo",
+  "nq|VENTA|30957.5|esperando retesteo"
  ],
  "alpha_ordenes": []
 }
