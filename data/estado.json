@@ -2814,10 +2814,10 @@
    "actualizado": "2026-10-13T12:37:51Z"
   },
   "disenador": {
-   "estado": "trabajando",
-   "tarea": "Revisando qué negocios necesitan muestra",
+   "estado": "descansando",
+   "tarea": "",
    "ultimo_resultado": "No había negocios nuevos para armar muestra",
-   "actualizado": "2026-10-13T13:27:38Z"
+   "actualizado": "2026-10-13T13:27:39Z"
   },
   "vendedor": {
    "estado": "descansando",
@@ -2833,6 +2833,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "disenador",
+   "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
+   "ts": "2026-10-13T13:27:39Z"
+  },
   {
    "agente": "buscador",
    "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
@@ -4327,11 +4332,6 @@
    "agente": "buscador",
    "texto": "Terminó su turno: No pude buscar en este turno (HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with)",
    "ts": "2026-10-11T05:09:23Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ts": "2026-10-11T05:06:19Z"
   }
  ],
  "reportes": {
