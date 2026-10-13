@@ -31,10 +31,10 @@
    "ultimo_resultado": "ES/NQ: CONFIRMA: ES y NQ van en la misma dirección · ES bajista en 1H"
   },
   "auditor": {
-   "estado": "trabajando",
-   "tarea": "Revisando cómo salieron las entradas anteriores…",
-   "actualizado": "2026-10-13T06:32:45Z",
-   "ultimo_resultado": "Historial: 10 operaciones, 30% de acierto, +8.08 R."
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-13T06:32:46Z",
+   "ultimo_resultado": "Historial: 11 operaciones, 27% de acierto, +7.08 R."
   },
   "vigilante": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "auditor",
+   "texto": "Historial: 11 operaciones, 27% de acierto, +7.08 R.",
+   "ts": "2026-10-13T06:32:46Z"
+  },
   {
    "agente": "auditor",
    "texto": "Revisando cómo salieron las entradas anteriores…",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Brief de Nueva York publicado: NQ alcista por divergencia con el VIX; ORO bajista presionado por el DXY",
    "ts": "2026-10-12T16:04:27Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Escribiendo el brief institucional…",
-   "ts": "2026-10-12T16:04:14Z"
   }
  ],
  "briefs": [
@@ -1259,7 +1259,9 @@
      "confluencias": "4/5",
      "cancelar": "El precio rompe 30770.0 antes de activar la entrada o el VIX supera 15.34.",
      "motivo": "",
-     "vivo": "confirmada"
+     "vivo": "confirmada",
+     "resultado": "stop",
+     "r": -1.0
     },
     {
      "activo": "ORO",
@@ -1445,7 +1447,9 @@
      "confluencias": "5",
      "cancelar": "NQ supera 31215.0 antes de la entrada o VIX cae bajo 14.90",
      "motivo": "",
-     "vivo": "esperando"
+     "vivo": "esperando",
+     "resultado": "no se activó",
+     "r": 0.0
     }
    ],
    "mapas": {
@@ -5231,10 +5235,10 @@
  },
  "estadisticas": {
   "total": {
-   "operaciones": 10,
+   "operaciones": 11,
    "ganadas": 3,
-   "acierto_pct": 30,
-   "r_total": 8.08
+   "acierto_pct": 27,
+   "r_total": 7.08
   },
   "ORO COMPRA londres": {
    "operaciones": 1,
@@ -5261,10 +5265,10 @@
    "r_total": 0.0
   },
   "NQ COMPRA nuevayork": {
-   "operaciones": 1,
+   "operaciones": 2,
    "ganadas": 0,
    "acierto_pct": 0,
-   "r_total": 0.0
+   "r_total": -1.0
   },
   "NQ VENTA nuevayork": {
    "operaciones": 2,
