@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4208.4 · NQ 30672.25 · VIX 15.45 · 11 noticias nuevas (5 alto impacto)",
-   "actualizado": "2026-10-13T11:27:36Z"
+   "ultimo_resultado": "Oro 4209.5 · NQ 30672.25 · VIX 15.47 · 11 noticias nuevas (4 alto impacto)",
+   "actualizado": "2026-10-13T11:32:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T11:27:35Z",
-   "ultimo_resultado": "11 titulares nuevos, 5 de alto impacto: World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’"
+   "actualizado": "2026-10-13T11:32:36Z",
+   "ultimo_resultado": "11 titulares nuevos, 4 de alto impacto: Resultados bancarios: Goldman reporta y JPMorgan decepciona"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4209.5 · NQ 30672.25 · VIX 15.47 · 11 noticias nuevas (4 alto impacto)",
+   "ts": "2026-10-13T11:32:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4208.4 · NQ 30672.25 · VIX 15.45 · 11 noticias nuevas (5 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-10-12T21:32:58Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 4195.9 · NQ 30877.5.",
-   "ts": "2026-10-12T21:32:57Z"
   }
  ],
  "briefs": [
@@ -5444,12 +5444,26 @@
   }
  },
  "en_vivo": {
-  "oro": 4208.4,
+  "oro": 4209.5,
   "nq": 30672.25,
-  "vix": 15.45,
-  "ts": "2026-10-13T11:27:35Z"
+  "vix": 15.47,
+  "ts": "2026-10-13T11:32:37Z"
  },
  "noticias": [
+  {
+   "titulo": "Bank earnings live updates: Goldman Sachs earnings are out, JPMorgan posts rare earnings miss",
+   "link": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html",
+   "ts": "2026-10-13T11:30:38Z",
+   "fuente": "CNBC",
+   "id": "c682ca8d51",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "Resultados bancarios: Goldman reporta y JPMorgan decepciona",
+   "efecto": "Genera volatilidad sectorial en el Nasdaq y el dólar."
+  },
   {
    "titulo": "Bank earnings live updates: JPMorgan posts rare earnings miss, Wells Fargo reports mixed results",
    "link": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html",
@@ -6288,15 +6302,6 @@
    "impacto": "medio",
    "es": "Tencent busca 4.500 millones para IA a pesar de tener gran liquidez",
    "efecto": "Impulsa el sector tecnológico y al NQ por enfoque en IA."
-  },
-  {
-   "titulo": "Tapestry | Coach faces potential customer backlash over Trump tariffs",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOc2ltOGYwdG9iOHkyWWxoaGhsX1VvNzBvX0lRdGpVaHlBaGxzR1EySzFOZUZ1bTlkRnZpS1lUNlhWd3YyalZCc1ItRU0wczZCcUMydTFiaFVUSU1GZjN1dmJPRC13Q29KUzBxeFdnelVoU2lYeng3WVFkbVFpZGlNYmt6enI3T3ZwblRGRDBGUDRodGZjWDdJQWkzQXNJU3N3YnZZdVZ2andBTVJPNVVGQnpOcjdMVWw2?oc=5",
-   "ts": "2026-10-13T05:42:09Z",
-   "fuente": "Glitz",
-   "id": "364cedb702",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -6841,14 +6846,14 @@
     4205.4,
     4211.0,
     4203.8,
-    4208.1
+    4209.9
    ],
    [
-    1791890254,
-    4208.3,
-    4208.3,
-    4208.3,
-    4208.3
+    1791890556,
+    4209.9,
+    4209.9,
+    4209.9,
+    4209.9
    ]
   ],
   "nq": [
@@ -7388,11 +7393,11 @@
     1791889200,
     30719.5,
     30721.25,
-    30667.25,
-    30675.5
+    30654.5,
+    30677.25
    ],
    [
-    1791890254,
+    1791890554,
     30672.25,
     30672.25,
     30672.25,
@@ -7824,23 +7829,23 @@
     1791889200,
     15.53,
     15.58,
-    15.48,
-    15.48
+    15.45,
+    15.46
    ],
    [
-    1791889951,
-    15.45,
-    15.45,
-    15.45,
-    15.45
+    1791890251,
+    15.47,
+    15.47,
+    15.47,
+    15.47
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-13T11:02:32Z",
- "ult_4h": 1791890252.7221134,
+ "noticias_traducidas_ts": "2026-10-13T11:32:33Z",
+ "ult_4h": 1791891157.006197,
  "estrategia_4h": {
   "oro": {
-   "precio": 4207.5,
+   "precio": 4209.9,
    "atr_4h": 20.0,
    "setups": [
     {
@@ -7851,29 +7856,40 @@
      "objetivo": 4242.3,
      "rr": 6.29,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.65,
+     "fuerza_ruptura_atr": 1.64,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30697.25,
-   "atr_4h": 140.02,
+   "precio": 30672.25,
+   "atr_4h": 142.43,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30792.0,
      "entrada": 30792.0,
-     "stop": 30876.01,
+     "stop": 30877.46,
      "objetivo": 30604.75,
-     "rr": 2.23,
+     "rr": 2.19,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.98,
+     "fuerza_ruptura_atr": 0.97,
      "ruptura": "2026-10-13 00:00 UTC"
+    },
+    {
+     "direccion": "VENTA",
+     "nivel": 30957.5,
+     "entrada": 30957.5,
+     "stop": 31042.96,
+     "objetivo": 30604.75,
+     "rr": 4.13,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 0.97,
+     "ruptura": "2026-10-12 16:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-13T11:17:32Z"
+  "ts": "2026-10-13T11:32:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
