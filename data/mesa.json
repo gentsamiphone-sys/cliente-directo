@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4211.1 · NQ 30677.5 · VIX 15.28 · 15 noticias nuevas (6 alto impacto)",
-   "actualizado": "2026-10-13T12:52:32Z"
+   "ultimo_resultado": "Oro 4207.5 · NQ 30653.0 · VIX 15.3 · 15 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-13T12:57:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T12:52:32Z",
-   "ultimo_resultado": "15 titulares nuevos, 6 de alto impacto: Paul Tudor Jones says 2027 could be a really challenging year for the stock market"
+   "actualizado": "2026-10-13T12:57:34Z",
+   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: Jim Cramer's top 10 things to watch in the stock market Tuesday"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4207.5 · NQ 30653.0 · VIX 15.3 · 15 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-13T12:57:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4211.1 · NQ 30677.5 · VIX 15.28 · 15 noticias nuevas (6 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4194.9 · NQ 30808.0 · VIX 15.21 · 14 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-13T00:07:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4197.7 · NQ 30819.25 · VIX 15.21 · 13 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-13T00:02:38Z"
   }
  ],
  "briefs": [
@@ -5444,12 +5444,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4211.1,
-  "nq": 30677.5,
-  "vix": 15.28,
-  "ts": "2026-10-13T12:52:32Z"
+  "oro": 4207.5,
+  "nq": 30653.0,
+  "vix": 15.3,
+  "ts": "2026-10-13T12:57:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+   "link": "https://www.cnbc.com/investingclub/2026/10/13/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+   "ts": "2026-10-13T12:54:50Z",
+   "fuente": "CNBC",
+   "id": "9007598217",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Six Flags shares decline following report of deadly roller coaster incident",
+   "link": "https://www.cnbc.com/2026/10/13/six-flags-shares-plunge-after-hours-deadly-roller-coaster-incident-goliath-georgia.html",
+   "ts": "2026-10-13T12:54:14Z",
+   "fuente": "CNBC",
+   "id": "97503836ef",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Paul Tudor Jones says 2027 could be a really challenging year for the stock market",
    "link": "https://www.cnbc.com/2026/10/13/paul-tudor-jones-2027-really-challenging-year.html",
@@ -5469,6 +5487,18 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Gold Terra to Present at the Precious Metals & Critical Minerals Virtual Investor Conference October 15th",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdmt3MTloRldpaG1vM1JUTndiSWlPM1ZHaU9GdEo1TWVuTi1sa1FkXzFCclR3QWhNX2VlX1d6ck5COXZjbndHUi1JV2VIN08wTTZhSFZJS2Y3YjdkNVNBb05DUlZiZ3ZqTGRDQmV6b09fX2Z0b2c0UEFzN3BsblQxdkgwZ3lEaEp0WWIyb0hpSERkQU9tNXFTeEY1ZnByTmIwYTVVT0xJSQ?oc=5",
+   "ts": "2026-10-13T12:35:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "1e6de8ea47",
+   "activos": [
+    "oro",
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "J&J beats earnings estimates, eyes hip-knee unit spinoff by mid-2027",
    "link": "https://www.cnbc.com/2026/10/13/jnj-earnings-q3-2026.html",
    "ts": "2026-10-13T12:31:10Z",
@@ -5485,6 +5515,17 @@
    "ts": "2026-10-13T12:31:09Z",
    "fuente": "CNBC",
    "id": "f1685c6523",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "AZIO AI Holdings Inc. (NASDAQ: AZIO) Signs First Hosting Agreement at South Texas Project, Includes Expansion Rights",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQXMwZXdNTmNreWh4MV9VMmh4ZTNpTWE0N28yYlhXclgxdEo5WFh3Tjg1ZGhXSmdwUmh0emxiM2hyaVFoWEhXeHZkUmlZMjJ6SlpwaGVOTjRkMDdzaE1OdzhSOThWOGptMkJKZ1Fzc0FqOE1nLWxLWU9pcW5MYllqcFJyVXVSYng1amtuVFZqT0RsaklxWmc?oc=5",
+   "ts": "2026-10-13T12:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "d47ea32510",
    "activos": [
     "nq"
    ],
@@ -6257,46 +6298,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Trump census plan to cut noncitizens from 2030 count spurs critics toward legal fight",
-   "link": "https://www.cnbc.com/2026/10/13/trump-census-rule-noncitizens.html",
-   "ts": "2026-10-13T10:00:01Z",
-   "fuente": "CNBC",
-   "id": "1a631db918",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "SSR Mining Announces 20-Year Life of Mine Plan for Marigold Based on Expanded 4.6 Million Ounce Mineral Reserve",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/ssr-mining-announces-20-life-100000356.html?.tsrc=rss",
-   "ts": "2026-10-13T10:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "d09ee47b92",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Figure Skating: Alexandra Ignatova wins first international gold in five years",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVmxRaktpR3lBSV9WM05VZGwxVTVWM2dkSHQwWk8xV3JNNDVHTU9CT2FOMjdiUW14RWhVVWV4eUwwcENrQl9iMlVlbFY1YVgtN1NqTWVOVWEyZW1CbkZraklXODhYN2Uyd1ppSGpfN2lvdDlXaW1PLXBHVWtoSkh3OGU3azhMa3lqZ0V0YXVldXN2QklTczNwN3JaX3lrRVFYSnAyTm9xZE9tQmFNcU1hRm1fcw?oc=5",
-   "ts": "2026-10-13T10:00:00Z",
-   "fuente": "UConn Daily Campus",
-   "id": "f39cc9f1ce",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Stardust Identifies High-Grade Gold West of the Amikougami Fault, Adjacent to Agnico Eagle's Macassa Mine",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/stardust-identifies-high-grade-gold-100000203.html?.tsrc=rss",
-   "ts": "2026-10-13T10:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "3620948fe1",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -6848,14 +6849,14 @@
     4209.0,
     4214.6,
     4205.1,
-    4211.6
+    4207.3
    ],
    [
-    1791895349,
-    4211.1,
-    4211.1,
-    4211.1,
-    4211.1
+    1791895653,
+    4207.3,
+    4207.3,
+    4207.3,
+    4207.3
    ]
   ],
   "nq": [
@@ -7402,15 +7403,15 @@
     1791892800,
     30662.0,
     30687.5,
-    30650.75,
-    30679.5
+    30642.5,
+    30648.0
    ],
    [
-    1791895352,
-    30677.5,
-    30677.5,
-    30677.5,
-    30677.5
+    1791895655,
+    30651.25,
+    30651.25,
+    30651.25,
+    30651.25
    ]
   ],
   "vix": [
@@ -7846,14 +7847,14 @@
     15.44,
     15.44,
     15.28,
-    15.28
+    15.31
    ],
    [
-    1791895051,
-    15.28,
-    15.28,
-    15.28,
-    15.28
+    1791895351,
+    15.3,
+    15.3,
+    15.3,
+    15.3
    ]
   ]
  },
