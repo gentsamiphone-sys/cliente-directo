@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4176.6 · NQ 30690.0 · VIX 15.21 · 13 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-13T01:42:34Z"
+   "ultimo_resultado": "Oro 4179.6 · NQ 30711.5 · VIX 15.21 · 15 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-13T01:47:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T01:42:33Z",
-   "ultimo_resultado": "13 titulares nuevos, 2 de alto impacto: Dollar Rallies on Higher Crude Oil Prices and Hawkish Fed Comments"
+   "actualizado": "2026-10-13T01:47:36Z",
+   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: S&P 500 futures are flat ahead of bank earnings; South Korea's Kospi falls below 6,000: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4179.6 · NQ 30711.5 · VIX 15.21 · 15 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-13T01:47:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4176.6 · NQ 30690.0 · VIX 15.21 · 13 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Volatilidad normal (VIX 15.42).",
    "ts": "2026-10-12T12:33:15Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "VIX/NQ: CONFIRMA BAJISTA: NQ baja y el VIX sube (se compra protección)",
-   "ts": "2026-10-12T12:33:13Z"
   }
  ],
  "briefs": [
@@ -5274,12 +5274,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4176.6,
-  "nq": 30690.0,
+  "oro": 4179.6,
+  "nq": 30711.5,
   "vix": 15.21,
-  "ts": "2026-10-13T01:42:33Z"
+  "ts": "2026-10-13T01:47:36Z"
  },
  "noticias": [
+  {
+   "titulo": "S&P 500 futures are flat ahead of bank earnings; South Korea's Kospi falls below 6,000: Live updates",
+   "link": "https://www.cnbc.com/2026/10/12/stock-market-today-live-updates.html",
+   "ts": "2026-10-13T01:42:40Z",
+   "fuente": "CNBC",
+   "id": "5bde34eb1a",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil",
    "link": "https://www.cnbc.com/2026/10/13/singapore-war-geopolitics-dbs-bank-ceo.html",
@@ -5342,6 +5353,15 @@
    "id": "40c4648762",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Beyond the Podium: Josh Turek discusses tariffs, healthcare and responds to GOP criticism",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ0tqcFY0bUU2M3dpZTBSZHlFX2lfZURPZFhqU1BYci00TW8xalRpd0F3blJlejNpSVBRYWNSNHBhczE0dUVpd2NxSGJ1ZHI2ck01Y1BvbTRPYW5FdS0tdXlIMURVZDlSNm85cklqWUkxalA3VW90X1NuWTB2dHEwX1pJcm9SYm5XNU9ScGtrS1N4V1J1clgtUy01T1Q1dTYxUGl1NmpNT3A0ZWdRNjhLWWxtU0Q3N0lKdlZv?oc=5",
+   "ts": "2026-10-13T00:06:17Z",
+   "fuente": "KGAN",
+   "id": "98d4e38cc8",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Gold Holds Drop as Middle East Fighting Stokes Inflation Fears",
@@ -6106,28 +6126,6 @@
    "id": "7e549f772b",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Stocks making the biggest moves midday: eBay, Sandisk, Meta Platforms, IonQ, Lumentum & more",
-   "link": "https://www.cnbc.com/2026/10/12/midday-stock-movers-ebay-meta-ionq-lumentum.html",
-   "ts": "2026-10-12T16:35:12Z",
-   "fuente": "CNBC",
-   "id": "42aff5f86c",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Air strikes kill dozens of gold miners on Sudan-Egypt border",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ2p1Ny1DbVRQYVVOYThwejFiOU5ndDFhaXBFZHk0UWhoWDJRbXAwdHVIUDJncEZvRFNxeWRnTzA2SFVpZmQxZnUxUXp0NTI0cHVrQXQ4OWhBX2UyUmVOT3JuTG9ocGlYbmM0TmpxOTFCTkxsUE4tZTFoeVF4X3UtbVk3dVFZQ3pydFMtd0ctVzFJdmYtYWxQR9IBmAFBVV95cUxQbkJJQlVKMWhWWUwwTXlUQWdFcVJaTU9EYUdSQkFpZ29yY2l1b3laLVNFOUliT1I5YV9ILThWZGt3M3lzNE9PbFZMT01GQS1LQkl3eUZkODZUbGZQRkRZMzBDRFFfb1BJSzFlaFNkZEYyMFcxMUZ3UUpGdEhyZFNreTFRU2Eyd3F0VENGMUpiRGFyN1YzaUQ1WQ?oc=5",
-   "ts": "2026-10-12T16:30:32Z",
-   "fuente": "DW.com",
-   "id": "872f5f0b4b",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -6756,14 +6754,14 @@
     4181.8,
     4193.4,
     4175.6,
-    4176.5
+    4179.7
    ],
    [
-    1791855152,
-    4176.6,
-    4176.6,
-    4176.6,
-    4176.6
+    1791855453,
+    4179.6,
+    4179.6,
+    4179.6,
+    4179.6
    ]
   ],
   "nq": [
@@ -7387,15 +7385,15 @@
     1791853200,
     30721.25,
     30769.0,
-    30680.0,
-    30687.5
+    30677.0,
+    30717.5
    ],
    [
-    1791855150,
-    30690.0,
-    30690.0,
-    30690.0,
-    30690.0
+    1791855455,
+    30711.5,
+    30711.5,
+    30711.5,
+    30711.5
    ]
   ],
   "vix": [
@@ -7899,19 +7897,19 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-13T01:37:33Z",
- "ult_4h": 1791855153.2715704,
+ "ult_4h": 1791856056.498869,
  "estrategia_4h": {
   "oro": {
-   "precio": 4185.7,
-   "atr_4h": 21.4,
+   "precio": 4179.6,
+   "atr_4h": 21.5,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4153.96,
+     "stop": 4153.9,
      "objetivo": 4242.3,
-     "rr": 5.88,
+     "rr": 5.85,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.53,
      "ruptura": "2026-10-08 20:00 UTC"
@@ -7919,11 +7917,11 @@
    ]
   },
   "nq": {
-   "precio": 30729.25,
-   "atr_4h": 140.39,
+   "precio": 30711.5,
+   "atr_4h": 142.39,
    "setups": []
   },
-  "ts": "2026-10-13T01:32:33Z"
+  "ts": "2026-10-13T01:47:36Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo"
