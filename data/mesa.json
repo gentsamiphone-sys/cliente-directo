@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4186.9 · NQ 30741.75 · VIX 15.48 · 15 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-13T19:07:41Z"
+   "ultimo_resultado": "Oro 4186.0 · NQ 30739.0 · VIX 15.48 · 15 noticias nuevas",
+   "actualizado": "2026-10-13T19:12:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T19:07:40Z",
-   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: Treasury, Eurozone Yields Decline as Markets Look to U.S. Inflation Data"
+   "actualizado": "2026-10-13T19:12:36Z",
+   "ultimo_resultado": "15 titulares nuevos: BC-Gold-Silver"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4186.0 · NQ 30739.0 · VIX 15.48 · 15 noticias nuevas",
+   "ts": "2026-10-13T19:12:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4186.9 · NQ 30741.75 · VIX 15.48 · 15 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4216.7 · NQ 30657.0 · VIX 15.21 · 4 noticias nuevas",
    "ts": "2026-10-13T06:17:40Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4216.1 · NQ 30671.5 · VIX 15.21 · 5 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-13T06:12:37Z"
   }
  ],
  "briefs": [
@@ -5444,12 +5444,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4186.9,
-  "nq": 30741.75,
+  "oro": 4186.0,
+  "nq": 30739.0,
   "vix": 15.48,
-  "ts": "2026-10-13T19:07:40Z"
+  "ts": "2026-10-13T19:12:36Z"
  },
  "noticias": [
+  {
+   "titulo": "BC-Gold-Silver",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-silver-190013735.html?.tsrc=rss",
+   "ts": "2026-10-13T19:00:13Z",
+   "fuente": "Yahoo Finance",
+   "id": "a56a6b87c1",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Meta shares rise for a second straight day as new AI model family impresses",
    "link": "https://www.cnbc.com/investingclub/2026/10/13/meta-shares-rise-for-a-second-straight-day-as-new-ai-model-family-impresses.html",
@@ -6252,17 +6263,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "ACR Announces 2027 Gold Medalists and Honorary Fellows | Newswise",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeEpUbE12SWw0QVBuT3hEUkxoR1J6R3JhN1pLZUx1YjgwcVhyQXZGUlVmeUx0elVaSmI1ZktjdXBERVpZeE01TGNJN3VhaHNHSERTVXFzU3VFTkNhOC1kTWNVSXFFWVZuQWpqQjZlQVlTdlFBOUxZT0ctN3Z3SVdSaDdYY3YzSHZfNXI4SS02Ulhid9IBkgFBVV95cUxOeEpUbE12SWw0QVBuT3hEUkxoR1J6R3JhN1pLZUx1YjgwcVhyQXZGUlVmeUx0elVaSmI1ZktjdXBERVpZeE01TGNJN3VhaHNHSERTVXFzU3VFTkNhOC1kTWNVSXFFWVZuQWpqQjZlQVlTdlFBOUxZT0ctN3Z3SVdSaDdYY3YzSHZfNXI4SS02Ulhidw?oc=5",
-   "ts": "2026-10-13T14:00:00Z",
-   "fuente": "Newswise",
-   "id": "8f1a4210a5",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "ACR anuncia medallistas de oro y miembros honorarios 2027",
-   "efecto": "Sin relevancia para los mercados financieros."
   }
  ],
  "eventos_avisados": [
@@ -6854,16 +6854,23 @@
    [
     1791914400,
     4171.6,
-    4187.2,
+    4187.5,
     4171.2,
-    4186.8
+    4186.6
    ],
    [
-    1791917858,
-    4186.9,
-    4186.9,
-    4186.9,
-    4186.9
+    1791918000,
+    4186.3,
+    4187.4,
+    4185.7,
+    4186.3
+   ],
+   [
+    1791918147,
+    4186.0,
+    4186.0,
+    4186.0,
+    4186.0
    ]
   ],
   "nq": [
@@ -7453,14 +7460,21 @@
     30718.75,
     30781.0,
     30709.25,
-    30740.0
+    30738.75
    ],
    [
-    1791917859,
-    30741.75,
-    30741.75,
-    30741.75,
-    30741.75
+    1791918000,
+    30738.25,
+    30746.25,
+    30735.5,
+    30736.75
+   ],
+   [
+    1791918155,
+    30739.0,
+    30739.0,
+    30739.0,
+    30739.0
    ]
   ],
   "vix": [
@@ -7941,7 +7955,7 @@
     15.48
    ],
    [
-    1791917551,
+    1791917851,
     15.48,
     15.48,
     15.48,
