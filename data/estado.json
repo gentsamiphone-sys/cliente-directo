@@ -2814,10 +2814,10 @@
    "actualizado": "2026-10-13T08:37:35Z"
   },
   "disenador": {
-   "estado": "trabajando",
-   "tarea": "Revisando qué negocios necesitan muestra",
+   "estado": "descansando",
+   "tarea": "",
    "ultimo_resultado": "No había negocios nuevos para armar muestra",
-   "actualizado": "2026-10-13T09:27:32Z"
+   "actualizado": "2026-10-13T09:27:33Z"
   },
   "vendedor": {
    "estado": "descansando",
@@ -2833,6 +2833,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "disenador",
+   "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
+   "ts": "2026-10-13T09:27:33Z"
+  },
   {
    "agente": "buscador",
    "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
@@ -4327,11 +4332,6 @@
    "agente": "buscador",
    "texto": "Encontré Tommy's Express, sin página web.",
    "ts": "2026-10-11T03:06:36Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ts": "2026-10-11T03:06:19Z"
   }
  ],
  "reportes": {
