@@ -2803,9 +2803,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Boulder Hwy…",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-13T17:02:33Z"
+   "actualizado": "2026-10-13T17:02:34Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2833,6 +2833,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Boulder Hwy…",
+   "ts": "2026-10-13T17:02:34Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 123 textos listos para mandar",
@@ -4327,11 +4332,6 @@
    "agente": "gerente",
    "texto": "Terminó su turno: 108 textos listos para mandar",
    "ts": "2026-10-11T08:37:32Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Actualicé el reporte del día.",
-   "ts": "2026-10-11T08:37:31Z"
   }
  ],
  "reportes": {
