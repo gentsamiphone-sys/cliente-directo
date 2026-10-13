@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4202.7 · NQ 30662.5 · VIX 15.21 · 9 noticias nuevas",
-   "actualizado": "2026-10-13T03:47:37Z"
+   "ultimo_resultado": "Oro 4204.7 · NQ 30660.5 · VIX 15.21 · 10 noticias nuevas",
+   "actualizado": "2026-10-13T03:52:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T03:47:36Z",
-   "ultimo_resultado": "9 titulares nuevos: Meta debuta con el modelo de IA Muse Wonder"
+   "actualizado": "2026-10-13T03:52:35Z",
+   "ultimo_resultado": "10 titulares nuevos: Oil prices fall as traders assess Russian diesel supply prospects and Saudi-Houthi conflict"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4204.7 · NQ 30660.5 · VIX 15.21 · 10 noticias nuevas",
+   "ts": "2026-10-13T03:52:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4202.7 · NQ 30662.5 · VIX 15.21 · 9 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4187.5 · NQ 30887.5 · VIX 15.34 · 15 noticias nuevas (4 alto impacto)",
    "ts": "2026-10-12T14:33:57Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4187.0 · NQ 30909.75 · VIX 15.38 · 12 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-12T14:27:41Z"
   }
  ],
  "briefs": [
@@ -5274,12 +5274,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4202.7,
-  "nq": 30662.5,
+  "oro": 4204.7,
+  "nq": 30660.5,
   "vix": 15.21,
-  "ts": "2026-10-13T03:47:36Z"
+  "ts": "2026-10-13T03:52:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Oil prices fall as traders assess Russian diesel supply prospects and Saudi-Houthi conflict",
+   "link": "https://www.cnbc.com/2026/10/13/oil-prices-today-brent-wti-hormuz.html",
+   "ts": "2026-10-13T03:49:23Z",
+   "fuente": "CNBC",
+   "id": "768a288f48",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "IMF sees milder global slowdown as AI boom offsets war hit — warns resilience is nearing limits",
    "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
@@ -5288,6 +5297,17 @@
    "id": "29166c4977",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "What Does VEON (NASDAQ:VEON) Satellite To Mobile Launch Mean For Bangladesh?",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZDFlYWpCY1V1YmE3ZksyVlZ5Rl9iZk5uajZDOTBpcEJtYUVOMU1UVks4VFRLQVV3Z0xaZUx6UGVnU1B5cE1EQjlURUVDSS0xM2lzaVlYdURCeWI1NnhpaWI0UmJTaU9PN1lFT0NqZjhMa2tNZUVOcnN3NWFHZHhRWHE4eDRIYUtuMjdtLS1rQ20tR1I5QmRV?oc=5",
+   "ts": "2026-10-13T03:21:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "701e8efbb9",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
@@ -6126,26 +6146,6 @@
    "id": "076b3b5142",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Cocoa Harvest Delays in the Ivory Coast Support Prices",
-   "link": "https://www.barchart.com/story/news/6242446/cocoa-harvest-delays-in-the-ivory-coast-support-prices?.tsrc=rss",
-   "ts": "2026-10-12T18:27:08Z",
-   "fuente": "Yahoo Finance",
-   "id": "860cab2a5e",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Fed’s Hammack says Treasury yields modest by historic standards",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZTVCWDdqM0M2ejhKMjJJOGEzWUxrUWpzWjRobmZvSTJ3VXRfVm04UVJtT2JQZmZNQzlmOURhSHhyXzItT1JtdjBRMi1tSUgtMHdpbUtoZ3pFY29jNUJRY0lxWWFFa2JFakRtT0ZOUmdpU1FoSDktbHRobm1aOXR1cUxUN3hfUmNkVHRvZ1BoY3kzeWVDWGk2c1d1RzNMZw?oc=5",
-   "ts": "2026-10-12T18:20:06Z",
-   "fuente": "Yahoo Finance",
-   "id": "1804429677",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -6774,14 +6774,14 @@
     4203.8,
     4207.7,
     4199.5,
-    4202.3
+    4204.6
    ],
    [
-    1791862643,
-    4202.7,
-    4202.7,
-    4202.7,
-    4202.7
+    1791862949,
+    4204.7,
+    4204.7,
+    4204.7,
+    4204.7
    ]
   ],
   "nq": [
@@ -7406,14 +7406,14 @@
     30652.75,
     30678.25,
     30613.0,
-    30660.5
+    30657.0
    ],
    [
-    1791862650,
-    30662.5,
-    30662.5,
-    30662.5,
-    30662.5
+    1791862949,
+    30660.5,
+    30660.5,
+    30660.5,
+    30660.5
    ]
   ],
   "vix": [
