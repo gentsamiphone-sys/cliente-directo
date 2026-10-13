@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4191.7 · NQ 30758.0 · VIX 15.21 · 12 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-13T01:27:33Z"
+   "ultimo_resultado": "Oro 4185.7 · NQ 30729.25 · VIX 15.21 · 12 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-13T01:32:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T01:27:33Z",
-   "ultimo_resultado": "12 titulares nuevos, 1 de alto impacto: Threats to Global Supplies Push Crude Oil Prices Sharply Higher"
+   "actualizado": "2026-10-13T01:32:32Z",
+   "ultimo_resultado": "12 titulares nuevos, 1 de alto impacto: 'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4185.7 · NQ 30729.25 · VIX 15.21 · 12 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-13T01:32:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4191.7 · NQ 30758.0 · VIX 15.21 · 12 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-10-12T12:33:10Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 4188.1 · NQ 31075.25.",
-   "ts": "2026-10-12T12:33:09Z"
   }
  ],
  "briefs": [
@@ -5274,12 +5274,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4191.7,
-  "nq": 30758.0,
+  "oro": 4185.7,
+  "nq": 30729.25,
   "vix": 15.21,
-  "ts": "2026-10-13T01:27:33Z"
+  "ts": "2026-10-13T01:32:33Z"
  },
  "noticias": [
+  {
+   "titulo": "'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil",
+   "link": "https://www.cnbc.com/2026/10/13/singapore-war-geopolitics-dbs-bank-ceo.html",
+   "ts": "2026-10-13T01:26:41Z",
+   "fuente": "CNBC",
+   "id": "06fd3a1bc2",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Gold Falls as Markets Focus on U.S. Data",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ0l3aTVSWWxrcm9PSDRHcnhuRExZQzc2QS1kRFZzYlZsbXUtaFQtaWh5SGxiaGtXVW5HM3pGdXBOa2E2SFZlVUpLWUZHRG1hb3h0NnJqeHdfR045N2FNR2I4T3FZVnF5UlB2QmZOcGZjQ000R0pIZWdlMVNMc2tiYXBuWEZmN0ZlRHpqcFd4RkhtMUtiejFZZndBbmI?oc=5",
@@ -6117,17 +6126,6 @@
    "id": "628afe9636",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "UCR Health expands direct access through Blue & Gold",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTnRLbm54dmdNSi1HdUNoaUdaMjhXejA0NWRrRW5qRmFUUVI1WkQyUXF5YmJJMkZGZmRKOWR1bXlBWjkyM3N4UDVqZlZ5YjlHek54OTB1WjNkaFJNYnloS1RMNGNpcjhHTFpHajAyMGVlamZaMUFyMTJIYUNGVHdJajRCSlppUkJvY0NuNjRhVG4zNnpLMlpTMmxKNA?oc=5",
-   "ts": "2026-10-12T16:19:21Z",
-   "fuente": "Inside UCR",
-   "id": "b42d63cc04",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -6754,16 +6752,16 @@
    [
     1791853200,
     4181.6,
-    4193.2,
+    4193.4,
     4180.0,
-    4191.5
+    4185.9
    ],
    [
-    1791854253,
-    4191.8,
-    4191.8,
-    4191.8,
-    4191.8
+    1791854546,
+    4185.7,
+    4185.7,
+    4185.7,
+    4185.7
    ]
   ],
   "nq": [
@@ -7388,14 +7386,14 @@
     30721.25,
     30769.0,
     30705.0,
-    30758.5
+    30733.0
    ],
    [
-    1791854251,
-    30758.0,
-    30758.0,
-    30758.0,
-    30758.0
+    1791854545,
+    30729.5,
+    30729.5,
+    30729.5,
+    30729.5
    ]
   ],
   "vix": [
@@ -7899,10 +7897,10 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-13T01:07:32Z",
- "ult_4h": 1791854254.8722718,
+ "ult_4h": 1791855153.2715704,
  "estrategia_4h": {
   "oro": {
-   "precio": 4184.7,
+   "precio": 4185.7,
    "atr_4h": 21.4,
    "setups": [
     {
@@ -7919,11 +7917,11 @@
    ]
   },
   "nq": {
-   "precio": 30744.5,
+   "precio": 30729.25,
    "atr_4h": 140.39,
    "setups": []
   },
-  "ts": "2026-10-13T01:17:35Z"
+  "ts": "2026-10-13T01:32:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo"
