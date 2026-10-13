@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4199.8 · NQ 30655.5 · VIX 15.3 · 15 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-13T13:12:36Z"
+   "ultimo_resultado": "Oro 4200.8 · NQ 30650.5 · VIX 15.31 · 15 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-13T13:17:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T13:12:35Z",
-   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’"
+   "actualizado": "2026-10-13T13:17:35Z",
+   "ultimo_resultado": "15 titulares nuevos, 1 de alto impacto: Micron drops 5% as tech stocks rattled by China chip breakthrough claims"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4200.8 · NQ 30650.5 · VIX 15.31 · 15 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-13T13:17:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4199.8 · NQ 30655.5 · VIX 15.3 · 15 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4191.4 · NQ 30774.75 · VIX 15.21 · 14 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-13T00:27:39Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4186.8 · NQ 30769.5 · VIX 15.21 · 13 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-13T00:22:45Z"
   }
  ],
  "briefs": [
@@ -5444,12 +5444,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4199.8,
-  "nq": 30655.5,
-  "vix": 15.3,
-  "ts": "2026-10-13T13:12:36Z"
+  "oro": 4200.8,
+  "nq": 30650.5,
+  "vix": 15.31,
+  "ts": "2026-10-13T13:17:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Micron drops 5% as tech stocks rattled by China chip breakthrough claims",
+   "link": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+   "ts": "2026-10-13T13:13:57Z",
+   "fuente": "CNBC",
+   "id": "0329ac6383",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "World Bank jobs council urges 'crisis-era' employment support measures as IMF warns of AI ‘tsunami’",
    "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-ai-jobs-inflation-.html",
@@ -5568,6 +5579,17 @@
    "ts": "2026-10-13T12:31:09Z",
    "fuente": "CNBC",
    "id": "f1685c6523",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Powerus (Nasdaq: PUSA) Unveils Fully Autonomous Drone Interceptors at AUSA 2026",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSzJ3V1pjUmxxYTdQcU93Rjh0NHh5ZExqemU2clh4dmt0NHJsdUUtRU1lb01YaTNWM0hfcHhxNUh6a0J5RWRJTm0ySDQ0c29uZlRpb3BWMjdZNHpTbHJWQzVzVWVWQUhBM3JRay1NSkRWYXNLb2JuVUllVGEteTVrT1Vsa0RQMWxZMVcyelBUM3N0VzNCVEhzTmMxMEpNdGUybjZGakF1b0tnX1RhVlBxaVlVQ2daWlJDVDNUYmgyLS1ULVhFUGZ5QnFic0VjZw?oc=5",
+   "ts": "2026-10-13T12:30:00Z",
+   "fuente": "Business Wire",
+   "id": "7618559c93",
    "activos": [
     "nq"
    ],
@@ -5704,6 +5726,17 @@
    "id": "23638ede9e",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Immutep Regains Compliance with Nasdaq Minimum Bid Price Requirement",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQekdVZXYtWWFISFJldkhNWnk2VTI0QVpmc1IxWllmR0szVzkxSkE4ODlqVmRscG9RNV9RS2JJUTlJN0Q0LXFVbEpRQTVUdVpwX2xrVFhndXFUUU1jUzlHYXIyWll4SkRwOVNNMHUzQnZCMnJTalYzOWROcnFra1Azb3V6MlF5TXBnellNVDJRYjdQNzV4dUh5SWlYeTFwWFZMV0l1Q0k2V3habml1Z04zWkhiODctRWxlR20xN2RxQ0laMGhkSDlONGY2azAwWXF1RWtqcFduTQ?oc=5",
+   "ts": "2026-10-13T12:00:00Z",
+   "fuente": "GlobeNewswire",
+   "id": "fefdda3134",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Exclusive Interview with Cycurion (Nasdaq: CYCU) CEO L. Kevin Kelly Discussing the Company's Largest Contract Award and Expansion of Its Diversified Cybersecurity Growth Strategy",
@@ -6264,42 +6297,6 @@
    "id": "7fc13fc523",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Collective Mining Discovers Shallow High-Grade Silver-Tungsten Mineralization in Northern Apollo, Drilling 5.50m at 1,283 g/t Silver, 0.83% WO₃, 0.57% Copper and 0.17 g/t Gold from 89.15m",
-   "link": "https://finance.yahoo.com/news/collective-mining-discovers-shallow-high-103000288.html?.tsrc=rss",
-   "ts": "2026-10-13T10:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "41d5096798",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Bank earnings live updates: JPMorgan and Wells Fargo results are up first",
-   "link": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html",
-   "ts": "2026-10-13T10:26:27Z",
-   "fuente": "CNBC",
-   "id": "5714bead05",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Resultados trimestrales en vivo de JPMorgan y Wells Fargo",
-   "efecto": "Mueve futuros del Nasdaq y dólar según la salud bancaria."
-  },
-  {
-   "titulo": "Commerzbank Says Treasuries Rally as US Equity Futures Decline, Oil Prices Slip, US Dollar Lower",
-   "link": "https://finance.yahoo.com/economy/policy/articles/commerzbank-says-treasuries-rally-us-101959189.html?.tsrc=rss",
-   "ts": "2026-10-13T10:19:59Z",
-   "fuente": "Yahoo Finance",
-   "id": "01c0881548",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -6857,15 +6854,15 @@
     1791896400,
     4203.1,
     4206.3,
-    4199.2,
-    4200.0
+    4196.0,
+    4201.3
    ],
    [
-    1791896553,
-    4199.8,
-    4199.8,
-    4199.8,
-    4199.8
+    1791896851,
+    4200.8,
+    4200.8,
+    4200.8,
+    4200.8
    ]
   ],
   "nq": [
@@ -7419,15 +7416,15 @@
     1791896400,
     30658.25,
     30666.5,
-    30649.5,
-    30649.5
+    30634.0,
+    30652.25
    ],
    [
-    1791896555,
-    30655.5,
-    30655.5,
-    30655.5,
-    30655.5
+    1791896855,
+    30652.0,
+    30652.0,
+    30652.0,
+    30652.0
    ]
   ],
   "vix": [
@@ -7863,55 +7860,73 @@
     15.44,
     15.44,
     15.28,
+    15.3
+   ],
+   [
+    1791896400,
+    15.3,
+    15.31,
+    15.3,
     15.31
    ],
    [
-    1791896251,
-    15.3,
-    15.3,
-    15.3,
-    15.3
+    1791896551,
+    15.31,
+    15.31,
+    15.31,
+    15.31
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-13T13:02:35Z",
- "ult_4h": 1791896580.9419544,
+ "ult_4h": 1791897455.7856827,
  "estrategia_4h": {
   "oro": {
-   "precio": 4204.7,
-   "atr_4h": 18.77,
+   "precio": 4200.8,
+   "atr_4h": 19.39,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4155.54,
+     "stop": 4155.17,
      "objetivo": 4242.3,
-     "rr": 6.7,
+     "rr": 6.49,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.76,
+     "fuerza_ruptura_atr": 1.69,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30659.25,
-   "atr_4h": 139.36,
+   "precio": 30652.0,
+   "atr_4h": 139.96,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30792.0,
      "entrada": 30792.0,
-     "stop": 30875.61,
+     "stop": 30875.98,
      "objetivo": 30604.75,
-     "rr": 2.24,
+     "rr": 2.23,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.99,
+     "fuerza_ruptura_atr": 0.98,
      "ruptura": "2026-10-13 00:00 UTC"
+    },
+    {
+     "direccion": "VENTA",
+     "nivel": 30957.5,
+     "entrada": 30957.5,
+     "stop": 31041.48,
+     "objetivo": 30604.75,
+     "rr": 4.2,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 0.98,
+     "ruptura": "2026-10-12 16:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-13T13:03:01Z"
+  "ts": "2026-10-13T13:17:36Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
