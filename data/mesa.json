@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4214.3 · NQ 30730.5 · VIX 15.48 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-13T08:22:34Z"
+   "ultimo_resultado": "Oro 4215.8 · NQ 30721.5 · VIX 15.46 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-13T08:27:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T08:22:33Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: You Sold Everything in a Panic and Never Got Back In? Sitting Out Has Cost More Than the Drop Did. These 3 ETFs Are a Way Back"
+   "actualizado": "2026-10-13T08:27:33Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Los futuros del Nasdaq caen por venta de chips; se acercan ganancias del 3T e inflación"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4215.8 · NQ 30721.5 · VIX 15.46 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-13T08:27:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4214.3 · NQ 30730.5 · VIX 15.48 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4190.9 · NQ 30862.0 · VIX 15.32 · 15 noticias nuevas (4 alto impacto)",
    "ts": "2026-10-12T19:12:44Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4191.3 · NQ 30852.25 · VIX 15.33 · 15 noticias nuevas (5 alto impacto)",
-   "ts": "2026-10-12T19:07:33Z"
   }
  ],
  "briefs": [
@@ -5444,10 +5444,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4214.3,
-  "nq": 30730.5,
-  "vix": 15.48,
-  "ts": "2026-10-13T08:22:34Z"
+  "oro": 4215.8,
+  "nq": 30721.5,
+  "vix": 15.46,
+  "ts": "2026-10-13T08:27:34Z"
  },
  "noticias": [
   {
@@ -5709,6 +5709,20 @@
    "id": "768a288f48",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Nasdaq futures slide amid chip selloff; Q3 earnings, inflation data loom",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUmFUMkhCTURMRVpKS0tuUW1FbVNsX3RTSjlsMHRWVUFCaDlPcE1FTHdBVmdKNlF5aTUtSTBLU01GWFhsSEprQ3QwOGZ1dXQ0bWhXbzZrVllwM0lWV01iSFAwWHlhcGpsQVFoWmh0cTEyU2FCdjhrNUJ3VDZ3cUZzbDR4VVR3blhBSkpxVVI0eTRGaXNMb3BGZTVzcG56aVZTaWthX0VHYXowbGh0YkdDdFU3aHdRN2JI?oc=5",
+   "ts": "2026-10-13T03:40:29Z",
+   "fuente": "Investing.com",
+   "id": "679b3fc366",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Los futuros del Nasdaq caen por venta de chips; se acercan ganancias del 3T e inflación",
+   "efecto": "Presiona al Nasdaq a la baja por caídas en semiconductores."
   },
   {
    "titulo": "IMF sees milder global slowdown as AI boom offsets war hit — warns resilience is nearing limits",
@@ -6309,20 +6323,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Nasdaq falls ahead of earnings, economic data while oil rallies",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOck00LVRZX0lQNUw5SGlYU09FOWw1dUVTNjZTQ0p6YklVVUlRSms1eVZRcDd6VjRySF9rOEptM3Nrd19mSURMa1dmbTdIOE1VZjJKdThIR0tabGRTdjBiX0JCWkVndjJFNkZrT0w4NzZ2VWVibjlyeVZHRmszeXRraWRfT0p2SDhSQnFTY3QycG05eHpjQVVLYk9yRF9UYzZ0VmZ6Sw?oc=5",
-   "ts": "2026-10-12T20:38:15Z",
-   "fuente": "Reuters",
-   "id": "2b61048c5f",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El Nasdaq cae antes de resultados y datos económicos mientras el petróleo sube",
-   "efecto": "Presiona al NQ a la baja por cautela antes de datos."
   }
  ],
  "eventos_avisados": [
@@ -6844,16 +6844,16 @@
    [
     1791878400,
     4211.6,
-    4214.6,
+    4216.3,
     4208.9,
-    4214.6
+    4214.3
    ],
    [
-    1791879152,
-    4214.3,
-    4214.3,
-    4214.3,
-    4214.3
+    1791879450,
+    4215.8,
+    4215.8,
+    4215.8,
+    4215.8
    ]
   ],
   "nq": [
@@ -7371,16 +7371,16 @@
    [
     1791878400,
     30701.5,
-    30732.25,
+    30733.0,
     30688.25,
-    30727.75
+    30719.75
    ],
    [
-    1791879151,
-    30730.5,
-    30730.5,
-    30730.5,
-    30730.5
+    1791879452,
+    30721.5,
+    30721.5,
+    30721.5,
+    30721.5
    ]
   ],
   "vix": [
@@ -7787,19 +7787,19 @@
     1791878400,
     15.5,
     15.52,
-    15.47,
-    15.49
+    15.46,
+    15.46
    ],
    [
-    1791878851,
-    15.48,
-    15.48,
-    15.48,
-    15.48
+    1791879151,
+    15.46,
+    15.46,
+    15.46,
+    15.46
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-13T07:52:36Z",
+ "noticias_traducidas_ts": "2026-10-13T08:27:32Z",
  "ult_4h": 1791879459.2051558,
  "estrategia_4h": {
   "oro": {
