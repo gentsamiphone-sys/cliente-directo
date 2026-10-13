@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4209.1 · NQ 30692.75 · VIX 15.3 · 15 noticias nuevas (4 alto impacto)",
-   "actualizado": "2026-10-13T13:47:36Z"
+   "ultimo_resultado": "Oro 4204.9 · NQ 30777.75 · VIX 15.22 · 15 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-13T13:52:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T13:47:35Z",
-   "ultimo_resultado": "15 titulares nuevos, 4 de alto impacto: Trump’s Tariffs Put a Spotlight on Forced Labor. It Isn’t Going Away."
+   "actualizado": "2026-10-13T13:52:40Z",
+   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: Micron, Seagate, Western Digital sink as chip sell-off deepens"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4204.9 · NQ 30777.75 · VIX 15.22 · 15 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-13T13:52:41Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4209.1 · NQ 30692.75 · VIX 15.3 · 15 noticias nuevas (4 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4182.6 · NQ 30723.0 · VIX 15.21 · 9 noticias nuevas",
    "ts": "2026-10-13T01:02:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4186.4 · NQ 30725.75 · VIX 15.21 · 13 noticias nuevas",
-   "ts": "2026-10-13T00:57:35Z"
   }
  ],
  "briefs": [
@@ -5444,12 +5444,44 @@
   }
  },
  "en_vivo": {
-  "oro": 4209.1,
-  "nq": 30692.75,
-  "vix": 15.3,
-  "ts": "2026-10-13T13:47:35Z"
+  "oro": 4204.9,
+  "nq": 30777.75,
+  "vix": 15.22,
+  "ts": "2026-10-13T13:52:40Z"
  },
  "noticias": [
+  {
+   "titulo": "Micron, Seagate, Western Digital sink as chip sell-off deepens",
+   "link": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+   "ts": "2026-10-13T13:51:11Z",
+   "fuente": "CNBC",
+   "id": "11f9ae7bd3",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold rises on weaker dollar, lower oil ahead of US inflation data",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdm01ZWpsQXcxSlV4V202V1JUUE91VFBnRHY2QlVsdkxnaUZDUDcxam1ZTEp2bEd0cVFxcWhiSEVXYk9CdU45aE1FRlI0YUU1SUNyckJyLW9xV1JsekpxR1ZIaWZhUC1IN25ScldrYzhfUGpaUk1hd2U5V0ozUWZaeUNQbWNRT2RfcWlib0kxLU56anJ2VGZsZ1FLTm5kN2NHdTB4UmMweG1pWTZaMFE?oc=5",
+   "ts": "2026-10-13T13:49:48Z",
+   "fuente": "Kitco",
+   "id": "99bab4b03a",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Centauri Minerals Mobilizes for First Drilling Program at Rio Grande Gold-Copper Project Since 2013",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/centauri-minerals-mobilizes-first-drilling-133900927.html?.tsrc=rss",
+   "ts": "2026-10-13T13:39:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "cc63e2a31f",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Apple releases HomeView smart home hub with screen as showcase for Siri AI",
    "link": "https://www.cnbc.com/2026/10/13/apple-homeview-smart-home-siri-ai.html",
@@ -6269,37 +6301,6 @@
    "id": "7d00dbf809",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "J&J beats earnings estimates; Middle East conflict weighs on medical-device sales",
-   "link": "https://www.cnbc.com/2026/10/13/jnj-earnings-q3-2026.html",
-   "ts": "2026-10-13T10:52:05Z",
-   "fuente": "CNBC",
-   "id": "f547c33f66",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Gold price today, Tuesday, October 13, 2026: Lower gold prices could be the next buying opportunity",
-   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPOEpuVFhheWFzUXpoR3N0Mi1NLW9PTWFhTGN2ZW1MM2Y2NEV5T0RCejVNZzNYdVVjeW5vYk5aRC1xd3YzZGhsRHhhdC1mcERKbzJxTV9ZR19yckNReEhhWHc5aFFlSDNUdHozcFJtTmZpcFFrMGdacWtJdVhlQVlZeWdJbFhSWjVLTzRfaFVvdUYzUHlESElHUlNUbVJiUU1fejF0MHRMdzBtTVpSM3oyTG1PaFlMcmtSUU11YmlVNHlSYUE2SC1EVmNzSkJqTmNQMFItWnQ1bXZfTXBzdFhyRnFnamdzQjV4TUNtTkUyVnByYW5fb0pmVFNuZVJna0NP?oc=5",
-   "ts": "2026-10-13T10:50:35Z",
-   "fuente": "Yahoo Finance",
-   "id": "91fc0286df",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "First Au signs binding deal to buy Ida Valley gold project",
-   "link": "https://www.mining-technology.com/news/first-au-to-buy-ida-valley-project/?.tsrc=rss",
-   "ts": "2026-10-13T10:49:03Z",
-   "fuente": "Yahoo Finance",
-   "id": "454c2255ab",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -6858,14 +6859,14 @@
     4203.1,
     4213.5,
     4196.0,
-    4210.0
+    4206.0
    ],
    [
-    1791898653,
-    4209.1,
-    4209.1,
-    4209.1,
-    4209.1
+    1791898957,
+    4204.9,
+    4204.9,
+    4204.9,
+    4204.9
    ]
   ],
   "nq": [
@@ -7418,16 +7419,16 @@
    [
     1791896400,
     30658.0,
-    30709.75,
+    30791.75,
     30591.25,
-    30706.75
+    30781.0
    ],
    [
-    1791898655,
-    30692.75,
-    30692.75,
-    30692.75,
-    30692.75
+    1791898959,
+    30777.75,
+    30777.75,
+    30777.75,
+    30777.75
    ]
   ],
   "vix": [
@@ -7869,23 +7870,23 @@
     1791896400,
     15.3,
     15.34,
-    15.29,
-    15.31
+    15.25,
+    15.25
    ],
    [
-    1791898351,
-    15.3,
-    15.3,
-    15.3,
-    15.3
+    1791898651,
+    15.22,
+    15.22,
+    15.22,
+    15.22
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-13T13:32:36Z",
- "ult_4h": 1791898432.1077561,
+ "ult_4h": 1791899560.5056577,
  "estrategia_4h": {
   "oro": {
-   "precio": 4207.3,
+   "precio": 4204.9,
    "atr_4h": 19.39,
    "setups": [
     {
@@ -7896,40 +7897,29 @@
      "objetivo": 4242.3,
      "rr": 6.49,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.69,
+     "fuerza_ruptura_atr": 1.7,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30646.75,
-   "atr_4h": 139.96,
+   "precio": 30777.75,
+   "atr_4h": 150.46,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30792.0,
      "entrada": 30792.0,
-     "stop": 30875.98,
-     "objetivo": 30604.75,
-     "rr": 2.23,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.98,
+     "stop": 30882.28,
+     "objetivo": 30591.25,
+     "rr": 2.22,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 0.92,
      "ruptura": "2026-10-13 00:00 UTC"
-    },
-    {
-     "direccion": "VENTA",
-     "nivel": 30957.5,
-     "entrada": 30957.5,
-     "stop": 31041.48,
-     "objetivo": 30604.75,
-     "rr": 4.2,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.98,
-     "ruptura": "2026-10-12 16:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-13T13:33:52Z"
+  "ts": "2026-10-13T13:52:40Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
