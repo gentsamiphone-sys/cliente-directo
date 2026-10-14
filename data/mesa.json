@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4098.6 · NQ 30266.25 · VIX 16.33 · 15 noticias nuevas (5 alto impacto)",
-   "actualizado": "2026-10-14T16:22:37Z"
+   "ultimo_resultado": "Oro 4098.3 · NQ 30244.5 · VIX 16.52 · 11 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-14T16:27:40Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T16:22:36Z",
-   "ultimo_resultado": "15 titulares nuevos, 5 de alto impacto: Earnings season is heating up. UBS thinks these stocks could beat expectations"
+   "actualizado": "2026-10-14T16:27:40Z",
+   "ultimo_resultado": "11 titulares nuevos, 1 de alto impacto: Acciones de CoreWeave caen mientras los rendimientos de bonos rondan el 15% por dudas sobre deuda en IA"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4098.3 · NQ 30244.5 · VIX 16.52 · 11 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-14T16:27:40Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4098.6 · NQ 30266.25 · VIX 16.33 · 15 noticias nuevas (5 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4187.0 · NQ 30870.75 · VIX 15.27 · 10 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-14T03:52:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4187.2 · NQ 30873.5 · VIX 15.27 · 12 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-14T03:47:32Z"
   }
  ],
  "briefs": [
@@ -6090,12 +6090,37 @@
   }
  },
  "en_vivo": {
-  "oro": 4098.6,
-  "nq": 30266.25,
-  "vix": 16.33,
-  "ts": "2026-10-14T16:22:36Z"
+  "oro": 4098.3,
+  "nq": 30244.5,
+  "vix": 16.52,
+  "ts": "2026-10-14T16:27:40Z"
  },
  "noticias": [
+  {
+   "titulo": "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
+   "link": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html",
+   "ts": "2026-10-14T16:24:51Z",
+   "fuente": "CNBC",
+   "id": "f130891b94",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Acciones de CoreWeave caen mientras los rendimientos de bonos rondan el 15% por dudas sobre deuda en IA",
+   "efecto": "Genera presión bajista en tecnológicas por aumento de costos de financiación y riesgo crediticio."
+  },
+  {
+   "titulo": "A New Visa Survey Says 56% of Americans Are Open to the Idea of Using Stablecoins. Here's What Crypto Investors Need to Know.",
+   "link": "https://www.fool.com/investing/2026/10/14/visa-survey-56-of-americans-open-to-stablecoins/?.tsrc=rss",
+   "ts": "2026-10-14T16:17:20Z",
+   "fuente": "Yahoo Finance",
+   "id": "5775715fb8",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Encuesta de Visa muestra que el 56% de estadounidenses usaría stablecoins",
+   "efecto": "Noticia de adopción cripto general; sin impacto institucional directo en oro, NQ o dólar."
+  },
   {
    "titulo": "Earnings season is heating up. UBS thinks these stocks could beat expectations",
    "link": "https://www.cnbc.com/2026/10/14/ubs-thinks-these-stocks-could-beat-expectations-this-earnings-season.html",
@@ -6931,30 +6956,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Iran says it’s ‘counting the moments’ until it can attack U.S. warships; Saudi Aramco facilities attacked",
-   "link": "https://www.cnbc.com/2026/10/14/us-iran-war-trump-hormuz-saudi.html",
-   "ts": "2026-10-14T12:43:45Z",
-   "fuente": "CNBC",
-   "id": "9e2df378b8",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Consumer prices rose at 3.7% annual rate in September as gas costs skyrocket",
-   "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html",
-   "ts": "2026-10-14T12:41:39Z",
-   "fuente": "CNBC",
-   "id": "57819fae00",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Los precios al consumidor subieron a una tasa anual del 3.7% en septiembre por la gasolina",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -7545,14 +7546,14 @@
     4101.5,
     4102.8,
     4095.0,
-    4098.1
+    4097.3
    ],
    [
-    1791994356,
-    4098.6,
-    4098.6,
-    4098.6,
-    4098.6
+    1791994656,
+    4098.3,
+    4098.3,
+    4098.3,
+    4098.3
    ]
   ],
   "nq": [
@@ -8127,15 +8128,15 @@
     1791993600,
     30330.5,
     30343.5,
-    30253.25,
-    30254.0
+    30228.25,
+    30241.25
    ],
    [
-    1791994355,
-    30266.25,
-    30266.25,
-    30266.25,
-    30266.25
+    1791994658,
+    30244.5,
+    30244.5,
+    30244.5,
+    30244.5
    ]
   ],
   "vix": [
@@ -8597,20 +8598,20 @@
    [
     1791993600,
     16.22,
-    16.33,
+    16.5,
     16.18,
-    16.33
+    16.5
    ],
    [
-    1791994051,
-    16.33,
-    16.33,
-    16.33,
-    16.33
+    1791994351,
+    16.52,
+    16.52,
+    16.52,
+    16.52
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-14T15:52:37Z",
+ "noticias_traducidas_ts": "2026-10-14T16:27:36Z",
  "ult_4h": 1791994653.3446755,
  "estrategia_4h": {
   "oro": {
