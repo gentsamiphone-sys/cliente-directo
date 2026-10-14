@@ -3035,10 +3035,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "Agregando Rachel's Kitchen",
-   "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-14T19:06:32Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "3 negocios nuevos de restaurantes y comida cerca de Decatur Blvd",
+   "actualizado": "2026-10-14T19:06:33Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -3066,6 +3066,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: 3 negocios nuevos de restaurantes y comida cerca de Decatur Blvd",
+   "ts": "2026-10-14T19:06:33Z"
+  },
   {
    "agente": "buscador",
    "texto": "Encontré Rachel's Kitchen, sin página web.",
@@ -4560,11 +4565,6 @@
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ts": "2026-10-12T13:07:45Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Buscando restaurantes y comida sin página web cerca de Craig Rd…",
-   "ts": "2026-10-12T13:03:56Z"
   }
  ],
  "reportes": {
