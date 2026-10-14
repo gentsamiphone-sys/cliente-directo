@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4113.8 · NQ 30156.75 · VIX 16.95",
-   "actualizado": "2026-10-14T18:37:38Z"
+   "ultimo_resultado": "Oro 4115.3 · NQ 30149.25 · VIX 17.09 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-14T18:42:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T18:37:38Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-14T18:42:41Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Acciones de infraestructura de IA caen por motivos de venta"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4115.3 · NQ 30149.25 · VIX 17.09 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-14T18:42:41Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4113.8 · NQ 30156.75 · VIX 16.95",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4169.9 · NQ 30745.0 · VIX 15.27 · 11 noticias nuevas (2 alto impacto)",
    "ts": "2026-10-14T06:12:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4175.4 · NQ 30757.5 · VIX 15.27 · 11 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-14T06:07:40Z"
   }
  ],
  "briefs": [
@@ -6090,12 +6090,38 @@
   }
  },
  "en_vivo": {
-  "oro": 4113.8,
-  "nq": 30156.75,
-  "vix": 16.95,
-  "ts": "2026-10-14T18:37:38Z"
+  "oro": 4115.3,
+  "nq": 30149.25,
+  "vix": 17.09,
+  "ts": "2026-10-14T18:42:41Z"
  },
  "noticias": [
+  {
+   "titulo": "AI infrastructure stocks tumble. Here's a few reasons for the sell-off",
+   "link": "https://www.cnbc.com/investingclub/2026/10/14/ai-infrastructure-stocks-tumble-heres-a-few-reasons-for-the-sell-off-.html",
+   "ts": "2026-10-14T18:41:11Z",
+   "fuente": "CNBC",
+   "id": "af3937fe36",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Acciones de infraestructura de IA caen por motivos de venta",
+   "efecto": "Presiona al NQ a la baja por liquidación en tecnológicas."
+  },
+  {
+   "titulo": "Trump to appeal order blocking White House from banning MS NOW, CNN and Politico",
+   "link": "https://www.cnbc.com/2026/10/14/trump-appeals-white-house-ban-judge.html",
+   "ts": "2026-10-14T18:37:38Z",
+   "fuente": "CNBC",
+   "id": "faa68ba2e0",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "bajo",
+   "es": "Trump apelará orden que bloquea prohibición de MS NOW, CNN y Politico",
+   "efecto": "Ruido político sin impacto directo en flujos institucionales hoy."
+  },
   {
    "titulo": "Ontario Premier Ford warns U.S. tariffs may outlast Trump",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ubWVjRlhyYjVaLUhTUUZ5b1ZpREFseFVpTWJ6RHpzeXpRZmxTR1JmWE9XVXNsY3R0MUxwblR5UGVQWFRhdk54RU5Dbmo0YjNzaGUyeFN1eUdZcFFKanpuLUwzTl94RXhJRTFFOHp3?oc=5",
@@ -6936,29 +6962,6 @@
    "id": "a19207c50b",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "i-80 Gold (TSX:IAU) Reshapes Its Nevada Plan, Is It Still 46% Undervalued?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/80-gold-tsx-iau-reshapes-141229388.html?.tsrc=rss",
-   "ts": "2026-10-14T14:12:29Z",
-   "fuente": "Yahoo Finance",
-   "id": "f7d036eefc",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gold Hits 10-Week Low as Bond Yields Soar Above Rising Inflation",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxON2otX3VLa1F5bXNIdi1Mb3pLNDhhU0dSQUsxOWYwOHBvUXlzeWlmLXRlWXdmeWpSVHN1NGd4dTdRLUpXSDQ1VU9NNTZHYkk4R2xvT2FGQXROUEpyZWJHRVlCRWc3SEVXVUVZdi1HOXljc1l4S1FLblYwVklQX0lhUVZnbzVvTmJHSWwzNHBCZjZ6VS16UlE?oc=5",
-   "ts": "2026-10-14T14:10:38Z",
-   "fuente": "BullionVault",
-   "id": "2d0ec42d2b",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -7561,16 +7564,16 @@
    [
     1792000800,
     4105.7,
-    4114.9,
+    4117.2,
     4101.8,
-    4114.8
+    4116.3
    ],
    [
-    1792002456,
-    4113.8,
-    4113.8,
-    4113.8,
-    4113.8
+    1792002756,
+    4115.3,
+    4115.3,
+    4115.3,
+    4115.3
    ]
   ],
   "nq": [
@@ -8160,14 +8163,14 @@
     30147.75,
     30200.25,
     30103.25,
-    30165.75
+    30146.75
    ],
    [
-    1792002457,
-    30156.75,
-    30156.75,
-    30156.75,
-    30156.75
+    1792002759,
+    30149.25,
+    30149.25,
+    30149.25,
+    30149.25
    ]
   ],
   "vix": [
@@ -8645,18 +8648,18 @@
     17.22,
     17.45,
     16.94,
-    16.94
+    17.11
    ],
    [
-    1792002151,
-    16.94,
-    16.94,
-    16.94,
-    16.94
+    1792002451,
+    17.09,
+    17.09,
+    17.09,
+    17.09
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-14T18:12:36Z",
+ "noticias_traducidas_ts": "2026-10-14T18:42:40Z",
  "ult_4h": 1792002759.1397297,
  "estrategia_4h": {
   "oro": {
@@ -8786,6 +8789,8 @@
   "cceff732b8",
   "4cd6b476d1",
   "a947beb8d2",
-  "b833eec200"
+  "b833eec200",
+  "af3937fe36",
+  "faa68ba2e0"
  ]
 }
