@@ -2913,9 +2913,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Craig Rd…",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-14T09:02:40Z"
+   "actualizado": "2026-10-14T09:02:45Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2943,6 +2943,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Craig Rd…",
+   "ts": "2026-10-14T09:02:45Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 128 textos listos para mandar",
@@ -4437,11 +4442,6 @@
    "agente": "seguimiento",
    "texto": "Terminó su turno: 0 respuestas nuevas, 0 bajas, 0 seguimientos",
    "ts": "2026-10-12T02:12:39Z"
-  },
-  {
-   "agente": "vendedor",
-   "texto": "Terminó su turno: Fuera de horario: 0 correos listos para la mañana",
-   "ts": "2026-10-12T01:52:34Z"
   }
  ],
  "reportes": {
