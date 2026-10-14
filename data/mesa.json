@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4109.8 · NQ 30184.5 · VIX 16.83 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-14T17:42:40Z"
+   "ultimo_resultado": "Oro 4108.1 · NQ 30190.75 · VIX 16.9 · 2 noticias nuevas",
+   "actualizado": "2026-10-14T17:47:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T17:42:39Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Stocks on Watch After CPI-Fueled Breakdown: SPX, Nasdaq, NVDA"
+   "actualizado": "2026-10-14T17:47:33Z",
+   "ultimo_resultado": "2 titulares nuevos: We bought SpaceX at $121. Here's why we're buying more at higher prices"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4108.1 · NQ 30190.75 · VIX 16.9 · 2 noticias nuevas",
+   "ts": "2026-10-14T17:47:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4109.8 · NQ 30184.5 · VIX 16.83 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4187.4 · NQ 30838.25 · VIX 15.27 · 9 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-14T05:17:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4188.1 · NQ 30830.5 · VIX 15.27 · 9 noticias nuevas (3 alto impacto)",
-   "ts": "2026-10-14T05:12:32Z"
   }
  ],
  "briefs": [
@@ -6090,12 +6090,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4109.8,
-  "nq": 30184.5,
-  "vix": 16.83,
-  "ts": "2026-10-14T17:42:39Z"
+  "oro": 4108.1,
+  "nq": 30190.75,
+  "vix": 16.9,
+  "ts": "2026-10-14T17:47:33Z"
  },
  "noticias": [
+  {
+   "titulo": "We bought SpaceX at $121. Here's why we're buying more at higher prices",
+   "link": "https://www.cnbc.com/2026/10/14/spacex-stock-starlink-ai-buying-more.html",
+   "ts": "2026-10-14T17:43:37Z",
+   "fuente": "CNBC",
+   "id": "1946c279cc",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Stocks on Watch After CPI-Fueled Breakdown: SPX, Nasdaq, NVDA",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZ0JPYTlHRzVWNm5SVDkzcXY0ODdkODZEcUhoSTlLdGVNWnd1VW1Wejg5RUxkdDJpV2xUdU1NYUQ4VzkwUW1WRWRPNzBVd3lsZjl3ZUdnVEpqQzdZN3FlejhDSmpQMXR6Ty1mcFRUQW05OUVoU2loRWZEMVhtQ1ZKb194VThTcDhrY0NoVlQzc2xaZFlvcHhNdXM2VExTT0lGVlEzbEJ4WUZPUDZqVDk2dGgzdE1hbWRT?oc=5",
@@ -6527,6 +6536,15 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Social Security Administration announces 3.6% cost-of-living adjustment for 2027",
+   "link": "https://www.cnbc.com/2026/10/14/social-security-cola-2027.html",
+   "ts": "2026-10-14T15:25:42Z",
+   "fuente": "CNBC",
+   "id": "44c52307d9",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "Fannie Mae sharply raises mortgage rate forecast for 2027",
    "link": "https://www.cnbc.com/2026/10/14/fannie-mae-sharply-raises-mortgage-rate-forecast-for-2027-.html",
    "ts": "2026-10-14T15:20:53Z",
@@ -6947,26 +6965,6 @@
    "impacto": "alto",
    "es": "Los precios al consumidor subieron un 3,7% anual en septiembre por el gas.",
    "efecto": ""
-  },
-  {
-   "titulo": "~(@Trending)^1vs5 kambal hayma viral video 1527",
-   "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQWTdUQXM5OEtXeTl5c256RnB5c3YyVnJxMENLRHlzbmRrSEo0VGlVMU9mckJIQnJvMEVIMEl2YWEzSV8ta3NQdUw2bmtkVnJaVGN3V05qSnAtNHJJaWNmOUt1Yno1ZDNMVElhN2VzRmFFQ29mbUJqckh6ZUxfZFVfcmIxOUtVei1BWGJ3WXdEUzdxTFBRRVhUYVdmRFZ5UVJaZ0hMNGJqVXF5T2FZQTc0azA1N2prdm1xTXVtMndkdFdOeW5xRm1YYkd4QklrMFdGdWxkaXhRSTVaaF94a1hEWGwtWTBiQm1TU0J6RElSaEVWWUNuRExvOV9zd295dW12OE5qTGp4NXNiYUQ1THdmMS1jNExXSmdNNURKdUFCRk1mVm5aYlRDdE5tS3NuclkxN2lBZ19WOGVnZkM3bnZXOTVUbnZBb2VXdW9tak1xcw?oc=5",
-   "ts": "2026-10-14T13:44:33Z",
-   "fuente": "Universidad de Córdoba (UCO)",
-   "id": "5c6ffdfba5",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Egypt is the first country globally to maintain Gold Tier status on the path to hepatitis C elimination",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVURoeTd5SjdRQkhUdFpUTDNhSVdRZDUzb1VidDZ1c0R1WEVkSjEyM1o2U2QzZ1J4MEh5QXdXeFl3OXlUN2huQ2YzR25VSzQ5R1JxYUFOMVhpUkM3TnhKWFBuNTcyLVl4czh6R1Z0TVN6dUZQdDgzX083b2xjSHBwY1d5MTI5QXBXVkpWUTVBckFEdDRfYUVpTUtwMjhhbzNkZGVHRmZtU0FBeVhsTF9Dal9rZkpWUUVWWERnMi1fcXlWeWZoSVBYMHVENFkyamkwXzRxeGFUdHVDcWZ0?oc=5",
-   "ts": "2026-10-14T13:41:15Z",
-   "fuente": "World Health Organization (WHO)",
-   "id": "c0f09f6879",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -7564,14 +7562,14 @@
     4105.1,
     4112.4,
     4099.5,
-    4111.3
+    4108.1
    ],
    [
-    1791999157,
-    4109.8,
-    4109.8,
-    4109.8,
-    4109.8
+    1791999452,
+    4108.1,
+    4108.1,
+    4108.1,
+    4108.1
    ]
   ],
   "nq": [
@@ -8154,14 +8152,14 @@
     30296.5,
     30309.75,
     30168.25,
-    30189.0
+    30179.0
    ],
    [
-    1791999159,
-    30184.5,
-    30184.5,
-    30184.5,
-    30184.5
+    1791999453,
+    30190.75,
+    30190.75,
+    30190.75,
+    30190.75
    ]
   ],
   "vix": [
@@ -8630,79 +8628,79 @@
    [
     1791997200,
     16.36,
-    16.78,
+    16.98,
     16.32,
-    16.73
+    16.88
    ],
    [
-    1791998851,
-    16.83,
-    16.83,
-    16.83,
-    16.83
+    1791999151,
+    16.9,
+    16.9,
+    16.9,
+    16.9
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-14T17:37:36Z",
- "ult_4h": 1791999159.8994746,
+ "ult_4h": 1792000053.9995732,
  "estrategia_4h": {
   "oro": {
-   "precio": 4104.1,
-   "atr_4h": 24.56,
+   "precio": 4108.1,
+   "atr_4h": 24.99,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4129.2,
      "entrada": 4129.2,
-     "stop": 4143.93,
+     "stop": 4144.2,
      "objetivo": 4095.0,
-     "rr": 2.32,
+     "rr": 2.28,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.43,
+     "fuerza_ruptura_atr": 2.39,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 4178.1,
-     "entrada": 4178.1,
-     "stop": 4192.83,
+     "nivel": 4173.7,
+     "entrada": 4173.7,
+     "stop": 4188.7,
      "objetivo": 4095.0,
-     "rr": 5.64,
+     "rr": 5.25,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.43,
+     "fuerza_ruptura_atr": 2.39,
      "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30230.25,
-   "atr_4h": 180.73,
+   "precio": 30190.75,
+   "atr_4h": 182.59,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30478.44,
+     "stop": 30479.55,
      "objetivo": 30028.5,
-     "rr": 3.15,
+     "rr": 3.12,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.39,
+     "fuerza_ruptura_atr": 2.36,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30504.5,
      "entrada": 30504.5,
-     "stop": 30612.94,
-     "objetivo": 30194.25,
-     "rr": 2.86,
+     "stop": 30614.05,
+     "objetivo": 30168.25,
+     "rr": 3.07,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.39,
+     "fuerza_ruptura_atr": 2.36,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-14T17:32:40Z"
+  "ts": "2026-10-14T17:47:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -8757,6 +8755,8 @@
   "ac21b5dacd",
   "3bebb475ac",
   "944fdff345",
-  "4accf64959"
+  "4accf64959",
+  "1946c279cc",
+  "44c52307d9"
  ]
 }
