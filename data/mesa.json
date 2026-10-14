@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4121.0 · NQ 30140.5 · VIX 16.83 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-14T20:27:32Z"
+   "ultimo_resultado": "Oro 4122.6 · NQ 30153.0 · VIX 16.87 · 3 noticias nuevas",
+   "actualizado": "2026-10-14T20:32:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T20:27:32Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Container ship sinks in Strait of Hormuz as Iran steps up attacks"
+   "actualizado": "2026-10-14T20:32:31Z",
+   "ultimo_resultado": "3 titulares nuevos: StubHub Announces Extension of Senior Credit Facilities"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4122.6 · NQ 30153.0 · VIX 16.87 · 3 noticias nuevas",
+   "ts": "2026-10-14T20:32:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4121.0 · NQ 30140.5 · VIX 16.83 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Escribiendo el brief institucional…",
    "ts": "2026-10-14T06:33:05Z"
-  },
-  {
-   "agente": "historiador",
-   "texto": "ORO: Sesgo histórico neutral: 6 de 9 años subió esta semana; 3 de 9 subió los 20 días siguientes; análogos 2021, 2018, 2022 · NQ: Sesgo histórico alcista: 6 de 9 años subió esta semana; 7 de 9 subió los 20 días siguientes; análogos 2024, 2019, 2025",
-   "ts": "2026-10-14T06:33:04Z"
   }
  ],
  "briefs": [
@@ -6090,10 +6090,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4121.0,
-  "nq": 30140.5,
-  "vix": 16.83,
-  "ts": "2026-10-14T20:27:32Z"
+  "oro": 4122.6,
+  "nq": 30153.0,
+  "vix": 16.87,
+  "ts": "2026-10-14T20:32:31Z"
  },
  "noticias": [
   {
@@ -6122,6 +6122,15 @@
    "impacto": "alto",
    "es": "Acciones de Dell se desploman 11% ante dudas sobre la IA empresarial",
    "efecto": "Presión bajista fuerte en el sector tecnológico y el índice NQ."
+  },
+  {
+   "titulo": "StubHub Announces Extension of Senior Credit Facilities",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/stubhub-announces-extension-senior-credit-201500010.html?.tsrc=rss",
+   "ts": "2026-10-14T20:15:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "774d9680aa",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Dell stock plunges 11%, leading data center sell-off on concerns about 'enterprise AI timing'",
@@ -6204,6 +6213,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Cole Young announced as Gold Glove finalist at second base",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTVlPZTk0THV2bjN2UVFCMFhSSFY5QkhtR0FMbjl5SHlJOFpKckhSX0FiODRvX29zT2VUWG5CMEdtcGVTZHBTa0xPbHhBalp5TU5vYVVnZzNIVHgwaHI2Z3hudWRWdjhTNVM1cGxtTDFyZ2lybWJGc0g0WktmQTl4Q091czF1TlU?oc=5",
+   "ts": "2026-10-14T19:22:37Z",
+   "fuente": "Yahoo Sports",
+   "id": "9a9fe76099",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Container ship sinks in Strait of Hormuz as Iran steps up attacks",
    "link": "https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html",
    "ts": "2026-10-14T19:22:00Z",
@@ -6211,6 +6231,17 @@
    "id": "fcae1c4306",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Santa Fe College Teaching Zoo earns gold-standard AZA accreditation",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOU21odlVjaE9KcHdkUzh4UG5EUGwwdnNMdTBEZ0tBX1dMdmRZejl2RGVJRGZBa3A4TkttcHM0aG81Um9CV0pYdG42VkZJV3dyQzlZV01jQ1hucVU4NXNYcVVHZjk4eUFOTVEtR3NjT3JyV2JPU2xVdFc1QUQzN0prOXAtd2pQWlI0VUpra2ZsU1F5aVhLMnJWOUFWd0tnTGlaNVpXOGV3?oc=5",
+   "ts": "2026-10-14T19:20:53Z",
+   "fuente": "Santa Fe College",
+   "id": "70c7213b9a",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Evernorth Rings the Closing Bell",
@@ -6921,35 +6952,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Hot US inflation data dents Wall Street stocks",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-markets-mixed-tech-firms-025619455.html?.tsrc=rss",
-   "ts": "2026-10-14T15:58:30Z",
-   "fuente": "Yahoo Finance",
-   "id": "d1df57a547",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Jim Cramer says this healthcare stock is still a buy. Plus, what to do with BNY",
-   "link": "https://www.cnbc.com/investingclub/2026/10/14/jim-cramer-says-this-healthcare-stock-is-still-a-buy-plus-what-to-do-with-bny.html",
-   "ts": "2026-10-14T15:51:40Z",
-   "fuente": "CNBC",
-   "id": "0b09a976df",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Moody’s upgrades retail and apparel outlook as tariffs ease",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWGd5aFFBMkduWC13TnlIbXhnQW92TndCZkc1MzN1eS1feGJuMWxsUVVod05wRlBlVW0zTHY1QlBiWWpZbDk1aTM3NGd6elBLSmZXMDNpQl9ER2x6WS1IRExrVDl1clo0RlBlcVhrbTBQRWN3UkJnVFhBT0pqb2FTR01SS2RwZXRGb3BCUnUwUV8yb0FJSXpj?oc=5",
-   "ts": "2026-10-14T15:50:57Z",
-   "fuente": "Retail Dive",
-   "id": "825e6b3693",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -7568,14 +7570,14 @@
     4122.9,
     4124.7,
     4120.4,
-    4121.1
+    4122.4
    ],
    [
-    1792009051,
-    4121.0,
-    4121.0,
-    4121.0,
-    4121.0
+    1792009346,
+    4122.6,
+    4122.6,
+    4122.6,
+    4122.6
    ]
   ],
   "nq": [
@@ -8179,14 +8181,14 @@
     30185.5,
     30214.0,
     30134.75,
-    30139.5
+    30152.5
    ],
    [
-    1792009050,
-    30140.5,
-    30140.5,
-    30140.5,
-    30140.5
+    1792009347,
+    30153.0,
+    30153.0,
+    30153.0,
+    30153.0
    ]
   ],
   "vix": [
@@ -8678,22 +8680,29 @@
     16.81,
     16.89,
     16.78,
-    16.83
+    16.85
+   ],
+   [
+    1792008900,
+    16.87,
+    16.87,
+    16.87,
+    16.87
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-14T20:22:35Z",
- "ult_4h": 1792009057.096616,
+ "ult_4h": 1792009951.6418548,
  "estrategia_4h": {
   "oro": {
-   "precio": 4121.6,
-   "atr_4h": 24.85,
+   "precio": 4122.6,
+   "atr_4h": 24.89,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4129.2,
      "entrada": 4129.2,
-     "stop": 4144.11,
+     "stop": 4144.13,
      "objetivo": 4095.0,
      "rr": 2.29,
      "estado": "en retesteo",
@@ -8702,11 +8711,11 @@
     },
     {
      "direccion": "VENTA",
-     "nivel": 4178.1,
-     "entrada": 4178.1,
-     "stop": 4193.01,
+     "nivel": 4173.7,
+     "entrada": 4173.7,
+     "stop": 4188.63,
      "objetivo": 4095.0,
-     "rr": 5.57,
+     "rr": 5.27,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 2.4,
      "ruptura": "2026-10-14 04:00 UTC"
@@ -8714,34 +8723,34 @@
    ]
   },
   "nq": {
-   "precio": 30158.75,
-   "atr_4h": 176.59,
+   "precio": 30153.0,
+   "atr_4h": 178.14,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30475.95,
+     "stop": 30476.89,
      "objetivo": 30078.0,
-     "rr": 2.76,
+     "rr": 2.73,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.44,
+     "fuerza_ruptura_atr": 2.42,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30504.5,
      "entrada": 30504.5,
-     "stop": 30610.45,
+     "stop": 30611.39,
      "objetivo": 30078.0,
-     "rr": 4.03,
+     "rr": 3.99,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.44,
+     "fuerza_ruptura_atr": 2.42,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-14T20:17:37Z"
+  "ts": "2026-10-14T20:32:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -8861,6 +8870,9 @@
   "973c9890a7",
   "fcae1c4306",
   "42a62d0b9b",
-  "25aa95d0ae"
+  "25aa95d0ae",
+  "774d9680aa",
+  "9a9fe76099",
+  "70c7213b9a"
  ]
 }
