@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4100.4 · NQ 30231.0 · VIX 16.58 · 1 noticias nuevas",
-   "actualizado": "2026-10-14T17:27:52Z"
+   "ultimo_resultado": "Oro 4104.1 · NQ 30230.75 · VIX 16.63",
+   "actualizado": "2026-10-14T17:32:40Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T17:27:51Z",
-   "ultimo_resultado": "1 titulares nuevos: Turang, Chourio among NL Gold Glove finalists for Brewers"
+   "actualizado": "2026-10-14T17:32:39Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4104.1 · NQ 30230.75 · VIX 16.63",
+   "ts": "2026-10-14T17:32:40Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4100.4 · NQ 30231.0 · VIX 16.58 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4189.8 · NQ 30870.0 · VIX 15.27 · 10 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-14T05:02:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4188.8 · NQ 30868.0 · VIX 15.27 · 9 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-14T04:57:32Z"
   }
  ],
  "briefs": [
@@ -6090,10 +6090,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4100.4,
-  "nq": 30231.0,
-  "vix": 16.58,
-  "ts": "2026-10-14T17:27:51Z"
+  "oro": 4104.1,
+  "nq": 30230.75,
+  "vix": 16.63,
+  "ts": "2026-10-14T17:32:39Z"
  },
  "noticias": [
   {
@@ -7553,16 +7553,16 @@
    [
     1791997200,
     4105.1,
-    4105.4,
+    4106.3,
     4099.5,
-    4100.5
+    4104.4
    ],
    [
-    1791998270,
-    4100.4,
-    4100.4,
-    4100.4,
-    4100.4
+    1791998556,
+    4104.1,
+    4104.1,
+    4104.1,
+    4104.1
    ]
   ],
   "nq": [
@@ -8144,15 +8144,15 @@
     1791997200,
     30296.0,
     30309.75,
-    30226.75,
-    30233.0
+    30219.0,
+    30226.25
    ],
    [
-    1791998270,
-    30231.0,
-    30231.0,
-    30231.0,
-    30231.0
+    1791998560,
+    30230.25,
+    30230.25,
+    30230.25,
+    30230.25
    ]
   ],
   "vix": [
@@ -8621,52 +8621,52 @@
    [
     1791997200,
     16.36,
-    16.6,
+    16.64,
     16.32,
-    16.55
+    16.64
    ],
    [
-    1791997966,
-    16.58,
-    16.58,
-    16.58,
-    16.58
+    1791998251,
+    16.63,
+    16.63,
+    16.63,
+    16.63
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-14T17:02:38Z",
- "ult_4h": 1791998256.3927722,
+ "ult_4h": 1791999159.8994746,
  "estrategia_4h": {
   "oro": {
-   "precio": 4102.6,
-   "atr_4h": 24.53,
+   "precio": 4104.1,
+   "atr_4h": 24.56,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4129.2,
      "entrada": 4129.2,
-     "stop": 4143.92,
+     "stop": 4143.93,
      "objetivo": 4095.0,
      "rr": 2.32,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.44,
+     "fuerza_ruptura_atr": 2.43,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 4173.7,
-     "entrada": 4173.7,
-     "stop": 4188.42,
+     "nivel": 4178.1,
+     "entrada": 4178.1,
+     "stop": 4192.83,
      "objetivo": 4095.0,
-     "rr": 5.35,
+     "rr": 5.64,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.44,
+     "fuerza_ruptura_atr": 2.43,
      "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30248.0,
+   "precio": 30230.25,
    "atr_4h": 180.73,
    "setups": [
     {
@@ -8677,7 +8677,7 @@
      "objetivo": 30028.5,
      "rr": 3.15,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.38,
+     "fuerza_ruptura_atr": 2.39,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
@@ -8688,12 +8688,12 @@
      "objetivo": 30194.25,
      "rr": 2.86,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.38,
+     "fuerza_ruptura_atr": 2.39,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-14T17:17:36Z"
+  "ts": "2026-10-14T17:32:40Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
