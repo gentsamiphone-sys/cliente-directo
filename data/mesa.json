@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4163.0 · NQ 30753.25 · VIX 15.33 · 7 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-14T11:07:34Z"
+   "ultimo_resultado": "Oro 4162.2 · NQ 30722.75 · VIX 15.33 · 2 noticias nuevas",
+   "actualizado": "2026-10-14T11:12:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T11:07:34Z",
-   "ultimo_resultado": "7 titulares nuevos, 3 de alto impacto: Renovación de clase ejecutiva de Delta: nuevos asientos y más Porsches"
+   "actualizado": "2026-10-14T11:12:41Z",
+   "ultimo_resultado": "2 titulares nuevos: Tech giants race to get AI gadgets on shelves for holiday rush"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4162.2 · NQ 30722.75 · VIX 15.33 · 2 noticias nuevas",
+   "ts": "2026-10-14T11:12:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4163.0 · NQ 30753.25 · VIX 15.33 · 7 noticias nuevas (3 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Historial: 11 operaciones, 27% de acierto, +7.08 R.",
    "ts": "2026-10-13T21:32:54Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Revisando cómo salieron las entradas anteriores…",
-   "ts": "2026-10-13T21:32:53Z"
   }
  ],
  "briefs": [
@@ -5840,10 +5840,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4163.0,
-  "nq": 30753.25,
+  "oro": 4162.2,
+  "nq": 30722.75,
   "vix": 15.33,
-  "ts": "2026-10-14T11:07:34Z"
+  "ts": "2026-10-14T11:12:41Z"
  },
  "noticias": [
   {
@@ -5852,6 +5852,15 @@
    "ts": "2026-10-14T11:01:42Z",
    "fuente": "CNBC",
    "id": "13cbaba33a",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Tech giants race to get AI gadgets on shelves for holiday rush",
+   "link": "https://www.cnbc.com/2026/10/14/tech-giants-race-to-get-ai-gadgets-on-shelves-for-holiday-rush.html",
+   "ts": "2026-10-14T11:00:01Z",
+   "fuente": "CNBC",
+   "id": "669871e330",
    "activos": [],
    "impacto": "bajo"
   },
@@ -6669,15 +6678,6 @@
    "impacto": "bajo",
    "es": "Lo que los alcistas de ASMPT acertaron antes de un salto del 97%",
    "efecto": "Movimiento corporativo aislado, irrelevante para la tendencia general del índice."
-  },
-  {
-   "titulo": "'Godzilla El Niño' is wreaking havoc with Philippine central bank's inflation forecasts",
-   "link": "https://www.cnbc.com/2026/10/14/godzilla-el-nino-asia-inflation-philippines.html",
-   "ts": "2026-10-14T04:24:28Z",
-   "fuente": "CNBC",
-   "id": "55f6e7afa4",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -7222,14 +7222,21 @@
     4166.6,
     4168.8,
     4160.4,
-    4162.5
+    4163.5
    ],
    [
-    1791975452,
-    4163.0,
-    4163.0,
-    4163.0,
-    4163.0
+    1791975600,
+    4163.4,
+    4164.3,
+    4160.5,
+    4160.5
+   ],
+   [
+    1791975758,
+    4162.2,
+    4162.2,
+    4162.2,
+    4162.2
    ]
   ],
   "nq": [
@@ -7763,14 +7770,21 @@
     30794.25,
     30805.0,
     30748.0,
-    30752.75
+    30758.0
    ],
    [
-    1791975449,
-    30753.25,
-    30753.25,
-    30753.25,
-    30753.25
+    1791975600,
+    30754.75,
+    30756.75,
+    30719.75,
+    30722.0
+   ],
+   [
+    1791975759,
+    30724.75,
+    30724.75,
+    30724.75,
+    30724.75
    ]
   ],
   "vix": [
@@ -8192,10 +8206,10 @@
     15.19,
     15.33,
     15.19,
-    15.32
+    15.33
    ],
    [
-    1791975151,
+    1791975451,
     15.33,
     15.33,
     15.33,
