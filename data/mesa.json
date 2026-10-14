@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T13:02:35Z",
-   "ultimo_resultado": "Estrategia 4H ORO: VENTA en el nivel 4129.2 · stop 4143.79 · objetivo 4091.2 · R:R 2.6 (en retesteo). Tú ejecutas."
+   "actualizado": "2026-10-14T13:02:39Z",
+   "ultimo_resultado": "Estrategia 4H ORO: VENTA: esperar retesteo de 4178.1 · stop 4192.69 · objetivo 4107.2 · R:R 4.86 (esperando retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H ORO: VENTA: esperar retesteo de 4178.1 · stop 4192.69 · objetivo 4107.2 · R:R 4.86 (esperando retesteo). Tú ejecutas.",
+   "ts": "2026-10-14T13:02:39Z"
+  },
   {
    "agente": "liquidez",
    "texto": "Estrategia 4H ORO: VENTA en el nivel 4129.2 · stop 4143.79 · objetivo 4091.2 · R:R 2.6 (en retesteo). Tú ejecutas.",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4179.1 · NQ 30768.0 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
    "ts": "2026-10-13T23:52:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4179.5 · NQ 30769.5 · VIX 15.27 · 15 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-13T23:47:38Z"
   }
  ],
  "briefs": [
@@ -8549,7 +8549,8 @@
   "nq|VENTA|30792.0|en retesteo",
   "oro|COMPRA|4166.8|en retesteo",
   "oro|VENTA|4173.7|esperando retesteo",
-  "oro|VENTA|4129.2|en retesteo"
+  "oro|VENTA|4129.2|en retesteo",
+  "oro|VENTA|4178.1|esperando retesteo"
  ],
  "alpha_ordenes": []
 }
