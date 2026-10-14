@@ -3044,10 +3044,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ultimo_resultado": "3 negocios nuevos de restaurantes y comida cerca de Decatur Blvd",
-   "actualizado": "2026-10-14T21:06:20Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
+   "actualizado": "2026-10-14T21:06:26Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -3075,6 +3075,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
+   "ts": "2026-10-14T21:06:26Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -4569,11 +4574,6 @@
    "agente": "disenador",
    "texto": "Muestra lista de Friendly Bear Car Wash y su mensaje para mandar por texto.",
    "ts": "2026-10-12T15:27:53Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Armando la muestra de Friendly Bear Car Wash…",
-   "ts": "2026-10-12T15:27:39Z"
   }
  ],
  "reportes": {
