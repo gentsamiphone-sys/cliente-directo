@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4172.0 · NQ 30811.5 · VIX 15.27 · 13 noticias nuevas (6 alto impacto)",
-   "actualizado": "2026-10-14T12:27:39Z"
+   "ultimo_resultado": "Oro 4171.9 · NQ 30798.75 · VIX 15.3 · 15 noticias nuevas (7 alto impacto)",
+   "actualizado": "2026-10-14T12:32:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T12:27:38Z",
-   "ultimo_resultado": "13 titulares nuevos, 6 de alto impacto: Scott Bessent's growth plans aren't enough to tame surging deficit and debt pile, IMF chief says"
+   "actualizado": "2026-10-14T12:32:34Z",
+   "ultimo_resultado": "15 titulares nuevos, 7 de alto impacto: Consumer prices rose 0.6% in September, putting annual inflation rate at 3.7%"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4171.9 · NQ 30798.75 · VIX 15.3 · 15 noticias nuevas (7 alto impacto)",
+   "ts": "2026-10-14T12:32:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4172.0 · NQ 30811.5 · VIX 15.27 · 13 noticias nuevas (6 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Brief de Asia (Tokio/Sídney) publicado: Sesgo alcista institucional con postura defensiva y sin entradas por datos de inflación y ATR.",
    "ts": "2026-10-13T21:33:45Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Escribiendo el brief institucional…",
-   "ts": "2026-10-13T21:33:18Z"
   }
  ],
  "briefs": [
@@ -5840,18 +5840,38 @@
   }
  },
  "en_vivo": {
-  "oro": 4172.0,
-  "nq": 30811.5,
-  "vix": 15.27,
-  "ts": "2026-10-14T12:27:38Z"
+  "oro": 4171.9,
+  "nq": 30798.75,
+  "vix": 15.3,
+  "ts": "2026-10-14T12:32:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Consumer prices rose 0.6% in September, putting annual inflation rate at 3.7%",
+   "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html",
+   "ts": "2026-10-14T12:31:19Z",
+   "fuente": "CNBC",
+   "id": "cee00cb7a2",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Bank of America shares drop more than 5% after third-quarter revenue miss and regulatory penalty",
    "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
    "ts": "2026-10-14T12:21:58Z",
    "fuente": "CNBC",
    "id": "d00087520b",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Hycroft Mining (HYMC) Stock Looks Above Fair Value On Its 494% Run",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/hycroft-mining-hymc-stock-looks-121457629.html?.tsrc=rss",
+   "ts": "2026-10-14T12:14:57Z",
+   "fuente": "Yahoo Finance",
+   "id": "8619b09467",
    "activos": [],
    "impacto": "bajo"
   },
@@ -6141,6 +6161,15 @@
     "oro"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Zacks Industry Outlook Highlights Fresnillo, Pan American Silver and Hecla Mining",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/zacks-industry-outlook-highlights-fresnillo-111000885.html?.tsrc=rss",
+   "ts": "2026-10-14T11:10:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "1a7efdcf32",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Hycroft Mining Holding (HYMC) Hits Record Drill Results On Questions Over Whether Value Is Already Priced In",
@@ -6656,38 +6685,6 @@
    "ts": "2026-10-14T09:13:01Z",
    "fuente": "Yahoo Finance",
    "id": "80388b4885",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "3 Exporter Stocks That Could Gain From A Weaker Dollar",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/3-exporter-stocks-could-gain-091233464.html?.tsrc=rss",
-   "ts": "2026-10-14T09:12:33Z",
-   "fuente": "Yahoo Finance",
-   "id": "4340abc1a6",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure",
-   "link": "https://www.cnbc.com/2026/10/14/russia-ukraine-energy-ceasefire-power-outages.html",
-   "ts": "2026-10-14T09:09:02Z",
-   "fuente": "CNBC",
-   "id": "30b33f70e1",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Tudor Gold Expands Treaty Creek's Perfectstorm Zone Copper-Gold Porphyry System, Further Defines Higher-Grade Epithermal Overprint and Updates Status of PEA",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/tudor-gold-expands-treaty-creeks-090000446.html?.tsrc=rss",
-   "ts": "2026-10-14T09:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "a276fb0677",
    "activos": [
     "oro"
    ],
@@ -7254,14 +7251,14 @@
     4161.8,
     4175.9,
     4161.5,
-    4173.3
+    4175.4
    ],
    [
-    1791980254,
-    4171.4,
-    4171.4,
-    4171.4,
-    4171.4
+    1791980551,
+    4171.9,
+    4171.9,
+    4171.9,
+    4171.9
    ]
   ],
   "nq": [
@@ -7807,16 +7804,16 @@
    [
     1791979200,
     30762.75,
-    30815.5,
+    30817.0,
     30758.75,
-    30811.0
+    30793.75
    ],
    [
-    1791980256,
-    30811.5,
-    30811.5,
-    30811.5,
-    30811.5
+    1791980552,
+    30798.75,
+    30798.75,
+    30798.75,
+    30798.75
    ]
   ],
   "vix": [
@@ -8252,55 +8249,43 @@
     15.33,
     15.33,
     15.26,
-    15.28
+    15.29
    ],
    [
-    1791979951,
-    15.27,
-    15.27,
-    15.27,
-    15.27
+    1791980251,
+    15.3,
+    15.3,
+    15.3,
+    15.3
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-14T12:12:35Z",
- "ult_4h": 1791980259.0560272,
+ "ult_4h": 1791981155.2234142,
  "estrategia_4h": {
   "oro": {
-   "precio": 4168.9,
-   "atr_4h": 19.92,
+   "precio": 4171.9,
+   "atr_4h": 20.15,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4154.85,
+     "stop": 4154.71,
      "objetivo": 4242.3,
-     "rr": 6.32,
+     "rr": 6.24,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.65,
+     "fuerza_ruptura_atr": 1.64,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30779.25,
-   "atr_4h": 145.64,
-   "setups": [
-    {
-     "direccion": "VENTA",
-     "nivel": 30957.5,
-     "entrada": 30957.5,
-     "stop": 31044.89,
-     "objetivo": 30591.25,
-     "rr": 4.19,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.95,
-     "ruptura": "2026-10-12 16:00 UTC"
-    }
-   ]
+   "precio": 30798.75,
+   "atr_4h": 147.23,
+   "setups": []
   },
-  "ts": "2026-10-14T12:17:39Z"
+  "ts": "2026-10-14T12:32:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
