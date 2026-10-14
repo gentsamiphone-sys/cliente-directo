@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4190.5 · NQ 30868.75 · VIX 15.27 · 12 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-14T03:12:32Z"
+   "ultimo_resultado": "Oro 4187.3 · NQ 30869.5 · VIX 15.27 · 15 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-14T03:17:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T03:12:31Z",
-   "ultimo_resultado": "12 titulares nuevos, 2 de alto impacto: Gold: If Wars Can't Spark a Rally, What Will?"
+   "actualizado": "2026-10-14T03:17:34Z",
+   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: China's producer prices rise at fastest pace since June 2022, beating expectations"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4187.3 · NQ 30869.5 · VIX 15.27 · 15 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-14T03:17:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4190.5 · NQ 30868.75 · VIX 15.27 · 12 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Intento 2/3: no pude escribir el brief (Gemini no respondió: gemini-flash-lite-latest: 503; gemini-3.5-flash: ).",
    "ts": "2026-10-13T12:40:19Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Reintento en 5 minutos…",
-   "ts": "2026-10-13T12:34:52Z"
   }
  ],
  "briefs": [
@@ -5645,12 +5645,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4190.5,
-  "nq": 30868.75,
+  "oro": 4187.3,
+  "nq": 30869.5,
   "vix": 15.27,
-  "ts": "2026-10-14T03:12:31Z"
+  "ts": "2026-10-14T03:17:34Z"
  },
  "noticias": [
+  {
+   "titulo": "China's producer prices rise at fastest pace since June 2022, beating expectations",
+   "link": "https://www.cnbc.com/2026/10/14/producer-prices-in-china-rise-fastest-since-june-2022-on-fuel-costs.html",
+   "ts": "2026-10-14T03:14:48Z",
+   "fuente": "CNBC",
+   "id": "27f3145f73",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold prices hold firm ahead of US inflation data",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZkM3NGdUajlORC1ZZjBNcFZtNjYwa2JRaFczS1V4OVRORGhzZG1NUGxaY3ppRjdfQlFvUmREakJQM1RGaDNZZmZFMnJrY2Rtemc2Z1dBY1pPRy1ZbnBJVzNfTG1MMGJ5TXY5VzFpaDd6UENqd1pUOVdlTm1sS241QkFzNm1kdDJXTjl5emhLV200WUI1QVh4RQ?oc=5",
+   "ts": "2026-10-14T03:12:00Z",
+   "fuente": "Reuters",
+   "id": "64fca91b8a",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "China's exports and imports surge past expectations in September",
    "link": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html",
@@ -5788,6 +5808,17 @@
    "efecto": "Impulsa al NQ al alza por apetito de riesgo tecnológico."
   },
   {
+   "titulo": "U.S., European Bond Yields Rise",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeHhVOE91SFdPWGdUVzQxTkZFbUZmc2FoSTAwRHZGR1FKMUNFeGl1eENZRThsUTllZ3VQNDNFeWl4cFp6UEFmZzFVMDNSbkhCLVR1NC1DaWJ4ckdRbDZySjI2VmwwUWlTUHJYbnl2a1REc0tzeEo5aVlmN2RqWnp5T0xLeGg3MXlOQ2ZuUFpRZGVSdktqZEdPMG1qNlQ0Z0w3dmc?oc=5",
+   "ts": "2026-10-13T23:57:05Z",
+   "fuente": "WSJ",
+   "id": "f2618d9f9c",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Wednesday's big stock stories: What’s likely to move the market in the next trading session",
    "link": "https://www.cnbc.com/2026/10/13/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
    "ts": "2026-10-13T23:52:56Z",
@@ -5851,6 +5882,17 @@
    "ts": "2026-10-13T23:05:12Z",
    "fuente": "CNBC",
    "id": "545b864b5b",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "ACADEMY ANNOUNCES RECIPIENTS OF 2026 GOLD FELLOWSHIP FOR WOMEN",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQR21Nbk5CZkdjSmdZVER1d0RaV0ZncndXWG14TDJmVUFuWGN0QkFoN0JFcHdKZjRyNlEtak40LVp6UjBmVnRrTnVGcXg4UkNUMlBEZUpDTkFKVU5QYkEzNHBVLWtLVkV1c1oyMU4xb2Y3SmUyRVZPWWwtQlZKUzZhd04wcWVHT19aYkhWUUFR?oc=5",
+   "ts": "2026-10-13T23:03:45Z",
+   "fuente": "Academy Press Office",
+   "id": "ff9ab48792",
    "activos": [
     "oro"
    ],
@@ -6418,46 +6460,6 @@
    "ts": "2026-10-13T18:38:28Z",
    "fuente": "CNBC",
    "id": "6b9a671a30",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "From Tariffs to Broken Supply Chains, Small Business Owners under Siege",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcFNpdmFIcGVZY25BVlZqOUl2c2xXdzV5OGxrNk44OUpnWHREM0VSLTdTUV90cmZjVjNFQnhVNGNLRGd6WnFzM09xc3AwV2FNdzBCampBUDRHNi1VemFUMW13bEMxSlJVLU4wdUszbk9yQnBRMy01ODl0VmQxYlF0QkdJY2o5dWI5TDlPVWNOeFdBU0IzV2plbUExc28yQ0U5QW9qMzFn?oc=5",
-   "ts": "2026-10-13T18:35:06Z",
-   "fuente": "National Press Foundation",
-   "id": "990472412a",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Olympic gold medalist Amber Glenn to visit CU Boulder—rescheduled for Nov. 30",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTXRXejJ6Z3lxQVpzc1VlVE1XaEpORXRheXdlcW91ZUtoYk5jaWd1UE9BNTZHQmJGN3JuMGNnZ0piaFkwWmFhNlVDTGcxRWxMOXkyLUM2cE5HRmQ3Tm56RjRwTUwtLVpuTFMwVWdMc0kzdERJMGVLcVlwcGxqTmtEMm1EWGFQdDhTT2dUaUU4aWxQZENRLUpaSjJFcldwc2tWUEZnUTQ1WnFDTl95cVExYw?oc=5",
-   "ts": "2026-10-13T18:34:40Z",
-   "fuente": "University of Colorado Boulder",
-   "id": "f18fb3f59c",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Airport attacks put aviation in crosshairs of geopolitical conflicts",
-   "link": "https://www.cnbc.com/2026/10/13/riyadh-airport-attacks-aviation.html",
-   "ts": "2026-10-13T18:33:42Z",
-   "fuente": "CNBC",
-   "id": "7b33df2926",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "S&P 500 is little changed as traders mull over bank earnings; chip stocks slide: Live updates",
-   "link": "https://www.cnbc.com/2026/10/12/stock-market-today-live-updates.html",
-   "ts": "2026-10-13T18:31:30Z",
-   "fuente": "CNBC",
-   "id": "8d1f82d939",
    "activos": [
     "nq"
    ],
@@ -7089,15 +7091,15 @@
     1791946800,
     4191.3,
     4191.3,
-    4189.2,
-    4190.1
+    4186.0,
+    4187.5
    ],
    [
-    1791946948,
-    4190.5,
-    4190.5,
-    4190.5,
-    4190.5
+    1791947249,
+    4187.3,
+    4187.3,
+    4187.3,
+    4187.3
    ]
   ],
   "nq": [
@@ -7721,15 +7723,15 @@
     1791946800,
     30873.0,
     30874.25,
-    30865.75,
-    30868.5
+    30864.5,
+    30871.75
    ],
    [
-    1791946951,
-    30868.75,
-    30868.75,
-    30868.75,
-    30868.75
+    1791947248,
+    30869.5,
+    30869.5,
+    30869.5,
+    30869.5
    ]
   ],
   "vix": [
@@ -8233,27 +8235,27 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-14T02:57:33Z",
- "ult_4h": 1791946956.6068406,
+ "ult_4h": 1791947854.3168037,
  "estrategia_4h": {
   "oro": {
-   "precio": 4186.9,
-   "atr_4h": 20.45,
+   "precio": 4187.3,
+   "atr_4h": 20.6,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4154.53,
+     "stop": 4154.44,
      "objetivo": 4242.3,
-     "rr": 6.15,
+     "rr": 6.11,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.6,
+     "fuerza_ruptura_atr": 1.59,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30873.5,
+   "precio": 30869.5,
    "atr_4h": 146.75,
    "setups": [
     {
@@ -8269,7 +8271,7 @@
     }
    ]
   },
-  "ts": "2026-10-14T03:02:36Z"
+  "ts": "2026-10-14T03:17:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
