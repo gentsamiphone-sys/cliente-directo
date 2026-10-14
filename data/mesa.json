@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4161.9 · NQ 30745.75 · VIX 15.35 · 12 noticias nuevas (4 alto impacto)",
-   "actualizado": "2026-10-14T12:07:31Z"
+   "ultimo_resultado": "Oro 4165.2 · NQ 30781.25 · VIX 15.38 · 15 noticias nuevas (4 alto impacto)",
+   "actualizado": "2026-10-14T12:12:40Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T12:07:31Z",
-   "ultimo_resultado": "12 titulares nuevos, 4 de alto impacto: Bank of America shares drop more than 4% after third-quarter revenue miss and regulatory penalty"
+   "actualizado": "2026-10-14T12:12:40Z",
+   "ultimo_resultado": "15 titulares nuevos, 4 de alto impacto: Principales recomendaciones de analistas: Nvidia, Apple, Meta y más"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4165.2 · NQ 30781.25 · VIX 15.38 · 15 noticias nuevas (4 alto impacto)",
+   "ts": "2026-10-14T12:12:40Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4161.9 · NQ 30745.75 · VIX 15.35 · 12 noticias nuevas (4 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "ES/NQ: CONFIRMA: ES y NQ van en la misma dirección · ES alcista en 1H",
    "ts": "2026-10-13T21:33:13Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el S&P 500 (ES) con el NQ…",
-   "ts": "2026-10-13T21:33:11Z"
   }
  ],
  "briefs": [
@@ -5840,12 +5840,36 @@
   }
  },
  "en_vivo": {
-  "oro": 4161.9,
-  "nq": 30745.75,
-  "vix": 15.35,
-  "ts": "2026-10-14T12:07:31Z"
+  "oro": 4165.2,
+  "nq": 30781.25,
+  "vix": 15.38,
+  "ts": "2026-10-14T12:12:40Z"
  },
  "noticias": [
+  {
+   "titulo": "Here are Wednesday's biggest analyst calls: SpaceX, Nvidia, Apple, Meta, Brinker, Kontoor Brands & more",
+   "link": "https://www.cnbc.com/2026/10/14/wednesday-top-analyst-calls-on-wall-street-like-spacex.html",
+   "ts": "2026-10-14T12:09:41Z",
+   "fuente": "CNBC",
+   "id": "9c8f177f24",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Principales recomendaciones de analistas: Nvidia, Apple, Meta y más",
+   "efecto": "Impulsa al NQ al alza por compras en grandes tecnológicas."
+  },
+  {
+   "titulo": "'Office' is actually having a scarcity problem",
+   "link": "https://www.cnbc.com/2026/10/14/office-is-actually-having-a-scarcity-problem.html",
+   "ts": "2026-10-14T12:08:13Z",
+   "fuente": "CNBC",
+   "id": "1bac66c53c",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "El mercado de oficinas enfrenta un problema real de escasez",
+   "efecto": "Sin efecto relevante en los activos principales."
+  },
   {
    "titulo": "Bank of America shares drop more than 4% after third-quarter revenue miss and regulatory penalty",
    "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
@@ -5854,6 +5878,19 @@
    "id": "657825cf13",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Blue Gold Completes Beta Platform, Advances U.S. Gold-Based Financial Services Strategy",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/blue-gold-completes-beta-platform-120000115.html?.tsrc=rss",
+   "ts": "2026-10-14T12:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "df43b509d9",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Blue Gold completa plataforma beta y avanza en servicios financieros en oro",
+   "efecto": "Ruido corporativo menor sin impacto institucional."
   },
   {
    "titulo": "BlackRock draws $205 billion in client funds as quarterly profit beats estimates",
@@ -6659,39 +6696,14 @@
    "id": "5cbecfb17d",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Scott Bessent's growth plans aren't enough to tame surging deficit and debt pile, IMF chief says",
-   "link": "https://www.cnbc.com/2026/10/14/bond-yields-debt-deficit-treasury.html",
-   "ts": "2026-10-14T08:53:35Z",
-   "fuente": "CNBC",
-   "id": "eb8796a473",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Dow Futures Rise, Nasdaq Subdued Premarket Ahead Of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdWM3a2gxTTdFdG04OW9QRlhGTU81a19ZN0Nsb3dIcnhvTTFGOGMxY0JRSjZ3SXdjeDdlcndIcTZCVmhJV1lwZENXb2xDenlaRG9lV2hGSmNmX0J6bUlEdkVWMXFUOWp5SzQxVEpzVVJ6NlpxeDVoWVhVNHgxaFFZUHJ1aVVFWjhjbGtJUXNoS1JtVEFWc0ctVGFGWjk?oc=5",
-   "ts": "2026-10-14T08:51:40Z",
-   "fuente": "Yahoo Finance",
-   "id": "92b23cddd9",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Canadian official says Europe erred on Trump tariffs",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaW5jM0tmMGRTUksyYW12RTYxUTB0dlBXY19mb3hod01wc1h1WGNSZDNsREhYVlJFZmtMUF9lTUYydjNCWldPTEdyNEFoWF85Ykx6WmZUVmFsdm43MnFSSDN6T3oxd1VTN0NiTWlQYTFUenBDR2g0Vzc2eXFlN2d4TjRYTGFCSldKeG1WLXh0bm9ZUU5uT0FQZjUzNA?oc=5",
-   "ts": "2026-10-14T08:51:13Z",
-   "fuente": "Yahoo",
-   "id": "c3a64fedbd",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
-  "FOMC Meeting Minutes2026-10-07T14:00:00-04:00"
+  "FOMC Meeting Minutes2026-10-07T14:00:00-04:00",
+  "Core CPI m/m2026-10-14T08:30:00-04:00",
+  "Core CPI y/y2026-10-14T08:30:00-04:00",
+  "CPI m/m2026-10-14T08:30:00-04:00",
+  "CPI y/y2026-10-14T08:30:00-04:00"
  ],
  "velas": {
   "oro": [
@@ -7239,14 +7251,21 @@
     4163.4,
     4165.9,
     4158.0,
-    4163.0
+    4161.5
    ],
    [
-    1791979050,
-    4161.9,
-    4161.9,
-    4161.9,
-    4161.9
+    1791979200,
+    4161.8,
+    4166.1,
+    4161.5,
+    4166.0
+   ],
+   [
+    1791979358,
+    4165.2,
+    4165.2,
+    4165.2,
+    4165.2
    ]
   ],
   "nq": [
@@ -7785,16 +7804,23 @@
    [
     1791975600,
     30756.5,
-    30765.75,
+    30769.0,
     30716.0,
-    30753.0
+    30762.25
    ],
    [
-    1791979047,
-    30745.75,
-    30745.75,
-    30745.75,
-    30745.75
+    1791979200,
+    30762.75,
+    30789.5,
+    30758.75,
+    30788.75
+   ],
+   [
+    1791979358,
+    30781.25,
+    30781.25,
+    30781.25,
+    30781.25
    ]
   ],
   "vix": [
@@ -8221,20 +8247,20 @@
    [
     1791975600,
     15.32,
-    15.37,
+    15.38,
     15.29,
-    15.36
+    15.38
    ],
    [
-    1791978736,
-    15.35,
-    15.35,
-    15.35,
-    15.35
+    1791979051,
+    15.38,
+    15.38,
+    15.38,
+    15.38
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-14T11:37:33Z",
+ "noticias_traducidas_ts": "2026-10-14T12:12:35Z",
  "ult_4h": 1791979352.1226432,
  "estrategia_4h": {
   "oro": {
