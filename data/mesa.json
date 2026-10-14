@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4162.9 · NQ 30781.75 · VIX 15.22 · 11 noticias nuevas (4 alto impacto)",
-   "actualizado": "2026-10-14T10:37:34Z"
+   "ultimo_resultado": "Oro 4164.1 · NQ 30780.25 · VIX 15.23 · 11 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-14T10:42:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T10:37:34Z",
-   "ultimo_resultado": "11 titulares nuevos, 4 de alto impacto: Canadá registra un aumento récord de exportaciones a EE.UU. antes de los aranceles de agosto"
+   "actualizado": "2026-10-14T10:42:32Z",
+   "ultimo_resultado": "11 titulares nuevos, 2 de alto impacto: Republican Candidates Break with Trump on Tariffs: News Article"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4164.1 · NQ 30780.25 · VIX 15.23 · 11 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-14T10:42:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4162.9 · NQ 30781.75 · VIX 15.22 · 11 noticias nuevas (4 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "15 titulares nuevos, 1 de alto impacto: Stock Market Today, Oct. 13: Markets Edge Lower as Earnings Season Kicks Off",
    "ts": "2026-10-13T21:17:40Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "15 titulares nuevos, 1 de alto impacto: Dollar Pressured by Lower Crude Prices",
-   "ts": "2026-10-13T21:12:34Z"
   }
  ],
  "briefs": [
@@ -5840,12 +5840,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4162.9,
-  "nq": 30781.75,
-  "vix": 15.22,
-  "ts": "2026-10-14T10:37:34Z"
+  "oro": 4164.1,
+  "nq": 30780.25,
+  "vix": 15.23,
+  "ts": "2026-10-14T10:42:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Republican Candidates Break with Trump on Tariffs: News Article",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQalVSYW1MX1pxMHlJRUhvOVRfVmFyaWJIeGU0eFptakNrQmlRTVZrdmh0d0d1RHY5SW9MN3ZOXzJkc3YxSThKSTZwVGNXM3dLbVl1cjlXLXRjOGlLdHNuS29wMl8zUkZXYjc5OTlrZzZZdzlPM3lRRXp0WnVGNDhyaEd0cHZrRkpsLWN3?oc=5",
+   "ts": "2026-10-14T10:41:14Z",
+   "fuente": "Independent Institute",
+   "id": "7d4a147b95",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Aurania concludes drilling at Thormódsdalur gold-silver site",
+   "link": "https://www.mining-technology.com/news/aurania-finishes-drilling-thormodsdalur-site/?.tsrc=rss",
+   "ts": "2026-10-14T10:39:25Z",
+   "fuente": "Yahoo Finance",
+   "id": "aa97febca3",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Canada sees record surge in U.S. exports ahead of new tariffs in August",
    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOajA3ck4tVmFKeWxkQ2VVaEIwbU1oS29jb2Q2cXZiTXdKT1NxZ0c0Q21OdUFrQnBjSmJPb2pYX29RblMtTmRSb2xuYTQ2MXRNSVdYbGJCZzhNSzhRbm16NFBsQW1FOVExRUZzT0txWEIzaVNvNFl4SXRLU19iOVNsSEhDZjZxVmpLaXBUOXNjdTBDOWhXZnlWcUcyRGJEYVlmU29uMEtMUUxHZzJRaExFbDIwMEdKS2VQelVWaG1jVG5qaExfWW9FWkZVYzA?oc=5",
@@ -5871,6 +5891,24 @@
    "impacto": "bajo",
    "es": "Los aranceles de Trump y la guerra con Irán pesan en la carrera senatorial de Míchigan",
    "efecto": "Ruido político interno sin impacto directo e inmediato en la sesión."
+  },
+  {
+   "titulo": "Tiernan Continues to Advance Volcan Pre-Feasibility Study and Initiates Environmental Baseline Program",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/tiernan-continues-advance-volcan-pre-103000502.html?.tsrc=rss",
+   "ts": "2026-10-14T10:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "10b1a1de5a",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Silverco Mining Intercepts 1,280 g/t Silver over 3.35 Metres True Width at Its 100%-Owned Cusi Mine in Chihuahua, Mexico",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/silverco-mining-intercepts-1-280-103000231.html?.tsrc=rss",
+   "ts": "2026-10-14T10:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "d14a73433c",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "GoldMining Appoints Project Director to Lead Next Phase of Advancement of the São Jorge Gold Project, Brazil",
@@ -5940,6 +5978,15 @@
    "ts": "2026-10-14T10:15:01Z",
    "fuente": "CNBC",
    "id": "c7c6ddb1de",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Does Hycroft Mining’s Record HYMC Intercept Hint At A Deeper Shift In Its Resource Narrative?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/does-hycroft-mining-record-hymc-101147113.html?.tsrc=rss",
+   "ts": "2026-10-14T10:11:47Z",
+   "fuente": "Yahoo Finance",
+   "id": "41dd4cf995",
    "activos": [],
    "impacto": "bajo"
   },
@@ -6236,6 +6283,15 @@
    "impacto": "alto",
    "es": "El dólar cae mientras los rendimientos de los bonos del Tesoro bajan",
    "efecto": "Debilidad del dólar y caída de tasas impulsan al oro y al NQ."
+  },
+  {
+   "titulo": "Trump's 50% tariffs on Canada take effect as Carney vows to retaliate - ABC News",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeDdPQV9hVEo4eEFTSlhrVkowRE9mVVlJQzJkZTJnOG1TTUl1ZWYtNG1CcWk2MWlmZG51eVd2S0NJT0pWeHphblVQWThQMTc2OVhDd3VQQXZRU0gteVYtQlkxa29fcVpVV3VKSkl6NVdRTWhvT0E5X3VfVVI0UlVVdnhoUERGMFpxWVR1YXFiSENWQ2lTUTFNLTBEcU1ObHlfTW9OZ01VcmLSAa4BQVVfeXFMT0NxQThhZzl5Q29YNEt0Nl9FV3NrYzRMa1JXX0Vmd2pROGhvVHM3TFJ5NGRrOWVnY0FCOS1LM25MdVdINW8tNjZSS2NDSmhZbUZ4cFdOMWU4N1RObVVpNG43YTJRelY2R21VRDVjcm51cVk0b0ZISVdmNWFFcTdVOFJRdEZLamtrZXg0eER4cW9RbEt2R0lONGxjSXpYZ3RZbXRxbk9iaWdmREw0YVZB?oc=5",
+   "ts": "2026-10-14T08:17:36Z",
+   "fuente": "Breaking News, Latest News and Videos",
+   "id": "41a6b4490e",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "=+!🛌💦viral!+kand!) viral video gold medalist",
@@ -6619,69 +6675,6 @@
     "oro"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "China's exports and imports surge past expectations in September",
-   "link": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html",
-   "ts": "2026-10-14T02:48:43Z",
-   "fuente": "CNBC",
-   "id": "79da45b552",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Bank of America sees a buyer problem for gold",
-   "link": "https://www.thestreet.com/investing/bank-of-america-sees-a-buyer-problem-for-gold?.tsrc=rss",
-   "ts": "2026-10-14T02:33:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "8470572d16",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Dow, S&P 500, Nasdaq Futures Mixed Amid Rising Oil Prices Ahead Of CPI Data: BAC, RIVN, SLS, GME Stocks In Focus",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcE5WMVZ6bll2cHkwZGFOaXg1TWpKNU1PSFR6N0t3Q2pZLUdnTzRnMWZjRkxYbWMwQTdGSHMxdEtjdzBXNlRhQzcyRHZvTkpja3NzZ3M3SFpNblU1TnNqUzFIU2lud3BLN3EyYmQxM0JpTHM3dG1VRFB3cnFMZmZ6SVlLenhIdjBmcjJJdnZzcDR0dDg?oc=5",
-   "ts": "2026-10-14T02:31:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "455a1cf051",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Gold holds two-day slide as Fed signals one more hike, U.S. CPI in focus",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5CNDVpcU9UVFhMNjNub0Jpa0o5OEh3a0QxUUk1Q2xtNDZmeXFWdjdueWc0UnB1eVg2TjE2enRfQnk4OUp6QVJ0bUN1WUZOenRFbm1uSmY3d21VYXdzbTFLMHZjbGw0VnpOTnlLVC1KYTB3Y1dKTDE2Q24xS0piQQ?oc=5",
-   "ts": "2026-10-14T02:13:00Z",
-   "fuente": "Yahoo Finance Singapore",
-   "id": "105f9ec066",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El oro frena su caída mientras la Fed señala otra subida y la atención se centra en el IPC de EE. UU.",
-   "efecto": "Genera volatilidad en el oro por expectativas de tasas y datos de inflación."
-  },
-  {
-   "titulo": "Taiwan agrees to buy 30% of gas from Alaska LNG project, Trump says",
-   "link": "https://www.cnbc.com/2026/10/14/taiwan-alaska-lng-project-trump-.html",
-   "ts": "2026-10-14T02:09:00Z",
-   "fuente": "CNBC",
-   "id": "4c2cc71855",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "South Korean carmaker Hyundai plans 'strategic' investment of $15.5 billion in India by 2032",
-   "link": "https://www.cnbc.com/2026/10/14/korea-india-hyundai-cars-investment.html",
-   "ts": "2026-10-14T02:04:47Z",
-   "fuente": "CNBC",
-   "id": "fdbc54e72d",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -6691,7 +6684,7 @@
   "oro": [
    [
     1791518400,
-    4202.1,
+    4202.3,
     4210.2,
     4201.3,
     4206.4
@@ -6705,14 +6698,14 @@
    ],
    [
     1791525600,
-    4218.2,
+    4218.4,
     4224.0,
     4213.5,
-    4220.5
+    4220.6
    ],
    [
     1791529200,
-    4220.6,
+    4220.8,
     4222.8,
     4214.2,
     4219.2
@@ -6740,7 +6733,7 @@
    ],
    [
     1791543600,
-    4204.0,
+    4204.1,
     4211.0,
     4199.2,
     4207.7
@@ -6754,7 +6747,7 @@
    ],
    [
     1791550800,
-    4200.4,
+    4200.2,
     4221.7,
     4199.2,
     4215.2
@@ -6775,14 +6768,14 @@
    ],
    [
     1791561600,
-    4213.1,
+    4213.6,
     4218.9,
     4209.9,
     4215.9
    ],
    [
     1791565200,
-    4216.2,
+    4215.9,
     4223.0,
     4212.2,
     4220.7
@@ -6792,7 +6785,7 @@
     4220.8,
     4227.8,
     4217.7,
-    4224.5
+    4224.2
    ],
    [
     1791572400,
@@ -6803,7 +6796,7 @@
    ],
    [
     1791576000,
-    4220.2,
+    4220.0,
     4222.6,
     4216.3,
     4216.3
@@ -6831,7 +6824,7 @@
    ],
    [
     1791766800,
-    4234.4,
+    4234.2,
     4242.3,
     4224.2,
     4236.0
@@ -6859,28 +6852,28 @@
    ],
    [
     1791781200,
-    4218.4,
+    4218.5,
     4219.8,
     4202.9,
     4215.2
    ],
    [
     1791784800,
-    4215.4,
+    4215.3,
     4217.0,
     4205.1,
     4209.8
    ],
    [
     1791788400,
-    4209.8,
+    4209.9,
     4212.3,
     4203.6,
     4204.9
    ],
    [
     1791792000,
-    4204.5,
+    4204.9,
     4205.7,
     4196.7,
     4197.7
@@ -6890,7 +6883,7 @@
     4198.0,
     4202.5,
     4192.5,
-    4197.5
+    4197.3
    ],
    [
     1791799200,
@@ -6908,21 +6901,21 @@
    ],
    [
     1791806400,
-    4192.7,
+    4192.8,
     4197.4,
     4178.1,
-    4188.9
+    4188.8
    ],
    [
     1791810000,
-    4189.2,
+    4189.0,
     4199.3,
     4186.5,
     4195.2
    ],
    [
     1791813600,
-    4196.0,
+    4195.4,
     4199.3,
     4182.5,
     4187.9
@@ -6936,7 +6929,7 @@
    ],
    [
     1791820800,
-    4188.7,
+    4188.6,
     4190.0,
     4183.5,
     4188.3
@@ -6950,7 +6943,7 @@
    ],
    [
     1791828000,
-    4194.4,
+    4194.7,
     4196.6,
     4190.5,
     4191.7
@@ -6964,14 +6957,14 @@
    ],
    [
     1791835200,
-    4193.8,
+    4193.7,
     4196.3,
     4191.7,
     4195.9
    ],
    [
     1791842400,
-    4195.5,
+    4195.9,
     4201.7,
     4192.6,
     4193.4
@@ -6985,14 +6978,14 @@
    ],
    [
     1791849600,
-    4194.8,
+    4194.5,
     4195.7,
     4177.0,
     4181.5
    ],
    [
     1791853200,
-    4181.6,
+    4181.8,
     4193.4,
     4173.7,
     4188.3
@@ -7002,18 +6995,18 @@
     4188.1,
     4205.0,
     4187.0,
-    4204.1
+    4204.0
    ],
    [
     1791860400,
-    4203.7,
+    4203.8,
     4211.7,
     4199.5,
     4211.1
    ],
    [
     1791864000,
-    4212.4,
+    4212.6,
     4220.7,
     4211.4,
     4219.8
@@ -7027,14 +7020,14 @@
    ],
    [
     1791871200,
-    4216.8,
+    4217.0,
     4217.9,
     4207.7,
     4215.8
    ],
    [
     1791874800,
-    4215.7,
+    4215.5,
     4217.7,
     4207.2,
     4211.5
@@ -7062,14 +7055,14 @@
    ],
    [
     1791889200,
-    4205.4,
+    4205.5,
     4212.6,
     4203.8,
     4209.0
    ],
    [
     1791892800,
-    4209.0,
+    4208.9,
     4214.6,
     4200.8,
     4203.1
@@ -7079,14 +7072,14 @@
     4203.1,
     4213.5,
     4192.2,
-    4192.6
+    4192.7
    ],
    [
     1791900000,
     4192.5,
     4196.9,
     4185.9,
-    4190.4
+    4190.3
    ],
    [
     1791903600,
@@ -7097,7 +7090,7 @@
    ],
    [
     1791907200,
-    4182.3,
+    4182.2,
     4184.3,
     4175.3,
     4175.8
@@ -7114,18 +7107,18 @@
     4171.6,
     4187.5,
     4171.2,
-    4186.5
+    4186.6
    ],
    [
     1791918000,
     4186.3,
     4189.5,
     4184.6,
-    4186.4
+    4186.2
    ],
    [
     1791921600,
-    4185.9,
+    4186.1,
     4186.9,
     4180.3,
     4183.9
@@ -7139,7 +7132,7 @@
    ],
    [
     1791928800,
-    4184.8,
+    4184.9,
     4186.1,
     4182.1,
     4184.5
@@ -7149,18 +7142,18 @@
     4184.5,
     4185.1,
     4177.7,
-    4177.9
+    4178.1
    ],
    [
     1791936000,
-    4177.9,
+    4178.0,
     4186.8,
     4177.2,
     4177.8
    ],
    [
     1791939600,
-    4177.8,
+    4178.0,
     4189.2,
     4167.0,
     4177.6
@@ -7174,7 +7167,7 @@
    ],
    [
     1791946800,
-    4191.3,
+    4191.2,
     4193.5,
     4184.5,
     4185.4
@@ -7188,21 +7181,21 @@
    ],
    [
     1791954000,
-    4188.9,
+    4188.8,
     4189.3,
     4171.1,
     4171.5
    ],
    [
     1791957600,
-    4170.6,
+    4170.5,
     4186.5,
     4168.3,
     4171.0
    ],
    [
     1791961200,
-    4170.6,
+    4170.5,
     4175.2,
     4165.5,
     4172.2
@@ -7226,14 +7219,14 @@
     4166.6,
     4168.8,
     4162.6,
-    4163.8
+    4164.0
    ],
    [
-    1791973651,
-    4162.9,
-    4162.9,
-    4162.9,
-    4162.9
+    1791973943,
+    4164.1,
+    4164.1,
+    4164.1,
+    4164.1
    ]
   ],
   "nq": [
@@ -7260,7 +7253,7 @@
    ],
    [
     1791529200,
-    31189.25,
+    31190.5,
     31238.5,
     31188.25,
     31223.0
@@ -7274,7 +7267,7 @@
    ],
    [
     1791536400,
-    31241.0,
+    31240.0,
     31243.5,
     31209.0,
     31221.5
@@ -7284,7 +7277,7 @@
     31221.0,
     31233.25,
     31178.5,
-    31200.5
+    31200.25
    ],
    [
     1791543600,
@@ -7305,11 +7298,11 @@
     31191.25,
     31223.5,
     30995.5,
-    31036.75
+    31036.25
    ],
    [
     1791554400,
-    31036.5,
+    31038.0,
     31095.25,
     30991.0,
     31081.5
@@ -7323,35 +7316,35 @@
    ],
    [
     1791561600,
-    31063.75,
+    31063.5,
     31122.5,
     31036.25,
-    31086.25
+    31086.75
    ],
    [
     1791565200,
-    31086.75,
+    31086.25,
     31101.25,
     31063.25,
     31095.0
    ],
    [
     1791568800,
-    31095.0,
+    31095.25,
     31145.25,
     31081.5,
     31113.0
    ],
    [
     1791572400,
-    31113.25,
+    31114.0,
     31137.0,
     31087.5,
-    31112.25
+    31112.0
    ],
    [
     1791576000,
-    31112.0,
+    31112.75,
     31139.75,
     31106.5,
     31108.75
@@ -7365,7 +7358,7 @@
    ],
    [
     1791759600,
-    31188.0,
+    31187.5,
     31289.25,
     31183.0,
     31260.25
@@ -7379,7 +7372,7 @@
    ],
    [
     1791766800,
-    31206.25,
+    31206.75,
     31242.5,
     31158.0,
     31222.0
@@ -7428,7 +7421,7 @@
    ],
    [
     1791792000,
-    31188.0,
+    31187.75,
     31194.5,
     31058.25,
     31069.75
@@ -7442,45 +7435,45 @@
    ],
    [
     1791799200,
-    31090.75,
+    31090.0,
     31096.0,
     31039.0,
     31076.75
    ],
    [
     1791802800,
-    31077.0,
+    31077.5,
     31079.75,
     31030.0,
     31058.75
    ],
    [
     1791806400,
-    31058.5,
+    31060.5,
     31089.0,
     31017.25,
     31069.75
    ],
    [
     1791810000,
-    31070.25,
+    31071.75,
     31087.5,
     30936.0,
-    30960.25
+    30960.75
    ],
    [
     1791813600,
-    30961.25,
+    30961.5,
     30974.5,
     30857.25,
-    30918.25
+    30918.75
    ],
    [
     1791817200,
-    30919.75,
+    30921.25,
     30975.0,
     30877.75,
-    30957.5
+    30957.0
    ],
    [
     1791820800,
@@ -7491,28 +7484,28 @@
    ],
    [
     1791824400,
-    30881.75,
+    30881.25,
     30905.0,
     30871.75,
     30877.75
    ],
    [
     1791828000,
-    30877.75,
+    30878.25,
     30892.0,
     30844.25,
-    30850.25
+    30850.75
    ],
    [
     1791831600,
-    30850.0,
+    30850.5,
     30911.0,
     30846.0,
-    30896.5
+    30896.25
    ],
    [
     1791835200,
-    30896.25,
+    30895.75,
     30898.75,
     30870.0,
     30877.5
@@ -7526,7 +7519,7 @@
    ],
    [
     1791846000,
-    30878.75,
+    30878.5,
     30879.0,
     30803.5,
     30811.25
@@ -7547,14 +7540,14 @@
    ],
    [
     1791856800,
-    30665.25,
+    30664.5,
     30679.0,
     30604.75,
     30651.5
    ],
    [
     1791860400,
-    30652.25,
+    30652.75,
     30682.75,
     30613.0,
     30672.5
@@ -7571,25 +7564,25 @@
     30647.0,
     30741.25,
     30642.0,
-    30693.5
+    30693.0
    ],
    [
     1791871200,
-    30693.75,
+    30692.5,
     30694.25,
     30633.25,
     30681.0
    ],
    [
     1791874800,
-    30680.5,
+    30682.0,
     30725.25,
     30628.5,
     30702.25
    ],
    [
     1791878400,
-    30701.5,
+    30702.75,
     30770.25,
     30688.25,
     30751.75
@@ -7603,35 +7596,35 @@
    ],
    [
     1791885600,
-    30762.5,
+    30762.25,
     30763.75,
     30713.0,
     30720.75
    ],
    [
     1791889200,
-    30719.5,
+    30721.0,
     30721.25,
     30654.5,
     30662.5
    ],
    [
     1791892800,
-    30662.0,
+    30661.75,
     30687.5,
     30642.5,
-    30658.5
+    30657.5
    ],
    [
     1791896400,
-    30658.25,
+    30658.0,
     30806.25,
     30591.25,
-    30792.0
+    30792.75
    ],
    [
     1791900000,
-    30792.5,
+    30792.75,
     30814.75,
     30690.25,
     30704.25
@@ -7645,24 +7638,24 @@
    ],
    [
     1791907200,
-    30704.5,
+    30704.25,
     30808.0,
     30700.25,
-    30739.25
+    30740.25
    ],
    [
     1791910800,
-    30740.0,
+    30739.75,
     30750.5,
     30688.0,
     30718.5
    ],
    [
     1791914400,
-    30718.5,
+    30718.75,
     30781.0,
     30709.25,
-    30737.75
+    30738.75
    ],
    [
     1791918000,
@@ -7680,24 +7673,24 @@
    ],
    [
     1791928800,
-    30799.5,
+    30791.5,
     30827.5,
     30767.0,
     30812.25
    ],
    [
     1791932400,
-    30811.75,
+    30810.75,
     30811.75,
     30750.5,
-    30758.0
+    30758.25
    ],
    [
     1791936000,
-    30755.25,
+    30755.0,
     30849.5,
     30744.5,
-    30811.5
+    30812.25
    ],
    [
     1791939600,
@@ -7708,7 +7701,7 @@
    ],
    [
     1791943200,
-    30840.0,
+    30842.25,
     30877.0,
     30836.5,
     30872.5
@@ -7729,21 +7722,21 @@
    ],
    [
     1791954000,
-    30867.75,
+    30868.75,
     30870.5,
     30745.75,
-    30754.25
+    30753.0
    ],
    [
     1791957600,
-    30752.0,
+    30752.5,
     30804.75,
     30705.25,
     30784.0
    ],
    [
     1791961200,
-    30784.25,
+    30783.75,
     30829.25,
     30772.0,
     30811.5
@@ -7757,7 +7750,7 @@
    ],
    [
     1791968400,
-    30778.25,
+    30780.25,
     30808.5,
     30742.25,
     30793.75
@@ -7767,14 +7760,14 @@
     30794.25,
     30805.0,
     30758.25,
-    30788.25
+    30781.25
    ],
    [
-    1791973646,
-    30781.75,
-    30781.75,
-    30781.75,
-    30781.75
+    1791973950,
+    30780.25,
+    30780.25,
+    30780.25,
+    30780.25
    ]
   ],
   "vix": [
@@ -8196,14 +8189,14 @@
     15.19,
     15.25,
     15.19,
-    15.22
+    15.23
    ],
    [
-    1791973351,
-    15.22,
-    15.22,
-    15.22,
-    15.22
+    1791973651,
+    15.23,
+    15.23,
+    15.23,
+    15.23
    ]
   ]
  },
