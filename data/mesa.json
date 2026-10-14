@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4125.1 · NQ 30179.5 · VIX 17.17 · 3 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-14T19:32:37Z"
+   "ultimo_resultado": "Oro 4124.6 · NQ 30185.0 · VIX 16.95 · 2 noticias nuevas",
+   "actualizado": "2026-10-14T19:37:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T19:32:36Z",
-   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: US tariffs hit Brazil's manufacturing hub"
+   "actualizado": "2026-10-14T19:37:37Z",
+   "ultimo_resultado": "2 titulares nuevos: Netflix to lay off roughly 1,000 employees, or 6% of workforce"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4124.6 · NQ 30185.0 · VIX 16.95 · 2 noticias nuevas",
+   "ts": "2026-10-14T19:37:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4125.1 · NQ 30179.5 · VIX 17.17 · 3 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +110,987 contratos.",
    "ts": "2026-10-14T06:32:52Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-10-14T06:32:51Z"
   }
  ],
  "briefs": [
@@ -6090,10 +6090,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4125.1,
-  "nq": 30179.5,
-  "vix": 17.17,
-  "ts": "2026-10-14T19:32:36Z"
+  "oro": 4124.6,
+  "nq": 30185.0,
+  "vix": 16.95,
+  "ts": "2026-10-14T19:37:37Z"
  },
  "noticias": [
   {
@@ -6912,6 +6912,15 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Netflix to lay off roughly 1,000 employees, or 6% of workforce",
+   "link": "https://www.cnbc.com/2026/10/14/netflix-layoffs.html",
+   "ts": "2026-10-14T15:03:59Z",
+   "fuente": "CNBC",
+   "id": "34e8bac964",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "Iran says it’s ‘counting the moments’ until it can strike U.S. warships; Saudi Aramco facilities attacked",
    "link": "https://www.cnbc.com/2026/10/14/us-iran-war-trump-hormuz-saudi.html",
    "ts": "2026-10-14T15:03:35Z",
@@ -6939,15 +6948,6 @@
    "id": "44258708ec",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Here's the inflation breakdown for September 2026 — in one chart",
-   "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
-   "ts": "2026-10-14T14:56:25Z",
-   "fuente": "CNBC",
-   "id": "4993942176",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -7557,16 +7557,16 @@
    [
     1792004400,
     4118.9,
-    4127.0,
+    4127.8,
     4114.5,
-    4125.2
+    4124.2
    ],
    [
-    1792005754,
-    4125.1,
-    4125.1,
-    4125.1,
-    4125.1
+    1792006051,
+    4124.6,
+    4124.6,
+    4124.6,
+    4124.6
    ]
   ],
   "nq": [
@@ -8161,16 +8161,16 @@
    [
     1792004400,
     30130.75,
-    30186.0,
+    30196.5,
     30078.0,
-    30174.75
+    30174.25
    ],
    [
-    1792005756,
-    30173.25,
-    30173.25,
-    30173.25,
-    30173.25
+    1792006057,
+    30185.0,
+    30185.0,
+    30185.0,
+    30185.0
    ]
   ],
   "vix": [
@@ -8654,15 +8654,15 @@
     1792004400,
     17.13,
     17.32,
-    17.12,
-    17.21
+    16.95,
+    16.95
    ],
    [
-    1792005451,
-    17.17,
-    17.17,
-    17.17,
-    17.17
+    1792005751,
+    16.95,
+    16.95,
+    16.95,
+    16.95
    ]
   ]
  },
@@ -8820,6 +8820,8 @@
   "4911fe4f6c",
   "197888f8d8",
   "4993942176",
-  "87ed9f3786"
+  "87ed9f3786",
+  "34e8bac964",
+  "7a83783aeb"
  ]
 }
