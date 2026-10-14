@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4166.7 · NQ 30759.0 · VIX 15.32 · 6 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-14T11:02:37Z"
+   "ultimo_resultado": "Oro 4163.0 · NQ 30753.25 · VIX 15.33 · 7 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-14T11:07:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T11:02:36Z",
-   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: Anthropic urges court in Washington, DC, to rehear appeal of Pentagon blacklisting"
+   "actualizado": "2026-10-14T11:07:34Z",
+   "ultimo_resultado": "7 titulares nuevos, 3 de alto impacto: Renovación de clase ejecutiva de Delta: nuevos asientos y más Porsches"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4163.0 · NQ 30753.25 · VIX 15.33 · 7 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-14T11:07:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4166.7 · NQ 30759.0 · VIX 15.32 · 6 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Revisando cómo salieron las entradas anteriores…",
    "ts": "2026-10-13T21:32:53Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Abriendo la mesa para la sesión de Asia (Tokio/Sídney).",
-   "ts": "2026-10-13T21:32:51Z"
   }
  ],
  "briefs": [
@@ -5840,10 +5840,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4166.7,
-  "nq": 30759.0,
-  "vix": 15.32,
-  "ts": "2026-10-14T11:02:36Z"
+  "oro": 4163.0,
+  "nq": 30753.25,
+  "vix": 15.33,
+  "ts": "2026-10-14T11:07:34Z"
  },
  "noticias": [
   {
@@ -5854,6 +5854,31 @@
    "id": "13cbaba33a",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Delta's business-class revamp: New seats, menus, plates and more Porsches",
+   "link": "https://www.cnbc.com/2026/10/14/delta-one-revamp.html",
+   "ts": "2026-10-14T11:00:01Z",
+   "fuente": "CNBC",
+   "id": "82eef8139a",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Renovación de clase ejecutiva de Delta: nuevos asientos y más Porsches",
+   "efecto": ""
+  },
+  {
+   "titulo": "Even more borrowers choose riskier mortgages, as higher interest rates crush affordability",
+   "link": "https://www.cnbc.com/2026/10/14/even-more-borrowers-choose-riskier-mortgages-as-higher-interest-rates-crush-affordability.html",
+   "ts": "2026-10-14T11:00:01Z",
+   "fuente": "CNBC",
+   "id": "cb79d1a71f",
+   "activos": [
+    "dolar",
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Más prestatarios eligen hipotecas riesgosas por tasas altas",
+   "efecto": ""
   },
   {
    "titulo": "Bank of America posts third-quarter profit drop due to $1.2 billion Treasury fine",
@@ -6078,6 +6103,19 @@
    "activos": [],
    "impacto": "bajo",
    "es": "Votantes latinos de Texas que votaron por Trump en 2024 están en juego para 2026",
+   "efecto": ""
+  },
+  {
+   "titulo": "Owlting Group (NASDAQ: OWLS) and Decaf Open U.S. Dollar Accounts Beyond the United States on OwlPay Harbor",
+   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOeFJiVUtNcmF6WWJ1V19KWTB3Y2FlMHBIeVdlaHZLMldYUHczZE12cmFJQ21PRHB0OU5KbmJGSl9acEFqdGVQN2hiM3J3aXBqWXBVS3huTUhiTlpLZGZIQmVteWN2QkQzMEo2ZFI3OHdwblpUb0lvNC02STBZSFY3c3E0QnhOLXpqX3JOeGUzeERmdEFXZTVLT3FvYkx5SUNHM0V1SUJuMW5WRXlObVA3MFJzS1VGV1p0c3VqSXNjVUdfVGZHSGJpeTZRNTN5ZEhLMkhwQ2ZiMldMUnZvWldObElScHE3MTVLek1Wd3pZMlZrUVNZYnE5bV8zdU9qNTU4OU4yTg?oc=5",
+   "ts": "2026-10-14T10:00:00Z",
+   "fuente": "GlobeNewswire",
+   "id": "eef4294e53",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "bajo",
+   "es": "Owlting Group y Decaf abren cuentas en dólares fuera de EE. UU.",
    "efecto": ""
   },
   {
@@ -6640,40 +6678,6 @@
    "id": "55f6e7afa4",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Judge indefinitely blocks Trump White House ban of three media outlets",
-   "link": "https://www.cnbc.com/2026/10/14/trump-white-house-msnow-cnn-politico-media-ban.html",
-   "ts": "2026-10-14T04:23:57Z",
-   "fuente": "CNBC",
-   "id": "8cf3bcdec8",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Gold prices hold firm ahead of U.S. inflation data",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOblhrUjV2RGRBZkItWTgxN3Z4N3FGMEY3Zy1KSlJJVDE5NEsyeWRqc1U2emk4SGhPTG1MaG1lZVh6VVFrMGlLMmZyMlloSHNheXppaDRORzFRMXJYMUVXeEJVbEdDOF9zeENrcHJjbk1tTHEzTEltZDBZU0lVazhSeklCTXBpd19hRXRqdzFR0gGTAUFVX3lxTFBqZzBSQllPRXAwX0xEcjR4blI4MXNmR0U5OFZaNTZkYUZsMEFmTndKekxqSXlIcTRWLXhoNURhLXJVaE9rMHBEeDB1cE1jTjRjT2c1a3R1c1h5QXJRdF9HbXhodUFqOUI1MDRwR1NVVy02MGRPb3JyZU9YcWtMRVVqVEVfeGhxQ1Q2XzUyYllHWTNSYw?oc=5",
-   "ts": "2026-10-14T04:09:12Z",
-   "fuente": "CNBC",
-   "id": "64fca91b8a",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "China exports surge past expectations in Sept; trade surplus widens",
-   "link": "https://finance.yahoo.com/economy/articles/china-exports-surge-past-expectations-034355826.html?.tsrc=rss",
-   "ts": "2026-10-14T03:43:55Z",
-   "fuente": "Yahoo Finance",
-   "id": "7f90e02650",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio",
-   "es": "Las exportaciones de China superan expectativas en septiembre y el superávit comercial se amplía",
-   "efecto": "Impulsa el apetito por riesgo y al oro por mayor demanda asiática."
   }
  ],
  "eventos_avisados": [
@@ -7217,15 +7221,15 @@
     1791972000,
     4166.6,
     4168.8,
-    4162.6,
-    4166.4
+    4160.4,
+    4162.5
    ],
    [
-    1791975153,
-    4166.7,
-    4166.7,
-    4166.7,
-    4166.7
+    1791975452,
+    4163.0,
+    4163.0,
+    4163.0,
+    4163.0
    ]
   ],
   "nq": [
@@ -7758,15 +7762,15 @@
     1791972000,
     30794.25,
     30805.0,
-    30752.75,
-    30755.25
+    30748.0,
+    30752.75
    ],
    [
-    1791975152,
-    30759.0,
-    30759.0,
-    30759.0,
-    30759.0
+    1791975449,
+    30753.25,
+    30753.25,
+    30753.25,
+    30753.25
    ]
   ],
   "vix": [
@@ -8191,15 +8195,15 @@
     15.32
    ],
    [
-    1791974851,
-    15.32,
-    15.32,
-    15.32,
-    15.32
+    1791975151,
+    15.33,
+    15.33,
+    15.33,
+    15.33
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-14T10:37:31Z",
+ "noticias_traducidas_ts": "2026-10-14T11:07:32Z",
  "ult_4h": 1791975756.4996223,
  "estrategia_4h": {
   "oro": {
