@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4164.0 · NQ 30741.25 · VIX 15.3 · 7 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-14T11:37:36Z"
+   "ultimo_resultado": "Oro 4161.7 · NQ 30761.5 · VIX 15.34 · 14 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-14T11:42:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T11:37:35Z",
-   "ultimo_resultado": "7 titulares nuevos, 2 de alto impacto: Morgan Stanley supera estimaciones gracias a los ingresos por negociación de acciones"
+   "actualizado": "2026-10-14T11:42:32Z",
+   "ultimo_resultado": "14 titulares nuevos, 2 de alto impacto: Stocks making the biggest moves premarket: Bank of America, BlackRock, HPE & more"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4161.7 · NQ 30761.5 · VIX 15.34 · 14 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-14T11:42:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4164.0 · NQ 30741.25 · VIX 15.3 · 7 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Mapa listo: oro 4184.2 · NQ 30782.0.",
    "ts": "2026-10-13T21:33:04Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
-   "ts": "2026-10-13T21:33:02Z"
   }
  ],
  "briefs": [
@@ -5840,12 +5840,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4164.0,
-  "nq": 30741.25,
-  "vix": 15.3,
-  "ts": "2026-10-14T11:37:36Z"
+  "oro": 4161.7,
+  "nq": 30761.5,
+  "vix": 15.34,
+  "ts": "2026-10-14T11:42:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Stocks making the biggest moves premarket: Bank of America, BlackRock, HPE & more",
+   "link": "https://www.cnbc.com/2026/10/14/stocks-moving-premarket-bank-of-america-blackrock-asml.html",
+   "ts": "2026-10-14T11:36:25Z",
+   "fuente": "CNBC",
+   "id": "e7df2d0080",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Morgan Stanley tops estimates as equities trading revenue exceeds expectations by $909 million",
    "link": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
@@ -5870,6 +5881,69 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Canadian Goldfields Confirms High-Grade Gold at Michelle Zone, Swayze Central, with Historic Drill Hole Re-Assay Returning 35.00 m at 3.26 g/t Gold, Including 3.00 m at 15.11 g/t and 5.00 m at 6.08 g/t Gold",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/canadian-goldfields-confirms-high-grade-113000367.html?.tsrc=rss",
+   "ts": "2026-10-14T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "95bf01d849",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Scottie Resources Reports 27.9 g/t Gold over 4.15 m and 51.6 g/t Gold over 2.25 m at Blueberry Contact Zone",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/scottie-resources-reports-27-9-113000816.html?.tsrc=rss",
+   "ts": "2026-10-14T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "63b98bcc85",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "BRS Resources Announces 220.9 m Grading 0.30% Copper Equivalent Including 43 Meters Grading 0.57% Copper Eq Intersected at Cowtrail",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/brs-resources-announces-220-9-113000597.html?.tsrc=rss",
+   "ts": "2026-10-14T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "0db53a463b",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Vector Science & Therapeutics Corp. Appoints Russell Starr as President",
+   "link": "https://finance.yahoo.com/healthcare/articles/vector-science-therapeutics-corp-appoints-113000770.html?.tsrc=rss",
+   "ts": "2026-10-14T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "ef807908da",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "One Bullion Receives Final Maitengwe Airborne Geophysical Dataset and Provides Vumba Drilling Update",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/one-bullion-receives-final-maitengwe-113000963.html?.tsrc=rss",
+   "ts": "2026-10-14T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "61db0edfad",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Lodestar Metals Intersects 15.2 m of 102.2 g/t AgEq, Including 1.5 m of 431.1 g/t AgEq, at Black Diamond, Gold Run Project, Nevada",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/lodestar-metals-intersects-15-2-113000956.html?.tsrc=rss",
+   "ts": "2026-10-14T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "7c5af8409f",
+   "activos": [
+    "oro",
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Bank of America posts third-quarter profit drop due to $1.2 billion Treasury fine; shares decline",
    "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
    "ts": "2026-10-14T11:26:33Z",
@@ -5879,6 +5953,15 @@
     "dolar"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Trump proposes new $90 Medicare checks, but not every American qualifies. Are you on the list?",
+   "link": "https://finance.yahoo.com/healthcare/articles/trump-proposes-90-medicare-checks-112500302.html?.tsrc=rss",
+   "ts": "2026-10-14T11:25:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "7be3588e06",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Morgan Stanley is set to report earnings — here’s what to expect",
@@ -6607,91 +6690,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "American College of Radiology names 2027 Gold Medal winners",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYW16b29heXJ3RHVSX2lvY0p5STRQWVVJWlBhQXRuSFNfM1YwTUgyUXAtYllVVnJSWGFqOUtBRlAweU5ya2JFUElkNFF6ZzBQVUNYbVR5YkthVGRMSnZmbkJfZC1iQzBuQlRxczAzelFqR0FfOWZTN180Tzh0cUwyRklqejdvdXZKYXhfTWh4Y0tfNFc5ZzVfbHQ3Q0tlTjZ6VnJ4Q25WX09zSS0wM2NNTmxBS0doRjZlUkJSUURiWGxnc0Zv?oc=5",
-   "ts": "2026-10-14T07:39:17Z",
-   "fuente": "Radiology Business",
-   "id": "830cb2ee0f",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Khaslakhanau Ends Yakushenko's Reign to Win 97kg Gold at U23 World Championships",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbnZQb2NkcUZyc051OWRzVG9tV211dmtCdnJWZTVFdTc3SG1KQ29mWDdZRWxCWkk0VFllM1FMYTdnZkhnYm9lRDZhbWNnck5TTS1HWU5lS2RlcVNQVGFrZFNLWGRWU1RlVU0zU1pMOFpoNDRBRGhDTzVHYUtTaVVTRjh5aXh2UWs5dURzVnozQlRKcHhueE1JZm53NmNVVlk?oc=5",
-   "ts": "2026-10-14T07:24:33Z",
-   "fuente": "United World Wrestling",
-   "id": "ed0e96726e",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Kenny Bednarek awards himself an A+ grade for 2026 - and reveals his triple-gold goal for LA28: \"I've unlocked a new level\"",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLWVNaUpCSlU5ZWhhYWxWZ1hDbGt1ZldyeDFWTlVKbi1PU204aXZVT0lSbXZxS2RGU0VielFZN3d5czF1Y1Z6RVlFY0lQRU94M2dkSzRLRjB6cS1PRTV0d0o5T0xuUXQ0NVNZVE5uQ2ZQMUFfY3I4QVU2bHJXWTQybUhHbG5Zajc5NFJLaEQ0cEJfcDNoalE?oc=5",
-   "ts": "2026-10-14T07:22:00Z",
-   "fuente": "Olympics",
-   "id": "8e96beb163",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "U.S. Treasury yields inch lower as investors await key inflation report",
-   "link": "https://www.cnbc.com/2026/10/14/us-treasury-yields-cpi-inflation-report.html",
-   "ts": "2026-10-14T07:21:38Z",
-   "fuente": "CNBC",
-   "id": "d7227563e2",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "3 Bank Stocks to Screen as Treasury Yields Test Wells Fargo and Citigroup",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZTBDcmQycVBkN2JGdllib2Y5UThZYWNFUlJJeC00SE84RTY2TjEzNDhuYjZTRVJpbUs1YnY1QVBDRXNvNHJ0cGlVR0dReXdzT2psTVpnLTZ3UXNsUjNLclBTdVZZWXZkR3R6dmxSR0RMZW5wRnVIUHBDblExeXAzZ1BtRkZqYktqUUhERDdvcHFhS1FYajhHYXNn?oc=5",
-   "ts": "2026-10-14T07:11:15Z",
-   "fuente": "Yahoo Finance",
-   "id": "01e322e826",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Russia pounds Ukraine's energy infrastructure, leaving 600,000 without power",
-   "link": "https://www.cnbc.com/2026/10/14/russia-ukraine-energy-ceasefire-power-outages.html",
-   "ts": "2026-10-14T07:07:56Z",
-   "fuente": "CNBC",
-   "id": "9ff8847c9d",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Lisa Cook on Tuesday challenged President Trump’s latest attempt to remove her from her role as a Federal Reserve governor, questioning the objectivity of a White House investigation into unproven allegations that she committed mortgage fraud.",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNY0VOUTNmZDdNMDFEQW1YSFBlZUlvYTVPZW40ME5KRmJCbFE3UjQtRVFrR3FGZnFCSm0zcTRfMzNVU1ZjUm9NWHgyMzdEWUx5OHd0ZFpOU1J3TTY1RkpEd3JMRUEyUEV5dDlOM0I2Mkc5blNWQmVTLS02NXgzWW03ZU9RNDlmbWVEZUlQSFRYOEpUUHUtb3JVOUtaMzY5cVAzNUR1QnMtMDhuaDZ1cEd4NlV2cFR6QnFtVzhveERaTGRkaFVhbU5vcnJWczRkcC1KNEN3?oc=5",
-   "ts": "2026-10-14T06:55:07Z",
-   "fuente": "Facebook",
-   "id": "f45eaa70da",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "“Digger” strikes gold: A film review",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5jdEtSd21SSGpvVnpIcGxnNlRXZlExeWZ1RUQ5ZG5yOW9aMFJQRy1vVkRzT1k1N1JlUXVLaC04c1UyUllpMnZwY1ZHT2F1N1Rudk5fWGw4Y1RKd3ljaEZ4ZXpwOGl4QTJEYS00?oc=5",
-   "ts": "2026-10-14T06:50:09Z",
-   "fuente": "The Rider News",
-   "id": "44686bb773",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -7243,14 +7241,14 @@
     4163.4,
     4165.9,
     4158.0,
-    4163.0
+    4162.2
    ],
    [
-    1791977251,
-    4164.0,
-    4164.0,
-    4164.0,
-    4164.0
+    1791977549,
+    4161.7,
+    4161.7,
+    4161.7,
+    4161.7
    ]
   ],
   "nq": [
@@ -7789,16 +7787,16 @@
    [
     1791975600,
     30756.5,
-    30763.0,
+    30763.5,
     30716.0,
-    30738.75
+    30763.5
    ],
    [
-    1791977254,
-    30741.25,
-    30741.25,
-    30741.25,
-    30741.25
+    1791977551,
+    30761.5,
+    30761.5,
+    30761.5,
+    30761.5
    ]
   ],
   "vix": [
@@ -8227,14 +8225,14 @@
     15.32,
     15.37,
     15.29,
-    15.3
+    15.32
    ],
    [
-    1791976951,
-    15.3,
-    15.3,
-    15.3,
-    15.3
+    1791977251,
+    15.34,
+    15.34,
+    15.34,
+    15.34
    ]
   ]
  },
