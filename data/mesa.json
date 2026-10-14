@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4104.1 · NQ 30230.75 · VIX 16.63",
-   "actualizado": "2026-10-14T17:32:40Z"
+   "ultimo_resultado": "Oro 4107.4 · NQ 30182.5 · VIX 16.78 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-14T17:37:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T17:32:39Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-14T17:37:38Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Finalistas del Guante de Oro de 2026 incluyen a jugadores de Cubs y White Sox"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4107.4 · NQ 30182.5 · VIX 16.78 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-14T17:37:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4104.1 · NQ 30230.75 · VIX 16.63",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4189.6 · NQ 30871.0 · VIX 15.27 · 10 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-14T05:07:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4189.8 · NQ 30870.0 · VIX 15.27 · 10 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-14T05:02:37Z"
   }
  ],
  "briefs": [
@@ -6090,12 +6090,51 @@
   }
  },
  "en_vivo": {
-  "oro": 4104.1,
-  "nq": 30230.75,
-  "vix": 16.63,
-  "ts": "2026-10-14T17:32:39Z"
+  "oro": 4107.4,
+  "nq": 30182.5,
+  "vix": 16.78,
+  "ts": "2026-10-14T17:37:38Z"
  },
  "noticias": [
+  {
+   "titulo": "2026 Gold Glove Finalists include Cubs' Bregman, Crow-Armstrong, Happ, Swanson, and Suzuki; and White Sox's Meidroth",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPc3FuUlhfaFpQVGRPNEhlMmJFbC1idnVTaEQ3MWpwOWtQVXVPcXhYQ01FM1JkbmpMSUFzTThlZENrbDZzcVdzZkhyVUtNRmhwOGNkN2h3a09pblZXQkNmZ3c2dVp3NUdORExpRFRUaExwVTIxLWRxOXhibEE4RTlKZG1UVEJ5NnFkSzdabDJidXNYeXlvR2tvTE1uYUlhSTBxQkwtNkpnUzE0V2VZN1k2V1dIWmhveVpfWjNWVWh1ZGdLMzZFVk41aDdudks3SF9RbGRGMDhBTEVwaElsRUhOYw?oc=5",
+   "ts": "2026-10-14T17:34:25Z",
+   "fuente": "CBS News",
+   "id": "f5e21a4e0f",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Finalistas del Guante de Oro de 2026 incluyen a jugadores de Cubs y White Sox",
+   "efecto": ""
+  },
+  {
+   "titulo": "OpenAI’s Sachin Katti to leave infrastructure role, stay on as advisor",
+   "link": "https://www.cnbc.com/2026/10/14/openais-sachin-katti-to-leave-infrastructure-role-stay-on-as-advisor.html",
+   "ts": "2026-10-14T17:25:34Z",
+   "fuente": "CNBC",
+   "id": "6dc261d773",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "Sachin Katti de OpenAI deja su rol de infraestructura y será asesor",
+   "efecto": ""
+  },
+  {
+   "titulo": "Bitcoin Falls To $81K After Hotter-Than-Expected US Inflation Breaks BTC Below Tight Trading Range",
+   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-falls-to-81-k-after-hotter-than-expected-us-inflation-breaks-btc-below-tight-trading-range/cZxfvFWRBqK?.tsrc=rss",
+   "ts": "2026-10-14T17:19:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "ac21b5dacd",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Bitcoin cae a 81 mil dólares tras inflación en EE.UU. más alta de lo esperado",
+   "efecto": ""
+  },
   {
    "titulo": "The Metro: A tariff is a tax. Who in Michigan is actually paying it?",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMTFVQWRJb0lGa2J2cXFpUHh3QWVTcDJnb1ZEakxUN3ZVMHBYWlZBT2xKNldRSGdRdkd5N3FFTm0tMW5wZUgzaXdidEREbDVnanFCM0N4SWZHa25TV3ZKNnNEdmlielN1bkNLcEQ3YnRQa1lmYzg3RDM0MncyZGxxU240MHpFNUxReWE3bl9xS0hRS2hXd0RVLUR3?oc=5",
@@ -6927,37 +6966,6 @@
    "id": "44c52307d9",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "U.S. Dollar Index Hits 18-Month High on Hot Inflation",
-   "link": "https://finance.yahoo.com/m/78703272-10de-31fc-bc4a-cded771bff08/u.s.-dollar-index-hits.html?.tsrc=rss",
-   "ts": "2026-10-14T13:28:26Z",
-   "fuente": "Yahoo Finance",
-   "id": "2c3b5d224a",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "The price of gold today, Oct. 14, 2026 — and the best places to buy",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1zUUVsTjJ0VnVPejB0ZEpPaWhXNkZSN0MtQ0hTNjJGWkpiUmxOV1dNQUYzY2hfemR4OVRPRHA3cjM1SFdZUFdnMmxDbko2N1BReU1WVXV6c3p1bFZSeDdjN0VkcFZoV3hTTkZLcWlnSXFNQdIBd0FVX3lxTE1ZYXJsRnRmNklaU1J3LUpMd283VXVzd2ZBUUtnQmdjTlFFd3dyS3Z3S3QtM1BKOE5pZHF1Vno2Z1o2T0d0TWRUMmJKQWF5MVdEa0dtUFp0SHlIdHl5MFVMV2tBVmRSUTNhUy1fNUk2ZWlOVjZJbVpn?oc=5",
-   "ts": "2026-10-14T13:25:52Z",
-   "fuente": "CNBC",
-   "id": "639a520b34",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
-   "link": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
-   "ts": "2026-10-14T13:25:24Z",
-   "fuente": "CNBC",
-   "id": "a489ac69b1",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7553,16 +7561,16 @@
    [
     1791997200,
     4105.1,
-    4106.3,
+    4109.3,
     4099.5,
-    4104.4
+    4107.2
    ],
    [
-    1791998556,
-    4104.1,
-    4104.1,
-    4104.1,
-    4104.1
+    1791998855,
+    4107.7,
+    4107.7,
+    4107.7,
+    4107.7
    ]
   ],
   "nq": [
@@ -8144,15 +8152,15 @@
     1791997200,
     30296.0,
     30309.75,
-    30219.0,
-    30226.25
+    30171.75,
+    30177.25
    ],
    [
-    1791998560,
-    30230.25,
-    30230.25,
-    30230.25,
-    30230.25
+    1791998857,
+    30182.5,
+    30182.5,
+    30182.5,
+    30182.5
    ]
   ],
   "vix": [
@@ -8621,20 +8629,20 @@
    [
     1791997200,
     16.36,
-    16.64,
+    16.69,
     16.32,
-    16.64
+    16.69
    ],
    [
-    1791998251,
-    16.63,
-    16.63,
-    16.63,
-    16.63
+    1791998551,
+    16.78,
+    16.78,
+    16.78,
+    16.78
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-14T17:02:38Z",
+ "noticias_traducidas_ts": "2026-10-14T17:37:36Z",
  "ult_4h": 1791999159.8994746,
  "estrategia_4h": {
   "oro": {
@@ -8742,6 +8750,9 @@
   "11de81806f",
   "a4e67cb99e",
   "3e6b8bcdd4",
-  "6a92cd6705"
+  "6a92cd6705",
+  "f5e21a4e0f",
+  "6dc261d773",
+  "ac21b5dacd"
  ]
 }
