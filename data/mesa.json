@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4179.6 · NQ 30772.5 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-13T23:57:34Z"
+   "ultimo_resultado": "Oro 4179.9 · NQ 30758.0 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-14T00:02:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-13T23:57:33Z",
-   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: Stock Market Midday, Oct. 13: Bank Earnings and Chip Pressure Drive Mixed Trading"
+   "actualizado": "2026-10-14T00:02:31Z",
+   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: Wednesday's big stock stories: What’s likely to move the market in the next trading session"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4179.9 · NQ 30758.0 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-14T00:02:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4179.6 · NQ 30772.5 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4204.9 · NQ 30720.25 · VIX 15.53 · 10 noticias nuevas (4 alto impacto)",
    "ts": "2026-10-13T11:02:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4204.8 · NQ 30724.5 · VIX 15.53 · 10 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-13T10:57:34Z"
   }
  ],
  "briefs": [
@@ -5645,12 +5645,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4179.6,
-  "nq": 30772.5,
+  "oro": 4179.9,
+  "nq": 30758.0,
   "vix": 15.27,
-  "ts": "2026-10-13T23:57:34Z"
+  "ts": "2026-10-14T00:02:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Wednesday's big stock stories: What’s likely to move the market in the next trading session",
+   "link": "https://www.cnbc.com/2026/10/13/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "ts": "2026-10-13T23:52:56Z",
+   "fuente": "CNBC",
+   "id": "680fbeed45",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "(PHOTOS) Trees turn red and gold in Casper",
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdXJaeUs1VDZ5RjVuMnZyTTFvOEd4cTBpYzIwWjJQUFp2NTYxVUlZR05sVkxWdkpRX0MzRWh2M3RmTHktalVGa3pkY0RDZ2h5cVFnbjN3MWU3ZkUyZFVnMHh5aVNoNC1kbGI4UWVYd05ObEwtQ2thZ2JoLW9rUHhCNEhhdVROSWNzTE93?oc=5",
@@ -6450,17 +6459,6 @@
    "id": "722c375c67",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Apple releases HomeView smart home hub with screen as showcase for Siri AI",
-   "link": "https://www.cnbc.com/2026/10/13/apple-homeview-smart-home-siri-ai.html",
-   "ts": "2026-10-13T16:52:27Z",
-   "fuente": "CNBC",
-   "id": "fd00c1021e",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -7092,11 +7090,11 @@
     4179.7
    ],
    [
-    1791935237,
-    4179.6,
-    4179.6,
-    4179.6,
-    4179.6
+    1791935543,
+    4179.9,
+    4179.9,
+    4179.9,
+    4179.9
    ]
   ],
   "nq": [
@@ -7713,15 +7711,15 @@
     1791932400,
     30810.75,
     30811.75,
-    30758.75,
-    30770.25
+    30750.5,
+    30758.75
    ],
    [
-    1791935245,
-    30772.5,
-    30772.5,
-    30772.5,
-    30772.5
+    1791935550,
+    30758.0,
+    30758.0,
+    30758.0,
+    30758.0
    ]
   ],
   "vix": [
@@ -8225,10 +8223,10 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-13T23:47:33Z",
- "ult_4h": 1791935257.4041414,
+ "ult_4h": 1791936152.1143556,
  "estrategia_4h": {
   "oro": {
-   "precio": 4179.5,
+   "precio": 4179.9,
    "atr_4h": 19.29,
    "setups": [
     {
@@ -8245,23 +8243,23 @@
    ]
   },
   "nq": {
-   "precio": 30769.5,
-   "atr_4h": 139.07,
+   "precio": 30758.0,
+   "atr_4h": 139.66,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30792.0,
      "entrada": 30792.0,
-     "stop": 30875.44,
+     "stop": 30875.8,
      "objetivo": 30591.25,
-     "rr": 2.41,
+     "rr": 2.4,
      "estado": "en retesteo",
      "fuerza_ruptura_atr": 0.99,
      "ruptura": "2026-10-13 00:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-13T23:47:37Z"
+  "ts": "2026-10-14T00:02:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
