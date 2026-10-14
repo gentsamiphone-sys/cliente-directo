@@ -2906,10 +2906,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "Agregando GO Car Wash",
-   "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-14T03:06:28Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "2 negocios nuevos de talleres cerca de Owens Ave",
+   "actualizado": "2026-10-14T03:06:29Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2937,6 +2937,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: 2 negocios nuevos de talleres cerca de Owens Ave",
+   "ts": "2026-10-14T03:06:29Z"
+  },
   {
    "agente": "buscador",
    "texto": "Encontré GO Car Wash, sin página web.",
@@ -4431,11 +4436,6 @@
    "agente": "buscador",
    "texto": "Encontré Quality Star Imports & Domestic, sin página web.",
    "ts": "2026-10-11T21:06:33Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Encontré Batteriez, sin página web.",
-   "ts": "2026-10-11T21:06:32Z"
   }
  ],
  "reportes": {
