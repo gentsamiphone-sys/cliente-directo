@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4178.3 · NQ 30755.5 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-14T00:07:36Z"
+   "ultimo_resultado": "Oro 4179.4 · NQ 30759.0 · VIX 15.27 · 15 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-14T00:12:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T00:07:35Z",
-   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: Stock Market Midday, Oct. 13: Bank Earnings and Chip Pressure Drive Mixed Trading"
+   "actualizado": "2026-10-14T00:12:34Z",
+   "ultimo_resultado": "15 titulares nuevos, 3 de alto impacto: Singapore third-quarter GDP growth softens from four-year high but beats estimates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4179.4 · NQ 30759.0 · VIX 15.27 · 15 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-14T00:12:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4178.3 · NQ 30755.5 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4205.6 · NQ 30710.75 · VIX 15.55 · 12 noticias nuevas (5 alto impacto)",
    "ts": "2026-10-13T11:12:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4204.7 · NQ 30715.75 · VIX 15.55 · 14 noticias nuevas (3 alto impacto)",
-   "ts": "2026-10-13T11:07:30Z"
   }
  ],
  "briefs": [
@@ -5645,12 +5645,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4178.3,
-  "nq": 30755.5,
+  "oro": 4179.4,
+  "nq": 30759.0,
   "vix": 15.27,
-  "ts": "2026-10-14T00:07:36Z"
+  "ts": "2026-10-14T00:12:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Singapore third-quarter GDP growth softens from four-year high but beats estimates",
+   "link": "https://www.cnbc.com/2026/10/14/singapore-gdp-q3.html",
+   "ts": "2026-10-14T00:12:23Z",
+   "fuente": "CNBC",
+   "id": "fcb79674ed",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "Wednesday's big stock stories: What’s likely to move the market in the next trading session",
    "link": "https://www.cnbc.com/2026/10/13/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
@@ -6450,15 +6459,6 @@
    "id": "ada3ded3a9",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Boeing delivers 57 jets in September",
-   "link": "https://www.cnbc.com/2026/10/13/boeing-deliveries-september.html",
-   "ts": "2026-10-13T16:55:56Z",
-   "fuente": "CNBC",
-   "id": "722c375c67",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -6466,13 +6466,6 @@
  ],
  "velas": {
   "oro": [
-   [
-    1791432000,
-    4159.8,
-    4165.7,
-    4154.7,
-    4157.7
-   ],
    [
     1791435600,
     4157.5,
@@ -7087,14 +7080,21 @@
     4184.5,
     4185.1,
     4177.7,
-    4177.7
+    4177.9
    ],
    [
-    1791935849,
-    4178.3,
-    4178.3,
-    4178.3,
-    4178.3
+    1791936000,
+    4177.9,
+    4179.4,
+    4177.4,
+    4179.2
+   ],
+   [
+    1791936148,
+    4179.4,
+    4179.4,
+    4179.4,
+    4179.4
    ]
   ],
   "nq": [
@@ -7712,14 +7712,21 @@
     30811.75,
     30811.75,
     30750.5,
-    30758.5
+    30758.0
    ],
    [
-    1791935854,
-    30755.5,
-    30755.5,
-    30755.5,
-    30755.5
+    1791936000,
+    30755.25,
+    30768.0,
+    30746.5,
+    30761.0
+   ],
+   [
+    1791936152,
+    30759.0,
+    30759.0,
+    30759.0,
+    30759.0
    ]
   ],
   "vix": [
