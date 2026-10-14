@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4192.4 · NQ 30887.0 · VIX 15.27 · 12 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-14T03:27:37Z"
+   "ultimo_resultado": "Oro 4190.8 · NQ 30882.75 · VIX 15.27 · 12 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-14T03:32:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T03:27:36Z",
-   "ultimo_resultado": "12 titulares nuevos, 2 de alto impacto: La medallista olímpica Amber Glenn visitará CU Boulder — reprogramado para el 30 de noviembre"
+   "actualizado": "2026-10-14T03:32:34Z",
+   "ultimo_resultado": "12 titulares nuevos, 2 de alto impacto: Judge indefinitely blocks Trump from banning 3 media outlets from White House"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4190.8 · NQ 30882.75 · VIX 15.27 · 12 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-14T03:32:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4192.4 · NQ 30887.0 · VIX 15.27 · 12 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Sin brief de Nueva York hoy: Gemini no respondió tras 3 intentos.",
    "ts": "2026-10-13T12:45:50Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Intento 3/3: no pude escribir el brief (Gemini no respondió: gemini-flash-lite-latest: 503; gemini-3.5-flash: ).",
-   "ts": "2026-10-13T12:45:46Z"
   }
  ],
  "briefs": [
@@ -5645,12 +5645,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4192.4,
-  "nq": 30887.0,
+  "oro": 4190.8,
+  "nq": 30882.75,
   "vix": 15.27,
-  "ts": "2026-10-14T03:27:36Z"
+  "ts": "2026-10-14T03:32:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Judge indefinitely blocks Trump from banning 3 media outlets from White House",
+   "link": "https://www.cnbc.com/2026/10/14/trump-white-house-msnow-cnn-politico-media-ban.html",
+   "ts": "2026-10-14T03:30:25Z",
+   "fuente": "CNBC",
+   "id": "12a7a5e255",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "China's producer prices rise at fastest pace since June 2022, beating expectations",
    "link": "https://www.cnbc.com/2026/10/14/producer-prices-in-china-rise-fastest-since-june-2022-on-fuel-costs.html",
@@ -6453,17 +6462,6 @@
    "id": "d52df46228",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "I was one of the biggest shareholders in this tech stock in the 1990s. I'm bullish again because of AI",
-   "link": "https://www.cnbc.com/2026/10/13/paul-meeks-bullish-flex-because-of-ai.html",
-   "ts": "2026-10-13T18:38:28Z",
-   "fuente": "CNBC",
-   "id": "6b9a671a30",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -7092,14 +7090,14 @@
     4191.3,
     4193.5,
     4184.5,
-    4191.6
+    4190.3
    ],
    [
-    1791947854,
-    4192.4,
-    4192.4,
-    4192.4,
-    4192.4
+    1791948149,
+    4190.8,
+    4190.8,
+    4190.8,
+    4190.8
    ]
   ],
   "nq": [
@@ -7722,16 +7720,16 @@
    [
     1791946800,
     30873.0,
-    30889.75,
+    30891.5,
     30862.5,
-    30885.5
+    30882.5
    ],
    [
-    1791947854,
-    30887.0,
-    30887.0,
-    30887.0,
-    30887.0
+    1791948143,
+    30882.75,
+    30882.75,
+    30882.75,
+    30882.75
    ]
   ],
   "vix": [
@@ -8235,43 +8233,43 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-14T03:27:33Z",
- "ult_4h": 1791947854.3168037,
+ "ult_4h": 1791948754.3915763,
  "estrategia_4h": {
   "oro": {
-   "precio": 4187.3,
-   "atr_4h": 20.6,
+   "precio": 4190.8,
+   "atr_4h": 20.76,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4154.44,
+     "stop": 4154.35,
      "objetivo": 4242.3,
-     "rr": 6.11,
+     "rr": 6.06,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.59,
+     "fuerza_ruptura_atr": 1.58,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30869.5,
-   "atr_4h": 146.75,
+   "precio": 30882.75,
+   "atr_4h": 147.79,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30957.5,
      "entrada": 30957.5,
-     "stop": 31045.55,
+     "stop": 31046.17,
      "objetivo": 30591.25,
-     "rr": 4.16,
+     "rr": 4.13,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.94,
+     "fuerza_ruptura_atr": 0.93,
      "ruptura": "2026-10-12 16:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-14T03:17:34Z"
+  "ts": "2026-10-14T03:32:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
