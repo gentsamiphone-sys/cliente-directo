@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T12:47:36Z",
-   "ultimo_resultado": "Estrategia 4H ORO: VENTA: esperar retesteo de 4173.7 · stop 4187.33 · objetivo 4129.6 · R:R 3.24 (esperando retesteo). Tú ejecutas."
+   "actualizado": "2026-10-14T13:02:35Z",
+   "ultimo_resultado": "Estrategia 4H ORO: VENTA en el nivel 4129.2 · stop 4143.79 · objetivo 4091.2 · R:R 2.6 (en retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T12:57:34Z",
-   "ultimo_resultado": "15 titulares nuevos, 7 de alto impacto: Over the Past 3 Years, Bitcoin Is Up 225% and the Nasdaq Is Up 109%. Here's the 1 Takeaway Lesson for Crypto Investors."
+   "actualizado": "2026-10-14T13:02:34Z",
+   "ultimo_resultado": "15 titulares nuevos, 7 de alto impacto: How CFOs at Chevron, ServiceNow and Nasdaq decide which AI bets create value"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H ORO: VENTA en el nivel 4129.2 · stop 4143.79 · objetivo 4091.2 · R:R 2.6 (en retesteo). Tú ejecutas.",
+   "ts": "2026-10-14T13:02:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4118.2 · NQ 30602.75 · VIX 15.78 · 15 noticias nuevas (7 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4179.5 · NQ 30769.5 · VIX 15.27 · 15 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-13T23:47:38Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4178.7 · NQ 30761.75 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-13T23:42:32Z"
   }
  ],
  "briefs": [
@@ -6090,12 +6090,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4118.2,
-  "nq": 30602.75,
-  "vix": 15.78,
-  "ts": "2026-10-14T12:57:34Z"
+  "oro": 4122.9,
+  "nq": 30626.5,
+  "vix": 15.75,
+  "ts": "2026-10-14T13:02:34Z"
  },
  "noticias": [
+  {
+   "titulo": "How CFOs at Chevron, ServiceNow and Nasdaq decide which AI bets create value",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdVpZNjRjME92WGo3S282X3VZMnV2VGVsTkNDVDFuc3lNR1dPeU5hOFFJQWZ5LXV5Nm1fLVpqTDc4bDRleWk3UnBlTzU1TGlha00zTlFGZXE4RXloV3A1NlJyX3hhRUFtX2xGbElYc2NoV1NDajhwOU4wU2F6aWJWNHkzNTFZSHRkUTNqbW0zaVBTRmVhV0VMZkFn?oc=5",
+   "ts": "2026-10-14T12:53:00Z",
+   "fuente": "Fortune",
+   "id": "e446d7d399",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Bank of America shares drop 7% after third-quarter revenue miss and regulatory penalty",
    "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
@@ -6922,17 +6933,6 @@
    "impacto": "bajo",
    "es": "Owlting Group y Decaf abren cuentas en dólares fuera de EE. UU.",
    "efecto": ""
-  },
-  {
-   "titulo": "Red Metal Provides Farellon Mining Update",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/red-metal-provides-farellon-mining-100000659.html?.tsrc=rss",
-   "ts": "2026-10-14T10:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "97895c870b",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -8505,43 +8505,42 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-14T12:42:36Z",
- "ult_4h": 1791982056.1685963,
+ "ult_4h": 1791982954.786002,
  "estrategia_4h": {
   "oro": {
-   "precio": 4131.9,
-   "atr_4h": 22.71,
+   "precio": 4122.9,
+   "atr_4h": 24.31,
    "setups": [
     {
      "direccion": "VENTA",
-     "nivel": 4173.7,
-     "entrada": 4173.7,
-     "stop": 4187.33,
-     "objetivo": 4129.6,
-     "rr": 3.24,
+     "nivel": 4129.2,
+     "entrada": 4129.2,
+     "stop": 4143.79,
+     "objetivo": 4091.2,
+     "rr": 2.6,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 1.6,
+     "ruptura": "2026-10-14 12:00 UTC"
+    },
+    {
+     "direccion": "VENTA",
+     "nivel": 4178.1,
+     "entrada": 4178.1,
+     "stop": 4192.69,
+     "objetivo": 4107.2,
+     "rr": 4.86,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.32,
+     "fuerza_ruptura_atr": 1.6,
      "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30589.0,
-   "atr_4h": 162.39,
-   "setups": [
-    {
-     "direccion": "VENTA",
-     "nivel": 30957.5,
-     "entrada": 30957.5,
-     "stop": 31054.94,
-     "objetivo": 30582.25,
-     "rr": 3.85,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.85,
-     "ruptura": "2026-10-12 16:00 UTC"
-    }
-   ]
+   "precio": 30626.5,
+   "atr_4h": 164.25,
+   "setups": []
   },
-  "ts": "2026-10-14T12:47:36Z"
+  "ts": "2026-10-14T13:02:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -8549,7 +8548,8 @@
   "nq|VENTA|30792.0|esperando retesteo",
   "nq|VENTA|30792.0|en retesteo",
   "oro|COMPRA|4166.8|en retesteo",
-  "oro|VENTA|4173.7|esperando retesteo"
+  "oro|VENTA|4173.7|esperando retesteo",
+  "oro|VENTA|4129.2|en retesteo"
  ],
  "alpha_ordenes": []
 }
