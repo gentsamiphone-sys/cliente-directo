@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4119.1 · NQ 30118.5 · VIX 17.1 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-14T19:12:34Z"
+   "ultimo_resultado": "Oro 4115.9 · NQ 30098.5 · VIX 17.2 · 2 noticias nuevas",
+   "actualizado": "2026-10-14T19:17:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T19:12:33Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: 10-year Treasury yields dip as traders look ahead to Thursday economic reports"
+   "actualizado": "2026-10-14T19:17:37Z",
+   "ultimo_resultado": "2 titulares nuevos: El 36% de los compradores planea ceñirse al presupuesto navideño este año"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4115.9 · NQ 30098.5 · VIX 17.2 · 2 noticias nuevas",
+   "ts": "2026-10-14T19:17:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4119.1 · NQ 30118.5 · VIX 17.1 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Historial: 11 operaciones, 27% de acierto, +7.08 R.",
    "ts": "2026-10-14T06:32:47Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Revisando cómo salieron las entradas anteriores…",
-   "ts": "2026-10-14T06:32:46Z"
   }
  ],
  "briefs": [
@@ -6090,12 +6090,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4119.1,
-  "nq": 30118.5,
-  "vix": 17.1,
-  "ts": "2026-10-14T19:12:34Z"
+  "oro": 4115.9,
+  "nq": 30098.5,
+  "vix": 17.2,
+  "ts": "2026-10-14T19:17:38Z"
  },
  "noticias": [
+  {
+   "titulo": "36% of shoppers plan to stick to a holiday budget this year — here's a budgeting tool for every spending style",
+   "link": "https://www.cnbc.com/select/budgeting-tools-for-holiday-shopping/",
+   "ts": "2026-10-14T19:10:42Z",
+   "fuente": "CNBC",
+   "id": "78356c7d9d",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "El 36% de los compradores planea ceñirse al presupuesto navideño este año",
+   "efecto": ""
+  },
   {
    "titulo": "10-year Treasury yields dip as traders look ahead to Thursday economic reports",
    "link": "https://www.cnbc.com/2026/10/14/us-treasury-yields-cpi-inflation-report.html",
@@ -6945,17 +6956,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "S&P/TSX Composite Index Falls Wednesday Morning as Metal Prices Decline",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/p-tsx-composite-index-falls-144153925.html?.tsrc=rss",
-   "ts": "2026-10-14T14:41:53Z",
-   "fuente": "Yahoo Finance",
-   "id": "cf186128b5",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -7566,15 +7566,15 @@
     1792004400,
     4118.9,
     4119.6,
-    4117.1,
-    4118.7
+    4114.5,
+    4115.5
    ],
    [
-    1792004552,
-    4119.1,
-    4119.1,
-    4119.1,
-    4119.1
+    1792004849,
+    4115.9,
+    4115.9,
+    4115.9,
+    4115.9
    ]
   ],
   "nq": [
@@ -8170,15 +8170,15 @@
     1792004400,
     30132.0,
     30132.75,
-    30103.25,
-    30108.0
+    30078.0,
+    30100.0
    ],
    [
-    1792004552,
-    30118.5,
-    30118.5,
-    30118.5,
-    30118.5
+    1792004857,
+    30098.5,
+    30098.5,
+    30098.5,
+    30098.5
    ]
   ],
   "vix": [
@@ -8656,77 +8656,84 @@
     17.22,
     17.45,
     16.94,
-    17.09
+    17.13
    ],
    [
-    1792004251,
-    17.1,
-    17.1,
-    17.1,
-    17.1
+    1792004400,
+    17.13,
+    17.25,
+    17.13,
+    17.22
+   ],
+   [
+    1792004551,
+    17.2,
+    17.2,
+    17.2,
+    17.2
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-14T18:42:40Z",
- "ult_4h": 1792004554.4627125,
+ "noticias_traducidas_ts": "2026-10-14T19:17:33Z",
+ "ult_4h": 1792005458.6715467,
  "estrategia_4h": {
   "oro": {
-   "precio": 4114.5,
-   "atr_4h": 25.39,
+   "precio": 4115.9,
+   "atr_4h": 25.51,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4129.2,
      "entrada": 4129.2,
-     "stop": 4144.43,
+     "stop": 4144.5,
      "objetivo": 4095.0,
-     "rr": 2.25,
+     "rr": 2.23,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.36,
+     "fuerza_ruptura_atr": 2.34,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 4173.7,
-     "entrada": 4173.7,
-     "stop": 4188.93,
+     "nivel": 4178.1,
+     "entrada": 4178.1,
+     "stop": 4193.4,
      "objetivo": 4095.0,
-     "rr": 5.17,
+     "rr": 5.43,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.36,
+     "fuerza_ruptura_atr": 2.34,
      "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30143.0,
-   "atr_4h": 187.23,
+   "precio": 30098.5,
+   "atr_4h": 189.04,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30482.34,
-     "objetivo": 30103.25,
-     "rr": 2.37,
+     "stop": 30483.42,
+     "objetivo": 30078.0,
+     "rr": 2.57,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.3,
+     "fuerza_ruptura_atr": 2.28,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30504.5,
-     "entrada": 30504.5,
-     "stop": 30616.84,
-     "objetivo": 30103.25,
-     "rr": 3.57,
+     "nivel": 30604.75,
+     "entrada": 30604.75,
+     "stop": 30718.17,
+     "objetivo": 30078.0,
+     "rr": 4.64,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.3,
+     "fuerza_ruptura_atr": 2.28,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-14T19:02:34Z"
+  "ts": "2026-10-14T19:17:39Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -8813,6 +8820,8 @@
   "784423804c",
   "93ff7173d8",
   "96f0198113",
-  "563ce30e66"
+  "563ce30e66",
+  "78356c7d9d",
+  "8ab021e784"
  ]
 }
