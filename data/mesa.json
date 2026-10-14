@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4122.8 · NQ 29947.25 · VIX 16.87 · 1 noticias nuevas",
-   "actualizado": "2026-10-14T23:47:38Z"
+   "ultimo_resultado": "Oro 4124.1 · NQ 29937.75 · VIX 16.87 · 3 noticias nuevas",
+   "actualizado": "2026-10-14T23:52:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T23:47:37Z",
-   "ultimo_resultado": "1 titulares nuevos: El algodón retrocede desde máximos matutinos pero sigue al alza"
+   "actualizado": "2026-10-14T23:52:34Z",
+   "ultimo_resultado": "3 titulares nuevos: Ondo hits $4 billion TVL on tokenized stock growth"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4124.1 · NQ 29937.75 · VIX 16.87 · 3 noticias nuevas",
+   "ts": "2026-10-14T23:52:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4122.8 · NQ 29947.25 · VIX 16.87 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4161.6 · NQ 30734.5 · VIX 15.35 · 10 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-14T11:22:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4160.2 · NQ 30737.5 · VIX 15.36 · 13 noticias nuevas (4 alto impacto)",
-   "ts": "2026-10-14T11:17:37Z"
   }
  ],
  "briefs": [
@@ -6340,12 +6340,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4122.8,
-  "nq": 29947.25,
+  "oro": 4124.1,
+  "nq": 29937.75,
   "vix": 16.87,
-  "ts": "2026-10-14T23:47:37Z"
+  "ts": "2026-10-14T23:52:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Ondo hits $4 billion TVL on tokenized stock growth",
+   "link": "https://www.thestreet.com/crypto/markets/ondo-hits-4-billion-tvl-on-tokenized-stock-growth?.tsrc=rss",
+   "ts": "2026-10-14T23:35:55Z",
+   "fuente": "Yahoo Finance",
+   "id": "9183e85014",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Presentation to Australian Gold Conference",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/presentation-australian-gold-conference-233500448.html?.tsrc=rss",
+   "ts": "2026-10-14T23:35:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "106d2a48aa",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Jim Cramer explains why even strong bank earnings couldn't save their stocks",
    "link": "https://www.cnbc.com/2026/10/14/cramer-big-bank-earnings-stock-reaction.html",
@@ -6456,6 +6476,17 @@
    "impacto": "medio",
    "es": "Bank of America fija una nueva meta para el precio del oro a finales de 2026",
    "efecto": "Genera compras institucionales y fortalece la perspectiva alcista a largo plazo."
+  },
+  {
+   "titulo": "White Sox Infielder Named Gold Glove Award Finalist",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbFctUFhPZ1NMc3ljNlRsaHJQdTZDaU9XX3M0WEpOYXdDV0N4bWt4SUlFdVhqSm1JcFRLOUhkVVNVWWpLYlo0SGNjLTVWZ0hQYjhJOHdKVElHU2JXYWRVTFYwVEpuWUpoRlhKOG5mamowS1M5c0ZVZHoxeHFnZDlOdE5MWVFSdw?oc=5",
+   "ts": "2026-10-14T21:16:20Z",
+   "fuente": "Yahoo Sports",
+   "id": "ceb559901e",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Minnova Announces Positive Preliminary Economic Assessment for the PL Gold Mine Restart: After-Tax NPV5% of US$181 Million and 111% IRR at US$3,000/oz Gold, Rising to US$439 Million at US$4,000/oz",
@@ -7161,39 +7192,6 @@
     "nq"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Fannie Mae sharply raises mortgage rate forecast for 2027",
-   "link": "https://www.cnbc.com/2026/10/14/fannie-mae-sharply-raises-mortgage-rate-forecast-for-2027-.html",
-   "ts": "2026-10-14T17:08:07Z",
-   "fuente": "CNBC",
-   "id": "7b5d3f84ca",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Brewers’ Turang, Chourio among NL Gold Glove finalists",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWENLUDkyODZ4cl9wYW9ZenhBYmtvMnlubTB4ZXRtOEhadTdTYm5fcDNqREZnajNjdjBMSy0temdZa3laTmozenZBRmh6OEdCcWVTUVM1NlN4dm11bHJFQ243S2M2eTRDM05MQXE0NzNudWxBbl9JRHdaX1FGczh6ZzJnOA?oc=5",
-   "ts": "2026-10-14T17:05:37Z",
-   "fuente": "Yahoo Sports",
-   "id": "ba3fe6f15c",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Turang, Chourio among NL Gold Glove finalists for Brewers",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSmZaa0RmTGRreGhFTkYxM0htSGgxS1hPaEZudWNJVEJRTTJFQ2VyZVFZd3hXZWlZV1NfcW1yRVJNLUJJWS0wVW8teVg4RW5wQlhfRVdFWEtSMWE5SEdLQ05Banc1TGhjWEF3RWV3MksyYVBSS2c4aEx0bFprOHdvblNhUkZGVm1tTzVFM0o3djVRaDNvLUIxNE1DWm1Wb04wQ1dvOGFBMUVnb2pGNVBZTVdMRVM?oc=5",
-   "ts": "2026-10-14T17:05:37Z",
-   "fuente": "Brew Crew Ball",
-   "id": "6a92cd6705",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -7826,14 +7824,14 @@
     4128.1,
     4128.1,
     4120.9,
-    4122.8
+    4124.1
    ],
    [
-    1792021048,
-    4122.8,
-    4122.8,
-    4122.8,
-    4122.8
+    1792021344,
+    4124.1,
+    4124.1,
+    4124.1,
+    4124.1
    ]
   ],
   "nq": [
@@ -8450,15 +8448,15 @@
     1792018800,
     29993.0,
     30035.5,
-    29925.0,
-    29949.5
+    29917.25,
+    29922.75
    ],
    [
-    1792021054,
-    29947.25,
-    29947.25,
-    29947.25,
-    29947.25
+    1792021354,
+    29938.0,
+    29938.0,
+    29938.0,
+    29938.0
    ]
   ],
   "vix": [
@@ -9178,6 +9176,9 @@
   "2e999c5e9f",
   "7ac0802d36",
   "1d0a462f3f",
-  "a4422f7798"
+  "a4422f7798",
+  "9183e85014",
+  "106d2a48aa",
+  "ceb559901e"
  ]
 }
