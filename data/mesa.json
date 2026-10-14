@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4122.6 · NQ 30153.0 · VIX 16.87 · 3 noticias nuevas",
-   "actualizado": "2026-10-14T20:32:32Z"
+   "ultimo_resultado": "Oro 4121.8 · NQ 30141.0 · VIX 16.87 · 3 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-14T20:37:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T20:32:31Z",
-   "ultimo_resultado": "3 titulares nuevos: StubHub Announces Extension of Senior Credit Facilities"
+   "actualizado": "2026-10-14T20:37:33Z",
+   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: OpenAI bugging suspect booked one-way ticket to Saudi Arabia with family before arrest"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4121.8 · NQ 30141.0 · VIX 16.87 · 3 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-14T20:37:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4122.6 · NQ 30153.0 · VIX 16.87 · 3 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Brief de Londres publicado: Mercados a la espera de la inflación en EE. UU.; postura defensiva y sin entradas en mesa.",
    "ts": "2026-10-14T06:35:32Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Escribiendo el brief institucional…",
-   "ts": "2026-10-14T06:33:05Z"
   }
  ],
  "briefs": [
@@ -6090,12 +6090,33 @@
   }
  },
  "en_vivo": {
-  "oro": 4122.6,
-  "nq": 30153.0,
+  "oro": 4121.8,
+  "nq": 30141.0,
   "vix": 16.87,
-  "ts": "2026-10-14T20:32:31Z"
+  "ts": "2026-10-14T20:37:34Z"
  },
  "noticias": [
+  {
+   "titulo": "OpenAI bugging suspect booked one-way ticket to Saudi Arabia with family before arrest",
+   "link": "https://www.cnbc.com/2026/10/14/openai-alfozan-recording-raed-ventures.html",
+   "ts": "2026-10-14T20:33:22Z",
+   "fuente": "CNBC",
+   "id": "bd70610536",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNDQtMlM3MHJlVV9uLTNKMjRGLVZoU09VUGRJME5vYlBBcTdaNjkyR1R6cU5Ebnh6THlWSmJsVTZ1VXlMeE9FREl4OW5sNU9Xd0RfNVQtdjdkQV9pQm5iaFhzTURwYy1xN1NxVWd3dTEzUnpiR1RRUnB5NTVselROYzZGZmRVQQ?oc=5",
+   "ts": "2026-10-14T20:29:33Z",
+   "fuente": "Virginia Business",
+   "id": "c3f5f08316",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Bank of America shares drop after third-quarter revenue miss and regulatory penalty",
    "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
@@ -6559,6 +6580,15 @@
    "efecto": ""
   },
   {
+   "titulo": "Ontario’s Ford Says Canada Must Plan as If US Tariffs Are Permanent",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1N1OUoxX0FUcDVkaWtzanBTNDJTREctSVc4b1I5YnVjM3hZaUxGY0xzQzN2VUY0eGlMNlJvbmJKUTFoUjhNUkJzbDBpTWU1anZHUUhSSHExUjJvYXpLR1ZVeTRLTV8yVlhnZldwd05lQVY5T21pN2pnOGdkRUtQdGUtell1M29kd1VMYzVnc2hUbnJKVndzbkNYeXV2M1c3RnhpVG9YWTJWQnZlNkNxaG9GTi1VcTRyeDBWcDhlZ2lWQQ?oc=5",
+   "ts": "2026-10-14T17:29:55Z",
+   "fuente": "Bloomberg.com",
+   "id": "6e596689f2",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
    "titulo": "OpenAI’s Sachin Katti to leave infrastructure role, stay on as advisor",
    "link": "https://www.cnbc.com/2026/10/14/openais-sachin-katti-to-leave-infrastructure-role-stay-on-as-advisor.html",
    "ts": "2026-10-14T17:25:34Z",
@@ -6914,40 +6944,6 @@
    "ts": "2026-10-14T16:14:15Z",
    "fuente": "Clemson News",
    "id": "28a6d6d8be",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Dollar Strengthens on Hot Inflation Data, Higher Treasury Yields",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbEx1Q0FoZmpVSGRtUnE4U2hYRGtNeHpEanFrRUM4UFZRUC10NUh5WmZyUWQ3SUJjTUEzb19YR1JFUXZXQ2pnYlpRbk5fWGVJUEdKZUxTQ1UwRXFmSkhpRy1QOGZGb0d2YlhiTlRMSjlwSGI5c2RDeXZTaDFDbGR3Qm1LdktxaHRzeFZRMElqLVRqZ2hrd0w4NjhwbXJKY3lVNUVodUs0RHB1a2dJLUc2Nw?oc=5",
-   "ts": "2026-10-14T16:06:00Z",
-   "fuente": "WSJ",
-   "id": "73907f6fb3",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Which Precious Metals ETF is the Best Fit? Sprott Gold Miners ETF (SGDM) or abrdn Silver Fund (SIVR)?",
-   "link": "https://www.fool.com/coverage/etfs/2026/10/14/which-precious-metals-etf-is-the-best-fit-sprott-gold-miners-etf-sgdm-or-abrdn-silver-fund-sivr/?.tsrc=rss",
-   "ts": "2026-10-14T16:05:01Z",
-   "fuente": "Yahoo Finance",
-   "id": "24d5800d1d",
-   "activos": [
-    "oro",
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Daylen Lile named finalist for Rawlings Gold Glove",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeF9pMWpXT2N3SXhOZUxQODRzVm1JY1g3TUppLTRlelUwN3ZZWXpwN2FmR1UwT0lEaVFmWWw2bHUxVDY3STUzSmlUdUhWLWl3OW04MEk1V2RpSHlXUjM1LVJaUDZUTkhxVEE0bFFQbGROT1lmelZqLXRGVjgwazZlQtIBjAFBVV95cUxQYm00VUEwRTBJcXFDUmloa0g3aGRQQUVjYzV5RTJPOTdIdGxRaTdqbEpWdlhZblVLUHRCREpZVDdhVmdEdHZHaG8ycTB3by01eXV5ME9ubUZyQ25yOEJEX2o0QUcwQXJOTWhMcmw2OWd4TkVTS0lscy1GNThQOE9HU3VyVktDNEZnSVY5Uw?oc=5",
-   "ts": "2026-10-14T16:04:53Z",
-   "fuente": "MLB.com",
-   "id": "c27dec18b0",
    "activos": [
     "oro"
    ],
@@ -7570,14 +7566,14 @@
     4122.9,
     4124.7,
     4120.4,
-    4122.4
+    4121.6
    ],
    [
-    1792009346,
-    4122.6,
-    4122.6,
-    4122.6,
-    4122.6
+    1792009651,
+    4121.8,
+    4121.8,
+    4121.8,
+    4121.8
    ]
   ],
   "nq": [
@@ -8181,14 +8177,14 @@
     30185.5,
     30214.0,
     30134.75,
-    30152.5
+    30139.5
    ],
    [
-    1792009347,
-    30153.0,
-    30153.0,
-    30153.0,
-    30153.0
+    1792009645,
+    30141.0,
+    30141.0,
+    30141.0,
+    30141.0
    ]
   ],
   "vix": [
@@ -8873,6 +8869,9 @@
   "25aa95d0ae",
   "774d9680aa",
   "9a9fe76099",
-  "70c7213b9a"
+  "70c7213b9a",
+  "bd70610536",
+  "c3f5f08316",
+  "6e596689f2"
  ]
 }
