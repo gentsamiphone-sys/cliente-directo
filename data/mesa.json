@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4160.5 · NQ 30745.25 · VIX 15.35 · 12 noticias nuevas (5 alto impacto)",
-   "actualizado": "2026-10-14T11:57:36Z"
+   "ultimo_resultado": "Oro 4160.8 · NQ 30748.25 · VIX 15.34 · 12 noticias nuevas (4 alto impacto)",
+   "actualizado": "2026-10-14T12:02:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T11:57:35Z",
-   "ultimo_resultado": "12 titulares nuevos, 5 de alto impacto: BlackRock draws $205 billion in client funds as quarterly profit beats estimates"
+   "actualizado": "2026-10-14T12:02:31Z",
+   "ultimo_resultado": "12 titulares nuevos, 4 de alto impacto: A recovery in lithium demand will drive this stock higher, Mizuho says"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4160.8 · NQ 30748.25 · VIX 15.34 · 12 noticias nuevas (4 alto impacto)",
+   "ts": "2026-10-14T12:02:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4160.5 · NQ 30745.25 · VIX 15.35 · 12 noticias nuevas (5 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Volatilidad normal (VIX 15.27).",
    "ts": "2026-10-13T21:33:10Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "VIX/NQ: CONFIRMA ALCISTA: NQ sube y el VIX baja (apetito de riesgo real)",
-   "ts": "2026-10-13T21:33:09Z"
   }
  ],
  "briefs": [
@@ -5840,10 +5840,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4160.5,
-  "nq": 30745.25,
-  "vix": 15.35,
-  "ts": "2026-10-14T11:57:35Z"
+  "oro": 4160.8,
+  "nq": 30748.25,
+  "vix": 15.34,
+  "ts": "2026-10-14T12:02:32Z"
  },
  "noticias": [
   {
@@ -5852,6 +5852,15 @@
    "ts": "2026-10-14T11:57:19Z",
    "fuente": "CNBC",
    "id": "b5d5ef3e0b",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "A recovery in lithium demand will drive this stock higher, Mizuho says",
+   "link": "https://www.cnbc.com/2026/10/14/alb-stock-mizuho-lithium-demand.html",
+   "ts": "2026-10-14T11:51:23Z",
+   "fuente": "CNBC",
+   "id": "13d8c5a63c",
    "activos": [],
    "impacto": "bajo"
   },
@@ -5921,6 +5930,17 @@
    "id": "553baeb0af",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Brightline Interactive Regains Compliance with Nasdaq Minimum Bid Price Requirement",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMmpiNklPeUFPX3owUk9VLUZvdm12M1hKV3d3OGVXcmNrNDh3a19aM0tzaW5qSUZubURRNkh6NWN2dWFVM09UYmtYaWRoOFUwZFN2TkZ6STF4aGl1SVJ0VnVqMVNlbUdnTGtrZUdWQWEzWGFfejlsNVB1OFN0SW01M09pVEFaZmVhZVBlX3JPMHNJUnZsYTQycW5ZcUNrRnFVRGFIRkFabGRzUEY0ZkJWVmNKVQ?oc=5",
+   "ts": "2026-10-14T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "90233c3d3a",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Canadian Goldfields Confirms High-Grade Gold at Michelle Zone, Swayze Central, with Historic Drill Hole Re-Assay Returning 35.00 m at 3.26 g/t Gold, Including 3.00 m at 15.11 g/t and 5.00 m at 6.08 g/t Gold",
@@ -6668,24 +6688,6 @@
    "id": "65f5700a71",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "ASML says it's getting order interest through 2030 as profit smashes expectations",
-   "link": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html",
-   "ts": "2026-10-14T08:45:13Z",
-   "fuente": "CNBC",
-   "id": "39af0e6847",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "SSR Mining to acquire Roxmore Resources in $464m all-cash deal",
-   "link": "https://www.mining-technology.com/news/ssr-mining-to-acquire-roxmore-464m/?.tsrc=rss",
-   "ts": "2026-10-14T08:43:38Z",
-   "fuente": "Yahoo Finance",
-   "id": "161ed08522",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7237,14 +7239,14 @@
     4163.4,
     4165.9,
     4158.0,
-    4159.9
+    4161.2
    ],
    [
-    1791978447,
-    4160.5,
-    4160.5,
-    4160.5,
-    4160.5
+    1791978745,
+    4160.8,
+    4160.8,
+    4160.8,
+    4160.8
    ]
   ],
   "nq": [
@@ -7785,14 +7787,14 @@
     30756.5,
     30765.75,
     30716.0,
-    30738.75
+    30745.0
    ],
    [
-    1791978454,
-    30742.5,
-    30742.5,
-    30742.5,
-    30742.5
+    1791978748,
+    30748.25,
+    30748.25,
+    30748.25,
+    30748.25
    ]
   ],
   "vix": [
@@ -8221,22 +8223,22 @@
     15.32,
     15.37,
     15.29,
-    15.35
+    15.34
    ],
    [
-    1791978151,
-    15.35,
-    15.35,
-    15.35,
-    15.35
+    1791978436,
+    15.34,
+    15.34,
+    15.34,
+    15.34
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-14T11:37:33Z",
- "ult_4h": 1791978451.8052232,
+ "ult_4h": 1791979352.1226432,
  "estrategia_4h": {
   "oro": {
-   "precio": 4162.3,
+   "precio": 4160.8,
    "atr_4h": 20.95,
    "setups": [
     {
@@ -8247,29 +8249,17 @@
      "objetivo": 4242.3,
      "rr": 6.01,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.57,
+     "fuerza_ruptura_atr": 1.58,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30757.25,
+   "precio": 30748.25,
    "atr_4h": 150.54,
-   "setups": [
-    {
-     "direccion": "VENTA",
-     "nivel": 30957.5,
-     "entrada": 30957.5,
-     "stop": 31047.82,
-     "objetivo": 30591.25,
-     "rr": 4.05,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.92,
-     "ruptura": "2026-10-12 16:00 UTC"
-    }
-   ]
+   "setups": []
   },
-  "ts": "2026-10-14T11:47:32Z"
+  "ts": "2026-10-14T12:02:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
