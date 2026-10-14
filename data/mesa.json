@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4131.9 · NQ 30589.0 · VIX 15.47 · 15 noticias nuevas (7 alto impacto)",
-   "actualizado": "2026-10-14T12:47:41Z"
+   "ultimo_resultado": "Oro 4117.0 · NQ 30571.0 · VIX 15.75 · 15 noticias nuevas (6 alto impacto)",
+   "actualizado": "2026-10-14T12:52:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T12:47:35Z",
-   "ultimo_resultado": "15 titulares nuevos, 7 de alto impacto: Iran says it’s ‘counting the moments’ until it can attack U.S. warships; Saudi Aramco facilities attacked"
+   "actualizado": "2026-10-14T12:52:34Z",
+   "ultimo_resultado": "15 titulares nuevos, 6 de alto impacto: Bank of America shares drop 7% after third-quarter revenue miss and regulatory penalty"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4117.0 · NQ 30571.0 · VIX 15.75 · 15 noticias nuevas (6 alto impacto)",
+   "ts": "2026-10-14T12:52:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4131.9 · NQ 30589.0 · VIX 15.47 · 15 noticias nuevas (7 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4178.7 · NQ 30769.25 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
    "ts": "2026-10-13T23:37:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4178.7 · NQ 30770.25 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-13T23:32:33Z"
   }
  ],
  "briefs": [
@@ -6090,12 +6090,39 @@
   }
  },
  "en_vivo": {
-  "oro": 4131.9,
-  "nq": 30589.0,
-  "vix": 15.47,
-  "ts": "2026-10-14T12:47:36Z"
+  "oro": 4117.0,
+  "nq": 30571.0,
+  "vix": 15.75,
+  "ts": "2026-10-14T12:52:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Bank of America shares drop 7% after third-quarter revenue miss and regulatory penalty",
+   "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
+   "ts": "2026-10-14T12:51:35Z",
+   "fuente": "CNBC",
+   "id": "8082efb1dd",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
+   "link": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
+   "ts": "2026-10-14T12:49:45Z",
+   "fuente": "CNBC",
+   "id": "d7c9543bc4",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Trump's diesel dilemma — by the numbers",
+   "link": "https://www.cnbc.com/2026/10/14/trumps-diesel-dilemma-by-the-numbers.html",
+   "ts": "2026-10-14T12:49:36Z",
+   "fuente": "CNBC",
+   "id": "e713fac5a9",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Iran says it’s ‘counting the moments’ until it can attack U.S. warships; Saudi Aramco facilities attacked",
    "link": "https://www.cnbc.com/2026/10/14/us-iran-war-trump-hormuz-saudi.html",
@@ -6121,6 +6148,17 @@
    "efecto": ""
   },
   {
+   "titulo": "Gold X2 Provides Latest Assays from Moss Project in Ontario",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-x2-provides-latest-assays-123859572.html?.tsrc=rss",
+   "ts": "2026-10-14T12:38:59Z",
+   "fuente": "Yahoo Finance",
+   "id": "835bb86087",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Bank of America shares drop 5% after third-quarter revenue miss and regulatory penalty",
    "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
    "ts": "2026-10-14T12:36:54Z",
@@ -6128,6 +6166,18 @@
    "id": "6c103b4db9",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "US Inflation Hits 3.7%, Sinking Bitcoin and Gold: Will the Fed Hike in October?",
+   "link": "https://beincrypto.com/us-cpi-september-bitcoin-gold-fed/?.tsrc=rss",
+   "ts": "2026-10-14T12:35:19Z",
+   "fuente": "Yahoo Finance",
+   "id": "1463d684c9",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Consumer prices rose 0.6% in September, putting annual inflation rate at 3.7%",
@@ -6139,6 +6189,28 @@
     "dolar"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "CleanTech Vanadium Reports up to 12.9 g/t Gold in Quartz Surface Samples and Presents a Conceptual Starter Pit at Its El Triunfo Gold Project in Bolivia",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/cleantech-vanadium-reports-12-9-123000396.html?.tsrc=rss",
+   "ts": "2026-10-14T12:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "fd6ccfcabc",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Sitka Drills 236.0 Metres of 1.15 g/t Gold, Including 71.0 Metres of 2.79 g/t Gold and 36.3 Metres of 3.31 g/t Gold, at the Saddle Zone and Continues to Expand the Eiger Deposit at Its RC Gold Project, Yukon",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/sitka-drills-236-0-metres-123000509.html?.tsrc=rss",
+   "ts": "2026-10-14T12:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "be2ce24abd",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Bank of America shares drop more than 5% after third-quarter revenue miss and regulatory penalty",
@@ -6861,81 +6933,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Bonterra Releases Robust Preliminary Economic Assessment for the Barry Project, Highlighted by After-Tax NPV of C$665 Million and IRR of 54% at US$3,500/oz Long-Term Gold Price",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/bonterra-releases-robust-preliminary-economic-100000016.html?.tsrc=rss",
-   "ts": "2026-10-14T10:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "5679e7fd67",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "i-80 Gold Provides a Development Update; Archimedes Underground and Lone Tree Plant Refurbishment Remain on Track and Mineral Point Open Pit Prioritized in Updated Development Plan",
-   "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPeUhjQnFEZ2lMYm5BSzRMbGtzY2tFTDZMbnJBUTg0WmNLR0RpcGJYZ1l6QktRbTlRbW5fWEJQU2VRelhQa3R4blR5ei1KMjR6aW8tZHhMU2ZScnZhT3JnZXlCNnBHeWRGME13Vm1mRDVOd18xek1wYl9CMkl0UFMtUUFSa1Yzb1dTRExHY2p2c05tZHBsdHI2UWxGQ3dldy1iVm9YYU5Kb24zOVRqRnc1TUhPSVBlc05PVTBwRThuampCN1E3WmU0amtOTWd1ZzVSSEROM1FBU0FTcVRyb3hCTlNqYndWZUpWeV9FU3VVLUhJTDl1cWRzSW9mcFJPeWdCVHEwdWpiTU92SGpscjk3TFlYVGVqN0lVbnZhclU3OUdraGlqMEpmN3FvVXkxbi1xampnaktJMXYxWWpuVEU3cW9FWUwtSE0yWC1MX0dDSTduZ3FBWHc?oc=5",
-   "ts": "2026-10-14T10:00:00Z",
-   "fuente": "PR Newswire",
-   "id": "a47c80c71f",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Over the Past 3 Years, Bitcoin Is Up 225% and the Nasdaq Is Up 109%. Here's the 1 Takeaway Lesson for Crypto Investors.",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS3M1a2s3bk1LODdDMlNtSXYxczU0eXFnRnJxLXJBaHYtWElicl9HdEtNQ3hWZHoxMmFNQ0VnQWhYRG5XeGgyRldBWkxqVlFubDUyU0dDeWp4NXA4Z3VKUFRIM29JYmtUR0tVRURueXYtaDRIa2N5SWh3V0dVVE56QnotZmEzRlktaXNpX0x3VzV5SW11?oc=5",
-   "ts": "2026-10-14T09:54:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "e77c3e18d6",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "YouTube Gold: Dave Bing",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE05RjhQTVVtM0owaVZrU1RuemctNW42SHQxNlRpMGNJSkxrdEFsSDBNaFh3cXB3ZERDeGx4R2ZVb3lObTFIcDB4VzNwd2xMWlg0RzJiUXhoRVJCakZ6WWpVT0Mxa2NaWWxrUVlrcGlzdkhWX0NLNTAxcmEwdw?oc=5",
-   "ts": "2026-10-14T09:43:00Z",
-   "fuente": "Yahoo Sports",
-   "id": "30c98f3015",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Sterling today: Pound edges up as dollar softens before U.S. CPI",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/sterling-today-pound-edges-dollar-094209009.html?.tsrc=rss",
-   "ts": "2026-10-14T09:42:09Z",
-   "fuente": "Yahoo Finance",
-   "id": "edc01e8e4a",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Rolex and Gold Were for US and Not Trump, Swiss Trade Chief Says",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNTdQXzEtVG1qLXpqNlFEUXE0aGxIQWVaZ09aR043QnlCRF9WMm1HUUl1WXFDN3QwSDBEaGY2UU5nX3JBU051elJIVlR4ay0xZkYxV01CM3U4dVd3U2pkWlBucG1VVzUwcmdRQnlpMXBNY244eVNXbDJTRHpfcnBTNkxHNW9WbXdfV3ZqRmE5U1JTVGM4bWFrVnk5RExCby05TEdJNFVmYUlOZnRTcTBLd29XNEk?oc=5",
-   "ts": "2026-10-14T09:28:41Z",
-   "fuente": "Bloomberg.com",
-   "id": "e3af84a601",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Kamala Harris faults Trump's tariffs, N.K. policy, calls for stronger alliance with S. Korea",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNM1FXUGZ0blZuZDZydkw4eWxRTGtpN1pvNy12cTFmd1dEaXVsWHFaWWFBcmZERFdPUWhSOTlLcWU0dUtIcTVzV2tlekgydkpuOXM0S1k5RG42N3E2UGpnbFpKdEt3TDhmclpTaFpiZEp2RUhMSHNfcjZpcjgyRG5EcFNnRUNKd0NOYnU4MWRTNzNIXzBVZXNmX2FjUmNXZFJpcXNlZ2MwRDNWMmNZUjNsWDJUOE53bGQtOVRVYW9JUGRFSG96ZDd1TFpuY1VOWk9YX2hNUVExYUtqNW5xYl9LQV9HVDfSAeoBQVVfeXFMTXVid25OSGZLcnFJZWhSNkRxUGxhenFmQTNqS0xBSGdfT3NJLVJwNkRaMWJuaGRfSGlhVlRlbEpQM0ExY2hxdnFha3RPaGxFZlMtYndOaTQzODhfZHFRamY5eVZ6T3VlRnRWaE1lbDBfUDRrR3NFUml1NHoyb3BhaXZjRlptblZmcmNndFh1Q0M3RWRBc21rRW41bDk4aVVyUmUzY1hBY3JPd1FlZUE0V3FCbXE2ZUxEU2VJNjk1a2ZaTTNNTHZlek1pX1BrMGxpUjQ5QXV0d09YMGlMTE13Z293M19ZYWNUUFBB?oc=5",
-   "ts": "2026-10-14T09:27:39Z",
-   "fuente": "upi",
-   "id": "9869d3d177",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -7497,15 +7494,15 @@
     1791979200,
     4161.8,
     4179.9,
-    4129.6,
-    4135.4
+    4114.1,
+    4116.0
    ],
    [
-    1791981460,
-    4131.8,
-    4131.8,
-    4131.8,
-    4131.8
+    1791981752,
+    4117.0,
+    4117.0,
+    4117.0,
+    4117.0
    ]
   ],
   "nq": [
@@ -8052,15 +8049,15 @@
     1791979200,
     30762.0,
     30852.75,
-    30582.25,
-    30588.0
+    30557.25,
+    30573.75
    ],
    [
-    1791981459,
-    30590.0,
-    30590.0,
-    30590.0,
-    30590.0
+    1791981755,
+    30572.75,
+    30572.75,
+    30572.75,
+    30572.75
    ]
   ],
   "vix": [
@@ -8494,16 +8491,16 @@
    [
     1791979200,
     15.33,
-    15.53,
+    15.7,
     14.98,
-    15.46
+    15.7
    ],
    [
-    1791981151,
-    15.47,
-    15.47,
-    15.47,
-    15.47
+    1791981451,
+    15.75,
+    15.75,
+    15.75,
+    15.75
    ]
   ]
  },
