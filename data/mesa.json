@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T16:02:38Z",
-   "ultimo_resultado": "Estrategia 4H NQ: VENTA: esperar retesteo de 30504.5 · stop 30613.59 · objetivo 30028.5 · R:R 4.36 (esperando retesteo). Tú ejecutas."
+   "actualizado": "2026-10-14T16:17:33Z",
+   "ultimo_resultado": "Estrategia 4H NQ: VENTA: esperar retesteo de 30529.25 · stop 30633.01 · objetivo 30303.5 · R:R 2.18 (esperando retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T16:12:35Z",
-   "ultimo_resultado": "15 titulares nuevos, 7 de alto impacto: Dollar Strengthens on Hot Inflation Data, Higher Treasury Yields"
+   "actualizado": "2026-10-14T16:17:32Z",
+   "ultimo_resultado": "15 titulares nuevos, 5 de alto impacto: How Many Households in the Southeast are Low- to Moderate-Income?"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H NQ: VENTA: esperar retesteo de 30529.25 · stop 30633.01 · objetivo 30303.5 · R:R 2.18 (esperando retesteo). Tú ejecutas.",
+   "ts": "2026-10-14T16:17:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4097.6 · NQ 30311.25 · VIX 16.23 · 15 noticias nuevas (7 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4189.5 · NQ 30874.0 · VIX 15.27 · 15 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-14T03:37:30Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4190.8 · NQ 30882.75 · VIX 15.27 · 12 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-14T03:32:34Z"
   }
  ],
  "briefs": [
@@ -6090,12 +6090,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4097.6,
-  "nq": 30311.25,
-  "vix": 16.23,
-  "ts": "2026-10-14T16:12:35Z"
+  "oro": 4102.1,
+  "nq": 30311.0,
+  "vix": 16.28,
+  "ts": "2026-10-14T16:17:33Z"
  },
  "noticias": [
+  {
+   "titulo": "How Many Households in the Southeast are Low- to Moderate-Income?",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTDJnMjJrWW9LcjktSHlIVERwSlMzclJvcHdVY1JFZkRGZzRMcTZhaC1LQzMyMEdvVmhMSlJzVGs0QmNHb21aVGMzS1NQQnUzUlVTSWlUbWM3eU1DckxrQzJNMFBxbEh6OXEwOWxMNkZreUYzQ1pzb2doblFaVjlYUDdJbDZvZElOR1JYUGsycDN6T1BkSS13S0dEUlFaeWZlOTg5bVVIZ2t3ODd2Y0I0eEdDWVJQVTBwTHlwc3kzWmRIUDJrSVBjdnJTcjRxLTlWRHlRd2F4anM1SU5pNXJNbGxR?oc=5",
+   "ts": "2026-10-14T16:14:24Z",
+   "fuente": "Federal Reserve Bank of Atlanta",
+   "id": "331d7b958f",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Clemson earns gold certificate for military academic program from South Carolina Department of Veterans’ Affairs",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUmZCV09uRF9qVVNqd1BoWFVfeFRBa2xPMHdfZERPMkcwWXREbUNDdmtEeUJFMDdQNnI1M1BieWRTaWllZmh1c09XNTFKZHJISjRzTTVDajNTWF9HNmRmczRCeVVDWnVRUVJRSWpGaXRZMkpqa2NOcVRvamotREs4ODB6ZUFUbFlucnA5cUVaZVlIWTRPaF93djJNb0xlZjZHRWpBMHdtUmltZG5FMGZXSC03WjJKekJiczJVYnhuYl9OWDk3Ymh1dVB3YTlqcW1XMmEw?oc=5",
+   "ts": "2026-10-14T16:14:15Z",
+   "fuente": "Clemson News",
+   "id": "28a6d6d8be",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Dollar Strengthens on Hot Inflation Data, Higher Treasury Yields",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbEx1Q0FoZmpVSGRtUnE4U2hYRGtNeHpEanFrRUM4UFZRUC10NUh5WmZyUWQ3SUJjTUEzb19YR1JFUXZXQ2pnYlpRbk5fWGVJUEdKZUxTQ1UwRXFmSkhpRy1QOGZGb0d2YlhiTlRMSjlwSGI5c2RDeXZTaDFDbGR3Qm1LdktxaHRzeFZRMElqLVRqZ2hrd0w4NjhwbXJKY3lVNUVodUs0RHB1a2dJLUc2Nw?oc=5",
@@ -6932,28 +6952,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Consumer prices rose 0.6% in September, putting annual inflation rate at 3.7%",
-   "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html",
-   "ts": "2026-10-14T12:31:19Z",
-   "fuente": "CNBC",
-   "id": "cee00cb7a2",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "CleanTech Vanadium Reports up to 12.9 g/t Gold in Quartz Surface Samples and Presents a Conceptual Starter Pit at Its El Triunfo Gold Project in Bolivia",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/cleantech-vanadium-reports-12-9-123000396.html?.tsrc=rss",
-   "ts": "2026-10-14T12:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "fd6ccfcabc",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -8603,65 +8601,65 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-14T15:52:37Z",
- "ult_4h": 1791993757.8500876,
+ "ult_4h": 1791994653.3446755,
  "estrategia_4h": {
   "oro": {
-   "precio": 4102.4,
-   "atr_4h": 24.76,
+   "precio": 4101.6,
+   "atr_4h": 24.31,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4129.2,
      "entrada": 4129.2,
-     "stop": 4144.05,
-     "objetivo": 4091.2,
-     "rr": 2.56,
+     "stop": 4143.78,
+     "objetivo": 4095.0,
+     "rr": 2.35,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.4,
+     "fuerza_ruptura_atr": 2.46,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 4173.7,
-     "entrada": 4173.7,
-     "stop": 4188.55,
-     "objetivo": 4101.0,
-     "rr": 4.89,
+     "nivel": 4178.1,
+     "entrada": 4178.1,
+     "stop": 4192.68,
+     "objetivo": 4095.0,
+     "rr": 5.7,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.4,
+     "fuerza_ruptura_atr": 2.46,
      "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30327.0,
-   "atr_4h": 181.82,
+   "precio": 30311.0,
+   "atr_4h": 172.93,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30479.09,
+     "stop": 30473.76,
      "objetivo": 30028.5,
-     "rr": 3.13,
+     "rr": 3.29,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 2.39,
+     "fuerza_ruptura_atr": 2.5,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30504.5,
-     "entrada": 30504.5,
-     "stop": 30613.59,
-     "objetivo": 30028.5,
-     "rr": 4.36,
+     "nivel": 30529.25,
+     "entrada": 30529.25,
+     "stop": 30633.01,
+     "objetivo": 30303.5,
+     "rr": 2.18,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.39,
+     "fuerza_ruptura_atr": 2.5,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-14T16:02:38Z"
+  "ts": "2026-10-14T16:17:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -8676,7 +8674,8 @@
   "nq|VENTA|30604.75|en retesteo",
   "nq|VENTA|30604.75|esperando retesteo",
   "nq|VENTA|30370.0|en retesteo",
-  "nq|VENTA|30504.5|esperando retesteo"
+  "nq|VENTA|30504.5|esperando retesteo",
+  "nq|VENTA|30529.25|esperando retesteo"
  ],
  "alpha_ordenes": []
 }
