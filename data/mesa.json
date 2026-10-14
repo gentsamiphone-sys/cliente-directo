@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4121.2 · NQ 30470.75 · VIX 15.69 · 15 noticias nuevas (5 alto impacto)",
-   "actualizado": "2026-10-14T14:48:08Z"
+   "ultimo_resultado": "Oro 4125.9 · NQ 30483.25 · VIX 15.71 · 15 noticias nuevas (7 alto impacto)",
+   "actualizado": "2026-10-14T14:52:51Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T14:48:06Z",
-   "ultimo_resultado": "15 titulares nuevos, 5 de alto impacto: Desglose de la inflación de septiembre de 2026 en un gráfico"
+   "actualizado": "2026-10-14T14:52:50Z",
+   "ultimo_resultado": "15 titulares nuevos, 7 de alto impacto: Netflix to lay off roughly 1,000 employees, or 6% of workforce"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4125.9 · NQ 30483.25 · VIX 15.71 · 15 noticias nuevas (7 alto impacto)",
+   "ts": "2026-10-14T14:52:51Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4121.2 · NQ 30470.75 · VIX 15.69 · 15 noticias nuevas (5 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4179.6 · NQ 30840.25 · VIX 15.27 · 13 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-14T02:02:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4168.8 · NQ 30799.75 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-14T01:57:40Z"
   }
  ],
  "briefs": [
@@ -6090,12 +6090,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4121.2,
-  "nq": 30470.75,
-  "vix": 15.69,
-  "ts": "2026-10-14T14:48:07Z"
+  "oro": 4125.9,
+  "nq": 30483.25,
+  "vix": 15.71,
+  "ts": "2026-10-14T14:52:51Z"
  },
  "noticias": [
+  {
+   "titulo": "Netflix to lay off roughly 1,000 employees, or 6% of workforce",
+   "link": "https://www.cnbc.com/2026/10/14/netflix-layoffs.html",
+   "ts": "2026-10-14T14:52:29Z",
+   "fuente": "CNBC",
+   "id": "34e8bac964",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Here's the inflation breakdown for September 2026 — in one chart",
    "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
@@ -6110,6 +6119,17 @@
    "impacto": "medio",
    "es": "Desglose de la inflación de septiembre de 2026 en un gráfico",
    "efecto": "Evaluar datos de inflación para ajustar posiciones en renta variable y bonos."
+  },
+  {
+   "titulo": "S&P/TSX Composite Index Falls Wednesday Morning as Metal Prices Decline",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/p-tsx-composite-index-falls-144153925.html?.tsrc=rss",
+   "ts": "2026-10-14T14:41:53Z",
+   "fuente": "Yahoo Finance",
+   "id": "cf186128b5",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Bending Spoons skyrockets 35% as Berkshire Hathaway makes $330 million investment",
@@ -6925,26 +6945,6 @@
    "id": "7be3588e06",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Fastenal’s (NASDAQ:FAST) Q3 2026: Beats On Revenue",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZ0VNY1hRcEdHbzl1LTlleXZCdHlKMVJSaWw0MjlfUTc0NEpGd0FpVnE3MlNZaU9scE4xWExzbHZDNEZ6Qk91OEg4d0JkS3V6QXpnLXVDM05fdGs5QUJrV0piWG91dXdRMkhTdWNmd0Y5d0xXaFV2SU1MalB3ekxyOVBUU2lSZEpaNml4UEtUQXB2MDZaOWRFRQ?oc=5",
-   "ts": "2026-10-14T11:22:10Z",
-   "fuente": "Yahoo Finance",
-   "id": "866da05173",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Morgan Stanley is set to report earnings — here’s what to expect",
-   "link": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
-   "ts": "2026-10-14T11:16:28Z",
-   "fuente": "CNBC",
-   "id": "5641a4c47e",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7519,16 +7519,16 @@
    [
     1791986400,
     4110.4,
-    4123.9,
+    4126.2,
     4108.6,
-    4120.4
+    4125.4
    ],
    [
-    1791988685,
-    4121.2,
-    4121.2,
-    4121.2,
-    4121.2
+    1791988969,
+    4125.8,
+    4125.8,
+    4125.8,
+    4125.8
    ]
   ],
   "nq": [
@@ -8090,14 +8090,14 @@
     30475.5,
     30538.25,
     30453.0,
-    30473.75
+    30490.5
    ],
    [
-    1791988687,
-    30470.75,
-    30470.75,
-    30470.75,
-    30470.75
+    1791988971,
+    30482.5,
+    30482.5,
+    30482.5,
+    30482.5
    ]
   ],
   "vix": [
@@ -8546,15 +8546,15 @@
     1791986400,
     15.81,
     15.91,
-    15.67,
-    15.69
+    15.6,
+    15.67
    ],
    [
-    1791988381,
-    15.69,
-    15.69,
-    15.69,
-    15.69
+    1791988666,
+    15.71,
+    15.71,
+    15.71,
+    15.71
    ]
   ]
  },
