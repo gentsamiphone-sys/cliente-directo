@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4167.5 · NQ 30766.25 · VIX 15.3 · 7 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-14T10:57:31Z"
+   "ultimo_resultado": "Oro 4166.7 · NQ 30759.0 · VIX 15.32 · 6 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-14T11:02:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T10:57:31Z",
-   "ultimo_resultado": "7 titulares nuevos, 1 de alto impacto: Bank of America posts third-quarter profit drop due to $1.2 billion Treasury fine"
+   "actualizado": "2026-10-14T11:02:36Z",
+   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: Anthropic urges court in Washington, DC, to rehear appeal of Pentagon blacklisting"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4166.7 · NQ 30759.0 · VIX 15.32 · 6 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-14T11:02:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4167.5 · NQ 30766.25 · VIX 15.3 · 7 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Abriendo la mesa para la sesión de Asia (Tokio/Sídney).",
    "ts": "2026-10-13T21:32:51Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "15 titulares nuevos, 1 de alto impacto: Pope Leo diagnosed with cancer as doctors remove lobe of lung, Vatican says",
-   "ts": "2026-10-13T21:32:32Z"
   }
  ],
  "briefs": [
@@ -5840,12 +5840,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4167.5,
-  "nq": 30766.25,
-  "vix": 15.3,
-  "ts": "2026-10-14T10:57:31Z"
+  "oro": 4166.7,
+  "nq": 30759.0,
+  "vix": 15.32,
+  "ts": "2026-10-14T11:02:36Z"
  },
  "noticias": [
+  {
+   "titulo": "Anthropic urges court in Washington, DC, to rehear appeal of Pentagon blacklisting",
+   "link": "https://www.cnbc.com/2026/10/13/anthropic-wants-court-in-dc-to-rehear-appeal-of-pentagon-blacklist-.html",
+   "ts": "2026-10-14T11:01:42Z",
+   "fuente": "CNBC",
+   "id": "13cbaba33a",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Bank of America posts third-quarter profit drop due to $1.2 billion Treasury fine",
    "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
@@ -6665,15 +6674,6 @@
    "impacto": "medio",
    "es": "Las exportaciones de China superan expectativas en septiembre y el superávit comercial se amplía",
    "efecto": "Impulsa el apetito por riesgo y al oro por mayor demanda asiática."
-  },
-  {
-   "titulo": "Judge indefinitely blocks Trump White House from banning 3 media outlets",
-   "link": "https://www.cnbc.com/2026/10/14/trump-white-house-msnow-cnn-politico-media-ban.html",
-   "ts": "2026-10-14T03:36:44Z",
-   "fuente": "CNBC",
-   "id": "5caced67df",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7218,14 +7218,14 @@
     4166.6,
     4168.8,
     4162.6,
-    4168.0
+    4166.4
    ],
    [
-    1791974830,
-    4167.5,
-    4167.5,
-    4167.5,
-    4167.5
+    1791975153,
+    4166.7,
+    4166.7,
+    4166.7,
+    4166.7
    ]
   ],
   "nq": [
@@ -7759,14 +7759,14 @@
     30794.25,
     30805.0,
     30752.75,
-    30764.75
+    30755.25
    ],
    [
-    1791974848,
-    30766.25,
-    30766.25,
-    30766.25,
-    30766.25
+    1791975152,
+    30759.0,
+    30759.0,
+    30759.0,
+    30759.0
    ]
   ],
   "vix": [
@@ -8186,24 +8186,24 @@
    [
     1791972000,
     15.19,
-    15.31,
+    15.33,
     15.19,
-    15.31
+    15.32
    ],
    [
-    1791974536,
-    15.3,
-    15.3,
-    15.3,
-    15.3
+    1791974851,
+    15.32,
+    15.32,
+    15.32,
+    15.32
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-14T10:37:31Z",
- "ult_4h": 1791974856.7784986,
+ "ult_4h": 1791975756.4996223,
  "estrategia_4h": {
   "oro": {
-   "precio": 4165.6,
+   "precio": 4166.7,
    "atr_4h": 20.62,
    "setups": [
     {
@@ -8214,17 +8214,29 @@
      "objetivo": 4242.3,
      "rr": 6.1,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.6,
+     "fuerza_ruptura_atr": 1.59,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30773.0,
+   "precio": 30759.0,
    "atr_4h": 148.66,
-   "setups": []
+   "setups": [
+    {
+     "direccion": "VENTA",
+     "nivel": 30957.5,
+     "entrada": 30957.5,
+     "stop": 31046.7,
+     "objetivo": 30591.25,
+     "rr": 4.11,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 0.93,
+     "ruptura": "2026-10-12 16:00 UTC"
+    }
+   ]
   },
-  "ts": "2026-10-14T10:47:36Z"
+  "ts": "2026-10-14T11:02:36Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
