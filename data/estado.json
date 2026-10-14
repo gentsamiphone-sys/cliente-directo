@@ -2979,9 +2979,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando restaurantes y comida sin página web cerca de Decatur Blvd…",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-14T19:02:31Z"
+   "actualizado": "2026-10-14T19:02:33Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -3009,6 +3009,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando restaurantes y comida sin página web cerca de Decatur Blvd…",
+   "ts": "2026-10-14T19:02:33Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 131 textos listos para mandar",
@@ -4503,11 +4508,6 @@
    "agente": "seguimiento",
    "texto": "Terminó su turno: 0 respuestas nuevas, 0 bajas, 0 seguimientos",
    "ts": "2026-10-12T12:12:34Z"
-  },
-  {
-   "agente": "vendedor",
-   "texto": "Terminó su turno: Fuera de horario: 0 correos listos para la mañana",
-   "ts": "2026-10-12T11:52:36Z"
   }
  ],
  "reportes": {
