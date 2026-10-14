@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4106.4 · NQ 30357.5 · VIX 15.88 · 14 noticias nuevas (7 alto impacto)",
-   "actualizado": "2026-10-14T15:47:40Z"
+   "ultimo_resultado": "Oro 4105.0 · NQ 30321.0 · VIX 15.99 · 14 noticias nuevas (5 alto impacto)",
+   "actualizado": "2026-10-14T15:52:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T15:47:39Z",
-   "ultimo_resultado": "14 titulares nuevos, 7 de alto impacto: Federal Reserve Bank of Philadelphia President Visits Penn College [2026-10-14]"
+   "actualizado": "2026-10-14T15:52:41Z",
+   "ultimo_resultado": "14 titulares nuevos, 5 de alto impacto: Portacontenedores se hunde en el Estrecho de Ormuz por ataques de Irán"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4105.0 · NQ 30321.0 · VIX 15.99 · 14 noticias nuevas (5 alto impacto)",
+   "ts": "2026-10-14T15:52:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4106.4 · NQ 30357.5 · VIX 15.88 · 14 noticias nuevas (7 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4188.2 · NQ 30870.75 · VIX 15.27 · 11 noticias nuevas (2 alto impacto)",
    "ts": "2026-10-14T03:07:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4187.0 · NQ 30873.5 · VIX 15.27 · 12 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-14T03:02:37Z"
   }
  ],
  "briefs": [
@@ -6090,12 +6090,39 @@
   }
  },
  "en_vivo": {
-  "oro": 4106.4,
-  "nq": 30357.5,
-  "vix": 15.88,
-  "ts": "2026-10-14T15:47:39Z"
+  "oro": 4105.0,
+  "nq": 30321.0,
+  "vix": 15.99,
+  "ts": "2026-10-14T15:52:42Z"
  },
  "noticias": [
+  {
+   "titulo": "Container ship sinks in Strait of Hormuz as Iran steps up attacks",
+   "link": "https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html",
+   "ts": "2026-10-14T15:47:29Z",
+   "fuente": "CNBC",
+   "id": "fcae1c4306",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Portacontenedores se hunde en el Estrecho de Ormuz por ataques de Irán",
+   "efecto": "Dispara la aversión al riesgo, impulsando al oro y al dólar."
+  },
+  {
+   "titulo": "Treasury says largest U.S. banks let politics influence who received banking services",
+   "link": "https://www.cnbc.com/2026/10/14/treasury-banks-debanking-trump-reputation-risk.html",
+   "ts": "2026-10-14T15:44:54Z",
+   "fuente": "CNBC",
+   "id": "42a62d0b9b",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "Tesoro dice que grandes bancos de EE. UU. dejaron que la política influyera en servicios",
+   "efecto": "Ruido regulatorio menor sin impacto directo en índices."
+  },
   {
    "titulo": "We're exiting our remaining stake in an industrial stock spin-off gone wrong",
    "link": "https://www.cnbc.com/investingclub/2026/10/14/were-exiting-our-remaining-stake-in-an-industrial-stock-spin-off-gone-wrong.html",
@@ -6925,26 +6952,6 @@
    "impacto": "medio",
    "es": "Principales recomendaciones de analistas: Nvidia, Apple, Meta y más",
    "efecto": "Impulsa al NQ al alza por compras en grandes tecnológicas."
-  },
-  {
-   "titulo": "'Office' is actually having a scarcity problem",
-   "link": "https://www.cnbc.com/2026/10/14/office-is-actually-having-a-scarcity-problem.html",
-   "ts": "2026-10-14T12:08:13Z",
-   "fuente": "CNBC",
-   "id": "1bac66c53c",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "El mercado de oficinas enfrenta un problema real de escasez",
-   "efecto": "Sin efecto relevante en los activos principales."
-  },
-  {
-   "titulo": "Bank of America shares drop more than 4% after third-quarter revenue miss and regulatory penalty",
-   "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
-   "ts": "2026-10-14T12:07:11Z",
-   "fuente": "CNBC",
-   "id": "657825cf13",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7527,15 +7534,15 @@
     1791990000,
     4115.6,
     4118.0,
-    4105.0,
-    4106.6
+    4101.0,
+    4104.7
    ],
    [
-    1791992258,
-    4106.4,
-    4106.4,
-    4106.4,
-    4106.4
+    1791992561,
+    4104.9,
+    4104.9,
+    4104.9,
+    4104.9
    ]
   ],
   "nq": [
@@ -8103,15 +8110,15 @@
     1791990000,
     30489.25,
     30491.0,
-    30348.75,
-    30350.0
+    30310.25,
+    30330.75
    ],
    [
-    1791992259,
-    30357.75,
-    30357.75,
-    30357.75,
-    30357.75
+    1791992561,
+    30326.25,
+    30326.25,
+    30326.25,
+    30326.25
    ]
   ],
   "vix": [
@@ -8568,18 +8575,18 @@
     15.76,
     16.05,
     15.76,
-    15.88
+    15.95
    ],
    [
-    1791991951,
-    15.88,
-    15.88,
-    15.88,
-    15.88
+    1791992251,
+    15.99,
+    15.99,
+    15.99,
+    15.99
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-14T15:22:37Z",
+ "noticias_traducidas_ts": "2026-10-14T15:52:37Z",
  "ult_4h": 1791992859.2726765,
  "estrategia_4h": {
   "oro": {
