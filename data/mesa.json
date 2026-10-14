@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T12:33:05Z",
-   "ultimo_resultado": "Mapa listo: oro 4175.1 · NQ 30793.0."
+   "actualizado": "2026-10-14T12:47:36Z",
+   "ultimo_resultado": "Estrategia 4H ORO: VENTA: esperar retesteo de 4173.7 · stop 4187.33 · objetivo 4129.6 · R:R 3.24 (esperando retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T12:42:41Z",
-   "ultimo_resultado": "15 titulares nuevos, 7 de alto impacto: Los precios al consumidor subieron a una tasa anual del 3.7% en septiembre por la gasolina"
+   "actualizado": "2026-10-14T12:47:35Z",
+   "ultimo_resultado": "15 titulares nuevos, 7 de alto impacto: Iran says it’s ‘counting the moments’ until it can attack U.S. warships; Saudi Aramco facilities attacked"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H ORO: VENTA: esperar retesteo de 4173.7 · stop 4187.33 · objetivo 4129.6 · R:R 3.24 (esperando retesteo). Tú ejecutas.",
+   "ts": "2026-10-14T12:47:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4150.2 · NQ 30645.0 · VIX 15.28 · 15 noticias nuevas (7 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4180.0 · NQ 30784.75 · VIX 15.27 · 15 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-13T23:27:41Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4181.7 · NQ 30782.75 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-13T23:22:31Z"
   }
  ],
  "briefs": [
@@ -6090,12 +6090,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4150.2,
-  "nq": 30645.0,
-  "vix": 15.28,
-  "ts": "2026-10-14T12:42:41Z"
+  "oro": 4131.9,
+  "nq": 30589.0,
+  "vix": 15.47,
+  "ts": "2026-10-14T12:47:36Z"
  },
  "noticias": [
+  {
+   "titulo": "Iran says it’s ‘counting the moments’ until it can attack U.S. warships; Saudi Aramco facilities attacked",
+   "link": "https://www.cnbc.com/2026/10/14/us-iran-war-trump-hormuz-saudi.html",
+   "ts": "2026-10-14T12:43:45Z",
+   "fuente": "CNBC",
+   "id": "9e2df378b8",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "Consumer prices rose at 3.7% annual rate in September as gas costs skyrocket",
    "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html",
@@ -6453,6 +6462,17 @@
    "id": "c18109bb2a",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Seabridge Gold (TSX:SEA) Stock Looks Above Fair Value On Its 157% Run",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR3VabHp4WGhlazNuWnZMcmZwR2xvN0U3cDU2OVV5WE1EbTdrVUZLUzV4a2NqaU1Ud0U5b3lobzJqdFAzM3doanI2N3h4cnppZTRENlY4VEhXSzZMbmphOHIwdnR6ejFvZXdwUHhMLVVDWXlfdVhVNC1wYlZsYzBjTHc2dFpwT0pIMjVRVUhvODRyMFNRc3dEQQ?oc=5",
+   "ts": "2026-10-14T11:09:04Z",
+   "fuente": "Yahoo Finance",
+   "id": "5c90d71111",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Anthropic urges court in Washington, DC, to rehear appeal of Pentagon blacklisting",
@@ -6916,30 +6936,6 @@
    "id": "9869d3d177",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Trump administration pays out milestone $100 billion in tariff refunds - ABC News",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaC1NcXQtTU1pa0V3QTQ3eW9CMThMVUVWXzBVLUpkTlNCekpxQkxiQi1XZzI0X1VzZ2hNdXRjUzF5MVlzcm9zcnJRb3pRanp1TGJ1Mm02T0NDWXU0MXI1R3JmNHNKb3lnOWx2R0dpQjR2Rk9aNGowb0NNcXRpVWdQRmVoN1pndGhaLUxXc3d5d2R6RVlhVHlNbHd6c1RnZUdUNFp5YUl3OGF4VURrTjg00gG0AUFVX3lxTE5IUDFROHpDMGhZM1pRelFZelItOFlhYTk4ZlpZaVpwWjBuYUZoN2l4MFM2bjRFMDBjMEtyNXFsSF93eFBzcU43TW16XzNacEh1b0Vja0xRZkp5LTFMaE4wUUlfd1o4RUNsNkN0aWVtb1hQTHZELUtvR2N0QVROTjN2dF9JZW9QUVl6NzNTRVJFSDRKYy15WHRUMGxDNWNabzFvZGFSNlhHcnBtWlN3TnloUFZlbQ?oc=5",
-   "ts": "2026-10-14T09:27:14Z",
-   "fuente": "Breaking News, Latest News and Videos",
-   "id": "c08967b217",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Trump set to impose sweeping tariffs on 60 trade partners - ABC News",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa1BDcjdFRHFWaGlkYlMzZi1ZY2hCaVR5dGRpalctVTI1Q2poOGxFcXZqdmZfX2lqaVZxRmo3MWZIZ2ZUU0xCMm44OFdibDRCNF9BOVNmT1VHNURxR0tabkNtaVdoNTRaTW81cVIyVUdvanhBUS1rX3pEZFdyQmNSbDVDa0VMM2tPVGhYbDkwR1VhcUJJTDJXVmhNZVVVNi1L0gGmAUFVX3lxTE5UdFo2TDl4c1R2ZWRuX1ZxbTA3UmdwQnlrbVh1OXUyd1pucVlQS2dqY2VsbnRNSGt3WWljNkZ3V2kySmZNUzJ4WVBaT2NXSGRuUFlqRmx1UXNzSlEwZkV1MGRWVWxNbHdBcnY3Vm9CMVFqSWZxdnI3TkZqbWxValByNzBMRWxBR3BraFBtbEVuUFBvNDNpUVNBdWVkN3V6enc1YjlIWXc?oc=5",
-   "ts": "2026-10-14T09:22:02Z",
-   "fuente": "Breaking News, Latest News and Videos",
-   "id": "dca9e99948",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Trump planea imponer aranceles generalizados a 60 socios comerciales",
-   "efecto": "Busca refugio en oro y dólar; presiona a la baja al NQ."
   }
  ],
  "eventos_avisados": [
@@ -8512,38 +8508,51 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-14T12:42:36Z",
- "ult_4h": 1791981155.2234142,
+ "ult_4h": 1791982056.1685963,
  "estrategia_4h": {
   "oro": {
-   "precio": 4175.3,
-   "atr_4h": 20.22,
+   "precio": 4131.9,
+   "atr_4h": 22.71,
    "setups": [
     {
-     "direccion": "COMPRA",
-     "nivel": 4166.8,
-     "entrada": 4166.8,
-     "stop": 4154.67,
-     "objetivo": 4242.3,
-     "rr": 6.22,
-     "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.63,
-     "ruptura": "2026-10-08 20:00 UTC"
+     "direccion": "VENTA",
+     "nivel": 4173.7,
+     "entrada": 4173.7,
+     "stop": 4187.33,
+     "objetivo": 4129.6,
+     "rr": 3.24,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 1.32,
+     "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30791.0,
-   "atr_4h": 147.23,
-   "setups": []
+   "precio": 30589.0,
+   "atr_4h": 162.39,
+   "setups": [
+    {
+     "direccion": "VENTA",
+     "nivel": 30957.5,
+     "entrada": 30957.5,
+     "stop": 31054.94,
+     "objetivo": 30582.25,
+     "rr": 3.85,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 0.85,
+     "ruptura": "2026-10-12 16:00 UTC"
+    }
+   ]
   },
-  "ts": "2026-10-14T12:33:21Z"
+  "ts": "2026-10-14T12:47:36Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
   "nq|VENTA|30957.5|esperando retesteo",
   "nq|VENTA|30792.0|esperando retesteo",
   "nq|VENTA|30792.0|en retesteo",
-  "oro|COMPRA|4166.8|en retesteo"
+  "oro|COMPRA|4166.8|en retesteo",
+  "oro|VENTA|4173.7|esperando retesteo"
  ],
  "alpha_ordenes": []
 }
