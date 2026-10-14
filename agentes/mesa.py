@@ -1002,7 +1002,9 @@ def noticias(me):
     """Junta titulares nuevos, los traduce y los clasifica; avisa al teléfono los de alto impacto y los datos por salir."""
     import hashlib
     lista = me.m.setdefault("noticias", [])
-    vistos = {n["id"] for n in lista}
+    # memoria aparte de titulares ya vistos (la lista de 80 se recorta y no basta)
+    memoria = me.m.setdefault("noticias_vistas", [])
+    vistos = {n["id"] for n in lista} | set(memoria)
     nuevas = []
     for f, u in FUENTES_NOTICIAS:
         try:
@@ -1018,6 +1020,9 @@ def noticias(me):
         except Exception as ex:
             print("noticias", f, ex)
     nuevas.sort(key=lambda n: n["ts"], reverse=True)
+    # todas las candidatas cuentan como vistas, aunque solo se guarden las 15 más recientes
+    memoria.extend(n["id"] for n in nuevas)
+    del memoria[:-800]
     nuevas = nuevas[:15]
     ult = me.m.get("noticias_traducidas_ts")
     toca_traducir = not ult or (datetime.now(timezone.utc) - datetime.fromisoformat(ult.replace("Z", "+00:00"))).total_seconds() > 1800
