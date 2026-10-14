@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4122.1 · NQ 30173.0 · VIX 16.87 · 3 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-14T20:07:33Z"
+   "ultimo_resultado": "Oro 4122.6 · NQ 30195.75 · VIX 16.89 · 3 noticias nuevas",
+   "actualizado": "2026-10-14T20:12:40Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T20:07:33Z",
-   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: Anduril employee tender offer would value the defense tech startup at $90 billion"
+   "actualizado": "2026-10-14T20:12:39Z",
+   "ultimo_resultado": "3 titulares nuevos: Dell stock plunges 11%, leading data center sell-off on concerns about 'enterprise AI timing'"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4122.6 · NQ 30195.75 · VIX 16.89 · 3 noticias nuevas",
+   "ts": "2026-10-14T20:12:40Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4122.1 · NQ 30173.0 · VIX 16.87 · 3 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el S&P 500 (ES) con el NQ…",
    "ts": "2026-10-14T06:33:00Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Volatilidad normal (VIX 15.27).",
-   "ts": "2026-10-14T06:32:59Z"
   }
  ],
  "briefs": [
@@ -6090,12 +6090,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4122.1,
-  "nq": 30173.0,
-  "vix": 16.87,
-  "ts": "2026-10-14T20:07:33Z"
+  "oro": 4122.6,
+  "nq": 30195.75,
+  "vix": 16.89,
+  "ts": "2026-10-14T20:12:39Z"
  },
  "noticias": [
+  {
+   "titulo": "Dell stock plunges 11%, leading data center sell-off on concerns about 'enterprise AI timing'",
+   "link": "https://www.cnbc.com/2026/10/14/dell-stock-barclays-enterprise-ai.html",
+   "ts": "2026-10-14T20:06:38Z",
+   "fuente": "CNBC",
+   "id": "718f8874a2",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Tigers' Dillon Dingler, Zach McKinstry named Gold Glove finalists",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQVdnLVdOWkN2VmxsN0ZZZDhWVXJYYks5NFhNTDhOLWEyRUVPSzFsWHp0dGxJYUdzZFFxYld6eUpDeDdEdTRxYkJaaU1yX184QUdsUlBMcEd3cnIzUmQ1cVUza3Z4c184cnVKOWtIeE9xRHlJRm1RYWlqNTlhSEJReXVsYmRRUjlPaVRDT0hXZlNKaFk3MjBXQkVmOU40MllTNTlJN1NFU0lvY3JhR2FiMndCekRlUkpFMnBoek5SbVlhc0V0dkRBbWlaQWVGSHdN?oc=5",
+   "ts": "2026-10-14T20:04:00Z",
+   "fuente": "Detroit Free Press",
+   "id": "7c060c6d0f",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Anduril employee tender offer would value the defense tech startup at $90 billion",
    "link": "https://www.cnbc.com/2026/10/14/anduril-tender-offer-valuation.html",
@@ -6527,6 +6547,17 @@
    "impacto": "alto"
   },
   {
+   "titulo": "Fannie Mae sharply raises mortgage rate forecast for 2027",
+   "link": "https://www.cnbc.com/2026/10/14/fannie-mae-sharply-raises-mortgage-rate-forecast-for-2027-.html",
+   "ts": "2026-10-14T17:08:07Z",
+   "fuente": "CNBC",
+   "id": "7b5d3f84ca",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Brewers’ Turang, Chourio among NL Gold Glove finalists",
    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWENLUDkyODZ4cl9wYW9ZenhBYmtvMnlubTB4ZXRtOEhadTdTYm5fcDNqREZnajNjdjBMSy0temdZa3laTmozenZBRmh6OEdCcWVTUVM1NlN4dm11bHJFQ243S2M2eTRDM05MQXE0NzNudWxBbl9JRHdaX1FGczh6ZzJnOA?oc=5",
    "ts": "2026-10-14T17:05:37Z",
@@ -6919,33 +6950,6 @@
    "impacto": "bajo",
    "es": "Tesoro dice que grandes bancos de EE. UU. dejaron que la política influyera en servicios",
    "efecto": "Ruido regulatorio menor sin impacto directo en índices."
-  },
-  {
-   "titulo": "We're exiting our remaining stake in an industrial stock spin-off gone wrong",
-   "link": "https://www.cnbc.com/investingclub/2026/10/14/were-exiting-our-remaining-stake-in-an-industrial-stock-spin-off-gone-wrong.html",
-   "ts": "2026-10-14T15:40:04Z",
-   "fuente": "CNBC",
-   "id": "37b758234b",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "The best banks for personal loans in 2026",
-   "link": "https://www.cnbc.com/select/best-personal-loans-from-big-banks/",
-   "ts": "2026-10-14T15:31:42Z",
-   "fuente": "CNBC",
-   "id": "83f1c7f339",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Social Security Administration announces 3.6% cost-of-living adjustment for 2027",
-   "link": "https://www.cnbc.com/2026/10/14/social-security-cola-2027.html",
-   "ts": "2026-10-14T15:25:42Z",
-   "fuente": "CNBC",
-   "id": "44c52307d9",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7557,14 +7561,21 @@
     4118.9,
     4127.8,
     4114.5,
-    4123.2
+    4122.8
    ],
    [
-    1792007849,
-    4122.1,
-    4122.1,
-    4122.1,
-    4122.1
+    1792008000,
+    4122.9,
+    4124.7,
+    4122.0,
+    4122.4
+   ],
+   [
+    1792008157,
+    4122.6,
+    4122.6,
+    4122.6,
+    4122.6
    ]
   ],
   "nq": [
@@ -8161,14 +8172,21 @@
     30132.0,
     30237.0,
     30078.0,
-    30164.5
+    30185.5
    ],
    [
-    1792007853,
-    30173.0,
-    30173.0,
-    30173.0,
-    30173.0
+    1792008000,
+    30186.0,
+    30214.0,
+    30175.5,
+    30194.0
+   ],
+   [
+    1792008159,
+    30195.75,
+    30195.75,
+    30195.75,
+    30195.75
    ]
   ],
   "vix": [
@@ -8653,14 +8671,14 @@
     17.13,
     17.32,
     16.82,
-    16.87
+    16.93
    ],
    [
-    1792007551,
-    16.87,
-    16.87,
-    16.87,
-    16.87
+    1792007851,
+    16.89,
+    16.89,
+    16.89,
+    16.89
    ]
   ]
  },
@@ -8834,6 +8852,9 @@
   "153f708f89",
   "c6f1fd8eb9",
   "5421fbc5e9",
-  "f773e24d4f"
+  "f773e24d4f",
+  "718f8874a2",
+  "7c060c6d0f",
+  "7b5d3f84ca"
  ]
 }
