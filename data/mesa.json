@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4166.4 · NQ 30794.5 · VIX 15.2 · 3 noticias nuevas",
-   "actualizado": "2026-10-14T08:57:37Z"
+   "ultimo_resultado": "Oro 4166.3 · NQ 30792.0 · VIX 15.21 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-14T09:02:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T08:57:36Z",
-   "ultimo_resultado": "3 titulares nuevos: Auro cruza 572m con 0,60 g/t de oro y 0,1% de cobre en Ecuador"
+   "actualizado": "2026-10-14T09:02:38Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Scott Bessent's growth plans aren't enough to tame surging deficit and debt pile, IMF chief says"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4166.3 · NQ 30792.0 · VIX 15.21 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-14T09:02:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4166.4 · NQ 30794.5 · VIX 15.2 · 3 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4187.7 · NQ 30772.25 · VIX 15.41 · 15 noticias nuevas",
    "ts": "2026-10-13T19:37:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4185.4 · NQ 30769.0 · VIX 15.43 · 15 noticias nuevas",
-   "ts": "2026-10-13T19:32:37Z"
   }
  ],
  "briefs": [
@@ -5840,12 +5840,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4166.4,
-  "nq": 30794.5,
-  "vix": 15.2,
-  "ts": "2026-10-14T08:57:36Z"
+  "oro": 4166.3,
+  "nq": 30792.0,
+  "vix": 15.21,
+  "ts": "2026-10-14T09:02:38Z"
  },
  "noticias": [
+  {
+   "titulo": "Scott Bessent's growth plans aren't enough to tame surging deficit and debt pile, IMF chief says",
+   "link": "https://www.cnbc.com/2026/10/14/bond-yields-debt-deficit-treasury.html",
+   "ts": "2026-10-14T08:53:35Z",
+   "fuente": "CNBC",
+   "id": "eb8796a473",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Exclusive / Canadian official says Europe erred on Trump tariffs",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMVZRbGlybjZ1bEhaNXNXaFZtdkwyd1VJckdCb3JHQnJfY1gzVEFtUncxeDBoQXlpS0padE1sYmp5M2Zza3BuRkdWS21YMl9VbHFQTXV0MXlYdHNtZzYyaTdrNGxvQmx4OWp2bXRFUHZ2TFR5by1seGphOVV2UnpXalVjY1F1emduZUpLRHBQUDRXRkdlb0ZVNFJoRQ?oc=5",
+   "ts": "2026-10-14T08:51:00Z",
+   "fuente": "Semafor",
+   "id": "65f5700a71",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "Stock futures move higher as traders await consumer inflation report: Live updates",
    "link": "https://www.cnbc.com/2026/10/13/stock-market-today-live-updates-.html",
@@ -6643,24 +6661,6 @@
    "id": "8cd89f0fa2",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Stock Market Today, Oct. 13: Markets Edge Lower as Earnings Season Kicks Off",
-   "link": "https://www.fool.com/coverage/stock-market-today/2026/10/13/stock-market-today-oct-13-markets-edge-lower-as-earnings-season-kicks-off/?.tsrc=rss",
-   "ts": "2026-10-13T21:14:21Z",
-   "fuente": "Yahoo Finance",
-   "id": "a69ea6ed94",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Saudi national OpenAI employee arrested after 'sophisticated recording device' planted in office",
-   "link": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
-   "ts": "2026-10-13T21:06:40Z",
-   "fuente": "CNBC",
-   "id": "f1c9518ab8",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7190,15 +7190,15 @@
     1791964800,
     4172.1,
     4180.9,
-    4165.6,
-    4166.0
+    4164.8,
+    4166.9
    ],
    [
-    1791967650,
-    4166.4,
-    4166.4,
-    4166.4,
-    4166.4
+    1791967958,
+    4166.0,
+    4166.0,
+    4166.0,
+    4166.0
    ]
   ],
   "nq": [
@@ -7717,15 +7717,15 @@
     1791964800,
     30813.25,
     30861.75,
-    30789.25,
-    30793.0
+    30785.0,
+    30791.5
    ],
    [
-    1791967655,
-    30794.5,
-    30794.5,
-    30794.5,
-    30794.5
+    1791967957,
+    30792.0,
+    30792.0,
+    30792.0,
+    30792.0
    ]
   ],
   "vix": [
@@ -8133,43 +8133,43 @@
     15.2,
     15.23,
     15.16,
-    15.2
+    15.21
    ],
    [
-    1791967351,
-    15.2,
-    15.2,
-    15.2,
-    15.2
+    1791967651,
+    15.21,
+    15.21,
+    15.21,
+    15.21
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-14T08:57:34Z",
- "ult_4h": 1791967659.3928468,
+ "ult_4h": 1791968558.7281005,
  "estrategia_4h": {
   "oro": {
-   "precio": 4167.0,
-   "atr_4h": 20.33,
+   "precio": 4166.0,
+   "atr_4h": 20.46,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4154.6,
+     "stop": 4154.52,
      "objetivo": 4242.3,
-     "rr": 6.19,
+     "rr": 6.15,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.62,
+     "fuerza_ruptura_atr": 1.61,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30816.5,
-   "atr_4h": 145.14,
+   "precio": 30792.0,
+   "atr_4h": 145.61,
    "setups": []
   },
-  "ts": "2026-10-14T08:47:39Z"
+  "ts": "2026-10-14T09:02:39Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
