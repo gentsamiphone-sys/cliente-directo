@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4118.9 · NQ 30482.5 · VIX 15.69 · 15 noticias nuevas (7 alto impacto)",
-   "actualizado": "2026-10-14T14:42:38Z"
+   "ultimo_resultado": "Oro 4121.2 · NQ 30470.75 · VIX 15.69 · 15 noticias nuevas (5 alto impacto)",
+   "actualizado": "2026-10-14T14:48:08Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T14:42:37Z",
-   "ultimo_resultado": "15 titulares nuevos, 7 de alto impacto: Bending Spoons skyrockets 35% as Berkshire Hathaway makes $330 million investment"
+   "actualizado": "2026-10-14T14:48:06Z",
+   "ultimo_resultado": "15 titulares nuevos, 5 de alto impacto: Desglose de la inflación de septiembre de 2026 en un gráfico"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4121.2 · NQ 30470.75 · VIX 15.69 · 15 noticias nuevas (5 alto impacto)",
+   "ts": "2026-10-14T14:48:08Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4118.9 · NQ 30482.5 · VIX 15.69 · 15 noticias nuevas (7 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4168.8 · NQ 30799.75 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
    "ts": "2026-10-14T01:57:40Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4171.5 · NQ 30796.75 · VIX 15.27 · 14 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-14T01:53:16Z"
   }
  ],
  "briefs": [
@@ -6090,12 +6090,27 @@
   }
  },
  "en_vivo": {
-  "oro": 4118.9,
-  "nq": 30482.5,
+  "oro": 4121.2,
+  "nq": 30470.75,
   "vix": 15.69,
-  "ts": "2026-10-14T14:42:38Z"
+  "ts": "2026-10-14T14:48:07Z"
  },
  "noticias": [
+  {
+   "titulo": "Here's the inflation breakdown for September 2026 — in one chart",
+   "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
+   "ts": "2026-10-14T14:44:05Z",
+   "fuente": "CNBC",
+   "id": "4993942176",
+   "activos": [
+    "dolar",
+    "nq",
+    "oro"
+   ],
+   "impacto": "medio",
+   "es": "Desglose de la inflación de septiembre de 2026 en un gráfico",
+   "efecto": "Evaluar datos de inflación para ajustar posiciones en renta variable y bonos."
+  },
   {
    "titulo": "Bending Spoons skyrockets 35% as Berkshire Hathaway makes $330 million investment",
    "link": "https://www.cnbc.com/2026/10/14/berkshire-hathaway-investment-bending-spoons.html",
@@ -6104,6 +6119,33 @@
    "id": "8ab021e784",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold And Silver Prices Fall As Inflation Boosts Interest Rate Hike Bets",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeE1NdVJsU3RZQmRuSTU1WnZZdXQzTnhZajl0U3A3UE42cTFQV0E0ZTA5czlNSFQwOEtlaWY3WER6WFNRazNza1lQZkpuV3U2c0lvV3ZNVlIxbTNGbXFuMTFSZk1WbXZiNDUwUnkzTnI3ZXpRLTl3UG01WkE1b080UDk4ZEs2X0p1Y3JSbmphc0RCQVdPM1hHN0E0NFkxQ2RseDE4SXZIZExaNnp5NUlrSzhkbnhVR0FrSW5KcVphSDg?oc=5",
+   "ts": "2026-10-14T14:35:47Z",
+   "fuente": "Forbes",
+   "id": "2c80a3bb0d",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Caen oro y plata porque la inflación aumenta apuestas de subida de tasas",
+   "efecto": "Venta institucional de oro por mayores tasas reales y fortaleza del dólar."
+  },
+  {
+   "titulo": "UBS sticks to buy-dollar-on-dips call. Here is why",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/ubs-sticks-buy-dollar-dips-143541767.html?.tsrc=rss",
+   "ts": "2026-10-14T14:35:41Z",
+   "fuente": "Yahoo Finance",
+   "id": "93ff7173d8",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "UBS mantiene recomendación de comprar el dólar en las correcciones",
+   "efecto": "Buscar compras de dólares en soportes técnicos por sesgo institucional alcista."
   },
   {
    "titulo": "South Texas Latino voters who flipped for Trump in 2024 are up for grabs in 2026",
@@ -6903,37 +6945,6 @@
    "id": "5641a4c47e",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Prep talk: Dos Pueblos’ Matti Di Maggio brings home gold medal",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdUVZb3RjdGV1TGpmdHFrZW9weklvTklDUWNEdGdVTXNjN28xTjhhZ1RaY3g0aWdPQlZFNEpxZTlmYWhnQUJFeExpb3hoTHAzLXk4TVpMX0FnenVIVV9UWGhfaFgwQXBWQWp4NEpCQ3ZKd04wR3J0b1hWb0V0WDNLMkN6TnJXSjdJMWh0Y1FFMnBzemNyay1Deks2ZE9FMnBmeldwMVBqZE5lekt6Wk5rb0d3?oc=5",
-   "ts": "2026-10-14T11:15:00Z",
-   "fuente": "Los Angeles Times",
-   "id": "9a321f3283",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gold price today, Wednesday, October 14, 2026: Gold prices losing ground ahead of inflation data",
-   "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-october-14-2026-gold-prices-losing-ground-ahead-of-inflation-data-111058502.html?.tsrc=rss",
-   "ts": "2026-10-14T11:10:58Z",
-   "fuente": "Yahoo Finance",
-   "id": "2e999c5e9f",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Zacks Industry Outlook Highlights Fresnillo, Pan American Silver and Hecla Mining",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/zacks-industry-outlook-highlights-fresnillo-111000885.html?.tsrc=rss",
-   "ts": "2026-10-14T11:10:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "1a7efdcf32",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7508,16 +7519,16 @@
    [
     1791986400,
     4110.4,
-    4120.8,
+    4123.9,
     4108.6,
-    4118.2
+    4120.4
    ],
    [
-    1791988358,
-    4119.4,
-    4119.4,
-    4119.4,
-    4119.4
+    1791988685,
+    4121.2,
+    4121.2,
+    4121.2,
+    4121.2
    ]
   ],
   "nq": [
@@ -8078,15 +8089,15 @@
     1791986400,
     30475.5,
     30538.25,
-    30454.5,
-    30484.25
+    30453.0,
+    30473.75
    ],
    [
-    1791988357,
-    30482.5,
-    30482.5,
-    30482.5,
-    30482.5
+    1791988687,
+    30470.75,
+    30470.75,
+    30470.75,
+    30470.75
    ]
   ],
   "vix": [
@@ -8535,11 +8546,11 @@
     1791986400,
     15.81,
     15.91,
-    15.68,
-    15.76
+    15.67,
+    15.69
    ],
    [
-    1791988051,
+    1791988381,
     15.69,
     15.69,
     15.69,
@@ -8547,11 +8558,11 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-14T14:17:39Z",
- "ult_4h": 1791988353.721947,
+ "noticias_traducidas_ts": "2026-10-14T14:47:39Z",
+ "ult_4h": 1791989287.560513,
  "estrategia_4h": {
   "oro": {
-   "precio": 4113.6,
+   "precio": 4121.2,
    "atr_4h": 24.71,
    "setups": [
     {
@@ -8561,8 +8572,8 @@
      "stop": 4144.03,
      "objetivo": 4091.2,
      "rr": 2.56,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.95,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 1.64,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
@@ -8573,40 +8584,40 @@
      "objetivo": 4101.6,
      "rr": 4.86,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.95,
+     "fuerza_ruptura_atr": 1.64,
      "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30502.0,
-   "atr_4h": 171.3,
+   "precio": 30470.75,
+   "atr_4h": 171.62,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30604.75,
      "entrada": 30604.75,
-     "stop": 30707.53,
+     "stop": 30707.72,
      "objetivo": 30372.25,
      "rr": 2.26,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.52,
+     "fuerza_ruptura_atr": 1.7,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30957.5,
      "entrada": 30957.5,
-     "stop": 31060.28,
-     "objetivo": 30457.5,
-     "rr": 4.86,
+     "stop": 31060.47,
+     "objetivo": 30453.0,
+     "rr": 4.9,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.8,
      "ruptura": "2026-10-12 16:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-14T14:32:33Z"
+  "ts": "2026-10-14T14:48:08Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
