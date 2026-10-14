@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T13:17:38Z",
-   "ultimo_resultado": "Estrategia 4H ORO: VENTA: esperar retesteo de 4129.2 · stop 4143.92 · objetivo 4091.2 · R:R 2.58 (esperando retesteo). Tú ejecutas."
+   "actualizado": "2026-10-14T14:02:40Z",
+   "ultimo_resultado": "Estrategia 4H NQ: VENTA en el nivel 30604.75 · stop 30705.8 · objetivo 30372.25 · R:R 2.3 (en retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T13:57:37Z",
-   "ultimo_resultado": "15 titulares nuevos, 8 de alto impacto: Consumer prices rose 3.7% annually in September as gas prices skyrocket"
+   "actualizado": "2026-10-14T14:02:39Z",
+   "ultimo_resultado": "15 titulares nuevos, 9 de alto impacto: Hot US inflation data dents Wall Street stocks"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H NQ: VENTA en el nivel 30604.75 · stop 30705.8 · objetivo 30372.25 · R:R 2.3 (en retesteo). Tú ejecutas.",
+   "ts": "2026-10-14T14:02:40Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4124.5 · NQ 30622.0 · VIX 15.56 · 15 noticias nuevas (8 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4178.9 · NQ 30815.25 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
    "ts": "2026-10-14T01:02:41Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4179.3 · NQ 30825.5 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-14T00:57:34Z"
   }
  ],
  "briefs": [
@@ -6090,10 +6090,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4124.5,
-  "nq": 30622.0,
-  "vix": 15.56,
-  "ts": "2026-10-14T13:57:37Z"
+  "oro": 4116.8,
+  "nq": 30558.25,
+  "vix": 15.5,
+  "ts": "2026-10-14T14:02:39Z"
  },
  "noticias": [
   {
@@ -6113,6 +6113,17 @@
    "id": "3f8e7125ca",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Hot US inflation data dents Wall Street stocks",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-markets-mixed-tech-firms-025619455.html?.tsrc=rss",
+   "ts": "2026-10-14T13:50:49Z",
+   "fuente": "Yahoo Finance",
+   "id": "d1df57a547",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Consumer prices rose 3.7% annually in September as gas costs skyrocket",
@@ -6148,6 +6159,17 @@
    "id": "44c52307d9",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "U.S. Dollar Index Hits 18-Month High on Hot Inflation",
+   "link": "https://finance.yahoo.com/m/78703272-10de-31fc-bc4a-cded771bff08/u.s.-dollar-index-hits.html?.tsrc=rss",
+   "ts": "2026-10-14T13:28:26Z",
+   "fuente": "Yahoo Finance",
+   "id": "2c3b5d224a",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "The price of gold today, Oct. 14, 2026 — and the best places to buy",
@@ -6918,28 +6940,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Canada sees record surge in U.S. exports ahead of new tariffs in August",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOajA3ck4tVmFKeWxkQ2VVaEIwbU1oS29jb2Q2cXZiTXdKT1NxZ0c0Q21OdUFrQnBjSmJPb2pYX29RblMtTmRSb2xuYTQ2MXRNSVdYbGJCZzhNSzhRbm16NFBsQW1FOVExRUZzT0txWEIzaVNvNFl4SXRLU19iOVNsSEhDZjZxVmpLaXBUOXNjdTBDOWhXZnlWcUcyRGJEYVlmU29uMEtMUUxHZzJRaExFbDIwMEdKS2VQelVWaG1jVG5qaExfWW9FWkZVYzA?oc=5",
-   "ts": "2026-10-14T10:34:25Z",
-   "fuente": "constructconnect.com",
-   "id": "63db31a71b",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio",
-   "es": "Canadá registra un aumento récord de exportaciones a EE.UU. antes de los aranceles de agosto",
-   "efecto": "Aumenta la tensión comercial, fortaleciendo ligeramente al dólar como refugio."
-  },
-  {
-   "titulo": "Oil prices rise after IEA warns on market constraints; Saudi officials say Aramco facilities attacked",
-   "link": "https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html",
-   "ts": "2026-10-14T10:33:13Z",
-   "fuente": "CNBC",
-   "id": "f9a8920ddd",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -8533,10 +8533,10 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-14T13:47:39Z",
- "ult_4h": 1791985663.494995,
+ "ult_4h": 1791986559.805944,
  "estrategia_4h": {
   "oro": {
-   "precio": 4124.2,
+   "precio": 4116.8,
    "atr_4h": 24.71,
    "setups": [
     {
@@ -8546,8 +8546,8 @@
      "stop": 4144.03,
      "objetivo": 4091.2,
      "rr": 2.56,
-     "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.52,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 1.82,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
@@ -8558,17 +8558,29 @@
      "objetivo": 4101.6,
      "rr": 5.16,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.52,
+     "fuerza_ruptura_atr": 1.82,
      "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30513.0,
-   "atr_4h": 167.91,
-   "setups": []
+   "precio": 30558.25,
+   "atr_4h": 168.41,
+   "setups": [
+    {
+     "direccion": "VENTA",
+     "nivel": 30604.75,
+     "entrada": 30604.75,
+     "stop": 30705.8,
+     "objetivo": 30372.25,
+     "rr": 2.3,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 1.21,
+     "ruptura": "2026-10-14 12:00 UTC"
+    }
+   ]
   },
-  "ts": "2026-10-14T13:47:43Z"
+  "ts": "2026-10-14T14:02:40Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -8579,7 +8591,8 @@
   "oro|VENTA|4173.7|esperando retesteo",
   "oro|VENTA|4129.2|en retesteo",
   "oro|VENTA|4178.1|esperando retesteo",
-  "oro|VENTA|4129.2|esperando retesteo"
+  "oro|VENTA|4129.2|esperando retesteo",
+  "nq|VENTA|30604.75|en retesteo"
  ],
  "alpha_ordenes": []
 }
