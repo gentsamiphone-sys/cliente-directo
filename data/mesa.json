@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4166.5 · NQ 30796.25 · VIX 15.23 · 9 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-14T10:27:38Z"
+   "ultimo_resultado": "Oro 4164.9 · NQ 30789.75 · VIX 15.21 · 8 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-14T10:32:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T10:27:38Z",
-   "ultimo_resultado": "9 titulares nuevos, 2 de alto impacto: Oil prices rise after IEA warns on market constraints; Saudi officials say Aramco facilities attacked"
+   "actualizado": "2026-10-14T10:32:31Z",
+   "ultimo_resultado": "8 titulares nuevos, 2 de alto impacto: BlackRock profit jumps as resilient markets boost fees"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4164.9 · NQ 30789.75 · VIX 15.21 · 8 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-14T10:32:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4166.5 · NQ 30796.25 · VIX 15.23 · 9 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "15 titulares nuevos, 1 de alto impacto: Saudi national OpenAI employee arrested after 'sophisticated recording device' planted in office",
    "ts": "2026-10-13T21:07:33Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "15 titulares nuevos, 2 de alto impacto: Anthropic revelará nuevos ingresos mientras las finanzas de la IA dominan el mercado tecnológico",
-   "ts": "2026-10-13T21:02:39Z"
   }
  ],
  "briefs": [
@@ -5840,12 +5840,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4166.5,
-  "nq": 30796.25,
-  "vix": 15.23,
-  "ts": "2026-10-14T10:27:38Z"
+  "oro": 4164.9,
+  "nq": 30789.75,
+  "vix": 15.21,
+  "ts": "2026-10-14T10:32:31Z"
  },
  "noticias": [
+  {
+   "titulo": "BlackRock profit jumps as resilient markets boost fees",
+   "link": "https://www.cnbc.com/2026/10/14/blackrock-profit-jumps-as-resilient-markets-boost-fees.html",
+   "ts": "2026-10-14T10:27:11Z",
+   "fuente": "CNBC",
+   "id": "ab87423575",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Oil prices rise after IEA warns on market constraints; Saudi officials say Aramco facilities attacked",
    "link": "https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html",
@@ -5863,6 +5872,15 @@
    "id": "4ec3eccf98",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "iShares SLVP vs VanEck GDX: Which Miners ETF Wins",
+   "link": "https://www.fool.com/coverage/etfs/2026/10/14/ishares-slvp-vs-vaneck-gdx-which-miners-etf-wins/?.tsrc=rss",
+   "ts": "2026-10-14T10:20:02Z",
+   "fuente": "Yahoo Finance",
+   "id": "3d7f6e12bf",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Bank of America is set to report third-quarter earnings – here’s what the Street expects",
@@ -5997,6 +6015,18 @@
    "fuente": "upi",
    "id": "9869d3d177",
    "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Gold Steady as Fed Official’s Remarks Temper Rate-Hike Bets",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQazViUHl2SmRiSUdDb0dNelo2Y2JjdkNLOG40Q0FpMnFBZ1JPNUNBc3pMeGlWbE5CQlUwcEVJWE93WmlJRkZTbzllQ1pfNV9HYXVHLUV2YVdkWW1TMWVJTElsNklvSzVYdTZPXzhIV0JHdHBCQzhhcklUSHhQaTFXUUNjNVlZTVZQNWd0UHM5LTlwRmpobUdiR1RiWDhTYUNTUGloY256S1l2blk0M0JZ?oc=5",
+   "ts": "2026-10-14T09:16:57Z",
+   "fuente": "Bloomberg.com",
+   "id": "6462890422",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
    "impacto": "alto"
   },
   {
@@ -6632,37 +6662,6 @@
    "id": "aef50099e6",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Why Rising Treasury Yields Raise the Bar for Bitcoin to Attract Investors",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORF92N3RrZEJQTjQzNV9XbWhhRldlUm4zVmtueUpKMEJjVjRjUzkwYjVuU3hobnJRSGRoQ1Yxc0FJU05DaTVHdS1HLXFNSGVWVm9QQ09ia2xpZGRBX3hqRlVqWjJrYS1pMWRxM19YUkg4cl9wcDRnOW1HcjdBSnV3WjNxSk9YYUFfTXE0SWlIbHYzeXFZMlhzUVQ2ZkRjdw?oc=5",
-   "ts": "2026-10-14T01:14:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "20b01ab55d",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gold Steady Ahead of U.S. Inflation Data",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZkFOakhIMVpZZ2dCUmlwZFoyX1cwV28zLXZMam1sVGtDRVZseExJQmNiMDdfQkxUaW8zd19mZHpoc3NkSTlxRHVGNFpOZDIweVd2c1lrQ2VHakpwSk4wUk9nVnlNR2ZEMnoyMEJMMFhQWmNPeVBuNWhVN1A2VmdGejNiRjhQRmp0ZUdLajF3MTg1MHlDbUxZbWFuRTc?oc=5",
-   "ts": "2026-10-14T01:05:00Z",
-   "fuente": "WSJ",
-   "id": "049632c011",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
-   "link": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
-   "ts": "2026-10-14T00:13:45Z",
-   "fuente": "CNBC",
-   "id": "a489ac69b1",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7205,16 +7204,16 @@
    [
     1791972000,
     4166.6,
-    4168.0,
+    4168.8,
     4163.1,
-    4166.9
+    4165.0
    ],
    [
-    1791973050,
-    4166.5,
-    4166.5,
-    4166.5,
-    4166.5
+    1791973350,
+    4164.9,
+    4164.9,
+    4164.9,
+    4164.9
    ]
   ],
   "nq": [
@@ -7746,16 +7745,16 @@
    [
     1791972000,
     30794.25,
-    30797.5,
+    30805.0,
     30758.25,
-    30796.25
+    30786.75
    ],
    [
-    1791973053,
-    30796.25,
-    30796.25,
-    30796.25,
-    30796.25
+    1791973349,
+    30789.75,
+    30789.75,
+    30789.75,
+    30789.75
    ]
   ],
   "vix": [
@@ -8177,22 +8176,22 @@
     15.19,
     15.25,
     15.19,
-    15.22
+    15.21
    ],
    [
-    1791972751,
-    15.23,
-    15.23,
-    15.23,
-    15.23
+    1791973036,
+    15.21,
+    15.21,
+    15.21,
+    15.21
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-14T10:02:32Z",
- "ult_4h": 1791973069.5637164,
+ "ult_4h": 1791973951.6263685,
  "estrategia_4h": {
   "oro": {
-   "precio": 4165.2,
+   "precio": 4164.9,
    "atr_4h": 20.59,
    "setups": [
     {
@@ -8203,17 +8202,29 @@
      "objetivo": 4242.3,
      "rr": 6.11,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.6,
+     "fuerza_ruptura_atr": 1.59,
      "ruptura": "2026-10-08 20:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30763.5,
+   "precio": 30789.5,
    "atr_4h": 148.66,
-   "setups": []
+   "setups": [
+    {
+     "direccion": "VENTA",
+     "nivel": 30957.5,
+     "entrada": 30957.5,
+     "stop": 31046.7,
+     "objetivo": 30591.25,
+     "rr": 4.11,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 0.93,
+     "ruptura": "2026-10-12 16:00 UTC"
+    }
+   ]
   },
-  "ts": "2026-10-14T10:17:49Z"
+  "ts": "2026-10-14T10:32:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
