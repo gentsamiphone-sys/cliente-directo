@@ -2869,9 +2869,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando restaurantes y comida sin página web cerca de Eastern Ave…",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-14T01:02:35Z"
+   "actualizado": "2026-10-14T01:02:36Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2899,6 +2899,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando restaurantes y comida sin página web cerca de Eastern Ave…",
+   "ts": "2026-10-14T01:02:36Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 126 textos listos para mandar",
@@ -4393,11 +4398,6 @@
    "agente": "gerente",
    "texto": "Terminó su turno: 108 textos listos para mandar",
    "ts": "2026-10-11T18:37:33Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Actualicé el reporte del día.",
-   "ts": "2026-10-11T18:37:32Z"
   }
  ],
  "reportes": {
