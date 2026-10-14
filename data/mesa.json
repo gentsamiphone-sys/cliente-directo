@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4110.6 · NQ 30418.0 · VIX 15.84 · 12 noticias nuevas (7 alto impacto)",
-   "actualizado": "2026-10-14T15:17:35Z"
+   "ultimo_resultado": "Oro 4105.7 · NQ 30383.0 · VIX 15.95 · 15 noticias nuevas (4 alto impacto)",
+   "actualizado": "2026-10-14T15:22:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T15:17:34Z",
-   "ultimo_resultado": "12 titulares nuevos, 7 de alto impacto: Tech giants race to get AI gadgets on shelves for holiday rush"
+   "actualizado": "2026-10-14T15:22:41Z",
+   "ultimo_resultado": "15 titulares nuevos, 4 de alto impacto: Cómo protegerse de la inflación con TIPS, materias primas e infraestructura"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4105.7 · NQ 30383.0 · VIX 15.95 · 15 noticias nuevas (4 alto impacto)",
+   "ts": "2026-10-14T15:22:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4110.6 · NQ 30418.0 · VIX 15.84 · 12 noticias nuevas (7 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4183.8 · NQ 30859.5 · VIX 15.27 · 11 noticias nuevas (2 alto impacto)",
    "ts": "2026-10-14T02:32:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4183.3 · NQ 30843.75 · VIX 15.27 · 11 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-14T02:27:31Z"
   }
  ],
  "briefs": [
@@ -6090,12 +6090,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4110.6,
-  "nq": 30418.0,
-  "vix": 15.84,
-  "ts": "2026-10-14T15:17:34Z"
+  "oro": 4105.7,
+  "nq": 30383.0,
+  "vix": 15.95,
+  "ts": "2026-10-14T15:22:41Z"
  },
  "noticias": [
+  {
+   "titulo": "Don't let inflation bite — how to hedge with TIPS, commodities and infrastructure funds",
+   "link": "https://www.cnbc.com/2026/10/13/inflation-hedge-tips-commodities-infrastructure.html",
+   "ts": "2026-10-14T15:20:04Z",
+   "fuente": "CNBC",
+   "id": "a24922eb27",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Cómo protegerse de la inflación con TIPS, materias primas e infraestructura",
+   "efecto": "Ruido educativo sobre cobertura inflacionaria; sin impacto institucional inmediato."
+  },
   {
    "titulo": "LIVE: Gold Glove finalists being announced",
    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rMUs3RWhWWlRzLTRSWVVGRnc5OVNsc0ZBR1dHSFRWMlFBMVI2Mk1tUGx2bzBFd01hSkNzUWM0RGdldXUxbWlOV3VWb3o3bk1kdms2N0N2RW40eXpudXJkYUJIWW5RQzTSAXNBVV95cUxOZDB2VExfNFJ1djdCTHplX1pMMC1jLUdtYXVxemVVLXU3QUhrWjZYbGNDcFp1R0dTdlJBcjhWWmNPa3hkOVpMQ2VzQzBBU200aEtMcDN5dThFSkVFWlpZLVlETkxMNFBXS3lkMFNfNTNOTUgw?oc=5",
@@ -6135,6 +6148,19 @@
    "id": "44258708ec",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Renforth Resources identifies further surface gold at Parbec as exploration continues",
+   "link": "https://finance.yahoo.com/video/renforth-resources-identifies-further-surface-145314986.html?.tsrc=rss",
+   "ts": "2026-10-14T14:53:14Z",
+   "fuente": "Yahoo Finance",
+   "id": "7a83783aeb",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Renforth Resources identifica más oro en superficie en Parbec",
+   "efecto": "Noticia microeconómica de minería; irrelevante para el precio global del oro."
   },
   {
    "titulo": "Netflix to lay off roughly 1,000 employees, or 6% of workforce",
@@ -6215,6 +6241,17 @@
    "id": "af6400ecb4",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "France Proposes 31.4% Tax On Stablecoin Capital Gains",
+   "link": "https://www.cryptoprowl.com/releases/france-proposes-314-tax-on-stablecoin-capital-gains-7312?.tsrc=rss",
+   "ts": "2026-10-14T14:18:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "b81402acc5",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Francia propone impuesto del 31.4% a ganancias de capital en stablecoins",
+   "efecto": "Regulación cripto regional sin impacto directo en NQ, oro o dólar."
   },
   {
    "titulo": "A second major Wall Street bank this week is telling clients to cash in tech stocks. Here's why",
@@ -6305,6 +6342,19 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Is SSRM's US Platform Set to Gain From Roxmore Acquisition?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ssrms-us-platform-set-gain-140200174.html?.tsrc=rss",
+   "ts": "2026-10-14T14:02:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "25fb7e8e51",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "¿Se beneficiará la plataforma estadounidense de SSRM con la adquisición de Roxmore?",
+   "efecto": "Noticia corporativa sectorial menor para mineras de oro."
   },
   {
    "titulo": "Nasdaq (NDAQ) Can Index Growth Hold Up Without a Rising Market?",
@@ -6479,6 +6529,20 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Dow, Nasdaq Futures Fall Triple Digits After CPI Report",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZlpIWmdkTzFBenA5OVRHcjRQMHZtODY1bFJVcHFPZ1hGcnBTY3J1UVdOQWNCTlNFamx5eWpyLWVZQl9OUDhDNXhmb2J2dll5M29LN3dod3V2eTBDQzZBR0QzaUJYa2R5M3pHbk81aGlzS2JWTThibEEwVFk4R2o2RHNlNGVMX2VERmc3MmVtc1pKeC1uX2tLWTBybi1VeDRmeWFpSlktZFplR2ZVaXNaM0w4ZHBDdw?oc=5",
+   "ts": "2026-10-14T13:16:13Z",
+   "fuente": "Schaeffer's Investment Research",
+   "id": "1cbc39bcf2",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Futuros del Dow y Nasdaq caen con fuerza tras informe de IPC",
+   "efecto": "Fuerte presión vendedora en Nasdaq por temores de tasas altas."
   },
   {
    "titulo": "Rising Government Debt Extends Gold’s Appeal Beyond Fed Rate Cuts",
@@ -6886,62 +6950,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "US Dollar Rises Early Wednesday Ahead of Consumer Prices, Beige Book",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-wednesday-113843757.html?.tsrc=rss",
-   "ts": "2026-10-14T11:38:43Z",
-   "fuente": "Yahoo Finance",
-   "id": "5340a95737",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Pan Global Expands Near-Surface High-Grade Gold Discovery at Cármenes Project, Spain: Drillholes Return 7.29g/t Au Over 9 Meters and 1.53g/t Au Over 38 Meters",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/pan-global-expands-near-surface-113800524.html?.tsrc=rss",
-   "ts": "2026-10-14T11:38:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "243feb90c8",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Stocks making the biggest moves premarket: Bank of America, BlackRock, HPE & more",
-   "link": "https://www.cnbc.com/2026/10/14/stocks-moving-premarket-bank-of-america-blackrock-asml.html",
-   "ts": "2026-10-14T11:36:25Z",
-   "fuente": "CNBC",
-   "id": "e7df2d0080",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Morgan Stanley tops estimates as equities trading revenue exceeds expectations by $909 million",
-   "link": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
-   "ts": "2026-10-14T11:35:17Z",
-   "fuente": "CNBC",
-   "id": "c8c2351208",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio",
-   "es": "Morgan Stanley supera estimaciones gracias a los ingresos por negociación de acciones",
-   "efecto": "impulsa al alza al NASDAQ 100 por optimismo corporativo."
-  },
-  {
-   "titulo": "Morgan Stanley earnings are out – Here are the numbers",
-   "link": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
-   "ts": "2026-10-14T11:30:21Z",
-   "fuente": "CNBC",
-   "id": "553baeb0af",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7524,15 +7532,15 @@
     1791990000,
     4115.5,
     4115.8,
-    4109.6,
-    4109.8
+    4105.0,
+    4106.0
    ],
    [
-    1791990454,
-    4110.6,
-    4110.6,
-    4110.6,
-    4110.6
+    1791990760,
+    4105.7,
+    4105.7,
+    4105.7,
+    4105.7
    ]
   ],
   "nq": [
@@ -8100,15 +8108,15 @@
     1791990000,
     30489.25,
     30491.0,
-    30399.25,
-    30399.75
+    30364.75,
+    30385.5
    ],
    [
-    1791990453,
-    30418.0,
-    30418.0,
-    30418.0,
-    30418.0
+    1791990762,
+    30383.0,
+    30383.0,
+    30383.0,
+    30383.0
    ]
   ],
   "vix": [
@@ -8563,20 +8571,20 @@
    [
     1791990000,
     15.76,
-    15.86,
+    15.99,
     15.76,
-    15.85
+    15.98
    ],
    [
-    1791990151,
-    15.84,
-    15.84,
-    15.84,
-    15.84
+    1791990451,
+    15.95,
+    15.95,
+    15.95,
+    15.95
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-14T14:47:39Z",
+ "noticias_traducidas_ts": "2026-10-14T15:22:37Z",
  "ult_4h": 1791991054.6979513,
  "estrategia_4h": {
   "oro": {
