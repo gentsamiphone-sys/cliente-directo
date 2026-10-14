@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4164.9 · NQ 30789.75 · VIX 15.21 · 8 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-14T10:32:32Z"
+   "ultimo_resultado": "Oro 4162.9 · NQ 30781.75 · VIX 15.22 · 11 noticias nuevas (4 alto impacto)",
+   "actualizado": "2026-10-14T10:37:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T10:32:31Z",
-   "ultimo_resultado": "8 titulares nuevos, 2 de alto impacto: BlackRock profit jumps as resilient markets boost fees"
+   "actualizado": "2026-10-14T10:37:34Z",
+   "ultimo_resultado": "11 titulares nuevos, 4 de alto impacto: Canadá registra un aumento récord de exportaciones a EE.UU. antes de los aranceles de agosto"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4162.9 · NQ 30781.75 · VIX 15.22 · 11 noticias nuevas (4 alto impacto)",
+   "ts": "2026-10-14T10:37:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4164.9 · NQ 30789.75 · VIX 15.21 · 8 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "15 titulares nuevos, 1 de alto impacto: Dollar Pressured by Lower Crude Prices",
    "ts": "2026-10-13T21:12:34Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "15 titulares nuevos, 1 de alto impacto: Saudi national OpenAI employee arrested after 'sophisticated recording device' planted in office",
-   "ts": "2026-10-13T21:07:33Z"
   }
  ],
  "briefs": [
@@ -5840,12 +5840,64 @@
   }
  },
  "en_vivo": {
-  "oro": 4164.9,
-  "nq": 30789.75,
-  "vix": 15.21,
-  "ts": "2026-10-14T10:32:31Z"
+  "oro": 4162.9,
+  "nq": 30781.75,
+  "vix": 15.22,
+  "ts": "2026-10-14T10:37:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Canada sees record surge in U.S. exports ahead of new tariffs in August",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOajA3ck4tVmFKeWxkQ2VVaEIwbU1oS29jb2Q2cXZiTXdKT1NxZ0c0Q21OdUFrQnBjSmJPb2pYX29RblMtTmRSb2xuYTQ2MXRNSVdYbGJCZzhNSzhRbm16NFBsQW1FOVExRUZzT0txWEIzaVNvNFl4SXRLU19iOVNsSEhDZjZxVmpLaXBUOXNjdTBDOWhXZnlWcUcyRGJEYVlmU29uMEtMUUxHZzJRaExFbDIwMEdKS2VQelVWaG1jVG5qaExfWW9FWkZVYzA?oc=5",
+   "ts": "2026-10-14T10:34:25Z",
+   "fuente": "constructconnect.com",
+   "id": "63db31a71b",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "Canadá registra un aumento récord de exportaciones a EE.UU. antes de los aranceles de agosto",
+   "efecto": "Aumenta la tensión comercial, fortaleciendo ligeramente al dólar como refugio."
+  },
+  {
+   "titulo": "How Trump’s tariffs and Iran war are becoming liabilities in Michigan’s Senate race",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObllseWdwR2FMbi0zbF9QYWVuREpVSHFhR3RMakxOOHQ1blF2Z2ktaDV6c0V1RkFwNXFINm54OUpTSGFGMG5KRFpCTXpwQnFtdWliTTRTUHpfcFZTZnVhdmNVcGJVRkpnbHR2WnB4OGNNYzFreVh6c2JqMmJNOEFEU3ZyQ1lPTm9YY0k5clpKVlfSAZYBQVVfeXFMTzdJTnJZa1h1eUFMcVVrY2Jhdld4cWlEb3JHRGNHRm9HcEZBZDF0Snd2Yk1xYnVxaDJnUUpzRkpHTE80YldRVXF0LVFYOWMyM3prR1A5ZWRQaTk2VU9CdlBBbzJMZmgzdlVjWVljZmJfT2o0RFlLS1ZJNllWRWZxSUQ0VEJBV1U2RElrOEtsSTdDcFcyamxB?oc=5",
+   "ts": "2026-10-14T10:30:01Z",
+   "fuente": "CNBC",
+   "id": "d6ddc953f8",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "bajo",
+   "es": "Los aranceles de Trump y la guerra con Irán pesan en la carrera senatorial de Míchigan",
+   "efecto": "Ruido político interno sin impacto directo e inmediato en la sesión."
+  },
+  {
+   "titulo": "GoldMining Appoints Project Director to Lead Next Phase of Advancement of the São Jorge Gold Project, Brazil",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/goldmining-appoints-project-director-lead-103000510.html?.tsrc=rss",
+   "ts": "2026-10-14T10:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "c8662eba2f",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "GoldMining nombra director de proyecto para avanzar en el yacimiento São Jorge, Brasil",
+   "efecto": "Noticia corporativa minera menor; sin impacto en el precio del oro."
+  },
+  {
+   "titulo": "PALISADES PROVIDES EXPLORATION UPDATE ACROSS ITS EXTENSIVE MADE IN AMERICA GOLD PORTFOLIO IN NEVADA",
+   "link": "https://finance.yahoo.com/news/palisades-provides-exploration-across-extensive-103000326.html?.tsrc=rss",
+   "ts": "2026-10-14T10:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "e787b96102",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Palisades actualiza exploración en su cartera de oro 'Made in America' en Nevada",
+   "efecto": "Actualización operativa sectorial sin efecto macroeconómico en el oro."
+  },
   {
    "titulo": "BlackRock profit jumps as resilient markets boost fees",
    "link": "https://www.cnbc.com/2026/10/14/blackrock-profit-jumps-as-resilient-markets-boost-fees.html",
@@ -6169,6 +6221,21 @@
    "id": "b8576e9407",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "U.S. Dollar Falls as Treasury Yields Ease",
+   "link": "https://finance.yahoo.com/m/a7e67463-b6c6-3c4b-ab0f-43fdbcb49f93/u.s.-dollar-falls-as-treasury.html?.tsrc=rss",
+   "ts": "2026-10-14T08:17:40Z",
+   "fuente": "Yahoo Finance",
+   "id": "9bc4e41f5f",
+   "activos": [
+    "oro",
+    "dolar",
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "El dólar cae mientras los rendimientos de los bonos del Tesoro bajan",
+   "efecto": "Debilidad del dólar y caída de tasas impulsan al oro y al NQ."
   },
   {
    "titulo": "=+!🛌💦viral!+kand!) viral video gold medalist",
@@ -6613,53 +6680,6 @@
    "ts": "2026-10-14T02:04:47Z",
    "fuente": "CNBC",
    "id": "fdbc54e72d",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Oil rises amid growing Mideast tensions between Iran-backed Houthis and Saudi Arabia",
-   "link": "https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html",
-   "ts": "2026-10-14T01:55:26Z",
-   "fuente": "CNBC",
-   "id": "cd1c9dfa16",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Producer prices in China rise at fastest pace since June 2022, beating expectations",
-   "link": "https://www.cnbc.com/2026/10/14/producer-prices-in-china-rise-fastest-since-june-2022-on-fuel-costs.html",
-   "ts": "2026-10-14T01:43:21Z",
-   "fuente": "CNBC",
-   "id": "bec3685739",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Anthropic urges court in Washington, D.C. to rehear appeal of Pentagon blacklisting",
-   "link": "https://www.cnbc.com/2026/10/13/anthropic-wants-court-in-dc-to-rehear-appeal-of-pentagon-blacklist-.html",
-   "ts": "2026-10-14T01:35:51Z",
-   "fuente": "CNBC",
-   "id": "13cbaba33a",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Gold futures drop for second day despite record ETF inflows.",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNHRNb3ZkVWhmWFA0NURMT2YtUHR5bEJPd1hwOGRmQnk1aVFZc083dXVlR2g3WXc2TzNGVE1UWXhXTXlfWC1fLXNRNVQwU05tQVMwempSTE1DQ1FWQ2R0OWJRXzNxbGJCWFN5OC1lbkI1a01YbGlDQm4yMjN4OFRCRTdrUzBoeWxmeW54d3hSejBfZjd0NlZJa3Q2SzB6MFdzYmgyVTlLRmhaSGRORy1vMA?oc=5",
-   "ts": "2026-10-14T01:17:41Z",
-   "fuente": "CME Group",
-   "id": "3dbb194801",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "China's exports likely grew by double-digits in September",
-   "link": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html",
-   "ts": "2026-10-14T01:16:02Z",
-   "fuente": "CNBC",
-   "id": "aef50099e6",
    "activos": [],
    "impacto": "bajo"
   }
@@ -7205,15 +7225,15 @@
     1791972000,
     4166.6,
     4168.8,
-    4163.1,
-    4165.0
+    4162.6,
+    4163.8
    ],
    [
-    1791973350,
-    4164.9,
-    4164.9,
-    4164.9,
-    4164.9
+    1791973651,
+    4162.9,
+    4162.9,
+    4162.9,
+    4162.9
    ]
   ],
   "nq": [
@@ -7747,14 +7767,14 @@
     30794.25,
     30805.0,
     30758.25,
-    30786.75
+    30788.25
    ],
    [
-    1791973349,
-    30789.75,
-    30789.75,
-    30789.75,
-    30789.75
+    1791973646,
+    30781.75,
+    30781.75,
+    30781.75,
+    30781.75
    ]
   ],
   "vix": [
@@ -8176,18 +8196,18 @@
     15.19,
     15.25,
     15.19,
-    15.21
+    15.22
    ],
    [
-    1791973036,
-    15.21,
-    15.21,
-    15.21,
-    15.21
+    1791973351,
+    15.22,
+    15.22,
+    15.22,
+    15.22
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-14T10:02:32Z",
+ "noticias_traducidas_ts": "2026-10-14T10:37:31Z",
  "ult_4h": 1791973951.6263685,
  "estrategia_4h": {
   "oro": {
