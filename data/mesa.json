@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4164.0 · NQ 30780.0 · VIX 15.19 · 8 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-14T10:12:42Z"
+   "ultimo_resultado": "Oro 4165.2 · NQ 30763.5 · VIX 15.23 · 5 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-14T10:17:50Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T10:12:41Z",
-   "ultimo_resultado": "8 titulares nuevos, 2 de alto impacto: US-Canada trade war: How Canada’s retaliatory tariffs affect e-commerce"
+   "actualizado": "2026-10-14T10:17:49Z",
+   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: S&P 500 Ends Flat, While Nasdaq Drops As Memory Chipmakers Sell Off — BAC, GME, SPCX, ARM, QCOM In Focus"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4165.2 · NQ 30763.5 · VIX 15.23 · 5 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-14T10:17:50Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4164.0 · NQ 30780.0 · VIX 15.19 · 8 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4181.2 · NQ 30769.5 · VIX 15.27 · 15 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-13T20:52:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4181.0 · NQ 30764.75 · VIX 15.27 · 15 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-13T20:47:35Z"
   }
  ],
  "briefs": [
@@ -5840,10 +5840,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4164.0,
-  "nq": 30780.0,
-  "vix": 15.19,
-  "ts": "2026-10-14T10:12:42Z"
+  "oro": 4165.2,
+  "nq": 30763.5,
+  "vix": 15.23,
+  "ts": "2026-10-14T10:17:49Z"
  },
  "noticias": [
   {
@@ -7218,14 +7218,14 @@
     4166.6,
     4166.6,
     4163.1,
-    4163.9
+    4165.2
    ],
    [
-    1791972161,
-    4163.7,
-    4163.7,
-    4163.7,
-    4163.7
+    1791972452,
+    4165.2,
+    4165.2,
+    4165.2,
+    4165.2
    ]
   ],
   "nq": [
@@ -7758,15 +7758,15 @@
     1791972000,
     30794.25,
     30796.0,
-    30771.75,
-    30782.75
+    30759.75,
+    30762.75
    ],
    [
-    1791972162,
-    30778.0,
-    30778.0,
-    30778.0,
-    30778.0
+    1791972466,
+    30763.5,
+    30763.5,
+    30763.5,
+    30763.5
    ]
   ],
   "vix": [
@@ -8184,28 +8184,35 @@
     15.19
    ],
    [
-    1791971851,
+    1791972000,
     15.19,
+    15.22,
     15.19,
-    15.19,
-    15.19
+    15.22
+   ],
+   [
+    1791972166,
+    15.23,
+    15.23,
+    15.23,
+    15.23
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-14T10:02:32Z",
- "ult_4h": 1791972154.8200576,
+ "ult_4h": 1791973069.5637164,
  "estrategia_4h": {
   "oro": {
-   "precio": 4165.9,
-   "atr_4h": 20.54,
+   "precio": 4165.2,
+   "atr_4h": 20.59,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4166.8,
      "entrada": 4166.8,
-     "stop": 4154.47,
+     "stop": 4154.45,
      "objetivo": 4242.3,
-     "rr": 6.13,
+     "rr": 6.11,
      "estado": "en retesteo",
      "fuerza_ruptura_atr": 1.6,
      "ruptura": "2026-10-08 20:00 UTC"
@@ -8213,23 +8220,11 @@
    ]
   },
   "nq": {
-   "precio": 30794.25,
+   "precio": 30763.5,
    "atr_4h": 148.66,
-   "setups": [
-    {
-     "direccion": "VENTA",
-     "nivel": 30957.5,
-     "entrada": 30957.5,
-     "stop": 31046.7,
-     "objetivo": 30591.25,
-     "rr": 4.11,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.93,
-     "ruptura": "2026-10-12 16:00 UTC"
-    }
-   ]
+   "setups": []
   },
-  "ts": "2026-10-14T10:02:35Z"
+  "ts": "2026-10-14T10:17:49Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
