@@ -3045,9 +3045,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Eastern Ave…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-10-14T23:02:52Z"
+   "actualizado": "2026-10-14T23:06:40Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -3075,6 +3075,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-14T23:06:40Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Eastern Ave…",
@@ -4569,11 +4574,6 @@
    "agente": "seguimiento",
    "texto": "Terminó su turno: 0 respuestas nuevas, 0 bajas, 1 seguimientos",
    "ts": "2026-10-12T16:12:51Z"
-  },
-  {
-   "agente": "seguimiento",
-   "texto": "Seguimiento 2 enviado a Evans Motors.",
-   "ts": "2026-10-12T16:12:42Z"
   }
  ],
  "reportes": {
