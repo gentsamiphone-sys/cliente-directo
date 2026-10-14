@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4122.6 · NQ 30195.75 · VIX 16.89 · 3 noticias nuevas",
-   "actualizado": "2026-10-14T20:12:40Z"
+   "ultimo_resultado": "Oro 4121.6 · NQ 30158.75 · VIX 16.83",
+   "actualizado": "2026-10-14T20:17:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T20:12:39Z",
-   "ultimo_resultado": "3 titulares nuevos: Dell stock plunges 11%, leading data center sell-off on concerns about 'enterprise AI timing'"
+   "actualizado": "2026-10-14T20:17:36Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4121.6 · NQ 30158.75 · VIX 16.83",
+   "ts": "2026-10-14T20:17:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4122.6 · NQ 30195.75 · VIX 16.89 · 3 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "ES/NQ: DIVERGENCIA: el ES no acompaña al NQ (movimiento débil o rotación) · ES alcista en 1H",
    "ts": "2026-10-14T06:33:01Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el S&P 500 (ES) con el NQ…",
-   "ts": "2026-10-14T06:33:00Z"
   }
  ],
  "briefs": [
@@ -6090,10 +6090,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4122.6,
-  "nq": 30195.75,
-  "vix": 16.89,
-  "ts": "2026-10-14T20:12:39Z"
+  "oro": 4121.6,
+  "nq": 30158.75,
+  "vix": 16.83,
+  "ts": "2026-10-14T20:17:37Z"
  },
  "noticias": [
   {
@@ -7567,15 +7567,15 @@
     1792008000,
     4122.9,
     4124.7,
-    4122.0,
-    4122.4
+    4120.9,
+    4121.7
    ],
    [
-    1792008157,
-    4122.6,
-    4122.6,
-    4122.6,
-    4122.6
+    1792008455,
+    4121.6,
+    4121.6,
+    4121.6,
+    4121.6
    ]
   ],
   "nq": [
@@ -8178,15 +8178,15 @@
     1792008000,
     30186.0,
     30214.0,
-    30175.5,
-    30194.0
+    30156.5,
+    30161.75
    ],
    [
-    1792008159,
-    30195.75,
-    30195.75,
-    30195.75,
-    30195.75
+    1792008457,
+    30162.0,
+    30162.0,
+    30162.0,
+    30162.0
    ]
   ],
   "vix": [
@@ -8671,77 +8671,77 @@
     17.13,
     17.32,
     16.82,
-    16.93
+    16.82
    ],
    [
-    1792007851,
-    16.89,
-    16.89,
-    16.89,
-    16.89
+    1792008000,
+    16.81,
+    16.83,
+    16.78,
+    16.83
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-14T19:47:35Z",
- "ult_4h": 1792008151.898596,
+ "ult_4h": 1792009057.096616,
  "estrategia_4h": {
   "oro": {
-   "precio": 4123.1,
-   "atr_4h": 26.09,
+   "precio": 4121.6,
+   "atr_4h": 24.85,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4129.2,
      "entrada": 4129.2,
-     "stop": 4144.86,
+     "stop": 4144.11,
      "objetivo": 4095.0,
-     "rr": 2.18,
+     "rr": 2.29,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 2.29,
+     "fuerza_ruptura_atr": 2.4,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 4173.7,
-     "entrada": 4173.7,
-     "stop": 4189.36,
+     "nivel": 4178.1,
+     "entrada": 4178.1,
+     "stop": 4193.01,
      "objetivo": 4095.0,
-     "rr": 5.03,
+     "rr": 5.57,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.29,
+     "fuerza_ruptura_atr": 2.4,
      "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30178.5,
-   "atr_4h": 189.04,
+   "precio": 30158.75,
+   "atr_4h": 176.59,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30483.42,
+     "stop": 30475.95,
      "objetivo": 30078.0,
-     "rr": 2.57,
+     "rr": 2.76,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.28,
+     "fuerza_ruptura_atr": 2.44,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30604.75,
-     "entrada": 30604.75,
-     "stop": 30718.17,
+     "nivel": 30504.5,
+     "entrada": 30504.5,
+     "stop": 30610.45,
      "objetivo": 30078.0,
-     "rr": 4.64,
+     "rr": 4.03,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.28,
+     "fuerza_ruptura_atr": 2.44,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-14T20:02:32Z"
+  "ts": "2026-10-14T20:17:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
