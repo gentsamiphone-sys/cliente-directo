@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4166.0 · NQ 30763.75 · VIX 15.28 · 8 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-14T10:52:36Z"
+   "ultimo_resultado": "Oro 4167.5 · NQ 30766.25 · VIX 15.3 · 7 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-14T10:57:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T10:52:36Z",
-   "ultimo_resultado": "8 titulares nuevos, 1 de alto impacto: Bank of America earnings are out – Here are the numbers"
+   "actualizado": "2026-10-14T10:57:31Z",
+   "ultimo_resultado": "7 titulares nuevos, 1 de alto impacto: Bank of America posts third-quarter profit drop due to $1.2 billion Treasury fine"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4167.5 · NQ 30766.25 · VIX 15.3 · 7 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-14T10:57:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4166.0 · NQ 30763.75 · VIX 15.28 · 8 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "15 titulares nuevos, 1 de alto impacto: Pope Leo diagnosed with cancer as doctors remove lobe of lung, Vatican says",
    "ts": "2026-10-13T21:32:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "15 titulares nuevos, 1 de alto impacto: Will Wheaton Precious Metals' Development Assets Drive Growth?",
-   "ts": "2026-10-13T21:27:33Z"
   }
  ],
  "briefs": [
@@ -5840,12 +5840,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4166.0,
-  "nq": 30763.75,
-  "vix": 15.28,
-  "ts": "2026-10-14T10:52:36Z"
+  "oro": 4167.5,
+  "nq": 30766.25,
+  "vix": 15.3,
+  "ts": "2026-10-14T10:57:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Bank of America posts third-quarter profit drop due to $1.2 billion Treasury fine",
+   "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
+   "ts": "2026-10-14T10:54:21Z",
+   "fuente": "CNBC",
+   "id": "1bbd6174ea",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Bank of America earnings are out – Here are the numbers",
    "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
@@ -6663,15 +6674,6 @@
    "id": "5caced67df",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Judge indefinitely blocks Trump from banning 3 media outlets from White House",
-   "link": "https://www.cnbc.com/2026/10/14/trump-white-house-msnow-cnn-politico-media-ban.html",
-   "ts": "2026-10-14T03:30:25Z",
-   "fuente": "CNBC",
-   "id": "12a7a5e255",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7216,14 +7218,14 @@
     4166.6,
     4168.8,
     4162.6,
-    4165.2
+    4168.0
    ],
    [
-    1791974554,
-    4166.0,
-    4166.0,
-    4166.0,
-    4166.0
+    1791974830,
+    4167.5,
+    4167.5,
+    4167.5,
+    4167.5
    ]
   ],
   "nq": [
@@ -7756,15 +7758,15 @@
     1791972000,
     30794.25,
     30805.0,
-    30758.0,
-    30761.0
+    30752.75,
+    30764.75
    ],
    [
-    1791974554,
-    30763.75,
-    30763.75,
-    30763.75,
-    30763.75
+    1791974848,
+    30766.25,
+    30766.25,
+    30766.25,
+    30766.25
    ]
   ],
   "vix": [
@@ -8184,16 +8186,16 @@
    [
     1791972000,
     15.19,
-    15.29,
+    15.31,
     15.19,
-    15.29
+    15.31
    ],
    [
-    1791974251,
-    15.28,
-    15.28,
-    15.28,
-    15.28
+    1791974536,
+    15.3,
+    15.3,
+    15.3,
+    15.3
    ]
   ]
  },
