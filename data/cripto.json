@@ -1,10 +1,10 @@
 {
  "agentes": {
   "cio": {
-   "estado": "trabajando",
-   "tarea": "Escribiendo el brief cripto…",
-   "actualizado": "2026-10-14T01:24:32Z",
-   "ultimo_resultado": "Brief publicado: Rotación defensiva hacia Bitcoin en un mercado sin euforia"
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-14T01:26:38Z",
+   "ultimo_resultado": "Brief publicado: Consolidación y cautela: mercados laterales a la espera de flujos y definición de soporte"
   },
   "liquidez": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "cio",
+   "texto": "Brief publicado: Consolidación y cautela: mercados laterales a la espera de flujos y definición de soporte",
+   "ts": "2026-10-14T01:26:38Z"
+  },
   {
    "agente": "cio",
    "texto": "Escribiendo el brief cripto…",
@@ -800,14 +805,47 @@
    "agente": "sentimiento",
    "texto": "Leyendo Fear & Greed y funding…",
    "ts": "2026-10-11T01:08:19Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Stablecoins 7d -0.93 mil M · dominancia BTC 59.11%",
-   "ts": "2026-10-11T01:08:18Z"
   }
  ],
  "briefs": [
+  {
+   "turno": "Noche (Asia)",
+   "ts": "2026-10-14T01:26:38Z",
+   "texto": "1. **Sesgo**\n- **BTC (Neutral):** Consolidando en 83315.84, soportado por la EMA50 diaria (80214.04), pero frenado bajo el máximo de ayer (84249.22) con escaso rango diario (24% del ATR).\n- **ETH (Neutral):** Lateralizando en 2504.04 justo sobre su EMA50 diaria (2500.50), castigado por un rendimiento semanal débil (-7.17%) y pérdida de tracción.\n\n2. **Liquidez global**\nEl contexto macro ofrece señales contradictorias: el DXY cede a 102.17 (-0.40%) y el US10Y baja a 5.22% (-0.44%), lo que relaja las condiciones financieras. No obstante, el Nasdaq retrocede a 30792.0 (-0.34%) y el VIX sube a 15.27 (+0.39%), indicando que la debilidad en renta variable frena la toma de riesgo institucional hacia activos digitales.\n\n3. **Flujos**\nNo entra dinero fresco: el suministro total de stablecoins es de 288.6 MM, con contracciones de -1.66 MM en 7 días y -0.44 MM en 30 días. La dominancia de BTC en 59.21% frente al débil 10.82% de ETH confirma una dinámica defensiva de refugio en BTC y nula rotación de capital hacia altcoins.\n\n4. **Apalancamiento y sentimiento**\nEl índice Fear & Greed marca 62 (\"Greed\", cediendo desde 64 hace 7 días). En derivados, el funding de BTC es negativo (-0.0018%), revelando cortos institucionales/minoristas atrapados o sobrecargando la venta. En ETH, el funding es positivo (0.0073%), lo que evidencia largos pagando tasa sin catalizadores claros.\n\n5. **Mapa de liquidez**\n- **BTC:** \n  - Máx/Mín semanal: 85594.55 / 80336.91.\n  - Máx/Mín mensual: 87363.76 / 74944.59.\n  - EMA200 diaria: 75704.36.\n  - Imán más probable: Búsqueda del pool de liquidez en el mínimo de la semana (80336.91), confluyente con la EMA50 diaria (80214.04).\n- **ETH:** \n  - Máx/Mín semanal: 2699.26 / 2406.15.\n  - Máx/Mín mensual: 2805.50 / 2357.96.\n  - EMA200 diaria: 2321.91.\n  - Imán más probable: Barrido del mínimo de la semana y soporte de 48h en 2406.15 / 2406.41.\n\n6. **Plan**\n- **BTC:**\n  - Dirección: SIN ENTRADA\n  - Zona de entrada: N/A\n  - Stop: N/A\n  - TP1 / TP2: N/A\n  - R:R al TP2: N/A\n  - Confluencias: 3/5. (1: No, Nasdaq cae; 2: No, drenaje de stablecoins de -1.66 MM; 3: Sí, funding BTC negativo favorece squeeze; 4: Sí, soporte en mín. semanal 80336.91 / EMA50; 5: Sí, estacionalidad alcista). Menos de 4/5 exige disciplina de capital.\n\n- **ETH:**\n  - Dirección: SIN ENTRADA\n  - Zona de entrada: N/A\n  - Stop: N/A\n  - TP1 / TP2: N/A\n  - R:R al TP2: N/A\n  - Confluencias: 2/5. (1: No, macro mixto; 2: No, sin flujos de entrada; 3: No, funding positivo sin impulso; 4: Sí, soporte semanal 2406.15; 5: Sí, estacionalidad positiva).\n\n7. **Historia**\nEn esta fecha, BTC cerró al alza en 5 de los últimos 8 años durante esta semana (+1.81% promedio) y en 7 de 8 años en los siguientes 20 días (+10.34% promedio). \nSesgo histórico: alcista.\n\n8. **Riesgo**\nRégimen actual: volatilidad normal tanto en BTC (ATR 2.44%) como en ETH (ATR 3.14%). Regla de tamaño: arriesgar como máximo el 1% del capital por idea operativa al confirmarse las confluencias requeridas.\n\nAnálisis educativo de agentes de IA. No es consejo financiero.",
+   "titular": "Consolidación y cautela: mercados laterales a la espera de flujos y definición de soporte",
+   "sesgo": {
+    "btc": "neutral",
+    "eth": "neutral"
+   },
+   "entradas": [
+    {
+     "activo": "BTC",
+     "direccion": "SIN ENTRADA",
+     "zona": "N/A",
+     "stop": "N/A",
+     "tp1": "N/A",
+     "tp2": "N/A",
+     "rr": "N/A",
+     "confluencias": "3/5"
+    },
+    {
+     "activo": "ETH",
+     "direccion": "SIN ENTRADA",
+     "zona": "N/A",
+     "stop": "N/A",
+     "tp1": "N/A",
+     "tp2": "N/A",
+     "rr": "N/A",
+     "confluencias": "2/5"
+    }
+   ],
+   "precios": {
+    "btc": 83315.84,
+    "eth": 2504.04
+   },
+   "fear_greed": 62,
+   "dominancia_btc": 59.21
+  },
   {
    "turno": "Mañana (apertura de EE. UU.)",
    "ts": "2026-10-13T13:33:52Z",
