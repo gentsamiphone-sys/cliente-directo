@@ -2869,9 +2869,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Owens Ave…",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-14T03:02:31Z"
+   "actualizado": "2026-10-14T03:02:32Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -2899,6 +2899,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Owens Ave…",
+   "ts": "2026-10-14T03:02:32Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 126 textos listos para mandar",
@@ -4393,11 +4398,6 @@
    "agente": "gerente",
    "texto": "Terminó su turno: 108 textos listos para mandar",
    "ts": "2026-10-11T20:37:33Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Actualicé el reporte del día.",
-   "ts": "2026-10-11T20:37:32Z"
   }
  ],
  "reportes": {
