@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4184.6 · NQ 30864.5 · VIX 15.27 · 10 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-14T02:47:34Z"
+   "ultimo_resultado": "Oro 4183.6 · NQ 30866.75 · VIX 15.27 · 12 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-14T02:52:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T02:47:33Z",
-   "ultimo_resultado": "10 titulares nuevos, 2 de alto impacto: The latest inflation data is expected to show price increases are accelerating"
+   "actualizado": "2026-10-14T02:52:30Z",
+   "ultimo_resultado": "12 titulares nuevos, 2 de alto impacto: China's exports and imports surge past expectations in September"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4183.6 · NQ 30866.75 · VIX 15.27 · 12 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-14T02:52:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4184.6 · NQ 30864.5 · VIX 15.27 · 10 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "historiador",
    "texto": "Revisando qué pasó en esta misma fecha los últimos 10 años y buscando años parecidos…",
    "ts": "2026-10-13T12:34:12Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "ES/NQ: CONFIRMA: ES y NQ van en la misma dirección · ES bajista en 1H",
-   "ts": "2026-10-13T12:34:11Z"
   }
  ],
  "briefs": [
@@ -5645,12 +5645,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4184.6,
-  "nq": 30864.5,
+  "oro": 4183.6,
+  "nq": 30866.75,
   "vix": 15.27,
-  "ts": "2026-10-14T02:47:34Z"
+  "ts": "2026-10-14T02:52:30Z"
  },
  "noticias": [
+  {
+   "titulo": "China's exports and imports surge past expectations in September",
+   "link": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html",
+   "ts": "2026-10-14T02:48:43Z",
+   "fuente": "CNBC",
+   "id": "79da45b552",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Bank of America sees a buyer problem for gold",
+   "link": "https://www.thestreet.com/investing/bank-of-america-sees-a-buyer-problem-for-gold?.tsrc=rss",
+   "ts": "2026-10-14T02:33:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "8470572d16",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Gold holds two-day slide as Fed signals one more hike, U.S. CPI in focus",
    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5CNDVpcU9UVFhMNjNub0Jpa0o5OEh3a0QxUUk1Q2xtNDZmeXFWdjdueWc0UnB1eVg2TjE2enRfQnk4OUp6QVJ0bUN1WUZOenRFbm1uSmY3d21VYXdzbTFLMHZjbGw0VnpOTnlLVC1KYTB3Y1dKTDE2Q24xS0piQQ?oc=5",
@@ -6442,28 +6462,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Black and Blue Meets the Black and Gold | Materials of the Match: Charlotte FC at Columbus Crew",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdHNOb1lKV3pMVHFVUTZzNS1LZXY4d0wwclN3TXNPanVDMFRNX0lwWkJUVVhSUFdjMVgySmdsUkoxOTRyODJ4aWxKNTVqZVJ3bDl0WUZoTnVBQ1BJRUxtOWxNMWxBMVl4akNpUEhKREMzdzBNUXBUODFXVlFTaDdkcENLUDc4blNVNjNFN2xqelAyTmhEVzZhb1lLb3lNQnpYTUc0bDFkMnF1MEljRmNVZDc4aGE4Rk1lOXJGclFzOEhiOXFsb0dRak9IMzdaVVl2?oc=5",
-   "ts": "2026-10-13T18:25:55Z",
-   "fuente": "Charlotte FC",
-   "id": "96aa6f3812",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Fed's Williams currently sees no need for rate hike in 2027, Bloomberg News reports",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVlpnSjdVeERKaFdNRkxCTHhRNmY5Y0FFN3k0by1ndE9MYXIzN0pybnJzUFBqR1hOaHpUYjFjODI1ZGNSMjVLRF83S19ZNXB6eGU0YU5MUUVMWEFtSjN4UlRReUpsWFktZ2lfX1pQZDBNS1Qtbk02bXNGRVNQZUlSS2pKZ2wxRUtGZzBWYUxCdGJpbHZkOFlMYWhtb0lRNFZEMDd6ZnY2RjdDRXpVdWhsUVhwN3ZsZ1k?oc=5",
-   "ts": "2026-10-13T18:24:10Z",
-   "fuente": "Reuters",
-   "id": "0aa68cbd3a",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -7092,14 +7090,14 @@
     4177.6,
     4186.9,
     4175.9,
-    4184.9
+    4183.2
    ],
    [
-    1791945436,
-    4184.6,
-    4184.6,
-    4184.6,
-    4184.6
+    1791945744,
+    4183.6,
+    4183.6,
+    4183.6,
+    4183.6
    ]
   ],
   "nq": [
@@ -7724,14 +7722,14 @@
     30840.0,
     30876.0,
     30836.5,
-    30863.5
+    30862.75
    ],
    [
-    1791945452,
-    30863.75,
-    30863.75,
-    30863.75,
-    30863.75
+    1791945745,
+    30866.75,
+    30866.75,
+    30866.75,
+    30866.75
    ]
   ],
   "vix": [
