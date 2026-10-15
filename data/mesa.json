@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4181.4 · NQ 29826.5 · VIX 17.61 · 1 noticias nuevas",
-   "actualizado": "2026-10-15T13:52:38Z"
+   "ultimo_resultado": "Oro 4180.0 · NQ 29777.25 · VIX 17.35 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-15T13:57:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T13:52:37Z",
-   "ultimo_resultado": "1 titulares nuevos: Small-cap stocks quietly slide into correction territory"
+   "actualizado": "2026-10-15T13:57:33Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Gold Allergy Not Linked to Autoimmune Disease Risk"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4180.0 · NQ 29777.25 · VIX 17.35 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-15T13:57:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4181.4 · NQ 29826.5 · VIX 17.61 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4160.4 · NQ 29962.0 · VIX 16.87",
    "ts": "2026-10-15T00:57:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4162.4 · NQ 29958.75 · VIX 16.87",
-   "ts": "2026-10-15T00:52:33Z"
   }
  ],
  "briefs": [
@@ -6715,12 +6715,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4181.4,
-  "nq": 29826.5,
-  "vix": 17.61,
-  "ts": "2026-10-15T13:52:37Z"
+  "oro": 4180.0,
+  "nq": 29777.25,
+  "vix": 17.35,
+  "ts": "2026-10-15T13:57:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Gold Allergy Not Linked to Autoimmune Disease Risk",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOc1hYbldhczM1OURUVGg0cXN5WGlDeU5mN3NNaWxlZGQzYXNXaTRfNzc4TmpJYzloaXNyZjVSYTViSXo5aTJCU0QxOURNVFBVNTNDbGdOSXJXUmpTOWlPR1k3cnVGSGo4STNHS0YwRGJoN3Y2MEFuajRWYXZDMlRrS0Y1Zl9LNDdPQS1tNU1FbkFWMmhnUUMtMWlPZ2xvUQ?oc=5",
+   "ts": "2026-10-15T13:55:14Z",
+   "fuente": "Medscape",
+   "id": "112d38351c",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Small-cap stocks quietly slide into correction territory",
    "link": "https://www.cnbc.com/2026/10/15/small-cap-stocks-slide-into-correction-territory.html",
@@ -6728,6 +6739,18 @@
    "fuente": "CNBC",
    "id": "b155c6ef46",
    "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Gold Rebounds From Losses Amid Tech Stock Selloff",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYXdKRFMzY0hhUE5sMS0wRzZqb0RlQzZmWE11dGFrS2w1b1hkakhaQmNPMlBfc1FaTXRYMUxyZHptc0FTYl9nTGJ2a0dNYU11eE1jNHJmU2wzNWVoWS1NbFR0cDBrTWVJYnZYdDlxLU5OUlFMUHdRa2ZVWGNLb1U5dS1xMXRudldKZEZVUG03ZGEzT3Rjcy1SZGJoTXVpNll3ME90dUtFajN6Z3FDMFV5QzFqSmVlMmM2QW9ibkFlaw?oc=5",
+   "ts": "2026-10-15T13:47:30Z",
+   "fuente": "Forbes",
+   "id": "cea58249d6",
+   "activos": [
+    "oro",
     "nq"
    ],
    "impacto": "medio"
@@ -7570,26 +7593,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Kodal Minerals And 2 Other British Lithium Stocks",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/kodal-minerals-2-other-british-091526655.html?.tsrc=rss",
-   "ts": "2026-10-15T09:15:26Z",
-   "fuente": "Yahoo Finance",
-   "id": "f44dd91663",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Kodal Minerals y otras dos acciones británicas de litio",
-   "efecto": ""
-  },
-  {
-   "titulo": "TSMC Posts a Sixth Straight Record Quarter, and Its Q4 Guide Says the AI Boom Isn’t Slowing. Here’s the Fuller Picture",
-   "link": "https://www.tikr.com/blog/tsmc-posts-a-sixth-straight-record-quarter-and-its-q4-guide-says-the-ai-boom-isnt-slowing-heres-the-fuller-picture?ref=yahoofinance&amp;.tsrc=rss",
-   "ts": "2026-10-15T09:14:06Z",
-   "fuente": "Yahoo Finance",
-   "id": "f1d0791f2a",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -8205,14 +8208,14 @@
     4173.3,
     4189.9,
     4165.3,
-    4182.4
+    4180.1
    ],
    [
-    1792071727,
-    4181.4,
-    4181.4,
-    4181.4,
-    4181.4
+    1792072052,
+    4180.0,
+    4180.0,
+    4180.0,
+    4180.0
    ]
   ],
   "nq": [
@@ -8807,16 +8810,16 @@
    [
     1792069200,
     29790.25,
-    29845.0,
+    29859.5,
     29684.25,
-    29833.0
+    29800.25
    ],
    [
-    1792071730,
-    29829.5,
-    29829.5,
-    29829.5,
-    29829.5
+    1792072053,
+    29775.5,
+    29775.5,
+    29775.5,
+    29775.5
    ]
   ],
   "vix": [
@@ -9258,23 +9261,23 @@
     1792069200,
     17.47,
     17.82,
-    17.4,
-    17.7
+    17.38,
+    17.38
    ],
    [
-    1792071421,
-    17.61,
-    17.61,
-    17.61,
-    17.61
+    1792071751,
+    17.35,
+    17.35,
+    17.35,
+    17.35
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-15T13:27:37Z",
- "ult_4h": 1792071753.2077107,
+ "ult_4h": 1792072653.975442,
  "estrategia_4h": {
   "oro": {
-   "precio": 4173.9,
+   "precio": 4180.0,
    "atr_4h": 28.71,
    "setups": [
     {
@@ -9291,7 +9294,7 @@
    ]
   },
   "nq": {
-   "precio": 29726.75,
+   "precio": 29775.5,
    "atr_4h": 208.09,
    "setups": [
     {
@@ -9318,7 +9321,7 @@
     }
    ]
   },
-  "ts": "2026-10-15T13:42:33Z"
+  "ts": "2026-10-15T13:57:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -9651,6 +9654,9 @@
   "0d098e2c73",
   "482ea5c106",
   "3935a9b9e1",
-  "b155c6ef46"
+  "b155c6ef46",
+  "112d38351c",
+  "cea58249d6",
+  "0208f6f237"
  ]
 }
