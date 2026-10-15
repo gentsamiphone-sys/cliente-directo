@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4178.8 · NQ 29813.0 · VIX 17.59 · 4 noticias nuevas",
-   "actualizado": "2026-10-15T11:32:33Z"
+   "ultimo_resultado": "Oro 4179.4 · NQ 29813.5 · VIX 17.55 · 1 noticias nuevas",
+   "actualizado": "2026-10-15T11:37:30Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T11:32:32Z",
-   "ultimo_resultado": "4 titulares nuevos: How lower fuel economy targets could boost pickups and V-8 engines"
+   "actualizado": "2026-10-15T11:37:30Z",
+   "ultimo_resultado": "1 titulares nuevos: Yukon Metals identifies copper-gold system at Viper prospect"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4179.4 · NQ 29813.5 · VIX 17.55 · 1 noticias nuevas",
+   "ts": "2026-10-15T11:37:30Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4178.8 · NQ 29813.0 · VIX 17.59 · 4 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
    "ts": "2026-10-14T21:33:04Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Midiendo volatilidad y rango esperado del día…",
-   "ts": "2026-10-14T21:33:02Z"
   }
  ],
  "briefs": [
@@ -6493,10 +6493,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4178.8,
-  "nq": 29813.0,
-  "vix": 17.59,
-  "ts": "2026-10-15T11:32:33Z"
+  "oro": 4179.4,
+  "nq": 29813.5,
+  "vix": 17.55,
+  "ts": "2026-10-15T11:37:30Z"
  },
  "noticias": [
   {
@@ -6534,6 +6534,18 @@
    "id": "2b5719790a",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Yukon Metals identifies copper-gold system at Viper prospect",
+   "link": "https://www.mining-technology.com/news/yukon-copper-gold-system-viper/?.tsrc=rss",
+   "ts": "2026-10-15T11:15:14Z",
+   "fuente": "Yahoo Finance",
+   "id": "5e12874a7e",
+   "activos": [
+    "oro",
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Nvidia must work with Chinese AI companies on safety, Jensen Huang tells CNBC",
@@ -7363,17 +7375,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Braves News: Gold Gloves, Arbitration Estimates, more",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWnl6LXFWWWFNVHp0bTJTX05hR2VvOUFCcWdRS0RYR0ZfcFhkMUtCcDR6a19pNTMwUk8xQ2tpUnlQOVptOHFla0tROVdBc1RZT2loNzVZU0p0dUhVUTBaNmpYQWVVOXpGVXR6MWhnaXljZDJhdkFQSExwTF9Pa1B6aWlVaWRxUEJpb0pwZQ?oc=5",
-   "ts": "2026-10-15T04:15:00Z",
-   "fuente": "Yahoo Sports",
-   "id": "3339bbdb54",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Noticias de los Braves: Guantes de Oro, estimaciones de arbitraje y más",
-   "efecto": "Sin impacto en los mercados financieros institucionales."
   }
  ],
  "eventos_avisados": [
@@ -7971,14 +7972,14 @@
     4176.5,
     4181.0,
     4176.4,
-    4178.9
+    4178.8
    ],
    [
-    1792063348,
-    4178.8,
-    4178.8,
-    4178.8,
-    4178.8
+    1792063647,
+    4179.1,
+    4179.1,
+    4179.1,
+    4179.1
    ]
   ],
   "nq": [
@@ -8559,16 +8560,16 @@
    [
     1792062000,
     29801.5,
-    29823.75,
+    29824.0,
     29748.5,
-    29819.5
+    29817.25
    ],
    [
-    1792063348,
-    29812.0,
-    29812.0,
-    29812.0,
-    29812.0
+    1792063647,
+    29813.5,
+    29813.5,
+    29813.5,
+    29813.5
    ]
   ],
   "vix": [
@@ -8997,14 +8998,14 @@
     17.6,
     17.64,
     17.53,
-    17.59
+    17.55
    ],
    [
-    1792063051,
-    17.59,
-    17.59,
-    17.59,
-    17.59
+    1792063336,
+    17.55,
+    17.55,
+    17.55,
+    17.55
    ]
   ]
  },
@@ -9347,6 +9348,7 @@
   "52feb7ac44",
   "efad2b2f67",
   "fd93712290",
-  "d29e9b0806"
+  "d29e9b0806",
+  "5e12874a7e"
  ]
 }
