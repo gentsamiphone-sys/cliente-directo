@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4177.9 · NQ 29797.5 · VIX 17.63 · 5 noticias nuevas",
-   "actualizado": "2026-10-15T11:22:31Z"
+   "ultimo_resultado": "Oro 4178.6 · NQ 29817.0 · VIX 17.59 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-15T11:27:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T11:22:30Z",
-   "ultimo_resultado": "5 titulares nuevos: What Invesco NASDAQ 100 ETF (QQQM) Bought: NVIDIA Leads on Oct. 13"
+   "actualizado": "2026-10-15T11:27:32Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Walmart is a buy as inflation attracts more customers, says Deutsche Bank"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4178.6 · NQ 29817.0 · VIX 17.59 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-15T11:27:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4177.9 · NQ 29797.5 · VIX 17.63 · 5 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Mapa listo: oro 4127.3 · NQ 30139.25.",
    "ts": "2026-10-14T21:33:01Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
-   "ts": "2026-10-14T21:33:00Z"
   }
  ],
  "briefs": [
@@ -6493,12 +6493,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4177.9,
-  "nq": 29797.5,
-  "vix": 17.63,
-  "ts": "2026-10-15T11:22:31Z"
+  "oro": 4178.6,
+  "nq": 29817.0,
+  "vix": 17.59,
+  "ts": "2026-10-15T11:27:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Walmart is a buy as inflation attracts more customers, says Deutsche Bank",
+   "link": "https://www.cnbc.com/2026/10/15/walmart-deutsche-bank-upgrade.html",
+   "ts": "2026-10-15T11:23:25Z",
+   "fuente": "CNBC",
+   "id": "0297ce6eb0",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Silver price today, Thursday, October 15, 2026: Silver prices opened at the lowest level since July",
+   "link": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-thursday-october-15-2026-silver-prices-opened-at-the-lowest-level-since-july-112205964.html?.tsrc=rss",
+   "ts": "2026-10-15T11:22:05Z",
+   "fuente": "Yahoo Finance",
+   "id": "2b5719790a",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Nvidia must work with Chinese AI companies on safety, Jensen Huang tells CNBC",
    "link": "https://www.cnbc.com/2026/10/15/jensen-huang-nvidia-china-ai.html",
@@ -7358,26 +7376,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "【CLIPS 18+ VIDEO】Gold medalist viral video 2026 telegram",
-   "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPSG1ad2xYMk9RMDM4SzMtaFBIRkVrY09nQTJheDYyNWZjajNJakp1NmRIcmxjYy1XcnQzdzNKbndkdE4wdWRqaDFnRWNMeDZaVmswZWxvTlJzeHFudnlINFQ3MkdCOERhc0M3Um92THd0T2FmOEE0OF9mNktwc203ZzBHdGJOWWJwTnYwdnpIc3Nta3ZHOGFaVElULVEyODVKM05oeTJsQVljZDYtaFNSMjZjZ2lwRVBsR3ZRLU4yQW9Sd1h5QlZ2bElldjhjZlQtVm9tbnBmWWNLOXpFdThoVnhVYk1QSGZ0aXNfeWcxRXprbEVVTmNsVnRGbmlOUldGVWZBWHVuQkpJSzVoRldRSXNIeGhCRUdkZkJNNjJfNUJ5Q2djcnM5OHlTQXFJM0k?oc=5",
-   "ts": "2026-10-15T03:59:48Z",
-   "fuente": "Universidad de Córdoba (UCO)",
-   "id": "23df2294d5",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO",
-   "link": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
-   "ts": "2026-10-15T03:48:58Z",
-   "fuente": "CNBC",
-   "id": "21281b54d9",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7975,14 +7973,14 @@
     4176.5,
     4181.0,
     4176.4,
-    4178.7
+    4178.2
    ],
    [
-    1792062749,
-    4177.9,
-    4177.9,
-    4177.9,
-    4177.9
+    1792063049,
+    4178.6,
+    4178.6,
+    4178.6,
+    4178.6
    ]
   ],
   "nq": [
@@ -8563,16 +8561,16 @@
    [
     1792062000,
     29801.5,
-    29807.5,
+    29819.25,
     29748.5,
-    29804.75
+    29814.25
    ],
    [
-    1792062750,
-    29797.5,
-    29797.5,
-    29797.5,
-    29797.5
+    1792063051,
+    29817.0,
+    29817.0,
+    29817.0,
+    29817.0
    ]
   ],
   "vix": [
@@ -9001,22 +8999,22 @@
     17.6,
     17.64,
     17.53,
-    17.64
+    17.59
    ],
    [
-    1792062436,
-    17.63,
-    17.63,
-    17.63,
-    17.63
+    1792062736,
+    17.59,
+    17.59,
+    17.59,
+    17.59
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-15T11:12:32Z",
- "ult_4h": 1792062754.4691787,
+ "ult_4h": 1792063653.0642924,
  "estrategia_4h": {
   "oro": {
-   "precio": 4180.4,
+   "precio": 4178.6,
    "atr_4h": 27.21,
    "setups": [
     {
@@ -9033,16 +9031,16 @@
    ]
   },
   "nq": {
-   "precio": 29785.75,
-   "atr_4h": 201.96,
+   "precio": 29817.0,
+   "atr_4h": 202.39,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30491.18,
-     "objetivo": 29754.0,
-     "rr": 5.08,
+     "stop": 30491.44,
+     "objetivo": 29748.5,
+     "rr": 5.12,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 2.13,
      "ruptura": "2026-10-14 12:00 UTC"
@@ -9051,16 +9049,16 @@
      "direccion": "VENTA",
      "nivel": 30504.5,
      "entrada": 30504.5,
-     "stop": 30625.68,
-     "objetivo": 29754.0,
-     "rr": 6.19,
+     "stop": 30625.94,
+     "objetivo": 29748.5,
+     "rr": 6.23,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 2.13,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-15T11:12:34Z"
+  "ts": "2026-10-15T11:27:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -9345,6 +9343,8 @@
   "aa165d412c",
   "b4a9167ce6",
   "f418835ae3",
-  "24e55e77c8"
+  "24e55e77c8",
+  "0297ce6eb0",
+  "2b5719790a"
  ]
 }
