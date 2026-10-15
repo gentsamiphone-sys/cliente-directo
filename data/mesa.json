@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4195.2 · NQ 30144.25 · VIX 16.41",
-   "actualizado": "2026-10-15T20:12:37Z"
+   "ultimo_resultado": "Oro 4193.9 · NQ 30121.25 · VIX 16.39 · 1 noticias nuevas",
+   "actualizado": "2026-10-15T20:17:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T20:12:37Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-15T20:17:34Z",
+   "ultimo_resultado": "1 titulares nuevos: El S&P 500 cierra al alza mientras los operadores rotan de IA a salud."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4193.9 · NQ 30121.25 · VIX 16.39 · 1 noticias nuevas",
+   "ts": "2026-10-15T20:17:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4195.2 · NQ 30144.25 · VIX 16.41",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "DXY -0.43% · 10Y 5.19 · VIX 16.87 · 0 eventos USD en el radar.",
    "ts": "2026-10-15T06:32:50Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
-   "ts": "2026-10-15T06:32:48Z"
   }
  ],
  "briefs": [
@@ -6715,12 +6715,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4195.2,
-  "nq": 30144.25,
-  "vix": 16.41,
-  "ts": "2026-10-15T20:12:37Z"
+  "oro": 4193.9,
+  "nq": 30121.25,
+  "vix": 16.39,
+  "ts": "2026-10-15T20:17:35Z"
  },
  "noticias": [
+  {
+   "titulo": "S&P 500 ends higher as traders shift from AI to healthcare",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPamFUcmJMcXowbWhGMFZUbG1tdVNLNmgtMGVGWVl2OWpkMFBpSmVtNTZxM3pUOG40cm9fb2ZXTDFVZjVsXzlpTy1SZWhiNUJKRUdhRzE5NFF3MmlmWHBYN1RQVnJUdGo1MkIzV3JSZkd0dldiRzQtWWlNUGZNdFd6WE1VeGJycDByb1lUU085eGlWdzg?oc=5",
+   "ts": "2026-10-15T20:00:40Z",
+   "fuente": "Yahoo Finance",
+   "id": "92e3ee3e92",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "El S&P 500 cierra al alza mientras los operadores rotan de IA a salud.",
+   "efecto": "Rotación sectorial presiona al NQ por salida de tecnológicas líderes."
+  },
   {
    "titulo": "KFC to switch to Coca-Cola beverages in U.S. restaurants for the first time in decades",
    "link": "https://www.cnbc.com/2026/10/15/kfc-coca-cola-pepsi-switch.html",
@@ -7565,19 +7578,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "AWS, Anthropic race to deploy army of specialized engineers key to proving AI spending will pay off",
-   "link": "https://www.cnbc.com/2026/10/15/aws-anthropic-racing-to-deploy-army-of-specialized-ai-engineers.html",
-   "ts": "2026-10-15T14:10:14Z",
-   "fuente": "CNBC",
-   "id": "50bf020c1e",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "AWS y Anthropic despliegan ingenieros para demostrar la rentabilidad del gasto en IA",
-   "efecto": "Vulnerable a la confianza del sector tecnológico; monitorear sentimiento."
   }
  ],
  "eventos_avisados": [
@@ -8213,15 +8213,15 @@
     1792094400,
     4195.9,
     4197.7,
-    4195.0,
-    4195.4
+    4192.4,
+    4193.6
    ],
    [
-    1792094552,
-    4195.2,
-    4195.2,
-    4195.2,
-    4195.2
+    1792094850,
+    4193.9,
+    4193.9,
+    4193.9,
+    4193.9
    ]
   ],
   "nq": [
@@ -8845,15 +8845,15 @@
     1792094400,
     30141.0,
     30155.25,
-    30132.5,
-    30147.5
+    30120.5,
+    30122.5
    ],
    [
-    1792094555,
-    30144.25,
-    30144.25,
-    30144.25,
-    30144.25
+    1792094853,
+    30121.25,
+    30121.25,
+    30121.25,
+    30121.25
    ]
   ],
   "vix": [
@@ -9338,18 +9338,18 @@
     16.62,
     16.62,
     16.34,
-    16.42
+    16.47
    ],
    [
-    1792094251,
-    16.41,
-    16.41,
-    16.41,
-    16.41
+    1792094400,
+    16.46,
+    16.47,
+    16.39,
+    16.39
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-15T19:37:32Z",
+ "noticias_traducidas_ts": "2026-10-15T20:17:33Z",
  "ult_4h": 1792095157.342672,
  "estrategia_4h": {
   "oro": {
@@ -9822,6 +9822,7 @@
   "ffaed25dc3",
   "0a9cbd0f13",
   "e32f69344c",
-  "64d3733129"
+  "64d3733129",
+  "92e3ee3e92"
  ]
 }
