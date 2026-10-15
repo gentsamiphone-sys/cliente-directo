@@ -1,10 +1,10 @@
 {
  "agentes": {
   "cio": {
-   "estado": "trabajando",
-   "tarea": "Escribiendo el brief cripto…",
-   "actualizado": "2026-10-15T13:38:38Z",
-   "ultimo_resultado": "Brief publicado: Aversión al riesgo global y flujos negativos frenan al mercado cripto sin señales claras de entrada"
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-15T13:38:50Z",
+   "ultimo_resultado": "Brief publicado: BTC comprime sobre la EMA50 con sesgo neutral y ETH muestra debilidad barriendo mínimos"
   },
   "liquidez": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "cio",
+   "texto": "Brief publicado: BTC comprime sobre la EMA50 con sesgo neutral y ETH muestra debilidad barriendo mínimos",
+   "ts": "2026-10-15T13:38:50Z"
+  },
   {
    "agente": "cio",
    "texto": "Escribiendo el brief cripto…",
@@ -800,14 +805,47 @@
    "agente": "ejecucion",
    "texto": "BTC: no pude ejecutar el swap (503 Server Error: Service Temporarily Unavailable for url: https://lite-api.jup.ag/swap/v1). Lo reintento en 30 min.",
    "ts": "2026-10-11T22:02:57Z"
-  },
-  {
-   "agente": "ejecucion",
-   "texto": "BTC: no pude ejecutar el swap (la transacción falló en la red: {'InstructionError': [2, {'Custom': 6001}]}). Lo reintento en 30 min.",
-   "ts": "2026-10-11T21:38:50Z"
   }
  ],
  "briefs": [
+  {
+   "turno": "Mañana (apertura de EE. UU.)",
+   "ts": "2026-10-15T13:38:50Z",
+   "texto": "1. **Sesgo**\n- BTC: Neutral, comprimiendo sobre la EMA50 diaria (80258.98) tras perder el mínimo de ayer (81345.88).\n- ETH: Bajista, barriendo mínimos mensuales y semanales (2335.58) con debilidad relativa frente a BTC.\n\n2. **Liquidez global**\nSeñales mixtas que frenan el apetito por riesgo: el DXY cae a 102.06 (-0.48%) y el rendimiento US10Y cede a 5.05% (-2.66%), ofreciendo alivio monetario, pero el Nasdaq retrocede con fuerza a 29754.0 (-1.42%) y el VIX repunta a 17.54 (+3.97%), limitando la entrada institucional.\n\n3. **Flujos**\nSalida neta de liquidez: el stock de stablecoins se sitúa en 287.5 MM, contrayéndose -2.16 MM en 7 días y -1.63 MM en 30 días, confirmando drenaje de capital. La dominancia de BTC sube a 59.42% frente a un ETH comprimido en 10.54%, reflejando aversión al riesgo y refugio exclusivo en Bitcoin dentro del ecosistema cripto.\n\n4. **Apalancamiento y sentimiento**\nEl índice Fear & Greed marca 53 (Neutral), enfriándose desde 59 hace una semana. Las tasas de financiación de perpetuos (8h) se mantienen moderadas y ligeramente positivas (BTC: 0.0035%, ETH: 0.0045%), lo que descarta atrapamiento masivo o euforia excesiva; el mercado está reseteando apalancamiento sin capitulación visible.\n\n5. **Mapa de liquidez**\n- **BTC**: Máximo del mes 87363.76, máximo de la semana 84249.22, mínimo de la semana 80147.05, mínimo del mes 74995.52, EMA200 diaria 75745.23. El imán más probable es la piscina de liquidez bajo el mínimo de 48h (80004.63) y el mínimo semanal (80147.05).\n- **ETH**: Máximo del mes 2805.50, máximo de la semana 2576.58, mínimo de la semana y del mes coincidente en 2335.58, EMA200 diaria 2319.42. El imán inmediato es el clúster entre el mínimo de 48h (2318.76) y la EMA200 diaria (2319.42).\n\n6. **Plan**\n- **BTC**\n  - Dirección: SIN ENTRADA\n  - Zona de entrada: N/A\n  - Stop: N/A\n  - TP1 / TP2: N/A\n  - R:R al TP2: N/A\n  - Confluencias: 2/5 (Falla macro por Nasdaq/VIX, drenaje en stablecoins y funding neutral sin extremos; sólo respeta soporte de EMA50 y estacionalidad histórica positiva).\n\n- **ETH**\n  - Dirección: SIN ENTRADA\n  - Zona de entrada: N/A\n  - Stop: N/A\n  - TP1 / TP2: N/A\n  - R:R al TP2: N/A\n  - Confluencias: 1/5 (Estacionalidad neutral, drenaje de stablecoins, pérdida de estructura relativa y riesgo macro; sólo presenta soporte técnico cercano en EMA200).\n\n7. **Historia**\nPara BTC, 5 de 8 años cerraron al alza esta semana (promedio +2.41%) y 7 de 8 en los próximos 20 días (+9.53%), aunque los jueves tienen sesgo correctivo (42% alcistas, promedio -0.554%).\nSesgo histórico: alcista.\n\n8. **Riesgo**\nAmbos activos operan bajo régimen de volatilidad normal (ATR diario BTC: 2093.22, 2.61%; ETH: 88.74, 3.79%). Regla de gestión: riesgo máximo del 1% del capital institucional por idea estructurada (se reduciría al 0.5% en caso de entrar en régimen de alta volatilidad). Preservación de capital prioritaria.\n\nAnálisis educativo de agentes de IA. No es consejo financiero.",
+   "titular": "BTC comprime sobre la EMA50 con sesgo neutral y ETH muestra debilidad barriendo mínimos",
+   "sesgo": {
+    "btc": "neutral",
+    "eth": "bajista"
+   },
+   "entradas": [
+    {
+     "activo": "BTC",
+     "direccion": "SIN ENTRADA",
+     "zona": "N/A",
+     "stop": "N/A",
+     "tp1": "N/A",
+     "tp2": "N/A",
+     "rr": "N/A",
+     "confluencias": "2/5"
+    },
+    {
+     "activo": "ETH",
+     "direccion": "SIN ENTRADA",
+     "zona": "N/A",
+     "stop": "N/A",
+     "tp1": "N/A",
+     "tp2": "N/A",
+     "rr": "N/A",
+     "confluencias": "1/5"
+    }
+   ],
+   "precios": {
+    "btc": 80268.32,
+    "eth": 2340.45
+   },
+   "fear_greed": 53,
+   "dominancia_btc": 59.42
+  },
   {
    "turno": "Noche (Asia)",
    "ts": "2026-10-15T01:23:53Z",
