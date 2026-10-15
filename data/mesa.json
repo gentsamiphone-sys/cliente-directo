@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-14T21:33:01Z",
-   "ultimo_resultado": "Mapa listo: oro 4127.3 · NQ 30139.25."
+   "actualizado": "2026-10-15T01:08:33Z",
+   "ultimo_resultado": "Estrategia 4H ORO: VENTA en el nivel 4173.7 · stop 4190.11 · objetivo 4095.0 · R:R 4.8 (en retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T01:02:36Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount"
+   "actualizado": "2026-10-15T01:08:32Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H ORO: VENTA en el nivel 4173.7 · stop 4190.11 · objetivo 4095.0 · R:R 4.8 (en retesteo). Tú ejecutas.",
+   "ts": "2026-10-15T01:08:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4161.8 · NQ 29954.5 · VIX 16.87 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Abriendo la mesa para la sesión de Nueva York.",
    "ts": "2026-10-14T12:32:53Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4171.9 · NQ 30798.75 · VIX 15.3 · 15 noticias nuevas (7 alto impacto)",
-   "ts": "2026-10-14T12:32:36Z"
   }
  ],
  "briefs": [
@@ -6340,10 +6340,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4161.8,
-  "nq": 29954.5,
+  "oro": 4160.2,
+  "nq": 29913.5,
   "vix": 16.87,
-  "ts": "2026-10-15T01:02:37Z"
+  "ts": "2026-10-15T01:08:33Z"
  },
  "noticias": [
   {
@@ -8971,27 +8971,27 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-15T00:48:39Z",
- "ult_4h": 1792025324.9215808,
+ "ult_4h": 1792026513.0375178,
  "estrategia_4h": {
   "oro": {
-   "precio": 4159.6,
-   "atr_4h": 27.14,
+   "precio": 4160.3,
+   "atr_4h": 27.35,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4173.7,
      "entrada": 4173.7,
-     "stop": 4189.99,
+     "stop": 4190.11,
      "objetivo": 4095.0,
-     "rr": 4.83,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.2,
+     "rr": 4.8,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 2.19,
      "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29976.25,
+   "precio": 29913.5,
    "atr_4h": 194.18,
    "setups": [
     {
@@ -9018,7 +9018,7 @@
     }
    ]
   },
-  "ts": "2026-10-15T00:48:45Z"
+  "ts": "2026-10-15T01:08:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -9035,7 +9035,8 @@
   "nq|VENTA|30370.0|en retesteo",
   "nq|VENTA|30504.5|esperando retesteo",
   "nq|VENTA|30529.25|esperando retesteo",
-  "nq|VENTA|30370.0|esperando retesteo"
+  "nq|VENTA|30370.0|esperando retesteo",
+  "oro|VENTA|4173.7|en retesteo"
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
