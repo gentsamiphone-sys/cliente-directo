@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4172.2 · NQ 29864.25 · VIX 16.87 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-15T03:52:40Z"
+   "ultimo_resultado": "Oro 4168.8 · NQ 29838.0 · VIX 16.87",
+   "actualizado": "2026-10-15T03:57:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T03:52:40Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO"
+   "actualizado": "2026-10-15T03:57:36Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4168.8 · NQ 29838.0 · VIX 16.87",
+   "ts": "2026-10-15T03:57:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4172.2 · NQ 29864.25 · VIX 16.87 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4109.7 · NQ 30564.0 · VIX 15.87 · 15 noticias nuevas (7 alto impacto)",
    "ts": "2026-10-14T13:37:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4106.6 · NQ 30550.75 · VIX 15.76 · 15 noticias nuevas (5 alto impacto)",
-   "ts": "2026-10-14T13:32:34Z"
   }
  ],
  "briefs": [
@@ -6340,10 +6340,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4172.2,
-  "nq": 29864.25,
+  "oro": 4168.8,
+  "nq": 29838.0,
   "vix": 16.87,
-  "ts": "2026-10-15T03:52:40Z"
+  "ts": "2026-10-15T03:57:36Z"
  },
  "noticias": [
   {
@@ -7845,14 +7845,14 @@
     4181.3,
     4183.3,
     4167.2,
-    4172.0
+    4168.9
    ],
    [
-    1792035759,
-    4172.2,
-    4172.2,
-    4172.2,
-    4172.2
+    1792036053,
+    4168.8,
+    4168.8,
+    4168.8,
+    4168.8
    ]
   ],
   "nq": [
@@ -8477,14 +8477,14 @@
     29867.75,
     29876.0,
     29825.5,
-    29858.0
+    29837.75
    ],
    [
-    1792035757,
-    29864.25,
-    29864.25,
-    29864.25,
-    29864.25
+    1792036053,
+    29838.0,
+    29838.0,
+    29838.0,
+    29838.0
    ]
   ],
   "vix": [
@@ -8988,27 +8988,38 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-15T03:47:31Z",
- "ult_4h": 1792035754.199858,
+ "ult_4h": 1792036656.8753166,
  "estrategia_4h": {
   "oro": {
-   "precio": 4169.2,
-   "atr_4h": 28.44,
+   "precio": 4168.8,
+   "atr_4h": 28.5,
    "setups": [
+    {
+     "direccion": "VENTA",
+     "nivel": 4178.1,
+     "entrada": 4178.1,
+     "stop": 4195.2,
+     "objetivo": 4095.0,
+     "rr": 4.86,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 2.09,
+     "ruptura": "2026-10-14 04:00 UTC"
+    },
     {
      "direccion": "VENTA",
      "nivel": 4173.7,
      "entrada": 4173.7,
-     "stop": 4190.77,
+     "stop": 4190.8,
      "objetivo": 4095.0,
-     "rr": 4.61,
+     "rr": 4.6,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 2.1,
+     "fuerza_ruptura_atr": 2.09,
      "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29844.75,
+   "precio": 29838.0,
    "atr_4h": 199.93,
    "setups": [
     {
@@ -9019,7 +9030,7 @@
      "objetivo": 29825.5,
      "rr": 4.54,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.15,
+     "fuerza_ruptura_atr": 2.16,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
@@ -9030,12 +9041,12 @@
      "objetivo": 29825.5,
      "rr": 5.66,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.15,
+     "fuerza_ruptura_atr": 2.16,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-15T03:42:34Z"
+  "ts": "2026-10-15T03:57:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
