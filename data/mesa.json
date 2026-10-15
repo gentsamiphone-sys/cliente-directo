@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4165.4 · NQ 29917.75 · VIX 16.87",
-   "actualizado": "2026-10-15T04:32:35Z"
+   "ultimo_resultado": "Oro 4166.9 · NQ 29914.75 · VIX 16.87 · 1 noticias nuevas",
+   "actualizado": "2026-10-15T04:37:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T04:32:34Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-15T04:37:36Z",
+   "ultimo_resultado": "1 titulares nuevos: Cubs' Nico Hoerner Snubbed From NL Gold Glove Finalist"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4166.9 · NQ 29914.75 · VIX 16.87 · 1 noticias nuevas",
+   "ts": "2026-10-15T04:37:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4165.4 · NQ 29917.75 · VIX 16.87",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Estrategia 4H NQ: VENTA: esperar retesteo de 30604.75 · stop 30707.18 · objetivo 30372.25 · R:R 2.27 (esperando retesteo). Tú ejecutas.",
    "ts": "2026-10-14T14:17:43Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4115.3 · NQ 30493.75 · VIX 15.71 · 15 noticias nuevas (6 alto impacto)",
-   "ts": "2026-10-14T14:12:38Z"
   }
  ],
  "briefs": [
@@ -6340,10 +6340,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4165.4,
-  "nq": 29917.75,
+  "oro": 4166.9,
+  "nq": 29914.75,
   "vix": 16.87,
-  "ts": "2026-10-15T04:32:35Z"
+  "ts": "2026-10-15T04:37:36Z"
  },
  "noticias": [
   {
@@ -7085,6 +7085,17 @@
    "impacto": "alto"
   },
   {
+   "titulo": "Cubs' Nico Hoerner Snubbed From NL Gold Glove Finalist",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNN0xjTjY1VDlGY3AwNkRWbVBJaVBYYWtVUURDVkRWRmtubW9ONTlIUzJyWC1nYW5GVndlbU9XdzFMeVM4ZXR4SjdCQTRHZV9IVU1jS3VBOFRzd0NSTktGMEdBUEpJZzRsZXNwMjVlOEZHQWFfVWcxR0tiM0JJdmtudEo4dw?oc=5",
+   "ts": "2026-10-14T19:30:27Z",
+   "fuente": "Yahoo Sports",
+   "id": "ca61841a5a",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "US tariffs hit Brazil's manufacturing hub",
    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWEh1akxXdG8zTmc1X2U3UUxSeTN5bTY5WjJFSi1KdEFqdHBqUWQ0TVFxWmxpeWxXZGYxLWhtVm5FZXozcGFlTGdqNEdzY2JaWTRnMnFIVU9VZWY1MW5ocmpEcFkzX2dLSUViYXR6c0d1UnRuRUJDdF9lNmdwbXJKMWFXYw?oc=5",
    "ts": "2026-10-14T19:29:58Z",
@@ -7202,17 +7213,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "36% of shoppers plan to stick to a holiday budget this year — here's a budgeting tool for every spending style",
-   "link": "https://www.cnbc.com/select/budgeting-tools-for-holiday-shopping/",
-   "ts": "2026-10-14T19:10:42Z",
-   "fuente": "CNBC",
-   "id": "78356c7d9d",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "El 36% de los compradores planea ceñirse al presupuesto navideño este año",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -7761,14 +7761,14 @@
     4166.6,
     4168.0,
     4162.2,
-    4165.8
+    4166.5
    ],
    [
-    1792038144,
-    4165.4,
-    4165.4,
-    4165.4,
-    4165.4
+    1792038444,
+    4166.9,
+    4166.9,
+    4166.9,
+    4166.9
    ]
   ],
   "nq": [
@@ -8300,16 +8300,16 @@
    [
     1792036800,
     29833.25,
-    29918.75,
+    29924.75,
     29828.25,
-    29913.0
+    29912.25
    ],
    [
-    1792038154,
-    29917.75,
-    29917.75,
-    29917.75,
-    29917.75
+    1792038456,
+    29914.5,
+    29914.5,
+    29914.5,
+    29914.5
    ]
   ],
   "vix": [
@@ -9064,6 +9064,7 @@
   "29c5a7eb1b",
   "ea21ce7b83",
   "998746ae36",
-  "e4d72bb300"
+  "e4d72bb300",
+  "ca61841a5a"
  ]
 }
