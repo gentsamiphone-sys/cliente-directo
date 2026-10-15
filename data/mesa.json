@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4164.8 · NQ 29826.0 · VIX 17.39",
-   "actualizado": "2026-10-15T08:02:33Z"
+   "ultimo_resultado": "Oro 4166.2 · NQ 29827.25 · VIX 17.45 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-15T08:07:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T08:02:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-15T08:07:32Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Dollar slips despite hot U.S. CPI; yen firms on intervention warnings"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4166.2 · NQ 29827.25 · VIX 17.45 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-15T08:07:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4164.8 · NQ 29826.0 · VIX 17.39",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4115.4 · NQ 30137.75 · VIX 17.16 · 3 noticias nuevas",
    "ts": "2026-10-14T18:57:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4114.2 · NQ 30120.75 · VIX 17.06 · 4 noticias nuevas",
-   "ts": "2026-10-14T18:52:37Z"
   }
  ],
  "briefs": [
@@ -6493,10 +6493,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4164.8,
-  "nq": 29826.0,
-  "vix": 17.39,
-  "ts": "2026-10-15T08:02:32Z"
+  "oro": 4166.2,
+  "nq": 29827.25,
+  "vix": 17.45,
+  "ts": "2026-10-15T08:07:32Z"
  },
  "noticias": [
   {
@@ -6684,6 +6684,17 @@
    "impacto": "bajo",
    "es": "De 'Dune' a 'Wicker': cómo este 'pequeño' país europeo se convirtió en centro de Hollywood",
    "efecto": "Sin impacto en los mercados financieros."
+  },
+  {
+   "titulo": "Dollar slips despite hot U.S. CPI; yen firms on intervention warnings",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-mixed-dollar-slips-045753373.html?.tsrc=rss",
+   "ts": "2026-10-15T04:57:53Z",
+   "fuente": "Yahoo Finance",
+   "id": "ed2c8530f4",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Asia FX mixed, dollar slips after hot U.S. CPI; yen firms on intervention warnings",
@@ -7364,17 +7375,6 @@
    "id": "b92a5fb510",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Four Arizona Diamondbacks named as Gold Glove finalists",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOUgyQm1FWW5DclN1YlJrZXhISm9na3BtOFFQMUNzZ0FJTWR5dklvUXdpYkIwUU9kSnIxYW9PcjFXWS0wY0ZuRy1uSC1FZ2xLelBZX21MMk9ldGxLdF81T1pENXVjOGRsQ3dmNlFXZzFUbGNvdUJSbnBEc0RfMjN2V3JTZ3NoUGc5aHA3TXdR?oc=5",
-   "ts": "2026-10-14T21:00:00Z",
-   "fuente": "Yahoo Sports",
-   "id": "24db0d987a",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -7947,11 +7947,11 @@
     4165.6
    ],
    [
-    1792050748,
-    4164.8,
-    4164.8,
-    4164.8,
-    4164.8
+    1792051048,
+    4166.2,
+    4166.2,
+    4166.2,
+    4166.2
    ]
   ],
   "nq": [
@@ -8506,14 +8506,14 @@
     29790.25,
     29869.5,
     29754.0,
-    29835.5
+    29820.75
    ],
    [
-    1792050751,
-    29826.0,
-    29826.0,
-    29826.0,
-    29826.0
+    1792051050,
+    29827.25,
+    29827.25,
+    29827.25,
+    29827.25
    ]
   ],
   "vix": [
@@ -8764,10 +8764,10 @@
    ],
    [
     1792008000,
-    17.39,
-    17.39,
-    17.39,
-    17.39
+    17.45,
+    17.45,
+    17.45,
+    17.45
    ]
   ]
  },
@@ -9051,6 +9051,7 @@
   "95e1e2bff9",
   "a9d0e1199f",
   "691bccb36b",
-  "7fc9f6b5ee"
+  "7fc9f6b5ee",
+  "ed2c8530f4"
  ]
 }
