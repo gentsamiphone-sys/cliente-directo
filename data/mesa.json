@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4176.8 · NQ 29861.25 · VIX 17.41 · 5 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-15T11:47:37Z"
+   "ultimo_resultado": "Oro 4173.7 · NQ 29872.5 · VIX 17.36 · 1 noticias nuevas",
+   "actualizado": "2026-10-15T11:52:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T11:47:36Z",
-   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: Freegold reporta intercepciones de oro de alta ley en Golden Summit."
+   "actualizado": "2026-10-15T11:52:35Z",
+   "ultimo_resultado": "1 titulares nuevos: Stocks making the biggest moves premarket: CoreWeave, Rocket Lab Corp, SK Hynix & more"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4173.7 · NQ 29872.5 · VIX 17.36 · 1 noticias nuevas",
+   "ts": "2026-10-15T11:52:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4176.8 · NQ 29861.25 · VIX 17.41 · 5 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el S&P 500 (ES) con el NQ…",
    "ts": "2026-10-14T21:33:07Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Volatilidad normal (VIX 16.87).",
-   "ts": "2026-10-14T21:33:06Z"
   }
  ],
  "briefs": [
@@ -6493,10 +6493,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4176.8,
-  "nq": 29861.25,
-  "vix": 17.41,
-  "ts": "2026-10-15T11:47:37Z"
+  "oro": 4173.7,
+  "nq": 29872.5,
+  "vix": 17.36,
+  "ts": "2026-10-15T11:52:36Z"
  },
  "noticias": [
   {
@@ -6511,6 +6511,17 @@
    "impacto": "bajo",
    "es": "Freegold reporta intercepciones de oro de alta ley en Golden Summit.",
    "efecto": "Ruido corporativo minero; sin impacto macroeconómico en el oro."
+  },
+  {
+   "titulo": "Stocks making the biggest moves premarket: CoreWeave, Rocket Lab Corp, SK Hynix & more",
+   "link": "https://www.cnbc.com/2026/10/15/stocks-making-the-biggest-moves-premarket-crwv-rklb-skhy.html",
+   "ts": "2026-10-15T11:44:59Z",
+   "fuente": "CNBC",
+   "id": "692fd01f6b",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Gold Hart Copper Acquires Mantocobre Gold-Copper IOCG Asset",
@@ -7369,17 +7380,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Dollar slips despite hot U.S. CPI; yen firms on intervention warnings",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-mixed-dollar-slips-045753373.html?.tsrc=rss",
-   "ts": "2026-10-15T04:57:53Z",
-   "fuente": "Yahoo Finance",
-   "id": "ed2c8530f4",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -7976,15 +7976,15 @@
     1792062000,
     4176.4,
     4181.0,
-    4176.4,
-    4177.4
+    4171.3,
+    4172.9
    ],
    [
-    1792064252,
-    4176.8,
-    4176.8,
-    4176.8,
-    4176.8
+    1792064546,
+    4173.7,
+    4173.7,
+    4173.7,
+    4173.7
    ]
   ],
   "nq": [
@@ -8565,16 +8565,16 @@
    [
     1792062000,
     29801.0,
-    29880.0,
+    29885.0,
     29748.5,
-    29868.25
+    29863.75
    ],
    [
-    1792064255,
-    29861.25,
-    29861.25,
-    29861.25,
-    29861.25
+    1792064555,
+    29872.5,
+    29872.5,
+    29872.5,
+    29872.5
    ]
   ],
   "vix": [
@@ -9002,15 +9002,15 @@
     1792062000,
     17.6,
     17.64,
-    17.43,
-    17.43
+    17.33,
+    17.34
    ],
    [
-    1792063951,
-    17.41,
-    17.41,
-    17.41,
-    17.41
+    1792064251,
+    17.36,
+    17.36,
+    17.36,
+    17.36
    ]
   ]
  },
@@ -9360,6 +9360,7 @@
   "e7cccfbfa2",
   "ce686779f1",
   "56b8c92638",
-  "2c96ab2eee"
+  "2c96ab2eee",
+  "692fd01f6b"
  ]
 }
