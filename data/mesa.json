@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4180.0 · NQ 29926.75 · VIX 17.1 · 2 noticias nuevas",
-   "actualizado": "2026-10-15T15:07:34Z"
+   "ultimo_resultado": "Oro 4176.5 · NQ 29940.0 · VIX 17.04 · 3 noticias nuevas",
+   "actualizado": "2026-10-15T15:12:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T15:07:33Z",
-   "ultimo_resultado": "2 titulares nuevos: University’s IMA Student Chapter Joins Elite Group of Nine ‘Gold’ Winners Nationwide"
+   "actualizado": "2026-10-15T15:12:36Z",
+   "ultimo_resultado": "3 titulares nuevos: TSMC chip capacity is ‘fierce’ battleground for AI customers, amid record quarter"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4176.5 · NQ 29940.0 · VIX 17.04 · 3 noticias nuevas",
+   "ts": "2026-10-15T15:12:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4180.0 · NQ 29926.75 · VIX 17.1 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4164.8 · NQ 29895.75 · VIX 16.87 · 1 noticias nuevas",
    "ts": "2026-10-15T02:02:42Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4159.7 · NQ 29893.0 · VIX 16.87",
-   "ts": "2026-10-15T01:57:34Z"
   }
  ],
  "briefs": [
@@ -6715,12 +6715,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4180.0,
-  "nq": 29926.75,
-  "vix": 17.1,
-  "ts": "2026-10-15T15:07:34Z"
+  "oro": 4176.5,
+  "nq": 29940.0,
+  "vix": 17.04,
+  "ts": "2026-10-15T15:12:36Z"
  },
  "noticias": [
+  {
+   "titulo": "TSMC chip capacity is ‘fierce’ battleground for AI customers, amid record quarter",
+   "link": "https://www.cnbc.com/2026/10/15/nvidia-apple-broadcom-in-fierce-battle-to-make-chips-at-tsmc.html",
+   "ts": "2026-10-15T15:04:22Z",
+   "fuente": "CNBC",
+   "id": "89a159f984",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "S&P 500 is little changed as tech shares drop for a second day, wholesale inflation reading jumps: Live updates",
    "link": "https://www.cnbc.com/2026/10/14/stock-market-today-live-updates.html",
@@ -6747,6 +6756,15 @@
    "impacto": "medio"
   },
   {
+   "titulo": "USPS postmarks can lag mailing dates. What taxpayers and voters should know",
+   "link": "https://www.cnbc.com/2026/10/15/usps-postmark-rules-taxpayers-voters.html",
+   "ts": "2026-10-15T14:55:48Z",
+   "fuente": "CNBC",
+   "id": "14b148ee79",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "S&P 500 slides as tech shares drop for a second day, wholesale inflation reading jumps: Live updates",
    "link": "https://www.cnbc.com/2026/10/14/stock-market-today-live-updates.html",
    "ts": "2026-10-15T14:43:38Z",
@@ -6756,6 +6774,17 @@
     "nq"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Branford biotech Quantum-Si regains Nasdaq compliance as stock rebounds",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcWl3UC1FTE5ianhiTjFnZ0RhX1FkRWg5c2JvcXdVZ1NsRDlWQ29nWkdRUHRxaGJTQWRRZ29oRWNwZlZvRXVwQjZ5WTFyQzd1THBmYTJ6SDJsLTNWLVZtVnlRWUFKMGxkZjRKTmhHbzYyaHZFalRmemljSXBZQnpXMXFtY3VoSzBFdHpuM29oUE4xdnRqQVA0WlVhT1AzSkV2Z2Z1WGsyMEhWRGQwYUE?oc=5",
+   "ts": "2026-10-15T14:38:45Z",
+   "fuente": "Hartford Business Journal",
+   "id": "db5f455367",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "This used car stock is likely to cruise higher, Bank of America says",
@@ -7555,35 +7584,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Nasdaq futures fall as tech shares drop on fears of AI overspending; traders await more U.S. data",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbWN4T0hBNXBaMHpzSVpNamFBekxCN3RmOHNoa2U5ZEF1SDgwOTUyS2tncEpxZ3EySFBGUkV5dGtGQTVoSHpDTmh6VDFSbVRRVHJfQ0EwTGNXcXFaSVN3OXdDNF9qNmxjMzBXNDZZNm9pY1hBZ0FsVGE2NXpoYU0xOTRkcHU3c2xQSTRCV1NOcVlRSmZCSnJMYjRQanRvWmxBQXdpaFYyUXFkNV9vc3BFY1J5Wm5rNF9DOXRmTGZXYWVKQlRVd3FQZUwxLVlmTmpsMmhV?oc=5",
-   "ts": "2026-10-15T10:58:15Z",
-   "fuente": "CNBC",
-   "id": "9059cbf3e2",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "CoreWeave shares are sinking. Buy the dip, Deutsche Bank says",
-   "link": "https://www.cnbc.com/2026/10/15/coreweave-stock-deutsche-bank-buy-rating.html",
-   "ts": "2026-10-15T10:49:14Z",
-   "fuente": "CNBC",
-   "id": "e0d3d47ac1",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "U.S. reportedly considers use of 'mother of all bombs' as Iran vows to fight on",
-   "link": "https://www.cnbc.com/2026/10/15/us-iran-war-trump-hormuz.html",
-   "ts": "2026-10-15T10:44:57Z",
-   "fuente": "CNBC",
-   "id": "41aa6c3d89",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -8206,14 +8206,21 @@
     4176.5,
     4186.3,
     4165.8,
-    4179.3
+    4178.8
    ],
    [
-    1792076251,
-    4180.0,
-    4180.0,
-    4180.0,
-    4180.0
+    1792076400,
+    4179.1,
+    4180.4,
+    4176.5,
+    4176.8
+   ],
+   [
+    1792076553,
+    4176.5,
+    4176.5,
+    4176.5,
+    4176.5
    ]
   ],
   "nq": [
@@ -8815,16 +8822,23 @@
    [
     1792072800,
     29687.5,
-    29963.0,
+    29977.75,
     29683.0,
-    29960.0
+    29970.75
    ],
    [
-    1792076253,
-    29926.75,
-    29926.75,
-    29926.75,
-    29926.75
+    1792076400,
+    29971.25,
+    29973.5,
+    29925.75,
+    29947.5
+   ],
+   [
+    1792076557,
+    29937.5,
+    29937.5,
+    29937.5,
+    29937.5
    ]
   ],
   "vix": [
@@ -9273,23 +9287,23 @@
     1792072800,
     17.81,
     17.81,
-    17.09,
-    17.11
+    16.99,
+    17.02
    ],
    [
-    1792075951,
-    17.1,
-    17.1,
-    17.1,
-    17.1
+    1792076251,
+    17.04,
+    17.04,
+    17.04,
+    17.04
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-15T15:02:42Z",
- "ult_4h": 1792076259.3621624,
+ "ult_4h": 1792077156.9593873,
  "estrategia_4h": {
   "oro": {
-   "precio": 4176.0,
+   "precio": 4176.5,
    "atr_4h": 28.71,
    "setups": [
     {
@@ -9306,34 +9320,34 @@
    ]
   },
   "nq": {
-   "precio": 29920.5,
-   "atr_4h": 216.8,
+   "precio": 29937.5,
+   "atr_4h": 219.71,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30500.08,
+     "stop": 30501.83,
      "objetivo": 29622.5,
-     "rr": 5.75,
+     "rr": 5.67,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.99,
+     "fuerza_ruptura_atr": 1.96,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30504.5,
      "entrada": 30504.5,
-     "stop": 30634.58,
+     "stop": 30636.33,
      "objetivo": 29622.5,
-     "rr": 6.78,
+     "rr": 6.69,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.99,
+     "fuerza_ruptura_atr": 1.96,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-15T14:57:39Z"
+  "ts": "2026-10-15T15:12:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -9692,6 +9706,9 @@
   "84a84a5c98",
   "f046e8551c",
   "c77e9a8e23",
-  "5da12bbd4c"
+  "5da12bbd4c",
+  "89a159f984",
+  "14b148ee79",
+  "db5f455367"
  ]
 }
