@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4188.2 · NQ 30173.0 · VIX 16.49",
-   "actualizado": "2026-10-15T19:52:39Z"
+   "ultimo_resultado": "Oro 4190.2 · NQ 30184.75 · VIX 16.45 · 2 noticias nuevas",
+   "actualizado": "2026-10-15T19:57:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T19:52:38Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-15T19:57:34Z",
+   "ultimo_resultado": "2 titulares nuevos: KFC to switch to Coca-Cola beverages in U.S. restaurants for the first time in decades"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4190.2 · NQ 30184.75 · VIX 16.45 · 2 noticias nuevas",
+   "ts": "2026-10-15T19:57:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4188.2 · NQ 30173.0 · VIX 16.49",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Abriendo la mesa para la sesión de Londres.",
    "ts": "2026-10-15T06:32:44Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4158.5 · NQ 29893.5 · VIX 16.87 · 2 noticias nuevas",
-   "ts": "2026-10-15T06:32:32Z"
   }
  ],
  "briefs": [
@@ -6715,12 +6715,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4188.2,
-  "nq": 30173.0,
-  "vix": 16.49,
-  "ts": "2026-10-15T19:52:38Z"
+  "oro": 4190.2,
+  "nq": 30184.75,
+  "vix": 16.45,
+  "ts": "2026-10-15T19:57:34Z"
  },
  "noticias": [
+  {
+   "titulo": "KFC to switch to Coca-Cola beverages in U.S. restaurants for the first time in decades",
+   "link": "https://www.cnbc.com/2026/10/15/kfc-coca-cola-pepsi-switch.html",
+   "ts": "2026-10-15T19:53:41Z",
+   "fuente": "CNBC",
+   "id": "e32f69344c",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Brian Sullivan: Why the 'real' price of oil is likely $30-$40 higher than where it is now",
+   "link": "https://www.cnbc.com/2026/10/15/brian-sullivan-why-the-real-price-of-oil-is-likely-30-40-higher-than-where-it-is-now.html",
+   "ts": "2026-10-15T19:53:29Z",
+   "fuente": "CNBC",
+   "id": "64d3733129",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Nvidia and Cisco confirm multimillion-dollar donations to Trump's White House ballroom",
    "link": "https://www.cnbc.com/2026/10/15/trump-ballroom-nvidia-cisco-donations.html",
@@ -7560,27 +7578,6 @@
    "impacto": "medio",
    "es": "AWS y Anthropic despliegan ingenieros para demostrar la rentabilidad del gasto en IA",
    "efecto": "Vulnerable a la confianza del sector tecnológico; monitorear sentimiento."
-  },
-  {
-   "titulo": "October Monthly Meeting: Cramer breaks down how to navigate the shifting AI trade",
-   "link": "https://www.cnbc.com/search/?query=October%20Monthly%20Meeting:%20Cramer%20breaks%20down%20how%20to%20navigate%20the%20shifting%20AI%20trade",
-   "ts": "2026-10-15T14:06:26Z",
-   "fuente": "CNBC",
-   "id": "c0f23eacf7",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "5 Copper and Precious Metals Stocks Likely to Beat Q3 Estimates",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/5-copper-precious-metals-stocks-140600623.html?.tsrc=rss",
-   "ts": "2026-10-15T14:06:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "936dc5f838",
-   "activos": [
-    "oro",
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -8215,16 +8212,16 @@
    [
     1792090800,
     4178.7,
-    4188.8,
+    4191.5,
     4178.6,
-    4188.4
+    4190.7
    ],
    [
-    1792093353,
-    4188.2,
-    4188.2,
-    4188.2,
-    4188.2
+    1792093651,
+    4190.2,
+    4190.2,
+    4190.2,
+    4190.2
    ]
   ],
   "nq": [
@@ -8847,16 +8844,16 @@
    [
     1792090800,
     30036.5,
-    30181.5,
+    30196.75,
     30034.75,
-    30175.25
+    30183.75
    ],
    [
-    1792093357,
-    30173.0,
-    30173.0,
-    30173.0,
-    30173.0
+    1792093651,
+    30184.75,
+    30184.75,
+    30184.75,
+    30184.75
    ]
   ],
   "vix": [
@@ -9341,66 +9338,54 @@
     16.62,
     16.62,
     16.34,
-    16.49
+    16.45
    ],
    [
-    1792093051,
-    16.48,
-    16.48,
-    16.48,
-    16.48
+    1792093351,
+    16.45,
+    16.45,
+    16.45,
+    16.45
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-15T19:37:32Z",
- "ult_4h": 1792093352.6733246,
+ "ult_4h": 1792094254.8053875,
  "estrategia_4h": {
   "oro": {
-   "precio": 4182.2,
-   "atr_4h": 29.06,
-   "setups": [
-    {
-     "direccion": "VENTA",
-     "nivel": 4173.7,
-     "entrada": 4173.7,
-     "stop": 4191.13,
-     "objetivo": 4095.0,
-     "rr": 4.51,
-     "estado": "en retesteo",
-     "fuerza_ruptura_atr": 2.06,
-     "ruptura": "2026-10-14 04:00 UTC"
-    }
-   ]
+   "precio": 4190.2,
+   "atr_4h": 29.62,
+   "setups": []
   },
   "nq": {
-   "precio": 30133.0,
-   "atr_4h": 236.66,
+   "precio": 30184.75,
+   "atr_4h": 237.75,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30512.0,
+     "stop": 30512.65,
      "objetivo": 29622.5,
-     "rr": 5.26,
+     "rr": 5.24,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.82,
+     "fuerza_ruptura_atr": 1.81,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30504.5,
-     "entrada": 30504.5,
-     "stop": 30646.5,
+     "nivel": 30604.75,
+     "entrada": 30604.75,
+     "stop": 30747.4,
      "objetivo": 29622.5,
-     "rr": 6.21,
+     "rr": 6.89,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.82,
+     "fuerza_ruptura_atr": 1.81,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-15T19:42:33Z"
+  "ts": "2026-10-15T19:57:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -9835,6 +9820,8 @@
   "0f6ff9ab84",
   "91cc548b0b",
   "ffaed25dc3",
-  "0a9cbd0f13"
+  "0a9cbd0f13",
+  "e32f69344c",
+  "64d3733129"
  ]
 }
