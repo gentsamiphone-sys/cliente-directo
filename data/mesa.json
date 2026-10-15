@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4180.8 · NQ 29777.25 · VIX 17.43 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-15T14:47:34Z"
+   "ultimo_resultado": "Oro 4185.1 · NQ 29911.5 · VIX 17.52 · 3 noticias nuevas",
+   "actualizado": "2026-10-15T14:52:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T14:47:32Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: S&P 500 slides as tech shares drop for a second day, wholesale inflation reading jumps: Live updates"
+   "actualizado": "2026-10-15T14:52:34Z",
+   "ultimo_resultado": "3 titulares nuevos: Great Plains Metals plans 1,000-metre copper-gold drill program at Goodrich"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4185.1 · NQ 29911.5 · VIX 17.52 · 3 noticias nuevas",
+   "ts": "2026-10-15T14:52:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4180.8 · NQ 29777.25 · VIX 17.43 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4167.5 · NQ 29932.75 · VIX 16.87 · 1 noticias nuevas",
    "ts": "2026-10-15T01:42:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4165.4 · NQ 29917.25 · VIX 16.87 · 2 noticias nuevas",
-   "ts": "2026-10-15T01:37:36Z"
   }
  ],
  "briefs": [
@@ -6715,10 +6715,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4180.8,
-  "nq": 29777.25,
-  "vix": 17.43,
-  "ts": "2026-10-15T14:47:33Z"
+  "oro": 4185.1,
+  "nq": 29911.5,
+  "vix": 17.52,
+  "ts": "2026-10-15T14:52:35Z"
  },
  "noticias": [
   {
@@ -6788,6 +6788,18 @@
    "efecto": "Opinión sobre mineras específicas, sin impacto macro directo."
   },
   {
+   "titulo": "Great Plains Metals plans 1,000-metre copper-gold drill program at Goodrich",
+   "link": "https://finance.yahoo.com/video/great-plains-metals-plans-1-141037594.html?.tsrc=rss",
+   "ts": "2026-10-15T14:10:37Z",
+   "fuente": "Yahoo Finance",
+   "id": "9c697733e0",
+   "activos": [
+    "oro",
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "AWS, Anthropic race to deploy army of specialized engineers key to proving AI spending will pay off",
    "link": "https://www.cnbc.com/2026/10/15/aws-anthropic-racing-to-deploy-army-of-specialized-ai-engineers.html",
    "ts": "2026-10-15T14:10:14Z",
@@ -6799,6 +6811,17 @@
    "impacto": "medio",
    "es": "AWS y Anthropic despliegan ingenieros para demostrar la rentabilidad del gasto en IA",
    "efecto": "Vulnerable a la confianza del sector tecnológico; monitorear sentimiento."
+  },
+  {
+   "titulo": "Investors Turn to Safety of Treasurys as Tech Stocks Extend Selloff",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNlJqX1VNMzFROWFHQWtMOXlXTVkxX1d5dTQtQUVvbGNHTHZMNmxiNGdjQmlNNkxUYm1ucTNlaURJY1MtU2czWjdUQzFUMnpTODVvbC1fb1hIN2J3eS03RFE1em4wLV8wTzFSQ1kwYWJ0YW45bHJZUnRUeWZIV0pqMlhac08yeDhLNWpZU0NmRzkzZ09lQ1NGOVdBYk16SnM?oc=5",
+   "ts": "2026-10-15T14:06:00Z",
+   "fuente": "WSJ",
+   "id": "7619a5da3c",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Tariffs Come and Go. Higher Prices Stick Around.",
@@ -6959,6 +6982,17 @@
    "id": "14a453be0b",
    "activos": [
     "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Current price of gold as of October 15, 2026",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1VQVg5T2NPZ2xhWEc1c3Z4LXBNY1IzYXV2VERVdTFRRW03RTFiV1FCaHFEZVRBSEIwSnl0Y1RzZzU4eUlnMW1OSFlJYm5XOThIYmVGNDFaUnFxTHI4RFZIYi04Tmk3cGxRaFJWU2pB?oc=5",
+   "ts": "2026-10-15T13:13:00Z",
+   "fuente": "Fortune",
+   "id": "e630bb4637",
+   "activos": [
+    "oro"
    ],
    "impacto": "medio"
   },
@@ -7553,43 +7587,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Warsh's quest for quiet Fed gets vocal pushback",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTGZfUDY0VWFGY3BYQXAwTW5aZU1lUTl1bldnbk54UG9VTi1KRFlIeHpWdW1wRVRqNVJpTHoyZFF6R0lvejcxOEdQb3Z6dDVQckNPR2k4WFBWSWN5eUItNFNWZFUyTmJvNnhranNqZkpMN1RkSDhValZ0T0xkcXdUdEh0Y2drbm12TVFIUGxTUlN6WVE?oc=5",
-   "ts": "2026-10-15T10:18:47Z",
-   "fuente": "Reuters",
-   "id": "5524adae46",
-   "activos": [
-    "dolar",
-    "nq",
-    "oro"
-   ],
-   "impacto": "medio",
-   "es": "La búsqueda de tranquilidad en la Fed por parte de Warsh recibe resistencia vocal",
-   "efecto": "Genera incertidumbre sobre la política de la Fed, afectando tasas y volatilidad."
-  },
-  {
-   "titulo": "Aya Gold & Silver (TSX:AYA) Hits Record Quarterly Silver Output At Zgounder",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/aya-gold-silver-tsx-aya-101200115.html?.tsrc=rss",
-   "ts": "2026-10-15T10:12:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "9b0d6dcf1d",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Aya Gold & Silver alcanza una producción trimestral récord de plata en Zgounder",
-   "efecto": "Noticia microeconómica del sector minero, impacto directo nulo."
-  },
-  {
-   "titulo": "US toy prices surge ahead of holiday shopping season as tariffs, Iran war bite",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUWVCNGhqaElYVEdtQXA1SUhOSzFvVDc2YUMxWFdDTGhUOTFIR2taTXFwbzRoM0xlZWxsYkozc0NYejhNb2VpdHZ1VDUxQkZ0ZnNjMFVtRF9GRzBMaFBBYXNzTHRGd2pxbWpweXJqY1JjNnNVd3lHTXU3bmpDQ1J1QWphUk43VEVuSXZnNmZFdzkwZHJHLU55SGU0N1I5amh5Tmt2UEs3cUxoRkFkV1k5UFlIdlpqU3pFZE0tbVNFWnR4eDFRektpeVQzWmw?oc=5",
-   "ts": "2026-10-15T10:06:21Z",
-   "fuente": "Reuters",
-   "id": "4b4904222e",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -8210,16 +8207,16 @@
    [
     1792072800,
     4176.5,
-    4183.0,
+    4186.3,
     4165.8,
-    4180.9
+    4182.3
    ],
    [
-    1792075050,
-    4180.8,
-    4180.8,
-    4180.8,
-    4180.8
+    1792075352,
+    4185.1,
+    4185.1,
+    4185.1,
+    4185.1
    ]
   ],
   "nq": [
@@ -8821,16 +8818,16 @@
    [
     1792072800,
     29687.5,
-    29871.0,
+    29917.25,
     29683.0,
-    29800.5
+    29910.0
    ],
    [
-    1792075054,
-    29776.5,
-    29776.5,
-    29776.5,
-    29776.5
+    1792075356,
+    29909.75,
+    29909.75,
+    29909.75,
+    29909.75
    ]
   ],
   "vix": [
@@ -9280,14 +9277,14 @@
     17.81,
     17.81,
     17.35,
-    17.48
+    17.52
    ],
    [
-    1792074751,
-    17.43,
-    17.43,
-    17.43,
-    17.43
+    1792075051,
+    17.52,
+    17.52,
+    17.52,
+    17.52
    ]
   ]
  },
@@ -9691,6 +9688,9 @@
   "b116b2d6aa",
   "50bf020c1e",
   "f26efc73e7",
-  "35c11c8642"
+  "35c11c8642",
+  "9c697733e0",
+  "7619a5da3c",
+  "e630bb4637"
  ]
 }
