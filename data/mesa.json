@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4159.7 · NQ 29893.0 · VIX 16.87",
-   "actualizado": "2026-10-15T01:57:34Z"
+   "ultimo_resultado": "Oro 4164.8 · NQ 29895.75 · VIX 16.87 · 1 noticias nuevas",
+   "actualizado": "2026-10-15T02:02:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T01:57:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-15T02:02:41Z",
+   "ultimo_resultado": "1 titulares nuevos: Jio Platforms, respaldada por Meta y Google, planea OPI histórica en India de hasta 3.200 millones de dólares"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4164.8 · NQ 29895.75 · VIX 16.87 · 1 noticias nuevas",
+   "ts": "2026-10-15T02:02:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4159.7 · NQ 29893.0 · VIX 16.87",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Volatilidad normal (VIX 15.28).",
    "ts": "2026-10-14T12:33:11Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "VIX/NQ: DIVERGENCIA: NQ sube pero el VIX también sube (las instituciones se cubren; subida sospechosa)",
-   "ts": "2026-10-14T12:33:10Z"
   }
  ],
  "briefs": [
@@ -6340,12 +6340,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4159.7,
-  "nq": 29893.0,
+  "oro": 4164.8,
+  "nq": 29895.75,
   "vix": 16.87,
-  "ts": "2026-10-15T01:57:34Z"
+  "ts": "2026-10-15T02:02:42Z"
  },
  "noticias": [
+  {
+   "titulo": "Meta- and Google-backed Jio Platforms to raise up to $3.2 billion in historic IPO in India",
+   "link": "https://www.cnbc.com/2026/10/15/jio-ipo-meta-google-ambani-musk.html",
+   "ts": "2026-10-15T01:56:53Z",
+   "fuente": "CNBC",
+   "id": "96350a7ef5",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Jio Platforms, respaldada por Meta y Google, planea OPI histórica en India de hasta 3.200 millones de dólares",
+   "efecto": "Sin impacto directo en oro, NQ ni dólar; ruido corporativo regional."
+  },
   {
    "titulo": "Chery Automobile (SEHK:9973) Sets Out Its Europe Localization Plan Through 2027",
    "link": "https://finance.yahoo.com/markets/stocks/articles/chery-automobile-sehk-9973-sets-011936116.html?.tsrc=rss",
@@ -7192,17 +7203,6 @@
    "id": "6ba8b75434",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Showtime Colt Leads Magic Millions Gold Coast Sale",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcVJOcGhuc1dUOXFQVmk3Vi1HZ0o2Y3RneGpQV1VpVjJ1ZWVXWGRjRTdTd2lYS0tuaEhQQjhmaUk5eElNcVl2QUw5MmVlaTJOR09Ldjlway1OdWt1aXMza0tIdHpadXdtRUNTSkZJQ2Z3OVZKc3JsSGFOdFlaYzMzY292OUU0RnpPdWZyY21pS3A0Y0kyVHZ3YTgyZGVIOHdnZDRrN2lZc2NKdw?oc=5",
-   "ts": "2026-10-14T18:06:03Z",
-   "fuente": "BloodHorse",
-   "id": "4911fe4f6c",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -7835,14 +7835,14 @@
     4160.8,
     4172.8,
     4157.2,
-    4159.4
+    4164.6
    ],
    [
-    1792028852,
-    4159.4,
-    4159.4,
-    4159.4,
-    4159.4
+    1792029157,
+    4164.8,
+    4164.8,
+    4164.8,
+    4164.8
    ]
   ],
   "nq": [
@@ -8466,15 +8466,15 @@
     1792026000,
     29932.5,
     29974.0,
-    29883.25,
-    29884.0
+    29866.0,
+    29890.5
    ],
    [
-    1792028854,
-    29893.5,
-    29893.5,
-    29893.5,
-    29893.5
+    1792029161,
+    29895.75,
+    29895.75,
+    29895.75,
+    29895.75
    ]
   ],
   "vix": [
@@ -8977,7 +8977,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-15T01:27:33Z",
+ "noticias_traducidas_ts": "2026-10-15T02:02:40Z",
  "ult_4h": 1792029454.007267,
  "estrategia_4h": {
   "oro": {
@@ -9218,6 +9218,7 @@
   "2817c5b648",
   "561acda6b4",
   "5c6ffdfba5",
-  "fcbfa34758"
+  "fcbfa34758",
+  "96350a7ef5"
  ]
 }
