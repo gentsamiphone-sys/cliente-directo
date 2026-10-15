@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4176.3 · NQ 29843.25 · VIX 17.55",
-   "actualizado": "2026-10-15T10:37:35Z"
+   "ultimo_resultado": "Oro 4176.0 · NQ 29833.25 · VIX 17.58 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-15T10:42:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T10:37:34Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-15T10:42:33Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Los bonos suben por venta de tecnológicas, cae el petróleo y se debilita el dólar"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4176.0 · NQ 29833.25 · VIX 17.58 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-15T10:42:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4176.3 · NQ 29843.25 · VIX 17.55",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-14T21:32:34Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
-   "ts": "2026-10-14T21:27:34Z"
   }
  ],
  "briefs": [
@@ -6493,12 +6493,40 @@
   }
  },
  "en_vivo": {
-  "oro": 4176.3,
-  "nq": 29843.25,
-  "vix": 17.55,
-  "ts": "2026-10-15T10:37:34Z"
+  "oro": 4176.0,
+  "nq": 29833.25,
+  "vix": 17.58,
+  "ts": "2026-10-15T10:42:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Commerzbank Says Treasuries Rally on Equities Selloff Led by Tech Stocks, Brent Oil Lower, US Dollar Weakens",
+   "link": "https://finance.yahoo.com/economy/policy/articles/commerzbank-says-treasuries-rally-equities-103101742.html?.tsrc=rss",
+   "ts": "2026-10-15T10:31:01Z",
+   "fuente": "Yahoo Finance",
+   "id": "ccfa0ce05a",
+   "activos": [
+    "nq",
+    "dolar",
+    "oro"
+   ],
+   "impacto": "alto",
+   "es": "Los bonos suben por venta de tecnológicas, cae el petróleo y se debilita el dólar",
+   "efecto": "Impulsa al oro y castiga al Nasdaq por rotación defensiva."
+  },
+  {
+   "titulo": "Jaguar Mining Inc. Reports 30% Year-Over-Year Gold Production Growth in Q3 2026",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/jaguar-mining-inc-reports-30-103000655.html?.tsrc=rss",
+   "ts": "2026-10-15T10:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "b5edc23cbe",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Jaguar Mining reporta un crecimiento interanual del 30% en la producción de oro en el tercer trimestre de 2026",
+   "efecto": "Aumento de oferta corporativa, sin impacto macroeconómico relevante."
+  },
   {
    "titulo": "The Nikkei Crashed Nearly 5% Overnight. Will The NASDAQ Follow It Today?",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQVV1bndERllzY3ZlYjQ4Q05VRTBoY2JYc3Myd0lhUFR1RmlxWU9JQTZOMW1ZeUx3aFUwS3lMLWxpRVZ0am1YbTBTWTlNMXRpejBnYmtXZm1NVGIwRUJYYVFHVUYta3NpRkNyaXZEbm9MTGFzY1NUWm1aOUVxX3YteHlUdGdlOUlOV0x2ZWFqTU0xUGtjMnVYclhoMGJBeXIzX2EzbU1QWVI?oc=5",
@@ -6509,6 +6537,19 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Aya Gold & Silver (TSX:AYA) Hits Record Quarterly Silver Output At Zgounder",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/aya-gold-silver-tsx-aya-101200115.html?.tsrc=rss",
+   "ts": "2026-10-15T10:12:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "9b0d6dcf1d",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Aya Gold & Silver alcanza una producción trimestral récord de plata en Zgounder",
+   "efecto": "Noticia microeconómica del sector minero, impacto directo nulo."
   },
   {
    "titulo": "US toy prices surge ahead of holiday shopping season as tariffs, Iran war bite",
@@ -7344,35 +7385,6 @@
    "impacto": "medio",
    "es": "El oro sube por posible corrección técnica",
    "efecto": "Compra técnica institucional impulsando levemente al oro al alza."
-  },
-  {
-   "titulo": "The Beige Book – First District",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVWpIU0JaSzNDajlfS0hFUGRhbWRlQl9BdHFEeURiMEN5dkpnMG54Tng1X3JpRnNsaTgyYmdxQTdzRnJQX2p6YWJ5OFJjZzRWcktRVEZDLUtzNFc3VkNSeXFkNTlENVpzZDhjd2NrUzJmVmk4cDJjSHd2NG5WeHBRckEzUk5yMmp6Sk1LUl82bWN1S0hmVk0wMWNZeWtCN21neXVMeV9aQ1Jvc1BQTkNj?oc=5",
-   "ts": "2026-10-15T01:28:51Z",
-   "fuente": "Federal Reserve Bank of Boston",
-   "id": "c802d44702",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Chery Automobile (SEHK:9973) Sets Out Its Europe Localization Plan Through 2027",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/chery-automobile-sehk-9973-sets-011936116.html?.tsrc=rss",
-   "ts": "2026-10-15T01:19:36Z",
-   "fuente": "Yahoo Finance",
-   "id": "2817c5b648",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "E-mini Nasdaq-100 futures drop as hot CPI data pressures tech.",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV1B5STRLVVJiTWFwZ0hVUUo4cWNUZGExWWlEQU1MaGFXZVVUUFpTNzhBSUZhVVFzXy1MbWgtQU9SNHlYTkQwLWZIMXlycC1SMmVaSi1wYmVmdDRxRERiS3NLbFdxTjA4UWVnN3ZyaGdhcXVtdXBrR0VNX0xhTllGUlh0SV8xemo0TGgzdE56TWR4a2hmQU45WGxoYjJTazJsUkNqQ200OEtOMlJ3NVdXaQ?oc=5",
-   "ts": "2026-10-15T01:14:22Z",
-   "fuente": "CME Group",
-   "id": "943facb285",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -7963,14 +7975,14 @@
     4178.7,
     4180.4,
     4173.7,
-    4175.8
+    4175.9
    ],
    [
-    1792060041,
-    4176.3,
-    4176.3,
-    4176.3,
-    4176.3
+    1792060350,
+    4176.0,
+    4176.0,
+    4176.0,
+    4176.0
    ]
   ],
   "nq": [
@@ -8546,14 +8558,14 @@
     29851.25,
     29867.25,
     29820.0,
-    29844.25
+    29837.0
    ],
    [
-    1792060052,
-    29843.25,
-    29843.25,
-    29843.25,
-    29843.25
+    1792060350,
+    29833.25,
+    29833.25,
+    29833.25,
+    29833.25
    ]
   ],
   "vix": [
@@ -8975,39 +8987,39 @@
     17.5,
     17.61,
     17.5,
-    17.54
+    17.58
    ],
    [
-    1792059751,
-    17.55,
-    17.55,
-    17.55,
-    17.55
+    1792060051,
+    17.58,
+    17.58,
+    17.58,
+    17.58
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-15T10:07:33Z",
- "ult_4h": 1792060053.5459292,
+ "noticias_traducidas_ts": "2026-10-15T10:42:31Z",
+ "ult_4h": 1792060953.483019,
  "estrategia_4h": {
   "oro": {
-   "precio": 4176.2,
-   "atr_4h": 27.26,
+   "precio": 4176.0,
+   "atr_4h": 27.21,
    "setups": [
     {
      "direccion": "VENTA",
-     "nivel": 4178.1,
-     "entrada": 4178.1,
-     "stop": 4194.46,
+     "nivel": 4173.7,
+     "entrada": 4173.7,
+     "stop": 4190.02,
      "objetivo": 4095.0,
-     "rr": 5.08,
+     "rr": 4.82,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 2.19,
+     "fuerza_ruptura_atr": 2.2,
      "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29853.0,
+   "precio": 29833.25,
    "atr_4h": 201.96,
    "setups": [
     {
@@ -9018,7 +9030,7 @@
      "objetivo": 29754.0,
      "rr": 5.08,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.14,
+     "fuerza_ruptura_atr": 2.13,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
@@ -9029,12 +9041,12 @@
      "objetivo": 29754.0,
      "rr": 6.19,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.14,
+     "fuerza_ruptura_atr": 2.13,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-15T10:27:33Z"
+  "ts": "2026-10-15T10:42:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -9301,6 +9313,9 @@
   "4b4904222e",
   "c203531ca0",
   "1e6dc4cb1d",
-  "f90a86581d"
+  "f90a86581d",
+  "ccfa0ce05a",
+  "b5edc23cbe",
+  "9b0d6dcf1d"
  ]
 }
