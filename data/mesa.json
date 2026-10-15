@@ -39,13 +39,13 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4194.7 · NQ 30119.5 · VIX 16.44",
-   "actualizado": "2026-10-15T20:22:32Z"
+   "ultimo_resultado": "Oro 4191.7 · NQ 30120.5 · VIX 16.48",
+   "actualizado": "2026-10-15T20:27:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T20:22:32Z",
+   "actualizado": "2026-10-15T20:27:36Z",
    "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4191.7 · NQ 30120.5 · VIX 16.48",
+   "ts": "2026-10-15T20:27:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4194.7 · NQ 30119.5 · VIX 16.44",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +110,987 contratos.",
    "ts": "2026-10-15T06:32:53Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-10-15T06:32:51Z"
   }
  ],
  "briefs": [
@@ -6715,10 +6715,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4194.7,
-  "nq": 30119.5,
-  "vix": 16.44,
-  "ts": "2026-10-15T20:22:32Z"
+  "oro": 4191.7,
+  "nq": 30120.5,
+  "vix": 16.48,
+  "ts": "2026-10-15T20:27:36Z"
  },
  "noticias": [
   {
@@ -8213,15 +8213,15 @@
     1792094400,
     4195.9,
     4197.7,
-    4192.4,
-    4194.0
+    4190.6,
+    4190.6
    ],
    [
-    1792095146,
-    4194.7,
-    4194.7,
-    4194.7,
-    4194.7
+    1792095450,
+    4191.7,
+    4191.7,
+    4191.7,
+    4191.7
    ]
   ],
   "nq": [
@@ -8846,14 +8846,14 @@
     30141.0,
     30155.25,
     30114.75,
-    30117.75
+    30120.0
    ],
    [
-    1792095151,
-    30118.5,
-    30118.5,
-    30118.5,
-    30118.5
+    1792095455,
+    30120.5,
+    30120.5,
+    30120.5,
+    30120.5
    ]
   ],
   "vix": [
@@ -9343,49 +9343,49 @@
    [
     1792094400,
     16.46,
-    16.47,
+    16.48,
     16.38,
-    16.44
+    16.48
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-15T20:17:33Z",
- "ult_4h": 1792095157.342672,
+ "ult_4h": 1792096056.6051311,
  "estrategia_4h": {
   "oro": {
-   "precio": 4195.5,
-   "atr_4h": 27.71,
+   "precio": 4191.7,
+   "atr_4h": 28.02,
    "setups": []
   },
   "nq": {
-   "precio": 30144.25,
-   "atr_4h": 223.41,
+   "precio": 30120.5,
+   "atr_4h": 224.68,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30504.05,
+     "stop": 30504.81,
      "objetivo": 29622.5,
-     "rr": 5.58,
+     "rr": 5.54,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.93,
+     "fuerza_ruptura_atr": 1.92,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30504.5,
      "entrada": 30504.5,
-     "stop": 30638.55,
+     "stop": 30639.31,
      "objetivo": 29622.5,
-     "rr": 6.58,
+     "rr": 6.54,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.93,
+     "fuerza_ruptura_atr": 1.92,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-15T20:12:37Z"
+  "ts": "2026-10-15T20:27:36Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
