@@ -3177,9 +3177,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Nellis Blvd…",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-10-15T15:02:38Z"
+   "actualizado": "2026-10-15T15:02:39Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -3207,6 +3207,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Nellis Blvd…",
+   "ts": "2026-10-15T15:02:39Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 140 textos listos para mandar",
@@ -4701,11 +4706,6 @@
    "agente": "vendedor",
    "texto": "Terminó su turno: Fuera de horario: 0 correos listos para la mañana",
    "ts": "2026-10-13T07:52:35Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
-   "ts": "2026-10-13T07:27:32Z"
   }
  ],
  "reportes": {
