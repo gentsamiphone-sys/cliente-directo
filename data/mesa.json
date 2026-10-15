@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4179.2 · NQ 29841.0 · VIX 17.49 · 7 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-15T10:12:32Z"
+   "ultimo_resultado": "Oro 4179.3 · NQ 29828.5 · VIX 17.53 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-15T10:17:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T10:12:31Z",
-   "ultimo_resultado": "7 titulares nuevos, 2 de alto impacto: France is ‘putting the house in order’ and can slash deficit to 3% in three years, central bank governor tells CNBC"
+   "actualizado": "2026-10-15T10:17:33Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: US toy prices surge ahead of holiday shopping season as tariffs, Iran war bite"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4179.3 · NQ 29828.5 · VIX 17.53 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-15T10:17:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4179.2 · NQ 29841.0 · VIX 17.49 · 7 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "2 titulares nuevos, 1 de alto impacto: [Viral Clip] Pinoy Gold Medalist Viral Video Full Video",
    "ts": "2026-10-14T21:07:30Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-14T21:02:35Z"
   }
  ],
  "briefs": [
@@ -6493,12 +6493,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4179.2,
-  "nq": 29841.0,
-  "vix": 17.49,
-  "ts": "2026-10-15T10:12:31Z"
+  "oro": 4179.3,
+  "nq": 29828.5,
+  "vix": 17.53,
+  "ts": "2026-10-15T10:17:33Z"
  },
  "noticias": [
+  {
+   "titulo": "US toy prices surge ahead of holiday shopping season as tariffs, Iran war bite",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUWVCNGhqaElYVEdtQXA1SUhOSzFvVDc2YUMxWFdDTGhUOTFIR2taTXFwbzRoM0xlZWxsYkozc0NYejhNb2VpdHZ1VDUxQkZ0ZnNjMFVtRF9GRzBMaFBBYXNzTHRGd2pxbWpweXJqY1JjNnNVd3lHTXU3bmpDQ1J1QWphUk43VEVuSXZnNmZFdzkwZHJHLU55SGU0N1I5amh5Tmt2UEs3cUxoRkFkV1k5UFlIdlpqU3pFZE0tbVNFWnR4eDFRektpeVQzWmw?oc=5",
+   "ts": "2026-10-15T10:06:21Z",
+   "fuente": "Reuters",
+   "id": "4b4904222e",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "France is ‘putting the house in order’ and can slash deficit to 3% in three years, central bank governor tells CNBC",
    "link": "https://www.cnbc.com/2026/10/15/france-budget-deficit-moulin-protests.html",
@@ -7366,19 +7375,6 @@
    "id": "4848a1abdd",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Oil prices sink on report of easing U.S. sanctions; IEA release plans in focus",
-   "link": "https://finance.yahoo.com/energy/articles/oil-edges-lower-hot-u-005552623.html?.tsrc=rss",
-   "ts": "2026-10-15T00:55:52Z",
-   "fuente": "Yahoo Finance",
-   "id": "b69e54f6b5",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio",
-   "es": "Los precios del petróleo caen por reportes de menor flexibilización de sanciones de EE. UU.",
-   "efecto": "Reduce presiones inflacionarias, moderando tasas y apoyando ligeramente al NQ."
   }
  ],
  "eventos_avisados": [
@@ -7967,16 +7963,16 @@
    [
     1792058400,
     4178.7,
-    4179.7,
+    4180.4,
     4177.9,
-    4179.0
+    4179.3
    ],
    [
-    1792058548,
-    4179.2,
-    4179.2,
-    4179.2,
-    4179.2
+    1792058846,
+    4179.3,
+    4179.3,
+    4179.3,
+    4179.3
    ]
   ],
   "nq": [
@@ -8551,15 +8547,15 @@
     1792058400,
     29851.25,
     29852.75,
-    29838.25,
-    29839.25
+    29820.0,
+    29829.75
    ],
    [
-    1792058552,
-    29841.75,
-    29841.75,
-    29841.75,
-    29841.75
+    1792058850,
+    29828.5,
+    29828.5,
+    29828.5,
+    29828.5
    ]
   ],
   "vix": [
@@ -8977,11 +8973,18 @@
     17.5
    ],
    [
-    1792058236,
-    17.49,
-    17.49,
-    17.49,
-    17.49
+    1792058400,
+    17.5,
+    17.53,
+    17.5,
+    17.53
+   ],
+   [
+    1792058551,
+    17.53,
+    17.53,
+    17.53,
+    17.53
    ]
   ]
  },
@@ -9296,6 +9299,7 @@
   "01b8416718",
   "0701dc5992",
   "0c99b2f1d1",
-  "f44348950f"
+  "f44348950f",
+  "4b4904222e"
  ]
 }
