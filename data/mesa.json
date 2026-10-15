@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4164.7 · NQ — · VIX 16.87 · 1 noticias nuevas",
-   "actualizado": "2026-10-15T04:17:36Z"
+   "ultimo_resultado": "Oro 4162.7 · NQ 29831.5 · VIX 16.87 · 2 noticias nuevas",
+   "actualizado": "2026-10-15T04:22:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T04:17:35Z",
-   "ultimo_resultado": "1 titulares nuevos: Kingfisher Mining recaudó 2.25 millones de dólares para Copper Blow."
+   "actualizado": "2026-10-15T04:22:29Z",
+   "ultimo_resultado": "2 titulares nuevos: iMetal Resources Advances Phase 4 Drill Targeting at Gowganda West Gold Project as Shining Tree Camp Activity Accelerates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4162.7 · NQ 29831.5 · VIX 16.87 · 2 noticias nuevas",
+   "ts": "2026-10-15T04:22:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4164.7 · NQ — · VIX 16.87 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Estrategia 4H NQ: VENTA en el nivel 30604.75 · stop 30705.8 · objetivo 30372.25 · R:R 2.3 (en retesteo). Tú ejecutas.",
    "ts": "2026-10-14T14:02:40Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4124.5 · NQ 30622.0 · VIX 15.56 · 15 noticias nuevas (8 alto impacto)",
-   "ts": "2026-10-14T13:57:37Z"
   }
  ],
  "briefs": [
@@ -6340,9 +6340,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4164.7,
+  "oro": 4162.7,
+  "nq": 29831.5,
   "vix": 16.87,
-  "ts": "2026-10-15T04:17:36Z"
+  "ts": "2026-10-15T04:22:30Z"
  },
  "noticias": [
   {
@@ -6353,6 +6354,17 @@
    "id": "82c595578a",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "iMetal Resources Advances Phase 4 Drill Targeting at Gowganda West Gold Project as Shining Tree Camp Activity Accelerates",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/imetal-resources-advances-phase-4-040500838.html?.tsrc=rss",
+   "ts": "2026-10-15T04:05:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "ea21ce7b83",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO",
@@ -6405,6 +6417,17 @@
     "nq"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "!++VIDEOS]** New Viral Video Gold Medalist Philippines",
+   "link": "https://news.google.com/rss/articles/CBMirANBVV95cUxQTW5YZGFqYUNTMUdzeHREUUZpamprazdRbm9oR3ZmUnJYUGpvZTBkZWwtLVJXeUdkS21FRFhFWjN1SkFDcXZhakdQUVlDY0k2T0FYN2lOazBZSm50Q0g2SHJxRTVLZ2NyN0FaNzN1OXlQbURuUFhUWXpZdFk4TkdDcks4YndNTUxYMGJKbl9VRm9sdzBUb29faTJfV0VySmRvdXpTNVpyNThlRm95ZzA0U25NdWEwWlVXcEdDOWtydlE5OVZJazdKY3V4TklWYXBSQ3lqZThPUTF2NW1Ea01zTWpheEg5UnlEM1VfQTBJaGdfbGZEM1lrWGpWeWZEckdiTHhndW5LOHVQMGthWi02eXF1TnZsWVllY01Vd0hlZW1vbUpuY2FteVlEaGRWdlJOTWRMaHZwVVpvay00akkta0NrcXpoLU9HMHg4TmVYcE9SSk1jUENpdXpRaGtSeF90SHU5SUl2NHhFVl92RDFuaXBockVxX0wwQi1RMFZXWjN4ank4enZONXF2S0ZMQUxQX2Y4dUl6bUdPZXhEY3FzUGZTVFJmcFdaYzZmXw?oc=5",
+   "ts": "2026-10-15T02:43:28Z",
+   "fuente": "Universidad de Córdoba (UCO)",
+   "id": "998746ae36",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Gold rebounds after inflation-driven selloff as Fed rate-hike bets rise",
@@ -7190,26 +7213,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "D-backs Boast 4 Gold Glove Finalists with Moreno, Carroll, Perdomo and Vargas",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWEgzZVJjSTI1TldILWg3aXZrSy15WHZ1VFVhSW02Z3pHNWFQc0ZrU0JXTmVwTWxXaktrZ0dmVFpZWm5pck5DbDJ2bjdVcmdnNmJBM0xhYzZLeE5sQXRad0M0cHFpNzcybGpVU015WkpIaldsdWw5WkxzaHZoMUloM2VuTGNDeEtZZzN4Zi02ZGNYTG03blEzQmRYNGxaU3VTQUHSAboBQVVfeXFMTjIyV19FYnZGMlBWejFDTmIzQTgySlJnQzNGWHoteTVpQkhkaXU5TGIxdXh2QnpkTVRKRGpRQ1lrc2pGclVzMndmOVVPRV8tTTllRVYyYjg4SlRsdUg2QUlpZ0hwMldfb0dhVXVVQ20yT0NlV09BajJiRkpSRU5TWm12VzRzWkxLOHQyZGtMMXc1QzNmcnBNT2pTVFl1dEQxd1lndXdqXzJUMndRdl9ITGhmOEFHVHlKZ3JB?oc=5",
-   "ts": "2026-10-14T19:07:11Z",
-   "fuente": "MLB.com",
-   "id": "b95d9f8534",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "D-backs presumen 4 finalistas al Guante de Oro con Moreno, Carroll, Perdomo y Vargas",
-   "efecto": ""
-  },
-  {
-   "titulo": "Berkshire Hathaway heads for 10th consecutive winning day. What's driving the stock",
-   "link": "https://www.cnbc.com/2026/10/14/berkshire-hathaway-stock-winning-streak.html",
-   "ts": "2026-10-14T18:56:55Z",
-   "fuente": "CNBC",
-   "id": "5e5145d3af",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7750,15 +7753,15 @@
     1792036800,
     4166.7,
     4167.8,
-    4163.9,
-    4164.3
+    4162.2,
+    4163.1
    ],
    [
-    1792037251,
-    4164.7,
-    4164.7,
-    4164.7,
-    4164.7
+    1792037549,
+    4162.5,
+    4162.5,
+    4162.5,
+    4162.5
    ]
   ],
   "nq": [
@@ -8127,11 +8130,18 @@
     30879.0
    ],
    [
-    1792036798,
-    29855.75,
-    29855.75,
-    29855.75,
-    29855.75
+    1792036800,
+    29833.25,
+    29847.0,
+    29829.5,
+    29831.75
+   ],
+   [
+    1792037549,
+    29833.5,
+    29833.5,
+    29833.5,
+    29833.5
    ]
   ],
   "vix": [
@@ -8859,6 +8869,8 @@
   "ef8d51412d",
   "82c595578a",
   "feb8a4446d",
-  "29c5a7eb1b"
+  "29c5a7eb1b",
+  "ea21ce7b83",
+  "998746ae36"
  ]
 }
