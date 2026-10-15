@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4161.7 · NQ 29924.75 · VIX 16.87",
-   "actualizado": "2026-10-15T01:22:31Z"
+   "ultimo_resultado": "Oro 4170.5 · NQ 29961.25 · VIX 16.87 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-15T01:27:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T01:22:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-15T01:27:36Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: West Coast Community Bancorp toca la campana de cierre del Nasdaq"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4170.5 · NQ 29961.25 · VIX 16.87 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-15T01:27:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4161.7 · NQ 29924.75 · VIX 16.87",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
    "ts": "2026-10-14T12:33:01Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "DXY 0.05% · 10Y 5.217 · VIX 15.29 · 11 eventos USD en el radar.",
-   "ts": "2026-10-14T12:32:59Z"
   }
  ],
  "briefs": [
@@ -6340,10 +6340,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4161.7,
-  "nq": 29924.75,
+  "oro": 4170.5,
+  "nq": 29961.25,
   "vix": 16.87,
-  "ts": "2026-10-15T01:22:31Z"
+  "ts": "2026-10-15T01:27:37Z"
  },
  "noticias": [
   {
@@ -6498,6 +6498,19 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "West Coast Community Bancorp Rings Nasdaq Closing Bell",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNnNDby1BckQ0bE0ta29NaXFld3czRjdvQWliYjhDZmpqUU9LU2JxN1JOOU1LVzFhVjZSWE40NjVPUndfU0lPU01wVGdHb21MMVpFeE5ZRUkxOU8zTWFtaTFRODNZZURPd3paSDdMSWo3SFVlMlFhc3JEa25nakktYzg0MlVCLU05M3VTMVlQSmNRLWs1bVZOc19JdV9rRV92?oc=5",
+   "ts": "2026-10-14T23:16:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "dbb909d80f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "West Coast Community Bancorp toca la campana de cierre del Nasdaq",
+   "efecto": "Evento corporativo sin impacto en la tendencia del índice."
   },
   {
    "titulo": "Jim Cramer explains why even strong bank earnings couldn't save their stocks",
@@ -6895,6 +6908,21 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Crude Prices Rally as Middle East Hostilities Disrupt Energy Supplies",
+   "link": "https://www.barchart.com/story/news/7684928/crude-prices-rally-as-middle-east-hostilities-disrupt-energy-supplies?.tsrc=rss",
+   "ts": "2026-10-14T19:16:22Z",
+   "fuente": "Yahoo Finance",
+   "id": "ff69626d95",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Los precios del crudo suben por hostilidades en Oriente Medio que afectan suministros",
+   "efecto": "Aumenta la inflación, presiona al NQ a la baja y busca refugio en oro."
+  },
+  {
    "titulo": "Evernorth Rings the Closing Bell",
    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9MSUlrM0lENndFb1Q1LWhzbThQSHN6OTRyNVVvT1FiUnRSQjdxczBhckhxdDhtbFpWcHRqWEVwZFNDVmJSMFZLaDRlNXQ5eTZuYTNLTlhqUVdqSFN1RlBCSnYxRE43bkM3WWc?oc=5",
    "ts": "2026-10-14T19:14:47Z",
@@ -7176,24 +7204,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Lawyers for Federal Reserve's Lisa Cook say White House hearing set up by Trump is 'biased' - ABC News",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaTMxYUZMM3NURTF6TGR6Unl0WVp6X2tMazJwUkx3OGJYemtkeVFOYTFPSnRnSERJZlU4YU1YWWNnNWhLWXJhV2xwZlhMYVU4TUI3UWdJSnBsT0lfREJ6NlpKYXp0VVdRZjJRRkJ6NktmVHVzZnpHbzBFUVRBS3V1WHkydzVVbmJuRmZyZllRQmdHZEFpSlFYa3VxTUxWQjl0dTRFQW1n0gGrAUFVX3lxTE55anB4R201LU0ya3NKSHJxUTVuZmdyZlRKNWxPSkRmRVF6RGl0SnU0M19TcHQ5NHdXZ3J6QVpJMUZUUWIyc0NWZkdLdjVVQnFPVHQwN21sZVowenFMcVFkblZvOGJhdTJ1YlFsTjkxc2ZEaXE4eXZ1UC03LU1CeHFhOG9MRVUzY0JaWk1WVS00RXIwTXBPVmpmRmd6QnRFTEdUU3lmSUktQTR3Zw?oc=5",
-   "ts": "2026-10-14T17:58:47Z",
-   "fuente": "Breaking News, Latest News and Videos",
-   "id": "b3c3c12cbc",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Lawyers for Federal Reserve's Lisa Cook say White House hearing set up by Trump is 'biased'",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSDZkWDhpcVRTRHFLckZidHpTNF91cTBVZnJtX2h2OG5UMk1NQVVZV3RHWmZ6Z3h1a0ZVQm5qd2lhNHdJSEVTSEtJMUtOTXV0dm9Xbm96RFFTZWt6bHBnTVFOcVhKT2ZpVzNKWFZjRUdjRzlYSlhkd0d1YVRjWXVnTkdaZ2lOZlA5RmltVjN1UU9obld3aHRzYWROanFCUlpVUXR3WlN2ZWc0cUhoSEM2QWhlRnhfR05zWE10S0ZWX0hqTXRITUF1clZ1dk14MjhEOTBhRlhnMkNxQQ?oc=5",
-   "ts": "2026-10-14T17:49:06Z",
-   "fuente": "Los Angeles Times",
-   "id": "7ec26a2cec",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7826,14 +7836,14 @@
     4160.5,
     4172.8,
     4160.0,
-    4161.5
+    4171.4
    ],
    [
-    1792026748,
-    4161.6,
-    4161.6,
-    4161.6,
-    4161.6
+    1792027055,
+    4170.5,
+    4170.5,
+    4170.5,
+    4170.5
    ]
   ],
   "nq": [
@@ -8456,16 +8466,16 @@
    [
     1792026000,
     29932.5,
-    29970.75,
+    29974.0,
     29919.25,
-    29927.75
+    29965.25
    ],
    [
-    1792026750,
-    29924.75,
-    29924.75,
-    29924.75,
-    29924.75
+    1792027057,
+    29965.75,
+    29965.75,
+    29965.75,
+    29965.75
    ]
   ],
   "vix": [
@@ -8968,28 +8978,28 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-15T00:48:39Z",
- "ult_4h": 1792026513.0375178,
+ "noticias_traducidas_ts": "2026-10-15T01:27:33Z",
+ "ult_4h": 1792027657.5431879,
  "estrategia_4h": {
   "oro": {
-   "precio": 4160.3,
-   "atr_4h": 27.35,
+   "precio": 4170.5,
+   "atr_4h": 27.69,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4173.7,
      "entrada": 4173.7,
-     "stop": 4190.11,
+     "stop": 4190.32,
      "objetivo": 4095.0,
-     "rr": 4.8,
+     "rr": 4.74,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 2.19,
+     "fuerza_ruptura_atr": 2.16,
      "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29913.5,
+   "precio": 29961.25,
    "atr_4h": 194.18,
    "setups": [
     {
@@ -9016,7 +9026,7 @@
     }
    ]
   },
-  "ts": "2026-10-15T01:08:33Z"
+  "ts": "2026-10-15T01:27:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -9192,6 +9202,8 @@
   "839f1e028e",
   "701f6440a3",
   "4848a1abdd",
-  "e32df10b44"
+  "e32df10b44",
+  "dbb909d80f",
+  "ff69626d95"
  ]
 }
