@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4168.7 · NQ 29826.5 · VIX 17.5 · 3 noticias nuevas",
-   "actualizado": "2026-10-15T14:22:40Z"
+   "ultimo_resultado": "Oro 4167.2 · NQ 29815.25 · VIX 17.4 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-15T14:27:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T14:22:39Z",
-   "ultimo_resultado": "3 titulares nuevos: Trump says Nidal Hasan execution won't be live-streamed"
+   "actualizado": "2026-10-15T14:27:36Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: S&P 500 and Nasdaq fall as tech selloff and inflation data weigh"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4167.2 · NQ 29815.25 · VIX 17.4 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-15T14:27:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4168.7 · NQ 29826.5 · VIX 17.5 · 3 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4161.7 · NQ 29924.75 · VIX 16.87",
    "ts": "2026-10-15T01:22:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4164.5 · NQ 29933.5 · VIX 16.87 · 2 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-15T01:17:32Z"
   }
  ],
  "briefs": [
@@ -6715,10 +6715,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4168.7,
-  "nq": 29826.5,
-  "vix": 17.5,
-  "ts": "2026-10-15T14:22:40Z"
+  "oro": 4167.2,
+  "nq": 29815.25,
+  "vix": 17.4,
+  "ts": "2026-10-15T14:27:36Z"
  },
  "noticias": [
   {
@@ -6804,6 +6804,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "S&P 500 and Nasdaq fall as tech selloff and inflation data weigh",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMWkJ3NkRwcjRGZlJlUzdVbjh6SHJiSGNNRExNNDBTay1vQktxQkwxVEVHaHZvZjFlY2xuaVFvaTFQejl2Mjg5NVZyZ3JiQTcydzh1T21CRktNMHZHRHJtYzhaR1o4Rl9LQndOWFFyZ3JnQnRYT3c?oc=5",
+   "ts": "2026-10-15T13:51:10Z",
+   "fuente": "Quartz",
+   "id": "3423aa7962",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Small-cap stocks quietly slide into correction territory",
    "link": "https://www.cnbc.com/2026/10/15/small-cap-stocks-slide-into-correction-territory.html",
    "ts": "2026-10-15T13:48:56Z",
@@ -6856,6 +6867,17 @@
    "id": "03e227bd44",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Taiwan Semiconductor Q3 Earnings & Revenues Top Estimates, Margins Up",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-q3-earnings-revenues-131800915.html?.tsrc=rss",
+   "ts": "2026-10-15T13:18:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "0b855cfd96",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -7563,28 +7585,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "BULLFROG GOLD PROVIDES EXPLORATION UPDATE",
-   "link": "https://finance.yahoo.com/news/bullfrog-gold-provides-exploration-100000973.html?.tsrc=rss",
-   "ts": "2026-10-15T10:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "acc97afac2",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Bullfrog Gold ofrece actualización de exploración",
-   "efecto": ""
-  },
-  {
-   "titulo": "What to know about Starshield, SpaceX's military-focused Starlink service",
-   "link": "https://www.cnbc.com/2026/10/15/what-is-starshield-spacex-starlink-military.html",
-   "ts": "2026-10-15T09:58:40Z",
-   "fuente": "CNBC",
-   "id": "04ee365c1f",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -8206,15 +8206,15 @@
     1792072800,
     4176.5,
     4178.0,
-    4166.5,
-    4169.8
+    4165.8,
+    4167.7
    ],
    [
-    1792073555,
-    4168.7,
-    4168.7,
-    4168.7,
-    4168.7
+    1792073855,
+    4166.1,
+    4166.1,
+    4166.1,
+    4166.1
    ]
   ],
   "nq": [
@@ -8818,14 +8818,14 @@
     29687.5,
     29871.0,
     29683.0,
-    29845.0
+    29802.0
    ],
    [
-    1792073559,
-    29826.5,
-    29826.5,
-    29826.5,
-    29826.5
+    1792073855,
+    29815.25,
+    29815.25,
+    29815.25,
+    29815.25
    ]
   ],
   "vix": [
@@ -9274,23 +9274,23 @@
     1792072800,
     17.81,
     17.81,
-    17.45,
-    17.49
+    17.35,
+    17.39
    ],
    [
-    1792073251,
-    17.5,
-    17.5,
-    17.5,
-    17.5
+    1792073551,
+    17.4,
+    17.4,
+    17.4,
+    17.4
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-15T14:02:36Z",
- "ult_4h": 1792073554.725306,
+ "ult_4h": 1792074456.9440513,
  "estrategia_4h": {
   "oro": {
-   "precio": 4174.0,
+   "precio": 4167.2,
    "atr_4h": 28.71,
    "setups": [
     {
@@ -9307,7 +9307,7 @@
    ]
   },
   "nq": {
-   "precio": 29763.25,
+   "precio": 29815.25,
    "atr_4h": 212.5,
    "setups": [
     {
@@ -9334,7 +9334,7 @@
     }
    ]
   },
-  "ts": "2026-10-15T14:12:35Z"
+  "ts": "2026-10-15T14:27:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -9678,6 +9678,8 @@
   "6265a5cb62",
   "1e93297214",
   "c1dca30e2f",
-  "2919372fce"
+  "2919372fce",
+  "3423aa7962",
+  "0b855cfd96"
  ]
 }
