@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4188.6 · NQ 29792.5 · VIX 17.5 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-15T13:27:40Z"
+   "ultimo_resultado": "Oro 4178.6 · NQ 29790.75 · VIX 17.5 · 1 noticias nuevas",
+   "actualizado": "2026-10-15T13:32:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T13:27:39Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: El S&P 500 y el Nasdaq apuntan a una apertura a la baja por caída de acciones de IA ante temores de deuda"
+   "actualizado": "2026-10-15T13:32:35Z",
+   "ultimo_resultado": "1 titulares nuevos: Mets Morning News: Three Mets named Gold Glove finalists"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4178.6 · NQ 29790.75 · VIX 17.5 · 1 noticias nuevas",
+   "ts": "2026-10-15T13:32:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4188.6 · NQ 29792.5 · VIX 17.5 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4160.8 · NQ 29944.0 · VIX 16.87 · 2 noticias nuevas",
    "ts": "2026-10-15T00:32:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4158.0 · NQ 29931.5 · VIX 16.87 · 1 noticias nuevas",
-   "ts": "2026-10-15T00:27:33Z"
   }
  ],
  "briefs": [
@@ -6715,10 +6715,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4188.6,
-  "nq": 29792.5,
+  "oro": 4178.6,
+  "nq": 29790.75,
   "vix": 17.5,
-  "ts": "2026-10-15T13:27:39Z"
+  "ts": "2026-10-15T13:32:35Z"
  },
  "noticias": [
   {
@@ -6825,6 +6825,17 @@
    "impacto": "bajo",
    "es": "El problema de la 'buena deuda': Por qué los prestatarios deben reconsiderar la etiqueta",
    "efecto": "Sin impacto directo en los mercados institucionales."
+  },
+  {
+   "titulo": "Mets Morning News: Three Mets named Gold Glove finalists",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNGdlaVNEUjlBU1BBTHU0S3BKSV9PYUxaOE9JV0xYUDVxdVc5NXJ1RWpyNVdueHlPUzVaRndsSUxPMi1zWHJzQy1WV0NyTkMyb0xZZ0NHY29HdTd0cUE0UTM3bzRpMWdqajlSWjA2QUpHTHhUVXJzN0ZOVVpaQkhjWFMzNA?oc=5",
+   "ts": "2026-10-15T12:30:00Z",
+   "fuente": "Yahoo Sports",
+   "id": "c37b684832",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Stock market today: S&P 500, Nasdaq futures slip as semiconductor sell-off continues",
@@ -7581,17 +7592,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Nasdaq Futures Slide as Global AI Selloff Gathers Pace",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNlJqX1VNMzFROWFHQWtMOXlXTVkxX1d5dTQtQUVvbGNHTHZMNmxiNGdjQmlNNkxUYm1ucTNlaURJY1MtU2czWjdUQzFUMnpTODVvbC1fb1hIN2J3eS03RFE1em4wLV8wTzFSQ1kwYWJ0YW45bHJZUnRUeWZIV0pqMlhac08yeDhLNWpZU0NmRzkzZ09lQ1NGOVdBYk16SnM?oc=5",
-   "ts": "2026-10-15T08:49:00Z",
-   "fuente": "WSJ",
-   "id": "b2ce5e9b07",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -8207,14 +8207,14 @@
     4173.0,
     4189.9,
     4165.3,
-    4188.5
+    4179.1
    ],
    [
-    1792070257,
-    4188.6,
-    4188.6,
-    4188.6,
-    4188.6
+    1792070554,
+    4178.6,
+    4178.6,
+    4178.6,
+    4178.6
    ]
   ],
   "nq": [
@@ -8811,14 +8811,14 @@
     29791.0,
     29824.75,
     29774.25,
-    29795.75
+    29782.75
    ],
    [
-    1792070257,
-    29792.5,
-    29792.5,
-    29792.5,
-    29792.5
+    1792070555,
+    29790.0,
+    29790.0,
+    29790.0,
+    29790.0
    ]
   ],
   "vix": [
@@ -9264,7 +9264,7 @@
     17.52
    ],
    [
-    1792069951,
+    1792070251,
     17.5,
     17.5,
     17.5,
@@ -9633,6 +9633,7 @@
   "c3de9fb193",
   "03e227bd44",
   "94bcc697db",
-  "8f46636cf1"
+  "8f46636cf1",
+  "c37b684832"
  ]
 }
