@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4164.6 · NQ 29975.75 · VIX 16.87 · 1 noticias nuevas",
-   "actualizado": "2026-10-15T00:42:51Z"
+   "ultimo_resultado": "Oro 4159.6 · NQ 29976.25 · VIX 16.87 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-15T00:48:45Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T00:42:50Z",
-   "ultimo_resultado": "1 titulares nuevos: Sugar Prices Fall on Long Liquidation Pressures"
+   "actualizado": "2026-10-15T00:48:44Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: SK Hynix se desploma un 8% en la caída tecnológica asiática por temores de tasas de la Fed y financiación de IA"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4159.6 · NQ 29976.25 · VIX 16.87 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-15T00:48:45Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4164.6 · NQ 29975.75 · VIX 16.87 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4169.8 · NQ 30779.25 · VIX 15.3 · 15 noticias nuevas (7 alto impacto)",
    "ts": "2026-10-14T12:17:40Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4165.2 · NQ 30781.25 · VIX 15.38 · 15 noticias nuevas (4 alto impacto)",
-   "ts": "2026-10-14T12:12:40Z"
   }
  ],
  "briefs": [
@@ -6340,12 +6340,26 @@
   }
  },
  "en_vivo": {
-  "oro": 4164.6,
-  "nq": 29975.75,
+  "oro": 4159.6,
+  "nq": 29976.25,
   "vix": 16.87,
-  "ts": "2026-10-15T00:42:51Z"
+  "ts": "2026-10-15T00:48:44Z"
  },
  "noticias": [
+  {
+   "titulo": "SK Hynix plunges 8% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
+   "link": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+   "ts": "2026-10-15T00:42:30Z",
+   "fuente": "CNBC",
+   "id": "54b719197b",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "SK Hynix se desploma un 8% en la caída tecnológica asiática por temores de tasas de la Fed y financiación de IA",
+   "efecto": "Presiona al NQ a la baja por aversión al riesgo tecnológico."
+  },
   {
    "titulo": "Inside India newsletter: Billionaire Ambani’s mega-IPO faces a valuation reality check amid Musk spat",
    "link": "https://www.cnbc.com/2026/10/15/india-starlink-musk-jio-ambani-ipo.html",
@@ -7183,17 +7197,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "2026 Gold Glove Finalists include Cubs' Bregman, Crow-Armstrong, Happ, Swanson, and Suzuki; and White Sox's Meidroth",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPc3FuUlhfaFpQVGRPNEhlMmJFbC1idnVTaEQ3MWpwOWtQVXVPcXhYQ01FM1JkbmpMSUFzTThlZENrbDZzcVdzZkhyVUtNRmhwOGNkN2h3a09pblZXQkNmZ3c2dVp3NUdORExpRFRUaExwVTIxLWRxOXhibEE4RTlKZG1UVEJ5NnFkSzdabDJidXNYeXlvR2tvTE1uYUlhSTBxQkwtNkpnUzE0V2VZN1k2V1dIWmhveVpfWjNWVWh1ZGdLMzZFVk41aDdudks3SF9RbGRGMDhBTEVwaElsRUhOYw?oc=5",
-   "ts": "2026-10-14T17:34:25Z",
-   "fuente": "CBS News",
-   "id": "f5e21a4e0f",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Finalistas del Guante de Oro de 2026 incluyen a jugadores de Cubs y White Sox",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -7824,16 +7827,16 @@
    [
     1792022400,
     4132.9,
-    4164.6,
+    4165.1,
     4132.0,
-    4164.5
+    4160.2
    ],
    [
-    1792024369,
-    4163.8,
-    4163.8,
-    4163.8,
-    4163.8
+    1792024721,
+    4159.6,
+    4159.6,
+    4159.6,
+    4159.6
    ]
   ],
   "nq": [
@@ -8456,16 +8459,16 @@
    [
     1792022400,
     29907.5,
-    29986.5,
+    30010.75,
     29906.0,
-    29980.5
+    29972.0
    ],
    [
-    1792024369,
-    29975.75,
-    29975.75,
-    29975.75,
-    29975.75
+    1792024724,
+    29976.25,
+    29976.25,
+    29976.25,
+    29976.25
    ]
   ],
   "vix": [
@@ -8968,55 +8971,55 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-15T00:17:36Z",
- "ult_4h": 1792024352.6645308,
+ "noticias_traducidas_ts": "2026-10-15T00:48:39Z",
+ "ult_4h": 1792025324.9215808,
  "estrategia_4h": {
   "oro": {
-   "precio": 4159.0,
-   "atr_4h": 26.96,
+   "precio": 4159.6,
+   "atr_4h": 27.14,
    "setups": [
     {
      "direccion": "VENTA",
-     "nivel": 4178.1,
-     "entrada": 4178.1,
-     "stop": 4194.28,
+     "nivel": 4173.7,
+     "entrada": 4173.7,
+     "stop": 4189.99,
      "objetivo": 4095.0,
-     "rr": 5.14,
+     "rr": 4.83,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.21,
+     "fuerza_ruptura_atr": 2.2,
      "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29944.0,
-   "atr_4h": 192.11,
+   "precio": 29976.25,
+   "atr_4h": 194.18,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30485.26,
+     "stop": 30486.51,
      "objetivo": 29879.5,
-     "rr": 4.26,
+     "rr": 4.21,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.25,
+     "fuerza_ruptura_atr": 2.22,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30504.5,
      "entrada": 30504.5,
-     "stop": 30619.76,
+     "stop": 30621.01,
      "objetivo": 29879.5,
-     "rr": 5.42,
+     "rr": 5.36,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.25,
+     "fuerza_ruptura_atr": 2.22,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-15T00:32:32Z"
+  "ts": "2026-10-15T00:48:45Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -9186,6 +9189,7 @@
   "c8ef1117ca",
   "cf449d59a5",
   "b305768129",
-  "6fcab05747"
+  "6fcab05747",
+  "54b719197b"
  ]
 }
