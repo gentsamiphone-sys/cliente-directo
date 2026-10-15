@@ -3110,10 +3110,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ultimo_resultado": "3 negocios nuevos de restaurantes y comida cerca de Owens Ave",
-   "actualizado": "2026-10-15T03:06:20Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "0 negocios nuevos de talleres cerca de Las Vegas Blvd N",
+   "actualizado": "2026-10-15T03:06:30Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -3141,6 +3141,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: 0 negocios nuevos de talleres cerca de Las Vegas Blvd N",
+   "ts": "2026-10-15T03:06:30Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -4635,11 +4640,6 @@
    "agente": "gerente",
    "texto": "Contando cómo vamos hoy…",
    "ts": "2026-10-12T22:37:32Z"
-  },
-  {
-   "agente": "seguimiento",
-   "texto": "Terminó su turno: 0 respuestas nuevas, 0 bajas, 0 seguimientos",
-   "ts": "2026-10-12T22:12:46Z"
   }
  ],
  "reportes": {
