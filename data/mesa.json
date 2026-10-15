@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4166.5 · NQ 29965.0 · VIX 16.87",
-   "actualizado": "2026-10-15T05:02:33Z"
+   "ultimo_resultado": "Oro 4167.2 · NQ 29970.25 · VIX 16.87 · 1 noticias nuevas",
+   "actualizado": "2026-10-15T05:07:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T05:02:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-15T05:07:38Z",
+   "ultimo_resultado": "1 titulares nuevos: Peter Schiff Says Most Stocks Are in Bear Market as AI Leaders Carry the Index"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4167.2 · NQ 29970.25 · VIX 16.87 · 1 noticias nuevas",
+   "ts": "2026-10-15T05:07:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4166.5 · NQ 29965.0 · VIX 16.87",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4118.9 · NQ 30482.5 · VIX 15.69 · 15 noticias nuevas (7 alto impacto)",
    "ts": "2026-10-14T14:42:38Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4119.3 · NQ 30494.75 · VIX 15.69 · 15 noticias nuevas (6 alto impacto)",
-   "ts": "2026-10-14T14:37:36Z"
   }
  ],
  "briefs": [
@@ -6340,10 +6340,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4166.5,
-  "nq": 29965.0,
+  "oro": 4167.2,
+  "nq": 29970.25,
   "vix": 16.87,
-  "ts": "2026-10-15T05:02:33Z"
+  "ts": "2026-10-15T05:07:38Z"
  },
  "noticias": [
   {
@@ -6376,6 +6376,17 @@
    "ts": "2026-10-15T04:25:10Z",
    "fuente": "CNBC",
    "id": "e4d72bb300",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Peter Schiff Says Most Stocks Are in Bear Market as AI Leaders Carry the Index",
+   "link": "https://beincrypto.com/peter-schiff-most-stocks-bear-market/?.tsrc=rss",
+   "ts": "2026-10-15T04:17:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "4e783535ef",
    "activos": [
     "nq"
    ],
@@ -7202,21 +7213,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Crude Prices Rally as Middle East Hostilities Disrupt Energy Supplies",
-   "link": "https://www.barchart.com/story/news/7684928/crude-prices-rally-as-middle-east-hostilities-disrupt-energy-supplies?.tsrc=rss",
-   "ts": "2026-10-14T19:16:22Z",
-   "fuente": "Yahoo Finance",
-   "id": "ff69626d95",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Los precios del crudo suben por hostilidades en Oriente Medio que afectan suministros",
-   "efecto": "Aumenta la inflación, presiona al NQ a la baja y busca refugio en oro."
   }
  ],
  "eventos_avisados": [
@@ -7758,14 +7754,14 @@
     4166.7,
     4168.9,
     4162.2,
-    4166.7
+    4167.0
    ],
    [
-    1792039944,
-    4166.5,
-    4166.5,
-    4166.5,
-    4166.5
+    1792040252,
+    4167.2,
+    4167.2,
+    4167.2,
+    4167.2
    ]
   ],
   "nq": [
@@ -8297,16 +8293,16 @@
    [
     1792036800,
     29833.25,
-    29971.25,
+    29978.25,
     29828.25,
-    29967.75
+    29971.0
    ],
    [
-    1792039951,
-    29965.0,
-    29965.0,
-    29965.0,
-    29965.0
+    1792040256,
+    29970.25,
+    29970.25,
+    29970.25,
+    29970.25
    ]
   ],
   "vix": [
@@ -9066,6 +9062,7 @@
   "d03f6ffd7e",
   "da323abd76",
   "d7c1a7241b",
-  "f235be17f1"
+  "f235be17f1",
+  "4e783535ef"
  ]
 }
