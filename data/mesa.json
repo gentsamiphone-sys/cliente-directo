@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T06:32:57Z",
-   "ultimo_resultado": "Mapa listo: oro 4157.5 · NQ 29887.75."
+   "actualizado": "2026-10-15T12:27:32Z",
+   "ultimo_resultado": "Estrategia 4H NQ: VENTA: esperar retesteo de 30372.25 · stop 30490.19 · objetivo 29748.5 · R:R 5.29 (esperando retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T12:22:40Z",
-   "ultimo_resultado": "1 titulares nuevos: Principales recomendaciones de analistas del jueves: Nvidia, CoreWeave, Walmart y más"
+   "actualizado": "2026-10-15T12:27:31Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H NQ: VENTA: esperar retesteo de 30372.25 · stop 30490.19 · objetivo 29748.5 · R:R 5.29 (esperando retesteo). Tú ejecutas.",
+   "ts": "2026-10-15T12:27:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4171.1 · NQ 29804.25 · VIX 17.49 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "3 titulares nuevos, 1 de alto impacto: Resultados del tercer trimestre de 2026 de B2Gold y detalles de la conferencia",
    "ts": "2026-10-14T21:42:41Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-14T21:37:36Z"
   }
  ],
  "briefs": [
@@ -6493,10 +6493,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4171.1,
-  "nq": 29804.25,
-  "vix": 17.49,
-  "ts": "2026-10-15T12:22:40Z"
+  "oro": 4171.6,
+  "nq": 29812.0,
+  "vix": 17.57,
+  "ts": "2026-10-15T12:27:31Z"
  },
  "noticias": [
   {
@@ -9047,54 +9047,54 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-15T12:22:38Z",
- "ult_4h": 1792066351.509214,
+ "ult_4h": 1792067251.8948634,
  "estrategia_4h": {
   "oro": {
-   "precio": 4166.5,
-   "atr_4h": 26.14,
+   "precio": 4171.6,
+   "atr_4h": 26.49,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4173.7,
      "entrada": 4173.7,
-     "stop": 4189.39,
+     "stop": 4189.59,
      "objetivo": 4095.0,
-     "rr": 5.02,
+     "rr": 4.95,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 2.29,
+     "fuerza_ruptura_atr": 2.26,
      "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29809.25,
-   "atr_4h": 195.52,
+   "precio": 29812.0,
+   "atr_4h": 196.57,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30487.31,
+     "stop": 30487.94,
      "objetivo": 29748.5,
-     "rr": 5.3,
+     "rr": 5.27,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.2,
+     "fuerza_ruptura_atr": 2.19,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30504.5,
-     "entrada": 30504.5,
-     "stop": 30621.81,
+     "nivel": 30372.25,
+     "entrada": 30372.25,
+     "stop": 30490.19,
      "objetivo": 29748.5,
-     "rr": 6.44,
+     "rr": 5.29,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.2,
+     "fuerza_ruptura_atr": 2.19,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-15T12:12:31Z"
+  "ts": "2026-10-15T12:27:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -9114,7 +9114,8 @@
   "nq|VENTA|30370.0|esperando retesteo",
   "oro|VENTA|4173.7|en retesteo",
   "oro|VENTA|4178.1|en retesteo",
-  "nq|VENTA|30356.75|esperando retesteo"
+  "nq|VENTA|30356.75|esperando retesteo",
+  "nq|VENTA|30372.25|esperando retesteo"
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
