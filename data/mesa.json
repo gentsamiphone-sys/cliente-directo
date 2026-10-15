@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4161.9 · NQ 29817.75 · VIX 16.87 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-15T07:27:40Z"
+   "ultimo_resultado": "Oro 4163.5 · NQ 29802.5 · VIX 17.56 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-15T07:32:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T07:27:38Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Tech stocks plunge as Fed rate hike fears, AI funding worries mount"
+   "actualizado": "2026-10-15T07:32:34Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Tech stocks plunge as Fed rate hike fears, AI funding worries mount; ASML, SK Hynix slump"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4163.5 · NQ 29802.5 · VIX 17.56 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-15T07:32:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4161.9 · NQ 29817.75 · VIX 16.87 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4108.9 · NQ 30153.75 · VIX 17.17 · 2 noticias nuevas",
    "ts": "2026-10-14T18:22:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4107.9 · NQ 30167.0 · VIX 17.38 · 3 noticias nuevas",
-   "ts": "2026-10-14T18:17:31Z"
   }
  ],
  "briefs": [
@@ -6493,12 +6493,24 @@
   }
  },
  "en_vivo": {
-  "oro": 4161.9,
-  "nq": 29817.75,
-  "vix": 16.87,
-  "ts": "2026-10-15T07:27:39Z"
+  "oro": 4163.5,
+  "nq": 29802.5,
+  "vix": 17.56,
+  "ts": "2026-10-15T07:32:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Tech stocks plunge as Fed rate hike fears, AI funding worries mount; ASML, SK Hynix slump",
+   "link": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+   "ts": "2026-10-15T07:28:44Z",
+   "fuente": "CNBC",
+   "id": "bf61e5711f",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Tech stocks plunge as Fed rate hike fears, AI funding worries mount",
    "link": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
@@ -6537,6 +6549,15 @@
    "impacto": "medio",
    "es": "El FMI prevé una desaceleración global más leve por el auge de la IA",
    "efecto": "Impulsa al NQ por optimismo tecnológico, limita refugio en oro."
+  },
+  {
+   "titulo": "Anglo Asian Mining reports Q3 jump in copper production as Demirli ramp-up continues",
+   "link": "https://www.proactiveinvestors.com/companies/news/1100147/anglo-asian-mining-reports-q3-jump-in-copper-production-as-demirli-ramp-up-continues-1100147.html?.tsrc=rss",
+   "ts": "2026-10-15T06:34:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "35dd820f2c",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Is SSR Mining (TSX:SSRM) Undervalued On Its New Marigold Mine Plan?",
@@ -7346,27 +7367,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "OpenAI bugging suspect booked one-way ticket to Saudi Arabia with family before arrest",
-   "link": "https://www.cnbc.com/2026/10/14/openai-alfozan-recording-raed-ventures.html",
-   "ts": "2026-10-14T20:33:22Z",
-   "fuente": "CNBC",
-   "id": "bd70610536",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNDQtMlM3MHJlVV9uLTNKMjRGLVZoU09VUGRJME5vYlBBcTdaNjkyR1R6cU5Ebnh6THlWSmJsVTZ1VXlMeE9FREl4OW5sNU9Xd0RfNVQtdjdkQV9pQm5iaFhzTURwYy1xN1NxVWd3dTEzUnpiR1RRUnB5NTVselROYzZGZmRVQQ?oc=5",
-   "ts": "2026-10-14T20:29:33Z",
-   "fuente": "Virginia Business",
-   "id": "c3f5f08316",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -7936,14 +7936,14 @@
     4157.4,
     4165.4,
     4157.0,
-    4161.7
+    4163.5
    ],
    [
-    1792048657,
-    4161.9,
-    4161.9,
-    4161.9,
-    4161.9
+    1792048951,
+    4163.5,
+    4163.5,
+    4163.5,
+    4163.5
    ]
   ],
   "nq": [
@@ -8498,14 +8498,14 @@
     29790.25,
     29827.25,
     29754.0,
-    29810.25
+    29795.5
    ],
    [
-    1792048659,
-    29819.75,
-    29819.75,
-    29819.75,
-    29819.75
+    1792048953,
+    29802.5,
+    29802.5,
+    29802.5,
+    29802.5
    ]
   ],
   "vix": [
@@ -8756,10 +8756,10 @@
    ],
    [
     1792008000,
-    16.87,
-    16.87,
-    16.87,
-    16.87
+    17.56,
+    17.56,
+    17.56,
+    17.56
    ]
   ]
  },
@@ -9037,6 +9037,8 @@
   "a48e3d5c76",
   "23df2294d5",
   "0177a6266d",
-  "abb6c46446"
+  "abb6c46446",
+  "bf61e5711f",
+  "35dd820f2c"
  ]
 }
