@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4171.2 · NQ 29790.5 · VIX 17.51",
-   "actualizado": "2026-10-15T14:17:36Z"
+   "ultimo_resultado": "Oro 4168.7 · NQ 29826.5 · VIX 17.5 · 3 noticias nuevas",
+   "actualizado": "2026-10-15T14:22:40Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T14:17:35Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-15T14:22:39Z",
+   "ultimo_resultado": "3 titulares nuevos: Trump says Nidal Hasan execution won't be live-streamed"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4168.7 · NQ 29826.5 · VIX 17.5 · 3 noticias nuevas",
+   "ts": "2026-10-15T14:22:40Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4171.2 · NQ 29790.5 · VIX 17.51",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4164.5 · NQ 29933.5 · VIX 16.87 · 2 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-15T01:17:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4170.6 · NQ 29947.75 · VIX 16.87",
-   "ts": "2026-10-15T01:12:32Z"
   }
  ],
  "briefs": [
@@ -6715,12 +6715,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4171.2,
-  "nq": 29790.5,
-  "vix": 17.51,
-  "ts": "2026-10-15T14:17:35Z"
+  "oro": 4168.7,
+  "nq": 29826.5,
+  "vix": 17.5,
+  "ts": "2026-10-15T14:22:40Z"
  },
  "noticias": [
+  {
+   "titulo": "Trump says Nidal Hasan execution won't be live-streamed",
+   "link": "https://www.cnbc.com/2026/10/15/trump-nidal-hasan-execution-livestream.html",
+   "ts": "2026-10-15T14:20:54Z",
+   "fuente": "CNBC",
+   "id": "1e93297214",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Tariffs Come and Go. Higher Prices Stick Around.",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcnFWTm9rVjNQdzI2NW0zZ2RiM3Z4WjNWaHRDTmdqSDFHM1BnQjAxQ0lQNDJzMUVBdkltcGNLaDlrSVdOeWhPREpIRE0wZmFvYnRNUzhMbE1iclk4ZkhfZ0hTRWtkWTNXZTVoVDBReml0QlBqRlRLRlFSUGNJVEFnSWJrbHZRTVNZVW5GUXVBZFZXb3NxcHJacGJpZzhfNDA?oc=5",
@@ -6729,6 +6738,17 @@
    "id": "a851e294d8",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "TRX Gold Targets Major Buckreef Expansion, Bigger EBITDA and New Discoveries",
+   "link": "https://www.marketbeat.com/instant-alerts/event-trx-gold-targets-major-buckreef-expansion-bigger-ebitda-and-new-discoveries-2026-10-15/?utm_source=yahoofinance&amp;utm_medium=yahoofinance&amp;.tsrc=rss",
+   "ts": "2026-10-15T14:02:22Z",
+   "fuente": "Yahoo Finance",
+   "id": "c1dca30e2f",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Tale of two markets: Our 3 biggest winners and losers over the past five weeks",
@@ -6745,6 +6765,17 @@
    "ts": "2026-10-15T14:00:39Z",
    "fuente": "Yahoo Finance",
    "id": "ef01beb2d8",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "A $30 Trillion Bitcoin Market? Matt Hougan and Saifedean Ammous Make the Case for Challenging Gold",
+   "link": "https://www.ccn.com/news/crypto/30-trillion-bitcoin-gold-market-hougan-ammous-case-challenging/?.tsrc=rss",
+   "ts": "2026-10-15T14:00:25Z",
+   "fuente": "Yahoo Finance",
+   "id": "2919372fce",
    "activos": [
     "oro"
    ],
@@ -7554,39 +7585,6 @@
    "id": "04ee365c1f",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "In charts: How one of the world's biggest economies got trapped by debt",
-   "link": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html",
-   "ts": "2026-10-15T09:54:54Z",
-   "fuente": "CNBC Economía",
-   "id": "c83d3469a9",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Gold Prices Recover as Weaker Dollar and Falling Bond Yields Offset US Inflation Concerns",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSFVaWno3TG10cU9rNzktMkhhWnY4VmpVZE9PQzlmY0l0Z0xoTDN3UTJUVk9BRUM2R3JiRTM5VlVMMTcwT1kxRVZTZVNSYkVDYTc4UW5XdkF3RnB2OVFzQzZQYWd5Y0hud1M0dUp6U0tjWW1kX0dpRjFTZ2hyN2h6ODNmTkFDS1RFd1E?oc=5",
-   "ts": "2026-10-15T09:46:34Z",
-   "fuente": "Yahoo Finance UK",
-   "id": "239f6565c1",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Gold Prices Rebound as Dollar and Treasury Yields Ease Despite Higher US Inflation",
-   "link": "https://investorshub.advfn.com/market-news/article/38077/gold-prices-rebound-as-dollar-and-treasury-yields-ease-despite-higher-us-inflation?.tsrc=rss",
-   "ts": "2026-10-15T09:44:16Z",
-   "fuente": "Yahoo Finance",
-   "id": "0c99b2f1d1",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -8208,15 +8206,15 @@
     1792072800,
     4176.5,
     4178.0,
-    4170.3,
-    4171.5
+    4166.5,
+    4169.8
    ],
    [
-    1792073253,
-    4171.2,
-    4171.2,
-    4171.2,
-    4171.2
+    1792073555,
+    4168.7,
+    4168.7,
+    4168.7,
+    4168.7
    ]
   ],
   "nq": [
@@ -8818,16 +8816,16 @@
    [
     1792072800,
     29687.5,
-    29829.0,
+    29871.0,
     29683.0,
-    29810.5
+    29845.0
    ],
    [
-    1792073255,
-    29790.5,
-    29790.5,
-    29790.5,
-    29790.5
+    1792073559,
+    29826.5,
+    29826.5,
+    29826.5,
+    29826.5
    ]
   ],
   "vix": [
@@ -9276,15 +9274,15 @@
     1792072800,
     17.81,
     17.81,
-    17.56,
-    17.56
+    17.45,
+    17.49
    ],
    [
-    1792072951,
-    17.51,
-    17.51,
-    17.51,
-    17.51
+    1792073251,
+    17.5,
+    17.5,
+    17.5,
+    17.5
    ]
   ]
  },
@@ -9677,6 +9675,9 @@
   "a851e294d8",
   "4ef21c7ac8",
   "ef01beb2d8",
-  "6265a5cb62"
+  "6265a5cb62",
+  "1e93297214",
+  "c1dca30e2f",
+  "2919372fce"
  ]
 }
