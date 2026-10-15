@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4169.2 · NQ 29844.75 · VIX 16.87",
-   "actualizado": "2026-10-15T03:42:34Z"
+   "ultimo_resultado": "Oro 4171.5 · NQ 29862.75 · VIX 16.87 · 1 noticias nuevas",
+   "actualizado": "2026-10-15T03:47:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T03:42:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-15T03:47:33Z",
+   "ultimo_resultado": "1 titulares nuevos: Los precios del petróleo caen por reportes de menor flexibilización de sanciones de EE. UU."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4171.5 · NQ 29862.75 · VIX 16.87 · 1 noticias nuevas",
+   "ts": "2026-10-15T03:47:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4169.2 · NQ 29844.75 · VIX 16.87",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4108.1 · NQ 30575.0 · VIX 15.76 · 15 noticias nuevas (7 alto impacto)",
    "ts": "2026-10-14T13:27:46Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4106.6 · NQ 30583.5 · VIX 15.8 · 15 noticias nuevas (7 alto impacto)",
-   "ts": "2026-10-14T13:22:32Z"
   }
  ],
  "briefs": [
@@ -6340,10 +6340,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4169.2,
-  "nq": 29844.75,
+  "oro": 4171.5,
+  "nq": 29862.75,
   "vix": 16.87,
-  "ts": "2026-10-15T03:42:34Z"
+  "ts": "2026-10-15T03:47:33Z"
  },
  "noticias": [
   {
@@ -6486,6 +6486,19 @@
    "id": "4848a1abdd",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Oil prices sink on report of easing U.S. sanctions; IEA release plans in focus",
+   "link": "https://finance.yahoo.com/energy/articles/oil-edges-lower-hot-u-005552623.html?.tsrc=rss",
+   "ts": "2026-10-15T00:55:52Z",
+   "fuente": "Yahoo Finance",
+   "id": "b69e54f6b5",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "Los precios del petróleo caen por reportes de menor flexibilización de sanciones de EE. UU.",
+   "efecto": "Reduce presiones inflacionarias, moderando tasas y apoyando ligeramente al NQ."
   },
   {
    "titulo": "Oil edges lower after hot U.S. CPI; IEA meeting in focus",
@@ -7198,19 +7211,6 @@
    "id": "784423804c",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "AI infrastructure stocks tumble. Here's a few reasons for the sell-off",
-   "link": "https://www.cnbc.com/investingclub/2026/10/14/ai-infrastructure-stocks-tumble-heres-a-few-reasons-for-the-sell-off-.html",
-   "ts": "2026-10-14T18:41:11Z",
-   "fuente": "CNBC",
-   "id": "af3937fe36",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto",
-   "es": "Acciones de infraestructura de IA caen por motivos de venta",
-   "efecto": "Presiona al NQ a la baja por liquidación en tecnológicas."
   }
  ],
  "eventos_avisados": [
@@ -7843,14 +7843,14 @@
     4181.3,
     4183.3,
     4167.2,
-    4169.4
+    4171.6
    ],
    [
-    1792035153,
-    4169.2,
-    4169.2,
-    4169.2,
-    4169.2
+    1792035449,
+    4171.5,
+    4171.5,
+    4171.5,
+    4171.5
    ]
   ],
   "nq": [
@@ -8473,16 +8473,16 @@
    [
     1792033200,
     29867.75,
-    29869.0,
+    29876.0,
     29825.5,
-    29851.25
+    29868.25
    ],
    [
-    1792035153,
-    29844.75,
-    29844.75,
-    29844.75,
-    29844.75
+    1792035449,
+    29865.25,
+    29865.25,
+    29865.25,
+    29865.25
    ]
   ],
   "vix": [
@@ -8985,7 +8985,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-15T03:12:34Z",
+ "noticias_traducidas_ts": "2026-10-15T03:47:31Z",
  "ult_4h": 1792035754.199858,
  "estrategia_4h": {
   "oro": {
@@ -9227,6 +9227,7 @@
   "8aadb00c9b",
   "f2bf50ae47",
   "a113fa30d9",
-  "9c5c455805"
+  "9c5c455805",
+  "b69e54f6b5"
  ]
 }
