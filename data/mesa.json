@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4178.6 · NQ 29817.0 · VIX 17.59 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-15T11:27:33Z"
+   "ultimo_resultado": "Oro 4178.8 · NQ 29813.0 · VIX 17.59 · 4 noticias nuevas",
+   "actualizado": "2026-10-15T11:32:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T11:27:32Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Walmart is a buy as inflation attracts more customers, says Deutsche Bank"
+   "actualizado": "2026-10-15T11:32:32Z",
+   "ultimo_resultado": "4 titulares nuevos: How lower fuel economy targets could boost pickups and V-8 engines"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4178.8 · NQ 29813.0 · VIX 17.59 · 4 noticias nuevas",
+   "ts": "2026-10-15T11:32:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4178.6 · NQ 29817.0 · VIX 17.59 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-10-14T21:33:02Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 4127.3 · NQ 30139.25.",
-   "ts": "2026-10-14T21:33:01Z"
   }
  ],
  "briefs": [
@@ -6493,12 +6493,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4178.6,
-  "nq": 29817.0,
+  "oro": 4178.8,
+  "nq": 29813.0,
   "vix": 17.59,
-  "ts": "2026-10-15T11:27:33Z"
+  "ts": "2026-10-15T11:32:33Z"
  },
  "noticias": [
+  {
+   "titulo": "How lower fuel economy targets could boost pickups and V-8 engines",
+   "link": "https://www.cnbc.com/2026/10/15/cafe-fuel-economy-v8-trucks.html",
+   "ts": "2026-10-15T11:30:01Z",
+   "fuente": "CNBC",
+   "id": "52feb7ac44",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "You can take it with you: Five tax tips before selling your business",
+   "link": "https://www.cnbc.com/2026/10/15/you-can-take-it-with-you-five-tax-tips-for-selling-your-business.html",
+   "ts": "2026-10-15T11:30:01Z",
+   "fuente": "CNBC",
+   "id": "efad2b2f67",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Walmart is a buy as inflation attracts more customers, says Deutsche Bank",
    "link": "https://www.cnbc.com/2026/10/15/walmart-deutsche-bank-upgrade.html",
@@ -6571,6 +6589,17 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Orioles news: No Gold Glove finalists for the team",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSXBwYjlfSkJZVnFWNXVTZUdfcFQyUlM4OG40WC1tRGJSejh3NXMwTjBRT3J4ZHlYY0tRLWN2TEhhcXRWbTZYRFpjdXpBMG1kR3lKVXpHekJwMUFMSzBUTS1oNTl6bjlVMWxVb0hPZ0xWbldrYUpfcWtiZXdybmZtRA?oc=5",
+   "ts": "2026-10-15T11:00:00Z",
+   "fuente": "Yahoo Sports",
+   "id": "fd93712290",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "BULGOLD Defines the 2.2km-Long BL Vein Corridor at the Lutila Gold Project",
    "link": "https://finance.yahoo.com/markets/commodities/articles/bulgold-defines-2-2km-long-110000863.html?.tsrc=rss",
    "ts": "2026-10-15T11:00:00Z",
@@ -6631,6 +6660,17 @@
    "id": "41aa6c3d89",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Nasdaq futures fall 1% as AI rout deepens on debt concerns",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZTRob0s4X3hCYkZQZzFfeUxuU1ZlN0tPT2hvelcwcW9QdU9yeVN1ZUZfR253ZUNoN3NjUlRHbG9aS0wzMmVGLUpNOVcyTUlHOWo3WERDX1psTXlmWGthb0JPN19GMGxnT2pkYkRWQ0R1THEyODhoWnZTd1NIQjdZbm5fLXNYb0M2c1g2YU02TENSSi1xSFZMQzRuUTc?oc=5",
+   "ts": "2026-10-15T10:34:11Z",
+   "fuente": "Reuters",
+   "id": "d29e9b0806",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Commerzbank Says Treasuries Rally on Equities Selloff Led by Tech Stocks, Brent Oil Lower, US Dollar Weakens",
@@ -7334,48 +7374,6 @@
    "impacto": "bajo",
    "es": "Noticias de los Braves: Guantes de Oro, estimaciones de arbitraje y más",
    "efecto": "Sin impacto en los mercados financieros institucionales."
-  },
-  {
-   "titulo": "Oil falls as investors assess Mideast tensions, International Energy Agency's report",
-   "link": "https://www.cnbc.com/2026/10/15/oil-prices-today-brent-wti.html",
-   "ts": "2026-10-15T04:09:18Z",
-   "fuente": "CNBC",
-   "id": "82c595578a",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "iMetal Resources Advances Phase 4 Drill Targeting at Gowganda West Gold Project as Shining Tree Camp Activity Accelerates",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/imetal-resources-advances-phase-4-040500838.html?.tsrc=rss",
-   "ts": "2026-10-15T04:05:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "ea21ce7b83",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Investors predict new record price for gold within two years",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVktnaGtfVlM4U2dzQTE2QlBhc0dyaWc5UzNpYUs1U3EyMm5XaXRZR21Ib2J6em5vY1h3OFhoenljSDBEV1ZqRlVoRjFvUktSNUZnSy1acUdSbzdqb09JV1dhdUJQZmdOWFpNUU8wQlhYUktVTUVHRXlwRnVHX1RqUFpodUQ?oc=5",
-   "ts": "2026-10-15T04:00:39Z",
-   "fuente": "Financial Times",
-   "id": "f235be17f1",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "London’s gold market enjoys the Trump effect",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbV9GWVVYWDQ5ZTkxc25ndVdFRENodXgxYVhzNmpyMnJ6dGFmcDFyYW5sOXVORkNJUVhReDhEZjBJZS1OeHh0bVZqU1QtOHRWV1ZJR0YtZ19WZTQtN0VnSjBIQ2JYVnd3QktkQ3gxazRTd1VyQjR4MVhZdTJoWDZMeWNnY1A?oc=5",
-   "ts": "2026-10-15T04:00:39Z",
-   "fuente": "Financial Times",
-   "id": "d7c1a7241b",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -7973,14 +7971,14 @@
     4176.5,
     4181.0,
     4176.4,
-    4178.2
+    4178.9
    ],
    [
-    1792063049,
-    4178.6,
-    4178.6,
-    4178.6,
-    4178.6
+    1792063348,
+    4178.8,
+    4178.8,
+    4178.8,
+    4178.8
    ]
   ],
   "nq": [
@@ -8561,16 +8559,16 @@
    [
     1792062000,
     29801.5,
-    29819.25,
+    29823.75,
     29748.5,
-    29814.25
+    29819.5
    ],
    [
-    1792063051,
-    29817.0,
-    29817.0,
-    29817.0,
-    29817.0
+    1792063348,
+    29812.0,
+    29812.0,
+    29812.0,
+    29812.0
    ]
   ],
   "vix": [
@@ -9002,7 +9000,7 @@
     17.59
    ],
    [
-    1792062736,
+    1792063051,
     17.59,
     17.59,
     17.59,
@@ -9345,6 +9343,10 @@
   "f418835ae3",
   "24e55e77c8",
   "0297ce6eb0",
-  "2b5719790a"
+  "2b5719790a",
+  "52feb7ac44",
+  "efad2b2f67",
+  "fd93712290",
+  "d29e9b0806"
  ]
 }
