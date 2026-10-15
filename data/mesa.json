@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4179.5 · NQ 29851.75 · VIX 17.48 · 1 noticias nuevas",
-   "actualizado": "2026-10-15T10:02:39Z"
+   "ultimo_resultado": "Oro 4181.4 · NQ 29856.0 · VIX 17.49 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-15T10:07:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T10:02:38Z",
-   "ultimo_resultado": "1 titulares nuevos: What to know about Starshield, SpaceX's military-focused Starlink service"
+   "actualizado": "2026-10-15T10:07:34Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Bullfrog Gold ofrece actualización de exploración"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4181.4 · NQ 29856.0 · VIX 17.49 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-15T10:07:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4179.5 · NQ 29851.75 · VIX 17.48 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4119.8 · NQ 30131.0 · VIX 16.87 · 1 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-14T20:57:40Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4121.0 · NQ 30142.0 · VIX 16.87",
-   "ts": "2026-10-14T20:52:31Z"
   }
  ],
  "briefs": [
@@ -6493,12 +6493,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4179.5,
-  "nq": 29851.75,
-  "vix": 17.48,
-  "ts": "2026-10-15T10:02:38Z"
+  "oro": 4181.4,
+  "nq": 29856.0,
+  "vix": 17.49,
+  "ts": "2026-10-15T10:07:35Z"
  },
  "noticias": [
+  {
+   "titulo": "BULLFROG GOLD PROVIDES EXPLORATION UPDATE",
+   "link": "https://finance.yahoo.com/news/bullfrog-gold-provides-exploration-100000973.html?.tsrc=rss",
+   "ts": "2026-10-15T10:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "acc97afac2",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Bullfrog Gold ofrece actualización de exploración",
+   "efecto": ""
+  },
   {
    "titulo": "What to know about Starshield, SpaceX's military-focused Starlink service",
    "link": "https://www.cnbc.com/2026/10/15/what-is-starshield-spacex-starlink-military.html",
@@ -7064,6 +7077,20 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Gold climbs over 1% on softer dollar, yields ahead of US inflation data",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUGo4bEV3TDlUV2I1Nkg3dzNpODBCZ0hBWXJtWHR2OWwxWGVGZlRVcDZINFJqdmQ5QXJRNk5aUVVtZDhZSUlzUEJNWmpUcm9oSmtrNldYLWZEWTl6NDNueFY4VlQyby1oYnBKcnFSaHBQR1BWZXZ1NVg5LXZReXc5UjlWTXFzd2pDSEpBVTljTjk?oc=5",
+   "ts": "2026-10-15T03:18:00Z",
+   "fuente": "Reuters",
+   "id": "3c5d25b397",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El oro sube más del 1% por debilidad del dólar y rendimientos previo a datos de inflación en EE. UU.",
+   "efecto": "Presiona al oro al alza por caída del dólar."
+  },
+  {
    "titulo": "Gold rebounds from one-week low as dollar slips",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUGo4bEV3TDlUV2I1Nkg3dzNpODBCZ0hBWXJtWHR2OWwxWGVGZlRVcDZINFJqdmQ5QXJRNk5aUVVtZDhZSUlzUEJNWmpUcm9oSmtrNldYLWZEWTl6NDNueFY4VlQyby1oYnBKcnFSaHBQR1BWZXZ1NVg5LXZReXc5UjlWTXFzd2pDSEpBVTljTjk?oc=5",
    "ts": "2026-10-15T03:18:00Z",
@@ -7351,26 +7378,6 @@
     "nq"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Invesco QQQ Doesn't Own a Single Bank, and That's Not the Only Thing the Nasdaq-100 Leaves Out",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOajZaMGQtVXhJN3pXUzNCUXo0TWx0MDBSM1lVelNrUTZUU01EUTBVc1lqVFV0Mmw2U2FTdnNIdVNOY2Y0T0xGY0pXOGRuMVJ1VnU5ZDZzOTZTcWw2WWFkakhHVFloU29WbE5hNldhaDFra0VQSTlLSkdrTm5PbzN6U2g4bjVBWDRpaDAtWjBlUXhSUDVIMzNxcXpB?oc=5",
-   "ts": "2026-10-14T23:43:01Z",
-   "fuente": "Yahoo Finance",
-   "id": "929cef5faf",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Ondo hits $4 billion TVL on tokenized stock growth",
-   "link": "https://www.thestreet.com/crypto/markets/ondo-hits-4-billion-tvl-on-tokenized-stock-growth?.tsrc=rss",
-   "ts": "2026-10-14T23:35:55Z",
-   "fuente": "Yahoo Finance",
-   "id": "9183e85014",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7954,14 +7961,14 @@
     4172.8,
     4182.0,
     4172.7,
-    4179.4
+    4181.0
    ],
    [
-    1792057947,
-    4179.5,
-    4179.5,
-    4179.5,
-    4179.5
+    1792058250,
+    4181.4,
+    4181.4,
+    4181.4,
+    4181.4
    ]
   ],
   "nq": [
@@ -8530,14 +8537,14 @@
     29860.0,
     29899.5,
     29828.25,
-    29851.0
+    29859.0
    ],
    [
-    1792057953,
-    29851.75,
-    29851.75,
-    29851.75,
-    29851.75
+    1792058251,
+    29856.0,
+    29856.0,
+    29856.0,
+    29856.0
    ]
   ],
   "vix": [
@@ -8955,15 +8962,15 @@
     17.48
    ],
    [
-    1792057651,
-    17.48,
-    17.48,
-    17.48,
-    17.48
+    1792057951,
+    17.49,
+    17.49,
+    17.49,
+    17.49
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-15T09:37:30Z",
+ "noticias_traducidas_ts": "2026-10-15T10:07:33Z",
  "ult_4h": 1792058251.702835,
  "estrategia_4h": {
   "oro": {
@@ -9265,6 +9272,8 @@
   "011681bff4",
   "c83d3469a9",
   "73882f54bc",
-  "04ee365c1f"
+  "04ee365c1f",
+  "acc97afac2",
+  "3c5d25b397"
  ]
 }
