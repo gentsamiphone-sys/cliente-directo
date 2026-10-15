@@ -3176,10 +3176,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ultimo_resultado": "0 negocios nuevos de talleres cerca de Eastern Ave",
-   "actualizado": "2026-10-15T23:06:27Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
+   "actualizado": "2026-10-15T23:06:33Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -3207,6 +3207,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
+   "ts": "2026-10-15T23:06:33Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -4701,11 +4706,6 @@
    "agente": "gerente",
    "texto": "Contando cómo vamos hoy…",
    "ts": "2026-10-13T16:37:35Z"
-  },
-  {
-   "agente": "seguimiento",
-   "texto": "Terminó su turno: 0 respuestas nuevas, 0 bajas, 0 seguimientos",
-   "ts": "2026-10-13T16:12:38Z"
   }
  ],
  "reportes": {
