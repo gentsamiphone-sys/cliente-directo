@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4173.7 · NQ 29872.5 · VIX 17.36 · 1 noticias nuevas",
-   "actualizado": "2026-10-15T11:52:36Z"
+   "ultimo_resultado": "Oro 4172.9 · NQ 29867.5 · VIX 17.33 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-15T11:57:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T11:52:35Z",
-   "ultimo_resultado": "1 titulares nuevos: Stocks making the biggest moves premarket: CoreWeave, Rocket Lab Corp, SK Hynix & more"
+   "actualizado": "2026-10-15T11:57:40Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: US Dollar Falls Early Thursday Ahead of Busy Economic Data Schedule, Warsh"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4172.9 · NQ 29867.5 · VIX 17.33 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-15T11:57:41Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4173.7 · NQ 29872.5 · VIX 17.36 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "ES/NQ: CONFIRMA: ES y NQ van en la misma dirección · ES bajista en 1H",
    "ts": "2026-10-14T21:33:09Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el S&P 500 (ES) con el NQ…",
-   "ts": "2026-10-14T21:33:07Z"
   }
  ],
  "briefs": [
@@ -6493,10 +6493,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4173.7,
-  "nq": 29872.5,
-  "vix": 17.36,
-  "ts": "2026-10-15T11:52:36Z"
+  "oro": 4172.9,
+  "nq": 29867.5,
+  "vix": 17.33,
+  "ts": "2026-10-15T11:57:40Z"
  },
  "noticias": [
   {
@@ -6520,6 +6520,17 @@
    "id": "692fd01f6b",
    "activos": [
     "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "US Dollar Falls Early Thursday Ahead of Busy Economic Data Schedule, Warsh",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-falls-early-thursday-114212302.html?.tsrc=rss",
+   "ts": "2026-10-15T11:42:12Z",
+   "fuente": "Yahoo Finance",
+   "id": "9ac0a38571",
+   "activos": [
+    "dolar"
    ],
    "impacto": "medio"
   },
@@ -6941,6 +6952,18 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Gold Prices Recover as Weaker Dollar and Falling Bond Yields Offset US Inflation Concerns",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSFVaWno3TG10cU9rNzktMkhhWnY4VmpVZE9PQzlmY0l0Z0xoTDN3UTJUVk9BRUM2R3JiRTM5VlVMMTcwT1kxRVZTZVNSYkVDYTc4UW5XdkF3RnB2OVFzQzZQYWd5Y0hud1M0dUp6U0tjWW1kX0dpRjFTZ2hyN2h6ODNmTkFDS1RFd1E?oc=5",
+   "ts": "2026-10-15T09:46:34Z",
+   "fuente": "Yahoo Finance UK",
+   "id": "239f6565c1",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Gold Prices Rebound as Dollar and Treasury Yields Ease Despite Higher US Inflation",
    "link": "https://investorshub.advfn.com/market-news/article/38077/gold-prices-rebound-as-dollar-and-treasury-yields-ease-despite-higher-us-inflation?.tsrc=rss",
    "ts": "2026-10-15T09:44:16Z",
@@ -7358,28 +7381,6 @@
    "id": "7c6ee28d91",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "From \"Dune\" to \"Wicker,\" how this ‘tiny’ European country became a hub for Hollywood",
-   "link": "https://www.cnbc.com/2026/10/15/hungary-film-industry-hollywood-movies.html",
-   "ts": "2026-10-15T05:00:02Z",
-   "fuente": "CNBC",
-   "id": "e9aaba1111",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "De 'Dune' a 'Wicker': cómo este 'pequeño' país europeo se convirtió en centro de Hollywood",
-   "efecto": "Sin impacto en los mercados financieros."
-  },
-  {
-   "titulo": "Dollar retreats from 18-month peaks as Fed Caution muffles inflation surprise",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-mixed-dollar-slips-045753373.html?.tsrc=rss",
-   "ts": "2026-10-15T04:57:53Z",
-   "fuente": "Yahoo Finance",
-   "id": "f44348950f",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -7976,15 +7977,15 @@
     1792062000,
     4176.4,
     4181.0,
-    4171.3,
-    4172.9
+    4171.0,
+    4173.0
    ],
    [
-    1792064546,
-    4173.7,
-    4173.7,
-    4173.7,
-    4173.7
+    1792064853,
+    4172.9,
+    4172.9,
+    4172.9,
+    4172.9
    ]
   ],
   "nq": [
@@ -8567,14 +8568,14 @@
     29801.0,
     29885.0,
     29748.5,
-    29863.75
+    29865.5
    ],
    [
-    1792064555,
-    29872.5,
-    29872.5,
-    29872.5,
-    29872.5
+    1792064856,
+    29867.5,
+    29867.5,
+    29867.5,
+    29867.5
    ]
   ],
   "vix": [
@@ -9002,40 +9003,40 @@
     1792062000,
     17.6,
     17.64,
-    17.33,
-    17.34
+    17.32,
+    17.32
    ],
    [
-    1792064251,
-    17.36,
-    17.36,
-    17.36,
-    17.36
+    1792064551,
+    17.33,
+    17.33,
+    17.33,
+    17.33
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-15T11:47:34Z",
- "ult_4h": 1792064552.0018666,
+ "ult_4h": 1792065460.6195645,
  "estrategia_4h": {
   "oro": {
-   "precio": 4179.9,
-   "atr_4h": 27.21,
+   "precio": 4172.9,
+   "atr_4h": 27.26,
    "setups": [
     {
      "direccion": "VENTA",
-     "nivel": 4173.7,
-     "entrada": 4173.7,
-     "stop": 4190.02,
+     "nivel": 4178.1,
+     "entrada": 4178.1,
+     "stop": 4194.46,
      "objetivo": 4095.0,
-     "rr": 4.82,
+     "rr": 5.08,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 2.2,
+     "fuerza_ruptura_atr": 2.19,
      "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29856.5,
+   "precio": 29867.5,
    "atr_4h": 202.39,
    "setups": [
     {
@@ -9062,7 +9063,7 @@
     }
    ]
   },
-  "ts": "2026-10-15T11:42:32Z"
+  "ts": "2026-10-15T11:57:40Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -9361,6 +9362,8 @@
   "ce686779f1",
   "56b8c92638",
   "2c96ab2eee",
-  "692fd01f6b"
+  "692fd01f6b",
+  "9ac0a38571",
+  "239f6565c1"
  ]
 }
