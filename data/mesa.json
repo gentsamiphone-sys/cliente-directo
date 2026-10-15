@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4170.6 · NQ 29947.75 · VIX 16.87",
-   "actualizado": "2026-10-15T01:12:32Z"
+   "ultimo_resultado": "Oro 4164.5 · NQ 29933.5 · VIX 16.87 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-15T01:17:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T01:12:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-15T01:17:31Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Deep Drilling Intersects Epithermal Mineralisation 1 km Below Proprietary Pit at Peak Hill"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4164.5 · NQ 29933.5 · VIX 16.87 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-15T01:17:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4170.6 · NQ 29947.75 · VIX 16.87",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
    "ts": "2026-10-14T12:32:57Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Historial: 11 operaciones, 27% de acierto, +7.08 R.",
-   "ts": "2026-10-14T12:32:55Z"
   }
  ],
  "briefs": [
@@ -6340,10 +6340,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4170.6,
-  "nq": 29947.75,
+  "oro": 4164.5,
+  "nq": 29933.5,
   "vix": 16.87,
-  "ts": "2026-10-15T01:12:31Z"
+  "ts": "2026-10-15T01:17:31Z"
  },
  "noticias": [
   {
@@ -6355,6 +6355,24 @@
    "activos": [
     "dolar"
    ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Deep Drilling Intersects Epithermal Mineralisation 1 km Below Proprietary Pit at Peak Hill",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/deep-drilling-intersects-epithermal-mineralisation-005800280.html?.tsrc=rss",
+   "ts": "2026-10-15T00:58:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "4848a1abdd",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Oil edges lower after hot U.S. CPI; IEA meeting in focus",
+   "link": "https://finance.yahoo.com/energy/articles/oil-edges-lower-hot-u-005552623.html?.tsrc=rss",
+   "ts": "2026-10-15T00:55:52Z",
+   "fuente": "Yahoo Finance",
+   "id": "e32df10b44",
+   "activos": [],
    "impacto": "alto"
   },
   {
@@ -7176,26 +7194,6 @@
    "id": "7ec26a2cec",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "US Dollar Strengthens Against The Loonie as Higher CPI Sparks Rate Hike Expectation",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-strengthens-against-loonie-174727408.html?.tsrc=rss",
-   "ts": "2026-10-14T17:47:27Z",
-   "fuente": "Yahoo Finance",
-   "id": "16effe8174",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "We bought SpaceX at $121. Here's why we're buying more at higher prices",
-   "link": "https://www.cnbc.com/2026/10/14/spacex-stock-starlink-ai-buying-more.html",
-   "ts": "2026-10-14T17:43:37Z",
-   "fuente": "CNBC",
-   "id": "1946c279cc",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7826,16 +7824,16 @@
    [
     1792026000,
     4160.8,
-    4171.4,
+    4172.8,
     4160.0,
-    4169.8
+    4164.0
    ],
    [
-    1792026149,
-    4170.6,
-    4170.6,
-    4170.6,
-    4170.6
+    1792026448,
+    4164.5,
+    4164.5,
+    4164.5,
+    4164.5
    ]
   ],
   "nq": [
@@ -8458,16 +8456,16 @@
    [
     1792026000,
     29932.5,
-    29956.25,
-    29927.0,
-    29950.25
+    29970.75,
+    29919.25,
+    29922.25
    ],
    [
-    1792026149,
-    29947.75,
-    29947.75,
-    29947.75,
-    29947.75
+    1792026450,
+    29933.5,
+    29933.5,
+    29933.5,
+    29933.5
    ]
   ],
   "vix": [
@@ -9192,6 +9190,8 @@
   "6fcab05747",
   "54b719197b",
   "839f1e028e",
-  "701f6440a3"
+  "701f6440a3",
+  "4848a1abdd",
+  "e32df10b44"
  ]
 }
