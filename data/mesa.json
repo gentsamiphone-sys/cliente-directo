@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4129.5 · NQ 29899.5 · VIX 16.87",
-   "actualizado": "2026-10-15T00:02:33Z"
+   "ultimo_resultado": "Oro 4130.1 · NQ 29893.5 · VIX 16.87 · 1 noticias nuevas",
+   "actualizado": "2026-10-15T00:07:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T00:02:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-15T00:07:35Z",
+   "ultimo_resultado": "1 titulares nuevos: Alkane Resources extends Peak Hill gold system to 1-kilometre depth"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4130.1 · NQ 29893.5 · VIX 16.87 · 1 noticias nuevas",
+   "ts": "2026-10-15T00:07:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4129.5 · NQ 29899.5 · VIX 16.87",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4164.0 · NQ 30741.25 · VIX 15.3 · 7 noticias nuevas (2 alto impacto)",
    "ts": "2026-10-14T11:37:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4164.0 · NQ 30753.25 · VIX 15.3 · 8 noticias nuevas (3 alto impacto)",
-   "ts": "2026-10-14T11:32:32Z"
   }
  ],
  "briefs": [
@@ -6340,10 +6340,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4129.5,
-  "nq": 29899.5,
+  "oro": 4130.1,
+  "nq": 29893.5,
   "vix": 16.87,
-  "ts": "2026-10-15T00:02:32Z"
+  "ts": "2026-10-15T00:07:36Z"
  },
  "noticias": [
   {
@@ -6361,6 +6361,17 @@
    "ts": "2026-10-14T23:35:00Z",
    "fuente": "Yahoo Finance",
    "id": "106d2a48aa",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Alkane Resources extends Peak Hill gold system to 1-kilometre depth",
+   "link": "https://www.proactiveinvestors.com/companies/news/1100125/alkane-resources-extends-peak-hill-gold-system-to-1-kilometre-depth-1100125.html?.tsrc=rss",
+   "ts": "2026-10-14T23:25:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "fcaaf9385b",
    "activos": [
     "oro"
    ],
@@ -7181,17 +7192,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Traders pile into 'bubble puts' on CoreWeave as neocloud stocks plunge",
-   "link": "https://www.cnbc.com/2026/10/14/coreweave-put-options-ai-trade.html",
-   "ts": "2026-10-14T17:10:59Z",
-   "fuente": "CNBC",
-   "id": "11de81806f",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -7822,16 +7822,16 @@
    [
     1792018800,
     4128.1,
-    4130.6,
+    4130.7,
     4120.9,
     4130.1
    ],
    [
-    1792021951,
-    4129.5,
-    4129.5,
-    4129.5,
-    4129.5
+    1792022153,
+    4130.1,
+    4130.1,
+    4130.1,
+    4130.1
    ]
   ],
   "nq": [
@@ -8448,15 +8448,15 @@
     1792018800,
     29993.0,
     30035.5,
-    29894.0,
-    29896.25
+    29879.5,
+    29890.0
    ],
    [
-    1792021951,
-    29899.5,
-    29899.5,
-    29899.5,
-    29899.5
+    1792022170,
+    29893.5,
+    29893.5,
+    29893.5,
+    29893.5
    ]
   ],
   "vix": [
@@ -9179,6 +9179,7 @@
   "a4422f7798",
   "9183e85014",
   "106d2a48aa",
-  "ceb559901e"
+  "ceb559901e",
+  "fcaaf9385b"
  ]
 }
