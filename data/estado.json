@@ -3045,9 +3045,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando restaurantes y comida sin página web cerca de Owens Ave…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-15T01:02:32Z"
+   "actualizado": "2026-10-15T01:06:37Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -3075,6 +3075,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-15T01:06:37Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando restaurantes y comida sin página web cerca de Owens Ave…",
@@ -4569,11 +4574,6 @@
    "agente": "seguimiento",
    "texto": "Terminó su turno: 0 respuestas nuevas, 0 bajas, 0 seguimientos",
    "ts": "2026-10-12T18:12:34Z"
-  },
-  {
-   "agente": "vendedor",
-   "texto": "Terminó su turno: 0 enviados, 0 en borrador, 117 textos listos para ti",
-   "ts": "2026-10-12T17:52:39Z"
   }
  ],
  "reportes": {
