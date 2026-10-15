@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4170.4 · NQ 29811.5 · VIX 17.44",
-   "actualizado": "2026-10-15T08:17:37Z"
+   "ultimo_resultado": "Oro 4172.2 · NQ 29798.5 · VIX 17.5 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-15T08:22:49Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T08:17:36Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-15T08:22:49Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Nvidia, AMD y Micron caen al profundizarse la venta de acciones de IA"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4172.2 · NQ 29798.5 · VIX 17.5 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-15T08:22:49Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4170.4 · NQ 29811.5 · VIX 17.44",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4119.1 · NQ 30118.5 · VIX 17.1 · 2 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-14T19:12:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4118.1 · NQ 30145.5 · VIX 17.06 · 2 noticias nuevas",
-   "ts": "2026-10-14T19:07:34Z"
   }
  ],
  "briefs": [
@@ -6493,12 +6493,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4170.4,
-  "nq": 29811.5,
-  "vix": 17.44,
-  "ts": "2026-10-15T08:17:36Z"
+  "oro": 4172.2,
+  "nq": 29798.5,
+  "vix": 17.5,
+  "ts": "2026-10-15T08:22:49Z"
  },
  "noticias": [
+  {
+   "titulo": "Nvidia, AMD, Micron fall as AI stock sell-off deepens",
+   "link": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+   "ts": "2026-10-15T08:18:14Z",
+   "fuente": "CNBC",
+   "id": "00761b4cbc",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Nvidia, AMD y Micron caen al profundizarse la venta de acciones de IA",
+   "efecto": "Presiona al NQ a la baja por liquidación en tecnológicas."
+  },
   {
    "titulo": "Nvidia, AMD, Micron fall as AI stocks continue $1 trillion selloff amid mounting concerns",
    "link": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
@@ -7366,15 +7379,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "OpenAI sued by 8 states over ChatGPT safety concerns",
-   "link": "https://www.cnbc.com/2026/10/14/openai-sued-by-8-states-over-chatgpt-safety-concerns-.html",
-   "ts": "2026-10-14T21:09:20Z",
-   "fuente": "CNBC",
-   "id": "eef94f290d",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7949,16 +7953,16 @@
    [
     1792051200,
     4167.1,
-    4170.9,
+    4173.5,
     4166.4,
-    4170.5
+    4172.6
    ],
    [
-    1792051653,
-    4170.7,
-    4170.7,
-    4170.7,
-    4170.7
+    1792051963,
+    4172.2,
+    4172.2,
+    4172.2,
+    4172.2
    ]
   ],
   "nq": [
@@ -8519,15 +8523,15 @@
     1792051200,
     29838.75,
     29846.0,
-    29793.25,
-    29798.0
+    29772.25,
+    29798.25
    ],
    [
-    1792051655,
-    29811.5,
-    29811.5,
-    29811.5,
-    29811.5
+    1792051967,
+    29800.25,
+    29800.25,
+    29800.25,
+    29800.25
    ]
   ],
   "vix": [
@@ -8933,20 +8937,20 @@
    [
     1792051200,
     17.4,
-    17.43,
+    17.5,
     17.39,
-    17.41
+    17.49
    ],
    [
-    1792051351,
-    17.44,
-    17.44,
-    17.44,
-    17.44
+    1792051666,
+    17.5,
+    17.5,
+    17.5,
+    17.5
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-15T07:52:38Z",
+ "noticias_traducidas_ts": "2026-10-15T08:22:44Z",
  "ult_4h": 1792051955.6616747,
  "estrategia_4h": {
   "oro": {
@@ -9229,6 +9233,7 @@
   "7fc9f6b5ee",
   "ed2c8530f4",
   "1801d07247",
-  "ba5d599322"
+  "ba5d599322",
+  "00761b4cbc"
  ]
 }
