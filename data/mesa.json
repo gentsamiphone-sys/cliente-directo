@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4174.6 · NQ 29843.0 · VIX 16.87",
-   "actualizado": "2026-10-15T03:22:31Z"
+   "ultimo_resultado": "Oro 4176.7 · NQ 29845.25 · VIX 16.87 · 2 noticias nuevas",
+   "actualizado": "2026-10-15T03:27:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T03:22:30Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-15T03:27:34Z",
+   "ultimo_resultado": "2 titulares nuevos: Elon Musk says Trump is 'ultimately' responsible for any curbs on Ukraine's Starshield systems"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4176.7 · NQ 29845.25 · VIX 16.87 · 2 noticias nuevas",
+   "ts": "2026-10-15T03:27:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4174.6 · NQ 29843.0 · VIX 16.87",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4107.5 · NQ 30571.5 · VIX 15.68 · 15 noticias nuevas (6 alto impacto)",
    "ts": "2026-10-14T13:12:41Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4118.7 · NQ 30589.25 · VIX 15.59 · 15 noticias nuevas (7 alto impacto)",
-   "ts": "2026-10-14T13:07:34Z"
   }
  ],
  "briefs": [
@@ -6340,12 +6340,33 @@
   }
  },
  "en_vivo": {
-  "oro": 4174.6,
-  "nq": 29843.0,
+  "oro": 4176.7,
+  "nq": 29845.25,
   "vix": 16.87,
-  "ts": "2026-10-15T03:22:30Z"
+  "ts": "2026-10-15T03:27:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Elon Musk says Trump is 'ultimately' responsible for any curbs on Ukraine's Starshield systems",
+   "link": "https://www.cnbc.com/2026/10/15/elon-musk-starlink-ukraine-trump-energy-ceasefire.html",
+   "ts": "2026-10-15T03:24:36Z",
+   "fuente": "CNBC",
+   "id": "a113fa30d9",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold rebounds from one-week low as dollar slips",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUGo4bEV3TDlUV2I1Nkg3dzNpODBCZ0hBWXJtWHR2OWwxWGVGZlRVcDZINFJqdmQ5QXJRNk5aUVVtZDhZSUlzUEJNWmpUcm9oSmtrNldYLWZEWTl6NDNueFY4VlQyby1oYnBKcnFSaHBQR1BWZXZ1NVg5LXZReXc5UjlWTXFzd2pDSEpBVTljTjk?oc=5",
+   "ts": "2026-10-15T03:18:00Z",
+   "fuente": "Reuters",
+   "id": "9c5c455805",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Gold rebounds after inflation-driven selloff as Fed rate-hike bets rise",
    "link": "https://finance.yahoo.com/markets/commodities/articles/gold-rebounds-inflation-driven-selloff-022438523.html?.tsrc=rss",
@@ -7190,28 +7211,6 @@
    "impacto": "alto",
    "es": "Acciones de infraestructura de IA caen por motivos de venta",
    "efecto": "Presiona al NQ a la baja por liquidación en tecnológicas."
-  },
-  {
-   "titulo": "Trump to appeal order blocking White House from banning MS NOW, CNN and Politico",
-   "link": "https://www.cnbc.com/2026/10/14/trump-appeals-white-house-ban-judge.html",
-   "ts": "2026-10-14T18:37:38Z",
-   "fuente": "CNBC",
-   "id": "faa68ba2e0",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "bajo",
-   "es": "Trump apelará orden que bloquea prohibición de MS NOW, CNN y Politico",
-   "efecto": "Ruido político sin impacto directo en flujos institucionales hoy."
-  },
-  {
-   "titulo": "Doug Ford warns Trump's tariff war with Canada is here to stay",
-   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE53VEZodGU0ZFN2WEtrWkhlanV3QnZTN3p0VDNTUHc5Vm1ka2R5SWRsaVdDekVZTVRIb1NGUlVVRnFhOUxPS2EybGx3TmpZOXQ3Qk4wMF9SeDRMOGtUREw4NzFwNldJVWVLaGJhZ1NfTjFkTkdDZENiVUFn?oc=5",
-   "ts": "2026-10-14T18:37:00Z",
-   "fuente": "Politico",
-   "id": "1d0a462f3f",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -7843,15 +7842,15 @@
     1792033200,
     4181.3,
     4183.3,
-    4174.3,
-    4174.7
+    4173.8,
+    4175.2
    ],
    [
-    1792033946,
-    4174.6,
-    4174.6,
-    4174.6,
-    4174.6
+    1792034254,
+    4176.4,
+    4176.4,
+    4176.4,
+    4176.4
    ]
   ],
   "nq": [
@@ -8476,14 +8475,14 @@
     29867.75,
     29869.0,
     29825.5,
-    29842.75
+    29848.0
    ],
    [
-    1792033946,
-    29843.5,
-    29843.5,
-    29843.5,
-    29843.5
+    1792034251,
+    29845.25,
+    29845.25,
+    29845.25,
+    29845.25
    ]
   ],
   "vix": [
@@ -8987,65 +8986,54 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-15T03:12:34Z",
- "ult_4h": 1792033957.237023,
+ "ult_4h": 1792034855.4510577,
  "estrategia_4h": {
   "oro": {
-   "precio": 4178.7,
-   "atr_4h": 28.5,
+   "precio": 4176.4,
+   "atr_4h": 28.44,
    "setups": [
-    {
-     "direccion": "VENTA",
-     "nivel": 4178.1,
-     "entrada": 4178.1,
-     "stop": 4195.2,
-     "objetivo": 4095.0,
-     "rr": 4.86,
-     "estado": "en retesteo",
-     "fuerza_ruptura_atr": 2.09,
-     "ruptura": "2026-10-14 04:00 UTC"
-    },
     {
      "direccion": "VENTA",
      "nivel": 4173.7,
      "entrada": 4173.7,
-     "stop": 4190.8,
+     "stop": 4190.77,
      "objetivo": 4095.0,
-     "rr": 4.6,
+     "rr": 4.61,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 2.09,
+     "fuerza_ruptura_atr": 2.1,
      "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29842.25,
-   "atr_4h": 199.39,
+   "precio": 29845.25,
+   "atr_4h": 199.93,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30489.64,
-     "objetivo": 29833.0,
-     "rr": 4.49,
+     "stop": 30489.96,
+     "objetivo": 29825.5,
+     "rr": 4.54,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.16,
+     "fuerza_ruptura_atr": 2.15,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30504.5,
      "entrada": 30504.5,
-     "stop": 30624.14,
-     "objetivo": 29833.0,
-     "rr": 5.61,
+     "stop": 30624.46,
+     "objetivo": 29825.5,
+     "rr": 5.66,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.16,
+     "fuerza_ruptura_atr": 2.15,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-15T03:12:37Z"
+  "ts": "2026-10-15T03:27:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -9237,6 +9225,8 @@
   "c802d44702",
   "1cf6df8810",
   "8aadb00c9b",
-  "f2bf50ae47"
+  "f2bf50ae47",
+  "a113fa30d9",
+  "9c5c455805"
  ]
 }
