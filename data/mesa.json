@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4172.3 · NQ 29981.25 · VIX 16.83 · 2 noticias nuevas",
-   "actualizado": "2026-10-15T16:02:32Z"
+   "ultimo_resultado": "Oro 4171.6 · NQ 29993.75 · VIX 16.82 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-15T16:07:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T16:02:32Z",
-   "ultimo_resultado": "2 titulares nuevos: Nasdaq reports network disruption, US equities data feeds impacted"
+   "actualizado": "2026-10-15T16:07:33Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Dow jumps 400 points, Nasdaq slides as investors rotate out of tech shares: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4171.6 · NQ 29993.75 · VIX 16.82 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-15T16:07:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4172.3 · NQ 29981.25 · VIX 16.83 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Estrategia 4H ORO: VENTA en el nivel 4178.1 · stop 4194.75 · objetivo 4095.0 · R:R 4.99 (en retesteo). Tú ejecutas.",
    "ts": "2026-10-15T02:57:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4164.0 · NQ 29868.0 · VIX 16.87",
-   "ts": "2026-10-15T02:52:35Z"
   }
  ],
  "briefs": [
@@ -6715,12 +6715,34 @@
   }
  },
  "en_vivo": {
-  "oro": 4172.3,
-  "nq": 29981.25,
-  "vix": 16.83,
-  "ts": "2026-10-15T16:02:32Z"
+  "oro": 4171.6,
+  "nq": 29993.75,
+  "vix": 16.82,
+  "ts": "2026-10-15T16:07:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Dow jumps 400 points, Nasdaq slides as investors rotate out of tech shares: Live updates",
+   "link": "https://www.cnbc.com/2026/10/14/stock-market-today-live-updates.html",
+   "ts": "2026-10-15T16:07:03Z",
+   "fuente": "CNBC",
+   "id": "8ca7bbe4d1",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "What's behind the sell-off in AI neocloud stocks like CoreWeave and Nebius",
+   "link": "https://www.cnbc.com/2026/10/15/whats-behind-the-sell-off-in-ai-neocloud-stocks-like-coreweave-and-nebius-.html",
+   "ts": "2026-10-15T16:01:19Z",
+   "fuente": "CNBC",
+   "id": "7279adada6",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Nasdaq reports network disruption, US equities data feeds impacted",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMnFLNkdraTdWRmNuLUlrbGF6Ni15M1VBODdjYjdyVl9NZ1p0NV9mbW5wd0U2VkFnX0RNYzlNcXhlaUlseFdjbENlWEc3UTBhV19lQmUtcE1uZ0NfNXhqeGxqODBnWVRQODBiR3dCNkJ0bHhFWUZkZnlidlVIZVVYaE9GQVc3dkJJNjkzUnJkX0FELWtERW1TMXBKYmZucmRwamczVGZuaVI2N3BZY3RF?oc=5",
@@ -6731,6 +6753,15 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Trump vows to remove tariffs on Irish whiskey",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SUGpNQUJ4M3pkSDVkblViVENSRk5PQVRnTzlWYmxVRFAwcGtoNF9sXzFwY19YUERRZU8yT011Q3pybW9iV2FIajNsLXU1TE9wZEljd1MtTTlYdGNIWE8teGxGWUQycWZyWjNYOXRyTWXSAXZBVV95cUxQV2pHU3Zza0EwanoxemdzUHBBVUNCVmZheHRKM0JPLWU5cGVsQXkyMWRlUm1haHF0X0JEbFlHb2xfZnQ5UGRxcEl2ZmozSWlvMGZPMDFKZmt0djBTSkpHZG1nUm9YN0hyNGtxV0x5SFgyZk5vTnNR?oc=5",
+   "ts": "2026-10-15T15:45:24Z",
+   "fuente": "FOX 5 Atlanta",
+   "id": "44107569d6",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Alumni Association members receive Alumni Awards at Green & Gold Banquet",
@@ -7550,38 +7581,6 @@
    "impacto": "bajo",
    "es": "Gold Hart Copper adquiere el activo de oro y cobre Mantocobre.",
    "efecto": "Operación corporativa menor, irrelevante para la cotización spot."
-  },
-  {
-   "titulo": "S&P 500 futures slide ahead of more economic data as tech shares fall for a second day: Live updates",
-   "link": "https://www.cnbc.com/2026/10/14/stock-market-today-live-updates.html",
-   "ts": "2026-10-15T11:36:48Z",
-   "fuente": "CNBC",
-   "id": "ce686779f1",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Futuros del S&P 500 caen ante nuevos datos y caída de tecnológicas.",
-   "efecto": "Presiona al NQ a la baja y fortalece al dólar como refugio."
-  },
-  {
-   "titulo": "How lower fuel economy targets could boost pickups and V-8 engines",
-   "link": "https://www.cnbc.com/2026/10/15/cafe-fuel-economy-v8-trucks.html",
-   "ts": "2026-10-15T11:30:01Z",
-   "fuente": "CNBC",
-   "id": "52feb7ac44",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "You can take it with you: Five tax tips before selling your business",
-   "link": "https://www.cnbc.com/2026/10/15/you-can-take-it-with-you-five-tax-tips-for-selling-your-business.html",
-   "ts": "2026-10-15T11:30:01Z",
-   "fuente": "CNBC",
-   "id": "efad2b2f67",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -8211,14 +8210,14 @@
     4179.1,
     4180.4,
     4169.1,
-    4171.9
+    4170.9
    ],
    [
-    1792079546,
-    4172.3,
-    4172.3,
-    4172.3,
-    4172.3
+    1792079850,
+    4171.5,
+    4171.5,
+    4171.5,
+    4171.5
    ]
   ],
   "nq": [
@@ -8829,14 +8828,14 @@
     29971.25,
     30061.75,
     29925.75,
-    29981.0
+    29999.25
    ],
    [
-    1792079551,
-    29981.25,
-    29981.25,
-    29981.25,
-    29981.25
+    1792079851,
+    29993.75,
+    29993.75,
+    29993.75,
+    29993.75
    ]
   ],
   "vix": [
@@ -9293,14 +9292,14 @@
     16.92,
     16.94,
     16.62,
-    16.85
+    16.79
    ],
    [
-    1792079236,
-    16.83,
-    16.83,
-    16.83,
-    16.83
+    1792079551,
+    16.82,
+    16.82,
+    16.82,
+    16.82
    ]
   ]
  },
@@ -9731,6 +9730,9 @@
   "c0f23eacf7",
   "85514bb9ca",
   "f3d5ca9c16",
-  "226426efb5"
+  "226426efb5",
+  "8ca7bbe4d1",
+  "7279adada6",
+  "44107569d6"
  ]
 }
