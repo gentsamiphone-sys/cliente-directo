@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4164.8 · NQ 29895.75 · VIX 16.87 · 1 noticias nuevas",
-   "actualizado": "2026-10-15T02:02:42Z"
+   "ultimo_resultado": "Oro 4162.1 · NQ 29888.0 · VIX 16.87 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-15T02:07:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T02:02:41Z",
-   "ultimo_resultado": "1 titulares nuevos: Jio Platforms, respaldada por Meta y Google, planea OPI histórica en India de hasta 3.200 millones de dólares"
+   "actualizado": "2026-10-15T02:07:41Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: E-mini Nasdaq-100 futures drop as hot CPI data pressures tech."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4162.1 · NQ 29888.0 · VIX 16.87 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-15T02:07:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4164.8 · NQ 29895.75 · VIX 16.87 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el S&P 500 (ES) con el NQ…",
    "ts": "2026-10-14T12:33:12Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Volatilidad normal (VIX 15.28).",
-   "ts": "2026-10-14T12:33:11Z"
   }
  ],
  "briefs": [
@@ -6340,10 +6340,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4164.8,
-  "nq": 29895.75,
+  "oro": 4162.1,
+  "nq": 29888.0,
   "vix": 16.87,
-  "ts": "2026-10-15T02:02:42Z"
+  "ts": "2026-10-15T02:07:41Z"
  },
  "noticias": [
   {
@@ -6365,6 +6365,17 @@
    "id": "2817c5b648",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "E-mini Nasdaq-100 futures drop as hot CPI data pressures tech.",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV1B5STRLVVJiTWFwZ0hVUUo4cWNUZGExWWlEQU1MaGFXZVVUUFpTNzhBSUZhVVFzXy1MbWgtQU9SNHlYTkQwLWZIMXlycC1SMmVaSi1wYmVmdDRxRERiS3NLbFdxTjA4UWVnN3ZyaGdhcXVtdXBrR0VNX0xhTllGUlh0SV8xemo0TGgzdE56TWR4a2hmQU45WGxoYjJTazJsUkNqQ200OEtOMlJ3NVdXaQ?oc=5",
+   "ts": "2026-10-15T01:14:22Z",
+   "fuente": "CME Group",
+   "id": "943facb285",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
@@ -7194,15 +7205,6 @@
    "id": "b833eec200",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Beige Book: GLP-1s Affecting Demand for Poultry, Alcohol",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdkFpOWZDd0JQZkpLV2dQS2tiZlFyMXlVQkdTTl9IVHByNEFaZFpEdjhZWFVIeUw3MXFDQWNhTG9TbF9hWHJ6dHF6RXhQejBtLUhqY3hRZGttRVdtUGhDMjNQZFRPMTFwNG9xZXBCV0J5U0xMaW43eWNNdUFqc08ySFNxQ0pvZ2V3aS1vVVlQbk1ORnBfZHpZa1BUMzctMExXbk9wSGU4LXhDUnVsTDNkQVVHbDI3b2xRbEJWam9Vak5Pb2ZlVVNkYXZIVllkdTQ?oc=5",
-   "ts": "2026-10-14T18:14:25Z",
-   "fuente": "Federal Reserve Bank of Atlanta",
-   "id": "6ba8b75434",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -7835,14 +7837,14 @@
     4160.8,
     4172.8,
     4157.2,
-    4164.6
+    4162.1
    ],
    [
-    1792029157,
-    4164.8,
-    4164.8,
-    4164.8,
-    4164.8
+    1792029459,
+    4162.1,
+    4162.1,
+    4162.1,
+    4162.1
    ]
   ],
   "nq": [
@@ -8467,14 +8469,14 @@
     29932.5,
     29974.0,
     29866.0,
-    29890.5
+    29889.75
    ],
    [
-    1792029161,
-    29895.75,
-    29895.75,
-    29895.75,
-    29895.75
+    1792029462,
+    29888.0,
+    29888.0,
+    29888.0,
+    29888.0
    ]
   ],
   "vix": [
@@ -9219,6 +9221,8 @@
   "561acda6b4",
   "5c6ffdfba5",
   "fcbfa34758",
-  "96350a7ef5"
+  "96350a7ef5",
+  "943facb285",
+  "e8d1d6a71c"
  ]
 }
