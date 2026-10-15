@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4171.6 · NQ 29993.75 · VIX 16.82 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-15T16:07:34Z"
+   "ultimo_resultado": "Oro 4170.0 · NQ 30025.75 · VIX 16.77 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-15T16:12:49Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T16:07:33Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Dow jumps 400 points, Nasdaq slides as investors rotate out of tech shares: Live updates"
+   "actualizado": "2026-10-15T16:12:49Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Caídas en Nvidia, AMD y Dell por temores de financiamiento en IA"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4170.0 · NQ 30025.75 · VIX 16.77 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-15T16:12:49Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4171.6 · NQ 29993.75 · VIX 16.82 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4168.7 · NQ 29865.25 · VIX 16.87",
    "ts": "2026-10-15T02:57:40Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Estrategia 4H ORO: VENTA en el nivel 4178.1 · stop 4194.75 · objetivo 4095.0 · R:R 4.99 (en retesteo). Tú ejecutas.",
-   "ts": "2026-10-15T02:57:34Z"
   }
  ],
  "briefs": [
@@ -6715,12 +6715,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4171.6,
-  "nq": 29993.75,
-  "vix": 16.82,
-  "ts": "2026-10-15T16:07:33Z"
+  "oro": 4170.0,
+  "nq": 30025.75,
+  "vix": 16.77,
+  "ts": "2026-10-15T16:12:49Z"
  },
  "noticias": [
+  {
+   "titulo": "Nvidia, AMD, Dell sell-off in global tech rout on AI funding worries",
+   "link": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+   "ts": "2026-10-15T16:12:05Z",
+   "fuente": "CNBC",
+   "id": "e67277c2e5",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Caídas en Nvidia, AMD y Dell por temores de financiamiento en IA",
+   "efecto": "Fuerte presión bajista en el NQ por liquidación tecnológica."
+  },
   {
    "titulo": "Dow jumps 400 points, Nasdaq slides as investors rotate out of tech shares: Live updates",
    "link": "https://www.cnbc.com/2026/10/14/stock-market-today-live-updates.html",
@@ -7568,19 +7581,6 @@
    "id": "521671f8b1",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Gold Hart Copper Acquires Mantocobre Gold-Copper IOCG Asset",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-hart-copper-acquires-mantocobre-113800825.html?.tsrc=rss",
-   "ts": "2026-10-15T11:38:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "e7cccfbfa2",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Gold Hart Copper adquiere el activo de oro y cobre Mantocobre.",
-   "efecto": "Operación corporativa menor, irrelevante para la cotización spot."
   }
  ],
  "eventos_avisados": [
@@ -8210,14 +8210,21 @@
     4179.1,
     4180.4,
     4169.1,
-    4170.9
+    4170.6
    ],
    [
-    1792079850,
+    1792080000,
+    4170.8,
     4171.5,
-    4171.5,
-    4171.5,
-    4171.5
+    4169.7,
+    4170.1
+   ],
+   [
+    1792080166,
+    4170.0,
+    4170.0,
+    4170.0,
+    4170.0
    ]
   ],
   "nq": [
@@ -8828,14 +8835,21 @@
     29971.25,
     30061.75,
     29925.75,
-    29999.25
+    30013.25
    ],
    [
-    1792079851,
-    29993.75,
-    29993.75,
-    29993.75,
-    29993.75
+    1792080000,
+    30013.25,
+    30037.25,
+    30007.0,
+    30017.0
+   ],
+   [
+    1792080169,
+    30024.25,
+    30024.25,
+    30024.25,
+    30024.25
    ]
   ],
   "vix": [
@@ -9292,66 +9306,66 @@
     16.92,
     16.94,
     16.62,
-    16.79
+    16.83
    ],
    [
-    1792079551,
-    16.82,
-    16.82,
-    16.82,
-    16.82
+    1792079866,
+    16.77,
+    16.77,
+    16.77,
+    16.77
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-15T15:37:34Z",
- "ult_4h": 1792079859.2637835,
+ "noticias_traducidas_ts": "2026-10-15T16:12:44Z",
+ "ult_4h": 1792080769.28976,
  "estrategia_4h": {
   "oro": {
-   "precio": 4169.9,
-   "atr_4h": 28.77,
+   "precio": 4170.1,
+   "atr_4h": 27.82,
    "setups": [
     {
      "direccion": "VENTA",
-     "nivel": 4178.1,
-     "entrada": 4178.1,
-     "stop": 4195.36,
+     "nivel": 4173.7,
+     "entrada": 4173.7,
+     "stop": 4190.39,
      "objetivo": 4095.0,
-     "rr": 4.81,
+     "rr": 4.71,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 2.07,
+     "fuerza_ruptura_atr": 2.15,
      "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29964.5,
-   "atr_4h": 225.71,
+   "precio": 30024.25,
+   "atr_4h": 219.38,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30505.43,
+     "stop": 30501.62,
      "objetivo": 29622.5,
-     "rr": 5.52,
+     "rr": 5.68,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.91,
+     "fuerza_ruptura_atr": 1.96,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30356.75,
-     "entrada": 30356.75,
-     "stop": 30492.18,
+     "nivel": 30504.5,
+     "entrada": 30504.5,
+     "stop": 30636.12,
      "objetivo": 29622.5,
-     "rr": 5.42,
+     "rr": 6.7,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.91,
+     "fuerza_ruptura_atr": 1.96,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-15T15:57:39Z"
+  "ts": "2026-10-15T16:12:49Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -9733,6 +9747,7 @@
   "226426efb5",
   "8ca7bbe4d1",
   "7279adada6",
-  "44107569d6"
+  "44107569d6",
+  "e67277c2e5"
  ]
 }
