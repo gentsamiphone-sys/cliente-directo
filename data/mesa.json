@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4179.9 · NQ 29852.25 · VIX 17.41 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-15T09:37:32Z"
+   "ultimo_resultado": "Oro 4181.3 · NQ 29847.25 · VIX 17.42 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-15T09:42:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-15T09:37:32Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Déficit de 2 billones y tasas al 5% son el mayor desafío económico de EE. UU."
+   "actualizado": "2026-10-15T09:42:35Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Sterling today: Pound rises as UK growth beats forecasts, dollar retreats"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4181.3 · NQ 29847.25 · VIX 17.42 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-15T09:42:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4179.9 · NQ 29852.25 · VIX 17.41 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4122.6 · NQ 30153.0 · VIX 16.87 · 3 noticias nuevas",
    "ts": "2026-10-14T20:32:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4121.0 · NQ 30140.5 · VIX 16.83 · 3 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-14T20:27:32Z"
   }
  ],
  "briefs": [
@@ -6493,12 +6493,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4179.9,
-  "nq": 29852.25,
-  "vix": 17.41,
-  "ts": "2026-10-15T09:37:32Z"
+  "oro": 4181.3,
+  "nq": 29847.25,
+  "vix": 17.42,
+  "ts": "2026-10-15T09:42:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Sterling today: Pound rises as UK growth beats forecasts, dollar retreats",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/sterling-today-pound-rises-uk-093031847.html?.tsrc=rss",
+   "ts": "2026-10-15T09:30:31Z",
+   "fuente": "Yahoo Finance",
+   "id": "c6993cbe87",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
    "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
@@ -7047,6 +7058,18 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Gold rebounds as yields dip, dollar softens despite hot U.S. inflation data",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-rebounds-inflation-driven-selloff-022438523.html?.tsrc=rss",
+   "ts": "2026-10-15T02:24:38Z",
+   "fuente": "Yahoo Finance",
+   "id": "3a8f60076a",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Gold rebounds 1% as hotter U.S. inflation stokes Fed rate-hike fears",
    "link": "https://finance.yahoo.com/markets/commodities/articles/gold-rebounds-inflation-driven-selloff-022438523.html?.tsrc=rss",
    "ts": "2026-10-15T02:24:38Z",
@@ -7352,30 +7375,6 @@
    "id": "fcaaf9385b",
    "activos": [
     "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "West Coast Community Bancorp Rings Nasdaq Closing Bell",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNnNDby1BckQ0bE0ta29NaXFld3czRjdvQWliYjhDZmpqUU9LU2JxN1JOOU1LVzFhVjZSWE40NjVPUndfU0lPU01wVGdHb21MMVpFeE5ZRUkxOU8zTWFtaTFRODNZZURPd3paSDdMSWo3SFVlMlFhc3JEa25nakktYzg0MlVCLU05M3VTMVlQSmNRLWs1bVZOc19JdV9rRV92?oc=5",
-   "ts": "2026-10-14T23:16:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "dbb909d80f",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "West Coast Community Bancorp toca la campana de cierre del Nasdaq",
-   "efecto": "Evento corporativo sin impacto en la tendencia del índice."
-  },
-  {
-   "titulo": "Jim Cramer explains why even strong bank earnings couldn't save their stocks",
-   "link": "https://www.cnbc.com/2026/10/14/cramer-big-bank-earnings-stock-reaction.html",
-   "ts": "2026-10-14T22:48:06Z",
-   "fuente": "CNBC",
-   "id": "e36680fc09",
-   "activos": [
-    "nq"
    ],
    "impacto": "medio"
   }
@@ -7959,16 +7958,16 @@
    [
     1792054800,
     4172.8,
-    4180.7,
+    4181.9,
     4172.7,
-    4179.4
+    4181.9
    ],
    [
-    1792056449,
-    4179.9,
-    4179.9,
-    4179.9,
-    4179.9
+    1792056755,
+    4181.3,
+    4181.3,
+    4181.3,
+    4181.3
    ]
   ],
   "nq": [
@@ -8536,15 +8535,15 @@
     1792054800,
     29860.0,
     29899.5,
-    29842.5,
-    29856.0
+    29828.25,
+    29846.5
    ],
    [
-    1792056449,
-    29852.25,
-    29852.25,
-    29852.25,
-    29852.25
+    1792056754,
+    29847.25,
+    29847.25,
+    29847.25,
+    29847.25
    ]
   ],
   "vix": [
@@ -8959,39 +8958,39 @@
     17.43,
     17.44,
     17.32,
-    17.38
+    17.42
    ],
    [
-    1792056151,
-    17.4,
-    17.4,
-    17.4,
-    17.4
+    1792056451,
+    17.42,
+    17.42,
+    17.42,
+    17.42
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-15T09:37:30Z",
- "ult_4h": 1792056454.8091066,
+ "ult_4h": 1792057355.8852944,
  "estrategia_4h": {
   "oro": {
-   "precio": 4178.2,
-   "atr_4h": 27.16,
+   "precio": 4181.3,
+   "atr_4h": 27.26,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4178.1,
      "entrada": 4178.1,
-     "stop": 4194.39,
+     "stop": 4194.45,
      "objetivo": 4095.0,
-     "rr": 5.1,
+     "rr": 5.08,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 2.2,
+     "fuerza_ruptura_atr": 2.19,
      "ruptura": "2026-10-14 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29872.25,
+   "precio": 29847.25,
    "atr_4h": 201.96,
    "setups": [
     {
@@ -9018,7 +9017,7 @@
     }
    ]
   },
-  "ts": "2026-10-15T09:27:34Z"
+  "ts": "2026-10-15T09:42:36Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -9266,6 +9265,8 @@
   "51a0d33a4d",
   "f1d0791f2a",
   "808c9c81f9",
-  "f44dd91663"
+  "f44dd91663",
+  "c6993cbe87",
+  "3a8f60076a"
  ]
 }
