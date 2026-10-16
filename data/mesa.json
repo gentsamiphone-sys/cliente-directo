@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4183.9 · NQ 29662.75 · VIX 17.23",
-   "actualizado": "2026-10-16T16:42:35Z"
+   "ultimo_resultado": "Oro 4182.1 · NQ 29639.25 · VIX 17.34 · 8 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-16T16:47:44Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T16:42:34Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-16T16:47:43Z",
+   "ultimo_resultado": "8 titulares nuevos, 1 de alto impacto: EE.UU. presiona a China sobre acceso al mercado para Mastercard y Citigroup en Bangkok"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4182.1 · NQ 29639.25 · VIX 17.34 · 8 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-16T16:47:44Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4183.9 · NQ 29662.75 · VIX 17.23",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4193.2 · NQ 30118.0 · VIX 16.46 · 2 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-16T03:32:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4194.1 · NQ 30112.5 · VIX 16.46",
-   "ts": "2026-10-16T03:27:33Z"
   }
  ],
  "briefs": [
@@ -7325,12 +7325,64 @@
   }
  },
  "en_vivo": {
-  "oro": 4183.9,
-  "nq": 29662.75,
-  "vix": 17.23,
-  "ts": "2026-10-16T16:42:35Z"
+  "oro": 4182.1,
+  "nq": 29639.25,
+  "vix": 17.34,
+  "ts": "2026-10-16T16:47:43Z"
  },
  "noticias": [
+  {
+   "titulo": "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
+   "link": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
+   "ts": "2026-10-16T16:46:18Z",
+   "fuente": "CNBC",
+   "id": "c8c404a2db",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "EE.UU. presiona a China sobre acceso al mercado para Mastercard y Citigroup en Bangkok",
+   "efecto": "Genera optimismo comercial moderado, apoyando al dólar frente a divisas asiáticas."
+  },
+  {
+   "titulo": "Heineken USA Lobbies On Tariffs at $140K",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE85Q2tHbFhhTFd2ellKVUZEdmpjeEZ1cklPX3hlWXpBNUZoN19FRHNnc2JyZ0x3eGVudUFld1pQazVIdzZkc2Q4UWpGZVFERV9WMzZjeVVXVE5SNG5wUElKdmJNTEUxWDdnWHduUGlpUWlUYVUzcUxWX215aw?oc=5",
+   "ts": "2026-10-16T16:44:16Z",
+   "fuente": "Legis1",
+   "id": "5160329708",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "bajo",
+   "es": "Heineken USA hace lobby sobre aranceles por 140.000 dólares",
+   "efecto": "Ruido corporativo menor sin impacto macroeconómico relevante."
+  },
+  {
+   "titulo": "CIBC warns of inflation risks as ‘leaky loonie’ faces further slide",
+   "link": "https://finance.yahoo.com/economy/policy/articles/cibc-warns-inflation-risks-leaky-162609154.html?.tsrc=rss",
+   "ts": "2026-10-16T16:26:09Z",
+   "fuente": "Yahoo Finance",
+   "id": "4bb80dc70c",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "bajo",
+   "es": "CIBC advierte riesgos de inflación ante la debilidad del dólar canadiense",
+   "efecto": "Relevante solo para el mercado cambiario de Canadá."
+  },
+  {
+   "titulo": "Canadian dollar heads for weekly gain as U.S. dollar retreats",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-heads-weekly-gain-162414050.html?.tsrc=rss",
+   "ts": "2026-10-16T16:24:14Z",
+   "fuente": "Yahoo Finance",
+   "id": "9aa3a302c2",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "bajo",
+   "es": "Dólar canadiense se encamina a ganancia semanal mientras el dólar estadounidense retrocede",
+   "efecto": "Refleja debilidad general del billete verde, sin mover el NQ u oro."
+  },
   {
    "titulo": "Why Trump and the GOP's billion-dollar midterm blitz isn’t working",
    "link": "https://www.cnbc.com/2026/10/16/republicans-midterms-spending-trump-musk-2026.html",
@@ -7352,6 +7404,17 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "These Australian Growth Stocks Stand Out In October 2026",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/australian-growth-stocks-stand-october-161450204.html?.tsrc=rss",
+   "ts": "2026-10-16T16:14:50Z",
+   "fuente": "Yahoo Finance",
+   "id": "6b8cbe77ec",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Acciones de crecimiento australianas destacan en octubre de 2026",
+   "efecto": "Información regional sin impacto en activos globales principales."
   },
   {
    "titulo": "Older Americans feel less of the affordability crunch. How that could affect the midterm elections",
@@ -7381,6 +7444,17 @@
    "id": "e65e4ec7c9",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Judge rejects CFTC, Gemini bid to vacate $5 million settlement",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPamRGbnhqOWFNVXc1dk9nVTI5ZExzTHcwbHZTdTQxVDNfdXNvQVhseGpMNDlneFB4TXJwU0FWa291YlB2OU1uRS1ITWJ3T3VIOVBtSkVaYzRwSTlUWVRUOWhwWG85UHI0RnBQOV9lLXE1NW5XZ0dtdXBsVk1oU0lJaHZMNFJYRUhtYmNMdHU4NXEyTmpneFdHeWZoQXJqXzBvN1hMUg?oc=5",
+   "ts": "2026-10-16T16:10:37Z",
+   "fuente": "Reuters",
+   "id": "f2899ae780",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Juez rechaza intento de CFTC y Gemini de anular acuerdo por 5 millones",
+   "efecto": "Noticia regulatoria menor enfocada en criptomonedas."
   },
   {
    "titulo": "What we want to see when Capital One and Meta report earnings next week",
@@ -7901,6 +7975,19 @@
    "impacto": "medio"
   },
   {
+   "titulo": "City Therapeutics Rings the Opening Bell",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9nRVlqUUZPU1M5UC1FVXVuOEZHQU1YaFhLNHhoa2VkQXNZVXJZNGF0VnNqdUR4RF91QUx3QVNYTW1RTHdIWVJiZjZFaG1IMEtGUm0yT2psVWVSWGdkZWdjM2t6TDRsTTZZUUxmbnRoOG9OM1hS?oc=5",
+   "ts": "2026-10-16T12:35:39Z",
+   "fuente": "Nasdaq",
+   "id": "0116d1ca15",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "City Therapeutics toca la campana de apertura",
+   "efecto": "Evento institucional rutinario sin impacto en la tendencia del índice."
+  },
+  {
    "titulo": "Exchange rates react immediately to the threat of tariffs",
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbHZQdlJrc29nQWRGUU9paWs4TzlQN3R4ZWlpb3pfbV9JWEMwSkYwRGFRbVBSTTY5YzI2eThFZ0hZZ0h3b1ljamQxZ3pWYkJvbVBHSVl4cVVvakFidDY5Rmd2SjAtT2JRaXdpRWtfb2hHVzR4QWkxVmpCZ0duRzlvckNn?oc=5",
    "ts": "2026-10-16T12:31:47Z",
@@ -8120,79 +8207,6 @@
    "activos": [
     "dolar"
    ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Stock market today: Nasdaq and S&P 500 slip as Dow rises, capping volatile week",
-   "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112939401.html?.tsrc=rss",
-   "ts": "2026-10-16T11:29:39Z",
-   "fuente": "Yahoo Finance",
-   "id": "f9e19f0306",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Stock market today: Dow rise, Nasdaq falls to cap volatile week",
-   "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112939401.html?.tsrc=rss",
-   "ts": "2026-10-16T11:29:39Z",
-   "fuente": "Yahoo Finance",
-   "id": "41f8cd9194",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Stock market today: Dow, S&P 500, Nasdaq mixed to cap volatile week",
-   "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112939401.html?.tsrc=rss",
-   "ts": "2026-10-16T11:29:39Z",
-   "fuente": "Yahoo Finance",
-   "id": "5d4c840f25",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Stock market today: Dow, S&P 500, Nasdaq mixed amid volatile week",
-   "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112939401.html?.tsrc=rss",
-   "ts": "2026-10-16T11:29:39Z",
-   "fuente": "Yahoo Finance",
-   "id": "4891ed443f",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Stock market today: Dow, S&P 500, Nasdaq futures mixed amid volatile week",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWjdQUFR1bVFaMnh2OGkwc1BVMTJXaEswWmtlWmV3UDR4YzFXQmdndkg4Y0xuS1NWazZIemdKeUYzRU8xQ3VuMllLdk5Sa3ZxQ3JsWk91bXZlcXFNSHNsSGZWc3dVR200WmdUQmpKSk83dkNZTnkydkNOT1JiS1ctT0NZa2ljQ0RMM0FfZHcySlktb2xVRHBVQ2tjeFdvd3Vpbkg2V1JwX2kybzdkZWo2S3pzeG93VkJrZ1NSNmdtVE4?oc=5",
-   "ts": "2026-10-16T11:29:39Z",
-   "fuente": "Yahoo Finance",
-   "id": "6bfee173c9",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "2026 Chinese jewellery retailer insights: Confidence check",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaERTQXNCNTFLNUctQVVQNWRTTzhDOWo3Qkw5aUp3YVdYMjdjaDJ3T0szNWlrRVBLQS11bXgwNHpDQnU0UFAzOXJaeHA0S2ZNS3U4UWtwc1ltYk00ZEduVmsxd0RYSmJnWVpUbnlEZDZtcFA3bWpFbDR4UHNmVmpkOU83OEI2MzE2WHhUa1l0OUJYaHNTYWRvU3VMNA?oc=5",
-   "ts": "2026-10-16T11:27:25Z",
-   "fuente": "World Gold Council",
-   "id": "ff766bcf19",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "U.S. steel prices are surging to a four-year high as tariffs squeeze imports",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9TVU1GQV9ucXpQeE1yU3VkaWpiZ0hiRlM0M2FtakpaVEkwOHMtekszR1JlQTJSdnlPUW4xRzBCVnhWRkU4SHEzNkFBMm1lVVFUekdwTTJDZk1YWjhUSm1sLVBxWEF2V19vRjRGUkRreUFfTkNqYUNF?oc=5",
-   "ts": "2026-10-16T11:26:36Z",
-   "fuente": "Quartz",
-   "id": "4afdc34126",
-   "activos": [],
    "impacto": "alto"
   }
  ],
@@ -8830,15 +8844,15 @@
     1792166400,
     4188.5,
     4190.9,
-    4180.7,
-    4184.5
+    4178.9,
+    4181.2
    ],
    [
-    1792168352,
-    4183.9,
-    4183.9,
-    4183.9,
-    4183.9
+    1792168654,
+    4182.1,
+    4182.1,
+    4182.1,
+    4182.1
    ]
   ],
   "nq": [
@@ -9463,14 +9477,14 @@
     29658.75,
     29708.25,
     29609.0,
-    29665.25
+    29643.5
    ],
    [
-    1792168353,
-    29662.75,
-    29662.75,
-    29662.75,
-    29662.75
+    1792168663,
+    29638.75,
+    29638.75,
+    29638.75,
+    29638.75
    ]
   ],
   "vix": [
@@ -9932,33 +9946,33 @@
    [
     1792166400,
     17.03,
-    17.34,
+    17.35,
     16.96,
-    17.21
+    17.34
    ],
    [
-    1792168051,
-    17.23,
-    17.23,
-    17.23,
-    17.23
+    1792168351,
+    17.34,
+    17.34,
+    17.34,
+    17.34
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-16T16:12:34Z",
- "ult_4h": 1792168358.2518592,
+ "noticias_traducidas_ts": "2026-10-16T16:47:34Z",
+ "ult_4h": 1792169263.835509,
  "estrategia_4h": {
   "oro": {
-   "precio": 4185.6,
-   "atr_4h": 31.68,
+   "precio": 4182.1,
+   "atr_4h": 31.86,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4164.29,
+     "stop": 4164.18,
      "objetivo": 4222.8,
-     "rr": 2.08,
+     "rr": 2.07,
      "estado": "en retesteo",
      "fuerza_ruptura_atr": 0.88,
      "ruptura": "2026-10-15 16:00 UTC"
@@ -9966,7 +9980,7 @@
    ]
   },
   "nq": {
-   "precio": 29685.25,
+   "precio": 29638.75,
    "atr_4h": 263.57,
    "setups": [
     {
@@ -9977,7 +9991,7 @@
      "objetivo": 29609.0,
      "rr": 4.81,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.63,
+     "fuerza_ruptura_atr": 1.64,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
@@ -9988,12 +10002,12 @@
      "objetivo": 29609.0,
      "rr": 5.66,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.63,
+     "fuerza_ruptura_atr": 1.64,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-16T16:32:38Z"
+  "ts": "2026-10-16T16:47:44Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10651,6 +10665,14 @@
   "7c68d03f21",
   "e65e4ec7c9",
   "138b01f93b",
-  "f9c28e028c"
+  "f9c28e028c",
+  "c8c404a2db",
+  "5160329708",
+  "4bb80dc70c",
+  "9aa3a302c2",
+  "6b8cbe77ec",
+  "f2899ae780",
+  "0116d1ca15",
+  "61a803e42d"
  ]
 }
