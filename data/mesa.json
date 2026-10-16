@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4180.2 · NQ 29396.25 · VIX 20.93 · 2 noticias nuevas",
-   "actualizado": "2026-10-16T18:52:33Z"
+   "ultimo_resultado": "Oro 4179.1 · NQ 29371.25 · VIX 20.53 · 1 noticias nuevas",
+   "actualizado": "2026-10-16T18:57:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T18:52:32Z",
-   "ultimo_resultado": "2 titulares nuevos: We're downgrading this retail stock after a big comeback. Plus, AI names slide again"
+   "actualizado": "2026-10-16T18:57:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Apple’s $1,999 iPhone Duo puts the company's status-symbol power to the test"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4179.1 · NQ 29371.25 · VIX 20.53 · 1 noticias nuevas",
+   "ts": "2026-10-16T18:57:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4180.2 · NQ 29396.25 · VIX 20.93 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4193.8 · NQ 30186.5 · VIX 16.46 · 1 noticias nuevas",
    "ts": "2026-10-16T05:42:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4194.5 · NQ 30173.0 · VIX 16.46",
-   "ts": "2026-10-16T05:37:32Z"
   }
  ],
  "briefs": [
@@ -7325,12 +7325,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4180.2,
-  "nq": 29396.25,
-  "vix": 20.93,
-  "ts": "2026-10-16T18:52:32Z"
+  "oro": 4179.1,
+  "nq": 29371.25,
+  "vix": 20.53,
+  "ts": "2026-10-16T18:57:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Apple’s $1,999 iPhone Duo puts the company's status-symbol power to the test",
+   "link": "https://www.cnbc.com/2026/10/16/apple-iphone-duo-demand-price.html",
+   "ts": "2026-10-16T18:55:17Z",
+   "fuente": "CNBC",
+   "id": "dd5a96fc01",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "We're downgrading this retail stock after a big comeback. Plus, AI names slide again",
    "link": "https://www.cnbc.com/investingclub/2026/10/16/were-downgrading-this-retail-stock-after-a-big-comeback-plus-ai-names-slide-again.html",
@@ -8198,17 +8209,6 @@
    "id": "f56db90a86",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "S&P 500 ticks higher, but index heads for losing week: Live updates",
-   "link": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html",
-   "ts": "2026-10-16T13:32:19Z",
-   "fuente": "CNBC",
-   "id": "43d17e76f4",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -8846,14 +8846,14 @@
     4183.8,
     4188.6,
     4176.3,
-    4180.1
+    4178.9
    ],
    [
-    1792176147,
-    4180.2,
-    4180.2,
-    4180.2,
-    4180.2
+    1792176446,
+    4179.1,
+    4179.1,
+    4179.1,
+    4179.1
    ]
   ],
   "nq": [
@@ -9477,15 +9477,15 @@
     1792173600,
     29448.25,
     29461.75,
-    29372.25,
-    29399.0
+    29363.0,
+    29376.5
    ],
    [
-    1792176151,
-    29396.25,
-    29396.25,
-    29396.25,
-    29396.25
+    1792176451,
+    29371.25,
+    29371.25,
+    29371.25,
+    29371.25
    ]
   ],
   "vix": [
@@ -9962,15 +9962,15 @@
     1792173600,
     20.87,
     21.93,
-    20.74,
-    21.01
+    20.46,
+    20.53
    ],
    [
-    1792175851,
-    20.93,
-    20.93,
-    20.93,
-    20.93
+    1792176151,
+    20.53,
+    20.53,
+    20.53,
+    20.53
    ]
   ]
  },
@@ -10724,6 +10724,7 @@
   "befee1be75",
   "533ad105e6",
   "d79c64c6da",
-  "b8348e2950"
+  "b8348e2950",
+  "dd5a96fc01"
  ]
 }
