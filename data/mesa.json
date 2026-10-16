@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4182.1 · NQ 29639.25 · VIX 17.34 · 8 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-16T16:47:44Z"
+   "ultimo_resultado": "Oro 4183.4 · NQ 29632.75 · VIX 17.6 · 5 noticias nuevas",
+   "actualizado": "2026-10-16T16:52:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T16:47:43Z",
-   "ultimo_resultado": "8 titulares nuevos, 1 de alto impacto: EE.UU. presiona a China sobre acceso al mercado para Mastercard y Citigroup en Bangkok"
+   "actualizado": "2026-10-16T16:52:33Z",
+   "ultimo_resultado": "5 titulares nuevos: The drumbeat to buy battered shares of CoreWeave is growing louder on Wall Street"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4183.4 · NQ 29632.75 · VIX 17.6 · 5 noticias nuevas",
+   "ts": "2026-10-16T16:52:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4182.1 · NQ 29639.25 · VIX 17.34 · 8 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4190.5 · NQ 30102.0 · VIX 16.46 · 2 noticias nuevas",
    "ts": "2026-10-16T03:37:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4193.2 · NQ 30118.0 · VIX 16.46 · 2 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-16T03:32:33Z"
   }
  ],
  "briefs": [
@@ -7325,10 +7325,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4182.1,
-  "nq": 29639.25,
-  "vix": 17.34,
-  "ts": "2026-10-16T16:47:43Z"
+  "oro": 4183.4,
+  "nq": 29632.75,
+  "vix": 17.6,
+  "ts": "2026-10-16T16:52:34Z"
  },
  "noticias": [
   {
@@ -7358,6 +7358,37 @@
    "efecto": "Ruido corporativo menor sin impacto macroeconómico relevante."
   },
   {
+   "titulo": "The drumbeat to buy battered shares of CoreWeave is growing louder on Wall Street",
+   "link": "https://www.cnbc.com/2026/10/16/coreweave-stock-selloff-analysts.html",
+   "ts": "2026-10-16T16:42:32Z",
+   "fuente": "CNBC",
+   "id": "2d23208833",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Anything not tied to artificial intelligence took off this week",
+   "link": "https://www.cnbc.com/2026/10/16/anything-not-tied-to-artificial-intelligence-took-off-this-week.html",
+   "ts": "2026-10-16T16:38:51Z",
+   "fuente": "CNBC",
+   "id": "8e353b17ad",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Stocks making the biggest moves midday: CoreWeave, Moog, J.B. Hunt, Alcoa & more",
+   "link": "https://www.cnbc.com/2026/10/16/stocks-making-the-biggest-moves-midday-crwv-moga-jbht-aa.html",
+   "ts": "2026-10-16T16:29:16Z",
+   "fuente": "CNBC",
+   "id": "79cf95f6ed",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "CIBC warns of inflation risks as ‘leaky loonie’ faces further slide",
    "link": "https://finance.yahoo.com/economy/policy/articles/cibc-warns-inflation-risks-leaky-162609154.html?.tsrc=rss",
    "ts": "2026-10-16T16:26:09Z",
@@ -7382,6 +7413,15 @@
    "impacto": "bajo",
    "es": "Dólar canadiense se encamina a ganancia semanal mientras el dólar estadounidense retrocede",
    "efecto": "Refleja debilidad general del billete verde, sin mover el NQ u oro."
+  },
+  {
+   "titulo": "Schwab to create 'tax-aware' strategy that's been attracting billions from wealthy investors",
+   "link": "https://www.cnbc.com/2026/10/16/tax-strategies-capital-gains-wealthy-investors-schwab.html",
+   "ts": "2026-10-16T16:21:14Z",
+   "fuente": "CNBC",
+   "id": "c84a932e74",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Why Trump and the GOP's billion-dollar midterm blitz isn’t working",
@@ -7564,6 +7604,17 @@
    "id": "7aba9c5ece",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027",
+   "link": "https://www.cnbc.com/2026/10/16/tesla-spacex-merger-odds-rise-on-kalshi.html",
+   "ts": "2026-10-16T15:10:32Z",
+   "fuente": "CNBC",
+   "id": "98d40667e2",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Gold Makes Longest Losing Streak in 3 Decades",
@@ -8152,62 +8203,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "The Zacks Analyst Blog Highlights FreeportMcMoRan, Franco-Nevada, Lundin Mining, OR Royalties and Wheaton Precious Metals",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-freeportmcmoran-115000214.html?.tsrc=rss",
-   "ts": "2026-10-16T11:50:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "e86e61d5eb",
-   "activos": [
-    "oro",
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Why is China buying up gold?",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQUw2cmZCZDE4ZXRhMjFLY0hhX0NURzRPREl5NlZNdVJsWXpsUnY0cmpWckFqbTNLblpFN1NMUlQ5bDlwVDAxdTRFTHBrNEExb2F6MG16RzFRcldHSGg4bEZUY1FxTk9DY29CUXEyYm1LeS1xZkVINHhXcmRscTlJWndiSHjSAYoBQVVfeXFMUEdlWHNXRVhBS1FmaUM0Skp3RUJvMnFGZlA2UExCdTl3X2RlMDZYZXB2VmFBS1BOSjE5c2Nvb1NuSjU1RGwwTjM0b2U4UUxPSEJXWG12U05NX3ZBcTFLVkRxbXhVYTVDenhQOWxKeGdjUGlMbFBJN2VFZ0ZVRDd1eUprSTZ0MERJRi13?oc=5",
-   "ts": "2026-10-16T11:48:45Z",
-   "fuente": "Al Jazeera",
-   "id": "b1df56352e",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Canada's retaliatory tariffs hit US products as Trump warns of escalation",
-   "link": "https://news.google.com/rss/articles/CBMiowlBVV95cUxQTlBOZ0RuSXo3QmJ1bVdWeUZNc3N5VXU0TE80bTB1TlRjMUhweXZHOTF0Z1JiSVpFM2xfaXBZaEdmbnUxSk5MT19ITGxmSExCQk03OEhjWVJiemxNYjM3MkJaZ2REMVpINHFaQWw0MnRubFdOQUg2ZjVlckdmNnBBbmtjREl4amJ3UGQwVjhuSW5LZl9uZ2xRVmhxLXV1dzdCS0JaWk5DMTZneUlaQ2Q4NFNZZHh4NVZ6WDZmWkRGRXRIWXlCOXZJYmFKY2xHN1VNaWJTXzlBbnJDbEFNT0xFTEN6RWdjaGF1RUFsSGpfLXRsSlJETk9jNklhcjU0MkxjQVJra3Z5WXVjY0piS0NBeElYVkJGOTBXcFRES3A5UVcxLVp3QkcyZTFWWlF3RGVwZUNRRHZnWUhyTWRwMXp5MmZYS0Fsa000MXJkdzBlb1NGTE05Y3Z1UmVvUkZlM2xrWE1tVHZLeFpsWnF5WGUyLUVxdmN5ZUtXb09qZmFpdThaYkpmM0hCcl82R3g0TmJJMUprNV9rYWFqa2h0VjNfa0IxR0ZDMnBUbC1TOTRVVnJhNzlwYWdlMnZRY1J2UUxqQi1UQVZZNDc5SjlDdEV4TkZkZU9KRE9TZjF2NkVjUGp5Q2ExWkJDRDBTWE1BUGNTVnpPSWZoRGxhaENBNGhLSWg4VHlqZDBIUFlaWThuSUNKdnpsZndGMTdqWThjSFl5S2laTHppY0t2M2VIdjRBdk9PWl9LODRldWVVWE5zeWdLeERFQ0JxMngwVkNUTWgtbk1HY001aV9SU2JmTHdpMGllRVBpOGtzME50SmJtaHFBaWs3NHJCWTZ3RGY5T25KQUpNTUNFX0V1OTJFdThyd1F6dWhObUxvWldheFNibjd4M1JCM19YM1RCTzNhR0lQRUlfOVNfNE1zMUxoLTg3MFBGSWhKRW5qTTV1eG9DRnp0bXJqSUdWYUdEbV9weHAzVVdCWEhoWi1admJhTDdmY296d3VOX0hYYXVhdUdZREVrOHRtdUV0eHFlenJOWnFOOGU4RFJmakNKUXFHb25Fb2tFQWVXWEdLSWlaWFd6YjBOY295WEk0emxBcTE2bkZfZ3Y1U3UtamdNTGU4TzBBVDF3aVdPcnVIbFZWTUtHQjRrbU5TMl85TUNtZVFkamJwb2wtZUZYdm5yVkVPaWw4ME5xdF9HQUFCdnVUY2lIUTAzVVBTME5FWjN1YWpacDBXZ1FrdEsteFlEc1pNLTExb3RSMjhva183a1pEcXBPNDZ3YXJCb0xWdUFxYk9DVWpyQjRzTjhyTkNIc2J1eHNhazJja0JtZmlZWXBrWjF5aXZiamRVaE5Zampic29IMnFGcVhjVU1IU3dtdDNmdVBVOFJWTzRyOThRSUp2dXNHaVJfc2pIWU9DZHBjaFJJbkY2TC1Oby1HNU9weHRfNTloLWhIal9rVC1lYU9aWjNyQnFvLVk5ZUdpNVIwbmVtOFV4Y3FZUkZFSlBGRGhNelBvdDktMFNSbnpyUGlwVTRfN3BSNHNsQXFCU1U3bGJabVgwLVFNZ0hkcFFTRjRzWVBjV0w3QQ?oc=5",
-   "ts": "2026-10-16T11:43:14Z",
-   "fuente": "ABC7 Bay Area",
-   "id": "135fc29764",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Stocks making the biggest moves premarket: Tesla, SpaceX, Alcoa, CoreWeave, Travelers & more",
-   "link": "https://www.cnbc.com/2026/10/16/stocks-making-the-biggest-moves-premarket-tsla-spcx-aa-crwv.html",
-   "ts": "2026-10-16T11:41:51Z",
-   "fuente": "CNBC",
-   "id": "ecf6c4cb86",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Acciones con mayores movimientos premarket: Tesla, SpaceX, Alcoa y más",
-   "efecto": "Genera volatilidad sectorial en el NQ sin alterar la macro."
-  },
-  {
-   "titulo": "US Dollar Falls Early Friday Ahead of Import Prices, New York Fed Services, Industrial Production",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-falls-early-friday-114014259.html?.tsrc=rss",
-   "ts": "2026-10-16T11:40:14Z",
-   "fuente": "Yahoo Finance",
-   "id": "f3153dfb8f",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -8226,7 +8221,7 @@
   "oro": [
    [
     1791842400,
-    4195.9,
+    4195.5,
     4201.7,
     4192.6,
     4193.4
@@ -8240,14 +8235,14 @@
    ],
    [
     1791849600,
-    4194.5,
+    4194.8,
     4195.7,
     4177.0,
     4181.5
    ],
    [
     1791853200,
-    4181.8,
+    4181.6,
     4193.4,
     4173.7,
     4188.3
@@ -8257,18 +8252,18 @@
     4188.1,
     4205.0,
     4187.0,
-    4204.0
+    4204.1
    ],
    [
     1791860400,
-    4203.8,
+    4203.7,
     4211.7,
     4199.5,
     4211.1
    ],
    [
     1791864000,
-    4212.6,
+    4212.4,
     4220.7,
     4211.4,
     4219.8
@@ -8282,14 +8277,14 @@
    ],
    [
     1791871200,
-    4217.0,
+    4216.8,
     4217.9,
     4207.7,
     4215.8
    ],
    [
     1791874800,
-    4215.5,
+    4215.7,
     4217.7,
     4207.2,
     4211.5
@@ -8317,14 +8312,14 @@
    ],
    [
     1791889200,
-    4205.5,
+    4205.4,
     4212.6,
     4203.8,
     4209.0
    ],
    [
     1791892800,
-    4208.9,
+    4209.0,
     4214.6,
     4200.8,
     4203.1
@@ -8334,14 +8329,14 @@
     4203.1,
     4213.5,
     4192.2,
-    4192.7
+    4192.6
    ],
    [
     1791900000,
     4192.5,
     4196.9,
     4185.9,
-    4190.3
+    4190.4
    ],
    [
     1791903600,
@@ -8352,7 +8347,7 @@
    ],
    [
     1791907200,
-    4182.2,
+    4182.3,
     4184.3,
     4175.3,
     4175.8
@@ -8369,18 +8364,18 @@
     4171.6,
     4187.5,
     4171.2,
-    4186.6
+    4186.5
    ],
    [
     1791918000,
     4186.3,
     4189.5,
     4184.6,
-    4186.2
+    4186.4
    ],
    [
     1791921600,
-    4186.1,
+    4185.9,
     4186.9,
     4180.3,
     4183.9
@@ -8394,7 +8389,7 @@
    ],
    [
     1791928800,
-    4184.9,
+    4184.8,
     4186.1,
     4182.1,
     4184.5
@@ -8404,18 +8399,18 @@
     4184.5,
     4185.1,
     4177.7,
-    4178.1
+    4177.9
    ],
    [
     1791936000,
-    4178.0,
+    4177.9,
     4186.8,
     4177.2,
     4177.8
    ],
    [
     1791939600,
-    4178.0,
+    4177.8,
     4189.2,
     4167.0,
     4177.6
@@ -8429,7 +8424,7 @@
    ],
    [
     1791946800,
-    4191.2,
+    4191.3,
     4193.5,
     4184.5,
     4185.4
@@ -8443,21 +8438,21 @@
    ],
    [
     1791954000,
-    4188.8,
+    4188.9,
     4189.3,
     4171.1,
     4171.5
    ],
    [
     1791957600,
-    4170.5,
+    4170.6,
     4186.5,
     4168.3,
     4171.0
    ],
    [
     1791961200,
-    4170.5,
+    4170.6,
     4175.2,
     4165.5,
     4172.2
@@ -8499,24 +8494,24 @@
    ],
    [
     1791982800,
-    4120.1,
+    4119.8,
     4129.6,
     4101.6,
     4110.3
    ],
    [
     1791986400,
-    4110.8,
+    4110.4,
     4128.4,
     4108.6,
-    4115.4
+    4115.5
    ],
    [
     1791990000,
-    4115.5,
+    4115.6,
     4118.0,
     4101.0,
-    4102.1
+    4102.0
    ],
    [
     1791993600,
@@ -8555,28 +8550,28 @@
    ],
    [
     1792015200,
-    4128.3,
+    4127.9,
     4133.0,
     4122.7,
     4127.7
    ],
    [
     1792018800,
-    4128.1,
-    4130.7,
-    4120.9,
-    4130.2
+    4127.9,
+    4134.0,
+    4121.0,
+    4133.1
    ],
    [
     1792022400,
-    4134.5,
+    4132.9,
     4168.0,
     4132.0,
     4160.6
    ],
    [
     1792026000,
-    4160.8,
+    4160.5,
     4172.8,
     4157.2,
     4160.1
@@ -8586,7 +8581,7 @@
     4160.0,
     4182.4,
     4156.8,
-    4181.1
+    4181.0
    ],
    [
     1792033200,
@@ -8597,21 +8592,21 @@
    ],
    [
     1792036800,
-    4166.6,
+    4166.7,
     4168.9,
     4162.2,
     4166.0
    ],
    [
     1792040400,
-    4165.7,
+    4165.8,
     4168.3,
     4156.9,
     4159.2
    ],
    [
     1792044000,
-    4159.0,
+    4158.8,
     4161.4,
     4152.7,
     4157.3
@@ -8646,42 +8641,42 @@
    ],
    [
     1792062000,
-    4176.4,
+    4176.5,
     4181.0,
     4166.0,
     4166.0
    ],
    [
     1792065600,
-    4166.5,
+    4166.4,
     4180.8,
     4151.6,
     4173.2
    ],
    [
     1792069200,
-    4173.0,
+    4173.3,
     4189.9,
     4165.3,
-    4175.8
+    4176.3
    ],
    [
     1792072800,
-    4175.7,
+    4176.5,
     4186.3,
     4165.8,
-    4178.9
+    4178.8
    ],
    [
     1792076400,
-    4179.0,
+    4179.1,
     4180.4,
     4169.1,
-    4170.7
+    4170.6
    ],
    [
     1792080000,
-    4170.5,
+    4170.8,
     4173.8,
     4164.5,
     4168.5
@@ -8709,7 +8704,7 @@
    ],
    [
     1792094400,
-    4196.8,
+    4195.9,
     4197.7,
     4189.4,
     4192.5
@@ -8719,11 +8714,11 @@
     4192.1,
     4193.9,
     4185.1,
-    4185.9
+    4185.3
    ],
    [
     1792105200,
-    4186.0,
+    4185.4,
     4186.7,
     4176.6,
     4176.9
@@ -8733,18 +8728,18 @@
     4176.4,
     4178.7,
     4172.3,
-    4177.2
+    4177.3
    ],
    [
     1792112400,
-    4177.1,
+    4176.9,
     4181.7,
     4167.5,
     4173.4
    ],
    [
     1792116000,
-    4173.6,
+    4173.5,
     4201.3,
     4173.3,
     4197.5
@@ -8758,7 +8753,7 @@
    ],
    [
     1792123200,
-    4205.0,
+    4204.6,
     4207.9,
     4193.5,
     4195.8
@@ -8782,18 +8777,18 @@
     4198.1,
     4211.2,
     4197.4,
-    4208.6
+    4208.3
    ],
    [
     1792137600,
-    4208.3,
+    4208.5,
     4210.6,
     4199.7,
     4210.6
    ],
    [
     1792141200,
-    4210.0,
+    4210.2,
     4213.3,
     4198.1,
     4198.1
@@ -8821,44 +8816,44 @@
    ],
    [
     1792155600,
-    4186.9,
+    4187.3,
     4211.0,
     4175.3,
-    4205.9
+    4206.0
    ],
    [
     1792159200,
-    4206.3,
+    4206.1,
     4220.4,
     4170.1,
     4206.3
    ],
    [
     1792162800,
-    4205.8,
+    4206.0,
     4208.6,
     4188.0,
     4188.4
    ],
    [
     1792166400,
-    4188.5,
+    4188.8,
     4190.9,
     4178.9,
-    4181.2
+    4184.0
    ],
    [
-    1792168654,
-    4182.1,
-    4182.1,
-    4182.1,
-    4182.1
+    1792168952,
+    4183.4,
+    4183.4,
+    4183.4,
+    4183.4
    ]
   ],
   "nq": [
    [
     1791835200,
-    30895.75,
+    30896.25,
     30898.75,
     30870.0,
     30877.5
@@ -8872,7 +8867,7 @@
    ],
    [
     1791846000,
-    30878.5,
+    30878.75,
     30879.0,
     30803.5,
     30811.25
@@ -8893,14 +8888,14 @@
    ],
    [
     1791856800,
-    30664.5,
+    30665.25,
     30679.0,
     30604.75,
     30651.5
    ],
    [
     1791860400,
-    30652.75,
+    30652.25,
     30682.75,
     30613.0,
     30672.5
@@ -8917,25 +8912,25 @@
     30647.0,
     30741.25,
     30642.0,
-    30693.0
+    30693.5
    ],
    [
     1791871200,
-    30692.5,
+    30693.75,
     30694.25,
     30633.25,
     30681.0
    ],
    [
     1791874800,
-    30682.0,
+    30680.5,
     30725.25,
     30628.5,
     30702.25
    ],
    [
     1791878400,
-    30702.75,
+    30701.5,
     30770.25,
     30688.25,
     30751.75
@@ -8949,35 +8944,35 @@
    ],
    [
     1791885600,
-    30762.25,
+    30762.5,
     30763.75,
     30713.0,
     30720.75
    ],
    [
     1791889200,
-    30721.0,
+    30719.5,
     30721.25,
     30654.5,
     30662.5
    ],
    [
     1791892800,
-    30661.75,
+    30662.0,
     30687.5,
     30642.5,
-    30657.5
+    30658.5
    ],
    [
     1791896400,
-    30658.0,
+    30658.25,
     30806.25,
     30591.25,
-    30792.75
+    30792.0
    ],
    [
     1791900000,
-    30792.75,
+    30792.5,
     30814.75,
     30690.25,
     30704.25
@@ -8991,24 +8986,24 @@
    ],
    [
     1791907200,
-    30704.25,
+    30704.5,
     30808.0,
     30700.25,
-    30740.25
+    30739.25
    ],
    [
     1791910800,
-    30739.75,
+    30740.0,
     30750.5,
     30688.0,
     30718.5
    ],
    [
     1791914400,
-    30718.75,
+    30718.5,
     30781.0,
     30709.25,
-    30738.75
+    30737.75
    ],
    [
     1791918000,
@@ -9026,24 +9021,24 @@
    ],
    [
     1791928800,
-    30791.5,
+    30799.5,
     30827.5,
     30767.0,
     30812.25
    ],
    [
     1791932400,
-    30810.75,
+    30811.75,
     30811.75,
     30750.5,
-    30758.25
+    30758.0
    ],
    [
     1791936000,
-    30755.0,
+    30755.25,
     30849.5,
     30744.5,
-    30812.25
+    30811.5
    ],
    [
     1791939600,
@@ -9054,7 +9049,7 @@
    ],
    [
     1791943200,
-    30842.25,
+    30840.0,
     30877.0,
     30836.5,
     30872.5
@@ -9075,21 +9070,21 @@
    ],
    [
     1791954000,
-    30868.75,
+    30867.75,
     30870.5,
     30745.75,
-    30753.0
+    30754.25
    ],
    [
     1791957600,
-    30752.5,
+    30752.0,
     30804.75,
     30705.25,
     30784.0
    ],
    [
     1791961200,
-    30783.75,
+    30784.25,
     30829.25,
     30772.0,
     30811.5
@@ -9103,7 +9098,7 @@
    ],
    [
     1791968400,
-    30780.25,
+    30778.25,
     30808.5,
     30742.25,
     30793.75
@@ -9117,14 +9112,14 @@
    ],
    [
     1791975600,
-    30756.5,
+    30754.75,
     30769.0,
     30716.0,
-    30762.25
+    30762.0
    ],
    [
     1791979200,
-    30762.75,
+    30762.0,
     30852.75,
     30543.0,
     30557.0
@@ -9134,11 +9129,11 @@
     30557.5,
     30660.75,
     30465.75,
-    30473.75
+    30474.5
    ],
    [
     1791986400,
-    30475.75,
+    30475.5,
     30538.25,
     30417.75,
     30489.0
@@ -9152,56 +9147,56 @@
    ],
    [
     1791993600,
-    30330.5,
+    30330.75,
     30343.5,
     30194.25,
     30295.5
    ],
    [
     1791997200,
-    30296.0,
+    30296.5,
     30309.75,
     30133.5,
     30146.25
    ],
    [
     1792000800,
-    30147.5,
+    30147.75,
     30200.25,
     30103.25,
     30131.75
    ],
    [
     1792004400,
-    30132.0,
+    30130.75,
     30237.0,
     30078.0,
-    30185.5
+    30185.75
    ],
    [
     1792008000,
-    30186.0,
+    30185.5,
     30214.0,
     30125.5,
     30139.25
    ],
    [
     1792015200,
-    30145.0,
+    30146.5,
     30158.5,
     29961.25,
     29992.0
    ],
    [
     1792018800,
-    29993.0,
-    30035.5,
+    29995.25,
+    30027.5,
     29879.5,
-    29892.25
+    29907.25
    ],
    [
     1792022400,
-    29926.25,
+    29907.5,
     30010.75,
     29906.0,
     29932.0
@@ -9215,10 +9210,10 @@
    ],
    [
     1792029600,
-    29893.5,
+    29897.0,
     29945.25,
     29854.25,
-    29867.0
+    29866.25
    ],
    [
     1792033200,
@@ -9236,35 +9231,35 @@
    ],
    [
     1792040400,
-    29958.25,
+    29958.75,
     29974.25,
     29847.0,
-    29879.25
+    29879.0
    ],
    [
     1792044000,
-    29877.5,
+    29877.0,
     29941.0,
     29764.75,
     29789.5
    ],
    [
     1792047600,
-    29790.0,
+    29790.25,
     29869.5,
     29754.0,
     29837.75
    ],
    [
     1792051200,
-    29840.0,
+    29838.75,
     29875.5,
     29754.5,
     29862.25
    ],
    [
     1792054800,
-    29860.0,
+    29860.5,
     29899.5,
     29828.25,
     29850.5
@@ -9278,28 +9273,28 @@
    ],
    [
     1792062000,
-    29801.0,
+    29801.5,
     29885.0,
     29748.5,
-    29816.0
+    29816.5
    ],
    [
     1792065600,
     29816.5,
     29876.75,
     29711.0,
-    29790.0
+    29789.75
    ],
    [
     1792069200,
-    29791.0,
+    29790.25,
     29859.5,
     29622.5,
-    29686.75
+    29687.0
    ],
    [
     1792072800,
-    29688.0,
+    29687.5,
     29977.75,
     29683.0,
     29970.75
@@ -9313,31 +9308,31 @@
    ],
    [
     1792080000,
-    30013.5,
+    30013.25,
     30037.25,
     29909.25,
     29961.75
    ],
    [
     1792083600,
-    29962.25,
+    29963.5,
     30102.25,
     29944.75,
     30058.5
    ],
    [
     1792087200,
-    30057.5,
+    30058.25,
     30058.25,
     29942.25,
     30035.25
    ],
    [
     1792090800,
-    30036.75,
+    30036.5,
     30196.75,
     30034.75,
-    30141.25
+    30141.0
    ],
    [
     1792094400,
@@ -9350,19 +9345,19 @@
     1792101600,
     30089.0,
     30128.0,
-    30064.75,
-    30068.75
+    30064.0,
+    30067.0
    ],
    [
     1792105200,
-    30069.75,
-    30070.0,
+    30045.75,
+    30064.0,
     29982.5,
     29988.0
    ],
    [
     1792108800,
-    29985.25,
+    29982.25,
     30061.25,
     29959.25,
     30040.25
@@ -9376,7 +9371,7 @@
    ],
    [
     1792116000,
-    30050.0,
+    30050.25,
     30129.75,
     30043.25,
     30095.5
@@ -9386,7 +9381,7 @@
     30097.5,
     30211.75,
     30074.0,
-    30202.25
+    30202.75
    ],
    [
     1792123200,
@@ -9397,70 +9392,70 @@
    ],
    [
     1792126800,
-    30201.5,
+    30201.25,
     30225.0,
     30161.75,
     30191.25
    ],
    [
     1792130400,
-    30191.0,
+    30190.5,
     30209.75,
     30126.0,
-    30152.0
+    30152.5
    ],
    [
     1792134000,
-    30153.0,
+    30152.25,
     30198.5,
     30127.75,
-    30158.25
+    30158.0
    ],
    [
     1792137600,
-    30157.5,
+    30156.75,
     30201.0,
     30144.75,
     30144.75
    ],
    [
     1792141200,
-    30144.0,
+    30144.5,
     30178.75,
     30088.5,
     30095.5
    ],
    [
     1792144800,
-    30094.25,
+    30092.0,
     30138.0,
     30063.0,
-    30091.25
+    30090.5
    ],
    [
     1792148400,
-    30088.25,
+    30089.5,
     30138.5,
     30051.0,
-    30095.25
+    30094.5
    ],
    [
     1792152000,
-    30092.75,
+    30093.5,
     30129.75,
     30047.75,
     30066.75
    ],
    [
     1792155600,
-    30064.5,
+    30065.0,
     30085.75,
     29802.25,
     29836.75
    ],
    [
     1792159200,
-    29838.25,
+    29837.25,
     29947.0,
     29786.75,
     29862.0
@@ -9470,21 +9465,21 @@
     29861.25,
     29862.25,
     29645.0,
-    29659.0
+    29659.25
    ],
    [
     1792166400,
-    29658.75,
+    29658.5,
     29708.25,
     29609.0,
-    29643.5
+    29626.0
    ],
    [
-    1792168663,
-    29638.75,
-    29638.75,
-    29638.75,
-    29638.75
+    1792168951,
+    29632.75,
+    29632.75,
+    29632.75,
+    29632.75
    ]
   ],
   "vix": [
@@ -9946,16 +9941,16 @@
    [
     1792166400,
     17.03,
-    17.35,
+    17.65,
     16.96,
-    17.34
+    17.64
    ],
    [
-    1792168351,
-    17.34,
-    17.34,
-    17.34,
-    17.34
+    1792168651,
+    17.6,
+    17.6,
+    17.6,
+    17.6
    ]
   ]
  },
@@ -10673,6 +10668,11 @@
   "6b8cbe77ec",
   "f2899ae780",
   "0116d1ca15",
-  "61a803e42d"
+  "61a803e42d",
+  "2d23208833",
+  "8e353b17ad",
+  "79cf95f6ed",
+  "c84a932e74",
+  "98d40667e2"
  ]
 }
