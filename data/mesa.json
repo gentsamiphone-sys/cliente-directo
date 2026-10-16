@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4188.4 · NQ 29385.25 · VIX 19.99",
-   "actualizado": "2026-10-16T20:52:33Z"
+   "ultimo_resultado": "Oro 4188.8 · NQ 29385.75 · VIX 19.99 · 1 noticias nuevas",
+   "actualizado": "2026-10-16T20:57:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T20:52:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-16T20:57:33Z",
+   "ultimo_resultado": "1 titulares nuevos: La crisis de asequibilidad no golpea a todos los votantes por igual."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4188.8 · NQ 29385.75 · VIX 19.99 · 1 noticias nuevas",
+   "ts": "2026-10-16T20:57:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4188.4 · NQ 29385.25 · VIX 19.99",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "ES/NQ: CONFIRMA: ES y NQ van en la misma dirección · ES alcista en 1H",
    "ts": "2026-10-16T06:33:01Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el S&P 500 (ES) con el NQ…",
-   "ts": "2026-10-16T06:32:59Z"
   }
  ],
  "briefs": [
@@ -7325,10 +7325,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4188.4,
-  "nq": 29385.25,
+  "oro": 4188.8,
+  "nq": 29385.75,
   "vix": 19.99,
-  "ts": "2026-10-16T20:52:33Z"
+  "ts": "2026-10-16T20:57:33Z"
  },
  "noticias": [
   {
@@ -7439,6 +7439,17 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "The affordability crisis isn't hitting all voters equally. Here's why",
+   "link": "https://www.cnbc.com/2026/10/16/affordability-inflation-midterms.html",
+   "ts": "2026-10-16T19:22:21Z",
+   "fuente": "CNBC",
+   "id": "44da8ff139",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "La crisis de asequibilidad no golpea a todos los votantes por igual.",
+   "efecto": ""
   },
   {
    "titulo": "Looking for a non-AI trade? This bank stock is poised for a breakout next week",
@@ -8197,17 +8208,6 @@
    "id": "dd122477ec",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Dow jumps 200 points, Nasdaq slides as investors continue to rotate out of AI stocks: Live updates",
-   "link": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html",
-   "ts": "2026-10-16T14:52:12Z",
-   "fuente": "CNBC",
-   "id": "f10bc117fd",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -8845,14 +8845,14 @@
     4189.8,
     4190.6,
     4187.0,
-    4188.1
+    4188.7
    ],
    [
-    1792183340,
-    4188.4,
-    4188.4,
-    4188.4,
-    4188.4
+    1792183650,
+    4188.8,
+    4188.8,
+    4188.8,
+    4188.8
    ]
   ],
   "nq": [
@@ -9475,16 +9475,16 @@
    [
     1792180800,
     29380.25,
-    29396.25,
+    29399.25,
     29344.75,
-    29389.5
+    29378.75
    ],
    [
-    1792183349,
-    29385.25,
-    29385.25,
-    29385.25,
-    29385.25
+    1792183649,
+    29385.75,
+    29385.75,
+    29385.75,
+    29385.75
    ]
   ],
   "vix": [
@@ -9987,7 +9987,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-16T20:22:34Z",
+ "noticias_traducidas_ts": "2026-10-16T20:57:29Z",
  "ult_4h": 1792183654.583253,
  "estrategia_4h": {
   "oro": {
@@ -10760,6 +10760,7 @@
   "b7af5fc493",
   "08dfb548a9",
   "31f57242ff",
-  "8efba151d2"
+  "8efba151d2",
+  "44da8ff139"
  ]
 }
