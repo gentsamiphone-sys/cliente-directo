@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4198.0 · NQ 30087.75 · VIX 16.12 · 1 noticias nuevas",
-   "actualizado": "2026-10-16T11:47:33Z"
+   "ultimo_resultado": "Oro 4198.1 · NQ 30057.5 · VIX 16.12 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-16T11:52:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T11:47:32Z",
-   "ultimo_resultado": "1 titulares nuevos: Meet the New Nasdaq-100 Stock That’s Crushing Nvidia, Micron, and Sandisk. Is It Too Late to Buy?"
+   "actualizado": "2026-10-16T11:52:33Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Why is China buying up gold?"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4198.1 · NQ 30057.5 · VIX 16.12 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-16T11:52:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4198.0 · NQ 30087.75 · VIX 16.12 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el S&P 500 (ES) con el NQ…",
    "ts": "2026-10-15T21:33:02Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Volatilidad normal (VIX 16.46).",
-   "ts": "2026-10-15T21:33:00Z"
   }
  ],
  "briefs": [
@@ -7153,12 +7153,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4198.0,
-  "nq": 30087.75,
+  "oro": 4198.1,
+  "nq": 30057.5,
   "vix": 16.12,
-  "ts": "2026-10-16T11:47:32Z"
+  "ts": "2026-10-16T11:52:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Why is China buying up gold?",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQUw2cmZCZDE4ZXRhMjFLY0hhX0NURzRPREl5NlZNdVJsWXpsUnY0cmpWckFqbTNLblpFN1NMUlQ5bDlwVDAxdTRFTHBrNEExb2F6MG16RzFRcldHSGg4bEZUY1FxTk9DY29CUXEyYm1LeS1xZkVINHhXcmRscTlJWndiSHjSAYoBQVVfeXFMUEdlWHNXRVhBS1FmaUM0Skp3RUJvMnFGZlA2UExCdTl3X2RlMDZYZXB2VmFBS1BOSjE5c2Nvb1NuSjU1RGwwTjM0b2U4UUxPSEJXWG12U05NX3ZBcTFLVkRxbXhVYTVDenhQOWxKeGdjUGlMbFBJN2VFZ0ZVRDd1eUprSTZ0MERJRi13?oc=5",
+   "ts": "2026-10-16T11:48:45Z",
+   "fuente": "Al Jazeera",
+   "id": "b1df56352e",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Stocks making the biggest moves premarket: Tesla, SpaceX, Alcoa, CoreWeave, Travelers & more",
    "link": "https://www.cnbc.com/2026/10/16/stocks-making-the-biggest-moves-premarket-tsla-spcx-aa-crwv.html",
@@ -7171,6 +7182,17 @@
    "impacto": "medio",
    "es": "Acciones con mayores movimientos premarket: Tesla, SpaceX, Alcoa y más",
    "efecto": "Genera volatilidad sectorial en el NQ sin alterar la macro."
+  },
+  {
+   "titulo": "US Dollar Falls Early Friday Ahead of Import Prices, New York Fed Services, Industrial Production",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-falls-early-friday-114014259.html?.tsrc=rss",
+   "ts": "2026-10-16T11:40:14Z",
+   "fuente": "Yahoo Finance",
+   "id": "f3153dfb8f",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Stock market today: Dow, S&P 500, Nasdaq futures mixed amid volatile week",
@@ -7189,6 +7211,17 @@
    "ts": "2026-10-16T11:25:02Z",
    "fuente": "Yahoo Finance",
    "id": "c3013a81c0",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "1 Nasdaq 100 Stock on Our Watchlist and 2 That Underwhelm",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdDlMaVVYcjRxNUgyUU16R1N4MWJRclpoQ052R0pBVGEybl9DQWhTUzdfMFBYRkNrRWUzV1NnUk1ZWDg3Qm5manpvZGctS0RYakdhM1dZMll5dVZNX3ZNNERrTHo1RGc2MjZOdTNJSDEtck9reFVfS1d4SDFsck84SG51amgyM2xZbnZ4d2VTWkRJUFJ1SXRDMw?oc=5",
+   "ts": "2026-10-16T11:23:39Z",
+   "fuente": "Yahoo Finance",
+   "id": "5ccdbdeb3b",
    "activos": [
     "nq"
    ],
@@ -8023,39 +8056,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Gold steadies near $4,160 as stock selloff drives bond rally, Treasury yields fall",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-steadies-near-4-160-015611640.html?.tsrc=rss",
-   "ts": "2026-10-16T01:56:11Z",
-   "fuente": "Yahoo Finance",
-   "id": "b92a72310d",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "What will you do as governor to help with tariffs?",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVEE5MmVYcXhNTFRyY1NHMUZTNUgzc3FHSVF3TDVxcVUxSnNUNmVLZkZpV3FmRExLNGVCeHZucnZROE9DZExzd2p0cnJYQU1UTTZLTEZRWm0zTEJZZUtaMnh4bnFKMmpGSUk1QWo4WlV2X2tKc3NvcGlRaDh6MEYzLUpmdW00V3hhZWRoYzRSMFRNdXZsQzMxRVRKT19LcTAyV2NGQ3B3?oc=5",
-   "ts": "2026-10-16T01:44:04Z",
-   "fuente": "ClickOnDetroit | WDIV Local 4",
-   "id": "e718609eaa",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Nasdaq futures edge lower as AI spending, Fed rate concerns weigh",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNemJYUmdaN19naFptR3ZmeDdtMU9aX1BLeFNlSTR6Y0NsV3FabEZYamcwemZfRUExLTQ2enR6VVVpX1lSSWxVUGt1U3BFZHVmZ1Y2TDlYS29MaFZJNjAwTGVWNEJGZXNIblc0MjA2Z1dGbVFib2lIUjVhVVFwMUtXZ2ZOX3hZbDVoYU9vV1RxcW9KLThMZDVjeQ?oc=5",
-   "ts": "2026-10-16T01:40:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "60e0567240",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -8693,14 +8693,14 @@
     4195.0,
     4203.0,
     4193.5,
-    4198.2
+    4198.7
    ],
    [
-    1792150646,
-    4198.0,
-    4198.0,
-    4198.0,
-    4198.0
+    1792150945,
+    4198.1,
+    4198.1,
+    4198.1,
+    4198.1
    ]
   ],
   "nq": [
@@ -9324,15 +9324,15 @@
     1792148400,
     30088.25,
     30138.5,
-    30071.0,
-    30071.25
+    30051.5,
+    30061.0
    ],
    [
-    1792150651,
-    30087.75,
-    30087.75,
-    30087.75,
-    30087.75
+    1792150952,
+    30057.5,
+    30057.5,
+    30057.5,
+    30057.5
    ]
   ],
   "vix": [
@@ -9761,10 +9761,10 @@
     16.12,
     16.16,
     16.07,
-    16.13
+    16.12
    ],
    [
-    1792150351,
+    1792150651,
     16.12,
     16.12,
     16.12,
@@ -10393,6 +10393,9 @@
   "23a2f478a4",
   "290ad95a33",
   "ecf6c4cb86",
-  "c3013a81c0"
+  "c3013a81c0",
+  "b1df56352e",
+  "f3153dfb8f",
+  "5ccdbdeb3b"
  ]
 }
