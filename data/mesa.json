@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4195.3 · NQ 30108.0 · VIX 16.02 · 2 noticias nuevas",
-   "actualizado": "2026-10-16T12:22:36Z"
+   "ultimo_resultado": "Oro 4194.4 · NQ 30092.25 · VIX 16.04 · 1 noticias nuevas",
+   "actualizado": "2026-10-16T12:27:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T12:22:35Z",
-   "ultimo_resultado": "2 titulares nuevos: Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million"
+   "actualizado": "2026-10-16T12:27:33Z",
+   "ultimo_resultado": "1 titulares nuevos: Here are Friday's biggest analyst calls: Nvidia, SpaceX, Tesla, Apple, Mobileye, EchoStar, Toll Brothers & more"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4194.4 · NQ 30092.25 · VIX 16.04 · 1 noticias nuevas",
+   "ts": "2026-10-16T12:27:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4195.3 · NQ 30108.0 · VIX 16.02 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: NORTHCOM’s JTF-Gold Takes On Cyber Defense Mission for Golden Dome",
    "ts": "2026-10-15T21:37:33Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Brief de Asia (Tokio/Sídney) publicado: Oro alcista y NQ débil; ATR diario agotado prohíbe nuevas operaciones en la sesión",
-   "ts": "2026-10-15T21:34:18Z"
   }
  ],
  "briefs": [
@@ -7153,12 +7153,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4195.3,
-  "nq": 30108.0,
-  "vix": 16.02,
-  "ts": "2026-10-16T12:22:36Z"
+  "oro": 4194.4,
+  "nq": 30092.25,
+  "vix": 16.04,
+  "ts": "2026-10-16T12:27:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Here are Friday's biggest analyst calls: Nvidia, SpaceX, Tesla, Apple, Mobileye, EchoStar, Toll Brothers & more",
+   "link": "https://www.cnbc.com/2026/10/16/friday-analyst-calls-spacex-nvidia-tesla-apple.html",
+   "ts": "2026-10-16T12:22:29Z",
+   "fuente": "CNBC",
+   "id": "119fdd9828",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million",
    "link": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html",
@@ -8039,17 +8050,6 @@
    "id": "2f385b131e",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Welker Wins Third-Straight Gold Medal at U23 World Championships",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQWg4YnBNbGd5Q01uT3pybHZkamVGZlRFV2hkcTlfUUVudm1DaGVlcDlpVXhzYnB3T1d4MTJkNGZpOU1pQi1MV2c5TlNQemktaTZfMHBaMlBTSHZUNTQ2ekhMRlRmVzlOajBySk5OUTVzNF9CQzZhZFROZWVKTWtPOGIzV2hucHhlY1Z1S2RmM1pZaEtMcWdzS3BkbXFkWXFqZUlfNVdaUURxUQ?oc=5",
-   "ts": "2026-10-16T03:44:32Z",
-   "fuente": "Iowa Hawkeyes Athletics",
-   "id": "57d3fb66d5",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Welker gana su tercera medalla de oro consecutiva en el Campeonato Mundial Sub-23",
-   "efecto": "Sin impacto en los mercados financieros institucionales."
   }
  ],
  "eventos_avisados": [
@@ -8687,14 +8687,14 @@
     4192.8,
     4197.3,
     4192.3,
-    4195.9
+    4195.3
    ],
    [
-    1792152749,
-    4195.3,
-    4195.3,
-    4195.3,
-    4195.3
+    1792153045,
+    4194.4,
+    4194.4,
+    4194.4,
+    4194.4
    ]
   ],
   "nq": [
@@ -9318,15 +9318,15 @@
     1792152000,
     30092.75,
     30129.75,
-    30089.75,
-    30119.75
+    30084.5,
+    30104.0
    ],
    [
-    1792152754,
-    30108.0,
-    30108.0,
-    30108.0,
-    30108.0
+    1792153051,
+    30092.25,
+    30092.25,
+    30092.25,
+    30092.25
    ]
   ],
   "vix": [
@@ -9765,11 +9765,11 @@
     16.02
    ],
    [
-    1792152451,
-    16.02,
-    16.02,
-    16.02,
-    16.02
+    1792152751,
+    16.04,
+    16.04,
+    16.04,
+    16.04
    ]
   ]
  },
@@ -10406,6 +10406,7 @@
   "5971988dda",
   "1a8ed83271",
   "3c6bc84706",
-  "09bbe30c0d"
+  "09bbe30c0d",
+  "119fdd9828"
  ]
 }
