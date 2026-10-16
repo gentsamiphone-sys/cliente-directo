@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4199.5 · NQ 30095.75 · VIX 16.13 · 1 noticias nuevas",
-   "actualizado": "2026-10-16T11:42:37Z"
+   "ultimo_resultado": "Oro 4198.0 · NQ 30087.75 · VIX 16.12 · 1 noticias nuevas",
+   "actualizado": "2026-10-16T11:47:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T11:42:37Z",
-   "ultimo_resultado": "1 titulares nuevos: Acciones con mayores movimientos premarket: Tesla, SpaceX, Alcoa y más"
+   "actualizado": "2026-10-16T11:47:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Meet the New Nasdaq-100 Stock That’s Crushing Nvidia, Micron, and Sandisk. Is It Too Late to Buy?"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4198.0 · NQ 30087.75 · VIX 16.12 · 1 noticias nuevas",
+   "ts": "2026-10-16T11:47:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4199.5 · NQ 30095.75 · VIX 16.13 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Volatilidad normal (VIX 16.46).",
    "ts": "2026-10-15T21:33:00Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "VIX/NQ: CONFIRMA ALCISTA: NQ sube y el VIX baja (apetito de riesgo real)",
-   "ts": "2026-10-15T21:32:59Z"
   }
  ],
  "briefs": [
@@ -7153,10 +7153,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4199.5,
-  "nq": 30095.75,
-  "vix": 16.13,
-  "ts": "2026-10-16T11:42:37Z"
+  "oro": 4198.0,
+  "nq": 30087.75,
+  "vix": 16.12,
+  "ts": "2026-10-16T11:47:32Z"
  },
  "noticias": [
   {
@@ -7178,6 +7178,17 @@
    "ts": "2026-10-16T11:29:39Z",
    "fuente": "Yahoo Finance",
    "id": "6bfee173c9",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Meet the New Nasdaq-100 Stock That’s Crushing Nvidia, Micron, and Sandisk. Is It Too Late to Buy?",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMmdxQUlpaUktbXkzVk1KZjBsTGxWeUhJQWxVTC1DXy1mbnNkUFlzU3RKc1drd3QzUnhKNWVxTDd4TXowVzd6OFozaE1XSUU0T2dXYjFHOVY0c2trb2dyNU5EbzRLc2FqSVBuYVplRWVhMk9rZldnaHlVM2VvT0VldmtMQ0s2VGNmN21JaG8wZVVrZzdzVzZhWXloYw?oc=5",
+   "ts": "2026-10-16T11:25:02Z",
+   "fuente": "Yahoo Finance",
+   "id": "c3013a81c0",
    "activos": [
     "nq"
    ],
@@ -8045,20 +8056,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Gold Falls as Investors Await Fed Chairman’s Remarks",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVE1wbXpia1hJYU4xY3Y1UVU4eDRDY0MzWXEwRHpHR0c4SGMxNkJqRHdQR1ZqdE9UUWRrU3lxc3c3enhLY0dwUmJGR0x1ZC1DdGRmTkFMaS15Q3cwVEhialJ3RmZvZU5qeUIwSkRSZzVwWHNGOHUxU2JMVXVxd2EyQmN1Q2ZYU0VWdEgzMDA1ZzNBeXFxM0xESXhpQWRKVC1aV19ScHdzNWVXM0RJ?oc=5",
-   "ts": "2026-10-16T01:37:00Z",
-   "fuente": "WSJ",
-   "id": "468c6cda65",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El oro cae mientras los inversores esperan declaraciones del presidente de la Fed",
-   "efecto": "Presiona al oro a la baja por fortaleza previa del dólar."
   }
  ],
  "eventos_avisados": [
@@ -8696,14 +8693,14 @@
     4195.0,
     4203.0,
     4193.5,
-    4200.0
+    4198.2
    ],
    [
-    1792150351,
-    4199.5,
-    4199.5,
-    4199.5,
-    4199.5
+    1792150646,
+    4198.0,
+    4198.0,
+    4198.0,
+    4198.0
    ]
   ],
   "nq": [
@@ -9327,15 +9324,15 @@
     1792148400,
     30088.25,
     30138.5,
-    30071.75,
-    30088.5
+    30071.0,
+    30071.25
    ],
    [
-    1792150353,
-    30095.75,
-    30095.75,
-    30095.75,
-    30095.75
+    1792150651,
+    30087.75,
+    30087.75,
+    30087.75,
+    30087.75
    ]
   ],
   "vix": [
@@ -9767,36 +9764,36 @@
     16.13
    ],
    [
-    1792150051,
-    16.13,
-    16.13,
-    16.13,
-    16.13
+    1792150351,
+    16.12,
+    16.12,
+    16.12,
+    16.12
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-16T11:42:32Z",
- "ult_4h": 1792150353.5650358,
+ "ult_4h": 1792151252.6644926,
  "estrategia_4h": {
   "oro": {
-   "precio": 4200.5,
-   "atr_4h": 30.69,
+   "precio": 4198.0,
+   "atr_4h": 30.74,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4164.89,
+     "stop": 4164.85,
      "objetivo": 4222.8,
-     "rr": 2.15,
-     "estado": "esperando retesteo",
+     "rr": 2.14,
+     "estado": "en retesteo",
      "fuerza_ruptura_atr": 0.91,
      "ruptura": "2026-10-15 16:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30117.25,
+   "precio": 30088.25,
    "atr_4h": 244.52,
    "setups": [
     {
@@ -9823,7 +9820,7 @@
     }
    ]
   },
-  "ts": "2026-10-16T11:32:33Z"
+  "ts": "2026-10-16T11:47:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10395,6 +10392,7 @@
   "6bfee173c9",
   "23a2f478a4",
   "290ad95a33",
-  "ecf6c4cb86"
+  "ecf6c4cb86",
+  "c3013a81c0"
  ]
 }
