@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4178.1 · NQ 29333.5 · VIX 20.47",
-   "actualizado": "2026-10-16T19:07:34Z"
+   "ultimo_resultado": "Oro 4180.8 · NQ 29349.75 · VIX 21.2 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-16T19:12:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T19:07:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-16T19:12:40Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: El Nasdaq cae más de un 2% al surgir dudas sobre la deuda en IA"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4180.8 · NQ 29349.75 · VIX 21.2 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-16T19:12:41Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4178.1 · NQ 29333.5 · VIX 20.47",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4192.8 · NQ 30187.25 · VIX 16.46 · 1 noticias nuevas",
    "ts": "2026-10-16T05:57:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4190.9 · NQ 30174.0 · VIX 16.46",
-   "ts": "2026-10-16T05:52:48Z"
   }
  ],
  "briefs": [
@@ -7325,12 +7325,26 @@
   }
  },
  "en_vivo": {
-  "oro": 4178.1,
-  "nq": 29333.5,
-  "vix": 20.47,
-  "ts": "2026-10-16T19:07:34Z"
+  "oro": 4180.8,
+  "nq": 29349.75,
+  "vix": 21.2,
+  "ts": "2026-10-16T19:12:40Z"
  },
  "noticias": [
+  {
+   "titulo": "Nasdaq sinks more than 2% as investors raise questions about AI debt",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLaXBzTHdSMHNvM2RaR1A4d29PXy1NVHJKY1FoOTlTWHFsbFZmOHZsLW9wMW44QzRwT3E1QXkxQXg5bUhRVzV3OE5OS0RlUjllVklOY0xKSVNuTFdLVzJ2eE8wdVpRSlZYeHZLcUw3OERFLTQ?oc=5",
+   "ts": "2026-10-16T19:10:31Z",
+   "fuente": "CNN",
+   "id": "5633eee865",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El Nasdaq cae más de un 2% al surgir dudas sobre la deuda en IA",
+   "efecto": "Genera ventas masivas en tecnología, fortaleciendo al dólar como refugio."
+  },
   {
    "titulo": "Nasdaq tumbles 2%, heads for worst week since April 2025 as investors rotate out of AI trade and oil rises: Live updates",
    "link": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html",
@@ -7341,6 +7355,17 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Circle Plans Push Into 40 Emerging Markets as Stablecoins Go Mainstream, CEO Says",
+   "link": "https://decrypt.co/381178/circle-40-emerging-markets-stablecoins-go-mainstream?.tsrc=rss",
+   "ts": "2026-10-16T18:55:37Z",
+   "fuente": "Yahoo Finance",
+   "id": "279e9589df",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Circle planea expandirse a 40 mercados emergentes mientras las criptomonedas se masifican",
+   "efecto": "Sin impacto inmediato en metales preciosos o índices bursátiles tradicionales."
   },
   {
    "titulo": "Apple’s $1,999 iPhone Duo puts the company's status-symbol power to the test",
@@ -8189,28 +8214,6 @@
    "impacto": "medio",
    "es": "S&P 500 sin grandes cambios y apunta a una semana perdedora",
    "efecto": "Genera cautela en el NQ ante la debilidad semanal del mercado."
-  },
-  {
-   "titulo": "Here's how the CoreWeave sell-off is affecting OpenAI vs. Anthropic valuations",
-   "link": "https://www.cnbc.com/2026/10/16/coreweave-openai-anthropic-perps.html",
-   "ts": "2026-10-16T13:43:53Z",
-   "fuente": "CNBC",
-   "id": "3094c67826",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "The price of gold today, Oct. 16, 2026 — and the best places to buy",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwNjJIVl9LaVZZamFYYnY2YnR4WnRFWDlGREVBSkVMeThpT3FvVzY0eXZmR094eElQQzBUZzVmd0ZqRWk2c3VlS2g2a2x6dUtSUmxrTWFzQVNmTjVTMG4tdmoxVmJ4ZUxQREVOclRnQ0dyd9IBd0FVX3lxTE1rRmd0LUtSZ19WSUo0UHBab2VXbXpSWEhiUXdzanM1ZVprX1NtUkw4cnlLNDdXQUpDRW4xbFBHUHdpd0F3RE5QbEQzc1RsOXlnNXItUjlOMFhPM0ZBYUdzeXR6Q1hKazYycmpHSTloT0xFbkhsX0o0?oc=5",
-   "ts": "2026-10-16T13:41:43Z",
-   "fuente": "CNBC",
-   "id": "a7d0ad3186",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Precio del oro hoy, 16 de octubre de 2026, y mejores lugares para comprar",
-   "efecto": "Ruido minorista, sin impacto institucional relevante en el precio."
   }
  ],
  "eventos_avisados": [
@@ -8227,13 +8230,6 @@
  ],
  "velas": {
   "oro": [
-   [
-    1791849600,
-    4194.5,
-    4195.7,
-    4177.0,
-    4181.5
-   ],
    [
     1791853200,
     4181.8,
@@ -8848,24 +8844,24 @@
     4183.8,
     4188.6,
     4176.3,
-    4178.7
+    4180.7
    ],
    [
-    1792177045,
-    4178.1,
-    4178.1,
-    4178.1,
-    4178.1
+    1792177200,
+    4180.4,
+    4181.4,
+    4179.3,
+    4181.3
+   ],
+   [
+    1792177356,
+    4180.8,
+    4180.8,
+    4180.8,
+    4180.8
    ]
   ],
   "nq": [
-   [
-    1791846000,
-    30878.5,
-    30879.0,
-    30803.5,
-    30811.25
-   ],
    [
     1791849600,
     30810.25,
@@ -9480,14 +9476,21 @@
     29448.25,
     29461.75,
     29314.75,
-    29330.0
+    29359.25
    ],
    [
-    1792177053,
-    29333.5,
-    29333.5,
-    29333.5,
-    29333.5
+    1792177200,
+    29359.25,
+    29360.0,
+    29328.0,
+    29356.0
+   ],
+   [
+    1792177360,
+    29349.75,
+    29349.75,
+    29349.75,
+    29349.75
    ]
   ],
   "vix": [
@@ -9965,18 +9968,18 @@
     20.87,
     21.93,
     20.34,
-    20.53
+    21.13
    ],
    [
-    1792176751,
-    20.47,
-    20.47,
-    20.47,
-    20.47
+    1792177051,
+    21.2,
+    21.2,
+    21.2,
+    21.2
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-16T18:32:48Z",
+ "noticias_traducidas_ts": "2026-10-16T19:12:35Z",
  "ult_4h": 1792177356.218936,
  "estrategia_4h": {
   "oro": {
@@ -10729,6 +10732,8 @@
   "b8348e2950",
   "dd5a96fc01",
   "6d202eeeeb",
-  "f2c3fc8c71"
+  "f2c3fc8c71",
+  "5633eee865",
+  "279e9589df"
  ]
 }
