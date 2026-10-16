@@ -3177,9 +3177,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando restaurantes y comida sin página web cerca de Las Vegas Blvd N…",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-10-16T01:02:40Z"
+   "actualizado": "2026-10-16T01:02:41Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -3207,6 +3207,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando restaurantes y comida sin página web cerca de Las Vegas Blvd N…",
+   "ts": "2026-10-16T01:02:41Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 140 textos listos para mandar",
@@ -4701,11 +4706,6 @@
    "agente": "vendedor",
    "texto": "Terminó su turno: 0 enviados, 0 en borrador, 123 textos listos para ti",
    "ts": "2026-10-13T17:52:39Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
-   "ts": "2026-10-13T17:27:32Z"
   }
  ],
  "reportes": {
