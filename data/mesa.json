@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4194.3 · NQ 30202.25 · VIX 16.46 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-16T05:07:33Z"
+   "ultimo_resultado": "Oro 4196.3 · NQ 30216.5 · VIX 16.46 · 1 noticias nuevas",
+   "actualizado": "2026-10-16T05:12:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T05:07:33Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Fed's Warsh withholds Fed rate signal, praises recent global tightening with 'no free riders'"
+   "actualizado": "2026-10-16T05:12:34Z",
+   "ultimo_resultado": "1 titulares nuevos: Asia FX subdued, dollar weakens after bond rally; rupee set for 2% weekly jump"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4196.3 · NQ 30216.5 · VIX 16.46 · 1 noticias nuevas",
+   "ts": "2026-10-16T05:12:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4194.3 · NQ 30202.25 · VIX 16.46 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4174.0 · NQ 29763.25 · VIX 18.01 · 3 noticias nuevas",
    "ts": "2026-10-15T14:12:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4178.7 · NQ 29631.0 · VIX 17.64 · 1 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-15T14:07:32Z"
   }
  ],
  "briefs": [
@@ -6937,10 +6937,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4194.3,
-  "nq": 30202.25,
+  "oro": 4196.3,
+  "nq": 30216.5,
   "vix": 16.46,
-  "ts": "2026-10-16T05:07:33Z"
+  "ts": "2026-10-16T05:12:34Z"
  },
  "noticias": [
   {
@@ -6964,6 +6964,17 @@
    "impacto": "bajo",
    "es": "La escasez de OPIs lleva a empresas de capital privado al mercado de deuda para pagar a inversores.",
    "efecto": "Ruido corporativo sin impacto macroeconómico inmediato en oro o NQ."
+  },
+  {
+   "titulo": "Asia FX subdued, dollar weakens after bond rally; rupee set for 2% weekly jump",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-subdued-dollar-weakens-045050819.html?.tsrc=rss",
+   "ts": "2026-10-16T04:50:50Z",
+   "fuente": "Yahoo Finance",
+   "id": "3c2bfca94a",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "One Singapore ship was sunk, but here's why others are still transiting the Strait of Hormuz",
@@ -7803,17 +7814,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "China buys the gold dip as ETF holdings hit record and holiday demand lifts Q4 outlook – WGC",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVFlYcXd0OE5KNHBLbzdRQVlxTkYxS0lzVmJfZzk4elF1eXFXeDBaUkNoNnNjOEo0OWpqNmFURC1ObUtSRWFYUTFXWHlOMW9GbFVXWi1yRTlJZ3lnNjZrYXc0OHpjZUVjaUh1RmZfN0NIa3UwVzBheDJUM19EUVo5ZGpDLUFncTQ2cjFkNTJMUXJFVml2NThOTVE0dW9wLXF6ZlJ0RFpVbnBfNGh3OWFKRElhSUNPREF2?oc=5",
-   "ts": "2026-10-15T18:29:23Z",
-   "fuente": "Kitco",
-   "id": "4a8b63d237",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -7830,13 +7830,6 @@
  ],
  "velas": {
   "oro": [
-   [
-    1791795600,
-    4198.0,
-    4202.5,
-    4192.5,
-    4197.3
-   ],
    [
     1791799200,
     4197.7,
@@ -8451,24 +8444,24 @@
     4205.0,
     4207.9,
     4193.5,
-    4194.2
+    4195.8
    ],
    [
-    1792126635,
-    4194.3,
-    4194.3,
-    4194.3,
-    4194.3
+    1792126800,
+    4195.9,
+    4197.3,
+    4195.5,
+    4196.2
+   ],
+   [
+    1792126952,
+    4196.4,
+    4196.4,
+    4196.4,
+    4196.4
    ]
   ],
   "nq": [
-   [
-    1791792000,
-    31187.75,
-    31194.5,
-    31058.25,
-    31069.75
-   ],
    [
     1791795600,
     31069.25,
@@ -9081,16 +9074,23 @@
    [
     1792123200,
     30170.75,
-    30204.5,
+    30206.5,
     30148.75,
-    30201.0
+    30200.75
    ],
    [
-    1792126651,
-    30202.25,
-    30202.25,
-    30202.25,
-    30202.25
+    1792126800,
+    30201.5,
+    30220.0,
+    30199.25,
+    30215.0
+   ],
+   [
+    1792126952,
+    30216.5,
+    30216.5,
+    30216.5,
+    30216.5
    ]
   ],
   "vix": [
@@ -10134,6 +10134,7 @@
   "caeefabc39",
   "88c7b4a469",
   "9edfab3f5b",
-  "e21fd7f4af"
+  "e21fd7f4af",
+  "3c2bfca94a"
  ]
 }
