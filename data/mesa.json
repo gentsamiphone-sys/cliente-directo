@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4207.8 · NQ 29876.0 · VIX 15.98",
-   "actualizado": "2026-10-16T14:27:37Z"
+   "ultimo_resultado": "Oro 4214.2 · NQ 29874.25 · VIX 16.08 · 1 noticias nuevas",
+   "actualizado": "2026-10-16T14:32:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T14:27:36Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-16T14:32:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Sickle cell gene therapies offer new hope, but access remains a major challenge"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4214.2 · NQ 29874.25 · VIX 16.08 · 1 noticias nuevas",
+   "ts": "2026-10-16T14:32:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4207.8 · NQ 29876.0 · VIX 15.98",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4181.5 · NQ 30060.25 · VIX 16.46 · 1 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-16T01:22:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4176.4 · NQ 30056.25 · VIX 16.46 · 1 noticias nuevas",
-   "ts": "2026-10-16T01:17:37Z"
   }
  ],
  "briefs": [
@@ -7325,10 +7325,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4207.8,
-  "nq": 29876.0,
-  "vix": 15.98,
-  "ts": "2026-10-16T14:27:37Z"
+  "oro": 4214.2,
+  "nq": 29874.25,
+  "vix": 16.08,
+  "ts": "2026-10-16T14:32:32Z"
  },
  "noticias": [
   {
@@ -7483,6 +7483,15 @@
    "ts": "2026-10-16T13:19:30Z",
    "fuente": "CNBC",
    "id": "160c7f28bb",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Sickle cell gene therapies offer new hope, but access remains a major challenge",
+   "link": "https://www.cnbc.com/2026/10/16/sickle-cell-gene-therapies-offer-new-hope-accessing-them-is-hard.html",
+   "ts": "2026-10-16T13:19:09Z",
+   "fuente": "CNBC",
+   "id": "ae85866478",
    "activos": [],
    "impacto": "bajo"
   },
@@ -8200,17 +8209,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "US Dollar Price Forecast: Warsh Holds Fire, DXY Tests 101.80 as EUR/USD, GBP/USD Gain",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-warsh-082128574.html?.tsrc=rss",
-   "ts": "2026-10-16T08:21:28Z",
-   "fuente": "Yahoo Finance",
-   "id": "338f64dae8",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -8846,16 +8844,16 @@
    [
     1792159200,
     4206.3,
-    4214.1,
-    4202.4,
-    4207.4
+    4216.2,
+    4170.1,
+    4216.2
    ],
    [
-    1792159785,
-    4207.8,
-    4207.8,
-    4207.8,
-    4207.8
+    1792160552,
+    4214.9,
+    4214.9,
+    4214.9,
+    4214.9
    ]
   ],
   "nq": [
@@ -9478,16 +9476,16 @@
    [
     1792159200,
     29838.25,
-    29882.75,
+    29889.75,
     29786.75,
-    29865.75
+    29867.0
    ],
    [
-    1792160078,
-    29870.25,
-    29870.25,
-    29870.25,
-    29870.25
+    1792160551,
+    29874.25,
+    29874.25,
+    29874.25,
+    29874.25
    ]
   ],
   "vix": [
@@ -9935,68 +9933,68 @@
    [
     1792159200,
     15.93,
-    16.05,
+    16.14,
     15.82,
-    16.0
+    16.06
    ],
    [
-    1792159771,
-    15.98,
-    15.98,
-    15.98,
-    15.98
+    1792160251,
+    16.08,
+    16.08,
+    16.08,
+    16.08
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-16T14:22:33Z",
- "ult_4h": 1792160256.0997446,
+ "ult_4h": 1792161152.6594992,
  "estrategia_4h": {
   "oro": {
-   "precio": 4206.8,
-   "atr_4h": 31.76,
+   "precio": 4214.2,
+   "atr_4h": 32.34,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4164.24,
+     "stop": 4163.89,
      "objetivo": 4222.8,
-     "rr": 2.07,
+     "rr": 2.04,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.88,
+     "fuerza_ruptura_atr": 0.87,
      "ruptura": "2026-10-15 16:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29831.5,
-   "atr_4h": 255.66,
+   "precio": 29874.25,
+   "atr_4h": 256.77,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30523.4,
+     "stop": 30524.06,
      "objetivo": 29622.5,
-     "rr": 4.87,
+     "rr": 4.85,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.68,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30604.75,
-     "entrada": 30604.75,
-     "stop": 30758.15,
+     "nivel": 30504.5,
+     "entrada": 30504.5,
+     "stop": 30658.56,
      "objetivo": 29622.5,
-     "rr": 6.4,
+     "rr": 5.73,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.68,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-16T14:17:36Z"
+  "ts": "2026-10-16T14:32:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10617,6 +10615,7 @@
   "88ed09af5b",
   "6d5bcc109f",
   "77d3ae286c",
-  "0ec793c32e"
+  "0ec793c32e",
+  "ae85866478"
  ]
 }
