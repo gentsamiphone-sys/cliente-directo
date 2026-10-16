@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4217.9 · NQ 29832.5 · VIX 16.08 · 1 noticias nuevas",
-   "actualizado": "2026-10-16T14:42:32Z"
+   "ultimo_resultado": "Oro 4211.2 · NQ 29895.0 · VIX 16.0 · 6 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-16T14:47:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T14:42:31Z",
-   "ultimo_resultado": "1 titulares nuevos: Kathryn Serra’s Gold Medal Gamble"
+   "actualizado": "2026-10-16T14:47:33Z",
+   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: SpaceX AI policy leader grilled by NYC Council on Grok safety, sexualized images"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4211.2 · NQ 29895.0 · VIX 16.0 · 6 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-16T14:47:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4217.9 · NQ 29832.5 · VIX 16.08 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4171.2 · NQ 30049.25 · VIX 16.46 · 2 noticias nuevas",
    "ts": "2026-10-16T01:37:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4175.6 · NQ 30061.75 · VIX 16.46 · 1 noticias nuevas",
-   "ts": "2026-10-16T01:32:33Z"
   }
  ],
  "briefs": [
@@ -7325,12 +7325,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4217.9,
-  "nq": 29832.5,
-  "vix": 16.08,
-  "ts": "2026-10-16T14:42:32Z"
+  "oro": 4211.2,
+  "nq": 29895.0,
+  "vix": 16.0,
+  "ts": "2026-10-16T14:47:34Z"
  },
  "noticias": [
+  {
+   "titulo": "SpaceX AI policy leader grilled by NYC Council on Grok safety, sexualized images",
+   "link": "https://www.cnbc.com/2026/10/16/spacex-policy-manger-to-testify-in-nyc-council-ai-safety-investigation.html",
+   "ts": "2026-10-16T14:45:37Z",
+   "fuente": "CNBC",
+   "id": "3106282056",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Kathryn Serra’s Gold Medal Gamble",
    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA4LW9HWHh1NnRrdDYwalFTMGtYMk5EeEcyblkzRU5XdHBfc3U5aTEwZklVcVVTbnJTV185UzU1VUtLdlByN0pPcWhJX3k1ZHJxM3hWcXFBRjloM0U1azF5S2dBQWM0Um9SR0Rsd05kN2kxSGVhcTlhVTlkME1fdw?oc=5",
@@ -7341,6 +7350,15 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Deutsche Bank Prepares To Launch Crypto Custody Services",
+   "link": "https://www.cryptoprowl.com/releases/deutsche-bank-prepares-to-launch-crypto-custody-services-7340?.tsrc=rss",
+   "ts": "2026-10-16T14:23:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "98555f49e4",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Dow jumps 150 points, Nasdaq slides as investors continue to rotate out of AI stocks: Live updates",
@@ -7383,6 +7401,17 @@
    "efecto": "Noticia corporativa sectorial sin impacto macroeconómico relevante."
   },
   {
+   "titulo": "Nasdaq Announces Trading Resumption for CN Healthy Food Tech Group Corp. Common Stock and Warrants on October 19, 2026",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQa2RRd0xPUjd0VHVCbC1uRUc4NlJFOWh5QnU5a01rQ19tZmFraUItT3h4SURLb245dEhIUXg2aHN0Zk0wV0xLOExrNnJLTndUS2dCNkJfZnNCd0gxZ3BPT1JJaEw4YXRLaXk4Z2JkclZBOUlfY3c0MkZvQ0Zlc2t6T0RteEk3dXJ2SDIzSDcwRExmUW5vVmxDeDdJb21IZGJ2LVBsajVpZVNzYkFXbHVsaWQzTXZ1YTJjTVFiR2RGTW1pd0Zackt1a1hrclVmOVc5cUtOZ2F0ZEx6Q3FvSGptd24xWmdaR1Zz?oc=5",
+   "ts": "2026-10-16T14:10:00Z",
+   "fuente": "Quiver Quantitative",
+   "id": "e559e6d086",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "AI 'espionage' is a reality that companies need to be 'wary of,' DNI Jay Clayton says",
    "link": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html",
    "ts": "2026-10-16T14:02:14Z",
@@ -7397,6 +7426,17 @@
    "ts": "2026-10-16T14:00:00Z",
    "fuente": "Yahoo Finance",
    "id": "e9a0734a38",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Dow rises while Nasdaq slips as chip stocks pull Wall Street toward a weekly loss",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFVzI5c0t2ZW9tY1ZBd096QkF1MmhRbkhpNnNGNmdXWHljOGRwdC1MdWN1NVUyTHFsMFF0OEY5ZHdpeXJCb1dQMC01UmZQU0kxaGtOSy1KdFRCNVE2bXNTODZKU3o1aXlIZGRFXzlsZw?oc=5",
+   "ts": "2026-10-16T13:58:15Z",
+   "fuente": "Quartz",
+   "id": "274d07b67c",
    "activos": [
     "nq"
    ],
@@ -7516,6 +7556,17 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "US Stocks Set for Muted Open as Investors Assess Inflation Data and Technology Sector Volatility: Dow Jones, S&P, Nasdaq, Wall Street",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONE85bS1BQ0FaajVwTjM1akdrRUZicTNmOHlUYzFMenl2SXFST0gwUDNSVUZBOGw0b0xEdkxjTk14Vkx4d2dhNnJ5Vzd0aEYtdFAyYTRJMnZnUXpwdHVOTlRQTHlqSkdxTVFWalhpMEFZNWpXV2JRSnVjSDllNnMxQTR0ZWk1N0hsOHpIMENBWUpYeEk?oc=5",
+   "ts": "2026-10-16T13:13:23Z",
+   "fuente": "Yahoo Finance",
+   "id": "815f7391f6",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Current price of gold as of October 16, 2026",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1vem1FM3F2amdMWHZfb1BaNmlNV1JERk8zY3J1MnVIU0dqS3hYV0pwcXBkZUtNaXhJdUZBdUtEckU4V21jMEJuSHl2dXFLaWZzSm9hc3k0cG5SQktHVkw3ZDBLQm5MRzROQzlDSlVR?oc=5",
    "ts": "2026-10-16T13:09:00Z",
@@ -7556,6 +7607,17 @@
    "id": "57ecb33078",
    "activos": [
     "oro",
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "WaFd Bank (NASDAQ:WAFD) Reports Q3 CY2026 Earnings",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTzd5bzZ3S1dqNUNaZFduNmZfeTRKLTdvYllrQVJEZ1FrR25uNWFnVEdLRnRqOUt2SWZFWloxSnRQR0UxUnhoaEMzOEhVcUdFU2pZUmVPbzZkLVlRUjNYbVJZc1FxUFprWXhya3Q2U0YwdnQwUVA1VDJJSlV1a3J5NXVpVnZISUNJUXgxMG9Td29NczE1ZnFpVWZ3?oc=5",
+   "ts": "2026-10-16T12:56:26Z",
+   "fuente": "Yahoo Finance",
+   "id": "0a8e92d6d7",
+   "activos": [
     "nq"
    ],
    "impacto": "medio"
@@ -8138,77 +8200,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Gold Prices Rise as Lower US Treasury Yields and Weaker Dollar Support Precious Metals",
-   "link": "https://investorshub.advfn.com/market-news/article/38158/gold-prices-rise-as-lower-us-treasury-yields-and-weaker-dollar-support-precious-metals?.tsrc=rss",
-   "ts": "2026-10-16T09:05:17Z",
-   "fuente": "Yahoo Finance",
-   "id": "04b091e218",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Dollar Falls on AI Concerns, Cautious Fed Comments",
-   "link": "https://finance.yahoo.com/m/487dbe39-5f35-3c51-a4f2-7b8a77dae46c/dollar-falls-on-ai-concerns%2C.html?.tsrc=rss",
-   "ts": "2026-10-16T08:57:07Z",
-   "fuente": "Yahoo Finance",
-   "id": "2dd99cd145",
-   "activos": [
-    "dolar",
-    "nq",
-    "oro"
-   ],
-   "impacto": "alto",
-   "es": "El dólar cae por preocupaciones sobre IA y comentarios cautelosos de la Fed",
-   "efecto": "Debilita al dólar, favoreciendo al oro y generando cautela en el NQ."
-  },
-  {
-   "titulo": "Why Are Nasdaq Futures Edging Higher Premarket? TSLA, CRWV, TSM, NVDA, RKLB, ASST, PEP Stocks In Focus",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd2lHRlhIRDh0bzdKa2NGcXlOWGtxclJPOUtRNDZRaEY1LWExaVV0eE5sbnJvTlhXb3NzaTlrc25EaDNQV3NEOWZPWkdMYm1RbU9DRmllaUhleVpaYlhUdi1meHdtR0NYRjRSRzFuSjJoc25vcF9SOWdUMGJCUTlTOGdSMzZ1b2hnMkN2TmlYY3pWaGR6NkVtdlBNZ1JXQQ?oc=5",
-   "ts": "2026-10-16T08:42:53Z",
-   "fuente": "Yahoo Finance",
-   "id": "0f65af5b14",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "The Gold Coins He Found Metal-Detecting Were Taxable the Day He Found Them, Not the Day He Sold Them.",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTy1lVFp0ZnB1WmZNd1VEbHlsR0I4VzRUemZhd0xwYTJ1alVtdFY0c0d0WXFsR01vT1MtYW9HNjNXRmFLM0xKcVpjcEI4RmxkU0xrS0tjcmMySGN0QktZQ2VpSXozXzR2THd5ellzWjQwUlhfM3J3bEN3djN4d05SZExveWluc3daWVpEaFN5a1Y1OUpjajlyLTJaY2RjNkJMZzNwcQ?oc=5",
-   "ts": "2026-10-16T08:39:15Z",
-   "fuente": "Yahoo Finance",
-   "id": "365127001c",
-   "activos": [
-    "oro",
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Buy 5 Top-Ranked Non-Tech Nasdaq Stocks to Maximize Q4 Gains",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMURKN3VEYjBKMnNTYjdkWnIyakdZV1o1X05jUGhlaXFfWFpON29ab3M3ZmMwX3hqT3U3c2lpdGpIazVOOGhmcmNGVDFLVjN5dEVuWWpGSUpLTzc4Y3gtdmk3NG5nWTJFeGEtRjJ6UUNyZzd3ZTFFbmJmZDR0cG5fWHVhMHhhbWY4TF9qOHZ3?oc=5",
-   "ts": "2026-10-16T08:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "24008d85d6",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "NEM to Report Q3 Earnings: What's in the Offing for the Stock?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/nem-report-q3-earnings-whats-083000146.html?.tsrc=rss",
-   "ts": "2026-10-16T08:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "976b04167f",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -8846,14 +8837,14 @@
     4206.1,
     4220.4,
     4170.1,
-    4214.9
+    4211.2
    ],
    [
-    1792161149,
-    4217.9,
-    4217.9,
-    4217.9,
-    4217.9
+    1792161451,
+    4211.4,
+    4211.4,
+    4211.4,
+    4211.4
    ]
   ],
   "nq": [
@@ -9476,16 +9467,16 @@
    [
     1792159200,
     29837.25,
-    29889.75,
+    29906.0,
     29786.75,
-    29848.75
+    29899.5
    ],
    [
-    1792161151,
-    29832.5,
-    29832.5,
-    29832.5,
-    29832.5
+    1792161455,
+    29887.0,
+    29887.0,
+    29887.0,
+    29887.0
    ]
   ],
   "vix": [
@@ -9935,39 +9926,39 @@
     15.93,
     16.15,
     15.82,
-    16.05
+    16.03
    ],
    [
-    1792160836,
-    16.08,
-    16.08,
-    16.08,
-    16.08
+    1792161151,
+    16.0,
+    16.0,
+    16.0,
+    16.0
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-16T14:22:33Z",
- "ult_4h": 1792161152.6594992,
+ "ult_4h": 1792162054.3739457,
  "estrategia_4h": {
   "oro": {
-   "precio": 4214.2,
-   "atr_4h": 32.34,
+   "precio": 4211.4,
+   "atr_4h": 32.59,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4163.89,
+     "stop": 4163.75,
      "objetivo": 4222.8,
-     "rr": 2.04,
+     "rr": 2.02,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.87,
+     "fuerza_ruptura_atr": 0.86,
      "ruptura": "2026-10-15 16:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29874.25,
+   "precio": 29895.0,
    "atr_4h": 256.77,
    "setups": [
     {
@@ -9994,7 +9985,7 @@
     }
    ]
   },
-  "ts": "2026-10-16T14:32:32Z"
+  "ts": "2026-10-16T14:47:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10618,6 +10609,12 @@
   "0ec793c32e",
   "ae85866478",
   "006635b182",
-  "381424a433"
+  "381424a433",
+  "3106282056",
+  "98555f49e4",
+  "e559e6d086",
+  "274d07b67c",
+  "815f7391f6",
+  "0a8e92d6d7"
  ]
 }
