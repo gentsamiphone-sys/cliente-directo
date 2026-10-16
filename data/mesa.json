@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4176.2 · NQ 30067.25 · VIX 16.46",
-   "actualizado": "2026-10-16T01:12:31Z"
+   "ultimo_resultado": "Oro 4176.4 · NQ 30056.25 · VIX 16.46 · 1 noticias nuevas",
+   "actualizado": "2026-10-16T01:17:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T01:12:30Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-16T01:17:35Z",
+   "ultimo_resultado": "1 titulares nuevos: Tesla revela el Roadster de próxima generación tras casi una década de retrasos"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4176.4 · NQ 30056.25 · VIX 16.46 · 1 noticias nuevas",
+   "ts": "2026-10-16T01:17:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4176.2 · NQ 30067.25 · VIX 16.46",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4171.6 · NQ 29852.0 · VIX 17.35 · 1 noticias nuevas",
    "ts": "2026-10-15T12:02:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4172.9 · NQ 29867.5 · VIX 17.33 · 2 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-15T11:57:41Z"
   }
  ],
  "briefs": [
@@ -6937,12 +6937,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4176.2,
-  "nq": 30067.25,
+  "oro": 4176.4,
+  "nq": 30056.25,
   "vix": 16.46,
-  "ts": "2026-10-16T01:12:31Z"
+  "ts": "2026-10-16T01:17:36Z"
  },
  "noticias": [
+  {
+   "titulo": "Tesla reveals next-generation Roadster after almost a decade of delays",
+   "link": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html",
+   "ts": "2026-10-16T01:16:47Z",
+   "fuente": "CNBC",
+   "id": "f26239cfad",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "Tesla revela el Roadster de próxima generación tras casi una década de retrasos",
+   "efecto": "Impulsa ligeramente al sector EV y al sentimiento en el Nasdaq."
+  },
   {
    "titulo": "India's rupee forecast to weaken toward 100-per-dollar level even as RBI pushes back",
    "link": "https://www.cnbc.com/2026/10/16/india-rupee-rbi-dollar-iran-war.html",
@@ -7802,15 +7815,6 @@
    "impacto": "alto",
    "es": "Preocupaciones sobre el endeudamiento por IA impulsan a los inversores hacia el Dow Jones y bonos del Tesoro",
    "efecto": "Presiona al NQ a la baja por rotación sectorial fuera de tecnología."
-  },
-  {
-   "titulo": "International Energy Agency to release more than 20 million barrels of diesel as soon as possible",
-   "link": "https://www.cnbc.com/2026/10/15/iea-diesel-price-ukraine-iran-oil.html",
-   "ts": "2026-10-15T16:37:28Z",
-   "fuente": "CNBC",
-   "id": "c7a64a0e7e",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -8445,16 +8449,16 @@
    [
     1792112400,
     4176.9,
-    4178.8,
+    4179.1,
     4174.0,
-    4176.3
+    4175.5
    ],
    [
-    1792112548,
-    4176.2,
-    4176.2,
-    4176.2,
-    4176.2
+    1792112855,
+    4176.4,
+    4176.4,
+    4176.4,
+    4176.4
    ]
   ],
   "nq": [
@@ -9079,14 +9083,14 @@
     30039.75,
     30071.75,
     30039.75,
-    30061.75
+    30053.25
    ],
    [
-    1792112551,
-    30067.75,
-    30067.75,
-    30067.75,
-    30067.75
+    1792112847,
+    30056.25,
+    30056.25,
+    30056.25,
+    30056.25
    ]
   ],
   "vix": [
@@ -9589,43 +9593,43 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-16T00:27:33Z",
- "ult_4h": 1792112573.6710067,
+ "noticias_traducidas_ts": "2026-10-16T01:17:30Z",
+ "ult_4h": 1792113456.0108216,
  "estrategia_4h": {
   "oro": {
-   "precio": 4177.1,
-   "atr_4h": 28.03,
+   "precio": 4176.4,
+   "atr_4h": 28.09,
    "setups": []
   },
   "nq": {
-   "precio": 30051.0,
-   "atr_4h": 232.84,
+   "precio": 30056.25,
+   "atr_4h": 233.59,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30509.7,
+     "stop": 30510.15,
      "objetivo": 29622.5,
-     "rr": 5.35,
+     "rr": 5.33,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.85,
+     "fuerza_ruptura_atr": 1.84,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30504.5,
      "entrada": 30504.5,
-     "stop": 30644.2,
+     "stop": 30644.65,
      "objetivo": 29622.5,
-     "rr": 6.31,
+     "rr": 6.29,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.85,
+     "fuerza_ruptura_atr": 1.84,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-16T01:02:53Z"
+  "ts": "2026-10-16T01:17:36Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10100,6 +10104,7 @@
   "f4923ad556",
   "d1cfff5a5d",
   "d4a22cb0e8",
-  "84e527cae3"
+  "84e527cae3",
+  "f26239cfad"
  ]
 }
