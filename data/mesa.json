@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4177.8 · NQ 30048.25 · VIX 15.88 · 1 noticias nuevas",
-   "actualizado": "2026-10-16T13:37:34Z"
+   "ultimo_resultado": "Oro 4178.3 · NQ 30016.75 · VIX 15.92 · 3 noticias nuevas",
+   "actualizado": "2026-10-16T13:42:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T13:37:33Z",
-   "ultimo_resultado": "1 titulares nuevos: US Dollar Price Forecast: Warsh Holds Fire, DXY Tests 101.80 as EUR/USD, GBP/USD Gain"
+   "actualizado": "2026-10-16T13:42:35Z",
+   "ultimo_resultado": "3 titulares nuevos: Tesla unveils long-delayed Roadster developed with SpaceX, fueling merger speculation"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4178.3 · NQ 30016.75 · VIX 15.92 · 3 noticias nuevas",
+   "ts": "2026-10-16T13:42:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4177.8 · NQ 30048.25 · VIX 15.88 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4174.7 · NQ 29978.5 · VIX 16.46 · 1 noticias nuevas",
    "ts": "2026-10-16T00:32:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4176.8 · NQ 30016.0 · VIX 16.46 · 2 noticias nuevas",
-   "ts": "2026-10-16T00:27:35Z"
   }
  ],
  "briefs": [
@@ -7325,12 +7325,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4177.8,
-  "nq": 30048.25,
-  "vix": 15.88,
-  "ts": "2026-10-16T13:37:33Z"
+  "oro": 4178.3,
+  "nq": 30016.75,
+  "vix": 15.92,
+  "ts": "2026-10-16T13:42:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Tesla unveils long-delayed Roadster developed with SpaceX, fueling merger speculation",
+   "link": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html",
+   "ts": "2026-10-16T13:41:39Z",
+   "fuente": "CNBC",
+   "id": "12ee0a27c3",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "S&P 500 ticks higher, but index heads for losing week: Live updates",
    "link": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html",
@@ -7348,6 +7359,15 @@
    "ts": "2026-10-16T13:19:30Z",
    "fuente": "CNBC",
    "id": "160c7f28bb",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "'We are scared': Locals say Canadian miner's Nigerian venture is putting their community at risk",
+   "link": "https://financialpost.com/feature/canadian-miner-nigerian-venture-puts-community-at-risk-locals-say?.tsrc=rss",
+   "ts": "2026-10-16T13:15:50Z",
+   "fuente": "Yahoo Finance",
+   "id": "7e9b4791ea",
    "activos": [],
    "impacto": "bajo"
   },
@@ -7593,6 +7613,17 @@
     "dolar"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Stock market today: Dow, S&P 500, Nasdaq mixed amid volatile week",
+   "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112939401.html?.tsrc=rss",
+   "ts": "2026-10-16T11:29:39Z",
+   "fuente": "Yahoo Finance",
+   "id": "4891ed443f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Stock market today: Dow, S&P 500, Nasdaq futures mixed amid volatile week",
@@ -8189,37 +8220,6 @@
    "impacto": "alto",
    "es": "Warsh de la Fed evita señalar tasas y alaba el endurecimiento global",
    "efecto": ""
-  },
-  {
-   "titulo": "​​​​​​​MARKETS LIVE: European stocks recover after tech sell-off as FTSE 250 outperforms and US futures remain mixed",
-   "link": "https://www.proactiveinvestors.com/companies/news/1100209/markets-live-mid-cap-shares-outperform-blue-chips-as-ftse-250-rises-and-ftse-100-slips-1100209.html?.tsrc=rss",
-   "ts": "2026-10-16T06:03:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "d5ccf00d69",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Hill, Jones agree on tariffs, disagree elsewhere in spirited debate",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWmhVbGtHc211Nm41Z0NlaVBHUGpsTkxFd08xZG9ObmxjT0hlTXZLUENIblpJa1l5cjY3WXl4OEtlSlhqNFNONHUxeGFPMnBuRXQtYVFGR0Fld0FEcVBmZlFlbWNmdVRydVpab1BiYjhFdlRMQVJZeEV4OEVEaDl0Q0ZzbmRldXNpWGg2dmxGcmZOSTU2cWJmb3NzSDZrS2k5?oc=5",
-   "ts": "2026-10-16T05:58:29Z",
-   "fuente": "Talk Business & Politics",
-   "id": "21669be8ac",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "√(18+Viral@X!! Gold Medalist Viral Philippines Video",
-   "link": "https://news.google.com/rss/articles/CBMi1ANBVV95cUxNamJEdjF3ZmFwTzRhX3J2QUViRTczOF9QNU9MLUJjc0tWaDBzNE9XaVhKWHdVVXlta04wOTByNVRsdW5nZ0R6eVNORW9XX1d3d290c1hWSEtGX3c2MXBJakd6NnE5UGdNbjRWR2J6bUFUMUVhal9CRlRpVnlZNFlzRXAtZEJ6RHg2OS14cTh6MHhrLU8wSGhuLVdac2ZLSl9vMTIzMlJ5Sm9VNmFIZ1FLU0o5dTR4M0MxbjBic08wZHlVRmEzZ1g5U1F5LUNMWWwwSkJRSGwtQTE4cmlEdXV2UnZYaG15VVhyQzE5MnFCcHd5RF92SWZ2ZjdkZktTcTd3U0UwMEtkMTFrYXAwQmxkdG9qTGp2TDctdWRCLUNrSm1TNzg0QURSMHVJbjFvNGpwcWxQam5SU2YxUUsyYW9BV2dTbTR6QTlVRGx0X2lNNFljYVhsSGtnRkNsemtOV3d5dDNwSFo0QjYxU3pYaWRrVGpoOTRETVVOazBTS3FZeXR4ZExHRjhuM0daNGNkU3pDNkZWekstVFBHVUF2NUNvQ3FsTEUwZmdqZkhYNGEyTnl6NWRCc3hZcmNwckNESlZjSDNvakZ4Zkxlam9FSk1pYVFJWUc?oc=5",
-   "ts": "2026-10-16T05:15:37Z",
-   "fuente": "Universidad de Córdoba (UCO)",
-   "id": "9d8a615706",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -8857,14 +8857,14 @@
     4187.3,
     4191.6,
     4175.3,
-    4177.8
+    4178.7
    ],
    [
-    1792157251,
-    4177.9,
-    4177.9,
-    4177.9,
-    4177.9
+    1792157552,
+    4178.0,
+    4178.0,
+    4178.0,
+    4178.0
    ]
   ],
   "nq": [
@@ -9488,15 +9488,15 @@
     1792155600,
     30065.0,
     30085.75,
-    30030.75,
-    30044.5
+    29962.5,
+    30011.5
    ],
    [
-    1792157252,
-    30048.25,
-    30048.25,
-    30048.25,
-    30048.25
+    1792157553,
+    30012.25,
+    30012.25,
+    30012.25,
+    30012.25
    ]
   ],
   "vix": [
@@ -9939,14 +9939,14 @@
     15.95,
     15.95,
     15.81,
-    15.88
+    15.92
    ],
    [
-    1792156951,
-    15.88,
-    15.88,
-    15.88,
-    15.88
+    1792157101,
+    15.92,
+    15.92,
+    15.92,
+    15.92
    ]
   ]
  },
@@ -10600,6 +10600,9 @@
   "160c7f28bb",
   "e609682548",
   "43d17e76f4",
-  "338f64dae8"
+  "338f64dae8",
+  "12ee0a27c3",
+  "7e9b4791ea",
+  "4891ed443f"
  ]
 }
