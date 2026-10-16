@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4189.0 · NQ 29396.0 · VIX 20.22",
-   "actualizado": "2026-10-16T20:07:32Z"
+   "ultimo_resultado": "Oro 4188.4 · NQ 29360.25 · VIX 20.04 · 1 noticias nuevas",
+   "actualizado": "2026-10-16T20:12:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T20:07:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-16T20:12:36Z",
+   "ultimo_resultado": "1 titulares nuevos: Nasdaq Sued by Triller Over Delisting Threat to Its SpaceX Deal"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4188.4 · NQ 29360.25 · VIX 20.04 · 1 noticias nuevas",
+   "ts": "2026-10-16T20:12:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4189.0 · NQ 29396.0 · VIX 20.22",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
    "ts": "2026-10-16T06:32:50Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "DXY -0.13% · 10Y 5.089 · VIX 16.46 · 7 eventos USD en el radar.",
-   "ts": "2026-10-16T06:32:49Z"
   }
  ],
  "briefs": [
@@ -7325,10 +7325,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4189.0,
-  "nq": 29396.0,
-  "vix": 20.22,
-  "ts": "2026-10-16T20:07:32Z"
+  "oro": 4188.4,
+  "nq": 29360.25,
+  "vix": 20.04,
+  "ts": "2026-10-16T20:12:37Z"
  },
  "noticias": [
   {
@@ -7392,6 +7392,17 @@
    "id": "85a9630522",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Nasdaq Sued by Triller Over Delisting Threat to Its SpaceX Deal",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTGtoWmtFb1U5b3BIcTVEUTBEOURaNS1rcHQwdmFUM1BsY2xKa2pmR2czUnVOS21kTGE0V0tCN0h1MDBnZEg5UUIzLWprdzk0S2RZdWZPLXhrUkhpM1hTU1hFMUhvbDJrdGh0akxGdE1XWmdKMk5wYXBLSVVreG5NLWpKRXBBOXI3aUUyejhuSTlwUkZTd0ZuelRPTlZoZw?oc=5",
+   "ts": "2026-10-16T19:13:00Z",
+   "fuente": "Bloomberg Law News",
+   "id": "95131e46fc",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Nasdaq sinks more than 2% as investors raise questions about AI debt",
@@ -8195,21 +8206,6 @@
    "impacto": "alto",
    "es": "El Dow sube 150 puntos y el Nasdaq cae por rotación fuera de valores de IA",
    "efecto": "Presiona al Nasdaq a la baja por salida de capital tecnológico."
-  },
-  {
-   "titulo": "4 reasons why Bank of America is in 'risk-off' mode for the next month",
-   "link": "https://www.cnbc.com/2026/10/16/4-reasons-why-bank-of-america-is-in-risk-off-mode-for-the-next-month.html",
-   "ts": "2026-10-16T14:16:08Z",
-   "fuente": "CNBC",
-   "id": "77d3ae286c",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Cuatro razones por las que Bank of America entra en modo de aversión al riesgo",
-   "efecto": "Busca refugio en oro y dólar, presiona a la baja al Nasdaq."
   }
  ],
  "eventos_avisados": [
@@ -8226,13 +8222,6 @@
  ],
  "velas": {
   "oro": [
-   [
-    1791853200,
-    4181.8,
-    4193.4,
-    4173.7,
-    4188.3
-   ],
    [
     1791856800,
     4188.1,
@@ -8847,24 +8836,24 @@
     4180.4,
     4193.3,
     4179.1,
-    4189.4
+    4189.8
    ],
    [
-    1792180649,
-    4189.0,
-    4189.0,
-    4189.0,
-    4189.0
+    1792180800,
+    4189.8,
+    4189.8,
+    4188.0,
+    4188.9
+   ],
+   [
+    1792180955,
+    4188.5,
+    4188.5,
+    4188.5,
+    4188.5
    ]
   ],
   "nq": [
-   [
-    1791849600,
-    30810.25,
-    30845.0,
-    30705.75,
-    30718.75
-   ],
    [
     1791853200,
     30721.25,
@@ -9479,14 +9468,21 @@
     29359.25,
     29430.75,
     29268.75,
-    29382.5
+    29379.5
    ],
    [
-    1792180651,
-    29396.0,
-    29396.0,
-    29396.0,
-    29396.0
+    1792180800,
+    29379.25,
+    29390.25,
+    29345.5,
+    29353.0
+   ],
+   [
+    1792180955,
+    29360.25,
+    29360.25,
+    29360.25,
+    29360.25
    ]
   ],
   "vix": [
@@ -9971,14 +9967,14 @@
     20.98,
     21.47,
     19.93,
-    20.24
+    20.07
    ],
    [
-    1792180336,
-    20.22,
-    20.22,
-    20.22,
-    20.22
+    1792180651,
+    20.04,
+    20.04,
+    20.04,
+    20.04
    ]
   ]
  },
@@ -10746,6 +10742,7 @@
   "7a07351f03",
   "8b6e859718",
   "f431d589f1",
-  "0f41339a84"
+  "0f41339a84",
+  "95131e46fc"
  ]
 }
