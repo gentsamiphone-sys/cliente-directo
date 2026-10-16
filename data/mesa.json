@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4198.1 · NQ 30057.5 · VIX 16.12 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-16T11:52:34Z"
+   "ultimo_resultado": "Oro 4198.6 · NQ 30076.5 · VIX 16.16 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-16T11:57:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T11:52:33Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Why is China buying up gold?"
+   "actualizado": "2026-10-16T11:57:32Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Buy SpaceX ahead of earnings, says Evercore ISI"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4198.6 · NQ 30076.5 · VIX 16.16 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-16T11:57:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4198.1 · NQ 30057.5 · VIX 16.12 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "ES/NQ: CONFIRMA: ES y NQ van en la misma dirección · ES alcista en 1H",
    "ts": "2026-10-15T21:33:03Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el S&P 500 (ES) con el NQ…",
-   "ts": "2026-10-15T21:33:02Z"
   }
  ],
  "briefs": [
@@ -7153,12 +7153,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4198.1,
-  "nq": 30057.5,
-  "vix": 16.12,
-  "ts": "2026-10-16T11:52:33Z"
+  "oro": 4198.6,
+  "nq": 30076.5,
+  "vix": 16.16,
+  "ts": "2026-10-16T11:57:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Buy SpaceX ahead of earnings, says Evercore ISI",
+   "link": "https://www.cnbc.com/2026/10/16/spacex-evercore-isi-price-target.html",
+   "ts": "2026-10-16T11:55:17Z",
+   "fuente": "CNBC",
+   "id": "195952b52a",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Fed's Warsh withholds rate signal, praises recent global tightening",
+   "link": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html",
+   "ts": "2026-10-16T11:53:52Z",
+   "fuente": "CNBC",
+   "id": "206b4a31ae",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Why is China buying up gold?",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQUw2cmZCZDE4ZXRhMjFLY0hhX0NURzRPREl5NlZNdVJsWXpsUnY0cmpWckFqbTNLblpFN1NMUlQ5bDlwVDAxdTRFTHBrNEExb2F6MG16RzFRcldHSGg4bEZUY1FxTk9DY29CUXEyYm1LeS1xZkVINHhXcmRscTlJWndiSHjSAYoBQVVfeXFMUEdlWHNXRVhBS1FmaUM0Skp3RUJvMnFGZlA2UExCdTl3X2RlMDZYZXB2VmFBS1BOSjE5c2Nvb1NuSjU1RGwwTjM0b2U4UUxPSEJXWG12U05NX3ZBcTFLVkRxbXhVYTVDenhQOWxKeGdjUGlMbFBJN2VFZ0ZVRDd1eUprSTZ0MERJRi13?oc=5",
@@ -8030,32 +8050,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Gold inches higher as dollar softens, investors eye Fed rate outlook",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-steadies-near-4-160-015611640.html?.tsrc=rss",
-   "ts": "2026-10-16T01:56:11Z",
-   "fuente": "Yahoo Finance",
-   "id": "95a783b1c7",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio",
-   "es": "El oro sube ligeramente por debilitamiento del dólar y expectativas de tasas de la Fed",
-   "efecto": "Sostiene al oro al alza ante la expectativa de recortes de tasas."
-  },
-  {
-   "titulo": "Gold steadies as bond rally supports bullion, weaker dollar offers further support",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-steadies-near-4-160-015611640.html?.tsrc=rss",
-   "ts": "2026-10-16T01:56:11Z",
-   "fuente": "Yahoo Finance",
-   "id": "73f8768c9f",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -8693,14 +8687,14 @@
     4195.0,
     4203.0,
     4193.5,
-    4198.7
+    4199.3
    ],
    [
-    1792150945,
-    4198.1,
-    4198.1,
-    4198.1,
-    4198.1
+    1792151247,
+    4198.6,
+    4198.6,
+    4198.6,
+    4198.6
    ]
   ],
   "nq": [
@@ -9325,14 +9319,14 @@
     30088.25,
     30138.5,
     30051.5,
-    30061.0
+    30074.5
    ],
    [
-    1792150952,
-    30057.5,
-    30057.5,
-    30057.5,
-    30057.5
+    1792151251,
+    30076.5,
+    30076.5,
+    30076.5,
+    30076.5
    ]
   ],
   "vix": [
@@ -9761,14 +9755,14 @@
     16.12,
     16.16,
     16.07,
-    16.12
+    16.14
    ],
    [
-    1792150651,
-    16.12,
-    16.12,
-    16.12,
-    16.12
+    1792150936,
+    16.16,
+    16.16,
+    16.16,
+    16.16
    ]
   ]
  },
@@ -10396,6 +10390,8 @@
   "c3013a81c0",
   "b1df56352e",
   "f3153dfb8f",
-  "5ccdbdeb3b"
+  "5ccdbdeb3b",
+  "195952b52a",
+  "206b4a31ae"
  ]
 }
