@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4178.3 · NQ 30016.75 · VIX 15.92 · 3 noticias nuevas",
-   "actualizado": "2026-10-16T13:42:35Z"
+   "ultimo_resultado": "Oro 4187.5 · NQ 29915.5 · VIX 15.85",
+   "actualizado": "2026-10-16T13:47:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T13:42:35Z",
-   "ultimo_resultado": "3 titulares nuevos: Tesla unveils long-delayed Roadster developed with SpaceX, fueling merger speculation"
+   "actualizado": "2026-10-16T13:47:34Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4187.5 · NQ 29915.5 · VIX 15.85",
+   "ts": "2026-10-16T13:47:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4178.3 · NQ 30016.75 · VIX 15.92 · 3 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4176.2 · NQ 29964.0 · VIX 16.46 · 1 noticias nuevas",
    "ts": "2026-10-16T00:38:14Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4174.7 · NQ 29978.5 · VIX 16.46 · 1 noticias nuevas",
-   "ts": "2026-10-16T00:32:34Z"
   }
  ],
  "briefs": [
@@ -7325,10 +7325,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4178.3,
-  "nq": 30016.75,
-  "vix": 15.92,
-  "ts": "2026-10-16T13:42:35Z"
+  "oro": 4187.5,
+  "nq": 29915.5,
+  "vix": 15.85,
+  "ts": "2026-10-16T13:47:35Z"
  },
  "noticias": [
   {
@@ -8857,14 +8857,14 @@
     4187.3,
     4191.6,
     4175.3,
-    4178.7
+    4189.3
    ],
    [
-    1792157552,
-    4178.0,
-    4178.0,
-    4178.0,
-    4178.0
+    1792157853,
+    4187.5,
+    4187.5,
+    4187.5,
+    4187.5
    ]
   ],
   "nq": [
@@ -9488,15 +9488,15 @@
     1792155600,
     30065.0,
     30085.75,
-    29962.5,
-    30011.5
+    29885.0,
+    29892.0
    ],
    [
-    1792157553,
-    30012.25,
-    30012.25,
-    30012.25,
-    30012.25
+    1792157855,
+    29915.5,
+    29915.5,
+    29915.5,
+    29915.5
    ]
   ],
   "vix": [
@@ -9939,31 +9939,31 @@
     15.95,
     15.95,
     15.81,
-    15.92
+    15.86
    ],
    [
-    1792157101,
-    15.92,
-    15.92,
-    15.92,
-    15.92
+    1792157551,
+    15.85,
+    15.85,
+    15.85,
+    15.85
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-16T13:17:33Z",
- "ult_4h": 1792157557.0395715,
+ "ult_4h": 1792158455.4925516,
  "estrategia_4h": {
   "oro": {
-   "precio": 4177.5,
-   "atr_4h": 31.01,
+   "precio": 4187.5,
+   "atr_4h": 30.95,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4164.7,
+     "stop": 4164.73,
      "objetivo": 4222.8,
-     "rr": 2.12,
+     "rr": 2.13,
      "estado": "en retesteo",
      "fuerza_ruptura_atr": 0.9,
      "ruptura": "2026-10-15 16:00 UTC"
@@ -9971,34 +9971,34 @@
    ]
   },
   "nq": {
-   "precio": 30049.25,
-   "atr_4h": 239.16,
+   "precio": 29915.5,
+   "atr_4h": 249.75,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30513.5,
+     "stop": 30519.85,
      "objetivo": 29622.5,
-     "rr": 5.21,
+     "rr": 4.99,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.8,
+     "fuerza_ruptura_atr": 1.72,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30504.5,
-     "entrada": 30504.5,
-     "stop": 30648.0,
+     "nivel": 30604.75,
+     "entrada": 30604.75,
+     "stop": 30754.6,
      "objetivo": 29622.5,
-     "rr": 6.15,
+     "rr": 6.55,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.8,
+     "fuerza_ruptura_atr": 1.72,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-16T13:32:37Z"
+  "ts": "2026-10-16T13:47:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
