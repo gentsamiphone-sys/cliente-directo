@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4194.1 · NQ 30112.5 · VIX 16.46",
-   "actualizado": "2026-10-16T03:27:33Z"
+   "ultimo_resultado": "Oro 4193.2 · NQ 30118.0 · VIX 16.46 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-16T03:32:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T03:27:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-16T03:32:32Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: What will you do as governor to help with tariffs?"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4193.2 · NQ 30118.0 · VIX 16.46 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-16T03:32:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4194.1 · NQ 30112.5 · VIX 16.46",
@@ -1056,11 +1061,6 @@
    "agente": "ejecucion",
    "texto": "Evaluación Alpha: ninguna idea con 5/5 confluencias. Hoy no se opera (calidad antes que cantidad).",
    "ts": "2026-10-15T12:33:41Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Brief de Nueva York publicado: Sesgo alcista en Oro y bajista en NQ; mesa en modo preservación sin entradas hoy.",
-   "ts": "2026-10-15T12:33:40Z"
   }
  ],
  "briefs": [
@@ -6937,10 +6937,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4194.1,
-  "nq": 30112.5,
+  "oro": 4193.2,
+  "nq": 30118.0,
   "vix": 16.46,
-  "ts": "2026-10-16T03:27:33Z"
+  "ts": "2026-10-16T03:32:32Z"
  },
  "noticias": [
   {
@@ -6979,6 +6979,15 @@
     "dolar"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "What will you do as governor to help with tariffs?",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVEE5MmVYcXhNTFRyY1NHMUZTNUgzc3FHSVF3TDVxcVUxSnNUNmVLZkZpV3FmRExLNGVCeHZucnZROE9DZExzd2p0cnJYQU1UTTZLTEZRWm0zTEJZZUtaMnh4bnFKMmpGSUk1QWo4WlV2X2tKc3NvcGlRaDh6MEYzLUpmdW00V3hhZWRoYzRSMFRNdXZsQzMxRVRKT19LcTAyV2NGQ3B3?oc=5",
+   "ts": "2026-10-16T01:44:04Z",
+   "fuente": "ClickOnDetroit | WDIV Local 4",
+   "id": "e718609eaa",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Gold Falls as Investors Await Fed Chairman’s Remarks",
@@ -7212,6 +7221,17 @@
    "ts": "2026-10-15T22:27:00Z",
    "fuente": "Yahoo Finance",
    "id": "d70f2c2eea",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Imsdahl, U.S. Quad Win Historic Gold at 2026 World Rowing Coastal Championships",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUXNrZ2U4Vk5nZVEzRFctelJiS0JIQjItVmxwd1BuNUVoWUZhdW5icGpuZFV5aGV5UVZReHRPNldzekd5SWFEVGJGWjJFTjRqRmluV1h4TkJCZ0M5UzBJYVhDQ0N3aGhoU2dkdDRrTzRhZVAyNENzWk1wVlZSdldpR3A3TmcwYVhkbkhyLW8zcXFnTTZsRjBqUGpWM2hIZWpV?oc=5",
+   "ts": "2026-10-15T22:19:19Z",
+   "fuente": "Cornell University Athletics",
+   "id": "598a83a92b",
    "activos": [
     "oro"
    ],
@@ -7799,27 +7819,6 @@
    "impacto": "bajo",
    "es": "Actividad inusual de opciones en 4 acciones muestra apuestas alcistas y bajistas",
    "efecto": "Sin impacto macro; ruido limitado a acciones específicas."
-  },
-  {
-   "titulo": "U.S. sues California in fight over checking citizenship of mail voters",
-   "link": "https://www.cnbc.com/2026/10/15/california-mail-ballots-voting-lawsuit.html",
-   "ts": "2026-10-15T17:23:20Z",
-   "fuente": "CNBC",
-   "id": "656ab6e1ad",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Tectonic Metals Drilling at 19 Holes in Alaska Show Near-Surface Gold Mineralization",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/tectonic-metals-drilling-19-holes-172051485.html?.tsrc=rss",
-   "ts": "2026-10-15T17:20:51Z",
-   "fuente": "Yahoo Finance",
-   "id": "a8fc211c42",
-   "activos": [
-    "oro",
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -8457,14 +8456,14 @@
     4197.1,
     4197.5,
     4192.5,
-    4193.9
+    4192.7
    ],
    [
-    1792120649,
-    4194.1,
-    4194.1,
-    4194.1,
-    4194.1
+    1792120931,
+    4193.2,
+    4193.2,
+    4193.2,
+    4193.2
    ]
   ],
   "nq": [
@@ -9089,14 +9088,14 @@
     30097.5,
     30130.5,
     30087.25,
-    30114.5
+    30119.0
    ],
    [
-    1792120651,
-    30112.5,
-    30112.5,
-    30112.5,
-    30112.5
+    1792120951,
+    30118.0,
+    30118.0,
+    30118.0,
+    30118.0
    ]
   ],
   "vix": [
@@ -9600,22 +9599,22 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-16T03:12:30Z",
- "ult_4h": 1792120656.47306,
+ "ult_4h": 1792121552.9094765,
  "estrategia_4h": {
   "oro": {
-   "precio": 4193.4,
-   "atr_4h": 30.02,
+   "precio": 4193.2,
+   "atr_4h": 30.08,
    "setups": []
   },
   "nq": {
-   "precio": 30110.0,
-   "atr_4h": 237.73,
+   "precio": 30118.0,
+   "atr_4h": 237.79,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30512.64,
+     "stop": 30512.67,
      "objetivo": 29622.5,
      "rr": 5.24,
      "estado": "esperando retesteo",
@@ -9626,16 +9625,16 @@
      "direccion": "VENTA",
      "nivel": 30604.75,
      "entrada": 30604.75,
-     "stop": 30747.39,
+     "stop": 30747.42,
      "objetivo": 29622.5,
-     "rr": 6.89,
+     "rr": 6.88,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.81,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-16T03:17:36Z"
+  "ts": "2026-10-16T03:32:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10124,6 +10123,8 @@
   "ddacdaf317",
   "4b61ef52d2",
   "7d17700311",
-  "468c6cda65"
+  "468c6cda65",
+  "e718609eaa",
+  "598a83a92b"
  ]
 }
