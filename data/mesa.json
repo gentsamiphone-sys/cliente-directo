@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4191.1 · NQ 29338.5 · VIX 20.11 · 1 noticias nuevas",
-   "actualizado": "2026-10-16T19:52:38Z"
+   "ultimo_resultado": "Oro 4190.5 · NQ 29331.75 · VIX 20.31 · 1 noticias nuevas",
+   "actualizado": "2026-10-16T19:57:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T19:52:37Z",
-   "ultimo_resultado": "1 titulares nuevos: El oro como obra maestra"
+   "actualizado": "2026-10-16T19:57:35Z",
+   "ultimo_resultado": "1 titulares nuevos: Tech stocks stumble as sell-off spreads to software"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4190.5 · NQ 29331.75 · VIX 20.31 · 1 noticias nuevas",
+   "ts": "2026-10-16T19:57:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4191.1 · NQ 29338.5 · VIX 20.11 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Historial: 11 operaciones, 27% de acierto, +7.08 R.",
    "ts": "2026-10-16T06:32:46Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Revisando cómo salieron las entradas anteriores…",
-   "ts": "2026-10-16T06:32:44Z"
   }
  ],
  "briefs": [
@@ -7325,12 +7325,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4191.1,
-  "nq": 29338.5,
-  "vix": 20.11,
-  "ts": "2026-10-16T19:52:38Z"
+  "oro": 4190.5,
+  "nq": 29331.75,
+  "vix": 20.31,
+  "ts": "2026-10-16T19:57:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Tech stocks stumble as sell-off spreads to software",
+   "link": "https://finance.yahoo.com/video/tech-stocks-stumble-as-sell-off-spreads-to-software-194829195.html?.tsrc=rss",
+   "ts": "2026-10-16T19:48:29Z",
+   "fuente": "Yahoo Finance",
+   "id": "0f41339a84",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "THE GOLD On MASTERPIECE",
    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tUENsRVlVVlRjWUNYVnVoTUNoRV9PZ2ZZRGwzWGMwaHlUUzIxSnBPVEZDTk9vYkdsaWJFUU04QUE5S1NYVDVMVEluQmRmOUg3UTdnQUhWWWJVdHduc2tid2ZyUWdYWUd3X25zLQ?oc=5",
@@ -8199,17 +8210,6 @@
    "impacto": "alto",
    "es": "Cuatro razones por las que Bank of America entra en modo de aversión al riesgo",
    "efecto": "Busca refugio en oro y dólar, presiona a la baja al Nasdaq."
-  },
-  {
-   "titulo": "Blue Origin plans $330 million Florida expansion to ramp New Glenn launches",
-   "link": "https://www.cnbc.com/2026/10/16/blue-origin-new-glenn-florida-expansion.html",
-   "ts": "2026-10-16T14:10:16Z",
-   "fuente": "CNBC",
-   "id": "0ec793c32e",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Blue Origin planea expansión de 330 millones de dólares en Florida para lanzamientos",
-   "efecto": "Noticia corporativa sectorial sin impacto macroeconómico relevante."
   }
  ],
  "eventos_avisados": [
@@ -8847,14 +8847,14 @@
     4180.4,
     4193.3,
     4179.1,
-    4190.9
+    4190.2
    ],
    [
-    1792179754,
-    4191.1,
-    4191.1,
-    4191.1,
-    4191.1
+    1792180037,
+    4190.5,
+    4190.5,
+    4190.5,
+    4190.5
    ]
   ],
   "nq": [
@@ -9479,14 +9479,14 @@
     29359.25,
     29430.75,
     29268.75,
-    29328.5
+    29343.25
    ],
    [
-    1792179757,
-    29338.5,
-    29338.5,
-    29338.5,
-    29338.5
+    1792180055,
+    29332.25,
+    29332.25,
+    29332.25,
+    29332.25
    ]
   ],
   "vix": [
@@ -9971,14 +9971,14 @@
     20.98,
     21.47,
     19.93,
-    20.1
+    20.25
    ],
    [
-    1792179451,
-    20.11,
-    20.11,
-    20.11,
-    20.11
+    1792179751,
+    20.31,
+    20.31,
+    20.31,
+    20.31
    ]
   ]
  },
@@ -10745,6 +10745,7 @@
   "a3e0d02877",
   "7a07351f03",
   "8b6e859718",
-  "f431d589f1"
+  "f431d589f1",
+  "0f41339a84"
  ]
 }
