@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T09:32:33Z",
-   "ultimo_resultado": "Estrategia 4H ORO: COMPRA: esperar retesteo de 4183.3 · stop 4165.15 · objetivo 4222.8 · R:R 2.18 (esperando retesteo). Tú ejecutas."
+   "actualizado": "2026-10-16T10:17:31Z",
+   "ultimo_resultado": "Estrategia 4H ORO: COMPRA en el nivel 4183.3 · stop 4164.97 · objetivo 4222.8 · R:R 2.15 (en retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T10:12:35Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Global equity funds draw inflows for fourth week as Treasury yields ease"
+   "actualizado": "2026-10-16T10:17:31Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H ORO: COMPRA en el nivel 4183.3 · stop 4164.97 · objetivo 4222.8 · R:R 2.15 (en retesteo). Tú ejecutas.",
+   "ts": "2026-10-16T10:17:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4196.7 · NQ 30080.75 · VIX 16.12 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-15T21:02:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4190.4 · NQ 30134.5 · VIX 16.46 · 2 noticias nuevas",
-   "ts": "2026-10-15T20:57:33Z"
   }
  ],
  "briefs": [
@@ -7153,10 +7153,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4196.7,
-  "nq": 30080.75,
-  "vix": 16.12,
-  "ts": "2026-10-16T10:12:35Z"
+  "oro": 4197.7,
+  "nq": 30078.75,
+  "vix": 16.17,
+  "ts": "2026-10-16T10:17:31Z"
  },
  "noticias": [
   {
@@ -9770,54 +9770,54 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-16T10:07:32Z",
- "ult_4h": 1792144954.416638,
+ "ult_4h": 1792145851.6120691,
  "estrategia_4h": {
   "oro": {
-   "precio": 4202.9,
-   "atr_4h": 30.3,
+   "precio": 4197.7,
+   "atr_4h": 30.55,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4165.12,
+     "stop": 4164.97,
      "objetivo": 4222.8,
-     "rr": 2.17,
-     "estado": "esperando retesteo",
+     "rr": 2.15,
+     "estado": "en retesteo",
      "fuerza_ruptura_atr": 0.92,
      "ruptura": "2026-10-15 16:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30139.5,
-   "atr_4h": 239.88,
+   "precio": 30078.75,
+   "atr_4h": 244.09,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30513.92,
+     "stop": 30516.45,
      "objetivo": 29622.5,
-     "rr": 5.19,
+     "rr": 5.1,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.8,
+     "fuerza_ruptura_atr": 1.77,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30604.75,
-     "entrada": 30604.75,
-     "stop": 30748.67,
+     "nivel": 30504.5,
+     "entrada": 30504.5,
+     "stop": 30650.95,
      "objetivo": 29622.5,
-     "rr": 6.82,
+     "rr": 6.02,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.8,
+     "fuerza_ruptura_atr": 1.77,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-16T10:02:34Z"
+  "ts": "2026-10-16T10:17:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -9840,7 +9840,8 @@
   "nq|VENTA|30356.75|esperando retesteo",
   "nq|VENTA|30372.25|esperando retesteo",
   "nq|VENTA|30512.25|esperando retesteo",
-  "oro|COMPRA|4183.3|esperando retesteo"
+  "oro|COMPRA|4183.3|esperando retesteo",
+  "oro|COMPRA|4183.3|en retesteo"
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
