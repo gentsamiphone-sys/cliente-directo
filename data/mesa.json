@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4190.9 · NQ 30174.0 · VIX 16.46",
-   "actualizado": "2026-10-16T05:52:48Z"
+   "ultimo_resultado": "Oro 4192.8 · NQ 30187.25 · VIX 16.46 · 1 noticias nuevas",
+   "actualizado": "2026-10-16T05:57:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T05:52:48Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-16T05:57:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Gold steadies as bond rally supports bullion, weaker dollar offers further support"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4192.8 · NQ 30187.25 · VIX 16.46 · 1 noticias nuevas",
+   "ts": "2026-10-16T05:57:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4190.9 · NQ 30174.0 · VIX 16.46",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4181.3 · NQ 29905.25 · VIX 17.13 · 1 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-15T15:02:45Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4176.0 · NQ 29920.5 · VIX 17.22 · 1 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-15T14:57:39Z"
   }
  ],
  "briefs": [
@@ -6937,10 +6937,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4190.9,
-  "nq": 30174.0,
+  "oro": 4192.8,
+  "nq": 30187.25,
   "vix": 16.46,
-  "ts": "2026-10-16T05:52:48Z"
+  "ts": "2026-10-16T05:57:32Z"
  },
  "noticias": [
   {
@@ -7157,6 +7157,18 @@
    "id": "54f404c123",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Gold steadies as bond rally supports bullion, weaker dollar offers further support",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-steadies-near-4-160-015611640.html?.tsrc=rss",
+   "ts": "2026-10-16T01:56:11Z",
+   "fuente": "Yahoo Finance",
+   "id": "73f8768c9f",
+   "activos": [
+    "oro",
+    "dolar"
    ],
    "impacto": "medio"
   },
@@ -7805,17 +7817,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "PREVIEW: Wrestling Holds Blue-Gold Matches",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTFRLeGViQTl3Wlp5V2JFWUJNSGFEWUE4QktWNTBqSUdHNmgxVmNiNmJmTGk0X2ltQVphT2R0WXRpUEdGNjZGMmtVN2NqS2x6RmhFeVVIZi1rRnd1LUt2bGdKWGlVY21xbFdzd0l6TFM3RVZQa1JpSnhjeDlGbFRVbHJB?oc=5",
-   "ts": "2026-10-15T18:59:45Z",
-   "fuente": "University of Tennessee at Chattanooga Athletics",
-   "id": "397de5b6d1",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "PREVIEW: Lucha libre celebra combates Azul-Oro",
-   "efecto": "Sin impacto en mercados financieros."
   }
  ],
  "eventos_avisados": [
@@ -8453,14 +8454,14 @@
     4195.9,
     4197.6,
     4190.7,
-    4191.4
+    4192.5
    ],
    [
-    1792129365,
-    4190.9,
-    4190.9,
-    4190.9,
-    4190.9
+    1792129633,
+    4192.8,
+    4192.8,
+    4192.8,
+    4192.8
    ]
   ],
   "nq": [
@@ -9085,14 +9086,14 @@
     30201.5,
     30225.0,
     30161.75,
-    30177.25
+    30183.0
    ],
    [
-    1792129365,
-    30174.0,
-    30174.0,
-    30174.0,
-    30174.0
+    1792129648,
+    30187.25,
+    30187.25,
+    30187.25,
+    30187.25
    ]
   ],
   "vix": [
@@ -10141,6 +10142,7 @@
   "9d8a615706",
   "62df95cd42",
   "01585d3818",
-  "cbd0133fdd"
+  "cbd0133fdd",
+  "73f8768c9f"
  ]
 }
