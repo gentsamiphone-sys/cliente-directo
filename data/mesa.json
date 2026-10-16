@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4179.2 · NQ 30072.0 · VIX 16.46 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-16T01:27:38Z"
+   "ultimo_resultado": "Oro 4175.6 · NQ 30061.75 · VIX 16.46 · 1 noticias nuevas",
+   "actualizado": "2026-10-16T01:32:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T01:27:37Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Progress toward a US-Mexico tariff deal has stalled, WSJ reports"
+   "actualizado": "2026-10-16T01:32:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Nothing Gold Can Stay (2026) by Rosanna Gaddoni - For Sale"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4175.6 · NQ 30061.75 · VIX 16.46 · 1 noticias nuevas",
+   "ts": "2026-10-16T01:32:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4179.2 · NQ 30072.0 · VIX 16.46 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4170.2 · NQ 29820.5 · VIX 17.53 · 2 noticias nuevas",
    "ts": "2026-10-15T12:17:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4166.5 · NQ 29809.25 · VIX 17.45",
-   "ts": "2026-10-15T12:12:31Z"
   }
  ],
  "briefs": [
@@ -6937,10 +6937,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4179.2,
-  "nq": 30072.0,
+  "oro": 4175.6,
+  "nq": 30061.75,
   "vix": 16.46,
-  "ts": "2026-10-16T01:27:37Z"
+  "ts": "2026-10-16T01:32:32Z"
  },
  "noticias": [
   {
@@ -6986,6 +6986,17 @@
    "id": "d4a22cb0e8",
    "activos": [
     "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Nothing Gold Can Stay (2026) by Rosanna Gaddoni - For Sale",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XdFVmU0JucnU4Smt3SGdMSWVXMkhzbTJ2cy1iS0huRnVIVVlIX1NSdFFZZnE1Q3ZtbWRwVVVTdzdtM0pCbTc5c2VEd2tFbHlPVjI5V2tjY3p2QU9UZW1WWlp1SDZfNElaV2o2NllZTTcwdUwydEE?oc=5",
+   "ts": "2026-10-16T00:12:09Z",
+   "fuente": "Artsy",
+   "id": "740bed2b22",
+   "activos": [
+    "oro"
    ],
    "impacto": "medio"
   },
@@ -7797,17 +7808,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Stocks making the biggest moves midday: CoreWeave, Salesforce, Rocket Lab, Kimberly-Clark & more",
-   "link": "https://www.cnbc.com/2026/10/15/stocks-making-the-biggest-moves-midday-crwv-crm-rklb-kmb.html",
-   "ts": "2026-10-15T16:46:23Z",
-   "fuente": "CNBC",
-   "id": "1aaa274394",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -8443,15 +8443,15 @@
     1792112400,
     4176.9,
     4181.7,
-    4174.0,
-    4177.5
+    4172.4,
+    4175.1
    ],
    [
-    1792113454,
-    4179.4,
-    4179.4,
-    4179.4,
-    4179.4
+    1792113750,
+    4175.6,
+    4175.6,
+    4175.6,
+    4175.6
    ]
   ],
   "nq": [
@@ -9074,16 +9074,16 @@
    [
     1792112400,
     30039.75,
-    30073.0,
+    30077.75,
     30039.75,
-    30063.0
+    30058.25
    ],
    [
-    1792113457,
-    30072.0,
-    30072.0,
-    30072.0,
-    30072.0
+    1792113746,
+    30061.75,
+    30061.75,
+    30061.75,
+    30061.75
    ]
   ],
   "vix": [
@@ -9587,42 +9587,42 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-16T01:17:30Z",
- "ult_4h": 1792113456.0108216,
+ "ult_4h": 1792114352.9399695,
  "estrategia_4h": {
   "oro": {
-   "precio": 4176.4,
-   "atr_4h": 28.09,
+   "precio": 4175.6,
+   "atr_4h": 28.28,
    "setups": []
   },
   "nq": {
-   "precio": 30056.25,
-   "atr_4h": 233.59,
+   "precio": 30061.75,
+   "atr_4h": 234.02,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30510.15,
+     "stop": 30510.41,
      "objetivo": 29622.5,
-     "rr": 5.33,
+     "rr": 5.32,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.84,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30504.5,
-     "entrada": 30504.5,
-     "stop": 30644.65,
+     "nivel": 30604.75,
+     "entrada": 30604.75,
+     "stop": 30745.16,
      "objetivo": 29622.5,
-     "rr": 6.29,
+     "rr": 7.0,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.84,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-16T01:17:36Z"
+  "ts": "2026-10-16T01:32:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10100,6 +10100,7 @@
   "84e527cae3",
   "f26239cfad",
   "a96892ced9",
-  "0e794bf974"
+  "0e794bf974",
+  "740bed2b22"
  ]
 }
