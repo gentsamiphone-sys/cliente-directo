@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T12:32:57Z",
-   "ultimo_resultado": "Mapa listo: oro 4198.8 · NQ 30114.25."
+   "actualizado": "2026-10-16T19:17:31Z",
+   "ultimo_resultado": "Estrategia 4H NQ: VENTA: esperar retesteo de 29622.5 · stop 29795.19 · objetivo 29269.5 · R:R 2.04 (esperando retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T19:12:40Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: El Nasdaq cae más de un 2% al surgir dudas sobre la deuda en IA"
+   "actualizado": "2026-10-16T19:17:31Z",
+   "ultimo_resultado": "1 titulares nuevos: What happens after bankruptcy? A debt attorney explains what comes next"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H NQ: VENTA: esperar retesteo de 29622.5 · stop 29795.19 · objetivo 29269.5 · R:R 2.04 (esperando retesteo). Tú ejecutas.",
+   "ts": "2026-10-16T19:17:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4180.8 · NQ 29349.75 · VIX 21.2 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4194.4 · NQ 30192.0 · VIX 16.46 · 1 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-16T06:02:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4192.8 · NQ 30187.25 · VIX 16.46 · 1 noticias nuevas",
-   "ts": "2026-10-16T05:57:32Z"
   }
  ],
  "briefs": [
@@ -7325,10 +7325,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4180.8,
-  "nq": 29349.75,
-  "vix": 21.2,
-  "ts": "2026-10-16T19:12:40Z"
+  "oro": 4183.0,
+  "nq": 29281.75,
+  "vix": 21.13,
+  "ts": "2026-10-16T19:17:31Z"
  },
  "noticias": [
   {
@@ -7344,6 +7344,15 @@
    "impacto": "alto",
    "es": "El Nasdaq cae más de un 2% al surgir dudas sobre la deuda en IA",
    "efecto": "Genera ventas masivas en tecnología, fortaleciendo al dólar como refugio."
+  },
+  {
+   "titulo": "What happens after bankruptcy? A debt attorney explains what comes next",
+   "link": "https://www.cnbc.com/select/how-to-rebuild-your-credit-after-bankruptcy/",
+   "ts": "2026-10-16T19:06:24Z",
+   "fuente": "CNBC",
+   "id": "1ad233c127",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Nasdaq tumbles 2%, heads for worst week since April 2025 as investors rotate out of AI trade and oil rises: Live updates",
@@ -8201,19 +8210,6 @@
    "id": "d3fc0f3590",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "S&P 500 is little changed, heads for losing week: Live updates",
-   "link": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html",
-   "ts": "2026-10-16T13:49:20Z",
-   "fuente": "CNBC",
-   "id": "ed2b3a6f91",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "S&P 500 sin grandes cambios y apunta a una semana perdedora",
-   "efecto": "Genera cautela en el NQ ante la debilidad semanal del mercado."
   }
  ],
  "eventos_avisados": [
@@ -9980,54 +9976,54 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-16T19:12:35Z",
- "ult_4h": 1792177356.218936,
+ "ult_4h": 1792178251.588373,
  "estrategia_4h": {
   "oro": {
-   "precio": 4178.0,
-   "atr_4h": 32.05,
+   "precio": 4183.0,
+   "atr_4h": 31.99,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4164.07,
+     "stop": 4164.1,
      "objetivo": 4222.8,
-     "rr": 2.05,
+     "rr": 2.06,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 0.87,
+     "fuerza_ruptura_atr": 0.88,
      "ruptura": "2026-10-15 16:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29361.75,
-   "atr_4h": 281.93,
+   "precio": 29283.5,
+   "atr_4h": 287.82,
    "setups": [
+    {
+     "direccion": "VENTA",
+     "nivel": 29622.5,
+     "entrada": 29622.5,
+     "stop": 29795.19,
+     "objetivo": 29269.5,
+     "rr": 2.04,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 1.3,
+     "ruptura": "2026-10-16 16:00 UTC"
+    },
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30539.16,
-     "objetivo": 29352.0,
-     "rr": 6.02,
+     "stop": 30542.69,
+     "objetivo": 29269.5,
+     "rr": 6.37,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.53,
-     "ruptura": "2026-10-14 12:00 UTC"
-    },
-    {
-     "direccion": "VENTA",
-     "nivel": 30604.75,
-     "entrada": 30604.75,
-     "stop": 30773.91,
-     "objetivo": 29352.0,
-     "rr": 7.41,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.53,
+     "fuerza_ruptura_atr": 1.5,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-16T19:02:36Z"
+  "ts": "2026-10-16T19:17:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10051,7 +10047,8 @@
   "nq|VENTA|30372.25|esperando retesteo",
   "nq|VENTA|30512.25|esperando retesteo",
   "oro|COMPRA|4183.3|esperando retesteo",
-  "oro|COMPRA|4183.3|en retesteo"
+  "oro|COMPRA|4183.3|en retesteo",
+  "nq|VENTA|29622.5|esperando retesteo"
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
@@ -10734,6 +10731,7 @@
   "6d202eeeeb",
   "f2c3fc8c71",
   "5633eee865",
-  "279e9589df"
+  "279e9589df",
+  "1ad233c127"
  ]
 }
