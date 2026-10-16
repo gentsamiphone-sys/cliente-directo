@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4184.3 · NQ 29623.75 · VIX 16.85 · 1 noticias nuevas",
-   "actualizado": "2026-10-16T16:12:46Z"
+   "ultimo_resultado": "Oro 4187.2 · NQ 29649.75 · VIX 17.17",
+   "actualizado": "2026-10-16T16:17:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T16:12:45Z",
-   "ultimo_resultado": "1 titulares nuevos: Lo que queremos ver cuando Capital One y Meta reporten ganancias la próxima semana"
+   "actualizado": "2026-10-16T16:17:32Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4187.2 · NQ 29649.75 · VIX 17.17",
+   "ts": "2026-10-16T16:17:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4184.3 · NQ 29623.75 · VIX 16.85 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4199.3 · NQ 30102.75 · VIX 16.46",
    "ts": "2026-10-16T03:07:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4190.5 · NQ 30101.0 · VIX 16.46",
-   "ts": "2026-10-16T03:02:36Z"
   }
  ],
  "briefs": [
@@ -7325,10 +7325,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4184.3,
-  "nq": 29623.75,
-  "vix": 16.85,
-  "ts": "2026-10-16T16:12:46Z"
+  "oro": 4187.2,
+  "nq": 29649.75,
+  "vix": 17.17,
+  "ts": "2026-10-16T16:17:32Z"
  },
  "noticias": [
   {
@@ -8836,15 +8836,15 @@
     1792166400,
     4188.8,
     4190.5,
-    4182.1,
-    4183.3
+    4180.7,
+    4186.7
    ],
    [
-    1792166565,
-    4184.3,
-    4184.3,
-    4184.3,
-    4184.3
+    1792166849,
+    4187.2,
+    4187.2,
+    4187.2,
+    4187.2
    ]
   ],
   "nq": [
@@ -9469,14 +9469,14 @@
     29658.5,
     29659.75,
     29609.0,
-    29618.75
+    29640.0
    ],
    [
-    1792166566,
-    29623.75,
-    29623.75,
-    29623.75,
-    29623.75
+    1792166852,
+    29649.75,
+    29649.75,
+    29649.75,
+    29649.75
    ]
   ],
   "vix": [
@@ -9931,68 +9931,75 @@
    [
     1792162800,
     15.86,
-    16.79,
+    17.01,
     15.86,
-    16.77
+    17.01
    ],
    [
-    1792166251,
-    16.85,
-    16.85,
-    16.85,
-    16.85
+    1792166400,
+    17.03,
+    17.22,
+    17.03,
+    17.18
+   ],
+   [
+    1792166551,
+    17.19,
+    17.19,
+    17.19,
+    17.19
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-16T16:12:34Z",
- "ult_4h": 1792166554.6875262,
+ "ult_4h": 1792167452.9877403,
  "estrategia_4h": {
   "oro": {
-   "precio": 4191.1,
-   "atr_4h": 32.64,
+   "precio": 4187.2,
+   "atr_4h": 31.65,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4163.71,
+     "stop": 4164.31,
      "objetivo": 4222.8,
-     "rr": 2.02,
+     "rr": 2.08,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 0.86,
+     "fuerza_ruptura_atr": 0.88,
      "ruptura": "2026-10-15 16:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29711.0,
-   "atr_4h": 266.89,
+   "precio": 29649.75,
+   "atr_4h": 260.11,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30530.14,
-     "objetivo": 29622.5,
-     "rr": 4.67,
+     "stop": 30526.06,
+     "objetivo": 29609.0,
+     "rr": 4.88,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.62,
+     "fuerza_ruptura_atr": 1.66,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30604.75,
      "entrada": 30604.75,
-     "stop": 30764.89,
-     "objetivo": 29622.5,
-     "rr": 6.13,
+     "stop": 30760.81,
+     "objetivo": 29609.0,
+     "rr": 6.38,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.62,
+     "fuerza_ruptura_atr": 1.66,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-16T16:02:35Z"
+  "ts": "2026-10-16T16:17:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
