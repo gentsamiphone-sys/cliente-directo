@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4202.9 · NQ 30139.5 · VIX 16.05",
-   "actualizado": "2026-10-16T10:02:34Z"
+   "ultimo_resultado": "Oro 4199.8 · NQ 30105.5 · VIX 16.06 · 4 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-16T10:07:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T10:02:34Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-16T10:07:36Z",
+   "ultimo_resultado": "4 titulares nuevos, 2 de alto impacto: Acciones de memoria caen en otro mercado bajista con pérdidas en chips cerca de $2.5 billones"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4199.8 · NQ 30105.5 · VIX 16.06 · 4 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-16T10:07:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4202.9 · NQ 30139.5 · VIX 16.05",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4190.6 · NQ 30128.75 · VIX 16.46 · 1 noticias nuevas",
    "ts": "2026-10-15T20:52:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4190.2 · NQ 30127.75 · VIX 16.46 · 2 noticias nuevas",
-   "ts": "2026-10-15T20:47:34Z"
   }
  ],
  "briefs": [
@@ -7153,12 +7153,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4202.9,
-  "nq": 30139.5,
-  "vix": 16.05,
-  "ts": "2026-10-16T10:02:34Z"
+  "oro": 4199.8,
+  "nq": 30105.5,
+  "vix": 16.06,
+  "ts": "2026-10-16T10:07:37Z"
  },
  "noticias": [
+  {
+   "titulo": "Memory stocks slide into another bear market as chip losses near $2.5 trillion: Chart of the Day",
+   "link": "https://finance.yahoo.com/markets/article/memory-stocks-slide-into-another-bear-market-as-chip-losses-near-25-trillion-chart-of-the-day-100000060.html?.tsrc=rss",
+   "ts": "2026-10-16T10:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "d9e2db85c1",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Acciones de memoria caen en otro mercado bajista con pérdidas en chips cerca de $2.5 billones",
+   "efecto": "Presiona al NQ a la baja por fuertes ventas en tecnología y semiconductores."
+  },
   {
    "titulo": "Hightower's Stephanie Link explains why you should still be long on equities as Treasury yields rise",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQldjcHp3YVB3YXU2NUtHSTBZVU1rMWhTLWdqRng5X1EwUVBvT0JadXh2TGJMWWR3ZC1PSExPYjNsbVVkR05SMUU4Ul9OSUFJSFUzdzdtdXRLdkpXVVFkZERxSkFHSkRvMmtUUWs3TFA1MWxvRXY2QkNDUmMyVk9rOTJiX2h6bk5uZlpHN0gwNlotTDdlVDg4?oc=5",
@@ -7202,6 +7215,20 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Gold Rises on Softer U.S. Dollar",
+   "link": "https://finance.yahoo.com/m/1184ff83-f18f-3201-97ad-8cb6c43e2bbb/gold-rises-on-softer-u.s..html?.tsrc=rss",
+   "ts": "2026-10-16T09:27:02Z",
+   "fuente": "Yahoo Finance",
+   "id": "0e0652ac9e",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "El oro sube por un dólar estadounidense más débil",
+   "efecto": "Impulsa al oro al alza debido a la debilidad de la divisa."
+  },
+  {
    "titulo": "Gold Prices Rise as Lower US Treasury Yields and Weaker Dollar Support Precious Metals",
    "link": "https://investorshub.advfn.com/market-news/article/38158/gold-prices-rise-as-lower-us-treasury-yields-and-weaker-dollar-support-precious-metals?.tsrc=rss",
    "ts": "2026-10-16T09:05:17Z",
@@ -7213,6 +7240,21 @@
     "dolar"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Dollar Falls on AI Concerns, Cautious Fed Comments",
+   "link": "https://finance.yahoo.com/m/487dbe39-5f35-3c51-a4f2-7b8a77dae46c/dollar-falls-on-ai-concerns%2C.html?.tsrc=rss",
+   "ts": "2026-10-16T08:57:07Z",
+   "fuente": "Yahoo Finance",
+   "id": "2dd99cd145",
+   "activos": [
+    "dolar",
+    "nq",
+    "oro"
+   ],
+   "impacto": "alto",
+   "es": "El dólar cae por preocupaciones sobre IA y comentarios cautelosos de la Fed",
+   "efecto": "Debilita al dólar, favoreciendo al oro y generando cautela en el NQ."
   },
   {
    "titulo": "Why Are Nasdaq Futures Edging Higher Premarket? TSLA, CRWV, TSM, NVDA, RKLB, ASST, PEP Stocks In Focus",
@@ -7705,6 +7747,20 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Gold inches higher as dollar softens, investors eye Fed rate outlook",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-steadies-near-4-160-015611640.html?.tsrc=rss",
+   "ts": "2026-10-16T01:56:11Z",
+   "fuente": "Yahoo Finance",
+   "id": "95a783b1c7",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "El oro sube ligeramente por debilitamiento del dólar y expectativas de tasas de la Fed",
+   "efecto": "Sostiene al oro al alza ante la expectativa de recortes de tasas."
+  },
+  {
    "titulo": "Gold steadies as bond rally supports bullion, weaker dollar offers further support",
    "link": "https://finance.yahoo.com/markets/commodities/articles/gold-steadies-near-4-160-015611640.html?.tsrc=rss",
    "ts": "2026-10-16T01:56:11Z",
@@ -8007,48 +8063,6 @@
    "ts": "2026-10-15T22:27:00Z",
    "fuente": "Yahoo Finance",
    "id": "d70f2c2eea",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Imsdahl, U.S. Quad Win Historic Gold at 2026 World Rowing Coastal Championships",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUXNrZ2U4Vk5nZVEzRFctelJiS0JIQjItVmxwd1BuNUVoWUZhdW5icGpuZFV5aGV5UVZReHRPNldzekd5SWFEVGJGWjJFTjRqRmluV1h4TkJCZ0M5UzBJYVhDQ0N3aGhoU2dkdDRrTzRhZVAyNENzWk1wVlZSdldpR3A3TmcwYVhkbkhyLW8zcXFnTTZsRjBqUGpWM2hIZWpV?oc=5",
-   "ts": "2026-10-15T22:19:19Z",
-   "fuente": "Cornell University Athletics",
-   "id": "598a83a92b",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Jim Cramer says this week's AI sell-off offers a crucial lesson for investors",
-   "link": "https://www.cnbc.com/2026/10/15/jim-cramer-ai-stocks-diversification.html",
-   "ts": "2026-10-15T22:16:13Z",
-   "fuente": "CNBC",
-   "id": "de8c1880ee",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Netflix Chief Content Officer Bela Bajaria is leaving, will be replaced by Peter Rice",
-   "link": "https://www.cnbc.com/2026/10/15/netflix-bela-bajaria-peter-rice.html",
-   "ts": "2026-10-15T22:10:00Z",
-   "fuente": "CNBC",
-   "id": "a1ae12162d",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "La jefa de contenido de Netflix, Bela Bajaria, se marcha y será reemplazada por Peter Rice.",
-   "efecto": ""
-  },
-  {
-   "titulo": "Royal Gold Highlights Record Results, Debt Paydown and Growth After Major Deals",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeWFCeklkejFLRDVvZ1BELU1rcmdYM3Y1Z2RNYjZBbHRHM1dCR3BuOTlLNVlhdmxXMnRFMEJsOC1tRXdNck9PMXFHSHk1TzZwdktQZUlWTUVEdldZdE9VU0JFT1UyWHNVZlFRbllwYkk2TnVBVWZ4enVoT0tsc1lwSXBWUlQxVEkxd0RaOXdpODZRRjUzeW1sMkI5Y21JTGZKZGFj?oc=5",
-   "ts": "2026-10-15T22:02:08Z",
-   "fuente": "Yahoo Finance",
-   "id": "5facea28ce",
    "activos": [
     "oro"
    ],
@@ -8689,15 +8703,15 @@
     1792141200,
     4210.0,
     4213.3,
-    4200.2,
-    4202.2
+    4198.8,
+    4200.2
    ],
    [
-    1792144347,
-    4202.9,
-    4202.9,
-    4202.9,
-    4202.9
+    1792144651,
+    4199.8,
+    4199.8,
+    4199.8,
+    4199.8
    ]
   ],
   "nq": [
@@ -9321,15 +9335,15 @@
     1792141200,
     30144.0,
     30178.75,
-    30128.0,
-    30128.0
+    30100.75,
+    30104.5
    ],
    [
-    1792144349,
-    30139.5,
-    30139.5,
-    30139.5,
-    30139.5
+    1792144655,
+    30105.5,
+    30105.5,
+    30105.5,
+    30105.5
    ]
   ],
   "vix": [
@@ -9744,18 +9758,18 @@
     16.04,
     16.08,
     15.98,
-    16.05
+    16.04
    ],
    [
-    1792144051,
-    16.05,
-    16.05,
-    16.05,
-    16.05
+    1792144351,
+    16.06,
+    16.06,
+    16.06,
+    16.06
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-16T09:27:34Z",
+ "noticias_traducidas_ts": "2026-10-16T10:07:32Z",
  "ult_4h": 1792144954.416638,
  "estrategia_4h": {
   "oro": {
@@ -10348,6 +10362,10 @@
   "04b091e218",
   "976b04167f",
   "d517a11186",
-  "24008d85d6"
+  "24008d85d6",
+  "d9e2db85c1",
+  "0e0652ac9e",
+  "2dd99cd145",
+  "95a783b1c7"
  ]
 }
