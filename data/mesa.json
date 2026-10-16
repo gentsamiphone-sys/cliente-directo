@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4187.1 · NQ 29359.75 · VIX 19.99",
-   "actualizado": "2026-10-16T20:32:34Z"
+   "ultimo_resultado": "Oro 4189.1 · NQ 29368.25 · VIX 19.99 · 1 noticias nuevas",
+   "actualizado": "2026-10-16T20:37:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T20:32:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-16T20:37:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Nasdaq Suffers Worst Week Since June. AI Fears Are Shaking Markets."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4189.1 · NQ 29368.25 · VIX 19.99 · 1 noticias nuevas",
+   "ts": "2026-10-16T20:37:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4187.1 · NQ 29359.75 · VIX 19.99",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
    "ts": "2026-10-16T06:32:56Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Midiendo volatilidad y rango esperado del día…",
-   "ts": "2026-10-16T06:32:55Z"
   }
  ],
  "briefs": [
@@ -7325,10 +7325,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4187.1,
-  "nq": 29359.75,
+  "oro": 4189.1,
+  "nq": 29368.25,
   "vix": 19.99,
-  "ts": "2026-10-16T20:32:33Z"
+  "ts": "2026-10-16T20:37:33Z"
  },
  "noticias": [
   {
@@ -7344,6 +7344,17 @@
    "impacto": "bajo",
    "es": "Gold & Black En Vivo: 16 de octubre de 2026",
    "efecto": "Sin impacto en mercado, solo transmisión institucional programada."
+  },
+  {
+   "titulo": "Nasdaq Suffers Worst Week Since June. AI Fears Are Shaking Markets.",
+   "link": "https://finance.yahoo.com/m/b02b5386-7105-3fa7-98c4-4b9a5802ac58/nasdaq-suffers-worst-week.html?.tsrc=rss",
+   "ts": "2026-10-16T20:02:20Z",
+   "fuente": "Yahoo Finance",
+   "id": "d0f3eea98c",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Tech stocks stumble as sell-off spreads to software",
@@ -8199,17 +8210,6 @@
    "impacto": "bajo",
    "es": "Goldman Sachs elige a las principales mineras de oro africanas por su crecimiento y flujo de caja",
    "efecto": "Ruido sectorial; sin impacto macroeconómico ni institucional relevante."
-  },
-  {
-   "titulo": "Kathryn Serra’s Gold Medal Gamble",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA4LW9HWHh1NnRrdDYwalFTMGtYMk5EeEcyblkzRU5XdHBfc3U5aTEwZklVcVVTbnJTV185UzU1VUtLdlByN0pPcWhJX3k1ZHJxM3hWcXFBRjloM0U1azF5S2dBQWM0Um9SR0Rsd05kN2kxSGVhcTlhVTlkME1fdw?oc=5",
-   "ts": "2026-10-16T14:38:08Z",
-   "fuente": "The Harvard Crimson",
-   "id": "381424a433",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -8845,16 +8845,16 @@
    [
     1792180800,
     4189.8,
-    4189.8,
+    4190.2,
     4187.0,
-    4188.0
+    4189.2
    ],
    [
-    1792182143,
-    4187.1,
-    4187.1,
-    4187.1,
-    4187.1
+    1792182431,
+    4189.1,
+    4189.1,
+    4189.1,
+    4189.1
    ]
   ],
   "nq": [
@@ -9479,14 +9479,14 @@
     29379.25,
     29390.25,
     29344.75,
-    29362.75
+    29377.5
    ],
    [
-    1792182151,
-    29358.0,
-    29358.0,
-    29358.0,
-    29358.0
+    1792182449,
+    29368.25,
+    29368.25,
+    29368.25,
+    29368.25
    ]
   ],
   "vix": [
@@ -10757,6 +10757,7 @@
   "95131e46fc",
   "44686bb773",
   "906083b68f",
-  "13fc89835a"
+  "13fc89835a",
+  "d0f3eea98c"
  ]
 }
