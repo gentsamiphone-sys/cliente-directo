@@ -51,11 +51,16 @@
   "futuros": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "[DEMO] Ruptura y retesteo 1H · VENTA 5 MBT límite 81,795.0 (50% del impulso) · stop 82,445.0 · objetivo 80,705.0 · R:R 1.67",
-   "actualizado": "2026-10-16T20:10:20Z"
+   "ultimo_resultado": "BTC: setup de desplazamiento VENTA en 81,804 (stop 82,460, objetivo 80,702). Mercado CME cerrado: se envía cuando abra.",
+   "actualizado": "2026-10-16T21:15:13Z"
   }
  },
  "actividad": [
+  {
+   "agente": "futuros",
+   "texto": "BTC: setup de desplazamiento VENTA en 81,804 (stop 82,460, objetivo 80,702). Mercado CME cerrado: se envía cuando abra.",
+   "ts": "2026-10-16T21:15:13Z"
+  },
   {
    "agente": "futuros",
    "texto": "[DEMO] Ruptura y retesteo 1H · VENTA 5 MBT límite 81,795.0 (50% del impulso) · stop 82,445.0 · objetivo 80,705.0 · R:R 1.67",
@@ -800,11 +805,6 @@
    "agente": "flujos",
    "texto": "Stablecoins 7d -1.87 mil M · dominancia BTC 59.37%",
    "ts": "2026-10-13T01:12:50Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Midiendo stablecoins y dominancia…",
-   "ts": "2026-10-13T01:12:49Z"
   }
  ],
  "briefs": [
@@ -1620,7 +1620,8 @@
  "desp_avisados": [
   "ETH-1791730800-2536",
   "ETH-1791730800-2552",
-  "ETH-ret-L-2517"
+  "ETH-ret-L-2517",
+  "BTC-ret-S-81854"
  ],
  "futuros_enviados": {
   "BTC": "2026-10-16",
