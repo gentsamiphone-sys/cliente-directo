@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4192.8 · NQ 30187.25 · VIX 16.46 · 1 noticias nuevas",
-   "actualizado": "2026-10-16T05:57:32Z"
+   "ultimo_resultado": "Oro 4194.4 · NQ 30192.0 · VIX 16.46 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-16T06:02:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T05:57:32Z",
-   "ultimo_resultado": "1 titulares nuevos: Gold steadies as bond rally supports bullion, weaker dollar offers further support"
+   "actualizado": "2026-10-16T06:02:31Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Hill, Jones agree on tariffs, disagree elsewhere in spirited debate"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4194.4 · NQ 30192.0 · VIX 16.46 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-16T06:02:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4192.8 · NQ 30187.25 · VIX 16.46 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4180.0 · NQ 29926.75 · VIX 17.1 · 2 noticias nuevas",
    "ts": "2026-10-15T15:07:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4181.3 · NQ 29905.25 · VIX 17.13 · 1 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-15T15:02:45Z"
   }
  ],
  "briefs": [
@@ -6937,12 +6937,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4192.8,
-  "nq": 30187.25,
+  "oro": 4194.4,
+  "nq": 30192.0,
   "vix": 16.46,
-  "ts": "2026-10-16T05:57:32Z"
+  "ts": "2026-10-16T06:02:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Hill, Jones agree on tariffs, disagree elsewhere in spirited debate",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWmhVbGtHc211Nm41Z0NlaVBHUGpsTkxFd08xZG9ObmxjT0hlTXZLUENIblpJa1l5cjY3WXl4OEtlSlhqNFNONHUxeGFPMnBuRXQtYVFGR0Fld0FEcVBmZlFlbWNmdVRydVpab1BiYjhFdlRMQVJZeEV4OEVEaDl0Q0ZzbmRldXNpWGg2dmxGcmZOSTU2cWJmb3NzSDZrS2k5?oc=5",
+   "ts": "2026-10-16T05:58:29Z",
+   "fuente": "Talk Business & Politics",
+   "id": "21669be8ac",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "√(18+Viral@X!! Gold Medalist Viral Philippines Video",
    "link": "https://news.google.com/rss/articles/CBMi1ANBVV95cUxNamJEdjF3ZmFwTzRhX3J2QUViRTczOF9QNU9MLUJjc0tWaDBzNE9XaVhKWHdVVXlta04wOTByNVRsdW5nZ0R6eVNORW9XX1d3d290c1hWSEtGX3c2MXBJakd6NnE5UGdNbjRWR2J6bUFUMUVhal9CRlRpVnlZNFlzRXAtZEJ6RHg2OS14cTh6MHhrLU8wSGhuLVdac2ZLSl9vMTIzMlJ5Sm9VNmFIZ1FLU0o5dTR4M0MxbjBic08wZHlVRmEzZ1g5U1F5LUNMWWwwSkJRSGwtQTE4cmlEdXV2UnZYaG15VVhyQzE5MnFCcHd5RF92SWZ2ZjdkZktTcTd3U0UwMEtkMTFrYXAwQmxkdG9qTGp2TDctdWRCLUNrSm1TNzg0QURSMHVJbjFvNGpwcWxQam5SU2YxUUsyYW9BV2dTbTR6QTlVRGx0X2lNNFljYVhsSGtnRkNsemtOV3d5dDNwSFo0QjYxU3pYaWRrVGpoOTRETVVOazBTS3FZeXR4ZExHRjhuM0daNGNkU3pDNkZWekstVFBHVUF2NUNvQ3FsTEUwZmdqZkhYNGEyTnl6NWRCc3hZcmNwckNESlZjSDNvakZ4Zkxlam9FSk1pYVFJWUc?oc=5",
@@ -7806,17 +7815,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Indian mutual funds stop bulk subscriptions to gold ETFs ahead of festive season",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa1dJUmxWRVJFR2xLMFhiSTRENmk2eklvZndkX2dzUmZGLUtKc0o2YldJRF9WbTNoVnJPc3Jjdy1qMTgtRXdWNjR0c3pIaVZxQzVZSk9JazRsdXNkLWtsenMyZzBFbHNlOTlzN1FVcWxKWm10Q3VlQkF6ZXVvcHduQ00xbnlqaE1wek9HQXJhU20zWERTN1NFSlRlRmFSQnp3aUFjYVp6aFhJYUwyZTlZdjRDR2tobk1la1hLbVBqZw?oc=5",
-   "ts": "2026-10-15T19:01:11Z",
-   "fuente": "Reuters",
-   "id": "0974f0fd59",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -8454,14 +8452,14 @@
     4195.9,
     4197.6,
     4190.7,
-    4192.5
+    4195.4
    ],
    [
-    1792129633,
-    4192.8,
-    4192.8,
-    4192.8,
-    4192.8
+    1792129945,
+    4194.4,
+    4194.4,
+    4194.4,
+    4194.4
    ]
   ],
   "nq": [
@@ -9086,14 +9084,14 @@
     30201.5,
     30225.0,
     30161.75,
-    30183.0
+    30193.5
    ],
    [
-    1792129648,
-    30187.25,
-    30187.25,
-    30187.25,
-    30187.25
+    1792129946,
+    30192.0,
+    30192.0,
+    30192.0,
+    30192.0
    ]
   ],
   "vix": [
@@ -9597,15 +9595,15 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-16T05:42:32Z",
- "ult_4h": 1792129653.028907,
+ "ult_4h": 1792130552.359638,
  "estrategia_4h": {
   "oro": {
-   "precio": 4194.5,
-   "atr_4h": 30.87,
+   "precio": 4194.4,
+   "atr_4h": 30.91,
    "setups": []
   },
   "nq": {
-   "precio": 30165.75,
+   "precio": 30192.0,
    "atr_4h": 243.54,
    "setups": [
     {
@@ -9632,7 +9630,7 @@
     }
    ]
   },
-  "ts": "2026-10-16T05:47:33Z"
+  "ts": "2026-10-16T06:02:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10143,6 +10141,7 @@
   "62df95cd42",
   "01585d3818",
   "cbd0133fdd",
-  "73f8768c9f"
+  "73f8768c9f",
+  "21669be8ac"
  ]
 }
