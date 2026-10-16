@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4197.4 · NQ 30118.0 · VIX 16.1",
-   "actualizado": "2026-10-16T11:27:35Z"
+   "ultimo_resultado": "Oro 4200.5 · NQ 30117.25 · VIX 16.09 · 2 noticias nuevas",
+   "actualizado": "2026-10-16T11:32:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T11:27:34Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-16T11:32:33Z",
+   "ultimo_resultado": "2 titulares nuevos: Stock market today: Dow, S&P 500, Nasdaq futures mixed amid volatile week"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4200.5 · NQ 30117.25 · VIX 16.09 · 2 noticias nuevas",
+   "ts": "2026-10-16T11:32:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4197.4 · NQ 30118.0 · VIX 16.1",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-10-15T21:32:56Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 4192.5 · NQ 30078.25.",
-   "ts": "2026-10-15T21:32:55Z"
   }
  ],
  "briefs": [
@@ -7153,12 +7153,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4197.4,
-  "nq": 30118.0,
-  "vix": 16.1,
-  "ts": "2026-10-16T11:27:34Z"
+  "oro": 4200.5,
+  "nq": 30117.25,
+  "vix": 16.09,
+  "ts": "2026-10-16T11:32:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Stock market today: Dow, S&P 500, Nasdaq futures mixed amid volatile week",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWjdQUFR1bVFaMnh2OGkwc1BVMTJXaEswWmtlWmV3UDR4YzFXQmdndkg4Y0xuS1NWazZIemdKeUYzRU8xQ3VuMllLdk5Sa3ZxQ3JsWk91bXZlcXFNSHNsSGZWc3dVR200WmdUQmpKSk83dkNZTnkydkNOT1JiS1ctT0NZa2ljQ0RMM0FfZHcySlktb2xVRHBVQ2tjeFdvd3Vpbkg2V1JwX2kybzdkZWo2S3pzeG93VkJrZ1NSNmdtVE4?oc=5",
+   "ts": "2026-10-16T11:29:39Z",
+   "fuente": "Yahoo Finance",
+   "id": "6bfee173c9",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Banking tax raid fears hit London lenders' shares ahead of crucial budget",
    "link": "https://www.cnbc.com/2026/10/16/banking-tax-london-uk-lenders.html",
@@ -7205,6 +7216,17 @@
    "impacto": "medio",
    "es": "Jensen Huang de Nvidia trae grandes cheques y un mensaje contundente en Londres",
    "efecto": "Fomenta compras en tecnológicas por optimismo en IA."
+  },
+  {
+   "titulo": "What Invesco NASDAQ 100 ETF (QQQM) Bought: NVIDIA Leads on Oct. 14",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSEI2NlVWa3ZCVWl4aDA3ekxpTzBGM2hmRjZWbGplM0ZFY1NTY3EtQ3dMV2tLaEFsVlBscDltUHNHOTNRMUZMNE1yN1VRWDNsUHdYbXlOQjg1R1d1QW9ET2UxWVprVmRjV3VIZ28xV3hPN3k2bnY1ZE1YUUJyX0c1c0ZHckJrYkZrVmVEdlhLbnpoX2x0SGVN?oc=5",
+   "ts": "2026-10-16T11:05:21Z",
+   "fuente": "Yahoo Finance",
+   "id": "23a2f478a4",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Nike's India campus is a long-term growth bet amid turnaround",
@@ -8035,30 +8057,6 @@
    "impacto": "bajo",
    "es": "Golconda Gold publica la actualización de producción del tercer trimestre de 2026 en Galaxy",
    "efecto": "Ruido corporativo menor; sin impacto institucional en el oro."
-  },
-  {
-   "titulo": "Tesla reveals next-generation Roadster after almost a decade of delays",
-   "link": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html",
-   "ts": "2026-10-16T01:16:47Z",
-   "fuente": "CNBC",
-   "id": "f26239cfad",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "Tesla revela el Roadster de próxima generación tras casi una década de retrasos",
-   "efecto": "Impulsa ligeramente al sector EV y al sentimiento en el Nasdaq."
-  },
-  {
-   "titulo": "Nasdaq-100 futures recover from early drop as September PPI runs hot.",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdnpieUJ2UWYzWmItd3owbGFOaTZkYTN5RnRuTDlqYm9ZOWVobEF4OUNENEc3Y3NWWTh2aTN4STF0eWJKZ0FWZ09lOGpZUllGODlPb3NmaHJHNE5sbThQOEc3LU5IR3dUTUM5Unl6VDBCOVJGVkdHdkQtQmxfdkdvYXd2alNVNjVVM0F3eUNveENoQkdmaGVJOU1CVlgwQXZoN1l6enZUblo4VGRhNl9JcnFn?oc=5",
-   "ts": "2026-10-16T01:12:31Z",
-   "fuente": "CME Group",
-   "id": "ddacdaf317",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -8694,16 +8692,16 @@
    [
     1792148400,
     4195.0,
-    4198.6,
+    4200.9,
     4193.5,
-    4198.2
+    4200.3
    ],
    [
-    1792149443,
-    4197.4,
-    4197.4,
-    4197.4,
-    4197.4
+    1792149749,
+    4200.5,
+    4200.5,
+    4200.5,
+    4200.5
    ]
   ],
   "nq": [
@@ -9328,14 +9326,14 @@
     30089.5,
     30138.5,
     30071.75,
-    30120.25
+    30119.0
    ],
    [
-    1792149454,
-    30118.0,
-    30118.0,
-    30118.0,
-    30118.0
+    1792149751,
+    30117.25,
+    30117.25,
+    30117.25,
+    30117.25
    ]
   ],
   "vix": [
@@ -9763,11 +9761,11 @@
     1792148400,
     16.12,
     16.16,
-    16.1,
-    16.11
+    16.07,
+    16.09
    ],
    [
-    1792149151,
+    1792149451,
     16.1,
     16.1,
     16.1,
@@ -9776,10 +9774,10 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-16T11:12:32Z",
- "ult_4h": 1792149457.4433584,
+ "ult_4h": 1792150353.5650358,
  "estrategia_4h": {
   "oro": {
-   "precio": 4195.7,
+   "precio": 4200.5,
    "atr_4h": 30.69,
    "setups": [
     {
@@ -9789,14 +9787,14 @@
      "stop": 4164.89,
      "objetivo": 4222.8,
      "rr": 2.15,
-     "estado": "en retesteo",
+     "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.91,
      "ruptura": "2026-10-15 16:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30091.75,
+   "precio": 30117.25,
    "atr_4h": 244.52,
    "setups": [
     {
@@ -9823,7 +9821,7 @@
     }
    ]
   },
-  "ts": "2026-10-16T11:17:37Z"
+  "ts": "2026-10-16T11:32:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10391,6 +10389,8 @@
   "5a4171cee1",
   "f58fa91890",
   "d11cb40c56",
-  "7d45dff365"
+  "7d45dff365",
+  "6bfee173c9",
+  "23a2f478a4"
  ]
 }
