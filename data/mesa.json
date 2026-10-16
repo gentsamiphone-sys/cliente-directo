@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4194.9 · NQ 30106.5 · VIX 16.09",
-   "actualizado": "2026-10-16T12:12:34Z"
+   "ultimo_resultado": "Oro 4196.4 · NQ 30118.0 · VIX 16.05 · 2 noticias nuevas",
+   "actualizado": "2026-10-16T12:17:40Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T12:12:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-16T12:17:39Z",
+   "ultimo_resultado": "2 titulares nuevos: La alternativa europea a SpaceX sube un 19% ante preocupaciones por límites de Starshield en Ucrania"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4196.4 · NQ 30118.0 · VIX 16.05 · 2 noticias nuevas",
+   "ts": "2026-10-16T12:17:40Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4194.9 · NQ 30106.5 · VIX 16.09",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Estrategia 4H NQ: VENTA: esperar retesteo de 30512.25 · stop 30650.41 · objetivo 29622.5 · R:R 6.44 (esperando retesteo). Tú ejecutas.",
    "ts": "2026-10-15T21:33:17Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Escribiendo el brief institucional…",
-   "ts": "2026-10-15T21:33:16Z"
   }
  ],
  "briefs": [
@@ -7153,12 +7153,39 @@
   }
  },
  "en_vivo": {
-  "oro": 4194.9,
-  "nq": 30106.5,
-  "vix": 16.09,
-  "ts": "2026-10-16T12:12:34Z"
+  "oro": 4196.4,
+  "nq": 30118.0,
+  "vix": 16.05,
+  "ts": "2026-10-16T12:17:39Z"
  },
  "noticias": [
+  {
+   "titulo": "Europe's answer to SpaceX pops 19% as Ukraine's Starshield limits raise concerns",
+   "link": "https://www.cnbc.com/2026/10/16/eutelsat-starshield-ukraine-spacex.html",
+   "ts": "2026-10-16T12:16:24Z",
+   "fuente": "CNBC",
+   "id": "5971988dda",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "La alternativa europea a SpaceX sube un 19% ante preocupaciones por límites de Starshield en Ucrania",
+   "efecto": "Genera interés sectorial en defensa europea, impacto marginal en NQ."
+  },
+  {
+   "titulo": "S&P 500 futures tick higher, but index heads for losing week: Live updates",
+   "link": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html",
+   "ts": "2026-10-16T12:05:34Z",
+   "fuente": "CNBC",
+   "id": "1a8ed83271",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "Los futuros del S&P 500 suben levemente, pero el índice apunta a una semana perdedora",
+   "efecto": "Muestra cautela institucional, limitando compras agresivas en renta variable."
+  },
   {
    "titulo": "Phoenix Suns owner Mat Ishbia predicts team will win opening round playoff series — and the NBA season hasn't even started",
    "link": "https://www.cnbc.com/2026/10/16/owner-mat-ishbia-says-phoenix-suns-will-win-first-round-playoff-series.html",
@@ -8023,26 +8050,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Indian shares recover from muted start; IT leads gains",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOVM2aWdQU294R0Ntc054S1cydmhwSlUydzZBVDNLR0JjSFBWQzloXzdnUHRJNmx2S2h5ck5YZ1ktX2xhajNUTmJISjR1TzFNSzNLWE5VNGdwdHhUZlBTbWNYU0pxYmEwNndCbFpFZDNnSG1RVGZRNE55a05Ya2pyNnNyYjZaM2djTkZaSGF4TjRSZG5Za3dUN05CWjZOemdYY0JlbTNraVdZZVJ0b0dzbXFIdw?oc=5",
-   "ts": "2026-10-16T02:29:00Z",
-   "fuente": "Reuters",
-   "id": "cbd0133fdd",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Acciones indias se recuperan; tecnología lidera ganancias",
-   "efecto": ""
-  },
-  {
-   "titulo": "Indian shares muted, IT gains offset broad profit-taking",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOVM2aWdQU294R0Ntc054S1cydmhwSlUydzZBVDNLR0JjSFBWQzloXzdnUHRJNmx2S2h5ck5YZ1ktX2xhajNUTmJISjR1TzFNSzNLWE5VNGdwdHhUZlBTbWNYU0pxYmEwNndCbFpFZDNnSG1RVGZRNE55a05Ya2pyNnNyYjZaM2djTkZaSGF4TjRSZG5Za3dUN05CWjZOemdYY0JlbTNraVdZZVJ0b0dzbXFIdw?oc=5",
-   "ts": "2026-10-16T02:29:00Z",
-   "fuente": "Reuters",
-   "id": "958c46aefb",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -8678,16 +8685,16 @@
    [
     1792152000,
     4192.8,
-    4195.1,
+    4196.8,
     4192.3,
-    4195.0
+    4195.9
    ],
    [
-    1792152150,
-    4194.9,
-    4194.9,
-    4194.9,
-    4194.9
+    1792152456,
+    4196.6,
+    4196.6,
+    4196.6,
+    4196.6
    ]
   ],
   "nq": [
@@ -9310,16 +9317,16 @@
    [
     1792152000,
     30093.5,
-    30118.25,
+    30119.0,
     30089.75,
-    30103.0
+    30117.25
    ],
    [
-    1792152151,
-    30106.5,
-    30106.5,
-    30106.5,
-    30106.5
+    1792152457,
+    30118.0,
+    30118.0,
+    30118.0,
+    30118.0
    ]
   ],
   "vix": [
@@ -9748,66 +9755,73 @@
     16.12,
     16.16,
     16.07,
-    16.11
+    16.09
    ],
    [
-    1792151851,
-    16.09,
-    16.09,
-    16.09,
-    16.09
+    1792152000,
+    16.08,
+    16.08,
+    16.03,
+    16.03
+   ],
+   [
+    1792152151,
+    16.05,
+    16.05,
+    16.05,
+    16.05
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-16T11:42:32Z",
- "ult_4h": 1792152153.532951,
+ "noticias_traducidas_ts": "2026-10-16T12:17:31Z",
+ "ult_4h": 1792153059.928937,
  "estrategia_4h": {
   "oro": {
-   "precio": 4197.6,
-   "atr_4h": 30.69,
+   "precio": 4196.6,
+   "atr_4h": 29.31,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4164.89,
+     "stop": 4165.71,
      "objetivo": 4222.8,
-     "rr": 2.15,
+     "rr": 2.25,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 0.91,
+     "fuerza_ruptura_atr": 0.96,
      "ruptura": "2026-10-15 16:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30057.0,
-   "atr_4h": 245.38,
+   "precio": 30118.0,
+   "atr_4h": 234.36,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30517.22,
+     "stop": 30510.61,
      "objetivo": 29622.5,
-     "rr": 5.08,
+     "rr": 5.32,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.76,
+     "fuerza_ruptura_atr": 1.84,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30604.75,
      "entrada": 30604.75,
-     "stop": 30751.97,
+     "stop": 30745.36,
      "objetivo": 29622.5,
-     "rr": 6.67,
+     "rr": 6.99,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.76,
+     "fuerza_ruptura_atr": 1.84,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-16T12:02:33Z"
+  "ts": "2026-10-16T12:17:40Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10388,6 +10402,8 @@
   "206b4a31ae",
   "a46e404d05",
   "d4724c50c6",
-  "6b24e1ed40"
+  "6b24e1ed40",
+  "5971988dda",
+  "1a8ed83271"
  ]
 }
