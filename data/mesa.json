@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4188.4 · NQ 29355.5 · VIX 20.01 · 1 noticias nuevas",
-   "actualizado": "2026-10-16T20:27:36Z"
+   "ultimo_resultado": "Oro 4187.1 · NQ 29359.75 · VIX 19.99",
+   "actualizado": "2026-10-16T20:32:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T20:27:35Z",
-   "ultimo_resultado": "1 titulares nuevos: Nasdaq sinks more than 2% as investors raise questions about AI debt | CNN Business"
+   "actualizado": "2026-10-16T20:32:33Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4187.1 · NQ 29359.75 · VIX 19.99",
+   "ts": "2026-10-16T20:32:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4188.4 · NQ 29355.5 · VIX 20.01 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-10-16T06:32:55Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 4195.4 · NQ 30142.75.",
-   "ts": "2026-10-16T06:32:54Z"
   }
  ],
  "briefs": [
@@ -7325,10 +7325,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4188.4,
-  "nq": 29355.5,
-  "vix": 20.01,
-  "ts": "2026-10-16T20:27:36Z"
+  "oro": 4187.1,
+  "nq": 29359.75,
+  "vix": 19.99,
+  "ts": "2026-10-16T20:32:33Z"
  },
  "noticias": [
   {
@@ -8846,15 +8846,15 @@
     1792180800,
     4189.8,
     4189.8,
-    4187.4,
-    4188.6
+    4187.0,
+    4188.0
    ],
    [
-    1792181850,
-    4188.4,
-    4188.4,
-    4188.4,
-    4188.4
+    1792182143,
+    4187.1,
+    4187.1,
+    4187.1,
+    4187.1
    ]
   ],
   "nq": [
@@ -9479,14 +9479,14 @@
     29379.25,
     29390.25,
     29344.75,
-    29358.5
+    29362.75
    ],
    [
-    1792181854,
-    29355.5,
-    29355.5,
-    29355.5,
-    29355.5
+    1792182151,
+    29358.0,
+    29358.0,
+    29358.0,
+    29358.0
    ]
   ],
   "vix": [
@@ -9977,23 +9977,30 @@
     1792180800,
     20.06,
     20.22,
-    20.0,
-    20.01
+    19.92,
+    19.98
+   ],
+   [
+    1792181700,
+    19.99,
+    19.99,
+    19.99,
+    19.99
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-16T20:22:34Z",
- "ult_4h": 1792181856.7624671,
+ "ult_4h": 1792182753.7442484,
  "estrategia_4h": {
   "oro": {
-   "precio": 4188.3,
-   "atr_4h": 26.76,
+   "precio": 4187.1,
+   "atr_4h": 26.79,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4167.25,
+     "stop": 4167.23,
      "objetivo": 4220.4,
      "rr": 2.31,
      "estado": "en retesteo",
@@ -10003,7 +10010,7 @@
    ]
   },
   "nq": {
-   "precio": 29354.75,
+   "precio": 29358.0,
    "atr_4h": 252.38,
    "setups": [
     {
@@ -10030,7 +10037,7 @@
     }
    ]
   },
-  "ts": "2026-10-16T20:17:37Z"
+  "ts": "2026-10-16T20:32:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
