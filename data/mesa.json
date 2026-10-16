@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4175.3 · NQ 30075.75 · VIX 16.46",
-   "actualizado": "2026-10-16T02:22:37Z"
+   "ultimo_resultado": "Oro 4176.4 · NQ 30080.25 · VIX 16.46 · 1 noticias nuevas",
+   "actualizado": "2026-10-16T02:27:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T02:22:36Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-16T02:27:36Z",
+   "ultimo_resultado": "1 titulares nuevos: Rusia regresa a la mesa del G20 en Bangkok por invitación de EE. UU., enfadando a Europa"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4176.4 · NQ 30080.25 · VIX 16.46 · 1 noticias nuevas",
+   "ts": "2026-10-16T02:27:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4175.3 · NQ 30075.75 · VIX 16.46",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +110,987 contratos.",
    "ts": "2026-10-15T12:33:05Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-10-15T12:33:04Z"
   }
  ],
  "briefs": [
@@ -6937,12 +6937,26 @@
   }
  },
  "en_vivo": {
-  "oro": 4175.3,
-  "nq": 30075.75,
+  "oro": 4176.4,
+  "nq": 30080.25,
   "vix": 16.46,
-  "ts": "2026-10-16T02:22:37Z"
+  "ts": "2026-10-16T02:27:36Z"
  },
  "noticias": [
+  {
+   "titulo": "Russia returns to G20 table in Bangkok on U.S. invitation that angers Europe",
+   "link": "https://www.cnbc.com/2026/10/16/g20-russia-ukraine-trump-diesel-europe-.html",
+   "ts": "2026-10-16T02:25:32Z",
+   "fuente": "CNBC",
+   "id": "4b61ef52d2",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "Rusia regresa a la mesa del G20 en Bangkok por invitación de EE. UU., enfadando a Europa",
+   "efecto": "Aumenta la tensión geopolítica; demanda moderada de oro como refugio."
+  },
   {
    "titulo": "Gold steadies near $4,160 as stock selloff drives bond rally, Treasury yields fall",
    "link": "https://finance.yahoo.com/markets/commodities/articles/gold-steadies-near-4-160-015611640.html?.tsrc=rss",
@@ -7806,17 +7820,6 @@
    "impacto": "bajo",
    "es": "Freeport-McMoRan publica actualización de producción del tercer trimestre manteniendo narrativa de infravaloración",
    "efecto": "Sin impacto institucional relevante en oro o NQ."
-  },
-  {
-   "titulo": "S&P 500, Nasdaq pare declines as AI rout teeters; healthcare, staples gain",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZTRob0s4X3hCYkZQZzFfeUxuU1ZlN0tPT2hvelcwcW9QdU9yeVN1ZUZfR253ZUNoN3NjUlRHbG9aS0wzMmVGLUpNOVcyTUlHOWo3WERDX1psTXlmWGthb0JPN19GMGxnT2pkYkRWQ0R1THEyODhoWnZTd1NIQjdZbm5fLXNYb0M2c1g2YU02TENSSi1xSFZMQzRuUTc?oc=5",
-   "ts": "2026-10-15T17:09:57Z",
-   "fuente": "Reuters",
-   "id": "1989e17498",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -8453,14 +8456,14 @@
     4173.5,
     4178.6,
     4173.3,
-    4175.3
+    4176.8
    ],
    [
-    1792116749,
-    4175.3,
-    4175.3,
-    4175.3,
-    4175.3
+    1792117037,
+    4176.4,
+    4176.4,
+    4176.4,
+    4176.4
    ]
   ],
   "nq": [
@@ -9083,16 +9086,16 @@
    [
     1792116000,
     30050.25,
-    30080.0,
+    30084.5,
     30043.25,
-    30072.75
+    30084.5
    ],
    [
-    1792116753,
-    30075.75,
-    30075.75,
-    30075.75,
-    30075.75
+    1792117055,
+    30081.75,
+    30081.75,
+    30081.75,
+    30081.75
    ]
   ],
   "vix": [
@@ -9595,7 +9598,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-16T01:47:35Z",
+ "noticias_traducidas_ts": "2026-10-16T02:27:35Z",
  "ult_4h": 1792117052.5194752,
  "estrategia_4h": {
   "oro": {
@@ -10117,6 +10120,7 @@
   "235b45faa4",
   "b92a72310d",
   "df6a5c794b",
-  "ddacdaf317"
+  "ddacdaf317",
+  "4b61ef52d2"
  ]
 }
