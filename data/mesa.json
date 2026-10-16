@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4203.2 · NQ 30128.75 · VIX 16.08",
-   "actualizado": "2026-10-16T10:52:34Z"
+   "ultimo_resultado": "Oro 4203.0 · NQ 30122.0 · VIX 16.09 · 1 noticias nuevas",
+   "actualizado": "2026-10-16T10:57:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T10:52:34Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-16T10:57:34Z",
+   "ultimo_resultado": "1 titulares nuevos: This autonomous driving stock will rally as adoption accelerates, Citi says"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4203.0 · NQ 30122.0 · VIX 16.09 · 1 noticias nuevas",
+   "ts": "2026-10-16T10:57:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4203.2 · NQ 30128.75 · VIX 16.08",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Historial: 11 operaciones, 27% de acierto, +7.08 R.",
    "ts": "2026-10-15T21:32:45Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Revisando cómo salieron las entradas anteriores…",
-   "ts": "2026-10-15T21:32:44Z"
   }
  ],
  "briefs": [
@@ -7153,12 +7153,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4203.2,
-  "nq": 30128.75,
-  "vix": 16.08,
-  "ts": "2026-10-16T10:52:34Z"
+  "oro": 4203.0,
+  "nq": 30122.0,
+  "vix": 16.09,
+  "ts": "2026-10-16T10:57:35Z"
  },
  "noticias": [
+  {
+   "titulo": "This autonomous driving stock will rally as adoption accelerates, Citi says",
+   "link": "https://www.cnbc.com/2026/10/16/mobileye-stock-citi-buy-rating.html",
+   "ts": "2026-10-16T10:48:13Z",
+   "fuente": "CNBC",
+   "id": "e59545ff8d",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "TNL Mediagene Regains Compliance with Nasdaq Minimum Bid Price Requirement",
    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNTJiSkQyZlVHTWw2N2dOQWwxdkltRE50SjAwSFJUNHB2dTA1ZHdOR1hXa0VuazQxRlgyMUhWNzc5WEZsLW1JSE9uNkw4Vm1qMlM0NUZ5bXR1d202RFFzeXBOMUZGZ1ZDX01LRGM1eVcwSWI2MUZ5a1pwMWluWmVjNDZDNnJBdGZuQTM4VGZFeVZ0Zw?oc=5",
@@ -8053,17 +8062,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Sony Created a Gold-Plated Walkman That Costs Nearly $6,000",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZWNTdVd0cm4yTE12d1lBcUkxUFVFVkNtMm55U1NMU0NRUHo5ZDZaSmxLRFVjczhnMUZVQmZTa3lNOHloWElwaWhhVThUUG45dTJIcGJxVmZjdTc0SEEtdnhZb2xaenAzZERVSDhJc1M2cUx5b3hIS2lYZUhoYXFRQkJHWTNEWWowX0YzMQ?oc=5",
-   "ts": "2026-10-15T23:47:07Z",
-   "fuente": "PCMag",
-   "id": "df6a5c794b",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -8704,11 +8702,11 @@
     4203.3
    ],
    [
-    1792147348,
-    4203.2,
-    4203.2,
-    4203.2,
-    4203.2
+    1792147653,
+    4203.0,
+    4203.0,
+    4203.0,
+    4203.0
    ]
   ],
   "nq": [
@@ -9333,14 +9331,14 @@
     30094.25,
     30138.0,
     30063.0,
-    30130.25
+    30124.75
    ],
    [
-    1792147352,
-    30128.75,
-    30128.75,
-    30128.75,
-    30128.75
+    1792147653,
+    30123.25,
+    30123.25,
+    30123.25,
+    30123.25
    ]
   ],
   "vix": [
@@ -9762,14 +9760,14 @@
     16.15,
     16.2,
     16.08,
-    16.08
+    16.09
    ],
    [
-    1792147051,
-    16.08,
-    16.08,
-    16.08,
-    16.08
+    1792147351,
+    16.09,
+    16.09,
+    16.09,
+    16.09
    ]
   ]
  },
@@ -10379,6 +10377,7 @@
   "7f4cf52314",
   "8186a50f3c",
   "8bc1cc2753",
-  "a02e52f4e2"
+  "a02e52f4e2",
+  "e59545ff8d"
  ]
 }
