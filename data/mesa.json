@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4203.9 · NQ 30145.0 · VIX 16.06 · 1 noticias nuevas",
-   "actualizado": "2026-10-16T09:57:33Z"
+   "ultimo_resultado": "Oro 4202.9 · NQ 30139.5 · VIX 16.05",
+   "actualizado": "2026-10-16T10:02:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T09:57:32Z",
-   "ultimo_resultado": "1 titulares nuevos: Buy 5 Top-Ranked Non-Tech Nasdaq Stocks to Maximize Q4 Gains"
+   "actualizado": "2026-10-16T10:02:34Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4202.9 · NQ 30139.5 · VIX 16.05",
+   "ts": "2026-10-16T10:02:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4203.9 · NQ 30145.0 · VIX 16.06 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4190.2 · NQ 30127.75 · VIX 16.46 · 2 noticias nuevas",
    "ts": "2026-10-15T20:47:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4191.5 · NQ 30124.5 · VIX 16.46",
-   "ts": "2026-10-15T20:42:39Z"
   }
  ],
  "briefs": [
@@ -7153,10 +7153,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4203.9,
-  "nq": 30145.0,
-  "vix": 16.06,
-  "ts": "2026-10-16T09:57:32Z"
+  "oro": 4202.9,
+  "nq": 30139.5,
+  "vix": 16.05,
+  "ts": "2026-10-16T10:02:34Z"
  },
  "noticias": [
   {
@@ -8690,14 +8690,14 @@
     4210.0,
     4213.3,
     4200.2,
-    4202.9
+    4202.2
    ],
    [
-    1792144048,
-    4203.9,
-    4203.9,
-    4203.9,
-    4203.9
+    1792144347,
+    4202.9,
+    4202.9,
+    4202.9,
+    4202.9
    ]
   ],
   "nq": [
@@ -9321,15 +9321,15 @@
     1792141200,
     30144.0,
     30178.75,
-    30131.25,
-    30145.75
+    30128.0,
+    30128.0
    ],
    [
-    1792144052,
-    30148.5,
-    30148.5,
-    30148.5,
-    30148.5
+    1792144349,
+    30139.5,
+    30139.5,
+    30139.5,
+    30139.5
    ]
   ],
   "vix": [
@@ -9744,48 +9744,48 @@
     16.04,
     16.08,
     15.98,
-    16.06
+    16.05
    ],
    [
-    1792143751,
-    16.06,
-    16.06,
-    16.06,
-    16.06
+    1792144051,
+    16.05,
+    16.05,
+    16.05,
+    16.05
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-16T09:27:34Z",
- "ult_4h": 1792144051.6753428,
+ "ult_4h": 1792144954.416638,
  "estrategia_4h": {
   "oro": {
-   "precio": 4203.3,
-   "atr_4h": 30.24,
+   "precio": 4202.9,
+   "atr_4h": 30.3,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4165.15,
+     "stop": 4165.12,
      "objetivo": 4222.8,
-     "rr": 2.18,
+     "rr": 2.17,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.93,
+     "fuerza_ruptura_atr": 0.92,
      "ruptura": "2026-10-15 16:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30168.5,
-   "atr_4h": 239.64,
+   "precio": 30139.5,
+   "atr_4h": 239.88,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30513.79,
+     "stop": 30513.92,
      "objetivo": 29622.5,
-     "rr": 5.2,
+     "rr": 5.19,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.8,
      "ruptura": "2026-10-14 12:00 UTC"
@@ -9794,16 +9794,16 @@
      "direccion": "VENTA",
      "nivel": 30604.75,
      "entrada": 30604.75,
-     "stop": 30748.54,
+     "stop": 30748.67,
      "objetivo": 29622.5,
-     "rr": 6.83,
+     "rr": 6.82,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.8,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-16T09:47:32Z"
+  "ts": "2026-10-16T10:02:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
