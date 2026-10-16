@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4200.0 · NQ 30116.0 · VIX 16.06 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-16T12:32:32Z"
+   "ultimo_resultado": "Oro 4197.2 · NQ 30113.25 · VIX 16.01 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-16T12:37:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-16T12:32:31Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Curis, Inc. Announces Pricing of $8.5 Million Private Placement Priced At-the-Market Under Nasdaq Rules with Existing Healthcare Focused Institutional Investors"
+   "actualizado": "2026-10-16T12:37:41Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: 2026 Chinese jewellery retailer insights: Confidence check"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4197.2 · NQ 30113.25 · VIX 16.01 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-16T12:37:42Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "Evaluación Alpha: ninguna idea con 5/5 confluencias. Hoy no se opera (calidad antes que cantidad).",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4184.1 · NQ 30055.0 · VIX 16.46",
    "ts": "2026-10-15T23:27:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4185.0 · NQ 30053.5 · VIX 16.46 · 1 noticias nuevas",
-   "ts": "2026-10-15T23:22:37Z"
   }
  ],
  "briefs": [
@@ -7325,10 +7325,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4200.0,
-  "nq": 30116.0,
-  "vix": 16.06,
-  "ts": "2026-10-16T12:32:31Z"
+  "oro": 4197.2,
+  "nq": 30113.25,
+  "vix": 16.01,
+  "ts": "2026-10-16T12:37:42Z"
  },
  "noticias": [
   {
@@ -7492,6 +7492,15 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "2026 Chinese jewellery retailer insights: Confidence check",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaERTQXNCNTFLNUctQVVQNWRTTzhDOWo3Qkw5aUp3YVdYMjdjaDJ3T0szNWlrRVBLQS11bXgwNHpDQnU0UFAzOXJaeHA0S2ZNS3U4UWtwc1ltYk00ZEduVmsxd0RYSmJnWVpUbnlEZDZtcFA3bWpFbDR4UHNmVmpkOU83OEI2MzE2WHhUa1l0OUJYaHNTYWRvU3VMNA?oc=5",
+   "ts": "2026-10-16T11:27:25Z",
+   "fuente": "World Gold Council",
+   "id": "ff766bcf19",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Meet the New Nasdaq-100 Stock That’s Crushing Nvidia, Micron, and Sandisk. Is It Too Late to Buy?",
@@ -8092,6 +8101,18 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Gold edges up as dollar slips, Fed outlook in focus",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUmp0MmJxZE9FMVNQTHdJU0JOOFcwNzlNMkJCSElPMEtyRVdNa0wxdWdaOW5rWTRITGhYUHNnMnVTMmJuR3IzMl93bzV5T0llRktGTVdZekY2TXowbHFVeElhUVFrb3UtMDNkVmJXWW1JYXl5TzFYNnlVc1VOcndJZVdfU1lPNHlnQk8yN2pER2ZLS0wt0gGaAUFVX3lxTFBIajdGOXZfVW9mVExJVEhzR1A3VFk3MnllcFB5SGJ0OXpZemR3OEI4UEtCZUdUOVV3RTdQcHRFc2hhVDZsQWk1d0JTbl84aFZXVDFaVGdMOEdPTGFpcEFXemZpZHVnNHVMZzVNM2JOZzlBRmROWjlDbWI0ejhuS1ZzMnU5Q3NGdUkyQVB0RHpiNEYzT2ZqcXQwWnc?oc=5",
+   "ts": "2026-10-16T05:11:43Z",
+   "fuente": "CNBC",
+   "id": "bdd2f5fbda",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Gold gains on softer dollar, but heads for weekly fall",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUmp0MmJxZE9FMVNQTHdJU0JOOFcwNzlNMkJCSElPMEtyRVdNa0wxdWdaOW5rWTRITGhYUHNnMnVTMmJuR3IzMl93bzV5T0llRktGTVdZekY2TXowbHFVeElhUVFrb3UtMDNkVmJXWW1JYXl5TzFYNnlVc1VOcndJZVdfU1lPNHlnQk8yN2pER2ZLS0wt0gGaAUFVX3lxTFBIajdGOXZfVW9mVExJVEhzR1A3VFk3MnllcFB5SGJ0OXpZemR3OEI4UEtCZUdUOVV3RTdQcHRFc2hhVDZsQWk1d0JTbl84aFZXVDFaVGdMOEdPTGFpcEFXemZpZHVnNHVMZzVNM2JOZzlBRmROWjlDbWI0ejhuS1ZzMnU5Q3NGdUkyQVB0RHpiNEYzT2ZqcXQwWnc?oc=5",
    "ts": "2026-10-16T05:11:43Z",
@@ -8202,28 +8223,6 @@
    "impacto": "bajo",
    "es": "Gold Fields evalúa oferta de $27 mil millones en posible fusión",
    "efecto": "Ruido corporativo sectorial; sin impacto directo hoy en metales."
-  },
-  {
-   "titulo": "Fed's Warsh says AI path will be 'very bumpy' but ultimately 'very good' for wealth",
-   "link": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html",
-   "ts": "2026-10-16T04:08:27Z",
-   "fuente": "CNBC",
-   "id": "9738ca596f",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Canon wins Grand Award for Aquilion Rise CT scanner and Gold Award for F1.4 L VCM mirrorless RF lens series at DFA Design for Asia Awards 2026",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE84U0Y3c2tkTlFPeC1FVVpNUXpYdGxSaVU1aUhJZndqVG5mVmMxclptOVRPdWdlX2JNXzJBQUxFUjd1Qko3bnBBUVFIMmU5RGd2a29uWnBiM1RPRDA?oc=5",
-   "ts": "2026-10-16T04:01:20Z",
-   "fuente": "Canon Global",
-   "id": "16002d20c4",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -8861,14 +8860,14 @@
     4192.8,
     4201.0,
     4192.3,
-    4198.5
+    4197.5
    ],
    [
-    1792153350,
-    4200.0,
-    4200.0,
-    4200.0,
-    4200.0
+    1792153657,
+    4197.2,
+    4197.2,
+    4197.2,
+    4197.2
    ]
   ],
   "nq": [
@@ -9493,14 +9492,14 @@
     30093.5,
     30129.75,
     30084.5,
-    30115.5
+    30116.5
    ],
    [
-    1792153351,
-    30116.0,
-    30116.0,
-    30116.0,
-    30116.0
+    1792153660,
+    30113.25,
+    30113.25,
+    30113.25,
+    30113.25
    ]
   ],
   "vix": [
@@ -9936,14 +9935,14 @@
     16.08,
     16.08,
     16.01,
-    16.06
+    16.03
    ],
    [
-    1792153036,
-    16.06,
-    16.06,
-    16.06,
-    16.06
+    1792153351,
+    16.01,
+    16.01,
+    16.01,
+    16.01
    ]
   ]
  },
@@ -10583,6 +10582,8 @@
   "09bbe30c0d",
   "119fdd9828",
   "0c6cf57a34",
-  "135fc29764"
+  "135fc29764",
+  "ff766bcf19",
+  "bdd2f5fbda"
  ]
 }
