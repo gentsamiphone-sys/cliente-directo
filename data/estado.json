@@ -3375,9 +3375,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Spring Mountain Rd…",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-10-17T15:02:31Z"
+   "actualizado": "2026-10-17T15:02:33Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -3405,6 +3405,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Spring Mountain Rd…",
+   "ts": "2026-10-17T15:02:33Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 149 textos listos para mandar",
@@ -4899,11 +4904,6 @@
    "agente": "gerente",
    "texto": "Actualicé el reporte del día.",
    "ts": "2026-10-15T04:37:37Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Contando cómo vamos hoy…",
-   "ts": "2026-10-15T04:37:36Z"
   }
  ],
  "reportes": {
