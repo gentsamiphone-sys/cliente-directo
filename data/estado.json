@@ -3374,10 +3374,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ultimo_resultado": "0 negocios nuevos de talleres cerca de Boulder Hwy",
-   "actualizado": "2026-10-17T11:06:17Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
+   "actualizado": "2026-10-17T11:07:08Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -3405,6 +3405,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
+   "ts": "2026-10-17T11:07:08Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -4899,11 +4904,6 @@
    "agente": "disenador",
    "texto": "Muestra lista de Metro Pizza y su mensaje para mandar por texto.",
    "ts": "2026-10-15T01:28:19Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Armando la muestra de Metro Pizza…",
-   "ts": "2026-10-15T01:27:55Z"
   }
  ],
  "reportes": {
