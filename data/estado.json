@@ -3308,10 +3308,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ultimo_resultado": "3 negocios nuevos de restaurantes y comida cerca de E Lake Mead Blvd",
-   "actualizado": "2026-10-17T03:06:20Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "0 negocios nuevos de talleres cerca de Civic Center Dr",
+   "actualizado": "2026-10-17T03:07:11Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -3339,6 +3339,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: 0 negocios nuevos de talleres cerca de Civic Center Dr",
+   "ts": "2026-10-17T03:07:11Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -4833,11 +4838,6 @@
    "agente": "buscador",
    "texto": "Buscando restaurantes y comida sin página web cerca de Decatur Blvd…",
    "ts": "2026-10-14T19:02:33Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Terminó su turno: 131 textos listos para mandar",
-   "ts": "2026-10-14T18:37:37Z"
   }
  ],
  "reportes": {
