@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-18T21:32:54Z",
-   "ultimo_resultado": "Mapa listo: oro 4181.1 · NQ 29391.5."
+   "actualizado": "2026-10-18T22:32:31Z",
+   "ultimo_resultado": "Estrategia 4H NQ: VENTA en el nivel 29622.5 · stop 29769.82 · objetivo 29268.75 · R:R 2.4 (en retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-18T22:27:31Z",
-   "ultimo_resultado": "1 titulares nuevos: Why I am taking the other side of the trade that crushed the market Friday"
+   "actualizado": "2026-10-18T22:32:31Z",
+   "ultimo_resultado": "2 titulares nuevos: GOLD Jan 2028 30.000 call (GOLD280121C00030000) interactive stock chart"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H NQ: VENTA en el nivel 29622.5 · stop 29769.82 · objetivo 29268.75 · R:R 2.4 (en retesteo). Tú ejecutas.",
+   "ts": "2026-10-18T22:32:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4194.9 · NQ 29527.0 · VIX 19.99 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-18T09:02:33Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-18T08:57:30Z"
   }
  ],
  "briefs": [
@@ -7694,10 +7694,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4194.9,
-  "nq": 29527.0,
+  "oro": 4196.0,
+  "nq": 29542.0,
   "vix": 19.99,
-  "ts": "2026-10-18T22:27:32Z"
+  "ts": "2026-10-18T22:32:31Z"
  },
  "noticias": [
   {
@@ -7836,6 +7836,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "GOLD Jan 2028 30.000 call (GOLD280121C00030000) interactive stock chart",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnMG9WdFkxZXpobW1vQV9SVC01MjhQb2hIRXJoazZ4R1l5OVg1bkVpRHZmMnk0ajBoQVJXXzlTWFNrZ253VnRMUXZuZmxzWkFnMTdrT2dmNmVaemxYcVMtZ3g3emFqZmdkX1dPQUFB?oc=5",
+   "ts": "2026-10-18T20:22:34Z",
+   "fuente": "Yahoo Finance UK",
+   "id": "f2b22a4f6d",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Macy’s $500 diamond-cut ice chain bracelet crafted with 14-karat gold is 76% off",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSXp4YmZpMDFwN1BJMENheEtHUkFyVzIwa3FBd2FnT0RCV1owcVJUamZVRlY5eGg5cGttUk1Gc0dpa2l2Wm5ONFhhVk5sVVRVNl9UMVdkN3hXMEhTWTBkam81dlNqTW91SDZVLWp2MXdOdThsUlBuV19QYXl1SWkwTGJtREp5MENYSXEzX0lRZ2JfVGVBUmJBUA?oc=5",
    "ts": "2026-10-18T20:03:00Z",
@@ -7896,6 +7907,17 @@
    "id": "635f223fb0",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Steve Haughelstine wins Real Moto 2016 gold",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Zak1oZUZtNkFBQzZrMVFWaUN2a09NNzJWMm5XNWNhRURCZDBvU0xDVExvUVlidDRBQ25tZE1JSmFaWEpsdHJUX3JWbU5QMmxMcW1VaGtGYy0?oc=5",
+   "ts": "2026-10-18T19:10:53Z",
+   "fuente": "ESPN",
+   "id": "75067dcf5e",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Ondo’s Tokenized Treasury Product Just Passed BlackRock’s BUIDL. Is ONDO Undervalued?",
@@ -8537,26 +8559,6 @@
    "ts": "2026-10-18T09:01:56Z",
    "fuente": "IMDb",
    "id": "3e5c449acd",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Across Farm Country, Economic Discontent Strains Republican Coalition",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcHFlUjktMXVhbGNoRElFSzEzcG9RZlVwSjhkVzd6OGZXY3JyWnRTbnBnaXhUTERlWFlFVDJBcWNZLTRlMGJvaW1QX3FVWXlGUWx2dWJqRURWVHVXbF9mN0hDeko1RmNWYVZybjBKdXRnTFR2cU9qWFRGSnkydkRnRHZWV0R6VFZhY2dXNnp5QzloWkVW?oc=5",
-   "ts": "2026-10-18T09:00:47Z",
-   "fuente": "The New York Times",
-   "id": "f565baa85a",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Gold M&A Shifts to Safer Jurisdictions as Gold Developers' Pool Shrinks",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYlBUZDlGZ2EwVXlZMlpRUGVTN21hNVdZcllzWlQxaFoxcnJyMmtDbmNvbGluai1PYmZlTm9wajVlcUFNa2tZSnd4UUk0MkFzcERWR3hiNHdLdHFzM0FzTHgxcE9VajBrYVNjVi1XZ0psaTF1bG9sNmh4bm5SYmlXYTZvWWoxa3BpWHdNd0d4TzB2Nk5wQWluWUpQTkFhNkJ3OTFMQzl4Uk83QUtDSDBz?oc=5",
-   "ts": "2026-10-18T08:03:26Z",
-   "fuente": "Crux Investor",
-   "id": "0864cd6a95",
    "activos": [
     "oro"
    ],
@@ -10320,54 +10322,54 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-18T22:02:32Z",
- "ult_4h": 1792361850.6672077,
+ "ult_4h": 1792362751.6035402,
  "estrategia_4h": {
   "oro": {
-   "precio": 4181.1,
-   "atr_4h": 24.86,
+   "precio": 4196.0,
+   "atr_4h": 25.99,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4168.38,
+     "stop": 4167.71,
      "objetivo": 4220.4,
-     "rr": 2.49,
+     "rr": 2.38,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.13,
+     "fuerza_ruptura_atr": 1.08,
      "ruptura": "2026-10-15 16:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29391.5,
-   "atr_4h": 234.05,
+   "precio": 29542.0,
+   "atr_4h": 245.54,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29622.5,
      "entrada": 29622.5,
-     "stop": 29762.93,
+     "stop": 29769.82,
      "objetivo": 29268.75,
-     "rr": 2.52,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.19,
+     "rr": 2.4,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 1.14,
      "ruptura": "2026-10-16 16:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30510.43,
+     "stop": 30517.32,
      "objetivo": 29268.75,
-     "rr": 7.84,
+     "rr": 7.48,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.84,
+     "fuerza_ruptura_atr": 1.75,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-18T22:17:30Z"
+  "ts": "2026-10-18T22:32:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10392,12 +10394,11 @@
   "nq|VENTA|30512.25|esperando retesteo",
   "oro|COMPRA|4183.3|esperando retesteo",
   "oro|COMPRA|4183.3|en retesteo",
-  "nq|VENTA|29622.5|esperando retesteo"
+  "nq|VENTA|29622.5|esperando retesteo",
+  "nq|VENTA|29622.5|en retesteo"
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "408c805dc8",
-  "b3c3c12cbc",
   "af6400ecb4",
   "b81402acc5",
   "9a05ea22bf",
@@ -11195,6 +11196,8 @@
   "27ca8420d8",
   "74f3102bd9",
   "b87c6cb5dd",
-  "8bded9ee3b"
+  "8bded9ee3b",
+  "f2b22a4f6d",
+  "75067dcf5e"
  ]
 }
