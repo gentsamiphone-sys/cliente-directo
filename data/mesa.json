@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4201.2 · NQ 29609.5 · VIX 19.99",
-   "actualizado": "2026-10-18T23:12:33Z"
+   "ultimo_resultado": "Oro 4200.1 · NQ 29581.5 · VIX 19.99 · 2 noticias nuevas",
+   "actualizado": "2026-10-18T23:17:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-18T23:12:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-18T23:17:30Z",
+   "ultimo_resultado": "2 titulares nuevos: AI credit stress: Why falling Treasury yields matter"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4200.1 · NQ 29581.5 · VIX 19.99 · 2 noticias nuevas",
+   "ts": "2026-10-18T23:17:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4201.2 · NQ 29609.5 · VIX 19.99",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: POOLE AND HAMILTON SET FOR GOLD CUP SHOWDOWN -",
    "ts": "2026-10-18T09:52:40Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-18T09:47:30Z"
   }
  ],
  "briefs": [
@@ -7694,10 +7694,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4201.2,
-  "nq": 29609.5,
+  "oro": 4200.1,
+  "nq": 29581.5,
   "vix": 19.99,
-  "ts": "2026-10-18T23:12:32Z"
+  "ts": "2026-10-18T23:17:31Z"
  },
  "noticias": [
   {
@@ -7788,6 +7788,17 @@
    "id": "6f9802f4ba",
    "activos": [
     "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "AI credit stress: Why falling Treasury yields matter",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS1VmV0tWUmlvNTlVeW52SEJJQ0JrcER1eXhYSzY2ZzNPSklCUGhDcWZjUHlDSUxLTHhqaTlTUjV2cUs4elNPMVRMMmJBYTA0d1BkREhDQi16VHBjNEhRbnVkT2tZaXpBbmZfNTlKMHNYN2w2d2NtY2lremE0Q1VXcnZGVHRjektEX3BUZHQ2Z0NmUmI5ZGttN2lUM2dsTkU?oc=5",
+   "ts": "2026-10-18T22:09:36Z",
+   "fuente": "FXStreet",
+   "id": "96970c835b",
+   "activos": [
+    "dolar"
    ],
    "impacto": "medio"
   },
@@ -7967,6 +7978,17 @@
    "ts": "2026-10-18T19:10:53Z",
    "fuente": "ESPN",
    "id": "75067dcf5e",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Marcella Hazan’s bolognese has been called “the gold standard” and has more than 25,000 5-star reviews. Try it and see for yourself. https://nyti.ms/4yh2flu",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRjNjaGdIQTd4TWNYSDJLY2RyM1pYQkhaU0lVVHhIRFh2d1VUT3hCSnNOSXduNEVlTVdqVVZyZVF0SHBvTlJZWFpJbU1MQVd3cXJGbTdWR0JPMGFxOFBKTl85dkpiWHZjb3piejRYeFMyTklyUzhQR2NkellZcnBlWGZXemFZSjFzNVVxcGVNQkMyRUdxRjlkZWFKWXZTYzI1dXE0dm9ldHVKOUdCTU5QS3ZZNWpyYnlOaDl0TWtCOEw5QVVqdGlSUHhtNHJBU3RVSzFr?oc=5",
+   "ts": "2026-10-18T19:10:52Z",
+   "fuente": "Facebook",
+   "id": "919e29f3d9",
    "activos": [
     "oro"
    ],
@@ -8539,28 +8561,6 @@
    "impacto": "medio",
    "es": "El mercado de semiconductores se mantendrá sólido al menos hasta el próximo año, dice ministro de finanzas de Corea del Sur",
    "efecto": "Impulsa al NQ al alza por perspectiva positiva en tecnología."
-  },
-  {
-   "titulo": "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta",
-   "link": "https://www.cnbc.com/2026/10/18/deaths-confirmed-after-fire-at-canada-military-base-in-alberta.html",
-   "ts": "2026-10-18T11:03:05Z",
-   "fuente": "CNBC",
-   "id": "75bac7668c",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Confirman muertes tras un incidente grave e incendio en base militar de Canadá en Alberta",
-   "efecto": ""
-  },
-  {
-   "titulo": "Apple (NASDAQ: AAPL) stock forecast: Wall Street analysts split on AAPL’s upside",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWDVRb2FrV3ZSYzNvc18taHNQZlZqV3pYRnV6SURCYk1RTFlhdVZRemt6RDRQM0RLWmxTc3hvQUI4ZGJkcFhrb3oxYTJza2EtenRqaWNLTG9nQzgxM1RHT1dLZUtyYzNDRUdsa3hISThMSGhBdS1sRkpEdHNBb25OUmd1ZzlsWmRWQkp5TnNTeTU1clJ2?oc=5",
-   "ts": "2026-10-18T10:30:14Z",
-   "fuente": "Beinsure",
-   "id": "4e7246eeea",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9198,14 +9198,14 @@
     4196.4,
     4202.0,
     4196.4,
-    4201.0
+    4200.6
    ],
    [
-    1792364551,
-    4201.0,
-    4201.0,
-    4201.0,
-    4201.0
+    1792364844,
+    4200.1,
+    4200.1,
+    4200.1,
+    4200.1
    ]
   ],
   "nq": [
@@ -9822,15 +9822,15 @@
     1792364400,
     29616.5,
     29618.0,
-    29602.75,
-    29609.0
+    29563.5,
+    29585.75
    ],
    [
-    1792364549,
-    29609.0,
-    29609.0,
-    29609.0,
-    29609.0
+    1792364850,
+    29581.5,
+    29581.5,
+    29581.5,
+    29581.5
    ]
   ],
   "vix": [
@@ -10334,54 +10334,54 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-18T22:47:32Z",
- "ult_4h": 1792364553.779753,
+ "ult_4h": 1792365451.1895764,
  "estrategia_4h": {
   "oro": {
-   "precio": 4196.3,
-   "atr_4h": 26.18,
+   "precio": 4200.1,
+   "atr_4h": 26.36,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4167.59,
+     "stop": 4167.49,
      "objetivo": 4220.4,
-     "rr": 2.36,
-     "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.07,
+     "rr": 2.35,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 1.06,
      "ruptura": "2026-10-15 16:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29597.25,
-   "atr_4h": 249.68,
+   "precio": 29581.5,
+   "atr_4h": 250.7,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29622.5,
      "entrada": 29622.5,
-     "stop": 29772.31,
+     "stop": 29772.92,
      "objetivo": 29268.75,
-     "rr": 2.36,
+     "rr": 2.35,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.12,
+     "fuerza_ruptura_atr": 1.11,
      "ruptura": "2026-10-16 16:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30519.81,
+     "stop": 30520.42,
      "objetivo": 29268.75,
-     "rr": 7.35,
+     "rr": 7.32,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.73,
+     "fuerza_ruptura_atr": 1.72,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-18T23:02:34Z"
+  "ts": "2026-10-18T23:17:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10411,8 +10411,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "784423804c",
-  "93ff7173d8",
   "96f0198113",
   "563ce30e66",
   "78356c7d9d",
@@ -11210,6 +11208,8 @@
   "e4f7612cc0",
   "138c53c204",
   "13c26a5900",
-  "326e270422"
+  "326e270422",
+  "96970c835b",
+  "919e29f3d9"
  ]
 }
