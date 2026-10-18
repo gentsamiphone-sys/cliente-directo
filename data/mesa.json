@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4197.6 · NQ 29573.5 · VIX 19.99",
-   "actualizado": "2026-10-18T22:52:32Z"
+   "ultimo_resultado": "Oro 4196.9 · NQ 29591.5 · VIX 19.99 · 1 noticias nuevas",
+   "actualizado": "2026-10-18T22:57:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-18T22:52:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-18T22:57:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Anthropic commits 5% of shares to new public benefit fund that could address AI job disruption"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4196.9 · NQ 29591.5 · VIX 19.99 · 1 noticias nuevas",
+   "ts": "2026-10-18T22:57:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4197.6 · NQ 29573.5 · VIX 19.99",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-18T09:32:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-18T09:27:38Z"
   }
  ],
  "briefs": [
@@ -7694,12 +7694,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4197.6,
-  "nq": 29573.5,
+  "oro": 4196.9,
+  "nq": 29591.5,
   "vix": 19.99,
-  "ts": "2026-10-18T22:52:32Z"
+  "ts": "2026-10-18T22:57:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Anthropic commits 5% of shares to new public benefit fund that could address AI job disruption",
+   "link": "https://www.cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html",
+   "ts": "2026-10-18T22:55:48Z",
+   "fuente": "CNBC",
+   "id": "138c53c204",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Small Caps Watch: Friday’s 2.2% rebound trims five-day losses",
    "link": "https://www.proactiveinvestors.com/companies/news/1100262/small-caps-watch-friday-s-2-2-rebound-trims-five-day-losses-1100262.html?.tsrc=rss",
@@ -8554,17 +8563,6 @@
    "impacto": "bajo",
    "es": "YouTube Gold: El partido de Willis Reed sigue siendo icónico",
    "efecto": "Sin impacto en mercados financieros, contenido de entretenimiento."
-  },
-  {
-   "titulo": "Finucane will 'come back fighting' after missing gold",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVV8zdjVmTHJDNmFFTkh5UFJUdjRxcDZoRDlJb1NIUDIzdWkyR29DWjlhNnBkY2FIWHN2VDhEMm9wMHVEaUJzMWM3LUtsUmo5NXFaX0Q0cDE5M2xyVXJXY0FMSVlLdU85dExoUE8yOEZDdlFRQWhZcDRIblhiYTY0bXhFNm15SEVTMENYSQ?oc=5",
-   "ts": "2026-10-18T09:24:45Z",
-   "fuente": "Yahoo Sports",
-   "id": "823027bec5",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Finucane volverá a luchar tras perder el oro",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -9195,14 +9193,14 @@
     4191.3,
     4199.5,
     4191.1,
-    4197.6
+    4197.9
    ],
    [
-    1792363348,
-    4197.6,
-    4197.6,
-    4197.6,
-    4197.6
+    1792363650,
+    4197.1,
+    4197.1,
+    4197.1,
+    4197.1
    ]
   ],
   "nq": [
@@ -9811,16 +9809,16 @@
    [
     1792360800,
     29521.0,
-    29579.75,
+    29596.75,
     29501.25,
-    29578.25
+    29591.0
    ],
    [
-    1792363348,
-    29573.0,
-    29573.0,
-    29573.0,
-    29573.0
+    1792363651,
+    29591.5,
+    29591.5,
+    29591.5,
+    29591.5
    ]
   ],
   "vix": [
@@ -10401,7 +10399,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "9a05ea22bf",
   "5e5145d3af",
   "e70a634187",
   "784423804c",
@@ -11200,6 +11197,7 @@
   "f2b22a4f6d",
   "75067dcf5e",
   "8e5853e3bb",
-  "e4f7612cc0"
+  "e4f7612cc0",
+  "138c53c204"
  ]
 }
