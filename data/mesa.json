@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro — · NQ — · VIX 19.99",
-   "actualizado": "2026-10-18T22:07:40Z"
+   "ultimo_resultado": "Oro — · NQ — · VIX 19.99 · 2 noticias nuevas",
+   "actualizado": "2026-10-18T22:12:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-18T22:07:39Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-18T22:12:34Z",
+   "ultimo_resultado": "2 titulares nuevos: Dow Jones Futures Rise Amid AI Fears; Can Meta, SpaceX, Tesla Earnings Save The Day?"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro — · NQ — · VIX 19.99 · 2 noticias nuevas",
+   "ts": "2026-10-18T22:12:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro — · NQ — · VIX 19.99",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: Save $250 USD on the Lexar 1TB Professional GOLD CFexpress 4.0 Type B Memory Card",
    "ts": "2026-10-18T08:42:30Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-18T08:37:32Z"
   }
  ],
  "briefs": [
@@ -7695,9 +7695,20 @@
  },
  "en_vivo": {
   "vix": 19.99,
-  "ts": "2026-10-18T22:07:39Z"
+  "ts": "2026-10-18T22:12:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Dow Jones Futures Rise Amid AI Fears; Can Meta, SpaceX, Tesla Earnings Save The Day?",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnZSNzJZS2NlWi1Hckg0djB1aGQ3bEkzVTB4ejBTQWRoQ0JTOWJBa1U4Z1EyWFZSa0ZmSDlIcmx5MFEwQmhCeFE2MEs4ZEdMSThwczNORG03QTY4MU9xR3pXWmRtNmdMc3BRZ0F4U1FudlhIdXpwVHVQUXUxMU44NHhhRVZyTmNDVk1MLXBsOHBIV2Q3VU9oTE1sa2JET0c5b3p5ZUJHeTBrQlJKaTRnS284ZGVhUUlwekJKalp5dmsyRmdzU25QRQ?oc=5",
+   "ts": "2026-10-18T22:10:00Z",
+   "fuente": "Investor's Business Daily",
+   "id": "6f9802f4ba",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Lightweight Four Wins Gold on Final Day of 61st Head of the Charles[",
    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYU5iMnQxNDBYUDgzTWtha2NrRUxjQ3EwRzUyYlRkVHpLdTFZUzAwYXVjSUxmM3lrTjlzZnd1ck1vT2R2ZTczdWJ1MVpiVzU4c0NuZUM5b29KQjlRbUd4czFCTjJlRkVPS251T3pFVC00N240M2QxU01aT0VWWGxpd0pISkJsajlSU19oR2ZmQkdHMVg1S1IyVkFoQndMbHI1WWF1b1hlUlR1OFJBVVpUZUNHVUhGYmZJdDJkTGNDN2FwSjFXdzBITFdHa1k?oc=5",
@@ -7981,6 +7992,15 @@
    "impacto": "bajo",
    "es": "Elizabet Abraamian completa un viaje notable desde la clasificación hasta el oro europeo en Liubliana",
    "efecto": "Noticia deportiva sin impacto financiero institucional."
+  },
+  {
+   "titulo": "Trump's policies raised costs for all but the top 1%, report says",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWWtXT0R1ZVB6MjhuXzJ3MExDcDdfdnFDdDVqbmc4M1hfdFJtM1FnRXRhSGRhUkVqNlRfV1hoU29XVUFlTFlUa2RRSk9nVnBZVml3OFNRMW5maEdfM3ROVTl4bXNVbEQyaTN3eWJTS1pseURJaWpJQndSbUg0OFlXMkFjenIyNGhod0t6OGpTVV9nWVRKOUVJelFmU2NBaGZ6T0pKcEpoNkptVmZ2eEtVenZSbzV3bXBJMUhrNUlwa0IyUURjRzdQeWVmLXY?oc=5",
+   "ts": "2026-10-18T16:54:00Z",
+   "fuente": "USA Today",
+   "id": "3619572a69",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Black and Gold take care of business in Conway",
@@ -8545,28 +8565,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "++HOT+VỈDEOS!! gold medalist original video",
-   "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNRmkyM3FoVjJzNm9FOWczX0F6UXZ2Sy1PSGhNM1ROcUVRUk1rNU5FbnJicGZCcHUwc2VfY0MzN01IdU9GdWZEU1J0YlhrMGo1SGkzdmJHNHBsRE40SGUzSFBHbEs4SFVtTmlTY3ZGWUI1T3gwQkNEb0ZDMWNpQmswdEd2aWdKZXAwVHcxQ1J0X3dxNmpfcUJLRTVzaDljZ0p5OGhxa2xNV25QS1YtenVpdGRLOHlONU16MTNkQmdSLWl1ekJtUjg5NlNUMzlpSGNHNi1RVlF3cVowYnRfR2xCWHVLMzJwbnRZTER5MmZTTy1OaEhmR0FhRk1wbHdPOWhLUkVtYW1sZ0hKQkRGZXdvVm1LVTlHQnZpUHBqaVlLaFlwNXM5bmladEE2MA?oc=5",
-   "ts": "2026-10-18T06:27:57Z",
-   "fuente": "Universidad de Córdoba (UCO)",
-   "id": "11409ded5e",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Video viral falso de medallista de oro",
-   "efecto": "Ruido en redes sociales, sin impacto institucional."
-  },
-  {
-   "titulo": "~^VIRAL MMS])* gold medalist video",
-   "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQMURjZFZ0M0FVOXpIWTU4dkdIempfZzRTT04yd001c0NfcnZHRGxiUkdoYjRneGpjejhBSXRwdTZYT0FPb2sxamhnYkUxMTZyTjNneFhCT01xS1I5dmx5Um1YRHFPZUZFSWpENmdNNWMwVVdsTll1cjJ6aEw2Y3N2c29oTkRaVE1teDlvY2I0ZmdnZUJsYXBJR1N2UXNOczBDQkVJaU5qcFBoOHBhdEw2eXRrQnEtSnNIYzl1YVlaaEZBQzJ2dGVWY3liMmYySnk2VkhJc2ItcTVwTkVhVlpiVVlOMzdpRFNZaEp0THprWl95UVNpNy1ieHM0ZDRMUFR0cmlPUWlpS19FWHdKZzRrWVpTQ0Z0ZS1DQW8zX0tfVzdQZVlJcHc?oc=5",
-   "ts": "2026-10-18T06:27:47Z",
-   "fuente": "Universidad de Córdoba (UCO)",
-   "id": "b7b5e58631",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Video MMS viral de medallista de oro",
-   "efecto": "Ruido en redes sociales, sin impacto de mercado."
   }
  ],
  "eventos_avisados": [
@@ -9193,7 +9191,7 @@
     4186.7
    ],
    [
-    1792184399,
+    1792360953,
     4181.1,
     4181.1,
     4181.1,
@@ -9804,7 +9802,7 @@
     29391.5
    ],
    [
-    1792184399,
+    1792360953,
     29391.5,
     29391.5,
     29391.5,
@@ -10388,8 +10386,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "b833eec200",
-  "af3937fe36",
   "faa68ba2e0",
   "ba3fe6f15c",
   "cb5ae8294d",
@@ -11187,6 +11183,8 @@
   "d355a660fe",
   "1395c625e8",
   "5910cc05cb",
-  "a21f698c63"
+  "a21f698c63",
+  "6f9802f4ba",
+  "3619572a69"
  ]
 }
