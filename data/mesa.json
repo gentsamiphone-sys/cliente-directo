@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-18T11:07:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-18T11:12:34Z",
+   "ultimo_resultado": "1 titulares nuevos: El mercado de semiconductores se mantendrá sólido al menos hasta el próximo año, dice ministro de finanzas de Corea del Sur"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "noticias",
+   "texto": "1 titulares nuevos: El mercado de semiconductores se mantendrá sólido al menos hasta el próximo año, dice ministro de finanzas de Corea del Sur",
+   "ts": "2026-10-18T11:12:34Z"
+  },
   {
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4180.7 · NQ 29389.75 · VIX 21.54 · 2 noticias nuevas",
    "ts": "2026-10-16T18:37:41Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4181.7 · NQ 29403.25 · VIX 20.87 · 5 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-16T18:32:56Z"
   }
  ],
  "briefs": [
@@ -7332,6 +7332,19 @@
  },
  "noticias": [
   {
+   "titulo": "Semiconductor market to remain solid ‘at least through next year,’ South Korea finance minister says",
+   "link": "https://www.cnbc.com/2026/10/17/south-korea-semiconductor-outlook-lee-hyoung-il.html",
+   "ts": "2026-10-18T11:10:44Z",
+   "fuente": "CNBC",
+   "id": "b88800f2c3",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "El mercado de semiconductores se mantendrá sólido al menos hasta el próximo año, dice ministro de finanzas de Corea del Sur",
+   "efecto": "Impulsa al NQ al alza por perspectiva positiva en tecnología."
+  },
+  {
    "titulo": "Apple (NASDAQ: AAPL) stock forecast: Wall Street analysts split on AAPL’s upside",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWDVRb2FrV3ZSYzNvc18taHNQZlZqV3pYRnV6SURCYk1RTFlhdVZRemt6RDRQM0RLWmxTc3hvQUI4ZGJkcFhrb3oxYTJza2EtenRqaWNLTG9nQzgxM1RHT1dLZUtyYzNDRUdsa3hISThMSGhBdS1sRkpEdHNBb25OUmd1ZzlsWmRWQkp5TnNTeTU1clJ2?oc=5",
    "ts": "2026-10-18T10:30:14Z",
@@ -8221,15 +8234,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
-   "link": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
-   "ts": "2026-10-16T19:30:30Z",
-   "fuente": "CNBC",
-   "id": "a3e0d02877",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -10009,7 +10013,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-18T10:32:30Z",
+ "noticias_traducidas_ts": "2026-10-18T11:12:33Z",
  "ult_4h": 1792183654.583253,
  "estrategia_4h": {
   "oro": {
@@ -10866,6 +10870,7 @@
   "4e7246eeea",
   "3e5c449acd",
   "f565baa85a",
-  "0864cd6a95"
+  "0864cd6a95",
+  "b88800f2c3"
  ]
 }
