@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4164.7 · NQ 29880.75 · VIX 17.79 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-19T15:17:37Z"
+   "ultimo_resultado": "Oro 4166.4 · NQ 29873.25 · VIX 17.74 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-19T15:22:45Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T15:17:35Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Treasury yields move higher as investors assess U.S. inflation backdrop"
+   "actualizado": "2026-10-19T15:22:44Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Arqueros de EE. UU. ganan tres oros y un bronce en la Serie Paralímpica en Chile"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4166.4 · NQ 29873.25 · VIX 17.74 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-19T15:22:45Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4164.7 · NQ 29880.75 · VIX 17.79 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4195.4 · NQ 29690.0 · VIX 19.99 · 1 noticias nuevas",
    "ts": "2026-10-19T02:02:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4193.1 · NQ 29686.5 · VIX 19.99 · 3 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-19T01:57:45Z"
   }
  ],
  "briefs": [
@@ -8032,12 +8032,37 @@
   }
  },
  "en_vivo": {
-  "oro": 4164.7,
-  "nq": 29880.75,
-  "vix": 17.79,
-  "ts": "2026-10-19T15:17:36Z"
+  "oro": 4166.4,
+  "nq": 29873.25,
+  "vix": 17.74,
+  "ts": "2026-10-19T15:22:45Z"
  },
  "noticias": [
+  {
+   "titulo": "Three gold and a bronze for USA archers at the World Archery Para Series in Chile",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcWs4ZVJVaHJucVBzQkMzTWpXaEFWeVVhLXh3Z2dVSHd1SHFMZHBhenZ5R2FEWTRwRkNaeUtIWGVhUE5BVGhwYzJhLTI1d2dfaGNlWml3M3pRV3Y0ZG9Ta3RYS2Fob01yTWx4Ql9ObGY2dURGdkJiRXVudmd6RDEtVXptMHd4ajFLbjJGQ2JCQ2hUTU9IakZrQ1liUlVxUGoxQ0JVNUVkd1k0WGVIbk1NX3dCdi1UZw?oc=5",
+   "ts": "2026-10-19T15:17:36Z",
+   "fuente": "USA Archery",
+   "id": "c27adc20e9",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Arqueros de EE. UU. ganan tres oros y un bronce en la Serie Paralímpica en Chile",
+   "efecto": ""
+  },
+  {
+   "titulo": "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom",
+   "link": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+   "ts": "2026-10-19T15:14:20Z",
+   "fuente": "CNBC",
+   "id": "9048786587",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Arabia Saudita pospone conferencia de inversores para 2027 por ataques hutíes respaldados por Irán",
+   "efecto": "Aumenta la tensión geopolítica; presiona al oro al alza por refugio."
+  },
   {
    "titulo": "OpenAI bugging suspect's conduct could pose danger to U.S. national security, feds warn",
    "link": "https://www.cnbc.com/2026/10/19/openai-bugging-suspect-alfozan-saudi-royal-family.html",
@@ -8886,28 +8911,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Amazon is a top pick and will get a big boost from a slew of catalysts, says Morgan Stanley",
-   "link": "https://www.cnbc.com/2026/10/19/amazon-morgan-stanley-top-pick-catalysts.html",
-   "ts": "2026-10-19T10:57:19Z",
-   "fuente": "CNBC",
-   "id": "9cf2cc63c0",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Egypt is the first country globally to maintain Gold Tier status on the path to hepatitis C elimination",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVURoeTd5SjdRQkhUdFpUTDNhSVdRZDUzb1VidDZ1c0R1WEVkSjEyM1o2U2QzZ1J4MEh5QXdXeFl3OXlUN2huQ2YzR25VSzQ5R1JxYUFOMVhpUkM3TnhKWFBuNTcyLVl4czh6R1Z0TVN6dUZQdDgzX083b2xjSHBwY1d5MTI5QXBXVkpWUTVBckFEdDRfYUVpTUtwMjhhbzNkZGVHRmZtU0FBeVhsTF9Dal9rZkpWUUVWWERnMi1fcXlWeWZoSVBYMHVENFkyamkwXzRxeGFUdHVDcWZ0?oc=5",
-   "ts": "2026-10-19T10:55:20Z",
-   "fuente": "World Health Organization (WHO)",
-   "id": "c0f09f6879",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9489,14 +9492,14 @@
     4165.5,
     4167.6,
     4163.6,
-    4165.9
+    4166.9
    ],
    [
-    1792422451,
-    4164.7,
-    4164.7,
-    4164.7,
-    4164.7
+    1792422759,
+    4166.4,
+    4166.4,
+    4166.4,
+    4166.4
    ]
   ],
   "nq": [
@@ -10065,14 +10068,14 @@
     29841.75,
     29898.25,
     29831.0,
-    29878.25
+    29878.75
    ],
    [
-    1792422455,
-    29880.25,
-    29880.25,
-    29880.25,
-    29880.25
+    1792422765,
+    29870.25,
+    29870.25,
+    29870.25,
+    29870.25
    ]
   ],
   "vix": [
@@ -10529,18 +10532,18 @@
     17.82,
     17.82,
     17.72,
-    17.79
+    17.75
    ],
    [
-    1792422151,
-    17.79,
-    17.79,
-    17.79,
-    17.79
+    1792422451,
+    17.74,
+    17.74,
+    17.74,
+    17.74
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-19T14:47:40Z",
+ "noticias_traducidas_ts": "2026-10-19T15:22:43Z",
  "ult_4h": 1792423056.3334577,
  "estrategia_4h": {
   "oro": {
@@ -10606,8 +10609,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "2b5719790a",
-  "52feb7ac44",
   "efad2b2f67",
   "fd93712290",
   "d29e9b0806",
@@ -11405,6 +11406,8 @@
   "c125eed070",
   "607fa623c8",
   "bb83cb6ff7",
-  "0f6044f94e"
+  "0f6044f94e",
+  "c27adc20e9",
+  "9048786587"
  ]
 }
