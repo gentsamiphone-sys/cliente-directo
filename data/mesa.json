@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4170.1 · NQ 29837.0 · VIX 17.68",
-   "actualizado": "2026-10-19T14:37:35Z"
+   "ultimo_resultado": "Oro 4168.3 · NQ 29785.25 · VIX 17.7 · 1 noticias nuevas",
+   "actualizado": "2026-10-19T14:42:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T14:37:35Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-19T14:42:35Z",
+   "ultimo_resultado": "1 titulares nuevos: S&P 500, Nasdaq climb as AI-linked stocks recover ahead of earnings"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4168.3 · NQ 29785.25 · VIX 17.7 · 1 noticias nuevas",
+   "ts": "2026-10-19T14:42:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4170.1 · NQ 29837.0 · VIX 17.68",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4191.7 · NQ 29684.5 · VIX 19.99 · 2 noticias nuevas",
    "ts": "2026-10-19T01:22:30Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4186.5 · NQ 29658.5 · VIX 19.99 · 2 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-19T01:17:36Z"
   }
  ],
  "briefs": [
@@ -8032,12 +8032,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4170.1,
-  "nq": 29837.0,
-  "vix": 17.68,
-  "ts": "2026-10-19T14:37:35Z"
+  "oro": 4168.3,
+  "nq": 29785.25,
+  "vix": 17.7,
+  "ts": "2026-10-19T14:42:36Z"
  },
  "noticias": [
+  {
+   "titulo": "S&P 500, Nasdaq climb as AI-linked stocks recover ahead of earnings",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa1dPVUpMX284bG5SR2tYTE5ydE5DYkFBUzI1ZGoyTEJkSnNsZU9ISHd5YVlnbEZEMWNaVVBhT2QxaVN2UEQ2SFRjUEVMUDgteTV4ZWxTUlRwMWtTckhWT2dZSThiU3ZkSE4tSVFnUUsxME9ZdTZLYngxRTYyaG9rbzJoVGwwN0NHVjVCQUlLMTcybktG?oc=5",
+   "ts": "2026-10-19T14:31:16Z",
+   "fuente": "Yahoo Finance",
+   "id": "f4dff59d8d",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Billionaire CEO: AI Is “The Biggest Bubble Of Our Lifetime,” But Investors Should Keep Buying During The Melt-Up",
    "link": "https://247wallst.com/investing/2026/10/19/billionaire-ceo-ai-is-the-biggest-bubble-of-our-lifetime-but-investors-should-keep-buying-during-the-melt-up/?.tsrc=rss",
@@ -8900,17 +8911,6 @@
    "impacto": "bajo",
    "es": "Wescan Goldfields halla oro visible en Munro Lake y completa levantamiento magnético UAV",
    "efecto": "Impacto microeconómico limitado, sin efecto relevante en el precio del oro."
-  },
-  {
-   "titulo": "Heliostar Reports 52.4m Grading 5.84 g/t Gold from the High Grade Panel and Continues to Build Out the Expansion Zone at Ana Paula",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/heliostar-reports-52-4m-grading-103000331.html?.tsrc=rss",
-   "ts": "2026-10-19T10:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "bcdfac574b",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9485,14 +9485,14 @@
     4174.1,
     4174.8,
     4162.5,
-    4168.4
+    4168.0
    ],
    [
-    1792420052,
-    4169.5,
-    4169.5,
-    4169.5,
-    4169.5
+    1792420352,
+    4168.7,
+    4168.7,
+    4168.7,
+    4168.7
    ]
   ],
   "nq": [
@@ -10054,14 +10054,14 @@
     29711.0,
     29869.0,
     29653.75,
-    29844.25
+    29768.75
    ],
    [
-    1792420055,
-    29835.5,
-    29835.5,
-    29835.5,
-    29835.5
+    1792420356,
+    29785.25,
+    29785.25,
+    29785.25,
+    29785.25
    ]
   ],
   "vix": [
@@ -10511,14 +10511,14 @@
     18.13,
     18.5,
     17.62,
-    17.7
+    17.67
    ],
    [
-    1792419751,
-    17.68,
-    17.68,
-    17.68,
-    17.68
+    1792420051,
+    17.7,
+    17.7,
+    17.7,
+    17.7
    ]
   ]
  },
@@ -10588,7 +10588,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "5524adae46",
   "03ab38e1da",
   "cfe91d2b9f",
   "6df5ab64b2",
@@ -11387,6 +11386,7 @@
   "601bd06752",
   "2f58e1c4aa",
   "9327230b95",
-  "9e5764c51f"
+  "9e5764c51f",
+  "f4dff59d8d"
  ]
 }
