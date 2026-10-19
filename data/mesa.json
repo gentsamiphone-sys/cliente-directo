@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4197.0 · NQ 29785.25 · VIX 19.99 · 1 noticias nuevas",
-   "actualizado": "2026-10-19T05:32:36Z"
+   "ultimo_resultado": "Oro 4196.0 · NQ 29763.0 · VIX 19.99 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-19T05:37:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T05:32:35Z",
-   "ultimo_resultado": "1 titulares nuevos: El oro sube levemente al disminuir la presión inflacionaria por la caída del petróleo"
+   "actualizado": "2026-10-19T05:37:30Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Gold rises as Warsh remarks temper Fed hike bets, futures top $4,200"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4196.0 · NQ 29763.0 · VIX 19.99 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-19T05:37:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4197.0 · NQ 29785.25 · VIX 19.99 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-18T16:17:30Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-18T16:12:35Z"
   }
  ],
  "briefs": [
@@ -7694,10 +7694,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4197.0,
-  "nq": 29785.25,
+  "oro": 4196.0,
+  "nq": 29763.0,
   "vix": 19.99,
-  "ts": "2026-10-19T05:32:36Z"
+  "ts": "2026-10-19T05:37:31Z"
  },
  "noticias": [
   {
@@ -7945,6 +7945,18 @@
    "impacto": "alto",
    "es": "Trump levanta sanciones y aranceles a Rusia antes de su aplicación.",
    "efecto": "Reduce la aversión al riesgo global, presionando al oro a la baja."
+  },
+  {
+   "titulo": "Gold rises as Warsh remarks temper Fed hike bets, futures top $4,200",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-rises-warsh-remarks-curb-013418779.html?.tsrc=rss",
+   "ts": "2026-10-19T01:34:18Z",
+   "fuente": "Yahoo Finance",
+   "id": "9f9713bd8c",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Democratic senate candidate Scott Colom talks tariffs, affordability and healthcare",
@@ -8568,17 +8580,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Ondo’s Tokenized Treasury Product Just Passed BlackRock’s BUIDL. Is ONDO Undervalued?",
-   "link": "https://247wallst.com/investing/cryptocurrency/2026/10/18/ondos-tokenized-treasury-product-just-passed-blackrocks-buidl-is-ondo-undervalued/?.tsrc=rss",
-   "ts": "2026-10-18T19:04:33Z",
-   "fuente": "Yahoo Finance",
-   "id": "7bf300f3f7",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9090,14 +9091,14 @@
     4204.8,
     4205.0,
     4195.3,
-    4197.0
+    4195.7
    ],
    [
-    1792387348,
-    4196.7,
-    4196.7,
-    4196.7,
-    4196.7
+    1792387647,
+    4195.9,
+    4195.9,
+    4195.9,
+    4195.9
    ]
   ],
   "nq": [
@@ -9575,14 +9576,14 @@
     29790.75,
     29793.75,
     29752.0,
-    29783.25
+    29765.75
    ],
    [
-    1792387355,
-    29784.75,
-    29784.75,
-    29784.75,
-    29784.75
+    1792387642,
+    29763.0,
+    29763.0,
+    29763.0,
+    29763.0
    ]
   ],
   "vix": [
@@ -10163,7 +10164,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "b92a5fb510",
   "5775715fb8",
   "f130891b94",
   "434eed419a",
@@ -10962,6 +10962,7 @@
   "76b2b1282a",
   "52301317cb",
   "a4e3d10e7f",
-  "86cd0ed30c"
+  "86cd0ed30c",
+  "9f9713bd8c"
  ]
 }
