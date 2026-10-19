@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4158.2 · NQ 29742.75 · VIX 18.44 · 3 noticias nuevas",
-   "actualizado": "2026-10-19T20:32:32Z"
+   "ultimo_resultado": "Oro 4158.0 · NQ 29737.25 · VIX 18.44 · 1 noticias nuevas",
+   "actualizado": "2026-10-19T20:37:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T20:32:31Z",
-   "ultimo_resultado": "3 titulares nuevos: 5 best veterinary practice loans for 2026"
+   "actualizado": "2026-10-19T20:37:36Z",
+   "ultimo_resultado": "1 titulares nuevos: El repunte de esta acción vapuleada del Dow parece real, dice Katie Stockton"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4158.0 · NQ 29737.25 · VIX 18.44 · 1 noticias nuevas",
+   "ts": "2026-10-19T20:37:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4158.2 · NQ 29742.75 · VIX 18.44 · 3 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +107,089 contratos.",
    "ts": "2026-10-19T06:32:55Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-10-19T06:32:52Z"
   }
  ],
  "briefs": [
@@ -8032,10 +8032,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4158.2,
-  "nq": 29742.75,
+  "oro": 4158.0,
+  "nq": 29737.25,
   "vix": 18.44,
-  "ts": "2026-10-19T20:32:31Z"
+  "ts": "2026-10-19T20:37:36Z"
  },
  "noticias": [
   {
@@ -8066,6 +8066,19 @@
    "id": "7f4a331241",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "The turnaround of this beaten-up Dow stock looks for real, says Katie Stockton",
+   "link": "https://www.cnbc.com/2026/10/19/the-turnaround-of-this-beaten-up-dow-stock-looks-for-real-says-katie-stockton.html",
+   "ts": "2026-10-19T20:10:21Z",
+   "fuente": "CNBC",
+   "id": "ba0e671300",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "El repunte de esta acción vapuleada del Dow parece real, dice Katie Stockton",
+   "efecto": ""
   },
   {
    "titulo": "OpenAI bugging suspect held without bail after Saudi government offers to pay",
@@ -8903,15 +8916,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "NYSE becomes latest exchange to extend options hours as appetite for around-the-clock trading grows",
-   "link": "https://www.cnbc.com/2026/10/19/nyse-extends-options-trading-hours.html",
-   "ts": "2026-10-19T13:46:50Z",
-   "fuente": "CNBC",
-   "id": "5ae216f1db",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -9527,15 +9531,15 @@
     1792440000,
     4161.4,
     4162.0,
-    4158.0,
-    4158.1
+    4157.6,
+    4157.7
    ],
    [
-    1792441346,
-    4158.2,
-    4158.2,
-    4158.2,
-    4158.2
+    1792441645,
+    4158.0,
+    4158.0,
+    4158.0,
+    4158.0
    ]
   ],
   "nq": [
@@ -10139,14 +10143,14 @@
     29722.25,
     29745.25,
     29701.25,
-    29739.5
+    29732.5
    ],
    [
-    1792441348,
-    29742.75,
-    29742.75,
-    29742.75,
-    29742.75
+    1792441656,
+    29737.75,
+    29737.75,
+    29737.75,
+    29737.75
    ]
   ],
   "vix": [
@@ -10649,43 +10653,43 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-19T20:07:34Z",
- "ult_4h": 1792441354.1015031,
+ "noticias_traducidas_ts": "2026-10-19T20:37:35Z",
+ "ult_4h": 1792442256.9741466,
  "estrategia_4h": {
   "oro": {
-   "precio": 4159.2,
-   "atr_4h": 22.36,
+   "precio": 4158.0,
+   "atr_4h": 22.06,
    "setups": []
   },
   "nq": {
-   "precio": 29738.5,
-   "atr_4h": 205.64,
+   "precio": 29737.25,
+   "atr_4h": 205.75,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30356.75,
      "entrada": 30356.75,
-     "stop": 30480.14,
+     "stop": 30480.2,
      "objetivo": 29268.75,
-     "rr": 8.82,
+     "rr": 8.81,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.09,
+     "fuerza_ruptura_atr": 2.1,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30604.75,
      "entrada": 30604.75,
-     "stop": 30728.14,
+     "stop": 30728.2,
      "objetivo": 29268.75,
-     "rr": 10.83,
+     "rr": 10.82,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.09,
+     "fuerza_ruptura_atr": 2.1,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-19T20:22:34Z"
+  "ts": "2026-10-19T20:37:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10715,7 +10719,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "5da12bbd4c",
   "89a159f984",
   "14b148ee79",
   "db5f455367",
@@ -11514,6 +11517,7 @@
   "a5a48c50f7",
   "486d3b1142",
   "77633e3342",
-  "33b03f4a81"
+  "33b03f4a81",
+  "ba0e671300"
  ]
 }
