@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4197.0 · NQ 29712.75 · VIX 18.51 · 1 noticias nuevas",
-   "actualizado": "2026-10-19T08:12:36Z"
+   "ultimo_resultado": "Oro 4197.5 · NQ 29723.25 · VIX 18.6",
+   "actualizado": "2026-10-19T08:17:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T08:12:36Z",
-   "ultimo_resultado": "1 titulares nuevos: Gold price in India: Rates on October 19"
+   "actualizado": "2026-10-19T08:17:35Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4197.5 · NQ 29723.25 · VIX 18.6",
+   "ts": "2026-10-19T08:17:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4197.0 · NQ 29712.75 · VIX 18.51 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-18T18:57:35Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Jaylen Brown dice que su arpa de oro es su compra favorita de la NBA",
-   "ts": "2026-10-18T18:52:33Z"
   }
  ],
  "briefs": [
@@ -7860,10 +7860,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4197.0,
-  "nq": 29712.75,
-  "vix": 18.51,
-  "ts": "2026-10-19T08:12:36Z"
+  "oro": 4197.5,
+  "nq": 29723.25,
+  "vix": 18.6,
+  "ts": "2026-10-19T08:17:35Z"
  },
  "noticias": [
   {
@@ -9293,16 +9293,16 @@
    [
     1792396800,
     4192.8,
-    4197.4,
+    4199.6,
     4192.0,
-    4197.4
+    4197.6
    ],
    [
-    1792396954,
-    4197.0,
-    4197.0,
-    4197.0,
-    4197.0
+    1792397254,
+    4196.9,
+    4196.9,
+    4196.9,
+    4196.9
    ]
   ],
   "nq": [
@@ -9820,16 +9820,16 @@
    [
     1792396800,
     29720.25,
-    29725.25,
+    29739.5,
     29702.75,
-    29713.5
+    29727.5
    ],
    [
-    1792396956,
-    29715.0,
-    29715.0,
-    29715.0,
-    29715.0
+    1792397253,
+    29723.25,
+    29723.25,
+    29723.25,
+    29723.25
    ]
   ],
   "vix": [
@@ -10228,68 +10228,75 @@
    [
     1792393200,
     18.37,
-    18.5,
+    18.59,
     18.26,
-    18.48
+    18.59
    ],
    [
-    1792396651,
-    18.51,
-    18.51,
-    18.51,
-    18.51
+    1792396800,
+    18.59,
+    18.59,
+    18.57,
+    18.57
+   ],
+   [
+    1792396951,
+    18.6,
+    18.6,
+    18.6,
+    18.6
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-19T07:47:31Z",
- "ult_4h": 1792396951.013197,
+ "ult_4h": 1792397855.8864794,
  "estrategia_4h": {
   "oro": {
-   "precio": 4198.4,
-   "atr_4h": 24.98,
+   "precio": 4196.9,
+   "atr_4h": 23.96,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4168.31,
+     "stop": 4168.92,
      "objetivo": 4220.4,
-     "rr": 2.48,
+     "rr": 2.58,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.12,
+     "fuerza_ruptura_atr": 1.17,
      "ruptura": "2026-10-15 16:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29726.5,
-   "atr_4h": 233.91,
+   "precio": 29723.25,
+   "atr_4h": 220.62,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30510.35,
+     "stop": 30502.38,
      "objetivo": 29268.75,
-     "rr": 7.85,
+     "rr": 8.32,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.84,
+     "fuerza_ruptura_atr": 1.96,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30529.25,
-     "entrada": 30529.25,
-     "stop": 30669.6,
+     "nivel": 30604.75,
+     "entrada": 30604.75,
+     "stop": 30737.12,
      "objetivo": 29268.75,
-     "rr": 8.98,
+     "rr": 10.09,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.84,
+     "fuerza_ruptura_atr": 1.96,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-19T08:02:31Z"
+  "ts": "2026-10-19T08:17:36Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
