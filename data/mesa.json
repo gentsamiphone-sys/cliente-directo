@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4188.3 · NQ 29684.25 · VIX 19.99",
-   "actualizado": "2026-10-19T01:52:34Z"
+   "ultimo_resultado": "Oro 4193.1 · NQ 29686.5 · VIX 19.99 · 3 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-19T01:57:45Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T01:52:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-19T01:57:44Z",
+   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: Trump levanta sanciones y aranceles a Rusia antes de su aplicación."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4193.1 · NQ 29686.5 · VIX 19.99 · 3 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-19T01:57:45Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4188.3 · NQ 29684.25 · VIX 19.99",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-18T12:32:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Maryam Bsharat gana oro en el Campeonato Mundial de Karate en Polonia",
-   "ts": "2026-10-18T12:27:34Z"
   }
  ],
  "briefs": [
@@ -7694,12 +7694,39 @@
   }
  },
  "en_vivo": {
-  "oro": 4188.3,
-  "nq": 29684.25,
+  "oro": 4193.1,
+  "nq": 29686.5,
   "vix": 19.99,
-  "ts": "2026-10-19T01:52:33Z"
+  "ts": "2026-10-19T01:57:45Z"
  },
  "noticias": [
+  {
+   "titulo": "FAVORING PUTIN OVER UKRAINE: Trump Waives Many Russia-Related Sanctions, Tariffs Before They Were to Take Effect Under New Law",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcmFSalhhWHhrZng2Z2dMOTR2LTVMcjdGQ2Q5Tk5kb1FiOGtiN19aTHllQWZQSjBPVDUxVkxGSl9mRXFjaG9IT2lyeVByWXdWWEFvcnI0bVRDcUNVQkZsOWIxTGQ5NzVMVkJfaGFfZnZoT1Z6UENFbXRpM3RQQlVFQ0lRX2Z1M1kyMUlyd2tRTVZ6XzlRMlloTFNRLXAyalNuM1lFS0JJZS1wcVhLS19OYndId283YXhuTXFsdkNSYzE0QkxrUDY1T1h1ekI1eHdCQmFSa1Jock9xSHBlQjVBSEhiNWFmZlRiNnRB?oc=5",
+   "ts": "2026-10-19T01:54:18Z",
+   "fuente": "EnergyNow.com",
+   "id": "0a691e31ab",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Trump levanta sanciones y aranceles a Rusia antes de su aplicación.",
+   "efecto": "Reduce la aversión al riesgo global, presionando al oro a la baja."
+  },
+  {
+   "titulo": "Black Monday Fears Fade as Nasdaq Futures Rally After Friday Selloff",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUF9FbkFxa1BxR1lUN0dkWkp6N2t6OTlsYU9qdzd5cENyRXlZcFR3UFdZSE1RN0o3Q2JPa1NyMHlUZy05UEFvRnAzVDA1WUR4M0tMNENibjRlSnFDRWhuYncwZzdtS2tvaE5kSGlBUVE5Q05xMVlWbHFYLUtZaFhycm9IYVVqZUJ5Um9VT1lXZjdrWGxPcnlYekhtMA?oc=5",
+   "ts": "2026-10-19T01:31:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "56db5dfbd1",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Disminuyen temores de Lunes Negro y futuros del Nasdaq rebotan tras venta del viernes.",
+   "efecto": "Fomenta compras institucionales en tecnología, impulsando al Nasdaq al alza."
+  },
   {
    "titulo": "Trump waives major Russia sanctions, tariffs",
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPREdyQWRrdjVrcjVNZDBiQlYwV0FZSkkzdW5EWXJVbnpybHA3bGtzQVpWY2hRS1phUmx2d0laNy1KUURZYm5MSEhpYXlDdXFDdDZCM0NFT1dZYXNJWUZkel9XNTVfSVJ1Szljb25uNGcxd3JrMkI3Qzk4WWNKTnUweXZR?oc=5",
@@ -7856,6 +7883,19 @@
    "impacto": "bajo",
    "es": "OpenWorld (NASDAQ: OPNW) firma acuerdo definitivo de fusión para adquirir Blocksight",
    "efecto": "Ruido corporativo menor; impacto neutral para el índice general."
+  },
+  {
+   "titulo": "Oil slips as Trump's sanction waiver may lead to more Russian fuel supplies",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMmVLc19hd0VSYXIydVNTWENKZ2J5WVNvVDRQUjRfTUJXWGhjOGxGZkFHVm9SNnZzeU9TWUhrYnJTRU1sVFRnX1BwZVd3NHB5a0NLdThkbDRldlg2eHdhTll2b3RnQTJ4U3dHVGczM25FdjJHRGQ5WGJDV2Qxd1hzLV9EcjNWaUQ4cXEzbWVHRzNuS1dGVVNBSmdXWGR6THN1dXhvSUdFS0dMMTJZTnBBZEFfZ2JoYVVFSWNMZw?oc=5",
+   "ts": "2026-10-18T23:52:29Z",
+   "fuente": "Reuters",
+   "id": "b742f9d4f7",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "Petróleo cae ante la flexibilización de sanciones rusas que aumentaría el suministro.",
+   "efecto": "Reduce presiones inflacionarias globales, moderando las expectativas de tasas altas."
   },
   {
    "titulo": "Gold Edges Higher as Traders Ease Rate-Hike Bets on Warsh Speech",
@@ -8539,39 +8579,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Israeli Climber Yonatan Katz Wins Gold in USA",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9fUy12dm5KZzZpTm1McXFzZnJSb2tKU3ZKX1pMazhqZ2tTVFQza0h3SHN4REVQRVAwYTlmd25yZ2dSOVNWTmZta0RhSFZtZk0xcjFUNy14aXRnblhoWnhsOGZCWkNfQjhTcDQ5N0lvbGZRVGpBRm01OUhnSQ?oc=5",
-   "ts": "2026-10-18T13:41:46Z",
-   "fuente": "Gripped Climbing Magazine",
-   "id": "a0bb7ecc06",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "£30,000 Stolen Gold Jewellery Found Stuffed Inside a Lidl Bag After Rapid Police Pursuit",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMF9PSGlwMjM4cUF3NzVqYXVUemw4Q3dDMmtkYWFEcGJIUVFHN1dvc2RNUmdUSERiYXJYaDlCMHBqUVdSRWszMjY4N2d6RVB4UTJsMEFEQm9Qci1pdnJYZWxMVVdUTEp4OGN2SjFIR0dPSzhodWFCR0k4UEpnMGdKRTNlMzY2c1VyZEktY0drVjhHZFdnTHlOTW9oWFRrRGI0S1JYM200b3pLRmFOajRWSlBJdVJJMGJ3T2NLeXF0ZHpqZw?oc=5",
-   "ts": "2026-10-18T13:40:14Z",
-   "fuente": "cristinaiglesias.com",
-   "id": "c2b7e37cd4",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "I've studied over 200 kids—parents who raise resilient, successful children teach them these 6 lessons early on",
-   "link": "https://www.cnbc.com/make-it/2026/10/18/parenting-lessons-resilient-successful-well-adjusted.html",
-   "ts": "2026-10-18T13:37:01Z",
-   "fuente": "CNBC",
-   "id": "63b379d3f8",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Estudio revela 6 lecciones clave de crianza para criar niños resilientes y exitosos",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -9209,14 +9216,14 @@
     4193.9,
     4198.6,
     4185.6,
-    4190.6
+    4193.0
    ],
    [
-    1792374148,
-    4188.3,
-    4188.3,
-    4188.3,
-    4188.3
+    1792374458,
+    4193.1,
+    4193.1,
+    4193.1,
+    4193.1
    ]
   ],
   "nq": [
@@ -9841,14 +9848,14 @@
     29631.75,
     29701.0,
     29629.5,
-    29684.0
+    29686.5
    ],
    [
-    1792374151,
-    29684.25,
-    29684.25,
-    29684.25,
-    29684.25
+    1792374461,
+    29686.5,
+    29686.5,
+    29686.5,
+    29686.5
    ]
   ],
   "vix": [
@@ -10351,7 +10358,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-19T01:27:32Z",
+ "noticias_traducidas_ts": "2026-10-19T01:57:42Z",
  "ult_4h": 1792374457.4269247,
  "estrategia_4h": {
   "oro": {
@@ -10429,9 +10436,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "c281337e1e",
-  "0f7ee35c11",
-  "153f708f89",
   "c6f1fd8eb9",
   "5421fbc5e9",
   "f773e24d4f",
@@ -11228,6 +11232,9 @@
   "4639458bf4",
   "eef378eb72",
   "5f363c6bcc",
-  "82396a79e1"
+  "82396a79e1",
+  "0a691e31ab",
+  "56db5dfbd1",
+  "b742f9d4f7"
  ]
 }
