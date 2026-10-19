@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4186.2 · NQ 29738.75 · VIX 18.73",
-   "actualizado": "2026-10-19T10:52:30Z"
+   "ultimo_resultado": "Oro 4184.8 · NQ 29739.75 · VIX 18.53 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-19T10:57:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T10:52:30Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-19T10:57:34Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: North Dakota Ag Commissioner Candidates Tackle Tariffs, Farm Crisis, Data Centers During Debate"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4184.8 · NQ 29739.75 · VIX 18.53 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-19T10:57:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4186.2 · NQ 29738.75 · VIX 18.73",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Abriendo la mesa para la sesión de Asia (Tokio/Sídney).",
    "ts": "2026-10-18T21:32:42Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-18T21:32:30Z"
   }
  ],
  "briefs": [
@@ -7860,12 +7860,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4186.2,
-  "nq": 29738.75,
-  "vix": 18.73,
-  "ts": "2026-10-19T10:52:30Z"
+  "oro": 4184.8,
+  "nq": 29739.75,
+  "vix": 18.53,
+  "ts": "2026-10-19T10:57:34Z"
  },
  "noticias": [
+  {
+   "titulo": "North Dakota Ag Commissioner Candidates Tackle Tariffs, Farm Crisis, Data Centers During Debate",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOd05HdkpwRjBqSGtIUnhZZ21INmFxVl9yU29NZ2piVUpMQzhoTVpjcmo2blhseVF2Q25UWlpLQmlHOXpXcWtQMEF5ajFwTW9QazdEaUpmemtwYUJkZnBkZnZKQWJCdVB0OTFVRjJMUFFZdXZOTm9NVmNEaFJFY09UMmdSaklFZE9SRlotQ2ZnUGlST00xcnlqWExwVGtJUlpOTTdJRVptQmNfZU9QQnh1WlF5VC1YZmNIZ1BvRDhKSm5ROGhlMWM2UV9fZDk0TVJlV2EtaU9B?oc=5",
+   "ts": "2026-10-19T10:51:52Z",
+   "fuente": "Successful Farming",
+   "id": "d93ca94de1",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "Nasdaq network goes black in connection failure",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSzFfaGxSQ0hNQzFIb0RnWUI4ZmtueGpXclJFcmpFZXZoenJNZmM3VzBUVDh0eHFUZzlhekxNU0JQamZzdFRsQWJiZGJQT3BkNHV5cVVyc2ZrdWlROGRIcE1rNkZqZlNpUldCclhZLVFkdTR2My1tRE9IZ1psNHRiZzktZE9zSU0?oc=5",
@@ -7878,6 +7887,17 @@
    "impacto": "alto",
    "es": "La red del Nasdaq sufre un apagón por fallo de conexión",
    "efecto": "Genera volatilidad extrema y pausa temporal en operaciones del NQ."
+  },
+  {
+   "titulo": "Americas Gold and Silver Corporation Announces Record Quarterly Silver Production and Sales of 800,458 Ounces Produced and 860,850 Ounces Sold",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUEVESnBJMnlGX0hMVU9SOGRJOUVfX1RsaFRfN0pxSGloel81UTBPV2xNYjhHVDRMTUNDTmdkSEdzc0RURGFVTzExcFREWjViYjZFRGFSdTFkWTFiRVdFVGExWmItWmgzcVdITFpGZWV2OEliWVdQdkpaTTM4UWVid1g3dFByeDd2UVZHaks2aWhfWmEyZmtZNXBNWTlGYURjZmhnREREbUl1cG9hU1NzYmJ3?oc=5",
+   "ts": "2026-10-19T10:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "fccef3e24e",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "WESCAN GOLDFIELDS IDENTIFIES VISIBLE GOLD AT MUNRO LAKE AND COMPLETES UAV MAGNETIC SURVEY",
@@ -8743,24 +8763,6 @@
    "impacto": "alto",
    "es": "Disminuyen temores de Lunes Negro y futuros del Nasdaq rebotan tras venta del viernes.",
    "efecto": "Fomenta compras institucionales en tecnología, impulsando al Nasdaq al alza."
-  },
-  {
-   "titulo": "Trump waives major Russia sanctions, tariffs",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPREdyQWRrdjVrcjVNZDBiQlYwV0FZSkkzdW5EWXJVbnpybHA3bGtzQVpWY2hRS1phUmx2d0laNy1KUURZYm5MSEhpYXlDdXFDdDZCM0NFT1dZYXNJWUZkel9XNTVfSVJ1Szljb25uNGcxd3JrMkI3Qzk4WWNKTnUweXZR?oc=5",
-   "ts": "2026-10-19T01:25:14Z",
-   "fuente": "China Daily Global Edition",
-   "id": "eef378eb72",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Ecuador tops medal table on home soil at South American Youth and Masters Championships",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRUN5QmJCeS1Rd2gyU2FHVGctd3RIcEdpOHlqdVVpX2xkLTNNNnFNS2RJU2Zhd0VTdW81NVJ0S0hZdU1FVTE5c1BMT3hickRyM2RNLTYxVkgxNExtM0lKZk10N1dmWFRUNjlvR1NxaEsxM2FFY3JGLXBhZm9WbnVjbUcyQ0M4NXRxNXZONWxNWm1KZDByQndPTXg1LXkzQ3hzWExydUdrMXNkQ0w2ajZxbUQ1ZUZpOGxpQjR3NlVxV3lOZw?oc=5",
-   "ts": "2026-10-19T01:21:50Z",
-   "fuente": "World Archery",
-   "id": "82396a79e1",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -9306,15 +9308,15 @@
     1792404000,
     4187.8,
     4193.1,
-    4183.6,
-    4188.6
+    4182.5,
+    4184.3
    ],
    [
-    1792406545,
-    4186.2,
-    4186.2,
-    4186.2,
-    4186.2
+    1792406844,
+    4184.8,
+    4184.8,
+    4184.8,
+    4184.8
    ]
   ],
   "nq": [
@@ -9848,14 +9850,14 @@
     29717.75,
     29768.0,
     29684.5,
-    29754.25
+    29735.5
    ],
    [
-    1792406549,
-    29738.75,
-    29738.75,
-    29738.75,
-    29738.75
+    1792406852,
+    29739.75,
+    29739.75,
+    29739.75,
+    29739.75
    ]
   ],
   "vix": [
@@ -10275,16 +10277,16 @@
    [
     1792404000,
     18.63,
-    18.74,
-    18.58,
-    18.73
+    18.75,
+    18.46,
+    18.61
    ],
    [
-    1792406236,
-    18.73,
-    18.73,
-    18.73,
-    18.73
+    1792406551,
+    18.53,
+    18.53,
+    18.53,
+    18.53
    ]
   ]
  },
@@ -10366,8 +10368,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "b69e54f6b5",
-  "21281b54d9",
   "ef8d51412d",
   "82c595578a",
   "feb8a4446d",
@@ -11165,6 +11165,8 @@
   "bcdfac574b",
   "93a032ca68",
   "3f41aadae0",
-  "b9c916ae91"
+  "b9c916ae91",
+  "d93ca94de1",
+  "fccef3e24e"
  ]
 }
