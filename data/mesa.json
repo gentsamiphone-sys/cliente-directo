@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4180.3 · NQ 29776.0 · VIX 18.34 · 2 noticias nuevas",
-   "actualizado": "2026-10-19T13:32:35Z"
+   "ultimo_resultado": "Oro 4180.7 · NQ 29766.0 · VIX 18.36 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-19T13:37:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T13:32:34Z",
-   "ultimo_resultado": "2 titulares nuevos: Nasdaq gains as investors buy the dip in the AI trade: Live updates"
+   "actualizado": "2026-10-19T13:37:38Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: El estrés crediticio amenaza la tendencia alcista de la IA; atención a Oracle"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4180.7 · NQ 29766.0 · VIX 18.36 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-19T13:37:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4180.3 · NQ 29776.0 · VIX 18.34 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4203.7 · NQ 29654.5 · VIX 19.99",
    "ts": "2026-10-19T00:17:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4208.3 · NQ 29634.25 · VIX 19.99 · 1 noticias nuevas",
-   "ts": "2026-10-19T00:12:34Z"
   }
  ],
  "briefs": [
@@ -8032,10 +8032,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4180.3,
-  "nq": 29776.0,
-  "vix": 18.34,
-  "ts": "2026-10-19T13:32:34Z"
+  "oro": 4180.7,
+  "nq": 29766.0,
+  "vix": 18.36,
+  "ts": "2026-10-19T13:37:38Z"
  },
  "noticias": [
   {
@@ -8293,6 +8293,20 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Credit stress is threatening to unwind the AI bull. All eyes are on Oracle to hold the line",
+   "link": "https://www.cnbc.com/2026/10/19/oracle-debt-faces-an-ai-stress-test-why-some-investors-arent-worried-.html",
+   "ts": "2026-10-19T11:57:07Z",
+   "fuente": "CNBC",
+   "id": "7a7984f0c3",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El estrés crediticio amenaza la tendencia alcista de la IA; atención a Oracle",
+   "efecto": "Genera aversión al riesgo, presionando a la baja al NASDAQ."
   },
   {
    "titulo": "Western Gold Exploration Appoints Tom Fraser as Chief Executive Officer",
@@ -8898,20 +8912,6 @@
    "id": "94ce5f0eed",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Gold Prices Rise Above $4,200 in Futures Trading as Fed Rate Hike Expectations Ease",
-   "link": "https://investorshub.advfn.com/market-news/article/38242/gold-prices-rise-above-4200-in-futures-trading-as-fed-rate-hike-expectations-ease?.tsrc=rss",
-   "ts": "2026-10-19T09:12:43Z",
-   "fuente": "Yahoo Finance",
-   "id": "adf4b5f0c0",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Los precios del oro superan los $4,200 en futuros al moderarse las expectativas de alza de tasas de la Fed",
-   "efecto": "impulsa al oro al alza y debilita al dólar por menores tasas."
   }
  ],
  "eventos_avisados": [
@@ -9479,14 +9479,14 @@
     4181.4,
     4185.4,
     4178.0,
-    4179.9
+    4180.4
    ],
    [
-    1792416152,
-    4180.5,
-    4180.5,
-    4180.5,
-    4180.5
+    1792416456,
+    4180.7,
+    4180.7,
+    4180.7,
+    4180.7
    ]
   ],
   "nq": [
@@ -10041,14 +10041,14 @@
     29749.0,
     29794.25,
     29743.0,
-    29774.0
+    29765.25
    ],
    [
-    1792416151,
-    29776.75,
-    29776.75,
-    29776.75,
-    29776.75
+    1792416457,
+    29766.0,
+    29766.0,
+    29766.0,
+    29766.0
    ]
   ],
   "vix": [
@@ -10491,18 +10491,18 @@
     18.54,
     18.54,
     18.31,
-    18.36
+    18.38
    ],
    [
-    1792415851,
-    18.34,
-    18.34,
-    18.34,
-    18.34
+    1792416151,
+    18.36,
+    18.36,
+    18.36,
+    18.36
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-19T13:07:36Z",
+ "noticias_traducidas_ts": "2026-10-19T13:37:37Z",
  "ult_4h": 1792416754.7308414,
  "estrategia_4h": {
   "oro": {
@@ -10580,7 +10580,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "01b8416718",
   "0701dc5992",
   "0c99b2f1d1",
   "f44348950f",
@@ -11379,6 +11378,7 @@
   "215c83c678",
   "7203a54058",
   "65052c9f65",
-  "8f490c6fcd"
+  "8f490c6fcd",
+  "7a7984f0c3"
  ]
 }
