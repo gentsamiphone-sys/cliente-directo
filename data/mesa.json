@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4196.0 · NQ 29673.75 · VIX 19.99",
-   "actualizado": "2026-10-19T02:07:35Z"
+   "ultimo_resultado": "Oro 4196.7 · NQ 29690.75 · VIX 19.99 · 3 noticias nuevas",
+   "actualizado": "2026-10-19T02:12:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T02:07:35Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-19T02:12:31Z",
+   "ultimo_resultado": "3 titulares nuevos: China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4196.7 · NQ 29690.75 · VIX 19.99 · 3 noticias nuevas",
+   "ts": "2026-10-19T02:12:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4196.0 · NQ 29673.75 · VIX 19.99",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: Meta Platforms and Tesla are among the companies set to report next week. What to expect",
    "ts": "2026-10-18T12:47:29Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-18T12:42:32Z"
   }
  ],
  "briefs": [
@@ -7694,12 +7694,41 @@
   }
  },
  "en_vivo": {
-  "oro": 4196.0,
-  "nq": 29673.75,
+  "oro": 4196.7,
+  "nq": 29690.75,
   "vix": 19.99,
-  "ts": "2026-10-19T02:07:35Z"
+  "ts": "2026-10-19T02:12:31Z"
  },
  "noticias": [
+  {
+   "titulo": "China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates",
+   "link": "https://www.cnbc.com/2026/10/19/chinas-economic-growth-quickens-to-4point6percent-as-exports-surge-stimulus-rolls-out.html",
+   "ts": "2026-10-19T02:12:15Z",
+   "fuente": "CNBC",
+   "id": "2fb3b8d14f",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Stoke Therapeutics Announces Inducement Grants Under Nasdaq Listing Rule 5635(C)(4) - October 16, 2026",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdXNGTmppUk1NTXVnMU8xakhrQVJtQmxLTms3bW1iRFY3cVNNM1ZJOGdFcDVnNWFuWEM5THdjZjh5bWhxN2NWaXYtYjNJUzZsZVo1ckp0blpMRm9oVmI2OXA1Nm9DRV96dExrNDk2cHQ4T19NU3V1QVhya2hWaFJZOXczVG1XY0RoMEtfTmpTUjFkTEx0ajBiN1FJbGZqbU83cVkyRFd1NmpJVi1UTmF1WDEtS1YzUElOc25OQ3p4NzA5U2tCTngwejk2MDR4cWth?oc=5",
+   "ts": "2026-10-19T02:09:28Z",
+   "fuente": "BioSpace",
+   "id": "7ca2e1ca9c",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "France hit by worst unrest in years as attempts to rein in government spending meet citizen ire",
+   "link": "https://www.cnbc.com/2026/10/19/france-protests-worst-in-years-unrest-macron-.html",
+   "ts": "2026-10-19T02:06:45Z",
+   "fuente": "CNBC",
+   "id": "9808e41143",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "China's CXMT sees shares drop over 6% as investors look past chipmaker's profit turnaround",
    "link": "https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html",
@@ -8548,35 +8577,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "The bloated workweek is coming for Sundays—as some embrace flexibility, others worry about job security",
-   "link": "https://www.cnbc.com/make-it/2026/10/18/why-people-are-working-sundays.html",
-   "ts": "2026-10-18T14:00:01Z",
-   "fuente": "CNBC",
-   "id": "e677d1f98b",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "La semana laboral flexible amenaza los domingos y genera debate sobre seguridad laboral",
-   "efecto": ""
-  },
-  {
-   "titulo": "Solana Now Holds $15.5 Billion in Stablecoins. How Far Behind Ethereum Is It?",
-   "link": "https://247wallst.com/investing/cryptocurrency/2026/10/18/solana-now-holds-15-5-billion-in-stablecoins-how-far-behind-ethereum-is-it/?.tsrc=rss",
-   "ts": "2026-10-18T13:57:19Z",
-   "fuente": "Yahoo Finance",
-   "id": "e32e1f90ee",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Iran says it has a 'new operational plan' if the U.S. resumes attacks, as shipping vessels report strikes",
-   "link": "https://www.cnbc.com/2026/10/18/iran-us-war-rezaei-operational-plan-shipping-attacks.html",
-   "ts": "2026-10-18T13:52:24Z",
-   "fuente": "CNBC",
-   "id": "cab44e95d6",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -8593,13 +8593,6 @@
  ],
  "velas": {
   "oro": [
-   [
-    1791871200,
-    4217.0,
-    4217.9,
-    4207.7,
-    4215.8
-   ],
    [
     1791874800,
     4215.5,
@@ -9214,24 +9207,24 @@
     4193.9,
     4198.6,
     4185.6,
-    4195.8
+    4194.5
    ],
    [
-    1792375052,
-    4196.0,
-    4196.0,
-    4196.0,
-    4196.0
+    1792375200,
+    4195.0,
+    4198.4,
+    4194.1,
+    4197.5
+   ],
+   [
+    1792375348,
+    4196.7,
+    4196.7,
+    4196.7,
+    4196.7
    ]
   ],
   "nq": [
-   [
-    1791867600,
-    30647.0,
-    30741.25,
-    30642.0,
-    30693.0
-   ],
    [
     1791871200,
     30692.5,
@@ -9846,14 +9839,21 @@
     29631.75,
     29701.0,
     29629.5,
-    29672.5
+    29680.75
    ],
    [
-    1792375053,
-    29673.75,
-    29673.75,
-    29673.75,
-    29673.75
+    1792375200,
+    29681.5,
+    29695.75,
+    29678.75,
+    29695.25
+   ],
+   [
+    1792375348,
+    29690.75,
+    29690.75,
+    29690.75,
+    29690.75
    ]
   ],
   "vix": [
@@ -10434,9 +10434,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "5421fbc5e9",
-  "f773e24d4f",
-  "718f8874a2",
   "7c060c6d0f",
   "7b5d3f84ca",
   "93c1e12d96",
@@ -11233,6 +11230,9 @@
   "0a691e31ab",
   "56db5dfbd1",
   "b742f9d4f7",
-  "2c97ee1cfb"
+  "2c97ee1cfb",
+  "2fb3b8d14f",
+  "7ca2e1ca9c",
+  "9808e41143"
  ]
 }
