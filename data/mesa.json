@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4199.2 · NQ 29775.25 · VIX 19.99 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-19T03:57:33Z"
+   "ultimo_resultado": "Oro — · NQ — · VIX 19.99 · 2 noticias nuevas",
+   "actualizado": "2026-10-19T04:02:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T03:57:31Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Thought Kwan's first play was good? Gold Glover comes back with another gem"
+   "actualizado": "2026-10-19T04:02:30Z",
+   "ultimo_resultado": "2 titulares nuevos: 'Where there's smoke there's fire': Why BTIG is sounding the alarm on tech"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro — · NQ — · VIX 19.99 · 2 noticias nuevas",
+   "ts": "2026-10-19T04:02:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4199.2 · NQ 29775.25 · VIX 19.99 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: Bessent warns Zelenskyy to 'be very careful' about claims U.S. is throttling Starlink",
    "ts": "2026-10-18T14:42:31Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-18T14:37:34Z"
   }
  ],
  "briefs": [
@@ -7694,12 +7694,28 @@
   }
  },
  "en_vivo": {
-  "oro": 4199.2,
-  "nq": 29775.25,
   "vix": 19.99,
-  "ts": "2026-10-19T03:57:32Z"
+  "ts": "2026-10-19T04:02:30Z"
  },
  "noticias": [
+  {
+   "titulo": "'Where there's smoke there's fire': Why BTIG is sounding the alarm on tech",
+   "link": "https://www.cnbc.com/2026/10/19/tech-semiconductor-chips-ai-stocks.html",
+   "ts": "2026-10-19T04:00:03Z",
+   "fuente": "CNBC",
+   "id": "2b44874080",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Putin reportedly suggests summit with Trump and Xi to decide fate of Ukraine",
+   "link": "https://www.cnbc.com/2026/10/19/putin-trump-xi-ukraine-war-energy.html",
+   "ts": "2026-10-19T03:56:03Z",
+   "fuente": "CNBC",
+   "id": "b807a9f2d3",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Wall Street Expectations for Treasury Yields: Higher",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbHZIZ3FjMDZTRVlqdk1lb2lMUVkyWnpxWHJwRnNPa05Vbm1yalczRjdTWl9yYmc5V1oxZ2tJdlJFck1XcXhRZk9fcmd0Q2JPcGVvUDQySlhKMHJjZTZEanNGS2FvVklFMXRQMEtBRU82c1c5SDFRZV9qT0pyZjg5SnNwZzNqdFp1ME8xYjdUTDFUc09xLWdr?oc=5",
@@ -8556,31 +8572,6 @@
    "impacto": "medio",
    "es": "EE. UU. dice que Europa se negó a unirse para imponer aranceles a India y China por petróleo ruso",
    "efecto": "Genera tensiones comerciales geopolíticas, apoyando ligeramente al oro como refugio."
-  },
-  {
-   "titulo": "Dow Jones, Nasdaq 100, S&P 500 Outlook: Top Catalysts to Move US Stocks This Week",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNM2FSOGlyTjN2c1NmUEFJc1RiRmVXcFA3SEFPdG0wdFk5Y29jUTA5YXRBSmhGQzhyTnpvd0w0S3hUMklFWUJVaXlQUjA4TkFsdERGejYwUmtJWjFqV0RXczJCOU1IY3d5eXJFX3BVSVJTWlMxT3hqazdIZy1pbmVNR0NSUXdYZ2Q5aEFVM1VfZE50R2JHbnY5SjJSVGNRcllQUmlFWVFNQjhvaVJvRldwOEdYZ0h1VTNiZVVLZVVWTmNDWkVrbEE3YVBCNzJnY3BVWmltVQ?oc=5",
-   "ts": "2026-10-18T17:45:23Z",
-   "fuente": "Benzinga",
-   "id": "b65d97cc3d",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Perspectiva de Wall Street: Principales catalizadores que moverán las acciones de EE. UU. esta semana",
-   "efecto": "Genera volatilidad en NQ y dólar según los datos macroeconómicos."
-  },
-  {
-   "titulo": "Number of employees of Lincoln Partners Group Royalty Fund - Class A – NASDAQ:LNPAX",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNd0U4RGdxd2YzVFdaQXNzYlVVRzliSEM4d21aTzJCcUwtWnZ3X05iX2hXQzZxTGRrNFExd0hZTWxaVG9ERTRpOENHV2RjN20yTThBWWs2bi00d0JFLUZpOFBuYlU0UlRvX01FUXFCaGoydFNmaUwxMFlERHpRV19GMjQ2Ul9GM01pb2dERGd2WDVBR3lwM0psVG5FX1Y4ZmxnUmpWTA?oc=5",
-   "ts": "2026-10-18T17:16:44Z",
-   "fuente": "TradingView",
-   "id": "9ba1aa9f87",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -8597,146 +8588,6 @@
  ],
  "velas": {
   "oro": [
-   [
-    1791878400,
-    4211.6,
-    4217.9,
-    4208.9,
-    4210.4
-   ],
-   [
-    1791882000,
-    4210.6,
-    4213.0,
-    4204.9,
-    4210.8
-   ],
-   [
-    1791885600,
-    4210.8,
-    4213.5,
-    4203.6,
-    4205.5
-   ],
-   [
-    1791889200,
-    4205.4,
-    4212.6,
-    4203.8,
-    4209.0
-   ],
-   [
-    1791892800,
-    4209.0,
-    4214.6,
-    4200.8,
-    4203.1
-   ],
-   [
-    1791896400,
-    4203.1,
-    4213.5,
-    4192.2,
-    4192.6
-   ],
-   [
-    1791900000,
-    4192.5,
-    4196.9,
-    4185.9,
-    4190.4
-   ],
-   [
-    1791903600,
-    4190.4,
-    4192.0,
-    4179.6,
-    4182.1
-   ],
-   [
-    1791907200,
-    4182.3,
-    4184.3,
-    4175.3,
-    4175.8
-   ],
-   [
-    1791910800,
-    4175.9,
-    4181.3,
-    4169.7,
-    4171.7
-   ],
-   [
-    1791914400,
-    4171.6,
-    4187.5,
-    4171.2,
-    4186.5
-   ],
-   [
-    1791918000,
-    4186.3,
-    4189.5,
-    4184.6,
-    4186.4
-   ],
-   [
-    1791921600,
-    4185.9,
-    4186.9,
-    4180.3,
-    4183.9
-   ],
-   [
-    1791925200,
-    4184.2,
-    4184.2,
-    4184.2,
-    4184.2
-   ],
-   [
-    1791928800,
-    4184.8,
-    4186.1,
-    4182.1,
-    4184.5
-   ],
-   [
-    1791932400,
-    4184.5,
-    4185.1,
-    4177.7,
-    4177.9
-   ],
-   [
-    1791936000,
-    4177.9,
-    4186.8,
-    4177.2,
-    4177.8
-   ],
-   [
-    1791939600,
-    4177.8,
-    4189.2,
-    4167.0,
-    4177.6
-   ],
-   [
-    1791943200,
-    4177.6,
-    4191.0,
-    4175.9,
-    4191.0
-   ],
-   [
-    1791946800,
-    4191.3,
-    4193.5,
-    4184.5,
-    4185.4
-   ],
    [
     1791950400,
     4185.5,
@@ -9216,159 +9067,19 @@
    [
     1792378800,
     4197.1,
-    4203.0,
+    4197.5,
     4194.1,
-    4199.5
+    4195.5
    ],
    [
-    1792381641,
-    4199.2,
-    4199.2,
-    4199.2,
-    4199.2
+    1792381942,
+    4200.2,
+    4200.2,
+    4200.2,
+    4200.2
    ]
   ],
   "nq": [
-   [
-    1791874800,
-    30680.5,
-    30725.25,
-    30628.5,
-    30702.25
-   ],
-   [
-    1791878400,
-    30701.5,
-    30770.25,
-    30688.25,
-    30751.75
-   ],
-   [
-    1791882000,
-    30752.0,
-    30773.5,
-    30735.5,
-    30761.25
-   ],
-   [
-    1791885600,
-    30762.5,
-    30763.75,
-    30713.0,
-    30720.75
-   ],
-   [
-    1791889200,
-    30719.5,
-    30721.25,
-    30654.5,
-    30662.5
-   ],
-   [
-    1791892800,
-    30662.0,
-    30687.5,
-    30642.5,
-    30658.5
-   ],
-   [
-    1791896400,
-    30658.25,
-    30806.25,
-    30591.25,
-    30792.0
-   ],
-   [
-    1791900000,
-    30792.5,
-    30814.75,
-    30690.25,
-    30704.25
-   ],
-   [
-    1791903600,
-    30705.25,
-    30731.0,
-    30635.5,
-    30704.25
-   ],
-   [
-    1791907200,
-    30704.5,
-    30808.0,
-    30700.25,
-    30739.25
-   ],
-   [
-    1791910800,
-    30740.0,
-    30750.5,
-    30688.0,
-    30718.5
-   ],
-   [
-    1791914400,
-    30718.5,
-    30781.0,
-    30709.25,
-    30737.75
-   ],
-   [
-    1791918000,
-    30738.25,
-    30802.0,
-    30734.25,
-    30789.0
-   ],
-   [
-    1791921600,
-    30789.25,
-    30803.25,
-    30760.5,
-    30782.0
-   ],
-   [
-    1791928800,
-    30799.5,
-    30827.5,
-    30767.0,
-    30812.25
-   ],
-   [
-    1791932400,
-    30811.75,
-    30811.75,
-    30750.5,
-    30758.0
-   ],
-   [
-    1791936000,
-    30755.25,
-    30849.5,
-    30744.5,
-    30811.5
-   ],
-   [
-    1791939600,
-    30811.0,
-    30846.5,
-    30772.0,
-    30841.25
-   ],
-   [
-    1791943200,
-    30840.0,
-    30877.0,
-    30836.5,
-    30872.5
-   ],
-   [
-    1791946800,
-    30873.0,
-    30891.5,
-    30862.5,
-    30879.0
-   ],
    [
     1791950400,
     30883.25,
@@ -9828,36 +9539,15 @@
     1792368000,
     29629.25,
     29670.75,
-    29611.75,
-    29628.75
+    29616.5,
+    29643.5
    ],
    [
-    1792371600,
-    29629.5,
-    29701.0,
-    29629.5,
-    29680.75
-   ],
-   [
-    1792375200,
-    29681.5,
-    29749.5,
-    29678.75,
-    29738.5
-   ],
-   [
-    1792378800,
-    29739.75,
-    29790.25,
-    29739.0,
-    29771.5
-   ],
-   [
-    1792381648,
-    29775.25,
-    29775.25,
-    29775.25,
-    29775.25
+    1792381948,
+    29776.75,
+    29776.75,
+    29776.75,
+    29776.75
    ]
   ],
   "vix": [
@@ -10361,10 +10051,10 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-19T03:52:36Z",
- "ult_4h": 1792381655.630013,
+ "ult_4h": 1792382550.4929852,
  "estrategia_4h": {
   "oro": {
-   "precio": 4202.0,
+   "precio": 4200.2,
    "atr_4h": 27.21,
    "setups": [
     {
@@ -10381,34 +10071,34 @@
    ]
   },
   "nq": {
-   "precio": 29782.25,
-   "atr_4h": 240.71,
+   "precio": 29775.0,
+   "atr_4h": 239.29,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30514.43,
+     "stop": 30513.57,
      "objetivo": 29268.75,
-     "rr": 7.62,
+     "rr": 7.67,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.79,
+     "fuerza_ruptura_atr": 1.8,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30504.5,
-     "entrada": 30504.5,
-     "stop": 30648.93,
+     "nivel": 30512.25,
+     "entrada": 30512.25,
+     "stop": 30655.82,
      "objetivo": 29268.75,
-     "rr": 8.56,
+     "rr": 8.66,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.79,
+     "fuerza_ruptura_atr": 1.8,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-19T03:47:35Z"
+  "ts": "2026-10-19T04:02:30Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10438,8 +10128,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "24d5800d1d",
-  "3095d70a92",
   "c3ea39655a",
   "ad65dbe87c",
   "28a6d6d8be",
@@ -11237,6 +10925,8 @@
   "8e73e49942",
   "6d7d3eb136",
   "186cdcd498",
-  "41a6b4490e"
+  "41a6b4490e",
+  "2b44874080",
+  "b807a9f2d3"
  ]
 }
