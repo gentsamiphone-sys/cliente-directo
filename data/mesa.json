@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4168.4 · NQ 29694.5 · VIX 18.05 · 1 noticias nuevas",
-   "actualizado": "2026-10-19T14:12:38Z"
+   "ultimo_resultado": "Oro 4166.7 · NQ 29694.75 · VIX 18.18 · 1 noticias nuevas",
+   "actualizado": "2026-10-19T14:17:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T14:12:37Z",
-   "ultimo_resultado": "1 titulares nuevos: Panel de arte federal aprueba diseño de moneda de oro conmemorativa con la imagen de Trump"
+   "actualizado": "2026-10-19T14:17:37Z",
+   "ultimo_resultado": "1 titulares nuevos: Why this bull market is unlike any we've seen before"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4166.7 · NQ 29694.75 · VIX 18.18 · 1 noticias nuevas",
+   "ts": "2026-10-19T14:17:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4168.4 · NQ 29694.5 · VIX 18.05 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4194.0 · NQ 29643.0 · VIX 19.99 · 1 noticias nuevas",
    "ts": "2026-10-19T00:57:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4195.3 · NQ 29649.5 · VIX 19.99 · 1 noticias nuevas",
-   "ts": "2026-10-19T00:52:36Z"
   }
  ],
  "briefs": [
@@ -8032,10 +8032,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4168.4,
-  "nq": 29694.5,
-  "vix": 18.05,
-  "ts": "2026-10-19T14:12:37Z"
+  "oro": 4166.7,
+  "nq": 29694.75,
+  "vix": 18.18,
+  "ts": "2026-10-19T14:17:38Z"
  },
  "noticias": [
   {
@@ -8113,6 +8113,15 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Why this bull market is unlike any we've seen before",
+   "link": "https://www.cnbc.com/2026/10/19/sp-500-bull-market-four-year-streak.html",
+   "ts": "2026-10-19T13:28:34Z",
+   "fuente": "CNBC",
+   "id": "601bd06752",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Wrestling's Maroon & Gold Intrasquad Set for Thursday at McGuirk Arena",
@@ -8903,17 +8912,6 @@
    "id": "6072a698e7",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Australian lawmaker Helen Haines in critical condition after vehicle attack",
-   "link": "https://www.cnbc.com/2026/10/19/australian-lawmaker-helen-haines-in-critical-condition-after-vehicle-attack-.html",
-   "ts": "2026-10-19T10:00:15Z",
-   "fuente": "CNBC",
-   "id": "b9c916ae91",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "La parlamentaria australiana Helen Haines en estado crítico tras ataque vehicular",
-   "efecto": "Suceso local sin implicaciones macroeconómicas para los activos operados."
   }
  ],
  "eventos_avisados": [
@@ -9487,15 +9485,15 @@
     1792418400,
     4174.1,
     4174.8,
-    4167.6,
-    4169.1
+    4165.5,
+    4166.2
    ],
    [
-    1792418555,
-    4168.4,
-    4168.4,
-    4168.4,
-    4168.4
+    1792418857,
+    4166.7,
+    4166.7,
+    4166.7,
+    4166.7
    ]
   ],
   "nq": [
@@ -10056,15 +10054,15 @@
     1792418400,
     29711.0,
     29719.5,
-    29675.75,
-    29681.5
+    29653.75,
+    29699.75
    ],
    [
-    1792418557,
-    29695.25,
-    29695.25,
-    29695.25,
-    29695.25
+    1792418857,
+    29689.5,
+    29689.5,
+    29689.5,
+    29689.5
    ]
   ],
   "vix": [
@@ -10507,54 +10505,61 @@
     18.54,
     18.54,
     17.83,
-    18.04
+    18.16
    ],
    [
-    1792418251,
-    18.05,
-    18.05,
-    18.05,
-    18.05
+    1792418400,
+    18.13,
+    18.19,
+    18.11,
+    18.16
+   ],
+   [
+    1792418551,
+    18.18,
+    18.18,
+    18.18,
+    18.18
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-19T14:12:36Z",
- "ult_4h": 1792418559.8953226,
+ "ult_4h": 1792419458.0942788,
  "estrategia_4h": {
   "oro": {
-   "precio": 4172.0,
-   "atr_4h": 25.65,
+   "precio": 4166.7,
+   "atr_4h": 26.05,
    "setups": []
   },
   "nq": {
-   "precio": 29725.75,
-   "atr_4h": 221.59,
+   "precio": 29689.5,
+   "atr_4h": 225.55,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30356.75,
      "entrada": 30356.75,
-     "stop": 30489.7,
+     "stop": 30492.08,
      "objetivo": 29268.75,
-     "rr": 8.18,
+     "rr": 8.04,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.95,
+     "fuerza_ruptura_atr": 1.91,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30504.5,
-     "entrada": 30504.5,
-     "stop": 30637.45,
+     "nivel": 30604.75,
+     "entrada": 30604.75,
+     "stop": 30740.08,
      "objetivo": 29268.75,
-     "rr": 9.29,
+     "rr": 9.87,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.95,
+     "fuerza_ruptura_atr": 1.91,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-19T14:02:40Z"
+  "ts": "2026-10-19T14:17:38Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10584,7 +10589,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "e0d3d47ac1",
   "19b003780f",
   "339adf5a86",
   "9059cbf3e2",
@@ -11383,6 +11387,7 @@
   "4c9e478fd2",
   "316fcc0b15",
   "5e8f938d18",
-  "510990a516"
+  "510990a516",
+  "601bd06752"
  ]
 }
