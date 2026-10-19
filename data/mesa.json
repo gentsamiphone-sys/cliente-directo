@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4193.4 · NQ 29727.5 · VIX 19.99",
-   "actualizado": "2026-10-19T02:47:30Z"
+   "ultimo_resultado": "Oro 4196.2 · NQ 29736.25 · VIX 19.99 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-19T02:52:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T02:47:29Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-19T02:52:31Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Gold Edges Higher as Traders Weigh Fed Rate Hike Expectations"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4196.2 · NQ 29736.25 · VIX 19.99 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-19T02:52:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4193.4 · NQ 29727.5 · VIX 19.99",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: When talking antiques, what does value by association mean?",
    "ts": "2026-10-18T13:32:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-18T13:27:31Z"
   }
  ],
  "briefs": [
@@ -7694,12 +7694,24 @@
   }
  },
  "en_vivo": {
-  "oro": 4193.4,
-  "nq": 29727.5,
+  "oro": 4196.2,
+  "nq": 29736.25,
   "vix": 19.99,
-  "ts": "2026-10-19T02:47:29Z"
+  "ts": "2026-10-19T02:52:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Gold Edges Higher as Traders Weigh Fed Rate Hike Expectations",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZU5uN1haS1FQQW82aVdiWmxlbDJrMkszT091U2xWR3dGOTdBeVZ6Z0gzSGpqQ2ZNTE96MG1kckxxY2NVV0I0THpteE9lWGZTdHUxa01OTzJkUndWcVVRWDVZWHVYeFZPcm5VckhaZFBVRDRjcmgyRDg5OUJ1WFBlTlotVGlnekE3SVFDVkpFMHBQbTVPWmd4WTNSSTd1X0ZJNDFlUmVWcGxlSE5oWG1ENmZoYk1oVTdKZlE?oc=5",
+   "ts": "2026-10-19T02:50:00Z",
+   "fuente": "WSJ",
+   "id": "c910b3cd76",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Mariners’ Cole Young Could Benefit From AL Gold Glove Voting System",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQckdlYzVWRDdCS1hxSzhOcjBLREpTTnBtQkdkM0xfTEFoMmlBTEN4cWNHY3ByR0Y5eGZfSUdDaHhoVndKcVFLelp0YUZWOXdCOUlrdHRDYlNDTGtWUDRwcGJFNmg3dHdtQ0NWOFlnY3RDZkhEZFYxbUZHWXRJSW9HUWpYeTNYSld0TFVacHlIT0pLX0NzZU1oVTRhNlRfd2F2LUhrZ2tR?oc=5",
@@ -8391,6 +8403,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Harrison Keith Earns NEFW/Grinold Chapter Gold Helmet Award",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ1pWaTVqRkQ4TlptZllYWjVJbEswRmZacjhTWWE5cHRDN3BoRTNSZmJMaG9vZFFETGZfbVlyOGZCTUxQTHRJTzNMNlA2bVJhR0xMT3U3SGV3RG1RWmJGNng5Si1iNWJUNlVOTkhZQWlueVFYU1N4U3A1MzcwWTQySDBGUHVrLXJaNkdHRjM4TVg3eGNKd1BWaW5Yd0ctZy15TWx1Uk1XUi00WTdGZkE4Y2R3?oc=5",
+   "ts": "2026-10-18T18:02:17Z",
+   "fuente": "Dartmouth College Athletics",
+   "id": "6b792c980f",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Jaylen Brown Says Gold Harp Is Favorite NBA Purchase in Trending Video, Employs Harpist to Perform",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNd1V5Q0k1ZXh4NExtWFVPUF91ZHZYSWE4eWt6aUxwcE9ZcUVyQ2J4M2M2NDB4Y3E4SThoM1otVFNCbEF2NE1BWGhNZEZnQ2tzUXozUFhnakx2bnRiSWY2ckc4OGQtOWVjM01OMWkta0xoZlZGTFo2cTZsR3ZNdkhnWjZLd3I0M1NGa1ZsYXg5cGo0U3VHTlhXUVJxNjljMHV4VWVJN1pyYkt0NEQ1NERaVDQtVU5FS0hmTm5VVk1UOXNyQnFIenRqOGhsLTNwdw?oc=5",
    "ts": "2026-10-18T18:01:50Z",
@@ -8558,31 +8581,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Fountain Hills Theater takes home gold at 2026 ariZoni awards",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYlM0ZGE1VHlWMXgxbDBvWTY5OGJBb1V1YUx1Q29aanJSR3hkYjlEaEpsWFNOX3lzcXNHSVpIQkhZOXRvZTNBWkJDdmkzZUNNT3F4TWNPSmN2NlJtekJLNGpnSHM0SkdGVTc3eTAtUjlvN1hFMHFaZ2hDUktkb1F6ajRtMHZsOEdiUjhRZ0dwNmVxYjhHcTFkdDZXWmNVX3BtR0JF?oc=5",
-   "ts": "2026-10-18T15:30:00Z",
-   "fuente": "Fountain Hills Times Independent",
-   "id": "072305a332",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Here are the 3 big things we're watching in the stock market this week",
-   "link": "https://www.cnbc.com/investingclub/2026/10/18/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html",
-   "ts": "2026-10-18T15:24:37Z",
-   "fuente": "CNBC",
-   "id": "15096b9512",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio",
-   "es": "Los 3 temas clave que vigilamos en el mercado de valores esta semana",
-   "efecto": "Genera cautela institucional a la espera de datos clave."
   }
  ],
  "eventos_avisados": [
@@ -9220,14 +9218,14 @@
     4195.0,
     4205.5,
     4189.3,
-    4193.7
+    4197.4
    ],
    [
-    1792377442,
-    4193.4,
-    4193.4,
-    4193.4,
-    4193.4
+    1792377748,
+    4196.2,
+    4196.2,
+    4196.2,
+    4196.2
    ]
   ],
   "nq": [
@@ -9850,16 +9848,16 @@
    [
     1792375200,
     29681.5,
-    29735.75,
+    29738.75,
     29678.75,
-    29730.75
+    29738.0
    ],
    [
-    1792377449,
-    29728.5,
-    29728.5,
-    29728.5,
-    29728.5
+    1792377750,
+    29736.25,
+    29736.25,
+    29736.25,
+    29736.25
    ]
   ],
   "vix": [
@@ -10440,8 +10438,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "973c9890a7",
-  "fcae1c4306",
   "42a62d0b9b",
   "25aa95d0ae",
   "774d9680aa",
@@ -11239,6 +11235,8 @@
   "7ccc972a6a",
   "c08967b217",
   "21e1cee6be",
-  "d1daa26cec"
+  "d1daa26cec",
+  "c910b3cd76",
+  "6b792c980f"
  ]
 }
