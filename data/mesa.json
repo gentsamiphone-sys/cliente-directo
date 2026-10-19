@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4192.1 · NQ 29688.25 · VIX 19.99 · 1 noticias nuevas",
-   "actualizado": "2026-10-19T01:27:34Z"
+   "ultimo_resultado": "Oro 4186.9 · NQ 29690.0 · VIX 19.99 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-19T01:32:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T01:27:33Z",
-   "ultimo_resultado": "1 titulares nuevos: Expectativa de salida a bolsa de Anthropic atrae atención sobre el Nasdaq"
+   "actualizado": "2026-10-19T01:32:31Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Trump waives major Russia sanctions, tariffs"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4186.9 · NQ 29690.0 · VIX 19.99 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-19T01:32:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4192.1 · NQ 29688.25 · VIX 19.99 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "2 titulares nuevos: Liberty Apple Orchard raises money for childhood cancer at Going Gold Kids Fest",
    "ts": "2026-10-18T12:07:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast",
-   "ts": "2026-10-18T12:02:31Z"
   }
  ],
  "briefs": [
@@ -7694,12 +7694,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4192.1,
-  "nq": 29688.25,
+  "oro": 4186.9,
+  "nq": 29690.0,
   "vix": 19.99,
-  "ts": "2026-10-19T01:27:33Z"
+  "ts": "2026-10-19T01:32:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Trump waives major Russia sanctions, tariffs",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPREdyQWRrdjVrcjVNZDBiQlYwV0FZSkkzdW5EWXJVbnpybHA3bGtzQVpWY2hRS1phUmx2d0laNy1KUURZYm5MSEhpYXlDdXFDdDZCM0NFT1dZYXNJWUZkel9XNTVfSVJ1Szljb25uNGcxd3JrMkI3Qzk4WWNKTnUweXZR?oc=5",
+   "ts": "2026-10-19T01:25:14Z",
+   "fuente": "China Daily Global Edition",
+   "id": "eef378eb72",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Nasdaq Completes Acquisition Of LeveL Markets To Advance Always-On Trading Strategy",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNnhIc2dZS19Oa3k3MG9FYlJBN2ZkdjNIaEdGZXRJaGZMelQzUTdRNGZvaTNKVm9yaFBKbU5ZWkk0YUFpYnEzVV95UTdkUjQ4M0puYVNZTUxJSUxLaXN2MnkzUWJWaUN3NUNCWjBwTFh5YnZ5R2JFeDBCWmZ1QVM5aHdfVFBiTVhFUVpXcTVtSzhyanl3M0Rnb2Q3VGFKQmxDTEdIS1NB?oc=5",
+   "ts": "2026-10-19T01:19:52Z",
+   "fuente": "Pulse 2.0",
+   "id": "5f363c6bcc",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Anthropic IPO Buzz Has Investors Watching Nasdaq Stock And ECM Fee Winners",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNT24xWUZOYW1fTVo2T0dGYmhtV01KRmRNLXhPY0Vtb0V1bG1vVVhSQ0MtNS14TmthYlFaTGdUTnJzSjFUaHRfcnlxZUFLS0lGU2hucnFaUVRVU1VFLXF3WlA3LXpPZVZMbHhkQXNSSS1jbjNDZXNiVmt5WVJzdnZBdU5zaHUxcE9lYV9md1FaVE1qWTVmOUt0aVZObm1kNDMzZlJCZw?oc=5",
@@ -8556,26 +8576,6 @@
    "impacto": "bajo",
    "es": "Dividendos preferentes de HengHong Technology Inc. - NASDAQ:HCPC",
    "efecto": "Ruido corporativo menor, sin impacto institucional relevante en el índice."
-  },
-  {
-   "titulo": "Roth conversions: When the ‘juice isn't really worth the squeeze,’ according to a top-ranked advisor",
-   "link": "https://www.cnbc.com/2026/10/18/roth-conversion-2026.html",
-   "ts": "2026-10-18T13:30:01Z",
-   "fuente": "CNBC",
-   "id": "77d9923b4d",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Conversiones Roth: analistas evalúan cuándo los beneficios fiscales no justifican el costo",
-   "efecto": ""
-  },
-  {
-   "titulo": "When talking antiques, what does value by association mean?",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QeFNOYnhWd1FRRk51WmNsdDlMYWRteFZKQnMxU25XSzk2NnMxNTRZSXRlVnc0VlFjZkk4NHB5WkpzMGpYVnZfVFg2TVhQOU53cVRuVXc4R0ZyQ29GZHc?oc=5",
-   "ts": "2026-10-18T13:22:07Z",
-   "fuente": "Sacramento Bee",
-   "id": "10fc4052c2",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -9213,14 +9213,14 @@
     4193.9,
     4198.6,
     4186.4,
-    4193.9
+    4187.2
    ],
    [
-    1792372649,
-    4192.1,
-    4192.1,
-    4192.1,
-    4192.1
+    1792372951,
+    4187.2,
+    4187.2,
+    4187.2,
+    4187.2
    ]
   ],
   "nq": [
@@ -9843,16 +9843,16 @@
    [
     1792371600,
     29629.5,
-    29690.5,
+    29697.0,
     29629.5,
-    29687.0
+    29691.0
    ],
    [
-    1792372650,
-    29688.25,
-    29688.25,
-    29688.25,
-    29688.25
+    1792372949,
+    29690.0,
+    29690.0,
+    29690.0,
+    29690.0
    ]
   ],
   "vix": [
@@ -10356,10 +10356,10 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-19T01:27:32Z",
- "ult_4h": 1792372656.0489702,
+ "ult_4h": 1792373551.4721193,
  "estrategia_4h": {
   "oro": {
-   "precio": 4186.5,
+   "precio": 4186.9,
    "atr_4h": 27.16,
    "setups": [
     {
@@ -10376,34 +10376,34 @@
    ]
   },
   "nq": {
-   "precio": 29658.5,
-   "atr_4h": 232.18,
+   "precio": 29690.0,
+   "atr_4h": 234.05,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29622.5,
      "entrada": 29622.5,
-     "stop": 29761.81,
+     "stop": 29762.93,
      "objetivo": 29268.75,
-     "rr": 2.54,
+     "rr": 2.52,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.2,
+     "fuerza_ruptura_atr": 1.19,
      "ruptura": "2026-10-16 16:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30509.31,
+     "stop": 30510.43,
      "objetivo": 29268.75,
-     "rr": 7.91,
+     "rr": 7.84,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.86,
+     "fuerza_ruptura_atr": 1.84,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-19T01:17:36Z"
+  "ts": "2026-10-19T01:32:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10433,8 +10433,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "f153b4a945",
-  "3d5d5284f7",
   "fd8ef119f6",
   "c281337e1e",
   "0f7ee35c11",
@@ -11232,6 +11230,8 @@
   "28245a9da8",
   "7d73a8c75f",
   "29bb8f4b02",
-  "4639458bf4"
+  "4639458bf4",
+  "eef378eb72",
+  "5f363c6bcc"
  ]
 }
