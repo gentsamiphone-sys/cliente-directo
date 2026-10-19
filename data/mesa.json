@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4192.0 · NQ 29706.0 · VIX 18.66 · 1 noticias nuevas",
-   "actualizado": "2026-10-19T09:02:35Z"
+   "ultimo_resultado": "Oro 4190.4 · NQ 29689.25 · VIX 18.7 · 5 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-19T09:07:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T09:02:33Z",
-   "ultimo_resultado": "1 titulares nuevos: Total Metals Commences Drilling at its High-Grade High Lake Gold Project, Northwestern Ontario"
+   "actualizado": "2026-10-19T09:07:41Z",
+   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: Putin reportedly proposes three-way summit with Trump and Xi on Ukraine war — without Zelenskyy"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4190.4 · NQ 29689.25 · VIX 18.7 · 5 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-19T09:07:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4192.0 · NQ 29706.0 · VIX 18.66 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-18T19:47:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-18T19:42:30Z"
   }
  ],
  "briefs": [
@@ -7860,12 +7860,55 @@
   }
  },
  "en_vivo": {
-  "oro": 4192.0,
-  "nq": 29706.0,
-  "vix": 18.66,
-  "ts": "2026-10-19T09:02:34Z"
+  "oro": 4190.4,
+  "nq": 29689.25,
+  "vix": 18.7,
+  "ts": "2026-10-19T09:07:42Z"
  },
  "noticias": [
+  {
+   "titulo": "Putin reportedly proposes three-way summit with Trump and Xi on Ukraine war — without Zelenskyy",
+   "link": "https://www.cnbc.com/2026/10/19/putin-trump-xi-ukraine-war-energy.html",
+   "ts": "2026-10-19T09:05:41Z",
+   "fuente": "CNBC",
+   "id": "880058c3eb",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "To Find Criminals and Child Exploitation in Gold Mines, We Just Had to Look",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQkNadk5QRjRSaUVOQm1qV0xpc2ZleU9aMjhYNmJ1VjhDdHRPQzRndWtlbjA4bHF4aVM2SEdnOWV1eXVqYU1SRWJiM2VwSGh4MnN2QkhYdEJsMGlXZ0pvUEkyQ1RiRjk5SzRtNk1GNTRlSlBxcW9jM29WNXpRQzdfQ25uYTZqUkE?oc=5",
+   "ts": "2026-10-19T09:01:24Z",
+   "fuente": "The New York Times",
+   "id": "73169180f3",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "The Coverup: How a Trillion-Dollar Industry Launders Illegal Gold",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSXF2NWxyWURic0VIREMtbDRpVW85amxWZ3VRa19FZ0ZMbVlSN0pUTVhPbFk0OVlyMGJmRVBUcFVWWFIwcWNBQWtGMUE5ZGNNSW16UXZDd1Jydl9OcDdCMVJzVjQwMXVRQ1pPV3NhUENJcktYZXBEYWpQWFVNdVBzbWZvcUhKRGQ1MXZxak0xYWFZOENlSUdLZl85bjRPcE9Q?oc=5",
+   "ts": "2026-10-19T09:00:38Z",
+   "fuente": "The New York Times",
+   "id": "73a8484edc",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Sterling today: Pound edges lower; AI jitters cloud dollar outlook",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/sterling-today-pound-edges-lower-085441416.html?.tsrc=rss",
+   "ts": "2026-10-19T08:54:41Z",
+   "fuente": "Yahoo Finance",
+   "id": "8df266bc07",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Treasury yields move lower as investors assess U.S. inflation backdrop",
    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1nUzdzVnFiMmJCeWJJaVF2cjY5c1lrdkNyMFhqZGRqcGdDaU42WG9icUlJM1daS05OeThBNFpGQVJ6MjZFN2psQkI1WGFGMXJpRHY3RTVzdVI3ZExKVkN3ZVNMcDRwbk9zaVRoLVZrQdIBdEFVX3lxTE1mWUNCVkNBVTBnTHdJcGtFQnpqVzFnV2ZVVnNSUUxTMzlrQkwwLVJudmI2RHRwVUx1bzBCV1FPT3RqRmlMMzlOOXBfeUtWRVE2b1N2ZV8xMkVKOWlPWmNZSVFldDVzdjh5Z3VlRnZkNTFfLWY5?oc=5",
@@ -8493,6 +8536,18 @@
    "efecto": "Ruido inflacionario menor; sin impacto institucional en oro o NQ."
   },
   {
+   "titulo": "NewPeak Metals launches Phase 2 drilling at Las Opeñas targeting higher-grade gold core",
+   "link": "https://www.proactiveinvestors.com/companies/news/1100268/newpeak-metals-readies-phase-2-drilling-at-las-openas-gold-project-in-argentina-1100268.html?.tsrc=rss",
+   "ts": "2026-10-19T00:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "b439ac56ac",
+   "activos": [
+    "oro",
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "NewPeak Metals begins Phase 2 drilling at Las Opeñas Gold Project in Argentina",
    "link": "https://www.proactiveinvestors.com/companies/news/1100268/newpeak-metals-readies-phase-2-drilling-at-las-openas-gold-project-in-argentina-1100268.html?.tsrc=rss",
    "ts": "2026-10-19T00:30:00Z",
@@ -8713,59 +8768,6 @@
    "ts": "2026-10-18T22:16:19Z",
    "fuente": "CNBC",
    "id": "b87c6cb5dd",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Nasdaq futures gain as investors buy the dip in the AI trade: Live updates",
-   "link": "https://www.cnbc.com/2026/10/18/stock-market-today-live-updates.html",
-   "ts": "2026-10-18T22:15:10Z",
-   "fuente": "CNBC",
-   "id": "27ca8420d8",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "How Does BP (LSE:BP.) Fit India’s EV Charging Buildout Across 300 Cities?",
-   "link": "https://finance.yahoo.com/energy/articles/does-bp-lse-bp-fit-221234219.html?.tsrc=rss",
-   "ts": "2026-10-18T22:12:34Z",
-   "fuente": "Yahoo Finance",
-   "id": "e4f7612cc0",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "¿Cómo encaja BP en el despliegue de carga para VE de India en 300 ciudades?",
-   "efecto": "Noticia corporativa sectorial sin impacto directo en ORO o NQ."
-  },
-  {
-   "titulo": "Dow Jones Futures Rise Amid AI Fears; Can Meta, SpaceX, Tesla Earnings Save The Day?",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnZSNzJZS2NlWi1Hckg0djB1aGQ3bEkzVTB4ejBTQWRoQ0JTOWJBa1U4Z1EyWFZSa0ZmSDlIcmx5MFEwQmhCeFE2MEs4ZEdMSThwczNORG03QTY4MU9xR3pXWmRtNmdMc3BRZ0F4U1FudlhIdXpwVHVQUXUxMU44NHhhRVZyTmNDVk1MLXBsOHBIV2Q3VU9oTE1sa2JET0c5b3p5ZUJHeTBrQlJKaTRnS284ZGVhUUlwekJKalp5dmsyRmdzU25QRQ?oc=5",
-   "ts": "2026-10-18T22:10:00Z",
-   "fuente": "Investor's Business Daily",
-   "id": "6f9802f4ba",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "AI credit stress: Why falling Treasury yields matter",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS1VmV0tWUmlvNTlVeW52SEJJQ0JrcER1eXhYSzY2ZzNPSklCUGhDcWZjUHlDSUxLTHhqaTlTUjV2cUs4elNPMVRMMmJBYTA0d1BkREhDQi16VHBjNEhRbnVkT2tZaXpBbmZfNTlKMHNYN2w2d2NtY2lremE0Q1VXcnZGVHRjektEX3BUZHQ2Z0NmUmI5ZGttN2lUM2dsTkU?oc=5",
-   "ts": "2026-10-18T22:09:36Z",
-   "fuente": "FXStreet",
-   "id": "96970c835b",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "US Stock Futures Rise Ahead of Busy Earnings Week: Markets Wrap",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-rise-ahead-220725997.html?.tsrc=rss",
-   "ts": "2026-10-18T22:07:25Z",
-   "fuente": "Yahoo Finance",
-   "id": "3da5bb164f",
    "activos": [],
    "impacto": "bajo"
   }
@@ -9300,14 +9302,14 @@
     4192.9,
     4199.8,
     4189.6,
-    4191.4
+    4190.8
    ],
    [
-    1792399950,
-    4192.0,
-    4192.0,
-    4192.0,
-    4192.0
+    1792400248,
+    4190.4,
+    4190.4,
+    4190.4,
+    4190.4
    ]
   ],
   "nq": [
@@ -9826,15 +9828,15 @@
     1792396800,
     29720.25,
     29739.5,
-    29694.0,
-    29702.0
+    29685.5,
+    29690.75
    ],
    [
-    1792399954,
-    29705.25,
-    29705.25,
-    29705.25,
-    29705.25
+    1792400261,
+    29689.25,
+    29689.25,
+    29689.25,
+    29689.25
    ]
   ],
   "vix": [
@@ -10240,16 +10242,16 @@
    [
     1792396800,
     18.59,
-    18.69,
+    18.74,
     18.53,
-    18.65
+    18.71
    ],
    [
-    1792399651,
-    18.66,
-    18.66,
-    18.66,
-    18.66
+    1792399951,
+    18.7,
+    18.7,
+    18.7,
+    18.7
    ]
   ]
  },
@@ -10331,11 +10333,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "106d2a48aa",
-  "ceb559901e",
-  "fcaaf9385b",
-  "1c495081f7",
-  "0d8b580f60",
   "2e919a4dfe",
   "929cef5faf",
   "c8ef1117ca",
@@ -11130,6 +11127,11 @@
   "06caa9a358",
   "4f955e0bc3",
   "2fc42551cb",
-  "2891431cf6"
+  "2891431cf6",
+  "880058c3eb",
+  "73169180f3",
+  "73a8484edc",
+  "8df266bc07",
+  "b439ac56ac"
  ]
 }
