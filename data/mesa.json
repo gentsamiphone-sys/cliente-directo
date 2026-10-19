@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4198.8 · NQ 29779.75 · VIX 19.99",
-   "actualizado": "2026-10-19T04:42:31Z"
+   "ultimo_resultado": "Oro 4204.1 · NQ 29777.0 · VIX 19.99 · 3 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-19T04:47:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T04:42:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-19T04:47:34Z",
+   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: Ministra de Finanzas de India dice que salidas fáciles y exceso de liquidez perjudican al mercado accionario"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4204.1 · NQ 29777.0 · VIX 19.99 · 3 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-19T04:47:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4198.8 · NQ 29779.75 · VIX 19.99",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-18T15:27:37Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "2 titulares nuevos: Community Transit gathering feedback on Swift Gold Line design",
-   "ts": "2026-10-18T15:22:33Z"
   }
  ],
  "briefs": [
@@ -7694,12 +7694,36 @@
   }
  },
  "en_vivo": {
-  "oro": 4198.8,
-  "nq": 29779.75,
+  "oro": 4204.1,
+  "nq": 29777.0,
   "vix": 19.99,
-  "ts": "2026-10-19T04:42:31Z"
+  "ts": "2026-10-19T04:47:34Z"
  },
  "noticias": [
+  {
+   "titulo": "India’s Finance Minister says easy exits and excess liquidity fuel equity market's underperformance",
+   "link": "https://www.cnbc.com/2026/10/18/india-ai-nifty50-sensex-investors.html",
+   "ts": "2026-10-19T04:46:26Z",
+   "fuente": "CNBC",
+   "id": "f2e7580c87",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Ministra de Finanzas de India dice que salidas fáciles y exceso de liquidez perjudican al mercado accionario",
+   "efecto": ""
+  },
+  {
+   "titulo": "Nasdaq Futures Rebound 0.7% as Earnings Week Looms",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9VXzNDM0JLWllSSDYtQ1Z2ajZsUEJ3azRfQkxJd01IYnNSU1U2SVZoTTA5VUpGTnZscEhBaWoxNmF3cFlMeVREbXVRcUtSQm8yamY1QzJPZ2dYcWhELThBQ0szSk1iQ3VfY0Jhb3NPdzd3SEY5NDlnQWdsR2JVWkE?oc=5",
+   "ts": "2026-10-19T04:36:58Z",
+   "fuente": "https://tech-insider.org/",
+   "id": "ecb9ac90dc",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Los futuros del Nasdaq repuntan 0,7% ante la inminente semana de resultados",
+   "efecto": "Impulsa compras técnicas en el Nasdaq ante optimismo por ganancias."
+  },
   {
    "titulo": "Nov. 6 – Gold and Glitz Gala to Support Holly Dickens Festival",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQY2ctXzEwRFlSa3lNWms2QkhEd1pTTG12TjJDZ1Y1MzJmY3BNaUNNSGNkRS1taGxXX0lRMWg1Q2hFa2IwX2RvelZhTnJoOWdFbGs0aUwzUXdITndBdzFHMnc3RTh0YS02OFhDdU9UUEZNMFZkaVRvMGp5T1NhTW51eWtmcFNJMUllLTExSFRsdVBMX3EzdFMxcnhRUnAxMWNXYVE?oc=5",
@@ -7710,6 +7734,20 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "No ‘Black Monday’? Nasdaq, S&P 500, Dow Futures Spike As Big Tech Earnings Loom This Week — Retail Stays Cautious",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbGtzY3RHLXBKS05JREhZb2FSUjdPWC1VdmVYaVQxQjctWm92ZDI5UUExWFJBN25WZG42dFRud3J3bjFtRy1yX05TcmRSWC1mQV9qVTZpZXpnNWNacmNwUElfMXJQSlhxU3VvSldxUGRaV0E0enF4VHBTcV83WEFHVGdBa0tTT19mM3kxUjR5ZU1PYms?oc=5",
+   "ts": "2026-10-19T04:07:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "76b2b1282a",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "¿Sin 'Lunes Negro'? Futuros de EE.UU. suben por resultados de grandes tecnológicas, minoristas cautelosos",
+   "efecto": "Reduce aversión al riesgo, fortalece al Nasdaq y presiona al dólar."
   },
   {
    "titulo": "'Where there's smoke there's fire': Why BTIG is sounding the alarm on tech",
@@ -8540,37 +8578,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Harrison Keith Earns NEFW/Grinold Chapter Gold Helmet Award",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ1pWaTVqRkQ4TlptZllYWjVJbEswRmZacjhTWWE5cHRDN3BoRTNSZmJMaG9vZFFETGZfbVlyOGZCTUxQTHRJTzNMNlA2bVJhR0xMT3U3SGV3RG1RWmJGNng5Si1iNWJUNlVOTkhZQWlueVFYU1N4U3A1MzcwWTQySDBGUHVrLXJaNkdHRjM4TVg3eGNKd1BWaW5Yd0ctZy15TWx1Uk1XUi00WTdGZkE4Y2R3?oc=5",
-   "ts": "2026-10-18T18:02:17Z",
-   "fuente": "Dartmouth College Athletics",
-   "id": "6b792c980f",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Jaylen Brown Says Gold Harp Is Favorite NBA Purchase in Trending Video, Employs Harpist to Perform",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNd1V5Q0k1ZXh4NExtWFVPUF91ZHZYSWE4eWt6aUxwcE9ZcUVyQ2J4M2M2NDB4Y3E4SThoM1otVFNCbEF2NE1BWGhNZEZnQ2tzUXozUFhnakx2bnRiSWY2ckc4OGQtOWVjM01OMWkta0xoZlZGTFo2cTZsR3ZNdkhnWjZLd3I0M1NGa1ZsYXg5cGo0U3VHTlhXUVJxNjljMHV4VWVJN1pyYkt0NEQ1NERaVDQtVU5FS0hmTm5VVk1UOXNyQnFIenRqOGhsLTNwdw?oc=5",
-   "ts": "2026-10-18T18:01:50Z",
-   "fuente": "Bleacher Report",
-   "id": "b391ba9dd6",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Jaylen Brown dice que su arpa de oro es su compra favorita de la NBA",
-   "efecto": ""
-  },
-  {
-   "titulo": "At least 4 killed in major fire at Canadian military base",
-   "link": "https://www.cnbc.com/2026/10/18/deaths-confirmed-after-fire-at-canada-military-base-in-alberta.html",
-   "ts": "2026-10-18T18:01:05Z",
-   "fuente": "CNBC",
-   "id": "caba13bf8b",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -9073,16 +9080,16 @@
    [
     1792382400,
     4201.2,
-    4201.5,
+    4204.6,
     4193.2,
-    4200.7
+    4202.8
    ],
    [
-    1792384349,
-    4198.7,
-    4198.7,
-    4198.7,
-    4198.7
+    1792384648,
+    4204.1,
+    4204.1,
+    4204.1,
+    4204.1
    ]
   ],
   "nq": [
@@ -9553,14 +9560,14 @@
     29772.0,
     29790.0,
     29764.25,
-    29782.0
+    29776.25
    ],
    [
-    1792384342,
-    29779.75,
-    29779.75,
-    29779.75,
-    29779.75
+    1792384652,
+    29777.0,
+    29777.0,
+    29777.0,
+    29777.0
    ]
   ],
   "vix": [
@@ -10063,35 +10070,35 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-19T03:52:36Z",
- "ult_4h": 1792384353.6680887,
+ "noticias_traducidas_ts": "2026-10-19T04:47:32Z",
+ "ult_4h": 1792385254.3284535,
  "estrategia_4h": {
   "oro": {
-   "precio": 4197.8,
-   "atr_4h": 23.98,
+   "precio": 4204.1,
+   "atr_4h": 24.36,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4168.91,
+     "stop": 4168.68,
      "objetivo": 4220.4,
-     "rr": 2.58,
+     "rr": 2.54,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.17,
+     "fuerza_ruptura_atr": 1.15,
      "ruptura": "2026-10-15 16:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29778.0,
-   "atr_4h": 228.89,
+   "precio": 29777.0,
+   "atr_4h": 228.93,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30507.34,
+     "stop": 30507.36,
      "objetivo": 29268.75,
      "rr": 8.02,
      "estado": "esperando retesteo",
@@ -10102,7 +10109,7 @@
      "direccion": "VENTA",
      "nivel": 30604.75,
      "entrada": 30604.75,
-     "stop": 30742.09,
+     "stop": 30742.11,
      "objetivo": 29268.75,
      "rr": 9.73,
      "estado": "esperando retesteo",
@@ -10111,7 +10118,7 @@
     }
    ]
   },
-  "ts": "2026-10-19T04:32:34Z"
+  "ts": "2026-10-19T04:47:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10141,9 +10148,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "ad65dbe87c",
-  "28a6d6d8be",
-  "82a61c3594",
   "9be519b62b",
   "81f570eed1",
   "eef94f290d",
@@ -10940,6 +10944,9 @@
   "41a6b4490e",
   "2b44874080",
   "b807a9f2d3",
-  "0ef82a9b60"
+  "0ef82a9b60",
+  "f2e7580c87",
+  "ecb9ac90dc",
+  "76b2b1282a"
  ]
 }
