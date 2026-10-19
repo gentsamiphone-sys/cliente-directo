@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4189.2 · NQ 29710.75 · VIX 18.63",
-   "actualizado": "2026-10-19T09:57:41Z"
+   "ultimo_resultado": "Oro 4188.9 · NQ 29716.5 · VIX 18.64 · 4 noticias nuevas",
+   "actualizado": "2026-10-19T10:02:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T09:57:40Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-19T10:02:31Z",
+   "ultimo_resultado": "4 titulares nuevos: French Government-Bond Yields Rise on Protests, Budget Concerns; Treasury Yields Fall"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4188.9 · NQ 29716.5 · VIX 18.64 · 4 noticias nuevas",
+   "ts": "2026-10-19T10:02:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4189.2 · NQ 29710.75 · VIX 18.63",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos, 1 de alto impacto: Traders Grow Wary of Copper Bull Market With No Sign of Tariffs",
    "ts": "2026-10-18T20:42:30Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Múltiples medallas en los campeonatos de campo traviesa de BC en la Isla de Vancouver",
-   "ts": "2026-10-18T20:37:37Z"
   }
  ],
  "briefs": [
@@ -7860,12 +7860,34 @@
   }
  },
  "en_vivo": {
-  "oro": 4189.2,
-  "nq": 29710.75,
-  "vix": 18.63,
-  "ts": "2026-10-19T09:57:41Z"
+  "oro": 4188.9,
+  "nq": 29716.5,
+  "vix": 18.64,
+  "ts": "2026-10-19T10:02:32Z"
  },
  "noticias": [
+  {
+   "titulo": "French Government-Bond Yields Rise on Protests, Budget Concerns; Treasury Yields Fall",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSk1wWWp6WG1vZjdfYjZXX1hRU0lPVEl6WnVGbkozSXB5eTU5UHN2aG9nRHRpc1VMNlI5eF92YXNZNTFUOGFBMnk1anY0cUxFcG5YTTF0NFRhaGZ0VjkwbjNETmpiWkVXUHlNMmZJV014MlJ2LXRKZWlmS3E1N21wZHdnUXZybnJBRzlVSmdwUQ?oc=5",
+   "ts": "2026-10-19T09:21:00Z",
+   "fuente": "WSJ",
+   "id": "efdb3a3f4f",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Weekly Signal | The Cheapest Nasdaq Since ChatGPT. Tesla Earnings Are Coming Up.",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNakV0X3BvOE12WkhsanJ6Qlc0d3J6UWg4NmxYbWpFR1QzM2twQWkwbXVqdU9fSVhlWGpPSXBuNDBpT0hzQUJ4YnYtZS0tYkdoZFV2eWdCWUV3QTNLRzlObXpnVHdxT3hwVmpVYm04dHd5NmVva3FvWWw5UXNjU2lZQ0RsVUp3SlpiTXFoTm1EbXBaS0RhanB2S1BBQmFWa1B5ZTByalpTSFNQM01zdWpHNEVfVUYxOUwwSlBLdg?oc=5",
+   "ts": "2026-10-19T09:20:45Z",
+   "fuente": "Moomoo",
+   "id": "3dda7c444a",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Elon Musk says he'll give a SpaceX share to every child in America next year",
    "link": "https://www.cnbc.com/2026/10/19/elon-musk-spacex-shares-giveaway-kids.html",
@@ -7888,6 +7910,15 @@
    "impacto": "alto",
    "es": "Los precios del oro superan los $4,200 en futuros al moderarse las expectativas de alza de tasas de la Fed",
    "efecto": "impulsa al oro al alza y debilita al dólar por menores tasas."
+  },
+  {
+   "titulo": "BREAKING: JPMorgan Expands JPM Coin Deposit Token to Ethereum Network",
+   "link": "https://coingape.com/jpmorgan-expands-jpm-coin-deposit-token-to-ethereum-network/?.tsrc=rss",
+   "ts": "2026-10-19T09:11:39Z",
+   "fuente": "Yahoo Finance",
+   "id": "4f41b90c7f",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall",
@@ -8142,6 +8173,17 @@
    "id": "5a23177b86",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Local athlete wins gold and silver in Special Olympics equestrian competitions",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQX1ZGY2ZYRTlLRXNzeVpVUUVUZkpBc2YyTkxqeWdSc2otXzhPSlBsNzBuTU5IYVhHTHJyYVMwWHFZUk1BeDg0R21fSGFtX3RUNkhFMXZoaGNRSHBfMGQxb2xla01zbi1QN3JNU294a3VEd0FXZVQ4UWc1dW9YSVMwMEM4WlZ3MjVJVEFDYnBiLWRUc25UbEYxZE1ETDVEZ29jVjROUVRUOWVPV2tw?oc=5",
+   "ts": "2026-10-19T05:57:04Z",
+   "fuente": "13WHAM-TV",
+   "id": "329301c0a0",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Tom Lee Says Last Week's Stock Selloff Sets Up a Buy in Crypto, Semis",
@@ -8727,54 +8769,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "How Investors May Respond To Centene (CNC) Gold Card Program Launch",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVG5IOXdqaUlnYldCM0N5Nm5kekFoLVlyaURsTFFJOTJkQ2dVUmxXT0ZiVS12SlB4cXFWcUlndlhweHM1dktCVS1sRFYtWU9ULUs3MDltRWpXc280VlhiQ3ZzelYwclN3d3VSMkpXb09TTktNTUcybEVZU05udi1BOHg5RnIwcGI0M1JYRUtCU25oUXdGV0t3VDB2ZVlGYktfLTU2Yml0dFE5UEFYOGI1UjZyR01qUG1nTFhFQlRnTXFUTTDSAcgBQVVfeXFMUGZXYnVXc0FFYWRQVHdQWm9VNUlZRTdUSFhlZnRXSVJLamRpWFZ3dHREVmdseThEblV1bWJ3NzVZaUlFTFRoam5sUnZ0WE14S3RYRm05MWFRR2F0d1ZyMnpEdm9VcDVtaEpsNEFBbmVEZ0hQWXlhdi1xNlpWU1VZT2FhalZSamlCYTcwUHNUSnBVenVNdnNZZkhtdElRQUwzOTdFc1NtSGdKNTIwc2s3amFqMk16NXFiWUlLeTlXWXFvTDFzaUNLdUM?oc=5",
-   "ts": "2026-10-18T23:43:03Z",
-   "fuente": "Simply Wall Street",
-   "id": "3a7538e1ac",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Faraday Future Founder and Global CEO YT Jia Shares Weekly Investor Update: FFR to Hold Listing Ceremony and First Investor Day at the Nasdaq Tower on Oct. 26; Three New Robotics Product Offerings Launched",
-   "link": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxOZ2pLaFlYRlNVdkdCVnZSOWJrTUZtUUl0WjI5UTZRQkxSMjVscVJFcWhpOHVTREVxalJhT2pNaC1OWVF4VTd0MlVEWGRxQWNTVUVXb2RVQVdYTlpmdEpWVjBqNG94ck1hSHhNWmNkZGd1dnpEdE00eU5JR2MzTkNLNUpFOVNlNk9OSXJOMDRpck9SdS1uTE1hVlByR0lFSFJYWTk2QjFYc3Vjbnp6bGIyZjNFUkxuSUo1R0VTVWt2dEtSUE16N3k0SGlpQWhocXJBSW9KX2QzNW8tWG1MTXBuVkxHSGFNRTNxUnBNcVI0eFNYaXFZZGVGSkFxWlZ5ZkxzYjZqdGtjSkNOTzA5dVdTNWFub2g5aXR2R2RvOUEwZExkS1YzTHdFdEdCVnZINjFKMkltdXBCZHROQjF5R3hmd2duQ2VURGU3aGZtbWdnNUNFa3FZeXZiM1pFZWVTYXBoNE9jd25KSUxkVnQ2bzhoWWwzZDVEd1k?oc=5",
-   "ts": "2026-10-18T23:30:00Z",
-   "fuente": "Business Wire",
-   "id": "506163e29e",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "Fundador de Faraday Future anuncia evento en la torre Nasdaq y nuevos robots.",
-   "efecto": ""
-  },
-  {
-   "titulo": "Europe sent its gold to the U.S. for safe keeping during World War II. Central banks are now reshuffling their reserves for a new era of uncertainty",
-   "link": "https://finance.yahoo.com/economy/policy/articles/europe-sent-gold-u-safe-232939141.html?.tsrc=rss",
-   "ts": "2026-10-18T23:29:39Z",
-   "fuente": "Yahoo Finance",
-   "id": "ea2160b48a",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Central banks around the world are now reshuffling gold reserves for a new era of uncertainty",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdGRYWFpJSzF6MHZDdWk5eFVNc1U0YVJTUE1hVFp6ZnJFUUVCZTNHcGlvZlBnWG51LW1Vd2dUUS1jeDUzTzBOTldnVE5RWGVHdXZPQWJhT0RScHpFTnhKSHdscWI4TU55SjdyaHFGbGtiOEV3VFNKWWdHWHNQOUNYVGxUTkdjX2Uta1pkX091NC0wUHhVczJmcXdaX2Y0c3pnY254bjNhdUd4YU0tY0xrcmFva1BtZkhFSXc?oc=5",
-   "ts": "2026-10-18T23:29:00Z",
-   "fuente": "Fortune",
-   "id": "d1daa26cec",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "alto",
-   "es": "Los bancos centrales de todo el mundo reorganizan sus reservas de oro para una nueva era de incertidumbre",
-   "efecto": "Sostén estructural alcista para el oro por compras de bancos centrales."
   }
  ],
  "eventos_avisados": [
@@ -9314,14 +9308,14 @@
     4190.7,
     4192.9,
     4187.4,
-    4189.6
+    4189.7
    ],
    [
-    1792403257,
-    4189.2,
-    4189.2,
-    4189.2,
-    4189.2
+    1792403548,
+    4188.9,
+    4188.9,
+    4188.9,
+    4188.9
    ]
   ],
   "nq": [
@@ -9846,16 +9840,16 @@
    [
     1792400400,
     29683.5,
-    29719.5,
+    29725.25,
     29669.0,
-    29712.5
+    29719.25
    ],
    [
-    1792403256,
-    29710.75,
-    29710.75,
-    29710.75,
-    29710.75
+    1792403546,
+    29716.5,
+    29716.5,
+    29716.5,
+    29716.5
    ]
   ],
   "vix": [
@@ -10269,32 +10263,32 @@
     1792400400,
     18.76,
     18.81,
-    18.63,
-    18.63
+    18.61,
+    18.64
    ],
    [
-    1792402951,
-    18.63,
-    18.63,
-    18.63,
-    18.63
+    1792403236,
+    18.64,
+    18.64,
+    18.64,
+    18.64
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-19T09:42:33Z",
- "ult_4h": 1792403255.2157552,
+ "ult_4h": 1792404152.0322626,
  "estrategia_4h": {
   "oro": {
-   "precio": 4189.1,
-   "atr_4h": 24.26,
+   "precio": 4188.9,
+   "atr_4h": 24.31,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4168.74,
+     "stop": 4168.72,
      "objetivo": 4220.4,
-     "rr": 2.55,
+     "rr": 2.54,
      "estado": "en retesteo",
      "fuerza_ruptura_atr": 1.15,
      "ruptura": "2026-10-15 16:00 UTC"
@@ -10302,7 +10296,7 @@
    ]
   },
   "nq": {
-   "precio": 29700.25,
+   "precio": 29716.5,
    "atr_4h": 223.04,
    "setups": [
     {
@@ -10329,7 +10323,7 @@
     }
    ]
   },
-  "ts": "2026-10-19T09:47:35Z"
+  "ts": "2026-10-19T10:02:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10359,10 +10353,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "4848a1abdd",
-  "e32df10b44",
-  "dbb909d80f",
-  "ff69626d95",
   "2817c5b648",
   "561acda6b4",
   "5c6ffdfba5",
@@ -11158,6 +11148,10 @@
   "025cddda93",
   "416044b504",
   "6cae7f3e17",
-  "adf4b5f0c0"
+  "adf4b5f0c0",
+  "efdb3a3f4f",
+  "3dda7c444a",
+  "4f41b90c7f",
+  "329301c0a0"
  ]
 }
