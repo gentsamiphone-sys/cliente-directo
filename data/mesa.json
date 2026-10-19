@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4184.1 · NQ 29778.5 · VIX 18.38",
-   "actualizado": "2026-10-19T13:42:34Z"
+   "ultimo_resultado": "Oro 4180.1 · NQ 29778.75 · VIX 17.98 · 6 noticias nuevas",
+   "actualizado": "2026-10-19T13:47:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T13:42:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-19T13:47:35Z",
+   "ultimo_resultado": "6 titulares nuevos: NYSE becomes latest exchange to extend options hours as appetite for around-the-clock trading grows"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4180.1 · NQ 29778.75 · VIX 17.98 · 6 noticias nuevas",
+   "ts": "2026-10-19T13:47:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4184.1 · NQ 29778.5 · VIX 18.38",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4199.1 · NQ 29632.25 · VIX 19.99",
    "ts": "2026-10-19T00:27:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4202.9 · NQ 29662.75 · VIX 19.99",
-   "ts": "2026-10-19T00:22:32Z"
   }
  ],
  "briefs": [
@@ -8032,12 +8032,43 @@
   }
  },
  "en_vivo": {
-  "oro": 4184.1,
-  "nq": 29778.5,
-  "vix": 18.38,
-  "ts": "2026-10-19T13:42:33Z"
+  "oro": 4180.1,
+  "nq": 29778.75,
+  "vix": 17.98,
+  "ts": "2026-10-19T13:47:35Z"
  },
  "noticias": [
+  {
+   "titulo": "NYSE becomes latest exchange to extend options hours as appetite for around-the-clock trading grows",
+   "link": "https://www.cnbc.com/2026/10/19/nyse-extends-options-trading-hours.html",
+   "ts": "2026-10-19T13:46:50Z",
+   "fuente": "CNBC",
+   "id": "5ae216f1db",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Current price of gold as of October 19, 2026",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0tYThDZmFQNU52WG96ZzdUcjdPb1hjNEwxRWhtYjlqQzFiT1pyQXA5cHdLVU9SUVNGVVB6TE52MUFMWkd6NmpUNXNmNEZRZW5Qdk1neV9zQVlpWkdwNVRFUWNaZFcyaklnbGFpYkFR?oc=5",
+   "ts": "2026-10-19T13:42:00Z",
+   "fuente": "Fortune",
+   "id": "689534bbde",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "S&P 500, Nasdaq open higher as AI stocks rebound ahead of major earnings",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMjN0YXZlVDZQeDdTODdwdkxjNEVxOFN0VHNDWmpWclNTci1LV1BmUEQ0T283SGxubjdCRmhhX09iVXZZdHpsZEpZT0RxR19sSC03ei1UQW9nZld2dE1KTFppNUlfV2MydTZOdVVCcE5TRS1Odk5Ca2dDRGxTcjFHV0tHS244azlXNHhoMzluTU9SOE0?oc=5",
+   "ts": "2026-10-19T13:35:16Z",
+   "fuente": "Yahoo Finance",
+   "id": "3e71de9cea",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Nasdaq gains as investors buy the dip in the AI trade: Live updates",
    "link": "https://www.cnbc.com/2026/10/18/stock-market-today-live-updates.html",
@@ -8050,6 +8081,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Fortitude Gold Reports Third Quarter 2026 Preliminary Gold Production",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/fortitude-gold-reports-third-quarter-133000187.html?.tsrc=rss",
+   "ts": "2026-10-19T13:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "4791af82ec",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Wrestling's Maroon & Gold Intrasquad Set for Thursday at McGuirk Arena",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd2dTclZ5dW1JQnVvRjZnU2QwMHlqVV9yUmJtVFFYVTd0NlRCcVRFdXJ4Yk1NT0tFY0lZcmZjbDFxZXRiQ2c5Zmp2Q3o4c0ZQZWo0X2F2M2FnX0oxQk91dmZXTERIODR3SXdqLWFERm5xTU05anRiVG4xTDNWMm5TMFlMbEpuRk5jUzZWaVY4eXlJTDlIVF9Zb2hrV0N0b2Q4X2hzSkY2X2JySzBx?oc=5",
    "ts": "2026-10-19T13:27:15Z",
@@ -8057,6 +8099,18 @@
    "id": "8f490c6fcd",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Military Metals Announces Reinstatement and Four-Year Extension of Trojarova Antimony-Gold Exploration License in Slovakia",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/military-metals-announces-reinstatement-four-132500901.html?.tsrc=rss",
+   "ts": "2026-10-19T13:25:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "d0d70162ca",
+   "activos": [
+    "oro",
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -8428,6 +8482,17 @@
    "id": "cb993e4ae7",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Stock market today: Nasdaq, S&P 500 rise as the AI trade rebounds",
+   "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112734828.html?.tsrc=rss",
+   "ts": "2026-10-19T11:27:34Z",
+   "fuente": "Yahoo Finance",
+   "id": "e872284ff2",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Stock market today: Dow, S&P 500, Nasdaq futures mixed as the AI trade rebounds",
@@ -8847,71 +8912,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Treasury Yields Hand Nasdaq Tech Stocks a Double Hit on Value and Debt",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLTQ3LVVXdzFGaV9BS1dPRXJMc2Uybng0cXB3UlFYWVY2QTRsWmlBZTVydXJGQlJmc0JYQ01XUTVtbXkyc2FyTjVubGF3aW1FaHFmajFtWmRBTk1qRnBTZkpSWXBHZEp1Skpid3p1RkkyNVRHemxkOVRGdEhQcFN1RmRKV3FYWkV4MktZd1ZUOW9BNUptY2pVcHZRdWJ5X2hzamlfeGM4STlYQQ?oc=5",
-   "ts": "2026-10-19T09:30:32Z",
-   "fuente": "StoneX",
-   "id": "b07dd9ed1b",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "New Strong Sell Stocks for October 19th",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/strong-sell-stocks-october-19th-092100233.html?.tsrc=rss",
-   "ts": "2026-10-19T09:21:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "f22e8a6d61",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "French Government-Bond Yields Rise on Protests, Budget Concerns; Treasury Yields Fall",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSk1wWWp6WG1vZjdfYjZXX1hRU0lPVEl6WnVGbkozSXB5eTU5UHN2aG9nRHRpc1VMNlI5eF92YXNZNTFUOGFBMnk1anY0cUxFcG5YTTF0NFRhaGZ0VjkwbjNETmpiWkVXUHlNMmZJV014MlJ2LXRKZWlmS3E1N21wZHdnUXZybnJBRzlVSmdwUQ?oc=5",
-   "ts": "2026-10-19T09:21:00Z",
-   "fuente": "WSJ",
-   "id": "efdb3a3f4f",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Weekly Signal | The Cheapest Nasdaq Since ChatGPT. Tesla Earnings Are Coming Up.",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNakV0X3BvOE12WkhsanJ6Qlc0d3J6UWg4NmxYbWpFR1QzM2twQWkwbXVqdU9fSVhlWGpPSXBuNDBpT0hzQUJ4YnYtZS0tYkdoZFV2eWdCWUV3QTNLRzlObXpnVHdxT3hwVmpVYm04dHd5NmVva3FvWWw5UXNjU2lZQ0RsVUp3SlpiTXFoTm1EbXBaS0RhanB2S1BBQmFWa1B5ZTByalpTSFNQM01zdWpHNEVfVUYxOUwwSlBLdg?oc=5",
-   "ts": "2026-10-19T09:20:45Z",
-   "fuente": "Moomoo",
-   "id": "3dda7c444a",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Should Invesco NASDAQ Next Gen 100 ETF (QQQJ) Be on Your Investing Radar?",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSDFGb1lsUkk5a0JpVnRydW5oS0JnSTFtR0l1TFVkZVFPZE1qX1BQemtPamx6SEh0ajNCYjBrUU84QnlBanBQZXQ5OG4yYk1QeVRzbGtEdTJ0cHFuZ0ZScmdyNmJwTWRrQWVOV3c3QzVvelpXWDZ0MG1nekR5VHNyblZrbnRWck0tWnlSeWF0VFFJNTNvamJn?oc=5",
-   "ts": "2026-10-19T09:20:02Z",
-   "fuente": "Yahoo Finance",
-   "id": "bbbc8c0233",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Elon Musk says he'll give a SpaceX share to every child in America next year",
-   "link": "https://www.cnbc.com/2026/10/19/elon-musk-spacex-shares-giveaway-kids.html",
-   "ts": "2026-10-19T09:14:30Z",
-   "fuente": "CNBC",
-   "id": "94ce5f0eed",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -9479,14 +9479,14 @@
     4181.0,
     4186.8,
     4178.0,
-    4185.6
+    4180.6
    ],
    [
-    1792416753,
-    4184.1,
-    4184.1,
-    4184.1,
-    4184.1
+    1792417055,
+    4180.5,
+    4180.5,
+    4180.5,
+    4180.5
    ]
   ],
   "nq": [
@@ -10039,16 +10039,16 @@
    [
     1792414800,
     29748.75,
-    29794.25,
+    29807.0,
     29727.25,
-    29773.75
+    29795.75
    ],
    [
-    1792416753,
-    29778.5,
-    29778.5,
-    29778.5,
-    29778.5
+    1792417055,
+    29778.75,
+    29778.75,
+    29778.75,
+    29778.75
    ]
   ],
   "vix": [
@@ -10490,67 +10490,67 @@
     1792414800,
     18.54,
     18.54,
-    18.31,
-    18.38
+    18.03,
+    18.03
    ],
    [
-    1792416301,
-    18.38,
-    18.38,
-    18.38,
-    18.38
+    1792416751,
+    17.98,
+    17.98,
+    17.98,
+    17.98
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-19T13:37:37Z",
- "ult_4h": 1792416754.7308414,
+ "ult_4h": 1792417655.6775284,
  "estrategia_4h": {
   "oro": {
-   "precio": 4180.5,
-   "atr_4h": 24.88,
+   "precio": 4180.1,
+   "atr_4h": 24.48,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4168.37,
+     "stop": 4168.61,
      "objetivo": 4220.4,
-     "rr": 2.49,
+     "rr": 2.53,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.13,
+     "fuerza_ruptura_atr": 1.14,
      "ruptura": "2026-10-15 16:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29776.0,
-   "atr_4h": 220.68,
+   "precio": 29772.75,
+   "atr_4h": 221.59,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30356.75,
      "entrada": 30356.75,
-     "stop": 30489.16,
+     "stop": 30489.7,
      "objetivo": 29268.75,
-     "rr": 8.22,
+     "rr": 8.18,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.95,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30604.75,
-     "entrada": 30604.75,
-     "stop": 30737.16,
+     "nivel": 30504.5,
+     "entrada": 30504.5,
+     "stop": 30637.45,
      "objetivo": 29268.75,
-     "rr": 10.09,
+     "rr": 9.29,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.95,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-19T13:32:34Z"
+  "ts": "2026-10-19T13:47:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10580,12 +10580,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "0701dc5992",
-  "0c99b2f1d1",
-  "f44348950f",
-  "4b4904222e",
-  "c203531ca0",
-  "1e6dc4cb1d",
   "f90a86581d",
   "ccfa0ce05a",
   "b5edc23cbe",
@@ -11379,6 +11373,12 @@
   "7203a54058",
   "65052c9f65",
   "8f490c6fcd",
-  "7a7984f0c3"
+  "7a7984f0c3",
+  "5ae216f1db",
+  "689534bbde",
+  "3e71de9cea",
+  "4791af82ec",
+  "d0d70162ca",
+  "e872284ff2"
  ]
 }
