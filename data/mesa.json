@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T20:57:35Z",
-   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: Opinion | Trump’s Tariffs Lose Workers’ Support"
+   "actualizado": "2026-10-19T21:02:37Z",
+   "ultimo_resultado": "2 titulares nuevos: Tech stocks had a nice oversold bounce on Monday. Earnings this week will determine if it's for real"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "noticias",
+   "texto": "2 titulares nuevos: Tech stocks had a nice oversold bounce on Monday. Earnings this week will determine if it's for real",
+   "ts": "2026-10-19T21:02:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4157.3 · NQ 29735.75 · VIX 18.44 · 6 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "VIX/NQ: CONFIRMA BAJISTA: NQ baja y el VIX sube (se compra protección)",
    "ts": "2026-10-19T06:33:03Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
-   "ts": "2026-10-19T06:33:00Z"
   }
  ],
  "briefs": [
@@ -8039,6 +8039,17 @@
  },
  "noticias": [
   {
+   "titulo": "Tech stocks had a nice oversold bounce on Monday. Earnings this week will determine if it's for real",
+   "link": "https://www.cnbc.com/2026/10/19/tech-stocks-rebound-meta-tesla-earnings.html",
+   "ts": "2026-10-19T20:57:14Z",
+   "fuente": "CNBC",
+   "id": "ee2a6270c2",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Opinion | Trump’s Tariffs Lose Workers’ Support",
    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtS0RkNWcydXhuTTUzMkZ4OVVSNGsxWE9NR3dzeDlzeXNvb2I0Q0VPcW1NY21ZQm9OcDQ0WExZbnRpZ2pRdHdIcXlMMWVUV1NscnFXS0dscGs3VmRJM3JmUkRhbjJDTWF3aDNwd0hSbkozd25YazZBNW9ObDg?oc=5",
    "ts": "2026-10-19T20:51:00Z",
@@ -8208,6 +8219,17 @@
    "id": "c478ed5e70",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "A new generation of gold investors",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYWI0NGRzQWQ2d21aanU0cG9heW5LeEtNaERrTDlyNXNoZUJ4cHdRVVRoNWY3R0tJOWZZbkZ0dmRnU2k0YUlSV3ctYUtFUDA2aHJkaGlYU2Vpa3BJWUF0NHN1YXhGZDJ4NUE0VWlWVGdab1dTM3JXLXQ3V3lNUDF0c2dkdE9wX1hOMzZyNVVTdEZ2MmprZHAtOUdn?oc=5",
+   "ts": "2026-10-19T19:37:41Z",
+   "fuente": "World Gold Council",
+   "id": "c36a78f079",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "The digital gold market today: a niche at an inflection point",
@@ -8890,26 +8912,6 @@
    "impacto": "bajo",
    "es": "Acción de software casi duplica su valor anual; Bernstein ve más potencial",
    "efecto": ""
-  },
-  {
-   "titulo": "McFarlane Lake Mining Outlines Fully Funded 50,000-Metre Phase 2 Drilling Program at Juby Gold Project",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/mcfarlane-lake-mining-outlines-fully-143500995.html?.tsrc=rss",
-   "ts": "2026-10-19T14:35:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "292d42dd8a",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "McFarlane Lake Mining detalla programa de perforación de 50,000 metros en el proyecto Juby",
-   "efecto": ""
-  },
-  {
-   "titulo": "EGO's Skouries Project Gets EU Strategic Project Designation",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/egos-skouries-project-gets-eu-143200943.html?.tsrc=rss",
-   "ts": "2026-10-19T14:32:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "84499fd8cc",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -10713,8 +10715,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "a862b78bc2",
-  "3c71b7e383",
   "0b8b2e5bde",
   "60de7923f4",
   "cc71f3afa5",
@@ -11512,6 +11512,8 @@
   "b5e20ef193",
   "982cd62cce",
   "8b4b48f274",
-  "11a124eed1"
+  "11a124eed1",
+  "ee2a6270c2",
+  "c36a78f079"
  ]
 }
