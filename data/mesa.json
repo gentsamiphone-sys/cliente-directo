@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4186.1 · NQ 29698.25 · VIX 18.67",
-   "actualizado": "2026-10-19T10:32:33Z"
+   "ultimo_resultado": "Oro 4186.1 · NQ 29708.5 · VIX 18.72 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-19T10:37:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T10:32:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-19T10:37:34Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: New Strong Sell Stocks for October 19th"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4186.1 · NQ 29708.5 · VIX 18.72 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-19T10:37:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4186.1 · NQ 29698.25 · VIX 18.67",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: Just before turning 30, Fahey takes two gold medals at PPA Virginia Beach Open",
    "ts": "2026-10-18T21:17:34Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: El título final de boulder gold y de la serie sigue en disputa",
-   "ts": "2026-10-18T21:12:35Z"
   }
  ],
  "briefs": [
@@ -7861,9 +7861,9 @@
  },
  "en_vivo": {
   "oro": 4186.1,
-  "nq": 29698.25,
-  "vix": 18.67,
-  "ts": "2026-10-19T10:32:33Z"
+  "nq": 29708.5,
+  "vix": 18.72,
+  "ts": "2026-10-19T10:37:34Z"
  },
  "noticias": [
   {
@@ -7938,6 +7938,17 @@
    "activos": [
     "nq",
     "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "New Strong Sell Stocks for October 19th",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/strong-sell-stocks-october-19th-092100233.html?.tsrc=rss",
+   "ts": "2026-10-19T09:21:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "f22e8a6d61",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -8318,6 +8329,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Dollar holds steady as French unrest weighs on Euro",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-ticks-higher-yuan-044735096.html?.tsrc=rss",
+   "ts": "2026-10-19T04:47:35Z",
+   "fuente": "Yahoo Finance",
+   "id": "11a725048b",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Dollar holds losses; yuan hits 4-yr high after China Q3 GDP beat",
    "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-ticks-higher-yuan-044735096.html?.tsrc=rss",
    "ts": "2026-10-19T04:47:35Z",
@@ -8625,6 +8647,18 @@
    "efecto": "Reduce la aversión al riesgo global, presionando al oro a la baja."
   },
   {
+   "titulo": "Gold inches higher with Fed rate outlook in focus",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-rises-warsh-remarks-curb-013418779.html?.tsrc=rss",
+   "ts": "2026-10-19T01:34:18Z",
+   "fuente": "Yahoo Finance",
+   "id": "e586d76f3a",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Gold rises as Warsh remarks temper Fed hike bets, futures top $4,200",
    "link": "https://finance.yahoo.com/markets/commodities/articles/gold-rises-warsh-remarks-curb-013418779.html?.tsrc=rss",
    "ts": "2026-10-19T01:34:18Z",
@@ -8727,39 +8761,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Dow Jones Futures Rebound After AI Sell-Off; Meta, SpaceX, Tesla Earnings Key",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnZSNzJZS2NlWi1Hckg0djB1aGQ3bEkzVTB4ejBTQWRoQ0JTOWJBa1U4Z1EyWFZSa0ZmSDlIcmx5MFEwQmhCeFE2MEs4ZEdMSThwczNORG03QTY4MU9xR3pXWmRtNmdMc3BRZ0F4U1FudlhIdXpwVHVQUXUxMU44NHhhRVZyTmNDVk1MLXBsOHBIV2Q3VU9oTE1sa2JET0c5b3p5ZUJHeTBrQlJKaTRnS284ZGVhUUlwekJKalp5dmsyRmdzU25QRQ?oc=5",
-   "ts": "2026-10-19T01:03:00Z",
-   "fuente": "Investor's Business Daily",
-   "id": "28245a9da8",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "KOSPI in Seoul falls 1.69% after Nasdaq decline — Korea Herald",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaEFNY0hvcGQwNEF5QmVlUXlhbUF3d3FMN1VDc3BiSER3VkFqU3FMZGZxWlpoNFE1aDVjWW5rWl84RGMzRF9Rdk43Y0FNTWJOY3RKYmhKM1FPX01fTHg0aHluTk9OeGpxNmRINEphOV83a3JKbjhhdWhYbGlNWTAwZUVfTnh3UUl4OTQ5WHJNRW9ielZFVklj?oc=5",
-   "ts": "2026-10-19T01:01:14Z",
-   "fuente": "UA.NEWS",
-   "id": "fcdff026d1",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Halloween candy prices up 8%; it’s not tariffs, economist says",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ3FEZjNDUEFKYTRNdXBwNmVCZzkzdFVrQWZZQWMyM2lqTENjdmFDUXBYbUFkb0s4ZnRwaTJFdlRsdmxUaGZ3Vld5bUtTejlEMXdJUmM1SFZycjJXU2R3czByQnZpN1ljcVpRSl9lM0VYRTJZWDRtVzlyNFlxSUhudnpFLXF2alBFZGZzX0dEZU9KVzlkTlk0Mllyb1B0aFk2T3VEWnRSdExUQkN4U2RyWDZ2NlRCb20zbWZmSVB5TTFaMFAtZHFqYnZLYw?oc=5",
-   "ts": "2026-10-19T00:45:00Z",
-   "fuente": "WLTX",
-   "id": "b89b2f2274",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Precios de dulces de Halloween suben 8%; no son aranceles, dice economista",
-   "efecto": "Ruido inflacionario menor; sin impacto institucional en oro o NQ."
   }
  ],
  "eventos_avisados": [
@@ -9305,11 +9306,11 @@
     1792404000,
     4187.8,
     4189.4,
-    4185.1,
-    4186.0
+    4184.8,
+    4187.1
    ],
    [
-    1792405353,
+    1792405642,
     4186.1,
     4186.1,
     4186.1,
@@ -9847,14 +9848,14 @@
     29718.0,
     29735.75,
     29689.5,
-    29694.5
+    29711.0
    ],
    [
-    1792405351,
-    29698.25,
-    29698.25,
-    29698.25,
-    29698.25
+    1792405651,
+    29708.5,
+    29708.5,
+    29708.5,
+    29708.5
    ]
   ],
   "vix": [
@@ -10274,16 +10275,16 @@
    [
     1792404000,
     18.63,
-    18.66,
+    18.7,
     18.58,
-    18.64
+    18.7
    ],
    [
-    1792405051,
-    18.67,
-    18.67,
-    18.67,
-    18.67
+    1792405351,
+    18.72,
+    18.72,
+    18.72,
+    18.72
    ]
   ]
  },
@@ -10365,9 +10366,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "3532865fab",
-  "c802d44702",
-  "1cf6df8810",
   "8aadb00c9b",
   "f2bf50ae47",
   "a113fa30d9",
@@ -11164,6 +11162,9 @@
   "b38ba10272",
   "9ba102f7e7",
   "639fd1c48d",
-  "b07dd9ed1b"
+  "b07dd9ed1b",
+  "f22e8a6d61",
+  "11a725048b",
+  "e586d76f3a"
  ]
 }
