@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4195.8 · NQ 29709.5 · VIX 18.66 · 1 noticias nuevas",
-   "actualizado": "2026-10-19T11:32:37Z"
+   "ultimo_resultado": "Oro 4193.1 · NQ 29706.0 · VIX 18.63 · 2 noticias nuevas",
+   "actualizado": "2026-10-19T11:37:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T11:32:36Z",
-   "ultimo_resultado": "1 titulares nuevos: Stock market today: Dow, S&P 500, Nasdaq futures mixed as the AI trade rebounds"
+   "actualizado": "2026-10-19T11:37:37Z",
+   "ultimo_resultado": "2 titulares nuevos: Fifth Third Bancorp (NASDAQ:FITB) Reports Sales Below Analyst Estimates In Q3 2026 Earnings"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4193.1 · NQ 29706.0 · VIX 18.63 · 2 noticias nuevas",
+   "ts": "2026-10-19T11:37:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4195.8 · NQ 29709.5 · VIX 18.66 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Mapa listo: oro 4181.1 · NQ 29391.5.",
    "ts": "2026-10-18T21:32:54Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
-   "ts": "2026-10-18T21:32:52Z"
   }
  ],
  "briefs": [
@@ -7860,12 +7860,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4195.8,
-  "nq": 29709.5,
-  "vix": 18.66,
-  "ts": "2026-10-19T11:32:37Z"
+  "oro": 4193.1,
+  "nq": 29706.0,
+  "vix": 18.63,
+  "ts": "2026-10-19T11:37:38Z"
  },
  "noticias": [
+  {
+   "titulo": "Fifth Third Bancorp (NASDAQ:FITB) Reports Sales Below Analyst Estimates In Q3 2026 Earnings",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcFR5NXgycHRkeTNrOVhFNkc4UFlHYm9tenVQdUZON2x4d19oQkc1THQ4Nl84dzdJYWl0c29NdktVNEU1MGYwNjNjaDBrZWhHcl9INklpTlFQaGpSM1RQOXhJdm1wdktKOThyZGtTb2JmbmlKdDhWSXo0U2hZM0pQdDhQcTdhS24zQVlNak1OWVlFMVRTcF9oUWVEN2Q3c3EwRmJBOGdfWDY3WlJZUlRXdFZyX1ZkeGdmUTJtZDUwNDFOWnhkbGY4U3hIX3g5c2dWaWpZa0E0cGR2cElfY211Vg?oc=5",
+   "ts": "2026-10-19T11:35:01Z",
+   "fuente": "StockStory",
+   "id": "7f14995d42",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Stock market today: Dow, S&P 500, Nasdaq futures mixed as the AI trade rebounds",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVWhLWjJJTS1keFp4WDdXYUNfNnBfOFZjaGlncXAwelJYSFRIUjJOQ1FNdVdqSG5tMFVFSE1RbjlRb3QxS3UxWWxTZUE2ZEtvbVAwempiakNPamh1VjVlaWdkOS1kZUdVTnlVa0U5R3VXNGRBdThDdzRvbDF2cGNCRUc1dWlDU3ZJM3NMMUhXQzVULXJlTlB6c3lydW5pdFl2UzZqT204OXNRRG5jX092MkxLNDR2dXpvd3RLYmFCeVo?oc=5",
@@ -7883,6 +7894,17 @@
    "ts": "2026-10-19T11:21:23Z",
    "fuente": "Yahoo Finance",
    "id": "580240e957",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Legacy Gold's First NE Zone Drill Hole Returns 6 Gold Zones, Including 1.0 g/t Gold over 74.5ft (22.7m) at Baner, Idaho",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/legacy-golds-first-ne-zone-112000175.html?.tsrc=rss",
+   "ts": "2026-10-19T11:20:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "55d32c0c53",
    "activos": [
     "oro"
    ],
@@ -8734,26 +8756,6 @@
    "id": "2b44874080",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Putin reportedly suggests summit with Trump and Xi to decide fate of Ukraine",
-   "link": "https://www.cnbc.com/2026/10/19/putin-trump-xi-ukraine-war-energy.html",
-   "ts": "2026-10-19T03:56:03Z",
-   "fuente": "CNBC",
-   "id": "b807a9f2d3",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Bitcoin jumps to $82,500, stocks rise as China GDP beats estimates",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOG04VV9paTdUeWhZMXhoaHVDLUJXLUt4RnplUzd1aFlIWWN0QjBSdW5Ia05ZMHh6bjdtZzdUWFk2TUh0dUhpUE1vbXN0eXpkaG91MC1HTGdIQW1CTWZ5aWVLS1IxM25FczJxdkg0NTJ3bFowclJuQXNkUDZNYm41Qm5xbE5YcWpSU1BuWWFtM0ZXQWdSUG1TUjZieDBHXy04ZUdWUDZyaHJNTlJvTDJTTWlkVTRtbmJZbW5B?oc=5",
-   "ts": "2026-10-19T03:38:00Z",
-   "fuente": "CoinDesk",
-   "id": "ca00bc9168",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -9307,14 +9309,14 @@
     4190.3,
     4197.1,
     4189.8,
-    4196.3
+    4193.4
    ],
    [
-    1792408950,
-    4195.8,
-    4195.8,
-    4195.8,
-    4195.8
+    1792409253,
+    4193.1,
+    4193.1,
+    4193.1,
+    4193.1
    ]
   ],
   "nq": [
@@ -9855,14 +9857,14 @@
     29752.0,
     29752.25,
     29690.25,
-    29705.0
+    29709.0
    ],
    [
-    1792408954,
-    29709.5,
-    29709.5,
-    29709.5,
-    29709.5
+    1792409254,
+    29706.0,
+    29706.0,
+    29706.0,
+    29706.0
    ]
   ],
   "vix": [
@@ -10291,14 +10293,14 @@
     18.49,
     18.68,
     18.49,
-    18.66
+    18.63
    ],
    [
-    1792408651,
-    18.66,
-    18.66,
-    18.66,
-    18.66
+    1792408951,
+    18.63,
+    18.63,
+    18.63,
+    18.63
    ]
   ]
  },
@@ -10380,8 +10382,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "e9aaba1111",
-  "86fc41b080",
   "aee4a58355",
   "cffb583f4c",
   "29166c4977",
@@ -11179,6 +11179,8 @@
   "bfa3521b46",
   "5b6795aa11",
   "580240e957",
-  "6d4af21fbf"
+  "6d4af21fbf",
+  "7f14995d42",
+  "55d32c0c53"
  ]
 }
