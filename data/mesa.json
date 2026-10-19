@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4174.1 · NQ 29761.0 · VIX 17.96 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-19T13:52:35Z"
+   "ultimo_resultado": "Oro 4165.4 · NQ 29779.5 · VIX 17.91 · 3 noticias nuevas",
+   "actualizado": "2026-10-19T13:57:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T13:52:34Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: US Stock Futures Advance as Nasdaq 100 Signals Recovery Following Technology Sell-Off: Dow Jones, S&P, Nasdaq, Wall Street"
+   "actualizado": "2026-10-19T13:57:35Z",
+   "ultimo_resultado": "3 titulares nuevos: AI Bonds Could Push Treasury Yields Higher"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4165.4 · NQ 29779.5 · VIX 17.91 · 3 noticias nuevas",
+   "ts": "2026-10-19T13:57:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4174.1 · NQ 29761.0 · VIX 17.96 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4197.4 · NQ 29634.25 · VIX 19.99 · 1 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-19T00:37:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4199.0 · NQ 29633.0 · VIX 19.99 · 1 noticias nuevas",
-   "ts": "2026-10-19T00:32:33Z"
   }
  ],
  "briefs": [
@@ -8032,12 +8032,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4174.1,
-  "nq": 29761.0,
-  "vix": 17.96,
-  "ts": "2026-10-19T13:52:35Z"
+  "oro": 4165.4,
+  "nq": 29779.5,
+  "vix": 17.91,
+  "ts": "2026-10-19T13:57:36Z"
  },
  "noticias": [
+  {
+   "titulo": "AI Bonds Could Push Treasury Yields Higher",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOM3prTDJwbmFqZFBhbzNnamltbl9lY19nV0NGcXpWcXNvQ3lEdWVrTHdxMTh4U2NMbjluOHJXamgzem1zbndTVXlBekYxOFk3cGgwdHVxXzZTVEdENnY5Wk5mdm5VNUxKNVBIY2Z2cHBXekNlTks5dWJDN3pUdVVweURUeE5XQWVlY25SWg?oc=5",
+   "ts": "2026-10-19T13:50:59Z",
+   "fuente": "ETF Database",
+   "id": "19229c7ecb",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "NYSE becomes latest exchange to extend options hours as appetite for around-the-clock trading grows",
    "link": "https://www.cnbc.com/2026/10/19/nyse-extends-options-trading-hours.html",
@@ -8267,6 +8278,17 @@
    "efecto": ""
   },
   {
+   "titulo": "Tech Futures Rise As AI Stocks Rebound; What To Do Now",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnZSNzJZS2NlWi1Hckg0djB1aGQ3bEkzVTB4ejBTQWRoQ0JTOWJBa1U4Z1EyWFZSa0ZmSDlIcmx5MFEwQmhCeFE2MEs4ZEdMSThwczNORG03QTY4MU9xR3pXWmRtNmdMc3BRZ0F4U1FudlhIdXpwVHVQUXUxMU44NHhhRVZyTmNDVk1MLXBsOHBIV2Q3VU9oTE1sa2JET0c5b3p5ZUJHeTBrQlJKaTRnS284ZGVhUUlwekJKalp5dmsyRmdzU25QRQ?oc=5",
+   "ts": "2026-10-19T12:19:00Z",
+   "fuente": "Investor's Business Daily",
+   "id": "4c9e478fd2",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "BHP to Sell Few Nickel Assets: What's Next for Its Nickel Business?",
    "link": "https://finance.yahoo.com/markets/commodities/articles/bhp-sell-few-nickel-assets-121000844.html?.tsrc=rss",
    "ts": "2026-10-19T12:10:00Z",
@@ -8493,6 +8515,17 @@
    "id": "cb993e4ae7",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Stock market today: Dow slips, Nasdaq, S&P 500 rise as the AI trade rebounds",
+   "link": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112734828.html?.tsrc=rss",
+   "ts": "2026-10-19T11:27:34Z",
+   "fuente": "Yahoo Finance",
+   "id": "316fcc0b15",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Stock market today: Nasdaq, S&P 500 rise as the AI trade rebounds",
@@ -8878,39 +8911,6 @@
    "id": "9ba102f7e7",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Belite Bio Announces Uplisting to the Nasdaq Global Select Market",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcEg2Q2NWaU9EV040Y3NFOHN5LTVuYkdnTmsweDdlVWxnV3hGUTdjZmdKcDc4TmN0MU5EVnhsR0pKT0lpaVlfS3QwcGtiNXM3NzRjNFdtOEJCSy1TOHNpLWMtSFZUTWc3OTduY2VVRGtpSXBqM0Vwa3E0OGEyQkdxRzhKR1FMTjR0SVdWM1huU3ZSRVdHUmMwRkI1ZWtZSnVjajZtUzQzT0lYSkhYaFk4bDVjeGM4VUNJckpnaGh4UWZjblBzTTNhdDh3TU5SREhwZHp3?oc=5",
-   "ts": "2026-10-19T10:00:00Z",
-   "fuente": "GlobeNewswire",
-   "id": "639fd1c48d",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Copper Fox Provides Update on 2026 Activities at Schaft Creek Project",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/copper-fox-provides-2026-activities-100000434.html?.tsrc=rss",
-   "ts": "2026-10-19T10:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "2ec34a408d",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Copper Fox actualiza actividades para 2026 en el proyecto Schaft Creek",
-   "efecto": "Sin impacto relevante en oro, NQ o dólar."
-  },
-  {
-   "titulo": "Cerrado Gold Reports 21% Year-Over-Year Increase in Q3 2026 Production Results at Minera Don Nicolas",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/cerrado-gold-reports-21-over-100000010.html?.tsrc=rss",
-   "ts": "2026-10-19T10:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "f3076a557f",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9477,15 +9477,15 @@
     1792414800,
     4181.4,
     4186.8,
-    4171.8,
-    4172.4
+    4161.6,
+    4167.6
    ],
    [
-    1792417348,
-    4174.1,
-    4174.1,
-    4174.1,
-    4174.1
+    1792417654,
+    4165.4,
+    4165.4,
+    4165.4,
+    4165.4
    ]
   ],
   "nq": [
@@ -10040,14 +10040,14 @@
     29749.0,
     29807.0,
     29719.0,
-    29765.0
+    29768.0
    ],
    [
-    1792417349,
-    29761.0,
-    29761.0,
-    29761.0,
-    29761.0
+    1792417655,
+    29779.5,
+    29779.5,
+    29779.5,
+    29779.5
    ]
   ],
   "vix": [
@@ -10489,15 +10489,15 @@
     1792414800,
     18.54,
     18.54,
-    17.93,
-    18.02
+    17.88,
+    17.89
    ],
    [
-    1792417036,
-    17.97,
-    17.97,
-    17.97,
-    17.97
+    1792417351,
+    17.91,
+    17.91,
+    17.91,
+    17.91
    ]
   ]
  },
@@ -10579,9 +10579,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "b5edc23cbe",
-  "9b0d6dcf1d",
-  "41aa6c3d89",
   "e46f160914",
   "d7b8e1dcd4",
   "e0d3d47ac1",
@@ -11378,6 +11375,9 @@
   "d0d70162ca",
   "e872284ff2",
   "7002924446",
-  "986a4eed42"
+  "986a4eed42",
+  "19229c7ecb",
+  "4c9e478fd2",
+  "316fcc0b15"
  ]
 }
