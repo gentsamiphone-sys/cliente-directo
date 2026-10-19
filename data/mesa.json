@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4190.4 · NQ 29689.25 · VIX 18.7 · 5 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-19T09:07:42Z"
+   "ultimo_resultado": "Oro 4189.6 · NQ 29688.0 · VIX 18.73 · 2 noticias nuevas",
+   "actualizado": "2026-10-19T09:12:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T09:07:41Z",
-   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: Putin reportedly proposes three-way summit with Trump and Xi on Ukraine war — without Zelenskyy"
+   "actualizado": "2026-10-19T09:12:34Z",
+   "ultimo_resultado": "2 titulares nuevos: French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4189.6 · NQ 29688.0 · VIX 18.73 · 2 noticias nuevas",
+   "ts": "2026-10-19T09:12:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4190.4 · NQ 29689.25 · VIX 18.7 · 5 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: Wrestle-Offs: Gold vs. Black Photo Gallery",
    "ts": "2026-10-18T19:52:31Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-18T19:47:32Z"
   }
  ],
  "briefs": [
@@ -7860,12 +7860,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4190.4,
-  "nq": 29689.25,
-  "vix": 18.7,
-  "ts": "2026-10-19T09:07:42Z"
+  "oro": 4189.6,
+  "nq": 29688.0,
+  "vix": 18.73,
+  "ts": "2026-10-19T09:12:34Z"
  },
  "noticias": [
+  {
+   "titulo": "French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall",
+   "link": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html",
+   "ts": "2026-10-19T09:07:09Z",
+   "fuente": "CNBC",
+   "id": "bf600f6674",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Putin reportedly proposes three-way summit with Trump and Xi on Ukraine war — without Zelenskyy",
    "link": "https://www.cnbc.com/2026/10/19/putin-trump-xi-ukraine-war-energy.html",
@@ -7953,6 +7964,15 @@
    "impacto": "bajo",
    "es": "La ministra de Finanzas de la India dice que la liquidez del mercado facilita la salida de los inversores",
    "efecto": "Sin impacto directo en oro, NQ o dólar."
+  },
+  {
+   "titulo": "In pictures: More than 500,000 took to the streets as France protests erupted into violence",
+   "link": "https://www.cnbc.com/2026/10/19/france-protests-paris-violence-pictures.html",
+   "ts": "2026-10-19T08:10:26Z",
+   "fuente": "CNBC",
+   "id": "b1367c4af2",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Gold Rises Amid Falling Oil Prices",
@@ -8752,24 +8772,6 @@
    "id": "864189d6b2",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Jim Cramer: Why I am taking the other side of the trade that crushed the market Friday",
-   "link": "https://www.cnbc.com/investingclub/2026/10/18/jim-cramer-why-i-am-taking-the-other-side-of-the-trade-that-crushed-the-market-friday.html",
-   "ts": "2026-10-18T22:19:55Z",
-   "fuente": "CNBC",
-   "id": "74f3102bd9",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Brent crude hovers near $109 a barrel as Ukraine resumes energy strikes, tankers attacked in Middle East",
-   "link": "https://www.cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
-   "ts": "2026-10-18T22:16:19Z",
-   "fuente": "CNBC",
-   "id": "b87c6cb5dd",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -9302,14 +9304,21 @@
     4192.9,
     4199.8,
     4189.6,
-    4190.8
+    4190.7
    ],
    [
-    1792400248,
-    4190.4,
-    4190.4,
-    4190.4,
-    4190.4
+    1792400400,
+    4190.7,
+    4191.2,
+    4189.2,
+    4189.8
+   ],
+   [
+    1792400552,
+    4189.6,
+    4189.6,
+    4189.6,
+    4189.6
    ]
   ],
   "nq": [
@@ -9828,15 +9837,22 @@
     1792396800,
     29720.25,
     29739.5,
-    29685.5,
-    29690.75
+    29680.25,
+    29682.0
    ],
    [
-    1792400261,
-    29689.25,
-    29689.25,
-    29689.25,
-    29689.25
+    1792400400,
+    29683.25,
+    29691.0,
+    29669.0,
+    29688.25
+   ],
+   [
+    1792400553,
+    29688.0,
+    29688.0,
+    29688.0,
+    29688.0
    ]
   ],
   "vix": [
@@ -10244,14 +10260,14 @@
     18.59,
     18.74,
     18.53,
-    18.71
+    18.69
    ],
    [
-    1792399951,
-    18.7,
-    18.7,
-    18.7,
-    18.7
+    1792400251,
+    18.73,
+    18.73,
+    18.73,
+    18.73
    ]
   ]
  },
@@ -10333,8 +10349,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "2e919a4dfe",
-  "929cef5faf",
   "c8ef1117ca",
   "cf449d59a5",
   "b305768129",
@@ -11132,6 +11146,8 @@
   "73169180f3",
   "73a8484edc",
   "8df266bc07",
-  "b439ac56ac"
+  "b439ac56ac",
+  "bf600f6674",
+  "b1367c4af2"
  ]
 }
