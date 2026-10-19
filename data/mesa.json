@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4199.4 · NQ 29784.5 · VIX 19.99 · 1 noticias nuevas",
-   "actualizado": "2026-10-19T03:42:29Z"
+   "ultimo_resultado": "Oro 4202.1 · NQ 29782.25 · VIX 19.99",
+   "actualizado": "2026-10-19T03:47:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T03:42:29Z",
-   "ultimo_resultado": "1 titulares nuevos: Federal Reserve raises interest rates for the 1st time since 2023 - ABC News"
+   "actualizado": "2026-10-19T03:47:35Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4202.1 · NQ 29782.25 · VIX 19.99",
+   "ts": "2026-10-19T03:47:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4199.4 · NQ 29784.5 · VIX 19.99 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-18T14:27:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-18T14:22:33Z"
   }
  ],
  "briefs": [
@@ -7694,10 +7694,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4199.4,
-  "nq": 29784.5,
+  "oro": 4202.1,
+  "nq": 29782.25,
   "vix": 19.99,
-  "ts": "2026-10-19T03:42:29Z"
+  "ts": "2026-10-19T03:47:35Z"
  },
  "noticias": [
   {
@@ -9218,14 +9218,14 @@
     4197.1,
     4203.0,
     4194.1,
-    4199.4
+    4201.8
    ],
    [
-    1792380745,
-    4199.5,
-    4199.5,
-    4199.5,
-    4199.5
+    1792381053,
+    4202.0,
+    4202.0,
+    4202.0,
+    4202.0
    ]
   ],
   "nq": [
@@ -9850,14 +9850,14 @@
     29739.75,
     29790.25,
     29739.0,
-    29780.25
+    29780.5
    ],
    [
-    1792380747,
-    29784.5,
-    29784.5,
-    29784.5,
-    29784.5
+    1792381047,
+    29782.25,
+    29782.25,
+    29782.25,
+    29782.25
    ]
   ],
   "vix": [
@@ -10361,54 +10361,54 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-19T03:17:36Z",
- "ult_4h": 1792380751.5493402,
+ "ult_4h": 1792381655.630013,
  "estrategia_4h": {
   "oro": {
-   "precio": 4200.5,
-   "atr_4h": 26.94,
+   "precio": 4202.0,
+   "atr_4h": 27.21,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4167.13,
+     "stop": 4166.97,
      "objetivo": 4220.4,
-     "rr": 2.29,
+     "rr": 2.27,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.04,
+     "fuerza_ruptura_atr": 1.03,
      "ruptura": "2026-10-15 16:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29770.0,
-   "atr_4h": 240.02,
+   "precio": 29782.25,
+   "atr_4h": 240.71,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30514.01,
+     "stop": 30514.43,
      "objetivo": 29268.75,
-     "rr": 7.65,
+     "rr": 7.62,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.8,
+     "fuerza_ruptura_atr": 1.79,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30356.75,
-     "entrada": 30356.75,
-     "stop": 30500.76,
+     "nivel": 30504.5,
+     "entrada": 30504.5,
+     "stop": 30648.93,
      "objetivo": 29268.75,
-     "rr": 7.55,
+     "rr": 8.56,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.8,
+     "fuerza_ruptura_atr": 1.79,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-19T03:32:31Z"
+  "ts": "2026-10-19T03:47:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
