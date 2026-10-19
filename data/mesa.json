@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4204.5 · NQ 29778.5 · VIX 19.99 · 1 noticias nuevas",
-   "actualizado": "2026-10-19T05:52:33Z"
+   "ultimo_resultado": "Oro 4206.1 · NQ 29777.25 · VIX 19.99 · 4 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-19T05:57:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T05:52:32Z",
-   "ultimo_resultado": "1 titulares nuevos: Tongguan Gold Group (SEHK:340) Stock Trades At A Premium To Fair Value"
+   "actualizado": "2026-10-19T05:57:31Z",
+   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4206.1 · NQ 29777.25 · VIX 19.99 · 4 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-19T05:57:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4204.5 · NQ 29778.5 · VIX 19.99 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "2 titulares nuevos, 1 de alto impacto: Black and Gold take care of business in Conway",
    "ts": "2026-10-18T16:37:31Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos, 1 de alto impacto: Futuros del Dow caen tras venta masiva en S&P 500 y Nasdaq; ¿salvará Meta a la IA?",
-   "ts": "2026-10-18T16:32:30Z"
   }
  ],
  "briefs": [
@@ -7694,12 +7694,45 @@
   }
  },
  "en_vivo": {
-  "oro": 4204.5,
-  "nq": 29778.5,
+  "oro": 4206.1,
+  "nq": 29777.25,
   "vix": 19.99,
-  "ts": "2026-10-19T05:52:33Z"
+  "ts": "2026-10-19T05:57:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates",
+   "link": "https://www.cnbc.com/2026/10/19/takaichi-weak-yen-jgb-yields.html",
+   "ts": "2026-10-19T05:29:51Z",
+   "fuente": "CNBC",
+   "id": "ce035ebc43",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Nasdaq Futures Rebound 1% as Oil Falls and Tech Earnings Loom. What to Watch This Week.",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQY3JBSUN2Tk93Qm9IeFkzSUNQTzJsMnVYN1h1aU5tN3MwdDl5ZmNVa2hFU3RrSjVYckJVS2Jlci1CUWhRaEVOUDlpSXJoWlB1aWRUVkFHbXpKOFpDaTJwOEU2MXV0VUxkd2h3bHExLUJ4M1FUQWhSaF9XSXMyelRGR0FlT2d0cUZzaGNIRlJ2T3k3cUpmY2R3bkdTYlBlVnNBTWFWcDVCMHFrR0ZZbzh0QlpqOThsUDJoMS1lMkFGa29NalM5d2ZEMVlXWEdGc2lhMWJBNVJKVW50LVBFYk44?oc=5",
+   "ts": "2026-10-19T05:10:00Z",
+   "fuente": "TradingView",
+   "id": "81a5b84d1b",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Khateri's Epic Comeback for Gold Seals Team Title for Iran",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KeWtHOTE4WVUzSUF4QXpNbVcwd3VXelc3NG5ESG9xajAwS2VsckU3RzlWdFFiTWRRWENiTGIwVHFNNFNaLWFNRUpPN0RDcTZLdHVCai1BbF9aYk9IZFN2R2g1QXp5UzlEYVpuSHJ1X1YyZHl2aEFrU1NQOUNyU28?oc=5",
+   "ts": "2026-10-19T05:02:01Z",
+   "fuente": "United World Wrestling",
+   "id": "dfe568811e",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Asia FX ticks higher; yuan hits 4-yr high after China Q3 GDP beat",
    "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-ticks-higher-yuan-044735096.html?.tsrc=rss",
@@ -7797,6 +7830,17 @@
    "id": "b807a9f2d3",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Bitcoin jumps to $82,500, stocks rise as China GDP beats estimates",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOG04VV9paTdUeWhZMXhoaHVDLUJXLUt4RnplUzd1aFlIWWN0QjBSdW5Ia05ZMHh6bjdtZzdUWFk2TUh0dUhpUE1vbXN0eXpkaG91MC1HTGdIQW1CTWZ5aWVLS1IxM25FczJxdkg0NTJ3bFowclJuQXNkUDZNYm41Qm5xbE5YcWpSU1BuWWFtM0ZXQWdSUG1TUjZieDBHXy04ZUdWUDZyaHJNTlJvTDJTTWlkVTRtbmJZbW5B?oc=5",
+   "ts": "2026-10-19T03:38:00Z",
+   "fuente": "CoinDesk",
+   "id": "ca00bc9168",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Wall Street Expectations for Treasury Yields: Higher",
@@ -8538,48 +8582,6 @@
    "impacto": "bajo",
    "es": "Fecha de lanzamiento de las zapatillas Bad Bunny x Adidas Gazelle 'Solar Gold'",
    "efecto": "Sin impacto financiero institucional, puro ruido de entretenimiento."
-  },
-  {
-   "titulo": "SA Asks: Should Tesla merge with SpaceX? (TSLA:NASDAQ)",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNLVJUV3poTnV6c3BQX1k1NW1jUDhjaElFZFhOaks5NUlPZ2hheWROVWxlQ3kydW1XSU5Lc3UybTZnVmRfdzRteDI0TDlJekRxMGtqV2FxWi1URFhhS1lJYVFZaGdqdEk5eFYzVURDaFB0elFHSm1qRi1MQUt6SDF3eERR?oc=5",
-   "ts": "2026-10-18T19:25:08Z",
-   "fuente": "Seeking Alpha",
-   "id": "b4c5d6e02d",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Child’s 1,750-Year-Old Roman Grave Discovered With Gold Earrings and Rare Emperor Aurelian Coin",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeU1Zc0RZVlNzNG1NX0FuNERIR3RRSERsMDJCY0EzbkFaRjVaekhvNFFNWnNFRlVYYzdDLU43Sjd0VUpzZjFMRmRENVhRUURkVkQ1RU9YTjdBU0FuaXhaYnRnWTg0Q1lBazdmVi1oNkRhNXo3RUZhSlRJZzdPSzBQaDFNeWRWUUlVZXhrMXU2cGlhaFljcloxM3JDZmMwT2JmTTk0blN5cTA1TXhaQ2I5UTNRSTN6MXU3TklPWXp3NTAyd2RENmdsZ2lFNA?oc=5",
-   "ts": "2026-10-18T19:16:37Z",
-   "fuente": "cristinaiglesias.com",
-   "id": "bcc1290319",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Descubren tumba romana de 1.750 años con pendientes de oro y rara moneda de Aureliano",
-   "efecto": ""
-  },
-  {
-   "titulo": "France's Macron vows to hold accountable those who 'sought to bring down the Republic'",
-   "link": "https://www.cnbc.com/2026/10/18/macron-tv-speech-protests-riots.html",
-   "ts": "2026-10-18T19:16:12Z",
-   "fuente": "CNBC",
-   "id": "635f223fb0",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Steve Haughelstine wins Real Moto 2016 gold",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Zak1oZUZtNkFBQzZrMVFWaUN2a09NNzJWMm5XNWNhRURCZDBvU0xDVExvUVlidDRBQ25tZE1JSmFaWEpsdHJUX3JWbU5QMmxMcW1VaGtGYy0?oc=5",
-   "ts": "2026-10-18T19:10:53Z",
-   "fuente": "ESPN",
-   "id": "75067dcf5e",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9089,16 +9091,16 @@
    [
     1792386000,
     4204.8,
-    4206.3,
+    4206.4,
     4193.8,
-    4204.7
+    4206.0
    ],
    [
-    1792388549,
-    4204.5,
-    4204.5,
-    4204.5,
-    4204.5
+    1792388849,
+    4206.1,
+    4206.1,
+    4206.1,
+    4206.1
    ]
   ],
   "nq": [
@@ -9597,14 +9599,14 @@
     29790.25,
     29793.75,
     29752.0,
-    29775.25
+    29776.75
    ],
    [
-    1792388550,
-    29778.5,
-    29778.5,
-    29778.5,
-    29778.5
+    1792388844,
+    29777.25,
+    29777.25,
+    29777.25,
+    29777.25
    ]
   ],
   "vix": [
@@ -10185,10 +10187,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "f130891b94",
-  "434eed419a",
-  "1bbf982e9e",
-  "fe729fbbd3",
   "1d8d0a9425",
   "9c083e2dc5",
   "9c120bf7ff",
@@ -10984,6 +10982,10 @@
   "a4e3d10e7f",
   "86cd0ed30c",
   "9f9713bd8c",
-  "9956322e54"
+  "9956322e54",
+  "ce035ebc43",
+  "81a5b84d1b",
+  "dfe568811e",
+  "ca00bc9168"
  ]
 }
