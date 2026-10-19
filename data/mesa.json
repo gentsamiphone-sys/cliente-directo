@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4189.6 · NQ 29715.75 · VIX 18.91 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-19T11:58:03Z"
+   "ultimo_resultado": "Oro 4189.0 · NQ 29720.25 · VIX 18.81 · 2 noticias nuevas",
+   "actualizado": "2026-10-19T12:02:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T11:58:02Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: S&P 500, Nasdaq futures rise as AI stocks rebound ahead of key earnings"
+   "actualizado": "2026-10-19T12:02:34Z",
+   "ultimo_resultado": "2 titulares nuevos: Dow Jones, Nasdaq, S&P 500 preview: All eyes on Meta, Tesla, SpaceX earnings"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4189.0 · NQ 29720.25 · VIX 18.81 · 2 noticias nuevas",
+   "ts": "2026-10-19T12:02:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4189.6 · NQ 29715.75 · VIX 18.91 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el S&P 500 (ES) con el NQ…",
    "ts": "2026-10-18T21:33:00Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Volatilidad elevada (VIX 19.99).",
-   "ts": "2026-10-18T21:32:59Z"
   }
  ],
  "briefs": [
@@ -7860,10 +7860,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4189.6,
-  "nq": 29715.75,
-  "vix": 18.91,
-  "ts": "2026-10-19T11:58:03Z"
+  "oro": 4189.0,
+  "nq": 29720.25,
+  "vix": 18.81,
+  "ts": "2026-10-19T12:02:34Z"
  },
  "noticias": [
   {
@@ -7944,6 +7944,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Dow Jones, Nasdaq, S&P 500 preview: All eyes on Meta, Tesla, SpaceX earnings",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/dow-jones-nasdaq-p-500-112417890.html?.tsrc=rss",
+   "ts": "2026-10-19T11:24:17Z",
+   "fuente": "Yahoo Finance",
+   "id": "1f59acd21c",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Gold prices today, Monday, October 19, 2026: Little change in gold prices as oil sailed to May highs",
    "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-october-19-2026-little-change-in-gold-prices-as-oil-sailed-to-may-highs-112123151.html?.tsrc=rss",
    "ts": "2026-10-19T11:21:23Z",
@@ -7979,6 +7990,15 @@
    "impacto": "alto",
    "es": "Monitor semanal de mercados: Los bonos recuperan protagonismo",
    "efecto": ""
+  },
+  {
+   "titulo": "UBS sees EUR/USD recovering as markets turn too pessimistic on Europe",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/ubs-sees-eur-usd-recovering-111513784.html?.tsrc=rss",
+   "ts": "2026-10-19T11:15:13Z",
+   "fuente": "Yahoo Finance",
+   "id": "78ef9bfaf1",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Cleveland-Cliffs Expects 2027 Will Be a Very Good Year With Help From Tariffs. Stock Jumps 14%.",
@@ -8733,26 +8753,6 @@
    "impacto": "alto",
    "es": "El dólar mantiene pérdidas y el yuan toca máximo de 4 años tras superar el PIB del Q3 en China",
    "efecto": "Debilita al dólar, impulsando al oro y al NQ por mayor apetito al riesgo."
-  },
-  {
-   "titulo": "Asia FX ticks higher; yuan hits 4-yr high after China Q3 GDP beat",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-ticks-higher-yuan-044735096.html?.tsrc=rss",
-   "ts": "2026-10-19T04:47:35Z",
-   "fuente": "Yahoo Finance",
-   "id": "a4e3d10e7f",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Penn Women's Rowing Takes Gold at Head of the Charles Regatta",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNG1xdnJkdU5rb0swODdyLTdsNEZYdlBlTjNCLVdnRm9RLUFKeU90eE1mdzRQdlpVQzBZZ3NfZEVxSUQtdWtvaFRxbVBYNGZWNDREZS1VT21ZaFZvd1lLX3VIZ2F3TWdiOFppcmhrQTJBWGlYT05QSjF0S1docmxqWXJRNWNPRWZEM3JEU19DS25RUXY4U3h0YnJoNTlGV0xBRmtvZ2M4dEIwblE?oc=5",
-   "ts": "2026-10-19T04:47:16Z",
-   "fuente": "University of Pennsylvania Athletics",
-   "id": "52301317cb",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9305,15 +9305,15 @@
     1792407600,
     4190.3,
     4197.1,
-    4188.3,
-    4189.6
+    4187.9,
+    4189.3
    ],
    [
-    1792410468,
-    4189.6,
-    4189.6,
-    4189.6,
-    4189.6
+    1792410752,
+    4189.0,
+    4189.0,
+    4189.0,
+    4189.0
    ]
   ],
   "nq": [
@@ -9854,14 +9854,14 @@
     29752.0,
     29752.25,
     29665.5,
-    29711.0
+    29722.25
    ],
    [
-    1792410481,
-    29715.75,
-    29715.75,
-    29715.75,
-    29715.75
+    1792410752,
+    29721.0,
+    29721.0,
+    29721.0,
+    29721.0
    ]
   ],
   "vix": [
@@ -10290,22 +10290,22 @@
     18.49,
     18.93,
     18.49,
-    18.91
+    18.84
    ],
    [
-    1792410181,
-    18.91,
-    18.91,
-    18.91,
-    18.91
+    1792410451,
+    18.81,
+    18.81,
+    18.81,
+    18.81
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-19T11:58:01Z",
- "ult_4h": 1792410453.1395133,
+ "ult_4h": 1792411354.6274579,
  "estrategia_4h": {
   "oro": {
-   "precio": 4188.7,
+   "precio": 4189.0,
    "atr_4h": 25.06,
    "setups": [
     {
@@ -10322,7 +10322,7 @@
    ]
   },
   "nq": {
-   "precio": 29676.25,
+   "precio": 29720.25,
    "atr_4h": 225.39,
    "setups": [
     {
@@ -10349,7 +10349,7 @@
     }
    ]
   },
-  "ts": "2026-10-19T11:47:33Z"
+  "ts": "2026-10-19T12:02:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10379,8 +10379,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "abb6c46446",
-  "bf61e5711f",
   "35dd820f2c",
   "95e1e2bff9",
   "a9d0e1199f",
@@ -11178,6 +11176,8 @@
   "cb993e4ae7",
   "c6955e4718",
   "d6c3886e71",
-  "e8b2db9d50"
+  "e8b2db9d50",
+  "1f59acd21c",
+  "78ef9bfaf1"
  ]
 }
