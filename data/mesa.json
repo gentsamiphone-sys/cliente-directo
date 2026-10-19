@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4199.1 · NQ 29632.25 · VIX 19.99",
-   "actualizado": "2026-10-19T00:27:32Z"
+   "ultimo_resultado": "Oro 4199.0 · NQ 29633.0 · VIX 19.99 · 1 noticias nuevas",
+   "actualizado": "2026-10-19T00:32:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T00:27:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-19T00:32:32Z",
+   "ultimo_resultado": "1 titulares nuevos: US Stock Futures Rise Ahead of Busy Earnings Week: Markets Wrap"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4199.0 · NQ 29633.0 · VIX 19.99 · 1 noticias nuevas",
+   "ts": "2026-10-19T00:32:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4199.1 · NQ 29632.25 · VIX 19.99",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-18T11:07:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-18T11:02:33Z"
   }
  ],
  "briefs": [
@@ -7694,10 +7694,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4199.1,
-  "nq": 29632.25,
+  "oro": 4199.0,
+  "nq": 29633.0,
   "vix": 19.99,
-  "ts": "2026-10-19T00:27:32Z"
+  "ts": "2026-10-19T00:32:33Z"
  },
  "noticias": [
   {
@@ -7876,6 +7876,15 @@
     "dolar"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "US Stock Futures Rise Ahead of Busy Earnings Week: Markets Wrap",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-rise-ahead-220725997.html?.tsrc=rss",
+   "ts": "2026-10-18T22:07:25Z",
+   "fuente": "Yahoo Finance",
+   "id": "3da5bb164f",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Lightweight Four Wins Gold on Final Day of 61st Head of the Charles[",
@@ -8562,15 +8571,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast",
-   "link": "https://www.cnbc.com/2026/10/18/hurricane-trudy-brings-heavy-rain-winds-to-mexicos-pacific-coast.html",
-   "ts": "2026-10-18T12:00:56Z",
-   "fuente": "CNBC",
-   "id": "01a254719f",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -9207,15 +9207,15 @@
     1792368000,
     4205.5,
     4208.4,
-    4198.9,
-    4199.6
+    4198.5,
+    4199.9
    ],
    [
-    1792369040,
-    4199.1,
-    4199.1,
-    4199.1,
-    4199.1
+    1792369349,
+    4199.0,
+    4199.0,
+    4199.0,
+    4199.0
    ]
   ],
   "nq": [
@@ -9839,15 +9839,15 @@
     1792368000,
     29628.5,
     29670.75,
-    29617.0,
-    29629.25
+    29616.5,
+    29633.0
    ],
    [
-    1792369049,
-    29632.25,
-    29632.25,
-    29632.25,
-    29632.25
+    1792369351,
+    29633.0,
+    29633.0,
+    29633.0,
+    29633.0
    ]
   ],
   "vix": [
@@ -10351,17 +10351,17 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-19T00:12:33Z",
- "ult_4h": 1792369051.6984768,
+ "ult_4h": 1792369953.0917392,
  "estrategia_4h": {
   "oro": {
-   "precio": 4203.7,
-   "atr_4h": 25.95,
+   "precio": 4199.0,
+   "atr_4h": 26.02,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4183.3,
      "entrada": 4183.3,
-     "stop": 4167.73,
+     "stop": 4167.69,
      "objetivo": 4220.4,
      "rr": 2.38,
      "estado": "esperando retesteo",
@@ -10371,34 +10371,34 @@
    ]
   },
   "nq": {
-   "precio": 29654.5,
-   "atr_4h": 230.86,
+   "precio": 29633.0,
+   "atr_4h": 231.84,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29622.5,
      "entrada": 29622.5,
-     "stop": 29761.01,
+     "stop": 29761.6,
      "objetivo": 29268.75,
-     "rr": 2.55,
+     "rr": 2.54,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.21,
+     "fuerza_ruptura_atr": 1.2,
      "ruptura": "2026-10-16 16:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30508.51,
+     "stop": 30509.1,
      "objetivo": 29268.75,
-     "rr": 7.95,
+     "rr": 7.92,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.87,
+     "fuerza_ruptura_atr": 1.86,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-19T00:17:31Z"
+  "ts": "2026-10-19T00:32:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10428,7 +10428,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "4911fe4f6c",
   "197888f8d8",
   "4993942176",
   "87ed9f3786",
@@ -11227,6 +11226,7 @@
   "bc5325bedc",
   "3a7538e1ac",
   "4bcbaa68e7",
-  "6846eaa27d"
+  "6846eaa27d",
+  "3da5bb164f"
  ]
 }
