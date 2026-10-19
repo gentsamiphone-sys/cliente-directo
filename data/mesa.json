@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4199.0 · NQ 29748.0 · VIX 19.99 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-19T03:17:39Z"
+   "ultimo_resultado": "Oro 4198.5 · NQ 29751.0 · VIX 19.99 · 1 noticias nuevas",
+   "actualizado": "2026-10-19T03:22:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T03:17:38Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: El oro sube ligeramente por la caída del petróleo; atención a las perspectivas de tasas de la Fed"
+   "actualizado": "2026-10-19T03:22:32Z",
+   "ultimo_resultado": "1 titulares nuevos: China industrial output, retail sales beat forecasts in September"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4198.5 · NQ 29751.0 · VIX 19.99 · 1 noticias nuevas",
+   "ts": "2026-10-19T03:22:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4199.0 · NQ 29748.0 · VIX 19.99 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-18T14:02:29Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Iran says it has a 'new operational plan' if the U.S. resumes attacks, as shipping vessels report strikes",
-   "ts": "2026-10-18T13:57:32Z"
   }
  ],
  "briefs": [
@@ -7694,10 +7694,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4199.0,
-  "nq": 29748.0,
+  "oro": 4198.5,
+  "nq": 29751.0,
   "vix": 19.99,
-  "ts": "2026-10-19T03:17:38Z"
+  "ts": "2026-10-19T03:22:32Z"
  },
  "noticias": [
   {
@@ -7724,6 +7724,15 @@
     "nq"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "China industrial output, retail sales beat forecasts in September",
+   "link": "https://finance.yahoo.com/economy/articles/china-industrial-output-retail-sales-025938695.html?.tsrc=rss",
+   "ts": "2026-10-19T02:59:38Z",
+   "fuente": "Yahoo Finance",
+   "id": "4180c31ae7",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Gold Edges Higher as Traders Weigh Fed Rate Hike Expectations",
@@ -8569,17 +8578,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Taiwanese duo win gold at junior championships",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94Z2dZZHBEWkJjNWp2d3Qyd3FzWTBHeGlMNkRTZHYxSkp4eTZkMjlJS0xMeGxrcXV6cTlwbk03QkxoREp4c01YY3VjVmxiSUNoM3JsZFVOVnlPYVBJdGhwT0E0Ti13c1hqVnU2TEJMMnM3d0YwTnFSWg?oc=5",
-   "ts": "2026-10-18T16:00:00Z",
-   "fuente": "Taipei Times",
-   "id": "c4c9d707ed",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9217,14 +9215,14 @@
     4196.8,
     4200.5,
     4194.1,
-    4200.5
+    4198.9
    ],
    [
-    1792379246,
-    4199.0,
-    4199.0,
-    4199.0,
-    4199.0
+    1792379541,
+    4198.5,
+    4198.5,
+    4198.5,
+    4198.5
    ]
   ],
   "nq": [
@@ -9847,16 +9845,16 @@
    [
     1792378800,
     29740.5,
-    29753.25,
+    29756.75,
     29739.0,
-    29753.0
+    29748.25
    ],
    [
-    1792379256,
-    29748.0,
-    29748.0,
-    29748.0,
-    29748.0
+    1792379547,
+    29751.0,
+    29751.0,
+    29751.0,
+    29751.0
    ]
   ],
   "vix": [
@@ -10437,7 +10435,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "70c7213b9a",
   "bd70610536",
   "c3f5f08316",
   "6e596689f2",
@@ -11236,6 +11233,7 @@
   "d7edf49b64",
   "ea2160b48a",
   "864189d6b2",
-  "f8c6a05cc5"
+  "f8c6a05cc5",
+  "4180c31ae7"
  ]
 }
