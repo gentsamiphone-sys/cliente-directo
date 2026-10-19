@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4192.0 · NQ 29694.0 · VIX 18.77 · 2 noticias nuevas",
-   "actualizado": "2026-10-19T09:17:33Z"
+   "ultimo_resultado": "Oro 4192.7 · NQ 29695.25 · VIX 18.74 · 4 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-19T09:22:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T09:17:32Z",
-   "ultimo_resultado": "2 titulares nuevos: Elon Musk says he'll give a SpaceX share to every child in America next year"
+   "actualizado": "2026-10-19T09:22:33Z",
+   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: Oil prices slide as sanctions relief on Russian crude raises hopes of increased supply"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4192.7 · NQ 29695.25 · VIX 18.74 · 4 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-19T09:22:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4192.0 · NQ 29694.0 · VIX 18.77 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "2 titulares nuevos: Fecha de lanzamiento de las zapatillas Bad Bunny x Adidas Gazelle 'Solar Gold'",
    "ts": "2026-10-18T20:02:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-18T19:57:32Z"
   }
  ],
  "briefs": [
@@ -7860,10 +7860,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4192.0,
-  "nq": 29694.0,
-  "vix": 18.77,
-  "ts": "2026-10-19T09:17:32Z"
+  "oro": 4192.7,
+  "nq": 29695.25,
+  "vix": 18.74,
+  "ts": "2026-10-19T09:22:33Z"
  },
  "noticias": [
   {
@@ -7941,6 +7941,15 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Oil prices slide as sanctions relief on Russian crude raises hopes of increased supply",
+   "link": "https://www.cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
+   "ts": "2026-10-19T08:52:21Z",
+   "fuente": "CNBC",
+   "id": "e84087ee9d",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "Treasury yields move lower as investors assess U.S. inflation backdrop",
    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1nUzdzVnFiMmJCeWJJaVF2cjY5c1lrdkNyMFhqZGRqcGdDaU42WG9icUlJM1daS05OeThBNFpGQVJ6MjZFN2psQkI1WGFGMXJpRHY3RTVzdVI3ZExKVkN3ZVNMcDRwbk9zaVRoLVZrQdIBdEFVX3lxTE1mWUNCVkNBVTBnTHdJcGtFQnpqVzFnV2ZVVnNSUUxTMzlrQkwwLVJudmI2RHRwVUx1bzBCV1FPT3RqRmlMMzlOOXBfeUtWRVE2b1N2ZV8xMkVKOWlPWmNZSVFldDVzdjh5Z3VlRnZkNTFfLWY5?oc=5",
    "ts": "2026-10-19T08:45:49Z",
@@ -7959,6 +7968,17 @@
    "id": "2891431cf6",
    "activos": [
     "oro",
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Why Are Nasdaq Futures Soaring Premarket? NBIS, MU, TSLA, SPCX, ASTS, SLS Stocks In Focus",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSno5VWxiSnJOS1N0aXFvUXpOb01ITHR5XzVxSFhoRV9uWTkxN1k0R3EzSXZFMTRVZFR6N0E3Q0tOTDFDQnNqS21DV3k4OTkxWFNIQ0Z0TDBJY2dReTFvQ3lkWi1qVGo4UUVkUTZucW0waHp6dmV6NzJET1YtOE1qVENvQ09EbXhiZEMwMUdId1ctVlRHYlNhcDE3dUVPX1dLbnVv?oc=5",
+   "ts": "2026-10-19T08:31:12Z",
+   "fuente": "Yahoo Finance",
+   "id": "025cddda93",
+   "activos": [
     "nq"
    ],
    "impacto": "medio"
@@ -7984,6 +8004,18 @@
    "impacto": "bajo",
    "es": "La ministra de Finanzas de la India dice que la liquidez del mercado facilita la salida de los inversores",
    "efecto": "Sin impacto directo en oro, NQ o dólar."
+  },
+  {
+   "titulo": "Sky Gold And Diamonds Stock And 2 Other Indian Growth Stocks To Own",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUVZjNlVwOWlkTjRtaUxLM2dORHBZQXVSRndvNjloV2ltNDNBMHBqRk5TaHoxWHc5dDdJZHBoT2laYk4zS2N6UUJTQlA2dU9FX01lazVRUk9GTVhGN1lkbkYzWDFhaHJ2TVc2YVlmejJsbnhmVEtfNmlLcWlucVR0djR1RGR3eXVPaVpPUnhkbXluYmlX?oc=5",
+   "ts": "2026-10-19T08:11:57Z",
+   "fuente": "Yahoo Finance",
+   "id": "416044b504",
+   "activos": [
+    "oro",
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "In pictures: More than 500,000 took to the streets as France protests erupted into violence",
@@ -8290,6 +8322,18 @@
     "dolar"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Gold edges up as oil retreat lends support; Fed decision in focus",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcHBoaXFtRmhELVpxR3BOYzNDX3IzS1Y1UHZaZUlWRnBiY0Y3WWxwa19vSlVRUENyTGtpZVJFSEFSLW9hVWhEaktYRTVhVWpObTFOYThBVXNRX19VY0phaUJjSkdSMjFZQ19FUFZGMm44UnNpZkZGSnNCeUc2SFZ4c1ZZUU9lV2tiUk1odm44Wmc2WGVjSG5pYUU3QnE2NGYx?oc=5",
+   "ts": "2026-10-19T03:11:00Z",
+   "fuente": "Reuters",
+   "id": "6cae7f3e17",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Gold edges higher as softer oil eases inflation woes",
@@ -8730,50 +8774,6 @@
    "impacto": "bajo",
    "es": "Aranceles de la UE a China perjudican a Ucrania, dice jefe de acerera.",
    "efecto": ""
-  },
-  {
-   "titulo": "SEC tokenized stock framework faces issuer pushback as Broadcom, Verizon object to OKX-ICE listing",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTkdMMmxWMDNsZFE2ckZfdVVyS2ZtS3I4bHpJZVZJV3phOEhmaGdqc0paTE9QV3M1MFBkRktlYkxUaEVpZU9UTVlxUzEtNWl6eDRlU1MyM3VhM1Q4WUdkcVpHUHBBUmlsZUdYclRMRnY4a3J2bjA1WHJJakxQTkZpdVRkZ0hjQWQyV0dQcTBqbHozeHZJTWhJLTE2VnBjUW5ydnN2QmhSS05OZjVJcE5OWkIyOVVGcnRqd1JWeXlBMVVUWUhBNWVJNWw1REVnU1J4U0IxSmpjaGkwUQ?oc=5",
-   "ts": "2026-10-18T23:28:06Z",
-   "fuente": "CoinDesk",
-   "id": "bc5325bedc",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "bajo",
-   "es": "Emisores rechazan marco de acciones tokenizadas de la SEC.",
-   "efecto": ""
-  },
-  {
-   "titulo": "India’s Finance Minister blames easy exits and excess liquidity for equity market's underperformance",
-   "link": "https://www.cnbc.com/2026/10/18/india-ai-nifty50-sensex-investors.html",
-   "ts": "2026-10-18T23:00:01Z",
-   "fuente": "CNBC Economía",
-   "id": "13c26a5900",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Anthropic commits 5% of shares to new public benefit fund that could address AI job disruption",
-   "link": "https://www.cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html",
-   "ts": "2026-10-18T22:55:48Z",
-   "fuente": "CNBC",
-   "id": "138c53c204",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Small Caps Watch: Friday’s 2.2% rebound trims five-day losses",
-   "link": "https://www.proactiveinvestors.com/companies/news/1100262/small-caps-watch-friday-s-2-2-rebound-trims-five-day-losses-1100262.html?.tsrc=rss",
-   "ts": "2026-10-18T22:26:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "8e5853e3bb",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "El rebote del 2,2% del viernes en las Small Caps reduce las pérdidas de cinco días",
-   "efecto": "Aumenta el apetito por riesgo, impulsando levemente al Nasdaq 100."
   }
  ],
  "eventos_avisados": [
@@ -9311,16 +9311,16 @@
    [
     1792400400,
     4190.7,
-    4192.3,
+    4192.9,
     4189.2,
     4192.1
    ],
    [
-    1792400849,
-    4192.0,
-    4192.0,
-    4192.0,
-    4192.0
+    1792401152,
+    4192.7,
+    4192.7,
+    4192.7,
+    4192.7
    ]
   ],
   "nq": [
@@ -9847,14 +9847,14 @@
     29683.5,
     29702.5,
     29669.0,
-    29691.5
+    29694.75
    ],
    [
-    1792400850,
-    29694.0,
-    29694.0,
-    29694.0,
-    29694.0
+    1792401150,
+    29695.25,
+    29695.25,
+    29695.25,
+    29695.25
    ]
   ],
   "vix": [
@@ -10268,15 +10268,15 @@
     1792400400,
     18.76,
     18.81,
-    18.76,
-    18.78
+    18.72,
+    18.73
    ],
    [
-    1792400551,
-    18.77,
-    18.77,
-    18.77,
-    18.77
+    1792400851,
+    18.74,
+    18.74,
+    18.74,
+    18.74
    ]
   ]
  },
@@ -10358,10 +10358,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "b305768129",
-  "6fcab05747",
-  "54b719197b",
-  "839f1e028e",
   "701f6440a3",
   "4848a1abdd",
   "e32df10b44",
@@ -11157,6 +11153,10 @@
   "bf600f6674",
   "b1367c4af2",
   "94ce5f0eed",
-  "e7cec9d916"
+  "e7cec9d916",
+  "e84087ee9d",
+  "025cddda93",
+  "416044b504",
+  "6cae7f3e17"
  ]
 }
