@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4197.9 · NQ 29808.0 · VIX 19.99",
-   "actualizado": "2026-10-19T06:32:32Z"
+   "ultimo_resultado": "Oro 4196.8 · NQ 29810.0 · VIX 19.99 · 1 noticias nuevas",
+   "actualizado": "2026-10-19T06:37:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T06:32:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-19T06:37:33Z",
+   "ultimo_resultado": "1 titulares nuevos: Tom Lee dice que la venta masiva de acciones crea oportunidad de compra en criptomonedas y semiconductores"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4196.8 · NQ 29810.0 · VIX 19.99 · 1 noticias nuevas",
+   "ts": "2026-10-19T06:37:33Z"
+  },
   {
    "agente": "cio",
    "texto": "Brief de Londres publicado: VIX se dispara +21.45% exigiendo cautela y frenando operativas en ORO y NQ",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-10-18T18:02:54Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 4181.1 · NQ 29391.5.",
-   "ts": "2026-10-18T18:02:53Z"
   }
  ],
  "briefs": [
@@ -7860,10 +7860,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4197.9,
-  "nq": 29808.0,
+  "oro": 4196.8,
+  "nq": 29810.0,
   "vix": 19.99,
-  "ts": "2026-10-19T06:32:32Z"
+  "ts": "2026-10-19T06:37:33Z"
  },
  "noticias": [
   {
@@ -7909,6 +7909,19 @@
    "id": "5a23177b86",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Tom Lee Says Last Week's Stock Selloff Sets Up a Buy in Crypto, Semis",
+   "link": "https://beincrypto.com/tom-lee-selloff-buy-crypto-semis/?.tsrc=rss",
+   "ts": "2026-10-19T05:55:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "2cc5bfa57d",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Tom Lee dice que la venta masiva de acciones crea oportunidad de compra en criptomonedas y semiconductores",
+   "efecto": "Genera optimismo técnico moderado en semiconductores y el NQ."
   },
   {
    "titulo": "Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates",
@@ -8741,17 +8754,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Macy’s $500 diamond-cut ice chain bracelet crafted with 14-karat gold is 76% off",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSXp4YmZpMDFwN1BJMENheEtHUkFyVzIwa3FBd2FnT0RCV1owcVJUamZVRlY5eGg5cGttUk1Gc0dpa2l2Wm5ONFhhVk5sVVRVNl9UMVdkN3hXMEhTWTBkam81dlNqTW91SDZVLWp2MXdOdThsUlBuV19QYXl1SWkwTGJtREp5MENYSXEzX0lRZ2JfVGVBUmJBUA?oc=5",
-   "ts": "2026-10-18T20:03:00Z",
-   "fuente": "Yahoo",
-   "id": "4a2d2fbc63",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9270,14 +9272,14 @@
     4205.2,
     4205.5,
     4195.3,
-    4198.4
+    4196.1
    ],
    [
-    1792390948,
-    4197.9,
-    4197.9,
-    4197.9,
-    4197.9
+    1792391250,
+    4196.8,
+    4196.8,
+    4196.8,
+    4196.8
    ]
   ],
   "nq": [
@@ -9783,14 +9785,14 @@
     29801.5,
     29813.5,
     29765.75,
-    29806.25
+    29803.5
    ],
    [
-    1792390950,
-    29808.0,
-    29808.0,
-    29808.0,
-    29808.0
+    1792391252,
+    29810.0,
+    29810.0,
+    29810.0,
+    29810.0
    ]
   ],
   "vix": [
@@ -10293,7 +10295,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-19T06:07:30Z",
+ "noticias_traducidas_ts": "2026-10-19T06:37:32Z",
  "ult_4h": 1792391552.103816,
  "estrategia_4h": {
   "oro": {
@@ -10371,7 +10373,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "c198c77d93",
   "1911b9e840",
   "c974565f57",
   "1d1a43ef17",
@@ -11170,6 +11171,7 @@
   "a345fd1128",
   "565ba2fb63",
   "157ce5f54a",
-  "5a23177b86"
+  "5a23177b86",
+  "2cc5bfa57d"
  ]
 }
