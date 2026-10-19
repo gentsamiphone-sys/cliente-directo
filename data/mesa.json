@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4195.3 · NQ 29649.5 · VIX 19.99 · 1 noticias nuevas",
-   "actualizado": "2026-10-19T00:52:36Z"
+   "ultimo_resultado": "Oro 4194.0 · NQ 29643.0 · VIX 19.99 · 1 noticias nuevas",
+   "actualizado": "2026-10-19T00:57:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T00:52:34Z",
-   "ultimo_resultado": "1 titulares nuevos: Precios de dulces de Halloween suben 8%; no son aranceles, dice economista"
+   "actualizado": "2026-10-19T00:57:31Z",
+   "ultimo_resultado": "1 titulares nuevos: NewPeak Metals readies Phase 2 drilling at Las Opeñas Gold Project in Argentina"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4194.0 · NQ 29643.0 · VIX 19.99 · 1 noticias nuevas",
+   "ts": "2026-10-19T00:57:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4195.3 · NQ 29649.5 · VIX 19.99 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-18T11:32:34Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-18T11:27:34Z"
   }
  ],
  "briefs": [
@@ -7694,10 +7694,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4195.3,
-  "nq": 29649.5,
+  "oro": 4194.0,
+  "nq": 29643.0,
   "vix": 19.99,
-  "ts": "2026-10-19T00:52:35Z"
+  "ts": "2026-10-19T00:57:32Z"
  },
  "noticias": [
   {
@@ -7710,6 +7710,18 @@
    "impacto": "bajo",
    "es": "Precios de dulces de Halloween suben 8%; no son aranceles, dice economista",
    "efecto": "Ruido inflacionario menor; sin impacto institucional en oro o NQ."
+  },
+  {
+   "titulo": "NewPeak Metals readies Phase 2 drilling at Las Opeñas Gold Project in Argentina",
+   "link": "https://www.proactiveinvestors.com/companies/news/1100268/newpeak-metals-readies-phase-2-drilling-at-las-openas-gold-project-in-argentina-1100268.html?.tsrc=rss",
+   "ts": "2026-10-19T00:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "a1306f342e",
+   "activos": [
+    "oro",
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "TradingKey Wall Street Weekly Report：Rising Inflation Intensifies Rate Pressure; Nasdaq Falls 4.48%, Its Biggest Weekly Decline Since June",
@@ -8561,17 +8573,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Dow Jones Futures Loom After S&P 500, Nasdaq Break Support; Will Meta Save AI?",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnZSNzJZS2NlWi1Hckg0djB1aGQ3bEkzVTB4ejBTQWRoQ0JTOWJBa1U4Z1EyWFZSa0ZmSDlIcmx5MFEwQmhCeFE2MEs4ZEdMSThwczNORG03QTY4MU9xR3pXWmRtNmdMc3BRZ0F4U1FudlhIdXpwVHVQUXUxMU44NHhhRVZyTmNDVk1MLXBsOHBIV2Q3VU9oTE1sa2JET0c5b3p5ZUJHeTBrQlJKaTRnS284ZGVhUUlwekJKalp5dmsyRmdzU25QRQ?oc=5",
-   "ts": "2026-10-18T12:36:00Z",
-   "fuente": "Investor's Business Daily",
-   "id": "8abd569261",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9208,15 +9209,15 @@
     1792368000,
     4205.5,
     4208.4,
-    4193.6,
-    4194.8
+    4192.5,
+    4193.8
    ],
    [
-    1792370553,
-    4195.3,
-    4195.3,
-    4195.3,
-    4195.3
+    1792370847,
+    4194.0,
+    4194.0,
+    4194.0,
+    4194.0
    ]
   ],
   "nq": [
@@ -9841,14 +9842,14 @@
     29629.25,
     29670.75,
     29616.5,
-    29652.75
+    29643.0
    ],
    [
-    1792370553,
-    29649.5,
-    29649.5,
-    29649.5,
-    29649.5
+    1792370848,
+    29643.0,
+    29643.0,
+    29643.0,
+    29643.0
    ]
   ],
   "vix": [
@@ -10429,7 +10430,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "87ed9f3786",
   "34e8bac964",
   "7a83783aeb",
   "20e66f2677",
@@ -11228,6 +11228,7 @@
   "6846eaa27d",
   "3da5bb164f",
   "9b7df52eef",
-  "b89b2f2274"
+  "b89b2f2274",
+  "a1306f342e"
  ]
 }
