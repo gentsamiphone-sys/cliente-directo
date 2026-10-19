@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4180.0 · NQ 29745.5 · VIX 18.56 · 1 noticias nuevas",
-   "actualizado": "2026-10-19T13:07:38Z"
+   "ultimo_resultado": "Oro 4183.1 · NQ 29765.75 · VIX 18.54 · 2 noticias nuevas",
+   "actualizado": "2026-10-19T13:12:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T13:07:38Z",
-   "ultimo_resultado": "1 titulares nuevos: Unidad antiterrorista investiga ataque con vehículo que hirió gravemente a legislador australiano"
+   "actualizado": "2026-10-19T13:12:32Z",
+   "ultimo_resultado": "2 titulares nuevos: The price of gold today, Oct. 19, 2026 — and the best places to buy"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4183.1 · NQ 29765.75 · VIX 18.54 · 2 noticias nuevas",
+   "ts": "2026-10-19T13:12:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4180.0 · NQ 29745.5 · VIX 18.56 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4204.5 · NQ 29622.0 · VIX 19.99",
    "ts": "2026-10-18T23:52:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4202.9 · NQ 29606.5 · VIX 19.99 · 1 noticias nuevas",
-   "ts": "2026-10-18T23:47:30Z"
   }
  ],
  "briefs": [
@@ -8032,12 +8032,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4180.0,
-  "nq": 29745.5,
-  "vix": 18.56,
-  "ts": "2026-10-19T13:07:38Z"
+  "oro": 4183.1,
+  "nq": 29765.75,
+  "vix": 18.54,
+  "ts": "2026-10-19T13:12:33Z"
  },
  "noticias": [
+  {
+   "titulo": "The price of gold today, Oct. 19, 2026 — and the best places to buy",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9jQ0NNSE1TVTZXeXJHOWJZZG9MbF9tWkFZblJWTmExclNaLVZaeUZ6aE94MWRtTVkzeGduOUF2SkdpM3huM21fbHZ0VXVDY2JKVlBjdi12ZUdLSHIzTnhZNjdoUVgzaDBvYkNZOEh6MXc1d9IBd0FVX3lxTE5SbjNWRVY3Q2hrYVllYW9FamhNbDFaeFVWM3puYWtVZFc0clAyMUhYZWF2T3BvWDZkblZLc0Zua2JsNzRRemJ2ZVFWZFp6ejA4MWp0bzJqVkJpQUtOVGtKWVBrZ1RKX1U1ek1ub3h3dUZJbDhBM3FV?oc=5",
+   "ts": "2026-10-19T13:10:16Z",
+   "fuente": "CNBC",
+   "id": "ccee0d205c",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Terrorism squad probes vehicle attack that critically injured Australian lawmaker",
    "link": "https://www.cnbc.com/2026/10/19/australian-lawmaker-helen-haines-in-critical-condition-after-vehicle-attack-.html",
@@ -8160,6 +8171,15 @@
    "impacto": "bajo",
    "es": "Google defiende sus centros de datos ante escepticismo de expertos",
    "efecto": ""
+  },
+  {
+   "titulo": "5 Top-Performing ETF Areas of Last Week",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/5-top-performing-etf-areas-120000254.html?.tsrc=rss",
+   "ts": "2026-10-19T12:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "eedd5c96d5",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "VIZSLA COPPER COMMENCES INAUGURAL DRILL PROGRAM AT THE COPPERVIEW COPPER PROJECT, SOUTH-CENTRAL BC",
@@ -8895,26 +8915,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Oil prices slide as sanctions relief on Russian crude raises hopes of increased supply",
-   "link": "https://www.cnbc.com/2026/10/18/oil-price-today-ukraine-russia-iran-strait-hormuz.html",
-   "ts": "2026-10-19T08:52:21Z",
-   "fuente": "CNBC",
-   "id": "e84087ee9d",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Treasury yields move lower as investors assess U.S. inflation backdrop",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1nUzdzVnFiMmJCeWJJaVF2cjY5c1lrdkNyMFhqZGRqcGdDaU42WG9icUlJM1daS05OeThBNFpGQVJ6MjZFN2psQkI1WGFGMXJpRHY3RTVzdVI3ZExKVkN3ZVNMcDRwbk9zaVRoLVZrQdIBdEFVX3lxTE1mWUNCVkNBVTBnTHdJcGtFQnpqVzFnV2ZVVnNSUUxTMzlrQkwwLVJudmI2RHRwVUx1bzBCV1FPT3RqRmlMMzlOOXBfeUtWRVE2b1N2ZV8xMkVKOWlPWmNZSVFldDVzdjh5Z3VlRnZkNTFfLWY5?oc=5",
-   "ts": "2026-10-19T08:45:49Z",
-   "fuente": "CNBC",
-   "id": "06caa9a358",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -9475,14 +9475,21 @@
     4181.0,
     4190.1,
     4178.4,
-    4180.6
+    4181.3
    ],
    [
-    1792414654,
+    1792414800,
+    4181.4,
+    4184.2,
     4180.0,
-    4180.0,
-    4180.0,
-    4180.0
+    4182.7
+   ],
+   [
+    1792414950,
+    4183.1,
+    4183.1,
+    4183.1,
+    4183.1
    ]
   ],
   "nq": [
@@ -10030,14 +10037,21 @@
     29722.0,
     29784.0,
     29709.25,
-    29744.0
+    29748.0
    ],
    [
-    1792414655,
-    29745.5,
-    29745.5,
-    29745.5,
-    29745.5
+    1792414800,
+    29749.0,
+    29769.75,
+    29743.0,
+    29764.0
+   ],
+   [
+    1792414951,
+    29765.75,
+    29765.75,
+    29765.75,
+    29765.75
    ]
   ],
   "vix": [
@@ -10472,15 +10486,15 @@
     1792411200,
     18.83,
     18.87,
-    18.55,
-    18.55
+    18.54,
+    18.56
    ],
    [
-    1792414351,
-    18.56,
-    18.56,
-    18.56,
-    18.56
+    1792414651,
+    18.54,
+    18.54,
+    18.54,
+    18.54
    ]
   ]
  },
@@ -10562,8 +10576,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "3a8f60076a",
-  "011681bff4",
   "c83d3469a9",
   "73882f54bc",
   "04ee365c1f",
@@ -11361,6 +11373,8 @@
   "a430cb112c",
   "c29222f184",
   "52fdf0dca7",
-  "7d3c94a291"
+  "7d3c94a291",
+  "ccee0d205c",
+  "eedd5c96d5"
  ]
 }
