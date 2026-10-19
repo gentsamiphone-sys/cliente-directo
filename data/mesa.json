@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4190.3 · NQ 29762.0 · VIX 18.53 · 9 noticias nuevas",
-   "actualizado": "2026-10-19T11:07:33Z"
+   "ultimo_resultado": "Oro 4192.0 · NQ 29720.75 · VIX 18.46 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-19T11:12:30Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T11:07:33Z",
-   "ultimo_resultado": "9 titulares nuevos: Nasdaq futures gain as investors buy the dip in the AI trade"
+   "actualizado": "2026-10-19T11:12:29Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Cleveland-Cliffs Expects 2027 Will Be a Very Good Year With Help From Tariffs. Stock Jumps 14%."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4192.0 · NQ 29720.75 · VIX 18.46 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-19T11:12:30Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4190.3 · NQ 29762.0 · VIX 18.53 · 9 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
    "ts": "2026-10-18T21:32:46Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Historial: 11 operaciones, 27% de acierto, +7.08 R.",
-   "ts": "2026-10-18T21:32:45Z"
   }
  ],
  "briefs": [
@@ -7860,12 +7860,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4190.3,
-  "nq": 29762.0,
-  "vix": 18.53,
-  "ts": "2026-10-19T11:07:33Z"
+  "oro": 4192.0,
+  "nq": 29720.75,
+  "vix": 18.46,
+  "ts": "2026-10-19T11:12:30Z"
  },
  "noticias": [
+  {
+   "titulo": "Cleveland-Cliffs Expects 2027 Will Be a Very Good Year With Help From Tariffs. Stock Jumps 14%.",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRXBBaFZwYTc4RnF4ZEx3SnJmanFFcE9KQlZtMG9ZRWZKdU5JblZMRWRYNkJtM2VKOExiWDRFSjYtMmJIb2FKV1dLclRNbS1FYlVhUXZmMjRUZjhmdm5BRHNkRDB2NVhNTTNPYnpBelZzYXJKNXpla2t2SG1LNGxYdUJwX01lZw?oc=5",
+   "ts": "2026-10-19T11:07:00Z",
+   "fuente": "Barron's",
+   "id": "d069db0df0",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Women may be at greater risk of AI job losses. Telephone switch operators and PCs show why.",
+   "link": "https://www.cnbc.com/2026/10/19/ai-job-losses-women-automation-risk.html",
+   "ts": "2026-10-19T11:02:34Z",
+   "fuente": "CNBC",
+   "id": "80a1319b3f",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Nasdaq futures gain as investors buy the dip in the AI trade",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORGZOVmlZVkdXQWk4Q013ODdGc3U0OGVVU1AyVmZKaVhVWjdYSUttRlNEbklpZmlEelFDX0ctY1N6VFh1V3QySnJxQTVBSmlwQXZ0Y0xwaFRFckZRaFNQaGZaeUt2RTdwUEdxaWI1aGNBRDBkeHhUUko4NDd2Y3R4QUxTX256UXJXNVc2LTQwZEhaTU9ncmYtYTRwMUQwcDFYV3FUV1FR?oc=5",
@@ -8735,26 +8753,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Mariners’ Cole Young Could Benefit From AL Gold Glove Voting System",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQckdlYzVWRDdCS1hxSzhOcjBLREpTTnBtQkdkM0xfTEFoMmlBTEN4cWNHY3ByR0Y5eGZfSUdDaHhoVndKcVFLelp0YUZWOXdCOUlrdHRDYlNDTGtWUDRwcGJFNmg3dHdtQ0NWOFlnY3RDZkhEZFYxbUZHWXRJSW9HUWpYeTNYSld0TFVacHlIT0pLX0NzZU1oVTRhNlRfd2F2LUhrZ2tR?oc=5",
-   "ts": "2026-10-19T02:15:00Z",
-   "fuente": "Sports Illustrated",
-   "id": "7ccc972a6a",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates",
-   "link": "https://www.cnbc.com/2026/10/19/chinas-economic-growth-quickens-to-4point6percent-as-exports-surge-stimulus-rolls-out.html",
-   "ts": "2026-10-19T02:12:15Z",
-   "fuente": "CNBC",
-   "id": "2fb3b8d14f",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -9301,14 +9299,21 @@
     4187.8,
     4193.1,
     4182.5,
-    4190.1
+    4190.0
    ],
    [
-    1792407450,
-    4190.4,
-    4190.4,
-    4190.4,
-    4190.4
+    1792407600,
+    4190.3,
+    4192.8,
+    4189.8,
+    4191.6
+   ],
+   [
+    1792407733,
+    4192.0,
+    4192.0,
+    4192.0,
+    4192.0
    ]
   ],
   "nq": [
@@ -9842,14 +9847,21 @@
     29718.0,
     29769.0,
     29684.5,
-    29754.0
+    29752.25
    ],
    [
-    1792407450,
-    29762.0,
-    29762.0,
-    29762.0,
-    29762.0
+    1792407600,
+    29752.0,
+    29752.25,
+    29712.5,
+    29715.0
+   ],
+   [
+    1792407746,
+    29720.75,
+    29720.75,
+    29720.75,
+    29720.75
    ]
   ],
   "vix": [
@@ -10270,15 +10282,15 @@
     1792404000,
     18.63,
     18.75,
-    18.46,
-    18.52
+    18.45,
+    18.46
    ],
    [
-    1792407151,
-    18.53,
-    18.53,
-    18.53,
-    18.53
+    1792407436,
+    18.46,
+    18.46,
+    18.46,
+    18.46
    ]
   ]
  },
@@ -10360,8 +10372,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "da323abd76",
-  "d7c1a7241b",
   "f235be17f1",
   "4e783535ef",
   "52636d6c1f",
@@ -11159,6 +11169,8 @@
   "9cf2cc63c0",
   "7b5cbfcd63",
   "4e32c74cd6",
-  "624b9c7ebf"
+  "624b9c7ebf",
+  "d069db0df0",
+  "80a1319b3f"
  ]
 }
