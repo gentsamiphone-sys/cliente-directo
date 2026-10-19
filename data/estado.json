@@ -3638,10 +3638,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ultimo_resultado": "No pude buscar en este turno (HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with)",
-   "actualizado": "2026-10-19T05:06:25Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "0 negocios nuevos de herrerías y oficios cerca de E Charleston Blvd",
+   "actualizado": "2026-10-19T05:08:29Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -3669,6 +3669,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: 0 negocios nuevos de herrerías y oficios cerca de E Charleston Blvd",
+   "ts": "2026-10-19T05:08:29Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -5163,11 +5168,6 @@
    "agente": "buscador",
    "texto": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Las Vegas Blvd N…",
    "ts": "2026-10-16T23:02:31Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Terminó su turno: 143 textos listos para mandar",
-   "ts": "2026-10-16T22:37:33Z"
   }
  ],
  "reportes": {
