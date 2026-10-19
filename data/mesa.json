@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4162.3 · NQ 29831.5 · VIX 18.14 · 2 noticias nuevas",
-   "actualizado": "2026-10-19T19:47:35Z"
+   "ultimo_resultado": "Oro 4161.5 · NQ 29835.75 · VIX 18.12 · 4 noticias nuevas",
+   "actualizado": "2026-10-19T19:52:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T19:47:35Z",
-   "ultimo_resultado": "2 titulares nuevos: All That Glitters Isn’t Gold. Sometimes, It’s Coal"
+   "actualizado": "2026-10-19T19:52:33Z",
+   "ultimo_resultado": "4 titulares nuevos: OpenAI bugging suspect Alfozan ordered held without bail"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4161.5 · NQ 29835.75 · VIX 18.12 · 4 noticias nuevas",
+   "ts": "2026-10-19T19:52:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4162.3 · NQ 29831.5 · VIX 18.14 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4202.2 · NQ 29776.25 · VIX 19.99 · 2 noticias nuevas",
    "ts": "2026-10-19T06:22:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4203.9 · NQ 29800.25 · VIX 19.99",
-   "ts": "2026-10-19T06:17:34Z"
   }
  ],
  "briefs": [
@@ -8032,12 +8032,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4162.3,
-  "nq": 29831.5,
-  "vix": 18.14,
-  "ts": "2026-10-19T19:47:35Z"
+  "oro": 4161.5,
+  "nq": 29835.75,
+  "vix": 18.12,
+  "ts": "2026-10-19T19:52:33Z"
  },
  "noticias": [
+  {
+   "titulo": "OpenAI bugging suspect Alfozan ordered held without bail",
+   "link": "https://www.cnbc.com/2026/10/19/openai-bugging-suspect-alfozan-saudi-royal-family.html",
+   "ts": "2026-10-19T19:50:48Z",
+   "fuente": "CNBC",
+   "id": "914c27d572",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Trump says he'd meet with Putin and Xi, criticizes Zelenskyy",
+   "link": "https://www.cnbc.com/2026/10/19/trump-putin-xi-zelenskyy.html",
+   "ts": "2026-10-19T19:44:42Z",
+   "fuente": "CNBC",
+   "id": "c478ed5e70",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "OpenAI bugging suspect Alfozan ordered held without bond",
    "link": "https://www.cnbc.com/2026/10/19/openai-bugging-suspect-alfozan-saudi-royal-family.html",
@@ -8055,6 +8073,17 @@
    "ts": "2026-10-19T19:30:27Z",
    "fuente": "New Haven Independent",
    "id": "fe404a2017",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Ex-girlfriend in alleged gold-digging plot targeting Gavin Maloof to be sentenced",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTUl4NEw2eXdfZzFRWmR3VDl6cEN0akFja1JQM1RDdzJvRm5ORGhHa0ZHUll2WFd5cWF6dzNJaUlyMHVaNUtMal90LTQyY3JTQnhPbzJRVVRVNDBoZWowczU1MjhSWWw2aDU2R2xwOWctdl9rVURlWjhWQTFRUUZOSGtvZXBRNzd4OF8zTEdjZ1NlV25kcnJXVXg0Z1pzbEczUnZaaFMyb242SFF1NlROTF9DenEyQzV4bzJ3MHlR0gHDAUFVX3lxTE9uZzRQT2xucFFwTVdiMnV4WjFlSGVGbGxWUTdHN0hXZzRESEtsSzlNVldRaUl3M3pUa1RkaGd0OWtHLTBPS3h3cFBOdUZBWFZVVFFZb2xraGI4WHFDcG9oVTlXUnlQaEpsdmZDd0VaTW8wUDZEOGxXb25IcWtFenRNVU8tc2dhWDJiekowZ1FMZ3BxdGY2Y05XRFIwUXBRdkY0SnVoUUwxV0l5VmctQ1hRLXM5ZTUwT01rVEQzYlV2RjFWZw?oc=5",
+   "ts": "2026-10-19T19:22:25Z",
+   "fuente": "KLAS 8 News Now",
+   "id": "cd548ddb3d",
    "activos": [
     "oro"
    ],
@@ -8689,6 +8718,17 @@
    "impacto": "alto"
   },
   {
+   "titulo": "BC-Gold Futures",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-futures-140022398.html?.tsrc=rss",
+   "ts": "2026-10-19T14:00:22Z",
+   "fuente": "Yahoo Finance",
+   "id": "ef01beb2d8",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Inflation is heating up; why did Treasury yields fall?",
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWjhaSzBUOElBUndRZVpJNXdhdFoyWjFhWVZxeVRXcDdyM3ktNlpJZEhkSGlER1lrbGI3R1hvUnlQUHZXNEpFcDlzbkoya2Y1NTAtS0Q0UFpPblJoZVV3WkJNZU5KQWF5YkE3TEVDUm9RdmE0bnB5REVfS1BsY2x3UEkyVGl0bjg1Y0ln?oc=5",
    "ts": "2026-10-19T13:56:32Z",
@@ -8866,48 +8906,6 @@
    "ts": "2026-10-19T13:10:16Z",
    "fuente": "CNBC",
    "id": "ccee0d205c",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "We're trimming a stock that has made a comeback, locking in big hard-fought profits",
-   "link": "https://www.cnbc.com/investingclub/2026/10/19/were-trimming-a-stock-that-has-made-a-comeback-locking-in-big-hard-fought-profits.html",
-   "ts": "2026-10-19T13:06:40Z",
-   "fuente": "CNBC",
-   "id": "a934adece7",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "S&P 500, Nasdaq set to open higher as AI stocks rebound ahead of earnings rush",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa1dPVUpMX284bG5SR2tYTE5ydE5DYkFBUzI1ZGoyTEJkSnNsZU9ISHd5YVlnbEZEMWNaVVBhT2QxaVN2UEQ2SFRjUEVMUDgteTV4ZWxTUlRwMWtTckhWT2dZSThiU3ZkSE4tSVFnUUsxME9ZdTZLYngxRTYyaG9rbzJoVGwwN0NHVjVCQUlLMTcybktG?oc=5",
-   "ts": "2026-10-19T13:03:54Z",
-   "fuente": "Yahoo Finance",
-   "id": "b07f36d9bd",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Terrorism squad probes vehicle attack that critically injured Australian lawmaker",
-   "link": "https://www.cnbc.com/2026/10/19/australian-lawmaker-helen-haines-in-critical-condition-after-vehicle-attack-.html",
-   "ts": "2026-10-19T13:03:38Z",
-   "fuente": "CNBC",
-   "id": "7d3c94a291",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Unidad antiterrorista investiga ataque con vehículo que hirió gravemente a legislador australiano",
-   "efecto": ""
-  },
-  {
-   "titulo": "Renforth Resources intersects high-grade gold beneath surface showings at Parbec",
-   "link": "https://www.proactiveinvestors.com/companies/news/1100314/renforth-resources-intersects-high-grade-gold-beneath-surface-showings-at-parbec-1100314.html?.tsrc=rss",
-   "ts": "2026-10-19T13:01:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "75dea1a05e",
    "activos": [
     "oro"
    ],
@@ -9521,14 +9519,14 @@
     4165.1,
     4165.2,
     4161.0,
-    4162.1
+    4161.8
    ],
    [
-    1792438654,
-    4162.2,
-    4162.2,
-    4162.2,
-    4162.2
+    1792438950,
+    4161.5,
+    4161.5,
+    4161.5,
+    4161.5
    ]
   ],
   "nq": [
@@ -10125,14 +10123,14 @@
     29768.0,
     29842.5,
     29761.5,
-    29830.5
+    29826.5
    ],
    [
-    1792438655,
-    29831.5,
-    29831.5,
-    29831.5,
-    29831.5
+    1792438952,
+    29835.75,
+    29835.75,
+    29835.75,
+    29835.75
    ]
   ],
   "vix": [
@@ -10620,24 +10618,24 @@
     18.15
    ],
    [
-    1792438351,
-    18.14,
-    18.14,
-    18.14,
-    18.14
+    1792438651,
+    18.12,
+    18.12,
+    18.12,
+    18.12
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-19T19:32:33Z",
- "ult_4h": 1792438660.0245047,
+ "ult_4h": 1792439553.6562498,
  "estrategia_4h": {
   "oro": {
-   "precio": 4161.4,
+   "precio": 4161.5,
    "atr_4h": 24.46,
    "setups": []
   },
   "nq": {
-   "precio": 29803.25,
+   "precio": 29835.75,
    "atr_4h": 223.14,
    "setups": [
     {
@@ -10664,7 +10662,7 @@
     }
    ]
   },
-  "ts": "2026-10-19T19:37:40Z"
+  "ts": "2026-10-19T19:52:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10694,10 +10692,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "6265a5cb62",
-  "1e93297214",
-  "c1dca30e2f",
-  "2919372fce",
   "3423aa7962",
   "0b855cfd96",
   "3948a558d9",
@@ -11493,6 +11487,10 @@
   "a558a9a3da",
   "686c8be811",
   "fe404a2017",
-  "f83ab69ce5"
+  "f83ab69ce5",
+  "914c27d572",
+  "c478ed5e70",
+  "cd548ddb3d",
+  "ef01beb2d8"
  ]
 }
