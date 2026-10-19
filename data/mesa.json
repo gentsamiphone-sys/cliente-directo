@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4158.4 · NQ 29814.25 · VIX 18.1 · 5 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-19T17:02:36Z"
+   "ultimo_resultado": "Oro 4160.5 · NQ 29812.0 · VIX 18.11 · 2 noticias nuevas",
+   "actualizado": "2026-10-19T17:07:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-19T17:02:35Z",
-   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: Goldman says play defense with these stocks if you're worried about the AI bull failing"
+   "actualizado": "2026-10-19T17:07:35Z",
+   "ultimo_resultado": "2 titulares nuevos: CNBC Points Pro: ¿Qué tarjeta usar para comprar electrodomésticos?"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4160.5 · NQ 29812.0 · VIX 18.11 · 2 noticias nuevas",
+   "ts": "2026-10-19T17:07:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4158.4 · NQ 29814.25 · VIX 18.1 · 5 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4200.0 · NQ 29775.5 · VIX 19.99",
    "ts": "2026-10-19T03:37:29Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4200.5 · NQ 29769.5 · VIX 19.99",
-   "ts": "2026-10-19T03:32:32Z"
   }
  ],
  "briefs": [
@@ -8032,12 +8032,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4158.4,
-  "nq": 29814.25,
-  "vix": 18.1,
-  "ts": "2026-10-19T17:02:36Z"
+  "oro": 4160.5,
+  "nq": 29812.0,
+  "vix": 18.11,
+  "ts": "2026-10-19T17:07:35Z"
  },
  "noticias": [
+  {
+   "titulo": "CNBC Points Pro: Which card should I use for an appliance purchase?",
+   "link": "https://www.cnbc.com/select/which-credit-card-should-i-use-to-buy-an-appliance/",
+   "ts": "2026-10-19T17:07:12Z",
+   "fuente": "CNBC",
+   "id": "d967d8ee41",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "CNBC Points Pro: ¿Qué tarjeta usar para comprar electrodomésticos?",
+   "efecto": "Ruido minorista sin impacto institucional."
+  },
   {
    "titulo": "Goldman says play defense with these stocks if you're worried about the AI bull failing",
    "link": "https://www.cnbc.com/2026/10/19/goldman-says-play-defense-with-these-stocks-if-youre-worried-about-the-ai-bull-failing.html",
@@ -8231,6 +8242,17 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "CATS Announces Gold Line Service Shutdown for Annual Fall Maintenance",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdlhhdjRBXy0zUU14bGRLNzhaX2hWQXZWZVBiLTZUcFY1U2dybHBZY3BtekdTS1VjQ19oWkN0amVadFkzdWhia1ZqXzRsaTJaUDllS1dFLUxQTmFVZUx1X09tS0FpV1d6NHlZNHBQRVB3M2lhRmJwbWVfakNVT1Z3NmRHOEdrRTZmcXEtQ2lIN1VkcTFBa05mLTZpTlV3QkxrRVEtQWJHdi1EREU?oc=5",
+   "ts": "2026-10-19T15:37:56Z",
+   "fuente": "City of Charlotte (.gov)",
+   "id": "506dfe26e5",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "CATS anuncia cierre de la Línea Dorada por mantenimiento anual",
+   "efecto": "Noticia local de transporte sin impacto financiero."
   },
   {
    "titulo": "Walmart Sells US Debt, Eyes Canadian Market as Spending Grows",
@@ -8889,30 +8911,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "S&P 500, Nasdaq futures rise as AI stocks rebound ahead of key earnings",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa1dPVUpMX284bG5SR2tYTE5ydE5DYkFBUzI1ZGoyTEJkSnNsZU9ISHd5YVlnbEZEMWNaVVBhT2QxaVN2UEQ2SFRjUEVMUDgteTV4ZWxTUlRwMWtTckhWT2dZSThiU3ZkSE4tSVFnUUsxME9ZdTZLYngxRTYyaG9rbzJoVGwwN0NHVjVCQUlLMTcybktG?oc=5",
-   "ts": "2026-10-19T11:38:05Z",
-   "fuente": "Yahoo Finance",
-   "id": "e8b2db9d50",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto",
-   "es": "S&P 500, Nasdaq futures rise as AI stocks rebound ahead of key earnings",
-   "efecto": "Impulsa al Nasdaq al alza por apetito de riesgo en tecnología."
-  },
-  {
-   "titulo": "Fifth Third Bancorp (NASDAQ:FITB) Reports Sales Below Analyst Estimates In Q3 2026 Earnings",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcFR5NXgycHRkeTNrOVhFNkc4UFlHYm9tenVQdUZON2x4d19oQkc1THQ4Nl84dzdJYWl0c29NdktVNEU1MGYwNjNjaDBrZWhHcl9INklpTlFQaGpSM1RQOXhJdm1wdktKOThyZGtTb2JmbmlKdDhWSXo0U2hZM0pQdDhQcTdhS24zQVlNak1OWVlFMVRTcF9oUWVEN2Q3c3EwRmJBOGdfWDY3WlJZUlRXdFZyX1ZkeGdmUTJtZDUwNDFOWnhkbGY4U3hIX3g5c2dWaWpZa0E0cGR2cElfY211Vg?oc=5",
-   "ts": "2026-10-19T11:35:01Z",
-   "fuente": "StockStory",
-   "id": "7f14995d42",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9501,14 +9499,14 @@
     4161.1,
     4164.2,
     4156.5,
-    4158.4
+    4160.3
    ],
    [
-    1792428754,
-    4158.4,
-    4158.4,
-    4158.4,
-    4158.4
+    1792429052,
+    4160.5,
+    4160.5,
+    4160.5,
+    4160.5
    ]
   ],
   "nq": [
@@ -10083,15 +10081,15 @@
     1792425600,
     29931.5,
     29933.75,
-    29807.25,
-    29810.75
+    29792.25,
+    29807.0
    ],
    [
-    1792428754,
-    29815.0,
-    29815.0,
-    29815.0,
-    29815.0
+    1792429055,
+    29809.5,
+    29809.5,
+    29809.5,
+    29809.5
    ]
   ],
   "vix": [
@@ -10555,54 +10553,54 @@
     17.68,
     18.13,
     17.68,
-    18.07
+    18.11
    ],
    [
-    1792428451,
-    18.1,
-    18.1,
-    18.1,
-    18.1
+    1792428751,
+    18.11,
+    18.11,
+    18.11,
+    18.11
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-19T16:32:39Z",
- "ult_4h": 1792428759.7220464,
+ "noticias_traducidas_ts": "2026-10-19T17:07:33Z",
+ "ult_4h": 1792429655.779613,
  "estrategia_4h": {
   "oro": {
-   "precio": 4160.6,
-   "atr_4h": 23.54,
+   "precio": 4160.5,
+   "atr_4h": 24.06,
    "setups": []
   },
   "nq": {
-   "precio": 29854.0,
-   "atr_4h": 214.61,
+   "precio": 29809.5,
+   "atr_4h": 216.89,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30370.0,
      "entrada": 30370.0,
-     "stop": 30498.76,
+     "stop": 30500.14,
      "objetivo": 29268.75,
-     "rr": 8.55,
+     "rr": 8.46,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.01,
+     "fuerza_ruptura_atr": 1.99,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30356.75,
-     "entrada": 30356.75,
-     "stop": 30485.51,
+     "nivel": 30504.5,
+     "entrada": 30504.5,
+     "stop": 30634.64,
      "objetivo": 29268.75,
-     "rr": 8.45,
+     "rr": 9.5,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.01,
+     "fuerza_ruptura_atr": 1.99,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-19T16:52:40Z"
+  "ts": "2026-10-19T17:07:36Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10632,8 +10630,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "b2610e0e43",
-  "89ca25e46f",
   "7e5ee68be7",
   "4bc3412943",
   "8444c1e2b0",
@@ -11431,6 +11427,8 @@
   "4deb5a5a1b",
   "69dd6d5a59",
   "64ae7e60d5",
-  "f291f8013a"
+  "f291f8013a",
+  "d967d8ee41",
+  "506dfe26e5"
  ]
 }
