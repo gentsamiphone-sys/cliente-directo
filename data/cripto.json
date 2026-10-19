@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: SIN ENTRADA · el bot solo compra, no se opera.",
-   "actualizado": "2026-10-18T13:26:13Z"
+   "ultimo_resultado": "BTC: entrada incompleta o con 3/5 confluencias. No se opera.",
+   "actualizado": "2026-10-19T01:27:18Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "BTC: entrada incompleta o con 3/5 confluencias. No se opera.",
+   "ts": "2026-10-19T01:27:18Z"
+  },
   {
    "agente": "cio",
    "texto": "Brief publicado: Bitcoin mantiene impulso alcista con refugio de capital, mientras ETH consolida de forma neutral",
@@ -800,11 +805,6 @@
    "agente": "liquidez",
    "texto": "BTC 80268.32 (7d -1.72%) · ETH 2340.45 (7d -5.32%)",
    "ts": "2026-10-15T13:38:24Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Marcando niveles de BTC y ETH: semana, mes, EMA200 diaria…",
-   "ts": "2026-10-15T13:38:23Z"
   }
  ],
  "briefs": [
