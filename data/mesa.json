@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4139.1 · NQ 29605.25 · VIX 18.63 · 1 noticias nuevas",
-   "actualizado": "2026-10-20T13:37:37Z"
+   "ultimo_resultado": "Oro 4136.4 · NQ 29536.5 · VIX 18.65 · 1 noticias nuevas",
+   "actualizado": "2026-10-20T13:42:40Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T13:37:36Z",
-   "ultimo_resultado": "1 titulares nuevos: Salesforce announces $5.66 billion deal for Braze, sending BRZE stock soaring 50%"
+   "actualizado": "2026-10-20T13:42:39Z",
+   "ultimo_resultado": "1 titulares nuevos: SpaceX reports after the bell. Here's what options traders expect"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4136.4 · NQ 29536.5 · VIX 18.65 · 1 noticias nuevas",
+   "ts": "2026-10-20T13:42:40Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4139.1 · NQ 29605.25 · VIX 18.63 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Estrategia 4H ORO: VENTA: esperar retesteo de 4170.1 · stop 4183.2 · objetivo 4143.1 · R:R 2.06 (esperando retesteo). Tú ejecutas.",
    "ts": "2026-10-20T00:32:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4154.9 · NQ 29683.75 · VIX 18.44",
-   "ts": "2026-10-20T00:27:30Z"
   }
  ],
  "briefs": [
@@ -8542,12 +8542,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4139.1,
-  "nq": 29605.25,
-  "vix": 18.63,
-  "ts": "2026-10-20T13:37:36Z"
+  "oro": 4136.4,
+  "nq": 29536.5,
+  "vix": 18.65,
+  "ts": "2026-10-20T13:42:39Z"
  },
  "noticias": [
+  {
+   "titulo": "SpaceX reports after the bell. Here's what options traders expect",
+   "link": "https://www.cnbc.com/2026/10/20/spacex-reports-after-the-bell-heres-what-options-traders-expect-.html",
+   "ts": "2026-10-20T13:40:28Z",
+   "fuente": "CNBC",
+   "id": "3b6701faf1",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Salesforce announces $5.66 billion deal for Braze, sending BRZE stock soaring 50%",
    "link": "https://www.cnbc.com/2026/10/20/salesforce-braze-acquisition-deal.html",
@@ -9386,17 +9395,6 @@
    "id": "7a7e0102c3",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "FORTUNE BAY COMPLETES GOLDFIELDS PROCESSING TRADE-OFF STUDY AND ADVANCES DEVELOPMENT PLANNING",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/fortune-bay-completes-goldfields-processing-103000025.html?.tsrc=rss",
-   "ts": "2026-10-20T10:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "d361222a09",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9964,14 +9962,14 @@
     4137.7,
     4143.1,
     4131.3,
-    4138.6
+    4137.5
    ],
    [
-    1792502841,
-    4139.1,
-    4139.1,
-    4139.1,
-    4139.1
+    1792503158,
+    4136.4,
+    4136.4,
+    4136.4,
+    4136.4
    ]
   ],
   "nq": [
@@ -10525,15 +10523,15 @@
     1792501200,
     29594.75,
     29636.0,
-    29576.0,
-    29596.0
+    29515.5,
+    29532.25
    ],
    [
-    1792502854,
-    29605.25,
-    29605.25,
-    29605.25,
-    29605.25
+    1792503159,
+    29536.5,
+    29536.5,
+    29536.5,
+    29536.5
    ]
   ],
   "vix": [
@@ -10976,14 +10974,14 @@
     18.72,
     18.76,
     18.56,
-    18.61
+    18.65
    ],
    [
-    1792502551,
-    18.63,
-    18.63,
-    18.63,
-    18.63
+    1792502701,
+    18.65,
+    18.65,
+    18.65,
+    18.65
    ]
   ]
  },
@@ -11067,7 +11065,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "b616c5ae8f",
   "9b119afc99",
   "d5ccf00d69",
   "5a4171cee1",
@@ -11866,6 +11863,7 @@
   "048bf4352b",
   "c7391dc3f8",
   "4978b3e7c0",
-  "d22cd3218c"
+  "d22cd3218c",
+  "3b6701faf1"
  ]
 }
