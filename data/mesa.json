@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4140.5 · NQ 29765.75 · VIX 17.31 · 1 noticias nuevas",
-   "actualizado": "2026-10-20T20:42:34Z"
+   "ultimo_resultado": "Oro 4141.1 · NQ 29771.75 · VIX 17.31 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-20T20:47:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T20:42:33Z",
-   "ultimo_resultado": "1 titulares nuevos: Safe Harbor Financial Receives Additional 180-Day Compliance Period from Nasdaq to Regain Compliance with Minimum Bid Price Requirement"
+   "actualizado": "2026-10-20T20:47:35Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: El Dow lidera las ganancias en Wall Street; inversores se centran en salud"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4141.1 · NQ 29771.75 · VIX 17.31 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-20T20:47:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4140.5 · NQ 29765.75 · VIX 17.31 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Mapa listo: oro 4148.0 · NQ 29647.25.",
    "ts": "2026-10-20T06:33:02Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
-   "ts": "2026-10-20T06:33:00Z"
   }
  ],
  "briefs": [
@@ -8542,10 +8542,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4140.5,
-  "nq": 29765.75,
+  "oro": 4141.1,
+  "nq": 29771.75,
   "vix": 17.31,
-  "ts": "2026-10-20T20:42:34Z"
+  "ts": "2026-10-20T20:47:35Z"
  },
  "noticias": [
   {
@@ -8660,6 +8660,19 @@
    "id": "be29b7fd63",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Dow leads Wall Street higher, investors focus on healthcare stocks",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2JsXzZ4YTVKcDJjNE9iTW42aU0wY0VOZXRtdDYxTzJTanBUOGZIT1FLSl9FVTNxQ1RpTVFSWHlsejgyR0Y1b3JQWXRlT0dEMjJPWWpXYlpfdFJQaHZKZG5KdUNMdW53NmlMd2RwUWJKWFB3dE9Xc2ZBbnRfalF3cWNzblhxTGJOTGlKYUh1a0FmWC1vaGQydWZXdTMzemJjSVg5NWZ0bw?oc=5",
+   "ts": "2026-10-20T20:01:09Z",
+   "fuente": "Reuters",
+   "id": "569c69fced",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "El Dow lidera las ganancias en Wall Street; inversores se centran en salud",
+   "efecto": "Genera leve optimismo en renta variable, impacto marginal en NQ."
   },
   {
    "titulo": "‘Shine for Gold’ GIPS middle school volleyball triangular raises $1,200 for pediatric cancer awareness",
@@ -9396,15 +9409,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "France to deploy military as it braces for fresh unrest this weekend",
-   "link": "https://www.cnbc.com/2026/10/20/france-protests-curfews-macron-gulf-trip.html",
-   "ts": "2026-10-20T15:01:38Z",
-   "fuente": "CNBC",
-   "id": "01dfba1409",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -10021,14 +10025,14 @@
     4138.8,
     4142.8,
     4138.4,
-    4140.9
+    4141.1
    ],
    [
-    1792528351,
-    4140.5,
-    4140.5,
-    4140.5,
-    4140.5
+    1792528652,
+    4141.1,
+    4141.1,
+    4141.1,
+    4141.1
    ]
   ],
   "nq": [
@@ -10630,16 +10634,16 @@
    [
     1792526400,
     29688.25,
-    29767.5,
+    29779.0,
     29687.25,
-    29765.5
+    29773.5
    ],
    [
-    1792528353,
-    29765.75,
-    29765.75,
-    29765.75,
-    29765.75
+    1792528654,
+    29771.75,
+    29771.75,
+    29771.75,
+    29771.75
    ]
   ],
   "vix": [
@@ -11142,7 +11146,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-20T20:12:38Z",
+ "noticias_traducidas_ts": "2026-10-20T20:47:34Z",
  "ult_4h": 1792528954.1877742,
  "estrategia_4h": {
   "oro": {
@@ -11222,8 +11226,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "dd78f70e03",
-  "c2512c1db8",
   "95bdafd11b",
   "fb82a59e10",
   "ed30d2ed0b",
@@ -12021,6 +12023,8 @@
   "dee53a9f18",
   "ce1a17fe5f",
   "1817ea9efb",
-  "d0300eb39a"
+  "d0300eb39a",
+  "569c69fced",
+  "bce11ddbd6"
  ]
 }
