@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4139.9 · NQ 29524.5 · VIX 18.75 · 2 noticias nuevas",
-   "actualizado": "2026-10-20T12:02:30Z"
+   "ultimo_resultado": "Oro 4144.3 · NQ 29520.75 · VIX 18.85 · 4 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-20T12:07:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T12:02:30Z",
-   "ultimo_resultado": "2 titulares nuevos: Stocks making the biggest moves premarket: RTX, General Motors, Northrop Grumman, Steel Dynamics & more"
+   "actualizado": "2026-10-20T12:07:33Z",
+   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: Apple adds U.S. titanium supplier for iPhone Duo as supply stays tight"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4144.3 · NQ 29520.75 · VIX 18.85 · 4 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-20T12:07:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4139.9 · NQ 29524.5 · VIX 18.75 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el S&P 500 (ES) con el NQ…",
    "ts": "2026-10-19T21:33:08Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Volatilidad elevada (VIX 18.44).",
-   "ts": "2026-10-19T21:33:06Z"
   }
  ],
  "briefs": [
@@ -8370,12 +8370,34 @@
   }
  },
  "en_vivo": {
-  "oro": 4139.9,
-  "nq": 29524.5,
-  "vix": 18.75,
-  "ts": "2026-10-20T12:02:30Z"
+  "oro": 4144.3,
+  "nq": 29520.75,
+  "vix": 18.85,
+  "ts": "2026-10-20T12:07:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Apple adds U.S. titanium supplier for iPhone Duo as supply stays tight",
+   "link": "https://www.cnbc.com/2026/10/20/apple-adds-us-titanium-supplier-for-iphone-duo.html",
+   "ts": "2026-10-20T12:00:02Z",
+   "fuente": "CNBC",
+   "id": "2b9c42330f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Draymond Green says he's 'not Steph Curry,' wants to play another year even if he leaves Golden State Warriors",
+   "link": "https://www.cnbc.com/2026/10/20/draymond-green-says-hell-play-in-2027-with-or-without-the-warriors.html",
+   "ts": "2026-10-20T12:00:02Z",
+   "fuente": "CNBC",
+   "id": "7c999d82f0",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Stocks making the biggest moves premarket: RTX, General Motors, Northrop Grumman, Steel Dynamics & more",
    "link": "https://www.cnbc.com/2026/10/20/stocks-making-the-biggest-moves-premarket-rtx-gm-noc-stld.html",
@@ -8439,6 +8461,17 @@
    "id": "356a19acea",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "AI rally fades away from Wall Street as a tiny IPO makes big waves",
+   "link": "https://www.cnbc.com/2026/10/20/ai-rally-fades-elice-ipo-dives.html",
+   "ts": "2026-10-20T11:34:03Z",
+   "fuente": "CNBC",
+   "id": "9aca514388",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "French Government-Bond Yields Turn Higher; Treasury Yields Fall",
@@ -8850,6 +8883,15 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Trump announces 100% tariff on Chinese imports, after stock market sell-off",
+   "link": "https://news.google.com/rss/articles/CBMiuhVBVV95cUxPd3VrUWdheEpLUldIY0JjSEhBVE5iZWxFdGRmUnBENjZRQnZjdHcydWNKamJ0aVUzRW1pblRNbm05b3Nrdzh5WW94bEhiOHNJeHZCTjFhMDdYeXIyZFRTZzhPSlJHY2N4ZERvWXd6eExPMmFEUzhSb0FlZ19UOVF5M3EtNGJxQy1KT21MM3B4ZkNKSzJJSjRHYTluNzFFMU5DR19mV0xJbzQ0Wmw4V1U1NFd4UjJHWXFnRjFWLU1rV0dZWmVuZHFPbWtMYkpGbEtiSkJvZFVOdGRCR2hsM2V5MDQ1eldSRkthdl82THVtYzI3WmRmR05VVFNJTWxBaG1qbjRzMnZtQS1HRzBDd0loWGxud0lUZXhVQ2h0d3ktWWhrNE1YZTY3SlliNUxCZk9qNE8xMGM1cHlvb3J1M2szenZEZWlKaV9hMElLUEhKVl9IWFRxUFNCVC1aWGUydEFlb2RBSjNNM05MRElsZjZLc2RENEJYRnNHRWFfQ3pVNFZDcUF5bC1wUjJrSDQzSGtVaG1fNlRUYzlZSmU4RUtNcEg2SWwyMXZCZG84WUZuX3hseEVuRU1tWGgwaEdWQlNLejRFRDZnZHlMcEEwZkU1clA0ZHdRYS1scU0xZE5iSUw5UmtRNUttalpMc1BwbnlNMERrSlhuNGVuUE9KZWNpVmduS3JnWE1rQ2NLdG1iV1VtLTBtR0trOE1DRXdBNjBfRzIwTkh6Y2lNTUdvc09qbmVhU0VrWjF4N2pLMnhfWDJPTi1IalVfaWVoYzdoN2VqRkItRG81UXp6NlNjNFFBUGZaN21WY2ZZOERpR2FVSXZQNzVVSDFoTXNoVzR2VHhxZGJ6YTBDT1cyaWNEYWZvTXZBV2Z4eElIc0JuTkdvWUVxeERmcFdHbS1XVHFUdDk2WXg4Q3F0MkN2MVFvSFFzVl9TTTk1TU5GRmVHeGhCUU5aMnBEbGZ4ZWhMamFjbEcyb2ZaVzRPQ1ZZVjJ4SU53bXhxUWhPY0w2ZFQwRFdtOTZfQ05lUWRqZ1RRTmg4U1RqR3lJRGhVelQwSU9ySWFlSFhTX3pfempNZDM5WnlRd3NzTlBibkI4eEpfblpqM05uTmJQdE5mcFIwYUxoamRQem5RY1NWYzhzbUZDM3ZHN3lXR3dKa0lZMnRNM0hsbkw2RWlLRmRsYnJoUmRJTzZwbnJzTURTVkJnZVd1SkRnU1hrV041MUY3bEw0b2ZSMDZLbnpLV2ljTF9vM0tQdXpFQVJIUWd4aUlxRTVHSTI2ZWhya3Aybllpb3l1S3JJVENzd3hvTEtwb0ZIVmtOUWdaMEVwb0lOLU9raXB4QXFDNmVJZzZaeFdGNWpWUzRSVGVqNk4zSTM4Q2hUUkJncVJvUkdUZWpFMTFkeHBtTFZKellHWDNqZEQxSXNPSHVnV3VRZERfS3ZmWUprRGNOSlFScjVlVzdrdEFqLW9SaDlYbldjenE1X1FVTGI4X2pZOWY5ejVpRnVwQXZ5ZFlBY0NOM0hzQXFhaDRrOTdyeWVFMDdhVFJSaDFYQ1Y1YVN0TWlvUXBtX1B2ZmMtU21RZEZWbUJpQUhuZnFwTFlQRFRqb2MzOTlCdDRvVWpBNG9SeGxyMXdIdmxNNFZMSTc0aVJQdjc2SUczaWR2R2kxMWxkZWpGaFRZaTJoemRWb3d4NXpicXUzWE16N3NRVURXLUhXQ25LRzMxWDh6RGpCclpZY3lzWmtreU14akkyQ3pXQmVleUdDU00xME9FOWZKLXpSN2dxWDRaLWdoTnBTWFBKMHRQZGJza3FZTGZWY0t0a0M1Q1B1N1lzWkEtQW9nZGYyY0lzWlVQckhEMlRiSU9vZkp1ZTBETFk5NEU2Z0ZaUTJYOV9lTFdHSlo3aDFDVW81QXhxN2cyZ0JTbHZDTVZPY1RNVk9ERmNyTWVZZkJFSTZsQW1iQ2ZJSXpXUU1xalZ1TWVmY3JUX3VkclIzZVRYSTE5dEltNS1TOVNvNHpiTm4xREhnZi1ZRzR0a0ZHMGVZcnNleFBKTTBxUGpTM0xsU0FKeUxBRHVZb3hJajY1ZW9sbTY1VmlKV3ViZi1RWF9CWEJhMzJMUHNaU041MWZhaE05UjhrSzBxNHZfU29BMmxzWkxUWGRXLU1qSWR1aE9ma2dhT0E4NFptUU50ZENSVnYtdkFWNU54YWc0dExvb1JQcXlweFdWZXNjdEt5bW4tZzBMSnVoWHctbFdQbUZ4MHZ6aXFwSEJMNGpGdlJLcTNJb1Q4aExpamFWSlB2QWZSOC1LV0NhTzNySVB2RUwyR1FiamR3ZlZLMnVsNWFUZHVzWUUtMS1NNGt3a0tsbG9MZkNuRGxxSFV3NEU1bG5RcGhhOEZzVzdranB1NzA2VGhabjlscjhzMC1WSWhXTGlSNkRhLXJCSUpaR1o3anREZkdSQUt6SDVxazhNQ09pVTFyOVpiRTRxd1RRMXlrV29mR3NNTlVGYnQ3NjdZZlJIaE53aWZNSkJuYkFLZTlZSGVFYURwQjZaZ2Qzb0NVMjlJVEt3TjRWQm9pd1duWXlwbW1KM0sxbGV5RnBkTU92V0YxeVhWRmJpVVlNamZ6WHZiekczS2hUbmVpbTN5YmdlUU8wVXgtVVRjNTlDMm5GOUhUeVdxdy1vUEtYWnd4M1liU1lOTVplcXZVT0FQTjEwNGN0SkR1aGZVdVJjeE1FMnVNcEJxeGxKTnFsSVRwdmNnY0p6eS1kek9rVjJaaTFoRHM3RkgwM3hZZUd0YWhVcktfeXZsYzZnQlpRWDMtenV1eFJZUHhoUUxsMnAwMkYxRU54QXMxYmhpeGNUUGdkbU80ZDRMSzlnQ2tJWjhVMnlISWZhSkhTRkc4dk5zdjEteXVuaEtFN19ORHZTdHk5ak1mOE4tVDVyWG9wZ3JSc1JPM09wVEZ5THRPN1hxeTlNVmJmdHM2Q0QtTlpCZV85VkJCelZvbE5mb2xoUU5ZMUxSOVVYckFMcFJTZE44U2ZVY0s0ekpxemxLUjNJczJNMU5UTWNORVpWV1BieVZHSTBTWUdfLVNoWmhfZTJhX0dSczJsZDlINEd5WHI5RklZbjV3MnBGR2RpV242Q2tKQ0w1VkJmZ1pfY2NEeGFrVDJPZ2VITkMyT21kSGZ0QllXSFlJczc2eGNRdVdpX19iU2lzYjRpVVZkcTI0NXFkOVg4UEVMbXR5aVlrY2VfT1QweUl1TXBHNFlNQUR6OGM1MzFfMmFlamxhV2thRlc3MWRsbElMbG9ZRXlVV0l6ZnBXMktUcHVmNXhlRHVTekI3eFUxaXZlVEVIRWt4SjdFRE10dmVSbFNKYTlsa3gyQXlHT1l2clJmMVUtT2M4WkRUYW5aUUtKV1ZOb2dyaEs0TTZnSHhxdEpiVTA4cG1HZWF3aEE2YVRnUS1hYzNma0dieW1YMjgzamRDRV80ZUdMWTJDcDRBOGxZQlUtUmQxSjc4ZmR1eVIweU5TWmVnQmVZUHB2ZGJCOEF5VUhXYy1Sd0N5S0Z4d3I4UEFVS05zZU5yLV9QVW5XRG80akh1Yk9ncy1QN1NuNVZEMHBvN2hvTUtZV2pNMERDaUhCbmNqVjhKYm5pLTJuQ2VBVGp2TWxVS1lQYXZWYTRYVDVWeWd6Qm9SU0J3Qnk0b0RwSS1n?oc=5",
+   "ts": "2026-10-20T10:13:48Z",
+   "fuente": "ABC7 Chicago",
+   "id": "17dc76db46",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Nasdaq futures dip as oil prices climb, earnings loom",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2JsXzZ4YTVKcDJjNE9iTW42aU0wY0VOZXRtdDYxTzJTanBUOGZIT1FLSl9FVTNxQ1RpTVFSWHlsejgyR0Y1b3JQWXRlT0dEMjJPWWpXYlpfdFJQaHZKZG5KdUNMdW53NmlMd2RwUWJKWFB3dE9Xc2ZBbnRfalF3cWNzblhxTGJOTGlKYUh1a0FmWC1vaGQydWZXdTMzemJjSVg5NWZ0bw?oc=5",
    "ts": "2026-10-20T10:09:44Z",
@@ -9175,46 +9217,6 @@
    "id": "267f31bd13",
    "activos": [
     "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "U.S. bans DeepSeek from government agency systems amid AI rift with China",
-   "link": "https://www.cnbc.com/2026/10/20/us-deepseek-federal-agency-ban.html",
-   "ts": "2026-10-20T06:25:26Z",
-   "fuente": "CNBC",
-   "id": "53addb6c0f",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Brent crude holds near five-month high on Middle East tension",
-   "link": "https://www.cnbc.com/2026/10/20/brent-crude-holds-near-five-month-high-middle-east-tension.html",
-   "ts": "2026-10-20T06:20:02Z",
-   "fuente": "CNBC",
-   "id": "112d52723d",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Copper is outshining gold this year. Investors say the rally can survive an AI correction",
-   "link": "https://www.cnbc.com/2026/10/20/copper-prices-ai-spending-demand.html",
-   "ts": "2026-10-20T05:57:34Z",
-   "fuente": "CNBC",
-   "id": "8c425ed3df",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Dollar surrenders gains as record Japanese bond auction sparks Yen rally",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-firm-dollar-retreats-054434934.html?.tsrc=rss",
-   "ts": "2026-10-20T05:44:34Z",
-   "fuente": "Yahoo Finance",
-   "id": "78ca131511",
-   "activos": [
-    "dolar"
    ],
    "impacto": "medio"
   }
@@ -9768,16 +9770,16 @@
    [
     1792494000,
     4139.3,
-    4143.8,
+    4146.1,
     4138.4,
-    4140.8
+    4144.3
    ],
    [
-    1792497145,
-    4140.6,
-    4140.6,
-    4140.6,
-    4140.6
+    1792497448,
+    4144.3,
+    4144.3,
+    4144.3,
+    4144.3
    ]
   ],
   "nq": [
@@ -10318,14 +10320,14 @@
     29582.0,
     29585.5,
     29510.0,
-    29521.75
+    29519.75
    ],
    [
-    1792497149,
-    29523.75,
-    29523.75,
-    29523.75,
-    29523.75
+    1792497451,
+    29520.75,
+    29520.75,
+    29520.75,
+    29520.75
    ]
   ],
   "vix": [
@@ -10754,14 +10756,14 @@
     18.71,
     18.84,
     18.65,
-    18.75
+    18.82
    ],
    [
-    1792496836,
-    18.75,
-    18.75,
-    18.75,
-    18.75
+    1792497151,
+    18.84,
+    18.84,
+    18.84,
+    18.84
    ]
   ]
  },
@@ -10845,10 +10847,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "60e0567240",
-  "1915c4cff6",
-  "24ba972e58",
-  "83ff04dc26",
   "335ada7a01",
   "07be1d40d1",
   "f1711e68b3",
@@ -11644,6 +11642,10 @@
   "3f651c99d5",
   "356a19acea",
   "e5331b830e",
-  "37b03b7c9e"
+  "37b03b7c9e",
+  "2b9c42330f",
+  "7c999d82f0",
+  "9aca514388",
+  "17dc76db46"
  ]
 }
