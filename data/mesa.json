@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4158.2 · NQ 29733.5 · VIX 18.44",
-   "actualizado": "2026-10-20T02:37:35Z"
+   "ultimo_resultado": "Oro 4155.4 · NQ 29719.0 · VIX 18.44 · 1 noticias nuevas",
+   "actualizado": "2026-10-20T02:42:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T02:37:34Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-20T02:42:35Z",
+   "ultimo_resultado": "1 titulares nuevos: Gold futures trade lower as rising Treasury yields lift the dollar."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4155.4 · NQ 29719.0 · VIX 18.44 · 1 noticias nuevas",
+   "ts": "2026-10-20T02:42:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4158.2 · NQ 29733.5 · VIX 18.44",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +107,089 contratos.",
    "ts": "2026-10-19T12:33:03Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-10-19T12:33:02Z"
   }
  ],
  "briefs": [
@@ -8204,10 +8204,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4158.2,
-  "nq": 29733.5,
+  "oro": 4155.4,
+  "nq": 29719.0,
   "vix": 18.44,
-  "ts": "2026-10-20T02:37:34Z"
+  "ts": "2026-10-20T02:42:35Z"
  },
  "noticias": [
   {
@@ -8297,6 +8297,18 @@
    "id": "b96d18928b",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Gold futures trade lower as rising Treasury yields lift the dollar.",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcHZneGJobkVRZ1EwUVNjZ2tkN2k0NUhtSG1nVXNNTEhJSzFMY0xhblRVR1JfOUJvbklEeEtrTkVQUDNhRXY0WG5EbWhmYjFuYjgtbkQ1Sm5meml6NUdyZHN4MURKbmpjRjJjcVVaU1VXeXJ0cEg5SkZlRFlIckJMT2YzbHlpb0lpd1dGakFuYjAzUXgzc1ZhQlV4LWhPWF9XVEJjd1lVbHlaRW9XOE0zMFpR?oc=5",
+   "ts": "2026-10-20T01:01:07Z",
+   "fuente": "CME Group",
+   "id": "c81c3c2ad6",
+   "activos": [
+    "oro",
+    "dolar"
    ],
    "impacto": "medio"
   },
@@ -9083,15 +9095,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Wells Fargo's comeback is just getting started. Here's why I'm buying",
-   "link": "https://www.cnbc.com/2026/10/19/wells-fargo-stock-why-im-buying-as-its-comeback-gains-momentum.html",
-   "ts": "2026-10-19T17:40:03Z",
-   "fuente": "CNBC",
-   "id": "e26c135507",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -9727,16 +9730,16 @@
    [
     1792461600,
     4150.0,
-    4159.9,
+    4160.0,
     4144.4,
-    4159.2
+    4155.7
    ],
    [
-    1792463249,
-    4158.2,
-    4158.2,
-    4158.2,
-    4158.2
+    1792463552,
+    4155.4,
+    4155.4,
+    4155.4,
+    4155.4
    ]
   ],
   "nq": [
@@ -10361,14 +10364,14 @@
     29735.0,
     29756.0,
     29682.5,
-    29736.5
+    29722.0
    ],
    [
-    1792463250,
-    29734.5,
-    29734.5,
-    29734.5,
-    29734.5
+    1792463554,
+    29719.0,
+    29719.0,
+    29719.0,
+    29719.0
    ]
   ],
   "vix": [
@@ -10950,7 +10953,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "29326771db",
   "5445fce620",
   "b830debe18",
   "cf828f02e5",
@@ -11749,6 +11751,7 @@
   "5f73ea97c5",
   "9c98a0914e",
   "a289685de6",
-  "f301559dfe"
+  "f301559dfe",
+  "c81c3c2ad6"
  ]
 }
