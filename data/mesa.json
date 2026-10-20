@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4136.0 · NQ 29602.5 · VIX 18.59 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-20T10:37:35Z"
+   "ultimo_resultado": "Oro 4137.2 · NQ 29597.0 · VIX 18.64 · 6 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-20T10:42:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T10:37:34Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Zelenski se reunirá con enviado de EE. UU. en medio de crecientes tensiones con Trump"
+   "actualizado": "2026-10-20T10:42:32Z",
+   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: HSBC CEO warns the AI boom won’t make every data center a good bet"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4137.2 · NQ 29597.0 · VIX 18.64 · 6 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-20T10:42:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4136.0 · NQ 29602.5 · VIX 18.59 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: Gartner analyst behind tech rout: AI returns are not yet large enough to justify neocloud build-out",
    "ts": "2026-10-19T21:17:33Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "2 titulares nuevos: El asesor comercial de Trump defiende los aranceles y destaca inversión de Texas Instruments en planta de Lehi",
-   "ts": "2026-10-19T21:13:12Z"
   }
  ],
  "briefs": [
@@ -8370,12 +8370,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4136.0,
-  "nq": 29602.5,
-  "vix": 18.59,
-  "ts": "2026-10-20T10:37:34Z"
+  "oro": 4137.2,
+  "nq": 29597.0,
+  "vix": 18.64,
+  "ts": "2026-10-20T10:42:33Z"
  },
  "noticias": [
+  {
+   "titulo": "HSBC CEO warns the AI boom won’t make every data center a good bet",
+   "link": "https://www.cnbc.com/2026/10/20/data-center-financing-ai-debt-hsbc.html",
+   "ts": "2026-10-20T10:39:17Z",
+   "fuente": "CNBC",
+   "id": "ca94a75724",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "General Motors beats Wall Street's Q3 earnings expectations, narrows full-year guidance",
    "link": "https://www.cnbc.com/2026/10/20/general-motors-gm-earnings-q3-2026.html",
@@ -8402,6 +8411,37 @@
    "efecto": "Impulsa al oro al alza por mayor demanda de refugio seguro."
   },
   {
+   "titulo": "Miata Intersects 43.0 m at 2.42 g/t Au, Including 4.0 m at 17.11 g/t Au at Jons Trend and Confirms Continuity with Big Berg at Sela Creek, Suriname",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/miata-intersects-43-0-m-103000722.html?.tsrc=rss",
+   "ts": "2026-10-20T10:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "7a7e0102c3",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "FORTUNE BAY COMPLETES GOLDFIELDS PROCESSING TRADE-OFF STUDY AND ADVANCES DEVELOPMENT PLANNING",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/fortune-bay-completes-goldfields-processing-103000025.html?.tsrc=rss",
+   "ts": "2026-10-20T10:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "d361222a09",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Cabral Gold Expands the Central Gold Deposit, Cuiú Cuiú Gold District, Brazil",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/cabral-gold-expands-central-gold-102900228.html?.tsrc=rss",
+   "ts": "2026-10-20T10:29:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "1e67247ca6",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Stock futures are mixed as chipmakers come under pressure: Live updates",
    "link": "https://www.cnbc.com/2026/10/19/stock-market-today-live-updates.html",
    "ts": "2026-10-20T10:22:50Z",
@@ -8418,6 +8458,17 @@
    "id": "1cfebe4726",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Commerce Bancshares (NASDAQ:CBSH) Reports Q3 2026 In Line With Expectations",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTUNZbEFNaDhfdVZUUURONWlIM1RvVV9pSGF5anZIZTNZOEt3LXFyY3dJdnhJbDQteC1VWHdLb2IybHdENXQtT1lIVmc5aVdvWmx1eHJ5ajQ4dnc3aE1hXzlXbk5iNzFHMGEzclI1X1BFbGtUQm5mWkMyVGFDT3dEcmF6N3dIV1NNakNVZUFkdzcwYWQ2R2ZGTkJ4MnMzWmlyWVN4MGRiMA?oc=5",
+   "ts": "2026-10-20T10:14:21Z",
+   "fuente": "Yahoo Finance",
+   "id": "f4e133fb8e",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -9034,6 +9085,17 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Gold eases as higher oil prices stoke inflation concerns",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOLVJCYm9CRFhWY01aUkRqYnVXb0RzRC1RUnhfOEFicHItalFBMnRMc0ZjcWRVcGNnZVg3ZXQ3WXNXeUZLN183enN0NFAtdmxuUHJhRU5jOHlQbTg1TldhNVdtbF9IWU1GZ1BfOEZvTnJpUEhGTE5xUkRSbl9FZVR4NlFJMEE2V1VYZ1hVRzk3SmpJMi1qelE?oc=5",
+   "ts": "2026-10-20T01:33:00Z",
+   "fuente": "Reuters",
+   "id": "50d4afcd28",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Gold eases as elevated oil prices keep inflation risks in focus",
    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOLVJCYm9CRFhWY01aUkRqYnVXb0RzRC1RUnhfOEFicHItalFBMnRMc0ZjcWRVcGNnZVg3ZXQ3WXNXeUZLN183enN0NFAtdmxuUHJhRU5jOHlQbTg1TldhNVdtbF9IWU1GZ1BfOEZvTnJpUEhGTE5xUkRSbl9FZVR4NlFJMEE2V1VYZ1hVRzk3SmpJMi1qelE?oc=5",
    "ts": "2026-10-20T01:33:00Z",
@@ -9185,70 +9247,6 @@
    "ts": "2026-10-19T23:30:00Z",
    "fuente": "Yahoo Finance",
    "id": "f93111a278",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Alkane Resources extends Nagambie gold-antimony system",
-   "link": "https://www.proactiveinvestors.com/companies/news/1100344/alkane-resources-extends-nagambie-gold-antimony-system-1100344.html?.tsrc=rss",
-   "ts": "2026-10-19T23:24:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "50b462a654",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "LightStream stops accepting loan applications. Try these 6 lenders instead",
-   "link": "https://www.cnbc.com/select/lightstream-stops-accepting-loan-applications-try-these-6-lenders-instead/",
-   "ts": "2026-10-19T23:12:12Z",
-   "fuente": "CNBC",
-   "id": "371b9f5da1",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "LightStream deja de aceptar solicitudes de préstamos.",
-   "efecto": "Sin impacto macroeconómico ni institucional relevante."
-  },
-  {
-   "titulo": "Nasdaq 100 Sees Best Day In Nearly A Month As AI Rout Cools — AMZN, BE, CRWV, AAPL, PLTR In Focus",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRmhicmtORkZuWXluYUZYd1lobHB1UDNlZk04YWRMZlg0blppUTdhdm0xYmhCOGNOS0ttdjdSbWlJSzNkb0JHeFBHMnFHdWxyTi1oLVl1dEljTXd0Q2dJNXcwQ0QyY1lHdUZkblF3dGppS1hfTmN5NDVKT3NxYVliR2xnX3p5QmxfeVpHZEJZZkpCOHc?oc=5",
-   "ts": "2026-10-19T23:00:23Z",
-   "fuente": "Yahoo Finance",
-   "id": "6cf2252ef4",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "CNBC's The China Connection newsletter: Navigating a tech-heavy world",
-   "link": "https://www.cnbc.com/2026/10/19/cnbcs-the-china-connection-newsletter-navigating-a-tech-heavy-world.html",
-   "ts": "2026-10-19T23:00:02Z",
-   "fuente": "CNBC",
-   "id": "930a9aea3c",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Nasdaq Stocks Could Crash 30% If This Happens, Experts Warn",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRmx4a253ZldKS0RxUE8ta256NGFpS3Y4NnF2Y1ZOdTExRy1uT2lveVpqTURRYkFhOTUzcGdCRWdlNUxkTUswcEdWMHlCVjhxMWt1b0NVeEtKLUNuNHZlTHdyZGpaeV8wRjNzYmF0clBTRkJNSERHNFk3TlNDXy1uQ3k1b3pnS2pwZjR6TWFGNjItbXhrRzlpSQ?oc=5",
-   "ts": "2026-10-19T23:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "aa97aedab6",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Forget GLD. Investors Sent $500 Million to the Cheaper SPDR Gold Fund",
-   "link": "https://247wallst.com/investing/etf/2026/10/19/forget-gld-investors-sent-500-million-to-the-cheaper-spdr-gold-fund/?.tsrc=rss",
-   "ts": "2026-10-19T22:47:32Z",
-   "fuente": "Yahoo Finance",
-   "id": "49c80a3e6e",
    "activos": [
     "oro"
    ],
@@ -9797,16 +9795,16 @@
    [
     1792490400,
     4131.6,
-    4136.7,
+    4137.8,
     4130.1,
-    4136.1
+    4137.8
    ],
    [
-    1792492052,
-    4136.0,
-    4136.0,
-    4136.0,
-    4136.0
+    1792492351,
+    4137.1,
+    4137.1,
+    4137.1,
+    4137.1
    ]
   ],
   "nq": [
@@ -10340,14 +10338,14 @@
     29623.0,
     29636.75,
     29587.5,
-    29599.75
+    29605.25
    ],
    [
-    1792492051,
-    29602.5,
-    29602.5,
-    29602.5,
-    29602.5
+    1792492352,
+    29597.0,
+    29597.0,
+    29597.0,
+    29597.0
    ]
   ],
   "vix": [
@@ -10769,14 +10767,14 @@
     18.67,
     18.73,
     18.53,
-    18.58
+    18.64
    ],
    [
-    1792491751,
-    18.59,
-    18.59,
-    18.59,
-    18.59
+    1792492051,
+    18.64,
+    18.64,
+    18.64,
+    18.64
    ]
   ]
  },
@@ -10860,12 +10858,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "f4923ad556",
-  "d1cfff5a5d",
-  "d4a22cb0e8",
-  "84e527cae3",
-  "f26239cfad",
-  "a96892ced9",
   "0e794bf974",
   "740bed2b22",
   "03c4c42f0e",
@@ -11659,6 +11651,12 @@
   "07f63fb0a2",
   "3d36f4bd07",
   "d55e8fd4a5",
-  "87f7056990"
+  "87f7056990",
+  "ca94a75724",
+  "7a7e0102c3",
+  "d361222a09",
+  "1e67247ca6",
+  "f4e133fb8e",
+  "50d4afcd28"
  ]
 }
