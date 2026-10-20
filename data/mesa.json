@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4134.1 · NQ 29615.25 · VIX 18.58 · 2 noticias nuevas",
-   "actualizado": "2026-10-20T10:32:32Z"
+   "ultimo_resultado": "Oro 4136.0 · NQ 29602.5 · VIX 18.59 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-20T10:37:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T10:32:31Z",
-   "ultimo_resultado": "2 titulares nuevos: General Motors beats Wall Street's Q3 earnings expectations, narrows full-year guidance"
+   "actualizado": "2026-10-20T10:37:34Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Zelenski se reunirá con enviado de EE. UU. en medio de crecientes tensiones con Trump"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4136.0 · NQ 29602.5 · VIX 18.59 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-20T10:37:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4134.1 · NQ 29615.25 · VIX 18.58 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "2 titulares nuevos: El asesor comercial de Trump defiende los aranceles y destaca inversión de Texas Instruments en planta de Lehi",
    "ts": "2026-10-19T21:13:12Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-19T21:07:39Z"
   }
  ],
  "briefs": [
@@ -8370,10 +8370,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4134.1,
-  "nq": 29615.25,
-  "vix": 18.58,
-  "ts": "2026-10-20T10:32:31Z"
+  "oro": 4136.0,
+  "nq": 29602.5,
+  "vix": 18.59,
+  "ts": "2026-10-20T10:37:34Z"
  },
  "noticias": [
   {
@@ -8386,6 +8386,20 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Zelenskyy to meet with U.S. envoy as tensions with Trump mount",
+   "link": "https://www.cnbc.com/2026/10/20/zelenskyy-witkoff-trump-ukraine-russia.html",
+   "ts": "2026-10-20T10:30:49Z",
+   "fuente": "CNBC",
+   "id": "d55e8fd4a5",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Zelenski se reunirá con enviado de EE. UU. en medio de crecientes tensiones con Trump",
+   "efecto": "Impulsa al oro al alza por mayor demanda de refugio seguro."
   },
   {
    "titulo": "Stock futures are mixed as chipmakers come under pressure: Live updates",
@@ -8527,6 +8541,19 @@
     "dolar"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Should iShares Nasdaq 100 ETF (IQQ) Be on Your Investing Radar?",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVGxEQ2pXQ1liZ2ptMHlYcGRDN0ZZYzNNUWtsOTYyVmhhT3o3dTBRZElZV2RIaUI4TDN5eDI3ckxhcng3TEtfWlh2VEtrYXVuVnI3Vmg5dTlqTl95Y2hSSFNBci1CUXI2cEJEbjhrT0E0NjRjVmdXS3dkSm94Z3VkTVkxM0FNV0x5NE1ycjlFOV93Wkd3eXc?oc=5",
+   "ts": "2026-10-20T09:20:02Z",
+   "fuente": "Yahoo Finance",
+   "id": "87f7056990",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "¿Debería el ETF iShares Nasdaq 100 (IQQ) estar en su radar de inversión?",
+   "efecto": "Ruido minorista sin impacto institucional en el corto plazo."
   },
   {
    "titulo": "Fortuna intersects 0.96 g/t gold over 350 meters at the Lindero Mine, Argentina",
@@ -9226,26 +9253,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Jim Cramer says don't chase the AI rebound just yet. Here's what needs to happen first",
-   "link": "https://www.cnbc.com/2026/10/19/jim-cramer-dont-chase-ai-rebound-yet.html",
-   "ts": "2026-10-19T22:46:33Z",
-   "fuente": "CNBC",
-   "id": "3d36f4bd07",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Coeur Mining (CDE) Stock Looks Undervalued Despite Recent Market Pressure",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/coeur-mining-cde-stock-looks-221948382.html?.tsrc=rss",
-   "ts": "2026-10-19T22:19:48Z",
-   "fuente": "Yahoo Finance",
-   "id": "ff062c9290",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Las acciones de Coeur Mining (CDE) parecen infravaloradas a pesar de la presión reciente",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -9790,16 +9797,16 @@
    [
     1792490400,
     4131.6,
-    4134.7,
+    4136.7,
     4130.1,
-    4134.5
+    4136.1
    ],
    [
-    1792491748,
-    4134.0,
-    4134.0,
-    4134.0,
-    4134.0
+    1792492052,
+    4136.0,
+    4136.0,
+    4136.0,
+    4136.0
    ]
   ],
   "nq": [
@@ -10333,14 +10340,14 @@
     29623.0,
     29636.75,
     29587.5,
-    29622.5
+    29599.75
    ],
    [
-    1792491749,
-    29615.25,
-    29615.25,
-    29615.25,
-    29615.25
+    1792492051,
+    29602.5,
+    29602.5,
+    29602.5,
+    29602.5
    ]
   ],
   "vix": [
@@ -10761,19 +10768,19 @@
     1792490400,
     18.67,
     18.73,
-    18.56,
+    18.53,
     18.58
    ],
    [
-    1792491436,
-    18.58,
-    18.58,
-    18.58,
-    18.58
+    1792491751,
+    18.59,
+    18.59,
+    18.59,
+    18.59
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-20T10:02:44Z",
+ "noticias_traducidas_ts": "2026-10-20T10:37:33Z",
  "ult_4h": 1792492351.916447,
  "estrategia_4h": {
   "oro": {
@@ -10853,8 +10860,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "29cbc736a4",
-  "b12762fe26",
   "f4923ad556",
   "d1cfff5a5d",
   "d4a22cb0e8",
@@ -11652,6 +11657,8 @@
   "14bc3d0d69",
   "1cfebe4726",
   "07f63fb0a2",
-  "3d36f4bd07"
+  "3d36f4bd07",
+  "d55e8fd4a5",
+  "87f7056990"
  ]
 }
