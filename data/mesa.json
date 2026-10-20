@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4142.0 · NQ 29745.5 · VIX 17.59 · 1 noticias nuevas",
-   "actualizado": "2026-10-20T16:57:38Z"
+   "ultimo_resultado": "Oro 4136.6 · NQ 29698.0 · VIX 17.71 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-20T17:11:55Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T16:57:37Z",
-   "ultimo_resultado": "1 titulares nuevos: What Amazon must do to get its stumbling stock back to record highs and beyond"
+   "actualizado": "2026-10-20T17:11:54Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Thunderstruck Resources inicia perforación de diamantes en proyecto Liwa en Fiyi"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4136.6 · NQ 29698.0 · VIX 17.71 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-20T17:11:55Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4142.0 · NQ 29745.5 · VIX 17.59 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4161.3 · NQ 29747.0 · VIX 18.44",
    "ts": "2026-10-20T03:42:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4161.2 · NQ 29741.0 · VIX 18.44",
-   "ts": "2026-10-20T03:37:35Z"
   }
  ],
  "briefs": [
@@ -8542,10 +8542,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4142.0,
-  "nq": 29745.5,
-  "vix": 17.59,
-  "ts": "2026-10-20T16:57:38Z"
+  "oro": 4136.6,
+  "nq": 29698.0,
+  "vix": 17.71,
+  "ts": "2026-10-20T17:11:55Z"
  },
  "noticias": [
   {
@@ -8589,6 +8589,19 @@
    "impacto": "alto"
   },
   {
+   "titulo": "Thunderstruck Resources Starts Diamond Drilling at Liwa Gold-Silver Project in Fiji",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/thunderstruck-resources-starts-diamond-drilling-164104504.html?.tsrc=rss",
+   "ts": "2026-10-20T16:41:04Z",
+   "fuente": "Yahoo Finance",
+   "id": "c13275dca6",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Thunderstruck Resources inicia perforación de diamantes en proyecto Liwa en Fiyi",
+   "efecto": "Sin impacto institucional significativo por ser minera menor y proyecto temprano."
+  },
+  {
    "titulo": "Wall Street gains ground on healthcare stocks rally, oil retreat",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2JsXzZ4YTVKcDJjNE9iTW42aU0wY0VOZXRtdDYxTzJTanBUOGZIT1FLSl9FVTNxQ1RpTVFSWHlsejgyR0Y1b3JQWXRlT0dEMjJPWWpXYlpfdFJQaHZKZG5KdUNMdW53NmlMd2RwUWJKWFB3dE9Xc2ZBbnRfalF3cWNzblhxTGJOTGlKYUh1a0FmWC1vaGQydWZXdTMzemJjSVg5NWZ0bw?oc=5",
    "ts": "2026-10-20T16:39:08Z",
@@ -8607,6 +8620,21 @@
    "id": "6953ea1f5b",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Opinion | The Biggest Inflation Contributor: Tariffs",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc0JELXBwdXN0M3BvV0VhVXc3Y0tqSllPcWZOdm81Wll0TlhNNTlkajhJUXdpSTNQekNPaUJvYzNGakVUbWY5ZFRfMmhFMS1hdXhvX2VUTzFES3I2dTVXNmE4cXFXNGdRb25PZUt6aGhmbVJRSms0ZXFSSXZSamZPcU9DTkU?oc=5",
+   "ts": "2026-10-20T16:35:00Z",
+   "fuente": "WSJ",
+   "id": "34e5a788f7",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Opinión: El mayor contribuyente a la inflación son los aranceles",
+   "efecto": "Fortalece al dólar y presiona a la baja a NQ y oro por temor a tasas altas."
   },
   {
    "titulo": "Dow jumps 400 points as solid earnings, falling crude oil stir rebound: Live updates",
@@ -8726,6 +8754,19 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "JPMorgan Asset Sees Bitcoin Beating Stocks, But With a Catch",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/jpmorgan-asset-sees-bitcoin-beating-155653867.html?.tsrc=rss",
+   "ts": "2026-10-20T15:56:53Z",
+   "fuente": "Yahoo Finance",
+   "id": "8f3259ea5e",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "JPMorgan Asset ve al Bitcoin superando a las acciones, pero con condiciones",
+   "efecto": "Genera cautela en renta variable y flujo hacia activos alternativos."
   },
   {
    "titulo": "SpaceX earnings live updates: Here's why analysts are bullish ahead of the report",
@@ -9375,41 +9416,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Royal Road Advances Gold Exploration Target at El Alemán, GAM Project, Colombia",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/royal-road-advances-gold-exploration-123000721.html?.tsrc=rss",
-   "ts": "2026-10-20T12:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "99d9b9154c",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Visionary Receives Exploration Permits for Its High-Grade Copper and Gold Pine Bay Project in the Flin Flon Mining District, Manitoba",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/visionary-receives-exploration-permits-high-123000928.html?.tsrc=rss",
-   "ts": "2026-10-20T12:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "35a322b240",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Lion One Reports 3,796 oz in Quarterly Gold Recovery, Delivery of LM90 Underground Drill",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/lion-one-reports-3-796-123000056.html?.tsrc=rss",
-   "ts": "2026-10-20T12:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "9e9bd8f83e",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Lion One reporta recuperación trimestral de 3,796 oz de oro y entrega de taladro subterráneo LM90",
-   "efecto": "Sin impacto institucional significativo; noticia operativa de minera específica."
   }
  ],
  "eventos_avisados": [
@@ -9997,15 +10003,22 @@
     1792512000,
     4150.3,
     4151.4,
-    4140.0,
-    4142.4
+    4139.4,
+    4139.8
    ],
    [
-    1792514847,
-    4142.0,
-    4142.0,
-    4142.0,
-    4142.0
+    1792515600,
+    4139.7,
+    4140.6,
+    4136.3,
+    4136.7
+   ],
+   [
+    1792515712,
+    4136.6,
+    4136.6,
+    4136.6,
+    4136.6
    ]
   ],
   "nq": [
@@ -10580,15 +10593,22 @@
     1792512000,
     29788.5,
     29797.75,
-    29700.0,
-    29755.0
+    29688.75,
+    29711.0
    ],
    [
-    1792514857,
-    29745.75,
-    29745.75,
-    29745.75,
-    29745.75
+    1792515600,
+    29711.25,
+    29728.0,
+    29692.5,
+    29696.5
+   ],
+   [
+    1792515714,
+    29698.0,
+    29698.0,
+    29698.0,
+    29698.0
    ]
   ],
   "vix": [
@@ -11051,67 +11071,67 @@
     1792512000,
     17.71,
     17.89,
-    17.57,
-    17.6
+    17.55,
+    17.69
    ],
    [
-    1792514551,
-    17.59,
-    17.59,
-    17.59,
-    17.59
+    1792515406,
+    17.71,
+    17.71,
+    17.71,
+    17.71
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-20T16:37:36Z",
- "ult_4h": 1792514853.4231925,
+ "noticias_traducidas_ts": "2026-10-20T17:11:43Z",
+ "ult_4h": 1792516315.0119865,
  "estrategia_4h": {
   "oro": {
-   "precio": 4145.6,
-   "atr_4h": 21.71,
+   "precio": 4136.4,
+   "atr_4h": 21.56,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4183.13,
+     "stop": 4183.03,
      "objetivo": 4130.1,
-     "rr": 3.07,
+     "rr": 3.09,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.91,
+     "fuerza_ruptura_atr": 0.92,
      "ruptura": "2026-10-19 12:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29786.25,
-   "atr_4h": 209.75,
+   "precio": 29698.0,
+   "atr_4h": 210.55,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30356.75,
      "entrada": 30356.75,
-     "stop": 30482.6,
+     "stop": 30483.08,
      "objetivo": 29268.75,
-     "rr": 8.65,
+     "rr": 8.61,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 2.05,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30529.25,
-     "entrada": 30529.25,
-     "stop": 30655.1,
+     "nivel": 30504.5,
+     "entrada": 30504.5,
+     "stop": 30630.83,
      "objetivo": 29268.75,
-     "rr": 10.02,
+     "rr": 9.78,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 2.05,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-20T16:47:33Z"
+  "ts": "2026-10-20T17:11:55Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -11143,9 +11163,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "006635b182",
-  "381424a433",
-  "3106282056",
   "98555f49e4",
   "e559e6d086",
   "274d07b67c",
@@ -11942,6 +11959,9 @@
   "e9767ab4c7",
   "134d50f4f4",
   "6953ea1f5b",
-  "b9e90c61c4"
+  "b9e90c61c4",
+  "c13275dca6",
+  "34e5a788f7",
+  "8f3259ea5e"
  ]
 }
