@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4132.8 · NQ 29528.75 · VIX 18.89 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-20T12:27:36Z"
+   "ultimo_resultado": "Oro 4134.3 · NQ 29506.5 · VIX 18.81 · 4 noticias nuevas",
+   "actualizado": "2026-10-20T12:32:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T12:27:36Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: UK to deploy fighter jets to defend Saudi cities from Houthi attacks"
+   "actualizado": "2026-10-20T12:32:33Z",
+   "ultimo_resultado": "4 titulares nuevos: Alberta votes by large majority to remain part of Canada in boost for Carney"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4134.3 · NQ 29506.5 · VIX 18.81 · 4 noticias nuevas",
+   "ts": "2026-10-20T12:32:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4132.8 · NQ 29528.75 · VIX 18.89 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Brief de Asia (Tokio/Sídney) publicado: DXY y VIX presionan a la baja a ORO y NQ; sin entradas por consumo de ATR",
    "ts": "2026-10-19T21:35:05Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Escribiendo el brief institucional…",
-   "ts": "2026-10-19T21:33:14Z"
   }
  ],
  "briefs": [
@@ -8370,12 +8370,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4132.8,
-  "nq": 29528.75,
-  "vix": 18.89,
-  "ts": "2026-10-20T12:27:36Z"
+  "oro": 4134.3,
+  "nq": 29506.5,
+  "vix": 18.81,
+  "ts": "2026-10-20T12:32:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Alberta votes by large majority to remain part of Canada in boost for Carney",
+   "link": "https://www.cnbc.com/2026/10/20/alberta-canada-vote-remain.html",
+   "ts": "2026-10-20T12:32:19Z",
+   "fuente": "CNBC",
+   "id": "76060a1841",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "UK to deploy fighter jets to defend Saudi cities from Houthi attacks",
    "link": "https://www.cnbc.com/2026/10/20/uk-fighter-jets-saudi-houthi-attacks-iran.html",
@@ -8410,6 +8419,40 @@
    "fuente": "CNBC",
    "id": "e0805e36ee",
    "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Hilton to move stock listing to Nasdaq",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZFhNS2xBNHlPZElTVkgxNzVDQUNnWjByLXFZbm1vVUVyeUFrTDNuM29McElTd2hKQjFBLXVTd09kV2ZHT3lkXzFBLVZ1QlFTeXRiLVE3Sm9DaHpIT09HMXNnS2dVZE16VGZMcUdTM3ZSYWFmaWR4NGhrVmJYZnFjYW43RQ?oc=5",
+   "ts": "2026-10-20T12:17:44Z",
+   "fuente": "Reuters",
+   "id": "f633a7e803",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "LogiVeo Announces Gold Sponsorship of SuiteWorld 2026",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNLVFEazB6dTJDQURoRklrSDdUb09URXJaTHRQQU1SV05Za3huQ1VWUnhyQ3FDTmhseThTQTNfZnhFMkxVZGQyeXA2Zkg2RGxlLTB0LXNpcVVfQnN2REZqOEdsZmlBTjhYSVAtVk9TRWRucjZnU0NIUXFoZ2JXM3NQMnRtXzRhc0xSbUFtLU5fTmFSdV91dEhERUlfR0E1ODNjc1FLMzdZbmdFODNoWGdV?oc=5",
+   "ts": "2026-10-20T12:05:00Z",
+   "fuente": "Business Wire",
+   "id": "4de9afd7f2",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "JPMorgan Says Bitcoin Will Beat Gold and Stocks — After Years of Crypto Skepticism",
+   "link": "https://www.ccn.com/news/crypto/jpmorgan-blackrock-bitcoin-gold-stocks-years-crypto-skepticism/?.tsrc=rss",
+   "ts": "2026-10-20T12:02:16Z",
+   "fuente": "Yahoo Finance",
+   "id": "9daa1a63b7",
+   "activos": [
+    "oro",
     "nq"
    ],
    "impacto": "medio"
@@ -9173,50 +9216,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "India gold market update: Seasonal demand shows early strength | Post by Kavita Chacko | Insights",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaWEzUjIwdDM4SThRaE93WDdjSWdGbjVyZXVEdnIzYXNyMG9WYjJPdHZVelVzelVYQXVyaTg1NHRfRVZaMks1QkVxNWR2eGI5Wm8zTHc5OTZBZkFPV0FFaHhxYkhYRTBfWmFlVDNjX2J4eTJwczhUSi1ZSHZ2aXp5bDNvZ19VVWpwYzFqbS0wOUozWmhIU24zRFZTdnNFY19HdFhCUDl0ZmNyUWNKREE?oc=5",
-   "ts": "2026-10-20T08:09:02Z",
-   "fuente": "World Gold Council",
-   "id": "bc971f71fb",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Actualidad del mercado de oro en India: la demanda estacional muestra fortaleza temprana",
-   "efecto": ""
-  },
-  {
-   "titulo": "Chinese carmakers gear up European production to sidestep tariffs, import quota",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTndHNXJRLTZzQkdJM0pGTUdVMkxLaGlsRC1OUjRoWG9HY1Z2Q1F0VzcwckNKc1o5X21aZkgyNTcydEVoS3U4N0I3azV5WnhXWWFjMmZyUTZySmgtRGItRTE1cHVKVmhWbU90RElHdEYzOVNsSTNBLV8wUFB4Y3hxTEFaX1pTWFBReUtWdmtSZXl6U2ZHTTJyZDB3ekowang1Y0lreWZzVU5MNE5JSWo2MXkwUEpkcC15aVhvV1MzX3JDblowci000gHHAUFVX3lxTE9vazhEWEswcGtZS3RRZzFXenl3VFpLTGtfVHc5VG15eE9hRHBDVndnYlQtUWpUVW5lWnVsX3owV2ZPVjBrNUlfbHZJZlFXV3B5eDFLRURCdGpWQmNzZlo1ZzF2cFFjUFVqU0NaU1RxQWt4ODMwZzkzUUJXS1JyZlJDdEpjaXNaS0RvUEZMRm1PMG52ZmIxN3d0d0VWTE1pTnRrRDJINUFCN3g2R2R2Z1pZYW9laVZUMTUwWmwybEhTT1Q1dXljNWc?oc=5",
-   "ts": "2026-10-20T08:00:06Z",
-   "fuente": "South China Morning Post",
-   "id": "a4f679f5fd",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "U.S. Treasury yields move lower as investors await housing data",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBaM2dEaXY3djRjLTk3Zm56azJQeFVocnVEQmwzb0wwbWpvMFRxTkdINFNMdkNMS1RSZUNfajNDSjBQRGZ6V210U1NERGI1UTNCMDZDUjJmU0k1RF9vUV9WSFhGdG9CeGNZblhWVlFGU0hsdjhFZkhfZzFMVlJ4Z9IBgwFBVV95cUxPWWdOVGZuSDZKX1ZBTEczSzAwREw2SldJTmY2VmtTSUNIM0d1aVFJb2lEbXdEWHZRWE1yaldhb0ZKRWVMamxIUkstN1ZMMzJCNjBJR0RJRnEtUG54am1uMnEwT09kSTRUU3V5WC1Fb19leWlHVnI5OFdJOW9nQ3Q0dmVUWQ?oc=5",
-   "ts": "2026-10-20T07:43:14Z",
-   "fuente": "CNBC",
-   "id": "4c5d3ff6f3",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "U.S. Treasury yields move lower as investors await housing, employment data",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBaM2dEaXY3djRjLTk3Zm56azJQeFVocnVEQmwzb0wwbWpvMFRxTkdINFNMdkNMS1RSZUNfajNDSjBQRGZ6V210U1NERGI1UTNCMDZDUjJmU0k1RF9vUV9WSFhGdG9CeGNZblhWVlFGU0hsdjhFZkhfZzFMVlJ4Z9IBgwFBVV95cUxPWWdOVGZuSDZKX1ZBTEczSzAwREw2SldJTmY2VmtTSUNIM0d1aVFJb2lEbXdEWHZRWE1yaldhb0ZKRWVMamxIUkstN1ZMMzJCNjBJR0RJRnEtUG54am1uMnEwT09kSTRUU3V5WC1Fb19leWlHVnI5OFdJOW9nQ3Q0dmVUWQ?oc=5",
-   "ts": "2026-10-20T07:43:14Z",
-   "fuente": "CNBC",
-   "id": "33824ea991",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9777,14 +9776,14 @@
     4142.9,
     4143.5,
     4130.9,
-    4134.1
+    4134.2
    ],
    [
-    1792498656,
-    4132.8,
-    4132.8,
-    4132.8,
-    4132.8
+    1792498952,
+    4134.2,
+    4134.2,
+    4134.2,
+    4134.2
    ]
   ],
   "nq": [
@@ -10332,14 +10331,14 @@
     29525.0,
     29542.25,
     29491.5,
-    29536.0
+    29508.0
    ],
    [
-    1792498655,
-    29528.75,
-    29528.75,
-    29528.75,
-    29528.75
+    1792498953,
+    29505.25,
+    29505.25,
+    29505.25,
+    29505.25
    ]
   ],
   "vix": [
@@ -10775,66 +10774,66 @@
     18.86,
     18.91,
     18.82,
-    18.9
+    18.83
    ],
    [
-    1792498351,
-    18.89,
-    18.89,
-    18.89,
-    18.89
+    1792498651,
+    18.81,
+    18.81,
+    18.81,
+    18.81
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-20T12:12:37Z",
- "ult_4h": 1792498651.0081837,
+ "ult_4h": 1792499554.2972753,
  "estrategia_4h": {
   "oro": {
-   "precio": 4138.5,
-   "atr_4h": 21.77,
+   "precio": 4134.3,
+   "atr_4h": 22.25,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4183.16,
+     "stop": 4183.45,
      "objetivo": 4130.1,
-     "rr": 3.06,
+     "rr": 3.0,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.91,
+     "fuerza_ruptura_atr": 0.89,
      "ruptura": "2026-10-19 12:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29520.75,
-   "atr_4h": 203.14,
+   "precio": 29505.25,
+   "atr_4h": 204.46,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30356.75,
      "entrada": 30356.75,
-     "stop": 30478.64,
+     "stop": 30479.43,
      "objetivo": 29268.75,
-     "rr": 8.93,
+     "rr": 8.87,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.12,
+     "fuerza_ruptura_atr": 2.11,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30372.25,
      "entrada": 30372.25,
-     "stop": 30494.14,
+     "stop": 30494.93,
      "objetivo": 29268.75,
-     "rr": 9.05,
+     "rr": 9.0,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.12,
+     "fuerza_ruptura_atr": 2.11,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-20T12:17:31Z"
+  "ts": "2026-10-20T12:32:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10866,10 +10865,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "01ca0d8e01",
-  "c8699fcbd6",
-  "1f7312fdf1",
-  "365127001c",
   "f4ddf58296",
   "302e2d1fbc",
   "c132aa07ef",
@@ -11665,6 +11660,10 @@
   "e0805e36ee",
   "d635ef5031",
   "b79978d116",
-  "44abc797cb"
+  "44abc797cb",
+  "76060a1841",
+  "f633a7e803",
+  "4de9afd7f2",
+  "9daa1a63b7"
  ]
 }
