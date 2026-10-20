@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4131.6 · NQ 29618.5 · VIX 18.7 · 5 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-20T10:12:37Z"
+   "ultimo_resultado": "Oro 4130.9 · NQ 29603.5 · VIX 18.66 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-20T10:17:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T10:12:36Z",
-   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: The Federal Reserve Just Warned More Rate Hikes Are Likely Coming. History Has Good and Bad News for Investors"
+   "actualizado": "2026-10-20T10:17:29Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Nasdaq futures dip as oil prices climb, earnings loom"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4130.9 · NQ 29603.5 · VIX 18.66 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-20T10:17:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4131.6 · NQ 29618.5 · VIX 18.7 · 5 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4157.8 · NQ 29743.75 · VIX 18.44 · 1 noticias nuevas",
    "ts": "2026-10-19T20:52:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4157.8 · NQ 29750.5 · VIX 18.44 · 1 noticias nuevas",
-   "ts": "2026-10-19T20:47:35Z"
   }
  ],
  "briefs": [
@@ -8370,12 +8370,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4131.6,
-  "nq": 29618.5,
-  "vix": 18.7,
-  "ts": "2026-10-20T10:12:37Z"
+  "oro": 4130.9,
+  "nq": 29603.5,
+  "vix": 18.66,
+  "ts": "2026-10-20T10:17:30Z"
  },
  "noticias": [
+  {
+   "titulo": "Nasdaq futures dip as oil prices climb, earnings loom",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2JsXzZ4YTVKcDJjNE9iTW42aU0wY0VOZXRtdDYxTzJTanBUOGZIT1FLSl9FVTNxQ1RpTVFSWHlsejgyR0Y1b3JQWXRlT0dEMjJPWWpXYlpfdFJQaHZKZG5KdUNMdW53NmlMd2RwUWJKWFB3dE9Xc2ZBbnRfalF3cWNzblhxTGJOTGlKYUh1a0FmWC1vaGQydWZXdTMzemJjSVg5NWZ0bw?oc=5",
+   "ts": "2026-10-20T10:09:44Z",
+   "fuente": "Reuters",
+   "id": "132b34c2c0",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "The Federal Reserve Just Warned More Rate Hikes Are Likely Coming. History Has Good and Bad News for Investors",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd3FBbTgwN0dFcEJLXzJZR19ZV0NnVkFLQmtwMVdNN2sxSzdOR3ZrYmlRN1EzUTdwbGxibWtqREg0bVJlQmlQYTRRYVdMU2hPejZtY1pMWlZpR09nZnEyQzQ0aHZfajVmamtubzVFeGNPV05PakdRY01laEF4VU1zWGl0R2ZHSFQxTVVWVmJfWGE4eUY4U3lWag?oc=5",
@@ -8419,6 +8430,18 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Gold Prices Fall for Third Session as Oil-Driven Inflation Concerns Shift Focus to Fed Rates",
+   "link": "https://investorshub.advfn.com/market-news/article/38347/gold-prices-fall-for-third-session-as-oil-driven-inflation-concerns-shift-focus-to-fed-rates?.tsrc=rss",
+   "ts": "2026-10-20T09:53:52Z",
+   "fuente": "Yahoo Finance",
+   "id": "5c94868382",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Bitcoin Could Beat Stocks, Gold Over 10 Years, Says JPMorgan – But It Comes With A Volatility Warning",
@@ -9229,28 +9252,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Wintrust Financial (NASDAQ:WTFC) Posts Q3 2026 Sales In Line With Estimates",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcy1vNjhMbjJhWFNnYmJKZmU5bGJpZElkZEQwWXNTY0podkRlY1pQSFpGUHc1UWNRclVUblNvSUxvLVRoc2gxVVJqNk84U1hYWUdrR0hDdXdpMmhqZUw4MXBVeDgtdnEwcVl1MTVsdmZvV3RqSFI4UW1rTGJaU0FYOVpPbXZZek1kVVRQMjhndV9yVTBaZGkxUktZZjlYZ0dXNVJN?oc=5",
-   "ts": "2026-10-19T21:21:23Z",
-   "fuente": "Yahoo Finance",
-   "id": "7d71a1606b",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "European stocks fall on unrest in France as Nasdaq bounces",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5QdFBVdzlEbXFDZWs1OHNMRzc4MkZaNWRIUXJCbnB3NGxvVlFndGFlS3d0dEhldVJtUG1WRkpLVkVCcHFZUGN0d0RjT3RFd1dMV0VUNzk5SjFQMzlIUm5CVzc0Q1ZPWHdjaS1jWnhoOXZubjhQcXJ3M0U3M24?oc=5",
-   "ts": "2026-10-19T21:21:00Z",
-   "fuente": "AFP.com",
-   "id": "86e3ba9797",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9795,16 +9796,16 @@
    [
     1792490400,
     4131.6,
-    4131.9,
+    4132.0,
     4130.1,
-    4131.1
+    4130.3
    ],
    [
-    1792490551,
-    4131.6,
-    4131.6,
-    4131.6,
-    4131.6
+    1792490844,
+    4130.9,
+    4130.9,
+    4130.9,
+    4130.9
    ]
   ],
   "nq": [
@@ -10337,15 +10338,15 @@
     1792490400,
     29623.0,
     29628.25,
-    29607.25,
-    29613.5
+    29587.5,
+    29606.75
    ],
    [
-    1792490556,
-    29619.0,
-    29619.0,
-    29619.0,
-    29619.0
+    1792490841,
+    29603.5,
+    29603.5,
+    29603.5,
+    29603.5
    ]
   ],
   "vix": [
@@ -10760,31 +10761,38 @@
     18.64,
     18.88,
     18.59,
-    18.71
+    18.67
    ],
    [
-    1792490251,
-    18.7,
-    18.7,
-    18.7,
-    18.7
+    1792490400,
+    18.67,
+    18.69,
+    18.65,
+    18.69
+   ],
+   [
+    1792490536,
+    18.66,
+    18.66,
+    18.66,
+    18.66
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-20T10:02:44Z",
- "ult_4h": 1792490567.8395867,
+ "ult_4h": 1792491450.4692876,
  "estrategia_4h": {
   "oro": {
-   "precio": 4131.2,
-   "atr_4h": 22.79,
+   "precio": 4130.9,
+   "atr_4h": 22.81,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4183.78,
-     "objetivo": 4130.4,
-     "rr": 2.9,
+     "stop": 4183.79,
+     "objetivo": 4130.1,
+     "rr": 2.92,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.87,
      "ruptura": "2026-10-19 12:00 UTC"
@@ -10792,7 +10800,7 @@
    ]
   },
   "nq": {
-   "precio": 29588.25,
+   "precio": 29603.5,
    "atr_4h": 210.29,
    "setups": [
     {
@@ -10819,7 +10827,7 @@
     }
    ]
   },
-  "ts": "2026-10-20T10:02:48Z"
+  "ts": "2026-10-20T10:17:30Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10851,8 +10859,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "d70f2c2eea",
-  "239206914b",
   "d4ab91a982",
   "8e41b5c7b8",
   "5facea28ce",
@@ -11650,6 +11656,8 @@
   "16eb3a844d",
   "bafdcfa5ca",
   "f2f668f819",
-  "a4f679f5fd"
+  "a4f679f5fd",
+  "132b34c2c0",
+  "5c94868382"
  ]
 }
