@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4140.9 · NQ 29671.5 · VIX 17.56 · 4 noticias nuevas",
-   "actualizado": "2026-10-20T19:37:49Z"
+   "ultimo_resultado": "Oro 4140.8 · NQ 29692.25 · VIX 17.53 · 1 noticias nuevas",
+   "actualizado": "2026-10-20T19:42:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T19:37:49Z",
-   "ultimo_resultado": "4 titulares nuevos: Boeing gana la aprobación de la FAA para el 737 Max 10"
+   "actualizado": "2026-10-20T19:42:33Z",
+   "ultimo_resultado": "1 titulares nuevos: Is There A Risk Hiding In Newmont Stock's Strong Cash Flow?"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4140.8 · NQ 29692.25 · VIX 17.53 · 1 noticias nuevas",
+   "ts": "2026-10-20T19:42:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4140.9 · NQ 29671.5 · VIX 17.56 · 4 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4141.1 · NQ 29599.0 · VIX 18.44",
    "ts": "2026-10-20T06:12:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4140.3 · NQ 29617.25 · VIX 18.44 · 2 noticias nuevas",
-   "ts": "2026-10-20T06:07:30Z"
   }
  ],
  "briefs": [
@@ -8542,10 +8542,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4140.9,
-  "nq": 29671.5,
-  "vix": 17.56,
-  "ts": "2026-10-20T19:37:49Z"
+  "oro": 4140.8,
+  "nq": 29692.25,
+  "vix": 17.53,
+  "ts": "2026-10-20T19:42:33Z"
  },
  "noticias": [
   {
@@ -8586,6 +8586,15 @@
    "impacto": "bajo",
    "es": "¿Por qué la plata es más barata que el oro? Seis razones",
    "efecto": "Contenido educativo sin impacto en la operativa institucional."
+  },
+  {
+   "titulo": "Is There A Risk Hiding In Newmont Stock's Strong Cash Flow?",
+   "link": "https://www.trefis.com/articles/619394/is-there-a-risk-hiding-in-newmont-stocks-strong-cash-flow/2026-10-20?.tsrc=rss",
+   "ts": "2026-10-20T19:20:28Z",
+   "fuente": "Yahoo Finance",
+   "id": "ecbf4da4e8",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Earn up to $4,300 in travel with the latest Capital One Venture X Business card offer",
@@ -9395,15 +9404,6 @@
    "id": "9e0db55c46",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "September data shows housing market in a deep freeze",
-   "link": "https://www.cnbc.com/2026/10/20/september-data-shows-housing-market-in-a-deep-freeze.html",
-   "ts": "2026-10-20T14:00:03Z",
-   "fuente": "CNBC",
-   "id": "568e5e7375",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -10013,14 +10013,14 @@
     4142.5,
     4144.6,
     4138.8,
-    4141.1
+    4140.6
    ],
    [
-    1792524461,
-    4140.9,
-    4140.9,
-    4140.9,
-    4140.9
+    1792524751,
+    4140.8,
+    4140.8,
+    4140.8,
+    4140.8
    ]
   ],
   "nq": [
@@ -10617,14 +10617,14 @@
     29717.75,
     29735.75,
     29656.25,
-    29669.5
+    29692.0
    ],
    [
-    1792524467,
-    29671.5,
-    29671.5,
-    29671.5,
-    29671.5
+    1792524753,
+    29692.25,
+    29692.25,
+    29692.25,
+    29692.25
    ]
   ],
   "vix": [
@@ -11107,24 +11107,24 @@
    [
     1792522800,
     17.43,
-    17.55,
+    17.61,
     17.41,
-    17.55
+    17.56
    ],
    [
-    1792524166,
-    17.56,
-    17.56,
-    17.56,
-    17.56
+    1792524451,
+    17.53,
+    17.53,
+    17.53,
+    17.53
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-20T19:37:33Z",
- "ult_4h": 1792524454.267463,
+ "ult_4h": 1792525353.7812235,
  "estrategia_4h": {
   "oro": {
-   "precio": 4140.5,
+   "precio": 4140.8,
    "atr_4h": 22.0,
    "setups": [
     {
@@ -11141,34 +11141,34 @@
    ]
   },
   "nq": {
-   "precio": 29710.5,
-   "atr_4h": 211.8,
+   "precio": 29692.25,
+   "atr_4h": 212.88,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30356.75,
      "entrada": 30356.75,
-     "stop": 30483.83,
+     "stop": 30484.47,
      "objetivo": 29268.75,
-     "rr": 8.56,
+     "rr": 8.52,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.03,
+     "fuerza_ruptura_atr": 2.02,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30504.5,
-     "entrada": 30504.5,
-     "stop": 30631.58,
+     "nivel": 30604.75,
+     "entrada": 30604.75,
+     "stop": 30732.47,
      "objetivo": 29268.75,
-     "rr": 9.72,
+     "rr": 10.46,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.03,
+     "fuerza_ruptura_atr": 2.02,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-20T19:27:34Z"
+  "ts": "2026-10-20T19:42:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -11200,7 +11200,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "5160329708",
   "4bb80dc70c",
   "9aa3a302c2",
   "6b8cbe77ec",
@@ -11999,6 +11998,7 @@
   "b02c5401cc",
   "54f7f6a9ab",
   "943a915aee",
-  "5705d668e1"
+  "5705d668e1",
+  "ecbf4da4e8"
  ]
 }
