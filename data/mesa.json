@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4138.7 · NQ 29903.0 · VIX 17.31",
-   "actualizado": "2026-10-20T23:17:35Z"
+   "ultimo_resultado": "Oro 4137.8 · NQ 29907.75 · VIX 17.31 · 1 noticias nuevas",
+   "actualizado": "2026-10-20T23:22:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T23:17:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-20T23:22:33Z",
+   "ultimo_resultado": "1 titulares nuevos: Stock futures rise as traders evaluate latest raft of earnings; SpaceX shares surge: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4137.8 · NQ 29907.75 · VIX 17.31 · 1 noticias nuevas",
+   "ts": "2026-10-20T23:22:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4138.7 · NQ 29903.0 · VIX 17.31",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4138.2 · NQ 29593.5 · VIX 18.6 · 1 noticias nuevas",
    "ts": "2026-10-20T09:52:44Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4139.5 · NQ 29613.5 · VIX 18.61",
-   "ts": "2026-10-20T09:47:33Z"
   }
  ],
  "briefs": [
@@ -8714,12 +8714,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4138.7,
-  "nq": 29903.0,
+  "oro": 4137.8,
+  "nq": 29907.75,
   "vix": 17.31,
-  "ts": "2026-10-20T23:17:34Z"
+  "ts": "2026-10-20T23:22:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Stock futures rise as traders evaluate latest raft of earnings; SpaceX shares surge: Live updates",
+   "link": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html",
+   "ts": "2026-10-20T23:13:58Z",
+   "fuente": "CNBC",
+   "id": "818644a52b",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Rogers, El-Sayed outline differing economic plans at Detroit Economic Club",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTjlfdWkxRUwzVjRPR0Jkb2FGUXlkZHNLSDBRRVhNMFdDREFNdk5VRHhnbVZ2S2hZNmRsMXpPMDNiUEtvWTNkMG5uRDdrUE84LWpvUjNmZldFaDRDTW9DRkFnTmQzOXAyVE0xbmhiYzlHUlUtN1dWQ3pGSS1fdmF6LXNsVWM4SnBtTHdqOFpCRTVxbGJaZWc0UzZkb3FwUWtfSEFhWGFZRXhPMU1VWDF4Y2N6SHFNNG1lYVpKZGcyVGEzeWI5RFE?oc=5",
@@ -9535,17 +9544,6 @@
    "impacto": "bajo",
    "es": "Víctima arrastrada por auto en huida durante venta de oro en Cape Coral; 2 arrestados",
    "efecto": "Noticia policial local sin relevancia para los mercados financieros."
-  },
-  {
-   "titulo": "NV Gold Says Latest Assay Results From Slumber Gold Project in Nevada Outline Mineralization",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/nv-gold-says-latest-assay-170145111.html?.tsrc=rss",
-   "ts": "2026-10-20T17:01:45Z",
-   "fuente": "Yahoo Finance",
-   "id": "d1370bd9c2",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -10175,15 +10173,15 @@
     1792537200,
     4138.3,
     4139.3,
-    4137.8,
-    4138.5
+    4136.6,
+    4137.7
    ],
    [
-    1792537651,
-    4138.6,
-    4138.6,
-    4138.6,
-    4138.6
+    1792537950,
+    4137.8,
+    4137.8,
+    4137.8,
+    4137.8
    ]
   ],
   "nq": [
@@ -10801,14 +10799,14 @@
     29914.75,
     29916.25,
     29893.25,
-    29896.5
+    29905.0
    ],
    [
-    1792537653,
-    29903.0,
-    29903.0,
-    29903.0,
-    29903.0
+    1792537953,
+    29910.0,
+    29910.0,
+    29910.0,
+    29910.0
    ]
   ],
   "vix": [
@@ -11391,7 +11389,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "44686bb773",
   "906083b68f",
   "13fc89835a",
   "d0f3eea98c",
@@ -12190,6 +12187,7 @@
   "7dc451a352",
   "467e4722fb",
   "f41348d924",
-  "f9228881da"
+  "f9228881da",
+  "818644a52b"
  ]
 }
