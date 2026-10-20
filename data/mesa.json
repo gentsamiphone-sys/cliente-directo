@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4133.1 · NQ 29586.75 · VIX 18.72 · 2 noticias nuevas",
-   "actualizado": "2026-10-20T13:12:33Z"
+   "ultimo_resultado": "Oro 4137.3 · NQ 29627.5 · VIX 18.76 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-20T13:17:45Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T13:12:32Z",
-   "ultimo_resultado": "2 titulares nuevos: Jim Cramer's top 10 things to watch in the stock market Tuesday"
+   "actualizado": "2026-10-20T13:17:43Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: El crudo estadounidense supera los $105 y el Brent toca máximos de 5 meses por tensiones en Medio Oriente"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4137.3 · NQ 29627.5 · VIX 18.76 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-20T13:17:45Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4133.1 · NQ 29586.75 · VIX 18.72 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4151.7 · NQ 29743.0 · VIX 18.44",
    "ts": "2026-10-20T00:07:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4151.5 · NQ 29752.5 · VIX 18.44 · 1 noticias nuevas",
-   "ts": "2026-10-20T00:02:34Z"
   }
  ],
  "briefs": [
@@ -8542,12 +8542,27 @@
   }
  },
  "en_vivo": {
-  "oro": 4133.1,
-  "nq": 29586.75,
-  "vix": 18.72,
-  "ts": "2026-10-20T13:12:32Z"
+  "oro": 4137.3,
+  "nq": 29627.5,
+  "vix": 18.76,
+  "ts": "2026-10-20T13:17:44Z"
  },
  "noticias": [
+  {
+   "titulo": "U.S. crude oil tops $105, Brent crude at five-month highs amid Mideast tensions",
+   "link": "https://www.cnbc.com/2026/10/20/oil-price-wti-brent-crude.html",
+   "ts": "2026-10-20T13:11:31Z",
+   "fuente": "CNBC",
+   "id": "b534cccc6f",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El crudo estadounidense supera los $105 y el Brent toca máximos de 5 meses por tensiones en Medio Oriente",
+   "efecto": "Impulsa la inflación, presiona tasas al alza, castiga al NQ y fortalece al oro."
+  },
   {
    "titulo": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
    "link": "https://www.cnbc.com/investingclub/2026/10/20/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
@@ -8556,6 +8571,19 @@
    "id": "9007598217",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Former OpenAI exec has quietly built $1.5 billion startup, betting AI can revive U.S. manufacturing",
+   "link": "https://www.cnbc.com/2026/10/20/ex-openai-executive-builds-1point5-billion-ai-manufacturing-startup-arda.html",
+   "ts": "2026-10-20T13:03:31Z",
+   "fuente": "CNBC",
+   "id": "ce70d8d619",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Exdirectivo de OpenAI recauda $1.5B para startup que apuesta por la IA en manufactura de EE. UU.",
+   "efecto": "Apoya el sentimiento alcista en acciones tecnológicas y de automatización industrial."
   },
   {
    "titulo": "SpaceX earnings live updates: Starlink growth, AI revenue and merger speculation",
@@ -9373,26 +9401,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Walmart launches joint membership with Sam's Club as it leans into delivery, gas discounts",
-   "link": "https://www.cnbc.com/2026/10/20/walmart-sams-club-plus-membership.html",
-   "ts": "2026-10-20T10:00:01Z",
-   "fuente": "CNBC",
-   "id": "bd638be176",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "DataMeds Regains Compliance With NASDAQ Listing Standards",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeXk0YzB6YWg1ZFB0Y05ubVo3STFTLTRzRk5HamZVRVhfU2d0bm83bm10VW5SWDR1R2NKY0RpcGNnRTR6TXE1U3dldkw2Y19oc3ljTW02ZVJSNHFuWHJuZThXalVmY2JwUk9Da0NnWXpGcTJzM0xVYlRSMEtKRzY4eEF5MVl4Z1JlUTkwT1o3OFBOVE5reGNYWWlxVzdKV2dDYlB3TDRqWExQWEU?oc=5",
-   "ts": "2026-10-20T10:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "79bdb21409",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9960,14 +9968,14 @@
     4137.7,
     4139.6,
     4131.3,
-    4134.3
+    4137.0
    ],
    [
-    1792501350,
-    4133.1,
-    4133.1,
-    4133.1,
-    4133.1
+    1792501661,
+    4137.3,
+    4137.3,
+    4137.3,
+    4137.3
    ]
   ],
   "nq": [
@@ -10520,16 +10528,16 @@
    [
     1792501200,
     29594.0,
-    29599.75,
+    29631.25,
     29576.0,
-    29593.75
+    29625.75
    ],
    [
-    1792501351,
-    29586.75,
-    29586.75,
-    29586.75,
-    29586.75
+    1792501663,
+    29627.5,
+    29627.5,
+    29627.5,
+    29627.5
    ]
   ],
   "vix": [
@@ -10965,66 +10973,73 @@
     18.86,
     19.13,
     18.67,
-    18.7
+    18.72
    ],
    [
-    1792501036,
-    18.71,
-    18.71,
-    18.71,
-    18.71
+    1792501200,
+    18.72,
+    18.73,
+    18.72,
+    18.73
+   ],
+   [
+    1792501351,
+    18.76,
+    18.76,
+    18.76,
+    18.76
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-20T12:47:39Z",
- "ult_4h": 1792501359.6815383,
+ "noticias_traducidas_ts": "2026-10-20T13:17:41Z",
+ "ult_4h": 1792502264.411749,
  "estrategia_4h": {
   "oro": {
-   "precio": 4138.1,
-   "atr_4h": 21.98,
+   "precio": 4137.3,
+   "atr_4h": 22.4,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4183.29,
+     "stop": 4183.54,
      "objetivo": 4130.1,
-     "rr": 3.03,
+     "rr": 2.98,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.91,
+     "fuerza_ruptura_atr": 0.88,
      "ruptura": "2026-10-19 12:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29604.0,
-   "atr_4h": 210.96,
+   "precio": 29627.5,
+   "atr_4h": 211.75,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30356.75,
      "entrada": 30356.75,
-     "stop": 30483.33,
+     "stop": 30483.8,
      "objetivo": 29268.75,
-     "rr": 8.6,
+     "rr": 8.56,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.05,
+     "fuerza_ruptura_atr": 2.03,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30504.5,
      "entrada": 30504.5,
-     "stop": 30631.08,
+     "stop": 30631.55,
      "objetivo": 29268.75,
-     "rr": 9.76,
+     "rr": 9.73,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.05,
+     "fuerza_ruptura_atr": 2.03,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-20T13:02:40Z"
+  "ts": "2026-10-20T13:17:44Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -11056,8 +11071,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "50bc80c29f",
-  "db30b843a4",
   "a561b80a88",
   "7f4cf52314",
   "8186a50f3c",
@@ -11855,6 +11868,8 @@
   "df412c4b38",
   "79bdb21409",
   "9007598217",
-  "9552c5afe9"
+  "9552c5afe9",
+  "b534cccc6f",
+  "ce70d8d619"
  ]
 }
