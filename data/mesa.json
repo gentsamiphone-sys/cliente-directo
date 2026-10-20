@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4139.3 · NQ 29521.0 · VIX 18.89 · 1 noticias nuevas",
-   "actualizado": "2026-10-20T12:12:40Z"
+   "ultimo_resultado": "Oro 4138.5 · NQ 29520.75 · VIX 18.85",
+   "actualizado": "2026-10-20T12:17:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T12:12:39Z",
-   "ultimo_resultado": "1 titulares nuevos: Emperor informa nuevos resultados de perforación y fortalece la fase conceptual de su mina a cielo abierto"
+   "actualizado": "2026-10-20T12:17:30Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4138.5 · NQ 29520.75 · VIX 18.85",
+   "ts": "2026-10-20T12:17:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4139.3 · NQ 29521.0 · VIX 18.89 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "historiador",
    "texto": "Revisando qué pasó en esta misma fecha los últimos 10 años y buscando años parecidos…",
    "ts": "2026-10-19T21:33:11Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "ES/NQ: CONFIRMA: ES y NQ van en la misma dirección · ES bajista en 1H",
-   "ts": "2026-10-19T21:33:09Z"
   }
  ],
  "briefs": [
@@ -8370,10 +8370,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4139.3,
-  "nq": 29521.0,
-  "vix": 18.89,
-  "ts": "2026-10-20T12:12:39Z"
+  "oro": 4138.5,
+  "nq": 29520.75,
+  "vix": 18.85,
+  "ts": "2026-10-20T12:17:31Z"
  },
  "noticias": [
   {
@@ -9778,15 +9778,15 @@
     1792497600,
     4142.9,
     4143.5,
-    4138.3,
-    4139.0
+    4137.6,
+    4138.1
    ],
    [
-    1792497755,
-    4139.3,
-    4139.3,
-    4139.3,
-    4139.3
+    1792498048,
+    4138.5,
+    4138.5,
+    4138.5,
+    4138.5
    ]
   ],
   "nq": [
@@ -10333,15 +10333,15 @@
     1792497600,
     29525.0,
     29542.25,
-    29515.75,
-    29517.5
+    29510.0,
+    29525.0
    ],
    [
-    1792497757,
-    29521.0,
-    29521.0,
-    29521.0,
-    29521.0
+    1792498048,
+    29520.75,
+    29520.75,
+    29520.75,
+    29520.75
    ]
   ],
   "vix": [
@@ -10770,66 +10770,73 @@
     18.71,
     18.89,
     18.65,
-    18.89
+    18.85
    ],
    [
-    1792497451,
-    18.89,
-    18.89,
-    18.89,
-    18.89
+    1792497600,
+    18.86,
+    18.86,
+    18.82,
+    18.82
+   ],
+   [
+    1792497736,
+    18.85,
+    18.85,
+    18.85,
+    18.85
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-20T12:12:37Z",
- "ult_4h": 1792497750.379676,
+ "ult_4h": 1792498651.0081837,
  "estrategia_4h": {
   "oro": {
-   "precio": 4140.6,
-   "atr_4h": 22.81,
+   "precio": 4138.5,
+   "atr_4h": 21.77,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4183.79,
+     "stop": 4183.16,
      "objetivo": 4130.1,
-     "rr": 2.92,
+     "rr": 3.06,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.87,
+     "fuerza_ruptura_atr": 0.91,
      "ruptura": "2026-10-19 12:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29523.75,
-   "atr_4h": 211.55,
+   "precio": 29520.75,
+   "atr_4h": 203.14,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30356.75,
      "entrada": 30356.75,
-     "stop": 30483.68,
+     "stop": 30478.64,
      "objetivo": 29268.75,
-     "rr": 8.57,
+     "rr": 8.93,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.04,
+     "fuerza_ruptura_atr": 2.12,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30372.25,
      "entrada": 30372.25,
-     "stop": 30499.18,
+     "stop": 30494.14,
      "objetivo": 29268.75,
-     "rr": 8.69,
+     "rr": 9.05,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.04,
+     "fuerza_ruptura_atr": 2.12,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-20T12:02:30Z"
+  "ts": "2026-10-20T12:17:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
