@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4143.7 · NQ 29644.25 · VIX 18.44 · 1 noticias nuevas",
-   "actualizado": "2026-10-20T06:02:34Z"
+   "ultimo_resultado": "Oro 4140.3 · NQ 29617.25 · VIX 18.44 · 2 noticias nuevas",
+   "actualizado": "2026-10-20T06:07:30Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T06:02:33Z",
-   "ultimo_resultado": "1 titulares nuevos: Monedas asiáticas se fortalecen ante retroceso del dólar; yuan toca máximo de cuatro años"
+   "actualizado": "2026-10-20T06:07:29Z",
+   "ultimo_resultado": "2 titulares nuevos: Copper is outshining gold this year. Investors say the rally can survive an AI correction"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4140.3 · NQ 29617.25 · VIX 18.44 · 2 noticias nuevas",
+   "ts": "2026-10-20T06:07:30Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4143.7 · NQ 29644.25 · VIX 18.44 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4163.8 · NQ 29857.5 · VIX 17.82",
    "ts": "2026-10-19T14:57:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4164.8 · NQ 29826.0 · VIX 17.88",
-   "ts": "2026-10-19T14:52:41Z"
   }
  ],
  "briefs": [
@@ -8204,12 +8204,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4143.7,
-  "nq": 29644.25,
+  "oro": 4140.3,
+  "nq": 29617.25,
   "vix": 18.44,
-  "ts": "2026-10-20T06:02:33Z"
+  "ts": "2026-10-20T06:07:30Z"
  },
  "noticias": [
+  {
+   "titulo": "Copper is outshining gold this year. Investors say the rally can survive an AI correction",
+   "link": "https://www.cnbc.com/2026/10/20/copper-prices-ai-spending-demand.html",
+   "ts": "2026-10-20T05:57:34Z",
+   "fuente": "CNBC",
+   "id": "8c425ed3df",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Asian currencies firm as dollar retreats; yuan hits four-year high",
    "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-firm-dollar-retreats-054434934.html?.tsrc=rss",
@@ -8245,6 +8256,15 @@
    "impacto": "medio",
    "es": "Futuros de acciones mixtos tras el rebote tecnológico al inicio de la semana",
    "efecto": "Impulsa ligeramente al NQ por recuperación técnica en tecnología."
+  },
+  {
+   "titulo": "How is the US economy really doing under President Trump?",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqRmtfa3RCcTJzNmZEOUxnT0VIN0NGVTg1cU9SOUQyaS1na0ZDaGJ3WFdnSWNza1pscWh4bk9RTlhaVG9Zd1dwMENtNHhXZXVFOU1pM3U2cUVKTTg?oc=5",
+   "ts": "2026-10-20T05:00:45Z",
+   "fuente": "BBC",
+   "id": "f8d97751af",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "As Japan pursues a chip-industry reboot, it's being pressed to build America's",
@@ -9071,32 +9091,6 @@
    "id": "7591250e68",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "All That Glitters Isn’t Gold. Sometimes, It’s Coal",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRE5zMUV2cFJYWVhPT0RMLUNVYlpuSWYtYlEzT1R0RGZxcnhrSTQ0czBJOVlXeGZxZ0lkT3BfZEFkQUFSWmdINFBZTEVDT3BQM3JlaFJ4NUpHVWdHTXZnamNNUE5uekxGRFFrdHV0VTE0cDNPZ251SWVwOWtXTEZEUXl2cWstN3hJSy01bVIzM3dwR3hNbk9CUi13?oc=5",
-   "ts": "2026-10-19T19:30:27Z",
-   "fuente": "New Haven Independent",
-   "id": "fe404a2017",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "U.S. Treasury Yields Turn Higher With Oil; French Bond Yields Rise on Protests",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSk1wWWp6WG1vZjdfYjZXX1hRU0lPVEl6WnVGbkozSXB5eTU5UHN2aG9nRHRpc1VMNlI5eF92YXNZNTFUOGFBMnk1anY0cUxFcG5YTTF0NFRhaGZ0VjkwbjNETmpiWkVXUHlNMmZJV014MlJ2LXRKZWlmS3E1N21wZHdnUXZybnJBRzlVSmdwUQ?oc=5",
-   "ts": "2026-10-19T19:27:00Z",
-   "fuente": "WSJ",
-   "id": "882b931b11",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Los rendimientos de los bonos del Tesoro de EE. UU. suben junto al petróleo; bonos franceses al alza por protestas",
-   "efecto": "Tasas altas y dólar fuerte presionan al oro y al NQ a la baja."
   }
  ],
  "eventos_avisados": [
@@ -9607,15 +9601,15 @@
     1792472400,
     4162.9,
     4163.3,
-    4142.0,
-    4142.1
+    4139.4,
+    4140.0
    ],
    [
-    1792475551,
-    4143.7,
-    4143.7,
-    4143.7,
-    4143.7
+    1792475847,
+    4140.3,
+    4140.3,
+    4140.3,
+    4140.3
    ]
   ],
   "nq": [
@@ -10107,14 +10101,14 @@
     29658.75,
     29666.75,
     29585.75,
-    29639.75
+    29608.5
    ],
    [
-    1792475551,
-    29644.25,
-    29644.25,
-    29644.25,
-    29644.25
+    1792475848,
+    29617.25,
+    29617.25,
+    29617.25,
+    29617.25
    ]
   ],
   "vix": [
@@ -10697,8 +10691,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "d3ee2b3d32",
-  "ea3ad3f8ea",
   "e48ca934b6",
   "ea53109d92",
   "0f6ff9ab84",
@@ -11496,6 +11488,8 @@
   "f27375dc90",
   "f0dfc12148",
   "be05cf1ba6",
-  "8f5089ab2b"
+  "8f5089ab2b",
+  "8c425ed3df",
+  "f8d97751af"
  ]
 }
