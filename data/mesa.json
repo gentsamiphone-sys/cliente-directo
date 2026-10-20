@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T00:32:33Z",
-   "ultimo_resultado": "Estrategia 4H ORO: VENTA: esperar retesteo de 4170.1 · stop 4183.2 · objetivo 4143.1 · R:R 2.06 (esperando retesteo). Tú ejecutas."
+   "actualizado": "2026-10-20T03:17:33Z",
+   "ultimo_resultado": "Estrategia 4H ORO: VENTA en el nivel 4170.1 · stop 4184.09 · objetivo 4134.5 · R:R 2.54 (en retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T03:12:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-20T03:17:33Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Gold dips as oil prices fuel inflation fears, Fed outlook in focus"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H ORO: VENTA en el nivel 4170.1 · stop 4184.09 · objetivo 4134.5 · R:R 2.54 (en retesteo). Tú ejecutas.",
+   "ts": "2026-10-20T03:17:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4157.9 · NQ 29763.0 · VIX 18.44",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el S&P 500 (ES) con el NQ…",
    "ts": "2026-10-19T12:33:11Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Volatilidad elevada (VIX 18.64).",
-   "ts": "2026-10-19T12:33:10Z"
   }
  ],
  "briefs": [
@@ -8204,12 +8204,24 @@
   }
  },
  "en_vivo": {
-  "oro": 4157.9,
-  "nq": 29763.0,
+  "oro": 4162.4,
+  "nq": 29779.0,
   "vix": 18.44,
-  "ts": "2026-10-20T03:12:31Z"
+  "ts": "2026-10-20T03:17:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Gold dips as oil prices fuel inflation fears, Fed outlook in focus",
+   "link": "https://finance.yahoo.com/economy/policy/articles/gold-dips-oil-prices-fuel-030209379.html?.tsrc=rss",
+   "ts": "2026-10-20T03:02:09Z",
+   "fuente": "Yahoo Finance",
+   "id": "e527c04e21",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "BlackRock, GIC among investors chasing Indian telecom major Jio's IPO as anchor bids top $26 billion",
    "link": "https://www.cnbc.com/2026/10/20/jio-ipo-gic-blackrock-.html",
@@ -8435,6 +8447,17 @@
    "id": "50b462a654",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Nasdaq 100 Sees Best Day In Nearly A Month As AI Rout Cools — AMZN, BE, CRWV, AAPL, PLTR In Focus",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRmhicmtORkZuWXluYUZYd1lobHB1UDNlZk04YWRMZlg0blppUTdhdm0xYmhCOGNOS0ttdjdSbWlJSzNkb0JHeFBHMnFHdWxyTi1oLVl1dEljTXd0Q2dJNXcwQ0QyY1lHdUZkblF3dGppS1hfTmN5NDVKT3NxYVliR2xnX3p5QmxfeVpHZEJZZkpCOHc?oc=5",
+   "ts": "2026-10-19T23:00:23Z",
+   "fuente": "Yahoo Finance",
+   "id": "6cf2252ef4",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -9077,26 +9100,6 @@
    "impacto": "medio",
    "es": "El hombre de los aranceles finalmente encuentra aranceles que no le gustan",
    "efecto": "Genera cautela en acciones y dólar por incertidumbre comercial."
-  },
-  {
-   "titulo": "Lion Copper Corp. Commences Trading on NASDAQ Under Symbol \"LCU\" and Retains Renmark Financial Communications USA Inc.",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNajZTSnh6WEVwdFNNOW5aZ3VkcFZCSmJOZjdqLUxsanpQTzRrSjJ0Mjd4bWZTb25hRGV0cnlVQjJHeDk1RFFzYmNPNUdfQmtpaElfZHZsSzFjclV0MUMyS0hkdGhUV0NJTmZQUUJjQnlYNHY1TDlkS1BOWFcwa1JKaEcxNUhteVZ5Y21KWnBwelhkelNJRWpiSHI1UDdGNHlw?oc=5",
-   "ts": "2026-10-19T18:02:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "37fb282d15",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Citi reveals top crypto stock picks ahead of Q3 earnings",
-   "link": "http://videos.coindesk.com/previews/V5fLMVEB?.tsrc=rss",
-   "ts": "2026-10-19T17:52:21Z",
-   "fuente": "Yahoo Finance",
-   "id": "8ed740f7bc",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -10877,54 +10880,54 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-20T02:57:30Z",
- "ult_4h": 1792465353.0466037,
+ "ult_4h": 1792466253.7905924,
  "estrategia_4h": {
   "oro": {
-   "precio": 4155.8,
-   "atr_4h": 22.94,
+   "precio": 4162.4,
+   "atr_4h": 23.31,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4183.86,
+     "stop": 4184.09,
      "objetivo": 4134.5,
-     "rr": 2.59,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.87,
+     "rr": 2.54,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 0.85,
      "ruptura": "2026-10-19 12:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29745.0,
-   "atr_4h": 211.39,
+   "precio": 29779.0,
+   "atr_4h": 212.48,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30356.75,
      "entrada": 30356.75,
-     "stop": 30483.59,
+     "stop": 30484.24,
      "objetivo": 29268.75,
-     "rr": 8.58,
+     "rr": 8.53,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.04,
+     "fuerza_ruptura_atr": 2.03,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30604.75,
-     "entrada": 30604.75,
-     "stop": 30731.59,
+     "nivel": 30504.5,
+     "entrada": 30504.5,
+     "stop": 30631.99,
      "objetivo": 29268.75,
-     "rr": 10.53,
+     "rr": 9.69,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.04,
+     "fuerza_ruptura_atr": 2.03,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-20T03:02:33Z"
+  "ts": "2026-10-20T03:17:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10951,12 +10954,11 @@
   "oro|COMPRA|4183.3|en retesteo",
   "nq|VENTA|29622.5|esperando retesteo",
   "nq|VENTA|29622.5|en retesteo",
-  "oro|VENTA|4170.1|esperando retesteo"
+  "oro|VENTA|4170.1|esperando retesteo",
+  "oro|VENTA|4170.1|en retesteo"
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "173f75e787",
-  "a43abca293",
   "708701b8ec",
   "fef1b0f425",
   "4139a12c66",
@@ -11754,6 +11756,8 @@
   "c81c3c2ad6",
   "143065c76e",
   "dcff191f5a",
-  "0d89bccfbd"
+  "0d89bccfbd",
+  "e527c04e21",
+  "6cf2252ef4"
  ]
 }
