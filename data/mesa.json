@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4139.9 · NQ 29917.5 · VIX 17.31 · 1 noticias nuevas",
-   "actualizado": "2026-10-20T23:02:39Z"
+   "ultimo_resultado": "Oro 4139.2 · NQ 29917.75 · VIX 17.31 · 2 noticias nuevas",
+   "actualizado": "2026-10-20T23:07:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T23:02:38Z",
-   "ultimo_resultado": "1 titulares nuevos: Rogers y El-Sayed presentan planes económicos diferentes en el Detroit Economic Club"
+   "actualizado": "2026-10-20T23:07:30Z",
+   "ultimo_resultado": "2 titulares nuevos: Obsessed with CoreWeave and the AI trade? You're missing out on some great stocks"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4139.2 · NQ 29917.75 · VIX 17.31 · 2 noticias nuevas",
+   "ts": "2026-10-20T23:07:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4139.9 · NQ 29917.5 · VIX 17.31 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4139.5 · NQ 29596.25 · VIX 18.7",
    "ts": "2026-10-20T09:37:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4143.5 · NQ 29584.25 · VIX 18.83",
-   "ts": "2026-10-20T09:32:37Z"
   }
  ],
  "briefs": [
@@ -8714,10 +8714,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4139.9,
-  "nq": 29917.5,
+  "oro": 4139.2,
+  "nq": 29917.75,
   "vix": 17.31,
-  "ts": "2026-10-20T23:02:38Z"
+  "ts": "2026-10-20T23:07:30Z"
  },
  "noticias": [
   {
@@ -8869,6 +8869,17 @@
    "impacto": "alto"
   },
   {
+   "titulo": "Obsessed with CoreWeave and the AI trade? You're missing out on some great stocks",
+   "link": "https://www.cnbc.com/investingclub/2026/10/20/obsessed-with-the-ai-trade-youre-missing-out-on-some-great-stocks.html",
+   "ts": "2026-10-20T21:17:47Z",
+   "fuente": "CNBC",
+   "id": "f41348d924",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "JPMorgan Puts a Number on Bitcoin for the First Time: 10% a Year, With a Big Caveat",
    "link": "https://decrypt.co/381464/jpmorgan-bitcoin-forecast-first-time-stocks-gold?.tsrc=rss",
    "ts": "2026-10-20T21:16:04Z",
@@ -9018,6 +9029,15 @@
    "id": "94221acc0c",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Prediction-market odds rise for Marine Le Pen in France 2027 presidential race as protests roil nation",
+   "link": "https://www.cnbc.com/2026/10/20/marine-le-pen-france-2027-election-odds-kalshi.html",
+   "ts": "2026-10-20T20:34:23Z",
+   "fuente": "CNBC",
+   "id": "f9228881da",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Netflix posts third-quarter earnings beat, but shares fall on advertising and revenue guidance",
@@ -9526,26 +9546,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "What Amazon must do to get its stumbling stock back to record highs and beyond",
-   "link": "https://www.cnbc.com/investingclub/2026/10/20/what-amazon-must-do-to-get-its-stumbling-stock-back-to-record-highs-and-beyond.html",
-   "ts": "2026-10-20T16:49:28Z",
-   "fuente": "CNBC",
-   "id": "b9e90c61c4",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Trump sued over 50% tariffs on Canada in latest trade challenge",
-   "link": "https://www.cnbc.com/2026/10/20/trump-tariffs-canada-section-338-lawsuit.html",
-   "ts": "2026-10-20T16:43:42Z",
-   "fuente": "CNBC",
-   "id": "2891872efa",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -10168,15 +10168,15 @@
     1792533600,
     4144.8,
     4149.8,
-    4139.6,
-    4139.9
+    4138.3,
+    4138.6
    ],
    [
-    1792536758,
-    4139.9,
-    4139.9,
-    4139.9,
-    4139.9
+    1792537048,
+    4139.0,
+    4139.0,
+    4139.0,
+    4139.0
    ]
   ],
   "nq": [
@@ -10786,15 +10786,15 @@
     1792533600,
     29925.0,
     29978.0,
-    29906.5,
-    29916.25
+    29903.0,
+    29916.75
    ],
    [
-    1792536757,
-    29917.5,
-    29917.5,
-    29917.5,
-    29917.5
+    1792537046,
+    29917.75,
+    29917.75,
+    29917.75,
+    29917.75
    ]
   ],
   "vix": [
@@ -11377,8 +11377,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "0f41339a84",
-  "95131e46fc",
   "44686bb773",
   "906083b68f",
   "13fc89835a",
@@ -12176,6 +12174,8 @@
   "6fed0a6fdc",
   "f897c30dbe",
   "7dc451a352",
-  "467e4722fb"
+  "467e4722fb",
+  "f41348d924",
+  "f9228881da"
  ]
 }
