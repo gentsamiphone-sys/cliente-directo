@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4144.8 · NQ 29705.0 · VIX 18.04 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-20T14:22:32Z"
+   "ultimo_resultado": "Oro 4152.4 · NQ 29770.75 · VIX 18.04 · 1 noticias nuevas",
+   "actualizado": "2026-10-20T14:27:50Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T14:22:32Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: SA Expands U.S. Gold Search With Slaughterhouse Project Acquisition"
+   "actualizado": "2026-10-20T14:27:49Z",
+   "ultimo_resultado": "1 titulares nuevos: El Dow sube 300 puntos por sólidos resultados corporativos"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4152.4 · NQ 29770.75 · VIX 18.04 · 1 noticias nuevas",
+   "ts": "2026-10-20T14:27:50Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4144.8 · NQ 29705.0 · VIX 18.04 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4148.8 · NQ 29653.75 · VIX 18.44",
    "ts": "2026-10-20T01:12:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4151.4 · NQ 29641.75 · VIX 18.44 · 1 noticias nuevas",
-   "ts": "2026-10-20T01:07:35Z"
   }
  ],
  "briefs": [
@@ -8542,12 +8542,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4144.8,
-  "nq": 29705.0,
+  "oro": 4152.4,
+  "nq": 29770.75,
   "vix": 18.04,
-  "ts": "2026-10-20T14:22:32Z"
+  "ts": "2026-10-20T14:27:49Z"
  },
  "noticias": [
+  {
+   "titulo": "Dow jumps 300 points as solid earnings steady market amid AI selling: Live updates",
+   "link": "https://www.cnbc.com/2026/10/19/stock-market-today-live-updates.html",
+   "ts": "2026-10-20T14:25:27Z",
+   "fuente": "CNBC",
+   "id": "41ce39f004",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "El Dow sube 300 puntos por sólidos resultados corporativos",
+   "efecto": "Impulsa al Nasdaq al alza por mejora del sentimiento de riesgo."
+  },
   {
    "titulo": "Anthropic in talks with neocloud Nscale over second multibillion-dollar deal, source tells CNBC",
    "link": "https://www.cnbc.com/2026/10/20/anthropic-nscale-data-center-deal.html",
@@ -9394,17 +9407,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "White Gold Expands the High-Grade Core at Golden Saddle Deposit Intersecting 5.13 g/t Gold over 7.9m within 1.47g/t Gold over 38.1m and Significantly Extends the VG Deposit High-Grade Mineralization by 90m to 320m Down-Plunge Across 150m of Strike Length Intersecting 2.53g/t Gold over 18.9m",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/white-gold-expands-high-grade-110000892.html?.tsrc=rss",
-   "ts": "2026-10-20T11:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "107b4bb6ea",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -9977,16 +9979,16 @@
    [
     1792504800,
     4146.4,
-    4149.6,
+    4155.5,
     4139.3,
-    4146.1
+    4153.6
    ],
    [
-    1792505552,
-    4143.8,
-    4143.8,
-    4143.8,
-    4143.8
+    1792505869,
+    4152.4,
+    4152.4,
+    4152.4,
+    4152.4
    ]
   ],
   "nq": [
@@ -10546,16 +10548,16 @@
    [
     1792504800,
     29629.25,
-    29736.0,
+    29781.0,
     29604.0,
-    29701.75
+    29780.0
    ],
    [
-    1792505551,
-    29705.0,
-    29705.0,
-    29705.0,
-    29705.0
+    1792505869,
+    29770.75,
+    29770.75,
+    29770.75,
+    29770.75
    ]
   ],
   "vix": [
@@ -11004,11 +11006,11 @@
     1792504800,
     18.12,
     18.16,
-    18.03,
-    18.07
+    17.94,
+    18.03
    ],
    [
-    1792505236,
+    1792505566,
     18.04,
     18.04,
     18.04,
@@ -11016,7 +11018,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-20T13:52:35Z",
+ "noticias_traducidas_ts": "2026-10-20T14:27:32Z",
  "ult_4h": 1792505862.554091,
  "estrategia_4h": {
   "oro": {
@@ -11096,7 +11098,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "a46e404d05",
   "d4724c50c6",
   "6b24e1ed40",
   "5971988dda",
@@ -11895,6 +11896,7 @@
   "07f3f9b687",
   "3a1f6db96e",
   "1cfebc7a8a",
-  "d11cb40c56"
+  "d11cb40c56",
+  "41ce39f004"
  ]
 }
