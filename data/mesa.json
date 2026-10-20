@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4159.1 · NQ 29787.5 · VIX 17.91",
-   "actualizado": "2026-10-20T15:27:37Z"
+   "ultimo_resultado": "Oro 4154.6 · NQ 29750.5 · VIX 17.83 · 2 noticias nuevas",
+   "actualizado": "2026-10-20T15:33:01Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T15:27:37Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-20T15:33:00Z",
+   "ultimo_resultado": "2 titulares nuevos: Los precios del petróleo caen por esperanzas de avances diplomáticos en Oriente Medio"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4154.6 · NQ 29750.5 · VIX 17.83 · 2 noticias nuevas",
+   "ts": "2026-10-20T15:33:01Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4159.1 · NQ 29787.5 · VIX 17.91",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4151.7 · NQ 29695.0 · VIX 18.44",
    "ts": "2026-10-20T02:17:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4147.3 · NQ 29714.5 · VIX 18.44",
-   "ts": "2026-10-20T02:12:33Z"
   }
  ],
  "briefs": [
@@ -8542,12 +8542,38 @@
   }
  },
  "en_vivo": {
-  "oro": 4159.1,
-  "nq": 29787.5,
-  "vix": 17.91,
-  "ts": "2026-10-20T15:27:37Z"
+  "oro": 4154.6,
+  "nq": 29750.5,
+  "vix": 17.83,
+  "ts": "2026-10-20T15:33:00Z"
  },
  "noticias": [
+  {
+   "titulo": "Oil prices fall as traders hope for diplomatic progress in Middle East",
+   "link": "https://www.cnbc.com/2026/10/20/oil-price-wti-brent-crude.html",
+   "ts": "2026-10-20T15:31:48Z",
+   "fuente": "CNBC",
+   "id": "f43c841020",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio",
+   "es": "Los precios del petróleo caen por esperanzas de avances diplomáticos en Oriente Medio",
+   "efecto": "Reduce la presión inflacionaria, limitando al oro como cobertura."
+  },
+  {
+   "titulo": "Trump Tariffs on Canada Spark Latest Lawsuit Over Trade Powers",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTGdLeEsxUVIzeVg0bmVVV1FCc05zVVloWE5iRG9EWlQ5UFlxb1NUZ1VWMzBLelkxMEtTNHdVU05zb1dFMlFpNmZOQjVNYjk0TTUybllhcnhFa1RBZldfZEVVOW1mOTVPUFNyRkFMc0YzSl9BRlNhR09qSzdwWjM0Tk05MA?oc=5",
+   "ts": "2026-10-20T15:18:04Z",
+   "fuente": "The New York Times",
+   "id": "0b22a7c908",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "bajo",
+   "es": "Los aranceles de Trump a Canadá generan una nueva demanda sobre los poderes comerciales",
+   "efecto": "Ruido político inicial sin impacto mayor inmediato en mercado."
+  },
   {
    "titulo": "Dow jumps 500 points as solid earnings, falling crude oil stir rebound: Live updates",
    "link": "https://www.cnbc.com/2026/10/19/stock-market-today-live-updates.html",
@@ -9375,26 +9401,6 @@
    "id": "0f560b15da",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Kincora Copper to Attend the 52nd Annual New Orleans Investment Conference",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/kincora-copper-attend-52nd-annual-113000639.html?.tsrc=rss",
-   "ts": "2026-10-20T11:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "47310c1f20",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Peruvian Metals Announces New High-Grade Au-Ag Results at Palta Dorada",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/peruvian-metals-announces-high-grade-113000620.html?.tsrc=rss",
-   "ts": "2026-10-20T11:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "4ad03db319",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9976,14 +9982,14 @@
     4162.2,
     4163.5,
     4151.8,
-    4157.5
+    4154.8
    ],
    [
-    1792509456,
-    4159.1,
-    4159.1,
-    4159.1,
-    4159.1
+    1792509778,
+    4154.6,
+    4154.6,
+    4154.6,
+    4154.6
    ]
   ],
   "nq": [
@@ -10552,14 +10558,14 @@
     29870.0,
     29876.75,
     29689.5,
-    29780.75
+    29750.5
    ],
    [
-    1792509457,
-    29787.5,
-    29787.5,
-    29787.5,
-    29787.5
+    1792509779,
+    29750.5,
+    29750.5,
+    29750.5,
+    29750.5
    ]
   ],
   "vix": [
@@ -11014,24 +11020,24 @@
    [
     1792508400,
     17.58,
-    17.66,
+    18.13,
     17.58,
-    17.63
+    17.88
    ],
    [
-    1792509151,
-    17.91,
-    17.91,
-    17.91,
-    17.91
+    1792509466,
+    17.83,
+    17.83,
+    17.83,
+    17.83
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-20T14:57:35Z",
- "ult_4h": 1792509456.258111,
+ "noticias_traducidas_ts": "2026-10-20T15:32:32Z",
+ "ult_4h": 1792510380.6421337,
  "estrategia_4h": {
   "oro": {
-   "precio": 4160.7,
+   "precio": 4154.6,
    "atr_4h": 24.49,
    "setups": [
     {
@@ -11041,14 +11047,14 @@
      "stop": 4184.8,
      "objetivo": 4130.1,
      "rr": 2.72,
-     "estado": "en retesteo",
+     "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.81,
      "ruptura": "2026-10-19 12:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29853.75,
+   "precio": 29750.5,
    "atr_4h": 237.39,
    "setups": [
     {
@@ -11075,7 +11081,7 @@
     }
    ]
   },
-  "ts": "2026-10-20T15:17:36Z"
+  "ts": "2026-10-20T15:33:00Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -11107,8 +11113,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "49cbf4bc4c",
-  "4afdc34126",
   "9402ed27e2",
   "57ecb33078",
   "e86e61d5eb",
@@ -11906,6 +11910,8 @@
   "cda8b1a86a",
   "01dfba1409",
   "c038cc1d0c",
-  "c60e6fb084"
+  "c60e6fb084",
+  "f43c841020",
+  "0b22a7c908"
  ]
 }
