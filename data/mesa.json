@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4155.3 · NQ 29741.75 · VIX 18.44",
-   "actualizado": "2026-10-20T02:27:39Z"
+   "ultimo_resultado": "Oro 4156.3 · NQ 29748.25 · VIX 18.44 · 2 noticias nuevas",
+   "actualizado": "2026-10-20T02:32:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T02:27:38Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-20T02:32:34Z",
+   "ultimo_resultado": "2 titulares nuevos: Gold Edges Lower as Higher Yields Weigh"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4156.3 · NQ 29748.25 · VIX 18.44 · 2 noticias nuevas",
+   "ts": "2026-10-20T02:32:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4155.3 · NQ 29741.75 · VIX 18.44",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "DXY 0.01% · 10Y 5.098 · VIX 18.65 · 0 eventos USD en el radar.",
    "ts": "2026-10-19T12:33:00Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
-   "ts": "2026-10-19T12:32:59Z"
   }
  ],
  "briefs": [
@@ -8204,12 +8204,24 @@
   }
  },
  "en_vivo": {
-  "oro": 4155.3,
-  "nq": 29741.75,
+  "oro": 4156.3,
+  "nq": 29748.25,
   "vix": 18.44,
-  "ts": "2026-10-20T02:27:39Z"
+  "ts": "2026-10-20T02:32:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Gold Edges Lower as Higher Yields Weigh",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcTllclNrcTJwXzluajYzYkkxM3VWNjFWUVZOcWo0ZjBKelNQTlNKVGcyQjdHVkNLZldxWWlFWE9Sc3VUNmZza0NMX2xXWDhFUE15c1RhWXVES3ZoRDNXVjZzQnJlT1BXSDZsV2ROSjhlTWljcW1kMDhDcnViQ3RfRy12WFFJMDNHV3VaZDRKeVhxa0U3blJTRXVHQ1E?oc=5",
+   "ts": "2026-10-20T02:29:00Z",
+   "fuente": "WSJ",
+   "id": "a289685de6",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "‘Open your doors for AI’: German chancellor urges businesses to embrace AI as Nvidia announces new investments",
    "link": "https://www.cnbc.com/2026/10/20/german-chancellor-urges-businesses-to-embrace-ai.html",
@@ -8222,6 +8234,17 @@
    "impacto": "medio",
    "es": "Canciller alemán insta a empresas a adoptar la inteligencia artificial ante nuevas inversiones de Nvidia.",
    "efecto": "Impulsa al Nasdaq 100 al alza por optimismo en el sector tecnológico."
+  },
+  {
+   "titulo": "3 Canadian Growth Stocks To Own In October 2026",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-canadian-growth-stocks-own-021214334.html?.tsrc=rss",
+   "ts": "2026-10-20T02:12:14Z",
+   "fuente": "Yahoo Finance",
+   "id": "f301559dfe",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "JD Vance refrains from endorsing Israeli leader Netanyahu as Trump offers praise",
@@ -9069,30 +9092,6 @@
    "id": "e26c135507",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Salazar Resources to Begin Drilling the Yumi Gold-Silver Veins at Tarqui, with Porphyry Drilling Planned at Monja, Ecuador",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/salazar-resources-begin-drilling-yumi-173100869.html?.tsrc=rss",
-   "ts": "2026-10-19T17:31:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "0dc9612d50",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Apple announces product launch event for Oct. 28. Analysts expect touchscreen laptop",
-   "link": "https://www.cnbc.com/2026/10/19/apple-product-launch-event-oct-28-analysts-expect-touchscreen-laptop.html",
-   "ts": "2026-10-19T17:25:57Z",
-   "fuente": "CNBC",
-   "id": "e3912d43ba",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Apple anuncia evento de lanzamiento de productos para el 28 de octubre.",
-   "efecto": "Impulsa ligeramente al NASDAQ por expectativas en el sector tecnológico."
   }
  ],
  "eventos_avisados": [
@@ -9728,16 +9727,16 @@
    [
     1792461600,
     4150.0,
-    4155.8,
+    4157.5,
     4144.4,
-    4155.1
+    4156.0
    ],
    [
-    1792462656,
-    4155.3,
-    4155.3,
-    4155.3,
-    4155.3
+    1792462946,
+    4156.3,
+    4156.3,
+    4156.3,
+    4156.3
    ]
   ],
   "nq": [
@@ -10360,16 +10359,16 @@
    [
     1792461600,
     29736.0,
-    29746.75,
+    29756.0,
     29682.5,
-    29745.0
+    29744.25
    ],
    [
-    1792462655,
-    29741.75,
-    29741.75,
-    29741.75,
-    29741.75
+    1792462951,
+    29748.25,
+    29748.25,
+    29748.25,
+    29748.25
    ]
   ],
   "vix": [
@@ -10768,86 +10767,86 @@
    [
     1792393200,
     18.37,
-    18.38,
-    18.3,
-    18.34
+    18.59,
+    18.26,
+    18.59
    ],
    [
     1792396800,
     18.32,
-    18.66,
+    18.75,
     18.26,
-    18.56
+    18.75
    ],
    [
     1792400400,
     18.56,
     18.81,
     18.53,
-    18.69
+    18.62
    ],
    [
     1792404000,
     18.69,
-    18.74,
-    18.58,
-    18.68
+    18.75,
+    18.45,
+    18.49
    ],
    [
     1792407600,
     18.68,
-    18.78,
+    18.93,
     18.45,
-    18.78
+    18.83
    ],
    [
     1792411200,
     18.78,
     18.93,
-    18.57,
-    18.59
+    18.53,
+    18.54
    ],
    [
     1792414800,
     18.58,
     18.67,
-    18.31,
-    18.38
+    17.83,
+    18.16
    ],
    [
     1792418400,
     18.1,
     18.5,
     17.62,
-    17.68
+    17.82
    ],
    [
     1792422000,
     17.7,
     18.03,
     17.39,
-    17.41
+    17.68
    ],
    [
     1792425600,
     17.42,
-    18.08,
+    18.18,
     17.42,
-    17.93
+    18.18
    ],
    [
     1792429200,
     17.93,
-    18.49,
+    18.64,
     17.93,
-    18.4
+    18.41
    ],
    [
     1792432800,
     18.42,
     18.64,
     18.2,
-    18.42
+    18.25
    ],
    [
     1792436400,
@@ -10873,10 +10872,10 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-20T02:22:34Z",
- "ult_4h": 1792462652.7288218,
+ "ult_4h": 1792463554.7894144,
  "estrategia_4h": {
   "oro": {
-   "precio": 4151.0,
+   "precio": 4156.3,
    "atr_4h": 23.29,
    "setups": [
     {
@@ -10893,7 +10892,7 @@
    ]
   },
   "nq": {
-   "precio": 29695.0,
+   "precio": 29748.25,
    "atr_4h": 211.39,
    "setups": [
     {
@@ -10920,7 +10919,7 @@
     }
    ]
   },
-  "ts": "2026-10-20T02:17:32Z"
+  "ts": "2026-10-20T02:32:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10951,8 +10950,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "3db81e80f9",
-  "5ef85194ad",
   "29326771db",
   "5445fce620",
   "b830debe18",
@@ -11750,6 +11747,8 @@
   "0eb75436c0",
   "357d8d1c1d",
   "5f73ea97c5",
-  "9c98a0914e"
+  "9c98a0914e",
+  "a289685de6",
+  "f301559dfe"
  ]
 }
