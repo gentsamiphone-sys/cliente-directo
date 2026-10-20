@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: SIN ENTRADA · el bot solo compra, no se opera.",
-   "actualizado": "2026-10-20T13:39:11Z"
+   "ultimo_resultado": "BTC: el precio no llegó a la zona en 24 h. Idea cancelada.",
+   "actualizado": "2026-10-20T14:01:49Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "BTC: el precio no llegó a la zona en 24 h. Idea cancelada.",
+   "ts": "2026-10-20T14:01:49Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "BTC: SIN ENTRADA · el bot solo compra, no se opera.",
@@ -800,11 +805,6 @@
    "agente": "cio",
    "texto": "Brief publicado: Consolidación y tasas altas frenan el apetito por riesgo en la apertura de EE. UU.",
    "ts": "2026-10-16T13:36:41Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Escribiendo el brief cripto…",
-   "ts": "2026-10-16T13:36:27Z"
   }
  ],
  "briefs": [
@@ -1768,7 +1768,7 @@
    "stop": 79650.0,
    "tp": 84050.0,
    "tp1": 83050.0,
-   "estado": "pendiente",
+   "estado": "cancelada",
    "creada": "2026-10-19T13:43:10Z",
    "real": true
   },
