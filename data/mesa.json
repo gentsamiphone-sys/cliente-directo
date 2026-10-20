@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4141.0 · NQ 29615.5 · VIX 18.58",
-   "actualizado": "2026-10-20T08:02:31Z"
+   "ultimo_resultado": "Oro 4139.4 · NQ 29601.0 · VIX 18.58 · 1 noticias nuevas",
+   "actualizado": "2026-10-20T08:07:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T08:02:30Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-20T08:07:31Z",
+   "ultimo_resultado": "1 titulares nuevos: JPMorgan Bitcoin Forecast Gives BTC a Major Edge Over US Stocks"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4139.4 · NQ 29601.0 · VIX 18.58 · 1 noticias nuevas",
+   "ts": "2026-10-20T08:07:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4141.0 · NQ 29615.5 · VIX 18.58",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4163.8 · NQ 29730.0 · VIX 18.34 · 1 noticias nuevas",
    "ts": "2026-10-19T18:42:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4164.9 · NQ 29724.0 · VIX 18.23 · 1 noticias nuevas",
-   "ts": "2026-10-19T18:37:37Z"
   }
  ],
  "briefs": [
@@ -8370,10 +8370,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4141.0,
-  "nq": 29615.5,
+  "oro": 4139.4,
+  "nq": 29601.0,
   "vix": 18.58,
-  "ts": "2026-10-20T08:02:30Z"
+  "ts": "2026-10-20T08:07:32Z"
  },
  "noticias": [
   {
@@ -8384,6 +8384,17 @@
    "id": "33824ea991",
    "activos": [
     "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "JPMorgan Bitcoin Forecast Gives BTC a Major Edge Over US Stocks",
+   "link": "https://cryptonews.com/news/bitcoin-forecast-jpmorgan/?.tsrc=rss",
+   "ts": "2026-10-20T07:22:46Z",
+   "fuente": "Yahoo Finance",
+   "id": "44fcc0f453",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -9249,17 +9260,6 @@
    "id": "914c27d572",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Sector Update: Consumer Stocks Mixed Late Afternoon",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-194956540.html?.tsrc=rss",
-   "ts": "2026-10-19T19:49:56Z",
-   "fuente": "Yahoo Finance",
-   "id": "0a2f622728",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9784,15 +9784,15 @@
     1792479600,
     4153.8,
     4155.5,
-    4140.2,
-    4141.1
+    4136.6,
+    4139.0
    ],
    [
-    1792482750,
-    4141.0,
-    4141.0,
-    4141.0,
-    4141.0
+    1792483050,
+    4139.6,
+    4139.6,
+    4139.6,
+    4139.6
    ]
   ],
   "nq": [
@@ -10304,15 +10304,15 @@
     1792479600,
     29707.0,
     29718.75,
-    29606.25,
-    29616.5
+    29588.0,
+    29598.5
    ],
    [
-    1792482749,
-    29615.5,
-    29615.5,
-    29615.5,
-    29615.5
+    1792483050,
+    29601.0,
+    29601.0,
+    29601.0,
+    29601.0
    ]
   ],
   "vix": [
@@ -10713,10 +10713,10 @@
     18.42,
     18.62,
     18.41,
-    18.59
+    18.61
    ],
    [
-    1792482436,
+    1792482736,
     18.58,
     18.58,
     18.58,
@@ -10804,7 +10804,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "fd39f75157",
   "7835a4dc13",
   "6eb1784ce3",
   "f3a3b8728d",
@@ -11603,6 +11602,7 @@
   "7f3ba19a86",
   "5984d9fd91",
   "06f3eadd0d",
-  "33824ea991"
+  "33824ea991",
+  "44fcc0f453"
  ]
 }
