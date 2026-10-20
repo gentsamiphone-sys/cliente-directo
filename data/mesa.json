@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4142.2 · NQ 29554.5 · VIX 18.72 · 5 noticias nuevas",
-   "actualizado": "2026-10-20T11:37:31Z"
+   "ultimo_resultado": "Oro 4142.5 · NQ 29527.75 · VIX 18.66 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-20T11:42:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T11:37:31Z",
-   "ultimo_resultado": "5 titulares nuevos: Kincora Copper to Attend the 52nd Annual New Orleans Investment Conference"
+   "actualizado": "2026-10-20T11:42:34Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: CoreWeave enfrentará mayor destrucción de valor por temores estructurales, dice HSBC"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4142.5 · NQ 29527.75 · VIX 18.66 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-20T11:42:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4142.2 · NQ 29554.5 · VIX 18.72 · 5 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Mapa listo: oro 4160.3 · NQ 29743.75.",
    "ts": "2026-10-19T21:33:00Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
-   "ts": "2026-10-19T21:32:58Z"
   }
  ],
  "briefs": [
@@ -8370,12 +8370,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4142.2,
-  "nq": 29554.5,
-  "vix": 18.72,
-  "ts": "2026-10-20T11:37:31Z"
+  "oro": 4142.5,
+  "nq": 29527.75,
+  "vix": 18.66,
+  "ts": "2026-10-20T11:42:34Z"
  },
  "noticias": [
+  {
+   "titulo": "CoreWeave will see more 'value destruction' ahead on growing structural fears, says HSBC",
+   "link": "https://www.cnbc.com/2026/10/20/coreweave-hsbc-debt-risks.html",
+   "ts": "2026-10-20T11:37:09Z",
+   "fuente": "CNBC",
+   "id": "10b75ce896",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "CoreWeave enfrentará mayor destrucción de valor por temores estructurales, dice HSBC",
+   "efecto": "Genera cautela menor en tecnológicas, afectando levemente al Nasdaq."
+  },
   {
    "titulo": "3M lifts annual profit forecast on cost controls, price hikes",
    "link": "https://www.cnbc.com/2026/10/20/3m-mmm-earnings-q3-2026.html",
@@ -8413,6 +8426,20 @@
    "id": "f76d44fc2f",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Nasdaq futures fall as oil prices jump, key earnings loom",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2JsXzZ4YTVKcDJjNE9iTW42aU0wY0VOZXRtdDYxTzJTanBUOGZIT1FLSl9FVTNxQ1RpTVFSWHlsejgyR0Y1b3JQWXRlT0dEMjJPWWpXYlpfdFJQaHZKZG5KdUNMdW53NmlMd2RwUWJKWFB3dE9Xc2ZBbnRfalF3cWNzblhxTGJOTGlKYUh1a0FmWC1vaGQydWZXdTMzemJjSVg5NWZ0bw?oc=5",
+   "ts": "2026-10-20T11:26:25Z",
+   "fuente": "Reuters",
+   "id": "9a72741fec",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Futuros del Nasdaq caen por salto en precios del petróleo y reportes clave",
+   "efecto": "Presiona al Nasdaq a la baja e impulsa al dólar por inflación."
   },
   {
    "titulo": "Thunderstruck Announces Commencement of Diamond Drilling at the High-Grade Liwa Gold-Silver Project, Fiji",
@@ -9193,29 +9220,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "'Cannot play hide and seek': Singapore minister's warning over haze sends agricultural stocks lower",
-   "link": "https://www.cnbc.com/2026/10/20/singapore-haze-shanmugam-indonesia-malaysia.html",
-   "ts": "2026-10-20T04:36:55Z",
-   "fuente": "CNBC",
-   "id": "d68a73cb78",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Ministro de Singapur advierte sobre bruma y bajan acciones agrícolas",
-   "efecto": "Sin impacto directo en oro, NQ o dólar."
-  },
-  {
-   "titulo": "Gold inches up on softer dollar as investors assess Fed rate outlook",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM09USHp5SG1hTHFYREFaTld3TUFJQ2RCUThZUzYxZ3E0bHlQbDVzNHFtV01sTDV3U2R4NlFYckhGZU52a0xaZVZuWnJjcFNHVGpQZUw1NEI1SjBtSl9KUFFhVUZ5SWNvY1B3S0FFVlZGbHpoRFFrdEFCckEwd0UzaXZPZWlPaENhUWdKd0gxS1V0RHhsRkdjMzNwWWJPUEIzbVJfUmlwZF8?oc=5",
-   "ts": "2026-10-20T04:16:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "a940d3230f",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -9767,16 +9771,16 @@
    [
     1792494000,
     4139.1,
-    4143.5,
+    4143.7,
     4138.6,
-    4141.9
+    4143.1
    ],
    [
-    1792495645,
-    4142.2,
-    4142.2,
-    4142.2,
-    4142.2
+    1792495950,
+    4142.5,
+    4142.5,
+    4142.5,
+    4142.5
    ]
   ],
   "nq": [
@@ -10316,15 +10320,15 @@
     1792494000,
     29582.75,
     29585.5,
-    29533.75,
-    29543.5
+    29521.5,
+    29521.5
    ],
    [
-    1792495646,
-    29554.5,
-    29554.5,
-    29554.5,
-    29554.5
+    1792495952,
+    29527.75,
+    29527.75,
+    29527.75,
+    29527.75
    ]
   ],
   "vix": [
@@ -10752,19 +10756,19 @@
     1792494000,
     18.71,
     18.84,
-    18.7,
-    18.74
+    18.65,
+    18.65
    ],
    [
-    1792495336,
-    18.72,
-    18.72,
-    18.72,
-    18.72
+    1792495651,
+    18.66,
+    18.66,
+    18.66,
+    18.66
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-20T11:12:31Z",
+ "noticias_traducidas_ts": "2026-10-20T11:42:32Z",
  "ult_4h": 1792495953.1707013,
  "estrategia_4h": {
   "oro": {
@@ -10844,8 +10848,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "01585d3818",
-  "cbd0133fdd",
   "73f8768c9f",
   "21669be8ac",
   "13bc82277c",
@@ -11643,6 +11645,8 @@
   "4ad03db319",
   "f76d44fc2f",
   "b0f9c56057",
-  "a4e513181e"
+  "a4e513181e",
+  "10b75ce896",
+  "9a72741fec"
  ]
 }
