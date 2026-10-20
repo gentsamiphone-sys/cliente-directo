@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4137.3 · NQ 29627.5 · VIX 18.76 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-20T13:17:45Z"
+   "ultimo_resultado": "Oro 4133.5 · NQ 29612.25 · VIX 18.6 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-20T13:22:47Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T13:17:43Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: El crudo estadounidense supera los $105 y el Brent toca máximos de 5 meses por tensiones en Medio Oriente"
+   "actualizado": "2026-10-20T13:22:46Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: USD/JPY and Nasdaq Price Outlook: Key Levels to Watch"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4133.5 · NQ 29612.25 · VIX 18.6 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-20T13:22:47Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4137.3 · NQ 29627.5 · VIX 18.76 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4156.3 · NQ 29752.5 · VIX 18.44 · 2 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-20T00:12:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4151.7 · NQ 29743.0 · VIX 18.44",
-   "ts": "2026-10-20T00:07:33Z"
   }
  ],
  "briefs": [
@@ -8542,12 +8542,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4137.3,
-  "nq": 29627.5,
-  "vix": 18.76,
-  "ts": "2026-10-20T13:17:44Z"
+  "oro": 4133.5,
+  "nq": 29612.25,
+  "vix": 18.6,
+  "ts": "2026-10-20T13:22:47Z"
  },
  "noticias": [
+  {
+   "titulo": "USD/JPY and Nasdaq Price Outlook: Key Levels to Watch",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUm5MMEZTZ0pLMjVyUS0wUG1FcUUycG5UN1NsVjlhVzcwcE1BQUZQMi1rWnliQ2NEUlp0c3RlT0lmcENCaWgycktmMGRlRVhyTkYwTGtFOFZYTklYNkQtei0xN0tmM0QyR3ZkTGI4cmg1Qjk0VUxNTFdJQm1pbXRjRWlTOEJ3VVpVOWUxcGlVV2hYb2IyRnE2dmlGWGh3YmVhSHlBeUNOR2hRM2dmMk84cg?oc=5",
+   "ts": "2026-10-20T13:20:46Z",
+   "fuente": "StoneX",
+   "id": "abc99092fe",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "U.S. crude oil tops $105, Brent crude at five-month highs amid Mideast tensions",
    "link": "https://www.cnbc.com/2026/10/20/oil-price-wti-brent-crude.html",
@@ -8564,6 +8575,15 @@
    "efecto": "Impulsa la inflación, presiona tasas al alza, castiga al NQ y fortalece al oro."
   },
   {
+   "titulo": "Wall St set for lower open as oil prices jump, earnings in focus",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2JsXzZ4YTVKcDJjNE9iTW42aU0wY0VOZXRtdDYxTzJTanBUOGZIT1FLSl9FVTNxQ1RpTVFSWHlsejgyR0Y1b3JQWXRlT0dEMjJPWWpXYlpfdFJQaHZKZG5KdUNMdW53NmlMd2RwUWJKWFB3dE9Xc2ZBbnRfalF3cWNzblhxTGJOTGlKYUh1a0FmWC1vaGQydWZXdTMzemJjSVg5NWZ0bw?oc=5",
+   "ts": "2026-10-20T13:08:25Z",
+   "fuente": "Reuters",
+   "id": "afcca02579",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
    "link": "https://www.cnbc.com/investingclub/2026/10/20/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
    "ts": "2026-10-20T13:05:15Z",
@@ -8571,6 +8591,17 @@
    "id": "9007598217",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "COMMENTARY: Fed sneezes, but emerging markets aren't catching a cold yet",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQS1daQTg5d2lOVXV0UWliMmhhb1R0c0MtbVFIRDRTSFBQWmZub2dmNFRTZmJWSDB3ME4xS1U3WnZ3MEtCamNScWNyYy13R25hSEdqOFdCcVZUNFRsTU1MMGxLWVRpSHB5NWxKTkR3d01Bb2ZheGg2WUtRTmZKZTJ4WHJKNG8tc0ZpSEZWUDNYLU5wUTJObmhqTU9wV3dWMVR4NXNqNVBpMUZGejV6M2hSZWZCUVZ5TGFJQUpNcUFkUnZ1dnVoajdBay1B?oc=5",
+   "ts": "2026-10-20T13:05:00Z",
+   "fuente": "Reuters",
+   "id": "fbb5ab596b",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Former OpenAI exec has quietly built $1.5 billion startup, betting AI can revive U.S. manufacturing",
@@ -9370,37 +9401,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Trump announces 100% tariff on Chinese imports, after stock market sell-off",
-   "link": "https://news.google.com/rss/articles/CBMiuhVBVV95cUxPd3VrUWdheEpLUldIY0JjSEhBVE5iZWxFdGRmUnBENjZRQnZjdHcydWNKamJ0aVUzRW1pblRNbm05b3Nrdzh5WW94bEhiOHNJeHZCTjFhMDdYeXIyZFRTZzhPSlJHY2N4ZERvWXd6eExPMmFEUzhSb0FlZ19UOVF5M3EtNGJxQy1KT21MM3B4ZkNKSzJJSjRHYTluNzFFMU5DR19mV0xJbzQ0Wmw4V1U1NFd4UjJHWXFnRjFWLU1rV0dZWmVuZHFPbWtMYkpGbEtiSkJvZFVOdGRCR2hsM2V5MDQ1eldSRkthdl82THVtYzI3WmRmR05VVFNJTWxBaG1qbjRzMnZtQS1HRzBDd0loWGxud0lUZXhVQ2h0d3ktWWhrNE1YZTY3SlliNUxCZk9qNE8xMGM1cHlvb3J1M2szenZEZWlKaV9hMElLUEhKVl9IWFRxUFNCVC1aWGUydEFlb2RBSjNNM05MRElsZjZLc2RENEJYRnNHRWFfQ3pVNFZDcUF5bC1wUjJrSDQzSGtVaG1fNlRUYzlZSmU4RUtNcEg2SWwyMXZCZG84WUZuX3hseEVuRU1tWGgwaEdWQlNLejRFRDZnZHlMcEEwZkU1clA0ZHdRYS1scU0xZE5iSUw5UmtRNUttalpMc1BwbnlNMERrSlhuNGVuUE9KZWNpVmduS3JnWE1rQ2NLdG1iV1VtLTBtR0trOE1DRXdBNjBfRzIwTkh6Y2lNTUdvc09qbmVhU0VrWjF4N2pLMnhfWDJPTi1IalVfaWVoYzdoN2VqRkItRG81UXp6NlNjNFFBUGZaN21WY2ZZOERpR2FVSXZQNzVVSDFoTXNoVzR2VHhxZGJ6YTBDT1cyaWNEYWZvTXZBV2Z4eElIc0JuTkdvWUVxeERmcFdHbS1XVHFUdDk2WXg4Q3F0MkN2MVFvSFFzVl9TTTk1TU5GRmVHeGhCUU5aMnBEbGZ4ZWhMamFjbEcyb2ZaVzRPQ1ZZVjJ4SU53bXhxUWhPY0w2ZFQwRFdtOTZfQ05lUWRqZ1RRTmg4U1RqR3lJRGhVelQwSU9ySWFlSFhTX3pfempNZDM5WnlRd3NzTlBibkI4eEpfblpqM05uTmJQdE5mcFIwYUxoamRQem5RY1NWYzhzbUZDM3ZHN3lXR3dKa0lZMnRNM0hsbkw2RWlLRmRsYnJoUmRJTzZwbnJzTURTVkJnZVd1SkRnU1hrV041MUY3bEw0b2ZSMDZLbnpLV2ljTF9vM0tQdXpFQVJIUWd4aUlxRTVHSTI2ZWhya3Aybllpb3l1S3JJVENzd3hvTEtwb0ZIVmtOUWdaMEVwb0lOLU9raXB4QXFDNmVJZzZaeFdGNWpWUzRSVGVqNk4zSTM4Q2hUUkJncVJvUkdUZWpFMTFkeHBtTFZKellHWDNqZEQxSXNPSHVnV3VRZERfS3ZmWUprRGNOSlFScjVlVzdrdEFqLW9SaDlYbldjenE1X1FVTGI4X2pZOWY5ejVpRnVwQXZ5ZFlBY0NOM0hzQXFhaDRrOTdyeWVFMDdhVFJSaDFYQ1Y1YVN0TWlvUXBtX1B2ZmMtU21RZEZWbUJpQUhuZnFwTFlQRFRqb2MzOTlCdDRvVWpBNG9SeGxyMXdIdmxNNFZMSTc0aVJQdjc2SUczaWR2R2kxMWxkZWpGaFRZaTJoemRWb3d4NXpicXUzWE16N3NRVURXLUhXQ25LRzMxWDh6RGpCclpZY3lzWmtreU14akkyQ3pXQmVleUdDU00xME9FOWZKLXpSN2dxWDRaLWdoTnBTWFBKMHRQZGJza3FZTGZWY0t0a0M1Q1B1N1lzWkEtQW9nZGYyY0lzWlVQckhEMlRiSU9vZkp1ZTBETFk5NEU2Z0ZaUTJYOV9lTFdHSlo3aDFDVW81QXhxN2cyZ0JTbHZDTVZPY1RNVk9ERmNyTWVZZkJFSTZsQW1iQ2ZJSXpXUU1xalZ1TWVmY3JUX3VkclIzZVRYSTE5dEltNS1TOVNvNHpiTm4xREhnZi1ZRzR0a0ZHMGVZcnNleFBKTTBxUGpTM0xsU0FKeUxBRHVZb3hJajY1ZW9sbTY1VmlKV3ViZi1RWF9CWEJhMzJMUHNaU041MWZhaE05UjhrSzBxNHZfU29BMmxzWkxUWGRXLU1qSWR1aE9ma2dhT0E4NFptUU50ZENSVnYtdkFWNU54YWc0dExvb1JQcXlweFdWZXNjdEt5bW4tZzBMSnVoWHctbFdQbUZ4MHZ6aXFwSEJMNGpGdlJLcTNJb1Q4aExpamFWSlB2QWZSOC1LV0NhTzNySVB2RUwyR1FiamR3ZlZLMnVsNWFUZHVzWUUtMS1NNGt3a0tsbG9MZkNuRGxxSFV3NEU1bG5RcGhhOEZzVzdranB1NzA2VGhabjlscjhzMC1WSWhXTGlSNkRhLXJCSUpaR1o3anREZkdSQUt6SDVxazhNQ09pVTFyOVpiRTRxd1RRMXlrV29mR3NNTlVGYnQ3NjdZZlJIaE53aWZNSkJuYkFLZTlZSGVFYURwQjZaZ2Qzb0NVMjlJVEt3TjRWQm9pd1duWXlwbW1KM0sxbGV5RnBkTU92V0YxeVhWRmJpVVlNamZ6WHZiekczS2hUbmVpbTN5YmdlUU8wVXgtVVRjNTlDMm5GOUhUeVdxdy1vUEtYWnd4M1liU1lOTVplcXZVT0FQTjEwNGN0SkR1aGZVdVJjeE1FMnVNcEJxeGxKTnFsSVRwdmNnY0p6eS1kek9rVjJaaTFoRHM3RkgwM3hZZUd0YWhVcktfeXZsYzZnQlpRWDMtenV1eFJZUHhoUUxsMnAwMkYxRU54QXMxYmhpeGNUUGdkbU80ZDRMSzlnQ2tJWjhVMnlISWZhSkhTRkc4dk5zdjEteXVuaEtFN19ORHZTdHk5ak1mOE4tVDVyWG9wZ3JSc1JPM09wVEZ5THRPN1hxeTlNVmJmdHM2Q0QtTlpCZV85VkJCelZvbE5mb2xoUU5ZMUxSOVVYckFMcFJTZE44U2ZVY0s0ekpxemxLUjNJczJNMU5UTWNORVpWV1BieVZHSTBTWUdfLVNoWmhfZTJhX0dSczJsZDlINEd5WHI5RklZbjV3MnBGR2RpV242Q2tKQ0w1VkJmZ1pfY2NEeGFrVDJPZ2VITkMyT21kSGZ0QllXSFlJczc2eGNRdVdpX19iU2lzYjRpVVZkcTI0NXFkOVg4UEVMbXR5aVlrY2VfT1QweUl1TXBHNFlNQUR6OGM1MzFfMmFlamxhV2thRlc3MWRsbElMbG9ZRXlVV0l6ZnBXMktUcHVmNXhlRHVTekI3eFUxaXZlVEVIRWt4SjdFRE10dmVSbFNKYTlsa3gyQXlHT1l2clJmMVUtT2M4WkRUYW5aUUtKV1ZOb2dyaEs0TTZnSHhxdEpiVTA4cG1HZWF3aEE2YVRnUS1hYzNma0dieW1YMjgzamRDRV80ZUdMWTJDcDRBOGxZQlUtUmQxSjc4ZmR1eVIweU5TWmVnQmVZUHB2ZGJCOEF5VUhXYy1Sd0N5S0Z4d3I4UEFVS05zZU5yLV9QVW5XRG80akh1Yk9ncy1QN1NuNVZEMHBvN2hvTUtZV2pNMERDaUhCbmNqVjhKYm5pLTJuQ2VBVGp2TWxVS1lQYXZWYTRYVDVWeWd6Qm9SU0J3Qnk0b0RwSS1n?oc=5",
-   "ts": "2026-10-20T10:13:48Z",
-   "fuente": "ABC7 Chicago",
-   "id": "17dc76db46",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Nasdaq futures dip as oil prices climb, earnings loom",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2JsXzZ4YTVKcDJjNE9iTW42aU0wY0VOZXRtdDYxTzJTanBUOGZIT1FLSl9FVTNxQ1RpTVFSWHlsejgyR0Y1b3JQWXRlT0dEMjJPWWpXYlpfdFJQaHZKZG5KdUNMdW53NmlMd2RwUWJKWFB3dE9Xc2ZBbnRfalF3cWNzblhxTGJOTGlKYUh1a0FmWC1vaGQydWZXdTMzemJjSVg5NWZ0bw?oc=5",
-   "ts": "2026-10-20T10:09:44Z",
-   "fuente": "Reuters",
-   "id": "132b34c2c0",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "The Federal Reserve Just Warned More Rate Hikes Are Likely Coming. History Has Good and Bad News for Investors",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd3FBbTgwN0dFcEJLXzJZR19ZV0NnVkFLQmtwMVdNN2sxSzdOR3ZrYmlRN1EzUTdwbGxibWtqREg0bVJlQmlQYTRRYVdMU2hPejZtY1pMWlZpR09nZnEyQzQ0aHZfajVmamtubzVFeGNPV05PakdRY01laEF4VU1zWGl0R2ZHSFQxTVVWVmJfWGE4eUY4U3lWag?oc=5",
-   "ts": "2026-10-20T10:07:15Z",
-   "fuente": "The Motley Fool",
-   "id": "7512b6781e",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9968,14 +9968,14 @@
     4137.7,
     4139.6,
     4131.3,
-    4137.0
+    4133.7
    ],
    [
-    1792501661,
-    4137.3,
-    4137.3,
-    4137.3,
-    4137.3
+    1792501965,
+    4134.1,
+    4134.1,
+    4134.1,
+    4134.1
    ]
   ],
   "nq": [
@@ -10530,14 +10530,14 @@
     29594.0,
     29631.25,
     29576.0,
-    29625.75
+    29615.0
    ],
    [
-    1792501663,
-    29627.5,
-    29627.5,
-    29627.5,
-    29627.5
+    1792501967,
+    29613.75,
+    29613.75,
+    29613.75,
+    29613.75
    ]
   ],
   "vix": [
@@ -10978,16 +10978,16 @@
    [
     1792501200,
     18.72,
-    18.73,
-    18.72,
-    18.73
+    18.76,
+    18.61,
+    18.61
    ],
    [
-    1792501351,
-    18.76,
-    18.76,
-    18.76,
-    18.76
+    1792501666,
+    18.61,
+    18.61,
+    18.61,
+    18.61
    ]
   ]
  },
@@ -11071,9 +11071,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "a561b80a88",
-  "7f4cf52314",
-  "8186a50f3c",
   "8bc1cc2753",
   "a02e52f4e2",
   "e59545ff8d",
@@ -11870,6 +11867,9 @@
   "9007598217",
   "9552c5afe9",
   "b534cccc6f",
-  "ce70d8d619"
+  "ce70d8d619",
+  "abc99092fe",
+  "afcca02579",
+  "fbb5ab596b"
  ]
 }
