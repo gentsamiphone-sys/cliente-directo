@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4143.4 · NQ 29769.0 · VIX 17.32 · 2 noticias nuevas",
-   "actualizado": "2026-10-20T18:27:35Z"
+   "ultimo_resultado": "Oro 4143.8 · NQ 29754.0 · VIX 17.3 · 1 noticias nuevas",
+   "actualizado": "2026-10-20T18:32:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T18:27:34Z",
-   "ultimo_resultado": "2 titulares nuevos: Mike Bloomberg spent $80M to boost Democrats in midterms: NYT"
+   "actualizado": "2026-10-20T18:32:31Z",
+   "ultimo_resultado": "1 titulares nuevos: The healthcare sector is getting a safe haven boost. This one stock is headed for a long-term breakout"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4143.8 · NQ 29754.0 · VIX 17.3 · 1 noticias nuevas",
+   "ts": "2026-10-20T18:32:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4143.4 · NQ 29769.0 · VIX 17.32 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4162.3 · NQ 29655.75 · VIX 18.44",
    "ts": "2026-10-20T05:02:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4164.2 · NQ 29673.5 · VIX 18.44",
-   "ts": "2026-10-20T04:57:31Z"
   }
  ],
  "briefs": [
@@ -8542,12 +8542,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4143.4,
-  "nq": 29769.0,
-  "vix": 17.32,
-  "ts": "2026-10-20T18:27:35Z"
+  "oro": 4143.8,
+  "nq": 29754.0,
+  "vix": 17.3,
+  "ts": "2026-10-20T18:32:31Z"
  },
  "noticias": [
+  {
+   "titulo": "The healthcare sector is getting a safe haven boost. This one stock is headed for a long-term breakout",
+   "link": "https://www.cnbc.com/2026/10/20/the-healthcare-sector-is-getting-a-safe-haven-boost-this-one-stock-is-headed-for-a-long-term-breakout.html",
+   "ts": "2026-10-20T18:25:50Z",
+   "fuente": "CNBC",
+   "id": "458db803da",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Mike Bloomberg spent $80M to boost Democrats in midterms: NYT",
    "link": "https://www.cnbc.com/2026/10/20/mike-bloomberg-democrats-house-trump.html",
@@ -9397,17 +9406,6 @@
    "id": "021bddac94",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "SA Expands U.S. Gold Search With Slaughterhouse Project Acquisition",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/sa-expands-u-gold-search-131000446.html?.tsrc=rss",
-   "ts": "2026-10-20T13:10:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "1cfebc7a8a",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -10010,14 +10008,14 @@
     4143.0,
     4145.6,
     4142.8,
-    4143.5
+    4143.9
    ],
    [
-    1792520252,
-    4143.4,
-    4143.4,
-    4143.4,
-    4143.4
+    1792520547,
+    4143.9,
+    4143.9,
+    4143.9,
+    4143.9
    ]
   ],
   "nq": [
@@ -10606,15 +10604,15 @@
     1792519200,
     29765.5,
     29779.0,
-    29748.5,
-    29766.5
+    29747.75,
+    29755.25
    ],
    [
-    1792520253,
-    29769.0,
-    29769.0,
-    29769.0,
-    29769.0
+    1792520549,
+    29754.0,
+    29754.0,
+    29754.0,
+    29754.0
    ]
   ],
   "vix": [
@@ -11091,15 +11089,15 @@
     1792519200,
     17.38,
     17.41,
-    17.31,
-    17.32
+    17.3,
+    17.3
    ],
    [
-    1792519951,
-    17.32,
-    17.32,
-    17.32,
-    17.32
+    1792520236,
+    17.3,
+    17.3,
+    17.3,
+    17.3
    ]
   ]
  },
@@ -11183,7 +11181,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "f9e19f0306",
   "79c2f63db3",
   "97347b82db",
   "a3c16b2533",
@@ -11982,6 +11979,7 @@
   "6dbe334668",
   "087d4d7ecf",
   "4cdb0b4e92",
-  "37910f4d3b"
+  "37910f4d3b",
+  "458db803da"
  ]
 }
