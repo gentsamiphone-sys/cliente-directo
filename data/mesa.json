@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4140.2 · NQ 29763.5 · VIX 17.48 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-20T17:52:34Z"
+   "ultimo_resultado": "Oro 4142.7 · NQ 29762.75 · VIX 17.4 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-20T17:57:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T17:52:33Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Food importer sues to block Trump's 50% tariffs on Canadian goods"
+   "actualizado": "2026-10-20T17:57:40Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Housing is flashing warning signs just as the Fed weighs more interest rate hikes"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4142.7 · NQ 29762.75 · VIX 17.4 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-20T17:57:41Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4140.2 · NQ 29763.5 · VIX 17.48 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4164.9 · NQ 29704.75 · VIX 18.44 · 1 noticias nuevas",
    "ts": "2026-10-20T04:27:30Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4162.6 · NQ 29684.25 · VIX 18.44 · 1 noticias nuevas",
-   "ts": "2026-10-20T04:22:33Z"
   }
  ],
  "briefs": [
@@ -8542,12 +8542,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4140.2,
-  "nq": 29763.5,
-  "vix": 17.48,
-  "ts": "2026-10-20T17:52:33Z"
+  "oro": 4142.7,
+  "nq": 29762.75,
+  "vix": 17.4,
+  "ts": "2026-10-20T17:57:41Z"
  },
  "noticias": [
+  {
+   "titulo": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+   "link": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
+   "ts": "2026-10-20T17:50:11Z",
+   "fuente": "CNBC",
+   "id": "98fddcd0e3",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "If Elon Musk gifts SpaceX stock through Trump Accounts, it will come with a catch",
    "link": "https://www.cnbc.com/2026/10/20/musk-spacex-trump-account-stock-rules.html",
@@ -8565,6 +8576,17 @@
    "id": "0fc62b4556",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Tokenized gold could unlock $700 billion new demand - World Gold Council",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX0I1dEhmbmlwV0NCSXAzd2FEWWl0amkwNFlLaHFqOVlMLU1vTUdscF9ORHF2NFhGT3JtcVl4cW9lTkRtZGtNT1k1Mnpmd19kX1E0VTM2d3VRcW1nRlJXNGUxMm5tb0NIT3dZb083UmxkSWZIMlRkX29mWWh2cmo5YWVHbDFTblJJRjJDVWEwT2dsOEhISi03QzBMNGowSWRzQlZXa0VydDA2a3ZWWHQ4THU5TXFuQQ?oc=5",
+   "ts": "2026-10-20T17:20:09Z",
+   "fuente": "Kitco",
+   "id": "9e37539140",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Victim dragged by fleeing car during Cape Coral Facebook Marketplace gold sale; 2 arrested",
@@ -8961,6 +8983,17 @@
    "impacto": "alto",
    "es": "El Dow sube 700 puntos por sólidos resultados empresariales y caída del crudo.",
    "efecto": "Impulsa al NQ al alza por mayor apetito por el riesgo."
+  },
+  {
+   "titulo": "Stocks U-Turn, Shaking Off AI Jitters",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRFIwYTNvY1RkcV9BYS02QWZBTTczUmVPTUtmaGs0d2JCZFB5eHVMUzd5RkNhVU5EUnJMYlEza1RhS1UyRjhCYlYzZTZER3hDcVI0R2g0SzhxenFDRDl3VjA4dFhrWC1YV0p4UVdaZFg1bHVRSElOVnMycDliaHZRWUdRLU5Nd09aS08wTQ?oc=5",
+   "ts": "2026-10-20T14:51:00Z",
+   "fuente": "WSJ",
+   "id": "903d66d50e",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Dow jumps 600 points as solid earnings, falling crude oil stir rebound: Live updates",
@@ -9380,37 +9413,6 @@
     "nq"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "How the Knicks celebrated their long-awaited championship in the offseason",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVUFpbTFYNzE5NnVpckRKdm9Qd3lHWTA3YmpIdVNseXFING50RWFGWnVodVNWMTUxdU55Zzk2cWF1WVRwRm5od0FIR2dKWU5oa3hSMWZ5T05BbjZ0LV9fVmduRm1NbXNGVWdfZlNlNzdBWl9rS0JaNnhwZk9aUl9VT05tS0JWMU81aVVQVi1BYldDV3psZ2RPTjhqdzhKeFU?oc=5",
-   "ts": "2026-10-20T12:44:00Z",
-   "fuente": "ESPN",
-   "id": "c7391dc3f8",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Fed to skip October but raise rates again in December, nearly all economists say",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZUFYOUZFZXZ4UWJSN1J6RkRxM1lkdGJsUFZRZ2puQkFnRk9rczVQZF9iUS12amVsUl9ESnA4MmNlUmFuVnBVY3BoeVZoVWx1dmwtSWdCa2tGUUlXeXdWR0o0U2o5NHdUend5d2o3c1NoUlZTQUNyWFFEalBHY25QMVptcnFoRnZiSk1JVDFyb1VFYkg0NGRJaXhWemlUY3gxX3YxeVh0YkNMSHNQU21pWkc0OVQ?oc=5",
-   "ts": "2026-10-20T12:43:49Z",
-   "fuente": "Reuters",
-   "id": "fca74e308a",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Nasdaq Gears Up to Report Q3 Earnings: What's in the Cards?",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXI0MEFVMU51RWFnclhiNlFwdi1aazRNZTEzNmRBczRzUHVDbURieFFsMnhHUV9pR2c2V1hLSnVKMkQ4Y1ZBWldjN1diOE8wbzlQdl9sc3h1NVlfTHphS2Q3OTRkdjdMLXBJYlc0MDI1ZlItUUVpNEVqY2NhTjFLNHAyWGo5b3ZyR1NSQVNycXdOU1hJWXViQ0haZ0M?oc=5",
-   "ts": "2026-10-20T12:42:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "b46d903a0f",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -10006,14 +10008,14 @@
     4139.7,
     4143.4,
     4136.0,
-    4141.3
+    4141.8
    ],
    [
-    1792518150,
-    4140.2,
-    4140.2,
-    4140.2,
-    4140.2
+    1792518459,
+    4142.7,
+    4142.7,
+    4142.7,
+    4142.7
    ]
   ],
   "nq": [
@@ -10596,14 +10598,14 @@
     29711.75,
     29775.0,
     29692.5,
-    29764.75
+    29756.25
    ],
    [
-    1792518149,
-    29763.5,
-    29763.5,
-    29763.5,
-    29763.5
+    1792518459,
+    29762.75,
+    29762.75,
+    29762.75,
+    29762.75
    ]
   ],
   "vix": [
@@ -11073,23 +11075,23 @@
     1792515600,
     17.69,
     17.79,
-    17.48,
-    17.49
+    17.43,
+    17.43
    ],
    [
-    1792517851,
-    17.48,
-    17.48,
-    17.48,
-    17.48
+    1792518151,
+    17.4,
+    17.4,
+    17.4,
+    17.4
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-20T17:47:32Z",
- "ult_4h": 1792518092.380517,
+ "ult_4h": 1792519061.0343916,
  "estrategia_4h": {
   "oro": {
-   "precio": 4143.3,
+   "precio": 4142.7,
    "atr_4h": 22.0,
    "setups": [
     {
@@ -11106,7 +11108,7 @@
    ]
   },
   "nq": {
-   "precio": 29770.0,
+   "precio": 29762.75,
    "atr_4h": 210.55,
    "setups": [
     {
@@ -11133,7 +11135,7 @@
     }
    ]
   },
-  "ts": "2026-10-20T17:41:32Z"
+  "ts": "2026-10-20T17:57:41Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -11165,9 +11167,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "f10bc117fd",
-  "41f8cd9194",
-  "3e8a60deab",
   "6dade40a7b",
   "dd122477ec",
   "2912ea155f",
@@ -11964,6 +11963,9 @@
   "6be380ad24",
   "1c3a8578be",
   "537b8935c3",
-  "0fc62b4556"
+  "0fc62b4556",
+  "98fddcd0e3",
+  "9e37539140",
+  "903d66d50e"
  ]
 }
