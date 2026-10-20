@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4151.7 · NQ 29695.0 · VIX 18.44",
-   "actualizado": "2026-10-20T02:17:33Z"
+   "ultimo_resultado": "Oro 4151.7 · NQ 29687.25 · VIX 18.44 · 1 noticias nuevas",
+   "actualizado": "2026-10-20T02:22:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T02:17:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-20T02:22:35Z",
+   "ultimo_resultado": "1 titulares nuevos: Canciller alemán insta a empresas a adoptar la inteligencia artificial ante nuevas inversiones de Nvidia."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4151.7 · NQ 29687.25 · VIX 18.44 · 1 noticias nuevas",
+   "ts": "2026-10-20T02:22:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4151.7 · NQ 29695.0 · VIX 18.44",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Historial: 11 operaciones, 27% de acierto, +7.08 R.",
    "ts": "2026-10-19T12:32:58Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Revisando cómo salieron las entradas anteriores…",
-   "ts": "2026-10-19T12:32:56Z"
   }
  ],
  "briefs": [
@@ -8205,11 +8205,24 @@
  },
  "en_vivo": {
   "oro": 4151.7,
-  "nq": 29695.0,
+  "nq": 29687.25,
   "vix": 18.44,
-  "ts": "2026-10-20T02:17:32Z"
+  "ts": "2026-10-20T02:22:36Z"
  },
  "noticias": [
+  {
+   "titulo": "‘Open your doors for AI’: German chancellor urges businesses to embrace AI as Nvidia announces new investments",
+   "link": "https://www.cnbc.com/2026/10/20/german-chancellor-urges-businesses-to-embrace-ai.html",
+   "ts": "2026-10-20T02:16:25Z",
+   "fuente": "CNBC",
+   "id": "9c98a0914e",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Canciller alemán insta a empresas a adoptar la inteligencia artificial ante nuevas inversiones de Nvidia.",
+   "efecto": "Impulsa al Nasdaq 100 al alza por optimismo en el sector tecnológico."
+  },
   {
    "titulo": "JD Vance refrains from endorsing Israeli leader Netanyahu as Trump offers praise",
    "link": "https://www.cnbc.com/2026/10/20/vance-israel-netanyahu-midterms-election-.html",
@@ -9080,17 +9093,6 @@
    "impacto": "medio",
    "es": "Apple anuncia evento de lanzamiento de productos para el 28 de octubre.",
    "efecto": "Impulsa ligeramente al NASDAQ por expectativas en el sector tecnológico."
-  },
-  {
-   "titulo": "Apple's iPhone Duo is proving itself the catalyst that Jim Cramer said it would be",
-   "link": "https://www.cnbc.com/investingclub/2026/10/19/apples-iphone-duo-is-proving-the-catalyst-that-jim-cramer-said-it-would-be.html",
-   "ts": "2026-10-19T17:25:20Z",
-   "fuente": "CNBC",
-   "id": "f28ceeb16d",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -9726,16 +9728,16 @@
    [
     1792461600,
     4150.0,
-    4151.9,
+    4153.0,
     4144.4,
-    4151.4
+    4152.0
    ],
    [
-    1792462050,
-    4151.0,
-    4151.0,
-    4151.0,
-    4151.0
+    1792462350,
+    4151.7,
+    4151.7,
+    4151.7,
+    4151.7
    ]
   ],
   "nq": [
@@ -10359,15 +10361,15 @@
     1792461600,
     29736.0,
     29736.75,
-    29688.0,
-    29690.0
+    29682.5,
+    29698.75
    ],
    [
-    1792462051,
-    29695.0,
-    29695.0,
-    29695.0,
-    29695.0
+    1792462355,
+    29688.0,
+    29688.0,
+    29688.0,
+    29688.0
    ]
   ],
   "vix": [
@@ -10870,7 +10872,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-20T01:37:36Z",
+ "noticias_traducidas_ts": "2026-10-20T02:22:34Z",
  "ult_4h": 1792462652.7288218,
  "estrategia_4h": {
   "oro": {
@@ -10949,7 +10951,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "cb54a1b469",
   "3db81e80f9",
   "5ef85194ad",
   "29326771db",
@@ -11748,6 +11749,7 @@
   "7060fa0004",
   "0eb75436c0",
   "357d8d1c1d",
-  "5f73ea97c5"
+  "5f73ea97c5",
+  "9c98a0914e"
  ]
 }
