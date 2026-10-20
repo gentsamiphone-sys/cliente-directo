@@ -3836,10 +3836,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "estado": "descansando",
+   "tarea": "",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-10-20T15:06:26Z"
+   "actualizado": "2026-10-20T15:06:32Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -3867,6 +3867,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
+   "ts": "2026-10-20T15:06:32Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -5361,11 +5366,6 @@
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ts": "2026-10-18T07:06:19Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Buscando restaurantes y comida sin página web cerca de Boulder Hwy…",
-   "ts": "2026-10-18T07:02:31Z"
   }
  ],
  "reportes": {
