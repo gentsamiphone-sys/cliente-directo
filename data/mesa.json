@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4137.2 · NQ 29597.0 · VIX 18.64 · 6 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-20T10:42:34Z"
+   "ultimo_resultado": "Oro 4137.8 · NQ 29602.5 · VIX 18.65 · 1 noticias nuevas",
+   "actualizado": "2026-10-20T10:47:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T10:42:32Z",
-   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: HSBC CEO warns the AI boom won’t make every data center a good bet"
+   "actualizado": "2026-10-20T10:47:33Z",
+   "ultimo_resultado": "1 titulares nuevos: Dollar surrenders gains as record Japanese bond auction sparks Yen rally"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4137.8 · NQ 29602.5 · VIX 18.65 · 1 noticias nuevas",
+   "ts": "2026-10-20T10:47:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4137.2 · NQ 29597.0 · VIX 18.64 · 6 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: European stocks fall on unrest in France as Nasdaq bounces",
    "ts": "2026-10-19T21:22:35Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Gartner analyst behind tech rout: AI returns are not yet large enough to justify neocloud build-out",
-   "ts": "2026-10-19T21:17:33Z"
   }
  ],
  "briefs": [
@@ -8370,10 +8370,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4137.2,
-  "nq": 29597.0,
-  "vix": 18.64,
-  "ts": "2026-10-20T10:42:33Z"
+  "oro": 4137.8,
+  "nq": 29602.5,
+  "vix": 18.65,
+  "ts": "2026-10-20T10:47:33Z"
  },
  "noticias": [
   {
@@ -8811,6 +8811,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Dollar surrenders gains as record Japanese bond auction sparks Yen rally",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-firm-dollar-retreats-054434934.html?.tsrc=rss",
+   "ts": "2026-10-20T05:44:34Z",
+   "fuente": "Yahoo Finance",
+   "id": "78ca131511",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Asian currencies firm as dollar retreats; yuan hits four-year high",
    "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-firm-dollar-retreats-054434934.html?.tsrc=rss",
    "ts": "2026-10-20T05:44:34Z",
@@ -9236,17 +9247,6 @@
    "ts": "2026-10-19T23:34:47Z",
    "fuente": "Reuters",
    "id": "389dc2b48f",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Alkane Drilling Confirms and Extends Gold-Antimony Mineral System at Nagambie, Victoria",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/alkane-drilling-confirms-extends-gold-233000381.html?.tsrc=rss",
-   "ts": "2026-10-19T23:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "f93111a278",
    "activos": [
     "oro"
    ],
@@ -9795,16 +9795,16 @@
    [
     1792490400,
     4131.6,
-    4137.8,
+    4138.6,
     4130.1,
-    4137.8
+    4138.1
    ],
    [
-    1792492351,
-    4137.1,
-    4137.1,
-    4137.1,
-    4137.1
+    1792492643,
+    4137.8,
+    4137.8,
+    4137.8,
+    4137.8
    ]
   ],
   "nq": [
@@ -10338,14 +10338,14 @@
     29623.0,
     29636.75,
     29587.5,
-    29605.25
+    29601.75
    ],
    [
-    1792492352,
-    29597.0,
-    29597.0,
-    29597.0,
-    29597.0
+    1792492652,
+    29603.0,
+    29603.0,
+    29603.0,
+    29603.0
    ]
   ],
   "vix": [
@@ -10767,22 +10767,22 @@
     18.67,
     18.73,
     18.53,
-    18.64
+    18.65
    ],
    [
-    1792492051,
-    18.64,
-    18.64,
-    18.64,
-    18.64
+    1792492351,
+    18.65,
+    18.65,
+    18.65,
+    18.65
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-20T10:37:33Z",
- "ult_4h": 1792492351.916447,
+ "ult_4h": 1792493253.6456003,
  "estrategia_4h": {
   "oro": {
-   "precio": 4134.1,
+   "precio": 4137.8,
    "atr_4h": 22.81,
    "setups": [
     {
@@ -10799,7 +10799,7 @@
    ]
   },
   "nq": {
-   "precio": 29615.25,
+   "precio": 29603.0,
    "atr_4h": 210.29,
    "setups": [
     {
@@ -10826,7 +10826,7 @@
     }
    ]
   },
-  "ts": "2026-10-20T10:32:32Z"
+  "ts": "2026-10-20T10:47:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10858,7 +10858,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "0e794bf974",
   "740bed2b22",
   "03c4c42f0e",
   "7756dc14c8",
@@ -11657,6 +11656,7 @@
   "d361222a09",
   "1e67247ca6",
   "f4e133fb8e",
-  "50d4afcd28"
+  "50d4afcd28",
+  "78ca131511"
  ]
 }
