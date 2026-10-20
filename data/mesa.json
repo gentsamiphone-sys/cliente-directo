@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4142.0 · NQ 29549.25 · VIX 18.77 · 2 noticias nuevas",
-   "actualizado": "2026-10-20T11:27:34Z"
+   "ultimo_resultado": "Oro 4141.7 · NQ 29559.75 · VIX 18.75 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-20T11:32:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T11:27:33Z",
-   "ultimo_resultado": "2 titulares nuevos: Strategic Metals and GGL Resources Property Transaction Approved"
+   "actualizado": "2026-10-20T11:32:32Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: 3M lifts annual profit forecast on cost controls, price hikes"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4141.7 · NQ 29559.75 · VIX 18.75 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-20T11:32:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4142.0 · NQ 29549.25 · VIX 18.77 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +107,089 contratos.",
    "ts": "2026-10-19T21:32:56Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-10-19T21:32:54Z"
   }
  ],
  "briefs": [
@@ -8370,12 +8370,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4142.0,
-  "nq": 29549.25,
-  "vix": 18.77,
-  "ts": "2026-10-20T11:27:34Z"
+  "oro": 4141.7,
+  "nq": 29559.75,
+  "vix": 18.75,
+  "ts": "2026-10-20T11:32:33Z"
  },
  "noticias": [
+  {
+   "titulo": "3M lifts annual profit forecast on cost controls, price hikes",
+   "link": "https://www.cnbc.com/2026/10/20/3m-mmm-earnings-q3-2026.html",
+   "ts": "2026-10-20T11:30:35Z",
+   "fuente": "CNBC",
+   "id": "0f560b15da",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "U.S. oil surges to top $109, Brent crude at five-month high amid Mideast tensions",
    "link": "https://www.cnbc.com/2026/10/20/oil-price-wti-brent-crude.html",
@@ -8384,6 +8393,18 @@
    "id": "bd1fd1a315",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "JPMorgan sees 10% annual bitcoin returns, topping stocks, bonds and gold over next decade",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUDZuTEpfaEowRGpOY18xcWF6c1d5M0J5T1lvLUtwZXVNbjlkUjk5ZW1SUGx0QXFxRE43akdiUVl6WmZYWWh4a1ltUU5TcEFlTG5oZXFZdjhSZER6RGE4M0gzNlJhZHJjZldER25WZXBzeWoxeExtd1hlcXU4QkdmeGdtR21lblk3RXlZNlBYT094Z1BuTTZPN1lLYzhVU2tpdW9fQnJ3T2x3N2tzeTFrMHpPUmhwVjZTaHZJYXM1OTdKZ09YVWFoeU5n?oc=5",
+   "ts": "2026-10-20T11:10:40Z",
+   "fuente": "CoinDesk",
+   "id": "6b268ef6af",
+   "activos": [
+    "oro",
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Gold price today, Tuesday, October 20, 2026: Gold prices subdued again by soaring oil prices",
@@ -8823,6 +8844,15 @@
    "efecto": "Ruido minorista sin impacto institucional en el corto plazo."
   },
   {
+   "titulo": "Trade tariffs and lower international travel are hitting Las Vegas small businesses",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNektzSEpxLXo5VlBFaEYwU05ta001NTdqNjBZNmdlWEdtSXR3ZkQxb0pVTmdMMzVobkpQNVFZRzB0QW02RUhBeDBJcUhfWXlzUl9ROHpmSzdCMVBzUVlFdFFqY0VsQWhyY0ZUazVvVEllMVY0ckFUVWFNNzMxckttUmdkSTh5RUtySW41ODRmZ19lR01zeHFR?oc=5",
+   "ts": "2026-10-20T09:00:00Z",
+   "fuente": "Las Vegas Sun",
+   "id": "f3f430426a",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Fortuna intersects 0.96 g/t gold over 350 meters at the Lindero Mine, Argentina",
    "link": "https://finance.yahoo.com/markets/commodities/articles/fortuna-intersects-0-96-g-090000369.html?.tsrc=rss",
    "ts": "2026-10-20T09:00:00Z",
@@ -9192,41 +9222,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "❝How Europe can help stop the Amazon’s illicit gold rush",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN2JmYmpoS1lfaUllMkJQaS1pMC1td01JdHNqaTR6TVl1TTR2dXZ3Q2hyelZqRXBQNUtCNnZqaXJpcDIxNnh4M2VLSjNlcE9RNFlUaTFWdkxYblBVdGdFd1pxeFpTRE1VSldYV1QwelZBODhTZkMyaUFPZENDaUdVemxVR2k4TFRuZ1NieVJQeVkzWkhyMzVELQ?oc=5",
-   "ts": "2026-10-20T03:45:00Z",
-   "fuente": "Geneva Solutions",
-   "id": "d9e6049d97",
-   "activos": [
-    "oro",
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Dow, S&P 500, Nasdaq Edge Higher Amid Tech Rebound As Q3 Earnings Season Forges Ahead: DJT, AMZN, CBRS, CRWV Stocks In Focus",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZlpacWkwZ2Ewc2JXVnBxcTl6b3JpOFBuaGF4R0V5czJfYWdpSlBRaWNYV2RiVzJDaGdCcGdoRDZmek1FcmFTTVRIYXVPUEJ2bUt2TVltdmJsU2N3UjV1RmxJV2tFemNWeXgxYWkyN1A2eS1kbHZRU0xGbGd4U1pCSGxWVVhIV2VnbFljem1xUQ?oc=5",
-   "ts": "2026-10-20T03:31:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "8950903069",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gold dips as oil prices fuel inflation fears, Fed outlook in focus",
-   "link": "https://finance.yahoo.com/economy/policy/articles/gold-dips-oil-prices-fuel-030209379.html?.tsrc=rss",
-   "ts": "2026-10-20T03:02:09Z",
-   "fuente": "Yahoo Finance",
-   "id": "e527c04e21",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -9780,14 +9775,14 @@
     4139.3,
     4143.5,
     4138.6,
-    4142.2
+    4141.3
    ],
    [
-    1792495044,
-    4142.0,
-    4142.0,
-    4142.0,
-    4142.0
+    1792495347,
+    4141.7,
+    4141.7,
+    4141.7,
+    4141.7
    ]
   ],
   "nq": [
@@ -10328,14 +10323,14 @@
     29582.0,
     29585.5,
     29533.75,
-    29548.0
+    29557.0
    ],
    [
-    1792495048,
-    29550.75,
-    29550.75,
-    29550.75,
-    29550.75
+    1792495352,
+    29559.0,
+    29559.0,
+    29559.0,
+    29559.0
    ]
   ],
   "vix": [
@@ -10764,39 +10759,39 @@
     18.71,
     18.84,
     18.7,
-    18.78
+    18.74
    ],
    [
-    1792494751,
-    18.77,
-    18.77,
-    18.77,
-    18.77
+    1792495051,
+    18.75,
+    18.75,
+    18.75,
+    18.75
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-20T11:12:31Z",
- "ult_4h": 1792495050.883272,
+ "ult_4h": 1792495953.1707013,
  "estrategia_4h": {
   "oro": {
-   "precio": 4140.0,
-   "atr_4h": 22.39,
+   "precio": 4141.7,
+   "atr_4h": 22.81,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4183.54,
+     "stop": 4183.79,
      "objetivo": 4130.1,
-     "rr": 2.98,
+     "rr": 2.92,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.89,
+     "fuerza_ruptura_atr": 0.87,
      "ruptura": "2026-10-19 12:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29542.75,
+   "precio": 29559.0,
    "atr_4h": 210.29,
    "setups": [
     {
@@ -10823,7 +10818,7 @@
     }
    ]
   },
-  "ts": "2026-10-20T11:17:31Z"
+  "ts": "2026-10-20T11:32:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -10855,9 +10850,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "a0aa24a6d0",
-  "caeefabc39",
-  "88c7b4a469",
   "9edfab3f5b",
   "e21fd7f4af",
   "3c2bfca94a",
@@ -11654,6 +11646,9 @@
   "34b0c6d123",
   "f815c860e4",
   "e4655312ad",
-  "efb5f3c932"
+  "efb5f3c932",
+  "0f560b15da",
+  "6b268ef6af",
+  "f3f430426a"
  ]
 }
