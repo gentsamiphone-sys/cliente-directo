@@ -3837,9 +3837,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Las Vegas Blvd N…",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-10-20T15:02:35Z"
+   "actualizado": "2026-10-20T15:02:37Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -3867,6 +3867,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Las Vegas Blvd N…",
+   "ts": "2026-10-20T15:02:37Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 170 textos listos para mandar",
@@ -5361,11 +5366,6 @@
    "agente": "gerente",
    "texto": "Terminó su turno: 155 textos listos para mandar",
    "ts": "2026-10-18T06:37:32Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Actualicé el reporte del día.",
-   "ts": "2026-10-18T06:37:31Z"
   }
  ],
  "reportes": {
