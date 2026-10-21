@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4137.4 · NQ 29985.25 · VIX 16.98",
-   "actualizado": "2026-10-21T19:07:34Z"
+   "ultimo_resultado": "🛑 ORO COMPRA: STOP · Oro 4128.1 · NQ 29928.75 · VIX 17.0 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-21T19:12:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T19:07:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-21T19:12:35Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: El comercio de IA podría estar en un punto de inflexión."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "🛑 ORO COMPRA: STOP · Oro 4128.1 · NQ 29928.75 · VIX 17.0 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-21T19:12:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4137.4 · NQ 29985.25 · VIX 16.98",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4136.6 · NQ 29826.5 · VIX 17.31 · 1 noticias nuevas",
    "ts": "2026-10-21T05:52:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4142.4 · NQ 29858.5 · VIX 17.31",
-   "ts": "2026-10-21T05:47:32Z"
   }
  ],
  "briefs": [
@@ -1100,7 +1100,7 @@
      "confluencias": "5",
      "cancelar": "El precio rompe directo bajo 4,128.0 antes de NY o supera 4,170.0 sin retroceder.",
      "motivo": "",
-     "vivo": "confirmada"
+     "vivo": "stop"
     }
    ],
    "mapas": {
@@ -9048,10 +9048,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4137.4,
-  "nq": 29985.25,
-  "vix": 16.98,
-  "ts": "2026-10-21T19:07:34Z"
+  "oro": 4128.1,
+  "nq": 29928.75,
+  "vix": 17.0,
+  "ts": "2026-10-21T19:12:35Z"
  },
  "noticias": [
   {
@@ -9075,6 +9075,19 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "The AI trade may be at a turning point. Where it may go, and how to play it",
+   "link": "https://www.cnbc.com/2026/10/21/the-ai-trade-may-be-at-a-turning-point-where-it-may-go-and-how-to-play-it.html",
+   "ts": "2026-10-21T18:44:06Z",
+   "fuente": "CNBC",
+   "id": "2fccdb9365",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "El comercio de IA podría estar en un punto de inflexión.",
+   "efecto": "Genera volatilidad en tecnológicas y presiona al NQ."
   },
   {
    "titulo": "IEEPA Tariffs Struck Down, Replacement Tariffs Expired: What Importers Need to Know Now",
@@ -9896,17 +9909,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Creatd (CRTD) Announces Nasdaq Listing Application Successfully Submitted and Listing Analyst Assigned",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb1M1ajNtOElwcEdfQnF6MWY2Q0dDNGlHdzFORGgwVE5MRXVSOUZsU3pURGpvdno2RjdjeTZaM08xdFB6cVFrMFp0bUVlaC0tbFNvS2sxNkZGYmZ1bW5jSjRBdXUwdEk0OTNibXJlemVXa0dtRWV2eDR0QllCd1NWNFBhRFBNeERvOGxzb3RuVkVRWU5ua0FZUWxPTlc1dXJUcUhZ?oc=5",
-   "ts": "2026-10-21T13:18:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "5fc4f394fe",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -10508,15 +10510,22 @@
     1792605600,
     4154.9,
     4159.9,
-    4135.8,
-    4136.9
+    4131.2,
+    4131.3
    ],
    [
-    1792609052,
-    4137.1,
-    4137.1,
-    4137.1,
-    4137.1
+    1792609200,
+    4130.8,
+    4133.7,
+    4124.6,
+    4124.8
+   ],
+   [
+    1792609355,
+    4128.1,
+    4128.1,
+    4128.1,
+    4128.1
    ]
   ],
   "nq": [
@@ -11105,15 +11114,22 @@
     1792605600,
     30049.5,
     30088.75,
-    29975.0,
-    29988.0
+    29952.0,
+    29965.5
    ],
    [
-    1792609053,
-    29985.25,
-    29985.25,
-    29985.25,
-    29985.25
+    1792609200,
+    29965.75,
+    29966.75,
+    29896.75,
+    29897.25
+   ],
+   [
+    1792609356,
+    29928.75,
+    29928.75,
+    29928.75,
+    29928.75
    ]
   ],
   "vix": [
@@ -11591,18 +11607,18 @@
     16.62,
     17.0,
     16.6,
-    17.0
+    16.96
    ],
    [
-    1792608751,
-    16.98,
-    16.98,
-    16.98,
-    16.98
+    1792609051,
+    17.0,
+    17.0,
+    17.0,
+    17.0
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-21T18:42:33Z",
+ "noticias_traducidas_ts": "2026-10-21T19:12:34Z",
  "ult_4h": 1792609355.4108555,
  "estrategia_4h": {
   "oro": {
@@ -11668,7 +11684,6 @@
   }
  ],
  "noticias_vistas": [
-  "dfe568811e",
   "ca00bc9168",
   "a345fd1128",
   "565ba2fb63",
@@ -12467,7 +12482,8 @@
   "50fa65a63f",
   "26410c39f0",
   "aed521ce6b",
-  "eb6a7b637a"
+  "eb6a7b637a",
+  "2fccdb9365"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
