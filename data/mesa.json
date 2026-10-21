@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4133.0 · NQ 29755.75 · VIX 17.53",
-   "actualizado": "2026-10-21T10:32:33Z"
+   "ultimo_resultado": "Oro 4137.2 · NQ 29766.75 · VIX 17.49 · 3 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-21T10:37:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T10:32:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-21T10:37:38Z",
+   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: Hemlo Mining Corp. reporta resultados operativos del tercer trimestre de 2026"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4137.2 · NQ 29766.75 · VIX 17.49 · 3 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-21T10:37:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4133.0 · NQ 29755.75 · VIX 17.53",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "3 titulares nuevos, 1 de alto impacto: Men’s Soccer Enters Home Stretch with All-Blue-and-Gold Action",
    "ts": "2026-10-20T21:17:31Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos, 1 de alto impacto: Fact✓Check | Barr, Booker spar over tariffs and bourbon ahead of Kentucky Senate race",
-   "ts": "2026-10-20T21:12:33Z"
   }
  ],
  "briefs": [
@@ -8867,12 +8867,38 @@
   }
  },
  "en_vivo": {
-  "oro": 4133.0,
-  "nq": 29755.75,
-  "vix": 17.53,
-  "ts": "2026-10-21T10:32:32Z"
+  "oro": 4137.2,
+  "nq": 29766.75,
+  "vix": 17.49,
+  "ts": "2026-10-21T10:37:38Z"
  },
  "noticias": [
+  {
+   "titulo": "Hemlo Mining Corp. Reports Third Quarter 2026 Operating Results",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/hemlo-mining-corp-reports-third-103000584.html?.tsrc=rss",
+   "ts": "2026-10-21T10:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "911f61fda6",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Hemlo Mining Corp. reporta resultados operativos del tercer trimestre de 2026",
+   "efecto": "Ruido corporativo menor, sin impacto macroeconómico relevante."
+  },
+  {
+   "titulo": "Nasdaq futures lead gains as SpaceX, Super Micro results lift AI trade",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZUJTOXdaa0JmVzZubm12MGt4VnNSemsyOW1fQXpCMnhEc25HSVJRZk93d2NYUXQ3eHBuQklaNE1FT1QyQ1NqdTFkdExDbmoxY2JtOWhLQkVtYXczMHh3a3VsZmhub1JFc0FIZHN1eEcwc3FRZVZWQnBoSjFjekFYTUN6X2d5WHJUWGpDU2paekhhU24zenhNbWpXUmtfdmo5cTFIZVZwTXdiRzZoeUtiazhHWkJEWEVZLTVmQmRMcw?oc=5",
+   "ts": "2026-10-21T10:29:52Z",
+   "fuente": "Reuters",
+   "id": "897a370478",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Los futuros del Nasdaq lideran ganancias impulsados por resultados de SpaceX y Super Micro",
+   "efecto": "Impulsa compras en el Nasdaq por optimismo en el sector tecnológico y de IA."
+  },
   {
    "titulo": "Goldstorm Metals Discovers Gold-Silver Mineralization over a 407.55-Meter (m) Length in Preliminary Drilling at the Crown Property on Trend with KSM and Treaty Creek Deposits, in British Columbia's Golden Triangle",
    "link": "https://finance.yahoo.com/markets/commodities/articles/goldstorm-metals-discovers-gold-silver-100000537.html?.tsrc=rss",
@@ -9240,6 +9266,20 @@
    "id": "2666e44423",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Dollar holds near 3-week low; euro and yen consolidate as markets gauge Iran war",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-subdued-dollar-hovers-054841042.html?.tsrc=rss",
+   "ts": "2026-10-21T05:48:41Z",
+   "fuente": "Yahoo Finance",
+   "id": "255f5b3cc5",
+   "activos": [
+    "dolar",
+    "oro"
+   ],
+   "impacto": "alto",
+   "es": "El dólar se mantiene cerca de mínimos de 3 semanas mientras los mercados evalúan la guerra en Irán",
+   "efecto": "Debilidad del dólar y tensiones geopolíticas presionan al oro al alza."
   },
   {
    "titulo": "Dollar hovers near 3-wk low as volatile oil prices weigh, rupee extends rally",
@@ -9719,35 +9759,6 @@
    "impacto": "bajo",
    "es": "El algodón cierra el martes con ganancias",
    "efecto": ""
-  },
-  {
-   "titulo": "JPMorgan’s 31-year-old report embraces once-mocked asset",
-   "link": "https://www.thestreet.com/crypto/markets/jpmorgans-31-year-old-report-embraces-once-mocked-asset?.tsrc=rss",
-   "ts": "2026-10-20T22:10:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "5aeb26fcb9",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Rogers, El-Sayed outline differing approaches to tariffs and AI during Detroit Economic Club forum",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRTMyWlZYM3FVWlg2eWc0UHAtZU0wWW02VVphUEhOQVJGX2RtOVRsaXY3bDJNWlp6VlowV0VILVhsaW1WTVJueDVaOTY3cHY5RXljVERnQU1wS1o1Y09Oa2MxUEVKeXBfNkh1N1cyR2lFc0tLcnhsZ2FmUmtGWFM5cXVDdk1ZbnNvVHpLczdtbjZLVDMyVVZibVF6LXJYRFRvYWtPdjYxNUxOTHlDTVZyeXVNamx3cUQwRGRQYXdwMVgtcTFGMHltZktrd2xaVFVqeUFZ?oc=5",
-   "ts": "2026-10-20T21:54:06Z",
-   "fuente": "Michigan Advance",
-   "id": "0390497735",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "‘Princess Diaries’ Actor Erik von Detten Accused of Elder Abuse and Fraud in Gold Scheme",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNY0IzNXB0YmdybWRzY2FjN0ZNR0N4WllNT1cyUmN6Vmw4Zl9sZjJGWkJTWGdNRE5GcGZGV1hOOEM4cUFfT19hVWJtVzA2OHJaNDNhZ1NvZTZjOFZNQ09xQXI2Z3pWVWhRWm96YUh0dVBxaVVpVFRjQ0ZZSmJkY0VKMlEwckVwY01ZVjJxamF4TmEyNlg1LTkxMUw3eUpJamdibWdN?oc=5",
-   "ts": "2026-10-20T21:54:00Z",
-   "fuente": "Variety",
-   "id": "f897c30dbe",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -10292,16 +10303,16 @@
    [
     1792576800,
     4136.5,
-    4137.4,
+    4138.1,
     4129.5,
-    4133.7
+    4136.5
    ],
    [
-    1792578147,
-    4133.0,
-    4133.0,
-    4133.0,
-    4133.0
+    1792578452,
+    4137.2,
+    4137.2,
+    4137.2,
+    4137.2
    ]
   ],
   "nq": [
@@ -10835,14 +10846,14 @@
     29795.5,
     29801.25,
     29727.5,
-    29755.75
+    29766.75
    ],
    [
-    1792578152,
-    29755.0,
-    29755.0,
-    29755.0,
-    29755.0
+    1792578455,
+    29766.75,
+    29766.75,
+    29766.75,
+    29766.75
    ]
   ],
   "vix": [
@@ -11264,18 +11275,18 @@
     17.47,
     17.58,
     17.46,
-    17.58
+    17.5
    ],
    [
-    1792577851,
-    17.53,
-    17.53,
-    17.53,
-    17.53
+    1792578151,
+    17.49,
+    17.49,
+    17.49,
+    17.49
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-21T10:02:32Z",
+ "noticias_traducidas_ts": "2026-10-21T10:37:36Z",
  "ult_4h": 1792578752.9667656,
  "estrategia_4h": {
   "oro": {
@@ -11345,9 +11356,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "5d181878a8",
-  "607c83b202",
-  "09730caabd",
   "afe7793c4a",
   "823027bec5",
   "f92250f204",
@@ -12144,6 +12152,9 @@
   "e9b52acf58",
   "17d6ddca8e",
   "947a7f52a7",
-  "d899a104d8"
+  "d899a104d8",
+  "911f61fda6",
+  "897a370478",
+  "255f5b3cc5"
  ]
 }
