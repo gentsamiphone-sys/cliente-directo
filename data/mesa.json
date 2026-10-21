@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4151.3 · NQ 30015.5 · VIX 16.59 · 1 noticias nuevas",
-   "actualizado": "2026-10-21T16:27:36Z"
+   "ultimo_resultado": "Oro 4149.2 · NQ 30011.5 · VIX 16.6 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-21T16:32:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T16:27:35Z",
-   "ultimo_resultado": "1 titulares nuevos: B2Gold's 5-Year Outlook: Capital Discipline, Low Valuation, and Mali Permit Hint at Upside"
+   "actualizado": "2026-10-21T16:32:38Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Temporada de resultados en pleno auge: apuestas de alta convicción de Morgan Stanley"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4149.2 · NQ 30011.5 · VIX 16.6 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-21T16:32:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4151.3 · NQ 30015.5 · VIX 16.59 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4136.4 · NQ 29976.5 · VIX 17.31",
    "ts": "2026-10-21T03:12:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4135.3 · NQ 29976.5 · VIX 17.31",
-   "ts": "2026-10-21T03:07:36Z"
   }
  ],
  "briefs": [
@@ -9048,12 +9048,50 @@
   }
  },
  "en_vivo": {
-  "oro": 4151.3,
-  "nq": 30015.5,
-  "vix": 16.59,
-  "ts": "2026-10-21T16:27:35Z"
+  "oro": 4149.2,
+  "nq": 30011.5,
+  "vix": 16.6,
+  "ts": "2026-10-21T16:32:38Z"
  },
  "noticias": [
+  {
+   "titulo": "Earnings season is in full swing. These are Morgan Stanley's highest conviction plays",
+   "link": "https://www.cnbc.com/2026/10/21/morgan-stanley-western-digital-terawulf-williams.html",
+   "ts": "2026-10-21T16:20:51Z",
+   "fuente": "CNBC",
+   "id": "db5be4a6c3",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Temporada de resultados en pleno auge: apuestas de alta convicción de Morgan Stanley",
+   "efecto": "Genera compras selectivas en tecnología según las perspectivas corporativas."
+  },
+  {
+   "titulo": "Government websites in Europe and elsewhere go dark as software flaw sparks security scramble",
+   "link": "https://www.cnbc.com/2026/10/21/government-websites-go-dark-as-software-flaw-sparks-security-scramble.html",
+   "ts": "2026-10-21T16:17:42Z",
+   "fuente": "CNBC",
+   "id": "d751bed3e1",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Sitios web gubernamentales en Europa caen por fallo de software y generan alerta de seguridad",
+   "efecto": "Ruido operativo sin impacto macroeconómico directo en los activos."
+  },
+  {
+   "titulo": "Why the stock market’s fragile calm faces a major test starting Friday",
+   "link": "https://www.cnbc.com/2026/10/21/stock-market-fed-earnings-france-risks.html",
+   "ts": "2026-10-21T16:16:30Z",
+   "fuente": "CNBC",
+   "id": "00309570be",
+   "activos": [
+    "nq",
+    "oro"
+   ],
+   "impacto": "alto",
+   "es": "La frágil calma del mercado bursátil enfrenta una prueba mayor a partir del viernes",
+   "efecto": "Aumenta la cautela institucional, elevando la demanda de cobertura y oro."
+  },
   {
    "titulo": "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up",
    "link": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
@@ -9885,43 +9923,6 @@
    "id": "e54c66fd37",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Nvidia announces plug and play Vera Rubin racks that can be shipped on a truck",
-   "link": "https://www.cnbc.com/2026/10/21/nvidia-announces-vera-rubin-racks-that-can-be-shipped-on-a-truck-.html",
-   "ts": "2026-10-21T11:30:01Z",
-   "fuente": "CNBC",
-   "id": "910f6918ee",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gelum's Geophysical Survey Resumes at the Las Tinajas Project, Chile",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gelums-geophysical-survey-resumes-las-113000360.html?.tsrc=rss",
-   "ts": "2026-10-21T11:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "9978c8450d",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Gelum reanuda el levantamiento geofísico en el proyecto Las Tinajas, Chile",
-   "efecto": "Noticia corporativa menor de minería, irrelevante para la macro del oro."
-  },
-  {
-   "titulo": "SpaceX is ripping higher after strong earnings. Analysts see more gains ahead",
-   "link": "https://www.cnbc.com/2026/10/21/spacex-stock-q3-earnings-analysts.html",
-   "ts": "2026-10-21T11:28:47Z",
-   "fuente": "CNBC",
-   "id": "832de1d557",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "SpaceX sube con fuerza tras sólidos resultados. Analistas prevén más ganancias.",
-   "efecto": "Sin impacto directo relevante en el índice general."
   }
  ],
  "eventos_avisados": [
@@ -10510,14 +10511,14 @@
     4150.2,
     4151.6,
     4147.3,
-    4151.0
+    4150.2
    ],
    [
-    1792599452,
-    4151.3,
-    4151.3,
-    4151.3,
-    4151.3
+    1792599749,
+    4149.2,
+    4149.2,
+    4149.2,
+    4149.2
    ]
   ],
   "nq": [
@@ -11092,15 +11093,15 @@
     1792598400,
     30041.5,
     30041.5,
-    30006.75,
-    30012.5
+    30004.0,
+    30011.0
    ],
    [
-    1792599454,
-    30015.5,
-    30015.5,
-    30015.5,
-    30015.5
+    1792599757,
+    30011.5,
+    30011.5,
+    30011.5,
+    30011.5
    ]
   ],
   "vix": [
@@ -11563,32 +11564,32 @@
     1792598400,
     16.7,
     16.72,
-    16.59,
-    16.59
+    16.58,
+    16.6
    ],
    [
-    1792599151,
-    16.59,
-    16.59,
-    16.59,
-    16.59
+    1792599451,
+    16.6,
+    16.6,
+    16.6,
+    16.6
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-21T15:57:39Z",
- "ult_4h": 1792599454.3162062,
+ "noticias_traducidas_ts": "2026-10-21T16:32:35Z",
+ "ult_4h": 1792600358.5695229,
  "estrategia_4h": {
   "oro": {
-   "precio": 4148.7,
-   "atr_4h": 21.83,
+   "precio": 4149.2,
+   "atr_4h": 21.88,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4183.2,
+     "stop": 4183.23,
      "objetivo": 4124.0,
-     "rr": 3.52,
+     "rr": 3.51,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.91,
      "ruptura": "2026-10-19 12:00 UTC"
@@ -11596,11 +11597,11 @@
    ]
   },
   "nq": {
-   "precio": 30019.25,
-   "atr_4h": 209.43,
+   "precio": 30011.5,
+   "atr_4h": 210.09,
    "setups": []
   },
-  "ts": "2026-10-21T16:17:34Z"
+  "ts": "2026-10-21T16:32:38Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -11641,9 +11642,6 @@
   }
  ],
  "noticias_vistas": [
-  "5f363c6bcc",
-  "82396a79e1",
-  "0a691e31ab",
   "56db5dfbd1",
   "b742f9d4f7",
   "2c97ee1cfb",
@@ -12440,7 +12438,10 @@
   "bc48962b7e",
   "e238e7678d",
   "08644ff8dd",
-  "92e43bf938"
+  "92e43bf938",
+  "db5be4a6c3",
+  "d751bed3e1",
+  "00309570be"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
