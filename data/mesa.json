@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4150.5 · NQ 30040.75 · VIX 16.76",
-   "actualizado": "2026-10-21T19:57:35Z"
+   "ultimo_resultado": "Oro 4151.5 · NQ 30037.5 · VIX 16.72 · 1 noticias nuevas",
+   "actualizado": "2026-10-21T20:02:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T19:57:34Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-21T20:02:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Meta earnings live updates: Here are the numbers"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4151.5 · NQ 30037.5 · VIX 16.72 · 1 noticias nuevas",
+   "ts": "2026-10-21T20:02:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4150.5 · NQ 30040.75 · VIX 16.76",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Revisando cómo salieron las entradas anteriores…",
    "ts": "2026-10-21T06:32:46Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Abriendo la mesa para la sesión de Londres.",
-   "ts": "2026-10-21T06:32:45Z"
   }
  ],
  "briefs": [
@@ -9048,12 +9048,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4150.5,
-  "nq": 30040.75,
-  "vix": 16.76,
-  "ts": "2026-10-21T19:57:35Z"
+  "oro": 4151.5,
+  "nq": 30037.5,
+  "vix": 16.72,
+  "ts": "2026-10-21T20:02:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Meta earnings live updates: Here are the numbers",
+   "link": "https://www.cnbc.com/2026/10/21/meta-earnings-q3-2026-live-updates.html",
+   "ts": "2026-10-21T20:02:15Z",
+   "fuente": "CNBC",
+   "id": "6f009c5da2",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Meta earnings live updates: What analysts expect when the social media giant reports",
    "link": "https://www.cnbc.com/2026/10/21/meta-earnings-q3-2026-live-updates.html",
@@ -9893,17 +9904,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Wall St opens higher as SpaceX, Super Micro results lift AI stocks",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZUJTOXdaa0JmVzZubm12MGt4VnNSemsyOW1fQXpCMnhEc25HSVJRZk93d2NYUXQ3eHBuQklaNE1FT1QyQ1NqdTFkdExDbmoxY2JtOWhLQkVtYXczMHh3a3VsZmhub1JFc0FIZHN1eEcwc3FRZVZWQnBoSjFjekFYTUN6X2d5WHJUWGpDU2paekhhU24zenhNbWpXUmtfdmo5cTFIZVZwTXdiRzZoeUtiazhHWkJEWEVZLTVmQmRMcw?oc=5",
-   "ts": "2026-10-21T13:34:36Z",
-   "fuente": "Reuters",
-   "id": "188821db42",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -10513,14 +10513,14 @@
     4130.8,
     4154.2,
     4122.3,
-    4150.9
+    4151.3
    ],
    [
-    1792612052,
-    4150.5,
-    4150.5,
-    4150.5,
-    4150.5
+    1792612349,
+    4151.5,
+    4151.5,
+    4151.5,
+    4151.5
    ]
   ],
   "nq": [
@@ -11115,16 +11115,16 @@
    [
     1792609200,
     29965.75,
-    30047.75,
+    30059.25,
     29885.75,
-    30043.25
+    30026.5
    ],
    [
-    1792612055,
-    30045.5,
-    30045.5,
-    30045.5,
-    30045.5
+    1792612351,
+    30037.5,
+    30037.5,
+    30037.5,
+    30037.5
    ]
   ],
   "vix": [
@@ -11608,41 +11608,41 @@
     1792609200,
     17.11,
     17.42,
-    16.74,
-    16.77
+    16.72,
+    16.73
    ],
    [
-    1792611751,
-    16.76,
-    16.76,
-    16.76,
-    16.76
+    1792612036,
+    16.72,
+    16.72,
+    16.72,
+    16.72
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-21T19:42:36Z",
- "ult_4h": 1792612057.1128733,
+ "ult_4h": 1792612952.4286544,
  "estrategia_4h": {
   "oro": {
-   "precio": 4148.3,
-   "atr_4h": 24.26,
+   "precio": 4151.5,
+   "atr_4h": 24.28,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4151.6,
      "entrada": 4151.6,
-     "stop": 4166.15,
+     "stop": 4166.17,
      "objetivo": 4122.3,
      "rr": 2.01,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 0.89,
+     "fuerza_ruptura_atr": 0.9,
      "ruptura": "2026-10-20 04:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4184.65,
+     "stop": 4184.67,
      "objetivo": 4122.3,
      "rr": 3.28,
      "estado": "esperando retesteo",
@@ -11652,11 +11652,11 @@
    ]
   },
   "nq": {
-   "precio": 30027.0,
+   "precio": 30037.5,
    "atr_4h": 223.64,
    "setups": []
   },
-  "ts": "2026-10-21T19:47:37Z"
+  "ts": "2026-10-21T20:02:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -11697,7 +11697,6 @@
   }
  ],
  "noticias_vistas": [
-  "ddbf002390",
   "0fdd5d93a4",
   "aa7100e128",
   "d2f58f9791",
@@ -12496,7 +12495,8 @@
   "4d0b26d050",
   "34dfffea26",
   "f2bc0bb050",
-  "aed34d0dd7"
+  "aed34d0dd7",
+  "6f009c5da2"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
