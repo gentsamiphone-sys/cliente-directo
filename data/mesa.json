@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4142.2 · NQ 29788.25 · VIX 16.68 · 1 noticias nuevas",
-   "actualizado": "2026-10-21T23:42:30Z"
+   "ultimo_resultado": "Oro 4141.2 · NQ 29786.0 · VIX 16.68 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-21T23:47:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T23:42:30Z",
-   "ultimo_resultado": "1 titulares nuevos: Pantoro Gold closes September quarter with production lift and A$240 million cash and gold"
+   "actualizado": "2026-10-21T23:47:31Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Meta reporta ingresos del tercer trimestre mejores de lo esperado y emite sólidas proyecciones"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4141.2 · NQ 29786.0 · VIX 16.68 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-21T23:47:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4142.2 · NQ 29788.25 · VIX 16.68 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4131.0 · NQ 29736.75 · VIX 17.52",
    "ts": "2026-10-21T10:27:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4134.2 · NQ 29766.0 · VIX 17.51 · 2 noticias nuevas",
-   "ts": "2026-10-21T10:22:34Z"
   }
  ],
  "briefs": [
@@ -9230,12 +9230,38 @@
   }
  },
  "en_vivo": {
-  "oro": 4142.2,
-  "nq": 29788.25,
+  "oro": 4141.2,
+  "nq": 29786.0,
   "vix": 16.68,
-  "ts": "2026-10-21T23:42:30Z"
+  "ts": "2026-10-21T23:47:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Meta reports third-quarter revenue beat and issues strong guidance",
+   "link": "https://www.cnbc.com/2026/10/21/meta-earnings-q3-2026-live-updates.html",
+   "ts": "2026-10-21T23:45:42Z",
+   "fuente": "CNBC",
+   "id": "95a9ccf076",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Meta reporta ingresos del tercer trimestre mejores de lo esperado y emite sólidas proyecciones",
+   "efecto": "Impulsa al Nasdaq 100 al alza por compras institucionales en tecnología."
+  },
+  {
+   "titulo": "Peninsula business leaders say tariffs’ impact unpredictable",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYUxsOWJNU2E5QzNmcTRhRjBGQnVPVWRtUGpUMTVQSUtUT3YySnJZQnN0NGVWMzZXdU1raVdJR3dqSmFKbkJsMzkwZUJkUXhsYUxSX3FrUVFJc283Umw1NDNNeWdRcDlJb2Rndk1iaWNMVmNLUGE5WTRnZnU4YW4yMkIyRmVLS0RCWXZOajJUNDdIb2RrN2dKR29JZ3E3cEdQV0c3amYwQWxlQQ?oc=5",
+   "ts": "2026-10-21T23:31:41Z",
+   "fuente": "Peninsula Daily News",
+   "id": "b4c7ab59e9",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "bajo",
+   "es": "Líderes empresariales de la península dicen que el impacto de los aranceles es impredecible",
+   "efecto": "Sin efecto operativo inmediato; ruido macroeconómico menor."
+  },
   {
    "titulo": "S&P 500, Nasdaq Gain, Powered By Meta, Tesla Stock — SPCX, META, TSLA, SKYD, IBM In Focus",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONjQyd3F1UEZZNnhKMnA3YmhnSmxHWjlGQmpfcVRXZlFlaHVFMG5ySk1oRkQ3YWtPbmdLaVpTNkZLQnIteXBiU1hIa2xibUFwZ2xiTEsyaXlZN3htczcteEdYQ1pLN0J1WjlzSDFBbzFON2p5QVhURXNyUkV0aU1BSWRCWF9jekNidXY4Nkdvdm5YMmpQ?oc=5",
@@ -9403,6 +9429,19 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "4D Molecular Therapeutics Rings the Nasdaq Stock Market Closing Bell",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONlM0SmRHeDhTNXpMR0p6WEpMOU1uUnBKb3NtVmFMM0p0NHdzcl90UXhuQ1cxNk9NdWlyNllUR3RTSlhiVTRqVDlFcGVLdW9aeUlUdF9UTzNtQXo5S2JSdk1pNHg4SVY5RVdrYklNTnE2RXdJVEE1d1ZZYVhzWUF3aVBVNFRQeWhQaWl5TEE1YzMyN2UwbnJNbUJn?oc=5",
+   "ts": "2026-10-21T21:03:31Z",
+   "fuente": "Nasdaq",
+   "id": "8dacd4fbc4",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "4D Molecular Therapeutics toca la campana de cierre del mercado de valores Nasdaq",
+   "efecto": "Evento corporativo sin impacto en la cotización del índice."
   },
   {
    "titulo": "Agriculture industry searching for solutions amid tariffs, diesel prices, low cattle stock",
@@ -10064,39 +10103,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "New Mexico AG lawsuit accuses Epstein's attorney and accountant of facilitating sex trafficking",
-   "link": "https://www.cnbc.com/2026/10/21/epstein-new-mexico-lawsuit-sex-trafficking.html",
-   "ts": "2026-10-21T16:56:40Z",
-   "fuente": "CNBC",
-   "id": "22f0b7f15f",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Stocks making the biggest moves midday: SpaceX, Meta Platforms, Super Micro Computer, Roivant Sciences & more",
-   "link": "https://www.cnbc.com/2026/10/21/stocks-making-the-biggest-moves-midday-spcx-meta-smci-roiv.html",
-   "ts": "2026-10-21T16:48:42Z",
-   "fuente": "CNBC",
-   "id": "acaeeb232d",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Acciones con mayores movimientos a mediodía: SpaceX, Meta, Super Micro y más",
-   "efecto": "Genera rotación sectorial y volatilidad en acciones tecnológicas del NQ."
-  },
-  {
-   "titulo": "U.S. Stocks Rise as SpaceX Earnings Boost AI Trade",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSmEtOENDbk1wMmlSbkM0MHdhdTNrM245Y09fcWJYZHlVVWJZakV1cVFVRjhXMThHb0lHTHU5dE5RVEdYdHpZTS13UVk2MWlZWjB3czlQTFd5MVp1QlJ6QWthV2tlc3pmVTlKQU9FYmtQVklNYk1STzR3TTg4Qk94Y0hIeGFoSTVxOUJ2YWVUcw?oc=5",
-   "ts": "2026-10-21T16:45:00Z",
-   "fuente": "WSJ",
-   "id": "52a46415ff",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -10726,15 +10732,15 @@
     1792623600,
     4148.1,
     4148.2,
-    4141.3,
-    4142.1
+    4139.1,
+    4141.8
    ],
    [
-    1792625539,
-    4142.2,
-    4142.2,
-    4142.2,
-    4142.2
+    1792625845,
+    4141.2,
+    4141.2,
+    4141.2,
+    4141.2
    ]
   ],
   "nq": [
@@ -11351,15 +11357,15 @@
     1792623600,
     29849.25,
     29852.5,
-    29781.0,
-    29791.75
+    29772.25,
+    29782.5
    ],
    [
-    1792625547,
-    29788.25,
-    29788.25,
-    29788.25,
-    29788.25
+    1792625851,
+    29786.0,
+    29786.0,
+    29786.0,
+    29786.0
    ]
   ],
   "vix": [
@@ -11862,32 +11868,43 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-21T23:12:35Z",
- "ult_4h": 1792625552.4460135,
+ "noticias_traducidas_ts": "2026-10-21T23:47:30Z",
+ "ult_4h": 1792626452.1203997,
  "estrategia_4h": {
   "oro": {
-   "precio": 4143.5,
-   "atr_4h": 23.62,
+   "precio": 4141.2,
+   "atr_4h": 23.84,
    "setups": [
+    {
+     "direccion": "VENTA",
+     "nivel": 4151.6,
+     "entrada": 4151.6,
+     "stop": 4165.91,
+     "objetivo": 4122.3,
+     "rr": 2.05,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 0.92,
+     "ruptura": "2026-10-20 04:00 UTC"
+    },
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4184.27,
+     "stop": 4184.41,
      "objetivo": 4122.3,
-     "rr": 3.37,
+     "rr": 3.34,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.84,
+     "fuerza_ruptura_atr": 0.83,
      "ruptura": "2026-10-19 12:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29794.25,
-   "atr_4h": 219.48,
+   "precio": 29786.0,
+   "atr_4h": 220.39,
    "setups": []
   },
-  "ts": "2026-10-21T23:32:32Z"
+  "ts": "2026-10-21T23:47:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -11929,9 +11946,6 @@
   }
  ],
  "noticias_vistas": [
-  "4e32c74cd6",
-  "624b9c7ebf",
-  "d069db0df0",
   "80a1319b3f",
   "87f05fdba9",
   "bbbc8c0233",
@@ -12728,7 +12742,10 @@
   "c206d0ec72",
   "982f737ca0",
   "fc676e4482",
-  "fbbb93d5fc"
+  "fbbb93d5fc",
+  "95a9ccf076",
+  "b4c7ab59e9",
+  "8dacd4fbc4"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
