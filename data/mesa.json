@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4160.0 · NQ 29861.5 · VIX 17.31",
-   "actualizado": "2026-10-21T12:12:36Z"
+   "ultimo_resultado": "Oro 4159.9 · NQ 29866.25 · VIX 17.34 · 2 noticias nuevas",
+   "actualizado": "2026-10-21T12:17:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T12:12:35Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-21T12:17:36Z",
+   "ultimo_resultado": "2 titulares nuevos: Principales recomendaciones de analistas hoy: Nvidia, SpaceX, Netflix y más"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4159.9 · NQ 29866.25 · VIX 17.34 · 2 noticias nuevas",
+   "ts": "2026-10-21T12:17:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4160.0 · NQ 29861.5 · VIX 17.31",
@@ -1056,11 +1061,6 @@
    "agente": "historiador",
    "texto": "ORO: Sesgo histórico neutral: 6 de 9 años subió esta semana; 3 de 9 subió los 20 días siguientes; análogos 2018, 2021, 2022 · NQ: Sesgo histórico alcista: 5 de 9 años subió esta semana; 8 de 9 subió los 20 días siguientes; análogos 2025, 2021, 2024",
    "ts": "2026-10-20T21:33:11Z"
-  },
-  {
-   "agente": "historiador",
-   "texto": "Revisando qué pasó en esta misma fecha los últimos 10 años y buscando años parecidos…",
-   "ts": "2026-10-20T21:33:09Z"
   }
  ],
  "briefs": [
@@ -8867,12 +8867,36 @@
   }
  },
  "en_vivo": {
-  "oro": 4160.0,
-  "nq": 29861.5,
-  "vix": 17.31,
-  "ts": "2026-10-21T12:12:35Z"
+  "oro": 4159.9,
+  "nq": 29866.25,
+  "vix": 17.34,
+  "ts": "2026-10-21T12:17:36Z"
  },
  "noticias": [
+  {
+   "titulo": "Here are Wednesday's biggest analyst calls: Nvidia, SpaceX, Netflix, Zoom, Apple, Robinhood & more",
+   "link": "https://www.cnbc.com/2026/10/21/wednesday-biggest-analyst-calls-like-spacex.html",
+   "ts": "2026-10-21T12:11:50Z",
+   "fuente": "CNBC",
+   "id": "633cb99239",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Principales recomendaciones de analistas hoy: Nvidia, SpaceX, Netflix y más",
+   "efecto": "Impulsa al NQ al alza por compras en tecnológicas destacadas."
+  },
+  {
+   "titulo": "United Airlines set to open its biggest airport lounge in $2.6 billion overhaul at Houston hub",
+   "link": "https://www.cnbc.com/2026/10/21/united-airlines-biggest-airport-lounge-houston.html",
+   "ts": "2026-10-21T12:09:51Z",
+   "fuente": "CNBC",
+   "id": "60ab0d36eb",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "United Airlines inaugura su mayor salón VIP en inversión de $2.6B en Houston",
+   "efecto": "Sin impacto relevante en activos institucionales principales."
+  },
   {
    "titulo": "OpenAI to bring AI models to Google's cloud, in further expansion beyond Microsoft",
    "link": "https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html",
@@ -9750,26 +9774,6 @@
    "impacto": "medio",
    "es": "Qué esperar de los resultados del Q3 de Nasdaq",
    "efecto": "Genera cautela y posicionamiento táctico en acciones tecnológicas."
-  },
-  {
-   "titulo": "Jalen Brunson Receives All-Gold Nike Kobe 6 Protro for Knicks Ring Ceremony Night",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd3YzS0h2Mmc2N3ZoS196a2JIUFVWeWx1eXhBdWEyRUd1Y3pDWHFuMWQ3d19icUhsT2JOdUEzU0pqNU14aE12Q0pjaVVXZ05iLXlDWHZZU08wd3Fld1Z4TTR5OFAwRU9MYmM1RmxuNkhadGFXTUpPQXIwYjFad05wYW5BNTNPX2x5TzRXeGR6ZUVCdEp4QUlaS1RTZVRWUVpVVEdBVVl3Mmdlb3o3SlNNNnp0M2Jhdw?oc=5",
-   "ts": "2026-10-21T04:24:20Z",
-   "fuente": "Hypebeast",
-   "id": "b102e7bd21",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Ken Griffin calls Trump’s tariffs on US allies 'a disaster' and predicts it will hurt Republicans in the midterms",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQjZwMzdabVpDdzJVdWJkV1VTSHJRanFZc04zNVV1WlNXbnpaQTNvcjhuSHNSUnY3d2c4WFlibzVmdVl0S3lfVHhrTTEtSTZ1elhTSEFPXzJ6YVFPQzhXVHJ1UjVMRmRaaEJ3YlBhTzJsTkRpXzIzWTVfNUYzUXhQcFNXRzlGWFhmeHZTeGdRbHE2QVpxeUctVmpqUHJzNkVScWJB?oc=5",
-   "ts": "2026-10-21T04:01:00Z",
-   "fuente": "Business Insider",
-   "id": "72a2c61bfa",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -10329,15 +10333,15 @@
     1792584000,
     4158.8,
     4160.6,
-    4157.9,
-    4158.6
+    4155.9,
+    4159.1
    ],
    [
-    1792584153,
-    4160.0,
-    4160.0,
-    4160.0,
-    4160.0
+    1792584447,
+    4159.9,
+    4159.9,
+    4159.9,
+    4159.9
    ]
   ],
   "nq": [
@@ -10883,16 +10887,16 @@
    [
     1792584000,
     29866.25,
-    29870.25,
+    29872.0,
     29851.0,
-    29854.5
+    29867.0
    ],
    [
-    1792584154,
-    29861.5,
-    29861.5,
-    29861.5,
-    29861.5
+    1792584453,
+    29866.25,
+    29866.25,
+    29866.25,
+    29866.25
    ]
   ],
   "vix": [
@@ -11321,43 +11325,50 @@
     17.38,
     17.38,
     17.27,
-    17.3
+    17.32
    ],
    [
-    1792583851,
-    17.31,
-    17.31,
-    17.31,
-    17.31
+    1792584000,
+    17.33,
+    17.35,
+    17.33,
+    17.34
+   ],
+   [
+    1792584151,
+    17.34,
+    17.34,
+    17.34,
+    17.34
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-21T11:47:35Z",
- "ult_4h": 1792584155.5754292,
+ "noticias_traducidas_ts": "2026-10-21T12:17:35Z",
+ "ult_4h": 1792585056.760701,
  "estrategia_4h": {
   "oro": {
-   "precio": 4158.6,
-   "atr_4h": 22.86,
+   "precio": 4159.9,
+   "atr_4h": 21.75,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4183.81,
+     "stop": 4183.15,
      "objetivo": 4124.0,
-     "rr": 3.36,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.87,
+     "rr": 3.53,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 0.91,
      "ruptura": "2026-10-19 12:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29875.75,
-   "atr_4h": 200.88,
+   "precio": 29866.25,
+   "atr_4h": 195.7,
    "setups": []
   },
-  "ts": "2026-10-21T12:02:35Z"
+  "ts": "2026-10-21T12:17:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -11391,8 +11402,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "bc559f6e6e",
-  "3a29df3792",
   "79eac157de",
   "f34fb546a2",
   "072305a332",
@@ -12190,6 +12199,8 @@
   "9978c8450d",
   "6735a99f85",
   "be3119121c",
-  "ab72b8bc61"
+  "ab72b8bc61",
+  "633cb99239",
+  "60ab0d36eb"
  ]
 }
