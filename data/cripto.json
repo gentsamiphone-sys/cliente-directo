@@ -1,10 +1,10 @@
 {
  "agentes": {
   "cio": {
-   "estado": "trabajando",
-   "tarea": "Escribiendo el brief cripto…",
-   "actualizado": "2026-10-21T13:36:58Z",
-   "ultimo_resultado": "Brief publicado: Bitcoin y Ethereum neutrales sin entradas claras por falta de confluencias"
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-21T13:37:52Z",
+   "ultimo_resultado": "Brief publicado: Consolidación y cautela en cripto con flujos de capital planos y sesgo neutral para BTC y ETH"
   },
   "liquidez": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "cio",
+   "texto": "Brief publicado: Consolidación y cautela en cripto con flujos de capital planos y sesgo neutral para BTC y ETH",
+   "ts": "2026-10-21T13:37:52Z"
+  },
   {
    "agente": "cio",
    "texto": "Escribiendo el brief cripto…",
@@ -800,14 +805,47 @@
    "agente": "historiador",
    "texto": "BTC: Sesgo histórico alcista: 5 de 8 años subió esta semana; 6 de 8 subió los 20 días siguientes; análogos 2025, 2018, 2022 · ETH: Sesgo histórico alcista: 4 de 8 años subió esta semana; 5 de 8 subió los 20 días siguientes; análogos 2024, 2025, 2022",
    "ts": "2026-10-17T13:25:49Z"
-  },
-  {
-   "agente": "historiador",
-   "texto": "Revisando esta misma fecha en los últimos años…",
-   "ts": "2026-10-17T13:25:48Z"
   }
  ],
  "briefs": [
+  {
+   "turno": "Mañana (apertura de EE. UU.)",
+   "ts": "2026-10-21T13:37:52Z",
+   "texto": "1. **Sesgo**\n- BTC: Neutral; consolida bajo el máximo semanal (83755.16) apoyado en su EMA50 diaria (80730.40), pero limitado por falta de entrada de capital fresco.\n- ETH: Neutral; comprimido bajo su EMA50 diaria (2479.69) con persistente debilidad estructural frente a BTC (dominancia en 10.72%).\n\n2. **Liquidez global**\nAyudan levemente a cripto hoy. El DXY retrocede a 101.69 (-0.04% 1d, -0.84% 5d) y el rendimiento del US10Y cede a 5.09% (-0.45% 1d). El Nasdaq avanza a 29881.0 (+0.69%) mientras el VIX cae a 16.95 (-2.08%), abriendo una ventana de alivio táctico en la apertura americana.\n\n3. **Flujos**\nFrenan el mercado. Las stablecoins muestran contracción con un total de 285.6 mm y salidas de -2.56 mm a 7 días y -3.2 mm a 30 días; no hay capital nuevo entrando al sistema. La dominancia de BTC en 59.57% frente al 10.72% de ETH confirma que el capital busca refugio relativo en Bitcoin y no hay rotación hacia altcoins.\n\n4. **Apalancamiento y sentimiento**\nFear & Greed se sitúa en 63 (Greed, subiendo desde 53 hace 7 días), reflejando complacencia sin llegar al extremo de euforia. Las tasas de financiación de perpetuos a 8h se mantienen neutrales/bajas (BTC 0.0029%, ETH 0.0068%). No hay posiciones minoristas masivamente atrapadas ni excesos de apalancamiento que justifiquen una barrida contraria inminente.\n\n5. **Mapa de liquidez**\n- BTC: Máximo/mínimo semanal: 83755.16 / 79735.86. Máximo/mínimo mensual: 87265.49 / 79735.86. EMA200 diaria: 76080.45. Imán principal: liquidez de compra sobre el máximo de 48h en 83786.18; soporte de valor en el mínimo de ayer en 81107.23 y EMA50 (80730.40).\n- ETH: Máximo/mínimo semanal: 2490.21 / 2320.55. Máximo/mínimo mensual: 2787.96 / 2320.55. EMA200 diaria: 2323.64. Imán principal: rechazo en la EMA50 diaria (2479.69) hacia el mínimo semanal y EMA200 en 2320.55–2323.64.\n\n6. **Plan**\n- **BTC**:\n  - Dirección: SIN ENTRADA\n  - Zona de entrada: No aplica\n  - Stop: No aplica\n  - TP1 / TP2: No aplica\n  - R:R al TP2: No aplica\n  - Confluencias: 2/5 (Macro favorable y zona técnica válidos; flujos negativos, sentimiento neutral sin extremo y estacionalidad neutra). Menos de 4/5 = SIN ENTRADA.\n\n- **ETH**:\n  - Dirección: SIN ENTRADA\n  - Zona de entrada: No aplica\n  - Stop: No aplica\n  - TP1 / TP2: No aplica\n  - R:R al TP2: No aplica\n  - Confluencias: 2/5 (Macro favorable y niveles técnicos claros; flujos de stablecoins saliendo, sentimiento neutro y estacionalidad sin ventaja). Menos de 4/5 = SIN ENTRADA.\n\n7. **Historia**\nBTC en esta semana cerró al alza en 5 de 8 años (promedio +3.66%) y 5 de 8 en los siguientes 20 días (+6.08%). En miércoles, muestra 49% de sesiones alcistas con rendimiento promedio de +0.147%. Análogos: 2025 (+0.95% sem.), 2018 (-0.2% sem.) y 2022 (+5.47% sem.). Sesgo histórico: neutral.\n\n8. **Riesgo**\nRégimen actual: volatilidad normal en BTC (ATR diario 1966.89 / 2.36%) y ETH (ATR diario 95.13 / 3.87%). Regla de asignación: arriesgar como máximo 1% del capital por idea. Se mantendría en 0.5% en caso de régimen de volatilidad alta.\n\nAnálisis educativo de agentes de IA. No es consejo financiero.",
+   "titular": "Consolidación y cautela en cripto con flujos de capital planos y sesgo neutral para BTC y ETH",
+   "sesgo": {
+    "btc": "neutral",
+    "eth": "neutral"
+   },
+   "entradas": [
+    {
+     "activo": "BTC",
+     "direccion": "SIN ENTRADA",
+     "zona": "No aplica",
+     "stop": "No aplica",
+     "tp1": "No aplica",
+     "tp2": "No aplica",
+     "rr": "No aplica",
+     "confluencias": "2/5"
+    },
+    {
+     "activo": "ETH",
+     "direccion": "SIN ENTRADA",
+     "zona": "No aplica",
+     "stop": "No aplica",
+     "tp1": "No aplica",
+     "tp2": "No aplica",
+     "rr": "No aplica",
+     "confluencias": "2/5"
+    }
+   ],
+   "precios": {
+    "btc": 83224.55,
+    "eth": 2457.88
+   },
+   "fear_greed": 63,
+   "dominancia_btc": 59.57
+  },
   {
    "turno": "Noche (Asia)",
    "ts": "2026-10-21T01:28:24Z",
