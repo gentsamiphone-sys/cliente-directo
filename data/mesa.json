@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4145.8 · NQ 29839.5 · VIX 17.36 · 3 noticias nuevas",
-   "actualizado": "2026-10-21T11:22:32Z"
+   "ultimo_resultado": "Oro 4147.4 · NQ 29834.0 · VIX 17.36 · 2 noticias nuevas",
+   "actualizado": "2026-10-21T11:27:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T11:22:31Z",
-   "ultimo_resultado": "3 titulares nuevos: Silver price today, Wednesday, October 21, 2026:  Silver prices showing more resilience than gold"
+   "actualizado": "2026-10-21T11:27:35Z",
+   "ultimo_resultado": "2 titulares nuevos: Getty Images files for bankruptcy, advances restructuring plan"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4147.4 · NQ 29834.0 · VIX 17.36 · 2 noticias nuevas",
+   "ts": "2026-10-21T11:27:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4145.8 · NQ 29839.5 · VIX 17.36 · 3 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +107,089 contratos.",
    "ts": "2026-10-20T21:32:56Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-10-20T21:32:55Z"
   }
  ],
  "briefs": [
@@ -8867,12 +8867,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4145.8,
-  "nq": 29839.5,
+  "oro": 4147.4,
+  "nq": 29834.0,
   "vix": 17.36,
-  "ts": "2026-10-21T11:22:31Z"
+  "ts": "2026-10-21T11:27:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Getty Images files for bankruptcy, advances restructuring plan",
+   "link": "https://www.cnbc.com/2026/10/21/getty-images-files-for-bankruptcy-advances-restructuring-plan.html",
+   "ts": "2026-10-21T11:18:01Z",
+   "fuente": "CNBC",
+   "id": "ab8bfd2aeb",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Silver price today, Wednesday, October 21, 2026:  Silver prices showing more resilience than gold",
    "link": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-wednesday-october-21-2026-silver-prices-showing-more-resilience-than-gold-111020615.html?.tsrc=rss",
@@ -9633,6 +9642,17 @@
    "impacto": "alto"
   },
   {
+   "titulo": "Gold hits near one-week low on elevated oil prices",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY2dJZXdfdnptbDVvajUtNHBONy13T1Z5aEtVc3d2d2VDYUNpUEpTM1JxNGVZRFhiQmh1b1U2RWpOaW0zVndyQk9uSFZ6b0pQXzVvNUhRMFVXeEMzS3BrU1FkdE9tNEYxY21PdDFEWGplNkkwMkJ2Rkk5VVg2VUVDcXFIUmp4cUR4SnhqQ2h6b3hYTExtTkhCNGtqZWt6WUtUYURrc3owUUptdw?oc=5",
+   "ts": "2026-10-21T03:45:00Z",
+   "fuente": "Reuters",
+   "id": "4caf9d1fa0",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Gold extends losses to near one-week low on elevated oil prices",
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY2dJZXdfdnptbDVvajUtNHBONy13T1Z5aEtVc3d2d2VDYUNpUEpTM1JxNGVZRFhiQmh1b1U2RWpOaW0zVndyQk9uSFZ6b0pQXzVvNUhRMFVXeEMzS3BrU1FkdE9tNEYxY21PdDFEWGplNkkwMkJ2Rkk5VVg2VUVDcXFIUmp4cUR4SnhqQ2h6b3hYTExtTkhCNGtqZWt6WUtUYURrc3owUUptdw?oc=5",
    "ts": "2026-10-21T03:45:00Z",
@@ -9750,26 +9770,6 @@
    "impacto": "bajo",
    "es": "Importador de Nueva Jersey demanda aranceles de Trump a Canadá",
    "efecto": "Ruido legal menor sobre comercio, impacto institucional limitado."
-  },
-  {
-   "titulo": "Australian data center operator NextDC's shares plunge 40% after it slashes earnings forecast",
-   "link": "https://www.cnbc.com/2026/10/21/australia-data-center-operator-nexdc-datacenter.html",
-   "ts": "2026-10-21T01:44:42Z",
-   "fuente": "CNBC",
-   "id": "4fcfa0e8a4",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Disney actor accused of $2-million gold scam and elder abuse in new lawsuit",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdll0YXNzMmx3SW1tLXphUzd5Q0RQYk0yQkFsdURBMTJ1S01sNjQwYmU1N2xvOEZHRHEtUVR5SzhGR09ONHVrbFowNnJMSmxienRkZFF2dkpxRWZ0czJnQWFadDFCeUpNTUJGSzIyU0EwZ1Mzcy1JRW9JY2tZQy1aaXV1bWdiVk5hdjJHU1dCSENHNVN6dmhudmNvTFZrd0RoaWdvbkRBUDBPaE5vVUMtN05hYTR0ZkpIY3ZNZkxjREM?oc=5",
-   "ts": "2026-10-21T01:44:00Z",
-   "fuente": "Los Angeles Times",
-   "id": "7f154ebbbf",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -10321,16 +10321,16 @@
    [
     1792580400,
     4144.8,
-    4147.7,
+    4149.3,
     4143.7,
-    4145.8
+    4148.3
    ],
    [
-    1792581147,
-    4145.8,
-    4145.8,
-    4145.8,
-    4145.8
+    1792581449,
+    4147.4,
+    4147.4,
+    4147.4,
+    4147.4
    ]
   ],
   "nq": [
@@ -10871,14 +10871,14 @@
     29819.75,
     29873.0,
     29819.25,
-    29838.0
+    29835.25
    ],
    [
-    1792581151,
-    29839.5,
-    29839.5,
-    29839.5,
-    29839.5
+    1792581452,
+    29834.0,
+    29834.0,
+    29834.0,
+    29834.0
    ]
   ],
   "vix": [
@@ -11307,10 +11307,10 @@
     17.38,
     17.38,
     17.34,
-    17.34
+    17.36
    ],
    [
-    1792580836,
+    1792581151,
     17.36,
     17.36,
     17.36,
@@ -11388,8 +11388,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "36226910f2",
-  "fc4382ae49",
   "8abd569261",
   "fde24a1a0f",
   "10fc4052c2",
@@ -12187,6 +12185,8 @@
   "23ae754dc5",
   "be19532cc4",
   "095985d9ee",
-  "c9f7407b36"
+  "c9f7407b36",
+  "ab8bfd2aeb",
+  "4caf9d1fa0"
  ]
 }
