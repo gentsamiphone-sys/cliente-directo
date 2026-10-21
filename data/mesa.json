@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4154.4 · NQ 30075.25 · VIX 16.68",
-   "actualizado": "2026-10-21T18:57:37Z"
+   "ultimo_resultado": "Oro 4144.2 · NQ 30013.25 · VIX 16.68 · 1 noticias nuevas",
+   "actualizado": "2026-10-21T19:02:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T18:57:36Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-21T19:02:35Z",
+   "ultimo_resultado": "1 titulares nuevos: SpaceX gives the AI trade a shot in the arm. What it means for our stocks"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4144.2 · NQ 30013.25 · VIX 16.68 · 1 noticias nuevas",
+   "ts": "2026-10-21T19:02:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4154.4 · NQ 30075.25 · VIX 16.68",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4144.5 · NQ 29889.25 · VIX 17.31 · 1 noticias nuevas",
    "ts": "2026-10-21T05:42:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4144.6 · NQ 29890.25 · VIX 17.31",
-   "ts": "2026-10-21T05:37:32Z"
   }
  ],
  "briefs": [
@@ -9048,12 +9048,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4154.4,
-  "nq": 30075.25,
+  "oro": 4144.2,
+  "nq": 30013.25,
   "vix": 16.68,
-  "ts": "2026-10-21T18:57:36Z"
+  "ts": "2026-10-21T19:02:35Z"
  },
  "noticias": [
+  {
+   "titulo": "SpaceX gives the AI trade a shot in the arm. What it means for our stocks",
+   "link": "https://www.cnbc.com/investingclub/2026/10/21/spacex-gives-the-ai-trade-a-shot-in-the-arm-what-it-means-for-our-stocks-.html",
+   "ts": "2026-10-21T19:01:23Z",
+   "fuente": "CNBC",
+   "id": "eb6a7b637a",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Apple's iPhone Duo in short supply — plus, the 2 stocks fueling an AI rebound",
    "link": "https://www.cnbc.com/investingclub/2026/10/21/apples-iphone-duo-in-short-supply-plus-2-stocks-fueling-an-ai-rebound.html",
@@ -9896,21 +9907,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Brookings paper offers broad plan to shrink Fed balance sheet",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOWJYd0NERVlESGhjUzBFQm1tQkdDMVZtbnZxXzByQkxIS29abXpTRXZqYXhyamV2b19FbUpCR2RoWW9aUGVvenh5Q20tVWpWQzhRYnQzTk1iaEtQZWxPTnJUZU5kUHR2NUxvMHlLS1JRR0g2dFktUEhCbDVvTGRUU2YybEk5SzFYRjRpZjFqUVhKQ0JQaElseUI2QjhGMmY1R3d1NGZxcmYwMVlyQ1dvWQ?oc=5",
-   "ts": "2026-10-21T13:17:43Z",
-   "fuente": "Reuters",
-   "id": "6e9ba9d661",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Un documento de Brookings ofrece un plan amplio para reducir el balance de la Fed",
-   "efecto": "Reduce liquidez, presiona al alza las tasas y debilita renta variable y oro."
   }
  ],
  "eventos_avisados": [
@@ -10512,15 +10508,15 @@
     1792605600,
     4154.9,
     4159.9,
-    4151.4,
-    4151.7
+    4142.6,
+    4145.0
    ],
    [
-    1792608453,
-    4154.4,
-    4154.4,
-    4154.4,
-    4154.4
+    1792608753,
+    4144.2,
+    4144.2,
+    4144.2,
+    4144.2
    ]
   ],
   "nq": [
@@ -11109,15 +11105,15 @@
     1792605600,
     30049.5,
     30088.75,
-    30040.75,
-    30053.0
+    29990.75,
+    30018.75
    ],
    [
-    1792608454,
-    30075.25,
-    30075.25,
-    30075.25,
-    30075.25
+    1792608753,
+    30013.25,
+    30013.25,
+    30013.25,
+    30013.25
    ]
   ],
   "vix": [
@@ -11595,10 +11591,10 @@
     16.62,
     16.69,
     16.6,
-    16.68
+    16.69
    ],
    [
-    1792608151,
+    1792608451,
     16.68,
     16.68,
     16.68,
@@ -11607,31 +11603,31 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-21T18:42:33Z",
- "ult_4h": 1792608454.227808,
+ "ult_4h": 1792609355.4108555,
  "estrategia_4h": {
   "oro": {
-   "precio": 4158.6,
-   "atr_4h": 22.61,
+   "precio": 4144.2,
+   "atr_4h": 22.83,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4183.67,
+     "stop": 4183.8,
      "objetivo": 4124.0,
-     "rr": 3.4,
+     "rr": 3.37,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.88,
+     "fuerza_ruptura_atr": 0.87,
      "ruptura": "2026-10-19 12:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30079.0,
+   "precio": 30012.5,
    "atr_4h": 216.59,
    "setups": []
   },
-  "ts": "2026-10-21T18:47:34Z"
+  "ts": "2026-10-21T19:02:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -11672,7 +11668,6 @@
   }
  ],
  "noticias_vistas": [
-  "81a5b84d1b",
   "dfe568811e",
   "ca00bc9168",
   "a345fd1128",
@@ -12471,7 +12466,8 @@
   "75737a663c",
   "50fa65a63f",
   "26410c39f0",
-  "aed521ce6b"
+  "aed521ce6b",
+  "eb6a7b637a"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
