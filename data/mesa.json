@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4140.8 · NQ 29782.75 · VIX 17.49 · 1 noticias nuevas",
-   "actualizado": "2026-10-21T10:47:31Z"
+   "ultimo_resultado": "Oro 4145.1 · NQ 29812.75 · VIX 17.49 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-21T10:52:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T10:47:29Z",
-   "ultimo_resultado": "1 titulares nuevos: TSX futures edge higher as oil gains offset weakness in gold"
+   "actualizado": "2026-10-21T10:52:36Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Options Expands Data Coverage with Nasdaq Options Feeds"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4145.1 · NQ 29812.75 · VIX 17.49 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-21T10:52:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4140.8 · NQ 29782.75 · VIX 17.49 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "4 titulares nuevos, 3 de alto impacto: Trump’s 50% Canada tariffs challenged in court",
    "ts": "2026-10-20T21:32:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "2 titulares nuevos: JPMorgan Puts a Number on Bitcoin for the First Time: 10% a Year, With a Big Caveat",
-   "ts": "2026-10-20T21:27:38Z"
   }
  ],
  "briefs": [
@@ -8867,12 +8867,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4140.8,
-  "nq": 29782.75,
+  "oro": 4145.1,
+  "nq": 29812.75,
   "vix": 17.49,
-  "ts": "2026-10-21T10:47:30Z"
+  "ts": "2026-10-21T10:52:36Z"
  },
  "noticias": [
+  {
+   "titulo": "Options Expands Data Coverage with Nasdaq Options Feeds",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRUdvUVA4VjR1YWZvVlIzeUs3MnQ1YWtINUE1MEx3QmpGcUM1NHpma2M0RXVVeWg4QUdfbXRBZklmeFhtQWlrUzI1dXlpYnhMYnBkZ1huZGxFcUlBc1JKbzFQSjJtSWFlVTV2OUpVeWFvbGJyYmUxMTVNbWFJR21fcDFOS3p1cDFoWndvMkpSdm9rM2FIaGhySlhPUFJCczc5T3pmUDVWdHpETFFzTlMzT0ln?oc=5",
+   "ts": "2026-10-21T10:43:00Z",
+   "fuente": "Business Wire",
+   "id": "0b2fdcb99c",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Hemlo Mining Corp. Reports Third Quarter 2026 Operating Results",
    "link": "https://finance.yahoo.com/markets/commodities/articles/hemlo-mining-corp-reports-third-103000584.html?.tsrc=rss",
@@ -8898,6 +8909,17 @@
    "impacto": "alto",
    "es": "Los futuros del Nasdaq lideran ganancias impulsados por resultados de SpaceX y Super Micro",
    "efecto": "Impulsa compras en el Nasdaq por optimismo en el sector tecnológico y de IA."
+  },
+  {
+   "titulo": "Dancing For Gold",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zNUpfM3JHSkk0elB5bzJfRDFpc3dvV2N2Z0hZaE9GV1BjbnZUUllJZkh1MlUyTUtDbXdEX0xISkpyY3ZFZjNhTXBQNW9wTDA0UmlHUEZfM1d3WVZNTDFF?oc=5",
+   "ts": "2026-10-21T10:23:45Z",
+   "fuente": "Olympics",
+   "id": "6793f059b2",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Most Americans spend too much on housing. Here are 3 ways to save on your rent or mortgage",
@@ -9516,6 +9538,18 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Gold inches down amid higher oil prices; Fed rate outlook in focus",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-near-4-110-015830474.html?.tsrc=rss",
+   "ts": "2026-10-21T01:58:30Z",
+   "fuente": "Yahoo Finance",
+   "id": "217711bd52",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Gold falls near $4,120 as Iran peace uncertainty, Fed rate risks weigh",
    "link": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-near-4-110-015830474.html?.tsrc=rss",
    "ts": "2026-10-21T01:58:30Z",
@@ -9724,37 +9758,6 @@
    "impacto": "bajo",
    "es": "Ordenan a Elon Musk ralentizar Starlink en Ucrania según informe",
    "efecto": "Ruido geopolítico sin impacto directo ni inmediato en los índices o metales."
-  },
-  {
-   "titulo": "Josh Kaul discusses tariffs, farmers’ right to repair",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdUxPVmt6R1Q5dVNFM2RMLUpIUHR2a0didndWRzFTXzBWSnBoY0dlUjRDb1V4VkhiVFZ4YXdrMHZMN2k2aEo4TXhMVlFkclp3NUF2bGtGaEszaDllbnl4NFNEcW00Vk5vR01BbWNHUzZBeDRNR0VSNDJSWWdDUnBwRGR1endzdWl3c3FUbmswckZFMmZqcUdzVkU3R2h2Tlp0R0tUTENYUWJrUG5Cd3FWQU01NTZyaVUzY1pXZEkwbzduNWN5eUExU3UyTQ?oc=5",
-   "ts": "2026-10-20T22:52:00Z",
-   "fuente": "news8000.com",
-   "id": "553153a5ec",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Rogers, El-Sayed outline differing economic plans at Detroit Economic Club",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTjlfdWkxRUwzVjRPR0Jkb2FGUXlkZHNLSDBRRVhNMFdDREFNdk5VRHhnbVZ2S2hZNmRsMXpPMDNiUEtvWTNkMG5uRDdrUE84LWpvUjNmZldFaDRDTW9DRkFnTmQzOXAyVE0xbmhiYzlHUlUtN1dWQ3pGSS1fdmF6LXNsVWM4SnBtTHdqOFpCRTVxbGJaZWc0UzZkb3FwUWtfSEFhWGFZRXhPMU1VWDF4Y2N6SHFNNG1lYVpKZGcyVGEzeWI5RFE?oc=5",
-   "ts": "2026-10-20T22:50:32Z",
-   "fuente": "ClickOnDetroit | WDIV Local 4",
-   "id": "467e4722fb",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Rogers y El-Sayed presentan planes económicos diferentes en el Detroit Economic Club",
-   "efecto": "Sin impacto en mercados globales ni en activos principales."
-  },
-  {
-   "titulo": "September 2026 Quarterly Results",
-   "link": "https://finance.yahoo.com/news/september-2026-quarterly-results-221500296.html?.tsrc=rss",
-   "ts": "2026-10-20T22:15:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "9480ba23aa",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Resultados trimestrales de septiembre de 2026",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -10299,16 +10302,16 @@
    [
     1792576800,
     4136.5,
-    4142.0,
+    4146.8,
     4129.5,
-    4141.9
+    4145.2
    ],
    [
-    1792579045,
-    4140.8,
-    4140.8,
-    4140.8,
-    4140.8
+    1792579353,
+    4145.0,
+    4145.0,
+    4145.0,
+    4145.0
    ]
   ],
   "nq": [
@@ -10840,16 +10843,16 @@
    [
     1792576800,
     29794.5,
-    29801.25,
+    29817.75,
     29727.5,
-    29785.5
+    29814.0
    ],
    [
-    1792579049,
-    29782.75,
-    29782.75,
-    29782.75,
-    29782.75
+    1792579355,
+    29812.75,
+    29812.75,
+    29812.75,
+    29812.75
    ]
   ],
   "vix": [
@@ -11271,10 +11274,10 @@
     17.47,
     17.58,
     17.46,
-    17.49
+    17.48
    ],
    [
-    1792578736,
+    1792579051,
     17.49,
     17.49,
     17.49,
@@ -11352,9 +11355,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "fa4cf3b53d",
-  "4e7246eeea",
-  "3e5c449acd",
   "f565baa85a",
   "0864cd6a95",
   "b88800f2c3",
@@ -12151,6 +12151,9 @@
   "255f5b3cc5",
   "b5d0975a5c",
   "e27c4a8bbe",
-  "9f779a74eb"
+  "9f779a74eb",
+  "0b2fdcb99c",
+  "6793f059b2",
+  "217711bd52"
  ]
 }
