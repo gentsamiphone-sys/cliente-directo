@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4151.5 · NQ 30037.5 · VIX 16.72 · 1 noticias nuevas",
-   "actualizado": "2026-10-21T20:02:33Z"
+   "ultimo_resultado": "Oro 4151.7 · NQ 30028.75 · VIX 16.63 · 5 noticias nuevas",
+   "actualizado": "2026-10-21T20:07:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T20:02:32Z",
-   "ultimo_resultado": "1 titulares nuevos: Meta earnings live updates: Here are the numbers"
+   "actualizado": "2026-10-21T20:07:33Z",
+   "ultimo_resultado": "5 titulares nuevos: Meta posts Q3 revenue beat and strong guidance: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4151.7 · NQ 30028.75 · VIX 16.63 · 5 noticias nuevas",
+   "ts": "2026-10-21T20:07:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4151.5 · NQ 30037.5 · VIX 16.72 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Historial: 11 operaciones, 27% de acierto, +7.08 R.",
    "ts": "2026-10-21T06:32:48Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Revisando cómo salieron las entradas anteriores…",
-   "ts": "2026-10-21T06:32:46Z"
   }
  ],
  "briefs": [
@@ -9048,12 +9048,34 @@
   }
  },
  "en_vivo": {
-  "oro": 4151.5,
-  "nq": 30037.5,
-  "vix": 16.72,
-  "ts": "2026-10-21T20:02:32Z"
+  "oro": 4151.7,
+  "nq": 30028.75,
+  "vix": 16.63,
+  "ts": "2026-10-21T20:07:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Meta posts Q3 revenue beat and strong guidance: Live updates",
+   "link": "https://www.cnbc.com/2026/10/21/meta-earnings-q3-2026-live-updates.html",
+   "ts": "2026-10-21T20:06:54Z",
+   "fuente": "CNBC",
+   "id": "1d25f0ee24",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Tesla earnings are out – here are the numbers",
+   "link": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
+   "ts": "2026-10-21T20:06:42Z",
+   "fuente": "CNBC",
+   "id": "975c77b4dd",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Meta earnings live updates: Here are the numbers",
    "link": "https://www.cnbc.com/2026/10/21/meta-earnings-q3-2026-live-updates.html",
@@ -9062,6 +9084,26 @@
    "id": "6f009c5da2",
    "activos": [
     "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Why silver is trending with investors in 2026",
+   "link": "https://www.usatoday.com/story/money/money-management/investing/2026/10/21/why-investors-are-buying-silver-in-2026/90084445007/?.tsrc=rss",
+   "ts": "2026-10-21T19:57:05Z",
+   "fuente": "Yahoo Finance",
+   "id": "71d20628b9",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "2026 Gymnastics Worlds: People's Republic of China claim first women's gold in two decades",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUzdGM0Y5RTI5TzMxYkRPQzF5SDZuOVZFVHZaUHlkdFJYSDZEUDU1VGtpOU9KdGJ5SDR2TVlmY3RLRHA5T0JvcVo2NXhYcGVxNHBLZVNZV0NnXzdySlRwaDJKZkRvNzd4N3BqdVFHRFY2VTRDZ2g0VjZEZzZZeTlobnMwVHpuRmlfMUhPNk5Ncm1uTGs0ZDFnR0xsS2NWbUJodU5Mbkl1cDRXRzV3c1VoeVdNOXg2NkRBZHZ4ckcxTW84bW9O?oc=5",
+   "ts": "2026-10-21T19:57:00Z",
+   "fuente": "Olympics",
+   "id": "80bd921cc4",
+   "activos": [
+    "oro"
    ],
    "impacto": "medio"
   },
@@ -9150,6 +9192,17 @@
    "impacto": "alto",
    "es": "El comercio de IA podría estar en un punto de inflexión.",
    "efecto": "Genera volatilidad en tecnológicas y presiona al NQ."
+  },
+  {
+   "titulo": "Todd Gordon is turning to this inverse Nasdaq ETF as tech stocks weaken",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdzZkYmc2ZWtpQ2xuSGNQWFRSTThFYVJBczB0TjV6SWFxc0hEdnB6V29xeHB6bzRwSGs3UlUyQ1h1TzhxVTg2WlVLWHpJRVJWYW1NV2xKNkcwVWlZenBacU8tbGZnM3ZOMDNfSGo4RkVNOVNpdndta01vTllSREt2MkQzaVl5YUZ5Tk9JMVBhSEd4ek01QkptOE5ZRENpMW1GU0hfM3hrMEVYdXplNE9JdlFJSG4?oc=5",
+   "ts": "2026-10-21T18:43:52Z",
+   "fuente": "CNBC",
+   "id": "c33567bdd6",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "IEEPA Tariffs Struck Down, Replacement Tariffs Expired: What Importers Need to Know Now",
@@ -9849,61 +9902,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "The price of gold today, Oct. 21, 2026 — and the best places to buy",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMYzJfUkNtcDlveGkzRk1IMC1YR1ZncmoyaFZXOGFXb1BPcEtJSVpTRC1SZWpiYTdBTndZXzlmZ0t1dVAzRl9YakVsSV9iVHJhUzFpNzVjSFZXY1JhM0MteWNHNUpWNGRISlNYQVo3RVlvd9IBd0FVX3lxTE9NNW1RaFFuMm1BWVVfZTI0SGgyRy1pcDRaR04zTVJFUzBrQ3hzdnFjQVNTWERxaDlwanFhempRWmlUMHpjeHR6OERDLTB4TndEcS1nMVJ6YmVSZ2c2Vmc1YzV5TTNRTzNvOTFfdUFNUHQzeHQyZVgw?oc=5",
-   "ts": "2026-10-21T14:03:27Z",
-   "fuente": "CNBC",
-   "id": "1a96f54e31",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Precio del oro hoy, 21 de octubre de 2026, y dónde comprar",
-   "efecto": "Ruido minorista sin impacto institucional en el mercado."
-  },
-  {
-   "titulo": "Diverging US-Canada Growth Outlook Weighs on Canadian Dollar Upside, SocGen Says",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/diverging-us-canada-growth-outlook-135553945.html?.tsrc=rss",
-   "ts": "2026-10-21T13:55:53Z",
-   "fuente": "Yahoo Finance",
-   "id": "77bf2bc878",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Witkoff calls Putin a 'humanitarian' at Russia peace talks without Ukraine",
-   "link": "https://www.cnbc.com/2026/10/21/witkoff-russia-putin-ukraine-zelenskyy.html",
-   "ts": "2026-10-21T13:44:01Z",
-   "fuente": "CNBC",
-   "id": "453f68a71a",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Nine Mile Metals hits 7.13% copper equivalent over 11.65 metres at Wedge",
-   "link": "https://www.proactiveinvestors.com/companies/news/1100481/nine-mile-metals-hits-7-13-copper-equivalent-over-11-65-metres-at-wedge-1100481.html?.tsrc=rss",
-   "ts": "2026-10-21T13:44:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "b7c3b6ca3e",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "SpaceX stock jumps 8% after earnings beat and Musk hints at Tesla tie-up",
-   "link": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
-   "ts": "2026-10-21T13:35:22Z",
-   "fuente": "CNBC",
-   "id": "8c4e751318",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -10513,14 +10511,14 @@
     4130.8,
     4154.2,
     4122.3,
-    4151.3
+    4151.8
    ],
    [
-    1792612349,
-    4151.5,
-    4151.5,
-    4151.5,
-    4151.5
+    1792612650,
+    4151.7,
+    4151.7,
+    4151.7,
+    4151.7
    ]
   ],
   "nq": [
@@ -11117,14 +11115,14 @@
     29965.75,
     30059.25,
     29885.75,
-    30026.5
+    30033.5
    ],
    [
-    1792612351,
-    30037.5,
-    30037.5,
-    30037.5,
-    30037.5
+    1792612653,
+    30028.75,
+    30028.75,
+    30028.75,
+    30028.75
    ]
   ],
   "vix": [
@@ -11608,15 +11606,15 @@
     1792609200,
     17.11,
     17.42,
-    16.72,
-    16.73
+    16.62,
+    16.62
    ],
    [
-    1792612036,
-    16.72,
-    16.72,
-    16.72,
-    16.72
+    1792612351,
+    16.63,
+    16.63,
+    16.63,
+    16.63
    ]
   ]
  },
@@ -11697,11 +11695,6 @@
   }
  ],
  "noticias_vistas": [
-  "0fdd5d93a4",
-  "aa7100e128",
-  "d2f58f9791",
-  "08013536b5",
-  "176113495d",
   "2fbf2c7e61",
   "06caa9a358",
   "4f955e0bc3",
@@ -12496,7 +12489,12 @@
   "34dfffea26",
   "f2bc0bb050",
   "aed34d0dd7",
-  "6f009c5da2"
+  "6f009c5da2",
+  "1d25f0ee24",
+  "975c77b4dd",
+  "71d20628b9",
+  "80bd921cc4",
+  "c33567bdd6"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
