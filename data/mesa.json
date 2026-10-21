@@ -39,13 +39,13 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4154.1 · NQ 29986.25 · VIX 16.67",
-   "actualizado": "2026-10-21T20:27:40Z"
+   "ultimo_resultado": "Oro 4152.2 · NQ 30000.5 · VIX 16.68",
+   "actualizado": "2026-10-21T20:32:43Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T20:27:40Z",
+   "actualizado": "2026-10-21T20:32:42Z",
    "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4152.2 · NQ 30000.5 · VIX 16.68",
+   "ts": "2026-10-21T20:32:43Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4154.1 · NQ 29986.25 · VIX 16.67",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
    "ts": "2026-10-21T06:32:54Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Fondos en oro: neto +107,089 contratos.",
-   "ts": "2026-10-21T06:32:53Z"
   }
  ],
  "briefs": [
@@ -9048,10 +9048,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4154.1,
-  "nq": 29986.25,
-  "vix": 16.67,
-  "ts": "2026-10-21T20:27:40Z"
+  "oro": 4152.2,
+  "nq": 30000.5,
+  "vix": 16.68,
+  "ts": "2026-10-21T20:32:43Z"
  },
  "noticias": [
   {
@@ -10521,15 +10521,15 @@
     1792612800,
     4152.4,
     4154.2,
-    4151.5,
-    4153.4
+    4151.3,
+    4152.2
    ],
    [
-    1792613853,
-    4154.1,
-    4154.1,
-    4154.1,
-    4154.1
+    1792614159,
+    4152.2,
+    4152.2,
+    4152.2,
+    4152.2
    ]
   ],
   "nq": [
@@ -11133,14 +11133,14 @@
     29998.0,
     30056.5,
     29955.25,
-    29979.0
+    29997.25
    ],
    [
-    1792613859,
-    29982.75,
-    29982.75,
-    29982.75,
-    29982.75
+    1792614162,
+    30000.5,
+    30000.5,
+    30000.5,
+    30000.5
    ]
   ],
   "vix": [
@@ -11632,24 +11632,31 @@
     16.72,
     16.78,
     16.63,
-    16.67
+    16.68
+   ],
+   [
+    1792613700,
+    16.68,
+    16.68,
+    16.68,
+    16.68
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-21T20:12:55Z",
- "ult_4h": 1792613853.1666868,
+ "ult_4h": 1792614763.0614123,
  "estrategia_4h": {
   "oro": {
-   "precio": 4153.2,
-   "atr_4h": 22.21,
+   "precio": 4152.2,
+   "atr_4h": 22.23,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4183.43,
+     "stop": 4183.44,
      "objetivo": 4122.3,
-     "rr": 3.59,
+     "rr": 3.58,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.9,
      "ruptura": "2026-10-19 12:00 UTC"
@@ -11657,11 +11664,11 @@
    ]
   },
   "nq": {
-   "precio": 30020.0,
-   "atr_4h": 205.07,
+   "precio": 30000.5,
+   "atr_4h": 207.32,
    "setups": []
   },
-  "ts": "2026-10-21T20:17:33Z"
+  "ts": "2026-10-21T20:32:43Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
