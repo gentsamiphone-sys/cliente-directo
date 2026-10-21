@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4142.4 · NQ 29858.5 · VIX 17.31",
-   "actualizado": "2026-10-21T05:47:32Z"
+   "ultimo_resultado": "Oro 4136.6 · NQ 29826.5 · VIX 17.31 · 1 noticias nuevas",
+   "actualizado": "2026-10-21T05:52:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T05:47:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-21T05:52:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Samsung, SK Hynix upgrading China plants to make more advanced chips, people say: Reuters"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4136.6 · NQ 29826.5 · VIX 17.31 · 1 noticias nuevas",
+   "ts": "2026-10-21T05:52:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4142.4 · NQ 29858.5 · VIX 17.31",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4167.4 · NQ 29827.5 · VIX 17.65 · 3 noticias nuevas",
    "ts": "2026-10-20T14:47:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4171.9 · NQ 29865.75 · VIX 17.67 · 2 noticias nuevas",
-   "ts": "2026-10-20T14:42:33Z"
   }
  ],
  "briefs": [
@@ -8714,12 +8714,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4142.4,
-  "nq": 29858.5,
+  "oro": 4136.6,
+  "nq": 29826.5,
   "vix": 17.31,
-  "ts": "2026-10-21T05:47:32Z"
+  "ts": "2026-10-21T05:52:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Samsung, SK Hynix upgrading China plants to make more advanced chips, people say: Reuters",
+   "link": "https://www.cnbc.com/2026/10/21/samsung-sk-hynix-upgrading-china-plants-to-make-more-advanced-chips-people-say-reuters.html",
+   "ts": "2026-10-21T05:44:34Z",
+   "fuente": "CNBC",
+   "id": "2c3a407d38",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Oil prices climb as traders assess Middle East developments",
    "link": "https://www.cnbc.com/2026/10/21/oil-price-today-wti-brent-rise-on-middle-east-worries.html",
@@ -9548,19 +9557,6 @@
    "id": "87fd8d5c8c",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Boeing wins FAA approval for 737 Max 10 after years of delays",
-   "link": "https://www.cnbc.com/2026/10/20/boeing-737-max-10-certification.html",
-   "ts": "2026-10-20T19:34:19Z",
-   "fuente": "CNBC",
-   "id": "b02c5401cc",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "Boeing gana la aprobación de la FAA para el 737 Max 10",
-   "efecto": "Impulsa ligeramente al sector aeroespacial en el índice."
   }
  ],
  "eventos_avisados": [
@@ -10058,14 +10054,14 @@
     4132.1,
     4147.7,
     4131.6,
-    4141.8
+    4136.5
    ],
    [
-    1792561049,
-    4142.4,
-    4142.4,
-    4142.4,
-    4142.4
+    1792561351,
+    4136.6,
+    4136.6,
+    4136.6,
+    4136.6
    ]
   ],
   "nq": [
@@ -10549,15 +10545,15 @@
     1792558800,
     29887.5,
     29902.0,
-    29853.0,
-    29856.5
+    29824.0,
+    29835.5
    ],
    [
-    1792561050,
-    29858.5,
-    29858.5,
-    29858.5,
-    29858.5
+    1792561350,
+    29826.5,
+    29826.5,
+    29826.5,
+    29826.5
    ]
   ],
   "vix": [
@@ -11153,7 +11149,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "1dda020a50",
   "fad2dfdcaa",
   "3d94e04af3",
   "d7662008df",
@@ -11952,6 +11947,7 @@
   "79a96ad422",
   "51b4bf1483",
   "950fe0dbaf",
-  "c3c175c310"
+  "c3c175c310",
+  "2c3a407d38"
  ]
 }
