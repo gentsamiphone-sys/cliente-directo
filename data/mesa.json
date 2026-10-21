@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4145.4 · NQ 30033.5 · VIX 16.8 · 2 noticias nuevas",
-   "actualizado": "2026-10-21T19:42:38Z"
+   "ultimo_resultado": "Oro 4147.9 · NQ 30026.75 · VIX 16.76 · 1 noticias nuevas",
+   "actualizado": "2026-10-21T19:47:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T19:42:37Z",
-   "ultimo_resultado": "2 titulares nuevos: Mustang completa estudios geofísicos y anuncia planes de perforación en Nevada"
+   "actualizado": "2026-10-21T19:47:36Z",
+   "ultimo_resultado": "1 titulares nuevos: Almadex Expands Claim Block at New Hope, Provides Exploration Update"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4147.9 · NQ 30026.75 · VIX 16.76 · 1 noticias nuevas",
+   "ts": "2026-10-21T19:47:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4145.4 · NQ 30033.5 · VIX 16.8 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4133.3 · NQ 29839.25 · VIX 17.31 · 2 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-21T06:27:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4132.7 · NQ 29853.5 · VIX 17.31",
-   "ts": "2026-10-21T06:22:32Z"
   }
  ],
  "briefs": [
@@ -9048,10 +9048,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4145.4,
-  "nq": 30033.5,
-  "vix": 16.8,
-  "ts": "2026-10-21T19:42:37Z"
+  "oro": 4147.9,
+  "nq": 30026.75,
+  "vix": 16.76,
+  "ts": "2026-10-21T19:47:37Z"
  },
  "noticias": [
   {
@@ -9071,6 +9071,15 @@
    "ts": "2026-10-21T19:32:55Z",
    "fuente": "CNBC",
    "id": "2e77596b98",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Almadex Expands Claim Block at New Hope, Provides Exploration Update",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/almadex-expands-claim-block-hope-193100169.html?.tsrc=rss",
+   "ts": "2026-10-21T19:31:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "aed34d0dd7",
    "activos": [],
    "impacto": "bajo"
   },
@@ -9895,18 +9904,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Goldman Sachs, JPMorgan and Morgan Stanley are dominating the AI stock boom. Here's their edge",
-   "link": "https://www.cnbc.com/2026/10/21/goldman-sachs-jpmorgan-morgan-stanley-ai-trading.html",
-   "ts": "2026-10-21T13:30:57Z",
-   "fuente": "CNBC",
-   "id": "75a405b237",
-   "activos": [
-    "oro",
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -10514,16 +10511,16 @@
    [
     1792609200,
     4131.0,
-    4147.5,
+    4149.3,
     4122.3,
-    4147.4
+    4147.6
    ],
    [
-    1792611155,
-    4145.4,
-    4145.4,
-    4145.4,
-    4145.4
+    1792611453,
+    4148.3,
+    4148.3,
+    4148.3,
+    4148.3
    ]
   ],
   "nq": [
@@ -11120,14 +11117,14 @@
     29965.0,
     30038.75,
     29885.75,
-    30035.75
+    30023.0
    ],
    [
-    1792611157,
-    30033.0,
-    30033.0,
-    30033.0,
-    30033.0
+    1792611455,
+    30027.0,
+    30027.0,
+    30027.0,
+    30027.0
    ]
   ],
   "vix": [
@@ -11611,41 +11608,41 @@
     1792609200,
     17.11,
     17.42,
-    16.82,
-    16.82
+    16.74,
+    16.75
    ],
    [
-    1792610851,
-    16.8,
-    16.8,
-    16.8,
-    16.8
+    1792611151,
+    16.76,
+    16.76,
+    16.76,
+    16.76
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-21T19:42:36Z",
- "ult_4h": 1792611155.322537,
+ "ult_4h": 1792612057.1128733,
  "estrategia_4h": {
   "oro": {
-   "precio": 4133.6,
-   "atr_4h": 24.28,
+   "precio": 4148.3,
+   "atr_4h": 24.26,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4151.6,
      "entrada": 4151.6,
-     "stop": 4166.17,
+     "stop": 4166.15,
      "objetivo": 4122.3,
      "rr": 2.01,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.9,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 0.89,
      "ruptura": "2026-10-20 04:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4184.67,
+     "stop": 4184.65,
      "objetivo": 4122.3,
      "rr": 3.28,
      "estado": "esperando retesteo",
@@ -11655,11 +11652,11 @@
    ]
   },
   "nq": {
-   "precio": 29979.5,
+   "precio": 30027.0,
    "atr_4h": 223.64,
    "setups": []
   },
-  "ts": "2026-10-21T19:32:35Z"
+  "ts": "2026-10-21T19:47:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -11700,7 +11697,6 @@
   }
  ],
  "noticias_vistas": [
-  "2cc5bfa57d",
   "ddbf002390",
   "0fdd5d93a4",
   "aa7100e128",
@@ -12499,7 +12495,8 @@
   "2e77596b98",
   "4d0b26d050",
   "34dfffea26",
-  "f2bc0bb050"
+  "f2bc0bb050",
+  "aed34d0dd7"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
