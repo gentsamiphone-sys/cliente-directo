@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-20T21:33:00Z",
-   "ultimo_resultado": "Mapa listo: oro 4142.5 · NQ 29893.75."
+   "actualizado": "2026-10-21T01:17:32Z",
+   "ultimo_resultado": "Estrategia 4H ORO: VENTA: esperar retesteo de 4151.6 · stop 4165.12 · objetivo 4124.0 · R:R 2.04 (esperando retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T01:12:33Z",
-   "ultimo_resultado": "1 titulares nuevos: Car buyers are demanding lower prices and better tech. Automakers must deliver both"
+   "actualizado": "2026-10-21T01:17:31Z",
+   "ultimo_resultado": "1 titulares nuevos: Gold Falls Amid Pressure From Rising Crude Prices"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H ORO: VENTA: esperar retesteo de 4151.6 · stop 4165.12 · objetivo 4124.0 · R:R 2.04 (esperando retesteo). Tú ejecutas.",
+   "ts": "2026-10-21T01:17:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4134.3 · NQ 29899.0 · VIX 17.31 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4142.6 · NQ 29535.0 · VIX 18.74",
    "ts": "2026-10-20T11:47:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4142.5 · NQ 29527.75 · VIX 18.66 · 2 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-20T11:42:35Z"
   }
  ],
  "briefs": [
@@ -8714,12 +8714,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4134.3,
-  "nq": 29899.0,
+  "oro": 4127.6,
+  "nq": 29858.5,
   "vix": 17.31,
-  "ts": "2026-10-21T01:12:33Z"
+  "ts": "2026-10-21T01:17:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Gold Falls Amid Pressure From Rising Crude Prices",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOEZTVGxaNldEUzVrM09VSDcwRTJZNzlDV0Myc3hraFlSTWNtdlQ0T1pzMXh5amhPcmNrVGJwSjQ4WUZOcTlMaTU1MzNzZWJKdlM5emV3amJza2lSelR6N05ZMHkzMEVQQmlFU2Rid05ORENaeUlDSHJ2UTZIZktmYjhROFlfRXNwZE5nNFNJNU5uZy03U1o1Y0VEWU0tYXptVDVsWnVGUUJVUQ?oc=5",
+   "ts": "2026-10-21T01:15:00Z",
+   "fuente": "WSJ",
+   "id": "4218e1fcbe",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Elice's huge stock swings show AI's spending boom is getting more investor scrutiny",
    "link": "https://www.cnbc.com/2026/10/21/ai-boom-spending-profit.html",
@@ -9538,15 +9549,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Food importer files lawsuit to block Trump's Canada tariffs",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQLWM3el95RFNfMDZvNUw2ZHhMbDFaSjVZY0lPb29PQnBULVJMMnRzSWJGaTVtYnJYYTRoSVg4d25lb0VqRmQ4VlFpejhHRkF5d041V01LTTVjZkZ5OVptNTlzX2Rxdm5RNV9lYmRBQUEteVVxVXZlSWNrdlBTTkFtZUpXVm9YYUo3SUJBOEZhSkNpU1d3a2J6THVhVW9BMzM3WVViNE40eVJTcFVDYnd0emlHX2JnRi1WQ3dzWTM2RkdUMjA2R2dtMA?oc=5",
-   "ts": "2026-10-20T17:58:00Z",
-   "fuente": "The Detroit News",
-   "id": "761929bde1",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -11327,54 +11329,65 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-21T01:02:34Z",
- "ult_4h": 1792544556.019317,
+ "ult_4h": 1792545451.8754919,
  "estrategia_4h": {
   "oro": {
-   "precio": 4138.9,
-   "atr_4h": 21.64,
+   "precio": 4127.9,
+   "atr_4h": 22.54,
    "setups": [
+    {
+     "direccion": "VENTA",
+     "nivel": 4151.6,
+     "entrada": 4151.6,
+     "stop": 4165.12,
+     "objetivo": 4124.0,
+     "rr": 2.04,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 0.97,
+     "ruptura": "2026-10-20 04:00 UTC"
+    },
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4183.08,
-     "objetivo": 4130.1,
-     "rr": 3.08,
+     "stop": 4183.62,
+     "objetivo": 4124.0,
+     "rr": 3.41,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.92,
+     "fuerza_ruptura_atr": 0.88,
      "ruptura": "2026-10-19 12:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29956.5,
-   "atr_4h": 208.88,
+   "precio": 29858.5,
+   "atr_4h": 210.11,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30356.75,
      "entrada": 30356.75,
-     "stop": 30482.08,
+     "stop": 30482.81,
      "objetivo": 29268.75,
-     "rr": 8.68,
+     "rr": 8.63,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.07,
+     "fuerza_ruptura_atr": 2.05,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 30504.5,
-     "entrada": 30504.5,
-     "stop": 30629.83,
+     "nivel": 30372.25,
+     "entrada": 30372.25,
+     "stop": 30498.31,
      "objetivo": 29268.75,
-     "rr": 9.86,
+     "rr": 8.75,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.07,
+     "fuerza_ruptura_atr": 2.05,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-21T01:02:36Z"
+  "ts": "2026-10-21T01:17:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -11402,11 +11415,11 @@
   "nq|VENTA|29622.5|esperando retesteo",
   "nq|VENTA|29622.5|en retesteo",
   "oro|VENTA|4170.1|esperando retesteo",
-  "oro|VENTA|4170.1|en retesteo"
+  "oro|VENTA|4170.1|en retesteo",
+  "oro|VENTA|4151.6|esperando retesteo"
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "77a7a0e39f",
   "02758c9752",
   "a806c8d9b0",
   "fef6044899",
@@ -12205,6 +12218,7 @@
   "afd642681d",
   "26fd51f742",
   "064028bbf8",
-  "ad2ec00e01"
+  "ad2ec00e01",
+  "4218e1fcbe"
  ]
 }
