@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4155.7 · NQ 29869.25 · VIX 17.0",
-   "actualizado": "2026-10-21T13:27:33Z"
+   "ultimo_resultado": "Oro 4157.2 · NQ 29876.25 · VIX 16.95 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-21T13:32:51Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T13:27:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-21T13:32:49Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Cómo ahorrar en hoteles y vuelos para la temporada navideña más cara en 10 años"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4157.2 · NQ 29876.25 · VIX 16.95 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-21T13:32:51Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4155.7 · NQ 29869.25 · VIX 17.0",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4136.1 · NQ 29890.25 · VIX 17.31",
    "ts": "2026-10-21T00:17:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4131.6 · NQ 29866.75 · VIX 17.31",
-   "ts": "2026-10-21T00:12:34Z"
   }
  ],
  "briefs": [
@@ -9048,12 +9048,38 @@
   }
  },
  "en_vivo": {
-  "oro": 4155.7,
-  "nq": 29869.25,
-  "vix": 17.0,
-  "ts": "2026-10-21T13:27:32Z"
+  "oro": 4157.2,
+  "nq": 29876.25,
+  "vix": 16.95,
+  "ts": "2026-10-21T13:32:50Z"
  },
  "noticias": [
+  {
+   "titulo": "How to save on hotels and flights ahead of the most expensive holiday travel season in 10 years",
+   "link": "https://www.cnbc.com/select/how-to-save-money-on-2026-holiday-travel/",
+   "ts": "2026-10-21T13:28:36Z",
+   "fuente": "CNBC",
+   "id": "56e8254c43",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Cómo ahorrar en hoteles y vuelos para la temporada navideña más cara en 10 años",
+   "efecto": ""
+  },
+  {
+   "titulo": "Brookings paper offers broad plan to shrink Fed balance sheet",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOWJYd0NERVlESGhjUzBFQm1tQkdDMVZtbnZxXzByQkxIS29abXpTRXZqYXhyamV2b19FbUpCR2RoWW9aUGVvenh5Q20tVWpWQzhRYnQzTk1iaEtQZWxPTnJUZU5kUHR2NUxvMHlLS1JRR0g2dFktUEhCbDVvTGRUU2YybEk5SzFYRjRpZjFqUVhKQ0JQaElseUI2QjhGMmY1R3d1NGZxcmYwMVlyQ1dvWQ?oc=5",
+   "ts": "2026-10-21T13:17:43Z",
+   "fuente": "Reuters",
+   "id": "6e9ba9d661",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Un documento de Brookings ofrece un plan amplio para reducir el balance de la Fed",
+   "efecto": "Reduce liquidez, presiona al alza las tasas y debilita renta variable y oro."
+  },
   {
    "titulo": "Our top 10 things to watch in the stock market Wednesday",
    "link": "https://www.cnbc.com/investingclub/2026/10/21/our-top-10-things-to-watch-in-the-stock-market-wednesday.html",
@@ -9924,28 +9950,6 @@
    "id": "334fe05911",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "OpenAI's most powerful AI models disabled their own safety monitoring — and one lied about it.",
-   "link": "https://www.cnbc.com/2026/10/21/openai-ai-models-safety-monitoring.html",
-   "ts": "2026-10-21T07:03:48Z",
-   "fuente": "CNBC",
-   "id": "f1eb41675d",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "'MAKE DEALS': Trump says data centers should pay communities a 'dividend' to win support",
-   "link": "https://www.cnbc.com/2026/10/21/trump-data-centers-community-dividend.html",
-   "ts": "2026-10-21T06:52:28Z",
-   "fuente": "CNBC",
-   "id": "9cd039db37",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "Trump dice que los centros de datos deben pagar un 'dividendo' a las comunidades",
-   "efecto": "Ruido regulatorio menor para tecnológicas, sin impacto institucional inmediato."
   }
  ],
  "eventos_avisados": [
@@ -10511,16 +10515,16 @@
    [
     1792587600,
     4148.1,
-    4158.8,
+    4159.2,
     4148.0,
-    4155.7
+    4157.2
    ],
    [
-    1792588652,
-    4155.9,
-    4155.9,
-    4155.9,
-    4155.9
+    1792588970,
+    4157.2,
+    4157.2,
+    4157.2,
+    4157.2
    ]
   ],
   "nq": [
@@ -11075,14 +11079,14 @@
     29858.0,
     29887.25,
     29846.5,
-    29866.0
+    29877.0
    ],
    [
-    1792588650,
-    29869.25,
-    29869.25,
-    29869.25,
-    29869.25
+    1792588969,
+    29875.75,
+    29875.75,
+    29875.75,
+    29875.75
    ]
   ],
   "vix": [
@@ -11524,44 +11528,44 @@
     1792587600,
     17.1,
     17.15,
-    17.07,
-    17.14
+    16.95,
+    16.95
    ],
    [
-    1792588351,
-    16.99,
-    16.99,
-    16.99,
-    16.99
+    1792588666,
+    16.95,
+    16.95,
+    16.95,
+    16.95
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-21T12:52:32Z",
- "ult_4h": 1792588655.8415563,
+ "noticias_traducidas_ts": "2026-10-21T13:32:35Z",
+ "ult_4h": 1792589570.2835927,
  "estrategia_4h": {
   "oro": {
-   "precio": 4155.9,
-   "atr_4h": 22.72,
+   "precio": 4157.2,
+   "atr_4h": 22.74,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4183.73,
+     "stop": 4183.75,
      "objetivo": 4124.0,
      "rr": 3.38,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.88,
+     "fuerza_ruptura_atr": 0.87,
      "ruptura": "2026-10-19 12:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29873.75,
+   "precio": 29875.75,
    "atr_4h": 198.62,
    "setups": []
   },
-  "ts": "2026-10-21T13:17:36Z"
+  "ts": "2026-10-21T13:32:50Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -11602,8 +11606,6 @@
   }
  ],
  "noticias_vistas": [
-  "caba13bf8b",
-  "3547b4a897",
   "b391ba9dd6",
   "9ba1aa9f87",
   "635f223fb0",
@@ -12401,7 +12403,9 @@
   "3b6f89b13d",
   "ce2bebdedb",
   "4615bcfd0e",
-  "e54c66fd37"
+  "e54c66fd37",
+  "56e8254c43",
+  "6e9ba9d661"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
