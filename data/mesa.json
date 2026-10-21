@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4138.8 · NQ 29759.0 · VIX 17.47",
-   "actualizado": "2026-10-21T09:17:34Z"
+   "ultimo_resultado": "Oro 4139.4 · NQ 29762.75 · VIX 17.45 · 4 noticias nuevas",
+   "actualizado": "2026-10-21T09:22:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T09:17:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-21T09:22:32Z",
+   "ultimo_resultado": "4 titulares nuevos: French 10-year bond yield hits 5% for first time since 2002 amid unrest"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4139.4 · NQ 29762.75 · VIX 17.45 · 4 noticias nuevas",
+   "ts": "2026-10-21T09:22:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4138.8 · NQ 29759.0 · VIX 17.47",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4141.0 · NQ 29693.5 · VIX 17.47 · 2 noticias nuevas",
    "ts": "2026-10-20T20:02:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4141.3 · NQ 29692.75 · VIX 17.57 · 1 noticias nuevas",
-   "ts": "2026-10-20T19:57:33Z"
   }
  ],
  "briefs": [
@@ -8867,12 +8867,34 @@
   }
  },
  "en_vivo": {
-  "oro": 4138.8,
-  "nq": 29759.0,
-  "vix": 17.47,
-  "ts": "2026-10-21T09:17:33Z"
+  "oro": 4139.4,
+  "nq": 29762.75,
+  "vix": 17.45,
+  "ts": "2026-10-21T09:22:32Z"
  },
  "noticias": [
+  {
+   "titulo": "French 10-year bond yield hits 5% for first time since 2002 amid unrest",
+   "link": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html",
+   "ts": "2026-10-21T09:20:37Z",
+   "fuente": "CNBC",
+   "id": "fa08d5c1d3",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Serabi Gold shares fall 16% as permitting delays force a cut to 2026 production guidance",
+   "link": "https://www.proactiveinvestors.com/companies/news/1100459/serabi-gold-shares-fall-16-as-permitting-delays-force-a-cut-to-2026-production-guidance-1100459.html?.tsrc=rss",
+   "ts": "2026-10-21T09:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "64f3b96d73",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Kingfisher Completes 2026 Drill Program at HWY 37 Project with 13,551 m Drilled, Golden Triangle",
    "link": "https://finance.yahoo.com/markets/commodities/articles/kingfisher-completes-2026-drill-program-090000328.html?.tsrc=rss",
@@ -8905,6 +8927,17 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "2 Nasdaq-100 Stocks to Buy Before They Soar 105% and 130%, According to Wall Street",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaU8tR1dlNzZXWkFuUTZzN3ZBRzBiUU9FVDZBNFBJdi03MU9lbFk5SHpsSFBNM3VEYzVuVURjUTVVSkVzdm5IYjlIYmVfdDVQdFVObUtBT2JEbU9YLUtLWXp5NlprN25vdUNVMERWTnVNR1I0WklHOGRQdTlxMjJYajdqSDNqa1V4RzZqOE1nNG9DeU8xa0xoNkoybFoxdw?oc=5",
+   "ts": "2026-10-21T08:53:30Z",
+   "fuente": "The Motley Fool",
+   "id": "7be9922fd5",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Nasdaq Futures Higher After Asian AI Rally",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSmEtOENDbk1wMmlSbkM0MHdhdTNrM245Y09fcWJYZHlVVWJZakV1cVFVRjhXMThHb0lHTHU5dE5RVEdYdHpZTS13UVk2MWlZWjB3czlQTFd5MVp1QlJ6QWthV2tlc3pmVTlKQU9FYmtQVklNYk1STzR3TTg4Qk94Y0hIeGFoSTVxOUJ2YWVUcw?oc=5",
    "ts": "2026-10-21T08:43:00Z",
@@ -8916,6 +8949,17 @@
    "impacto": "alto",
    "es": "Futuros del Nasdaq al alza tras rally de IA en Asia",
    "efecto": "Impulsa al Nasdaq al alza por apetito tecnológico."
+  },
+  {
+   "titulo": "Nasdaq Futures Rise Premarket As SpaceX AI Boom Lifts Chip Stocks: SMCI, TSLA, META, IBM, CRWV, NFLX, BE In Focus",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbnUwRElSUTlnMGw0SWlCbEpiSnJCSU1vSzVCRlFZa0J2eFFIWGNuWlJlaGN6SmthX2ZyZlE3U2xsbkh2WW9Lek44NkgyeFpOUXd4RDUtSWI3R1M4cXNGY1JPbXpPNm5MalRKOW9PbTg3ME45SFAyTTl2MlFwQ1k3c3VQV2gxYWUtYVktdTJSdTB2dEp4UzRXTzlPQ0RTTjNPYXZz?oc=5",
+   "ts": "2026-10-21T08:41:06Z",
+   "fuente": "Yahoo Finance",
+   "id": "579990acc2",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "SpaceX up 10% in premarket after earnings beat and Musk hints at Tesla tie-up",
@@ -9696,48 +9740,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Men’s Soccer Enters Home Stretch with All-Blue-and-Gold Action",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY1lQNGM2WFZvYUlGazZVbkNTb2FfTG5rSWRmLWMyZTZobjZUM0twdnJBbWpERzc5a3Rxd1RHaTNLZGZaSEFsX2xGcFNOdkpiMHBkbXJ5VHBsVzdaTGd6MFR4NTdZcGNFQ2ZSSEpjYXpRSHAzUG9HalRQNlp1cGJYVkM5VkxoSGNQaVZEbHl4cUh1NG14c1NGMWFMRE1OcVpFUWxRclZyRW1WZw?oc=5",
-   "ts": "2026-10-20T21:12:34Z",
-   "fuente": "ucsbgauchos.com",
-   "id": "b2de16da4a",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Men’s Soccer Enters Home Stretch with All-Blue-and-Gold Action - University of California, Santa Barbara",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY1lQNGM2WFZvYUlGazZVbkNTb2FfTG5rSWRmLWMyZTZobjZUM0twdnJBbWpERzc5a3Rxd1RHaTNLZGZaSEFsX2xGcFNOdkpiMHBkbXJ5VHBsVzdaTGd6MFR4NTdZcGNFQ2ZSSEpjYXpRSHAzUG9HalRQNlp1cGJYVkM5VkxoSGNQaVZEbHl4cUh1NG14c1NGMWFMRE1OcVpFUWxRclZyRW1WZw?oc=5",
-   "ts": "2026-10-20T21:11:55Z",
-   "fuente": "UC Santa Barbara",
-   "id": "f999f4482b",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Japan claims men’s team gold in dramatic World Championships final in Rotterdam",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM0hlNEJDTXU5anNXQV80aTl5c0xlcDRhdmd3czMtazlaQVJzaTh6eDhuUXg1SjNWSjNweEhfVk8wODd3M3hNZUtxaU4xOFREZXlaTGtJUTd1dmhxX19YMDlTUGtBc1lxcHRucFlmT3FiMVlsYXh4WXB5QUNWNTFuZkc0U3ZuNENteGZqU0ZxaVlfM1hLQmZsOHE3d2t0dGNvWUF2S09iUFRxOXpPNGMyRUlR?oc=5",
-   "ts": "2026-10-20T21:10:28Z",
-   "fuente": "International Gymnast Magazine Online",
-   "id": "3201e14a71",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Food Importer Sues Trump for Using 'Relic' to Impose Canada Tariffs",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb29HYU9nTlpDS0txM3BiOWt2TUxKVmxucVNpbUpxQ19yVEhXRjNUdkEwTHdheXpTaHV4Zk9tamJrc2lOdXhaMlZ4SFJJa3Q3TFhrQ08wRXVGMHdzc2ZUbTF1X1RCd3pIWUxabmstVmhOWFVBMFAweFlNekVJeDE0czJEdzdxbU9Pazhad0FpVzJmVDk1TG1kNnppaXdyT0xkbXlSNnlEMEYwZURvVmRzUko0VG0zUQ?oc=5",
-   "ts": "2026-10-20T21:06:52Z",
-   "fuente": "Law.com",
-   "id": "ac18100865",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -10277,14 +10279,14 @@
     4137.6,
     4140.8,
     4136.6,
-    4138.6
+    4139.8
    ],
    [
-    1792573649,
-    4138.8,
-    4138.8,
-    4138.8,
-    4138.8
+    1792573932,
+    4139.4,
+    4139.4,
+    4139.4,
+    4139.4
    ]
   ],
   "nq": [
@@ -10809,16 +10811,16 @@
    [
     1792573200,
     29743.75,
-    29771.75,
+    29778.5,
     29731.75,
-    29757.25
+    29766.25
    ],
    [
-    1792573651,
-    29759.0,
-    29759.0,
-    29759.0,
-    29759.0
+    1792573945,
+    29762.75,
+    29762.75,
+    29762.75,
+    29762.75
    ]
   ],
   "vix": [
@@ -11232,15 +11234,15 @@
     1792573200,
     17.47,
     17.49,
-    17.47,
-    17.48
+    17.44,
+    17.45
    ],
    [
-    1792573351,
-    17.47,
-    17.47,
-    17.47,
-    17.47
+    1792573651,
+    17.45,
+    17.45,
+    17.45,
+    17.45
    ]
   ]
  },
@@ -11314,10 +11316,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "ba12d552e6",
-  "4deeae612c",
-  "8024d9fe2c",
-  "300c35e8b4",
   "b53dbce3c3",
   "8d133948ba",
   "1646f65a37",
@@ -12113,6 +12111,10 @@
   "e2c09d973e",
   "e55e92e6d3",
   "4d69ee6958",
-  "df0ff02d12"
+  "df0ff02d12",
+  "fa08d5c1d3",
+  "64f3b96d73",
+  "7be9922fd5",
+  "579990acc2"
  ]
 }
