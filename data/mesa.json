@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4153.4 · NQ 30028.0 · VIX 16.65 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-21T20:12:58Z"
+   "ultimo_resultado": "Oro 4153.2 · NQ 30020.25 · VIX 16.72 · 1 noticias nuevas",
+   "actualizado": "2026-10-21T20:17:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T20:12:56Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Tesla supera expectativas de beneficios e ingresos"
+   "actualizado": "2026-10-21T20:17:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Tesla beats on earnings and sales even as auto revenue declines"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4153.2 · NQ 30020.25 · VIX 16.72 · 1 noticias nuevas",
+   "ts": "2026-10-21T20:17:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4153.4 · NQ 30028.0 · VIX 16.65 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "DXY 0.08% · 10Y 5.117 · VIX 17.31 · 0 eventos USD en el radar.",
    "ts": "2026-10-21T06:32:51Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
-   "ts": "2026-10-21T06:32:49Z"
   }
  ],
  "briefs": [
@@ -9048,12 +9048,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4153.4,
-  "nq": 30028.0,
-  "vix": 16.65,
-  "ts": "2026-10-21T20:12:57Z"
+  "oro": 4153.2,
+  "nq": 30020.25,
+  "vix": 16.72,
+  "ts": "2026-10-21T20:17:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Tesla beats on earnings and sales even as auto revenue declines",
+   "link": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
+   "ts": "2026-10-21T20:16:00Z",
+   "fuente": "CNBC",
+   "id": "7517c215cd",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Tesla beats on earnings and revenue",
    "link": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
@@ -9895,17 +9906,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Stocks Higher as SpaceX Hints at Tesla Deal Talks",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSmEtOENDbk1wMmlSbkM0MHdhdTNrM245Y09fcWJYZHlVVWJZakV1cVFVRjhXMThHb0lHTHU5dE5RVEdYdHpZTS13UVk2MWlZWjB3czlQTFd5MVp1QlJ6QWthV2tlc3pmVTlKQU9FYmtQVklNYk1STzR3TTg4Qk94Y0hIeGFoSTVxOUJ2YWVUcw?oc=5",
-   "ts": "2026-10-21T14:10:00Z",
-   "fuente": "WSJ",
-   "id": "826494e1c2",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -10521,15 +10521,15 @@
     1792612800,
     4152.4,
     4154.2,
-    4152.0,
+    4151.5,
     4153.4
    ],
    [
-    1792612973,
-    4153.4,
-    4153.4,
-    4153.4,
-    4153.4
+    1792613247,
+    4153.2,
+    4153.2,
+    4153.2,
+    4153.2
    ]
   ],
   "nq": [
@@ -11131,16 +11131,16 @@
    [
     1792612800,
     29998.0,
-    30044.75,
-    29992.0,
-    30030.0
+    30056.5,
+    29986.75,
+    30022.5
    ],
    [
-    1792612976,
-    30028.0,
-    30028.0,
-    30028.0,
-    30028.0
+    1792613252,
+    30020.0,
+    30020.0,
+    30020.0,
+    30020.0
    ]
   ],
   "vix": [
@@ -11625,54 +11625,43 @@
     17.11,
     17.42,
     16.62,
-    16.63
+    16.69
    ],
    [
-    1792612666,
-    16.65,
-    16.65,
-    16.65,
-    16.65
+    1792612800,
+    16.72,
+    16.78,
+    16.72,
+    16.72
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-21T20:12:55Z",
- "ult_4h": 1792612952.4286544,
+ "ult_4h": 1792613853.1666868,
  "estrategia_4h": {
   "oro": {
-   "precio": 4151.5,
-   "atr_4h": 24.28,
+   "precio": 4153.2,
+   "atr_4h": 22.21,
    "setups": [
-    {
-     "direccion": "VENTA",
-     "nivel": 4151.6,
-     "entrada": 4151.6,
-     "stop": 4166.17,
-     "objetivo": 4122.3,
-     "rr": 2.01,
-     "estado": "en retesteo",
-     "fuerza_ruptura_atr": 0.9,
-     "ruptura": "2026-10-20 04:00 UTC"
-    },
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4184.67,
+     "stop": 4183.43,
      "objetivo": 4122.3,
-     "rr": 3.28,
+     "rr": 3.59,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.82,
+     "fuerza_ruptura_atr": 0.9,
      "ruptura": "2026-10-19 12:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 30037.5,
-   "atr_4h": 223.64,
+   "precio": 30020.0,
+   "atr_4h": 205.07,
    "setups": []
   },
-  "ts": "2026-10-21T20:02:32Z"
+  "ts": "2026-10-21T20:17:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -11713,7 +11702,6 @@
   }
  ],
  "noticias_vistas": [
-  "4f955e0bc3",
   "2fc42551cb",
   "2891431cf6",
   "880058c3eb",
@@ -12512,7 +12500,8 @@
   "80bd921cc4",
   "c33567bdd6",
   "6cd814026f",
-  "bbbab476e1"
+  "bbbab476e1",
+  "7517c215cd"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
