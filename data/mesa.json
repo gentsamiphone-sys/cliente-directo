@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4138.9 · NQ 30000.5 · VIX 17.31",
-   "actualizado": "2026-10-21T02:07:30Z"
+   "ultimo_resultado": "Oro 4137.1 · NQ 29984.75 · VIX 17.31 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-21T02:12:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T02:07:30Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-21T02:12:35Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: El oro cae cerca de $4,110 al desvanecerse esperanzas de paz en Irán y nublarse perspectiva de tasas de la Fed"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4137.1 · NQ 29984.75 · VIX 17.31 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-21T02:12:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4138.9 · NQ 30000.5 · VIX 17.31",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Historial: 11 operaciones, 27% de acierto, +7.08 R.",
    "ts": "2026-10-20T12:32:51Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Revisando cómo salieron las entradas anteriores…",
-   "ts": "2026-10-20T12:32:50Z"
   }
  ],
  "briefs": [
@@ -8714,12 +8714,26 @@
   }
  },
  "en_vivo": {
-  "oro": 4138.9,
-  "nq": 30000.5,
+  "oro": 4137.1,
+  "nq": 29984.75,
   "vix": 17.31,
-  "ts": "2026-10-21T02:07:30Z"
+  "ts": "2026-10-21T02:12:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Gold falls near $4,110 as Iran peace hopes fade, Fed rate outlook clouds demand",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-near-4-110-015830474.html?.tsrc=rss",
+   "ts": "2026-10-21T01:58:30Z",
+   "fuente": "Yahoo Finance",
+   "id": "6a0ef0ea1a",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El oro cae cerca de $4,110 al desvanecerse esperanzas de paz en Irán y nublarse perspectiva de tasas de la Fed",
+   "efecto": "Presiona al oro a la baja por fortaleza del dólar y tasas altas"
+  },
   {
    "titulo": "Australian data center operator NextDC's shares plunge 40% after it slashes earnings forecast",
    "link": "https://www.cnbc.com/2026/10/21/australia-data-center-operator-nexdc-datacenter.html",
@@ -9548,15 +9562,6 @@
    "id": "d379d26773",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "What Do Donald Trump’s Tariffs Mean For Michigan? Plus, The Israeli Election : 1A",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUS1IWjJzZUJLZi0wQjFCenQ5c09FMURxUm5OQ3ZucjFuZW5IZEJVNWI0SkZUc2lnQWFNMl85Mm1ENDQ2V2s5RTgyemF5aDJ3YnJ1ejNjMFVDSllQZHRpNFdLYmJxRHo3SUs0akM0V0JiaW5KdFAzV3dPQjIyVTM1ZWNuWWFnYzFJdkNJaXI2U1VYN2g2WjJrdTRPMy01cWw1N3J0QXRvTlhDdjFEaGlsb1hGT2JKdlBYamFybA?oc=5",
-   "ts": "2026-10-20T18:27:55Z",
-   "fuente": "NPR",
-   "id": "3ca7d89e25",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -10194,14 +10199,14 @@
     4135.3,
     4142.6,
     4124.0,
-    4138.2
+    4137.4
    ],
    [
-    1792547849,
-    4139.3,
-    4139.3,
-    4139.3,
-    4139.3
+    1792547963,
+    4137.1,
+    4137.1,
+    4137.1,
+    4137.1
    ]
   ],
   "nq": [
@@ -10826,14 +10831,14 @@
     29913.75,
     30002.0,
     29845.75,
-    29992.5
+    29979.75
    ],
    [
-    1792547849,
-    30000.5,
-    30000.5,
-    30000.5,
-    30000.5
+    1792547962,
+    29984.75,
+    29984.75,
+    29984.75,
+    29984.75
    ]
   ],
   "vix": [
@@ -11336,7 +11341,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-21T01:37:33Z",
+ "noticias_traducidas_ts": "2026-10-21T02:12:33Z",
  "ult_4h": 1792548152.1422305,
  "estrategia_4h": {
   "oro": {
@@ -11429,7 +11434,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "a701214d7f",
   "ba932b41b7",
   "b31fae1185",
   "266d7a0bed",
@@ -12228,6 +12232,7 @@
   "664e69242f",
   "e23456e41e",
   "f827d520d6",
-  "7f154ebbbf"
+  "7f154ebbbf",
+  "6a0ef0ea1a"
  ]
 }
