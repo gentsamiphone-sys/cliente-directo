@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4147.9 · NQ 29843.75 · VIX 17.37",
-   "actualizado": "2026-10-21T11:32:33Z"
+   "ultimo_resultado": "Oro 4150.0 · NQ 29868.25 · VIX 17.34 · 3 noticias nuevas",
+   "actualizado": "2026-10-21T11:37:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T11:32:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-21T11:37:31Z",
+   "ultimo_resultado": "3 titulares nuevos: Gemdale Gold Completes Phase 2 2026 Drill Program at its Pontio Gold Project, Finland"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4150.0 · NQ 29868.25 · VIX 17.34 · 3 noticias nuevas",
+   "ts": "2026-10-21T11:37:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4147.9 · NQ 29843.75 · VIX 17.37",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Mapa listo: oro 4142.5 · NQ 29893.75.",
    "ts": "2026-10-20T21:33:00Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
-   "ts": "2026-10-20T21:32:57Z"
   }
  ],
  "briefs": [
@@ -8867,10 +8867,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4147.9,
-  "nq": 29843.75,
-  "vix": 17.37,
-  "ts": "2026-10-21T11:32:33Z"
+  "oro": 4150.0,
+  "nq": 29868.25,
+  "vix": 17.34,
+  "ts": "2026-10-21T11:37:31Z"
  },
  "noticias": [
   {
@@ -8879,6 +8879,26 @@
    "ts": "2026-10-21T11:18:01Z",
    "fuente": "CNBC",
    "id": "ab8bfd2aeb",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Gemdale Gold Completes Phase 2 2026 Drill Program at its Pontio Gold Project, Finland",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gemdale-gold-completes-phase-2-111500392.html?.tsrc=rss",
+   "ts": "2026-10-21T11:15:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "78966f1884",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Coppernico Announces Upcoming Investor Conference Schedule Ahead of Phase 2 Drilling at Sombrero",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/coppernico-announces-upcoming-investor-conference-111500182.html?.tsrc=rss",
+   "ts": "2026-10-21T11:15:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "61e5bd87c8",
    "activos": [],
    "impacto": "bajo"
   },
@@ -9073,6 +9093,17 @@
    "id": "e27c4a8bbe",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "YouTube Gold: The Greatness Of Allen Iverson",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTEZmYmRZZmFSS3pkTy1kYWVxUEFMUTZjY0x5THlCYU9vcHlic2c1dHNuQ0IzbTBLczZtZGF5a09iaW5LaE85SVRpZzZZSlYtYzJUSnpkRVdnaWp4N29yV0dydHVybXhXd3YtbVVlN3RySFdabUROY19hem4tWld6Zl80YjE2UWVoQWxLbUZR?oc=5",
+   "ts": "2026-10-21T10:00:00Z",
+   "fuente": "Yahoo Sports",
+   "id": "9244d5e6aa",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Stock market today: S&P 500, Nasdaq futures rise as earnings roll in, SpaceX stock surges",
@@ -9731,45 +9762,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Gold falls near $4,120 as Iran peace uncertainty, Fed rate risks weigh",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-near-4-110-015830474.html?.tsrc=rss",
-   "ts": "2026-10-21T01:58:30Z",
-   "fuente": "Yahoo Finance",
-   "id": "e1a2ebec84",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Gold falls near $4,110 as Iran peace hopes fade, Fed rate outlook clouds demand",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-near-4-110-015830474.html?.tsrc=rss",
-   "ts": "2026-10-21T01:58:30Z",
-   "fuente": "Yahoo Finance",
-   "id": "6a0ef0ea1a",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El oro cae cerca de $4,110 al desvanecerse esperanzas de paz en Irán y nublarse perspectiva de tasas de la Fed",
-   "efecto": "Presiona al oro a la baja por fortaleza del dólar y tasas altas"
-  },
-  {
-   "titulo": "A New Jersey food importer files a lawsuit challenging Trump's 50% tariffs on Canadian goods",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdm9ydnB5RnRkZ1BRQnpOb3RyVkk0dnM2cFBDSzN5alZRdHVEZXdTanFfZXNlZlRRNG9jZllrYllsRi1zd0QyWGhqalZRb2FSQUpYdThoQzlwelR0eFpNLWdnZkRzSUN2bWRkRnFPMHl0WjQzLXhBT2JidUNaS1pWeDhDMlF3WmlsUG5HTzE0RWVIRUxXVzNZY2NtQ0FQNS1MUHRNZmV0dWtGSkM0OS1odHZhaEdsOWZQYm1GNWRzOFJiZHREZmc?oc=5",
-   "ts": "2026-10-21T01:54:31Z",
-   "fuente": "The Washington Post",
-   "id": "10ee5f39fc",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "Importador de Nueva Jersey demanda aranceles de Trump a Canadá",
-   "efecto": "Ruido legal menor sobre comercio, impacto institucional limitado."
   }
  ],
  "eventos_avisados": [
@@ -10321,16 +10313,16 @@
    [
     1792580400,
     4145.2,
-    4149.8,
+    4150.7,
     4143.7,
-    4148.9
+    4149.8
    ],
    [
-    1792581745,
-    4147.9,
-    4147.9,
-    4147.9,
-    4147.9
+    1792582048,
+    4150.0,
+    4150.0,
+    4150.0,
+    4150.0
    ]
   ],
   "nq": [
@@ -10869,16 +10861,16 @@
    [
     1792580400,
     29821.5,
-    29873.0,
+    29874.25,
     29819.25,
-    29845.0
+    29871.5
    ],
    [
-    1792581749,
-    29843.75,
-    29843.75,
-    29843.75,
-    29843.75
+    1792582048,
+    29868.25,
+    29868.25,
+    29868.25,
+    29868.25
    ]
   ],
   "vix": [
@@ -11307,14 +11299,14 @@
     17.38,
     17.38,
     17.34,
-    17.37
+    17.34
    ],
    [
-    1792581451,
-    17.37,
-    17.37,
-    17.37,
-    17.37
+    1792581736,
+    17.34,
+    17.34,
+    17.34,
+    17.34
    ]
   ]
  },
@@ -11377,9 +11369,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "8abd569261",
-  "fde24a1a0f",
-  "10fc4052c2",
   "455b750684",
   "a0bb7ecc06",
   "6507f9af43",
@@ -12176,6 +12165,9 @@
   "095985d9ee",
   "c9f7407b36",
   "ab8bfd2aeb",
-  "4caf9d1fa0"
+  "4caf9d1fa0",
+  "78966f1884",
+  "61e5bd87c8",
+  "9244d5e6aa"
  ]
 }
