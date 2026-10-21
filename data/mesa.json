@@ -39,13 +39,13 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4138.7 · NQ 29903.0 · VIX 17.31",
-   "actualizado": "2026-10-21T04:42:31Z"
+   "ultimo_resultado": "Oro 4134.1 · NQ 29898.25 · VIX 17.31",
+   "actualizado": "2026-10-21T04:47:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T04:42:31Z",
+   "actualizado": "2026-10-21T04:47:31Z",
    "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4134.1 · NQ 29898.25 · VIX 17.31",
+   "ts": "2026-10-21T04:47:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4138.7 · NQ 29903.0 · VIX 17.31",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4136.4 · NQ 29536.5 · VIX 18.65 · 1 noticias nuevas",
    "ts": "2026-10-20T13:42:40Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4139.1 · NQ 29605.25 · VIX 18.63 · 1 noticias nuevas",
-   "ts": "2026-10-20T13:37:37Z"
   }
  ],
  "briefs": [
@@ -8714,10 +8714,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4138.7,
-  "nq": 29903.0,
+  "oro": 4134.1,
+  "nq": 29898.25,
   "vix": 17.31,
-  "ts": "2026-10-21T04:42:31Z"
+  "ts": "2026-10-21T04:47:32Z"
  },
  "noticias": [
   {
@@ -10042,14 +10042,14 @@
     4135.4,
     4144.5,
     4132.5,
-    4137.4
+    4134.4
    ],
    [
-    1792557146,
-    4138.7,
-    4138.7,
-    4138.7,
-    4138.7
+    1792557448,
+    4134.8,
+    4134.8,
+    4134.8,
+    4134.8
    ]
   ],
   "nq": [
@@ -10540,15 +10540,15 @@
     1792555200,
     29909.25,
     29918.25,
-    29889.5,
-    29899.25
+    29884.75,
+    29896.75
    ],
    [
-    1792557148,
-    29903.0,
-    29903.0,
-    29903.0,
-    29903.0
+    1792557451,
+    29898.25,
+    29898.25,
+    29898.25,
+    29898.25
    ]
   ],
   "vix": [
@@ -11052,65 +11052,54 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-21T04:27:29Z",
- "ult_4h": 1792557152.1732278,
+ "ult_4h": 1792558052.2334938,
  "estrategia_4h": {
   "oro": {
-   "precio": 4143.6,
-   "atr_4h": 21.54,
+   "precio": 4134.8,
+   "atr_4h": 21.01,
    "setups": [
-    {
-     "direccion": "VENTA",
-     "nivel": 4151.6,
-     "entrada": 4151.6,
-     "stop": 4164.52,
-     "objetivo": 4124.0,
-     "rr": 2.14,
-     "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.01,
-     "ruptura": "2026-10-20 04:00 UTC"
-    },
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4183.02,
-     "objetivo": 4124.0,
-     "rr": 3.57,
+     "stop": 4182.71,
+     "objetivo": 4130.1,
+     "rr": 3.17,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.92,
+     "fuerza_ruptura_atr": 0.94,
      "ruptura": "2026-10-19 12:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29911.5,
-   "atr_4h": 196.11,
+   "precio": 29898.25,
+   "atr_4h": 196.96,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 30356.75,
      "entrada": 30356.75,
-     "stop": 30474.41,
+     "stop": 30474.93,
      "objetivo": 29268.75,
-     "rr": 9.25,
+     "rr": 9.21,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.2,
+     "fuerza_ruptura_atr": 2.19,
      "ruptura": "2026-10-14 12:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 30504.5,
      "entrada": 30504.5,
-     "stop": 30622.16,
+     "stop": 30622.68,
      "objetivo": 29268.75,
-     "rr": 10.5,
+     "rr": 10.46,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.2,
+     "fuerza_ruptura_atr": 2.19,
      "ruptura": "2026-10-14 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-21T04:32:32Z"
+  "ts": "2026-10-21T04:47:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
