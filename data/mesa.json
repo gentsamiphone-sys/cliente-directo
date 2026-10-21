@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4158.6 · NQ 29875.75 · VIX 17.35 · 1 noticias nuevas",
-   "actualizado": "2026-10-21T12:02:36Z"
+   "ultimo_resultado": "Oro 4158.4 · NQ 29879.5 · VIX 17.32 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-21T12:07:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-21T12:02:35Z",
-   "ultimo_resultado": "1 titulares nuevos: OpenAI to bring AI models to Google's cloud, in further expansion beyond Microsoft"
+   "actualizado": "2026-10-21T12:07:34Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Tariffs loom over Maine's midterms"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4158.4 · NQ 29879.5 · VIX 17.32 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-21T12:07:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4158.6 · NQ 29875.75 · VIX 17.35 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "ES/NQ: CONFIRMA: ES y NQ van en la misma dirección · ES alcista en 1H",
    "ts": "2026-10-20T21:33:08Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el S&P 500 (ES) con el NQ…",
-   "ts": "2026-10-20T21:33:06Z"
   }
  ],
  "briefs": [
@@ -8867,10 +8867,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4158.6,
-  "nq": 29875.75,
-  "vix": 17.35,
-  "ts": "2026-10-21T12:02:35Z"
+  "oro": 4158.4,
+  "nq": 29879.5,
+  "vix": 17.32,
+  "ts": "2026-10-21T12:07:35Z"
  },
  "noticias": [
   {
@@ -8883,6 +8883,15 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Tariffs loom over Maine's midterms",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbjFmaHc1RVByVG1TQnlOTlJtVVZBX1RrNVBjVUFEWWtOdEtXSmdWeGYwRkNaNVN6ckZzb2pGcGRpQ1Fsbl9pRDE4SV80aDV5ckhmQktjZVFJcF85djFPcndTWWdISXBRNld4UlE1azdKSFlmYXdmdTVBbndKOFZLclhn?oc=5",
+   "ts": "2026-10-21T11:55:19Z",
+   "fuente": "CNBC",
+   "id": "ab72b8bc61",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Nasdaq 100 forecast: Stocks rebound ahead of more earnings",
@@ -9761,15 +9770,6 @@
    "id": "72a2c61bfa",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Stratton, Tracy Face Off in Lone Forum Over Immigration, Tariffs and Minimum Wage",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNDduWGlabjJTNk1aYnA0S3doaFdGVk5xU1BudXB1NTNBbVVGeFBQTHJrWHNiS193SW14QmM0M29kNlF0VzFnYnFCbmFFdDZhOXc5YUVZSWJlbkhFMkxYRjQxYXRkMzlaVkxGWFJFQk5uR2NUbU9XYU9tZjMtcHQtNXlyOGF6QkdfbjQxSXBRR0RwYTA2UURuVm1MM2toekZUM0VZY19OMTE?oc=5",
-   "ts": "2026-10-21T03:59:23Z",
-   "fuente": "WTTW News",
-   "id": "f7584c08fe",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -10323,14 +10323,14 @@
     4145.2,
     4159.9,
     4143.7,
-    4159.4
+    4158.5
    ],
    [
-    1792583554,
-    4158.6,
-    4158.6,
-    4158.6,
-    4158.6
+    1792583853,
+    4158.4,
+    4158.4,
+    4158.4,
+    4158.4
    ]
   ],
   "nq": [
@@ -10871,14 +10871,14 @@
     29821.5,
     29902.5,
     29819.25,
-    29875.5
+    29870.5
    ],
    [
-    1792583555,
-    29876.25,
-    29876.25,
-    29876.25,
-    29876.25
+    1792583852,
+    29879.5,
+    29879.5,
+    29879.5,
+    29879.5
    ]
   ],
   "vix": [
@@ -11307,14 +11307,14 @@
     17.38,
     17.38,
     17.27,
-    17.35
+    17.32
    ],
    [
-    1792583251,
-    17.35,
-    17.35,
-    17.35,
-    17.35
+    1792583551,
+    17.32,
+    17.32,
+    17.32,
+    17.32
    ]
   ]
  },
@@ -11377,7 +11377,6 @@
  ],
  "alpha_ordenes": [],
  "noticias_vistas": [
-  "f19ebb936c",
   "bc559f6e6e",
   "3a29df3792",
   "79eac157de",
@@ -12176,6 +12175,7 @@
   "405d80a8f1",
   "9978c8450d",
   "6735a99f85",
-  "be3119121c"
+  "be3119121c",
+  "ab72b8bc61"
  ]
 }
