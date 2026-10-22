@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4095.8 · NQ 29510.75 · VIX 18.19 · 1 noticias nuevas",
-   "actualizado": "2026-10-22T11:07:39Z"
+   "ultimo_resultado": "Oro 4090.4 · NQ 29504.75 · VIX 18.21 · 2 noticias nuevas",
+   "actualizado": "2026-10-22T11:12:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T11:07:38Z",
-   "ultimo_resultado": "1 titulares nuevos: David's Bridal plans to spin off AI platform Pearl into publicly traded company"
+   "actualizado": "2026-10-22T11:12:31Z",
+   "ultimo_resultado": "2 titulares nuevos: American Airlines expects deeper 2026 loss on pricier fuel despite record revenue"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4090.4 · NQ 29504.75 · VIX 18.21 · 2 noticias nuevas",
+   "ts": "2026-10-22T11:12:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4095.8 · NQ 29510.75 · VIX 18.19 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "DXY -0.02% · 10Y 5.146 · VIX 16.68 · 1 eventos USD en el radar.",
    "ts": "2026-10-21T21:32:57Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
-   "ts": "2026-10-21T21:32:54Z"
   }
  ],
  "briefs": [
@@ -9404,12 +9404,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4095.8,
-  "nq": 29510.75,
-  "vix": 18.19,
-  "ts": "2026-10-22T11:07:38Z"
+  "oro": 4090.4,
+  "nq": 29504.75,
+  "vix": 18.21,
+  "ts": "2026-10-22T11:12:31Z"
  },
  "noticias": [
+  {
+   "titulo": "American Airlines expects deeper 2026 loss on pricier fuel despite record revenue",
+   "link": "https://www.cnbc.com/2026/10/22/american-airlines-aal-q3-2026-earnings.html",
+   "ts": "2026-10-22T11:11:32Z",
+   "fuente": "CNBC",
+   "id": "d571df07fb",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "David's Bridal plans to spin off AI platform Pearl into publicly traded company",
    "link": "https://www.cnbc.com/2026/10/22/davids-bridal-pearl-ai-spinoff.html",
@@ -9682,6 +9691,17 @@
    "ts": "2026-10-22T09:39:31Z",
    "fuente": "Reuters",
    "id": "5824f37d66",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Tech Stocks Tumble as AI Spending Fears Reignite",
+   "link": "https://finance.yahoo.com/m/cc0103ba-2933-324c-b417-13d02c4f68f5/tech-stocks-tumble-as-ai.html?.tsrc=rss",
+   "ts": "2026-10-22T09:34:50Z",
+   "fuente": "Yahoo Finance",
+   "id": "f33f8c1d26",
    "activos": [
     "nq"
    ],
@@ -10283,28 +10303,6 @@
    "id": "0a5fd5bd3c",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "China's Xu Mengtao wins back-to-back gold in women's aerials | Original Series - Athletes, Exclusive Videos & More",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWmY5N0hINEFlMXJvTVUtTWJxSUZWS1RkaTlyWnhLdVR3Z2pkYURBMFpYVmNVZ1dCM3dvcy02WmpVZ2x5V29iaDVaS05rbGZESWw3Rm9mc2htN1VxOEVqaTZHb2F4NWV0NkN1TGhUSWR4WXpqaUZxb19aVi1fNzNsSmVnZGxZaHZRakhkaHRndlNCalY2SEw0Y0hsSFRiMGxkVk1SQTlhSE9YanhUQkJmbTJn?oc=5",
-   "ts": "2026-10-22T02:43:30Z",
-   "fuente": "www.olympics.com",
-   "id": "fe096f53cd",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Kansas Senate debate: Marshall, Hamilton spar on diesel prices, tariffs as race tightens",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaEphQ2VrMW5fck5fdWI3QV9YX0s2RDFHcUlyejRQZUZycUJlUnp1Tkk3N0xlZDhaLVlfbU9NcjVJc0VleDdvMmRBNWgxRkY2OWlpUlhsTW8xTVhVSVlzVkljaUM4dUxTSWJDMy03UnRZaGpRaE5TaFhGQW9ydXBoN0RjUkhjb0ZLRVRHeGN4SXlpSHViQ2x6dFR2bGg5LVBuanRGYlY4aE9LYkd0RC1NLVFENNIBxwFBVV95cUxOeHpxZTRrZmZpTHBmLXNuRXNRMTdXSG9LUkpGN1NfU1RvZS1leEx1VTBoLU9BcU8zc1Bma1pRZkpFRG5QcU5iTWJWVzhtZWhfU0diMUFYSDJlclhNRjExVUQtZHJzSkZ5dHBCN1F1dXllUG1WZm5xNDM5TW9SWmk5ZDBNQ1NLbXdObjNhQlhuWVFoeFJoN0M2aGVONmY2NFJOWU45d0pQUzF4MW5XbTZjTTFrcnozdzdHYUUzVEZvb1p4dWw0b19J?oc=5",
-   "ts": "2026-10-22T02:41:00Z",
-   "fuente": "KCTV",
-   "id": "bb6e6ed24b",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Debate al Senado de Kansas: Marshall y Hamilton discuten sobre precios del diésel y aranceles",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -10892,15 +10890,22 @@
     1792663200,
     4104.6,
     4108.8,
-    4095.0,
-    4095.2
+    4094.6,
+    4096.1
    ],
    [
-    1792666654,
-    4095.8,
-    4095.8,
-    4095.8,
-    4095.8
+    1792666800,
+    4096.1,
+    4096.2,
+    4090.1,
+    4090.3
+   ],
+   [
+    1792666948,
+    4090.4,
+    4090.4,
+    4090.4,
+    4090.4
    ]
   ],
   "nq": [
@@ -11476,14 +11481,21 @@
     29469.25,
     29545.75,
     29445.75,
-    29508.75
+    29514.0
    ],
    [
-    1792666654,
-    29510.75,
-    29510.75,
-    29510.75,
-    29510.75
+    1792666800,
+    29516.5,
+    29518.75,
+    29496.75,
+    29503.25
+   ],
+   [
+    1792666951,
+    29504.75,
+    29504.75,
+    29504.75,
+    29504.75
    ]
   ],
   "vix": [
@@ -11905,14 +11917,14 @@
     18.49,
     18.5,
     18.12,
-    18.16
+    18.21
    ],
    [
-    1792666351,
-    18.19,
-    18.19,
-    18.19,
-    18.19
+    1792666636,
+    18.21,
+    18.21,
+    18.21,
+    18.21
    ]
   ]
  },
@@ -11997,8 +12009,6 @@
   }
  ],
  "noticias_vistas": [
-  "fbe7ca7186",
-  "8ed740f7bc",
   "37fb282d15",
   "87acd3fb50",
   "fddcc8640a",
@@ -12796,7 +12806,9 @@
   "8cf6b42744",
   "1cf7c07cb4",
   "615d34a02b",
-  "d33a578339"
+  "d33a578339",
+  "d571df07fb",
+  "f33f8c1d26"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
