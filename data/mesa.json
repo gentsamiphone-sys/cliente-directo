@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4109.9 · NQ 29500.75 · VIX —",
-   "actualizado": "2026-10-22T07:22:33Z"
+   "ultimo_resultado": "Oro 4115.1 · NQ 29494.5 · VIX — · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-22T07:27:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T07:22:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-22T07:27:35Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: French Government-Bond Yields Rise, Spread Widens as Treasury Yields Fall"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4115.1 · NQ 29494.5 · VIX — · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-22T07:27:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4109.9 · NQ 29500.75 · VIX —",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4155.1 · NQ 30043.25 · VIX 16.61 · 1 noticias nuevas",
    "ts": "2026-10-21T18:12:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4154.8 · NQ 30058.0 · VIX 16.62 · 1 noticias nuevas",
-   "ts": "2026-10-21T18:07:38Z"
   }
  ],
  "briefs": [
@@ -9404,11 +9404,22 @@
   }
  },
  "en_vivo": {
-  "oro": 4109.9,
-  "nq": 29500.75,
-  "ts": "2026-10-22T07:22:32Z"
+  "oro": 4115.1,
+  "nq": 29494.5,
+  "ts": "2026-10-22T07:27:36Z"
  },
  "noticias": [
+  {
+   "titulo": "French Government-Bond Yields Rise, Spread Widens as Treasury Yields Fall",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaG1kb1dxekJabUk3czhacmlCWC1GV1N5WlkyaFZVekxHaUhsbUVIU0lLMXFHRk91ZnVBRUZCMkNWWmVMZGppbDJ1QXZTX05OdkJpNy1nVlQ0MzVyb3dONjNQcjVoU1ZsdDVwc1BuVnpUTk9TX1dMNnBJdVNtVHpkbjZCSDBrZTZlOEo5MFo5QV9WTnAxV2JySkVpWGh5alBYVTNBRlBJTUVYVjJ1Q2hwdDlyY2tJUmFJYjg4?oc=5",
+   "ts": "2026-10-22T07:21:00Z",
+   "fuente": "WSJ",
+   "id": "1dc8190050",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Uganda export earnings up 36% in August on higher gold receipts",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMFc2YnpWVnIyZTF5emJNNEFDaUVuT1dMVmF0NEZKLWExdlFtTThhU0hJVEMtRWpkbTdlVXo3UUFTajR2aldXMFZYQlctRGMzZFJFVUxraVRIenVWZWlmVFVfNUtxeXgtQlk2Y081c2dTUHA4Z2Jxblc0RzdlbENkOWRLc2pwVldHd3hDblUyam8tQzF2TVZJVThmRDlScjVtYk5JNzdqSlU?oc=5",
@@ -9692,6 +9703,15 @@
    "impacto": "alto",
    "es": "Los futuros caen; Meta y Tesla lideran grandes ganancias corporativas tarde",
    "efecto": ""
+  },
+  {
+   "titulo": "EXCLUSIVE: China snaps up Australian canola as improved ties, lower tariffs fuel demand",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSFkyb3c2MngteVdVR1Q2S2RGMmE2a0d5NEMwazZvUEFySDlIY01nbU5waHVUSXYzMURzS0xucm1VUkc0NVNZNDA5QjFFdmtxSDFRenBGWS1jZnV0M1l2VUhXTjRqTnBRZXJ5aDRrbWJ1WUNCck15cEZKMzQwalkwblVoSzBzNmdJMVdKVjg3WVh5aGNiUGExQU41dGQ2VHFjNGIwT0xqNlJJYlpTY3ktNlZwcGhrTVRZRUdEOU8xbmhyQkhVeW1rN0hVQXlPUGZ3YkFN?oc=5",
+   "ts": "2026-10-22T02:48:00Z",
+   "fuente": "Reuters",
+   "id": "0a5fd5bd3c",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "China's Xu Mengtao wins back-to-back gold in women's aerials | Original Series - Athletes, Exclusive Videos & More",
@@ -10292,28 +10312,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "CoreWeave’s market confidence erodes as bond yields spike and stock sinks",
-   "link": "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html",
-   "ts": "2026-10-21T21:12:29Z",
-   "fuente": "CNBC",
-   "id": "34241aa78e",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Fulton Financial’s (NASDAQ:FULT) Q3 2026 sales beat estimates",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMEhHVXN0YWIyTGdlQjZ6RzNLZEJtRWpSU0JjWndGRDc5eUlFWG9ZYmQxM05jZlNZR044MEQxb0JQcXYwRWFzUUJtcGxBbXZaeDJ5b1VLUzB3UDM4eEtnWDZZY3hhSlhPaDFqLVl1bWh0TVRsZUVTbnF5UXBGdXR0dlNCUEdPYU1NNUctQTM2cFl3cGZiT01MSkU4YnE?oc=5",
-   "ts": "2026-10-21T21:06:54Z",
-   "fuente": "Yahoo Finance",
-   "id": "7b26dc6ce5",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -10872,16 +10870,16 @@
    [
     1792652400,
     4108.9,
-    4116.7,
+    4117.3,
     4105.2,
-    4110.5
+    4114.9
    ],
    [
-    1792653150,
-    4109.9,
-    4109.9,
-    4109.9,
-    4109.9
+    1792653453,
+    4115.1,
+    4115.1,
+    4115.1,
+    4115.1
    ]
   ],
   "nq": [
@@ -11429,14 +11427,14 @@
     29537.0,
     29550.25,
     29470.0,
-    29494.75
+    29493.25
    ],
    [
-    1792653151,
-    29500.75,
-    29500.75,
-    29500.75,
-    29500.75
+    1792653455,
+    29494.5,
+    29494.5,
+    29494.5,
+    29494.5
    ]
   ],
   "vix": [
@@ -11921,8 +11919,6 @@
   }
  ],
  "noticias_vistas": [
-  "316fcc0b15",
-  "5e8f938d18",
   "510990a516",
   "601bd06752",
   "2f58e1c4aa",
@@ -12720,7 +12716,9 @@
   "c97a3903b7",
   "83694b9908",
   "842145fe37",
-  "f347841efa"
+  "f347841efa",
+  "1dc8190050",
+  "0a5fd5bd3c"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
