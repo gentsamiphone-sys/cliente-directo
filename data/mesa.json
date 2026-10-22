@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4086.6 · NQ 29526.25 · VIX 18.12 · 4 noticias nuevas",
-   "actualizado": "2026-10-22T12:37:45Z"
+   "ultimo_resultado": "Oro 4092.3 · NQ 29551.25 · VIX 18.07 · 3 noticias nuevas",
+   "actualizado": "2026-10-22T12:42:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T12:37:45Z",
-   "ultimo_resultado": "4 titulares nuevos: Why governments pulled websites offline over the decades-old PHP programming language"
+   "actualizado": "2026-10-22T12:42:31Z",
+   "ultimo_resultado": "3 titulares nuevos: Brent crude near $112 as U.S. and Israel reportedly weigh fresh Iran strikes"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4092.3 · NQ 29551.25 · VIX 18.07 · 3 noticias nuevas",
+   "ts": "2026-10-22T12:42:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4086.6 · NQ 29526.25 · VIX 18.12 · 4 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4143.5 · NQ 29794.25 · VIX 16.68 · 1 noticias nuevas",
    "ts": "2026-10-21T23:32:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4143.9 · NQ 29814.0 · VIX 16.68",
-   "ts": "2026-10-21T23:27:34Z"
   }
  ],
  "briefs": [
@@ -9612,12 +9612,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4086.6,
-  "nq": 29526.25,
-  "vix": 18.12,
-  "ts": "2026-10-22T12:37:45Z"
+  "oro": 4092.3,
+  "nq": 29551.25,
+  "vix": 18.07,
+  "ts": "2026-10-22T12:42:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Brent crude near $112 as U.S. and Israel reportedly weigh fresh Iran strikes",
+   "link": "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html",
+   "ts": "2026-10-22T12:41:40Z",
+   "fuente": "CNBC",
+   "id": "1eb756f1e6",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Why governments pulled websites offline over the decades-old PHP programming language",
    "link": "https://www.cnbc.com/2026/10/22/php2shell-vulnerability-what-is-it-and-is-your-data-at-risk.html",
@@ -9635,6 +9644,17 @@
    "id": "1991a0c8b0",
    "activos": [
     "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "All-or-Nothing Biotech Bets Dented by Rising Treasury Yields",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUWUyZTlJTW9GaTl5Q0NaTnBLX1JzYi1hM0ROTnZKTnJxS2F3U1A0QlpuTzlncmc5c21KbVBTM2c5bl9MWXZpREE3Mi1COWJITlNGVk93Y01CcDNCR2ZmWWdWb056VXB5MjNiUU1aY0hVVFo0Y1dfaTl5aGlKNGx1SVN5U0lVUHZCdlYzZGJVMVVvSXFXek5fU1p0bjVvMXQ1OUN4S1l6ZHNsNTFFVC1wTg?oc=5",
+   "ts": "2026-10-22T12:30:08Z",
+   "fuente": "Bloomberg.com",
+   "id": "bd46043bc9",
+   "activos": [
+    "dolar"
    ],
    "impacto": "medio"
   },
@@ -9895,6 +9915,17 @@
    "ts": "2026-10-22T11:16:59Z",
    "fuente": "Yahoo Finance",
    "id": "b3d58760cc",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Nasdaq (NDAQ) Beats Q3 Earnings and Revenue Estimates",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRXd1eEk1ZDEwQUdMd3JrVHNlQzlrcEtydGd4azFlcm5yd2FZZkJwVHpHallubzhvWlltZG1GR0JRdXB1S3p0MHpNNk1oVjVwWnRpUTRCVkt3UTkya3VkdGduUXN5SUR4N2NCbm4xWDFHaHNUVEhxYmpJRm1TbkRWMUc1VmdXOWtJbTJ3Z1lFQklkSEtBRHVzSVVB?oc=5",
+   "ts": "2026-10-22T11:15:02Z",
+   "fuente": "Yahoo Finance",
+   "id": "9c685dab6f",
    "activos": [
     "nq"
    ],
@@ -10454,39 +10485,6 @@
    "impacto": "medio",
    "es": "El mayor fondo soberano del mundo registra una pérdida de 30 mil millones tras turbulencia en bonos",
    "efecto": "Genera aversión al riesgo moderada, impulsando levemente los flujos hacia el oro."
-  },
-  {
-   "titulo": "FTSE 100 today: Stocks fall as Gulf war lifts oil, miners slide on weaker metals",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/ftse-100-today-stocks-fall-080812220.html?.tsrc=rss",
-   "ts": "2026-10-22T08:08:12Z",
-   "fuente": "Yahoo Finance",
-   "id": "776636da62",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Gold and Midterms: Is this time different? | Post by Juan Carlos Artigas | Insights",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZnJ4OU1SMnpCbS1KVkw4eDlCTWVRS3g3cDdKYll3YlhUYmhnZjcxck1yeFp0dUl6cUxpUU5iSWFRSDJteEpxekZ6aVpUMkw4RW1YZ3pHVGEzQ1p0QlcxOWNsZUd1NXFnaEZRLXBqei00bjlVRjFqbGNTQmVMdU81dUtMekNPMnc?oc=5",
-   "ts": "2026-10-22T07:54:13Z",
-   "fuente": "World Gold Council",
-   "id": "0ca4351b2f",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Tokenized Gold Reaches $6 Billion as Younger Buyers Signal New Demand",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcDdYTzFKazBFTHRBNEx0QW5wRTZaeDBnbXZiU2Vpay0yVEc2T0J4V0tWY241Ni1ncVRGeUJyMWFoSjhTQkQyVmRYZmY3bGFqR3N5SzZWMGxnTU94Zk1OaWNLNnJMTlZFV0thWVZ5VGFlWEx0anVEWnI3U2JjaHdUNE1zcDBaTFVuYUhIV3NwQWxJRmtZcDdEc0dJcWlOWTR5dGtSbUdn?oc=5",
-   "ts": "2026-10-22T07:53:13Z",
-   "fuente": "Crux Investor",
-   "id": "80c67e494b",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -11087,16 +11085,16 @@
    [
     1792670400,
     4074.7,
-    4092.3,
+    4092.8,
     4074.1,
-    4086.5
+    4091.9
    ],
    [
-    1792672063,
-    4086.6,
-    4086.6,
-    4086.6,
-    4086.6
+    1792672351,
+    4092.7,
+    4092.7,
+    4092.7,
+    4092.7
    ]
   ],
   "nq": [
@@ -11684,16 +11682,16 @@
    [
     1792670400,
     29515.0,
-    29547.0,
+    29551.75,
     29503.0,
-    29528.25
+    29546.75
    ],
    [
-    1792672062,
-    29526.25,
-    29526.25,
-    29526.25,
-    29526.25
+    1792672351,
+    29551.25,
+    29551.25,
+    29551.25,
+    29551.25
    ]
   ],
   "vix": [
@@ -12128,15 +12126,15 @@
     1792670400,
     18.18,
     18.19,
-    18.08,
-    18.11
+    18.07,
+    18.08
    ],
    [
-    1792671751,
-    18.12,
-    18.12,
-    18.12,
-    18.12
+    1792672051,
+    18.06,
+    18.06,
+    18.06,
+    18.06
    ]
   ]
  },
@@ -12221,9 +12219,6 @@
   }
  ],
  "noticias_vistas": [
-  "ee2a6270c2",
-  "c36a78f079",
-  "41699c94da",
   "1e08d5958a",
   "df6c375d5e",
   "86e3ba9797",
@@ -13020,7 +13015,10 @@
   "225c18a709",
   "1991a0c8b0",
   "6353aa139e",
-  "1e1d0b17ac"
+  "1e1d0b17ac",
+  "1eb756f1e6",
+  "bd46043bc9",
+  "9c685dab6f"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
