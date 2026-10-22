@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T12:33:59Z",
-   "ultimo_resultado": "Mapa listo: oro 4082.4 · NQ 29526.5."
+   "actualizado": "2026-10-22T14:33:12Z",
+   "ultimo_resultado": "Estrategia 4H ORO: VENTA: esperar retesteo de 4095.0 · stop 4112.37 · objetivo 4059.5 · R:R 2.04 (esperando retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T14:27:35Z",
-   "ultimo_resultado": "1 titulares nuevos: Arrive AI Regains Compliance with Two Nasdaq Listing Requirements with Move to the Nasdaq Capital Market and Focuses on Execution"
+   "actualizado": "2026-10-22T14:33:11Z",
+   "ultimo_resultado": "1 titulares nuevos: Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H ORO: VENTA: esperar retesteo de 4095.0 · stop 4112.37 · objetivo 4059.5 · R:R 2.04 (esperando retesteo). Tú ejecutas.",
+   "ts": "2026-10-22T14:33:12Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4066.9 · NQ 29456.75 · VIX 18.15 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4132.0 · NQ 29789.0 · VIX 16.68 · 1 noticias nuevas",
    "ts": "2026-10-22T01:22:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4132.6 · NQ 29795.5 · VIX 16.68",
-   "ts": "2026-10-22T01:17:31Z"
   }
  ],
  "briefs": [
@@ -9612,10 +9612,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4066.9,
-  "nq": 29456.75,
-  "vix": 18.15,
-  "ts": "2026-10-22T14:27:36Z"
+  "oro": 4062.7,
+  "nq": 29419.75,
+  "vix": 18.32,
+  "ts": "2026-10-22T14:33:11Z"
  },
  "noticias": [
   {
@@ -9626,6 +9626,17 @@
    "id": "235643f98e",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYzlYMElEZWpheDcybHdGNUJyelJDb1JNSVlBbHZQWXd5Znp3OGNWSnYyZ2MzRElldkFsblhleUtJZGxTYUVuQ01TZnoyeUxra29SRGZnc2JWRHo2NU5NMmY0YXhoeTBpY0xzd0Z0cWxXUFhIdHJNeHFOdHJiSEdVdXdyeTFfcGJnM2xVdWN0MkdPUVNRVGc?oc=5",
+   "ts": "2026-10-22T14:20:01Z",
+   "fuente": "Yahoo Finance",
+   "id": "66fc36dd52",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Blackstone's Jon Gray says CoreWeave can 'find a way through' financing pressure",
@@ -10450,17 +10461,6 @@
    "impacto": "bajo",
    "es": "GreenLight Metals intercepta cobre y oro en el proyecto Bend",
    "efecto": "Resultado de perforación corporativo sin efecto en la cotización del oro."
-  },
-  {
-   "titulo": "Central banks around the world are quietly stockpiling four times more gold than usual and are moving it out of the U.S.",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbHhMaFhQUUsyQ2RIQzhWM2ZZSDRjaVpJZnIxVTdFMzBkLWxRNHh5NU93ZWdYVXVYY3Z3U1BhQWpoRG96akJZaUQ3SW5haVVOUVZIOFp6aXNlWS1CVlBMazFORkNIUlVVdVdVTFdSSmpoSkxXSElJN3A1R0dCR3M4SU1JSTZlbXBUaWRaVnhoTU9jd2NmUS0xOTl0c0o?oc=5",
-   "ts": "2026-10-22T10:54:00Z",
-   "fuente": "Fortune",
-   "id": "615d34a02b",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12157,31 +12157,42 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-22T14:17:32Z",
- "ult_4h": 1792678662.9740527,
+ "ult_4h": 1792679591.763659,
  "estrategia_4h": {
   "oro": {
-   "precio": 4066.9,
-   "atr_4h": 28.61,
+   "precio": 4062.7,
+   "atr_4h": 28.94,
    "setups": [
+    {
+     "direccion": "VENTA",
+     "nivel": 4095.0,
+     "entrada": 4095.0,
+     "stop": 4112.37,
+     "objetivo": 4059.5,
+     "rr": 2.04,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 1.0,
+     "ruptura": "2026-10-22 08:00 UTC"
+    },
     {
      "direccion": "VENTA",
      "nivel": 4130.1,
      "entrada": 4130.1,
-     "stop": 4147.27,
-     "objetivo": 4064.1,
-     "rr": 3.84,
+     "stop": 4147.47,
+     "objetivo": 4059.5,
+     "rr": 4.07,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.23,
+     "fuerza_ruptura_atr": 1.22,
      "ruptura": "2026-10-22 00:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29498.75,
-   "atr_4h": 221.75,
+   "precio": 29419.75,
+   "atr_4h": 224.2,
    "setups": []
   },
-  "ts": "2026-10-22T14:17:43Z"
+  "ts": "2026-10-22T14:33:12Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -12214,7 +12225,8 @@
   "oro|VENTA|4151.6|en retesteo",
   "oro|VENTA|4130.1|esperando retesteo",
   "oro|VENTA|4124.0|esperando retesteo",
-  "oro|VENTA|4124.0|en retesteo"
+  "oro|VENTA|4124.0|en retesteo",
+  "oro|VENTA|4095.0|esperando retesteo"
  ],
  "alpha_ordenes": [
   {
@@ -12226,7 +12238,6 @@
   }
  ],
  "noticias_vistas": [
-  "eebccdfd76",
   "9a6ff43aff",
   "d9e6049d97",
   "0a41e1c97c",
@@ -13025,7 +13036,8 @@
   "863253af3f",
   "ba54f1215a",
   "282493e4f6",
-  "4c8f8136e3"
+  "4c8f8136e3",
+  "66fc36dd52"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
