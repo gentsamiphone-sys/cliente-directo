@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4057.9 · NQ 29242.25 · VIX 18.64 · 2 noticias nuevas",
-   "actualizado": "2026-10-22T16:52:33Z"
+   "ultimo_resultado": "Oro 4054.0 · NQ 29187.5 · VIX 18.91 · 2 noticias nuevas",
+   "actualizado": "2026-10-22T16:57:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T16:52:32Z",
-   "ultimo_resultado": "2 titulares nuevos: Lawsuit accuses Trump of illegally profiting off foreign crypto deals"
+   "actualizado": "2026-10-22T16:57:38Z",
+   "ultimo_resultado": "2 titulares nuevos: Stocks making the biggest moves midday: Procter & Gamble, Lam Research, Blackstone, Southwest & more"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4054.0 · NQ 29187.5 · VIX 18.91 · 2 noticias nuevas",
+   "ts": "2026-10-22T16:57:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4057.9 · NQ 29242.25 · VIX 18.64 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4110.9 · NQ 29651.25 · VIX 16.68 · 2 noticias nuevas",
    "ts": "2026-10-22T03:52:40Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4108.8 · NQ 29628.75 · VIX 16.68 · 1 noticias nuevas",
-   "ts": "2026-10-22T03:47:36Z"
   }
  ],
  "briefs": [
@@ -9612,12 +9612,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4057.9,
-  "nq": 29242.25,
-  "vix": 18.64,
-  "ts": "2026-10-22T16:52:33Z"
+  "oro": 4054.0,
+  "nq": 29187.5,
+  "vix": 18.91,
+  "ts": "2026-10-22T16:57:39Z"
  },
  "noticias": [
+  {
+   "titulo": "Stocks making the biggest moves midday: Procter & Gamble, Lam Research, Blackstone, Southwest & more",
+   "link": "https://www.cnbc.com/2026/10/22/stocks-making-the-biggest-moves-midday-pg-lrcx-bx-luv-ttmi-.html",
+   "ts": "2026-10-22T16:54:54Z",
+   "fuente": "CNBC",
+   "id": "b38cd46aa3",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Lawsuit accuses Trump of illegally profiting off foreign crypto deals",
    "link": "https://www.cnbc.com/2026/10/22/trump-world-liberty-crypto-lawsuit-uae.html",
@@ -9703,6 +9714,17 @@
    "id": "26d613d81c",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold Technical Outlook: XAU/USD Breakdown Threatens Deeper Selloff",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd3NQUG9FcEFvTWtkdHpCejdVT3hTSHBRbVlyVlhkUVdFYVJFTlNwNzVvbGNBai00aFBYcHZ5TjVvMC1OT3pualptUDZDZ1M2VGtGSjZOcVpvSXh3b3pmQ2RuY1ZMaFV3dEVnOVNiNjJqX1c2MlpPT3dUTkp0SkhsSWNwU1V5SWdWdWFrdHR2eG53U0RQX1JOejE0NUk0UU9mcFJHZHl3QkFlSThsUnJzMmNUWQ?oc=5",
+   "ts": "2026-10-22T15:51:26Z",
+   "fuente": "StoneX",
+   "id": "d2709453db",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Bill Ackman says 2027 will be an amazing year for stocks as wars, inflation ease",
@@ -10452,33 +10474,6 @@
    "id": "6353aa139e",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Will Lab-Made Gold Flood the Market? A Startup Just Turned Mercury Into Gold",
-   "link": "https://beincrypto.com/marathon-fusion-mercury-gold-price-impact/?.tsrc=rss",
-   "ts": "2026-10-22T12:17:15Z",
-   "fuente": "Yahoo Finance",
-   "id": "834a4e6100",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "¿Inundará el mercado el oro de laboratorio? Una startup convirtió mercurio en oro",
-   "efecto": "Especulación tecnológica sin impacto a corto plazo en contratos de oro."
-  },
-  {
-   "titulo": "Futures Skid, Oil Pops; Tesla, Meta Are Key Movers",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa1otTzBPWW8zcFp0UFFNc0M4bjZFV1N0Y0J0cXlTUVRxODRRVzBfdmFUdEEyRlFWcmg0MkI1TTZNV24tY1VabUhXY2VHRXQwdzc2emQ0UHJCcVFVLVNqSXVfRmtzWEVRY3I3dkpsend3dXRqS3B0ZVE5dGRuNThxY2U4UUV4YTNQeXIwbVZnRmxNNVozenBVQlFvdUJUbVhtcmVleUR5WHZIczQtR09pVFNvYnVTeGFFZDhha0xVZw?oc=5",
-   "ts": "2026-10-22T12:14:00Z",
-   "fuente": "Investor's Business Daily",
-   "id": "d80eccb39a",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Futuros caen y sube el petróleo; Tesla y Meta son los principales motores",
-   "efecto": "Presiona a la baja al NQ por debilidad general y aversión al riesgo."
   }
  ],
  "eventos_avisados": [
@@ -11108,15 +11103,15 @@
     1792684800,
     4067.7,
     4068.5,
-    4056.5,
-    4056.9
+    4053.4,
+    4054.1
    ],
    [
-    1792687349,
-    4057.9,
-    4057.9,
-    4057.9,
-    4057.9
+    1792687657,
+    4054.0,
+    4054.0,
+    4054.0,
+    4054.0
    ]
   ],
   "nq": [
@@ -11733,15 +11728,15 @@
     1792684800,
     29343.5,
     29379.75,
-    29239.5,
-    29242.25
+    29184.75,
+    29193.5
    ],
    [
-    1792687353,
-    29243.0,
-    29243.0,
-    29243.0,
-    29243.0
+    1792687659,
+    29184.75,
+    29184.75,
+    29184.75,
+    29184.75
    ]
   ],
   "vix": [
@@ -12203,16 +12198,16 @@
    [
     1792684800,
     18.37,
-    18.66,
+    18.93,
     18.15,
-    18.61
+    18.91
    ],
    [
-    1792687051,
-    18.64,
-    18.64,
-    18.64,
-    18.64
+    1792687351,
+    18.91,
+    18.91,
+    18.91,
+    18.91
    ]
   ]
  },
@@ -12298,8 +12293,6 @@
   }
  ],
  "noticias_vistas": [
-  "3d77b5e0c9",
-  "8f95d749b7",
   "a2486014ec",
   "757c3a2665",
   "389dc2b48f",
@@ -13097,7 +13090,9 @@
   "0f7e76f611",
   "85e2abfbad",
   "c44ed3b078",
-  "61eee7d585"
+  "61eee7d585",
+  "b38cd46aa3",
+  "d2709453db"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
