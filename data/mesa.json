@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4071.4 · NQ 29539.0 · VIX 18.29",
-   "actualizado": "2026-10-22T14:07:35Z"
+   "ultimo_resultado": "Oro 4067.6 · NQ 29564.0 · VIX 17.96 · 3 noticias nuevas",
+   "actualizado": "2026-10-22T14:12:40Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T14:07:35Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-22T14:12:39Z",
+   "ultimo_resultado": "3 titulares nuevos: Blackstone's Jon Gray says CoreWeave can 'find a way through' financing pressure"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4067.6 · NQ 29564.0 · VIX 17.96 · 3 noticias nuevas",
+   "ts": "2026-10-22T14:12:40Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4071.4 · NQ 29539.0 · VIX 18.29",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4131.1 · NQ 29796.0 · VIX 16.68 · 2 noticias nuevas",
    "ts": "2026-10-22T01:02:41Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4132.4 · NQ 29809.25 · VIX 16.68 · 3 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-22T00:57:36Z"
   }
  ],
  "briefs": [
@@ -9612,12 +9612,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4071.4,
-  "nq": 29539.0,
-  "vix": 18.29,
-  "ts": "2026-10-22T14:07:35Z"
+  "oro": 4067.6,
+  "nq": 29564.0,
+  "vix": 17.96,
+  "ts": "2026-10-22T14:12:40Z"
  },
  "noticias": [
+  {
+   "titulo": "Blackstone's Jon Gray says CoreWeave can 'find a way through' financing pressure",
+   "link": "https://www.cnbc.com/2026/10/22/blackstone-jon-gray-coreweave-financing.html",
+   "ts": "2026-10-22T14:11:14Z",
+   "fuente": "CNBC",
+   "id": "81310c932b",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Nasdaq tumbles on AI spending concerns and jump in oil prices: Live updates",
+   "link": "https://www.cnbc.com/2026/10/21/stock-market-today-live-updates.html",
+   "ts": "2026-10-22T14:09:51Z",
+   "fuente": "CNBC",
+   "id": "79b37ca8e6",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "UW-Oshkosh launches student-run Titan Gold Coffee during Homecoming week",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORThvNnV0OE9meXdKbnFNU2pJLVlSdHVPeDlhMjVVdllMdGd3S2VGcmpPNTJUbG9zalBjSE1oeUs3VVB1dkx2RHl4emNVSzRtc1BzSlRhVlhITlc4S2s5TGU4SzdoY0YwRzliMjhUU0hDOFpZQUlISFU2Z0ZoOUxGUzFIV0ZiR1dMQXdKdWx0ang0cWJyUG84Rlk2QXlWTVdkMVIyMkRvay0tLXFm?oc=5",
@@ -9797,6 +9817,17 @@
    "id": "468206cf62",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Guardians acquire Gold Glove catcher Bailey from Giants",
+   "link": "https://news.google.com/rss/articles/CBMikgtBVV95cUxQWWFQMWFMZGV3VFJRTlFaVnhTaERFX0pmM1UyQ2tQbnp0el9vc2lGQnJXX3d3bzZxTVE2OFlJRW05bDladzZ3dV9DUmkwVTZxY1M3bXZjOWVNbnN6R0d0NjNfcl9zOWM0NnJaai0wVmFkT3pBakkzY2hYRnFZTFJtLVV0dU1IaV9WM2t5eTF6Snh2MHNheTExWkVBRFBkSzNFcGhpTWpGNzl5eE5DbElmZ0NSNXJ0SGd5Wkd5b095bC1Kak5sMnlPTkh2N05qQjh5NnVueDdnbmZ4QzM5aEJwTUxLRTc3dE1PcTN5Z1laZkZaT1laRFg1SGp5UHBoTGVLaTJtdlJSc2U3STdFSF9xelZwUnpvOGpBWVNVOVpkT3BnLWU3Mk1ScTBIUzlsWGZ3bEhFZDdoQkJSWnBBQXNDYTBKZ2lydHlHTkJsY0NBYk4yMkJKNnJXcFVvXzRkVF9Zb2twVW0tbHdVcmdTMTFGVnRTaGFRbGVHRk1rWlJLQTdKSWFjMkpzZDVhSEUtVUducGRMT05qR2JHZU1HTXg3U1d1MlpBcHlMQmw1RjZKYW1Lak9KWlVnVHVRVGw2TE1EWGxTYVQxdmt6c3JPbWc2c2Y0Y3RDZU56M0p2UUhXNlA1bEdlS0pGYnVGY2xJRWNmX2FpUm1lakhabFdEczJFUTJIVDdFak5QbUxSQ2dDSG1ZQlVXZnJEa0p1WjdYMm94dGQ3QU1hTFhxZEw4MURibGczdWlucWpOSkFxdkUzYWhFTkxjV1YwMWZteWc5Q05ZRHpTM0RYRXV6T2F5d1RKcUZwM3NiQjVmUTRFeWg4aEtDcUwxeUxHMzlEdVFHdXFPMDR0cHVEcjFySXR3c3BuX09WRXFwTWN6aFZNWVd3VXRwR2ZxenRRMzNXNlluYkpMWDQ4bTVuTHFUaXNjUWVfRDBrTWk4NGZ3S1RYY3J1NC00ZjM0MHVpSVIxSTRDOGZPSXNISWZoQ2lWZEIwVGJ2UzFPZXhFUEs0WUNWdE4tUkd2TnR4UzVfZkdldGdqN2c5a1ZVcmNzVG1mN2dGRlRlWGI4RnJ5MHQwYXNrMllfRnJLQ2g2VWtUeTNUcEEtMnI3VHphVnlod2Jhc3RSalV2TkVmYUkzMl93MzZZd1YtSGVmcFZmNEZnX0czVUJqYXlNaG1ybW11cFNSWWlGdWtRbzZtS1g3NEhra3pPMjVueC1zLWJGdno5VUd5ckFGS2pKaFBtS21TeU5BT212WjQ0dGFiVmZVcVBLYXVXWXpmUENDYkxUaFRDeFBPY2NPQ0ZkNEJMcWxYR1RNaUI5bFhMNk5IZWVpRHg2RkpPQnBGR1lDTmQzSXJvRUFlV0NWdC1EVGpFaWtIZG51Vjl0YWtJWmF2cG9mZ052dGZLck5MTzgwZi05RnJIVUVlY2pvc2YxRUVzSl9uQ2loNE9EOUY1OXBibUpoeXg0dXNIaTRBNGJWSGxSUGhnZ294Y2o5Uno0b3d4SkxIanY0VktXeGVlLUNJSElucHU2RFZaeTUyd05SN0VzWER4QVNGWXdvdW9NOUJLTlhNMElSWkJzYXozZVZsbU11WXF0T0ZsYWwtYkIzcm9lX0VhN3dNVTZtYmxVWGM2eEFlRk94OHAyeW5IRTRkUTdyajJDTDYwckxlS1U0akJlUFc4MU1qLUEtams0b3JmR3FzSTZrSUdSYTIxWVNuQ0d4Z0hUOHpIWDdFLU1UZkpyRHphYVh4REJZd25keG5mU1RueUh3N3lMZ244V1RIRi1DRlROdFdOUHlTSElpeGFfYlJUWU44S1hSU2xiMnVFaTEzV2JPX1huX3Rma1FMcC1kZnYwSWtKeXZqQWVvc0wzR0NnYUViOXlZbXVSdk5mSW83UkZCLWcxbnA4UDln?oc=5",
+   "ts": "2026-10-22T12:50:38Z",
+   "fuente": "ABC7 Bay Area",
+   "id": "c2f45cb134",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Meta Platforms beat the Street. Here's why analysts are bullish on the stock",
@@ -10431,37 +10462,6 @@
    "id": "bbcee790cc",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Lions Bay Resources Agrees to Be Acquired by Metals One to Form South Africa-Focused Gold and Power Business Led by Former CEO of the Nation's Largest Gold Producer",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/lions-bay-resources-agrees-acquired-103100816.html?.tsrc=rss",
-   "ts": "2026-10-22T10:31:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "36b746c7de",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Lions Bay Resources es adquirida por Metals One para formar empresa de oro y energía.",
-   "efecto": ""
-  },
-  {
-   "titulo": "New bipartisan bill aims to speed up clinical trials for rare disease treatments",
-   "link": "https://www.cnbc.com/2026/10/22/bipartisan-bill-aims-to-speed-up-trials-for-rare-disease-treatments.html",
-   "ts": "2026-10-22T10:30:01Z",
-   "fuente": "CNBC",
-   "id": "cd8a1a3d42",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "This 1 retirement expense has a ‘really, really big impact,’ according to a Morningstar researcher. Are you at risk?",
-   "link": "https://finance.yahoo.com/healthcare/articles/1-retirement-expense-really-really-101500789.html?.tsrc=rss",
-   "ts": "2026-10-22T10:15:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "0bd5fc99d5",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -11071,14 +11071,21 @@
     4103.8,
     4104.0,
     4068.8,
-    4071.8
+    4071.9
    ],
    [
-    1792677455,
-    4071.7,
-    4071.7,
-    4071.7,
-    4071.7
+    1792677600,
+    4072.5,
+    4076.1,
+    4065.4,
+    4067.6
+   ],
+   [
+    1792677760,
+    4067.8,
+    4067.8,
+    4067.8,
+    4067.8
    ]
   ],
   "nq": [
@@ -11673,16 +11680,23 @@
    [
     1792674000,
     29496.5,
-    29566.25,
+    29570.25,
     29436.0,
-    29552.25
+    29542.5
    ],
    [
-    1792677456,
-    29539.25,
-    29539.25,
-    29539.25,
-    29539.25
+    1792677600,
+    29542.0,
+    29585.0,
+    29532.0,
+    29569.5
+   ],
+   [
+    1792677759,
+    29564.0,
+    29564.0,
+    29564.0,
+    29564.0
    ]
   ],
   "vix": [
@@ -12123,16 +12137,16 @@
    [
     1792674000,
     18.08,
-    18.3,
+    18.32,
     17.71,
-    18.3
+    18.0
    ],
    [
-    1792677151,
-    18.29,
-    18.29,
-    18.29,
-    18.29
+    1792677451,
+    17.96,
+    17.96,
+    17.96,
+    17.96
    ]
   ]
  },
@@ -12206,9 +12220,6 @@
   }
  ],
  "noticias_vistas": [
-  "357d8d1c1d",
-  "5f73ea97c5",
-  "9c98a0914e",
   "a289685de6",
   "f301559dfe",
   "c81c3c2ad6",
@@ -13005,7 +13016,10 @@
   "a67d7a4895",
   "11b5cd9470",
   "468206cf62",
-  "443d4fbb82"
+  "443d4fbb82",
+  "81310c932b",
+  "79b37ca8e6",
+  "c2f45cb134"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
