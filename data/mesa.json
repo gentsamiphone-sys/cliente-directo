@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4054.6 · NQ 29169.75 · VIX 19.34 · 1 noticias nuevas",
-   "actualizado": "2026-10-22T18:27:34Z"
+   "ultimo_resultado": "Oro 4054.8 · NQ 29186.5 · VIX 19.32 · 4 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-22T18:32:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T18:27:33Z",
-   "ultimo_resultado": "1 titulares nuevos: The perfect storm behind the Nasdaq's rout — plus, some of the bright spots in the market"
+   "actualizado": "2026-10-22T18:32:37Z",
+   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: Moderna shares plunge after leak of partial cancer vaccine data"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4054.8 · NQ 29186.5 · VIX 19.32 · 4 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-22T18:32:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4054.6 · NQ 29169.75 · VIX 19.34 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4101.2 · NQ 29578.25 · VIX 16.68",
    "ts": "2026-10-22T05:32:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4102.9 · NQ 29590.25 · VIX 16.68",
-   "ts": "2026-10-22T05:27:34Z"
   }
  ],
  "briefs": [
@@ -9612,12 +9612,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4054.6,
-  "nq": 29169.75,
-  "vix": 19.34,
-  "ts": "2026-10-22T18:27:34Z"
+  "oro": 4054.8,
+  "nq": 29186.5,
+  "vix": 19.32,
+  "ts": "2026-10-22T18:32:37Z"
  },
  "noticias": [
+  {
+   "titulo": "Moderna shares plunge after leak of partial cancer vaccine data",
+   "link": "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html",
+   "ts": "2026-10-22T18:30:22Z",
+   "fuente": "CNBC",
+   "id": "9b8592a0ab",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "SpaceX and Tesla have high election stakes as Elon Musk pours $366 million into campaigns",
+   "link": "https://www.cnbc.com/2026/10/22/elon-musk-midterm-election-spacex-tesla.html",
+   "ts": "2026-10-22T18:29:41Z",
+   "fuente": "CNBC",
+   "id": "e364bba6e3",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "The perfect storm behind the Nasdaq's rout — plus, some of the bright spots in the market",
    "link": "https://www.cnbc.com/investingclub/2026/10/22/perfect-storm-behind-the-nasdaqs-rout-plus-some-bright-spots-in-the-market.html",
@@ -9628,6 +9648,15 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "What Does Tate & Lyle (LSE:TATE) Sweetener Milestone Mean For Its Growth Story?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/does-tate-lyle-lse-tate-181719740.html?.tsrc=rss",
+   "ts": "2026-10-22T18:17:19Z",
+   "fuente": "Yahoo Finance",
+   "id": "197fe30bef",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Personal agents like Meta's Muse could fuel AI’s growth — and challenge Amazon and Apple",
@@ -10451,37 +10480,6 @@
    "id": "3493e61ec0",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Jobless claims near the lowest since the 1960s as low-fire trend continues",
-   "link": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html",
-   "ts": "2026-10-22T13:21:27Z",
-   "fuente": "CNBC",
-   "id": "2abb29eb88",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "‘Gold is no silver bullet’ and isn’t hedging against equity drawdowns, but ‘debasement trade’ should continue – HSBC",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYVRiX2l0VmgzS2xKZzU5UV9Ec0xIRGs4ZmpzalI3REZpT1NsVk5ZQnZLSWxxdkhraEVtSHBab2lZQ0NVMkN0NXBRb3NqLW9CS1h0ZWM3eDJsOVkzVm5hSnZsMVBqMWExTXZSMjZFZndfdFlyX1o2SURfOTQ3aGFyd2NzU25DTC1oYmJwcEt0NkdxZkR3dVo2dklrZTdQcHhtZ2M3T01MNXYyR2JNbnhQaVRNMUpnZndBSk5MNw?oc=5",
-   "ts": "2026-10-22T13:21:11Z",
-   "fuente": "Kitco",
-   "id": "c48d3a868a",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Arrive AI Regains Compliance with Two Nasdaq Listing Requirements with Move to the Nasdaq Capital Market and Focuses on Execution",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeE4tMFRfaVFuSjZSS0dsWEptMnVIc25LWDU4cm1JU3loa0ZRWmthalpFcGp5X3pHcFJOaGExWHJFeVd6RDlqZkdfbm9RQUNJMzdjUG9POW1CMm9ua0E0bkVuS3dtN2MtZXBQdVVLY3c0SU1kVEx0VmRkNlZtcmtZRkhZVTNCZkROekZmNTltT0hISE96OG9KMF9rZjFqUQ?oc=5",
-   "ts": "2026-10-22T13:18:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "4c8f8136e3",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -11119,14 +11117,14 @@
     4061.8,
     4061.8,
     4051.4,
-    4054.7
+    4055.2
    ],
    [
-    1792693051,
-    4054.6,
-    4054.6,
-    4054.6,
-    4054.6
+    1792693355,
+    4054.8,
+    4054.8,
+    4054.8,
+    4054.8
    ]
   ],
   "nq": [
@@ -11749,16 +11747,16 @@
    [
     1792692000,
     29157.75,
-    29178.5,
+    29209.5,
     29094.25,
-    29177.5
+    29189.5
    ],
    [
-    1792693053,
-    29169.75,
-    29169.75,
-    29169.75,
-    29169.75
+    1792693354,
+    29186.5,
+    29186.5,
+    29186.5,
+    29186.5
    ]
   ],
   "vix": [
@@ -12236,22 +12234,22 @@
     19.24,
     19.8,
     19.24,
-    19.48
+    19.37
    ],
    [
-    1792692751,
-    19.34,
-    19.34,
-    19.34,
-    19.34
+    1792693051,
+    19.32,
+    19.32,
+    19.32,
+    19.32
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-22T18:17:41Z",
- "ult_4h": 1792693064.3953156,
+ "ult_4h": 1792693957.3454669,
  "estrategia_4h": {
   "oro": {
-   "precio": 4055.6,
+   "precio": 4054.8,
    "atr_4h": 29.19,
    "setups": [
     {
@@ -12279,23 +12277,11 @@
    ]
   },
   "nq": {
-   "precio": 29135.75,
+   "precio": 29186.5,
    "atr_4h": 243.88,
-   "setups": [
-    {
-     "direccion": "VENTA",
-     "nivel": 29391.75,
-     "entrada": 29391.75,
-     "stop": 29538.08,
-     "objetivo": 29094.25,
-     "rr": 2.03,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.85,
-     "ruptura": "2026-10-22 12:00 UTC"
-    }
-   ]
+   "setups": []
   },
-  "ts": "2026-10-22T18:17:44Z"
+  "ts": "2026-10-22T18:32:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -12343,10 +12329,6 @@
   }
  ],
  "noticias_vistas": [
-  "ec104ae301",
-  "131b5363da",
-  "14cf2bddec",
-  "bbaa573a18",
   "a4bfc0318a",
   "af2985a297",
   "19bd7ad3c0",
@@ -13142,7 +13124,11 @@
   "c9ac8c278e",
   "2214ef9837",
   "c77ece0d96",
-  "630f92e1fd"
+  "630f92e1fd",
+  "9b8592a0ab",
+  "e364bba6e3",
+  "197fe30bef",
+  "181c611c84"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
