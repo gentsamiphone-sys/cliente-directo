@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4076.7 · NQ 29267.5 · VIX 19.27",
-   "actualizado": "2026-10-22T15:07:40Z"
+   "ultimo_resultado": "Oro 4075.5 · NQ 29283.0 · VIX 19.32 · 3 noticias nuevas",
+   "actualizado": "2026-10-22T15:12:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T15:07:39Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-22T15:12:31Z",
+   "ultimo_resultado": "3 titulares nuevos: Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4075.5 · NQ 29283.0 · VIX 19.32 · 3 noticias nuevas",
+   "ts": "2026-10-22T15:12:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4076.7 · NQ 29267.5 · VIX 19.27",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4129.6 · NQ 29739.5 · VIX 16.68",
    "ts": "2026-10-22T02:07:39Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4128.0 · NQ 29748.5 · VIX 16.68 · 2 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-22T02:02:40Z"
   }
  ],
  "briefs": [
@@ -9612,12 +9612,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4076.7,
-  "nq": 29267.5,
-  "vix": 19.27,
-  "ts": "2026-10-22T15:07:40Z"
+  "oro": 4075.5,
+  "nq": 29283.0,
+  "vix": 19.32,
+  "ts": "2026-10-22T15:12:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist",
+   "link": "https://www.cnbc.com/2026/10/22/elon-musk-ukraine-starlink-alternatives.html",
+   "ts": "2026-10-22T15:08:47Z",
+   "fuente": "CNBC",
+   "id": "57f4a59189",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Miami University part of inaugural statewide Workforce Training Directory",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNktGMGRXVEhGMlZ5eGhuRG5RMjJEQ0VfMkRscVlKUHJqRlA5Y25UMHBtWEJWSE5jS2lybm5tZDdfLVcyVnRRLVVMMDRuWURWU1VoVFo3aGNOVk01aU9mZnlsVEZYNUgwV1JKMWpRUUFZMFJGdGhsUjBrbFo0VzFYcXRiekE4R1pkT0YycWV4THFYVmNBa3VWOTJoYl9sYVhfdm5wS3RjLWxMQXkwaXNlXw?oc=5",
+   "ts": "2026-10-22T15:08:30Z",
+   "fuente": "Miami University",
+   "id": "0d5b9aa7e4",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Third-party evaluators find vulnerabilities in OpenAI monitoring system during test pilot",
    "link": "https://www.cnbc.com/2026/10/22/metr-redwood-research-open-ai-test.html",
@@ -9695,6 +9713,17 @@
    "ts": "2026-10-22T14:09:51Z",
    "fuente": "CNBC",
    "id": "79b37ca8e6",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Stocks Slide After Mideast Tensions Push Oil Higher",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdDB3cDByVmVJQWQ4bzhobm83ZDVVN3MtYXh0VjlYT0xtakhpVkNrUFFHbVpWZEp2UHdpeWIwX0h2eVJqSzdod0t1Y3JxcVBaTzZlUFRKTFNkMDE4LVYxMHNjRGlYb0FsOVdqMnJuVzdHMk0xNVVxWXh4Y0tidlFtbXBUa1lXTVJGOXc1c0VvbjJ6eGVINVY0cEpFZHEtakM1UkFwdVZLVW4ySWlxV0RwNHpnNkpKcUsyRXU4RXN2Zm03QTQ?oc=5",
+   "ts": "2026-10-22T14:06:00Z",
+   "fuente": "WSJ",
+   "id": "c02eb07a66",
    "activos": [
     "nq"
    ],
@@ -10422,37 +10451,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Comcast’s (NASDAQ:CMCSA) Q3 2026 earnings results: revenue in line with expectations",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV0ZTdnM5bEc2X0xaUTZoVmNzY09rMFppYkYzSzVYZ2tncWxkZDFDZG5JR0RfajhhOXZCRzBhTWtXNC1SZ2FZZzlXaVJVYTBIbGFiSmw2NmsxUUZDNFNoenRYaEhMbkVJd3h4N3pHMUxEYk5aYTJyZWtEXzFtUklMZzdPdThtdUhWMGFYVWtkdEtNY2YwckZ0WQ?oc=5",
-   "ts": "2026-10-22T11:13:57Z",
-   "fuente": "Yahoo Finance",
-   "id": "f356eb166a",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "American Airlines expects deeper 2026 loss on pricier fuel despite record revenue",
-   "link": "https://www.cnbc.com/2026/10/22/american-airlines-aal-q3-2026-earnings.html",
-   "ts": "2026-10-22T11:11:32Z",
-   "fuente": "CNBC",
-   "id": "d571df07fb",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Nasdaq: Q3 Earnings Snapshot",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTFJGTGd5Uk0zejYwT1F1N1QwTDZaWFFZd3ZqU3VFMjJ1Y2dVMnUwVkF3RDRlWmR4MVJ5Ynh4bHphdHhhNEszTk5Ld1ltNW9DN1VtT2FoaW1EOWQ1azFQU0RFaExJSkVUbGtXS0JHWHlnOVFoSEF1bFRYeUpYbktra1VDYU1DelVDYU95anN4cUlnWTliUkVR?oc=5",
-   "ts": "2026-10-22T11:10:37Z",
-   "fuente": "Yahoo Finance",
-   "id": "0f7ec57934",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -11069,14 +11067,21 @@
     4072.5,
     4080.1,
     4059.5,
-    4077.8
+    4075.0
    ],
    [
-    1792681057,
-    4076.7,
-    4076.7,
-    4076.7,
-    4076.7
+    1792681200,
+    4074.9,
+    4077.7,
+    4074.4,
+    4076.8
+   ],
+   [
+    1792681349,
+    4075.5,
+    4075.5,
+    4075.5,
+    4075.5
    ]
   ],
   "nq": [
@@ -11680,14 +11685,21 @@
     29542.0,
     29594.75,
     29250.0,
-    29281.0
+    29307.25
    ],
    [
-    1792681059,
-    29267.5,
-    29267.5,
-    29267.5,
-    29267.5
+    1792681200,
+    29307.75,
+    29323.75,
+    29279.5,
+    29290.75
+   ],
+   [
+    1792681351,
+    29283.0,
+    29283.0,
+    29283.0,
+    29283.0
    ]
   ],
   "vix": [
@@ -12137,14 +12149,14 @@
     17.95,
     19.37,
     17.85,
-    19.3
+    19.32
    ],
    [
-    1792680751,
-    19.27,
-    19.27,
-    19.27,
-    19.27
+    1792681036,
+    19.32,
+    19.32,
+    19.32,
+    19.32
    ]
   ]
  },
@@ -12230,9 +12242,6 @@
   }
  ],
  "noticias_vistas": [
-  "a940d3230f",
-  "d68a73cb78",
-  "1d8fb2c9dd",
   "f27375dc90",
   "f0dfc12148",
   "be05cf1ba6",
@@ -13029,7 +13038,10 @@
   "9a3a21cd35",
   "e0e25cd7ec",
   "489afa990f",
-  "538d67344f"
+  "538d67344f",
+  "57f4a59189",
+  "0d5b9aa7e4",
+  "c02eb07a66"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
