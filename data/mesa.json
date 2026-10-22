@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4103.3 · NQ 29453.0 · VIX 18.31 · 1 noticias nuevas",
-   "actualizado": "2026-10-22T09:02:37Z"
+   "ultimo_resultado": "Oro 4099.6 · NQ 29427.75 · VIX 18.4 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-22T09:07:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T09:02:36Z",
-   "ultimo_resultado": "1 titulares nuevos: AI Trade Stumbles After Tech Earnings, Oil Rallies: Markets Wrap"
+   "actualizado": "2026-10-22T09:07:33Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Trump rallies in Iowa where farmers have been hit hard by tariffs and rising fuel prices"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4099.6 · NQ 29427.75 · VIX 18.4 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-22T09:07:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4103.3 · NQ 29453.0 · VIX 18.31 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4150.5 · NQ 30040.75 · VIX 16.76",
    "ts": "2026-10-21T19:57:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4151.9 · NQ 30012.0 · VIX 16.77",
-   "ts": "2026-10-21T19:52:39Z"
   }
  ],
  "briefs": [
@@ -9404,12 +9404,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4103.3,
-  "nq": 29453.0,
-  "vix": 18.31,
-  "ts": "2026-10-22T09:02:37Z"
+  "oro": 4099.6,
+  "nq": 29427.75,
+  "vix": 18.4,
+  "ts": "2026-10-22T09:07:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Trump rallies in Iowa where farmers have been hit hard by tariffs and rising fuel prices",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ0pqWkUzRExpUjBIME9wREJkcFhabGxMbm1UTE5NWlNDS0J6LXdZZzFoUEsyMmpreUNIaXliSGJNaWpFS3JIbE5iYVBWMW8wa1g3eWdJdHJKMlUteFcyRnE2YnJadTlRc1BlcFFjQ2JGajJkNTNqbnlTdlB0VGk3N2p1eVlRc1RyOVpxaWcwRzgzWkFXVlE?oc=5",
+   "ts": "2026-10-22T09:00:00Z",
+   "fuente": "MS NOW",
+   "id": "dcb45387d5",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "AI Trade Stumbles After Tech Earnings, Oil Rallies: Markets Wrap",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeTBrLWVPck50dERfQ3N3cFhBMFpUN3lfZFFOeXZLM0lDR0lOSFp2Vnd0OHFaWU5JQ092UHg4XzlXQlEtN2JQNG1oWnpFYWFKSUFoYmZkT1FqTHR1bXR5b010d3ZvSENDZ0phTk04R1k5aUg4Z2ZTb1p2MmQ2LW53Ulk5NktSU0prZWwtMkFIZFo1SDll?oc=5",
@@ -9418,6 +9427,26 @@
    "id": "8496fec29a",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Ghana moves to standardise mining pay amid local-content drive",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVVQ1cEtCT2JFRlBMX2wzdlR4TkJqSS1CUDRTd0dnUjZLbEdvRnlFTVFfNEF3R29QRGxNSGxTbEZkNW9ESG8zbmpwRE0zY1JnWkVQR1RrWmV1MXpfY2VSNkVlcnJ3X19XNHg4bmd2RTJmY3p3UnR0aXZ1RUx6V0RMYmhPck9fdkExOWFLZnk4c01jR1FlcHpOelRGYzg4Y1dqT3RYekh0OTlPZXJv?oc=5",
+   "ts": "2026-10-22T08:55:58Z",
+   "fuente": "Reuters",
+   "id": "0587c6b626",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Metals One, Arrow Exploration, IXICO, Ilika, IP Group - Small Cap Snapshot",
+   "link": "https://finance.yahoo.com/video/metals-one-arrow-exploration-ixico-085038788.html?.tsrc=rss",
+   "ts": "2026-10-22T08:50:38Z",
+   "fuente": "Yahoo Finance",
+   "id": "471f6bac6b",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "AI Stocks Slide After Earnings Disappoint; French Bonds Tumble and Oil Tops $112",
@@ -10280,39 +10309,6 @@
    "impacto": "alto",
    "es": "Nasdaq lidera ganancias en Wall Street impulsado por IA con SpaceX y Super Micro",
    "efecto": "Impulsa compras institucionales en futuros del Nasdaq."
-  },
-  {
-   "titulo": "S&P 500, Nasdaq Gain, Powered By Meta, Tesla Stock — SPCX, META, TSLA, SKYD, IBM In Focus",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONjQyd3F1UEZZNnhKMnA3YmhnSmxHWjlGQmpfcVRXZlFlaHVFMG5ySk1oRkQ3YWtPbmdLaVpTNkZLQnIteXBiU1hIa2xibUFwZ2xiTEsyaXlZN3htczcteEdYQ1pLN0J1WjlzSDFBbzFON2p5QVhURXNyUkV0aU1BSWRCWF9jekNidXY4Nkdvdm5YMmpQ?oc=5",
-   "ts": "2026-10-21T23:15:19Z",
-   "fuente": "Yahoo Finance",
-   "id": "fc676e4482",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Pantoro Gold closes September quarter with production lift and A$240 million cash and gold",
-   "link": "https://www.proactiveinvestors.com/companies/news/1100506/pantoro-gold-closes-september-quarter-with-production-lift-and-a-240-million-cash-and-gold-1100506.html?.tsrc=rss",
-   "ts": "2026-10-21T23:12:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "fbbb93d5fc",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Analysts lift gold 58 places higher amid central bank purchases",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUVVEUndHMVFUOWNPN3A0a1B3S00tSUJMcW1XZTRfa1ZLZnJucjlsZmV3VVNUbERXSkFBZWJaWHBfbVRvRUs3M2ktQnp1TGZrSVJXVl9weE5JbWgxQ0dVUVBuWVIxYnpVblRhR2tDdlRYZ0dPWGoxX25UZFdSbnlsaEk5MA?oc=5",
-   "ts": "2026-10-21T23:04:11Z",
-   "fuente": "Yahoo Finance Singapore",
-   "id": "1e7b2617be",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -10887,14 +10883,14 @@
     4104.2,
     4110.1,
     4097.7,
-    4102.9
+    4099.9
    ],
    [
-    1792659150,
-    4103.3,
-    4103.3,
-    4103.3,
-    4103.3
+    1792659447,
+    4099.6,
+    4099.6,
+    4099.6,
+    4099.6
    ]
   ],
   "nq": [
@@ -11455,15 +11451,15 @@
     1792656000,
     29483.0,
     29509.5,
-    29447.5,
-    29456.5
+    29423.25,
+    29430.5
    ],
    [
-    1792659155,
-    29453.0,
-    29453.0,
-    29453.0,
-    29453.0
+    1792659453,
+    29427.75,
+    29427.75,
+    29427.75,
+    29427.75
    ]
   ],
   "vix": [
@@ -11870,15 +11866,15 @@
     1792656000,
     18.46,
     18.51,
-    18.32,
-    18.32
+    18.31,
+    18.36
    ],
    [
-    1792658851,
-    18.31,
-    18.31,
-    18.31,
-    18.31
+    1792659151,
+    18.4,
+    18.4,
+    18.4,
+    18.4
    ]
   ]
  },
@@ -11963,9 +11959,6 @@
   }
  ],
  "noticias_vistas": [
-  "a934adece7",
-  "407bcd41a5",
-  "a988e770a9",
   "7cd9f4c5dd",
   "306ade7a57",
   "84499fd8cc",
@@ -12762,7 +12755,10 @@
   "791979ede8",
   "e47ffe6990",
   "f109e2f613",
-  "8496fec29a"
+  "8496fec29a",
+  "dcb45387d5",
+  "0587c6b626",
+  "471f6bac6b"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
