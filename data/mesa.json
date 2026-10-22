@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T06:33:04Z",
-   "ultimo_resultado": "Mapa listo: oro 4116.3 · NQ 29532.25."
+   "actualizado": "2026-10-22T07:17:31Z",
+   "ultimo_resultado": "Estrategia 4H ORO: VENTA: esperar retesteo de 4124.0 · stop 4140.35 · objetivo 4082.4 · R:R 2.54 (esperando retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T07:12:30Z",
-   "ultimo_resultado": "1 titulares nuevos: Uganda export earnings up 36% in August on higher gold receipts"
+   "actualizado": "2026-10-22T07:17:31Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H ORO: VENTA: esperar retesteo de 4124.0 · stop 4140.35 · objetivo 4082.4 · R:R 2.54 (esperando retesteo). Tú ejecutas.",
+   "ts": "2026-10-22T07:17:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4108.1 · NQ 29539.5 · VIX — · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4152.7 · NQ 30056.5 · VIX 16.62 · 1 noticias nuevas",
    "ts": "2026-10-21T17:57:38Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4154.8 · NQ 30076.75 · VIX 16.65 · 2 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-21T17:52:36Z"
   }
  ],
  "briefs": [
@@ -9404,9 +9404,9 @@
   }
  },
  "en_vivo": {
-  "oro": 4108.1,
-  "nq": 29539.5,
-  "ts": "2026-10-22T07:12:31Z"
+  "oro": 4106.6,
+  "nq": 29502.5,
+  "ts": "2026-10-22T07:17:31Z"
  },
  "noticias": [
   {
@@ -11856,31 +11856,42 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-22T07:02:39Z",
- "ult_4h": 1792652565.8481224,
+ "ult_4h": 1792653451.2960148,
  "estrategia_4h": {
   "oro": {
-   "precio": 4109.4,
-   "atr_4h": 26.78,
+   "precio": 4106.6,
+   "atr_4h": 27.25,
    "setups": [
+    {
+     "direccion": "VENTA",
+     "nivel": 4124.0,
+     "entrada": 4124.0,
+     "stop": 4140.35,
+     "objetivo": 4082.4,
+     "rr": 2.54,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 1.3,
+     "ruptura": "2026-10-22 00:00 UTC"
+    },
     {
      "direccion": "VENTA",
      "nivel": 4151.6,
      "entrada": 4151.6,
-     "stop": 4167.67,
+     "stop": 4167.95,
      "objetivo": 4082.4,
-     "rr": 4.31,
+     "rr": 4.23,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.81,
+     "fuerza_ruptura_atr": 0.8,
      "ruptura": "2026-10-20 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29526.0,
-   "atr_4h": 224.14,
+   "precio": 29502.5,
+   "atr_4h": 225.18,
    "setups": []
   },
-  "ts": "2026-10-22T07:02:46Z"
+  "ts": "2026-10-22T07:17:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -11911,7 +11922,8 @@
   "oro|VENTA|4170.1|en retesteo",
   "oro|VENTA|4151.6|esperando retesteo",
   "oro|VENTA|4151.6|en retesteo",
-  "oro|VENTA|4130.1|esperando retesteo"
+  "oro|VENTA|4130.1|esperando retesteo",
+  "oro|VENTA|4124.0|esperando retesteo"
  ],
  "alpha_ordenes": [
   {
