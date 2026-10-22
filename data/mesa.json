@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4135.1 · NQ 29700.5 · VIX 16.68 · 1 noticias nuevas",
-   "actualizado": "2026-10-22T02:47:38Z"
+   "ultimo_resultado": "Oro 4133.7 · NQ 29684.75 · VIX 16.68 · 1 noticias nuevas",
+   "actualizado": "2026-10-22T02:52:45Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T02:47:38Z",
-   "ultimo_resultado": "1 titulares nuevos: Debate al Senado de Kansas: Marshall y Hamilton discuten sobre precios del diésel y aranceles"
+   "actualizado": "2026-10-22T02:52:44Z",
+   "ultimo_resultado": "1 titulares nuevos: E-mini Nasdaq-100 futures rally on strong SpaceX AI earnings."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4133.7 · NQ 29684.75 · VIX 16.68 · 1 noticias nuevas",
+   "ts": "2026-10-22T02:52:45Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4135.1 · NQ 29700.5 · VIX 16.68 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "VIX/NQ: CONFIRMA BAJISTA: NQ baja y el VIX sube (se compra protección)",
    "ts": "2026-10-21T12:33:08Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
-   "ts": "2026-10-21T12:33:07Z"
   }
  ],
  "briefs": [
@@ -9230,10 +9230,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4135.1,
-  "nq": 29700.5,
+  "oro": 4133.7,
+  "nq": 29684.75,
   "vix": 16.68,
-  "ts": "2026-10-22T02:47:38Z"
+  "ts": "2026-10-22T02:52:45Z"
  },
  "noticias": [
   {
@@ -9334,6 +9334,17 @@
    "ts": "2026-10-22T01:05:15Z",
    "fuente": "CNBC",
    "id": "ad5cd078df",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "E-mini Nasdaq-100 futures rally on strong SpaceX AI earnings.",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc1hRZE9NUXk2Vko2a2FYQjhjWDA1TWF2bnNUWGFfdVJYeGlLcjFPeDlrTWprRDRycFFGbk1vN1g0WnlYN0dIZGQ4VmZObVc3NVQ3MWJFRTBWRUJLREd4dUpqMkpsYUpzUHNzelV4QkxyV2pmbVJkclQ5RnFfVHpJZUxid2FTVXlaYkZoVDc0dGNuUmVFMkNURjEydmRyUjRrcnhzcE9VOWtFcHJmMENCNQ?oc=5",
+   "ts": "2026-10-22T01:02:37Z",
+   "fuente": "CME Group",
+   "id": "41d8987d20",
    "activos": [
     "nq"
    ],
@@ -10116,15 +10127,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "What Are Managed Futures ETFs? 'Crisis Alpha' Explained",
-   "link": "http://www.etf.com/sections/etf-basics/what-are-managed-futures-etfs-crisis-alpha-explained?utm_source=yahoo-finance&amp;utm_medium=rss&amp;utm_campaign=yahoo-finance-rss&amp;.tsrc=rss",
-   "ts": "2026-10-21T19:33:49Z",
-   "fuente": "Yahoo Finance",
-   "id": "8aaa9ddb92",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -10762,14 +10764,14 @@
     4131.6,
     4140.5,
     4124.7,
-    4136.4
+    4133.8
    ],
    [
-    1792636656,
-    4135.0,
-    4135.0,
-    4135.0,
-    4135.0
+    1792636963,
+    4133.7,
+    4133.7,
+    4133.7,
+    4133.7
    ]
   ],
   "nq": [
@@ -11394,14 +11396,14 @@
     29755.0,
     29759.0,
     29678.0,
-    29702.5
+    29683.25
    ],
    [
-    1792636656,
-    29700.5,
-    29700.5,
-    29700.5,
-    29700.5
+    1792636963,
+    29684.75,
+    29684.75,
+    29684.75,
+    29684.75
    ]
   ],
   "vix": [
@@ -11982,7 +11984,6 @@
   }
  ],
  "noticias_vistas": [
-  "5682f8a744",
   "c0f09f6879",
   "e29587168f",
   "2086df8cb7",
@@ -12781,7 +12782,8 @@
   "1e7b2617be",
   "49340f03ed",
   "22cbc99c31",
-  "bb6e6ed24b"
+  "bb6e6ed24b",
+  "41d8987d20"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
