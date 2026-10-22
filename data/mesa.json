@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4126.4 · NQ 29772.0 · VIX 16.68",
-   "actualizado": "2026-10-22T01:37:33Z"
+   "ultimo_resultado": "Oro 4131.3 · NQ 29771.5 · VIX 16.68 · 4 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-22T01:42:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T01:37:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-22T01:42:33Z",
+   "ultimo_resultado": "4 titulares nuevos, 2 de alto impacto: Gold falls near $4,115 as Saudi attacks fuel inflation, Fed outlook in focus"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4131.3 · NQ 29771.5 · VIX 16.68 · 4 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-22T01:42:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4126.4 · NQ 29772.0 · VIX 16.68",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4157.9 · NQ 29861.25 · VIX 17.34 · 2 noticias nuevas",
    "ts": "2026-10-21T12:22:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4159.9 · NQ 29866.25 · VIX 17.34 · 2 noticias nuevas",
-   "ts": "2026-10-21T12:17:37Z"
   }
  ],
  "briefs": [
@@ -9230,12 +9230,35 @@
   }
  },
  "en_vivo": {
-  "oro": 4126.4,
-  "nq": 29772.0,
+  "oro": 4131.3,
+  "nq": 29771.5,
   "vix": 16.68,
-  "ts": "2026-10-22T01:37:33Z"
+  "ts": "2026-10-22T01:42:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Gold falls near $4,115 as Saudi attacks fuel inflation, Fed outlook in focus",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-near-4-115-013120980.html?.tsrc=rss",
+   "ts": "2026-10-22T01:31:20Z",
+   "fuente": "Yahoo Finance",
+   "id": "0b8058a159",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "What Does Seabridge Gold (TSX:SEA) Acquiring Slaughterhouse Mean For Investors?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/does-seabridge-gold-tsx-sea-012323243.html?.tsrc=rss",
+   "ts": "2026-10-22T01:23:23Z",
+   "fuente": "Yahoo Finance",
+   "id": "a74cceaecb",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Southeast Asia is hungry for AI — and the money isn't just in subscriptions",
    "link": "https://www.cnbc.com/2026/10/22/southeasaisa-singapore-bain-temasek-google-.html",
@@ -9261,6 +9284,17 @@
    "efecto": "Ruido político local sin impacto en activos principales."
   },
   {
+   "titulo": "Aya Gold & Silver (TSX:AYA) Could Be 26% Below Fair Value As Boumadine Update Lands",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPajk2OEdqWEdZN0JhLWRET2dOdy1nX0F1X1lfY1dOSjlsR08wYk8zeHhnUXczQ2dCX3hBVGplUmhWVmx1MnFtSUR0U3JvTGk1cExNVkt0anNGWER4OTlNOWRJNS1sQ0ZzMzZCNE1DdDI5emM0VllITFFkSDNyTjBycERzRW82MVN4QnZtTkkyaDlLZw?oc=5",
+   "ts": "2026-10-22T01:17:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "c04aca84ce",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Critical web security flaws spark global alarm as Google, OpenAI and Amazon respond",
    "link": "https://www.cnbc.com/2026/10/22/php-google-openai-and-amazon-cyber.html",
    "ts": "2026-10-22T01:05:15Z",
@@ -9270,6 +9304,17 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Gold futures rebound as traders look ahead to FOMC meeting.",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQd0xrZzJUU0NZYTdrb3hpZGctejhBaVVTWkJDYmJ4cVl3S05TcEstZ09xXzBmUDg3cnpXME01OEtxcFZTU1BSNXhWdFBJZWJpd0tMTXNUd3BhTVlvTXA5Z3VsYXVzMnNkYnZueU1ORE9GX1pJZnJWMWFnblJGeExuUW5FejRTdTdnU1U3TlpITEFTX01KakRBVVUwc1ZMZGtEVEdza0FGMFFuNVRlYVdHRQ?oc=5",
+   "ts": "2026-10-22T01:02:37Z",
+   "fuente": "CME Group",
+   "id": "87077f9a63",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Bank of Korea holds rates after President Lee calls for boosting housing supply",
@@ -10078,48 +10123,6 @@
    "impacto": "alto",
    "es": "El comercio de IA podría estar en un punto de inflexión.",
    "efecto": "Genera volatilidad en tecnológicas y presiona al NQ."
-  },
-  {
-   "titulo": "Todd Gordon is turning to this inverse Nasdaq ETF as tech stocks weaken",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdzZkYmc2ZWtpQ2xuSGNQWFRSTThFYVJBczB0TjV6SWFxc0hEdnB6V29xeHB6bzRwSGs3UlUyQ1h1TzhxVTg2WlVLWHpJRVJWYW1NV2xKNkcwVWlZenBacU8tbGZnM3ZOMDNfSGo4RkVNOVNpdndta01vTllSREt2MkQzaVl5YUZ5Tk9JMVBhSEd4ek01QkptOE5ZRENpMW1GU0hfM3hrMEVYdXplNE9JdlFJSG4?oc=5",
-   "ts": "2026-10-21T18:43:52Z",
-   "fuente": "CNBC",
-   "id": "c33567bdd6",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "IEEPA Tariffs Struck Down, Replacement Tariffs Expired: What Importers Need to Know Now",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZmJ2UDI5ZUwwWEVzUXJqZExFZDloby1mSndYZlhteGVMTHdhVVlEanJKdnV5SEtkZ3V5eFkyaDQ4bVc5MWFUUVFpd2NGRmN2cVNRZXkxS0lubVlFeXFQV1pxazRCM3VCQlZ3VldySmZXdXJrQUR2eWNwRnBRRzMzX2JJd0xwWVE?oc=5",
-   "ts": "2026-10-21T18:33:30Z",
-   "fuente": "JD Supra",
-   "id": "c438e1860f",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Netflix has dipped its toe into theatrical. Is it ready to jump in?",
-   "link": "https://www.cnbc.com/2026/10/21/netflix-theatrical-strategy.html",
-   "ts": "2026-10-21T18:32:12Z",
-   "fuente": "CNBC",
-   "id": "50fa65a63f",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Netflix entra en el cine, ¿está lista para lanzarse?",
-   "efecto": "Sin impacto institucional en oro, NQ o dólar."
-  },
-  {
-   "titulo": "I Wasn’t Sold on Slider Sights. Then I Shot This: Black Gold Modd Bow Sight Review",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1LT294enY2UGtsWWxDVzkzX2tnOHVXQ01jbEtHU24zTHBCTlpIWmtDSTlaV1pxOERKY3c3dndUTFViMVJ4UUJkVW5OeHBtMUNIY0tCOW82bldRenNQSWQ3MkRUV1daNTVibW9QTDdobWtPMnA4MGUyVG5jbzVjUQ?oc=5",
-   "ts": "2026-10-21T18:27:20Z",
-   "fuente": "GearJunkie",
-   "id": "3d269295a8",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -10757,14 +10760,14 @@
     4129.9,
     4135.1,
     4123.7,
-    4127.9
+    4131.8
    ],
    [
-    1792632450,
-    4126.4,
-    4126.4,
-    4126.4,
-    4126.4
+    1792632750,
+    4131.3,
+    4131.3,
+    4131.3,
+    4131.3
    ]
   ],
   "nq": [
@@ -11389,14 +11392,14 @@
     29793.5,
     29812.0,
     29756.5,
-    29771.75
+    29769.75
    ],
    [
-    1792632446,
-    29772.0,
-    29772.0,
-    29772.0,
-    29772.0
+    1792632753,
+    29771.5,
+    29771.5,
+    29771.5,
+    29771.5
    ]
   ],
   "vix": [
@@ -11977,10 +11980,6 @@
   }
  ],
  "noticias_vistas": [
-  "c6955e4718",
-  "d6c3886e71",
-  "e8b2db9d50",
-  "1f59acd21c",
   "78ef9bfaf1",
   "7c86fca558",
   "b4a7cbccdf",
@@ -12776,7 +12775,11 @@
   "ad5cd078df",
   "4cde881f4b",
   "1b4dbbf29b",
-  "496638dadd"
+  "496638dadd",
+  "0b8058a159",
+  "a74cceaecb",
+  "c04aca84ce",
+  "87077f9a63"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
