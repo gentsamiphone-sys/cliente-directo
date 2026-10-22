@@ -4040,10 +4040,10 @@
    "actualizado": "2026-10-21T23:07:09Z"
   },
   "gerente": {
-   "estado": "trabajando",
-   "tarea": "Actualicé el reporte del día.",
+   "estado": "descansando",
+   "tarea": "",
    "ultimo_resultado": "179 textos listos para mandar",
-   "actualizado": "2026-10-22T00:37:33Z"
+   "actualizado": "2026-10-22T00:37:34Z"
   },
   "disenador": {
    "estado": "descansando",
@@ -4065,6 +4065,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "gerente",
+   "texto": "Terminó su turno: 179 textos listos para mandar",
+   "ts": "2026-10-22T00:37:34Z"
+  },
   {
    "agente": "gerente",
    "texto": "Actualicé el reporte del día.",
@@ -5559,11 +5564,6 @@
    "agente": "buscador",
    "texto": "Terminó su turno: No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
    "ts": "2026-10-19T17:06:27Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ts": "2026-10-19T17:06:23Z"
   }
  ],
  "reportes": {
@@ -5695,5 +5695,6 @@
  "aviso_2026-10-19pm": true,
  "aviso_2026-10-20am": true,
  "aviso_2026-10-20pm": true,
- "aviso_2026-10-21am": true
+ "aviso_2026-10-21am": true,
+ "aviso_2026-10-21pm": true
 }
