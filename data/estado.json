@@ -4101,9 +4101,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Craig Rd…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-10-22T17:02:41Z"
+   "actualizado": "2026-10-22T17:06:42Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -4131,6 +4131,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-22T17:06:42Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Craig Rd…",
@@ -5625,11 +5630,6 @@
    "agente": "buscador",
    "texto": "Encontré Chicago Guys Pizza Co., sin página web.",
    "ts": "2026-10-20T07:07:08Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Encontré Lino's Pizza & Italian Cuisine, sin página web.",
-   "ts": "2026-10-20T07:07:07Z"
   }
  ],
  "reportes": {
