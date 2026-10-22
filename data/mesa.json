@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4106.9 · NQ 29480.75 · VIX 18.44 · 1 noticias nuevas",
-   "actualizado": "2026-10-22T10:32:36Z"
+   "ultimo_resultado": "Oro 4107.1 · NQ 29542.75 · VIX 18.28 · 6 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-22T10:42:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T10:32:35Z",
-   "ultimo_resultado": "1 titulares nuevos: This 1 retirement expense has a ‘really, really big impact,’ according to a Morningstar researcher. Are you at risk?"
+   "actualizado": "2026-10-22T10:42:35Z",
+   "ultimo_resultado": "6 titulares nuevos, 3 de alto impacto: El crudo Brent supera los 111 dólares por tensiones en Medio Oriente y posibles ataques a Irán."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4107.1 · NQ 29542.75 · VIX 18.28 · 6 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-22T10:42:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4106.9 · NQ 29480.75 · VIX 18.44 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-21T21:27:40Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-21T21:22:31Z"
   }
  ],
  "briefs": [
@@ -9404,12 +9404,79 @@
   }
  },
  "en_vivo": {
-  "oro": 4106.9,
-  "nq": 29480.75,
-  "vix": 18.44,
-  "ts": "2026-10-22T10:32:36Z"
+  "oro": 4107.1,
+  "nq": 29542.75,
+  "vix": 18.28,
+  "ts": "2026-10-22T10:42:36Z"
  },
  "noticias": [
+  {
+   "titulo": "Brent crude tops $111 on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes",
+   "link": "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html",
+   "ts": "2026-10-22T10:42:21Z",
+   "fuente": "CNBC",
+   "id": "5a13cc5995",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El crudo Brent supera los 111 dólares por tensiones en Medio Oriente y posibles ataques a Irán.",
+   "efecto": ""
+  },
+  {
+   "titulo": "Stock futures sell off as Meta and Tesla lead AI trade lower; oil rises: Live updates",
+   "link": "https://www.cnbc.com/2026/10/21/stock-market-today-live-updates.html",
+   "ts": "2026-10-22T10:41:41Z",
+   "fuente": "CNBC",
+   "id": "051b88537f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Los futuros de acciones caen liderados por Meta y Tesla; el petróleo sube.",
+   "efecto": ""
+  },
+  {
+   "titulo": "Gold price today, Thursday, October 22, 2026: No real upward price momentum for gold",
+   "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-october-22-2026-no-real-upward-price-momentum-for-gold-103501157.html?.tsrc=rss",
+   "ts": "2026-10-22T10:35:01Z",
+   "fuente": "Yahoo Finance",
+   "id": "bf53961772",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio",
+   "es": "Precio del oro hoy, 22 de octubre de 2026: sin impulso alcista real.",
+   "efecto": ""
+  },
+  {
+   "titulo": "Tariffs and inflation. 36 varieties of Keynesianism. T.W. Schultz and the battle over margarine in Iowa. Surviving AIDS.",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNdVhnNngxbmNiNmJlcVE2ZXFKNnhNTE1ORm0wdktkWUJxbXExNllhUmtzcXNrNmtIRXBJYU03N3k5THdqWmNqRTJDMy1QalNiUGV2elRyTk56QmxDOExvQlJOY01CZVVJYThvejRvVGlCQ0I4cVE?oc=5",
+   "ts": "2026-10-22T10:31:17Z",
+   "fuente": "Chartbook | Adam Tooze",
+   "id": "39f18d507d",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "bajo",
+   "es": "Aranceles, inflación y debate histórico sobre políticas económicas.",
+   "efecto": ""
+  },
+  {
+   "titulo": "Lions Bay Resources Agrees to Be Acquired by Metals One to Form South Africa-Focused Gold and Power Business Led by Former CEO of the Nation's Largest Gold Producer",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/lions-bay-resources-agrees-acquired-103100816.html?.tsrc=rss",
+   "ts": "2026-10-22T10:31:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "36b746c7de",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Lions Bay Resources es adquirida por Metals One para formar empresa de oro y energía.",
+   "efecto": ""
+  },
   {
    "titulo": "This 1 retirement expense has a ‘really, really big impact,’ according to a Morningstar researcher. Are you at risk?",
    "link": "https://finance.yahoo.com/healthcare/articles/1-retirement-expense-really-really-101500789.html?.tsrc=rss",
@@ -9905,6 +9972,21 @@
    "efecto": "Sin impacto macro relevante; ruido bursátil para el NQ."
   },
   {
+   "titulo": "Yen surges to 3-week high as dollar wobbles ahead of c.bank meetings",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-mixed-dollar-slips-054154955.html?.tsrc=rss",
+   "ts": "2026-10-22T05:41:54Z",
+   "fuente": "Yahoo Finance",
+   "id": "2b57d3e951",
+   "activos": [
+    "dolar",
+    "oro",
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "El yen sube a máximo de 3 semanas mientras el dólar flaquea ante reuniones de bancos centrales.",
+   "efecto": ""
+  },
+  {
    "titulo": "Yen rallies as dollar slips to 3-wk low; traders eye central bank meetings",
    "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-mixed-dollar-slips-054154955.html?.tsrc=rss",
    "ts": "2026-10-22T05:41:54Z",
@@ -10235,76 +10317,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "What Does Seabridge Gold (TSX:SEA) Acquiring Slaughterhouse Mean For Investors?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/does-seabridge-gold-tsx-sea-012323243.html?.tsrc=rss",
-   "ts": "2026-10-22T01:23:23Z",
-   "fuente": "Yahoo Finance",
-   "id": "a74cceaecb",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Southeast Asia is hungry for AI — and the money isn't just in subscriptions",
-   "link": "https://www.cnbc.com/2026/10/22/southeasaisa-singapore-bain-temasek-google-.html",
-   "ts": "2026-10-22T01:22:22Z",
-   "fuente": "CNBC",
-   "id": "1b4dbbf29b",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "El sudeste asiático demanda IA y el dinero va más allá de las suscripciones",
-   "efecto": "Impulsa al NASDAQ por expansión del sector tecnológico."
-  },
-  {
-   "titulo": "James Talarico fires back at Elon Musk in Texas Senate race feud",
-   "link": "https://www.cnbc.com/2026/10/22/james-talarico-elon-musk-ken-paxton-texas-senate-race.html",
-   "ts": "2026-10-22T01:21:10Z",
-   "fuente": "CNBC",
-   "id": "496638dadd",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "James Talarico responde a Elon Musk en disputa por el Senado de Texas",
-   "efecto": "Ruido político local sin impacto en activos principales."
-  },
-  {
-   "titulo": "Artemis Gold And 2 Canadian Founder Led Stocks To Watch",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY09XRlZGelV1RndJejNsc19KSVptWW5ucjQzYk45UUcxOG4tQ2N3aUdzWkJvcE1aWThBVk5OZ19vbDVLSGRNbkVfT1I0b2lqVDZwbzN5N2ttblBhM0plbHNkTHRXdURTTXZCR2hkOGpRdVRodnFrNFg4MzE3R3Jlck1HZG1pVGlLZzNJbmxJMGZRQ0RVLW1aWkFjejU?oc=5",
-   "ts": "2026-10-22T01:17:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "514c6c4ffa",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Artemis Gold y otras dos acciones canadienses lideradas por fundadores bajo la lupa",
-   "efecto": "Sin impacto institucional relevante en los precios generales del oro."
-  },
-  {
-   "titulo": "Aya Gold & Silver (TSX:AYA) Could Be 26% Below Fair Value As Boumadine Update Lands",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPajk2OEdqWEdZN0JhLWRET2dOdy1nX0F1X1lfY1dOSjlsR08wYk8zeHhnUXczQ2dCX3hBVGplUmhWVmx1MnFtSUR0U3JvTGk1cExNVkt0anNGWER4OTlNOWRJNS1sQ0ZzMzZCNE1DdDI5emM0VllITFFkSDNyTjBycERzRW82MVN4QnZtTkkyaDlLZw?oc=5",
-   "ts": "2026-10-22T01:17:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "c04aca84ce",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Critical web security flaws spark global alarm as Google, OpenAI and Amazon respond",
-   "link": "https://www.cnbc.com/2026/10/22/php-google-openai-and-amazon-cyber.html",
-   "ts": "2026-10-22T01:05:15Z",
-   "fuente": "CNBC",
-   "id": "ad5cd078df",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -10891,16 +10903,16 @@
    [
     1792663200,
     4104.6,
-    4108.0,
+    4108.8,
     4100.7,
-    4107.2
+    4107.7
    ],
    [
-    1792664555,
-    4106.8,
-    4106.8,
-    4106.8,
-    4106.8
+    1792665154,
+    4107.1,
+    4107.1,
+    4107.1,
+    4107.1
    ]
   ],
   "nq": [
@@ -11474,16 +11486,16 @@
    [
     1792663200,
     29469.25,
-    29491.25,
+    29544.0,
     29445.75,
-    29482.0
+    29540.25
    ],
    [
-    1792664555,
-    29480.75,
-    29480.75,
-    29480.75,
-    29480.75
+    1792665154,
+    29542.75,
+    29542.75,
+    29542.75,
+    29542.75
    ]
   ],
   "vix": [
@@ -11904,19 +11916,19 @@
     1792663200,
     18.49,
     18.5,
-    18.34,
-    18.44
+    18.3,
+    18.3
    ],
    [
-    1792664251,
-    18.44,
-    18.44,
-    18.44,
-    18.44
+    1792664851,
+    18.28,
+    18.28,
+    18.28,
+    18.28
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-22T10:07:37Z",
+ "noticias_traducidas_ts": "2026-10-22T10:42:33Z",
  "ult_4h": 1792665156.095519,
  "estrategia_4h": {
   "oro": {
@@ -11997,12 +12009,6 @@
   }
  ],
  "noticias_vistas": [
-  "f291f8013a",
-  "d967d8ee41",
-  "506dfe26e5",
-  "46a501995a",
-  "f28ceeb16d",
-  "e3912d43ba",
   "479ccef840",
   "e26c135507",
   "254495a8ec",
@@ -12796,7 +12802,13 @@
   "c710bf5981",
   "db16d41402",
   "25ea9b38e7",
-  "0bd5fc99d5"
+  "0bd5fc99d5",
+  "5a13cc5995",
+  "051b88537f",
+  "bf53961772",
+  "39f18d507d",
+  "36b746c7de",
+  "2b57d3e951"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
