@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4043.4 · NQ 29212.0 · VIX 19.23",
-   "actualizado": "2026-10-22T20:12:34Z"
+   "ultimo_resultado": "Oro 4043.5 · NQ 29157.0 · VIX 18.89 · 8 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-22T20:17:45Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T20:12:34Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-22T20:17:44Z",
+   "ultimo_resultado": "8 titulares nuevos, 2 de alto impacto: Nasdaq dives more than 750 points as investors worry massive AI spending won't pay off"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4043.5 · NQ 29157.0 · VIX 18.89 · 8 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-22T20:17:45Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4043.4 · NQ 29212.0 · VIX 19.23",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Mapa listo: oro 4116.3 · NQ 29532.25.",
    "ts": "2026-10-22T06:33:04Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
-   "ts": "2026-10-22T06:33:02Z"
   }
  ],
  "briefs": [
@@ -9612,18 +9612,102 @@
   }
  },
  "en_vivo": {
-  "oro": 4043.4,
-  "nq": 29212.0,
-  "vix": 19.23,
-  "ts": "2026-10-22T20:12:34Z"
+  "oro": 4043.5,
+  "nq": 29157.0,
+  "vix": 18.89,
+  "ts": "2026-10-22T20:17:44Z"
  },
  "noticias": [
+  {
+   "titulo": "Nasdaq dives more than 750 points as investors worry massive AI spending won't pay off",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUF80b0hRS1hYN3NIRHhRTXcxQ3gyeHN0UHB5QzdkdnZFRVdqNVdHU1BxTUxBamcyY3ZMUWx2ZHJfRXZ3QlVXUjNUOFcta0FzNjdyZUk3S0s1YldtZThyZ3FXSjhlV2o1OWlrcy1yRXZ3cGNVVWFRS2pkVmZUb3VYY3ZNTUJrdw?oc=5",
+   "ts": "2026-10-22T20:12:22Z",
+   "fuente": "CBS News",
+   "id": "668d9cada4",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "A lesson from poker tells us not to fold on Meta after its earnings sell-off. Here’s why",
+   "link": "https://www.cnbc.com/investingclub/2026/10/22/meta-stock-why-were-staying-bullish-after-the-post-earnings-sell-off.html",
+   "ts": "2026-10-22T20:11:55Z",
+   "fuente": "CNBC",
+   "id": "a769c690aa",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Trump Punts on Wind Turbine Tariffs, Allows 180 Days for Talks",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOGpoQklQcElFSEt1c2t3S0NibFRHRFZsanBOU1VRU3JNcmNQREJXZVNEd0JVMWEzNXVKdHJybnFVbEtfRW9pWURBQ19uQTBIOTBzQUdpSzJRYV9rMFF3Uk1wN2NBUmpJMnBValJ2OW81QlV1Qm5xcWtBTkpBd3BFenlwUEpWUjFpVFNYTXBaMG96VUpKU0w0RVJaSm5OUERVS1RYZVRTU29VUGJCVUFhQlp3?oc=5",
+   "ts": "2026-10-22T20:07:58Z",
+   "fuente": "Bloomberg.com",
+   "id": "4ac809d3f0",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Integra Announces Third Quarter Gold Production of 17,652 ounces, Demonstrating Continued Growth in Mining and Gold Production at Florida Canyon",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/integra-announces-third-quarter-gold-200500239.html?.tsrc=rss",
+   "ts": "2026-10-22T20:05:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "dab7471378",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "S&P 500, Nasdaq end sharply lower as revived AI doubts ignite tech selloff",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWxDZDg5X0padGNvb2k2V2ZkX2tEWW9YWkdjeVdMZHNUTlg1MXY4TmUyTDZHdUhNTHFRNWRPRjc2VFlEN3RXTDhNSjhDYmRfTWZGXzdKYXdLejRHNGgwRVdNbmZRUkFhSm9GakxMek56UUZ2OUtqajd6NVkzRkR1VzBNWlo5VWp5NUFkX2phUjlSSFlndUlNNGxvUXlHSm1wMlpTbkRR?oc=5",
+   "ts": "2026-10-22T20:01:06Z",
+   "fuente": "Reuters",
+   "id": "1901e273f1",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Gold miners face margin pressure as lower prices complicate third-quarter results",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-miners-face-margin-pressure-200011457.html?.tsrc=rss",
+   "ts": "2026-10-22T20:00:11Z",
+   "fuente": "Yahoo Finance",
+   "id": "379199c746",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Canadian dollar strengthens as oil prices, BoC rate hike bets support loonie",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-strengthens-oil-prices-200010191.html?.tsrc=rss",
+   "ts": "2026-10-22T20:00:10Z",
+   "fuente": "Yahoo Finance",
+   "id": "1a913c74eb",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "These funds can juice your tax-free portfolio income. Just be sure to mind the risk",
    "link": "https://www.cnbc.com/2026/10/22/municipal-bond-funds-tax-free-income.html",
    "ts": "2026-10-22T19:53:55Z",
    "fuente": "CNBC",
    "id": "67fd1b106b",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Update: US Equity Indexes Retreat as AI Trade Falters, Crude Oil Surges Amid Iran's Invasion Warning to Mid-East Neighbors",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-retreat-ai-195251093.html?.tsrc=rss",
+   "ts": "2026-10-22T19:52:51Z",
+   "fuente": "Yahoo Finance",
+   "id": "28e4af09da",
    "activos": [],
    "impacto": "bajo"
   },
@@ -10393,92 +10477,6 @@
    "id": "0d5b9aa7e4",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Geodrill Sees Gold, Copper Drilling Boom as Pricing Actions Target Margin Recovery",
-   "link": "https://www.marketbeat.com/instant-alerts/event-geodrill-sees-gold-copper-drilling-boom-as-pricing-actions-target-margin-recovery-2026-10-22/?utm_source=yahoofinance&amp;utm_medium=yahoofinance&amp;.tsrc=rss",
-   "ts": "2026-10-22T15:05:09Z",
-   "fuente": "Yahoo Finance",
-   "id": "c33406ebf4",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Geodrill ve auge de perforación de oro y cobre por recuperación de márgenes",
-   "efecto": "Noticia sectorial menor para mineras, sin efecto macro."
-  },
-  {
-   "titulo": "What Nasdaq (NDAQ) Said on Its Q3 Earnings Call",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQemN5cEV6bUJXaWxuV3JQTXJ1T0QwV1Z1Qk9ncGlsbzN2dmZNMG1MdEhaNmR5ZFpBc1d6VTFEaEFkS0lPa0pnV0ppOG5XS2llWDNaR19DSnFSM08yVE1CQnN1U3gzS01RQTJnaDVtdUZBMG11NjV4b1Y3TmRwbnY3WHdHaTJpSVBMWktKLU1NSXRIMUNvcmVYZg?oc=5",
-   "ts": "2026-10-22T15:05:02Z",
-   "fuente": "Yahoo Finance",
-   "id": "2d3f314d23",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Third-party evaluators find vulnerabilities in OpenAI monitoring system during test pilot",
-   "link": "https://www.cnbc.com/2026/10/22/metr-redwood-research-open-ai-test.html",
-   "ts": "2026-10-22T15:00:25Z",
-   "fuente": "CNBC",
-   "id": "489afa990f",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Road to the Women’s Worlds 2026: Team USA – Chasing Another Gold",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNE5tTDY5azQ3LWZMaTVyeTRqNHZSdGR3SzBWWDN4V1NNQnRycEhBLW9oSFpHUEJKaXloTHNTRGNrenJPMEVxMDRqUDZzRGRCeGNHaWZWbkJGR2ZLa2xUOS1rbGxtT2Z3ZzJ6ckd0bVp4N01tUEhnWF9CendKWjU2NzJLX2dnbF83VXFkTkJaYlgySklZQ3BxaXVucVVFR2VPVF9vSVM1STdoZVpG?oc=5",
-   "ts": "2026-10-22T14:46:01Z",
-   "fuente": "IIHF",
-   "id": "e0e25cd7ec",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Camino al Mundial Femenino 2026: Equipo de EE. UU. persiguiendo otro oro",
-   "efecto": ""
-  },
-  {
-   "titulo": "Norwegians Leave Gold in Forest as Some Fall for Scam",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObmZRb0tFZG1KTHRjNTk2bXFKaEFITlFqMklra3NpSHlXQUhvX0RuUlp1XzYxdFJOTlJJb0JOdmJFWWVDYjlOMXdrbTgzVWx0Ui0xdkpOVnE4bEQ1YmRUTU9JZ2h1ZVowYWxmbEt3MnpmYWxnMV9Kc2ZDblZLS0tQSk5lU2dKbnFpdFg3V25SMmFULXVNNzFHWW1ub0p1dHlzMEVGU1Y4Yw?oc=5",
-   "ts": "2026-10-22T14:42:16Z",
-   "fuente": "Bloomberg.com",
-   "id": "e86a6f7bcc",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Why cybersecurity stocks are getting another big boost. They're key to the AI trade",
-   "link": "https://www.cnbc.com/2026/10/22/why-cybersecurity-stocks-are-getting-another-big-boost-theyre-key-to-the-ai-trade.html",
-   "ts": "2026-10-22T14:35:03Z",
-   "fuente": "CNBC",
-   "id": "9a3a21cd35",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "S&P/TSX Composite Index Lower as Base Metals Shares Fall",
-   "link": "https://finance.yahoo.com/markets/world-indices/articles/p-tsx-composite-index-lower-142826772.html?.tsrc=rss",
-   "ts": "2026-10-22T14:28:26Z",
-   "fuente": "Yahoo Finance",
-   "id": "3d6524637b",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Virginia state Sen. L. Louise Lucas, a Trump critic, charged in marijuana racketeering case",
-   "link": "https://www.cnbc.com/2026/10/22/lucas-trump-virginia-marijuana-racketeering.html",
-   "ts": "2026-10-22T14:20:04Z",
-   "fuente": "CNBC",
-   "id": "235643f98e",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -11115,15 +11113,15 @@
     1792699200,
     4044.0,
     4045.5,
-    4042.6,
-    4043.4
+    4042.5,
+    4043.2
    ],
    [
-    1792699351,
-    4043.4,
-    4043.4,
-    4043.4,
-    4043.4
+    1792699664,
+    4042.9,
+    4042.9,
+    4042.9,
+    4042.9
    ]
   ],
   "nq": [
@@ -11748,14 +11746,14 @@
     29145.0,
     29215.0,
     29140.5,
-    29209.0
+    29156.0
    ],
    [
-    1792699353,
-    29212.0,
-    29212.0,
-    29212.0,
-    29212.0
+    1792699663,
+    29157.0,
+    29157.0,
+    29157.0,
+    29157.0
    ]
   ],
   "vix": [
@@ -12239,67 +12237,67 @@
     1792695600,
     20.08,
     20.31,
-    19.22,
-    19.24
+    19.12,
+    19.12
    ],
    [
-    1792699051,
-    19.23,
-    19.23,
-    19.23,
-    19.23
+    1792699200,
+    18.91,
+    19.12,
+    18.89,
+    18.89
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-22T19:57:46Z",
- "ult_4h": 1792699356.4672205,
+ "ult_4h": 1792700264.9410515,
  "estrategia_4h": {
   "oro": {
-   "precio": 4044.2,
-   "atr_4h": 30.04,
+   "precio": 4042.9,
+   "atr_4h": 27.11,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4109.22,
+     "stop": 4107.46,
      "objetivo": 4037.2,
-     "rr": 3.0,
+     "rr": 3.32,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.98,
+     "fuerza_ruptura_atr": 1.07,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4130.1,
      "entrada": 4130.1,
-     "stop": 4148.12,
+     "stop": 4146.36,
      "objetivo": 4037.2,
-     "rr": 5.15,
+     "rr": 5.71,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.18,
+     "fuerza_ruptura_atr": 1.3,
      "ruptura": "2026-10-22 00:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29137.5,
-   "atr_4h": 248.25,
+   "precio": 29157.0,
+   "atr_4h": 217.02,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29391.75,
      "entrada": 29391.75,
-     "stop": 29540.7,
+     "stop": 29521.96,
      "objetivo": 29033.0,
-     "rr": 2.41,
+     "rr": 2.76,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.83,
+     "fuerza_ruptura_atr": 0.91,
      "ruptura": "2026-10-22 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-22T20:02:36Z"
+  "ts": "2026-10-22T20:17:45Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -12347,14 +12345,6 @@
   }
  ],
  "noticias_vistas": [
-  "f3f430426a",
-  "47310c1f20",
-  "4ad03db319",
-  "f76d44fc2f",
-  "b0f9c56057",
-  "a4e513181e",
-  "10b75ce896",
-  "9a72741fec",
   "e35a5493be",
   "7228e386d2",
   "3f651c99d5",
@@ -13146,7 +13136,15 @@
   "e2cdd608c2",
   "4b5869bd34",
   "1a8e4a18e2",
-  "67fd1b106b"
+  "67fd1b106b",
+  "668d9cada4",
+  "a769c690aa",
+  "4ac809d3f0",
+  "dab7471378",
+  "1901e273f1",
+  "379199c746",
+  "1a913c74eb",
+  "28e4af09da"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
