@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4097.1 · NQ 29493.0 · VIX 18.07 · 1 noticias nuevas",
-   "actualizado": "2026-10-22T13:17:36Z"
+   "ultimo_resultado": "Oro 4096.7 · NQ 29495.0 · VIX 18.08 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-22T13:22:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T13:17:35Z",
-   "ultimo_resultado": "1 titulares nuevos: Stock futures sell off as Meta and Tesla lead AI trade lower and oil rises: Live updates"
+   "actualizado": "2026-10-22T13:22:36Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Wall St set for lower open as AI jitters rekindle, oil gains"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4096.7 · NQ 29495.0 · VIX 18.08 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-22T13:22:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4097.1 · NQ 29493.0 · VIX 18.07 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4139.7 · NQ 29810.75 · VIX 16.68 · 1 noticias nuevas",
    "ts": "2026-10-22T00:12:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4143.1 · NQ 29766.75 · VIX 16.68",
-   "ts": "2026-10-22T00:07:33Z"
   }
  ],
  "briefs": [
@@ -9612,10 +9612,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4097.1,
-  "nq": 29493.0,
-  "vix": 18.07,
-  "ts": "2026-10-22T13:17:35Z"
+  "oro": 4096.7,
+  "nq": 29495.0,
+  "vix": 18.08,
+  "ts": "2026-10-22T13:22:36Z"
  },
  "noticias": [
   {
@@ -9635,6 +9635,24 @@
    "ts": "2026-10-22T13:06:35Z",
    "fuente": "Chatham House",
    "id": "087f4ddc7f",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Wall St set for lower open as AI jitters rekindle, oil gains",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWxDZDg5X0padGNvb2k2V2ZkX2tEWW9YWkdjeVdMZHNUTlg1MXY4TmUyTDZHdUhNTHFRNWRPRjc2VFlEN3RXTDhNSjhDYmRfTWZGXzdKYXdLejRHNGgwRVdNbmZRUkFhSm9GakxMek56UUZ2OUtqajd6NVkzRkR1VzBNWlo5VWp5NUFkX2phUjlSSFlndUlNNGxvUXlHSm1wMlpTbkRR?oc=5",
+   "ts": "2026-10-22T13:05:43Z",
+   "fuente": "Reuters",
+   "id": "44c71098ee",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Arkansas farmers pushed 'to the brink' as Senate hopefuls clash over tariffs",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQzJNSFRZSkUtRU1fQUxQV241Qkd3MklDNHRGb1d6OVFuRTFaUlhqYWJ3X2tETkp5YWxzenBxY3VhenVTTVVKbnhtX1VHMUxGZnVyVmlrZjdHeHJVUUdmM1gyQWY5VXNmMXI0Rk1wMVlJUW9ONkloS29QSzZwVzJGNUM0WHF5d1lFbzBRQVBOSllRamxRMEN2b1g4Z1dMZTdVX21SNQ?oc=5",
+   "ts": "2026-10-22T13:00:07Z",
+   "fuente": "KATV",
+   "id": "b8100ae301",
    "activos": [],
    "impacto": "alto"
   },
@@ -10462,28 +10480,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Stock market today: Dow, S&P 500, Nasdaq futures fall as oil climbs, investors weigh Tesla, Meta earnings",
-   "link": "https://finance.yahoo.com/markets/article/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html?.tsrc=rss",
-   "ts": "2026-10-22T09:45:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "ee3944ea98",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Stock market today: Dow, S&P 500, Nasdaq futures fall as traders assess Tesla, Meta earnings",
-   "link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-21-dow-sp-500-nasdaq-tesla-meta-094500493.html?.tsrc=rss",
-   "ts": "2026-10-22T09:45:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "08f51196e9",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -11093,14 +11089,14 @@
     4103.9,
     4104.0,
     4093.3,
-    4098.7
+    4095.7
    ],
    [
-    1792674454,
-    4097.1,
-    4097.1,
-    4097.1,
-    4097.1
+    1792674752,
+    4096.7,
+    4096.7,
+    4096.7,
+    4096.7
    ]
   ],
   "nq": [
@@ -11695,12 +11691,12 @@
    [
     1792674000,
     29496.25,
-    29503.25,
+    29508.75,
     29477.5,
-    29495.75
+    29481.5
    ],
    [
-    1792674455,
+    1792674755,
     29495.0,
     29495.0,
     29495.0,
@@ -12145,16 +12141,16 @@
    [
     1792674000,
     18.08,
-    18.09,
-    18.08,
-    18.08
+    18.1,
+    18.07,
+    18.1
    ],
    [
-    1792674151,
-    18.07,
-    18.07,
-    18.07,
-    18.07
+    1792674451,
+    18.08,
+    18.08,
+    18.08,
+    18.08
    ]
   ]
  },
@@ -12228,8 +12224,6 @@
   }
  ],
  "noticias_vistas": [
-  "b0f3f7ff94",
-  "a176a18349",
   "f93111a278",
   "50b462a654",
   "0f6f526d5a",
@@ -13027,7 +13021,9 @@
   "087f4ddc7f",
   "ba5df79088",
   "016d551a66",
-  "0077c234b6"
+  "0077c234b6",
+  "44c71098ee",
+  "b8100ae301"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
