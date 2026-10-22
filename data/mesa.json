@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4083.6 · NQ 29460.0 · VIX 18.27 · 2 noticias nuevas",
-   "actualizado": "2026-10-22T11:32:38Z"
+   "ultimo_resultado": "Oro 4080.9 · NQ 29459.0 · VIX 18.34 · 1 noticias nuevas",
+   "actualizado": "2026-10-22T11:37:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T11:32:37Z",
-   "ultimo_resultado": "2 titulares nuevos: Sranan Gold Reports 3-Metre Channel Sample Grading 20.89 g/t Gold at Lawatino's 101 Zone"
+   "actualizado": "2026-10-22T11:37:31Z",
+   "ultimo_resultado": "1 titulares nuevos: Stock market today: Dow, S&P 500, Nasdaq futures tumble as oil climbs, investors weigh Tesla, Meta earnings"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4080.9 · NQ 29459.0 · VIX 18.34 · 1 noticias nuevas",
+   "ts": "2026-10-22T11:37:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4083.6 · NQ 29460.0 · VIX 18.27 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-10-21T21:33:04Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 4159.5 · NQ 30023.75.",
-   "ts": "2026-10-21T21:33:03Z"
   }
  ],
  "briefs": [
@@ -9404,10 +9404,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4083.6,
-  "nq": 29460.0,
-  "vix": 18.27,
-  "ts": "2026-10-22T11:32:37Z"
+  "oro": 4080.9,
+  "nq": 29459.0,
+  "vix": 18.34,
+  "ts": "2026-10-22T11:37:31Z"
  },
  "noticias": [
   {
@@ -9787,6 +9787,17 @@
    "id": "db16d41402",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Stock market today: Dow, S&P 500, Nasdaq futures tumble as oil climbs, investors weigh Tesla, Meta earnings",
+   "link": "https://finance.yahoo.com/markets/article/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html?.tsrc=rss",
+   "ts": "2026-10-22T09:45:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "95c6803c20",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Stock market today: Dow, S&P 500, Nasdaq futures fall as oil climbs, investors weigh Tesla, Meta earnings",
@@ -10295,17 +10306,6 @@
    "impacto": "bajo",
    "es": "Tras un primer semestre récord, Kinepolis refuerza su liderazgo en el tercer trimestre",
    "efecto": "Sin impacto institucional en los activos principales."
-  },
-  {
-   "titulo": "China edge past US at gymnastics world championships to win first gold in 20 years",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPa0ViVEJMZWkzTW1YWF9MOUI1MGhkTlJuUnViRV9ZbTRiY3Q5XzlRS1dfY0taSmp5SU95NTk2R2taWDBSS0lOd3YxSlJ2VDdkWndHanB6LUI5QUstX192X1RNc01GUlUyQmdiRHRDcW81RGxSWjdxUDB1dmtJODR4U3p2TzZ1ZXhFTGRLeWw3M3pHanl4Wm5ERU14WUg4ZUFRY3cyOHY0cnM3RFBXSzhZa1ZaVjBTVm1UbWVDS0NmONIBvwFBVV95cUxQZkZZS29USVB5YUFvOHFKMmNIV2czYzRiSDQ0cWU4THcyN29QTHZqOVpEQXR4eW0yQTJDTG83Uk1ScDVEQXV2eURua3dSLVlST0lzWlF6V2Rkc2RnVDVpYWVyMmF1MHRGQzNCSmNXc1Rud0FLYmZ1U19HbGpNbE5sY0laUGRPRkVCd3BWVUwxMFNWeG1sc2p6LWIwS3JndkJBejlqNGlveGVtdXJDbWkwVFFtVzZ1MThkRFh0eEtMcw?oc=5",
-   "ts": "2026-10-22T04:51:02Z",
-   "fuente": "South China Morning Post",
-   "id": "3a510eb88d",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -10900,15 +10900,15 @@
     1792666800,
     4096.1,
     4096.2,
-    4077.1,
-    4083.6
+    4074.1,
+    4081.2
    ],
    [
-    1792668156,
-    4083.9,
-    4083.9,
-    4083.9,
-    4083.9
+    1792668450,
+    4081.0,
+    4081.0,
+    4081.0,
+    4081.0
    ]
   ],
   "nq": [
@@ -11490,15 +11490,15 @@
     1792666800,
     29516.5,
     29518.75,
-    29452.5,
-    29461.75
+    29446.25,
+    29461.25
    ],
    [
-    1792668157,
-    29460.0,
-    29460.0,
-    29460.0,
-    29460.0
+    1792668449,
+    29459.0,
+    29459.0,
+    29459.0,
+    29459.0
    ]
   ],
   "vix": [
@@ -11925,16 +11925,16 @@
    [
     1792666800,
     18.21,
-    18.3,
+    18.34,
     18.21,
-    18.27
+    18.34
    ],
    [
-    1792667851,
-    18.27,
-    18.27,
-    18.27,
-    18.27
+    1792668136,
+    18.34,
+    18.34,
+    18.34,
+    18.34
    ]
   ]
  },
@@ -12019,7 +12019,6 @@
   }
  ],
  "noticias_vistas": [
-  "914c27d572",
   "c478ed5e70",
   "cd548ddb3d",
   "ef01beb2d8",
@@ -12818,7 +12817,8 @@
   "75d4174654",
   "0f7ec57934",
   "323173ac79",
-  "ee3944ea98"
+  "ee3944ea98",
+  "95c6803c20"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
