@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4131.8 · NQ 29794.75 · VIX 16.68 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-22T00:52:42Z"
+   "ultimo_resultado": "Oro 4132.4 · NQ 29809.25 · VIX 16.68 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-22T00:57:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T00:52:41Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Meta put out an ambitious roadmap to Muse monetization after strong quarter and guide"
+   "actualizado": "2026-10-22T00:57:36Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Banco de Corea mantiene tasas tras llamado presidencial para impulsar vivienda"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4132.4 · NQ 29809.25 · VIX 16.68 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-22T00:57:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4131.8 · NQ 29794.75 · VIX 16.68 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4150.0 · NQ 29868.25 · VIX 17.34 · 3 noticias nuevas",
    "ts": "2026-10-21T11:37:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4147.9 · NQ 29843.75 · VIX 17.37",
-   "ts": "2026-10-21T11:32:33Z"
   }
  ],
  "briefs": [
@@ -9230,12 +9230,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4131.8,
-  "nq": 29794.75,
+  "oro": 4132.4,
+  "nq": 29809.25,
   "vix": 16.68,
-  "ts": "2026-10-22T00:52:41Z"
+  "ts": "2026-10-22T00:57:36Z"
  },
  "noticias": [
+  {
+   "titulo": "Bank of Korea holds rates after President Lee calls for boosting housing supply",
+   "link": "https://www.cnbc.com/2026/10/22/bok-rate-decision-seoul-property.html",
+   "ts": "2026-10-22T00:52:13Z",
+   "fuente": "CNBC",
+   "id": "9b22cadafc",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "bajo",
+   "es": "Banco de Corea mantiene tasas tras llamado presidencial para impulsar vivienda",
+   "efecto": "Impacto regional limitado, sin efecto directo en oro o NQ."
+  },
   {
    "titulo": "Meta put out an ambitious roadmap to Muse monetization after strong quarter and guide",
    "link": "https://www.cnbc.com/investingclub/2026/10/21/meta-put-out-an-ambitious-roadmap-to-muse-monetization-after-strong-quarter-and-guide.html",
@@ -9326,6 +9339,19 @@
    "efecto": "Sin efecto operativo inmediato; ruido macroeconómico menor."
   },
   {
+   "titulo": "Nasdaq leads Wall Street gains as SpaceX, Super Micro aid AI sentiment",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvNUdhU1BkM201N0JBWnduVFBlU3ZoZ2JoSkMzdUkzbUNQUWhTUEVraEdweUFhRTlvMms2RVFzeENLTDFPZVNPd3RZdXBSSkVleEVTYkc0eFhudkd3UFpnM01fbl9iUGc?oc=5",
+   "ts": "2026-10-21T23:17:50Z",
+   "fuente": "Reuters",
+   "id": "74c29faaf9",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Nasdaq lidera ganancias en Wall Street impulsado por IA con SpaceX y Super Micro",
+   "efecto": "Impulsa compras institucionales en futuros del Nasdaq."
+  },
+  {
    "titulo": "S&P 500, Nasdaq Gain, Powered By Meta, Tesla Stock — SPCX, META, TSLA, SKYD, IBM In Focus",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONjQyd3F1UEZZNnhKMnA3YmhnSmxHWjlGQmpfcVRXZlFlaHVFMG5ySk1oRkQ3YWtPbmdLaVpTNkZLQnIteXBiU1hIa2xibUFwZ2xiTEsyaXlZN3htczcteEdYQ1pLN0J1WjlzSDFBbzFON2p5QVhURXNyUkV0aU1BSWRCWF9jekNidXY4Nkdvdm5YMmpQ?oc=5",
    "ts": "2026-10-21T23:15:19Z",
@@ -9357,6 +9383,19 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "The World’s Rich Are Finding a New Home for Their Gold in Singapore",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObUd1Wlg5SlVQZGlEVGcxSUdDcGZNY3J0VG9yUjJEZGFwaG81SVp6NFpRdnV6dmhkS0ZseFNYck9lVzlXSGp5TUd4S2U4Q0pISU9FbkYyRkM2TkhwRnN5RFp6TWNoU2dvN2djNzI5SHpZMTNWbW8yOUxvU2dDM2lpeENuaHNUUDg5RWF2STI3STZtcjk4RVp1TWFZNC1OdUpaYzZJRQ?oc=5",
+   "ts": "2026-10-21T23:00:25Z",
+   "fuente": "Bloomberg.com",
+   "id": "4ea1d1e7f4",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio",
+   "es": "Los ricos del mundo encuentran un nuevo hogar para su oro en Singapur",
+   "efecto": "Refleja demanda física sostenida, soporta al oro a mediano plazo."
   },
   {
    "titulo": "Carney says Trump’s tariffs hurt Americans as US alleges Canadian interference",
@@ -10072,33 +10111,6 @@
    "id": "60c93397d9",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Billionaire Warren Buffett’s Warning Before the Dot-Com Crash Offers a Lesson for Today’s Investors",
-   "link": "https://firstformoney.com/billionaire-warren-buffetts-warning-before-the-dot-com-crash-offers-a-lesson-for-todays-investors/?.tsrc=rss",
-   "ts": "2026-10-21T17:35:04Z",
-   "fuente": "Yahoo Finance",
-   "id": "9335ca650e",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Barrick Mining (B) Earnings Rose 50%, but Is Cash Flow Keeping Up?",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/barrick-mining-b-earnings-rose-172743336.html?.tsrc=rss",
-   "ts": "2026-10-21T17:27:43Z",
-   "fuente": "Yahoo Finance",
-   "id": "af8971abc8",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Food importer sues Trump administration over 50% tariffs on Canadian goods",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTnR0LWhxa2tweFNFdEd6ZE9XS2c0elVrU2NtaERkVG9FWmFDdWtyZTJsaGxPVmJObEZldjJOeWpwVmNYWkFVeWozX3huZUxmaG5fWGFlMXZ1cTRZSDZ0QlpjVENzSWc1YW1nTFRUc3hvc05fUDlTdG4zS0tsSDV6dm9fVk9UcGctZzNMSU9QOWNTcHpaM1QwWWl2TUVwQ1V5dWh4Z2dhLW1Tdlp6UXNsUzU3UFN5dm9UUGpsZ2h0QQ?oc=5",
-   "ts": "2026-10-21T17:26:15Z",
-   "fuente": "Restaurant Business Magazine",
-   "id": "001345660f",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -10736,14 +10748,14 @@
     4142.6,
     4143.1,
     4130.9,
-    4131.1
+    4132.6
    ],
    [
-    1792629752,
-    4131.8,
-    4131.8,
-    4131.8,
-    4131.8
+    1792630053,
+    4132.4,
+    4132.4,
+    4132.4,
+    4132.4
    ]
   ],
   "nq": [
@@ -11368,14 +11380,14 @@
     29764.0,
     29854.5,
     29763.25,
-    29796.0
+    29814.0
    ],
    [
-    1792629760,
-    29794.75,
-    29794.75,
-    29794.75,
-    29794.75
+    1792630053,
+    29809.25,
+    29809.25,
+    29809.25,
+    29809.25
    ]
   ],
   "vix": [
@@ -11878,7 +11890,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-22T00:27:30Z",
+ "noticias_traducidas_ts": "2026-10-22T00:57:30Z",
  "ult_4h": 1792630051.6597214,
  "estrategia_4h": {
   "oro": {
@@ -11956,9 +11968,6 @@
   }
  ],
  "noticias_vistas": [
-  "5b6795aa11",
-  "580240e957",
-  "6d4af21fbf",
   "7f14995d42",
   "55d32c0c53",
   "31d12358ec",
@@ -12755,7 +12764,10 @@
   "4f3605a83b",
   "4b42f35de3",
   "07776eb06b",
-  "091818a85d"
+  "091818a85d",
+  "9b22cadafc",
+  "74c29faaf9",
+  "4ea1d1e7f4"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
