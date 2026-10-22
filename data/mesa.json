@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4080.9 · NQ 29459.0 · VIX 18.34 · 1 noticias nuevas",
-   "actualizado": "2026-10-22T11:37:31Z"
+   "ultimo_resultado": "Oro 4078.7 · NQ 29483.75 · VIX 18.33 · 4 noticias nuevas",
+   "actualizado": "2026-10-22T11:42:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T11:37:31Z",
-   "ultimo_resultado": "1 titulares nuevos: Stock market today: Dow, S&P 500, Nasdaq futures tumble as oil climbs, investors weigh Tesla, Meta earnings"
+   "actualizado": "2026-10-22T11:42:32Z",
+   "ultimo_resultado": "4 titulares nuevos: Trump's approval rating on economy hits all-time low as midterm looms: CNBC survey"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4078.7 · NQ 29483.75 · VIX 18.33 · 4 noticias nuevas",
+   "ts": "2026-10-22T11:42:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4080.9 · NQ 29459.0 · VIX 18.34 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
    "ts": "2026-10-21T21:33:05Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Midiendo volatilidad y rango esperado del día…",
-   "ts": "2026-10-21T21:33:04Z"
   }
  ],
  "briefs": [
@@ -9404,12 +9404,52 @@
   }
  },
  "en_vivo": {
-  "oro": 4080.9,
-  "nq": 29459.0,
-  "vix": 18.34,
-  "ts": "2026-10-22T11:37:31Z"
+  "oro": 4078.7,
+  "nq": 29483.75,
+  "vix": 18.33,
+  "ts": "2026-10-22T11:42:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Trump's approval rating on economy hits all-time low as midterm looms: CNBC survey",
+   "link": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html",
+   "ts": "2026-10-22T11:40:01Z",
+   "fuente": "CNBC",
+   "id": "cd2acfd26c",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Tesla is falling even after earnings. What analysts are saying",
+   "link": "https://www.cnbc.com/2026/10/22/tesla-q3-2026-earnings-analysts.html",
+   "ts": "2026-10-22T11:38:03Z",
+   "fuente": "CNBC",
+   "id": "7fbf2dc8ae",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Borealis Provides Fiscal 2027 Production and Operating Guidance",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/borealis-provides-fiscal-2027-production-113000603.html?.tsrc=rss",
+   "ts": "2026-10-22T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "3613f2953d",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Mercado Minerals Announces New Surface Results from the Zamora Project Including 0.40 Metres of 1615 g/t Silver and 1.77 g/t Gold at the Campanillas - La Franca Vein & 1075 g/t Silver and 1.14 g/t Gold at the El Triunfo Vein",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/mercado-minerals-announces-surface-results-113000820.html?.tsrc=rss",
+   "ts": "2026-10-22T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "22fa990020",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Procter & Gamble earnings beat as sales rise 4%, boosted by laundry and home products",
    "link": "https://www.cnbc.com/2026/10/22/procter-gamble-pg-q1-2027-earnings.html",
@@ -10258,54 +10298,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "IXIC: Nasdaq Gains 1% in AI-Led Swing. Futures Turn Sharply Lower on New Oil Jitters",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOclZPVXBsdXY0em5XaS1UaHFIcDBGdUpTWHRKaHFtbFZnQkpsS2JjSFlwYXUtdlE3aml6MU5pN1ZCU2cwclRuUC1MeWg3STRoV1hDSVVBMjc5bEpTQjJLV1RmbXBTZ2phRG9WN2R1dWctdjg1dk11VkNVdXhGeWNQM1E5QmtMWnNvcXR3MWVpODFTaGZFdEdHRXRUTV9pRF9NSEcxWkh1TzA4RDQ5Uy1BOXpXUzhwdEFlemliTjY5OE92aU90ZXA4dXpWSkdRQmw3MFJOejBaS0x5bzg?oc=5",
-   "ts": "2026-10-22T05:26:00Z",
-   "fuente": "TradingView",
-   "id": "e98792fcab",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Oil prices jump on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes",
-   "link": "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html",
-   "ts": "2026-10-22T05:12:19Z",
-   "fuente": "CNBC",
-   "id": "d1e719ade5",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Los precios del petróleo suben por tensiones en Oriente Medio ante posibles ataques de EE. UU. e Israel a Irán",
-   "efecto": "Compra refugio en oro, presiona a la baja al NQ y fortalece al dólar."
-  },
-  {
-   "titulo": "Nithya Raman walks back \"gold standard\" comment about former LAPD Chief Daryl Gates",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOHBmSnctVGZWOTZXX1ZEdlBoV0VfelJCMEVYSkFPa09iNE1PelJUSHZfMUJVVDZpSlpnNmJ5S1Q2ZWE5TkE2cGJHbF96SVJtOG9IZW4wZ0QyTktwZWxRem5rRTVyNFhLeXc3TXhFeXNQekFvaVI0QnBxemRRZ3RndVlZU1VueUdydklyTG8wQlRfeHlXd0IySUdZRG9YZzhEalRuUGxXVQ?oc=5",
-   "ts": "2026-10-22T05:06:51Z",
-   "fuente": "CBS News",
-   "id": "917666824f",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "After a record first half, Kinepolis strengthens its lead in the third quarter",
-   "link": "https://finance.yahoo.com/media-advertising/articles/record-first-half-kinepolis-strengthens-050000274.html?.tsrc=rss",
-   "ts": "2026-10-22T05:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "4e3405b4d9",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Tras un primer semestre récord, Kinepolis refuerza su liderazgo en el tercer trimestre",
-   "efecto": "Sin impacto institucional en los activos principales."
   }
  ],
  "eventos_avisados": [
@@ -10901,14 +10893,14 @@
     4096.1,
     4096.2,
     4074.1,
-    4081.2
+    4078.5
    ],
    [
-    1792668450,
-    4081.0,
-    4081.0,
-    4081.0,
-    4081.0
+    1792668748,
+    4078.7,
+    4078.7,
+    4078.7,
+    4078.7
    ]
   ],
   "nq": [
@@ -11491,14 +11483,14 @@
     29516.5,
     29518.75,
     29446.25,
-    29461.25
+    29486.0
    ],
    [
-    1792668449,
-    29459.0,
-    29459.0,
-    29459.0,
-    29459.0
+    1792668750,
+    29483.75,
+    29483.75,
+    29483.75,
+    29483.75
    ]
   ],
   "vix": [
@@ -11925,16 +11917,16 @@
    [
     1792666800,
     18.21,
-    18.34,
+    18.39,
     18.21,
-    18.34
+    18.32
    ],
    [
-    1792668136,
-    18.34,
-    18.34,
-    18.34,
-    18.34
+    1792668451,
+    18.33,
+    18.33,
+    18.33,
+    18.33
    ]
   ]
  },
@@ -12019,10 +12011,6 @@
   }
  ],
  "noticias_vistas": [
-  "c478ed5e70",
-  "cd548ddb3d",
-  "ef01beb2d8",
-  "096680277e",
   "7b39710a83",
   "e3e20fcbea",
   "3a97b1e704",
@@ -12818,7 +12806,11 @@
   "0f7ec57934",
   "323173ac79",
   "ee3944ea98",
-  "95c6803c20"
+  "95c6803c20",
+  "cd2acfd26c",
+  "7fbf2dc8ae",
+  "3613f2953d",
+  "22fa990020"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
