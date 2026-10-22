@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4062.7 · NQ 29419.75 · VIX 18.32 · 1 noticias nuevas",
-   "actualizado": "2026-10-22T14:33:14Z"
+   "ultimo_resultado": "Oro 4065.4 · NQ 29389.75 · VIX 18.5 · 2 noticias nuevas",
+   "actualizado": "2026-10-22T14:37:51Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T14:33:11Z",
-   "ultimo_resultado": "1 titulares nuevos: Nasdaq leads Wall Street lower on AI spending jitters; oil prices rebound"
+   "actualizado": "2026-10-22T14:37:50Z",
+   "ultimo_resultado": "2 titulares nuevos: S&P/TSX Composite Index Lower as Base Metals Shares Fall"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4065.4 · NQ 29389.75 · VIX 18.5 · 2 noticias nuevas",
+   "ts": "2026-10-22T14:37:51Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4062.7 · NQ 29419.75 · VIX 18.32 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4128.7 · NQ 29778.25 · VIX 16.68",
    "ts": "2026-10-22T01:32:38Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4129.6 · NQ 29788.5 · VIX 16.68 · 2 noticias nuevas",
-   "ts": "2026-10-22T01:27:42Z"
   }
  ],
  "briefs": [
@@ -9612,12 +9612,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4062.7,
-  "nq": 29419.75,
-  "vix": 18.32,
-  "ts": "2026-10-22T14:33:11Z"
+  "oro": 4065.4,
+  "nq": 29389.75,
+  "vix": 18.5,
+  "ts": "2026-10-22T14:37:50Z"
  },
  "noticias": [
+  {
+   "titulo": "S&P/TSX Composite Index Lower as Base Metals Shares Fall",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/p-tsx-composite-index-lower-142826772.html?.tsrc=rss",
+   "ts": "2026-10-22T14:28:26Z",
+   "fuente": "Yahoo Finance",
+   "id": "3d6524637b",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Virginia state Sen. L. Louise Lucas, a Trump critic, charged in marijuana racketeering case",
    "link": "https://www.cnbc.com/2026/10/22/lucas-trump-virginia-marijuana-racketeering.html",
@@ -9888,6 +9899,17 @@
    "impacto": "bajo",
    "es": "Nevada Canyon anuncia interceptaciones significativas de oro en el proyecto Lapon Canyon",
    "efecto": "Noticia microeconómica de minería; irrelevante para el oro macro."
+  },
+  {
+   "titulo": "Current price of gold: Month Day, Year",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HSkpCeFgyU1oyUTMwMnc4ZU02NkhxRWp4MF9RT0ZQSjUzeTdXeU56aU10RFh6WTV5cUF5ZTREbUZQbVJ0SXlaV3RFVmplU0xxUW5IWkxQLUhWbVZES0NBUWR2SkVoVERrd1dlRXdn?oc=5",
+   "ts": "2026-10-22T12:56:00Z",
+   "fuente": "Fortune",
+   "id": "201fc45dc4",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Spain accuses Trump ally Milei of ‘disgraceful’ election interference",
@@ -10435,32 +10457,6 @@
    "impacto": "bajo",
    "es": "Canagold intercepta 69.8 g/t de oro en 2.6 metros",
    "efecto": "Ruido corporativo menor, sin impacto macroeconómico ni institucional."
-  },
-  {
-   "titulo": "Aztec Extends Oxide Gold-Silver Mineralization up to 190 m West at the North Extension at Tombstone, Arizona, Including 115.8 m of 0.67 g/t AuEq (0.52 g/t Au & 8.11 g/t Ag) in TR26-45",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/aztec-extends-oxide-gold-silver-110000351.html?.tsrc=rss",
-   "ts": "2026-10-22T11:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "0879845866",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Aztec amplía mineralización de oro y plata en Arizona",
-   "efecto": "Noticia microeconómica de exploración minera, irrelevante para la mesa."
-  },
-  {
-   "titulo": "GreenLight Metals Intersects 1.30% Copper and 1.30 g/t Gold over 25.17 Metres in an Eastern Step-Out Hole at the Bend Project",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/greenlight-metals-intersects-1-30-110000331.html?.tsrc=rss",
-   "ts": "2026-10-22T11:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "2fcaf7f24e",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "GreenLight Metals intercepta cobre y oro en el proyecto Bend",
-   "efecto": "Resultado de perforación corporativo sin efecto en la cotización del oro."
   }
  ],
  "eventos_avisados": [
@@ -11077,14 +11073,14 @@
     4072.5,
     4076.1,
     4059.5,
-    4063.9
+    4064.6
    ],
    [
-    1792678993,
-    4062.2,
-    4062.2,
-    4062.2,
-    4062.2
+    1792679268,
+    4065.4,
+    4065.4,
+    4065.4,
+    4065.4
    ]
   ],
   "nq": [
@@ -11687,15 +11683,15 @@
     1792677600,
     29542.0,
     29594.75,
-    29401.75,
-    29413.25
+    29373.75,
+    29385.0
    ],
    [
-    1792678991,
-    29419.75,
-    29419.75,
-    29419.75,
-    29419.75
+    1792679270,
+    29389.75,
+    29389.75,
+    29389.75,
+    29389.75
    ]
   ],
   "vix": [
@@ -12143,16 +12139,16 @@
    [
     1792677600,
     17.95,
-    18.34,
+    18.4,
     17.85,
-    18.31
+    18.39
    ],
    [
-    1792678681,
-    18.32,
-    18.32,
-    18.32,
-    18.32
+    1792678966,
+    18.5,
+    18.5,
+    18.5,
+    18.5
    ]
   ]
  },
@@ -12238,8 +12234,6 @@
   }
  ],
  "noticias_vistas": [
-  "9a6ff43aff",
-  "d9e6049d97",
   "0a41e1c97c",
   "9e9f6954e3",
   "e107ea2910",
@@ -13037,7 +13031,9 @@
   "ba54f1215a",
   "282493e4f6",
   "4c8f8136e3",
-  "66fc36dd52"
+  "66fc36dd52",
+  "3d6524637b",
+  "201fc45dc4"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
