@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4121.3 · NQ 29669.5 · VIX 16.68",
-   "actualizado": "2026-10-22T03:27:32Z"
+   "ultimo_resultado": "Oro 4124.3 · NQ 29692.0 · VIX 16.68 · 2 noticias nuevas",
+   "actualizado": "2026-10-22T03:32:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T03:27:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-22T03:32:34Z",
+   "ultimo_resultado": "2 titulares nuevos: El mercado bursátil chino cae en territorio bajista y el CSI 300 extiende su racha negativa"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4124.3 · NQ 29692.0 · VIX 16.68 · 2 noticias nuevas",
+   "ts": "2026-10-22T03:32:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4121.3 · NQ 29669.5 · VIX 16.68",
@@ -1056,11 +1061,6 @@
    "agente": "ejecucion",
    "texto": "Orden enviada a TradersPost: COMPRA 2 MGC límite 4140.5 (borde de la zona) · SL 4128.0 (12.5 pts, riesgo $250) · TP 4174.9 · R:R 2.8",
    "ts": "2026-10-21T12:34:11Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Brief de Nueva York publicado: Caída en rendimientos apoya compra en Oro; NQ sin entrada por mala racha y VIX adverso",
-   "ts": "2026-10-21T12:34:09Z"
   }
  ],
  "briefs": [
@@ -9230,12 +9230,26 @@
   }
  },
  "en_vivo": {
-  "oro": 4121.3,
-  "nq": 29669.5,
+  "oro": 4124.3,
+  "nq": 29692.0,
   "vix": 16.68,
-  "ts": "2026-10-22T03:27:32Z"
+  "ts": "2026-10-22T03:32:34Z"
  },
  "noticias": [
+  {
+   "titulo": "China's stock market sinks into bear territory as CSI 300 set to extend 10-week rout",
+   "link": "https://www.cnbc.com/2026/10/22/chinas-stock-market-csi-300-bear-market.html",
+   "ts": "2026-10-22T03:30:33Z",
+   "fuente": "CNBC",
+   "id": "310c495a11",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "El mercado bursátil chino cae en territorio bajista y el CSI 300 extiende su racha negativa",
+   "efecto": "Genera cautela global, presionando levemente al NQ a la baja."
+  },
   {
    "titulo": "Kansas Senate debate: Marshall, Hamilton spar on diesel prices, tariffs as race tightens",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaEphQ2VrMW5fck5fdWI3QV9YX0s2RDFHcUlyejRQZUZycUJlUnp1Tkk3N0xlZDhaLVlfbU9NcjVJc0VleDdvMmRBNWgxRkY2OWlpUlhsTW8xTVhVSVlzVkljaUM4dUxTSWJDMy03UnRZaGpRaE5TaFhGQW9ydXBoN0RjUkhjb0ZLRVRHeGN4SXlpSHViQ2x6dFR2bGg5LVBuanRGYlY4aE9LYkd0RC1NLVFENNIBxwFBVV95cUxOeHpxZTRrZmZpTHBmLXNuRXNRMTdXSG9LUkpGN1NfU1RvZS1leEx1VTBoLU9BcU8zc1Bma1pRZkpFRG5QcU5iTWJWVzhtZWhfU0diMUFYSDJlclhNRjExVUQtZHJzSkZ5dHBCN1F1dXllUG1WZm5xNDM5TW9SWmk5ZDBNQ1NLbXdObjNhQlhuWVFoeFJoN0M2aGVONmY2NFJOWU45d0pQUzF4MW5XbTZjTTFrcnozdzdHYUUzVEZvb1p4dWw0b19J?oc=5",
@@ -9338,6 +9352,19 @@
    "impacto": "bajo",
    "es": "James Talarico responde a Elon Musk en disputa por el Senado de Texas",
    "efecto": "Ruido político local sin impacto en activos principales."
+  },
+  {
+   "titulo": "Artemis Gold And 2 Canadian Founder Led Stocks To Watch",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY09XRlZGelV1RndJejNsc19KSVptWW5ucjQzYk45UUcxOG4tQ2N3aUdzWkJvcE1aWThBVk5OZ19vbDVLSGRNbkVfT1I0b2lqVDZwbzN5N2ttblBhM0plbHNkTHRXdURTTXZCR2hkOGpRdVRodnFrNFg4MzE3R3Jlck1HZG1pVGlLZzNJbmxJMGZRQ0RVLW1aWkFjejU?oc=5",
+   "ts": "2026-10-22T01:17:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "514c6c4ffa",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Artemis Gold y otras dos acciones canadienses lideradas por fundadores bajo la lupa",
+   "efecto": "Sin impacto institucional relevante en los precios generales del oro."
   },
   {
    "titulo": "Aya Gold & Silver (TSX:AYA) Could Be 26% Below Fair Value As Boumadine Update Lands",
@@ -10111,26 +10138,6 @@
    "id": "71d20628b9",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "2026 Gymnastics Worlds: People's Republic of China claim first women's gold in two decades",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUzdGM0Y5RTI5TzMxYkRPQzF5SDZuOVZFVHZaUHlkdFJYSDZEUDU1VGtpOU9KdGJ5SDR2TVlmY3RLRHA5T0JvcVo2NXhYcGVxNHBLZVNZV0NnXzdySlRwaDJKZkRvNzd4N3BqdVFHRFY2VTRDZ2g0VjZEZzZZeTlobnMwVHpuRmlfMUhPNk5Ncm1uTGs0ZDFnR0xsS2NWbUJodU5Mbkl1cDRXRzV3c1VoeVdNOXg2NkRBZHZ4ckcxTW84bW9O?oc=5",
-   "ts": "2026-10-21T19:57:00Z",
-   "fuente": "Olympics",
-   "id": "80bd921cc4",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Highlight: Loan modifications remain stable despite rising delinquencies",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS3AwcG9FNUVOdGFmLW9IUXltRnI1elcxMlh6TUhPNW9kc0Jid00ybWVTaUR3aFU5dzFFMkhmRC1ZQl9XbzM0Z09PVnRxbzd3SzFhekpmbDNfWDhtc0l6bm1fSks0a1pFdVVTbENWTmZCYTNFelBiWk1walBlQWo2S1dIQXBPVlo1OG1oYXhKQ1VvYkY2Zm5DZTA5OUJmenNhYmZlZVhCemU4dzd2RU9CTUtuSjQxUnR3dVVHNVVFekhLZWdlTm1NZjlfMmtKcFMtcWlfcA?oc=5",
-   "ts": "2026-10-21T19:55:02Z",
-   "fuente": "Kansas City Fed",
-   "id": "5c04959acc",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -10768,14 +10775,14 @@
     4132.6,
     4132.6,
     4116.2,
-    4122.1
+    4120.3
    ],
    [
-    1792639050,
-    4121.3,
-    4121.3,
-    4121.3,
-    4121.3
+    1792639351,
+    4124.3,
+    4124.3,
+    4124.3,
+    4124.3
    ]
   ],
   "nq": [
@@ -11398,16 +11405,16 @@
    [
     1792638000,
     29688.0,
-    29691.0,
+    29692.0,
     29649.5,
-    29663.75
+    29682.75
    ],
    [
-    1792639051,
-    29665.5,
-    29665.5,
-    29665.5,
-    29665.5
+    1792639354,
+    29691.0,
+    29691.0,
+    29691.0,
+    29691.0
    ]
   ],
   "vix": [
@@ -11910,43 +11917,43 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-22T02:47:37Z",
- "ult_4h": 1792639058.5433311,
+ "noticias_traducidas_ts": "2026-10-22T03:32:32Z",
+ "ult_4h": 1792639954.6509354,
  "estrategia_4h": {
   "oro": {
-   "precio": 4128.9,
-   "atr_4h": 24.26,
+   "precio": 4124.3,
+   "atr_4h": 24.81,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4151.6,
      "entrada": 4151.6,
-     "stop": 4166.15,
-     "objetivo": 4122.3,
-     "rr": 2.01,
+     "stop": 4166.49,
+     "objetivo": 4116.2,
+     "rr": 2.38,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.89,
+     "fuerza_ruptura_atr": 0.88,
      "ruptura": "2026-10-20 04:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4170.1,
      "entrada": 4170.1,
-     "stop": 4184.65,
-     "objetivo": 4122.3,
-     "rr": 3.28,
+     "stop": 4184.99,
+     "objetivo": 4116.2,
+     "rr": 3.62,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.82,
+     "fuerza_ruptura_atr": 0.8,
      "ruptura": "2026-10-19 12:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29675.0,
-   "atr_4h": 219.39,
+   "precio": 29692.0,
+   "atr_4h": 220.02,
    "setups": []
   },
-  "ts": "2026-10-22T03:17:38Z"
+  "ts": "2026-10-22T03:32:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -11988,8 +11995,6 @@
   }
  ],
  "noticias_vistas": [
-  "163ecf9072",
-  "4e053919c9",
   "2491010faa",
   "ddf39e37de",
   "77b98e6051",
@@ -12787,7 +12792,9 @@
   "c3c49f68ab",
   "99c40291a1",
   "178f4e4aca",
-  "2a6d226dd5"
+  "2a6d226dd5",
+  "310c495a11",
+  "514c6c4ffa"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
