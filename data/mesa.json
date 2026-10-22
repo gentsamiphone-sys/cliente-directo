@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4085.7 · NQ 29528.5 · VIX 18.1",
-   "actualizado": "2026-10-22T12:27:33Z"
+   "ultimo_resultado": "Oro 4082.6 · NQ 29530.0 · VIX 18.09 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-22T12:33:30Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T12:27:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-22T12:33:29Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Principales recomendaciones de analistas del jueves: Nvidia, Tesla, SpaceX, Meta y más"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4082.6 · NQ 29530.0 · VIX 18.09 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-22T12:33:30Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4085.7 · NQ 29528.5 · VIX 18.1",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "2 titulares nuevos: Venezuela, gold miners contest refiner's parent sale at Third Circuit",
    "ts": "2026-10-21T21:42:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: ‘The price of gold will reflect the pain elsewhere’ and gold equities are working as a leveraged play – BlackRock’s Hambro",
-   "ts": "2026-10-21T21:37:38Z"
   }
  ],
  "briefs": [
@@ -9404,12 +9404,39 @@
   }
  },
  "en_vivo": {
-  "oro": 4085.7,
-  "nq": 29528.5,
-  "vix": 18.1,
-  "ts": "2026-10-22T12:27:32Z"
+  "oro": 4082.6,
+  "nq": 29530.0,
+  "vix": 18.09,
+  "ts": "2026-10-22T12:33:29Z"
  },
  "noticias": [
+  {
+   "titulo": "Here are Thursday's biggest analyst calls: Nvidia, Tesla, SpaceX, Meta, CoreWeave, IBM, Block & more",
+   "link": "https://www.cnbc.com/2026/10/22/wall-street-analyst-calls-nvidia-tesla-meta-spacex.html",
+   "ts": "2026-10-22T12:29:36Z",
+   "fuente": "CNBC",
+   "id": "31fb70bdb1",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Principales recomendaciones de analistas del jueves: Nvidia, Tesla, SpaceX, Meta y más",
+   "efecto": "Genera volatilidad selectiva en tecnológicas del NQ según cada recomendación."
+  },
+  {
+   "titulo": "Futures Skid, Oil Pops; Tesla, Meta Are Key Movers",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa1otTzBPWW8zcFp0UFFNc0M4bjZFV1N0Y0J0cXlTUVRxODRRVzBfdmFUdEEyRlFWcmg0MkI1TTZNV24tY1VabUhXY2VHRXQwdzc2emQ0UHJCcVFVLVNqSXVfRmtzWEVRY3I3dkpsend3dXRqS3B0ZVE5dGRuNThxY2U4UUV4YTNQeXIwbVZnRmxNNVozenBVQlFvdUJUbVhtcmVleUR5WHZIczQtR09pVFNvYnVTeGFFZDhha0xVZw?oc=5",
+   "ts": "2026-10-22T12:14:00Z",
+   "fuente": "Investor's Business Daily",
+   "id": "d80eccb39a",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Futuros caen y sube el petróleo; Tesla y Meta son los principales motores",
+   "efecto": "Presiona a la baja al NQ por debilidad general y aversión al riesgo."
+  },
   {
    "titulo": "California's Proposition 40: What voters need to know about the billionaire wealth tax",
    "link": "https://www.cnbc.com/2026/10/22/california-proposition-40-billionaire-tax-wealth.html",
@@ -10256,26 +10283,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Metso orders jump 28% as mining equipment demand drives backlog growth",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/metso-orders-jump-28-mining-072503540.html?.tsrc=rss",
-   "ts": "2026-10-22T07:25:03Z",
-   "fuente": "Yahoo Finance",
-   "id": "b5da5d80e4",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "French Government-Bond Yields Rise, Spread Widens as Treasury Yields Fall",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaG1kb1dxekJabUk3czhacmlCWC1GV1N5WlkyaFZVekxHaUhsbUVIU0lLMXFHRk91ZnVBRUZCMkNWWmVMZGppbDJ1QXZTX05OdkJpNy1nVlQ0MzVyb3dONjNQcjVoU1ZsdDVwc1BuVnpUTk9TX1dMNnBJdVNtVHpkbjZCSDBrZTZlOEo5MFo5QV9WTnAxV2JySkVpWGh5alBYVTNBRlBJTUVYVjJ1Q2hwdDlyY2tJUmFJYjg4?oc=5",
-   "ts": "2026-10-22T07:21:00Z",
-   "fuente": "WSJ",
-   "id": "1dc8190050",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -10878,14 +10885,14 @@
     4074.7,
     4092.3,
     4074.1,
-    4085.1
+    4083.2
    ],
    [
-    1792671448,
-    4085.7,
-    4085.7,
-    4085.7,
-    4085.7
+    1792671809,
+    4082.5,
+    4082.5,
+    4082.5,
+    4082.5
    ]
   ],
   "nq": [
@@ -11475,14 +11482,14 @@
     29515.0,
     29547.0,
     29503.0,
-    29525.25
+    29527.25
    ],
    [
-    1792671450,
-    29528.5,
-    29528.5,
-    29528.5,
-    29528.5
+    1792671809,
+    29528.0,
+    29528.0,
+    29528.0,
+    29528.0
    ]
   ],
   "vix": [
@@ -11917,55 +11924,55 @@
     1792670400,
     18.18,
     18.19,
-    18.11,
-    18.11
+    18.08,
+    18.09
    ],
    [
-    1792671136,
-    18.1,
-    18.1,
-    18.1,
-    18.1
+    1792671496,
+    18.09,
+    18.09,
+    18.09,
+    18.09
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-22T11:57:35Z",
- "ult_4h": 1792671452.9478476,
+ "noticias_traducidas_ts": "2026-10-22T12:32:36Z",
+ "ult_4h": 1792672409.932635,
  "estrategia_4h": {
   "oro": {
-   "precio": 4080.2,
-   "atr_4h": 26.07,
+   "precio": 4082.6,
+   "atr_4h": 26.84,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4130.1,
      "entrada": 4130.1,
-     "stop": 4145.74,
+     "stop": 4146.2,
      "objetivo": 4072.7,
-     "rr": 3.67,
+     "rr": 3.56,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.36,
+     "fuerza_ruptura_atr": 1.32,
      "ruptura": "2026-10-22 00:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4151.6,
      "entrada": 4151.6,
-     "stop": 4167.24,
+     "stop": 4167.7,
      "objetivo": 4072.7,
-     "rr": 5.04,
+     "rr": 4.9,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.83,
+     "fuerza_ruptura_atr": 0.82,
      "ruptura": "2026-10-20 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29515.0,
-   "atr_4h": 212.41,
+   "precio": 29528.0,
+   "atr_4h": 213.55,
    "setups": []
   },
-  "ts": "2026-10-22T12:17:33Z"
+  "ts": "2026-10-22T12:33:30Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -12010,8 +12017,6 @@
   }
  ],
  "noticias_vistas": [
-  "a6cdd29a3d",
-  "5d22d63741",
   "b5e20ef193",
   "982cd62cce",
   "8b4b48f274",
@@ -12809,7 +12814,9 @@
   "5f2761ba7c",
   "d9bb3e2a96",
   "008c77c28d",
-  "79aa1922d6"
+  "79aa1922d6",
+  "31fb70bdb1",
+  "d80eccb39a"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
