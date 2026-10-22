@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4108.4 · NQ 29495.75 · VIX 18.22",
-   "actualizado": "2026-10-22T07:42:36Z"
+   "ultimo_resultado": "Oro 4105.8 · NQ 29510.0 · VIX 18.25 · 2 noticias nuevas",
+   "actualizado": "2026-10-22T07:47:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T07:42:35Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-22T07:47:37Z",
+   "ultimo_resultado": "2 titulares nuevos: Barclays to slash 5,000 jobs in AI efficiency push"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4105.8 · NQ 29510.0 · VIX 18.25 · 2 noticias nuevas",
+   "ts": "2026-10-22T07:47:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4108.4 · NQ 29495.75 · VIX 18.22",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4157.9 · NQ 30079.75 · VIX 16.62 · 2 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-21T18:37:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4155.6 · NQ 30079.75 · VIX 16.61 · 1 noticias nuevas",
-   "ts": "2026-10-21T18:32:57Z"
   }
  ],
  "briefs": [
@@ -9404,12 +9404,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4108.4,
-  "nq": 29495.75,
-  "vix": 18.22,
-  "ts": "2026-10-22T07:42:36Z"
+  "oro": 4105.8,
+  "nq": 29510.0,
+  "vix": 18.25,
+  "ts": "2026-10-22T07:47:37Z"
  },
  "noticias": [
+  {
+   "titulo": "Barclays to slash 5,000 jobs in AI efficiency push",
+   "link": "https://www.cnbc.com/2026/10/22/barclays-ai-jobs-cuts.html",
+   "ts": "2026-10-22T07:41:09Z",
+   "fuente": "CNBC",
+   "id": "1523904a0a",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Metso orders jump 28% as mining equipment demand drives backlog growth",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/metso-orders-jump-28-mining-072503540.html?.tsrc=rss",
+   "ts": "2026-10-22T07:25:03Z",
+   "fuente": "Yahoo Finance",
+   "id": "b5da5d80e4",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "French Government-Bond Yields Rise, Spread Widens as Treasury Yields Fall",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaG1kb1dxekJabUk3czhacmlCWC1GV1N5WlkyaFZVekxHaUhsbUVIU0lLMXFHRk91ZnVBRUZCMkNWWmVMZGppbDJ1QXZTX05OdkJpNy1nVlQ0MzVyb3dONjNQcjVoU1ZsdDVwc1BuVnpUTk9TX1dMNnBJdVNtVHpkbjZCSDBrZTZlOEo5MFo5QV9WTnAxV2JySkVpWGh5alBYVTNBRlBJTUVYVjJ1Q2hwdDlyY2tJUmFJYjg4?oc=5",
@@ -10290,31 +10308,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "CSX (NASDAQ:CSX) surprises with Q3 2026 sales",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc1hUM1RWWXJyTjM1dHZXWmJCUzRhV3lBNzRlOWRTRlVnbzIyZ2Y5ZXJkSjA2SmVuSTU2cXgxSENON05MMEpFVllnQzVqMVNxcTcwOEVDVEVFZldhODdEclJpNTVvUHRsN2oxSi1sdjFSelVPTmtneHhvOVYtYnRhNjZpaXhsdDdpX2RtTlg3V0M2UEE1bkZnVFVaQnR2dUtoLVE?oc=5",
-   "ts": "2026-10-21T21:17:49Z",
-   "fuente": "StockStory",
-   "id": "bd40f0f32e",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Treasury Secretary Bessent invokes Lincoln's 1863 act to back Trump's law",
-   "link": "https://www.thestreet.com/crypto/policy/treasury-secretary-bessent-invokes-lincolns-1863-act-to-back-trumps-law?.tsrc=rss",
-   "ts": "2026-10-21T21:15:59Z",
-   "fuente": "Yahoo Finance",
-   "id": "16bdd5c3d0",
-   "activos": [
-    "dolar",
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "El secretario del Tesoro, Bessent, invoca la ley de Lincoln de 1863 para respaldar la ley de Trump",
-   "efecto": "Genera incertidumbre institucional, apoyando compras de cobertura en renta variable."
   }
  ],
  "eventos_avisados": [
@@ -10874,15 +10867,15 @@
     1792652400,
     4108.9,
     4117.3,
-    4105.2,
-    4107.7
+    4104.1,
+    4105.9
    ],
    [
-    1792654353,
-    4108.4,
-    4108.4,
-    4108.4,
-    4108.4
+    1792654653,
+    4105.8,
+    4105.8,
+    4105.8,
+    4105.8
    ]
   ],
   "nq": [
@@ -11430,14 +11423,14 @@
     29537.0,
     29550.25,
     29470.0,
-    29501.25
+    29507.25
    ],
    [
-    1792654353,
-    29495.75,
-    29495.75,
-    29495.75,
-    29495.75
+    1792654656,
+    29509.25,
+    29509.25,
+    29509.25,
+    29509.25
    ]
   ],
   "vix": [
@@ -11838,54 +11831,43 @@
     18.29,
     18.32,
     18.18,
-    18.22
+    18.24
    ],
    [
-    1792654051,
-    18.22,
-    18.22,
-    18.22,
-    18.22
+    1792654351,
+    18.25,
+    18.25,
+    18.25,
+    18.25
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-22T07:37:32Z",
- "ult_4h": 1792654351.7593784,
+ "ult_4h": 1792655257.484379,
  "estrategia_4h": {
   "oro": {
-   "precio": 4113.2,
-   "atr_4h": 27.25,
+   "precio": 4105.8,
+   "atr_4h": 26.78,
    "setups": [
-    {
-     "direccion": "VENTA",
-     "nivel": 4124.0,
-     "entrada": 4124.0,
-     "stop": 4140.35,
-     "objetivo": 4082.4,
-     "rr": 2.54,
-     "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.3,
-     "ruptura": "2026-10-22 00:00 UTC"
-    },
     {
      "direccion": "VENTA",
      "nivel": 4151.6,
      "entrada": 4151.6,
-     "stop": 4167.95,
+     "stop": 4167.67,
      "objetivo": 4082.4,
-     "rr": 4.23,
+     "rr": 4.31,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.8,
+     "fuerza_ruptura_atr": 0.81,
      "ruptura": "2026-10-20 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29514.0,
-   "atr_4h": 226.7,
+   "precio": 29510.0,
+   "atr_4h": 226.3,
    "setups": []
   },
-  "ts": "2026-10-22T07:32:31Z"
+  "ts": "2026-10-22T07:47:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -11930,8 +11912,6 @@
   }
  ],
  "noticias_vistas": [
-  "601bd06752",
-  "2f58e1c4aa",
   "9327230b95",
   "9e5764c51f",
   "f4dff59d8d",
@@ -12729,7 +12709,9 @@
   "f347841efa",
   "1dc8190050",
   "0a5fd5bd3c",
-  "a58057b6f4"
+  "a58057b6f4",
+  "1523904a0a",
+  "b5da5d80e4"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
