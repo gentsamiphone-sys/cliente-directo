@@ -4035,9 +4035,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Nellis Blvd…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-10-22T03:02:38Z"
+   "actualizado": "2026-10-22T03:06:27Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -4065,6 +4065,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-22T03:06:27Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Nellis Blvd…",
@@ -5559,11 +5564,6 @@
    "agente": "buscador",
    "texto": "Encontré Siegel's Bagelmania, sin página web.",
    "ts": "2026-10-19T19:07:17Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Encontré nittaya secret kitchen, sin página web.",
-   "ts": "2026-10-19T19:07:15Z"
   }
  ],
  "reportes": {
