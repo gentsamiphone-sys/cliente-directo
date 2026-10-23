@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4025.6 · NQ 29137.0 · VIX 19.03 · 1 noticias nuevas",
-   "actualizado": "2026-10-23T01:47:34Z"
+   "ultimo_resultado": "Oro 4027.6 · NQ 29193.0 · VIX 19.03 · 1 noticias nuevas",
+   "actualizado": "2026-10-23T01:52:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T01:47:33Z",
-   "ultimo_resultado": "1 titulares nuevos: El oro se mantiene plano y consolidaría a corto plazo"
+   "actualizado": "2026-10-23T01:52:33Z",
+   "ultimo_resultado": "1 titulares nuevos: Nebius borrows $3.5 billion as investors question neocloud debt"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4027.6 · NQ 29193.0 · VIX 19.03 · 1 noticias nuevas",
+   "ts": "2026-10-23T01:52:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4025.6 · NQ 29137.0 · VIX 19.03 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Historial: 12 operaciones, 25% de acierto, +6.08 R.",
    "ts": "2026-10-22T12:33:49Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Revisando cómo salieron las entradas anteriores…",
-   "ts": "2026-10-22T12:33:48Z"
   }
  ],
  "briefs": [
@@ -9820,12 +9820,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4025.6,
-  "nq": 29137.0,
+  "oro": 4027.6,
+  "nq": 29193.0,
   "vix": 19.03,
-  "ts": "2026-10-23T01:47:33Z"
+  "ts": "2026-10-23T01:52:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Nebius borrows $3.5 billion as investors question neocloud debt",
+   "link": "https://www.thestreet.com/investing/nebius-citi-bridge-loan-gpu-prices?.tsrc=rss",
+   "ts": "2026-10-23T01:37:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "ceac84fdb9",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Wealthy Chinese move offshore money to U.S. banks as Beijing’s tax net widens",
    "link": "https://www.cnbc.com/2026/10/23/wealthy-chinese-tax-offshore-trusts-capital-control-.html",
@@ -10672,17 +10681,6 @@
    "id": "9b8592a0ab",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "SpaceX and Tesla have high election stakes as Elon Musk pours $366 million into campaigns",
-   "link": "https://www.cnbc.com/2026/10/22/elon-musk-midterm-election-spacex-tesla.html",
-   "ts": "2026-10-22T18:29:41Z",
-   "fuente": "CNBC",
-   "id": "e364bba6e3",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -11319,15 +11317,15 @@
     1792717200,
     4045.0,
     4045.5,
-    4025.2,
-    4025.6
+    4024.1,
+    4027.4
    ],
    [
-    1792719450,
-    4025.6,
-    4025.6,
-    4025.6,
-    4025.6
+    1792719752,
+    4027.6,
+    4027.6,
+    4027.6,
+    4027.6
    ]
   ],
   "nq": [
@@ -11950,16 +11948,16 @@
    [
     1792717200,
     29183.25,
-    29200.0,
+    29203.5,
     29056.75,
-    29137.25
+    29199.75
    ],
    [
-    1792719453,
-    29137.0,
-    29137.0,
-    29137.0,
-    29137.0
+    1792719753,
+    29193.0,
+    29193.0,
+    29193.0,
+    29193.0
    ]
   ],
   "vix": [
@@ -12558,7 +12556,6 @@
   }
  ],
  "noticias_vistas": [
-  "3fdfd0d422",
   "6b9a6b12c3",
   "07f3f9b687",
   "3a1f6db96e",
@@ -13357,7 +13354,8 @@
   "042a847dec",
   "503f04e611",
   "91c7c98137",
-  "e0db0e22cc"
+  "e0db0e22cc",
+  "ceac84fdb9"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
