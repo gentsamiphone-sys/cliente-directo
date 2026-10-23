@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4010.3 · NQ 29164.75 · VIX 20.24",
-   "actualizado": "2026-10-23T17:42:36Z"
+   "ultimo_resultado": "Oro 4007.5 · NQ 29161.25 · VIX 20.2 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-23T17:47:30Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T17:42:35Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-23T17:47:30Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Investors are starting to find opportunities in the battered bond market"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4007.5 · NQ 29161.25 · VIX 20.2 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-23T17:47:30Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4010.3 · NQ 29164.75 · VIX 20.24",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4021.0 · NQ 29151.0 · VIX 19.03",
    "ts": "2026-10-23T04:37:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4022.3 · NQ 29144.75 · VIX 19.03",
-   "ts": "2026-10-23T04:32:34Z"
   }
  ],
  "briefs": [
@@ -10223,12 +10223,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4010.3,
-  "nq": 29164.75,
-  "vix": 20.24,
-  "ts": "2026-10-23T17:42:35Z"
+  "oro": 4007.5,
+  "nq": 29161.25,
+  "vix": 20.2,
+  "ts": "2026-10-23T17:47:30Z"
  },
  "noticias": [
+  {
+   "titulo": "Investors are starting to find opportunities in the battered bond market",
+   "link": "https://www.cnbc.com/2026/10/23/investors-are-starting-to-find-opportunities-in-the-battered-bond-market.html",
+   "ts": "2026-10-23T17:40:31Z",
+   "fuente": "CNBC",
+   "id": "7e8a655513",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Supervisor Hardy Bullock: Thank You for Making Heart of Gold Gravel a Success",
    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zR0N0UHNkNkpVdTljR1FhY2N4VkZIMmpSV1FDc2RJRVlQTFNpbndzM1hIb1RnbkloRlU3NHNMMXhtNGhMYUdSUFppSFFfbUpnbFk3NXVCa2wwNkVTdFhvWFBn?oc=5",
@@ -10239,6 +10250,15 @@
    "impacto": "bajo",
    "es": "Supervisor Hardy Bullock agradece éxito de Heart of Gold Gravel",
    "efecto": "Sin impacto en mercados institucionales; ruido local."
+  },
+  {
+   "titulo": "Qatar deal to buy U.S. natural gas shows how Iran war has redrawn global energy markets",
+   "link": "https://www.cnbc.com/2026/10/23/cheniere-qatar-energy-lng-natural-gas-iran-war-strait-hormuz.html",
+   "ts": "2026-10-23T17:25:29Z",
+   "fuente": "CNBC",
+   "id": "ef0a1faa04",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Musk's SpaceX is still restricting Starlink in Ukraine and the toll is rising",
@@ -10272,6 +10292,15 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "U.S. fines Air France, KLM over flights in prohibited Iraqi airspace",
+   "link": "https://www.cnbc.com/2026/10/23/us-fines-air-france-klm-over-flights-in-prohibited-iraqi-airspace.html",
+   "ts": "2026-10-23T16:52:43Z",
+   "fuente": "CNBC",
+   "id": "95cb6ed07b",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Stock Market Midday, Oct. 23: Energy Surges on Oil Price Spike, Cybersecurity Stocks Gain",
@@ -11043,39 +11072,6 @@
    "impacto": "bajo",
    "es": "Principales recomendaciones de analistas del viernes: Nvidia, SpaceX y más",
    "efecto": ""
-  },
-  {
-   "titulo": "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries",
-   "link": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html",
-   "ts": "2026-10-23T12:12:18Z",
-   "fuente": "CNBC",
-   "id": "7616cf7921",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Fewer people are flying as airfare soars. Here's why airlines aren't worried",
-   "link": "https://www.cnbc.com/2026/10/23/airfare-airline-capacity.html",
-   "ts": "2026-10-23T12:11:48Z",
-   "fuente": "CNBC",
-   "id": "d455094c97",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "On the ground at Nvidia's AI showpiece: Jensen-mania, robot ducks and neocloud distress",
-   "link": "https://www.cnbc.com/2026/10/23/jensen-huang-gtc-robot-ducks-neocloud-distress.html",
-   "ts": "2026-10-23T12:08:30Z",
-   "fuente": "CNBC",
-   "id": "9a3cfb3fb9",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "En el evento de IA de Nvidia: euforia, patos robots y tensión en neocloud",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -11713,14 +11709,14 @@
     4014.7,
     4016.1,
     4005.8,
-    4009.6
+    4007.4
    ],
    [
-    1792776752,
-    4010.3,
-    4010.3,
-    4010.3,
-    4010.3
+    1792777048,
+    4007.5,
+    4007.5,
+    4007.5,
+    4007.5
    ]
   ],
   "nq": [
@@ -12344,15 +12340,15 @@
     1792774800,
     29204.25,
     29216.75,
-    29145.0,
-    29160.25
+    29144.0,
+    29157.75
    ],
    [
-    1792776753,
-    29164.75,
-    29164.75,
-    29164.75,
-    29164.75
+    1792777049,
+    29157.0,
+    29157.0,
+    29157.0,
+    29157.0
    ]
   ],
   "vix": [
@@ -12823,23 +12819,23 @@
     19.96,
     20.39,
     19.89,
-    20.29
+    20.19
    ],
    [
-    1792776451,
-    20.24,
-    20.24,
-    20.24,
-    20.24
+    1792776736,
+    20.2,
+    20.2,
+    20.2,
+    20.2
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-23T17:37:33Z",
- "ult_4h": 1792776753.4157739,
+ "ult_4h": 1792777650.5474446,
  "estrategia_4h": {
   "oro": {
-   "precio": 4007.0,
-   "atr_4h": 32.59,
+   "precio": 4007.5,
+   "atr_4h": 32.61,
    "setups": [
     {
      "direccion": "VENTA",
@@ -12849,31 +12845,31 @@
      "objetivo": 3989.1,
      "rr": 5.22,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.9,
+     "fuerza_ruptura_atr": 0.89,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 4130.1,
-     "entrada": 4130.1,
-     "stop": 4149.66,
+     "nivel": 4095.0,
+     "entrada": 4095.0,
+     "stop": 4114.56,
      "objetivo": 3989.1,
-     "rr": 7.21,
+     "rr": 5.41,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.09,
-     "ruptura": "2026-10-22 00:00 UTC"
+     "fuerza_ruptura_atr": 0.89,
+     "ruptura": "2026-10-22 08:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29177.5,
-   "atr_4h": 233.54,
+   "precio": 29157.0,
+   "atr_4h": 233.61,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29268.75,
      "entrada": 29268.75,
-     "stop": 29408.87,
+     "stop": 29408.91,
      "objetivo": 28987.0,
      "rr": 2.01,
      "estado": "en retesteo",
@@ -12884,7 +12880,7 @@
      "direccion": "VENTA",
      "nivel": 29391.75,
      "entrada": 29391.75,
-     "stop": 29531.87,
+     "stop": 29531.91,
      "objetivo": 28987.0,
      "rr": 2.89,
      "estado": "esperando retesteo",
@@ -12893,7 +12889,7 @@
     }
    ]
   },
-  "ts": "2026-10-23T17:32:33Z"
+  "ts": "2026-10-23T17:47:30Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -12944,9 +12940,6 @@
   }
  ],
  "noticias_vistas": [
-  "64eea5c794",
-  "c3ab983cf3",
-  "33949facb2",
   "4d8c578dde",
   "c2868e1044",
   "fd9268b295",
@@ -13743,7 +13736,10 @@
   "7f1bc53d59",
   "ad341b6bbb",
   "210a4f5cb3",
-  "680a4aaa04"
+  "680a4aaa04",
+  "7e8a655513",
+  "ef0a1faa04",
+  "95cb6ed07b"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
