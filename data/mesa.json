@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4010.7 · NQ 29170.0 · VIX 19.58 · 1 noticias nuevas",
-   "actualizado": "2026-10-23T20:27:34Z"
+   "ultimo_resultado": "Oro 4009.6 · NQ 29169.0 · VIX 19.45",
+   "actualizado": "2026-10-23T20:32:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T20:27:34Z",
-   "ultimo_resultado": "1 titulares nuevos: De aranceles a centros de datos, las grandes historias económicas de Míchigan"
+   "actualizado": "2026-10-23T20:32:30Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4009.6 · NQ 29169.0 · VIX 19.45",
+   "ts": "2026-10-23T20:32:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4010.7 · NQ 29170.0 · VIX 19.58 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-10-23T06:33:00Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 4033.3 · NQ 29234.75.",
-   "ts": "2026-10-23T06:32:59Z"
   }
  ],
  "briefs": [
@@ -10223,10 +10223,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4010.7,
-  "nq": 29170.0,
-  "vix": 19.58,
-  "ts": "2026-10-23T20:27:34Z"
+  "oro": 4009.6,
+  "nq": 29169.0,
+  "vix": 19.45,
+  "ts": "2026-10-23T20:32:31Z"
  },
  "noticias": [
   {
@@ -11720,14 +11720,14 @@
     4013.2,
     4013.5,
     4009.0,
-    4010.7
+    4009.2
    ],
    [
-    1792786638,
-    4010.7,
-    4010.7,
-    4010.7,
-    4010.7
+    1792786933,
+    4009.6,
+    4009.6,
+    4009.6,
+    4009.6
    ]
   ],
   "nq": [
@@ -12352,14 +12352,14 @@
     29122.75,
     29177.75,
     29121.25,
-    29166.25
+    29172.25
    ],
    [
-    1792786651,
-    29170.0,
-    29170.0,
-    29170.0,
-    29170.0
+    1792786951,
+    29170.5,
+    29170.5,
+    29170.5,
+    29170.5
    ]
   ],
   "vix": [
@@ -12850,71 +12850,78 @@
     1792785600,
     19.76,
     19.77,
-    19.58,
-    19.58
+    19.45,
+    19.45
+   ],
+   [
+    1792786500,
+    19.45,
+    19.45,
+    19.45,
+    19.45
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-23T20:27:33Z",
- "ult_4h": 1792786651.167733,
+ "ult_4h": 1792787551.5772383,
  "estrategia_4h": {
   "oro": {
-   "precio": 4011.3,
-   "atr_4h": 31.45,
+   "precio": 4009.6,
+   "atr_4h": 31.53,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4110.07,
+     "stop": 4110.12,
      "objetivo": 3989.1,
-     "rr": 5.41,
+     "rr": 5.4,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.93,
+     "fuerza_ruptura_atr": 0.92,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4130.1,
      "entrada": 4130.1,
-     "stop": 4148.97,
+     "stop": 4149.02,
      "objetivo": 3989.1,
-     "rr": 7.47,
+     "rr": 7.45,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.13,
+     "fuerza_ruptura_atr": 1.12,
      "ruptura": "2026-10-22 00:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29140.25,
-   "atr_4h": 217.88,
+   "precio": 29170.5,
+   "atr_4h": 220.07,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29268.75,
      "entrada": 29268.75,
-     "stop": 29399.47,
+     "stop": 29400.79,
      "objetivo": 28987.0,
-     "rr": 2.16,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.91,
+     "rr": 2.13,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 0.9,
      "ruptura": "2026-10-22 16:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 29391.75,
      "entrada": 29391.75,
-     "stop": 29522.47,
+     "stop": 29523.79,
      "objetivo": 28987.0,
-     "rr": 3.1,
+     "rr": 3.07,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.91,
+     "fuerza_ruptura_atr": 0.9,
      "ruptura": "2026-10-22 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-23T20:17:31Z"
+  "ts": "2026-10-23T20:32:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
