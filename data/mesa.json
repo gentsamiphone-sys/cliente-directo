@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4013.8 · NQ 29114.75 · VIX 19.82",
-   "actualizado": "2026-10-23T20:07:34Z"
+   "ultimo_resultado": "Oro 4011.4 · NQ 29125.5 · VIX 19.76 · 4 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-23T20:12:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T20:07:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-23T20:12:38Z",
+   "ultimo_resultado": "4 titulares nuevos, 3 de alto impacto: White House says the US is lifting tariffs on some Canadian goods"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4011.4 · NQ 29125.5 · VIX 19.76 · 4 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-23T20:12:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4013.8 · NQ 29114.75 · VIX 19.82",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
    "ts": "2026-10-23T06:32:53Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "DXY 0.05% · 10Y 4.953 · VIX 19.03 · 5 eventos USD en el radar.",
-   "ts": "2026-10-23T06:32:52Z"
   }
  ],
  "briefs": [
@@ -10223,12 +10223,41 @@
   }
  },
  "en_vivo": {
-  "oro": 4013.8,
-  "nq": 29114.75,
-  "vix": 19.82,
-  "ts": "2026-10-23T20:07:34Z"
+  "oro": 4011.4,
+  "nq": 29125.5,
+  "vix": 19.76,
+  "ts": "2026-10-23T20:12:39Z"
  },
  "noticias": [
+  {
+   "titulo": "White House says the US is lifting tariffs on some Canadian goods",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrNnNzMVdVUEVmTDc1QVB0aGpSWTREdWFMY2g2QUQ5RExzMUxrdlNhdnd6ZGxJWWhnRGltX0kxOFZOMXNhVWI2aWhsaU1DMS1fR1FTT1E0V2lnVFU?oc=5",
+   "ts": "2026-10-23T20:09:45Z",
+   "fuente": "BBC",
+   "id": "013c734647",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Embattled Susan Collins announces exemptions for Maine from Trump Canada tariffs",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcUpnNzNYZ2JLYkpCeXo4U0p1dERRR0FEXzJzTTg1WGRZXzE2bkRYWk9XSm9MVy1JRmlidDBscWdWcjc0NUsyTnlRUVZiN2loYTl1dFVxZjZoZGs5bHVVWFlacm4zVHZwQXlvVmk1aU1HNGpFa3J5UU84RXlDWlhBOUxHOGtuS296b1VJVGFlc0V2Zw?oc=5",
+   "ts": "2026-10-23T20:07:00Z",
+   "fuente": "The Guardian",
+   "id": "333031b717",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Scalpers offer Apple iPhone Duo buyers hundreds extra outside Beijing launch",
+   "link": "https://www.cnbc.com/2026/10/23/apple-iphone-duo-china-launch.html",
+   "ts": "2026-10-23T20:06:37Z",
+   "fuente": "CNBC",
+   "id": "c59ce89060",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Dow tumbles more than 600 points as oil prices rise and market sell-off hits most sectors: Live updates",
    "link": "https://www.cnbc.com/2026/10/22/stock-market-today-live-update.html",
@@ -10255,6 +10284,15 @@
    "ts": "2026-10-23T19:38:40Z",
    "fuente": "The Washington Post",
    "id": "7d994354a9",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Collins touts Trump decision to remove some farm products from Canada tariffs - Portland Press Herald",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOclE0Z1pfMXl6VHRPMFd6SDNGelBBNGpsaExuSlJ6dXlhSENIWk85bUtKamZXLXlpMWJFWlhjajhhbmhaZnA0UWo5MkFSOG5DWFlPRTVCZGZXY1lyRE9ubFJFSk5mVXRUSUVEZHQ4VW94SmZHR3ZpMzlTTTlteG9DdkI3Rmd6bXdHZVRRSHhMNDk4aVBPQXhhZlNJR25XVGwyV21GYlpBTG9jTXM0YUllaUljN3JYWkcz?oc=5",
+   "ts": "2026-10-23T19:32:56Z",
+   "fuente": "Maine Sunday Telegram",
+   "id": "e46218012a",
    "activos": [],
    "impacto": "alto"
   },
@@ -11040,50 +11078,6 @@
    "id": "2be6bbb5b7",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Russia, Ukraine agree to Oleshky ceasefire brokered by Melania Trump, White House says",
-   "link": "https://www.cnbc.com/2026/10/23/russia-ukraine-agree-to-oleshky-ceasefire-melania-trump-white-house.html",
-   "ts": "2026-10-23T14:28:48Z",
-   "fuente": "CNBC",
-   "id": "1710acf5d8",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Silver Hits Year-To-Date Low As Gold Also Falls Amid Rising Oil Prices",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUjQxOE1WOVJUdDM5Z00zZjZHOWtGU01wQ2lka01nSDk1WVlZa1k4U0hZZWRmNklVMlJzNW1wcVh3SFBXdFdQaEZqRUhtYXJsTUxCZ3ZfWVlYY2JWNGxodXp4WUhfN1oxRVRaMUVqSFlJc2FqZTZ1TThUSkc1T25QNi1Pcm9LTEVUSnA1dUhBdUpodUxud1U2T1BFZFl2NzZsV1NxdmlfSDBhYlJnSnhMc1VEX2szLThFeHAxQ1F0SFU?oc=5",
-   "ts": "2026-10-23T14:18:03Z",
-   "fuente": "Forbes",
-   "id": "d3c3d8df04",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Why Gold Is Losing Its Status as an Inflation Hedge",
-   "link": "https://finance.yahoo.com/m/8d9719a0-cc1d-37d7-acb7-d258f4d2d0fc/why-gold-is-losing-its-status.html?.tsrc=rss",
-   "ts": "2026-10-23T14:12:53Z",
-   "fuente": "Yahoo Finance",
-   "id": "1fc1ba3b5a",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio",
-   "es": "Por qué el oro está perdiendo su estatus como cobertura contra la inflación",
-   "efecto": "Reduce el atractivo del oro como refugio inflacionario a largo plazo."
-  },
-  {
-   "titulo": "Florida Swimming & Diving Add 3x World Champion and 2x Olympic Gold Medalist Matt Richards to 2026-27 Roster",
-   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPZl9GZWh5Rko1WTdTUWY2Q3MwZTc0S2pQWFZWRWNldURkWDBKdUJKM2RpamVyaDQzYUF1N1NFOEtVT19MUlY4SVY2NUp2cFowXzVBTVFRUVZjam1yS3NYcHBjcmtqVkFsUm1yOGtxRThEdHVsaVh2a3JKaHVGbE9WQUt3VzhRTzlzVmU0RUdvbkxZQ0FXNHZPeFN6SUNHanBtd1FIRTl0R3BmTkRhTVY1ZW56a05laEpkYU5wVlFtam1ZYXBzRlVFdHZDc2lDOFlaZ1VkZXBlQ3FqRVRLZk5IR1V2LU5URGVGNHJMZkF3QjRrNHVuNmdRcFVURWs4UQ?oc=5",
-   "ts": "2026-10-23T14:05:48Z",
-   "fuente": "Florida Gators",
-   "id": "3c83cb10bb",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Florida Swimming incorpora al campeón mundial Matt Richards para la temporada 2026-27",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -11100,13 +11094,6 @@
  ],
  "velas": {
   "oro": [
-   [
-    1792454400,
-    4151.4,
-    4159.0,
-    4148.3,
-    4150.6
-   ],
    [
     1792458000,
     4150.0,
@@ -11721,24 +11708,24 @@
     4012.0,
     4015.0,
     4007.5,
-    4013.9
+    4013.3
    ],
    [
-    1792785448,
-    4013.8,
-    4013.8,
-    4013.8,
-    4013.8
+    1792785600,
+    4013.1,
+    4013.5,
+    4011.0,
+    4011.3
+   ],
+   [
+    1792785756,
+    4011.4,
+    4011.4,
+    4011.4,
+    4011.4
    ]
   ],
   "nq": [
-   [
-    1792454400,
-    29751.25,
-    29769.5,
-    29605.0,
-    29645.25
-   ],
    [
     1792458000,
     29642.5,
@@ -12353,14 +12340,21 @@
     29152.75,
     29163.75,
     29101.5,
-    29117.0
+    29122.5
    ],
    [
-    1792785453,
-    29114.75,
-    29114.75,
-    29114.75,
-    29114.75
+    1792785600,
+    29121.75,
+    29140.0,
+    29121.25,
+    29129.5
+   ],
+   [
+    1792785757,
+    29125.5,
+    29125.5,
+    29125.5,
+    29125.5
    ]
   ],
   "vix": [
@@ -12845,14 +12839,14 @@
     19.75,
     19.85,
     19.6,
-    19.8
+    19.77
    ],
    [
-    1792785151,
-    19.82,
-    19.82,
-    19.82,
-    19.82
+    1792785451,
+    19.76,
+    19.76,
+    19.76,
+    19.76
    ]
   ]
  },
@@ -12955,10 +12949,6 @@
   }
  ],
  "noticias_vistas": [
-  "0b2fdcb99c",
-  "6793f059b2",
-  "217711bd52",
-  "503c64beb6",
   "aed8929333",
   "7945aee665",
   "3c911976ca",
@@ -13754,7 +13744,11 @@
   "7d994354a9",
   "26ac15b2a3",
   "900f848b3a",
-  "c199632620"
+  "c199632620",
+  "013c734647",
+  "333031b717",
+  "c59ce89060",
+  "e46218012a"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
