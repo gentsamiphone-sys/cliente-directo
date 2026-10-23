@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4039.2 · NQ 29127.25 · VIX 19.57 · 2 noticias nuevas",
-   "actualizado": "2026-10-23T12:02:34Z"
+   "ultimo_resultado": "Oro 4038.0 · NQ 29139.5 · VIX 19.58 · 2 noticias nuevas",
+   "actualizado": "2026-10-23T12:07:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T12:02:33Z",
-   "ultimo_resultado": "2 titulares nuevos: Volvo Cars plunges 26% as CEO says China sales slump came 'faster than we thought'"
+   "actualizado": "2026-10-23T12:07:32Z",
+   "ultimo_resultado": "2 titulares nuevos: Higher interest rates have made family offices pickier about investing in real estate"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4038.0 · NQ 29139.5 · VIX 19.58 · 2 noticias nuevas",
+   "ts": "2026-10-23T12:07:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4039.2 · NQ 29127.25 · VIX 19.57 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el S&P 500 (ES) con el NQ…",
    "ts": "2026-10-22T21:33:06Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Volatilidad elevada (VIX 19.03).",
-   "ts": "2026-10-22T21:33:05Z"
   }
  ],
  "briefs": [
@@ -10022,12 +10022,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4039.2,
-  "nq": 29127.25,
-  "vix": 19.57,
-  "ts": "2026-10-23T12:02:33Z"
+  "oro": 4038.0,
+  "nq": 29139.5,
+  "vix": 19.58,
+  "ts": "2026-10-23T12:07:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Higher interest rates have made family offices pickier about investing in real estate",
+   "link": "https://www.cnbc.com/2026/10/23/high-interest-rates-raise-the-bar-for-real-estate-deals.html",
+   "ts": "2026-10-23T12:01:05Z",
+   "fuente": "CNBC",
+   "id": "23d51ce1ac",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Volvo Cars plunges 26% as CEO says China sales slump came 'faster than we thought'",
    "link": "https://www.cnbc.com/2026/10/23/volvo-cars-q3-earnings-job-cuts.html",
@@ -10081,6 +10092,17 @@
    "ts": "2026-10-23T11:32:18Z",
    "fuente": "Yahoo Finance",
    "id": "91a64850c8",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Carlin Gold Announces Proposed Spin-Out to Create Carlin Gold Royalty Corporation",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR29VZkRIOU5KUXF3M2h5VzVkSE8xRFI1SjVPb2RJT2JEbmFHMjlJbVBhUU5QblVsUWRjUzZMamFwMFlLNmhmZkNzM0RhQTRxT1dvS2pGX29xSDZoczZ2d19KS1hqbG5tM1RWRjZOd1l6d1lGT3QwdTgxQWxKM01xUUF6RVJKSm9PWi0xNThwbnRBYzB0UlBjbkE0NVIxN2plYlE?oc=5",
+   "ts": "2026-10-23T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "d47a54621e",
    "activos": [
     "oro"
    ],
@@ -10880,28 +10902,6 @@
    "id": "37759ce8ce",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "UK government promises to save businesses £800 million in paperwork and tariffs",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTFM0SWI5QmdpcUtXMmF3bUUwekJQbVlUQ1k3dGNvZEpMNkdkZEJWNGMtTkNBNHNQbWhDam13YjVHUF9RWW5wTmhlVDVPRU42V1hiMEZzMVBrNnUtbkZvby15YzhnWVhPOE5iNTdJbFNFR2lfSkFWSDBVYXlTXzNEeXBudzBGT3ppN2FMUmxlVllPVU9rQmtfTUp4UTlfaEtKb2V0SVR0UWtkWG84d0VkNV8yNA?oc=5",
-   "ts": "2026-10-23T05:02:00Z",
-   "fuente": "Reuters",
-   "id": "b3bc65fea4",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Justice Department Closes Inquiry of Federal Reserve Pushed by Trump",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5zdk5zX0FqR2NfVFhkd1hOdHJ2TllsbkNrVk5UeloyRXJaMWpHc2c5T19PNkVZc3F5bHFFRHp3M2ZwYXZhMnZlaV91N0xvQ00zbmxhV1FKYVVfNEJDWVVacDViQQ?oc=5",
-   "ts": "2026-10-23T04:57:45Z",
-   "fuente": "The New York Times",
-   "id": "1f371bf64c",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "bajo",
-   "es": "El Departamento de Justicia cierra investigación sobre la Reserva Federal impulsada por Trump",
-   "efecto": "Reduce ruido político, impacto limitado en tasas y dólar."
   }
  ],
  "eventos_avisados": [
@@ -11538,15 +11538,15 @@
     1792753200,
     4037.6,
     4045.7,
-    4036.9,
-    4039.8
+    4036.7,
+    4038.1
    ],
    [
-    1792756351,
-    4039.2,
-    4039.2,
-    4039.2,
-    4039.2
+    1792756650,
+    4038.0,
+    4038.0,
+    4038.0,
+    4038.0
    ]
   ],
   "nq": [
@@ -12169,16 +12169,16 @@
    [
     1792753200,
     29097.5,
-    29143.75,
+    29145.0,
     29076.25,
-    29139.0
+    29141.0
    ],
    [
-    1792756353,
-    29127.75,
-    29127.75,
-    29127.75,
-    29127.75
+    1792756653,
+    29141.75,
+    29141.75,
+    29141.75,
+    29141.75
    ]
   ],
   "vix": [
@@ -12606,15 +12606,15 @@
     1792753200,
     19.84,
     19.84,
-    19.54,
-    19.6
+    19.53,
+    19.59
    ],
    [
-    1792756051,
-    19.57,
-    19.57,
-    19.57,
-    19.57
+    1792756351,
+    19.58,
+    19.58,
+    19.58,
+    19.58
    ]
   ]
  },
@@ -12715,8 +12715,6 @@
   }
  ],
  "noticias_vistas": [
-  "dee53a9f18",
-  "ce1a17fe5f",
   "1817ea9efb",
   "d0300eb39a",
   "569c69fced",
@@ -13514,7 +13512,9 @@
   "a9f116ab31",
   "86c255127d",
   "d36dceae8d",
-  "24f958583a"
+  "24f958583a",
+  "23d51ce1ac",
+  "d47a54621e"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
