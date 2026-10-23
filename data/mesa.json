@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4011.0 · NQ 29147.0 · VIX 19.78 · 2 noticias nuevas",
-   "actualizado": "2026-10-23T19:12:37Z"
+   "ultimo_resultado": "Oro 4009.6 · NQ 29142.25 · VIX 19.7 · 3 noticias nuevas",
+   "actualizado": "2026-10-23T19:17:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T19:12:36Z",
-   "ultimo_resultado": "2 titulares nuevos: In hunt for Starlink alternative, Ukraine partners with Nokia and satellite maker ICEYE"
+   "actualizado": "2026-10-23T19:17:40Z",
+   "ultimo_resultado": "3 titulares nuevos: Apple is set to take back the market-cap crown from Nvidia. Upcoming earnings may push it over the top"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4009.6 · NQ 29142.25 · VIX 19.7 · 3 noticias nuevas",
+   "ts": "2026-10-23T19:17:41Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4011.0 · NQ 29147.0 · VIX 19.78 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4035.9 · NQ 29143.5 · VIX 19.03",
    "ts": "2026-10-23T06:07:38Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4036.9 · NQ 29151.0 · VIX 19.03",
-   "ts": "2026-10-23T06:02:29Z"
   }
  ],
  "briefs": [
@@ -10223,12 +10223,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4011.0,
-  "nq": 29147.0,
-  "vix": 19.78,
-  "ts": "2026-10-23T19:12:36Z"
+  "oro": 4009.6,
+  "nq": 29142.25,
+  "vix": 19.7,
+  "ts": "2026-10-23T19:17:40Z"
  },
  "noticias": [
+  {
+   "titulo": "Apple is set to take back the market-cap crown from Nvidia. Upcoming earnings may push it over the top",
+   "link": "https://www.cnbc.com/2026/10/23/apple-nvidia-market-cap-earnings.html",
+   "ts": "2026-10-23T19:07:32Z",
+   "fuente": "CNBC",
+   "id": "306e85409a",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Next week brings major risks for the stock market, just as the AI trade keeps faltering",
+   "link": "https://www.cnbc.com/2026/10/23/next-week-brings-major-risks-for-the-stock-market-just-as-the-ai-trade-keeps-faltering.html",
+   "ts": "2026-10-23T19:02:39Z",
+   "fuente": "CNBC",
+   "id": "349022e42f",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "How Grant Cardone pitched bitcoin to property investors",
    "link": "https://finance.yahoo.com/video/grant-cardone-pitched-bitcoin-property-190000061.html?.tsrc=rss",
@@ -10432,6 +10452,17 @@
    "impacto": "medio",
    "es": "Acciones de tiendas de descuento caen: Dollar Tree y Dollar General bajan un 6%",
    "efecto": "Refleja debilidad en el consumidor minorista, presionando al sector consumo en NQ."
+  },
+  {
+   "titulo": "Walking the Gold Carpet",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMG5XY1ByUHl3eXRFdVhBQjVUcDM1bllDN2NGcmZqM1hYV3Y3bTdzbG5rdEpCYUEyUFJYZG5ndjFwd1NNb1o4c20xZHdvM1Y4OFV3eE9KdlVUTU52dEpOODBOdFJJTWVhT21fTjJzWHlZR0RFMVowb1ZtWjFaMW5KWEVoMTc?oc=5",
+   "ts": "2026-10-23T17:53:22Z",
+   "fuente": "mutigers.com",
+   "id": "205b51759b",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Exclusive | Trump Expected to Remove Some Tariffs on Canada in Bid to Help Susan Collins",
@@ -11044,35 +11075,6 @@
    "ts": "2026-10-23T13:46:33Z",
    "fuente": "CNBC",
    "id": "6bcaf8b5f0",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "American Express is cutting 5% of its workforce to 'prepare for AI'",
-   "link": "https://www.cnbc.com/2026/10/23/american-express-job-cuts.html",
-   "ts": "2026-10-23T13:44:48Z",
-   "fuente": "CNBC",
-   "id": "63c9f34b3d",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Stock Market Today (Oct. 23, 2026): Nasdaq falls following tech sell-off",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVE5EbFlLWEZxbmcyRkd0VFJ3am42ZFNTNXhjWm9Rd3FYemRweGdzOF9QRk5ienJXUUJ2N1Y4dEtYTkZBTGZsTUZOaVlQbmQ0cVR0ZUtvMDFCb2tZaG5VOUt1aW9kdl9aSXNlN21zbUpfeHIwWlB6cXA3TVA5MHFNOTM5dGtXU20wczNDUWJWMG1EN1hy?oc=5",
-   "ts": "2026-10-23T13:44:45Z",
-   "fuente": "Yahoo Finance",
-   "id": "bdbf0e61db",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Brent crude oil tops $115, a six-month high, as tensions swell in the Middle East",
-   "link": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
-   "ts": "2026-10-23T13:42:06Z",
-   "fuente": "CNBC",
-   "id": "f31c244a61",
    "activos": [],
    "impacto": "bajo"
   }
@@ -11711,15 +11713,15 @@
     1792782000,
     4012.1,
     4012.3,
-    4009.4,
-    4010.6
+    4009.0,
+    4009.0
    ],
    [
-    1792782155,
-    4010.7,
-    4010.7,
-    4010.7,
-    4010.7
+    1792782455,
+    4009.6,
+    4009.6,
+    4009.6,
+    4009.6
    ]
   ],
   "nq": [
@@ -12342,16 +12344,16 @@
    [
     1792782000,
     29152.75,
-    29154.25,
-    29138.5,
-    29149.75
+    29162.25,
+    29131.75,
+    29138.5
    ],
    [
-    1792782155,
-    29147.0,
-    29147.0,
-    29147.0,
-    29147.0
+    1792782460,
+    29141.75,
+    29141.75,
+    29141.75,
+    29141.75
    ]
   ],
   "vix": [
@@ -12828,23 +12830,30 @@
     1792778400,
     19.93,
     20.08,
-    19.81,
-    19.81
+    19.72,
+    19.78
    ],
    [
-    1792781851,
-    19.78,
-    19.78,
-    19.78,
-    19.78
+    1792782000,
+    19.75,
+    19.76,
+    19.71,
+    19.71
+   ],
+   [
+    1792782151,
+    19.7,
+    19.7,
+    19.7,
+    19.7
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-23T18:52:33Z",
- "ult_4h": 1792782153.7494903,
+ "ult_4h": 1792783060.8961961,
  "estrategia_4h": {
   "oro": {
-   "precio": 4010.2,
+   "precio": 4009.6,
    "atr_4h": 32.7,
    "setups": [
     {
@@ -12872,23 +12881,23 @@
    ]
   },
   "nq": {
-   "precio": 29158.5,
-   "atr_4h": 234.32,
+   "precio": 29142.25,
+   "atr_4h": 234.48,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29268.75,
      "entrada": 29268.75,
-     "stop": 29409.34,
+     "stop": 29409.44,
      "objetivo": 28987.0,
      "rr": 2.0,
-     "estado": "en retesteo",
+     "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.84,
      "ruptura": "2026-10-22 16:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-23T19:02:33Z"
+  "ts": "2026-10-23T19:17:41Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -12939,9 +12948,6 @@
   }
  ],
  "noticias_vistas": [
-  "191b08d7fc",
-  "5f6da99291",
-  "e9b52acf58",
   "17d6ddca8e",
   "947a7f52a7",
   "d899a104d8",
@@ -13738,7 +13744,10 @@
   "a781d373f3",
   "d3c3d8df04",
   "95fba08dd9",
-  "30d8d0a7f0"
+  "30d8d0a7f0",
+  "306e85409a",
+  "349022e42f",
+  "205b51759b"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
