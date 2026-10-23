@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4037.5 · NQ 29103.0 · VIX 19.61 · 3 noticias nuevas",
-   "actualizado": "2026-10-23T11:42:32Z"
+   "ultimo_resultado": "Oro 4037.3 · NQ 29095.5 · VIX 19.68 · 1 noticias nuevas",
+   "actualizado": "2026-10-23T11:47:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T11:42:31Z",
-   "ultimo_resultado": "3 titulares nuevos: TSX futures drop amid gold price fall, AI anxieties"
+   "actualizado": "2026-10-23T11:47:34Z",
+   "ultimo_resultado": "1 titulares nuevos: Stocks making the biggest moves premarket: AT&T, SpaceX, Moderna, Deckers, Bloom Energy and more"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4037.3 · NQ 29095.5 · VIX 19.68 · 1 noticias nuevas",
+   "ts": "2026-10-23T11:47:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4037.5 · NQ 29103.0 · VIX 19.61 · 3 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-10-22T21:32:59Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 4039.8 · NQ 29094.75.",
-   "ts": "2026-10-22T21:32:57Z"
   }
  ],
  "briefs": [
@@ -10022,12 +10022,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4037.5,
-  "nq": 29103.0,
-  "vix": 19.61,
-  "ts": "2026-10-23T11:42:31Z"
+  "oro": 4037.3,
+  "nq": 29095.5,
+  "vix": 19.68,
+  "ts": "2026-10-23T11:47:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Stocks making the biggest moves premarket: AT&T, SpaceX, Moderna, Deckers, Bloom Energy and more",
+   "link": "https://www.cnbc.com/2026/10/23/stocks-making-the-biggest-moves-premarket-att-spacex-moderna-deckers-bloom-energy-and-more.html",
+   "ts": "2026-10-23T11:42:28Z",
+   "fuente": "CNBC",
+   "id": "0fe7700812",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "TSX futures drop amid gold price fall, AI anxieties",
    "link": "https://finance.yahoo.com/markets/stocks/articles/tsx-futures-drop-amid-gold-113218481.html?.tsrc=rss",
@@ -10891,17 +10902,6 @@
    "impacto": "bajo",
    "es": "La congresista Susie Lee habla sobre coste de vida, aranceles y centros de datos",
    "efecto": ""
-  },
-  {
-   "titulo": "Gold off three-month lows as oil rally fans inflation worries",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWE1LcUgzRWRwVDZmX3FEaWszVHF0cFQ1ekt6M1pyQ0lfc05PQm9DekdZcXprdm1vQk00SlNEZjEwQllCd1VwMUJySnIxcF9ZblFaRHFsV3BzSU52SlJSSi1TeWxoTmdYc1h6UHhPQTFQYU41ZEdQTFRNY3l0N1Q2bnRDV2x1MjlveGtxTk1oQWlGd3ExcUZEd2QzdF9TUkVKcXotUlIycUgtb1RrZjJ3?oc=5",
-   "ts": "2026-10-23T04:14:00Z",
-   "fuente": "Reuters",
-   "id": "4bbfe0cb00",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -11538,15 +11538,15 @@
     1792753200,
     4037.6,
     4045.7,
-    4037.0,
+    4036.9,
     4038.3
    ],
    [
-    1792755148,
-    4037.5,
-    4037.5,
-    4037.5,
-    4037.5
+    1792755441,
+    4037.3,
+    4037.3,
+    4037.3,
+    4037.3
    ]
   ],
   "nq": [
@@ -12171,14 +12171,14 @@
     29097.0,
     29128.75,
     29076.25,
-    29106.25
+    29098.0
    ],
    [
-    1792755150,
-    29103.0,
-    29103.0,
-    29103.0,
-    29103.0
+    1792755452,
+    29095.5,
+    29095.5,
+    29095.5,
+    29095.5
    ]
   ],
   "vix": [
@@ -12606,43 +12606,43 @@
     1792753200,
     19.84,
     19.84,
-    19.62,
-    19.62
+    19.59,
+    19.69
    ],
    [
-    1792754836,
-    19.61,
-    19.61,
-    19.61,
-    19.61
+    1792755151,
+    19.68,
+    19.68,
+    19.68,
+    19.68
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-23T11:17:35Z",
- "ult_4h": 1792755150.2601795,
+ "ult_4h": 1792756054.938506,
  "estrategia_4h": {
   "oro": {
-   "precio": 4043.5,
-   "atr_4h": 30.71,
+   "precio": 4037.3,
+   "atr_4h": 30.75,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4109.63,
+     "stop": 4109.65,
      "objetivo": 4000.9,
-     "rr": 4.9,
+     "rr": 4.89,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.94,
+     "fuerza_ruptura_atr": 0.96,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4130.1,
      "entrada": 4130.1,
-     "stop": 4148.53,
+     "stop": 4148.55,
      "objetivo": 4000.9,
-     "rr": 7.01,
+     "rr": 7.0,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.15,
      "ruptura": "2026-10-22 00:00 UTC"
@@ -12650,23 +12650,23 @@
    ]
   },
   "nq": {
-   "precio": 29115.75,
-   "atr_4h": 219.14,
+   "precio": 29095.5,
+   "atr_4h": 219.3,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29391.75,
      "entrada": 29391.75,
-     "stop": 29523.24,
+     "stop": 29523.33,
      "objetivo": 29022.75,
-     "rr": 2.81,
+     "rr": 2.8,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.9,
      "ruptura": "2026-10-22 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-23T11:32:30Z"
+  "ts": "2026-10-23T11:47:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -12715,7 +12715,6 @@
   }
  ],
  "noticias_vistas": [
-  "1da58a0260",
   "6ebec04747",
   "f7c2e7bcd6",
   "87fd8d5c8c",
@@ -13514,7 +13513,8 @@
   "addef29905",
   "91a64850c8",
   "25a1fba999",
-  "9b351aa82d"
+  "9b351aa82d",
+  "0fe7700812"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
