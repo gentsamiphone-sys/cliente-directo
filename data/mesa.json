@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4011.4 · NQ 29125.5 · VIX 19.76 · 4 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-23T20:12:39Z"
+   "ultimo_resultado": "Oro 4011.3 · NQ 29140.25 · VIX 19.76 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-23T20:17:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T20:12:38Z",
-   "ultimo_resultado": "4 titulares nuevos, 3 de alto impacto: White House says the US is lifting tariffs on some Canadian goods"
+   "actualizado": "2026-10-23T20:17:30Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Dow tumbles more than 600 points as oil prices rise and market sell-off hits most sectors"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4011.3 · NQ 29140.25 · VIX 19.76 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-23T20:17:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4011.4 · NQ 29125.5 · VIX 19.76 · 4 noticias nuevas (3 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +107,089 contratos.",
    "ts": "2026-10-23T06:32:55Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-10-23T06:32:53Z"
   }
  ],
  "briefs": [
@@ -10223,12 +10223,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4011.4,
-  "nq": 29125.5,
+  "oro": 4011.3,
+  "nq": 29140.25,
   "vix": 19.76,
-  "ts": "2026-10-23T20:12:39Z"
+  "ts": "2026-10-23T20:17:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Dow tumbles more than 600 points as oil prices rise and market sell-off hits most sectors",
+   "link": "https://www.cnbc.com/2026/10/22/stock-market-today-live-update.html",
+   "ts": "2026-10-23T20:16:54Z",
+   "fuente": "CNBC",
+   "id": "a1cc203530",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "White House says the US is lifting tariffs on some Canadian goods",
    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrNnNzMVdVUEVmTDc1QVB0aGpSWTREdWFMY2g2QUQ5RExzMUxrdlNhdnd6ZGxJWWhnRGltX0kxOFZOMXNhVWI2aWhsaU1DMS1fR1FTT1E0V2lnVFU?oc=5",
@@ -10237,6 +10246,17 @@
    "id": "013c734647",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Dow and Small Caps Climb Weekly While Nasdaq Slips on Megacap Earnings Charges",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/dow-small-caps-climb-weekly-200800692.html?.tsrc=rss",
+   "ts": "2026-10-23T20:08:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "f082d66e05",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Embattled Susan Collins announces exemptions for Maine from Trump Canada tariffs",
@@ -10257,6 +10277,18 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Gold Breaks Below $4,000 as Oil Surge Fuels Fed Rate Fears",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-breaks-below-4-000-200321300.html?.tsrc=rss",
+   "ts": "2026-10-23T20:03:21Z",
+   "fuente": "Yahoo Finance",
+   "id": "12a61df93d",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Dow tumbles more than 600 points as oil prices rise and market sell-off hits most sectors: Live updates",
@@ -11051,33 +11083,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "President Trump Opts for Negotiations, Not Tariffs, in Section 232 Wind Turbine Investigation",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNY0FKU2JNTFYwV2Z3d0JtR2oxUnQxQXpXbkZGOXNxUXJwZjhMMjdqNEp2bDZmdl9EVDhyUFlkZm9MRW1sdXF4Q0ZqVEh3NVJwWW1DNjFUbG00RURrUzZfVm9OVmNYMldfYmZadzhFMVhUMWxuOVdZRjdXY3RFRS1oUTl2NjJqZ19CNEJjSWtpdHFJcHZDTkhBVUM0N1d3ZThYUHJ0eFVaUVlhY2RnRHpiNGhWWU5MbHh0UzBDN0wzMG15UzBydU1UTEh6dzd5MmFvMUpKaA?oc=5",
-   "ts": "2026-10-23T14:35:11Z",
-   "fuente": "www.thompsonhinesmartrade.com",
-   "id": "a6923de398",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Texas Senate race: New Talarico ad rips Elon Musk 'dark money' push",
-   "link": "https://www.cnbc.com/2026/10/23/james-talarico-campaign-ad-elon-musk-texas-senate-election.html",
-   "ts": "2026-10-23T14:34:37Z",
-   "fuente": "CNBC",
-   "id": "daf5a346a6",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Dow tumbles more than 800 points as Middle East tensions rise, selling broadens beyond tech: Live updates",
-   "link": "https://www.cnbc.com/2026/10/22/stock-market-today-live-update.html",
-   "ts": "2026-10-23T14:30:53Z",
-   "fuente": "CNBC",
-   "id": "2be6bbb5b7",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -11714,15 +11719,15 @@
     1792785600,
     4013.1,
     4013.5,
-    4011.0,
-    4011.3
+    4010.1,
+    4010.1
    ],
    [
-    1792785756,
-    4011.4,
-    4011.4,
-    4011.4,
-    4011.4
+    1792786049,
+    4011.2,
+    4011.2,
+    4011.2,
+    4011.2
    ]
   ],
   "nq": [
@@ -12345,16 +12350,16 @@
    [
     1792785600,
     29121.75,
-    29140.0,
+    29144.75,
     29121.25,
-    29129.5
+    29136.75
    ],
    [
-    1792785757,
-    29125.5,
-    29125.5,
-    29125.5,
-    29125.5
+    1792786049,
+    29140.25,
+    29140.25,
+    29140.25,
+    29140.25
    ]
   ],
   "vix": [
@@ -12839,66 +12844,77 @@
     19.75,
     19.85,
     19.6,
-    19.77
+    19.79
    ],
    [
-    1792785451,
+    1792785600,
     19.76,
     19.76,
-    19.76,
+    19.72,
     19.76
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-23T19:57:33Z",
- "ult_4h": 1792785752.0724242,
+ "ult_4h": 1792786651.167733,
  "estrategia_4h": {
   "oro": {
-   "precio": 4013.6,
-   "atr_4h": 32.7,
+   "precio": 4011.3,
+   "atr_4h": 31.45,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4110.82,
+     "stop": 4110.07,
      "objetivo": 3989.1,
-     "rr": 5.2,
+     "rr": 5.41,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.89,
+     "fuerza_ruptura_atr": 0.93,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4130.1,
      "entrada": 4130.1,
-     "stop": 4149.72,
+     "stop": 4148.97,
      "objetivo": 3989.1,
-     "rr": 7.19,
+     "rr": 7.47,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.08,
+     "fuerza_ruptura_atr": 1.13,
      "ruptura": "2026-10-22 00:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29111.75,
-   "atr_4h": 236.64,
+   "precio": 29140.25,
+   "atr_4h": 217.88,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29268.75,
      "entrada": 29268.75,
-     "stop": 29410.74,
-     "objetivo": 28946.75,
-     "rr": 2.27,
+     "stop": 29399.47,
+     "objetivo": 28987.0,
+     "rr": 2.16,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.83,
+     "fuerza_ruptura_atr": 0.91,
      "ruptura": "2026-10-22 16:00 UTC"
+    },
+    {
+     "direccion": "VENTA",
+     "nivel": 29391.75,
+     "entrada": 29391.75,
+     "stop": 29522.47,
+     "objetivo": 28987.0,
+     "rr": 3.1,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 0.91,
+     "ruptura": "2026-10-22 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-23T20:02:32Z"
+  "ts": "2026-10-23T20:17:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -12949,9 +12965,6 @@
   }
  ],
  "noticias_vistas": [
-  "aed8929333",
-  "7945aee665",
-  "3c911976ca",
   "5dc25f876e",
   "164004930b",
   "ff4ff408de",
@@ -13748,7 +13761,10 @@
   "013c734647",
   "333031b717",
   "c59ce89060",
-  "e46218012a"
+  "e46218012a",
+  "a1cc203530",
+  "f082d66e05",
+  "12a61df93d"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
