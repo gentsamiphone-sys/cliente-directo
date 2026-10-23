@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4036.2 · NQ 29100.5 · VIX 19.73 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-23T11:02:35Z"
+   "ultimo_resultado": "Oro 4038.1 · NQ 29100.5 · VIX 19.83 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-23T11:07:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T11:02:34Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: With earnings in rearview mirror, SpaceX-Tesla merger chatter takes center stage"
+   "actualizado": "2026-10-23T11:07:34Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: SpaceX bear flips to big bull because of AI business. Analyst now sees 70% gain"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4038.1 · NQ 29100.5 · VIX 19.83 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-23T11:07:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4036.2 · NQ 29100.5 · VIX 19.73 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Revisando cómo salieron las entradas anteriores…",
    "ts": "2026-10-22T21:32:45Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Abriendo la mesa para la sesión de Asia (Tokio/Sídney).",
-   "ts": "2026-10-22T21:32:44Z"
   }
  ],
  "briefs": [
@@ -10022,12 +10022,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4036.2,
+  "oro": 4038.1,
   "nq": 29100.5,
-  "vix": 19.73,
-  "ts": "2026-10-23T11:02:34Z"
+  "vix": 19.83,
+  "ts": "2026-10-23T11:07:35Z"
  },
  "noticias": [
+  {
+   "titulo": "SpaceX bear flips to big bull because of AI business. Analyst now sees 70% gain",
+   "link": "https://www.cnbc.com/2026/10/23/spacex-double-upgraded-by-phillipcapital.html",
+   "ts": "2026-10-23T11:02:56Z",
+   "fuente": "CNBC",
+   "id": "b06d5ded11",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "With earnings in rearview mirror, SpaceX-Tesla merger chatter takes center stage",
    "link": "https://www.cnbc.com/2026/10/23/spacex-tesla-merger-chatter-takes-center-stage-after-earnings.html",
@@ -10038,6 +10047,15 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Where they stand: Michele Tafoya and Peggy Flanagan on Trump’s tariffs",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdTFPWjdVMmhkMzI2X1drN2JuR3VYSUlqdy1iREkxdUlTWHk3d1Rfa3RkNHRyWFFSaUJHdG85eWpmdV9IN0w2aHVsckpNTjlnQU5XY1g5M2l3TVpsQTRfQldWYVppTVpIcDVOcEtpdlc5SEdvMmxHcVJvR0V0bEZaQXpsZTNWUjEtUTFRN3dJZ3JxcjFZUEVpZlVEQmQ2T1pRTzFfMnRrNklUdw?oc=5",
+   "ts": "2026-10-23T11:00:00Z",
+   "fuente": "Star Tribune",
+   "id": "4d0569a90f",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "BofA flags further downside risk for stocks, yields and dollar",
@@ -10890,28 +10908,6 @@
    "id": "ceac84fdb9",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Wealthy Chinese move offshore money to U.S. banks as Beijing’s tax net widens",
-   "link": "https://www.cnbc.com/2026/10/23/wealthy-chinese-tax-offshore-trusts-capital-control-.html",
-   "ts": "2026-10-23T01:23:12Z",
-   "fuente": "CNBC",
-   "id": "503f04e611",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Newmont Q3 Earnings Call Highlights",
-   "link": "https://www.marketbeat.com/instant-alerts/transcript-newmont-q3-earnings-call-highlights-2026-10-22/?utm_source=yahoofinance&amp;utm_medium=yahoofinance&amp;.tsrc=rss",
-   "ts": "2026-10-23T01:04:19Z",
-   "fuente": "Yahoo Finance",
-   "id": "f9146e42fc",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Resultados trimestrales de Newmont",
-   "efecto": "Ruido corporativo menor sin impacto macroeconómico relevante."
   }
  ],
  "eventos_avisados": [
@@ -11548,15 +11544,15 @@
     1792749600,
     4038.3,
     4040.5,
-    4034.9,
-    4035.6
+    4034.2,
+    4037.0
    ],
    [
-    1792752751,
-    4036.2,
-    4036.2,
-    4036.2,
-    4036.2
+    1792753046,
+    4038.1,
+    4038.1,
+    4038.1,
+    4038.1
    ]
   ],
   "nq": [
@@ -12180,11 +12176,11 @@
     1792749600,
     29116.5,
     29157.5,
-    29089.0,
-    29096.75
+    29081.0,
+    29098.75
    ],
    [
-    1792752752,
+    1792753052,
     29100.5,
     29100.5,
     29100.5,
@@ -12608,16 +12604,16 @@
    [
     1792749600,
     19.58,
-    19.72,
+    19.8,
     19.51,
-    19.7
+    19.8
    ],
    [
-    1792752451,
-    19.73,
-    19.73,
-    19.73,
-    19.73
+    1792752751,
+    19.83,
+    19.83,
+    19.83,
+    19.83
    ]
   ]
  },
@@ -12718,8 +12714,6 @@
   }
  ],
  "noticias_vistas": [
-  "b02c5401cc",
-  "54f7f6a9ab",
   "943a915aee",
   "5705d668e1",
   "ecbf4da4e8",
@@ -13517,7 +13511,9 @@
   "e031ce6361",
   "eb303c9403",
   "bc6e95de1b",
-  "4bbfe0cb00"
+  "4bbfe0cb00",
+  "b06d5ded11",
+  "4d0569a90f"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
