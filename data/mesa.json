@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4012.1 · NQ 29188.5 · VIX 19.95 · 2 noticias nuevas",
-   "actualizado": "2026-10-23T18:22:35Z"
+   "ultimo_resultado": "Oro 4012.3 · NQ 29177.5 · VIX 19.98 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-23T18:27:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T18:22:34Z",
-   "ultimo_resultado": "2 titulares nuevos: Trump says he ordered DOJ suit to block Alaska Senate race certification if Republican loses: 'I'm the one that said 'do it''"
+   "actualizado": "2026-10-23T18:27:36Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: U.S. dropping some Canada tariffs, Susan Collins says as trade war looms over Maine Senate race"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4012.3 · NQ 29177.5 · VIX 19.98 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-23T18:27:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4012.1 · NQ 29188.5 · VIX 19.95 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4023.7 · NQ 29139.0 · VIX 19.03",
    "ts": "2026-10-23T05:17:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4022.4 · NQ 29134.75 · VIX 19.03",
-   "ts": "2026-10-23T05:12:31Z"
   }
  ],
  "briefs": [
@@ -10223,12 +10223,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4012.1,
-  "nq": 29188.5,
-  "vix": 19.95,
-  "ts": "2026-10-23T18:22:34Z"
+  "oro": 4012.3,
+  "nq": 29177.5,
+  "vix": 19.98,
+  "ts": "2026-10-23T18:27:36Z"
  },
  "noticias": [
+  {
+   "titulo": "U.S. dropping some Canada tariffs, Susan Collins says as trade war looms over Maine Senate race",
+   "link": "https://www.cnbc.com/2026/10/23/trump-tariffs-canada-susan-collins.html",
+   "ts": "2026-10-23T18:23:47Z",
+   "fuente": "CNBC",
+   "id": "2fadff21cb",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "Trump says he ordered DOJ suit to block Alaska Senate race certification if Republican loses: 'I'm the one that said 'do it''",
    "link": "https://www.cnbc.com/2026/10/23/alaska-senate-election-doj-lawsuit-sullivan.html",
@@ -10248,6 +10257,15 @@
     "dolar"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Kinder Morgan, Energy Transfer and Williams could benefit from cheap natural gas",
+   "link": "https://www.cnbc.com/2026/10/23/cheap-natural-gas-pipeline-stocks.html",
+   "ts": "2026-10-23T18:07:34Z",
+   "fuente": "CNBC",
+   "id": "856924306e",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "US expected to remove 50% tariffs on some Canadian agricultural and forestry goods, WSJ reports",
@@ -11052,30 +11070,6 @@
    "id": "a00cea585d",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Why investors are moving back into Treasurys",
-   "link": "https://www.cnbc.com/2026/10/23/treasurys-haven-ai-credit-risks.html",
-   "ts": "2026-10-23T13:08:12Z",
-   "fuente": "CNBC",
-   "id": "7588c9f50b",
-   "activos": [
-    "dolar",
-    "oro",
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Por qué los inversionistas están regresando a los bonos del Tesoro",
-   "efecto": "Fortalece al dólar y limita el potencial alcista del oro."
-  },
-  {
-   "titulo": "Our top 10 things to watch in the stock market Friday",
-   "link": "https://www.cnbc.com/investingclub/2026/10/23/our-top-10-things-to-watch-in-the-stock-market-friday.html",
-   "ts": "2026-10-23T13:06:34Z",
-   "fuente": "CNBC",
-   "id": "160c7f28bb",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -11713,14 +11707,14 @@
     4013.9,
     4014.0,
     4011.2,
-    4012.1
+    4012.6
    ],
    [
-    1792779148,
-    4012.1,
-    4012.1,
-    4012.1,
-    4012.1
+    1792779450,
+    4012.3,
+    4012.3,
+    4012.3,
+    4012.3
    ]
   ],
   "nq": [
@@ -12345,14 +12339,14 @@
     29209.25,
     29215.0,
     29170.75,
-    29182.25
+    29197.0
    ],
    [
-    1792779153,
-    29188.5,
-    29188.5,
-    29188.5,
-    29188.5
+    1792779456,
+    29177.5,
+    29177.5,
+    29177.5,
+    29177.5
    ]
   ],
   "vix": [
@@ -12830,14 +12824,14 @@
     19.93,
     20.07,
     19.92,
-    19.93
+    20.0
    ],
    [
-    1792778851,
-    19.95,
-    19.95,
-    19.95,
-    19.95
+    1792779151,
+    19.96,
+    19.96,
+    19.96,
+    19.96
    ]
   ]
  },
@@ -12951,8 +12945,6 @@
   }
  ],
  "noticias_vistas": [
-  "df0ff02d12",
-  "fa08d5c1d3",
   "64f3b96d73",
   "7be9922fd5",
   "579990acc2",
@@ -13750,7 +13742,9 @@
   "f29e907b15",
   "701eff3415",
   "083e3f02bf",
-  "d6e3337109"
+  "d6e3337109",
+  "2fadff21cb",
+  "856924306e"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
