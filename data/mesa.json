@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4038.0 · NQ 29095.75 · VIX 19.72 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-23T11:52:34Z"
+   "ultimo_resultado": "Oro 4039.4 · NQ 29132.25 · VIX 19.71 · 2 noticias nuevas",
+   "actualizado": "2026-10-23T11:57:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T11:52:33Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: El petróleo estadounidense supera los 100 dólares por tensiones con Irán"
+   "actualizado": "2026-10-23T11:57:31Z",
+   "ultimo_resultado": "2 titulares nuevos: US Dollar Rises Early Friday Ahead of S&P Global Flash Estimates, Michigan Sentiment"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4039.4 · NQ 29132.25 · VIX 19.71 · 2 noticias nuevas",
+   "ts": "2026-10-23T11:57:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4038.0 · NQ 29095.75 · VIX 19.72 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "VIX/NQ: DIVERGENCIA: NQ baja pero el VIX también baja (caída sin miedo; posible barrida para comprar)",
    "ts": "2026-10-22T21:33:03Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
-   "ts": "2026-10-22T21:33:00Z"
   }
  ],
  "briefs": [
@@ -10022,10 +10022,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4038.0,
-  "nq": 29095.75,
-  "vix": 19.72,
-  "ts": "2026-10-23T11:52:33Z"
+  "oro": 4039.4,
+  "nq": 29132.25,
+  "vix": 19.71,
+  "ts": "2026-10-23T11:57:32Z"
  },
  "noticias": [
   {
@@ -10051,6 +10051,18 @@
    "id": "0fe7700812",
    "activos": [
     "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "US Dollar Rises Early Friday Ahead of S&P Global Flash Estimates, Michigan Sentiment",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-friday-114202213.html?.tsrc=rss",
+   "ts": "2026-10-23T11:42:02Z",
+   "fuente": "Yahoo Finance",
+   "id": "a9f116ab31",
+   "activos": [
+    "nq",
+    "dolar"
    ],
    "impacto": "medio"
   },
@@ -10147,6 +10159,17 @@
    "id": "b06d5ded11",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "First Citizens BancShares (NASDAQ:FCNCA) reports upbeat Q3 2026",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWFRtUG9tQUtkdzhCd3d5S2VHbVlkZ24xd2RaWklqcko0ZUUyUWhMRmlkakM0eWlyWTdsSzdwWkFlSDhETW1uc3BmaERvaTlFU2J2QXQ0bUFzV1dkNnUySHNNNU5rT25JLTNHbGxBU29yajFJYTdLTDU4M1RaUzduaEt5WDc3ZW95c25NZVQ2MVdxVFZtZXRmOV9SZWs5S2hLM0JKalFn?oc=5",
+   "ts": "2026-10-23T11:01:44Z",
+   "fuente": "Yahoo Finance",
+   "id": "86c255127d",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "UBS sees dip buyers stepping in to support gold at this level",
@@ -10881,31 +10904,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Dollar ticks up amid oil surge; yen holds gains on haven demand",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-steadies-oil-surge-042955068.html?.tsrc=rss",
-   "ts": "2026-10-23T04:29:55Z",
-   "fuente": "Yahoo Finance",
-   "id": "7358222fcc",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Asia FX steadies as oil surge weighs on risk appetite, yen holds gains",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/asia-fx-steadies-oil-surge-042955068.html?.tsrc=rss",
-   "ts": "2026-10-23T04:29:55Z",
-   "fuente": "Yahoo Finance",
-   "id": "beed3c4b86",
-   "activos": [
-    "dolar",
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Divisas asiáticas estables mientras el alza del petróleo frena el apetito por riesgo y el yen retiene ganancias",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -11543,14 +11541,14 @@
     4037.6,
     4045.7,
     4036.9,
-    4040.5
+    4040.3
    ],
    [
-    1792755742,
-    4038.0,
-    4038.0,
-    4038.0,
-    4038.0
+    1792756049,
+    4039.4,
+    4039.4,
+    4039.4,
+    4039.4
    ]
   ],
   "nq": [
@@ -12173,16 +12171,16 @@
    [
     1792753200,
     29097.0,
-    29138.0,
+    29143.0,
     29076.25,
-    29135.5
+    29140.75
    ],
    [
-    1792755752,
-    29095.75,
-    29095.75,
-    29095.75,
-    29095.75
+    1792756051,
+    29132.25,
+    29132.25,
+    29132.25,
+    29132.25
    ]
   ],
   "vix": [
@@ -12611,14 +12609,14 @@
     19.84,
     19.84,
     19.59,
-    19.71
+    19.68
    ],
    [
-    1792755451,
-    19.72,
-    19.72,
-    19.72,
-    19.72
+    1792755736,
+    19.71,
+    19.71,
+    19.71,
+    19.71
    ]
   ]
  },
@@ -12719,8 +12717,6 @@
   }
  ],
  "noticias_vistas": [
-  "f7c2e7bcd6",
-  "87fd8d5c8c",
   "e299be2374",
   "d6be1bfe09",
   "dee53a9f18",
@@ -13518,7 +13514,9 @@
   "25a1fba999",
   "9b351aa82d",
   "0fe7700812",
-  "8b6fa20076"
+  "8b6fa20076",
+  "a9f116ab31",
+  "86c255127d"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
