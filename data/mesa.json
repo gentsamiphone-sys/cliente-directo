@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T12:32:58Z",
-   "ultimo_resultado": "Mapa listo: oro 4039.1 · NQ 29104.25."
+   "actualizado": "2026-10-23T13:32:35Z",
+   "ultimo_resultado": "Estrategia 4H NQ: VENTA: esperar retesteo de 29268.75 · stop 29401.12 · objetivo 29002.0 · R:R 2.02 (esperando retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T13:27:34Z",
-   "ultimo_resultado": "2 titulares nuevos: Brent crude oil tops $115, a five month high, as tensions build in the Middle East"
+   "actualizado": "2026-10-23T13:32:34Z",
+   "ultimo_resultado": "2 titulares nuevos: Brent crude oil tops $115, a five month high, as tensions swell in the Middle East"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H NQ: VENTA: esperar retesteo de 29268.75 · stop 29401.12 · objetivo 29002.0 · R:R 2.02 (esperando retesteo). Tú ejecutas.",
+   "ts": "2026-10-23T13:32:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4045.3 · NQ 29008.25 · VIX 20.14 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4039.3 · NQ 29055.25 · VIX 19.03 · 2 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-23T00:12:40Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4037.8 · NQ 29077.75 · VIX 19.03",
-   "ts": "2026-10-23T00:07:35Z"
   }
  ],
  "briefs": [
@@ -10223,12 +10223,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4045.3,
-  "nq": 29008.25,
-  "vix": 20.14,
-  "ts": "2026-10-23T13:27:34Z"
+  "oro": 4047.3,
+  "nq": 29047.75,
+  "vix": 20.23,
+  "ts": "2026-10-23T13:32:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Brent crude oil tops $115, a five month high, as tensions swell in the Middle East",
+   "link": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
+   "ts": "2026-10-23T13:29:52Z",
+   "fuente": "CNBC",
+   "id": "9b617f13ea",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Brent crude oil tops $115, a five month high, as tensions build in the Middle East",
    "link": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
@@ -10268,6 +10277,17 @@
    "impacto": "bajo",
    "es": "Las oficinas familiares aumentarán riesgo, deuda y alternativas con la próxima generación",
    "efecto": "Ruido estructural a largo plazo sin impacto directo en la sesión."
+  },
+  {
+   "titulo": "Nasdaq CEO calls for a national strategy as global fraud losses reach $579B",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQd19HLXhLQloyeHBzZkY0WHNmMXh4bHNxOFA1SWtBMm9BM0dsRVV6WEJsSktiVVJXZUpXSG9BQ0IwcWFiRWU2Si1LSmNPQUNpMktPUlFJNzNXTGYxTThpVHMtSi1FZ0tfMDQ3ZnkzdVBLZTZ6cEJ2TDNsdllTM24xbGpORnZHWVVxSVhWd2NjUV9mYXpqcUE?oc=5",
+   "ts": "2026-10-23T13:04:00Z",
+   "fuente": "Fortune",
+   "id": "d5315c8c2f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Stock futures remain under pressure amid AI trade worries, gain in oil above $100: Live updates",
@@ -11072,28 +11092,6 @@
    "impacto": "bajo",
    "es": "Volvo Cars se desploma un 29% por caída imprevista en ventas de China",
    "efecto": "Sin impacto directo en oro, NQ o dólar."
-  },
-  {
-   "titulo": "The Federal Reserve's Latest October Inflation Forecast Has Arrived, and It's Terrible News for Wall Street",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZlFWWHJZVmpuZkFFV2QwZW4zN1I3MXFzdDNfZjMxdUdSdkpPejZSQldLM2NHN2pINFhsYTFkNWJrNnB0emZLNzZUd1l1b1Q1REdtRHBTR2N1VlVpVzR1ZnlhVlRxRl8xQjdtWURlcG5RdjB2c2xuTVVURDJVV1NGZXg2bXNuVGwtMEpDR3BkalNZMmRpZjZVY3RlX1RXOTlhZEJUemRyeml2d0Zldm1HUTlVdG5tU0xDbUxUQkhzQUhYNFdlZ3lWOWF3?oc=5",
-   "ts": "2026-10-23T08:10:41Z",
-   "fuente": "The Motley Fool",
-   "id": "da65ac006d",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Resolute Mining And 2 Other Australian Growth Stocks To Watch",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/resolute-mining-2-other-australian-080847950.html?.tsrc=rss",
-   "ts": "2026-10-23T08:08:47Z",
-   "fuente": "Yahoo Finance",
-   "id": "e69b5847d5",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12825,54 +12823,54 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-23T13:07:36Z",
- "ult_4h": 1792761452.5459218,
+ "ult_4h": 1792762354.8495657,
  "estrategia_4h": {
   "oro": {
-   "precio": 4041.8,
-   "atr_4h": 30.18,
+   "precio": 4047.3,
+   "atr_4h": 30.41,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4109.31,
+     "stop": 4109.44,
      "objetivo": 4000.9,
-     "rr": 4.99,
+     "rr": 4.95,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.96,
+     "fuerza_ruptura_atr": 0.97,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4130.1,
      "entrada": 4130.1,
-     "stop": 4148.21,
+     "stop": 4148.34,
      "objetivo": 4000.9,
-     "rr": 7.14,
+     "rr": 7.08,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.17,
+     "fuerza_ruptura_atr": 1.16,
      "ruptura": "2026-10-22 00:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29060.75,
-   "atr_4h": 219.3,
+   "precio": 29047.75,
+   "atr_4h": 220.62,
    "setups": [
     {
      "direccion": "VENTA",
-     "nivel": 29391.75,
-     "entrada": 29391.75,
-     "stop": 29523.33,
-     "objetivo": 29022.0,
-     "rr": 2.81,
+     "nivel": 29268.75,
+     "entrada": 29268.75,
+     "stop": 29401.12,
+     "objetivo": 29002.0,
+     "rr": 2.02,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.9,
-     "ruptura": "2026-10-22 12:00 UTC"
+     "fuerza_ruptura_atr": 0.89,
+     "ruptura": "2026-10-22 16:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-23T13:17:32Z"
+  "ts": "2026-10-23T13:32:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -12909,7 +12907,8 @@
   "oro|VENTA|4095.0|esperando retesteo",
   "oro|VENTA|4091.2|esperando retesteo",
   "nq|VENTA|29391.75|esperando retesteo",
-  "nq|VENTA|29268.75|en retesteo"
+  "nq|VENTA|29268.75|en retesteo",
+  "nq|VENTA|29268.75|esperando retesteo"
  ],
  "alpha_ordenes": [
   {
@@ -12921,8 +12920,6 @@
   }
  ],
  "noticias_vistas": [
-  "a256a5ccfb",
-  "d61e364fee",
   "9c2e76d76e",
   "0658e4e457",
   "4c11b8e335",
@@ -13720,7 +13717,9 @@
   "5e4a3ebf36",
   "9b347bf71b",
   "e68b5cde7b",
-  "ad9c39eeda"
+  "ad9c39eeda",
+  "9b617f13ea",
+  "d5315c8c2f"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
