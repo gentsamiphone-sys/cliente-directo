@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4017.1 · NQ 29153.75 · VIX 19.03 · 1 noticias nuevas",
-   "actualizado": "2026-10-23T02:02:32Z"
+   "ultimo_resultado": "Oro 4008.2 · NQ 29113.5 · VIX 19.03 · 1 noticias nuevas",
+   "actualizado": "2026-10-23T02:07:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T02:02:30Z",
-   "ultimo_resultado": "1 titulares nuevos: Gold futures fell to a nearly 3-month low of $4,049.10."
+   "actualizado": "2026-10-23T02:07:33Z",
+   "ultimo_resultado": "1 titulares nuevos: Dollar Fades on Weaker US Interest Rate Differentials"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4008.2 · NQ 29113.5 · VIX 19.03 · 1 noticias nuevas",
+   "ts": "2026-10-23T02:07:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4017.1 · NQ 29153.75 · VIX 19.03 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
    "ts": "2026-10-22T12:33:54Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "DXY -0.01% · 10Y 5.146 · VIX 18.09 · 5 eventos USD en el radar.",
-   "ts": "2026-10-22T12:33:52Z"
   }
  ],
  "briefs": [
@@ -9820,10 +9820,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4017.1,
-  "nq": 29153.75,
+  "oro": 4008.2,
+  "nq": 29113.5,
   "vix": 19.03,
-  "ts": "2026-10-23T02:02:30Z"
+  "ts": "2026-10-23T02:07:33Z"
  },
  "noticias": [
   {
@@ -10523,6 +10523,17 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Dollar Fades on Weaker US Interest Rate Differentials",
+   "link": "https://www.barchart.com/story/news/8336396/dollar-fades-on-weaker-us-interest-rate-differentials?.tsrc=rss",
+   "ts": "2026-10-22T19:52:45Z",
+   "fuente": "Yahoo Finance",
+   "id": "7eee21b641",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Futurewave Acquisition Corporation Rings the Closing Bell",
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbm5mQnlOY0xRQXFUZXFmd1J6dTdpSVJhdF9KclBxSzZQc0dfWWJyRjhnbmgtVl8xeHVxQ2xsOU9tTVVXZzB0OGdicTZ6bHBsS0dJTnlaSDRud09xd1lKZFFORG5fV05sSjBpLVJ5d1o3Q2FXMTAxQjdmbkFqaDFVcDkybnpwSlAyaHVF?oc=5",
    "ts": "2026-10-22T19:45:00Z",
@@ -10672,17 +10683,6 @@
    "id": "56f9cb9d0e",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Meta stock sinks 7% as AI spend pushes free cash flow negative",
-   "link": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html",
-   "ts": "2026-10-22T18:38:31Z",
-   "fuente": "CNBC",
-   "id": "4fe88ca8dc",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -11319,15 +11319,15 @@
     1792717200,
     4045.0,
     4045.5,
-    4016.5,
-    4018.0
+    4007.0,
+    4009.0
    ],
    [
-    1792720349,
-    4017.1,
-    4017.1,
-    4017.1,
-    4017.1
+    1792720653,
+    4008.0,
+    4008.0,
+    4008.0,
+    4008.0
    ]
   ],
   "nq": [
@@ -11952,14 +11952,14 @@
     29181.75,
     29212.5,
     29056.75,
-    29157.75
+    29114.0
    ],
    [
-    1792720350,
-    29153.75,
-    29153.75,
-    29153.75,
-    29153.75
+    1792720653,
+    29113.5,
+    29113.5,
+    29113.5,
+    29113.5
    ]
   ],
   "vix": [
@@ -12558,7 +12558,6 @@
   }
  ],
  "noticias_vistas": [
-  "07f3f9b687",
   "3a1f6db96e",
   "1cfebc7a8a",
   "d11cb40c56",
@@ -13357,7 +13356,8 @@
   "91c7c98137",
   "e0db0e22cc",
   "ceac84fdb9",
-  "3d6e368baf"
+  "3d6e368baf",
+  "7eee21b641"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
