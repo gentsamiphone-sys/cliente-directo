@@ -4332,14 +4332,33 @@
    "creado": "2026-10-23T13:07:17Z",
    "ultimo_contacto": "",
    "seguimientos": 0
+  },
+  "nunzio-pizzaria-lv": {
+   "nombre": "Nunzio Pizzaria",
+   "nicho": "restaurantes y comida",
+   "direccion": "",
+   "tel": "",
+   "email": "",
+   "horario": "Su-Th 11:00-23:00; Fr-Sa 11:00-24:00",
+   "rating": "",
+   "redes": "",
+   "productos": "pizza",
+   "notas": "No tiene página web registrada en el mapa. Verifica en Google antes de ofrecer.",
+   "fuente": "https://www.openstreetmap.org/node/4670111627 · https://www.google.com/maps?q=36.1477049,-115.1559574",
+   "etapa": "nuevo",
+   "muestra_url": "",
+   "mensaje_texto": "",
+   "creado": "2026-10-23T13:07:20Z",
+   "ultimo_contacto": "",
+   "seguimientos": 0
   }
  },
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Agregando Made in Argentina",
+   "tarea": "Agregando Nunzio Pizzaria",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-10-23T13:07:17Z"
+   "actualizado": "2026-10-23T13:07:20Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -4367,6 +4386,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Encontré Nunzio Pizzaria, sin página web.",
+   "ts": "2026-10-23T13:07:20Z"
+  },
   {
    "agente": "buscador",
    "texto": "Encontré Made in Argentina, sin página web.",
@@ -5861,11 +5885,6 @@
    "agente": "buscador",
    "texto": "Terminó su turno: No pude buscar en este turno (HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with)",
    "ts": "2026-10-21T07:09:26Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ts": "2026-10-21T07:06:21Z"
   }
  ],
  "reportes": {
