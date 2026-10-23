@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4042.4 · NQ 29049.25 · VIX 20.17 · 2 noticias nuevas",
-   "actualizado": "2026-10-23T13:07:38Z"
+   "ultimo_resultado": "Oro 4042.1 · NQ 29078.75 · VIX 20.23 · 1 noticias nuevas",
+   "actualizado": "2026-10-23T13:12:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T13:07:37Z",
-   "ultimo_resultado": "2 titulares nuevos: Las oficinas familiares aumentarán riesgo, deuda y alternativas con la próxima generación"
+   "actualizado": "2026-10-23T13:12:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Our top 10 things to watch in the stock market Friday"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4042.1 · NQ 29078.75 · VIX 20.23 · 1 noticias nuevas",
+   "ts": "2026-10-23T13:12:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4042.4 · NQ 29049.25 · VIX 20.17 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4039.6 · NQ 29045.5 · VIX 19.03",
    "ts": "2026-10-22T23:52:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4040.3 · NQ 29058.0 · VIX 19.03 · 1 noticias nuevas",
-   "ts": "2026-10-22T23:47:32Z"
   }
  ],
  "briefs": [
@@ -10223,12 +10223,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4042.4,
-  "nq": 29049.25,
-  "vix": 20.17,
-  "ts": "2026-10-23T13:07:38Z"
+  "oro": 4042.1,
+  "nq": 29078.75,
+  "vix": 20.23,
+  "ts": "2026-10-23T13:12:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Our top 10 things to watch in the stock market Friday",
+   "link": "https://www.cnbc.com/investingclub/2026/10/23/our-top-10-things-to-watch-in-the-stock-market-friday.html",
+   "ts": "2026-10-23T13:06:34Z",
+   "fuente": "CNBC",
+   "id": "160c7f28bb",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Family offices likely to add risk, debt and alternatives under the next generation",
    "link": "https://www.cnbc.com/2026/10/23/next-generation-family-offices-likely-to-add-risk-debt-alternatives.html",
@@ -11085,21 +11094,6 @@
    "id": "0ea4e08c60",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Gold nears 3-month low as tech selloff, inflation concerns weigh",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNY0wzaV9GVG53MXl2aWUwVHBxeDFMbzVjc3BIWl9YZTVnY0gzNTVjZzJYdTB4U2ZvWjlIMWFSX0M2UTlLMldDN0Z6ZVBDODYyWXFJa25DQTJlMXlXR1dDdXNCYUhqU1g0MHJ1UEZQdTJPZVZObllqSHFCOUh2R2ZLZzNWWWVMUDNXMVZfd1FnV2xmdzZUQlUxX2FVWDd4bWlNZkJ1elVXQQ?oc=5",
-   "ts": "2026-10-23T07:05:32Z",
-   "fuente": "Anadolu Ajansı",
-   "id": "30d3878e53",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El oro se acerca a mínimos de 3 meses por venta masiva tecnológica y temores inflacionarios",
-   "efecto": "Presiona al oro a la baja y acelera ventas en el Nasdaq."
   }
  ],
  "eventos_avisados": [
@@ -11116,13 +11110,6 @@
  ],
  "velas": {
   "oro": [
-   [
-    1792425600,
-    4161.1,
-    4164.2,
-    4156.5,
-    4160.2
-   ],
    [
     1792429200,
     4160.2,
@@ -11737,24 +11724,24 @@
     4038.5,
     4047.0,
     4035.7,
-    4039.5
+    4040.3
    ],
    [
-    1792760255,
-    4042.4,
-    4042.4,
-    4042.4,
-    4042.4
+    1792760400,
+    4040.3,
+    4044.5,
+    4038.4,
+    4041.6
+   ],
+   [
+    1792760549,
+    4042.1,
+    4042.1,
+    4042.1,
+    4042.1
    ]
   ],
   "nq": [
-   [
-    1792425600,
-    29931.5,
-    29933.75,
-    29788.0,
-    29791.25
-   ],
    [
     1792429200,
     29792.5,
@@ -12369,14 +12356,21 @@
     29135.0,
     29135.25,
     29022.0,
-    29054.75
+    29050.5
    ],
    [
-    1792760257,
-    29049.25,
-    29049.25,
-    29049.25,
-    29049.25
+    1792760400,
+    29050.0,
+    29080.25,
+    29041.75,
+    29068.75
+   ],
+   [
+    1792760551,
+    29078.75,
+    29078.75,
+    29078.75,
+    29078.75
    ]
   ],
   "vix": [
@@ -12810,16 +12804,16 @@
    [
     1792756800,
     19.54,
-    20.17,
+    20.31,
     19.54,
-    20.17
+    20.22
    ],
    [
-    1792759951,
-    20.17,
-    20.17,
-    20.17,
-    20.17
+    1792760251,
+    20.23,
+    20.23,
+    20.23,
+    20.23
    ]
   ]
  },
@@ -12920,7 +12914,6 @@
   }
  ],
  "noticias_vistas": [
-  "753adda54f",
   "b530622352",
   "d61bbdec93",
   "314fac41ba",
@@ -13719,7 +13712,8 @@
   "c659c137b1",
   "f28aeb5ea6",
   "efc836ee03",
-  "368a0f93ce"
+  "368a0f93ce",
+  "160c7f28bb"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
