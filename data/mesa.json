@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4038.8 · NQ 29054.0 · VIX 19.03",
-   "actualizado": "2026-10-22T23:57:30Z"
+   "ultimo_resultado": "Oro 4037.4 · NQ 29069.25 · VIX 19.03 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-23T00:02:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-22T23:57:30Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-23T00:02:37Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Etsy prohíbe recetas y patrones generados por IA en su plataforma"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4037.4 · NQ 29069.25 · VIX 19.03 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-23T00:02:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4038.8 · NQ 29054.0 · VIX 19.03",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4102.8 · NQ 29542.25 · VIX 18.14 · 1 noticias nuevas",
    "ts": "2026-10-22T10:57:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4104.3 · NQ 29517.25 · VIX 18.16 · 3 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-22T10:52:36Z"
   }
  ],
  "briefs": [
@@ -9820,12 +9820,37 @@
   }
  },
  "en_vivo": {
-  "oro": 4038.8,
-  "nq": 29054.0,
+  "oro": 4037.4,
+  "nq": 29069.25,
   "vix": 19.03,
-  "ts": "2026-10-22T23:57:30Z"
+  "ts": "2026-10-23T00:02:37Z"
  },
  "noticias": [
+  {
+   "titulo": "Etsy bans AI-generated recipes and patterns from its online marketplace",
+   "link": "https://www.cnbc.com/2026/10/22/etsy-bans-ai-generated-recipes-patterns-from-its-online-marketplace.html",
+   "ts": "2026-10-22T23:45:50Z",
+   "fuente": "CNBC",
+   "id": "b71ca7c352",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Etsy prohíbe recetas y patrones generados por IA en su plataforma",
+   "efecto": ""
+  },
+  {
+   "titulo": "S&P 500, Nasdaq end lower as revived AI doubts spark tech selloff",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54WWVmZXhCa1VoSEJHamFxd0dzS3FITHRDWFY4a1hYZ3hkQm1FaGJ2aHlYcldaU3V6ZnhvdDZWRnZCYnlvejgtY3I2Z3VPckRsNDZldW9CZjZPSEVubUNBTHBLRDRmTVk?oc=5",
+   "ts": "2026-10-22T23:43:52Z",
+   "fuente": "Reuters",
+   "id": "fb5c72d2a1",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "S&P 500 y Nasdaq cierran a la baja por renovadas dudas sobre la IA",
+   "efecto": "Presiona al Nasdaq a la baja por liquidación en tecnología."
+  },
   {
    "titulo": "Japan core inflation in September surges to its highest this year at 2.1%",
    "link": "https://www.cnbc.com/2026/10/23/japan-inflation-september-highest-in-2026.html",
@@ -10649,26 +10674,6 @@
    "id": "82c42700b3",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Elon Musk reportedly invests about $1 billion in Skydance",
-   "link": "https://www.cnbc.com/2026/10/22/elon-musk-skydance-investment.html",
-   "ts": "2026-10-22T17:04:32Z",
-   "fuente": "CNBC",
-   "id": "0f169d3094",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Barrick Sinks 5.7% as Freedom Broker Cuts Gold Majors to Hold, Slashes Target to $46",
-   "link": "https://www.tikr.com/blog/barrick-sinks-5-7-as-freedom-broker-cuts-gold-majors-to-hold-slashes-target-to-46?ref=yahoofinance&amp;.tsrc=rss",
-   "ts": "2026-10-22T17:04:27Z",
-   "fuente": "Yahoo Finance",
-   "id": "617b1df04c",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -11305,15 +11310,15 @@
     1792710000,
     4042.9,
     4044.0,
-    4037.9,
-    4039.0
+    4036.0,
+    4037.5
    ],
    [
-    1792712845,
-    4038.8,
-    4038.8,
-    4038.8,
-    4038.8
+    1792713149,
+    4037.4,
+    4037.4,
+    4037.4,
+    4037.4
    ]
   ],
   "nq": [
@@ -11938,14 +11943,14 @@
     29124.25,
     29130.25,
     29042.25,
-    29054.25
+    29076.0
    ],
    [
-    1792712850,
-    29051.75,
-    29051.75,
-    29051.75,
-    29051.75
+    1792713155,
+    29069.25,
+    29069.25,
+    29069.25,
+    29069.25
    ]
   ],
   "vix": [
@@ -12448,20 +12453,20 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-22T23:27:36Z",
- "ult_4h": 1792712851.7013385,
+ "noticias_traducidas_ts": "2026-10-23T00:02:35Z",
+ "ult_4h": 1792713757.7151654,
  "estrategia_4h": {
   "oro": {
-   "precio": 4040.3,
-   "atr_4h": 27.68,
+   "precio": 4037.4,
+   "atr_4h": 27.74,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4107.81,
-     "objetivo": 4036.8,
-     "rr": 3.28,
+     "stop": 4107.84,
+     "objetivo": 4036.0,
+     "rr": 3.32,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.05,
      "ruptura": "2026-10-22 08:00 UTC"
@@ -12470,24 +12475,24 @@
      "direccion": "VENTA",
      "nivel": 4130.1,
      "entrada": 4130.1,
-     "stop": 4146.71,
-     "objetivo": 4036.8,
-     "rr": 5.62,
+     "stop": 4146.74,
+     "objetivo": 4036.0,
+     "rr": 5.65,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.28,
+     "fuerza_ruptura_atr": 1.27,
      "ruptura": "2026-10-22 00:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29058.0,
-   "atr_4h": 224.02,
+   "precio": 29069.25,
+   "atr_4h": 224.04,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29391.75,
      "entrada": 29391.75,
-     "stop": 29526.16,
+     "stop": 29526.17,
      "objetivo": 29033.0,
      "rr": 2.67,
      "estado": "esperando retesteo",
@@ -12496,7 +12501,7 @@
     }
    ]
   },
-  "ts": "2026-10-22T23:47:31Z"
+  "ts": "2026-10-23T00:02:38Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -12544,8 +12549,6 @@
   }
  ],
  "noticias_vistas": [
-  "ce70d8d619",
-  "abc99092fe",
   "afcca02579",
   "fbb5ab596b",
   "021bddac94",
@@ -13343,7 +13346,9 @@
   "4928a1e18c",
   "cc56746d5b",
   "882b931b11",
-  "97ec5418f4"
+  "97ec5418f4",
+  "b71ca7c352",
+  "fb5c72d2a1"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
