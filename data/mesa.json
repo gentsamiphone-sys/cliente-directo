@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4037.3 · NQ 29095.5 · VIX 19.68 · 1 noticias nuevas",
-   "actualizado": "2026-10-23T11:47:35Z"
+   "ultimo_resultado": "Oro 4038.0 · NQ 29095.75 · VIX 19.72 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-23T11:52:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T11:47:34Z",
-   "ultimo_resultado": "1 titulares nuevos: Stocks making the biggest moves premarket: AT&T, SpaceX, Moderna, Deckers, Bloom Energy and more"
+   "actualizado": "2026-10-23T11:52:33Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: El petróleo estadounidense supera los 100 dólares por tensiones con Irán"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4038.0 · NQ 29095.75 · VIX 19.72 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-23T11:52:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4037.3 · NQ 29095.5 · VIX 19.68 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
    "ts": "2026-10-22T21:33:00Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Midiendo volatilidad y rango esperado del día…",
-   "ts": "2026-10-22T21:32:59Z"
   }
  ],
  "briefs": [
@@ -10022,12 +10022,27 @@
   }
  },
  "en_vivo": {
-  "oro": 4037.3,
-  "nq": 29095.5,
-  "vix": 19.68,
-  "ts": "2026-10-23T11:47:34Z"
+  "oro": 4038.0,
+  "nq": 29095.75,
+  "vix": 19.72,
+  "ts": "2026-10-23T11:52:33Z"
  },
  "noticias": [
+  {
+   "titulo": "U.S. oil rises above $100, Brent at five-month high as Iran says it’s prepared for warfare",
+   "link": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
+   "ts": "2026-10-23T11:51:59Z",
+   "fuente": "CNBC",
+   "id": "8b6fa20076",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El petróleo estadounidense supera los 100 dólares por tensiones con Irán",
+   "efecto": "Impulsa inflación, presiona acciones a la baja y busca refugio en oro."
+  },
   {
    "titulo": "Stocks making the biggest moves premarket: AT&T, SpaceX, Moderna, Deckers, Bloom Energy and more",
    "link": "https://www.cnbc.com/2026/10/23/stocks-making-the-biggest-moves-premarket-att-spacex-moderna-deckers-bloom-energy-and-more.html",
@@ -10891,17 +10906,6 @@
    "impacto": "medio",
    "es": "Divisas asiáticas estables mientras el alza del petróleo frena el apetito por riesgo y el yen retiene ganancias",
    "efecto": ""
-  },
-  {
-   "titulo": "Got a Minute? Congresswoman Susie Lee talks cost of living, tariffs and data centers",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZDkweDI4S2dpV1NidG9VMF8ycGRKNGhRQ01yNTNmeTZ0aFVPOThRZXF2TXNfT2JfOVhSaUl2SEZpRW1HZmJwM3JwbDdEVzBXNEp4VXIwaTZzRWlCUE9iTFF1dWw0dFJ4dGUwcU9VbnNRbmxrY0tQb1V6ZUdQblVLMGhaWTJxYWtPWFoycWN2dzJReEtKMW9ldlQ3dUJXOFVVYmFaaGRmdlotYjNPUURtQmpaUFgyOXJH?oc=5",
-   "ts": "2026-10-23T04:19:33Z",
-   "fuente": "FOX5 Vegas",
-   "id": "16716b2438",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "La congresista Susie Lee habla sobre coste de vida, aranceles y centros de datos",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -11539,14 +11543,14 @@
     4037.6,
     4045.7,
     4036.9,
-    4038.3
+    4040.5
    ],
    [
-    1792755441,
-    4037.3,
-    4037.3,
-    4037.3,
-    4037.3
+    1792755742,
+    4038.0,
+    4038.0,
+    4038.0,
+    4038.0
    ]
   ],
   "nq": [
@@ -12169,16 +12173,16 @@
    [
     1792753200,
     29097.0,
-    29128.75,
+    29138.0,
     29076.25,
-    29098.0
+    29135.5
    ],
    [
-    1792755452,
-    29095.5,
-    29095.5,
-    29095.5,
-    29095.5
+    1792755752,
+    29095.75,
+    29095.75,
+    29095.75,
+    29095.75
    ]
   ],
   "vix": [
@@ -12607,18 +12611,18 @@
     19.84,
     19.84,
     19.59,
-    19.69
+    19.71
    ],
    [
-    1792755151,
-    19.68,
-    19.68,
-    19.68,
-    19.68
+    1792755451,
+    19.72,
+    19.72,
+    19.72,
+    19.72
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-23T11:17:35Z",
+ "noticias_traducidas_ts": "2026-10-23T11:52:32Z",
  "ult_4h": 1792756054.938506,
  "estrategia_4h": {
   "oro": {
@@ -12715,7 +12719,6 @@
   }
  ],
  "noticias_vistas": [
-  "6ebec04747",
   "f7c2e7bcd6",
   "87fd8d5c8c",
   "e299be2374",
@@ -13514,7 +13517,8 @@
   "91a64850c8",
   "25a1fba999",
   "9b351aa82d",
-  "0fe7700812"
+  "0fe7700812",
+  "8b6fa20076"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
