@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4033.0 · NQ 29238.25 · VIX 19.03 · 1 noticias nuevas",
-   "actualizado": "2026-10-23T06:32:34Z"
+   "ultimo_resultado": "Oro 4028.5 · NQ 29211.0 · VIX 19.03 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-23T06:39:17Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T06:32:33Z",
-   "ultimo_resultado": "1 titulares nuevos: Gold Falls Below $4,000 for the First Time Since July. What’s Next?"
+   "actualizado": "2026-10-23T06:39:16Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Turning mercury into gold? A US start-up says it has just done it"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4028.5 · NQ 29211.0 · VIX 19.03 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-23T06:39:17Z"
+  },
   {
    "agente": "cio",
    "texto": "Brief de Londres publicado: Sesgo bajista en Oro y NQ por aversión al riesgo; sin confluencias para operar hoy",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4051.8 · NQ 29182.75 · VIX 19.01 · 3 noticias nuevas",
    "ts": "2026-10-22T17:17:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4050.6 · NQ 29196.75 · VIX 18.95 · 2 noticias nuevas",
-   "ts": "2026-10-22T17:12:42Z"
   }
  ],
  "briefs": [
@@ -10022,10 +10022,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4033.0,
-  "nq": 29238.25,
+  "oro": 4028.5,
+  "nq": 29211.0,
   "vix": 19.03,
-  "ts": "2026-10-23T06:32:33Z"
+  "ts": "2026-10-23T06:39:17Z"
  },
  "noticias": [
   {
@@ -10047,6 +10047,17 @@
    "id": "dc59a730ca",
    "activos": [
     "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Turning mercury into gold? A US start-up says it has just done it",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORDg5QmcxQWh3NHA4c2FRQS1SOEJjUkxrZFRpY0lPY3ZGVGJsQ3daR1ZTNmNyYnhXZ0VibEpRaDhZZWtwSk55Tl9sRlUzQlJrRGwwajhIcVVPTjVrcFkwWUZkd0NqR2lVUndqTkphRExiYzEwRC15TjI2Vkl5UEZBTkoxc20wY1FaWERYSElBTEtKZ0lzcG9pZkFBUzRYVDVMd2I2ZEI2aVY3dm1DVl9GVGlSLUp3bC1HbG92UHJTMGo1NzRT?oc=5",
+   "ts": "2026-10-23T06:14:16Z",
+   "fuente": "Euronews",
+   "id": "edc4e9e07c",
+   "activos": [
+    "oro"
    ],
    "impacto": "medio"
   },
@@ -10093,6 +10104,15 @@
    "id": "37759ce8ce",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "UK government promises to save businesses £800 million in paperwork and tariffs",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTFM0SWI5QmdpcUtXMmF3bUUwekJQbVlUQ1k3dGNvZEpMNkdkZEJWNGMtTkNBNHNQbWhDam13YjVHUF9RWW5wTmhlVDVPRU42V1hiMEZzMVBrNnUtbkZvby15YzhnWVhPOE5iNTdJbFNFR2lfSkFWSDBVYXlTXzNEeXBudzBGT3ppN2FMUmxlVllPVU9rQmtfTUp4UTlfaEtKb2V0SVR0UWtkWG84d0VkNV8yNA?oc=5",
+   "ts": "2026-10-23T05:02:00Z",
+   "fuente": "Reuters",
+   "id": "b3bc65fea4",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Justice Department Closes Inquiry of Federal Reserve Pushed by Trump",
@@ -10875,28 +10895,6 @@
    "id": "4ac809d3f0",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "10-year Treasury yield tumbles below 5% to lowest level in nearly a month",
-   "link": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html",
-   "ts": "2026-10-22T20:05:13Z",
-   "fuente": "CNBC",
-   "id": "3326b9a72b",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Integra Announces Third Quarter Gold Production of 17,652 ounces, Demonstrating Continued Growth in Mining and Gold Production at Florida Canyon",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/integra-announces-third-quarter-gold-200500239.html?.tsrc=rss",
-   "ts": "2026-10-22T20:05:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "dab7471378",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -11533,15 +11531,15 @@
     1792735200,
     4035.4,
     4037.2,
-    4029.8,
-    4033.3
+    4028.4,
+    4029.7
    ],
    [
-    1792736551,
-    4033.0,
-    4033.0,
-    4033.0,
-    4033.0
+    1792736951,
+    4028.5,
+    4028.5,
+    4028.5,
+    4028.5
    ]
   ],
   "nq": [
@@ -12166,14 +12164,14 @@
     29135.25,
     29243.5,
     29125.25,
-    29234.0
+    29207.75
    ],
    [
-    1792736550,
-    29238.25,
-    29238.25,
-    29238.25,
-    29238.25
+    1792736955,
+    29211.0,
+    29211.0,
+    29211.0,
+    29211.0
    ]
   ],
   "vix": [
@@ -12772,9 +12770,6 @@
   }
  ],
  "noticias_vistas": [
-  "5c3a88d1a7",
-  "ee0b9d63a5",
-  "135fc29764",
   "88246ca0e8",
   "e3bbc3cef6",
   "dbaa107ddd",
@@ -13571,7 +13566,10 @@
   "750a971831",
   "1f371bf64c",
   "dc59a730ca",
-  "2ec21b7549"
+  "2ec21b7549",
+  "edc4e9e07c",
+  "b3bc65fea4",
+  "53fe9f8c79"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
