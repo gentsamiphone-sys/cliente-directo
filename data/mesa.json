@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4039.6 · NQ 29111.5 · VIX 19.66 · 1 noticias nuevas",
-   "actualizado": "2026-10-23T10:57:35Z"
+   "ultimo_resultado": "Oro 4036.2 · NQ 29100.5 · VIX 19.73 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-23T11:02:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T10:57:34Z",
-   "ultimo_resultado": "1 titulares nuevos: BofA flags further downside risk for stocks, yields and dollar"
+   "actualizado": "2026-10-23T11:02:34Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: With earnings in rearview mirror, SpaceX-Tesla merger chatter takes center stage"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4036.2 · NQ 29100.5 · VIX 19.73 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-23T11:02:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4039.6 · NQ 29111.5 · VIX 19.66 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Abriendo la mesa para la sesión de Asia (Tokio/Sídney).",
    "ts": "2026-10-22T21:32:44Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Men's Basketball vs. Southern California - Black and Gold Network - Powered by SIDEARM Showcase",
-   "ts": "2026-10-22T21:32:31Z"
   }
  ],
  "briefs": [
@@ -10022,12 +10022,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4039.6,
-  "nq": 29111.5,
-  "vix": 19.66,
-  "ts": "2026-10-23T10:57:35Z"
+  "oro": 4036.2,
+  "nq": 29100.5,
+  "vix": 19.73,
+  "ts": "2026-10-23T11:02:34Z"
  },
  "noticias": [
+  {
+   "titulo": "With earnings in rearview mirror, SpaceX-Tesla merger chatter takes center stage",
+   "link": "https://www.cnbc.com/2026/10/23/spacex-tesla-merger-chatter-takes-center-stage-after-earnings.html",
+   "ts": "2026-10-23T11:00:01Z",
+   "fuente": "CNBC",
+   "id": "eb303c9403",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "BofA flags further downside risk for stocks, yields and dollar",
    "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-flags-further-downside-risk-103858260.html?.tsrc=rss",
@@ -10100,6 +10111,17 @@
    "impacto": "alto",
    "es": "Futuros de Nasdaq y bolsas caen previa apertura con tecnológicas en foco",
    "efecto": "Venta institucional en futuros de Nasdaq por debilidad tecnológica."
+  },
+  {
+   "titulo": "Nasdaq 100 Slides as Meta Posts Strong Results and Dro",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdzFvajdZbG1tNXdSNlo5ODFyZm0wZ2QtZk1UY3VZb09rWFFXNF9iTzdtdnBKNVQ0OU93eWozMms2MFFWUjl5R1U2bXBUQXF5UzZzWVRpQzRhQ180cW00UlJWWHhocDVBT2NVbE9YWWlXQ1Y4ak4xSjRjQVc0VVlONG1SQ1BodG1mRlJSbEtOZVlPUkp6c2ZMal84al92bnB2aVVld3RNQ1ZaMkRI?oc=5",
+   "ts": "2026-10-23T10:11:33Z",
+   "fuente": "FOREX.com",
+   "id": "bc6e95de1b",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Nasdaq 100 Slides as Meta Posts Strong Results and Drops 6%",
@@ -10715,6 +10737,17 @@
    "efecto": ""
   },
   {
+   "titulo": "Gold off three-month lows as oil rally fans inflation worries",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWE1LcUgzRWRwVDZmX3FEaWszVHF0cFQ1ekt6M1pyQ0lfc05PQm9DekdZcXprdm1vQk00SlNEZjEwQllCd1VwMUJySnIxcF9ZblFaRHFsV3BzSU52SlJSSi1TeWxoTmdYc1h6UHhPQTFQYU41ZEdQTFRNY3l0N1Q2bnRDV2x1MjlveGtxTk1oQWlGd3ExcUZEd2QzdF9TUkVKcXotUlIycUgtb1RrZjJ3?oc=5",
+   "ts": "2026-10-23T04:14:00Z",
+   "fuente": "Reuters",
+   "id": "4bbfe0cb00",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Gold heads for steep weekly loss as oil prices fuel Fed rate concerns",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWE1LcUgzRWRwVDZmX3FEaWszVHF0cFQ1ekt6M1pyQ0lfc05PQm9DekdZcXprdm1vQk00SlNEZjEwQllCd1VwMUJySnIxcF9ZblFaRHFsV3BzSU52SlJSSi1TeWxoTmdYc1h6UHhPQTFQYU41ZEdQTFRNY3l0N1Q2bnRDV2x1MjlveGtxTk1oQWlGd3ExcUZEd2QzdF9TUkVKcXotUlIycUgtb1RrZjJ3?oc=5",
    "ts": "2026-10-23T04:14:00Z",
@@ -10879,37 +10912,6 @@
    "impacto": "bajo",
    "es": "Resultados trimestrales de Newmont",
    "efecto": "Ruido corporativo menor sin impacto macroeconómico relevante."
-  },
-  {
-   "titulo": "Gold futures fell to a nearly 3-month low of $4,049.10.",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUExpVVRoei1RNkZkTzlvTjlpUkEyTUdYbGNoNHUxdDZlczM2bTFaWG10Tzl4UHRITnpaQ3ktR3c3TEJfTFJsaE0xeGk2dk9HMWpTUmVDUnNXRDNBR29UWlFlaVp1YnhMZ0JxRFc4NE16WXFoaWltSnFmRFN5dDFjNVJ3LTFtRTFSLW9wZWVSdUtGX24xV0tQRHhXZmlwcldTVHIxcDI1MDJaWW1JUTlz?oc=5",
-   "ts": "2026-10-23T01:01:02Z",
-   "fuente": "CME Group",
-   "id": "3d6e368baf",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Hofstra Holds Blue-Gold Intrasquad Matches",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdG5hcU5wb0FJbER2OHdoTi1adHNKRk9pUGl6UnNBQ0dqcldUaUJ5TEMyQXgtMU9kRk9sSFNVZVlXQi0wSjUta19GLXhZUUkwalMwbVhnNTIwVFVYOHltbTU5QlVrTWE2aXY4eHh6a3hONHNXRHVUdVFfeFdIOXB1eXZuWmNaYk1fTkFoVnZtampMWDFRcHkzNHRJVQ?oc=5",
-   "ts": "2026-10-23T00:58:43Z",
-   "fuente": "Hofstra University Athletics",
-   "id": "f21f131dfd",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "SK Hynix shares slide after chipmaker scraps Solidigm IPO plans",
-   "link": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
-   "ts": "2026-10-23T00:53:36Z",
-   "fuente": "CNBC",
-   "id": "0fe14eeb8a",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -11546,15 +11548,15 @@
     1792749600,
     4038.3,
     4040.5,
-    4035.0,
-    4039.2
+    4034.9,
+    4035.6
    ],
    [
-    1792752452,
-    4039.4,
-    4039.4,
-    4039.4,
-    4039.4
+    1792752751,
+    4036.2,
+    4036.2,
+    4036.2,
+    4036.2
    ]
   ],
   "nq": [
@@ -12179,14 +12181,14 @@
     29116.5,
     29157.5,
     29089.0,
-    29113.25
+    29096.75
    ],
    [
-    1792752453,
-    29111.5,
-    29111.5,
-    29111.5,
-    29111.5
+    1792752752,
+    29100.5,
+    29100.5,
+    29100.5,
+    29100.5
    ]
   ],
   "vix": [
@@ -12608,22 +12610,22 @@
     19.58,
     19.72,
     19.51,
-    19.64
+    19.7
    ],
    [
-    1792752151,
-    19.66,
-    19.66,
-    19.66,
-    19.66
+    1792752451,
+    19.73,
+    19.73,
+    19.73,
+    19.73
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-23T10:42:37Z",
- "ult_4h": 1792752450.9680212,
+ "ult_4h": 1792753354.6889238,
  "estrategia_4h": {
   "oro": {
-   "precio": 4036.6,
+   "precio": 4036.2,
    "atr_4h": 30.71,
    "setups": [
     {
@@ -12634,7 +12636,7 @@
      "objetivo": 4000.9,
      "rr": 4.9,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.96,
+     "fuerza_ruptura_atr": 0.94,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
@@ -12651,14 +12653,14 @@
    ]
   },
   "nq": {
-   "precio": 29145.75,
-   "atr_4h": 218.39,
+   "precio": 29100.5,
+   "atr_4h": 218.23,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29391.75,
      "entrada": 29391.75,
-     "stop": 29522.79,
+     "stop": 29522.69,
      "objetivo": 29022.75,
      "rr": 2.82,
      "estado": "esperando retesteo",
@@ -12667,7 +12669,7 @@
     }
    ]
   },
-  "ts": "2026-10-23T10:47:31Z"
+  "ts": "2026-10-23T11:02:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -12716,9 +12718,6 @@
   }
  ],
  "noticias_vistas": [
-  "838a00b4df",
-  "8f3429865c",
-  "b8a318c1e1",
   "b02c5401cc",
   "54f7f6a9ab",
   "943a915aee",
@@ -13515,7 +13514,10 @@
   "62134b1014",
   "1813ac4343",
   "0c8e88fb9f",
-  "e031ce6361"
+  "e031ce6361",
+  "eb303c9403",
+  "bc6e95de1b",
+  "4bbfe0cb00"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
