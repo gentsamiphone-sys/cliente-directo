@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4013.2 · NQ 29279.5 · VIX 19.14 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-23T15:37:35Z"
+   "ultimo_resultado": "Oro 4010.7 · NQ 29269.25 · VIX 18.89 · 1 noticias nuevas",
+   "actualizado": "2026-10-23T15:42:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T15:37:34Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Trump eschews tariffs for trade talks on wind turbine imports"
+   "actualizado": "2026-10-23T15:42:31Z",
+   "ultimo_resultado": "1 titulares nuevos: TikTok U.S. hunts for multiple gigawatts of computing capacity, sources tell CNBC"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4010.7 · NQ 29269.25 · VIX 18.89 · 1 noticias nuevas",
+   "ts": "2026-10-23T15:42:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4013.2 · NQ 29279.5 · VIX 19.14 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4028.8 · NQ 29137.5 · VIX 19.03 · 1 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-23T02:32:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4029.3 · NQ 29119.0 · VIX 19.03",
-   "ts": "2026-10-23T02:27:38Z"
   }
  ],
  "briefs": [
@@ -10223,12 +10223,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4013.2,
-  "nq": 29279.5,
-  "vix": 19.14,
-  "ts": "2026-10-23T15:37:35Z"
+  "oro": 4010.7,
+  "nq": 29269.25,
+  "vix": 18.89,
+  "ts": "2026-10-23T15:42:31Z"
  },
  "noticias": [
+  {
+   "titulo": "TikTok U.S. hunts for multiple gigawatts of computing capacity, sources tell CNBC",
+   "link": "https://www.cnbc.com/2026/10/23/tiktok-us-compute-capacity.html",
+   "ts": "2026-10-23T15:35:36Z",
+   "fuente": "CNBC",
+   "id": "c43c1e67c6",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "DOJ sues to block Alaska from certifying Senate race winner if Republican narrowly loses",
    "link": "https://www.cnbc.com/2026/10/23/alaska-senate-election-doj-lawsuit-sullivan.html",
@@ -11070,17 +11079,6 @@
    "id": "62134b1014",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Democratic socialist set to become D.C. mayor — and face Trump's pushback",
-   "link": "https://www.cnbc.com/2026/10/23/janeese-lewis-george-democratic-socialist-washington-dc-mayor.html",
-   "ts": "2026-10-23T10:30:01Z",
-   "fuente": "CNBC",
-   "id": "59b1dcef6b",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Socialista democrático será alcalde de D.C. y enfrentará a Trump",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -11718,14 +11716,14 @@
     4013.9,
     4018.0,
     4006.7,
-    4011.5
+    4010.9
    ],
    [
-    1792769253,
-    4013.2,
-    4013.2,
-    4013.2,
-    4013.2
+    1792769547,
+    4010.7,
+    4010.7,
+    4010.7,
+    4010.7
    ]
   ],
   "nq": [
@@ -12350,14 +12348,14 @@
     29292.75,
     29296.25,
     29218.25,
-    29273.5
+    29279.25
    ],
    [
-    1792769253,
-    29279.5,
-    29279.5,
-    29279.5,
-    29279.5
+    1792769551,
+    29267.0,
+    29267.0,
+    29267.0,
+    29267.0
    ]
   ],
   "vix": [
@@ -12813,15 +12811,15 @@
     1792767600,
     19.01,
     19.39,
-    19.01,
-    19.17
+    18.93,
+    18.94
    ],
    [
-    1792768951,
-    19.14,
-    19.14,
-    19.14,
-    19.14
+    1792769236,
+    18.89,
+    18.89,
+    18.89,
+    18.89
    ]
   ]
  },
@@ -12935,7 +12933,6 @@
   }
  ],
  "noticias_vistas": [
-  "10ee5f39fc",
   "5c48d77d6f",
   "d5b5e800d2",
   "f7584c08fe",
@@ -13734,7 +13731,8 @@
   "88d1ba8f40",
   "0b3a035cdc",
   "4978315d41",
-  "712031a899"
+  "712031a899",
+  "c43c1e67c6"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
