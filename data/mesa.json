@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4029.2 · NQ 29205.75 · VIX 19.03",
-   "actualizado": "2026-10-23T01:57:38Z"
+   "ultimo_resultado": "Oro 4017.1 · NQ 29153.75 · VIX 19.03 · 1 noticias nuevas",
+   "actualizado": "2026-10-23T02:02:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T01:57:37Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-23T02:02:30Z",
+   "ultimo_resultado": "1 titulares nuevos: Gold futures fell to a nearly 3-month low of $4,049.10."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4017.1 · NQ 29153.75 · VIX 19.03 · 1 noticias nuevas",
+   "ts": "2026-10-23T02:02:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4029.2 · NQ 29205.75 · VIX 19.03",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "DXY -0.01% · 10Y 5.146 · VIX 18.09 · 5 eventos USD en el radar.",
    "ts": "2026-10-22T12:33:52Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
-   "ts": "2026-10-22T12:33:50Z"
   }
  ],
  "briefs": [
@@ -9820,10 +9820,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4029.2,
-  "nq": 29205.75,
+  "oro": 4017.1,
+  "nq": 29153.75,
   "vix": 19.03,
-  "ts": "2026-10-23T01:57:37Z"
+  "ts": "2026-10-23T02:02:30Z"
  },
  "noticias": [
   {
@@ -9856,6 +9856,17 @@
    "impacto": "bajo",
    "es": "Resultados trimestrales de Newmont",
    "efecto": "Ruido corporativo menor sin impacto macroeconómico relevante."
+  },
+  {
+   "titulo": "Gold futures fell to a nearly 3-month low of $4,049.10.",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUExpVVRoei1RNkZkTzlvTjlpUkEyTUdYbGNoNHUxdDZlczM2bTFaWG10Tzl4UHRITnpaQ3ktR3c3TEJfTFJsaE0xeGk2dk9HMWpTUmVDUnNXRDNBR29UWlFlaVp1YnhMZ0JxRFc4NE16WXFoaWltSnFmRFN5dDFjNVJ3LTFtRTFSLW9wZWVSdUtGX24xV0tQRHhXZmlwcldTVHIxcDI1MDJaWW1JUTlz?oc=5",
+   "ts": "2026-10-23T01:01:02Z",
+   "fuente": "CME Group",
+   "id": "3d6e368baf",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Hofstra Holds Blue-Gold Intrasquad Matches",
@@ -10672,15 +10683,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Moderna shares plunge after leak of partial cancer vaccine data",
-   "link": "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html",
-   "ts": "2026-10-22T18:30:22Z",
-   "fuente": "CNBC",
-   "id": "9b8592a0ab",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -11317,15 +11319,15 @@
     1792717200,
     4045.0,
     4045.5,
-    4024.2,
-    4028.5
+    4016.5,
+    4018.0
    ],
    [
-    1792720056,
-    4029.2,
-    4029.2,
-    4029.2,
-    4029.2
+    1792720349,
+    4017.1,
+    4017.1,
+    4017.1,
+    4017.1
    ]
   ],
   "nq": [
@@ -11950,14 +11952,14 @@
     29181.75,
     29212.5,
     29056.75,
-    29209.25
+    29157.75
    ],
    [
-    1792720056,
-    29205.75,
-    29205.75,
-    29205.75,
-    29205.75
+    1792720350,
+    29153.75,
+    29153.75,
+    29153.75,
+    29153.75
    ]
   ],
   "vix": [
@@ -12461,54 +12463,54 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-23T01:47:32Z",
- "ult_4h": 1792720053.9919198,
+ "ult_4h": 1792720950.9859202,
  "estrategia_4h": {
   "oro": {
-   "precio": 4025.6,
-   "atr_4h": 28.22,
+   "precio": 4017.1,
+   "atr_4h": 28.84,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4108.13,
-     "objetivo": 4025.2,
-     "rr": 3.9,
+     "stop": 4108.51,
+     "objetivo": 4016.5,
+     "rr": 4.32,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.04,
+     "fuerza_ruptura_atr": 1.01,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4130.1,
      "entrada": 4130.1,
-     "stop": 4147.03,
-     "objetivo": 4025.2,
-     "rr": 6.2,
+     "stop": 4147.41,
+     "objetivo": 4016.5,
+     "rr": 6.56,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.25,
+     "fuerza_ruptura_atr": 1.22,
      "ruptura": "2026-10-22 00:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29137.0,
-   "atr_4h": 226.59,
+   "precio": 29153.75,
+   "atr_4h": 227.48,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29391.75,
      "entrada": 29391.75,
-     "stop": 29527.7,
+     "stop": 29528.24,
      "objetivo": 29022.75,
-     "rr": 2.71,
+     "rr": 2.7,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.87,
      "ruptura": "2026-10-22 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-23T01:47:34Z"
+  "ts": "2026-10-23T02:02:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -12556,7 +12558,6 @@
   }
  ],
  "noticias_vistas": [
-  "6b9a6b12c3",
   "07f3f9b687",
   "3a1f6db96e",
   "1cfebc7a8a",
@@ -13355,7 +13356,8 @@
   "503f04e611",
   "91c7c98137",
   "e0db0e22cc",
-  "ceac84fdb9"
+  "ceac84fdb9",
+  "3d6e368baf"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
