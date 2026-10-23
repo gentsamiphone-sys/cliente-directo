@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4030.4 · NQ 29192.25 · VIX 19.03",
-   "actualizado": "2026-10-23T02:52:44Z"
+   "ultimo_resultado": "Oro 4031.7 · NQ 29181.5 · VIX 19.03 · 1 noticias nuevas",
+   "actualizado": "2026-10-23T02:57:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T02:52:44Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-23T02:57:42Z",
+   "ultimo_resultado": "1 titulares nuevos: Stocks Fall Sharply on Risk-Off as Meta Slides -7%"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4031.7 · NQ 29181.5 · VIX 19.03 · 1 noticias nuevas",
+   "ts": "2026-10-23T02:57:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4030.4 · NQ 29192.25 · VIX 19.03",
@@ -1056,11 +1061,6 @@
    "agente": "historiador",
    "texto": "Revisando qué pasó en esta misma fecha los últimos 10 años y buscando años parecidos…",
    "ts": "2026-10-22T12:34:08Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "ES/NQ: CONFIRMA: ES y NQ van en la misma dirección · ES bajista en 1H",
-   "ts": "2026-10-22T12:34:07Z"
   }
  ],
  "briefs": [
@@ -9820,10 +9820,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4030.4,
-  "nq": 29192.25,
+  "oro": 4031.7,
+  "nq": 29181.5,
   "vix": 19.03,
-  "ts": "2026-10-23T02:52:44Z"
+  "ts": "2026-10-23T02:57:42Z"
  },
  "noticias": [
   {
@@ -10358,6 +10358,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Stocks Fall Sharply on Risk-Off as Meta Slides -7%",
+   "link": "https://www.barchart.com/story/news/8338700/stocks-fall-sharply-on-risk-off-as-meta-slides-7?.tsrc=rss",
+   "ts": "2026-10-22T20:36:40Z",
+   "fuente": "Yahoo Finance",
+   "id": "a5324bf04c",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Nasdaq falls more than 2% for worst day since June as AI spending woes, oil prices spark sell-off: Live updates",
    "link": "https://www.cnbc.com/2026/10/21/stock-market-today-live-updates.html",
    "ts": "2026-10-22T20:28:35Z",
@@ -10677,17 +10688,6 @@
    "impacto": "medio",
    "es": "Acciones de Moderna se desploman tras filtración de datos de vacuna contra el cáncer a pesar de resultados positivos",
    "efecto": "Genera presión bajista en biotecnologías y afecta al sentimiento del Nasdaq."
-  },
-  {
-   "titulo": "U.S. Stocks Fall as Tech Selloff Deepens",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdDB3cDByVmVJQWQ4bzhobm83ZDVVN3MtYXh0VjlYT0xtakhpVkNrUFFHbVpWZEp2UHdpeWIwX0h2eVJqSzdod0t1Y3JxcVBaTzZlUFRKTFNkMDE4LVYxMHNjRGlYb0FsOVdqMnJuVzdHMk0xNVVxWXh4Y0tidlFtbXBUa1lXTVJGOXc1c0VvbjJ6eGVINVY0cEpFZHEtakM1UkFwdVZLVW4ySWlxV0RwNHpnNkpKcUsyRXU4RXN2Zm03QTQ?oc=5",
-   "ts": "2026-10-22T18:42:00Z",
-   "fuente": "WSJ",
-   "id": "334c3910b2",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -11328,11 +11328,11 @@
     4032.1
    ],
    [
-    1792723362,
-    4030.4,
-    4030.4,
-    4030.4,
-    4030.4
+    1792723660,
+    4031.7,
+    4031.7,
+    4031.7,
+    4031.7
    ]
   ],
   "nq": [
@@ -11957,14 +11957,14 @@
     29125.75,
     29204.0,
     29089.0,
-    29195.5
+    29176.5
    ],
    [
-    1792723363,
-    29194.75,
-    29194.75,
-    29194.75,
-    29194.75
+    1792723661,
+    29181.5,
+    29181.5,
+    29181.5,
+    29181.5
    ]
   ],
   "vix": [
@@ -12563,7 +12563,6 @@
   }
  ],
  "noticias_vistas": [
-  "1cfebc7a8a",
   "d11cb40c56",
   "41ce39f004",
   "390c7ff8f4",
@@ -13362,7 +13361,8 @@
   "ceac84fdb9",
   "3d6e368baf",
   "7eee21b641",
-  "0bf3638f71"
+  "0bf3638f71",
+  "a5324bf04c"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
