@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4037.7 · NQ 29221.25 · VIX 19.03 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-23T09:07:32Z"
+   "ultimo_resultado": "Oro 4038.2 · NQ 29227.0 · VIX 19.09 · 2 noticias nuevas",
+   "actualizado": "2026-10-23T09:12:30Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T09:07:32Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: When Housing Falters and Inflation Persists, Gold Stands Strong"
+   "actualizado": "2026-10-23T09:12:30Z",
+   "ultimo_resultado": "2 titulares nuevos: France is flashing euro crisis signals. This time, the fault lines are different"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4038.2 · NQ 29227.0 · VIX 19.09 · 2 noticias nuevas",
+   "ts": "2026-10-23T09:12:30Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4037.7 · NQ 29221.25 · VIX 19.03 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4039.2 · NQ 29065.75 · VIX 19.72",
    "ts": "2026-10-22T19:52:38Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4038.9 · NQ 29071.0 · VIX 19.46",
-   "ts": "2026-10-22T19:47:36Z"
   }
  ],
  "briefs": [
@@ -10022,10 +10022,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4037.7,
-  "nq": 29221.25,
-  "vix": 19.03,
-  "ts": "2026-10-23T09:07:32Z"
+  "oro": 4038.2,
+  "nq": 29227.0,
+  "vix": 19.09,
+  "ts": "2026-10-23T09:12:30Z"
  },
  "noticias": [
   {
@@ -10038,6 +10038,24 @@
     "oro"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "France is flashing euro crisis signals. This time, the fault lines are different",
+   "link": "https://www.cnbc.com/2026/10/23/france-debt-euro-zone-contagion.html",
+   "ts": "2026-10-23T09:03:26Z",
+   "fuente": "CNBC",
+   "id": "bc20cbdbac",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "U.S. oil holds above $100, Brent at five-month high as Iran says it’s prepared for warfare",
+   "link": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
+   "ts": "2026-10-23T09:02:44Z",
+   "fuente": "CNBC",
+   "id": "d42a23c470",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Kansas manufacturing business responds to candidates’ conflicting accounts of tariff effects",
@@ -10879,28 +10897,6 @@
    "id": "22ede1af1c",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Short Selling by the Numbers: What the Data Actually Shows",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOa3NZN1RCaGI0a3pUN0s3M3Q4S1R1eDVVZ2NyR0JucUl2bGpBM0lweF9HRmlTelpYMUcyR2xNa0UxU3RSMGFHRmlBU2xScHp1SzBYMjZxT1daaE4yVVQzVVhKanlwYlFTclFMT3B0N1JDV1M0emVaRUVoT3ptOF85V1VTdVp6QVk?oc=5",
-   "ts": "2026-10-22T21:18:00Z",
-   "fuente": "Nasdaq",
-   "id": "322d59a90e",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Newmont Logs Higher Profit, Revenue on Higher Gold Sales",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaGQwZmpMTzNXM2doS2p2TFo3Qk5Kd0pIMXNEbWlzcHhlbkM5bVZLaU0tTWVMSGVEMFptejFsTi1palkxVjFSNTRuaFpzajlPamdHN2pkZHFodWx4U2pza2NOMnZGLU9JeWZDLXNuMk9PeUdSRnYycVFIZ3I5bUY1V0ZsV095WVhMcmNiZE5lTEc5U2pVODRtN1NEd0w3VXJKS1FQdw?oc=5",
-   "ts": "2026-10-22T21:12:00Z",
-   "fuente": "WSJ",
-   "id": "69b6b796c1",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Newmont registra mayores beneficios e ingresos por mayores ventas de oro",
-   "efecto": "Ruido corporativo, impacto neutral para la cotización general del oro."
   }
  ],
  "eventos_avisados": [
@@ -10917,13 +10913,6 @@
  ],
  "velas": {
   "oro": [
-   [
-    1792411200,
-    4181.0,
-    4190.1,
-    4178.4,
-    4181.3
-   ],
    [
     1792414800,
     4181.4,
@@ -11538,24 +11527,24 @@
     4026.0,
     4039.4,
     4023.7,
-    4037.6
+    4037.2
    ],
    [
-    1792745849,
-    4037.7,
-    4037.7,
-    4037.7,
-    4037.7
+    1792746000,
+    4037.0,
+    4038.5,
+    4035.7,
+    4038.3
+   ],
+   [
+    1792746144,
+    4038.2,
+    4038.2,
+    4038.2,
+    4038.2
    ]
   ],
   "nq": [
-   [
-    1792411200,
-    29722.0,
-    29784.0,
-    29709.25,
-    29748.0
-   ],
    [
     1792414800,
     29749.0,
@@ -12170,14 +12159,21 @@
     29167.75,
     29276.75,
     29166.0,
-    29218.5
+    29212.25
    ],
    [
-    1792745851,
-    29221.25,
-    29221.25,
-    29221.25,
-    29221.25
+    1792746000,
+    29211.75,
+    29229.0,
+    29200.0,
+    29220.5
+   ],
+   [
+    1792746149,
+    29227.0,
+    29227.0,
+    29227.0,
+    29227.0
    ]
   ],
   "vix": [
@@ -12585,14 +12581,14 @@
     19.3,
     19.31,
     18.87,
-    19.02
+    19.1
    ],
    [
-    1792745551,
-    19.05,
-    19.05,
-    19.05,
-    19.05
+    1792745836,
+    19.09,
+    19.09,
+    19.09,
+    19.09
    ]
   ]
  },
@@ -12693,8 +12689,6 @@
   }
  ],
  "noticias_vistas": [
-  "6953ea1f5b",
-  "b9e90c61c4",
   "c13275dca6",
   "34e5a788f7",
   "8f3259ea5e",
@@ -13492,7 +13486,9 @@
   "8ba5fe2456",
   "8bc96ae4f5",
   "973969624e",
-  "c5c8a03c9f"
+  "c5c8a03c9f",
+  "bc20cbdbac",
+  "d42a23c470"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
