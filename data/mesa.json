@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4028.2 · NQ 29060.0 · VIX 19.03 · 2 noticias nuevas",
-   "actualizado": "2026-10-23T01:27:41Z"
+   "ultimo_resultado": "Oro 4033.6 · NQ 29144.75 · VIX 19.03",
+   "actualizado": "2026-10-23T01:32:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T01:27:40Z",
-   "ultimo_resultado": "2 titulares nuevos: Wealthy Chinese move offshore money to U.S. banks as Beijing’s tax net widens"
+   "actualizado": "2026-10-23T01:32:32Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4033.6 · NQ 29144.75 · VIX 19.03",
+   "ts": "2026-10-23T01:32:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4028.2 · NQ 29060.0 · VIX 19.03 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4085.7 · NQ 29528.5 · VIX 18.1",
    "ts": "2026-10-22T12:27:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4091.1 · NQ 29544.0 · VIX 18.15",
-   "ts": "2026-10-22T12:22:34Z"
   }
  ],
  "briefs": [
@@ -9820,10 +9820,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4028.2,
-  "nq": 29060.0,
+  "oro": 4033.6,
+  "nq": 29144.75,
   "vix": 19.03,
-  "ts": "2026-10-23T01:27:40Z"
+  "ts": "2026-10-23T01:32:32Z"
  },
  "noticias": [
   {
@@ -11318,14 +11318,14 @@
     4045.0,
     4045.5,
     4026.4,
-    4027.7
+    4033.4
    ],
    [
-    1792718256,
-    4028.2,
-    4028.2,
-    4028.2,
-    4028.2
+    1792718550,
+    4033.8,
+    4033.8,
+    4033.8,
+    4033.8
    ]
   ],
   "nq": [
@@ -11950,14 +11950,14 @@
     29183.25,
     29197.0,
     29056.75,
-    29078.75
+    29149.75
    ],
    [
-    1792718259,
-    29060.0,
-    29060.0,
-    29060.0,
-    29060.0
+    1792718551,
+    29144.75,
+    29144.75,
+    29144.75,
+    29144.75
    ]
   ],
   "vix": [
@@ -12461,38 +12461,38 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-23T01:12:32Z",
- "ult_4h": 1792718253.8369908,
+ "ult_4h": 1792719152.7131429,
  "estrategia_4h": {
   "oro": {
-   "precio": 4029.6,
-   "atr_4h": 27.98,
+   "precio": 4033.8,
+   "atr_4h": 28.14,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4107.99,
-     "objetivo": 4028.6,
-     "rr": 3.73,
+     "stop": 4108.08,
+     "objetivo": 4026.4,
+     "rr": 3.84,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.05,
+     "fuerza_ruptura_atr": 1.04,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 4130.1,
-     "entrada": 4130.1,
-     "stop": 4146.89,
-     "objetivo": 4028.6,
-     "rr": 6.05,
+     "nivel": 4095.0,
+     "entrada": 4095.0,
+     "stop": 4111.88,
+     "objetivo": 4026.4,
+     "rr": 4.06,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.27,
-     "ruptura": "2026-10-22 00:00 UTC"
+     "fuerza_ruptura_atr": 1.04,
+     "ruptura": "2026-10-22 08:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29136.25,
+   "precio": 29144.75,
    "atr_4h": 226.48,
    "setups": [
     {
@@ -12508,7 +12508,7 @@
     }
    ]
   },
-  "ts": "2026-10-23T01:17:34Z"
+  "ts": "2026-10-23T01:32:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
