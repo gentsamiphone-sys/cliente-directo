@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: SIN ENTRADA · el bot solo compra, no se opera.",
-   "actualizado": "2026-10-23T01:30:00Z"
+   "ultimo_resultado": "Idea de COMPRA BTC: compra $5.52 si el precio entra en 80,650–80,650 · stop 79,700 · objetivo 84,800 · riesgo ~$0.07 (1.0% del capital) · R:R 4.4",
+   "actualizado": "2026-10-23T13:40:29Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "Idea de COMPRA BTC: compra $5.52 si el precio entra en 80,650–80,650 · stop 79,700 · objetivo 84,800 · riesgo ~$0.07 (1.0% del capital) · R:R 4.4",
+   "ts": "2026-10-23T13:40:29Z"
+  },
   {
    "agente": "cio",
    "texto": "Brief publicado: BTC defiende soportes clave y ETH busca estabilización sobre su EMA200",
@@ -800,11 +805,6 @@
    "agente": "cio",
    "texto": "Abriendo la mesa cripto · Noche (Asia).",
    "ts": "2026-10-20T01:25:49Z"
-  },
-  {
-   "agente": "futuros",
-   "texto": "[DEMO] Ruptura y retesteo 1H · COMPRA 7 MBT límite 81,215.0 (50% del impulso) · stop 80,730.0 · objetivo 83,055.0 · R:R 3.8",
-   "ts": "2026-10-20T01:08:33Z"
   }
  ],
  "briefs": [
@@ -1988,6 +1988,18 @@
   }
  ],
  "posiciones": [
+  {
+   "activo": "BTC",
+   "usd": 5.52,
+   "zona_baja": 80650.0,
+   "entrada": 80650.0,
+   "stop": 79700.0,
+   "tp": 84800.0,
+   "tp1": 83500.0,
+   "estado": "pendiente",
+   "creada": "2026-10-23T13:40:29Z",
+   "real": true
+  },
   {
    "activo": "BTC",
    "usd": 5.52,
