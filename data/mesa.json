@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4037.8 · NQ 29104.0 · VIX 19.55 · 1 noticias nuevas",
-   "actualizado": "2026-10-23T12:12:36Z"
+   "ultimo_resultado": "Oro 4040.1 · NQ 29083.75 · VIX 19.65",
+   "actualizado": "2026-10-23T12:17:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T12:12:36Z",
-   "ultimo_resultado": "1 titulares nuevos: Fewer people are flying as airfare soars. Here's why airlines aren't worried"
+   "actualizado": "2026-10-23T12:17:31Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4040.1 · NQ 29083.75 · VIX 19.65",
+   "ts": "2026-10-23T12:17:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4037.8 · NQ 29104.0 · VIX 19.55 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "historiador",
    "texto": "Revisando qué pasó en esta misma fecha los últimos 10 años y buscando años parecidos…",
    "ts": "2026-10-22T21:33:09Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "ES/NQ: DIVERGENCIA: el ES no acompaña al NQ (movimiento débil o rotación) · ES bajista en 1H",
-   "ts": "2026-10-22T21:33:07Z"
   }
  ],
  "briefs": [
@@ -10022,10 +10022,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4037.8,
-  "nq": 29104.0,
-  "vix": 19.55,
-  "ts": "2026-10-23T12:12:36Z"
+  "oro": 4040.1,
+  "nq": 29083.75,
+  "vix": 19.65,
+  "ts": "2026-10-23T12:17:31Z"
  },
  "noticias": [
   {
@@ -11537,16 +11537,16 @@
    [
     1792756800,
     4038.5,
-    4040.2,
+    4044.2,
     4036.9,
-    4038.5
+    4040.3
    ],
    [
-    1792756953,
-    4037.8,
-    4037.8,
-    4037.8,
-    4037.8
+    1792757248,
+    4040.1,
+    4040.1,
+    4040.1,
+    4040.1
    ]
   ],
   "nq": [
@@ -12170,15 +12170,15 @@
     1792756800,
     29135.0,
     29135.25,
-    29099.25,
-    29108.0
+    29080.5,
+    29090.0
    ],
    [
-    1792756952,
-    29104.0,
-    29104.0,
-    29104.0,
-    29104.0
+    1792757249,
+    29083.75,
+    29083.75,
+    29083.75,
+    29083.75
    ]
   ],
   "vix": [
@@ -12607,66 +12607,73 @@
     19.84,
     19.84,
     19.53,
-    19.56
+    19.53
    ],
    [
-    1792756651,
-    19.55,
-    19.55,
-    19.55,
-    19.55
+    1792756800,
+    19.54,
+    19.66,
+    19.54,
+    19.65
+   ],
+   [
+    1792756936,
+    19.65,
+    19.65,
+    19.65,
+    19.65
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-23T11:52:32Z",
- "ult_4h": 1792756953.9885418,
+ "ult_4h": 1792757851.5026476,
  "estrategia_4h": {
   "oro": {
-   "precio": 4039.1,
-   "atr_4h": 30.75,
+   "precio": 4039.8,
+   "atr_4h": 29.89,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4109.65,
+     "stop": 4109.14,
      "objetivo": 4000.9,
-     "rr": 4.89,
+     "rr": 5.03,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.94,
+     "fuerza_ruptura_atr": 0.97,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4130.1,
      "entrada": 4130.1,
-     "stop": 4148.55,
+     "stop": 4148.04,
      "objetivo": 4000.9,
-     "rr": 7.0,
+     "rr": 7.2,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.15,
+     "fuerza_ruptura_atr": 1.18,
      "ruptura": "2026-10-22 00:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29127.75,
-   "atr_4h": 219.14,
+   "precio": 29083.75,
+   "atr_4h": 215.12,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29391.75,
      "entrada": 29391.75,
-     "stop": 29523.24,
+     "stop": 29520.83,
      "objetivo": 29022.75,
-     "rr": 2.81,
+     "rr": 2.86,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.9,
+     "fuerza_ruptura_atr": 0.92,
      "ruptura": "2026-10-22 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-23T12:02:34Z"
+  "ts": "2026-10-23T12:17:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
