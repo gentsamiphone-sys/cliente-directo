@@ -4355,10 +4355,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "Agregando Nunzio Pizzaria",
-   "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-10-23T13:07:20Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "3 negocios nuevos de restaurantes y comida cerca de Civic Center Dr",
+   "actualizado": "2026-10-23T13:07:21Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -4386,6 +4386,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: 3 negocios nuevos de restaurantes y comida cerca de Civic Center Dr",
+   "ts": "2026-10-23T13:07:21Z"
+  },
   {
    "agente": "buscador",
    "texto": "Encontré Nunzio Pizzaria, sin página web.",
@@ -5880,11 +5885,6 @@
    "agente": "disenador",
    "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
    "ts": "2026-10-21T07:27:32Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Terminó su turno: No pude buscar en este turno (HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with)",
-   "ts": "2026-10-21T07:09:26Z"
   }
  ],
  "reportes": {
