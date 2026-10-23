@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4046.0 · NQ 29192.0 · VIX 19.03",
-   "actualizado": "2026-10-23T01:07:43Z"
+   "ultimo_resultado": "Oro 4037.0 · NQ 29169.75 · VIX 19.03 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-23T01:12:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T01:07:42Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-23T01:12:34Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Resultados trimestrales de Newmont"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4037.0 · NQ 29169.75 · VIX 19.03 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-23T01:12:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4046.0 · NQ 29192.0 · VIX 19.03",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4073.8 · NQ 29502.75 · VIX 18.15 · 5 noticias nuevas",
    "ts": "2026-10-22T12:07:48Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4076.9 · NQ 29519.75 · VIX 18.15 · 3 noticias nuevas",
-   "ts": "2026-10-22T12:02:34Z"
   }
  ],
  "briefs": [
@@ -9820,12 +9820,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4046.0,
-  "nq": 29192.0,
+  "oro": 4037.0,
+  "nq": 29169.75,
   "vix": 19.03,
-  "ts": "2026-10-23T01:07:42Z"
+  "ts": "2026-10-23T01:12:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Newmont Q3 Earnings Call Highlights",
+   "link": "https://www.marketbeat.com/instant-alerts/transcript-newmont-q3-earnings-call-highlights-2026-10-22/?utm_source=yahoofinance&amp;utm_medium=yahoofinance&amp;.tsrc=rss",
+   "ts": "2026-10-23T01:04:19Z",
+   "fuente": "Yahoo Finance",
+   "id": "f9146e42fc",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Resultados trimestrales de Newmont",
+   "efecto": "Ruido corporativo menor sin impacto macroeconómico relevante."
+  },
   {
    "titulo": "Hofstra Holds Blue-Gold Intrasquad Matches",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdG5hcU5wb0FJbER2OHdoTi1adHNKRk9pUGl6UnNBQ0dqcldUaUJ5TEMyQXgtMU9kRk9sSFNVZVlXQi0wSjUta19GLXhZUUkwalMwbVhnNTIwVFVYOHltbTU5QlVrTWE2aXY4eHh6a3hONHNXRHVUdVFfeFdIOXB1eXZuWmNaYk1fTkFoVnZtampMWDFRcHkzNHRJVQ?oc=5",
@@ -9845,6 +9858,20 @@
    "id": "0fe14eeb8a",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "U.S. stock futures steady after Nasdaq posts worst day since June",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTWJ6YmFmZXc2TG1BNFc4TmlWSDZ5UlN0d0I2MnU0VmdqSEgyZXpqMVA1N0RqZ1hHXzlaM09QUVFkdG9NSTFWX1F0SFpmM2UxTVozSHpzRUlxejdVd0s2V3E3cTlXM3VmRl9BZ0ZuNDFRdFBBMkZNcnJhSHZPQml4bWJKM1Q?oc=5",
+   "ts": "2026-10-23T00:53:00Z",
+   "fuente": "Yahoo Finance Singapore",
+   "id": "042a847dec",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Futuros de EE. UU. estables tras la peor caída del Nasdaq desde junio",
+   "efecto": "Instituciones evalúan compras de oportunidad o mayor aversión al riesgo."
   },
   {
    "titulo": "SpaceX records $561 million investment gain from stake in Elon Musk's Boring Co.",
@@ -10652,28 +10679,6 @@
    "id": "e7cc7d0436",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Personal agents like Meta's Muse could fuel AI’s growth — and challenge Amazon and Apple",
-   "link": "https://www.cnbc.com/2026/10/22/meta-muse-personal-ai-agents.html",
-   "ts": "2026-10-22T18:07:55Z",
-   "fuente": "CNBC",
-   "id": "c9ac8c278e",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Los agentes personales de IA podrían impulsar el crecimiento y desafiar a gigantes tecnológicos",
-   "efecto": "Impulsa al alza al Nasdaq por optimismo en el sector tecnológico."
-  },
-  {
-   "titulo": "Brent crude tops $113, highest level since May, after Trump hints at action on Iran",
-   "link": "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html",
-   "ts": "2026-10-22T18:00:29Z",
-   "fuente": "CNBC",
-   "id": "914da3d620",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -10690,13 +10695,6 @@
  ],
  "velas": {
   "oro": [
-   [
-    1792382400,
-    4201.2,
-    4205.6,
-    4193.2,
-    4204.4
-   ],
    [
     1792386000,
     4204.8,
@@ -11309,26 +11307,26 @@
    [
     1792713600,
     4038.5,
-    4047.1,
+    4047.4,
     4031.6,
-    4047.0
+    4045.6
    ],
    [
-    1792717054,
-    4046.0,
-    4046.0,
-    4046.0,
-    4046.0
+    1792717200,
+    4045.0,
+    4045.5,
+    4035.3,
+    4036.7
+   ],
+   [
+    1792717353,
+    4037.0,
+    4037.0,
+    4037.0,
+    4037.0
    ]
   ],
   "nq": [
-   [
-    1792382400,
-    29772.0,
-    29791.25,
-    29764.25,
-    29790.75
-   ],
    [
     1792386000,
     29790.75,
@@ -11943,14 +11941,21 @@
     29087.5,
     29198.5,
     29022.75,
-    29190.75
+    29182.25
    ],
    [
-    1792717061,
-    29192.0,
-    29192.0,
-    29192.0,
-    29192.0
+    1792717200,
+    29181.75,
+    29197.0,
+    29165.5,
+    29169.5
+   ],
+   [
+    1792717353,
+    29169.75,
+    29169.75,
+    29169.75,
+    29169.75
    ]
   ],
   "vix": [
@@ -12453,7 +12458,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-23T00:37:33Z",
+ "noticias_traducidas_ts": "2026-10-23T01:12:32Z",
  "ult_4h": 1792717354.2783175,
  "estrategia_4h": {
   "oro": {
@@ -12549,8 +12554,6 @@
   }
  ],
  "noticias_vistas": [
-  "9e0db55c46",
-  "568e5e7375",
   "b46d903a0f",
   "774bdecc07",
   "bb86fa7bab",
@@ -13348,7 +13351,9 @@
   "0fe14eeb8a",
   "3326b9a72b",
   "ae4c278e7d",
-  "f21f131dfd"
+  "f21f131dfd",
+  "f9146e42fc",
+  "042a847dec"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
