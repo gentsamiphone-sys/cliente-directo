@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4009.6 · NQ 29247.0 · VIX 19.24 · 1 noticias nuevas",
-   "actualizado": "2026-10-23T15:27:37Z"
+   "ultimo_resultado": "Oro 4015.0 · NQ 29243.75 · VIX 19.2 · 2 noticias nuevas",
+   "actualizado": "2026-10-23T15:32:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T15:27:36Z",
-   "ultimo_resultado": "1 titulares nuevos: Why OpenAI could be in trouble if Anthropic's IPO doesn't go well"
+   "actualizado": "2026-10-23T15:32:33Z",
+   "ultimo_resultado": "2 titulares nuevos: Newmont Sinks 4%4 Despite Record Third-Quarter Profit as Gold Slides Back Toward $4,000"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4015.0 · NQ 29243.75 · VIX 19.2 · 2 noticias nuevas",
+   "ts": "2026-10-23T15:32:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4009.6 · NQ 29247.0 · VIX 19.24 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4026.8 · NQ 29137.25 · VIX 19.03",
    "ts": "2026-10-23T02:22:41Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4019.0 · NQ 29120.25 · VIX 19.03",
-   "ts": "2026-10-23T02:17:32Z"
   }
  ],
  "briefs": [
@@ -10223,10 +10223,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4009.6,
-  "nq": 29247.0,
-  "vix": 19.24,
-  "ts": "2026-10-23T15:27:37Z"
+  "oro": 4015.0,
+  "nq": 29243.75,
+  "vix": 19.2,
+  "ts": "2026-10-23T15:32:33Z"
  },
  "noticias": [
   {
@@ -10254,6 +10254,17 @@
    "impacto": "medio",
    "es": "Fallas críticas en PHP generan alarma de seguridad global",
    "efecto": "Presiona al sector tecnológico y baja al NQ por riesgos de ciberseguridad."
+  },
+  {
+   "titulo": "Newmont Sinks 4%4 Despite Record Third-Quarter Profit as Gold Slides Back Toward $4,000",
+   "link": "https://www.tikr.com/blog/newmont-sinks-44-despite-record-third-quarter-profit-as-gold-slides-back-toward-4000?ref=yahoofinance&amp;.tsrc=rss",
+   "ts": "2026-10-23T15:16:20Z",
+   "fuente": "Yahoo Finance",
+   "id": "88d1ba8f40",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Why OpenAI could be in trouble if Anthropic's IPO doesn't go well",
@@ -10504,6 +10515,17 @@
    "impacto": "alto",
    "es": "Las acciones abren a la baja mientras el petróleo supera los 100 dólares por tensiones con Irán",
    "efecto": "Presiona al NQ a la baja y compra oro como refugio."
+  },
+  {
+   "titulo": "Could Metals One deal trigger a rerating? Broker takes a deep dive",
+   "link": "https://www.proactiveinvestors.com/companies/news/1100627/could-metals-one-deal-trigger-a-rerating-broker-takes-a-deep-dive-1100627.html?.tsrc=rss",
+   "ts": "2026-10-23T13:31:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "0b3a035cdc",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Brent crude oil tops $115, a five month high, as tensions swell in the Middle East",
@@ -11067,30 +11089,6 @@
    "impacto": "bajo",
    "es": "Inversores deberían vigilar la potasa en lugar de oro o cobre",
    "efecto": ""
-  },
-  {
-   "titulo": "Nasdaq, Dow, S&P 500 Futures Drop Premarket: NVDA, AMD, META, CRWV, MRNA, WDC, BE In Focus",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON0pWLThkWllqVTRvcVRMY1NVeUN0UVNxa08tNkRhbzQxTUFlaTZON1BOYkh4bDEtaHB4X2d6dHk3VS1sVDhYMEhhZ0IyMVpjTXJjWVJ3WE9ZTDdWWG9paC1zdHZpbFpFNVZNTk9aYXhQRnRtWVlXRE0tZ2hOaDFmc2RIQUV5aTRBbEJaaDNsWUNxUXc?oc=5",
-   "ts": "2026-10-23T10:13:48Z",
-   "fuente": "Yahoo Finance",
-   "id": "4146e5a4b5",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto",
-   "es": "Futuros de Nasdaq y bolsas caen previa apertura con tecnológicas en foco",
-   "efecto": "Venta institucional en futuros de Nasdaq por debilidad tecnológica."
-  },
-  {
-   "titulo": "Nasdaq 100 Slides as Meta Posts Strong Results and Dro",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdzFvajdZbG1tNXdSNlo5ODFyZm0wZ2QtZk1UY3VZb09rWFFXNF9iTzdtdnBKNVQ0OU93eWozMms2MFFWUjl5R1U2bXBUQXF5UzZzWVRpQzRhQ180cW00UlJWWHhocDVBT2NVbE9YWWlXQ1Y4ak4xSjRjQVc0VVlONG1SQ1BodG1mRlJSbEtOZVlPUkp6c2ZMal84al92bnB2aVVld3RNQ1ZaMkRI?oc=5",
-   "ts": "2026-10-23T10:11:33Z",
-   "fuente": "FOREX.com",
-   "id": "bc6e95de1b",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -11726,16 +11724,16 @@
    [
     1792767600,
     4014.5,
-    4017.5,
+    4018.0,
     4006.7,
-    4009.1
+    4014.3
    ],
    [
-    1792768655,
-    4009.6,
-    4009.6,
-    4009.6,
-    4009.6
+    1792768951,
+    4014.9,
+    4014.9,
+    4014.9,
+    4014.9
    ]
   ],
   "nq": [
@@ -12360,14 +12358,14 @@
     29291.75,
     29296.25,
     29222.0,
-    29244.75
+    29250.25
    ],
    [
-    1792768657,
-    29247.0,
-    29247.0,
-    29247.0,
-    29247.0
+    1792768953,
+    29243.75,
+    29243.75,
+    29243.75,
+    29243.75
    ]
   ],
   "vix": [
@@ -12824,22 +12822,22 @@
     19.01,
     19.39,
     19.01,
-    19.25
+    19.18
    ],
    [
-    1792768351,
-    19.24,
-    19.24,
-    19.24,
-    19.24
+    1792768651,
+    19.2,
+    19.2,
+    19.2,
+    19.2
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-23T15:22:33Z",
- "ult_4h": 1792768654.9062176,
+ "ult_4h": 1792769553.8665445,
  "estrategia_4h": {
   "oro": {
-   "precio": 4008.5,
+   "precio": 4014.9,
    "atr_4h": 33.74,
    "setups": [
     {
@@ -12867,7 +12865,7 @@
    ]
   },
   "nq": {
-   "precio": 29255.5,
+   "precio": 29243.75,
    "atr_4h": 235.55,
    "setups": [
     {
@@ -12894,7 +12892,7 @@
     }
    ]
   },
-  "ts": "2026-10-23T15:17:35Z"
+  "ts": "2026-10-23T15:32:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -12945,8 +12943,6 @@
   }
  ],
  "noticias_vistas": [
-  "f827d520d6",
-  "7f154ebbbf",
   "6a0ef0ea1a",
   "42b9273811",
   "10ee5f39fc",
@@ -13744,7 +13740,9 @@
   "1b8ae65033",
   "b46b0bc4a8",
   "9e4af0f12c",
-  "d9260be3f5"
+  "d9260be3f5",
+  "88d1ba8f40",
+  "0b3a035cdc"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
