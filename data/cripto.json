@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Idea de COMPRA BTC: compra $5.52 si el precio entra en 80,650–80,650 · stop 79,700 · objetivo 84,800 · riesgo ~$0.07 (1.0% del capital) · R:R 4.4",
-   "actualizado": "2026-10-23T13:40:29Z"
+   "ultimo_resultado": "BTC: COMPRADO $5.52 a ~80,445. Stop 79,700 · objetivo 84,800.",
+   "actualizado": "2026-10-23T23:13:06Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "BTC: COMPRADO $5.52 a ~80,445. Stop 79,700 · objetivo 84,800.",
+   "ts": "2026-10-23T23:13:06Z"
+  },
   {
    "agente": "futuros",
    "texto": "[DEMO] COMPRA 10 MET límite 2,325.00 · stop 2,315.00 · objetivo 2,520.00 · riesgo $10 · R:R 19.5",
@@ -800,11 +805,6 @@
    "agente": "macro",
    "texto": "Revisando dólar, tasas y Nasdaq…",
    "ts": "2026-10-20T01:25:53Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "BTC 81355.35 (7d -0.5%) · ETH 2384.88 (7d -2.43%)",
-   "ts": "2026-10-20T01:25:51Z"
   }
  ],
  "briefs": [
@@ -1996,9 +1996,11 @@
    "stop": 79700.0,
    "tp": 84800.0,
    "tp1": 83500.0,
-   "estado": "pendiente",
+   "estado": "abierta",
    "creada": "2026-10-23T13:40:29Z",
-   "real": true
+   "real": true,
+   "firma_compra": "2FhTz3p2QE2B8KEhF4Wb2YuLR23npbjtoyj41yFwQxoNWpJgdZRmAYKP3WAvUHLwxcTeRXoAeFHdpyXrTaUHcoqN",
+   "precio_compra": 80445.46
   },
   {
    "activo": "BTC",
