@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4032.2 · NQ 29108.0 · VIX 19.03 · 1 noticias nuevas",
-   "actualizado": "2026-10-23T00:42:36Z"
+   "ultimo_resultado": "Oro 4034.3 · NQ 29120.5 · VIX 19.03 · 1 noticias nuevas",
+   "actualizado": "2026-10-23T00:47:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-23T00:42:35Z",
-   "ultimo_resultado": "1 titulares nuevos: Stock futures are little changed after tech sector sell-off: Live updates"
+   "actualizado": "2026-10-23T00:47:31Z",
+   "ultimo_resultado": "1 titulares nuevos: Agnico Eagle (AEM) Stock Looks Undervalued Despite Fresh Macassa Area Gold News"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4034.3 · NQ 29120.5 · VIX 19.03 · 1 noticias nuevas",
+   "ts": "2026-10-23T00:47:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4032.2 · NQ 29108.0 · VIX 19.03 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4078.7 · NQ 29483.75 · VIX 18.33 · 4 noticias nuevas",
    "ts": "2026-10-22T11:42:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4080.9 · NQ 29459.0 · VIX 18.34 · 1 noticias nuevas",
-   "ts": "2026-10-22T11:37:31Z"
   }
  ],
  "briefs": [
@@ -9820,12 +9820,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4032.2,
-  "nq": 29108.0,
+  "oro": 4034.3,
+  "nq": 29120.5,
   "vix": 19.03,
-  "ts": "2026-10-23T00:42:35Z"
+  "ts": "2026-10-23T00:47:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Agnico Eagle (AEM) Stock Looks Undervalued Despite Fresh Macassa Area Gold News",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/agnico-eagle-aem-stock-looks-001849488.html?.tsrc=rss",
+   "ts": "2026-10-23T00:18:49Z",
+   "fuente": "Yahoo Finance",
+   "id": "51b7fe74aa",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "What Investors Got Wrong Before Wheaton Precious Metals' Rally",
    "link": "https://finance.yahoo.com/markets/stocks/articles/investors-got-wrong-wheaton-precious-001635351.html?.tsrc=rss",
@@ -10665,19 +10676,6 @@
    "id": "a941525eda",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Nasdaq, Inc. Q3 2026 Earnings Call Summary",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMHhTdG1EQ0VLUWFXSGRNX0hQeXNFV2NlWE54YlVKOFd2aUMzemVHaG5VWWFSZDFtZnVuUERRSzRoVUZVWjAzM1FpcF9HWklFZzlLUHZFdU56djBibUx5NW5wRTF3TkhvWFppaXQ5ODdkRVJtdUI1OGdkQTlTTkRyUEw4a2g1Q19VU0hoRGJ5WEp6QnRWYzFN?oc=5",
-   "ts": "2026-10-22T17:50:36Z",
-   "fuente": "Yahoo Finance",
-   "id": "2214ef9837",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "Resumen de la llamada de ganancias del Q3 2026 de Nasdaq, Inc.",
-   "efecto": "Sin impacto directo en la cotización del índice."
   }
  ],
  "eventos_avisados": [
@@ -11315,14 +11313,14 @@
     4038.5,
     4042.5,
     4031.8,
-    4033.6
+    4033.8
    ],
    [
-    1792715542,
-    4032.2,
-    4032.2,
-    4032.2,
-    4032.2
+    1792715847,
+    4034.3,
+    4034.3,
+    4034.3,
+    4034.3
    ]
   ],
   "nq": [
@@ -11947,14 +11945,14 @@
     29087.5,
     29136.5,
     29022.75,
-    29109.25
+    29115.25
    ],
    [
-    1792715553,
-    29108.0,
-    29108.0,
-    29108.0,
-    29108.0
+    1792715850,
+    29118.5,
+    29118.5,
+    29118.5,
+    29118.5
    ]
   ],
   "vix": [
@@ -12458,38 +12456,38 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-23T00:37:33Z",
- "ult_4h": 1792715551.5454676,
+ "ult_4h": 1792716451.274503,
  "estrategia_4h": {
   "oro": {
-   "precio": 4036.4,
-   "atr_4h": 27.21,
+   "precio": 4034.3,
+   "atr_4h": 27.4,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4107.53,
-     "objetivo": 4034.4,
-     "rr": 3.48,
+     "stop": 4107.64,
+     "objetivo": 4031.8,
+     "rr": 3.61,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.08,
+     "fuerza_ruptura_atr": 1.06,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4130.1,
      "entrada": 4130.1,
-     "stop": 4146.43,
-     "objetivo": 4034.4,
-     "rr": 5.86,
+     "stop": 4146.54,
+     "objetivo": 4031.8,
+     "rr": 5.98,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.3,
+     "fuerza_ruptura_atr": 1.29,
      "ruptura": "2026-10-22 00:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29086.5,
+   "precio": 29118.5,
    "atr_4h": 222.05,
    "setups": [
     {
@@ -12505,7 +12503,7 @@
     }
    ]
   },
-  "ts": "2026-10-23T00:32:31Z"
+  "ts": "2026-10-23T00:47:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -12553,7 +12551,6 @@
   }
  ],
  "noticias_vistas": [
-  "3b6701faf1",
   "061707d3e3",
   "101d43a9b6",
   "6ff0f4e716",
@@ -13352,7 +13349,8 @@
   "e89a3816d9",
   "d461d8922b",
   "99079c1569",
-  "925f7d2ff5"
+  "925f7d2ff5",
+  "51b7fe74aa"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
