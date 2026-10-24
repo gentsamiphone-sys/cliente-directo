@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: SIN ENTRADA · el bot solo compra, no se opera.",
-   "actualizado": "2026-10-24T13:31:08Z"
+   "ultimo_resultado": "BTC cerrada en tendencia a ~80,205: -0.02 USD.",
+   "actualizado": "2026-10-24T14:51:02Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "BTC cerrada en tendencia a ~80,205: -0.02 USD.",
+   "ts": "2026-10-24T14:51:02Z"
+  },
   {
    "agente": "riesgo",
    "texto": "BTC: la tendencia giró a bajista (cierre 1H 80,155 bajo la EMA50 (81,249) y bajo el mínimo de 12 h (80,350)). Paso a USDC para proteger el capital.",
@@ -800,11 +805,6 @@
    "agente": "macro",
    "texto": "DXY 101.78 · 10Y 5.12 · NQ 5d -2.93%",
    "ts": "2026-10-21T01:27:02Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "Revisando dólar, tasas y Nasdaq…",
-   "ts": "2026-10-21T01:27:00Z"
   }
  ],
  "briefs": [
@@ -2072,11 +2072,15 @@
    "stop": 79700.0,
    "tp": 84800.0,
    "tp1": 83500.0,
-   "estado": "abierta",
+   "estado": "cerrada",
    "creada": "2026-10-23T13:40:29Z",
    "real": true,
    "firma_compra": "2FhTz3p2QE2B8KEhF4Wb2YuLR23npbjtoyj41yFwQxoNWpJgdZRmAYKP3WAvUHLwxcTeRXoAeFHdpyXrTaUHcoqN",
-   "precio_compra": 80445.46
+   "precio_compra": 80445.46,
+   "firma_venta": "3NXKxPKoS6vE8dfgX88LLQwW3bR7wjHy96JvKxEdmeYSF23NktypHq4KUPX62VFcU4ZAyA35nR9CSEWyF7QEcCdf",
+   "resultado": "tendencia",
+   "precio_venta": 80204.9,
+   "cerrada_ts": "2026-10-24T14:51:02Z"
   },
   {
    "activo": "BTC",
