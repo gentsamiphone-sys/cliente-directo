@@ -4365,9 +4365,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Spring Mountain Rd…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-10-24T03:02:30Z"
+   "actualizado": "2026-10-24T03:06:20Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -4395,6 +4395,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-24T03:06:20Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Spring Mountain Rd…",
@@ -5889,11 +5894,6 @@
    "agente": "disenador",
    "texto": "Armando la muestra de Trevi…",
    "ts": "2026-10-21T19:28:01Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Muestra lista de Payard Patisserie & Bistro y su mensaje para mandar por texto.",
-   "ts": "2026-10-21T19:27:56Z"
   }
  ],
  "reportes": {
