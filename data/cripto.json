@@ -51,11 +51,16 @@
   "futuros": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Mercado de futuros CME cerrado (fin de semana). No se envían órdenes.",
-   "actualizado": "2026-10-24T13:31:10Z"
+   "ultimo_resultado": "ETH: setup de desplazamiento VENTA en 2,310 (stop 2,321, objetivo 2,281). Mercado CME cerrado: se envía cuando abra.",
+   "actualizado": "2026-10-24T15:51:18Z"
   }
  },
  "actividad": [
+  {
+   "agente": "futuros",
+   "texto": "ETH: setup de desplazamiento VENTA en 2,310 (stop 2,321, objetivo 2,281). Mercado CME cerrado: se envía cuando abra.",
+   "ts": "2026-10-24T15:51:18Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "BTC cerrada en tendencia a ~80,205: -0.02 USD.",
@@ -800,11 +805,6 @@
    "agente": "flujos",
    "texto": "Midiendo stablecoins y dominancia…",
    "ts": "2026-10-21T01:27:03Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "DXY 101.78 · 10Y 5.12 · NQ 5d -2.93%",
-   "ts": "2026-10-21T01:27:02Z"
   }
  ],
  "briefs": [
@@ -2269,7 +2269,8 @@
   "BTC-ret-S-81591",
   "ETH-ret-S-2421",
   "ETH-ret-S-2397",
-  "ETH-ret-S-2389"
+  "ETH-ret-S-2389",
+  "ETH-1792854000-2281"
  ],
  "futuros_enviados": {
   "BTC": "2026-10-23",
