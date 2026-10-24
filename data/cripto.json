@@ -51,11 +51,16 @@
   "futuros": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "[DEMO] COMPRA 10 MET límite 2,325.00 · stop 2,315.00 · objetivo 2,520.00 · riesgo $10 · R:R 19.5",
-   "actualizado": "2026-10-23T13:40:33Z"
+   "ultimo_resultado": "ETH: setup de desplazamiento VENTA en 2,387 (stop 2,410, objetivo 2,349). Mercado CME cerrado: se envía cuando abra.",
+   "actualizado": "2026-10-24T00:11:54Z"
   }
  },
  "actividad": [
+  {
+   "agente": "futuros",
+   "texto": "ETH: setup de desplazamiento VENTA en 2,387 (stop 2,410, objetivo 2,349). Mercado CME cerrado: se envía cuando abra.",
+   "ts": "2026-10-24T00:11:54Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "BTC: COMPRADO $5.52 a ~80,445. Stop 79,700 · objetivo 84,800.",
@@ -800,11 +805,6 @@
    "agente": "macro",
    "texto": "DXY 101.92 · 10Y 5.14 · NQ 5d -4.27%",
    "ts": "2026-10-20T01:25:54Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "Revisando dólar, tasas y Nasdaq…",
-   "ts": "2026-10-20T01:25:53Z"
   }
  ],
  "briefs": [
@@ -2188,7 +2188,8 @@
   "BTC-ret-S-81589",
   "BTC-ret-S-81591",
   "ETH-ret-S-2421",
-  "ETH-ret-S-2397"
+  "ETH-ret-S-2397",
+  "ETH-ret-S-2389"
  ],
  "futuros_enviados": {
   "BTC": "2026-10-23",
