@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-24T06:32:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-24T06:37:32Z",
+   "ultimo_resultado": "2 titulares nuevos: Qué le espera a Francia tras disturbios que agitan los mercados"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "noticias",
+   "texto": "2 titulares nuevos: Qué le espera a Francia tras disturbios que agitan los mercados",
+   "ts": "2026-10-24T06:37:32Z"
+  },
   {
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4035.0 · NQ 29140.0 · VIX 20.22 · 1 noticias nuevas",
    "ts": "2026-10-23T14:02:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4031.7 · NQ 29114.0 · VIX 20.2 · 2 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-23T13:57:38Z"
   }
  ],
  "briefs": [
@@ -10230,6 +10230,30 @@
  },
  "noticias": [
   {
+   "titulo": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
+   "link": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
+   "ts": "2026-10-24T06:23:02Z",
+   "fuente": "CNBC",
+   "id": "1ca212c47e",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "bajo",
+   "es": "Qué le espera a Francia tras disturbios que agitan los mercados",
+   "efecto": "Genera leve aversión al riesgo global, sin impacto fuerte en NQ u oro."
+  },
+  {
+   "titulo": "What a day in customer service looks like — as AI changes everything",
+   "link": "https://www.cnbc.com/2026/10/24/ai-customer-service-jobs-work.html",
+   "ts": "2026-10-24T05:00:01Z",
+   "fuente": "CNBC",
+   "id": "af72cd7c3b",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Cómo es un día en servicio al cliente mientras la IA lo cambia todo",
+   "efecto": "Noticia tecnológica general, sin impacto directo en la sesión de hoy."
+  },
+  {
    "titulo": "Tracking Trump: Trump rolls back Canada tariffs; Melania Trump’s peace deal; Hegseth bans insider trading; and more",
    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNMHlySHZFbEpJRXVIZ2FBek00X0twVTBUaHFFbWJ4aWZuNmFVUlNpOHRHcXpuUlZQTjdmT1JxU3JUM1NHYnVoY2RlaDFWbG5QVXpRSm9uX295LXlQbldTNHlVQjFzS0dEa1FNUUVBenZGUzk3ODlBb0Y5ajdjTFNiTV9tcXZueUI2VFcydnByeDlVQy1FXzdDWVBDT3lfbGpUTGtGMHdKRXJJSVYtZnotRENadW5jaWJkT0tEZ0FHV01oRmVNTVNVdHhiY2ZTTXhyek5JNmJZQmd4U2oybDZEcHdmenVYb2FQUUdTc1daR0NfcEpFd2J5bA?oc=5",
    "ts": "2026-10-24T04:29:55Z",
@@ -11044,29 +11068,6 @@
    "impacto": "bajo",
    "es": "La Reserva Federal amplía la elegibilidad del ciclo de examen de 18 meses para bancos de menos de $6 mil millones",
    "efecto": ""
-  },
-  {
-   "titulo": "CrowdStrike CEO's alarming prediction — plus, the sell-off spreads beyond tech",
-   "link": "https://www.cnbc.com/investingclub/2026/10/23/crowdstrikes-alarming-prediction-plus-sell-off-spreads-beyond-tech.html",
-   "ts": "2026-10-23T18:49:56Z",
-   "fuente": "CNBC",
-   "id": "30d8d0a7f0",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Trump administration cancels some Canada tariffs, Sen. Susan Collins says",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVElRUlRYNE1DeV9WMkYwaXlScS01OTI1MVotc2Rob1AtZW90Tk13eGJuWWFhOVpEQndDUzBZeFQ3ZFlQcWJJZ0ZZdDdtaFlnTHg2WjdTT25wVm1FUkNEMFQwakN0c2NidkVrUlRseEJCd0g3cW1haXJVS1dhVURvWm9iTldyQWZPOHFjS1dIdVBtZk5nTmk5a3NB?oc=5",
-   "ts": "2026-10-23T18:48:44Z",
-   "fuente": "NBC News",
-   "id": "2dfa22e395",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "La administración de Trump cancela algunos aranceles a Canadá, dice la senadora Susan Collins",
-   "efecto": "Impulsa al NQ al reducir tensiones comerciales e inflacionarias."
   }
  ],
  "eventos_avisados": [
@@ -12846,7 +12847,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-24T05:27:33Z",
+ "noticias_traducidas_ts": "2026-10-24T06:37:30Z",
  "ult_4h": 1792788453.0575836,
  "estrategia_4h": {
   "oro": {
@@ -12945,8 +12946,6 @@
   }
  ],
  "noticias_vistas": [
-  "07120705b9",
-  "a4bd6a5a47",
   "877eb086c5",
   "20389c2047",
   "dfad4c5adb",
@@ -13744,7 +13743,9 @@
   "cd2d826cad",
   "9779b28e36",
   "b815d8eb85",
-  "b1e2146077"
+  "b1e2146077",
+  "1ca212c47e",
+  "af72cd7c3b"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
