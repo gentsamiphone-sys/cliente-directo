@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4010.4 · NQ 29238.75 · VIX 19.45",
-   "actualizado": "2026-10-25T22:32:34Z"
+   "ultimo_resultado": "Oro 4013.0 · NQ 29247.75 · VIX 19.45 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-25T22:37:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-25T22:32:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-25T22:37:32Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: US to remove some Canadian tariffs ahead of elections"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4013.0 · NQ 29247.75 · VIX 19.45 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-25T22:37:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4010.4 · NQ 29238.75 · VIX 19.45",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-25T09:07:29Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-25T09:02:30Z"
   }
  ],
  "briefs": [
@@ -10620,12 +10620,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4010.4,
-  "nq": 29238.75,
+  "oro": 4013.0,
+  "nq": 29247.75,
   "vix": 19.45,
-  "ts": "2026-10-25T22:32:33Z"
+  "ts": "2026-10-25T22:37:32Z"
  },
  "noticias": [
+  {
+   "titulo": "US to remove some Canadian tariffs ahead of elections",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNEh4a3NwdC1ZSV9GejZQMkhOUkE2VE9XMmJuNmFWejFPZ1h0SDJDM2dZbXdCa0EtXzZxdDFyd2FYMk1XQkZxY0RIRl9mRWZ0TU5RZVprN1pDS2h3YWVmV1JsTWdneGVQdWFWLU01YzVDU3RTSU1NWmRWTmhFbE1uOEMxSQ?oc=5",
+   "ts": "2026-10-25T22:29:00Z",
+   "fuente": "Semafor",
+   "id": "ccca781d1b",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "Stock futures climb as traders try to recover from the S&P 500's losing week: Live updates",
    "link": "https://www.cnbc.com/2026/10/25/stock-market-today-live-updates.html",
@@ -11476,17 +11485,6 @@
    "impacto": "bajo",
    "es": "Destacados de YouTube Gold sobre el viaje de Louisville a Kansas",
    "efecto": "Sin impacto en los mercados financieros, es contenido de entretenimiento."
-  },
-  {
-   "titulo": "Bitcoin Slips Below $80K As Peter Schiff Warns Of ‘Very Long Weekend’ For BTC Investors — Mike McGlone Says ‘Don’t Fight The Fed’",
-   "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-slips-below-80-k-as-peter-schiff-warns-of-very-long-weekend-for-btc-investors-mike-mc-glone-says-don-t-fight-the-fed/cZUcY1JRBUm?.tsrc=rss",
-   "ts": "2026-10-25T09:59:19Z",
-   "fuente": "Yahoo Finance",
-   "id": "57896b64a2",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -12110,14 +12108,14 @@
     4010.2,
     4017.9,
     4006.8,
-    4008.3
+    4012.0
    ],
    [
-    1792966950,
-    4010.4,
-    4010.4,
-    4010.4,
-    4010.4
+    1792967249,
+    4013.0,
+    4013.0,
+    4013.0,
+    4013.0
    ]
   ],
   "nq": [
@@ -12727,15 +12725,15 @@
     1792965600,
     29292.0,
     29295.5,
-    29232.25,
-    29234.0
+    29228.25,
+    29251.25
    ],
    [
-    1792966953,
-    29239.5,
-    29239.5,
-    29239.5,
-    29239.5
+    1792967251,
+    29247.5,
+    29247.5,
+    29247.5,
+    29247.5
    ]
   ],
   "vix": [
@@ -13348,7 +13346,6 @@
   }
  ],
  "noticias_vistas": [
-  "fbbb93d5fc",
   "95a9ccf076",
   "b4c7ab59e9",
   "8dacd4fbc4",
@@ -14147,7 +14144,8 @@
   "70c246faa1",
   "9801c877fa",
   "1461440a3f",
-  "066def5643"
+  "066def5643",
+  "ccca781d1b"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
