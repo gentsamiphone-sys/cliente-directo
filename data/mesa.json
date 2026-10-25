@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro — · NQ — · VIX 19.45",
-   "actualizado": "2026-10-25T22:12:34Z"
+   "ultimo_resultado": "Oro 4007.9 · NQ 29117.75 · VIX 19.45 · 4 noticias nuevas",
+   "actualizado": "2026-10-25T22:17:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-25T22:12:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-25T22:17:37Z",
+   "ultimo_resultado": "4 titulares nuevos: Los futuros de acciones suben mientras los operadores intentan recuperar las pérdidas del S&P 500"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4007.9 · NQ 29117.75 · VIX 19.45 · 4 noticias nuevas",
+   "ts": "2026-10-25T22:17:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro — · NQ — · VIX 19.45",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-25T08:47:29Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-25T08:42:33Z"
   }
  ],
  "briefs": [
@@ -10620,10 +10620,49 @@
   }
  },
  "en_vivo": {
+  "oro": 4007.9,
+  "nq": 29117.75,
   "vix": 19.45,
-  "ts": "2026-10-25T22:12:34Z"
+  "ts": "2026-10-25T22:17:37Z"
  },
  "noticias": [
+  {
+   "titulo": "Stock futures climb as traders try to recover from the S&P 500's losing week: Live updates",
+   "link": "https://www.cnbc.com/2026/10/25/stock-market-today-live-updates.html",
+   "ts": "2026-10-25T22:12:38Z",
+   "fuente": "CNBC",
+   "id": "70c246faa1",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Los futuros de acciones suben mientras los operadores intentan recuperar las pérdidas del S&P 500",
+   "efecto": "Impulsa al NQ al alza por apetito de riesgo y rebote técnico."
+  },
+  {
+   "titulo": "Men’s Fencing Closes Out Nikki Franke Classic as Heathcock Secures Gold",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRzZlQUZjbnJYWURZWWYzZVpqbE9KTHU3RVlYMXdkcXdlY2p6RXlLZEdKUlkxRHFzcDVKeEd6NDJNOHdMaTE1emR1STFjOWRuN25EVlZXZGpWZHFuZ256X01iQ2wtdXk2X2hqT25pQWsxNTJRRTJfMGhCMzFYM19RLWVJdFVDeTJaTm1jV1JSRzk1c2NZT2s1Mjlfa2phSGZxd295d25DVlVGSTVDek54amQ0NS1HWXds?oc=5",
+   "ts": "2026-10-25T22:10:08Z",
+   "fuente": "University of Pennsylvania Athletics",
+   "id": "9801c877fa",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Esgrima masculina cierra la clásica Nikki Franke con oro para Heathcock",
+   "efecto": "Sin impacto en los mercados financieros institucionales."
+  },
+  {
+   "titulo": "The Bet Eldorado Gold Holders Made",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/bet-eldorado-gold-holders-made-220839520.html?.tsrc=rss",
+   "ts": "2026-10-25T22:08:39Z",
+   "fuente": "Yahoo Finance",
+   "id": "1461440a3f",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "La apuesta que hicieron los tenedores de Eldorado Gold",
+   "efecto": "Ruido corporativo menor sin efecto directo en el oro spot."
+  },
   {
    "titulo": "Overachiever Chunk of Gold Seeks Breeders' Cup Payday",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDgtRTNKdEZDVWwxWnIxZklaalQtMGMxeGVnUXBWeDdZcjBYT3hsXzEydWRySHFFTjRYWUNiSlUtNW40b3hxTGxUX0ljRWI0T1NsN2lkb0FDTTc0LXVld1BpREx6T19JWnQzZWlQZUlMV3Y4dEgxR2hlSUYxRVAxbC0zLTQyNnBvNzFpRzNSMDFoa1JTakMtclE4SDM0WDdhTDQ4N2tGTDFKeU80?oc=5",
@@ -10663,6 +10702,17 @@
    "id": "ef899019f2",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Osama Claims Gold for Nittany Lions on Final Day of Coach Nikki Franke Invitational",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeGZmcjdKczNiOHFEd000M0trLTZzc01hVzRIV1RfcG1qSWdxOXdLWUVOcFBvRFVGa0lpbGFySUNmLXppV0cyZW9IZkFlTzhSS3NYWEZzcEhYbU03NVkxVnZaNlJOeXk1VHVWZGk0ZzhsR1JBeTI5OTRqZTQ5Vk9NbHBuaEo0RjN6a2ZBWkJoeXo5TGZGLUVCeGRxVzdmdkhBRThsSUJjbnlEWm5PS1c5ZGpKcS1FWVdSWF92T01KMWk?oc=5",
+   "ts": "2026-10-25T21:25:52Z",
+   "fuente": "gopsusports.com",
+   "id": "066def5643",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Osama reclama el oro para los Nittany Lions en el último día del invitacional Nikki Franke",
+   "efecto": "Noticia deportiva sin relevancia para las operaciones."
   },
   {
    "titulo": "More pain may be coming for the AI trade. Why I’m not giving up on it",
@@ -11437,59 +11487,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Audi to build $4bn Georgia SUV factory as Trump promotes tariffs",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWclE2ckFQdVpvVmhZOENoN2RjM21pYW1kam1oR2QwYjJOcHlkdVBNc0xXMGJlQlUyeXVna2t6emRxVnlZamVsOTZNSXAybDI1X1RCcFVQd015LTV6LWhN?oc=5",
-   "ts": "2026-10-25T09:51:00Z",
-   "fuente": "Nation Thailand",
-   "id": "10250076de",
-   "activos": [
-    "dolar",
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Audi construirá fábrica de SUV en Georgia por 4 mil millones de dólares mientras Trump promueve aranceles",
-   "efecto": "Impulsa al dólar y al sector industrial en el NQ."
-  },
-  {
-   "titulo": "Top 5 Things to Watch: Rivers Fall, Federal Reserve Action Uncertain",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQjl3MzQzNDFDYzhmTi1RRXRSelczdks1UEUtYkVQR2ctRW9Qc1JJdTJic3lKSmtOU2h1UHVNZVFIOHktalZCRHBqMFhmNEFiQmdIMG9ublRTQUw2eEMwN1R0UjZTLUpHUEFSZHh4Y2ZRMFdIVUppU1BydVlHVjJrWGVoV1ZMTnJuc3FRMUE5NUdqQk1YbDN1N1h6NnZCMGtabjhTU05ZTkNEZnc3MGRnRg?oc=5",
-   "ts": "2026-10-25T09:50:00Z",
-   "fuente": "DTN Progressive Farmer",
-   "id": "04d6718a3e",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio",
-   "es": "Cinco claves: Caída de los ríos y acción incierta de la Reserva Federal",
-   "efecto": "Genera cautela en índices y dólar ante la incertidumbre de la Fed."
-  },
-  {
-   "titulo": "1-800-FLOWERS.COM, Inc. Estimates – NASDAQ:FLWS",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBwVVZSYlNBUVZOWVVGa1JTVDh1VmF0dUxpd0ZtWlN6cGJfNXA3SndueFRZdEt1UUxqN2Nmak13Y09EM0tFUVJfUTdXUDNXSWJtVV9qWk1XbU03Zk56NUt5bXd5VWktWEF1aXhiUFpJdFRwZ1k0Z2hQcw?oc=5",
-   "ts": "2026-10-25T09:43:31Z",
-   "fuente": "TradingView",
-   "id": "17ace35d9d",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "3 AI Stocks That Can Beat the Nasdaq Composite in 2027",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQY2w0RF9BaUNjdm90V194YXpPX3I5WndZZnBlTVpNbHh4WFRaempUT2NFVFVfZFVRbl9HdERhOXpjV2xpR0J5V3h2Q1lqUWFhOW1CQzBubDQzbDRJbDJqOGRiSHdLcHdXX3hQTjdaS2tkZV81cFV1NEZFREZHRkloM3VRNmduVFQ3Vk8zeHJzQWVHN3VWQlVR?oc=5",
-   "ts": "2026-10-25T09:36:36Z",
-   "fuente": "The Motley Fool",
-   "id": "3b08cc1e89",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "3 acciones de IA que pueden superar al Nasdaq Composite en 2027",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -11508,66 +11505,66 @@
   "oro": [
    [
     1792468800,
-    4164.9,
+    4165.1,
     4166.5,
     4160.6,
     4162.8
    ],
    [
     1792472400,
-    4162.6,
+    4162.9,
     4163.3,
     4138.0,
     4138.7
    ],
    [
     1792476000,
-    4138.4,
+    4138.5,
     4155.3,
     4137.4,
     4153.7
    ],
    [
     1792479600,
-    4153.5,
+    4153.8,
     4155.5,
     4136.6,
     4143.2
    ],
    [
     1792483200,
-    4143.0,
+    4143.2,
     4144.9,
     4134.6,
     4138.8
    ],
    [
     1792486800,
-    4138.7,
+    4138.3,
     4145.6,
     4130.1,
-    4130.8
+    4130.7
    ],
    [
     1792490400,
-    4131.8,
+    4131.6,
     4141.5,
     4130.1,
     4139.7
    ],
    [
     1792494000,
-    4139.1,
+    4139.3,
     4146.1,
     4138.4,
     4142.9
    ],
    [
     1792497600,
-    4142.7,
+    4142.9,
     4145.6,
     4130.9,
-    4137.8
+    4137.9
    ],
    [
     1792501200,
@@ -11578,14 +11575,14 @@
    ],
    [
     1792504800,
-    4146.5,
+    4146.4,
     4174.9,
     4139.3,
-    4162.2
+    4162.8
    ],
    [
     1792508400,
-    4161.8,
+    4162.2,
     4163.5,
     4149.1,
     4150.2
@@ -11606,7 +11603,7 @@
    ],
    [
     1792519200,
-    4142.8,
+    4143.0,
     4145.6,
     4139.7,
     4142.6
@@ -11620,21 +11617,21 @@
    ],
    [
     1792526400,
-    4138.8,
+    4138.9,
     4143.8,
     4138.4,
     4142.5
    ],
    [
     1792533600,
-    4143.4,
+    4144.8,
     4149.8,
     4138.0,
     4138.2
    ],
    [
     1792537200,
-    4138.4,
+    4138.3,
     4139.3,
     4132.0,
     4132.5
@@ -11651,18 +11648,18 @@
     4135.3,
     4142.6,
     4124.0,
-    4137.4
+    4138.1
    ],
    [
     1792548000,
-    4137.0,
-    4138.6,
+    4134.8,
+    4138.1,
     4131.5,
     4135.4
    ],
    [
     1792551600,
-    4135.3,
+    4135.2,
     4143.8,
     4130.5,
     4135.9
@@ -11683,7 +11680,7 @@
    ],
    [
     1792562400,
-    4135.5,
+    4135.2,
     4137.5,
     4128.4,
     4130.1
@@ -11697,14 +11694,14 @@
    ],
    [
     1792569600,
-    4142.2,
+    4142.4,
     4143.2,
     4135.8,
-    4137.7
+    4138.0
    ],
    [
     1792573200,
-    4137.6,
+    4137.8,
     4144.4,
     4135.4,
     4136.6
@@ -11718,7 +11715,7 @@
    ],
    [
     1792580400,
-    4144.8,
+    4145.2,
     4160.0,
     4143.7,
     4158.7
@@ -11728,18 +11725,18 @@
     4158.8,
     4160.6,
     4142.3,
-    4147.9
+    4148.0
    ],
    [
     1792587600,
-    4148.0,
+    4148.1,
     4159.2,
     4147.4,
     4147.7
    ],
    [
     1792591200,
-    4147.4,
+    4147.3,
     4153.8,
     4139.7,
     4148.5
@@ -11753,7 +11750,7 @@
    ],
    [
     1792598400,
-    4150.2,
+    4150.0,
     4158.0,
     4145.6,
     4149.9
@@ -11767,21 +11764,21 @@
    ],
    [
     1792605600,
-    4155.0,
+    4154.9,
     4159.9,
     4131.2,
-    4131.2
+    4131.3
    ],
    [
     1792609200,
-    4131.0,
+    4130.8,
     4154.2,
     4122.3,
     4152.5
    ],
    [
     1792612800,
-    4152.4,
+    4152.6,
     4160.3,
     4150.4,
     4159.5
@@ -11791,7 +11788,7 @@
     4159.0,
     4164.3,
     4147.1,
-    4148.1
+    4148.4
    ],
    [
     1792623600,
@@ -11802,17 +11799,17 @@
    ],
    [
     1792627200,
-    4142.7,
+    4142.6,
     4143.1,
     4129.6,
-    4130.1
+    4130.0
    ],
    [
     1792630800,
     4129.9,
     4135.1,
     4123.7,
-    4131.6
+    4131.5
    ],
    [
     1792634400,
@@ -11837,84 +11834,84 @@
    ],
    [
     1792645200,
-    4106.9,
+    4107.0,
     4108.4,
     4082.4,
     4105.4
    ],
    [
     1792648800,
-    4105.1,
+    4105.2,
     4118.7,
     4102.3,
-    4108.9
+    4109.1
    ],
    [
     1792652400,
-    4108.9,
+    4108.5,
     4117.3,
     4100.3,
     4103.8
    ],
    [
     1792656000,
-    4104.2,
+    4103.8,
     4110.1,
     4097.7,
     4099.1
    ],
    [
     1792659600,
-    4098.5,
+    4098.8,
     4106.1,
     4095.5,
     4104.4
    ],
    [
     1792663200,
-    4104.4,
+    4104.6,
     4108.8,
     4094.6,
     4096.1
    ],
    [
     1792666800,
-    4096.0,
+    4096.1,
     4096.2,
     4072.7,
     4074.8
    ],
    [
     1792670400,
-    4074.8,
+    4074.7,
     4107.2,
     4074.1,
-    4103.6
+    4103.7
    ],
    [
     1792674000,
-    4103.9,
+    4103.8,
     4104.0,
     4068.8,
-    4071.7
+    4071.9
    ],
    [
     1792677600,
-    4072.0,
+    4072.5,
     4080.1,
     4059.5,
-    4074.9
+    4075.0
    ],
    [
     1792681200,
-    4074.7,
+    4074.9,
     4078.5,
     4062.6,
     4066.9
    ],
    [
     1792684800,
-    4067.5,
+    4067.7,
     4068.5,
     4049.1,
     4053.2
@@ -11935,14 +11932,14 @@
    ],
    [
     1792695600,
-    4046.2,
+    4046.1,
     4047.1,
     4037.2,
     4044.4
    ],
    [
     1792699200,
-    4044.2,
+    4044.0,
     4045.5,
     4036.8,
     4039.8
@@ -11956,14 +11953,14 @@
    ],
    [
     1792710000,
-    4042.8,
+    4042.9,
     4044.0,
     4036.0,
     4038.3
    ],
    [
     1792713600,
-    4038.3,
+    4038.5,
     4047.4,
     4031.6,
     4045.6
@@ -11977,7 +11974,7 @@
    ],
    [
     1792720800,
-    4006.2,
+    4005.9,
     4039.0,
     4000.9,
     4032.3
@@ -12012,14 +12009,14 @@
    ],
    [
     1792738800,
-    4026.9,
+    4027.1,
     4036.1,
     4025.0,
     4025.7
    ],
    [
     1792742400,
-    4025.7,
+    4026.0,
     4039.4,
     4023.7,
     4037.2
@@ -12033,10 +12030,10 @@
    ],
    [
     1792749600,
-    4038.2,
+    4038.3,
     4040.5,
     4034.2,
-    4037.7
+    4037.6
    ],
    [
     1792753200,
@@ -12047,17 +12044,17 @@
    ],
    [
     1792756800,
-    4038.8,
+    4038.5,
     4047.0,
     4035.7,
     4040.3
    ],
    [
     1792760400,
-    4040.4,
+    4040.3,
     4050.2,
     4030.3,
-    4037.0
+    4037.1
    ],
    [
     1792764000,
@@ -12068,14 +12065,14 @@
    ],
    [
     1792767600,
-    4014.5,
+    4013.9,
     4019.8,
     4006.7,
     4017.3
    ],
    [
     1792771200,
-    4017.5,
+    4017.8,
     4020.5,
     4012.4,
     4014.4
@@ -12096,20 +12093,20 @@
    ],
    [
     1792782000,
-    4012.0,
+    4012.1,
     4015.0,
     4007.5,
     4013.3
    ],
    [
     1792785600,
-    4013.1,
+    4013.2,
     4013.5,
     4006.0,
     4007.9
    ],
    [
-    1792965750,
+    1792966052,
     4007.9,
     4007.9,
     4007.9,
@@ -12126,28 +12123,28 @@
    ],
    [
     1792472400,
-    29659.0,
+    29658.75,
     29666.75,
     29585.75,
     29600.75
    ],
    [
     1792476000,
-    29602.25,
+    29601.25,
     29736.75,
     29582.25,
     29707.0
    ],
    [
     1792479600,
-    29705.5,
+    29707.0,
     29718.75,
     29588.0,
-    29629.25
+    29628.75
    ],
    [
     1792483200,
-    29626.0,
+    29629.0,
     29694.0,
     29593.25,
     29608.25
@@ -12168,77 +12165,77 @@
    ],
    [
     1792494000,
-    29582.75,
+    29582.0,
     29585.5,
     29510.0,
     29524.75
    ],
    [
     1792497600,
-    29523.75,
+    29525.0,
     29620.25,
     29478.5,
-    29594.5
+    29594.25
    ],
    [
     1792501200,
-    29594.75,
+    29594.0,
     29636.0,
     29391.75,
     29627.25
    ],
    [
     1792504800,
-    29628.0,
+    29629.25,
     29903.5,
     29604.0,
     29871.0
    ],
    [
     1792508400,
-    29870.5,
+    29870.0,
     29876.75,
     29689.5,
     29788.0
    ],
    [
     1792512000,
-    29788.5,
+    29788.0,
     29797.75,
     29688.75,
-    29711.0
+    29711.25
    ],
    [
     1792515600,
-    29711.25,
+    29711.75,
     29787.25,
     29692.5,
-    29765.75
+    29765.5
    ],
    [
     1792519200,
-    29765.75,
+    29765.5,
     29779.0,
     29671.25,
-    29717.5
+    29718.0
    ],
    [
     1792522800,
-    29716.75,
+    29717.75,
     29735.75,
     29656.25,
     29687.75
    ],
    [
     1792526400,
-    29688.25,
+    29687.5,
     29900.75,
     29687.25,
     29893.75
    ],
    [
     1792533600,
-    29936.25,
+    29925.0,
     29978.0,
     29903.0,
     29915.5
@@ -12248,11 +12245,11 @@
     29914.75,
     29924.5,
     29859.0,
-    29905.25
+    29904.25
    ],
    [
     1792540800,
-    29907.5,
+    29904.75,
     30010.25,
     29863.0,
     29915.0
@@ -12262,11 +12259,11 @@
     29913.75,
     30002.0,
     29845.75,
-    29979.75
+    29988.0
    ],
    [
     1792548000,
-    29981.5,
+    29980.25,
     29997.5,
     29948.75,
     29970.5
@@ -12287,87 +12284,87 @@
    ],
    [
     1792558800,
-    29887.5,
+    29887.75,
     29902.0,
     29824.0,
     29832.5
    ],
    [
     1792562400,
-    29832.5,
+    29831.5,
     29869.5,
     29811.25,
-    29817.25
+    29816.5
    ],
    [
     1792566000,
-    29816.0,
+    29815.75,
     29919.0,
     29808.25,
     29906.5
    ],
    [
     1792569600,
-    29904.0,
+    29906.0,
     29914.5,
     29736.25,
     29745.5
    ],
    [
     1792573200,
-    29743.75,
+    29744.5,
     29860.5,
     29731.75,
     29797.0
    ],
    [
     1792576800,
-    29795.5,
+    29794.5,
     29830.25,
     29727.5,
     29819.25
    ],
    [
     1792580400,
-    29819.75,
+    29821.5,
     29902.5,
     29819.25,
     29868.5
    ],
    [
     1792584000,
-    29866.25,
+    29868.0,
     29894.75,
     29832.75,
     29857.75
    ],
    [
     1792587600,
-    29856.25,
+    29858.0,
     29917.5,
     29771.0,
     29890.25
    ],
    [
     1792591200,
-    29890.5,
+    29889.25,
     29943.75,
     29787.25,
     29924.25
    ],
    [
     1792594800,
-    29925.25,
+    29926.0,
     30059.5,
     29914.75,
-    30041.25
+    30041.5
    ],
    [
     1792598400,
     30041.5,
     30110.75,
     29984.5,
-    30069.25
+    30069.0
    ],
    [
     1792602000,
@@ -12378,14 +12375,14 @@
    ],
    [
     1792605600,
-    30049.75,
+    30049.5,
     30088.75,
     29952.0,
     29965.5
    ],
    [
     1792609200,
-    29965.0,
+    29965.75,
     30059.25,
     29885.75,
     29997.75
@@ -12399,15 +12396,15 @@
    ],
    [
     1792620000,
-    29984.0,
+    29978.0,
     29993.25,
     29831.75,
-    29847.0
+    29860.25
    ],
    [
     1792623600,
-    29848.5,
-    29855.5,
+    29849.25,
+    29852.5,
     29753.5,
     29763.25
    ],
@@ -12420,21 +12417,21 @@
    ],
    [
     1792630800,
-    29794.0,
+    29793.5,
     29812.0,
     29728.25,
     29752.5
    ],
    [
     1792634400,
-    29755.0,
+    29754.5,
     29759.0,
     29670.25,
     29688.25
    ],
    [
     1792638000,
-    29684.0,
+    29688.0,
     29692.0,
     29613.75,
     29626.75
@@ -12448,42 +12445,42 @@
    ],
    [
     1792645200,
-    29619.25,
+    29620.0,
     29627.0,
     29507.25,
-    29544.25
+    29545.0
    ],
    [
     1792648800,
-    29544.5,
+    29545.5,
     29568.5,
     29500.25,
     29536.25
    ],
    [
     1792652400,
-    29537.0,
+    29536.0,
     29550.25,
     29463.5,
     29481.25
    ],
    [
     1792656000,
-    29483.0,
+    29481.5,
     29509.5,
     29418.5,
-    29424.0
+    29423.75
    ],
    [
     1792659600,
-    29423.5,
+    29421.75,
     29485.0,
     29417.0,
-    29467.75
+    29468.0
    ],
    [
     1792663200,
-    29468.25,
+    29469.25,
     29545.75,
     29445.75,
     29514.0
@@ -12497,21 +12494,21 @@
    ],
    [
     1792670400,
-    29514.25,
+    29515.0,
     29553.25,
     29495.5,
     29497.0
    ],
    [
     1792674000,
-    29496.25,
+    29496.5,
     29570.25,
     29436.0,
-    29542.0
+    29542.5
    ],
    [
     1792677600,
-    29541.25,
+    29542.0,
     29594.75,
     29250.0,
     29307.25
@@ -12532,7 +12529,7 @@
    ],
    [
     1792688400,
-    29240.0,
+    29240.25,
     29245.25,
     29152.5,
     29157.5
@@ -12546,14 +12543,14 @@
    ],
    [
     1792695600,
-    29079.75,
+    29079.5,
     29158.5,
     29033.0,
-    29146.25
+    29146.5
    ],
    [
     1792699200,
-    29146.0,
+    29145.0,
     29215.0,
     29072.0,
     29094.75
@@ -12567,28 +12564,28 @@
    ],
    [
     1792710000,
-    29123.25,
+    29124.25,
     29130.25,
     29042.25,
-    29086.0
+    29087.25
    ],
    [
     1792713600,
-    29087.0,
+    29087.5,
     29198.5,
     29022.75,
     29182.25
    ],
    [
     1792717200,
-    29183.25,
+    29181.75,
     29212.5,
     29056.75,
     29122.5
    ],
    [
     1792720800,
-    29125.75,
+    29125.5,
     29204.0,
     29089.0,
     29197.5
@@ -12623,7 +12620,7 @@
    ],
    [
     1792738800,
-    29184.0,
+    29184.5,
     29218.0,
     29155.0,
     29168.5
@@ -12631,7 +12628,7 @@
    [
     1792742400,
     29167.75,
-    29279.0,
+    29276.75,
     29166.0,
     29212.25
    ],
@@ -12651,10 +12648,10 @@
    ],
    [
     1792753200,
-    29097.0,
+    29097.5,
     29145.0,
     29076.25,
-    29136.0
+    29135.75
    ],
    [
     1792756800,
@@ -12668,18 +12665,18 @@
     29050.0,
     29175.5,
     28987.0,
-    29170.25
+    29169.25
    ],
    [
     1792764000,
-    29169.0,
+    29167.75,
     29326.0,
     29075.5,
     29291.25
    ],
    [
     1792767600,
-    29291.75,
+    29292.75,
     29298.25,
     29216.0,
     29293.75
@@ -12696,11 +12693,11 @@
     29204.25,
     29224.5,
     29144.0,
-    29208.5
+    29208.25
    ],
    [
     1792778400,
-    29209.25,
+    29207.75,
     29215.0,
     29134.0,
     29151.0
@@ -12714,13 +12711,13 @@
    ],
    [
     1792785600,
-    29121.75,
-    29178.75,
+    29122.75,
+    29177.75,
     29117.75,
     29117.75
    ],
    [
-    1792965754,
+    1792966053,
     29117.75,
     29117.75,
     29117.75,
@@ -13227,55 +13224,66 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-25T21:47:32Z",
- "ult_4h": 1792965751.5898392,
+ "noticias_traducidas_ts": "2026-10-25T22:17:36Z",
+ "ult_4h": 1792966657.7503781,
  "estrategia_4h": {
   "oro": {
    "precio": 4007.9,
-   "atr_4h": 31.74,
+   "atr_4h": 29.06,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4110.25,
+     "stop": 4108.63,
      "objetivo": 3989.1,
-     "rr": 5.36,
+     "rr": 5.86,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.93,
+     "fuerza_ruptura_atr": 1.0,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4130.1,
      "entrada": 4130.1,
-     "stop": 4149.15,
+     "stop": 4147.53,
      "objetivo": 3989.1,
-     "rr": 7.4,
+     "rr": 8.09,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.12,
+     "fuerza_ruptura_atr": 1.21,
      "ruptura": "2026-10-22 00:00 UTC"
     }
    ]
   },
   "nq": {
    "precio": 29117.75,
-   "atr_4h": 220.55,
+   "atr_4h": 204.09,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29268.75,
      "entrada": 29268.75,
-     "stop": 29401.08,
+     "stop": 29391.2,
      "objetivo": 28987.0,
-     "rr": 2.13,
+     "rr": 2.3,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.89,
+     "fuerza_ruptura_atr": 0.97,
      "ruptura": "2026-10-22 16:00 UTC"
+    },
+    {
+     "direccion": "VENTA",
+     "nivel": 29391.75,
+     "entrada": 29391.75,
+     "stop": 29514.2,
+     "objetivo": 28987.0,
+     "rr": 3.31,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 0.97,
+     "ruptura": "2026-10-22 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-25T22:02:31Z"
+  "ts": "2026-10-25T22:17:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13326,10 +13334,6 @@
   }
  ],
  "noticias_vistas": [
-  "fea6aebcd8",
-  "c206d0ec72",
-  "982f737ca0",
-  "fc676e4482",
   "fbbb93d5fc",
   "95a9ccf076",
   "b4c7ab59e9",
@@ -14125,7 +14129,11 @@
   "ef899019f2",
   "f8a063622c",
   "a43c1a7148",
-  "894bcbdaa9"
+  "894bcbdaa9",
+  "70c246faa1",
+  "9801c877fa",
+  "1461440a3f",
+  "066def5643"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
