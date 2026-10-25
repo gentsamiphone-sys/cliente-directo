@@ -1,10 +1,10 @@
 {
  "agentes": {
   "cio": {
-   "estado": "trabajando",
-   "tarea": "Escribiendo el brief cripto…",
-   "actualizado": "2026-10-25T01:24:07Z",
-   "ultimo_resultado": "Brief publicado: Contracción de liquidez macro y salida de stables limitan el apetito por riesgo; prioridad preservar capital."
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-25T01:24:16Z",
+   "ultimo_resultado": "Brief publicado: Consolidación lateral en BTC con sesgo neutral y presión bajista en ETH bajo un entorno de liquidez restrictiva"
   },
   "liquidez": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "cio",
+   "texto": "Brief publicado: Consolidación lateral en BTC con sesgo neutral y presión bajista en ETH bajo un entorno de liquidez restrictiva",
+   "ts": "2026-10-25T01:24:16Z"
+  },
   {
    "agente": "cio",
    "texto": "Escribiendo el brief cripto…",
@@ -800,14 +805,47 @@
    "agente": "sentimiento",
    "texto": "Fear & Greed 63 (Greed) · funding BTC 0.0029%",
    "ts": "2026-10-21T13:36:48Z"
-  },
-  {
-   "agente": "sentimiento",
-   "texto": "Leyendo Fear & Greed y funding…",
-   "ts": "2026-10-21T13:36:45Z"
   }
  ],
  "briefs": [
+  {
+   "turno": "Noche (Asia)",
+   "ts": "2026-10-25T01:24:16Z",
+   "texto": "BRIEF CRIPTO · NOCHE (ASIA)\n\n1. **Sesgo**\n- BTC: Neutral. Razón principal: Consolidación lateral con ligera presión vendedora a corto plazo, respetando soportes macro y con flujos estables.\n- ETH: Bajista. Razón principal: Caídas más acusadas de 24 horas y mensual, perdiendo tracción frente a Bitcoin y operando cerca de mínimos recientes.\n\n2. **Liquidez global**\nEl DXY sube a 101.81 (+0.2%) y el US10Y repunta al 4.99% (+0.71%), lo que ejerce presión restrictiva sobre los activos de riesgo. El Nasdaq se mantiene plano (-0.08%) y el VIX sube a 19.45 (+2.21%). En conjunto, este entorno de tasas altas y dólar firme frena la liquidez para cripto hoy.\n\n3. **Flujos**\nLas stablecoins muestran contracción con un total de 285.0 mm, cayendo 2.05 mm en 7 días y 4.78 mm en 30 días, lo que indica salida neta de dinero fresco del ecosistema. La dominancia de BTC se ubica en 59.48% y ETH en 10.54%, reflejando un claro sesgo de refugio temporal en Bitcoin frente a las altcoins.\n\n4. **Apalancamiento y sentimiento**\nEl Fear & Greed registra 54 (Neutral), sin euforia ni pánico extremo. El funding de perpetuos es moderadamente positivo en BTC (0.003% cada 8h) y ETH (0.001% cada 8h), lo que muestra un apalancamiento equilibrado y sin excesos de liquidaciones pendientes a corto plazo.\n\n5. **Mapa de liquidez**\n- BTC: Máximo de la semana 84840.05, mínimo de la semana 80421.74, máximo del mes 87146.35, mínimo del mes 79735.86, EMA200 diaria en 76315.71. Imán más probable: El soporte clave en la zona de 80421.74.\n- ETH: Máximo de la semana 2522.84, mínimo de la semana 2327.05, máximo del mes 2773.52, mínimo del mes 2320.55, EMA200 diaria en 2327.28. Imán más probable: La confluencia de la EMA200 y el mínimo semanal en 2327.\n\n6. **Plan**\n- **BTC**:\n  - Dirección: COMPRA\n  - Zona de entrada: 80420 (orden límite en mínimo semanal)\n  - Stop: 79700 (detrás del mínimo del mes y la liquidez inferior)\n  - TP1 / TP2: 81950 / 84840 (hacia máximos recientes y de la semana)\n  - R:R al TP2: 4.15 (Mínimo 2: Cumple)\n  - Confluencias: 3/5 ((1) liquidez global no acompaña, (2) flujos de stablecoins negativos, (3) funding neutral a favor, (4) zona de liquidez de soporte semanal, (5) estacionalidad neutral).\n  - Menos de 4/5 = SIN ENTRADA.\n- **ETH**:\n  - Dirección: SIN ENTRADA\n  - Zona de entrada: N/A\n  - Stop: N/A\n  - TP1 / TP2: N/A\n  - R:R al TP2: N/A\n  - Confluencias: 2/5. Menos de 4/5 = SIN ENTRADA.\n\n7. **Historia**\nEn esta fecha, BTC registró un comportamiento mixto en los últimos 8 años, destacando subidas en 6 de ellos para esta semana y un promedio de +5.41%. Sesgo histórico: neutral (análogos 2025, 2018, 2022). Sirve de confluencia estadística, nunca como gatillo operativo.\n\n8. **Riesgo**\nRégimen de volatilidad normal para BTC y ETH. Regla de tamaño: arriesgar como máximo 1% del capital por idea; en volatilidad alta, la mitad.\n\nAnálisis educativo de agentes de IA. No es consejo financiero.",
+   "titular": "Consolidación lateral en BTC con sesgo neutral y presión bajista en ETH bajo un entorno de liquidez restrictiva",
+   "sesgo": {
+    "btc": "neutral",
+    "eth": "bajista"
+   },
+   "entradas": [
+    {
+     "activo": "BTC",
+     "direccion": "SIN ENTRADA",
+     "zona": "80420",
+     "stop": "79700",
+     "tp1": "81950",
+     "tp2": "84840",
+     "rr": "4.15",
+     "confluencias": "3/5"
+    },
+    {
+     "activo": "ETH",
+     "direccion": "SIN ENTRADA",
+     "zona": "N/A",
+     "stop": "N/A",
+     "tp1": "N/A",
+     "tp2": "N/A",
+     "rr": "N/A",
+     "confluencias": "2/5"
+    }
+   ],
+   "precios": {
+    "btc": 80708.17,
+    "eth": 2354.17
+   },
+   "fear_greed": 54,
+   "dominancia_btc": 59.48
+  },
   {
    "turno": "Mañana (apertura de EE. UU.)",
    "ts": "2026-10-24T13:31:06Z",
