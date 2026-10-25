@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4015.8 · NQ 29309.75 · VIX 19.45",
-   "actualizado": "2026-10-25T22:52:32Z"
+   "ultimo_resultado": "Oro 4016.0 · NQ 29331.0 · VIX 19.45 · 1 noticias nuevas",
+   "actualizado": "2026-10-25T22:57:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-25T22:52:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-25T22:57:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Lula toma ventaja inicial en la segunda vuelta presidencial de Brasil"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4016.0 · NQ 29331.0 · VIX 19.45 · 1 noticias nuevas",
+   "ts": "2026-10-25T22:57:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4015.8 · NQ 29309.75 · VIX 19.45",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-25T09:27:34Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-25T09:22:38Z"
   }
  ],
  "briefs": [
@@ -10620,12 +10620,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4015.8,
-  "nq": 29309.75,
+  "oro": 4016.0,
+  "nq": 29331.0,
   "vix": 19.45,
-  "ts": "2026-10-25T22:52:32Z"
+  "ts": "2026-10-25T22:57:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Brazil's Lula takes early lead in presidential runoff vote",
+   "link": "https://www.cnbc.com/2026/10/25/brazil-lula-bolsonaro-presidential-election-runoff.html",
+   "ts": "2026-10-25T22:53:01Z",
+   "fuente": "CNBC",
+   "id": "885486783d",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Lula toma ventaja inicial en la segunda vuelta presidencial de Brasil",
+   "efecto": "Sin impacto directo en oro, NQ o dólar."
+  },
   {
    "titulo": "US to remove some Canadian tariffs ahead of elections",
    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNEh4a3NwdC1ZSV9GejZQMkhOUkE2VE9XMmJuNmFWejFPZ1h0SDJDM2dZbXdCa0EtXzZxdDFyd2FYMk1XQkZxY0RIRl9mRWZ0TU5RZVprN1pDS2h3YWVmV1JsTWdneGVQdWFWLU01YzVDU3RTSU1NWmRWTmhFbE1uOEMxSQ?oc=5",
@@ -11476,17 +11487,6 @@
    "id": "18281ba1e9",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Fangdd Network Group Ltd. Estimates – NASDAQ:DUO",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAtYVpLV2hVUDhjLU5nY2RMSzFYRjU4X0NkVWpLcUVoTzRIcTA2ZmlGYVpGckpHYUQ4bkFlRlBoRTBRZDhzamNaUXZBY2RMVVpsUGkxMkZEeGVQdl9uV29nNjlGWGxDSjViYzVYTW5TLTl2NkFWN1ZB?oc=5",
-   "ts": "2026-10-25T10:33:26Z",
-   "fuente": "TradingView",
-   "id": "762ec6e46e",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12110,14 +12110,14 @@
     4010.2,
     4017.9,
     4006.8,
-    4015.8
+    4017.1
    ],
    [
-    1792968144,
-    4015.8,
-    4015.8,
-    4015.8,
-    4015.8
+    1792968444,
+    4016.0,
+    4016.0,
+    4016.0,
+    4016.0
    ]
   ],
   "nq": [
@@ -12726,16 +12726,16 @@
    [
     1792965600,
     29292.0,
-    29321.75,
+    29345.0,
     29228.25,
-    29312.25
+    29334.0
    ],
    [
-    1792968150,
-    29312.25,
-    29312.25,
-    29312.25,
-    29312.25
+    1792968451,
+    29331.0,
+    29331.0,
+    29331.0,
+    29331.0
    ]
   ],
   "vix": [
@@ -13238,7 +13238,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-25T22:17:36Z",
+ "noticias_traducidas_ts": "2026-10-25T22:57:31Z",
  "ult_4h": 1792968452.4419463,
  "estrategia_4h": {
   "oro": {
@@ -13337,7 +13337,6 @@
   }
  ],
  "noticias_vistas": [
-  "8dacd4fbc4",
   "fd8d598853",
   "04c66e29fd",
   "4f3605a83b",
@@ -14136,7 +14135,8 @@
   "066def5643",
   "ccca781d1b",
   "c0f09f6879",
-  "406a70f914"
+  "406a70f914",
+  "885486783d"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
