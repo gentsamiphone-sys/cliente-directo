@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4028.4 · NQ 29165.5 · VIX 19.51 · 1 noticias nuevas",
-   "actualizado": "2026-10-26T11:42:36Z"
+   "ultimo_resultado": "Oro 4026.9 · NQ 29172.75 · VIX 19.57 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-26T11:47:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T11:42:35Z",
-   "ultimo_resultado": "1 titulares nuevos: Mercado Minerals Expands El Triunfo Vein at Zamora Project with New Surface Results Including 0.60 Metres of 815 g/t Silver and 1.66 g/t Gold, Within 1.55 Metres of 381 g/t Silver and 0.85 g/t Gold"
+   "actualizado": "2026-10-26T11:47:33Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: El oro se mantiene cerca de mínimo de tres meses mientras inversionistas esperan decisión de la Reserva Federal"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4026.9 · NQ 29172.75 · VIX 19.57 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-26T11:47:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4028.4 · NQ 29165.5 · VIX 19.51 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-10-25T21:33:00Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 4007.9 · NQ 29117.75.",
-   "ts": "2026-10-25T21:32:59Z"
   }
  ],
  "briefs": [
@@ -10787,10 +10787,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4028.4,
-  "nq": 29165.5,
-  "vix": 19.51,
-  "ts": "2026-10-26T11:42:35Z"
+  "oro": 4026.9,
+  "nq": 29172.75,
+  "vix": 19.57,
+  "ts": "2026-10-26T11:47:33Z"
  },
  "noticias": [
   {
@@ -10841,6 +10841,20 @@
    "id": "3185e8725b",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold Holds Near Three-Month Low as Investors Await Federal Reserve Decision",
+   "link": "https://investorshub.advfn.com/market-news/article/38549/gold-holds-near-three-month-low-as-investors-await-federal-reserve-decision?.tsrc=rss",
+   "ts": "2026-10-26T11:21:10Z",
+   "fuente": "Yahoo Finance",
+   "id": "49f854a733",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El oro se mantiene cerca de mínimo de tres meses mientras inversionistas esperan decisión de la Reserva Federal",
+   "efecto": "Genera cautela institucional en el oro a la espera de señales de tasas de la Fed."
   },
   {
    "titulo": "Meta launches $35 billion stock offering to fund AI expansion",
@@ -11665,20 +11679,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Oil slides over 2% as traders weigh Saudi attack risks, demand destruction",
-   "link": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html",
-   "ts": "2026-10-26T05:18:01Z",
-   "fuente": "CNBC",
-   "id": "45bf7ea5ea",
-   "activos": [
-    "dolar",
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "El petróleo cae más del 2% por menor riesgo de ataque saudí y menor demanda",
-   "efecto": "Reduce presiones inflacionarias, aliviando ligeramente al NQ y afectando al dólar."
   }
  ],
  "eventos_avisados": [
@@ -12232,14 +12232,14 @@
     4028.9,
     4030.4,
     4024.1,
-    4028.7
+    4026.4
    ],
    [
-    1793014350,
-    4028.4,
-    4028.4,
-    4028.4,
-    4028.4
+    1793014636,
+    4026.9,
+    4026.9,
+    4026.9,
+    4026.9
    ]
   ],
   "nq": [
@@ -12780,14 +12780,14 @@
     29087.25,
     29188.5,
     29071.75,
-    29168.25
+    29180.75
    ],
    [
-    1793014355,
-    29166.75,
-    29166.75,
-    29166.75,
-    29166.75
+    1793014651,
+    29172.75,
+    29172.75,
+    29172.75,
+    29172.75
    ]
   ],
   "vix": [
@@ -13215,23 +13215,23 @@
     1793012400,
     19.74,
     19.75,
-    19.53,
-    19.53
+    19.48,
+    19.5
    ],
    [
-    1793014051,
-    19.51,
-    19.51,
-    19.51,
-    19.51
+    1793014351,
+    19.57,
+    19.57,
+    19.57,
+    19.57
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-26T11:14:26Z",
- "ult_4h": 1793014350.0944052,
+ "noticias_traducidas_ts": "2026-10-26T11:47:32Z",
+ "ult_4h": 1793015253.5632877,
  "estrategia_4h": {
   "oro": {
-   "precio": 4024.6,
+   "precio": 4026.9,
    "atr_4h": 28.03,
    "setups": [
     {
@@ -13259,7 +13259,7 @@
    ]
   },
   "nq": {
-   "precio": 29118.0,
+   "precio": 29172.75,
    "atr_4h": 212.86,
    "setups": [
     {
@@ -13269,13 +13269,13 @@
      "stop": 29396.46,
      "objetivo": 28987.0,
      "rr": 2.21,
-     "estado": "esperando retesteo",
+     "estado": "en retesteo",
      "fuerza_ruptura_atr": 0.93,
      "ruptura": "2026-10-22 16:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-26T11:32:30Z"
+  "ts": "2026-10-26T11:47:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13326,7 +13326,6 @@
   }
  ],
  "noticias_vistas": [
-  "59c409581a",
   "abc544440a",
   "a1ad9062ae",
   "d8559f4b27",
@@ -14125,7 +14124,8 @@
   "665c595ccc",
   "3185e8725b",
   "b4ba7dae2e",
-  "c0e3be9a2e"
+  "c0e3be9a2e",
+  "49f854a733"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
