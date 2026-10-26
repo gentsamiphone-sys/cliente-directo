@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4033.9 · NQ 29518.0 · VIX 18.29",
-   "actualizado": "2026-10-26T18:22:33Z"
+   "ultimo_resultado": "Oro 4033.6 · NQ 29505.25 · VIX 18.27 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-26T18:27:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T18:22:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-26T18:27:36Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Panorama de la economía rural de Nueva Inglaterra"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4033.6 · NQ 29505.25 · VIX 18.27 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-26T18:27:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4033.9 · NQ 29518.0 · VIX 18.29",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4030.2 · NQ 29185.25 · VIX 19.45",
    "ts": "2026-10-26T05:12:30Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4029.1 · NQ 29170.0 · VIX 19.45 · 1 noticias nuevas",
-   "ts": "2026-10-26T05:07:37Z"
   }
  ],
  "briefs": [
@@ -10969,12 +10969,38 @@
   }
  },
  "en_vivo": {
-  "oro": 4033.9,
-  "nq": 29518.0,
-  "vix": 18.29,
-  "ts": "2026-10-26T18:22:33Z"
+  "oro": 4033.6,
+  "nq": 29505.25,
+  "vix": 18.27,
+  "ts": "2026-10-26T18:27:37Z"
  },
  "noticias": [
+  {
+   "titulo": "New England’s Rural Economy: An Overview",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYnVZQTF3eXRJaFlmd0l5S0o4Q2NwMmN6ZWRLSjVrQ29aanlIM3RiaWNsMllxcmhLaWZyNWkxaUF2MFp6NUIyZmIyUHcyT0VLNjZvUmtkX3Bid1dhTUxsaF9MTGhybklROF9jWnVrZDJWTHkzZ1dkTW5OWjNYNl9XLUNHVlF3UnRzdklYOHRSSzVIX0NjVUpvLWNSM2YzWWNxckhmQnk5c1RVLWpJU2ZmbG1XMm1zRHdlMlpmS1ZzSGxQdw?oc=5",
+   "ts": "2026-10-26T18:25:28Z",
+   "fuente": "Federal Reserve Bank of Boston",
+   "id": "6bcfac7267",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Panorama de la economía rural de Nueva Inglaterra",
+   "efecto": ""
+  },
+  {
+   "titulo": "Trump tariffs bring jobs as Barack Obama warns of rising costs",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10cENFTHZiWnppY3prUG90WjN0WGNCU0lpcWJCRGZvNmpEZVh5NHFsTVE2T3NqeXN2V3lCU1dLaDNpVkZubTJEZmNfNHZyNUduTFZHcDgxbWZTdU0?oc=5",
+   "ts": "2026-10-26T18:04:22Z",
+   "fuente": "Fox Business",
+   "id": "7bd2c56d4f",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Aranceles de Trump crean empleo mientras Obama advierte sobre mayores costos",
+   "efecto": ""
+  },
   {
    "titulo": "Xali Gold Submits FTA Application for Resource Confirmation and Exploration Drilling at the Pico Machay Gold Project",
    "link": "https://finance.yahoo.com/markets/commodities/articles/xali-gold-submits-fta-application-175237567.html?.tsrc=rss",
@@ -11808,26 +11834,6 @@
    "id": "cd9364be69",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Fanatics teams up with OpenAI for new AI-powered shopping suggestion feature",
-   "link": "https://www.cnbc.com/2026/10/26/fanatics-openai-codex-sports-merchandise-shopping.html",
-   "ts": "2026-10-26T13:02:37Z",
-   "fuente": "CNBC",
-   "id": "834dadee1c",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "BondBloxx XEMD Emerging Markets Bond ETF Surpasses $1 Billion in Assets, Celebrated at Cboe Closing Bell",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/bondbloxx-xemd-emerging-markets-bond-130000555.html?.tsrc=rss",
-   "ts": "2026-10-26T13:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "3fd8560a20",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12430,14 +12436,14 @@
     4034.4,
     4035.3,
     4033.0,
-    4034.0
+    4033.6
    ],
    [
-    1793038337,
-    4033.9,
-    4033.9,
-    4033.9,
-    4033.9
+    1793038653,
+    4033.7,
+    4033.7,
+    4033.7,
+    4033.7
    ]
   ],
   "nq": [
@@ -13026,15 +13032,15 @@
     1793037600,
     29522.75,
     29535.0,
-    29495.75,
-    29513.5
+    29492.25,
+    29507.75
    ],
    [
-    1793038351,
-    29518.0,
-    29518.0,
-    29518.0,
-    29518.0
+    1793038655,
+    29505.25,
+    29505.25,
+    29505.25,
+    29505.25
    ]
   ],
   "vix": [
@@ -13512,18 +13518,18 @@
     18.29,
     18.34,
     18.26,
-    18.29
+    18.27
    ],
    [
-    1793038051,
-    18.28,
-    18.28,
-    18.28,
-    18.28
+    1793038351,
+    18.27,
+    18.27,
+    18.27,
+    18.27
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-26T17:47:35Z",
+ "noticias_traducidas_ts": "2026-10-26T18:27:34Z",
  "ult_4h": 1793038656.338945,
  "estrategia_4h": {
   "oro": {
@@ -13617,8 +13623,6 @@
   }
  ],
  "noticias_vistas": [
-  "0f169d3094",
-  "7a432f3102",
   "c48d3a868a",
   "e01b6cb522",
   "248955b88a",
@@ -14416,7 +14420,9 @@
   "a6f25b7de0",
   "10c1bac030",
   "6a02f6f39f",
-  "7055843b9c"
+  "7055843b9c",
+  "6bcfac7267",
+  "7bd2c56d4f"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
