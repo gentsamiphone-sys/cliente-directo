@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "📍 NQ COMPRA: llegó a la zona 29150.0–29170.0 · Oro 4020.0 · NQ 29209.5 · VIX 19.04 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-26T13:42:36Z"
+   "ultimo_resultado": "✅ NQ COMPRA: CONFIRMÓ · Oro 4015.3 · NQ 29292.75 · VIX 18.95 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-26T13:47:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T13:42:35Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Fed Meets, Inflation Report Due Ahead of Midterms | National News | U.S. News"
+   "actualizado": "2026-10-26T13:47:34Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Apple stock has become an anti-AI trade. Here’s why"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "✅ NQ COMPRA: CONFIRMÓ · Oro 4015.3 · NQ 29292.75 · VIX 18.95 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-26T13:47:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "📍 NQ COMPRA: llegó a la zona 29150.0–29170.0 · Oro 4020.0 · NQ 29209.5 · VIX 19.04 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4001.7 · NQ 29192.25 · VIX 19.45 · 1 noticias nuevas",
    "ts": "2026-10-26T00:27:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4000.5 · NQ 29242.0 · VIX 19.45 · 2 noticias nuevas",
-   "ts": "2026-10-26T00:22:32Z"
   }
  ],
  "briefs": [
@@ -1100,7 +1100,7 @@
      "confluencias": "5",
      "cancelar": "Noticia de impacto a las 07:00 LV genera un desplome que rompe con cierre 1H los 29,000 puntos.",
      "motivo": "",
-     "vivo": "en_zona"
+     "vivo": "confirmada"
     }
    ],
    "mapas": {
@@ -10968,12 +10968,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4020.0,
-  "nq": 29209.5,
-  "vix": 19.04,
-  "ts": "2026-10-26T13:42:35Z"
+  "oro": 4015.3,
+  "nq": 29292.75,
+  "vix": 18.95,
+  "ts": "2026-10-26T13:47:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Apple stock has become an anti-AI trade. Here’s why",
+   "link": "https://www.cnbc.com/2026/10/26/apple-stock-has-become-an-anti-ai-trade-heres-why.html",
+   "ts": "2026-10-26T13:43:49Z",
+   "fuente": "CNBC",
+   "id": "b4ad22681d",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Trump lifts some Canadian tariffs to help Senator Susan Collins",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8zdy1TWVB1NDhrVWhwTEhtV09fLS1yUEtTWHVPYlctSFdXYXhzMWUtNndaZUdHTlJYNnVfMmNXSjB5YzBaQlNRMW5yMGczLW9vOXM5UzhLd3lNZkE?oc=5",
+   "ts": "2026-10-26T13:25:57Z",
+   "fuente": "Fox Business",
+   "id": "ca799c07fd",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "Fed Meets, Inflation Report Due Ahead of Midterms | National News | U.S. News",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPc2paV3hSZkdQcFpBMlJJeVNTV0ppVjhVSldDampyZGZGaThFODNFN2dfWmYtUnAxN0FJTzlYaGh2SWZHNWZsTUdrSlpETk1qbndMYXpCNVc2U3dhV0Jrd3NrLWxzV2JHTDJyV1lyZzRLUnRaNWw2ZkM1RDZVYzc3X1Z4WmswSE1nNWtDVTB0bVc2S1RPMFBlNkZMLXM4U2pUNWJ2eFoxSFRJSjVjNnBZ?oc=5",
@@ -11802,26 +11822,6 @@
    "impacto": "alto",
    "es": "Los rendimientos del Tesoro suben levemente; los bonos franceses superan",
    "efecto": "Sube tasas, presiona al NQ a la baja y fortalece el dólar."
-  },
-  {
-   "titulo": "Can GOP Rep. Brian Fitzpatrick, a moderate who's bucked Trump, keep his Pennsylvania swing seat?",
-   "link": "https://www.cnbc.com/2026/10/26/brian-fitzpatrick-bob-harvie-pennsylvania-senate-election.html",
-   "ts": "2026-10-26T10:00:01Z",
-   "fuente": "CNBC",
-   "id": "f3299792cb",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Zentek Provides Corporate Update on Nasdaq Listing",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQam5VR09xMGJrT3ZCZkMydHIwZzBPUGpzbmlVQmVzWXgxU3hKQ1ExUGFiSlNCQnlhRk1YZm9RSTdQSEw2blBxZjdqN003dDdDbW05aGdDazhDdkdZWUxBejdyTzVJcjQyUGJOaDFsSjFfMHZTQllzU3FVY1NoMVdTMWN3eTRRVG9RZkpneVpPMm55dlN2T3VGZXUzdDRTbkQ3aERsZ1hKVDhFQ0hlOGhCc1hfNA?oc=5",
-   "ts": "2026-10-26T10:00:00Z",
-   "fuente": "TradingView",
-   "id": "0449ebc0bd",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12388,15 +12388,15 @@
     1793019600,
     4029.0,
     4031.8,
-    4017.9,
-    4019.6
+    4014.8,
+    4017.1
    ],
    [
-    1793021554,
-    4020.0,
-    4020.0,
-    4020.0,
-    4020.0
+    1793021851,
+    4016.1,
+    4016.1,
+    4016.1,
+    4016.1
    ]
   ],
   "nq": [
@@ -12951,14 +12951,14 @@
     29283.25,
     29336.5,
     29165.25,
-    29219.5
+    29306.0
    ],
    [
-    1793021556,
-    29204.0,
-    29204.0,
-    29204.0,
-    29204.0
+    1793021853,
+    29293.5,
+    29293.5,
+    29293.5,
+    29293.5
    ]
   ],
   "vix": [
@@ -13400,15 +13400,15 @@
     1793019600,
     19.16,
     19.26,
-    19.01,
-    19.04
+    18.74,
+    18.78
    ],
    [
-    1793021101,
-    19.04,
-    19.04,
-    19.04,
-    19.04
+    1793021551,
+    18.84,
+    18.84,
+    18.84,
+    18.84
    ]
   ]
  },
@@ -13528,8 +13528,6 @@
   }
  ],
  "noticias_vistas": [
-  "834a4e6100",
-  "087f4ddc7f",
   "ba5df79088",
   "016d551a66",
   "0077c234b6",
@@ -14327,7 +14325,9 @@
   "4508f459f8",
   "8a9dfa0234",
   "b7609f7d83",
-  "5b053067c9"
+  "5b053067c9",
+  "b4ad22681d",
+  "ca799c07fd"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
