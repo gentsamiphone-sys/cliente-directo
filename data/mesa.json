@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4004.8 · NQ 29115.0 · VIX 19.45 · 1 noticias nuevas",
-   "actualizado": "2026-10-25T23:57:32Z"
+   "ultimo_resultado": "Oro 4008.9 · NQ 29121.75 · VIX 19.45 · 1 noticias nuevas",
+   "actualizado": "2026-10-26T00:02:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-25T23:57:32Z",
-   "ultimo_resultado": "1 titulares nuevos: Protestas por desigualdad y costo de vida se vuelven violentas en Francia"
+   "actualizado": "2026-10-26T00:02:37Z",
+   "ultimo_resultado": "1 titulares nuevos: Goldman Sachs slashes Kospi target to 9,000 but still sees over 60% upside"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4008.9 · NQ 29121.75 · VIX 19.45 · 1 noticias nuevas",
+   "ts": "2026-10-26T00:02:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4004.8 · NQ 29115.0 · VIX 19.45 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-25T10:32:40Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-25T10:27:28Z"
   }
  ],
  "briefs": [
@@ -10620,12 +10620,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4004.8,
-  "nq": 29115.0,
+  "oro": 4008.9,
+  "nq": 29121.75,
   "vix": 19.45,
-  "ts": "2026-10-25T23:57:32Z"
+  "ts": "2026-10-26T00:02:37Z"
  },
  "noticias": [
+  {
+   "titulo": "Goldman Sachs slashes Kospi target to 9,000 but still sees over 60% upside",
+   "link": "https://www.cnbc.com/2026/10/26/goldman-slashes-kospi-target-korea-stocks.html",
+   "ts": "2026-10-26T00:00:03Z",
+   "fuente": "CNBC",
+   "id": "22840a40a5",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "In pictures: Protests over inequality, rising living costs turn violent across France",
    "link": "https://www.cnbc.com/2026/10/25/france-protests-paris-cost-of-living-inequality.html",
@@ -11482,15 +11493,6 @@
    "id": "af886cb9c8",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "JPMorgan projects 10% annual Bitcoin returns over the next decade — but won't recommend buying it",
-   "link": "https://finance.yahoo.com/markets/crypto/articles/jpmorgan-projects-10-annual-bitcoin-110000061.html?.tsrc=rss",
-   "ts": "2026-10-25T11:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "d23ec34f39",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -12121,14 +12123,14 @@
     4014.1,
     4017.1,
     4003.1,
-    4006.3
+    4009.2
    ],
    [
-    1792972047,
-    4004.8,
-    4004.8,
-    4004.8,
-    4004.8
+    1792972354,
+    4008.9,
+    4008.9,
+    4008.9,
+    4008.9
    ]
   ],
   "nq": [
@@ -12745,15 +12747,15 @@
     1792969200,
     29283.0,
     29311.0,
-    29105.5,
-    29113.25
+    29094.0,
+    29118.0
    ],
    [
-    1792972051,
-    29115.0,
-    29115.0,
-    29115.0,
-    29115.0
+    1792972357,
+    29121.75,
+    29121.75,
+    29121.75,
+    29121.75
    ]
   ],
   "vix": [
@@ -13257,19 +13259,19 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-25T23:57:31Z",
- "ult_4h": 1792972051.9959586,
+ "ult_4h": 1792972957.8933208,
  "estrategia_4h": {
   "oro": {
-   "precio": 4014.7,
-   "atr_4h": 29.85,
+   "precio": 4008.9,
+   "atr_4h": 30.11,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4109.11,
+     "stop": 4109.27,
      "objetivo": 3989.1,
-     "rr": 5.7,
+     "rr": 5.65,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.98,
      "ruptura": "2026-10-22 08:00 UTC"
@@ -13278,33 +13280,33 @@
      "direccion": "VENTA",
      "nivel": 4130.1,
      "entrada": 4130.1,
-     "stop": 4148.01,
+     "stop": 4148.17,
      "objetivo": 3989.1,
-     "rr": 7.87,
+     "rr": 7.8,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.19,
+     "fuerza_ruptura_atr": 1.18,
      "ruptura": "2026-10-22 00:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29162.0,
-   "atr_4h": 220.55,
+   "precio": 29121.75,
+   "atr_4h": 222.25,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29268.75,
      "entrada": 29268.75,
-     "stop": 29401.08,
+     "stop": 29402.1,
      "objetivo": 28987.0,
-     "rr": 2.13,
-     "estado": "en retesteo",
+     "rr": 2.11,
+     "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.89,
      "ruptura": "2026-10-22 16:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-25T23:47:32Z"
+  "ts": "2026-10-26T00:02:38Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13355,7 +13357,6 @@
   }
  ],
  "noticias_vistas": [
-  "4f3605a83b",
   "4b42f35de3",
   "07776eb06b",
   "091818a85d",
@@ -14154,7 +14155,8 @@
   "406a70f914",
   "885486783d",
   "47a1fec0e1",
-  "281137f315"
+  "281137f315",
+  "22840a40a5"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
