@@ -39,13 +39,13 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4030.7 · NQ 29193.0 · VIX 19.18",
-   "actualizado": "2026-10-26T09:42:34Z"
+   "ultimo_resultado": "Oro 4030.9 · NQ 29200.5 · VIX 19.23",
+   "actualizado": "2026-10-26T09:47:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T09:42:33Z",
+   "actualizado": "2026-10-26T09:47:30Z",
    "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4030.9 · NQ 29200.5 · VIX 19.23",
+   "ts": "2026-10-26T09:47:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4030.7 · NQ 29193.0 · VIX 19.18",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: FOX 2's Roop Raj interviews President Trump ahead of Michigan rally",
    "ts": "2026-10-25T20:22:30Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Selling $300,000 of GLD Bought Five Years Ago Means a $162,713 Gain Taxed as a Collectible, Not a Stock",
-   "ts": "2026-10-25T20:17:31Z"
   }
  ],
  "briefs": [
@@ -10787,10 +10787,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4030.7,
-  "nq": 29193.0,
-  "vix": 19.18,
-  "ts": "2026-10-26T09:42:33Z"
+  "oro": 4030.9,
+  "nq": 29200.5,
+  "vix": 19.23,
+  "ts": "2026-10-26T09:47:30Z"
  },
  "noticias": [
   {
@@ -12209,16 +12209,16 @@
    [
     1793005200,
     4031.0,
-    4032.4,
+    4032.5,
     4027.1,
-    4030.7
+    4031.6
    ],
    [
-    1793007151,
-    4030.7,
-    4030.7,
-    4030.7,
-    4030.7
+    1793007430,
+    4030.9,
+    4030.9,
+    4030.9,
+    4030.9
    ]
   ],
   "nq": [
@@ -12745,14 +12745,14 @@
     29170.25,
     29214.0,
     29167.0,
-    29192.75
+    29199.0
    ],
    [
-    1793007153,
-    29193.0,
-    29193.0,
-    29193.0,
-    29193.0
+    1793007449,
+    29200.0,
+    29200.0,
+    29200.0,
+    29200.0
    ]
   ],
   "vix": [
@@ -13167,22 +13167,22 @@
     19.28,
     19.28,
     19.17,
-    19.17
+    19.2
    ],
    [
-    1793006851,
-    19.18,
-    19.18,
-    19.18,
-    19.18
+    1793007136,
+    19.23,
+    19.23,
+    19.23,
+    19.23
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-26T09:32:35Z",
- "ult_4h": 1793007156.687763,
+ "ult_4h": 1793008050.9644022,
  "estrategia_4h": {
   "oro": {
-   "precio": 4028.5,
+   "precio": 4030.9,
    "atr_4h": 28.03,
    "setups": [
     {
@@ -13210,23 +13210,34 @@
    ]
   },
   "nq": {
-   "precio": 29192.0,
-   "atr_4h": 210.88,
+   "precio": 29200.0,
+   "atr_4h": 211.59,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29268.75,
      "entrada": 29268.75,
-     "stop": 29395.28,
+     "stop": 29395.7,
      "objetivo": 28987.0,
-     "rr": 2.23,
+     "rr": 2.22,
      "estado": "en retesteo",
      "fuerza_ruptura_atr": 0.93,
      "ruptura": "2026-10-22 16:00 UTC"
+    },
+    {
+     "direccion": "VENTA",
+     "nivel": 29391.75,
+     "entrada": 29391.75,
+     "stop": 29518.7,
+     "objetivo": 28987.0,
+     "rr": 3.19,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 0.93,
+     "ruptura": "2026-10-22 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-26T09:32:36Z"
+  "ts": "2026-10-26T09:47:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
