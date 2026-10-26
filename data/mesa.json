@@ -39,13 +39,13 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4030.2 · NQ 29185.25 · VIX 19.45",
-   "actualizado": "2026-10-26T05:12:30Z"
+   "ultimo_resultado": "Oro 4029.4 · NQ 29187.25 · VIX 19.45",
+   "actualizado": "2026-10-26T05:17:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T05:12:30Z",
+   "actualizado": "2026-10-26T05:17:38Z",
    "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4029.4 · NQ 29187.25 · VIX 19.45",
+   "ts": "2026-10-26T05:17:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4030.2 · NQ 29185.25 · VIX 19.45",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-25T15:47:29Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "2 titulares nuevos: Davtyan takes vault gold as Nemour edges Zhang for beam title at Worlds",
-   "ts": "2026-10-25T15:42:33Z"
   }
  ],
  "briefs": [
@@ -10620,10 +10620,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4030.2,
-  "nq": 29185.25,
+  "oro": 4029.4,
+  "nq": 29187.25,
   "vix": 19.45,
-  "ts": "2026-10-26T05:12:30Z"
+  "ts": "2026-10-26T05:17:38Z"
  },
  "noticias": [
   {
@@ -11994,16 +11994,16 @@
    [
     1792990800,
     4029.5,
-    4030.8,
-    4029.2,
-    4030.7
+    4032.9,
+    4028.9,
+    4029.2
    ],
    [
-    1792990946,
-    4030.2,
-    4030.2,
-    4030.2,
-    4030.2
+    1792991252,
+    4029.4,
+    4029.4,
+    4029.4,
+    4029.4
    ]
   ],
   "nq": [
@@ -12481,14 +12481,14 @@
     29180.25,
     29207.75,
     29175.5,
-    29186.25
+    29188.0
    ],
    [
-    1792990945,
-    29185.25,
-    29185.25,
-    29185.25,
-    29185.25
+    1792991257,
+    29187.25,
+    29187.25,
+    29187.25,
+    29187.25
    ]
   ],
   "vix": [
@@ -12992,54 +12992,65 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-26T04:42:34Z",
- "ult_4h": 1792990959.2829967,
+ "ult_4h": 1792991858.871187,
  "estrategia_4h": {
   "oro": {
-   "precio": 4028.3,
-   "atr_4h": 28.84,
+   "precio": 4029.4,
+   "atr_4h": 29.33,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4108.51,
+     "stop": 4108.8,
      "objetivo": 3989.1,
-     "rr": 5.9,
+     "rr": 5.8,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.02,
+     "fuerza_ruptura_atr": 0.99,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 4130.1,
-     "entrada": 4130.1,
-     "stop": 4147.41,
+     "nivel": 4095.0,
+     "entrada": 4095.0,
+     "stop": 4112.6,
      "objetivo": 3989.1,
-     "rr": 8.15,
+     "rr": 6.02,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.23,
-     "ruptura": "2026-10-22 00:00 UTC"
+     "fuerza_ruptura_atr": 0.99,
+     "ruptura": "2026-10-22 08:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29162.25,
-   "atr_4h": 205.11,
+   "precio": 29187.25,
+   "atr_4h": 206.95,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29268.75,
      "entrada": 29268.75,
-     "stop": 29391.81,
+     "stop": 29392.92,
      "objetivo": 28987.0,
-     "rr": 2.29,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.96,
+     "rr": 2.27,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 0.95,
      "ruptura": "2026-10-22 16:00 UTC"
+    },
+    {
+     "direccion": "VENTA",
+     "nivel": 29391.75,
+     "entrada": 29391.75,
+     "stop": 29515.92,
+     "objetivo": 28987.0,
+     "rr": 3.26,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 0.95,
+     "ruptura": "2026-10-22 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-26T05:02:39Z"
+  "ts": "2026-10-26T05:17:39Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
