@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4028.4 · NQ 29084.0 · VIX 19.45",
-   "actualizado": "2026-10-26T03:42:34Z"
+   "ultimo_resultado": "Oro 4025.7 · NQ 29118.0 · VIX 19.45 · 1 noticias nuevas",
+   "actualizado": "2026-10-26T03:47:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T03:42:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-26T03:47:33Z",
+   "ultimo_resultado": "1 titulares nuevos: Componentes del índice Nasdaq China Industrials NTR"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4025.7 · NQ 29118.0 · VIX 19.45 · 1 noticias nuevas",
+   "ts": "2026-10-26T03:47:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4028.4 · NQ 29084.0 · VIX 19.45",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: Protestas en Francia contra la desigualdad derivan nuevamente en violencia",
    "ts": "2026-10-25T14:17:34Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-25T14:12:32Z"
   }
  ],
  "briefs": [
@@ -10620,10 +10620,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4028.4,
-  "nq": 29084.0,
+  "oro": 4025.7,
+  "nq": 29118.0,
   "vix": 19.45,
-  "ts": "2026-10-26T03:42:33Z"
+  "ts": "2026-10-26T03:47:33Z"
  },
  "noticias": [
   {
@@ -10682,6 +10682,17 @@
    "impacto": "bajo",
    "es": "Lula gana las elecciones presidenciales en Brasil; Bolsonaro rechaza admitir la derrota",
    "efecto": ""
+  },
+  {
+   "titulo": "Nasdaq China Industrials NTR In (^NQCN50N) Components",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xMmZzZkItQlpSbnhGZmVwVWpVRWlQOEdSa1NnOUt1cnRsbk1nUXhRMnVKdEdvek5DUlZseElMTnYxTUljaTJJV0k2MGc5dExybXdFcVJWSGZ4UWhPNmpoQ1JYNHF1dzdl?oc=5",
+   "ts": "2026-10-26T02:15:22Z",
+   "fuente": "Yahoo! Finance Canada",
+   "id": "c5ad13412f",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Componentes del índice Nasdaq China Industrials NTR",
+   "efecto": "Ruido de mercado, sin impacto institucional relevante."
   },
   {
    "titulo": "Brazil's Lula wins historic presidential election in runoff vote",
@@ -11480,17 +11491,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Is Americas Gold And Silver (TSX:USA) Still Mispriced After Record Silver Sales?",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa1RNaXlUZnlBWWhvWHFWa01KNzVUcWhNWWNhdFQ3NDF6ZzN1WF9LbUl1UkM1SkQ5cjQ1UVdwQXdIQ2hGNFd4MmhfczFuaDdmUmJ0Z2JzaTRMVEprTGRzMC1KeU5JZEpOdFVIbFFWZTNrN2JoMXJvYTNfcElfRzhIdEtQLXRrdGNBeUx0amw0RGhQTUpxMXFYSA?oc=5",
-   "ts": "2026-10-25T14:09:03Z",
-   "fuente": "Yahoo Finance",
-   "id": "facb0da1fc",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12131,11 +12131,11 @@
     4026.0
    ],
    [
-    1792985552,
-    4028.4,
-    4028.4,
-    4028.4,
-    4028.4
+    1792985827,
+    4025.7,
+    4025.7,
+    4025.7,
+    4025.7
    ]
   ],
   "nq": [
@@ -12760,14 +12760,14 @@
     29071.25,
     29138.25,
     29063.25,
-    29081.75
+    29110.5
    ],
    [
-    1792985550,
-    29084.0,
-    29084.0,
-    29084.0,
-    29084.0
+    1792985849,
+    29118.0,
+    29118.0,
+    29118.0,
+    29118.0
    ]
   ],
   "vix": [
@@ -13270,46 +13270,46 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-26T03:07:31Z",
- "ult_4h": 1792985553.1218412,
+ "noticias_traducidas_ts": "2026-10-26T03:47:32Z",
+ "ult_4h": 1792986453.5100098,
  "estrategia_4h": {
   "oro": {
-   "precio": 4027.2,
-   "atr_4h": 30.99,
+   "precio": 4025.7,
+   "atr_4h": 31.11,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4109.8,
+     "stop": 4109.86,
      "objetivo": 3989.1,
-     "rr": 5.49,
+     "rr": 5.47,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.95,
+     "fuerza_ruptura_atr": 0.93,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4130.1,
      "entrada": 4130.1,
-     "stop": 4148.7,
+     "stop": 4148.76,
      "objetivo": 3989.1,
-     "rr": 7.58,
+     "rr": 7.55,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.14,
+     "fuerza_ruptura_atr": 1.13,
      "ruptura": "2026-10-22 00:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29095.25,
-   "atr_4h": 216.32,
+   "precio": 29118.0,
+   "atr_4h": 216.09,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29268.75,
      "entrada": 29268.75,
-     "stop": 29398.54,
+     "stop": 29398.4,
      "objetivo": 28987.0,
      "rr": 2.17,
      "estado": "esperando retesteo",
@@ -13320,7 +13320,7 @@
      "direccion": "VENTA",
      "nivel": 29391.75,
      "entrada": 29391.75,
-     "stop": 29521.54,
+     "stop": 29521.4,
      "objetivo": 28987.0,
      "rr": 3.12,
      "estado": "esperando retesteo",
@@ -13329,7 +13329,7 @@
     }
    ]
   },
-  "ts": "2026-10-26T03:32:33Z"
+  "ts": "2026-10-26T03:47:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13380,7 +13380,6 @@
   }
  ],
  "noticias_vistas": [
-  "99c40291a1",
   "178f4e4aca",
   "2a6d226dd5",
   "310c495a11",
@@ -14179,7 +14178,8 @@
   "fd1e8a9188",
   "116901f7a5",
   "aa321aa697",
-  "1f2c5eafaf"
+  "1f2c5eafaf",
+  "c5ad13412f"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
