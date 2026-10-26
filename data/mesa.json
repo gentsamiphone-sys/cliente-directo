@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4020.5 · NQ 29120.5 · VIX — · 1 noticias nuevas",
-   "actualizado": "2026-10-26T07:12:30Z"
+   "ultimo_resultado": "Oro 4019.5 · NQ 29120.75 · VIX — · 2 noticias nuevas",
+   "actualizado": "2026-10-26T07:17:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T07:12:29Z",
-   "ultimo_resultado": "1 titulares nuevos: Global gold trading hub status attracts industry leaders to set up operations in Hong Kong"
+   "actualizado": "2026-10-26T07:17:33Z",
+   "ultimo_resultado": "2 titulares nuevos: El oro no ha olvidado las reglas, el mercado cambió el juego"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4019.5 · NQ 29120.75 · VIX — · 2 noticias nuevas",
+   "ts": "2026-10-26T07:17:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4020.5 · NQ 29120.5 · VIX — · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "historiador",
    "texto": "ORO: Sesgo histórico neutral: 3 de 9 años subió esta semana; 4 de 9 subió los 20 días siguientes; análogos 2018, 2022, 2021 · NQ: Sesgo histórico alcista: 5 de 10 años subió esta semana; 7 de 10 subió los 20 días siguientes; análogos 2021, 2024, 2025",
    "ts": "2026-10-25T18:03:10Z"
-  },
-  {
-   "agente": "historiador",
-   "texto": "Revisando qué pasó en esta misma fecha los últimos 10 años y buscando años parecidos…",
-   "ts": "2026-10-25T18:03:09Z"
   }
  ],
  "briefs": [
@@ -10787,11 +10787,24 @@
   }
  },
  "en_vivo": {
-  "oro": 4020.5,
-  "nq": 29120.5,
-  "ts": "2026-10-26T07:12:30Z"
+  "oro": 4019.5,
+  "nq": 29120.75,
+  "ts": "2026-10-26T07:17:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Gold Hasn’t Forgotten the Rules. The Market Changed the Game",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMnY3ejJVbmFENnk1S05KMWhGMGxnR3JwTjYxY0VkcmJhLUlkR1FQbF9MWVJBYkpUd016MUEwY1RMUDNPUEZMT0ZYVDZwSk9HSFh5R293OFc3MzZ4UG5EZGNjQnVabGhPWVJJNFdNX0VNTmdlN0JnYkZQcVJocmN0OFBFNEY?oc=5",
+   "ts": "2026-10-26T07:03:18Z",
+   "fuente": "The Dark Side Of The Boom",
+   "id": "fd29563cf1",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio",
+   "es": "El oro no ha olvidado las reglas, el mercado cambió el juego",
+   "efecto": "Genera cautela institucional ante cambios estructurales en la volatilidad."
+  },
   {
    "titulo": "The geopolitics of gold reserve storage",
    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94THpzVnhrU1d5TnRiajJFZkZSVXU1M0RVWXZkaE80Qy1xTjd5cnpWSXRUUkExajFUZThnYWRJR3RaaDZzNW93VTQ2bVJtelRod2ZtNS11R29UclotYjBjSjg5MjJDQ0U?oc=5",
@@ -10802,6 +10815,19 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Amateur prospector finds $150,000 gold nugget in outback",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQekttbkJJZmlqOXpkQ2JNdmc1RXhKOWJ3cUpjVW5fVzlUREE4V29Zd0FiV2lsN0tBNVEtb2t1QWE3OGlpRHBCT21IZVZpMXFEZUdmbVJlZ05xaU5vS0hIQzJtX2UtV0d3c19tTktRNFd6Z3p2Z1V0VEtzXzdYRUNFWHNMUXlQOExTcHc?oc=5",
+   "ts": "2026-10-26T06:55:36Z",
+   "fuente": "ABC News & Headlines – Australian Broadcasting Corporation",
+   "id": "44401c0dcc",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Aficionado encuentra pepita de oro de 150.000 dólares en Australia",
+   "efecto": "Anécdota local sin impacto en la macroeconomía ni en flujos."
   },
   {
    "titulo": "Bettors Expect a Democratic Midterm Win. How Gold, Bitcoin, and Stocks Could Feel It",
@@ -11645,30 +11671,6 @@
    "impacto": "bajo",
    "es": "Partido de hockey juvenil U13 (Replay)",
    "efecto": "Sin impacto en mercados financieros."
-  },
-  {
-   "titulo": "Retirees Will Get a 3.6% Social Security Raise in 2027 After Getting 2.8% This Year. Here's the Dollar Difference.",
-   "link": "https://www.fool.com/retirement/2026/10/25/retirees-will-get-a-36-social-security-cola-raise/?.tsrc=rss",
-   "ts": "2026-10-25T17:37:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "d565fe2128",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "bajo",
-   "es": "Jubilados recibirán un aumento del 3.6% en el Seguro Social en 2027",
-   "efecto": ""
-  },
-  {
-   "titulo": "Zou, Pease and Tang capture gold as Worlds conclude in Rotterdam",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV3FpbHZ0S2VnZ2Zmd3Q0RmlZazVpSlc0VGN2MjVWRWlPMHFKaTRWU2hiaHRHZWFkNVpwcWl6cWlTRnc0amlLRGJUb1czUHVMZVNONXM0WXFOMHI4RDk2blB3Q21sNE1Gbl8zZzJyTmN6ZUFpT2R4c0NkRVNRT0Y5d2RtaGdWY2czSzRlVmhDNEpKUGFGSWwyRHlTWUk5YzA3X1dQTUNjdllPSnA0WUdDemswTXdpaHUy?oc=5",
-   "ts": "2026-10-25T17:36:25Z",
-   "fuente": "International Gymnast Magazine Online",
-   "id": "eb09a9f1d0",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12185,16 +12187,16 @@
    [
     1792998000,
     4019.1,
-    4020.8,
+    4021.8,
     4018.3,
-    4020.4
+    4020.5
    ],
    [
-    1792998143,
-    4020.5,
-    4020.5,
-    4020.5,
-    4020.5
+    1792998440,
+    4019.5,
+    4019.5,
+    4019.5,
+    4019.5
    ]
   ],
   "nq": [
@@ -12707,14 +12709,14 @@
     29084.25,
     29128.5,
     29083.25,
-    29122.25
+    29116.75
    ],
    [
-    1792998147,
-    29120.25,
-    29120.25,
-    29120.25,
-    29120.25
+    1792998451,
+    29120.75,
+    29120.75,
+    29120.75,
+    29120.75
    ]
   ],
   "vix": [
@@ -13119,11 +13121,11 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-26T06:42:36Z",
- "ult_4h": 1792998154.625201,
+ "noticias_traducidas_ts": "2026-10-26T07:17:32Z",
+ "ult_4h": 1792999053.9637556,
  "estrategia_4h": {
   "oro": {
-   "precio": 4021.6,
+   "precio": 4019.5,
    "atr_4h": 29.33,
    "setups": [
     {
@@ -13151,7 +13153,7 @@
    ]
   },
   "nq": {
-   "precio": 29074.25,
+   "precio": 29120.75,
    "atr_4h": 209.93,
    "setups": [
     {
@@ -13178,7 +13180,7 @@
     }
    ]
   },
-  "ts": "2026-10-26T07:02:34Z"
+  "ts": "2026-10-26T07:17:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13229,8 +13231,6 @@
   }
  ],
  "noticias_vistas": [
-  "86f1ad1e43",
-  "34791ca1d2",
   "8b19c29402",
   "0e584768aa",
   "1c9bccc353",
@@ -14028,7 +14028,9 @@
   "3be4229fc7",
   "fbb2cfea44",
   "21a52e8c21",
-  "bce1d5798f"
+  "bce1d5798f",
+  "fd29563cf1",
+  "44401c0dcc"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
