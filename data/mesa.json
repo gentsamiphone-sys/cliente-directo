@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4025.6 · NQ 29158.25 · VIX 19.45",
-   "actualizado": "2026-10-26T06:12:35Z"
+   "ultimo_resultado": "Oro 4026.7 · NQ 29143.5 · VIX 19.45 · 2 noticias nuevas",
+   "actualizado": "2026-10-26T06:17:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T06:12:35Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-26T06:17:33Z",
+   "ultimo_resultado": "2 titulares nuevos: Defense tech investment boom sparks bubble warning as private equity pours in"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4026.7 · NQ 29143.5 · VIX 19.45 · 2 noticias nuevas",
+   "ts": "2026-10-26T06:17:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4025.6 · NQ 29158.25 · VIX 19.45",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: Lucas Pinheiro Braathen: How Olympic Gold Changed His Approach to Ski Racing",
    "ts": "2026-10-25T16:52:30Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Candidatos del 7º distrito discuten aranceles y el futuro de granjas familiares",
-   "ts": "2026-10-25T16:47:30Z"
   }
  ],
  "briefs": [
@@ -10620,12 +10620,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4025.6,
-  "nq": 29158.25,
+  "oro": 4026.7,
+  "nq": 29143.5,
   "vix": 19.45,
-  "ts": "2026-10-26T06:12:35Z"
+  "ts": "2026-10-26T06:17:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Defense tech investment boom sparks bubble warning as private equity pours in",
+   "link": "https://www.cnbc.com/2026/10/26/defense-tech-private-equity-investment.html",
+   "ts": "2026-10-26T06:00:01Z",
+   "fuente": "CNBC",
+   "id": "05411934f3",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Gold gains on softer oil prices; Fed decision in focus",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZml1aC0yS2NrLUloeEFPZnYyeExpazhPVExTT1BLcV9HZGxEZWFzcHFUMTJFbDhUTjgyaE5EbGRja1BRX0p2UzlDSmEzUUpzTG9ZT2xKZEZMczFvb1pzU2xrdXlNT0dDUXYtQnhoLUFpT09xQmF5Q25FQXdKNGpjOERVdTB1UTk4NkhSd2k3cUNBSTJRMVVsUlpSWQ?oc=5",
@@ -10639,6 +10648,17 @@
    "impacto": "alto",
    "es": "El oro sube por menores precios del petróleo; atención en la decisión de la Fed",
    "efecto": "Impulsa compras de oro como cobertura ante la expectativa de la Fed."
+  },
+  {
+   "titulo": "Resolution Minerals eyes larger Golden Gate gold play",
+   "link": "https://finance.yahoo.com/video/resolution-minerals-eyes-larger-golden-054822227.html?.tsrc=rss",
+   "ts": "2026-10-26T05:48:22Z",
+   "fuente": "Yahoo Finance",
+   "id": "c86a466995",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Oil slides over 2% as traders weigh Saudi attack risks, demand destruction",
@@ -11477,26 +11497,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "7th Congressional District candidates discuss tariffs, future of family farms at town hall",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRDVnWHRkNXhlVzhLeERERVNyV3U5WUNKeHFocml0MVRmVDRwNWI4LUp6VTM3aG92MUw4RHpXMTROREJEOERPdWtKbHc3dFFYVE5IMU1Ub0x2QmpoU3k2aU5KMEZDMFRyLUxUXy1DQ3JEdGdNTXBqUmp6eGlZYlR5OWlxUEJGbnk5N2VOU1drMHBSMW5SUFU4UTVXMTZUTzdQSGQ4MHJZRUlHZXRxS0ZtZ3FMX0JnbjV0Vjl5X1pJT1hpeDl5bGc?oc=5",
-   "ts": "2026-10-25T16:42:53Z",
-   "fuente": "Civic Media",
-   "id": "4008fe9bf7",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Candidatos del 7º distrito discuten aranceles y el futuro de granjas familiares",
-   "efecto": "Sin impacto en la sesión actual."
-  },
-  {
-   "titulo": "Venezuela's opposition leader Machado returns after months in exile, as doubts over democracy deepen",
-   "link": "https://www.cnbc.com/2026/10/25/venezuelas-machado-returns-from-exile-as-doubts-over-democracy-deepen.html",
-   "ts": "2026-10-25T16:19:03Z",
-   "fuente": "CNBC",
-   "id": "be0d0d0189",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -12013,16 +12013,16 @@
    [
     1792994400,
     4027.5,
-    4027.6,
-    4024.6,
-    4025.2
+    4028.5,
+    4023.8,
+    4025.1
    ],
    [
-    1792994553,
-    4025.6,
-    4025.6,
-    4025.6,
-    4025.6
+    1792994843,
+    4026.7,
+    4026.7,
+    4026.7,
+    4026.7
    ]
   ],
   "nq": [
@@ -12527,15 +12527,15 @@
     1792994400,
     29174.5,
     29186.0,
-    29156.0,
-    29160.25
+    29137.5,
+    29143.0
    ],
    [
-    1792994553,
-    29158.25,
-    29158.25,
-    29158.25,
-    29158.25
+    1792994851,
+    29143.5,
+    29143.5,
+    29143.5,
+    29143.5
    ]
   ],
   "vix": [
@@ -13039,10 +13039,10 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-26T06:02:32Z",
- "ult_4h": 1792994558.2058153,
+ "ult_4h": 1792995453.7714756,
  "estrategia_4h": {
   "oro": {
-   "precio": 4026.6,
+   "precio": 4026.7,
    "atr_4h": 29.13,
    "setups": [
     {
@@ -13070,7 +13070,7 @@
    ]
   },
   "nq": {
-   "precio": 29175.5,
+   "precio": 29143.5,
    "atr_4h": 208.0,
    "setups": [
     {
@@ -13080,13 +13080,13 @@
      "stop": 29393.55,
      "objetivo": 28987.0,
      "rr": 2.26,
-     "estado": "en retesteo",
+     "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.95,
      "ruptura": "2026-10-22 16:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-26T06:02:38Z"
+  "ts": "2026-10-26T06:17:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13137,8 +13137,6 @@
   }
  ],
  "noticias_vistas": [
-  "2390220585",
-  "fe096f53cd",
   "917666824f",
   "2737dd8851",
   "d1e719ade5",
@@ -13936,7 +13934,9 @@
   "e46f160914",
   "99762f0820",
   "f7f9115127",
-  "e384fe6010"
+  "e384fe6010",
+  "05411934f3",
+  "c86a466995"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
