@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4040.0 · NQ 29535.25 · VIX 18.28",
-   "actualizado": "2026-10-26T17:27:40Z"
+   "ultimo_resultado": "Oro 4042.0 · NQ 29531.75 · VIX 18.17 · 3 noticias nuevas",
+   "actualizado": "2026-10-26T17:32:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T17:27:39Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-26T17:32:36Z",
+   "ultimo_resultado": "3 titulares nuevos: Anthropic IPO live updates: S-1 notes risk of 'material revenue losses' from DOD, Trump actions"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4042.0 · NQ 29531.75 · VIX 18.17 · 3 noticias nuevas",
+   "ts": "2026-10-26T17:32:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4040.0 · NQ 29535.25 · VIX 18.28",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4021.2 · NQ 29115.25 · VIX 19.45",
    "ts": "2026-10-26T04:17:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4022.0 · NQ 29123.75 · VIX 19.45",
-   "ts": "2026-10-26T04:12:38Z"
   }
  ],
  "briefs": [
@@ -10969,12 +10969,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4040.0,
-  "nq": 29535.25,
-  "vix": 18.28,
-  "ts": "2026-10-26T17:27:39Z"
+  "oro": 4042.0,
+  "nq": 29531.75,
+  "vix": 18.17,
+  "ts": "2026-10-26T17:32:36Z"
  },
  "noticias": [
+  {
+   "titulo": "Anthropic IPO live updates: S-1 notes risk of 'material revenue losses' from DOD, Trump actions",
+   "link": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html",
+   "ts": "2026-10-26T17:32:04Z",
+   "fuente": "CNBC",
+   "id": "eabf63847d",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Lula wins Brazil runoff after prediction markets favored Bolsonaro",
+   "link": "https://www.cnbc.com/2026/10/26/lula-brazil-election-prediction-markets.html",
+   "ts": "2026-10-26T17:29:37Z",
+   "fuente": "CNBC",
+   "id": "eff245bb74",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Stocks making the biggest moves midday: Lockheed Martin, JetBlue, CoreWeave, Surgery Partners & more",
    "link": "https://www.cnbc.com/2026/10/26/stocks-making-the-biggest-moves-midday-lockheed-jetblue-coreweave-surgery-partners-more.html",
@@ -11005,6 +11023,15 @@
    "impacto": "bajo",
    "es": "Asociación de gas comprimido hace lobby sobre aranceles al acero y defensa",
    "efecto": ""
+  },
+  {
+   "titulo": "Cramer: I asked some tech insiders what to buy. They surprisingly said this drug stock",
+   "link": "https://www.cnbc.com/investingclub/2026/10/26/cramer-i-asked-tech-insiders-what-to-buy-they-said-eli-lilly.html",
+   "ts": "2026-10-26T17:00:14Z",
+   "fuente": "CNBC",
+   "id": "b90473d7a1",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "U.S. Mint unveils special $5 gold coin",
@@ -11797,35 +11824,6 @@
    "impacto": "bajo",
    "es": "Principales recomendaciones de analistas del lunes: Tesla, Nvidia, Apple y más",
    "efecto": ""
-  },
-  {
-   "titulo": "Caregiving for adult relatives can cost thousands. AARP survey finds support could matter to midterm voters",
-   "link": "https://www.cnbc.com/2026/10/26/family-caregiving-costs-2026-midterm-elections.html",
-   "ts": "2026-10-26T12:15:01Z",
-   "fuente": "CNBC",
-   "id": "ad6df8dd91",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "United States Antimony Announces Completion of New Technical Report on Nolan Creek, Alaska Gold/Antimony Deposit",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/united-states-antimony-announces-completion-121500127.html?.tsrc=rss",
-   "ts": "2026-10-26T12:15:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "864b529af6",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Canada trade deal 'very close' as PresidentTrump adjusts tariffs",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wNHdCN3NfWTJyQm1TX0psQXIwbXJBNE5iWFdWWmpaMFZ2WHlMaUl5c3REQk8zM1M2Q1kxOXRTcl96S3NNYTBJX2paaDFXSTJROUgxbXJteDFSNHc?oc=5",
-   "ts": "2026-10-26T12:09:46Z",
-   "fuente": "Fox Business",
-   "id": "c313727619",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -12421,14 +12419,14 @@
     4035.0,
     4044.0,
     4034.4,
-    4040.3
+    4042.0
    ],
    [
-    1793035054,
-    4040.0,
-    4040.0,
-    4040.0,
-    4040.0
+    1793035355,
+    4042.0,
+    4042.0,
+    4042.0,
+    4042.0
    ]
   ],
   "nq": [
@@ -13009,16 +13007,16 @@
    [
     1793034000,
     29478.0,
-    29546.5,
+    29556.0,
     29475.25,
-    29534.0
+    29533.0
    ],
    [
-    1793035059,
-    29535.25,
-    29535.25,
-    29535.25,
-    29535.25
+    1793035355,
+    29531.75,
+    29531.75,
+    29531.75,
+    29531.75
    ]
   ],
   "vix": [
@@ -13488,55 +13486,55 @@
     1793034000,
     18.29,
     18.34,
-    18.18,
-    18.31
+    18.13,
+    18.13
    ],
    [
-    1793034751,
-    18.28,
-    18.28,
-    18.28,
-    18.28
+    1793035051,
+    18.17,
+    18.17,
+    18.17,
+    18.17
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-26T17:12:35Z",
- "ult_4h": 1793035053.2560313,
+ "ult_4h": 1793035956.3861804,
  "estrategia_4h": {
   "oro": {
-   "precio": 4040.3,
-   "atr_4h": 25.61,
+   "precio": 4042.0,
+   "atr_4h": 25.76,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4106.56,
+     "stop": 4106.65,
      "objetivo": 3989.1,
-     "rr": 6.65,
+     "rr": 6.61,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.15,
+     "fuerza_ruptura_atr": 1.13,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4130.1,
      "entrada": 4130.1,
-     "stop": 4145.46,
+     "stop": 4145.55,
      "objetivo": 3989.1,
-     "rr": 9.18,
+     "rr": 9.12,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.38,
+     "fuerza_ruptura_atr": 1.37,
      "ruptura": "2026-10-22 00:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29505.5,
-   "atr_4h": 219.86,
+   "precio": 29531.75,
+   "atr_4h": 222.45,
    "setups": []
   },
-  "ts": "2026-10-26T17:17:33Z"
+  "ts": "2026-10-26T17:32:36Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13594,9 +13592,6 @@
   }
  ],
  "noticias_vistas": [
-  "622804be0b",
-  "799ef678aa",
-  "e86a6f7bcc",
   "5fd99c34e7",
   "31da9fa684",
   "0f7e76f611",
@@ -14393,7 +14388,10 @@
   "de928c719a",
   "5068eb0807",
   "15ed61cc1b",
-  "d750a935ad"
+  "d750a935ad",
+  "eabf63847d",
+  "eff245bb74",
+  "b90473d7a1"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
