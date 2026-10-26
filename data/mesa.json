@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4031.8 · NQ 29218.0 · VIX 19.24",
-   "actualizado": "2026-10-26T09:57:31Z"
+   "ultimo_resultado": "Oro 4031.5 · NQ 29220.5 · VIX 19.19 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-26T10:02:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T09:57:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-26T10:02:33Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Can GOP Rep. Brian Fitzpatrick, a moderate who's bucked Trump, keep his Pennsylvania swing seat?"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4031.5 · NQ 29220.5 · VIX 19.19 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-26T10:02:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4031.8 · NQ 29218.0 · VIX 19.24",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "2 titulares nuevos: Cinco partes de la estrategia de capital de TRX Gold, desde financiamiento hasta posibles recompras",
    "ts": "2026-10-25T20:37:34Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "2 titulares nuevos: Blanche defends Trump-ordered lawsuit over Alaska Senate election certification",
-   "ts": "2026-10-25T20:32:32Z"
   }
  ],
  "briefs": [
@@ -10787,12 +10787,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4031.8,
-  "nq": 29218.0,
-  "vix": 19.24,
-  "ts": "2026-10-26T09:57:31Z"
+  "oro": 4031.5,
+  "nq": 29220.5,
+  "vix": 19.19,
+  "ts": "2026-10-26T10:02:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Can GOP Rep. Brian Fitzpatrick, a moderate who's bucked Trump, keep his Pennsylvania swing seat?",
+   "link": "https://www.cnbc.com/2026/10/26/brian-fitzpatrick-bob-harvie-pennsylvania-senate-election.html",
+   "ts": "2026-10-26T10:00:01Z",
+   "fuente": "CNBC",
+   "id": "f3299792cb",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "How war, security and coalition math are shaping the Israeli election",
    "link": "https://www.cnbc.com/2026/10/26/israel-election-netanyahu-iran-gaza-palestine.html",
@@ -10921,6 +10930,15 @@
    "activos": [
     "nq"
    ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Trump's 50% tariffs on Canada take effect as Carney vows to retaliate - ABC News",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeDdPQV9hVEo4eEFTSlhrVkowRE9mVVlJQzJkZTJnOG1TTUl1ZWYtNG1CcWk2MWlmZG51eVd2S0NJT0pWeHphblVQWThQMTc2OVhDd3VQQXZRU0gteVYtQlkxa29fcVpVV3VKSkl6NVdRTWhvT0E5X3VfVVI0UlVVdnhoUERGMFpxWVR1YXFiSENWQ2lTUTFNLTBEcU1ObHlfTW9OZ01VcmLSAa4BQVVfeXFMT0NxQThhZzl5Q29YNEt0Nl9FV3NrYzRMa1JXX0Vmd2pROGhvVHM3TFJ5NGRrOWVnY0FCOS1LM25MdVdINW8tNjZSS2NDSmhZbUZ4cFdOMWU4N1RObVVpNG43YTJRelY2R21VRDVjcm51cVk0b0ZISVdmNWFFcTdVOFJRdEZLamtrZXg0eER4cW9RbEt2R0lONGxjSXpYZ3RZbXRxbk9iaWdmREw0YVZB?oc=5",
+   "ts": "2026-10-26T08:04:39Z",
+   "fuente": "Breaking News, Latest News and Videos",
+   "id": "41a6b4490e",
+   "activos": [],
    "impacto": "alto"
   },
   {
@@ -11650,28 +11668,6 @@
    "id": "bf7a2ed5ed",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Serbia’s strongman leader Vucic concedes defeat to student-led movement in seismic political shift",
-   "link": "https://www.cnbc.com/2026/10/25/serbia-leader-vucic-concedes-defeat-to-student-led-movement.html",
-   "ts": "2026-10-25T21:42:33Z",
-   "fuente": "CNBC",
-   "id": "f8a063622c",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "El líder de Serbia, Vucic, admite la derrota ante un movimiento estudiantil",
-   "efecto": ""
-  },
-  {
-   "titulo": "Gold Dec 26 (GC=F) Stock Price, News, Quote & History",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCLWFGVVBHUGF5Q2c0b1o5UTFKT0M1RWtfQS14aDl1SDdPR2t6eHFLQnkzbWU3MFhGTHQ1Mk1tWmpjVk9zYWpvMGRKVUhmeFk0NFhoUg?oc=5",
-   "ts": "2026-10-25T21:31:49Z",
-   "fuente": "Yahoo! Finance Canada",
-   "id": "5193955722",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12214,11 +12210,11 @@
     4031.8
    ],
    [
-    1793008038,
-    4031.8,
-    4031.8,
-    4031.8,
-    4031.8
+    1793008349,
+    4031.5,
+    4031.5,
+    4031.5,
+    4031.5
    ]
   ],
   "nq": [
@@ -12745,14 +12741,14 @@
     29170.25,
     29227.75,
     29167.0,
-    29223.25
+    29217.75
    ],
    [
-    1793008047,
-    29218.0,
-    29218.0,
-    29218.0,
-    29218.0
+    1793008349,
+    29220.5,
+    29220.5,
+    29220.5,
+    29220.5
    ]
   ],
   "vix": [
@@ -13167,22 +13163,22 @@
     19.28,
     19.28,
     19.17,
-    19.24
+    19.18
    ],
    [
-    1793007736,
-    19.24,
-    19.24,
-    19.24,
-    19.24
+    1793008051,
+    19.19,
+    19.19,
+    19.19,
+    19.19
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-26T09:32:35Z",
- "ult_4h": 1793008050.9644022,
+ "ult_4h": 1793008954.1085603,
  "estrategia_4h": {
   "oro": {
-   "precio": 4030.9,
+   "precio": 4031.5,
    "atr_4h": 28.03,
    "setups": [
     {
@@ -13210,34 +13206,23 @@
    ]
   },
   "nq": {
-   "precio": 29200.0,
-   "atr_4h": 211.59,
+   "precio": 29220.5,
+   "atr_4h": 212.57,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29268.75,
      "entrada": 29268.75,
-     "stop": 29395.7,
+     "stop": 29396.29,
      "objetivo": 28987.0,
-     "rr": 2.22,
+     "rr": 2.21,
      "estado": "en retesteo",
      "fuerza_ruptura_atr": 0.93,
      "ruptura": "2026-10-22 16:00 UTC"
-    },
-    {
-     "direccion": "VENTA",
-     "nivel": 29391.75,
-     "entrada": 29391.75,
-     "stop": 29518.7,
-     "objetivo": 28987.0,
-     "rr": 3.19,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.93,
-     "ruptura": "2026-10-22 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-26T09:47:31Z"
+  "ts": "2026-10-26T10:02:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13288,8 +13273,6 @@
   }
  ],
  "noticias_vistas": [
-  "63aa561ef8",
-  "67f4e25a61",
   "791979ede8",
   "e47ffe6990",
   "f109e2f613",
@@ -14087,7 +14070,9 @@
   "c9c81bd346",
   "8792438875",
   "9754157ba5",
-  "d925e31976"
+  "d925e31976",
+  "f3299792cb",
+  "41a6b4490e"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
