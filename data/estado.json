@@ -4893,9 +4893,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando restaurantes y comida sin página web cerca de Decatur Blvd…",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-10-26T19:02:39Z"
+   "actualizado": "2026-10-26T19:02:41Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -4923,6 +4923,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando restaurantes y comida sin página web cerca de Decatur Blvd…",
+   "ts": "2026-10-26T19:02:41Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 218 textos listos para mandar",
@@ -6417,11 +6422,6 @@
    "agente": "gerente",
    "texto": "Contando cómo vamos hoy…",
    "ts": "2026-10-24T14:37:35Z"
-  },
-  {
-   "agente": "seguimiento",
-   "texto": "Terminó su turno: 0 respuestas nuevas, 0 bajas, 0 seguimientos",
-   "ts": "2026-10-24T14:12:44Z"
   }
  ],
  "reportes": {
