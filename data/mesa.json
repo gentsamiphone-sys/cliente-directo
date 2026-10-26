@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4030.6 · NQ 29316.5 · VIX 19.12 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-26T12:32:34Z"
+   "ultimo_resultado": "Oro 4034.6 · NQ 29335.5 · VIX 19.1 · 3 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-26T12:37:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T12:32:33Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: US Stock Futures Rise Ahead of Federal Reserve Decision and Major Technology Earnings"
+   "actualizado": "2026-10-26T12:37:32Z",
+   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: Can the courts end Trump's illegal tariffs?"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4034.6 · NQ 29335.5 · VIX 19.1 · 3 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-26T12:37:33Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "Orden enviada a TradersPost: COMPRA 1 MNQ límite 29150.0 (borde de la zona) · SL 29020.0 (130.0 pts, riesgo $260) · TP 29594.75 · R:R 3.4",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4009.3 · NQ 29259.0 · VIX 19.45",
    "ts": "2026-10-25T23:17:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4015.6 · NQ 29284.75 · VIX 19.45",
-   "ts": "2026-10-25T23:12:33Z"
   }
  ],
  "briefs": [
@@ -1099,7 +1099,8 @@
      "rr": "2.35",
      "confluencias": "5",
      "cancelar": "Noticia de impacto a las 07:00 LV genera un desplome que rompe con cierre 1H los 29,000 puntos.",
-     "motivo": ""
+     "motivo": "",
+     "vivo": "esperando"
     }
    ],
    "mapas": {
@@ -10967,12 +10968,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4030.6,
-  "nq": 29316.5,
-  "vix": 19.12,
-  "ts": "2026-10-26T12:32:34Z"
+  "oro": 4034.6,
+  "nq": 29335.5,
+  "vix": 19.1,
+  "ts": "2026-10-26T12:37:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Can the courts end Trump's illegal tariffs?",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMjNwUHNBMGtjNmtnR2xjbTZVMmtWeTRVM3pFc0dlbVZtQk1aejhDSzNHcEhURmZkQlIzUjVtM1E2SzFxS2lFZHlKN2hjUWY5Ti1iNGQ1SklqQ2w2ZmFDa1Mtemg3YlFjckJLVTdxbjQwZnB3WkdZZDZ2OW5FdXNBMGJiRFNBMkMwQVBTQXFScWdjUQ?oc=5",
+   "ts": "2026-10-26T12:33:57Z",
+   "fuente": "Peterson Institute for International Economics",
+   "id": "da27481786",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "Trump administration to exempt Canadian products used by Maine farmers from tariffs amid close Senate race",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcklVdGQyVzRUcEx6WmhhdkpQWlFLVENXckZMSzNtT1RzRHpXUnB3clhma2o3YllMLVROQUVxQkppdjA0cUZ1N1BaZXlaTy1vWHh1elVQSDgwbEhuTXg4TTV6VmNFcFZMcFJIN3otM2s1MGNVcjZoZGJkcmJXSC1tUi1JcEc1WEstVWx4cThfd2pfVEE?oc=5",
@@ -11280,6 +11290,15 @@
     "dolar"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "AEM to Report Q3 Earnings: What's in the Offing for the Stock?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/aem-report-q3-earnings-whats-112300173.html?.tsrc=rss",
+   "ts": "2026-10-26T11:23:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "5a059137e5",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Gold Holds Near Three-Month Low as Investors Await Federal Reserve Decision",
@@ -11809,26 +11828,6 @@
    "id": "a0ce9774f7",
    "activos": [
     "oro",
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Halo Minerals receives mining permit for Playa Verde project in Chile",
-   "link": "https://www.mining-technology.com/news/halo-minerals-mining-permit-playa-verde/?.tsrc=rss",
-   "ts": "2026-10-26T08:51:26Z",
-   "fuente": "Yahoo Finance",
-   "id": "135de8fe23",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Neocloud stocks fall as Elon Musk says more than 200 of them face 'guppy-level death'",
-   "link": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html",
-   "ts": "2026-10-26T08:42:51Z",
-   "fuente": "CNBC",
-   "id": "6b784bf069",
-   "activos": [
     "nq"
    ],
    "impacto": "medio"
@@ -12390,16 +12389,16 @@
    [
     1793016000,
     4029.8,
-    4034.7,
+    4035.3,
     4028.5,
-    4031.2
+    4035.1
    ],
    [
-    1793017349,
-    4030.6,
-    4030.6,
-    4030.6,
-    4030.6
+    1793017645,
+    4034.6,
+    4034.6,
+    4034.6,
+    4034.6
    ]
   ],
   "nq": [
@@ -12945,16 +12944,16 @@
    [
     1793016000,
     29264.0,
-    29343.0,
+    29354.0,
     29257.0,
-    29316.0
+    29333.5
    ],
    [
-    1793017351,
-    29316.5,
-    29316.5,
-    29316.5,
-    29316.5
+    1793017651,
+    29335.5,
+    29335.5,
+    29335.5,
+    29335.5
    ]
   ],
   "vix": [
@@ -13390,42 +13389,42 @@
     19.23,
     19.24,
     19.05,
-    19.12
+    19.09
    ],
    [
-    1793017051,
-    19.12,
-    19.12,
-    19.12,
-    19.12
+    1793017336,
+    19.1,
+    19.1,
+    19.1,
+    19.1
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-26T12:17:32Z",
- "ult_4h": 1793017352.8341124,
+ "ult_4h": 1793018252.8812299,
  "estrategia_4h": {
   "oro": {
-   "precio": 4031.1,
-   "atr_4h": 25.8,
+   "precio": 4034.7,
+   "atr_4h": 25.84,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4106.68,
+     "stop": 4106.71,
      "objetivo": 3989.1,
-     "rr": 6.6,
+     "rr": 6.58,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.14,
+     "fuerza_ruptura_atr": 1.12,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4130.1,
      "entrada": 4130.1,
-     "stop": 4145.58,
+     "stop": 4145.61,
      "objetivo": 3989.1,
-     "rr": 9.11,
+     "rr": 9.09,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.37,
      "ruptura": "2026-10-22 00:00 UTC"
@@ -13433,34 +13432,23 @@
    ]
   },
   "nq": {
-   "precio": 29317.25,
-   "atr_4h": 214.62,
+   "precio": 29335.5,
+   "atr_4h": 215.18,
    "setups": [
-    {
-     "direccion": "VENTA",
-     "nivel": 29268.75,
-     "entrada": 29268.75,
-     "stop": 29397.53,
-     "objetivo": 28987.0,
-     "rr": 2.19,
-     "estado": "en retesteo",
-     "fuerza_ruptura_atr": 0.92,
-     "ruptura": "2026-10-22 16:00 UTC"
-    },
     {
      "direccion": "VENTA",
      "nivel": 29391.75,
      "entrada": 29391.75,
-     "stop": 29520.53,
+     "stop": 29520.86,
      "objetivo": 28987.0,
-     "rr": 3.14,
+     "rr": 3.13,
      "estado": "en retesteo",
      "fuerza_ruptura_atr": 0.92,
      "ruptura": "2026-10-22 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-26T12:33:20Z"
+  "ts": "2026-10-26T12:37:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13517,9 +13505,6 @@
   }
  ],
  "noticias_vistas": [
-  "31fb70bdb1",
-  "d80eccb39a",
-  "225c18a709",
   "1991a0c8b0",
   "6353aa139e",
   "1e1d0b17ac",
@@ -14316,7 +14301,10 @@
   "8677b4f3a7",
   "75172a7798",
   "47c2923990",
-  "97338d9dd7"
+  "97338d9dd7",
+  "da27481786",
+  "5a059137e5",
+  "4e949e4a43"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
