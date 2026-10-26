@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4000.1 · NQ 29092.0 · VIX 19.45 · 2 noticias nuevas",
-   "actualizado": "2026-10-26T01:52:35Z"
+   "ultimo_resultado": "Oro 3997.6 · NQ 29074.75 · VIX 19.45 · 1 noticias nuevas",
+   "actualizado": "2026-10-26T01:57:29Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T01:52:35Z",
-   "ultimo_resultado": "2 titulares nuevos: Marco Odermatt wins fifth gold at World Juniors | Original Series - Athletes, Exclusive Videos & More"
+   "actualizado": "2026-10-26T01:57:29Z",
+   "ultimo_resultado": "1 titulares nuevos: Brazil's Lula wins historic presidential election in runoff vote"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3997.6 · NQ 29074.75 · VIX 19.45 · 1 noticias nuevas",
+   "ts": "2026-10-26T01:57:29Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4000.1 · NQ 29092.0 · VIX 19.45 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-25T12:27:34Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Perspectivas de Eldorado Gold para 2027: Dos nuevas minas y 40% de crecimiento en producción",
-   "ts": "2026-10-25T12:22:30Z"
   }
  ],
  "briefs": [
@@ -10620,12 +10620,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4000.1,
-  "nq": 29092.0,
+  "oro": 3997.6,
+  "nq": 29074.75,
   "vix": 19.45,
-  "ts": "2026-10-26T01:52:35Z"
+  "ts": "2026-10-26T01:57:29Z"
  },
  "noticias": [
+  {
+   "titulo": "Brazil's Lula wins historic presidential election in runoff vote",
+   "link": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+   "ts": "2026-10-26T01:55:10Z",
+   "fuente": "CNBC",
+   "id": "d20c094999",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Gold Flat, Hovering Below $4,000/Oz",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOEUzczY1OVI5N1h6YUVnSVdzUE54dnFaeUNDcEhEWEx5Z0RzS0ZKRUEtVDhldjItNjRTUVQ2UjVqZVdfeXJtMUhVUmMyTWY1M3ljcjBSOGdhVmo5SEZ2VGV2RFBHSnhwOVdXWDYxMVBjWE9NdFFNZTlkNHFPelluaGxib0lRQzJfS2RsMnJoWV9RY25w?oc=5",
@@ -11480,15 +11489,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Iamgold’s 2027 Outlook: Côté Just Ran Above Nameplate for the First Time, With a 20-Million-Ounce Mine Plan Weeks Away",
-   "link": "https://www.fool.com/coverage/moneyball/2026/10/25/iamgold-s-2027-outlook-cote-just-ran-above-nameplate-for-the-first-time-with-a-20-million-ounce-mine-plan-weeks-away/?.tsrc=rss",
-   "ts": "2026-10-25T13:20:02Z",
-   "fuente": "Yahoo Finance",
-   "id": "da8cdb175e",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -12126,14 +12126,14 @@
     3998.9,
     4013.9,
     3990.9,
-    4000.3
+    3997.4
    ],
    [
-    1792978953,
-    4000.5,
-    4000.5,
-    4000.5,
-    4000.5
+    1792979248,
+    3997.6,
+    3997.6,
+    3997.6,
+    3997.6
    ]
   ],
   "nq": [
@@ -12758,14 +12758,14 @@
     29098.75,
     29154.5,
     29027.5,
-    29075.75
+    29080.0
    ],
    [
-    1792978952,
-    29092.0,
-    29092.0,
-    29092.0,
-    29092.0
+    1792979248,
+    29074.75,
+    29074.75,
+    29074.75,
+    29074.75
    ]
   ],
   "vix": [
@@ -13378,7 +13378,6 @@
   }
  ],
  "noticias_vistas": [
-  "bb76a91cb7",
   "1e7b2617be",
   "49340f03ed",
   "22cbc99c31",
@@ -14177,7 +14176,8 @@
   "845502faf2",
   "5bb7b8cc69",
   "b6ebe529f7",
-  "ccea6066ce"
+  "ccea6066ce",
+  "d20c094999"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
