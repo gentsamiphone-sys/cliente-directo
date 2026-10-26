@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4029.4 · NQ 29187.25 · VIX 19.45",
-   "actualizado": "2026-10-26T05:17:39Z"
+   "ultimo_resultado": "Oro 4027.6 · NQ 29182.75 · VIX 19.45 · 2 noticias nuevas",
+   "actualizado": "2026-10-26T05:22:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T05:17:38Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-26T05:22:33Z",
+   "ultimo_resultado": "2 titulares nuevos: El petróleo cae más del 2% por menor riesgo de ataque saudí y menor demanda"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4027.6 · NQ 29182.75 · VIX 19.45 · 2 noticias nuevas",
+   "ts": "2026-10-26T05:22:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4029.4 · NQ 29187.25 · VIX 19.45",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-25T15:52:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-25T15:47:29Z"
   }
  ],
  "briefs": [
@@ -10620,12 +10620,26 @@
   }
  },
  "en_vivo": {
-  "oro": 4029.4,
-  "nq": 29187.25,
+  "oro": 4027.6,
+  "nq": 29182.75,
   "vix": 19.45,
-  "ts": "2026-10-26T05:17:38Z"
+  "ts": "2026-10-26T05:22:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Oil slides over 2% as traders weigh Saudi attack risks, demand destruction",
+   "link": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html",
+   "ts": "2026-10-26T05:18:01Z",
+   "fuente": "CNBC",
+   "id": "45bf7ea5ea",
+   "activos": [
+    "dolar",
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "El petróleo cae más del 2% por menor riesgo de ataque saudí y menor demanda",
+   "efecto": "Reduce presiones inflacionarias, aliviando ligeramente al NQ y afectando al dólar."
+  },
   {
    "titulo": "SoftBank reportedly plans $50 billion tech investment in aspiring 'AI nation' Malaysia",
    "link": "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html",
@@ -10654,6 +10668,19 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Former CIA officer pleads guilty in gold bars case, admits to defrauding government of nearly $200M - ABC News",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeU5ockhEYTd6cGNVVVQ5V1hjRDZ3MjFmaFJxbEhnMkdJVTVfUXdEeEpvMEM1cE8zZE15YVVhVlZqdlZ5dHRlal9jRlFsWVBxVmFmTU9lR0pLa1lIWkZsdFFoMDNzbi1NajYydGZXa0ZUNml3T2xUZ0d0U2Q0YjQ4WkttNTZuZTdZVGtFWnF5UHlmalZOU0VnblY1QlY2ZnfSAaQBQVVfeXFMTWRHa1RtTnh0RVdSRklXeXE4Mmk2bDk5M2ZPS1E2cTNPQ0YwNm8yd0FfV3RfYXJQZURpSzhoZXNqdi13cDhKVmZpcnpyQnRyTFk4bDQ0UmlHc01lWmRjV3VDVTJJUzd0MjhuLXFvRVhCNXFkdWNHdmRweDR5NXUwbFVxYkNkTE41VnJFRzFTQ3N2UXVsU29OYmVRRzZ4bFplR0ZzUFo?oc=5",
+   "ts": "2026-10-26T03:40:22Z",
+   "fuente": "Breaking News, Latest News and Videos",
+   "id": "e46f160914",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Exoficial de la CIA se declara culpable en caso de soborno con lingotes de oro por 200M",
+   "efecto": "Ruido judicial sin impacto macroeconómico relevante para la cotización institucional."
   },
   {
    "titulo": "Gold steadies near 3-mth low as elevated oil prices weigh; Fed meet eyed",
@@ -11467,31 +11494,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Trump started a trade war with Canada. GOP candidates became casualties.",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWFBHZlRreWd4WG1mTlk4ZTVjME5pUkJFTVdDaGxRNldybXRjVlFVNkRsbHJqdFhoWmVIbWUzX21WZVFKellXamZVaExlVXl5UUpsTG5ITVNYR2psSmFHNHY0NV9jX055Qi1LS2lVNE96TnEycVRvM0c4cjNzM19YSmFMR1NsT0lQb2Y5blh5T1cwUEZBTF9ic0VocnBBQ3BVUTNuX01ST2JkX054MVV4TGg0TlVFZ0M5Z0E?oc=5",
-   "ts": "2026-10-25T15:01:31Z",
-   "fuente": "The Washington Post",
-   "id": "c3d733fcbd",
-   "activos": [
-    "dolar",
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Trump inició una guerra comercial con Canadá y los candidatos del GOP sufrieron bajas.",
-   "efecto": "Genera incertidumbre política y comercial, presionando ligeramente al dólar."
-  },
-  {
-   "titulo": "The NBA Owner Who Struck Gold in the WNBA",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPemxsaUxneFNfU3BseDJ5VEdhVjJxNS10RFVqQVlHVTZNcUZFVG5Kb2RTV3ZieURqRzF5NkZtRUFHWUFfaXFIcndtSDlDWHRkVXRQUE04QldCM0Mza2k3eHhxQ0NYV2l6VmlueDl2R3RHMURORW5LYU02WXFzMDZhTzZYVmQ1Y3ByVEZYNWkycmJZZw?oc=5",
-   "ts": "2026-10-25T15:00:00Z",
-   "fuente": "WSJ",
-   "id": "53152775b7",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -11995,15 +11997,15 @@
     1792990800,
     4029.5,
     4032.9,
-    4028.9,
-    4029.2
+    4027.2,
+    4028.1
    ],
    [
-    1792991252,
-    4029.4,
-    4029.4,
-    4029.4,
-    4029.4
+    1792991548,
+    4027.6,
+    4027.6,
+    4027.6,
+    4027.6
    ]
   ],
   "nq": [
@@ -12481,14 +12483,14 @@
     29180.25,
     29207.75,
     29175.5,
-    29188.0
+    29198.5
    ],
    [
-    1792991257,
-    29187.25,
-    29187.25,
-    29187.25,
-    29187.25
+    1792991553,
+    29185.0,
+    29185.0,
+    29185.0,
+    29185.0
    ]
   ],
   "vix": [
@@ -12991,7 +12993,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-26T04:42:34Z",
+ "noticias_traducidas_ts": "2026-10-26T05:22:32Z",
  "ult_4h": 1792991858.871187,
  "estrategia_4h": {
   "oro": {
@@ -13101,8 +13103,6 @@
   }
  ],
  "noticias_vistas": [
-  "0f68863109",
-  "f9f5fd8707",
   "059b7644e7",
   "2756d8eb6a",
   "0a7cefe022",
@@ -13900,7 +13900,9 @@
   "b54b6d5333",
   "30d192ad05",
   "741fbed8d6",
-  "4d9a6d3233"
+  "4d9a6d3233",
+  "45bf7ea5ea",
+  "e46f160914"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
