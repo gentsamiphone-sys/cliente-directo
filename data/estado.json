@@ -4958,10 +4958,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ultimo_resultado": "0 negocios nuevos de talleres cerca de Spring Mountain Rd",
-   "actualizado": "2026-10-26T23:06:21Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
+   "actualizado": "2026-10-26T23:06:26Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -4989,6 +4989,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
+   "ts": "2026-10-26T23:06:26Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -6483,11 +6488,6 @@
    "agente": "disenador",
    "texto": "Armando la muestra de Gordon Ramsey's Fish n Chips…",
    "ts": "2026-10-24T19:29:30Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Muestra lista de Cereal Killerz y su mensaje para mandar por texto.",
-   "ts": "2026-10-24T19:29:26Z"
   }
  ],
  "reportes": {
