@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4008.2 · NQ 29117.75 · VIX 19.45",
-   "actualizado": "2026-10-26T02:27:31Z"
+   "ultimo_resultado": "Oro 4005.3 · NQ 29113.25 · VIX 19.45 · 1 noticias nuevas",
+   "actualizado": "2026-10-26T02:32:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T02:27:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-26T02:32:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Three Rivers Hospital receives gold award for rural stroke care"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4005.3 · NQ 29113.25 · VIX 19.45 · 1 noticias nuevas",
+   "ts": "2026-10-26T02:32:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4008.2 · NQ 29117.75 · VIX 19.45",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: Is a stock slowdown coming? Vanguard’s new alert has retirees spooked — here are simple ways to shield your portfolio.",
    "ts": "2026-10-25T13:02:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-25T12:57:33Z"
   }
  ],
  "briefs": [
@@ -10620,12 +10620,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4008.2,
-  "nq": 29117.75,
+  "oro": 4005.3,
+  "nq": 29113.25,
   "vix": 19.45,
-  "ts": "2026-10-26T02:27:31Z"
+  "ts": "2026-10-26T02:32:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Three Rivers Hospital receives gold award for rural stroke care",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONXU0aVRlem4zVkMwWEdBcmVnaldtNHYwd1Rkd0Y2UjdsWHhRYkFRNWQxVkg3U0JNUm9JSkR4VmlCdE9RemlYbjU3X0pfcTlsaUVFbl8tWDgza3lod2xDSFhaZVowaGNqb2JHWnR4aWVGbGh0cldjVGFaSHhmN3NpTjZIb2ozTUFIcFFiM2lDcW43SmtpVW5VaGdrQV9yNkJHV0FfZQ?oc=5",
+   "ts": "2026-10-26T02:23:45Z",
+   "fuente": "Quad City Herald",
+   "id": "06b572e36e",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Brazil's Lula wins historic presidential election; Bolsonaro reportedly refuses to concede",
    "link": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
@@ -11478,17 +11489,6 @@
    "id": "94a046f87a",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "New Found Gold's Queensway PEA Doubles NPV",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZXZ5UE5ZcmQ1QzBSc3JxNUVUV0VHd1ktV3IyeWQ0RTNxSjJ5amZkM251Z2xMWFlvSzQ2WXUzekpMSmVHWEZYUEU1STVUZW5GVVhWaExocUMxYVJEelFpT0FsVkxIcC1UWWFLMlU4bnRhQU9Zak9NZXUyU3VrTHNJY2hR?oc=5",
-   "ts": "2026-10-25T13:28:56Z",
-   "fuente": "Crux Investor",
-   "id": "42e328f26a",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12126,14 +12126,14 @@
     4002.3,
     4009.0,
     3999.9,
-    4007.6
+    4004.1
    ],
    [
-    1792981047,
-    4008.2,
-    4008.2,
-    4008.2,
-    4008.2
+    1792981343,
+    4005.3,
+    4005.3,
+    4005.3,
+    4005.3
    ]
   ],
   "nq": [
@@ -12757,15 +12757,15 @@
     1792980000,
     29149.5,
     29166.5,
-    29109.5,
-    29113.0
+    29102.25,
+    29108.0
    ],
    [
-    1792981050,
-    29117.75,
-    29117.75,
-    29117.75,
-    29117.75
+    1792981350,
+    29110.75,
+    29110.75,
+    29110.75,
+    29110.75
    ]
   ],
   "vix": [
@@ -13269,10 +13269,10 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-26T02:17:31Z",
- "ult_4h": 1792981052.7701619,
+ "ult_4h": 1792981952.423978,
  "estrategia_4h": {
   "oro": {
-   "precio": 4004.9,
+   "precio": 4005.3,
    "atr_4h": 29.96,
    "setups": [
     {
@@ -13283,7 +13283,7 @@
      "objetivo": 3989.1,
      "rr": 5.68,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.98,
+     "fuerza_ruptura_atr": 0.97,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
@@ -13300,14 +13300,14 @@
    ]
   },
   "nq": {
-   "precio": 29155.0,
-   "atr_4h": 216.32,
+   "precio": 29110.75,
+   "atr_4h": 216.09,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29268.75,
      "entrada": 29268.75,
-     "stop": 29398.54,
+     "stop": 29398.4,
      "objetivo": 28987.0,
      "rr": 2.17,
      "estado": "esperando retesteo",
@@ -13318,7 +13318,7 @@
      "direccion": "VENTA",
      "nivel": 29391.75,
      "entrada": 29391.75,
-     "stop": 29521.54,
+     "stop": 29521.4,
      "objetivo": 28987.0,
      "rr": 3.12,
      "estado": "esperando retesteo",
@@ -13327,7 +13327,7 @@
     }
    ]
   },
-  "ts": "2026-10-26T02:17:33Z"
+  "ts": "2026-10-26T02:32:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13378,7 +13378,6 @@
   }
  ],
  "noticias_vistas": [
-  "49340f03ed",
   "22cbc99c31",
   "bb6e6ed24b",
   "41d8987d20",
@@ -14177,7 +14176,8 @@
   "b6ebe529f7",
   "ccea6066ce",
   "d20c094999",
-  "64d4f821da"
+  "64d4f821da",
+  "06b572e36e"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
