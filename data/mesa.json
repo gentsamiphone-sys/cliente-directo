@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4037.9 · NQ 29517.25 · VIX 17.91",
-   "actualizado": "2026-10-26T15:27:37Z"
+   "ultimo_resultado": "Oro 4035.8 · NQ 29546.75 · VIX 17.86 · 2 noticias nuevas",
+   "actualizado": "2026-10-26T15:33:19Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T15:27:36Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-26T15:33:18Z",
+   "ultimo_resultado": "2 titulares nuevos: Juez dictamina que el Departamento de Justicia de Trump despidió ilegalmente a la fiscal de Epstein, Maurene Comey."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4035.8 · NQ 29546.75 · VIX 17.86 · 2 noticias nuevas",
+   "ts": "2026-10-26T15:33:19Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4037.9 · NQ 29517.25 · VIX 17.91",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4002.5 · NQ 29154.0 · VIX 19.45",
    "ts": "2026-10-26T02:12:38Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3997.6 · NQ 29167.5 · VIX 19.45",
-   "ts": "2026-10-26T02:07:30Z"
   }
  ],
  "briefs": [
@@ -10969,12 +10969,36 @@
   }
  },
  "en_vivo": {
-  "oro": 4037.9,
-  "nq": 29517.25,
-  "vix": 17.91,
-  "ts": "2026-10-26T15:27:36Z"
+  "oro": 4035.8,
+  "nq": 29546.75,
+  "vix": 17.86,
+  "ts": "2026-10-26T15:33:19Z"
  },
  "noticias": [
+  {
+   "titulo": "Trump DOJ unlawfully fired Epstein prosecutor Maurene Comey, judge rules",
+   "link": "https://www.cnbc.com/2026/10/26/maurene-comey-firing-unlawful-trump.html",
+   "ts": "2026-10-26T15:28:02Z",
+   "fuente": "CNBC",
+   "id": "0f077a869b",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Juez dictamina que el Departamento de Justicia de Trump despidió ilegalmente a la fiscal de Epstein, Maurene Comey.",
+   "efecto": ""
+  },
+  {
+   "titulo": "SpaceX's AI infrastructure plans are not yet fully priced in, analysts say",
+   "link": "https://www.cnbc.com/2026/10/26/spacexs-ai-infrastructure-plans-are-not-fully-priced-in-analysts-say.html",
+   "ts": "2026-10-26T15:26:20Z",
+   "fuente": "CNBC",
+   "id": "40630e01fd",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Los planes de infraestructura de IA de SpaceX aún no están totalmente descontados, según analistas.",
+   "efecto": "Impulsa al NQ al alza por optimismo en tecnología e IA."
+  },
   {
    "titulo": "Josh Brown says Meta is near crucial levels. How he's trading the tech giant",
    "link": "https://www.cnbc.com/2026/10/26/josh-brown-says-meta-is-near-crucial-levels-how-hes-trading-the-tech-giant.html",
@@ -11788,29 +11812,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Gold prices today, Monday, October 26, 2026: Gold opens at 3-month lows at the start of Fed week",
-   "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-october-26-2026-gold-opens-at-3-month-lows-at-the-start-of-fed-week-111704766.html?.tsrc=rss",
-   "ts": "2026-10-26T11:17:04Z",
-   "fuente": "Yahoo Finance",
-   "id": "9a81bf79ad",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Gold medal bouts set as we head into the finals of the World Boxing U19 Championships in Budva, Montenegro",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVEtJSHJFMGJGanF5d0NaV0I2NWg2VHlGa0Iwd3hsNzQ3ZkM1NDVOYjZ6cWNwVjhDS0ZQUWxQdzY1elhSLXNGOUNKRXdfOG9RRmFjczI4YW05NlJLSHdRczNnazdMRURoRnUyM1RnTERPU3VXT2hWV1dZSDFRTzYzcU5QeVBLbHJSZzNZaUZTRDhoRFJVUlpiSk1sTUlGRWtrQms1U3hrdkp5NGVmaFpkTkE1SmF1NlFMVWI2NlJsY2RyNGFlVUsyZ2VR?oc=5",
-   "ts": "2026-10-26T11:15:09Z",
-   "fuente": "World Boxing",
-   "id": "5c2125d680",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12392,14 +12393,14 @@
     4037.6,
     4040.3,
     4034.6,
-    4036.5
+    4035.9
    ],
    [
-    1793027855,
-    4037.9,
-    4037.9,
-    4037.9,
-    4037.9
+    1793028196,
+    4035.7,
+    4035.7,
+    4035.7,
+    4035.7
    ]
   ],
   "nq": [
@@ -12968,14 +12969,14 @@
     29522.25,
     29572.0,
     29506.75,
-    29522.5
+    29553.5
    ],
    [
-    1793027855,
-    29517.25,
-    29517.25,
-    29517.25,
-    29517.25
+    1793028199,
+    29546.75,
+    29546.75,
+    29546.75,
+    29546.75
    ]
   ],
   "vix": [
@@ -13432,22 +13433,22 @@
     17.95,
     17.95,
     17.85,
-    17.91
+    17.86
    ],
    [
-    1793027551,
-    17.91,
-    17.91,
-    17.91,
-    17.91
+    1793027896,
+    17.86,
+    17.86,
+    17.86,
+    17.86
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-26T14:57:32Z",
- "ult_4h": 1793027852.8770885,
+ "noticias_traducidas_ts": "2026-10-26T15:32:39Z",
+ "ult_4h": 1793028799.283401,
  "estrategia_4h": {
   "oro": {
-   "precio": 4037.7,
+   "precio": 4035.7,
    "atr_4h": 28.15,
    "setups": [
     {
@@ -13475,11 +13476,11 @@
    ]
   },
   "nq": {
-   "precio": 29541.25,
+   "precio": 29546.75,
    "atr_4h": 237.3,
    "setups": []
   },
-  "ts": "2026-10-26T15:17:33Z"
+  "ts": "2026-10-26T15:33:19Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13536,8 +13537,6 @@
   }
  ],
  "noticias_vistas": [
-  "863253af3f",
-  "ba54f1215a",
   "282493e4f6",
   "4c8f8136e3",
   "66fc36dd52",
@@ -14335,7 +14334,9 @@
   "6a8d770fda",
   "ef01beb2d8",
   "9c969edadb",
-  "28fbeb727e"
+  "28fbeb727e",
+  "0f077a869b",
+  "40630e01fd"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
