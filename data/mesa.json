@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4030.9 · NQ 29228.0 · VIX 19.19 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-26T10:07:38Z"
+   "ultimo_resultado": "Oro 4028.8 · NQ 29200.25 · VIX 19.17 · 5 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-26T10:12:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T10:07:38Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Los rendimientos del Tesoro suben levemente; los bonos franceses superan"
+   "actualizado": "2026-10-26T10:12:32Z",
+   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: Fed to hit pause on rate hikes, but maybe not for long"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4028.8 · NQ 29200.25 · VIX 19.17 · 5 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-26T10:12:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4030.9 · NQ 29228.0 · VIX 19.19 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-25T20:47:37Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-25T20:42:33Z"
   }
  ],
  "briefs": [
@@ -10787,12 +10787,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4030.9,
-  "nq": 29228.0,
-  "vix": 19.19,
-  "ts": "2026-10-26T10:07:38Z"
+  "oro": 4028.8,
+  "nq": 29200.25,
+  "vix": 19.17,
+  "ts": "2026-10-26T10:12:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Fed to hit pause on rate hikes, but maybe not for long",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMFBxcEVKT0RxYVJKYWZGOUlGd0VJTE5vN2lNTnozcm92NTV5Vzg3aVdhT2p3eGpoVlZlZ19aaGtPa0s2VzBsS2xuamdkTnU4X2dhNGRzYjlaVTFpVzdLSkg4TDRlQThPdnZOandxOE1wV0o0WDFCcDgtbEZIQmR0a3BFOWdIM1dPZGdmQQ?oc=5",
+   "ts": "2026-10-26T10:06:09Z",
+   "fuente": "Reuters",
+   "id": "bf0b5cc1c3",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Treasury Yields Turn Slightly Higher, French Bonds Outperform",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWk45NGlORUMtZ2RfUVBDZ2lTODZTT3lyaGpqZTJXd3hzb1NBNTdPVnlNc0p2QlI5cFZSUjNRYzhoY2E2cFlvNWNBNldoaE82X0N2bkpNZlctVnY0M1NCVnVoc2tBYThRYzlYMDVERTJiQ0JKX1dYMVU2RDdzTUVycUNCTUpEMkpCSHIzbGJvNkVKNzZYS0JYN3MwVmtRQjRFTmNFLXQzVlVTS3ZqQVI0d3ZGbw?oc=5",
@@ -10816,6 +10827,48 @@
    "id": "f3299792cb",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "North Atlantic Critical Metals Corp. Announces Commencement of Trading on the TSX Venture Exchange",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/north-atlantic-critical-metals-corp-100000656.html?.tsrc=rss",
+   "ts": "2026-10-26T10:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "b492743316",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Blackrock Silver Awards Civil Engineering Works to NewFields for Permit Designs on the Tonopah West Project",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/blackrock-silver-awards-civil-engineering-100000716.html?.tsrc=rss",
+   "ts": "2026-10-26T10:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "77cfc0dcbf",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Snowline Gold Appoints Randy Smallwood to Board of Directors",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/snowline-gold-appoints-randy-smallwood-100000364.html?.tsrc=rss",
+   "ts": "2026-10-26T10:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "26ad3a49d7",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "The Gold Rush and the Making of Modern America",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSWdjTkllNUhUZldZWlBLWklzQ0xGRkNESThNaFFORm1nQVJxYVZmWmFJM0hFRTc2YXFlREJZVEZKdjMzTG5HWEQwdTl1bjdwaXJrZDduUkRjamt3VXJMdzV4STB2Y3NKQWxFVm9fdHp5SnVWRXhTRzFRQXc0Y2lBWHh0VXRORjhGbld0LXhTSQ?oc=5",
+   "ts": "2026-10-26T10:00:00Z",
+   "fuente": "The New Yorker",
+   "id": "55fc095cb3",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "I’ve Seen This Nasdaq Chart Before",
@@ -11623,63 +11676,6 @@
    "id": "47a1fec0e1",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Brazil's Lula takes early lead in presidential runoff vote",
-   "link": "https://www.cnbc.com/2026/10/25/brazil-lula-bolsonaro-presidential-election-runoff.html",
-   "ts": "2026-10-25T22:53:01Z",
-   "fuente": "CNBC",
-   "id": "885486783d",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Lula toma ventaja inicial en la segunda vuelta presidencial de Brasil",
-   "efecto": "Sin impacto directo en oro, NQ o dólar."
-  },
-  {
-   "titulo": "US to remove some Canadian tariffs ahead of elections",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNEh4a3NwdC1ZSV9GejZQMkhOUkE2VE9XMmJuNmFWejFPZ1h0SDJDM2dZbXdCa0EtXzZxdDFyd2FYMk1XQkZxY0RIRl9mRWZ0TU5RZVprN1pDS2h3YWVmV1JsTWdneGVQdWFWLU01YzVDU3RTSU1NWmRWTmhFbE1uOEMxSQ?oc=5",
-   "ts": "2026-10-25T22:29:00Z",
-   "fuente": "Semafor",
-   "id": "ccca781d1b",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Stock futures climb as traders try to recover from the S&P 500's losing week: Live updates",
-   "link": "https://www.cnbc.com/2026/10/25/stock-market-today-live-updates.html",
-   "ts": "2026-10-25T22:12:38Z",
-   "fuente": "CNBC",
-   "id": "70c246faa1",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Los futuros de acciones suben mientras los operadores intentan recuperar las pérdidas del S&P 500",
-   "efecto": "Impulsa al NQ al alza por apetito de riesgo y rebote técnico."
-  },
-  {
-   "titulo": "Men’s Fencing Closes Out Nikki Franke Classic as Heathcock Secures Gold",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRzZlQUZjbnJYWURZWWYzZVpqbE9KTHU3RVlYMXdkcXdlY2p6RXlLZEdKUlkxRHFzcDVKeEd6NDJNOHdMaTE1emR1STFjOWRuN25EVlZXZGpWZHFuZ256X01iQ2wtdXk2X2hqT25pQWsxNTJRRTJfMGhCMzFYM19RLWVJdFVDeTJaTm1jV1JSRzk1c2NZT2s1Mjlfa2phSGZxd295d25DVlVGSTVDek54amQ0NS1HWXds?oc=5",
-   "ts": "2026-10-25T22:10:08Z",
-   "fuente": "University of Pennsylvania Athletics",
-   "id": "9801c877fa",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Esgrima masculina cierra la clásica Nikki Franke con oro para Heathcock",
-   "efecto": "Sin impacto en los mercados financieros institucionales."
-  },
-  {
-   "titulo": "The Bet Eldorado Gold Holders Made",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/bet-eldorado-gold-holders-made-220839520.html?.tsrc=rss",
-   "ts": "2026-10-25T22:08:39Z",
-   "fuente": "Yahoo Finance",
-   "id": "1461440a3f",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "La apuesta que hicieron los tenedores de Eldorado Gold",
-   "efecto": "Ruido corporativo menor sin efecto directo en el oro spot."
   }
  ],
  "eventos_avisados": [
@@ -12219,14 +12215,21 @@
     4031.0,
     4034.3,
     4027.1,
-    4031.2
+    4031.1
    ],
    [
-    1793008648,
-    4030.9,
-    4030.9,
-    4030.9,
-    4030.9
+    1793008800,
+    4031.0,
+    4031.5,
+    4028.4,
+    4029.5
+   ],
+   [
+    1793008948,
+    4028.6,
+    4028.6,
+    4028.6,
+    4028.6
    ]
   ],
   "nq": [
@@ -12753,14 +12756,21 @@
     29170.25,
     29231.75,
     29167.0,
-    29230.75
+    29221.75
    ],
    [
-    1793008656,
-    29228.0,
-    29228.0,
-    29228.0,
-    29228.0
+    1793008800,
+    29222.5,
+    29222.5,
+    29197.0,
+    29203.0
+   ],
+   [
+    1793008951,
+    29199.25,
+    29199.25,
+    29199.25,
+    29199.25
    ]
   ],
   "vix": [
@@ -13175,14 +13185,14 @@
     19.28,
     19.28,
     19.17,
-    19.19
+    19.18
    ],
    [
-    1793008351,
-    19.19,
-    19.19,
-    19.19,
-    19.19
+    1793008636,
+    19.17,
+    19.17,
+    19.17,
+    19.17
    ]
   ]
  },
@@ -13285,11 +13295,6 @@
   }
  ],
  "noticias_vistas": [
-  "8496fec29a",
-  "dcb45387d5",
-  "0587c6b626",
-  "471f6bac6b",
-  "c066e6cb3a",
   "ccc4d6ec3c",
   "46e2befec8",
   "ac2c5190ef",
@@ -14084,7 +14089,12 @@
   "41a6b4490e",
   "9b51634b99",
   "0e054ee8ad",
-  "889e13e4ae"
+  "889e13e4ae",
+  "bf0b5cc1c3",
+  "b492743316",
+  "77cfc0dcbf",
+  "26ad3a49d7",
+  "55fc095cb3"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
