@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4025.9 · NQ 29449.5 · VIX 18.5",
-   "actualizado": "2026-10-26T20:17:40Z"
+   "ultimo_resultado": "Oro 4026.8 · NQ 29444.5 · VIX 18.49 · 1 noticias nuevas",
+   "actualizado": "2026-10-26T20:22:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T20:17:38Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-26T20:22:41Z",
+   "ultimo_resultado": "1 titulares nuevos: Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date October 15, 2026"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4026.8 · NQ 29444.5 · VIX 18.49 · 1 noticias nuevas",
+   "ts": "2026-10-26T20:22:41Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4025.9 · NQ 29449.5 · VIX 18.5",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +104,206 contratos.",
    "ts": "2026-10-26T06:32:55Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-10-26T06:32:54Z"
   }
  ],
  "briefs": [
@@ -10969,10 +10969,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4025.9,
-  "nq": 29449.5,
-  "vix": 18.5,
-  "ts": "2026-10-26T20:17:39Z"
+  "oro": 4026.8,
+  "nq": 29444.5,
+  "vix": 18.49,
+  "ts": "2026-10-26T20:22:41Z"
  },
  "noticias": [
   {
@@ -10983,6 +10983,17 @@
    "id": "86312fd583",
    "activos": [
     "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date October 15, 2026",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTUpVNHBsLUcwbGswRFR0TXpUQVlYUEZHa1lLRWx5VUs3SGpHX0pZcHBrWVFGRTEtQ211aHYtdWE0WHh1T0hMS1FTM3NkaFp3ZmJYa3RQVmxkamIwVkJyckVDVmtrVll6T0w1cno2eHE5a25KUG9Ub0pqSjZLcjY2WlB1WG5Ncnc1Y096Nlo4OVd3VnhIcDR5Sno4NHdBM1NPTnNxSnMwZlpzZlJaWVh0bEZPWlJ1eDFYcTBYdHp4Zw?oc=5",
+   "ts": "2026-10-26T20:05:00Z",
+   "fuente": "Nasdaq",
+   "id": "272eb2a469",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -11832,17 +11843,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Mortgage rates above 7% are the 'new normal'—here's why",
-   "link": "https://www.cnbc.com/make-it/2026/10/26/mortgage-rates-above-7percent-are-the-new-normalheres-why.html",
-   "ts": "2026-10-26T14:00:01Z",
-   "fuente": "CNBC",
-   "id": "c999054836",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12459,14 +12459,14 @@
     4026.9,
     4027.4,
     4025.1,
-    4026.1
+    4026.6
    ],
    [
-    1793045251,
-    4025.9,
-    4025.9,
-    4025.9,
-    4025.9
+    1793045553,
+    4026.8,
+    4026.8,
+    4026.8,
+    4026.8
    ]
   ],
   "nq": [
@@ -13070,14 +13070,14 @@
     29440.0,
     29452.0,
     29426.5,
-    29444.75
+    29449.5
    ],
    [
-    1793045258,
-    29449.5,
-    29449.5,
-    29449.5,
-    29449.5
+    1793045560,
+    29444.5,
+    29444.5,
+    29444.5,
+    29444.5
    ]
   ],
   "vix": [
@@ -13568,8 +13568,8 @@
     1793044800,
     18.5,
     18.54,
-    18.5,
-    18.5
+    18.47,
+    18.49
    ]
   ]
  },
@@ -13679,7 +13679,6 @@
   }
  ],
  "noticias_vistas": [
-  "56cda438fe",
   "922f8a3baa",
   "82c42700b3",
   "c9ac8c278e",
@@ -14478,7 +14477,8 @@
   "8d399c8d5b",
   "170cef93d8",
   "cb230ce953",
-  "86312fd583"
+  "86312fd583",
+  "272eb2a469"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
