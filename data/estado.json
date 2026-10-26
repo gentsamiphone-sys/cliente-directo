@@ -4892,10 +4892,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ultimo_resultado": "0 negocios nuevos de talleres cerca de Boulder Hwy",
-   "actualizado": "2026-10-26T17:06:29Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
+   "actualizado": "2026-10-26T17:06:34Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -4923,6 +4923,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
+   "ts": "2026-10-26T17:06:34Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -6417,11 +6422,6 @@
    "agente": "disenador",
    "texto": "Armando la muestra de Gran Caffè Milano…",
    "ts": "2026-10-24T13:31:23Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Muestra lista de Honolulu Cookie Co y su mensaje para mandar por texto.",
-   "ts": "2026-10-24T13:31:07Z"
   }
  ],
  "reportes": {
