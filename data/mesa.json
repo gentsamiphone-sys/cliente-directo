@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4037.3 · NQ 29497.0 · VIX 18.25 · 1 noticias nuevas",
-   "actualizado": "2026-10-26T17:42:33Z"
+   "ultimo_resultado": "Oro 4036.3 · NQ 29485.75 · VIX 18.32 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-26T17:47:40Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T17:42:32Z",
-   "ultimo_resultado": "1 titulares nuevos: The arc of Trump: How the president lost the coalition that put him in the White House"
+   "actualizado": "2026-10-26T17:47:38Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Anthropic prevé invertir al menos 542 mil millones de dólares en centros de datos"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4036.3 · NQ 29485.75 · VIX 18.32 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-26T17:47:40Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4037.3 · NQ 29497.0 · VIX 18.25 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4022.4 · NQ 29138.75 · VIX 19.45",
    "ts": "2026-10-26T04:32:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4023.7 · NQ 29139.5 · VIX 19.45",
-   "ts": "2026-10-26T04:27:31Z"
   }
  ],
  "briefs": [
@@ -10969,12 +10969,36 @@
   }
  },
  "en_vivo": {
-  "oro": 4037.3,
-  "nq": 29497.0,
-  "vix": 18.25,
-  "ts": "2026-10-26T17:42:33Z"
+  "oro": 4036.3,
+  "nq": 29485.75,
+  "vix": 18.32,
+  "ts": "2026-10-26T17:47:39Z"
  },
  "noticias": [
+  {
+   "titulo": "Anthropic IPO live updates: AI lab expects to spend at least $542B on data centers in coming years",
+   "link": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html",
+   "ts": "2026-10-26T17:46:38Z",
+   "fuente": "CNBC",
+   "id": "22bcb53533",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Anthropic prevé invertir al menos 542 mil millones de dólares en centros de datos",
+   "efecto": "Impulsa al sector tecnológico y al NQ por expectativas de crecimiento IA."
+  },
+  {
+   "titulo": "Buying America at a discount, this timberland REIT is on sale",
+   "link": "https://www.cnbc.com/2026/10/26/rayonier-stock-timberland-reit-nav-discount.html",
+   "ts": "2026-10-26T17:46:30Z",
+   "fuente": "CNBC",
+   "id": "e36ceb8b13",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "REIT de madera cotiza con descuento en EE. UU.",
+   "efecto": "Es ruido de mercado; sin impacto relevante en activos macro."
+  },
   {
    "titulo": "The arc of Trump: How the president lost the coalition that put him in the White House",
    "link": "https://www.cnbc.com/2026/10/26/trump-approval-midterms-cnbc-survey.html",
@@ -11802,26 +11826,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "TSX futures climb as oil falls, gold advances amid hopes for cooling Iran tensions",
-   "link": "https://finance.yahoo.com/markets/articles/tsx-futures-climb-oil-falls-122609963.html?.tsrc=rss",
-   "ts": "2026-10-26T12:26:09Z",
-   "fuente": "Yahoo Finance",
-   "id": "0adee22fe7",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Trump administration to exempt Canadian products used by Maine farmers from tariffs amid close Senate race",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcklVdGQyVzRUcEx6WmhhdkpQWlFLVENXckZMSzNtT1RzRHpXUnB3clhma2o3YllMLVROQUVxQkppdjA0cUZ1N1BaZXlaTy1vWHh1elVQSDgwbEhuTXg4TTV6VmNFcFZMcFJIN3otM2s1MGNVcjZoZGJkcmJXSC1tUi1JcEc1WEstVWx4cThfd2pfVEE?oc=5",
-   "ts": "2026-10-26T12:20:45Z",
-   "fuente": "WBUR",
-   "id": "dd4642242b",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -12417,14 +12421,14 @@
     4035.0,
     4044.0,
     4034.4,
-    4037.5
+    4035.4
    ],
    [
-    1793035951,
-    4037.3,
-    4037.3,
-    4037.3,
-    4037.3
+    1793036245,
+    4036.3,
+    4036.3,
+    4036.3,
+    4036.3
    ]
   ],
   "nq": [
@@ -13006,15 +13010,15 @@
     1793034000,
     29478.0,
     29556.0,
-    29475.25,
-    29498.5
+    29471.5,
+    29475.75
    ],
    [
-    1793035953,
-    29496.5,
-    29496.5,
-    29496.5,
-    29496.5
+    1793036258,
+    29485.75,
+    29485.75,
+    29485.75,
+    29485.75
    ]
   ],
   "vix": [
@@ -13483,24 +13487,24 @@
    [
     1793034000,
     18.29,
-    18.34,
+    18.35,
     18.13,
-    18.22
+    18.33
    ],
    [
-    1793035651,
-    18.25,
-    18.25,
-    18.25,
-    18.25
+    1793035951,
+    18.32,
+    18.32,
+    18.32,
+    18.32
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-26T17:12:35Z",
- "ult_4h": 1793035956.3861804,
+ "noticias_traducidas_ts": "2026-10-26T17:47:35Z",
+ "ult_4h": 1793036859.0502892,
  "estrategia_4h": {
   "oro": {
-   "precio": 4042.0,
+   "precio": 4036.3,
    "atr_4h": 25.76,
    "setups": [
     {
@@ -13528,11 +13532,11 @@
    ]
   },
   "nq": {
-   "precio": 29531.75,
+   "precio": 29485.75,
    "atr_4h": 222.45,
    "setups": []
   },
-  "ts": "2026-10-26T17:32:36Z"
+  "ts": "2026-10-26T17:47:39Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13590,8 +13594,6 @@
   }
  ],
  "noticias_vistas": [
-  "0f7e76f611",
-  "85e2abfbad",
   "c44ed3b078",
   "61eee7d585",
   "b38cd46aa3",
@@ -14389,7 +14391,9 @@
   "eff245bb74",
   "b90473d7a1",
   "dd832918f0",
-  "000730c62c"
+  "000730c62c",
+  "22bcb53533",
+  "e36ceb8b13"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
