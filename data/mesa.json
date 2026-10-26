@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4020.7 · NQ 29101.25 · VIX 19.45 · 1 noticias nuevas",
-   "actualizado": "2026-10-26T03:12:32Z"
+   "ultimo_resultado": "Oro 4021.5 · NQ 29132.5 · VIX 19.45",
+   "actualizado": "2026-10-26T03:17:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T03:12:31Z",
-   "ultimo_resultado": "1 titulares nuevos: Nasdaq Futures Slip Amid Tech Selloff While S&P 500, Dow Edge Higher Ahead Of Crucial Earnings Week: IREN, CRWV, NBIS, MRNA, EWZ In Focus"
+   "actualizado": "2026-10-26T03:17:31Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4021.5 · NQ 29132.5 · VIX 19.45",
+   "ts": "2026-10-26T03:17:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4020.7 · NQ 29101.25 · VIX 19.45 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: New Found Gold's Queensway PEA Doubles NPV",
    "ts": "2026-10-25T13:47:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Iamgold’s 2027 Outlook: Côté Just Ran Above Nameplate for the First Time, With a 20-Million-Ounce Mine Plan Weeks Away",
-   "ts": "2026-10-25T13:42:31Z"
   }
  ],
  "briefs": [
@@ -10620,10 +10620,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4020.7,
-  "nq": 29101.25,
+  "oro": 4021.5,
+  "nq": 29132.5,
   "vix": 19.45,
-  "ts": "2026-10-26T03:12:32Z"
+  "ts": "2026-10-26T03:17:31Z"
  },
  "noticias": [
   {
@@ -12126,16 +12126,16 @@
    [
     1792983600,
     4012.7,
-    4022.8,
+    4023.8,
     4011.8,
-    4022.1
+    4022.2
    ],
    [
-    1792983751,
-    4020.1,
-    4020.1,
-    4020.1,
-    4020.1
+    1792984048,
+    4021.5,
+    4021.5,
+    4021.5,
+    4021.5
    ]
   ],
   "nq": [
@@ -12758,16 +12758,16 @@
    [
     1792983600,
     29071.25,
-    29109.5,
+    29138.25,
     29071.25,
-    29103.5
+    29130.5
    ],
    [
-    1792983751,
-    29102.5,
-    29102.5,
-    29102.5,
-    29102.5
+    1792984048,
+    29132.5,
+    29132.5,
+    29132.5,
+    29132.5
    ]
   ],
   "vix": [
@@ -13271,38 +13271,38 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-26T03:07:31Z",
- "ult_4h": 1792983753.6483982,
+ "ult_4h": 1792984651.4878216,
  "estrategia_4h": {
   "oro": {
-   "precio": 4010.7,
-   "atr_4h": 29.96,
+   "precio": 4021.5,
+   "atr_4h": 30.66,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4109.17,
+     "stop": 4109.6,
      "objetivo": 3989.1,
-     "rr": 5.68,
+     "rr": 5.55,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.97,
+     "fuerza_ruptura_atr": 0.95,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 4130.1,
-     "entrada": 4130.1,
-     "stop": 4148.07,
+     "nivel": 4095.0,
+     "entrada": 4095.0,
+     "stop": 4113.4,
      "objetivo": 3989.1,
-     "rr": 7.84,
+     "rr": 5.76,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.18,
-     "ruptura": "2026-10-22 00:00 UTC"
+     "fuerza_ruptura_atr": 0.95,
+     "ruptura": "2026-10-22 08:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29055.0,
+   "precio": 29132.5,
    "atr_4h": 216.09,
    "setups": [
     {
@@ -13329,7 +13329,7 @@
     }
    ]
   },
-  "ts": "2026-10-26T03:02:33Z"
+  "ts": "2026-10-26T03:17:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
