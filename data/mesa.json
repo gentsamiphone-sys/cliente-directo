@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4025.0 · NQ 29125.0 · VIX 19.74",
-   "actualizado": "2026-10-26T11:27:37Z"
+   "ultimo_resultado": "Oro 4024.6 · NQ 29118.0 · VIX 19.66 · 1 noticias nuevas",
+   "actualizado": "2026-10-26T11:32:30Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T11:27:36Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-26T11:32:29Z",
+   "ultimo_resultado": "1 titulares nuevos: Apollo to buy nearly 10% stake in Abu Dhabi-backed alternative asset manager Mubadala Capital"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4024.6 · NQ 29118.0 · VIX 19.66 · 1 noticias nuevas",
+   "ts": "2026-10-26T11:32:30Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4025.0 · NQ 29125.0 · VIX 19.74",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +104,206 contratos.",
    "ts": "2026-10-25T21:32:55Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-10-25T21:32:53Z"
   }
  ],
  "briefs": [
@@ -10787,12 +10787,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4025.0,
-  "nq": 29125.0,
-  "vix": 19.74,
-  "ts": "2026-10-26T11:27:36Z"
+  "oro": 4024.6,
+  "nq": 29118.0,
+  "vix": 19.66,
+  "ts": "2026-10-26T11:32:30Z"
  },
  "noticias": [
+  {
+   "titulo": "Apollo to buy nearly 10% stake in Abu Dhabi-backed alternative asset manager Mubadala Capital",
+   "link": "https://www.cnbc.com/2026/10/26/apollo-mubadala-capital-stake.html",
+   "ts": "2026-10-26T11:31:16Z",
+   "fuente": "CNBC",
+   "id": "13a2907059",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Meta launches $35 billion stock offering to fund AI expansion",
    "link": "https://www.cnbc.com/2026/10/26/meta-35-billion-stock-offering-ai-expansion.html",
@@ -11670,15 +11679,6 @@
    "id": "741fbed8d6",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "India's Shriram Finance hits 11-month low as growth outlook cut, credit costs weigh",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNnJKdFdiMDdmRzJRejkxdFRvVGJxeHRjSmxTTFhBMlVyWnVtMVlkdTN4UjBydUpLNXhEVDV6RGI1akVrWjZ0V0NNWnUzTFdFLUJLeTRCQ2k5WUpieWhQQ0V0bGgxazJCYldXZTExUkZqV0ZvbFJRd2RGZlhhd1JTU3RxS0hBQklJb3liVnNGRlVUcGZwQ000bUFrdVl0UlczRW1XOXpSZFlQYkoySVh3SnVRWkZucjhpa0tVQkIwUFY4RF9Q?oc=5",
-   "ts": "2026-10-26T04:15:00Z",
-   "fuente": "Reuters",
-   "id": "4d9a6d3233",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -12231,15 +12231,15 @@
     1793012400,
     4028.9,
     4030.4,
-    4024.3,
-    4024.4
+    4024.1,
+    4025.3
    ],
    [
-    1793013441,
-    4025.0,
-    4025.0,
-    4025.0,
-    4025.0
+    1793013747,
+    4024.6,
+    4024.6,
+    4024.6,
+    4024.6
    ]
   ],
   "nq": [
@@ -12780,14 +12780,14 @@
     29087.25,
     29130.5,
     29071.75,
-    29126.25
+    29120.0
    ],
    [
-    1793013455,
-    29125.0,
-    29125.0,
-    29125.0,
-    29125.0
+    1793013746,
+    29118.0,
+    29118.0,
+    29118.0,
+    29118.0
    ]
   ],
   "vix": [
@@ -13215,23 +13215,23 @@
     1793012400,
     19.74,
     19.75,
-    19.65,
-    19.71
+    19.64,
+    19.67
    ],
    [
-    1793013151,
-    19.74,
-    19.74,
-    19.74,
-    19.74
+    1793013436,
+    19.66,
+    19.66,
+    19.66,
+    19.66
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-26T11:14:26Z",
- "ult_4h": 1793013454.0119324,
+ "ult_4h": 1793014350.0944052,
  "estrategia_4h": {
   "oro": {
-   "precio": 4026.9,
+   "precio": 4024.6,
    "atr_4h": 28.03,
    "setups": [
     {
@@ -13259,7 +13259,7 @@
    ]
   },
   "nq": {
-   "precio": 29092.5,
+   "precio": 29118.0,
    "atr_4h": 212.86,
    "setups": [
     {
@@ -13275,7 +13275,7 @@
     }
    ]
   },
-  "ts": "2026-10-26T11:17:34Z"
+  "ts": "2026-10-26T11:32:30Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13326,7 +13326,6 @@
   }
  ],
  "noticias_vistas": [
-  "d33a578339",
   "d571df07fb",
   "f33f8c1d26",
   "2858e62596",
@@ -14125,7 +14124,8 @@
   "cdc55ce375",
   "9a81bf79ad",
   "c80fecaa2e",
-  "b894e5e52b"
+  "b894e5e52b",
+  "13a2907059"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
