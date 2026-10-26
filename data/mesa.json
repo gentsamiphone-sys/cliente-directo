@@ -19,9 +19,9 @@
    "ultimo_resultado": "Fondos en oro: neto +104,206 contratos."
   },
   "liquidez": {
-   "estado": "descansando",
-   "tarea": "",
-   "actualizado": "2026-10-26T16:17:33Z",
+   "estado": "trabajando",
+   "tarea": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
+   "actualizado": "2026-10-26T21:32:55Z",
    "ultimo_resultado": "Estrategia 4H NQ: COMPRA: esperar retesteo de 29326.0 · stop 29197.76 · objetivo 29584.25 · R:R 2.01 (esperando retesteo). Tú ejecutas."
   },
   "riesgo": {
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
+   "ts": "2026-10-26T21:32:55Z"
+  },
   {
    "agente": "flujos",
    "texto": "Fondos en oro: neto +104,206 contratos.",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4018.9 · NQ 29114.5 · VIX —",
    "ts": "2026-10-26T07:22:30Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4019.5 · NQ 29120.75 · VIX — · 2 noticias nuevas",
-   "ts": "2026-10-26T07:17:34Z"
   }
  ],
  "briefs": [
