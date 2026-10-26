@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4011.4 · NQ 29153.75 · VIX 19.45 · 2 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-26T00:07:37Z"
+   "ultimo_resultado": "Oro 4003.6 · NQ 29141.75 · VIX 19.45 · 1 noticias nuevas",
+   "actualizado": "2026-10-26T00:12:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T00:07:37Z",
-   "ultimo_resultado": "2 titulares nuevos, 2 de alto impacto: Gold Steadies After Weekly Drop as Focus Shifts to Fed Meeting"
+   "actualizado": "2026-10-26T00:12:33Z",
+   "ultimo_resultado": "1 titulares nuevos: Bitcoin and Gold Hit a Historic First in 2026. The Two “Safe Havens” Are Now the Worst Assets"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4003.6 · NQ 29141.75 · VIX 19.45 · 1 noticias nuevas",
+   "ts": "2026-10-26T00:12:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4011.4 · NQ 29153.75 · VIX 19.45 · 2 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-25T10:42:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-25T10:37:31Z"
   }
  ],
  "briefs": [
@@ -10620,10 +10620,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4011.4,
-  "nq": 29153.75,
+  "oro": 4003.6,
+  "nq": 29141.75,
   "vix": 19.45,
-  "ts": "2026-10-26T00:07:37Z"
+  "ts": "2026-10-26T00:12:33Z"
  },
  "noticias": [
   {
@@ -10649,6 +10649,17 @@
    "impacto": "bajo",
    "es": "Protestas por desigualdad y costo de vida se vuelven violentas en Francia",
    "efecto": "Ruido geopolítico y social menor, impacto institucional limitado en mercados hoy."
+  },
+  {
+   "titulo": "Bitcoin and Gold Hit a Historic First in 2026. The Two “Safe Havens” Are Now the Worst Assets",
+   "link": "https://beincrypto.com/bitcoin-gold-worst-assets-2026/?.tsrc=rss",
+   "ts": "2026-10-25T23:40:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "3e2e79a815",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Gold Steadies After Weekly Drop as Focus Shifts to Fed Meeting",
@@ -11483,17 +11494,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "MIND C.T.I. Ltd. Estimates – NASDAQ:MNDO",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9QUXdwTk9QWGZnSlhUNUlkeU9Eb2prODd0Q3RZeHNTa2hqMm5nUGhyVU1DeWYyMWhMbXlmQzBRZnRvVExBNzhKWTc5cEgtb2RJR0pycnNQZVZLMG1kNDRwUURQYnFndWVEaHlhTlN4NWRpQzhRSElvQg?oc=5",
-   "ts": "2026-10-25T11:40:52Z",
-   "fuente": "TradingView",
-   "id": "378c7a76be",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12127,11 +12127,18 @@
     4011.2
    ],
    [
-    1792972655,
-    4011.5,
-    4011.5,
-    4011.5,
-    4011.5
+    1792972800,
+    4010.6,
+    4011.1,
+    4002.7,
+    4003.4
+   ],
+   [
+    1792972950,
+    4003.6,
+    4003.6,
+    4003.6,
+    4003.6
    ]
   ],
   "nq": [
@@ -12749,14 +12756,21 @@
     29285.25,
     29311.0,
     29094.0,
-    29147.5
+    29139.75
    ],
    [
-    1792972655,
-    29153.75,
-    29153.75,
-    29153.75,
-    29153.75
+    1792972800,
+    29140.75,
+    29160.0,
+    29131.5,
+    29138.5
+   ],
+   [
+    1792972947,
+    29141.75,
+    29141.75,
+    29141.75,
+    29141.75
    ]
   ],
   "vix": [
@@ -13358,7 +13372,6 @@
   }
  ],
  "noticias_vistas": [
-  "091818a85d",
   "9b22cadafc",
   "74c29faaf9",
   "4ea1d1e7f4",
@@ -14157,7 +14170,8 @@
   "281137f315",
   "22840a40a5",
   "447d407b67",
-  "bf7a2ed5ed"
+  "bf7a2ed5ed",
+  "3e2e79a815"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
