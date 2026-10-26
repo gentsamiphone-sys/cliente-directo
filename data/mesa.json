@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4025.8 · NQ 29453.25 · VIX 18.42",
-   "actualizado": "2026-10-26T20:27:41Z"
+   "ultimo_resultado": "Oro 4027.3 · NQ 29460.25 · VIX 18.39 · 1 noticias nuevas",
+   "actualizado": "2026-10-26T20:32:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T20:27:39Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-26T20:32:33Z",
+   "ultimo_resultado": "1 titulares nuevos: Anthropic IPO recap: How Wall Street is responding to the AI lab's filing"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4027.3 · NQ 29460.25 · VIX 18.39 · 1 noticias nuevas",
+   "ts": "2026-10-26T20:32:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4025.8 · NQ 29453.25 · VIX 18.42",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Mapa listo: oro 4021.0 · NQ 29122.0.",
    "ts": "2026-10-26T06:32:58Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
-   "ts": "2026-10-26T06:32:57Z"
   }
  ],
  "briefs": [
@@ -10969,12 +10969,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4025.8,
-  "nq": 29453.25,
-  "vix": 18.42,
-  "ts": "2026-10-26T20:27:40Z"
+  "oro": 4027.3,
+  "nq": 29460.25,
+  "vix": 18.39,
+  "ts": "2026-10-26T20:32:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Anthropic IPO recap: How Wall Street is responding to the AI lab's filing",
+   "link": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html",
+   "ts": "2026-10-26T20:29:21Z",
+   "fuente": "CNBC",
+   "id": "eafb02c0b4",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Federal Reserve to announce its latest interest rate move this week. Here's what economists expect.",
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTjc3SWhXX3BBd29iUjJQRC1HZ1k2M1ZzU3RORWEySTQ4TGdaSjdaMjIwNTVUWFJpZW5OZmU4X2JPYlNSOWEzRW1BNHJVRTk3azhSRExhRTRlNG8tNzhsMHhIcUpIZGdScG5jWnNGR1A1VVdpWTVNcDhMYm5kZjFWSzJn?oc=5",
@@ -11832,17 +11843,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "BC-Gold Futures",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-futures-140030342.html?.tsrc=rss",
-   "ts": "2026-10-26T14:00:30Z",
-   "fuente": "Yahoo Finance",
-   "id": "ef01beb2d8",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12457,16 +12457,16 @@
    [
     1793044800,
     4027.1,
-    4027.4,
+    4027.5,
     4025.1,
-    4025.8
+    4027.5
    ],
    [
-    1793045849,
-    4025.8,
-    4025.8,
-    4025.8,
-    4025.8
+    1793046143,
+    4027.3,
+    4027.3,
+    4027.3,
+    4027.3
    ]
   ],
   "nq": [
@@ -13068,16 +13068,16 @@
    [
     1793044800,
     29439.25,
-    29457.75,
+    29467.25,
     29426.5,
-    29455.25
+    29460.0
    ],
    [
-    1793045857,
-    29453.25,
-    29453.25,
-    29453.25,
-    29453.25
+    1793046152,
+    29460.25,
+    29460.25,
+    29460.25,
+    29460.25
    ]
   ],
   "vix": [
@@ -13568,36 +13568,43 @@
     1793044800,
     18.5,
     18.54,
-    18.42,
-    18.42
+    18.39,
+    18.39
+   ],
+   [
+    1793045700,
+    18.39,
+    18.39,
+    18.39,
+    18.39
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-26T20:07:37Z",
- "ult_4h": 1793045859.4172564,
+ "ult_4h": 1793046754.4366398,
  "estrategia_4h": {
   "oro": {
-   "precio": 4025.9,
+   "precio": 4027.3,
    "atr_4h": 24.24,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4105.74,
+     "stop": 4105.75,
      "objetivo": 3989.1,
      "rr": 7.02,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.21,
+     "fuerza_ruptura_atr": 1.2,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4130.1,
      "entrada": 4130.1,
-     "stop": 4144.64,
+     "stop": 4144.65,
      "objetivo": 3989.1,
-     "rr": 9.7,
+     "rr": 9.69,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.46,
      "ruptura": "2026-10-22 00:00 UTC"
@@ -13605,23 +13612,23 @@
    ]
   },
   "nq": {
-   "precio": 29449.5,
-   "atr_4h": 199.73,
+   "precio": 29460.25,
+   "atr_4h": 200.59,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29206.16,
+     "stop": 29205.65,
      "objetivo": 29572.0,
-     "rr": 2.05,
+     "rr": 2.04,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.99,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-26T20:17:39Z"
+  "ts": "2026-10-26T20:32:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13679,7 +13686,6 @@
   }
  ],
  "noticias_vistas": [
-  "922f8a3baa",
   "82c42700b3",
   "c9ac8c278e",
   "2214ef9837",
@@ -14478,7 +14484,8 @@
   "170cef93d8",
   "cb230ce953",
   "86312fd583",
-  "272eb2a469"
+  "272eb2a469",
+  "eafb02c0b4"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
