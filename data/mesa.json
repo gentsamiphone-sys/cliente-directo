@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4032.0 · NQ 29472.75 · VIX 18.07 · 1 noticias nuevas",
-   "actualizado": "2026-10-26T14:57:51Z"
+   "ultimo_resultado": "Oro 4033.0 · NQ 29496.25 · VIX 17.98 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-26T15:02:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T14:57:51Z",
-   "ultimo_resultado": "1 titulares nuevos: Senado de Alaska: Peltola busca la rápida desestimación de la demanda electoral del DOJ antes de las elecciones de mitad de periodo."
+   "actualizado": "2026-10-26T15:02:37Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Anthropic IPO live updates: AI lab has $6.2B in debt, flags data center moratoriums as key risk"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4033.0 · NQ 29496.25 · VIX 17.98 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-26T15:02:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4032.0 · NQ 29472.75 · VIX 18.07 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4000.7 · NQ 29128.0 · VIX 19.45",
    "ts": "2026-10-26T01:42:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4003.8 · NQ 29131.5 · VIX 19.45 · 1 noticias nuevas",
-   "ts": "2026-10-26T01:37:32Z"
   }
  ],
  "briefs": [
@@ -10969,12 +10969,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4032.0,
-  "nq": 29472.75,
-  "vix": 18.07,
-  "ts": "2026-10-26T14:57:51Z"
+  "oro": 4033.0,
+  "nq": 29496.25,
+  "vix": 17.98,
+  "ts": "2026-10-26T15:02:38Z"
  },
  "noticias": [
+  {
+   "titulo": "Anthropic IPO live updates: AI lab has $6.2B in debt, flags data center moratoriums as key risk",
+   "link": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html",
+   "ts": "2026-10-26T15:01:10Z",
+   "fuente": "CNBC",
+   "id": "da2f45dab6",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Alaska Senate: Peltola seeks quick dismissal of DOJ election lawsuit before midterm",
    "link": "https://www.cnbc.com/2026/10/26/alaska-senate-peltola-doj-lawsuit-election-sullivan.html",
@@ -11798,17 +11807,6 @@
    "id": "9eef03c0a9",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "JPMorgan Nasdaq Equity Premium Income (JEPQ) Sells NVIDIA and Apple on Oct. 22",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbXNhNHpVMjZ6ZjRheDYwV1Q2NW95ZFAxTDJIYTBBYVpfU0JGZ3R4OTRJcmtmOThkbC1NVjM5ZFp3LUtJOUdHZy1lekl1SG14UGdYRTBnd3hhd190TzZqQ0RqSmhpVzdTSjNCVXN4d2ZGZUJLbXRqc1BUNXk1WTlHVFNQSjRyM1BLcmVHZExrMUdoVjZOZi03UGQzTFhZelZPdkJuZg?oc=5",
-   "ts": "2026-10-26T11:04:11Z",
-   "fuente": "Yahoo Finance",
-   "id": "b4ba7dae2e",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12383,14 +12381,14 @@
     4006.6,
     4037.3,
     4006.5,
-    4031.0
+    4034.1
    ],
    [
-    1793026071,
-    4031.9,
-    4031.9,
-    4031.9,
-    4031.9
+    1793026352,
+    4033.0,
+    4033.0,
+    4033.0,
+    4033.0
    ]
   ],
   "nq": [
@@ -12950,16 +12948,16 @@
    [
     1793023200,
     29209.25,
-    29482.75,
+    29519.0,
     29172.25,
-    29474.75
+    29506.75
    ],
    [
-    1793026071,
-    29472.75,
-    29472.75,
-    29472.75,
-    29472.75
+    1793026358,
+    29494.5,
+    29494.5,
+    29494.5,
+    29494.5
    ]
   ],
   "vix": [
@@ -13408,23 +13406,23 @@
     1793023200,
     18.67,
     18.69,
-    18.09,
-    18.09
+    18.0,
+    18.0
    ],
    [
-    1793025766,
-    18.07,
-    18.07,
-    18.07,
-    18.07
+    1793026051,
+    17.98,
+    17.98,
+    17.98,
+    17.98
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-26T14:57:32Z",
- "ult_4h": 1793026054.214802,
+ "ult_4h": 1793026958.079089,
  "estrategia_4h": {
   "oro": {
-   "precio": 4030.5,
+   "precio": 4033.0,
    "atr_4h": 28.01,
    "setups": [
     {
@@ -13435,7 +13433,7 @@
      "objetivo": 3989.1,
      "rr": 6.08,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.04,
+     "fuerza_ruptura_atr": 1.05,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
@@ -13452,23 +13450,11 @@
    ]
   },
   "nq": {
-   "precio": 29342.5,
-   "atr_4h": 223.8,
-   "setups": [
-    {
-     "direccion": "VENTA",
-     "nivel": 29391.75,
-     "entrada": 29391.75,
-     "stop": 29526.03,
-     "objetivo": 28987.0,
-     "rr": 3.01,
-     "estado": "en retesteo",
-     "fuerza_ruptura_atr": 0.88,
-     "ruptura": "2026-10-22 12:00 UTC"
-    }
-   ]
+   "precio": 29494.5,
+   "atr_4h": 233.75,
+   "setups": []
   },
-  "ts": "2026-10-26T14:47:34Z"
+  "ts": "2026-10-26T15:02:38Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13525,8 +13511,6 @@
   }
  ],
  "noticias_vistas": [
-  "443d4fbb82",
-  "81310c932b",
   "79b37ca8e6",
   "c2f45cb134",
   "ef01beb2d8",
@@ -14324,7 +14308,9 @@
   "30a6d2b1d4",
   "46be2266ea",
   "dd79eaa00e",
-  "449d4f967f"
+  "449d4f967f",
+  "da2f45dab6",
+  "8f01c5dbc3"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
