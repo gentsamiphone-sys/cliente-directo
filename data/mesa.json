@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4017.3 · NQ 29130.75 · VIX — · 3 noticias nuevas",
-   "actualizado": "2026-10-26T07:27:33Z"
+   "ultimo_resultado": "Oro 4019.5 · NQ 29118.0 · VIX 19.67 · 1 noticias nuevas",
+   "actualizado": "2026-10-26T07:32:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T07:27:32Z",
-   "ultimo_resultado": "3 titulares nuevos: \"We just regroup and push forward:\" Lilah Fear and Lewis Gibson on their Olympic learnings - and what they hope fans will take from 'Dancing for Gold' documentary"
+   "actualizado": "2026-10-26T07:32:30Z",
+   "ultimo_resultado": "1 titulares nuevos: Horizon Gold: The pathway to first gold"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4019.5 · NQ 29118.0 · VIX 19.67 · 1 noticias nuevas",
+   "ts": "2026-10-26T07:32:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4017.3 · NQ 29130.75 · VIX — · 3 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-25T18:07:39Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Brief de Plan de la semana publicado: Tasas y DXY presionan al NQ a la baja; oro neutral a la espera de la Fed y datos macro",
-   "ts": "2026-10-25T18:03:41Z"
   }
  ],
  "briefs": [
@@ -10787,9 +10787,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4017.3,
-  "nq": 29130.75,
-  "ts": "2026-10-26T07:27:33Z"
+  "oro": 4019.5,
+  "nq": 29118.0,
+  "vix": 19.67,
+  "ts": "2026-10-26T07:32:31Z"
  },
  "noticias": [
   {
@@ -10896,6 +10897,17 @@
    "impacto": "alto",
    "es": "El oro sube por menores precios del petróleo; atención en la decisión de la Fed",
    "efecto": "Impulsa compras de oro como cobertura ante la expectativa de la Fed."
+  },
+  {
+   "titulo": "Horizon Gold: The pathway to first gold",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcFN6Nnp3N2ZLSzdWcGFmWnVqaWpQOTU4VFJRZl83X0t2b2xyVFdYOHVWdkozUXVrc2ROSGtkcXpZUV85TWYxNWl1LUxhSklpUFhESWkxY3FyaHA4NXRBY25WWmFhei1DTkZzbUFRLVVCMTJWTGd5RENXNGNjOFhkMGJhdW9iOFE?oc=5",
+   "ts": "2026-10-26T05:55:00Z",
+   "fuente": "Yahoo! Finance Canada",
+   "id": "134db267ef",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Resolution Minerals eyes larger Golden Gate gold play",
@@ -11658,15 +11670,6 @@
    "id": "845502faf2",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Ukraine disputes Elon Musk’s claim that its military violated Starlink terms during drone operations",
-   "link": "https://www.cnbc.com/2026/10/25/ukraine-musk-starlink-terms-dispute.html",
-   "ts": "2026-10-25T18:18:49Z",
-   "fuente": "CNBC",
-   "id": "941227f9a2",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -12185,14 +12188,14 @@
     4019.1,
     4021.8,
     4016.1,
-    4016.8
+    4019.8
    ],
    [
-    1792999048,
-    4017.3,
-    4017.3,
-    4017.3,
-    4017.3
+    1792999345,
+    4019.5,
+    4019.5,
+    4019.5,
+    4019.5
    ]
   ],
   "nq": [
@@ -12705,14 +12708,14 @@
     29084.25,
     29143.0,
     29083.25,
-    29126.5
+    29123.5
    ],
    [
-    1792999042,
-    29130.75,
-    29130.75,
-    29130.75,
-    29130.75
+    1792999347,
+    29117.5,
+    29117.5,
+    29117.5,
+    29117.5
    ]
   ],
   "vix": [
@@ -13109,16 +13112,23 @@
     19.45
    ],
    [
-    1792786501,
-    19.45,
-    19.45,
-    19.45,
-    19.45
+    1792998000,
+    19.66,
+    19.68,
+    19.65,
+    19.67
+   ],
+   [
+    1792999036,
+    19.67,
+    19.67,
+    19.67,
+    19.67
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-26T07:17:32Z",
- "ult_4h": 1792999053.9637556,
+ "ult_4h": 1792999951.1013448,
  "estrategia_4h": {
   "oro": {
    "precio": 4019.5,
@@ -13149,7 +13159,7 @@
    ]
   },
   "nq": {
-   "precio": 29120.75,
+   "precio": 29117.5,
    "atr_4h": 209.93,
    "setups": [
     {
@@ -13176,7 +13186,7 @@
     }
    ]
   },
-  "ts": "2026-10-26T07:17:34Z"
+  "ts": "2026-10-26T07:32:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13227,7 +13237,6 @@
   }
  ],
  "noticias_vistas": [
-  "c3287c97b3",
   "e98792fcab",
   "b70ff1b2a4",
   "9aa58939da",
@@ -14026,7 +14035,8 @@
   "44401c0dcc",
   "e14d54517a",
   "6555e9b66e",
-  "d467145c26"
+  "d467145c26",
+  "134db267ef"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
