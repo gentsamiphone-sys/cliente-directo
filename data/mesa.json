@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4031.5 · NQ 29220.5 · VIX 19.19 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-26T10:02:34Z"
+   "ultimo_resultado": "Oro 4030.9 · NQ 29228.0 · VIX 19.19 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-26T10:07:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T10:02:33Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Can GOP Rep. Brian Fitzpatrick, a moderate who's bucked Trump, keep his Pennsylvania swing seat?"
+   "actualizado": "2026-10-26T10:07:38Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Los rendimientos del Tesoro suben levemente; los bonos franceses superan"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4030.9 · NQ 29228.0 · VIX 19.19 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-26T10:07:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4031.5 · NQ 29220.5 · VIX 19.19 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-25T20:42:33Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "2 titulares nuevos: Cinco partes de la estrategia de capital de TRX Gold, desde financiamiento hasta posibles recompras",
-   "ts": "2026-10-25T20:37:34Z"
   }
  ],
  "briefs": [
@@ -10787,12 +10787,27 @@
   }
  },
  "en_vivo": {
-  "oro": 4031.5,
-  "nq": 29220.5,
+  "oro": 4030.9,
+  "nq": 29228.0,
   "vix": 19.19,
-  "ts": "2026-10-26T10:02:34Z"
+  "ts": "2026-10-26T10:07:38Z"
  },
  "noticias": [
+  {
+   "titulo": "Treasury Yields Turn Slightly Higher, French Bonds Outperform",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWk45NGlORUMtZ2RfUVBDZ2lTODZTT3lyaGpqZTJXd3hzb1NBNTdPVnlNc0p2QlI5cFZSUjNRYzhoY2E2cFlvNWNBNldoaE82X0N2bkpNZlctVnY0M1NCVnVoc2tBYThRYzlYMDVERTJiQ0JKX1dYMVU2RDdzTUVycUNCTUpEMkpCSHIzbGJvNkVKNzZYS0JYN3MwVmtRQjRFTmNFLXQzVlVTS3ZqQVI0d3ZGbw?oc=5",
+   "ts": "2026-10-26T10:03:00Z",
+   "fuente": "WSJ",
+   "id": "9b51634b99",
+   "activos": [
+    "dolar",
+    "nq",
+    "oro"
+   ],
+   "impacto": "alto",
+   "es": "Los rendimientos del Tesoro suben levemente; los bonos franceses superan",
+   "efecto": "Sube tasas, presiona al NQ a la baja y fortalece el dólar."
+  },
   {
    "titulo": "Can GOP Rep. Brian Fitzpatrick, a moderate who's bucked Trump, keep his Pennsylvania swing seat?",
    "link": "https://www.cnbc.com/2026/10/26/brian-fitzpatrick-bob-harvie-pennsylvania-senate-election.html",
@@ -10801,6 +10816,32 @@
    "id": "f3299792cb",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "I’ve Seen This Nasdaq Chart Before",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbkZtRlFGMVZjaU5VNzBtTG1yeHhua3FMS2xDeFUzUVNYeGRvRXNqcUFsY0hhSTJ3RHBCVDNqNnhYTExaMnl3SGdORmZDZ2d2WUpmLWZ4Uy1xWmRqdElCb0ZLaWJPa0NPY3ljZ3hOUXR5YWdvbEhZMVA4dDh4TDVVRWR0NDVYZHlTRjVn?oc=5",
+   "ts": "2026-10-26T10:00:00Z",
+   "fuente": "RealMoney Pro",
+   "id": "0e054ee8ad",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "He visto este gráfico del Nasdaq antes",
+   "efecto": "Opinión sin datos nuevos; sin impacto institucional en el NQ."
+  },
+  {
+   "titulo": "Egypt's pound hits record low against dollar",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX2RLclVQUDV2S0d2aUt4VWNIUWxSVUR6S1Y4Uk5qZy11QWIyRmRIbHh4bEd2UGk1STY1Z2gxamFyOTZYNl9wUGx5VTQ5NnQ1am0xeEc0ZURadU9KaGh3Z0c4NUFhRG9lbVpRQ2ZwbkQ0NFFuSFlvMWtOVTUtTWV0bXFSWGlTNDdtRVBWRjMwbmVQaERaR2xV?oc=5",
+   "ts": "2026-10-26T09:52:09Z",
+   "fuente": "Reuters",
+   "id": "889e13e4ae",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "bajo",
+   "es": "La libra esterlina de Egipto alcanza un mínimo histórico frente al dólar",
+   "efecto": "Divisa emergente marginal; impacto irrelevante para los activos principales."
   },
   {
    "titulo": "How war, security and coalition math are shaping the Israeli election",
@@ -11639,35 +11680,6 @@
    "impacto": "bajo",
    "es": "La apuesta que hicieron los tenedores de Eldorado Gold",
    "efecto": "Ruido corporativo menor sin efecto directo en el oro spot."
-  },
-  {
-   "titulo": "Overachiever Chunk of Gold Seeks Breeders' Cup Payday",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDgtRTNKdEZDVWwxWnIxZklaalQtMGMxeGVnUXBWeDdZcjBYT3hsXzEydWRySHFFTjRYWUNiSlUtNW40b3hxTGxUX0ljRWI0T1NsN2lkb0FDTTc0LXVld1BpREx6T19JWnQzZWlQZUlMV3Y4dEgxR2hlSUYxRVAxbC0zLTQyNnBvNzFpRzNSMDFoa1JTakMtclE4SDM0WDdhTDQ4N2tGTDFKeU80?oc=5",
-   "ts": "2026-10-25T21:56:00Z",
-   "fuente": "BloodHorse",
-   "id": "894bcbdaa9",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Trump invokes 9/11 in urging Michigan voters to oppose Muslim Senate candidate El-Sayed",
-   "link": "https://www.cnbc.com/2026/10/25/trump-invokes-911-in-urging-michigan-voters-to-oppose-el-sayed.html",
-   "ts": "2026-10-25T21:54:11Z",
-   "fuente": "CNBC",
-   "id": "a43c1a7148",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Rogers dodges questions on MAGA label, Trump tariffs",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVlNUTlN1SnM2UE1LWGROUUZvVE9laDVWUlJraWNFRlJwOGRfeG5VRmRXX1Q0SDdFMVozM1NOWjlGQTRvNmR1Q0tOLTYxaGpGQ2NmMk92VmR6Sk9zRkZkVGRlVURQMnU1b284UHdzYkpLSENwMGl5YmgyUzBTLU9YTHA1M0ZvM2tPSFHSAY8BQVVfeXFMTzI5LVpCUG1LWUdrVklyWG0xc2h3Z3NCZHhIYlFIOXNMQ3JoYUdyQ01GeGs1VUM2QzBJWDlvNGNueHQxeEdjOWUzRnppNmV4T2JfVjllU2huVlhteEEtckhNdW82RFMtcXZpRVVpT2ZVMk5mcFAybkpmYVIxWEJRMktnNkF5ZThiYlJ0bUdzOTg?oc=5",
-   "ts": "2026-10-25T21:46:04Z",
-   "fuente": "The Hill",
-   "id": "bf7a2ed5ed",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -12207,14 +12219,14 @@
     4031.0,
     4034.3,
     4027.1,
-    4031.8
+    4031.2
    ],
    [
-    1793008349,
-    4031.5,
-    4031.5,
-    4031.5,
-    4031.5
+    1793008648,
+    4030.9,
+    4030.9,
+    4030.9,
+    4030.9
    ]
   ],
   "nq": [
@@ -12739,16 +12751,16 @@
    [
     1793005200,
     29170.25,
-    29227.75,
+    29231.75,
     29167.0,
-    29217.75
+    29230.75
    ],
    [
-    1793008349,
-    29220.5,
-    29220.5,
-    29220.5,
-    29220.5
+    1793008656,
+    29228.0,
+    29228.0,
+    29228.0,
+    29228.0
    ]
   ],
   "vix": [
@@ -13163,10 +13175,10 @@
     19.28,
     19.28,
     19.17,
-    19.18
+    19.19
    ],
    [
-    1793008051,
+    1793008351,
     19.19,
     19.19,
     19.19,
@@ -13174,7 +13186,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-26T09:32:35Z",
+ "noticias_traducidas_ts": "2026-10-26T10:07:36Z",
  "ult_4h": 1793008954.1085603,
  "estrategia_4h": {
   "oro": {
@@ -13273,9 +13285,6 @@
   }
  ],
  "noticias_vistas": [
-  "791979ede8",
-  "e47ffe6990",
-  "f109e2f613",
   "8496fec29a",
   "dcb45387d5",
   "0587c6b626",
@@ -14072,7 +14081,10 @@
   "9754157ba5",
   "d925e31976",
   "f3299792cb",
-  "41a6b4490e"
+  "41a6b4490e",
+  "9b51634b99",
+  "0e054ee8ad",
+  "889e13e4ae"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
