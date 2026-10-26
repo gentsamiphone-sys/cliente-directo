@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4025.7 · NQ 29118.0 · VIX 19.45 · 1 noticias nuevas",
-   "actualizado": "2026-10-26T03:47:34Z"
+   "ultimo_resultado": "Oro 4023.5 · NQ 29097.0 · VIX 19.45 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-26T03:52:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T03:47:33Z",
-   "ultimo_resultado": "1 titulares nuevos: Componentes del índice Nasdaq China Industrials NTR"
+   "actualizado": "2026-10-26T03:52:37Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Colorado man spends months panning for gold to create one-of-a-kind engagement ring"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4023.5 · NQ 29097.0 · VIX 19.45 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-26T03:52:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4025.7 · NQ 29118.0 · VIX 19.45 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-25T14:22:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Protestas en Francia contra la desigualdad derivan nuevamente en violencia",
-   "ts": "2026-10-25T14:17:34Z"
   }
  ],
  "briefs": [
@@ -10620,12 +10620,35 @@
   }
  },
  "en_vivo": {
-  "oro": 4025.7,
-  "nq": 29118.0,
+  "oro": 4023.5,
+  "nq": 29097.0,
   "vix": 19.45,
-  "ts": "2026-10-26T03:47:33Z"
+  "ts": "2026-10-26T03:52:37Z"
  },
  "noticias": [
+  {
+   "titulo": "Colorado man spends months panning for gold to create one-of-a-kind engagement ring",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObFpJbVdCeU4wT1I1QVQ0TTYtX2xOQUttY0VlNHQxeHNYTGszRDMyaUIzOG5nOThaV0RUMjJadlE5QVQwSlVvUTlxb09RekZCek9JVjBSMUd3UWpRRndtVjFmUy1QTnFrMTVFTUVsQ3FwZm9pS2ZqX1cxb2RGNVdxX25tdlJLaHBtNmFldkNuM1NYVlZhUUs2UlRKWnA2ajdZVE9hb0VHVmFtRGhRenY0eFRmMXF6c0VSRC1uX1Y0VkhCRi03bWdtOUdfSGt5VFE?oc=5",
+   "ts": "2026-10-26T03:48:00Z",
+   "fuente": "9News",
+   "id": "65b8312b95",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Gold steadies near 3-mth low as elevated oil prices weigh; Fed meet eyed",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-steadies-near-3-mth-033045255.html?.tsrc=rss",
+   "ts": "2026-10-26T03:30:45Z",
+   "fuente": "Yahoo Finance",
+   "id": "a7036d1736",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "‘It’s worth it to me’: Michigan voter weighs in on Trump’s tariffs",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUm15VFB4X1pvXzhqYTFTTVRtM0lfRUE3dnFGaEY5V1F3LWNrcFhiNUVjaGUwZFJJWi1tbEdwSHFLQVRsSHppeEpLSXB4WXIzbmR3WVVnaFhubEdJRjlOSG5xRy1ybVd1UEkzVjZ3Um40X1ItOGJtWldRc1BPR0ZoNXlDUUZVR3pFeHdjeVRmV1VtZzdBR0puendENS1nd19QdngzYkMyZ1FUVGtTNTRUUHJuWXg2VnU5Nnkw?oc=5",
@@ -11469,28 +11492,6 @@
    "impacto": "bajo",
    "es": "Protestas en Francia contra la desigualdad derivan nuevamente en violencia",
    "efecto": ""
-  },
-  {
-   "titulo": "Gold Royalty Fell While It Turned A Profit",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-royalty-fell-while-turned-140957338.html?.tsrc=rss",
-   "ts": "2026-10-25T14:09:57Z",
-   "fuente": "Yahoo Finance",
-   "id": "d42d6bde06",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "The search for gold is a dangerous and laborious gamble for Sudan’s miners",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOGpYcVFoNkF6aDItaHhVeXFaMW9ZWm1wdl9fU3FEeGNlNkg2VnRXeklob0VfTjB2bzRtTWxDU2ZHSHhyLWw0Sk9qZ1MwSmZuRE12THFYLTY5RWliUFVGdFptb1hHd2tGN0xwSnRUMXZlUFVEd00yckhmUTdwMk1IWWZyamlDM2FPMlJjeVREUEVLOEhGUW9udzNlc2o1VjFJMVE0dmlBVE03N3JnMGJzam5DWmFFejloRnFN0gHAAUFVX3lxTE9lWXZjVmpMV1NwSGJicllyUXBpWXg3NEs5RXRnQ3VwSk5vamdWaWtyWjlYTXZlNmtXRnNNMnN0NTBwQU5MVkY5Tm1yeWljc0FFYTgxMUc1TW42THdacWNEMHZ3SnM5Y1F0c1FMaGhhWWdaVkYyejZobUpsQkdXUElURDNBMWFnWnNYMml0RWh3OGZiR3RTa09tNVU4Ml85TzhQTlhRd2VRS1dkdnVtamVLaGZXdkhJOVNMa09QbmpuTA?oc=5",
-   "ts": "2026-10-25T14:09:10Z",
-   "fuente": "Al Jazeera",
-   "id": "8bba38cfda",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12128,14 +12129,14 @@
     4012.7,
     4030.0,
     4011.8,
-    4026.0
+    4023.6
    ],
    [
-    1792985827,
-    4025.7,
-    4025.7,
-    4025.7,
-    4025.7
+    1792986150,
+    4023.5,
+    4023.5,
+    4023.5,
+    4023.5
    ]
   ],
   "nq": [
@@ -12760,14 +12761,14 @@
     29071.25,
     29138.25,
     29063.25,
-    29110.5
+    29096.75
    ],
    [
-    1792985849,
-    29118.0,
-    29118.0,
-    29118.0,
-    29118.0
+    1792986153,
+    29096.5,
+    29096.5,
+    29096.5,
+    29096.5
    ]
   ],
   "vix": [
@@ -13380,8 +13381,6 @@
   }
  ],
  "noticias_vistas": [
-  "178f4e4aca",
-  "2a6d226dd5",
   "310c495a11",
   "514c6c4ffa",
   "8ff0c0a195",
@@ -14179,7 +14178,9 @@
   "116901f7a5",
   "aa321aa697",
   "1f2c5eafaf",
-  "c5ad13412f"
+  "c5ad13412f",
+  "65b8312b95",
+  "a7036d1736"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
