@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4033.4 · NQ 29296.0 · VIX 19.24 · 1 noticias nuevas",
-   "actualizado": "2026-10-26T13:02:45Z"
+   "ultimo_resultado": "Oro 4030.9 · NQ 29284.25 · VIX 19.22 · 3 noticias nuevas",
+   "actualizado": "2026-10-26T13:07:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T13:02:44Z",
-   "ultimo_resultado": "1 titulares nuevos: This discount retailer is catching up to its main rival under its new CEO, UBS says"
+   "actualizado": "2026-10-26T13:07:33Z",
+   "ultimo_resultado": "3 titulares nuevos: Anthropic files SEC prospectus, bringing AI lab a step closer to historic offering: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4030.9 · NQ 29284.25 · VIX 19.22 · 3 noticias nuevas",
+   "ts": "2026-10-26T13:07:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4033.4 · NQ 29296.0 · VIX 19.24 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4015.2 · NQ 29163.0 · VIX 19.45",
    "ts": "2026-10-25T23:47:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4012.0 · NQ 29131.25 · VIX 19.45",
-   "ts": "2026-10-25T23:42:30Z"
   }
  ],
  "briefs": [
@@ -10968,12 +10968,41 @@
   }
  },
  "en_vivo": {
-  "oro": 4033.4,
-  "nq": 29296.0,
-  "vix": 19.24,
-  "ts": "2026-10-26T13:02:45Z"
+  "oro": 4030.9,
+  "nq": 29284.25,
+  "vix": 19.22,
+  "ts": "2026-10-26T13:07:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Anthropic files SEC prospectus, bringing AI lab a step closer to historic offering: Live updates",
+   "link": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html",
+   "ts": "2026-10-26T13:05:10Z",
+   "fuente": "CNBC",
+   "id": "cd9364be69",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Fanatics teams up with OpenAI for new AI-powered shopping suggestion feature",
+   "link": "https://www.cnbc.com/2026/10/26/fanatics-openai-codex-sports-merchandise-shopping.html",
+   "ts": "2026-10-26T13:02:37Z",
+   "fuente": "CNBC",
+   "id": "834dadee1c",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Lode Gold Initiates Exploration to Evaluate Upside Potential at Historic High-Grade Mines Within Fremont Gold Mine",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/lode-gold-initiates-exploration-evaluate-130000734.html?.tsrc=rss",
+   "ts": "2026-10-26T13:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "48b5afefec",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "This discount retailer is catching up to its main rival under its new CEO, UBS says",
    "link": "https://www.cnbc.com/2026/10/26/this-discount-retailer-is-catching-up-to-its-main-rival-under-new-ceo-ubs-says.html",
@@ -11796,40 +11825,6 @@
    "impacto": "bajo",
    "es": "Matrix Critical Minerals apunta a OPI mientras avanza proyecto de tierras raras",
    "efecto": "Sin impacto relevante para los activos principales de la mesa."
-  },
-  {
-   "titulo": "Egypt's pound hits record low against dollar",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX2RLclVQUDV2S0d2aUt4VWNIUWxSVUR6S1Y4Uk5qZy11QWIyRmRIbHh4bEd2UGk1STY1Z2gxamFyOTZYNl9wUGx5VTQ5NnQ1am0xeEc0ZURadU9KaGh3Z0c4NUFhRG9lbVpRQ2ZwbkQ0NFFuSFlvMWtOVTUtTWV0bXFSWGlTNDdtRVBWRjMwbmVQaERaR2xV?oc=5",
-   "ts": "2026-10-26T09:52:09Z",
-   "fuente": "Reuters",
-   "id": "889e13e4ae",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "bajo",
-   "es": "La libra esterlina de Egipto alcanza un mínimo histórico frente al dólar",
-   "efecto": "Divisa emergente marginal; impacto irrelevante para los activos principales."
-  },
-  {
-   "titulo": "Treasury Yields Slide as Investors Swap Stocks for the Safety of Bonds",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSjBqMWN2QnFUSFFLbVlpSlFScUxuZjU2Tjh5U1ZxUWZLbDQ0dzlqZFpiTktjZWI3cnJVcTN6cnRXenRiSFNkbWpsZFdNS1BkbTRJR0RwZTFaODVCZGZHWUxQRXBKd3c0a3JIOEpUaV80WTh6Qm9wSnNESnFuTGVUblNQbmdvdGNrT1ZxWWhPWUphOHdRTVRrSHZFNEtpQlFNbEw0blZGdFk2QQ?oc=5",
-   "ts": "2026-10-26T09:51:04Z",
-   "fuente": "StoneX",
-   "id": "7385264ffd",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "How war, security and coalition math are shaping the Israeli election",
-   "link": "https://www.cnbc.com/2026/10/26/israel-election-netanyahu-iran-gaza-palestine.html",
-   "ts": "2026-10-26T09:46:59Z",
-   "fuente": "CNBC",
-   "id": "9754157ba5",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -12390,14 +12385,14 @@
     4029.8,
     4039.4,
     4028.5,
-    4033.3
+    4030.1
    ],
    [
-    1793019163,
-    4033.4,
-    4033.4,
-    4033.4,
-    4033.4
+    1793019449,
+    4030.9,
+    4030.9,
+    4030.9,
+    4030.9
    ]
   ],
   "nq": [
@@ -12945,14 +12940,14 @@
     29264.0,
     29354.0,
     29253.5,
-    29294.75
+    29277.5
    ],
    [
-    1793019162,
-    29296.0,
-    29296.0,
-    29296.0,
-    29296.0
+    1793019449,
+    29284.25,
+    29284.25,
+    29284.25,
+    29284.25
    ]
   ],
   "vix": [
@@ -13391,19 +13386,19 @@
     19.23
    ],
    [
-    1793018851,
-    19.24,
-    19.24,
-    19.24,
-    19.24
+    1793019151,
+    19.22,
+    19.22,
+    19.22,
+    19.22
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-26T12:47:36Z",
- "ult_4h": 1793019163.1269078,
+ "ult_4h": 1793020053.622346,
  "estrategia_4h": {
   "oro": {
-   "precio": 4032.5,
+   "precio": 4030.9,
    "atr_4h": 26.14,
    "setups": [
     {
@@ -13414,7 +13409,7 @@
      "objetivo": 3989.1,
      "rr": 6.51,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.12,
+     "fuerza_ruptura_atr": 1.11,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
@@ -13431,14 +13426,14 @@
    ]
   },
   "nq": {
-   "precio": 29269.0,
-   "atr_4h": 215.66,
+   "precio": 29284.25,
+   "atr_4h": 215.43,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29268.75,
      "entrada": 29268.75,
-     "stop": 29398.15,
+     "stop": 29398.01,
      "objetivo": 28987.0,
      "rr": 2.18,
      "estado": "en retesteo",
@@ -13447,7 +13442,7 @@
     }
    ]
   },
-  "ts": "2026-10-26T12:52:43Z"
+  "ts": "2026-10-26T13:07:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13504,9 +13499,6 @@
   }
  ],
  "noticias_vistas": [
-  "c1be16f941",
-  "1bd59de3fc",
-  "1d233fdb89",
   "8a6e7df98c",
   "2317fe9db6",
   "5a1de07312",
@@ -14303,7 +14295,10 @@
   "fadee93a44",
   "6ea5fe35d0",
   "9f78044cef",
-  "44883252d2"
+  "44883252d2",
+  "cd9364be69",
+  "834dadee1c",
+  "48b5afefec"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
