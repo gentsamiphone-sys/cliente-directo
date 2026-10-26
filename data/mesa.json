@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3999.5 · NQ 29214.5 · VIX 19.45 · 1 noticias nuevas",
-   "actualizado": "2026-10-26T00:37:34Z"
+   "ultimo_resultado": "Oro 4009.0 · NQ 29194.25 · VIX 19.45 · 1 noticias nuevas",
+   "actualizado": "2026-10-26T00:42:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T00:37:33Z",
-   "ultimo_resultado": "1 titulares nuevos: Gold Dec 26 (GC=F) Stock Price, News, Quote & History"
+   "actualizado": "2026-10-26T00:42:39Z",
+   "ultimo_resultado": "1 titulares nuevos: SpaceX closes $40 billion debt deal for AI chips, Elon Musk says"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4009.0 · NQ 29194.25 · VIX 19.45 · 1 noticias nuevas",
+   "ts": "2026-10-26T00:42:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3999.5 · NQ 29214.5 · VIX 19.45 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-25T11:12:28Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "2 titulares nuevos, 1 de alto impacto: Audi construirá fábrica de SUV en Georgia por 4 mil millones de dólares mientras Trump promueve aranceles",
-   "ts": "2026-10-25T11:07:31Z"
   }
  ],
  "briefs": [
@@ -10620,12 +10620,21 @@
   }
  },
  "en_vivo": {
-  "oro": 3999.5,
-  "nq": 29214.5,
+  "oro": 4009.0,
+  "nq": 29194.25,
   "vix": 19.45,
-  "ts": "2026-10-26T00:37:33Z"
+  "ts": "2026-10-26T00:42:39Z"
  },
  "noticias": [
+  {
+   "titulo": "SpaceX closes $40 billion debt deal for AI chips, Elon Musk says",
+   "link": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
+   "ts": "2026-10-26T00:37:51Z",
+   "fuente": "CNBC",
+   "id": "e71c885d66",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Brazil's Lula wins presidential election in runoff vote",
    "link": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
@@ -11481,17 +11490,6 @@
    "id": "f4f8544b69",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Newport Gold Group review: Is this gold IRA company worth it?",
-   "link": "https://www.usatoday.com/story/money/money-management/investing/2026/10/25/newport-gold-group-review/92401867007/?.tsrc=rss",
-   "ts": "2026-10-25T12:35:14Z",
-   "fuente": "Yahoo Finance",
-   "id": "1011cd8d7b",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Reseña de Newport Gold Group: ¿Vale la pena esta empresa de IRA de oro?",
-   "efecto": "Contenido comercial sin relevancia para la operativa institucional."
   }
  ],
  "eventos_avisados": [
@@ -12129,14 +12127,14 @@
     4010.6,
     4011.1,
     3996.6,
-    3999.4
+    4008.5
    ],
    [
-    1792974449,
-    3999.5,
-    3999.5,
-    3999.5,
-    3999.5
+    1792974756,
+    4009.0,
+    4009.0,
+    4009.0,
+    4009.0
    ]
   ],
   "nq": [
@@ -12761,14 +12759,14 @@
     29140.75,
     29247.5,
     29108.75,
-    29206.0
+    29198.5
    ],
    [
-    1792974452,
-    29214.5,
-    29214.5,
-    29214.5,
-    29214.5
+    1792974754,
+    29194.25,
+    29194.25,
+    29194.25,
+    29194.25
    ]
   ],
   "vix": [
@@ -13381,7 +13379,6 @@
   }
  ],
  "noticias_vistas": [
-  "4cde881f4b",
   "1b4dbbf29b",
   "496638dadd",
   "0b8058a159",
@@ -14180,7 +14177,8 @@
   "41c6a9e613",
   "ef9cbf2b5a",
   "43400a899f",
-  "5193955722"
+  "5193955722",
+  "e71c885d66"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
