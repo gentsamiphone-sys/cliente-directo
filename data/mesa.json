@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4029.0 · NQ 29122.5 · VIX 19.59 · 5 noticias nuevas",
-   "actualizado": "2026-10-26T11:07:32Z"
+   "ultimo_resultado": "Oro 4028.3 · NQ 29101.0 · VIX 19.71 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-26T11:14:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T11:07:32Z",
-   "ultimo_resultado": "5 titulares nuevos: Stock futures tick higher as oil prices drop to begin the week: Live updates"
+   "actualizado": "2026-10-26T11:14:31Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Vytautas Magnus y la Universidad de Pekín ganan oro en el mundial universitario"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4028.3 · NQ 29101.0 · VIX 19.71 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-26T11:14:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4029.0 · NQ 29122.5 · VIX 19.59 · 5 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Historial: 12 operaciones, 25% de acierto, +6.08 R.",
    "ts": "2026-10-25T21:32:49Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Revisando cómo salieron las entradas anteriores…",
-   "ts": "2026-10-25T21:32:47Z"
   }
  ],
  "briefs": [
@@ -10787,12 +10787,36 @@
   }
  },
  "en_vivo": {
-  "oro": 4029.0,
-  "nq": 29122.5,
-  "vix": 19.59,
-  "ts": "2026-10-26T11:07:32Z"
+  "oro": 4028.3,
+  "nq": 29101.0,
+  "vix": 19.71,
+  "ts": "2026-10-26T11:14:31Z"
  },
  "noticias": [
+  {
+   "titulo": "An incredible fourth world gold for Vytautas Magnus, Peking University crowned queens",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOU01VUR1RTlHMUhSenV6RzBjdzVUenhDSjFGcnNORU83Uy1uYXA1bC01Nko2RVZfSm1wMFdTc3hKZnJQRWcxd2xYN2FDQ0N4Mk5jbFlTbWNSelBiZnpRYS1tbWQ0UkxVaVloNG4xcDF4c2stNmh0ZEVBaHhqcFpEQm5fc3VnX0t5dDVRTU1UQmlXLWFtS0oyNmhqZ1BSMEo5RUo1d1V1bnlIbGZreXQ1STc5QWd0UUwx?oc=5",
+   "ts": "2026-10-26T11:09:22Z",
+   "fuente": "FISU",
+   "id": "83180e827e",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Vytautas Magnus y la Universidad de Pekín ganan oro en el mundial universitario",
+   "efecto": ""
+  },
+  {
+   "titulo": "Verizon lifts annual forecasts, signs more than $2 billion AI infrastructure deal with AWS",
+   "link": "https://www.cnbc.com/2026/10/26/verizon-lifts-annual-forecasts-signs-more-than-2-billion-ai-infrastructure-deal-with-aws.html",
+   "ts": "2026-10-26T11:09:08Z",
+   "fuente": "CNBC",
+   "id": "55db47ae22",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Verizon eleva previsiones y firma acuerdo de IA con AWS por 2.000 millones",
+   "efecto": ""
+  },
   {
    "titulo": "Stock futures tick higher as oil prices drop to begin the week: Live updates",
    "link": "https://www.cnbc.com/2026/10/25/stock-market-today-live-updates.html",
@@ -11264,6 +11288,21 @@
    "efecto": ""
   },
   {
+   "titulo": "U.S. Treasury yields are little changed as investors look ahead to the Fed's rate decision",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdnVMeHR0cjdhVXpVQk9hZWdUUkVoMjAwX3g5OG5iWWprMW5XeEJoaC1CaTlDUVZSZ1ZjZnE4SFpsLWlCMXFXWE1lNnRoNzBKU1NqM2J1QmNUSVNhRzB4MUJxdXpMR0dQRUpNeGFOdDJ6Z25fcjA2QmVvczUxQko5RHc0d0tycDdIZGxIaGlqM3Z3OWhKeEhGMUxB0gGfAUFVX3lxTFA4SUxwS3ZmSEZwWmtRM0VkOUtZQUlSN0djS0JYRkxhMnF1VFhpVzdRWU91b1BoTjBhUm5HVkt4OHhMNElOR0JHYXpGTm5Md0NRa0lmTC1MRzNmWlAwb1lzX2hYbWgzSExzS0pZRXNfd01LNktjbVZBYTJwa2t2d0M5NUxqd2ZMVXJIam9lRHJrN09hcmlyVEpUYVptZzM0VQ?oc=5",
+   "ts": "2026-10-26T07:49:09Z",
+   "fuente": "CNBC",
+   "id": "6acb036b7d",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Rendimientos de los bonos del Tesoro de EE. UU. apenas cambian ante la decisión de la Fed",
+   "efecto": ""
+  },
+  {
    "titulo": "U.S. Treasury yields inch lower as investors look ahead to the Fed's rate decision",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdnVMeHR0cjdhVXpVQk9hZWdUUkVoMjAwX3g5OG5iWWprMW5XeEJoaC1CaTlDUVZSZ1ZjZnE4SFpsLWlCMXFXWE1lNnRoNzBKU1NqM2J1QmNUSVNhRzB4MUJxdXpMR0dQRUpNeGFOdDJ6Z25fcjA2QmVvczUxQko5RHc0d0tycDdIZGxIaGlqM3Z3OWhKeEhGMUxB0gGfAUFVX3lxTFA4SUxwS3ZmSEZwWmtRM0VkOUtZQUlSN0djS0JYRkxhMnF1VFhpVzdRWU91b1BoTjBhUm5HVkt4OHhMNElOR0JHYXpGTm5Md0NRa0lmTC1MRzNmWlAwb1lzX2hYbWgzSExzS0pZRXNfd01LNktjbVZBYTJwa2t2d0M5NUxqd2ZMVXJIam9lRHJrN09hcmlyVEpUYVptZzM0VQ?oc=5",
    "ts": "2026-10-26T07:49:09Z",
@@ -11649,39 +11688,6 @@
    "impacto": "bajo",
    "es": "Votante de Michigan evalúa los aranceles de Trump",
    "efecto": ""
-  },
-  {
-   "titulo": "Nasdaq Futures Slip Amid Tech Selloff While S&P 500, Dow Edge Higher Ahead Of Crucial Earnings Week: IREN, CRWV, NBIS, MRNA, EWZ In Focus",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPS19Vam1WRGhBandIYVVkNGlPLTFBb0JHVUYtdTJIb09zWXk2cEZSakhXaWt2dEgzR21pb0NQRU9QanR2elRLQkxtU3owSzFZbmVtT2VFX2Z2VDdiZlZ4V3ZCZDc1OVM4VmJ4Wk9Tc1BoaDdoY1FPd2xUSnd5eHNHQlVQd2w3OHNaOC1GMnhyWXpfUFU4aDIydEhR?oc=5",
-   "ts": "2026-10-26T02:44:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "aa321aa697",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Carnavale Resources' Kookynie Gold Project BFS delivers A$104M pre tax cash flow",
-   "link": "https://finance.yahoo.com/video/carnavale-resources-kookynie-gold-project-023847943.html?.tsrc=rss",
-   "ts": "2026-10-26T02:38:47Z",
-   "fuente": "Yahoo Finance",
-   "id": "1f2c5eafaf",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Three Rivers Hospital receives gold award for rural stroke care",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONXU0aVRlem4zVkMwWEdBcmVnaldtNHYwd1Rkd0Y2UjdsWHhRYkFRNWQxVkg3U0JNUm9JSkR4VmlCdE9RemlYbjU3X0pfcTlsaUVFbl8tWDgza3lod2xDSFhaZVowaGNqb2JHWnR4aWVGbGh0cldjVGFaSHhmN3NpTjZIb2ozTUFIcFFiM2lDcW43SmtpVW5VaGdrQV9yNkJHV0FfZQ?oc=5",
-   "ts": "2026-10-26T02:23:45Z",
-   "fuente": "Quad City Herald",
-   "id": "06b572e36e",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12231,11 +12237,18 @@
     4029.0
    ],
    [
-    1793012239,
-    4029.0,
-    4029.0,
-    4029.0,
-    4029.0
+    1793012400,
+    4028.9,
+    4030.4,
+    4027.4,
+    4028.1
+   ],
+   [
+    1793012667,
+    4028.3,
+    4028.3,
+    4028.3,
+    4028.3
    ]
   ],
   "nq": [
@@ -12768,15 +12781,22 @@
     1793008800,
     29222.5,
     29222.5,
-    29106.25,
-    29118.5
+    29080.5,
+    29088.5
    ],
    [
-    1793012251,
-    29122.5,
-    29122.5,
-    29122.5,
-    29122.5
+    1793012400,
+    29087.25,
+    29111.25,
+    29071.75,
+    29103.5
+   ],
+   [
+    1793012670,
+    29102.25,
+    29102.25,
+    29102.25,
+    29102.25
    ]
   ],
   "vix": [
@@ -13196,20 +13216,20 @@
    [
     1793008800,
     19.19,
-    19.64,
+    19.65,
     19.19,
-    19.59
+    19.65
    ],
    [
-    1793011936,
-    19.59,
-    19.59,
-    19.59,
-    19.59
+    1793012356,
+    19.71,
+    19.71,
+    19.71,
+    19.71
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-26T10:37:38Z",
+ "noticias_traducidas_ts": "2026-10-26T11:14:26Z",
  "ult_4h": 1793012555.4682655,
  "estrategia_4h": {
   "oro": {
@@ -13319,9 +13339,6 @@
   }
  ],
  "noticias_vistas": [
-  "39f18d507d",
-  "36b746c7de",
-  "2b57d3e951",
   "6554c2487c",
   "204892a625",
   "bbcee790cc",
@@ -14118,7 +14135,10 @@
   "dc1f95e8e1",
   "b02221fefb",
   "22ecb229aa",
-  "b9007846dc"
+  "b9007846dc",
+  "83180e827e",
+  "55db47ae22",
+  "6acb036b7d"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
