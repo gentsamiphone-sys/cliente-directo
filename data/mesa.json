@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4028.5 · NQ 29159.0 · VIX 19.5 · 4 noticias nuevas",
-   "actualizado": "2026-10-26T10:47:46Z"
+   "ultimo_resultado": "Oro 4026.4 · NQ 29134.0 · VIX 19.49 · 1 noticias nuevas",
+   "actualizado": "2026-10-26T10:53:06Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T10:47:45Z",
-   "ultimo_resultado": "4 titulares nuevos: Private equity pours billions into defense tech as investors debate a bubble"
+   "actualizado": "2026-10-26T10:53:05Z",
+   "ultimo_resultado": "1 titulares nuevos: Buy Tesla ahead of potential SpaceX merger, says Barclays"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4026.4 · NQ 29134.0 · VIX 19.49 · 1 noticias nuevas",
+   "ts": "2026-10-26T10:53:06Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4028.5 · NQ 29159.0 · VIX 19.5 · 4 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: Gold & SP 500 Futures Update",
    "ts": "2026-10-25T21:27:33Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-25T21:22:34Z"
   }
  ],
  "briefs": [
@@ -10787,12 +10787,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4028.5,
-  "nq": 29159.0,
-  "vix": 19.5,
-  "ts": "2026-10-26T10:47:46Z"
+  "oro": 4026.4,
+  "nq": 29134.0,
+  "vix": 19.49,
+  "ts": "2026-10-26T10:53:06Z"
  },
  "noticias": [
+  {
+   "titulo": "Buy Tesla ahead of potential SpaceX merger, says Barclays",
+   "link": "https://www.cnbc.com/2026/10/26/tesla-spacex-merger-barclays.html",
+   "ts": "2026-10-26T10:49:48Z",
+   "fuente": "CNBC",
+   "id": "f2ede19f32",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Private equity pours billions into defense tech as investors debate a bubble",
    "link": "https://www.cnbc.com/2026/10/26/defense-tech-private-equity-investment.html",
@@ -11671,17 +11682,6 @@
    "id": "18840189d8",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Following a two-week slump on the Nasdaq, faith in AI is faltering as capital shifts from chasing growth to scrutinizing AI investment returns.",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb21ZRXZOTzVmSmxJMUNicERWWE1JWC1qZDBRUk01LWtnaG5ZNEJEaEpaRTdPeGN0QTNMSzg3My0zMC12ekllT0RiV18yVlBoQ2ZRblNsYndWbGJ3Zm8zMjFnZl9Za0xkRkJMWFpLUzVDM3dKOGNjV1hGVHF3QVYtS0lYckhUODVRSFBWeHc3X1Y4R1ZKbkVEcg?oc=5",
-   "ts": "2026-10-26T01:18:38Z",
-   "fuente": "Moomoo",
-   "id": "d5b6687d37",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12227,15 +12227,15 @@
     1793008800,
     4031.5,
     4032.9,
-    4027.6,
-    4028.4
+    4025.8,
+    4025.9
    ],
    [
-    1793011062,
-    4028.5,
-    4028.5,
-    4028.5,
-    4028.5
+    1793011384,
+    4026.4,
+    4026.4,
+    4026.4,
+    4026.4
    ]
   ],
   "nq": [
@@ -12768,15 +12768,15 @@
     1793008800,
     29219.5,
     29222.5,
-    29128.5,
-    29158.75
+    29125.5,
+    29132.75
    ],
    [
-    1793011065,
-    29159.0,
-    29159.0,
-    29159.0,
-    29159.0
+    1793011385,
+    29134.0,
+    29134.0,
+    29134.0,
+    29134.0
    ]
   ],
   "vix": [
@@ -13198,14 +13198,14 @@
     19.19,
     19.56,
     19.19,
-    19.51
+    19.5
    ],
    [
-    1793010751,
-    19.5,
-    19.5,
-    19.5,
-    19.5
+    1793011081,
+    19.49,
+    19.49,
+    19.49,
+    19.49
    ]
   ]
  },
@@ -13319,7 +13319,6 @@
   }
  ],
  "noticias_vistas": [
-  "c710bf5981",
   "db16d41402",
   "25ea9b38e7",
   "0bd5fc99d5",
@@ -14118,7 +14117,8 @@
   "56a553702d",
   "8633fb2900",
   "0db62e322d",
-  "04b0f06c50"
+  "04b0f06c50",
+  "f2ede19f32"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
