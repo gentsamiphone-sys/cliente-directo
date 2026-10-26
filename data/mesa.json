@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4030.9 · NQ 29200.5 · VIX 19.23",
-   "actualizado": "2026-10-26T09:47:31Z"
+   "ultimo_resultado": "Oro 4032.6 · NQ 29204.75 · VIX 19.24 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-26T09:52:51Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T09:47:30Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-26T09:52:51Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: How war, security and coalition math are shaping the Israeli election"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4032.6 · NQ 29204.75 · VIX 19.24 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-26T09:52:51Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4030.9 · NQ 29200.5 · VIX 19.23",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-25T20:27:31Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: FOX 2's Roop Raj interviews President Trump ahead of Michigan rally",
-   "ts": "2026-10-25T20:22:30Z"
   }
  ],
  "briefs": [
@@ -10787,12 +10787,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4030.9,
-  "nq": 29200.5,
-  "vix": 19.23,
-  "ts": "2026-10-26T09:47:30Z"
+  "oro": 4032.6,
+  "nq": 29204.75,
+  "vix": 19.24,
+  "ts": "2026-10-26T09:52:51Z"
  },
  "noticias": [
+  {
+   "titulo": "How war, security and coalition math are shaping the Israeli election",
+   "link": "https://www.cnbc.com/2026/10/26/israel-election-netanyahu-iran-gaza-palestine.html",
+   "ts": "2026-10-26T09:46:59Z",
+   "fuente": "CNBC",
+   "id": "9754157ba5",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Texas Instruments (NASDAQ:TXN): High Growth Momentum Meets Breakout Setup",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRXBLYndwLUt5d2o0VzNLNVFDSE1abDV5MDhXUFFibnhYRHdHV2pubjIzcWppLXFhN3BHOHp5NF9Gd01ySG9zemlyMjJpbWJsbkgyM2hxcHZUME5USzZwLS1FdnJkd3FmaFEwRzB2T1V6WlU3VGVOSlpRMnBZSTIyOU1Cb0RXM041eTExNjNuRk0wa2VxUkFFaW01MnliR190SFJ6ZHhqTGpiOVNJeEo2SFVaaGhtM3laM2FFcg?oc=5",
+   "ts": "2026-10-26T09:20:53Z",
+   "fuente": "ChartMill",
+   "id": "d925e31976",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Gold domes from India now welcome worshippers at new Sikh temple",
    "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOZjZJTk4wM2Q1NmhqUU1GQmNmYnRpVmQwSGxCSlQyX1lWc3hzQVItOGhqNU1PMTl4aG5nSjZSYklzVzFQSjh1REFzd2hXVWNObDVCS0N5X1Y4UW45UnR5cVREMGMwY1NhSHlrTUlOTU5fR19IS1hNZXBqQ2VOMDVLSFQzNnBHQkEwdExOLXhRYnJhZ2Q2dlJnM1hOTHVmZzEyQXBpd2RtMmdQVFZjQlNQcVpIZG9WTVZzR0RsV3FwTktMTkdRc21RWDVabUdzeU5Pam83bUZRczZoVzhnUlFKOW9meGVQWndrWkltN0tuWF9YalJGSmJLaS1kbEdfeUYxUlNuMGJUUQ?oc=5",
@@ -11652,26 +11672,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Brazil pauses presidential vote count after Supreme Court extends voting hours",
-   "link": "https://www.cnbc.com/2026/10/25/brazil-lula-bolsonaro-presidential-election-runoff.html",
-   "ts": "2026-10-25T21:29:59Z",
-   "fuente": "CNBC",
-   "id": "ef899019f2",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Osama Claims Gold for Nittany Lions on Final Day of Coach Nikki Franke Invitational",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeGZmcjdKczNiOHFEd000M0trLTZzc01hVzRIV1RfcG1qSWdxOXdLWUVOcFBvRFVGa0lpbGFySUNmLXppV0cyZW9IZkFlTzhSS3NYWEZzcEhYbU03NVkxVnZaNlJOeXk1VHVWZGk0ZzhsR1JBeTI5OTRqZTQ5Vk9NbHBuaEo0RjN6a2ZBWkJoeXo5TGZGLUVCeGRxVzdmdkhBRThsSUJjbnlEWm5PS1c5ZGpKcS1FWVdSWF92T01KMWk?oc=5",
-   "ts": "2026-10-25T21:25:52Z",
-   "fuente": "gopsusports.com",
-   "id": "066def5643",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Osama reclama el oro para los Nittany Lions en el último día del invitacional Nikki Franke",
-   "efecto": "Noticia deportiva sin relevancia para las operaciones."
   }
  ],
  "eventos_avisados": [
@@ -12209,16 +12209,16 @@
    [
     1793005200,
     4031.0,
-    4032.5,
+    4034.3,
     4027.1,
-    4031.6
+    4032.9
    ],
    [
-    1793007430,
-    4030.9,
-    4030.9,
-    4030.9,
-    4030.9
+    1793007767,
+    4032.6,
+    4032.6,
+    4032.6,
+    4032.6
    ]
   ],
   "nq": [
@@ -12745,14 +12745,14 @@
     29170.25,
     29214.0,
     29167.0,
-    29199.0
+    29202.0
    ],
    [
-    1793007449,
-    29200.0,
-    29200.0,
-    29200.0,
-    29200.0
+    1793007764,
+    29204.75,
+    29204.75,
+    29204.75,
+    29204.75
    ]
   ],
   "vix": [
@@ -13167,14 +13167,14 @@
     19.28,
     19.28,
     19.17,
-    19.2
+    19.25
    ],
    [
-    1793007136,
-    19.23,
-    19.23,
-    19.23,
-    19.23
+    1793007466,
+    19.24,
+    19.24,
+    19.24,
+    19.24
    ]
   ]
  },
@@ -13288,8 +13288,6 @@
   }
  ],
  "noticias_vistas": [
-  "776636da62",
-  "3aa18aa52b",
   "63aa561ef8",
   "67f4e25a61",
   "791979ede8",
@@ -14087,7 +14085,9 @@
   "08ead83666",
   "42dd1e34b5",
   "c9c81bd346",
-  "8792438875"
+  "8792438875",
+  "9754157ba5",
+  "d925e31976"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
