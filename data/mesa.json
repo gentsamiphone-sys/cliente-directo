@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4029.7 · NQ 29212.0 · VIX 19.42 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-26T11:57:31Z"
+   "ultimo_resultado": "Oro 4030.5 · NQ 29290.5 · VIX 19.26 · 1 noticias nuevas",
+   "actualizado": "2026-10-26T12:06:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T11:57:31Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Trump says he'll soon decide whether to ‘make a deal’ with Iran or ‘finish it off'"
+   "actualizado": "2026-10-26T12:06:34Z",
+   "ultimo_resultado": "1 titulares nuevos: Brazilian stocks rocked as Lula wins presidential election, Bolsonaro reportedly refuses to concede"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4030.5 · NQ 29290.5 · VIX 19.26 · 1 noticias nuevas",
+   "ts": "2026-10-26T12:06:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4029.7 · NQ 29212.0 · VIX 19.42 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Volatilidad elevada (VIX 19.45).",
    "ts": "2026-10-25T21:33:04Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "VIX/NQ: CONFIRMA BAJISTA: NQ baja y el VIX sube (se compra protección)",
-   "ts": "2026-10-25T21:33:02Z"
   }
  ],
  "briefs": [
@@ -10787,12 +10787,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4029.7,
-  "nq": 29212.0,
-  "vix": 19.42,
-  "ts": "2026-10-26T11:57:31Z"
+  "oro": 4030.5,
+  "nq": 29290.5,
+  "vix": 19.26,
+  "ts": "2026-10-26T12:06:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Brazilian stocks rocked as Lula wins presidential election, Bolsonaro reportedly refuses to concede",
+   "link": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+   "ts": "2026-10-26T12:02:12Z",
+   "fuente": "CNBC",
+   "id": "3100df38fc",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Trump says he'll soon decide whether to ‘make a deal’ with Iran or ‘finish it off'",
    "link": "https://www.cnbc.com/2026/10/26/us-iran-war-hormuz.html",
@@ -11661,19 +11672,6 @@
    "id": "05411934f3",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Precious Metals Buffeted By Higher Interest Rates, Deficits and Geopolitics",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/precious-metals-buffeted-higher-interest-060000368.html?.tsrc=rss",
-   "ts": "2026-10-26T06:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "d5730d8a37",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12225,16 +12223,16 @@
    [
     1793012400,
     4028.9,
-    4031.1,
+    4034.4,
     4024.1,
-    4030.0
+    4030.6
    ],
    [
-    1793015246,
-    4029.7,
-    4029.7,
-    4029.7,
-    4029.7
+    1793015791,
+    4030.5,
+    4030.5,
+    4030.5,
+    4030.5
    ]
   ],
   "nq": [
@@ -12773,16 +12771,16 @@
    [
     1793012400,
     29087.25,
-    29226.0,
+    29293.75,
     29071.75,
-    29210.25
+    29290.75
    ],
    [
-    1793015248,
-    29212.0,
-    29212.0,
-    29212.0,
-    29212.0
+    1793015792,
+    29290.5,
+    29290.5,
+    29290.5,
+    29290.5
    ]
   ],
   "vix": [
@@ -13210,23 +13208,23 @@
     1793012400,
     19.74,
     19.75,
-    19.42,
-    19.44
+    19.35,
+    19.35
    ],
    [
-    1793014936,
-    19.42,
-    19.42,
-    19.42,
-    19.42
+    1793015491,
+    19.26,
+    19.26,
+    19.26,
+    19.26
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-26T11:47:32Z",
- "ult_4h": 1793015253.5632877,
+ "ult_4h": 1793016394.3308873,
  "estrategia_4h": {
   "oro": {
-   "precio": 4026.9,
+   "precio": 4030.5,
    "atr_4h": 28.03,
    "setups": [
     {
@@ -13254,23 +13252,23 @@
    ]
   },
   "nq": {
-   "precio": 29172.75,
-   "atr_4h": 212.86,
+   "precio": 29290.5,
+   "atr_4h": 217.29,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29268.75,
      "entrada": 29268.75,
-     "stop": 29396.46,
+     "stop": 29399.12,
      "objetivo": 28987.0,
-     "rr": 2.21,
+     "rr": 2.16,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 0.93,
+     "fuerza_ruptura_atr": 0.91,
      "ruptura": "2026-10-22 16:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-26T11:47:33Z"
+  "ts": "2026-10-26T12:06:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13321,7 +13319,6 @@
   }
  ],
  "noticias_vistas": [
-  "323173ac79",
   "ee3944ea98",
   "95c6803c20",
   "cd2acfd26c",
@@ -14120,7 +14117,8 @@
   "6f2983d8a1",
   "55a6e0acf7",
   "179144c97b",
-  "286d35938f"
+  "286d35938f",
+  "3100df38fc"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
