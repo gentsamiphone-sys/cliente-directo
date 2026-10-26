@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4034.0 · NQ 29179.5 · VIX 19.24 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-26T09:07:33Z"
+   "ultimo_resultado": "Oro 4031.7 · NQ 29180.75 · VIX 19.25 · 1 noticias nuevas",
+   "actualizado": "2026-10-26T09:12:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T09:07:33Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: OceanaGold Haile Gold Mine restores Kershaw’s historic schoolhouse"
+   "actualizado": "2026-10-26T09:12:34Z",
+   "ultimo_resultado": "1 titulares nuevos: FTSE 100 today: Stocks rise as gold, miners gain; oil eases"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4031.7 · NQ 29180.75 · VIX 19.25 · 1 noticias nuevas",
+   "ts": "2026-10-26T09:12:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4034.0 · NQ 29179.5 · VIX 19.24 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-10-25T19:47:31Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-25T19:42:31Z"
   }
  ],
  "briefs": [
@@ -10787,10 +10787,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4034.0,
-  "nq": 29179.5,
-  "vix": 19.24,
-  "ts": "2026-10-26T09:07:33Z"
+  "oro": 4031.7,
+  "nq": 29180.75,
+  "vix": 19.25,
+  "ts": "2026-10-26T09:12:34Z"
  },
  "noticias": [
   {
@@ -10801,6 +10801,18 @@
    "id": "0240194f30",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "FTSE 100 today: Stocks rise as gold, miners gain; oil eases",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/ftse-100-today-stocks-rise-085210531.html?.tsrc=rss",
+   "ts": "2026-10-26T08:52:10Z",
+   "fuente": "Yahoo Finance",
+   "id": "a0ce9774f7",
+   "activos": [
+    "oro",
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -11664,17 +11676,6 @@
    "impacto": "bajo",
    "es": "Cinco partes de la estrategia de capital de TRX Gold, desde financiamiento hasta posibles recompras",
    "efecto": "Ruido corporativo menor sin impacto relevante en el mercado del oro."
-  },
-  {
-   "titulo": "Claire Pease of the U.S. ‘really proud’ of world floor exercise gold, two silvers",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdDN5bzdmbU53NFlfZW54dDVNeFJSZ00xU1BQam5ncmduNHNKQUlNdElBcXFycnBfUU84eG9DaFlPU21OaldQRloyTUt0RXZxT1hBc2tDbXhfN24zSkZsZm5vQllYR3Y3X1ZkUVhHZkE5WUhqM2VaZF9VYmsyVXlodjR1LThRcjgtZFJMN2FyeFBJM0lYVlRGX1RZb0dpNURaNmRwRGJNS3JzZVM0eXZVelo5VE9XbTVQRXpfYTZSdEsydlpvX1RqOUp0VQ?oc=5",
-   "ts": "2026-10-25T20:32:32Z",
-   "fuente": "International Gymnast Magazine Online",
-   "id": "6f4f137410",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Claire Pease, de EE. UU., 'muy orgullosa' del oro mundial en suelo, dos platas",
-   "efecto": "Noticia deportiva sin relación con los mercados financieros o materias primas."
   }
  ],
  "eventos_avisados": [
@@ -12207,14 +12208,21 @@
     4022.6,
     4036.2,
     4022.5,
-    4032.7
+    4030.8
    ],
    [
-    1793005045,
-    4034.0,
-    4034.0,
-    4034.0,
-    4034.0
+    1793005200,
+    4030.9,
+    4032.4,
+    4030.6,
+    4030.8
+   ],
+   [
+    1793005347,
+    4031.7,
+    4031.7,
+    4031.7,
+    4031.7
    ]
   ],
   "nq": [
@@ -12734,14 +12742,21 @@
     29080.25,
     29204.0,
     29024.25,
-    29177.5
+    29171.5
    ],
    [
-    1793005052,
-    29179.5,
-    29179.5,
-    29179.5,
-    29179.5
+    1793005200,
+    29170.0,
+    29187.25,
+    29167.0,
+    29182.5
+   ],
+   [
+    1793005352,
+    29180.75,
+    29180.75,
+    29180.75,
+    29180.75
    ]
   ],
   "vix": [
@@ -13152,11 +13167,11 @@
     19.24
    ],
    [
-    1793004751,
-    19.24,
-    19.24,
-    19.24,
-    19.24
+    1793005051,
+    19.25,
+    19.25,
+    19.25,
+    19.25
    ]
   ]
  },
@@ -13259,7 +13274,6 @@
   }
  ],
  "noticias_vistas": [
-  "1523904a0a",
   "b5da5d80e4",
   "8967d0bc74",
   "0ca4351b2f",
@@ -14058,7 +14072,8 @@
   "6b784bf069",
   "2492dea4f0",
   "0240194f30",
-  "c57e0cca25"
+  "c57e0cca25",
+  "a0ce9774f7"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
