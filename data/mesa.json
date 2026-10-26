@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4032.7 · NQ 29288.0 · VIX 19.14",
-   "actualizado": "2026-10-26T12:12:42Z"
+   "ultimo_resultado": "Oro 4032.1 · NQ 29316.75 · VIX 19.18 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-26T12:17:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T12:12:41Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-26T12:17:40Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Principales recomendaciones de analistas del lunes: Tesla, Nvidia, Apple y más"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4032.1 · NQ 29316.75 · VIX 19.18 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-26T12:17:41Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4032.7 · NQ 29288.0 · VIX 19.14",
@@ -1056,11 +1061,6 @@
    "agente": "historiador",
    "texto": "Revisando qué pasó en esta misma fecha los últimos 10 años y buscando años parecidos…",
    "ts": "2026-10-25T21:33:07Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "ES/NQ: CONFIRMA: ES y NQ van en la misma dirección · ES bajista en 1H",
-   "ts": "2026-10-25T21:33:06Z"
   }
  ],
  "briefs": [
@@ -10787,12 +10787,38 @@
   }
  },
  "en_vivo": {
-  "oro": 4032.7,
-  "nq": 29288.0,
-  "vix": 19.14,
-  "ts": "2026-10-26T12:12:42Z"
+  "oro": 4032.1,
+  "nq": 29316.75,
+  "vix": 19.18,
+  "ts": "2026-10-26T12:17:41Z"
  },
  "noticias": [
+  {
+   "titulo": "Here are Monday's biggest analyst calls: Tesla, Nvidia, SpaceX, Apple, Ross, Dollar General, Lockheed Martin & more",
+   "link": "https://www.cnbc.com/2026/10/26/monday-biggest-wall-street-analyst-calls-like-tesla.html",
+   "ts": "2026-10-26T12:15:36Z",
+   "fuente": "CNBC",
+   "id": "bef220dc57",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "Principales recomendaciones de analistas del lunes: Tesla, Nvidia, Apple y más",
+   "efecto": ""
+  },
+  {
+   "titulo": "Dow Jones, Nasdaq, S&P 500 weekly preview: Markets brace for pivotal earnings week",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA5YUhVb1RfTmg1SWVsZ3p3R05JazV6UnRzZG1wc1FINTNWaTZkOUxTM2laV0dCZVFTYTN4VVIzMDVLcHJRU3J0QmEyT2s5V20zRVFDclJNakpRRGtJNWQyUUtOQ1MyU3packJrakJwS01EUzVnZ0ljdnFobw?oc=5",
+   "ts": "2026-10-26T12:03:59Z",
+   "fuente": "Yahoo Finance Singapore",
+   "id": "c3a376461e",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Previsiones semanales: mercados se preparan para semana clave de resultados",
+   "efecto": "Aumenta la volatilidad y posicionamiento institucional en tecnológicas."
+  },
   {
    "titulo": "Brazilian stocks rocked as Lula wins presidential election, Bolsonaro reportedly refuses to concede",
    "link": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
@@ -11181,6 +11207,19 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "TSX futures tick higher as gold climbs, oil falls on Iran hopes",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaS1BdGdIUmFzU0ljYWNNT0tlZ1o4T1RXZmJCTGIxVXRVOS1zbFVTYXk0LTE2N0gzcFlTMDFzTGl5VlIxRkFwSU93em5ENzZDTkd5Mk1hV3E4cS1KU1lnV0pEX3diTTJDSk5tUlVraVAyMFpsXzY0d2hxMGIxaEJYMTVjUEFBT0lNQk5oN3FZSDhfUmNodmlVQ1hDMFE1SnlaajdJ?oc=5",
+   "ts": "2026-10-26T10:32:13Z",
+   "fuente": "Reuters",
+   "id": "0a9d81cd78",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio",
+   "es": "Futuros del TSX suben mientras el oro avanza y el petróleo cae por esperanzas sobre Irán",
+   "efecto": "Impulsa al oro al alza por flujos de refugio."
   },
   {
    "titulo": "Onyx Gold Drills 166.0 Meters of 0.7 g/t Gold at Argus Main and Extends Argus Trend to 2.6 Kilometers with New Gold Intercepts at Big Break and JM",
@@ -11630,35 +11669,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "\"We just regroup and push forward:\" Lilah Fear and Lewis Gibson on their Olympic learnings - and what they hope fans will take from 'Dancing for Gold' documentary",
-   "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOLVppX29WQ1hxclA5N1hUTDNXa2JxdGNUUlNaeXFwTEQ2Y1NMdHZxTlprYTVtOE1vX0Z0TUdxeXQ0YUdzaDd3OWlacU5PaVhDTzlpNVIyQ3Z3NmVWc1RJVTlwOXEyRzZ4ckY1WmdwT3FCMXRucWdJbkt4alFsTzdvMTg2MUZEY1dIa0pJVkM5RFR2WV9tZ19iWlQ0OEVyZmlRY2RUWTlsMG9CS050ZDNZN1ZMc0tvWlNsZXY3bzZHRmlidWNZVHBxZFdpUVNwSXh6UDc4UTdJUEF0bzV4RkNDM3pUUXdPV2YzeWttd2s1ckI0MzlTRXNzQlY4eHZNWmsxbW0yMW53cEF4N1Z4Tm9FazJUdkJHeVU?oc=5",
-   "ts": "2026-10-26T07:23:40Z",
-   "fuente": "Olympic Channel",
-   "id": "e14d54517a",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Supreme Court invalidates most of Trump's tariffs - ABC News",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTTZyamI3Uks3N20wbnpWemxhQTh5NG9UODJyVHFXUE5KTGFmMWlYSVZpUW9Eb2JnUmFjU1RJMWYzOW5pX0l3UXlPdWpaaEJqOUNmU1pQa2dNQUtvUjhwQVdweno2bU9kbTVNams1SmhqY1FrZklQU3BTTnF1S0VJd2RMNTZ1VmJVamt0SUdYem9JZ9IBlwFBVV95cUxNa0dWUktjN181VDcyUThKWGIzLTU1VnBsdlhOb3p6NmJMWHpodDh0c2M1WHA2SHZKdTRSQmhNbUxXZW13RllnbS01cktCOWhYY19MZXJtR2w2WnVfZjBYVGRDQ2pnM2NLTGwtZnZOZGlpc3FNM3ZQSWdETHNMQzg3a3hWMTdnV25FQzkyMDlOVkoyR3l6SkZF?oc=5",
-   "ts": "2026-10-26T07:19:01Z",
-   "fuente": "Breaking News, Latest News and Videos",
-   "id": "9152b0cb55",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Grupo Financiero Galicia (GGAL) Stock Sees Fair Value Cut As Analysts Turn More Cautious",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/grupo-financiero-galicia-ggal-stock-070539288.html?.tsrc=rss",
-   "ts": "2026-10-26T07:05:39Z",
-   "fuente": "Yahoo Finance",
-   "id": "6555e9b66e",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -12217,16 +12227,16 @@
    [
     1793016000,
     4029.8,
-    4033.4,
+    4034.7,
     4029.2,
-    4033.2
+    4031.8
    ],
    [
-    1793016159,
-    4032.7,
-    4032.7,
-    4032.7,
-    4032.7
+    1793016459,
+    4032.1,
+    4032.1,
+    4032.1,
+    4032.1
    ]
   ],
   "nq": [
@@ -12772,16 +12782,16 @@
    [
     1793016000,
     29264.0,
-    29290.75,
+    29335.75,
     29257.0,
-    29283.75
+    29319.25
    ],
    [
-    1793016161,
-    29289.5,
-    29289.5,
-    29289.5,
-    29289.5
+    1793016459,
+    29316.75,
+    29316.75,
+    29316.75,
+    29316.75
    ]
   ],
   "vix": [
@@ -13210,18 +13220,25 @@
     19.74,
     19.75,
     19.13,
-    19.15
+    19.24
    ],
    [
-    1793015851,
-    19.14,
-    19.14,
-    19.14,
-    19.14
+    1793016000,
+    19.23,
+    19.24,
+    19.21,
+    19.21
+   ],
+   [
+    1793016151,
+    19.18,
+    19.18,
+    19.18,
+    19.18
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-26T11:47:32Z",
+ "noticias_traducidas_ts": "2026-10-26T12:17:32Z",
  "ult_4h": 1793016394.3308873,
  "estrategia_4h": {
   "oro": {
@@ -13320,9 +13337,6 @@
   }
  ],
  "noticias_vistas": [
-  "5a407731ed",
-  "1c1a95cf05",
-  "3f835b40fe",
   "54884e5674",
   "fa18f10edd",
   "6d117b94c4",
@@ -14119,7 +14133,10 @@
   "a7b3548003",
   "ef95c8f32d",
   "05fd6853b5",
-  "cbf623148e"
+  "cbf623148e",
+  "bef220dc57",
+  "c3a376461e",
+  "0a9d81cd78"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
