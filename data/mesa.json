@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4028.3 · NQ 29101.0 · VIX 19.71 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-26T11:14:32Z"
+   "ultimo_resultado": "Oro 4026.9 · NQ 29092.5 · VIX 19.72 · 3 noticias nuevas",
+   "actualizado": "2026-10-26T11:17:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T11:14:31Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Vytautas Magnus y la Universidad de Pekín ganan oro en el mundial universitario"
+   "actualizado": "2026-10-26T11:17:33Z",
+   "ultimo_resultado": "3 titulares nuevos: Gold medal bouts set as we head into the finals of the World Boxing U19 Championships in Budva, Montenegro"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4026.9 · NQ 29092.5 · VIX 19.72 · 3 noticias nuevas",
+   "ts": "2026-10-26T11:17:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4028.3 · NQ 29101.0 · VIX 19.71 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
    "ts": "2026-10-25T21:32:50Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Historial: 12 operaciones, 25% de acierto, +6.08 R.",
-   "ts": "2026-10-25T21:32:49Z"
   }
  ],
  "briefs": [
@@ -10787,12 +10787,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4028.3,
-  "nq": 29101.0,
-  "vix": 19.71,
-  "ts": "2026-10-26T11:14:31Z"
+  "oro": 4026.9,
+  "nq": 29092.5,
+  "vix": 19.72,
+  "ts": "2026-10-26T11:17:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Gold medal bouts set as we head into the finals of the World Boxing U19 Championships in Budva, Montenegro",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVEtJSHJFMGJGanF5d0NaV0I2NWg2VHlGa0Iwd3hsNzQ3ZkM1NDVOYjZ6cWNwVjhDS0ZQUWxQdzY1elhSLXNGOUNKRXdfOG9RRmFjczI4YW05NlJLSHdRczNnazdMRURoRnUyM1RnTERPU3VXT2hWV1dZSDFRTzYzcU5QeVBLbHJSZzNZaUZTRDhoRFJVUlpiSk1sTUlGRWtrQms1U3hrdkp5NGVmaFpkTkE1SmF1NlFMVWI2NlJsY2RyNGFlVUsyZ2VR?oc=5",
+   "ts": "2026-10-26T11:15:09Z",
+   "fuente": "World Boxing",
+   "id": "5c2125d680",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "An incredible fourth world gold for Vytautas Magnus, Peking University crowned queens",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOU01VUR1RTlHMUhSenV6RzBjdzVUenhDSjFGcnNORU83Uy1uYXA1bC01Nko2RVZfSm1wMFdTc3hKZnJQRWcxd2xYN2FDQ0N4Mk5jbFlTbWNSelBiZnpRYS1tbWQ0UkxVaVloNG4xcDF4c2stNmh0ZEVBaHhqcFpEQm5fc3VnX0t5dDVRTU1UQmlXLWFtS0oyNmhqZ1BSMEo5RUo1d1V1bnlIbGZreXQ1STc5QWd0UUwx?oc=5",
@@ -10825,6 +10836,28 @@
    "id": "9eef03c0a9",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "New Break Refines Targets as 2026 Drilling Resumes at Its Moray Gold Project",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/break-refines-targets-2026-drilling-110000622.html?.tsrc=rss",
+   "ts": "2026-10-26T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "ddc20f2b74",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Rocky Shore Discovers New Bulk-Scale MTH Gold Zone, Reports Record High-Grade Intercept at Mosquito and Expands Drill Program to 20,000 Metres",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/rocky-shore-discovers-bulk-scale-110000678.html?.tsrc=rss",
+   "ts": "2026-10-26T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "01b5bafa04",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Abcourt Mines Produces 740 Ounces of Gold in September",
@@ -11650,44 +11683,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd1JWWk9vMTJ5UlFRNkRkMUFHMGxRbGtReG5mdmF3Z29SNURBS210cGo0NU8wbGV1a1JUSFdTWVdPellBV0ZpS3lUZThFTDFJcGRhVXZsejFlT2VTd2tocUhBMWdJNHlzNUV4aWNFd0pJVUliX256eHg5cThUdF9XZTA1NUJSTFZhWl9EbUsxUEZwXzFKM3ZTVndjaVlXUTBqcXV0eUNhOTNZLUhyeWxnblpOcDZwbXItX2pWRUtHbkpqWFB1ZGxPZjFDYw?oc=5",
-   "ts": "2026-10-26T03:21:00Z",
-   "fuente": "TradingView",
-   "id": "b54b6d5333",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gold steadies near 3-mth low as markets brace for Fed meeting",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcFQ1alE2OUhRMWJwbU5GeldSU1h4MWVJMXotUG5GVEkzUnlxb1hsTVJzYnZkRE15X2phMHRRNUtyWXlURGxhSHp5blFJUGVXRFFUZVVTSTE2VlNHbW9ET0t6SmVYY3paMTBnemRYZXBFa3M4Z1RNemZieWJoVE14MVM4clFBMWlkZkt1ZGJUQ010dnI5MGQ5V1Rzc2hWYWtHU1JEY1N6cE1IUHp3Q2tPUVUtUHU1bUVTcGlQX3cxT3psU0U4?oc=5",
-   "ts": "2026-10-26T03:04:47Z",
-   "fuente": "Investing.com",
-   "id": "aece772978",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El oro se estabiliza cerca de mínimos de 3 meses ante la reunión de la Fed",
-   "efecto": "Genera cautela institucional a la espera de señales sobre tasas."
-  },
-  {
-   "titulo": "‘It’s worth it to me’: Michigan voter weighs in on Trump’s tariffs",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUm15VFB4X1pvXzhqYTFTTVRtM0lfRUE3dnFGaEY5V1F3LWNrcFhiNUVjaGUwZFJJWi1tbEdwSHFLQVRsSHppeEpLSXB4WXIzbmR3WVVnaFhubEdJRjlOSG5xRy1ybVd1UEkzVjZ3Um40X1ItOGJtWldRc1BPR0ZoNXlDUUZVR3pFeHdjeVRmV1VtZzdBR0puendENS1nd19QdngzYkMyZ1FUVGtTNTRUUHJuWXg2VnU5Nnkw?oc=5",
-   "ts": "2026-10-26T03:04:00Z",
-   "fuente": "CNN",
-   "id": "116901f7a5",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "bajo",
-   "es": "Votante de Michigan evalúa los aranceles de Trump",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -12240,15 +12235,15 @@
     1793012400,
     4028.9,
     4030.4,
-    4027.4,
-    4028.1
+    4026.4,
+    4026.4
    ],
    [
-    1793012667,
-    4028.3,
-    4028.3,
-    4028.3,
-    4028.3
+    1793012846,
+    4026.9,
+    4026.9,
+    4026.9,
+    4026.9
    ]
   ],
   "nq": [
@@ -12789,14 +12784,14 @@
     29087.25,
     29111.25,
     29071.75,
-    29103.5
+    29097.0
    ],
    [
-    1793012670,
-    29102.25,
-    29102.25,
-    29102.25,
-    29102.25
+    1793012851,
+    29092.5,
+    29092.5,
+    29092.5,
+    29092.5
    ]
   ],
   "vix": [
@@ -13216,24 +13211,31 @@
    [
     1793008800,
     19.19,
-    19.65,
+    19.72,
     19.19,
-    19.65
+    19.72
    ],
    [
-    1793012356,
-    19.71,
-    19.71,
-    19.71,
-    19.71
+    1793012400,
+    19.74,
+    19.75,
+    19.72,
+    19.75
+   ],
+   [
+    1793012551,
+    19.72,
+    19.72,
+    19.72,
+    19.72
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-26T11:14:26Z",
- "ult_4h": 1793012555.4682655,
+ "ult_4h": 1793013454.0119324,
  "estrategia_4h": {
   "oro": {
-   "precio": 4026.3,
+   "precio": 4026.9,
    "atr_4h": 28.03,
    "setups": [
     {
@@ -13244,7 +13246,7 @@
      "objetivo": 3989.1,
      "rr": 6.07,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.05,
+     "fuerza_ruptura_atr": 1.03,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
@@ -13261,34 +13263,23 @@
    ]
   },
   "nq": {
-   "precio": 29126.25,
-   "atr_4h": 213.09,
+   "precio": 29092.5,
+   "atr_4h": 212.86,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29268.75,
      "entrada": 29268.75,
-     "stop": 29396.6,
+     "stop": 29396.46,
      "objetivo": 28987.0,
-     "rr": 2.2,
+     "rr": 2.21,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.93,
      "ruptura": "2026-10-22 16:00 UTC"
-    },
-    {
-     "direccion": "VENTA",
-     "nivel": 29391.75,
-     "entrada": 29391.75,
-     "stop": 29519.6,
-     "objetivo": 28987.0,
-     "rr": 3.17,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.93,
-     "ruptura": "2026-10-22 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-26T11:02:35Z"
+  "ts": "2026-10-26T11:17:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13339,9 +13330,6 @@
   }
  ],
  "noticias_vistas": [
-  "6554c2487c",
-  "204892a625",
-  "bbcee790cc",
   "cd8a1a3d42",
   "8cf6b42744",
   "1cf7c07cb4",
@@ -14138,7 +14126,10 @@
   "b9007846dc",
   "83180e827e",
   "55db47ae22",
-  "6acb036b7d"
+  "6acb036b7d",
+  "5c2125d680",
+  "ddc20f2b74",
+  "01b5bafa04"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
