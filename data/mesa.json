@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4030.7 · NQ 29475.75 · VIX 17.85 · 1 noticias nuevas",
-   "actualizado": "2026-10-26T16:02:36Z"
+   "ultimo_resultado": "Oro 4031.8 · NQ 29471.0 · VIX 18.12 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-26T16:08:02Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T16:02:35Z",
-   "ultimo_resultado": "1 titulares nuevos: Watch Anthropic Files for IPO, Plans to Trade on Nasdaq"
+   "actualizado": "2026-10-26T16:08:01Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: El petróleo Brent supera los 117 dólares mientras Arabia Saudí busca desescalar el conflicto en Irán"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4031.8 · NQ 29471.0 · VIX 18.12 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-26T16:08:02Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4030.7 · NQ 29475.75 · VIX 17.85 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4007.3 · NQ 29079.25 · VIX 19.45",
    "ts": "2026-10-26T02:47:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4006.7 · NQ 29086.5 · VIX 19.45",
-   "ts": "2026-10-26T02:42:31Z"
   }
  ],
  "briefs": [
@@ -10969,12 +10969,38 @@
   }
  },
  "en_vivo": {
-  "oro": 4030.7,
-  "nq": 29475.75,
-  "vix": 17.85,
-  "ts": "2026-10-26T16:02:35Z"
+  "oro": 4031.8,
+  "nq": 29471.0,
+  "vix": 18.12,
+  "ts": "2026-10-26T16:08:01Z"
  },
  "noticias": [
+  {
+   "titulo": "Brent oil tops $117 as Saudi defense minister travels to Iran for talks to de-escalate conflict",
+   "link": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html",
+   "ts": "2026-10-26T16:06:36Z",
+   "fuente": "CNBC",
+   "id": "cc4cac305b",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El petróleo Brent supera los 117 dólares mientras Arabia Saudí busca desescalar el conflicto en Irán",
+   "efecto": "Impulsa la inflación, presiona al alza al oro y castiga al NQ."
+  },
+  {
+   "titulo": "NBA enters prediction markets with Kalshi, Polymarket partnerships",
+   "link": "https://www.cnbc.com/2026/10/26/nba-kalshi-polymarket-prediction-markets.html",
+   "ts": "2026-10-26T16:00:59Z",
+   "fuente": "CNBC",
+   "id": "63fa5d160b",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "La NBA se asocia con mercados de predicción como Kalshi y Polymarket",
+   "efecto": "Noticia sectorial sin impacto directo en ORO, NQ o dólar."
+  },
   {
    "titulo": "Microsoft offers voluntary buyouts to 60,000 employees",
    "link": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
@@ -10996,6 +11022,19 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Gold X2 Mining CEO Michael Henrichsen Gives Latest Moss Gold Project Update",
+   "link": "https://finance.yahoo.com/video/gold-x2-mining-ceo-michael-154032137.html?.tsrc=rss",
+   "ts": "2026-10-26T15:40:32Z",
+   "fuente": "Yahoo Finance",
+   "id": "71b15c5283",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "El CEO de Gold X2 Mining, Michael Henrichsen, actualiza el estado del proyecto Moss Gold",
+   "efecto": "Información corporativa menor, sin efecto macroeconómico institucional."
   },
   {
    "titulo": "Trump's Tariffs Are Politically Toxic",
@@ -11784,37 +11823,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Trump's tariff promised trouble for China, though Goldman Sachs notes growth of 4.5%",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLWliUWNkdTdVNlNacG11VW1WUk5DUmhlRWh3dzkxYmNWcGhIalpIS1J1Ymd2SDdhYjNoOVplZzBaZFpISFIxN0tDaG1zUGtuWmp1dEN6SDgxMC00M0NJbkpLWHZrckpXY1JfTlctX002VVQ1LTFGQjY0SmJETnNZWG9DYV9kMEhpcUhGTWlFM2VLQQ?oc=5",
-   "ts": "2026-10-26T11:46:42Z",
-   "fuente": "Fortune",
-   "id": "6f2983d8a1",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Trailbreaker Resources Completes Phase One Drill Program At The Coho Property, Provides Atsutla Project Update",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/trailbreaker-resources-completes-phase-one-114500389.html?.tsrc=rss",
-   "ts": "2026-10-26T11:45:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "cbf623148e",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "US Dollar Rises Early Monday, FOMC Meeting Focus This Week",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-monday-114351719.html?.tsrc=rss",
-   "ts": "2026-10-26T11:43:51Z",
-   "fuente": "Yahoo Finance",
-   "id": "179144c97b",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -12396,14 +12404,14 @@
     4037.6,
     4040.3,
     4029.0,
-    4030.4
+    4031.7
    ],
    [
-    1793029948,
-    4030.4,
-    4030.4,
-    4030.4,
-    4030.4
+    1793030279,
+    4031.8,
+    4031.8,
+    4031.8,
+    4031.8
    ]
   ],
   "nq": [
@@ -12971,15 +12979,15 @@
     1793026800,
     29520.75,
     29572.0,
-    29469.0,
-    29481.25
+    29466.5,
+    29475.0
    ],
    [
-    1793029955,
-    29475.75,
-    29475.75,
-    29475.75,
-    29475.75
+    1793030281,
+    29471.0,
+    29471.0,
+    29471.0,
+    29471.0
    ]
   ],
   "vix": [
@@ -13434,20 +13442,20 @@
    [
     1793026800,
     17.95,
-    17.95,
+    18.05,
     17.79,
-    17.79
+    18.03
    ],
    [
-    1793029651,
-    17.86,
-    17.86,
-    17.86,
-    17.86
+    1793029966,
+    18.12,
+    18.12,
+    18.12,
+    18.12
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-26T15:32:39Z",
+ "noticias_traducidas_ts": "2026-10-26T16:07:37Z",
  "ult_4h": 1793030555.7739913,
  "estrategia_4h": {
   "oro": {
@@ -13540,9 +13548,6 @@
   }
  ],
  "noticias_vistas": [
-  "da6801807a",
-  "c33406ebf4",
-  "3715a77cd9",
   "3fe8094557",
   "a55421a69e",
   "b15f93bd19",
@@ -14339,7 +14344,10 @@
   "3a99cd661e",
   "b9421ba66a",
   "a763fc2473",
-  "5616429e7d"
+  "5616429e7d",
+  "cc4cac305b",
+  "63fa5d160b",
+  "71b15c5283"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
