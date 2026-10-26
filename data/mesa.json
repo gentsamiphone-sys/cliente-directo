@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4013.2 · NQ 29068.75 · VIX 19.45 · 1 noticias nuevas",
-   "actualizado": "2026-10-26T03:07:33Z"
+   "ultimo_resultado": "Oro 4020.7 · NQ 29101.25 · VIX 19.45 · 1 noticias nuevas",
+   "actualizado": "2026-10-26T03:12:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T03:07:32Z",
-   "ultimo_resultado": "1 titulares nuevos: Votante de Michigan evalúa los aranceles de Trump"
+   "actualizado": "2026-10-26T03:12:31Z",
+   "ultimo_resultado": "1 titulares nuevos: Nasdaq Futures Slip Amid Tech Selloff While S&P 500, Dow Edge Higher Ahead Of Crucial Earnings Week: IREN, CRWV, NBIS, MRNA, EWZ In Focus"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4020.7 · NQ 29101.25 · VIX 19.45 · 1 noticias nuevas",
+   "ts": "2026-10-26T03:12:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4013.2 · NQ 29068.75 · VIX 19.45 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: Iamgold’s 2027 Outlook: Côté Just Ran Above Nameplate for the First Time, With a 20-Million-Ounce Mine Plan Weeks Away",
    "ts": "2026-10-25T13:42:31Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Estimaciones de Oxbridge Re Holdings Limited - NASDAQ:OXBR",
-   "ts": "2026-10-25T13:37:31Z"
   }
  ],
  "briefs": [
@@ -10620,10 +10620,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4013.2,
-  "nq": 29068.75,
+  "oro": 4020.7,
+  "nq": 29101.25,
   "vix": 19.45,
-  "ts": "2026-10-26T03:07:32Z"
+  "ts": "2026-10-26T03:12:32Z"
  },
  "noticias": [
   {
@@ -10638,6 +10638,17 @@
    "impacto": "bajo",
    "es": "Votante de Michigan evalúa los aranceles de Trump",
    "efecto": ""
+  },
+  {
+   "titulo": "Nasdaq Futures Slip Amid Tech Selloff While S&P 500, Dow Edge Higher Ahead Of Crucial Earnings Week: IREN, CRWV, NBIS, MRNA, EWZ In Focus",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPS19Vam1WRGhBandIYVVkNGlPLTFBb0JHVUYtdTJIb09zWXk2cEZSakhXaWt2dEgzR21pb0NQRU9QanR2elRLQkxtU3owSzFZbmVtT2VFX2Z2VDdiZlZ4V3ZCZDc1OVM4VmJ4Wk9Tc1BoaDdoY1FPd2xUSnd5eHNHQlVQd2w3OHNaOC1GMnhyWXpfUFU4aDIydEhR?oc=5",
+   "ts": "2026-10-26T02:44:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "aa321aa697",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Three Rivers Hospital receives gold award for rural stroke care",
@@ -11480,17 +11491,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "I paid off $11,000 of credit card debt in 18 months while still traveling, shopping and living my life",
-   "link": "https://www.cnbc.com/make-it/2026/10/25/pay-off-credit-card-debt.html",
-   "ts": "2026-10-25T14:00:01Z",
-   "fuente": "CNBC",
-   "id": "eefe94375e",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Pagué 11.000 dólares de deuda de tarjeta de crédito en 18 meses viajando y comprando",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -11507,13 +11507,6 @@
  ],
  "velas": {
   "oro": [
-   [
-    1792476000,
-    4138.5,
-    4155.3,
-    4137.4,
-    4153.7
-   ],
    [
     1792479600,
     4153.8,
@@ -12128,24 +12121,24 @@
     4002.3,
     4015.2,
     3999.9,
-    4011.6
+    4013.4
    ],
    [
-    1792983446,
-    4013.2,
-    4013.2,
-    4013.2,
-    4013.2
+    1792983600,
+    4012.7,
+    4022.8,
+    4011.8,
+    4022.1
+   ],
+   [
+    1792983751,
+    4020.1,
+    4020.1,
+    4020.1,
+    4020.1
    ]
   ],
   "nq": [
-   [
-    1792476000,
-    29601.25,
-    29736.75,
-    29582.25,
-    29707.0
-   ],
    [
     1792479600,
     29707.0,
@@ -12760,14 +12753,21 @@
     29149.5,
     29166.5,
     29054.75,
-    29071.25
+    29073.75
    ],
    [
-    1792983451,
-    29068.75,
-    29068.75,
-    29068.75,
-    29068.75
+    1792983600,
+    29071.25,
+    29109.5,
+    29071.25,
+    29103.5
+   ],
+   [
+    1792983751,
+    29102.5,
+    29102.5,
+    29102.5,
+    29102.5
    ]
   ],
   "vix": [
@@ -13380,7 +13380,6 @@
   }
  ],
  "noticias_vistas": [
-  "41d8987d20",
   "c3c49f68ab",
   "99c40291a1",
   "178f4e4aca",
@@ -14179,7 +14178,8 @@
   "64d4f821da",
   "06b572e36e",
   "fd1e8a9188",
-  "116901f7a5"
+  "116901f7a5",
+  "aa321aa697"
  ],
  "orden_enviada_ORO": "2026-10-21"
 }
