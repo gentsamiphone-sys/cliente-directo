@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4021.2 · NQ 29333.5 · VIX 18.19",
-   "actualizado": "2026-10-26T14:37:37Z"
+   "ultimo_resultado": "Oro 4030.5 · NQ 29342.5 · VIX 18.31 · 1 noticias nuevas",
+   "actualizado": "2026-10-26T14:47:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-26T14:37:36Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-26T14:47:33Z",
+   "ultimo_resultado": "1 titulares nuevos: Current price of gold as of October 26, 2026"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4030.5 · NQ 29342.5 · VIX 18.31 · 1 noticias nuevas",
+   "ts": "2026-10-26T14:47:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4021.2 · NQ 29333.5 · VIX 18.19",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4009.5 · NQ 29062.0 · VIX 19.45 · 1 noticias nuevas",
    "ts": "2026-10-26T01:22:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3994.6 · NQ 29056.5 · VIX 19.45 · 1 noticias nuevas",
-   "ts": "2026-10-26T01:17:32Z"
   }
  ],
  "briefs": [
@@ -10969,10 +10969,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4021.2,
-  "nq": 29333.5,
-  "vix": 18.19,
-  "ts": "2026-10-26T14:37:37Z"
+  "oro": 4030.5,
+  "nq": 29342.5,
+  "vix": 18.31,
+  "ts": "2026-10-26T14:47:34Z"
  },
  "noticias": [
   {
@@ -11034,6 +11034,17 @@
    "impacto": "bajo",
    "es": "Los D-backs tienen la mira puesta en premios de la MLB en noviembre",
    "efecto": "Noticia deportiva sin relevancia para activos financieros."
+  },
+  {
+   "titulo": "Current price of gold as of October 26, 2026",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1tdGRuWXBqTERESi03MHpxMmh2d2FJZk9zUWlzWFlIQm1uVm9zMy16S3lfWWJVZ0E0WFZ5c0dxVUdhQVdMRHNvUm1SVEpjVGpsd1VpekNwb19JMlRMNUhTMkM0TDFORmtGdkdESld3?oc=5",
+   "ts": "2026-10-26T14:03:00Z",
+   "fuente": "Fortune",
+   "id": "30a6d2b1d4",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Mortgage rates above 7% are the 'new normal'—here's why",
@@ -11802,17 +11813,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Abcourt Mines Produces 740 Ounces of Gold in September",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/abcourt-mines-produces-740-ounces-110000257.html?.tsrc=rss",
-   "ts": "2026-10-26T11:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "dc1f95e8e1",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12385,16 +12385,16 @@
    [
     1793023200,
     4006.6,
-    4029.2,
+    4031.8,
     4006.5,
-    4021.9
+    4030.5
    ],
    [
-    1793024856,
-    4021.2,
-    4021.2,
-    4021.2,
-    4021.2
+    1793025452,
+    4030.5,
+    4030.5,
+    4030.5,
+    4030.5
    ]
   ],
   "nq": [
@@ -12956,14 +12956,14 @@
     29209.0,
     29383.0,
     29172.25,
-    29341.25
+    29346.5
    ],
    [
-    1793024857,
-    29337.0,
-    29337.0,
-    29337.0,
-    29337.0
+    1793025453,
+    29342.5,
+    29342.5,
+    29342.5,
+    29342.5
    ]
   ],
   "vix": [
@@ -13413,22 +13413,22 @@
     18.67,
     18.69,
     18.09,
-    18.2
+    18.31
    ],
    [
-    1793024551,
-    18.19,
-    18.19,
-    18.19,
-    18.19
+    1793025151,
+    18.31,
+    18.31,
+    18.31,
+    18.31
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-26T14:22:35Z",
- "ult_4h": 1793024647.5539553,
+ "ult_4h": 1793026054.214802,
  "estrategia_4h": {
   "oro": {
-   "precio": 4018.8,
+   "precio": 4030.5,
    "atr_4h": 28.01,
    "setups": [
     {
@@ -13439,7 +13439,7 @@
      "objetivo": 3989.1,
      "rr": 6.08,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.05,
+     "fuerza_ruptura_atr": 1.04,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
@@ -13456,23 +13456,23 @@
    ]
   },
   "nq": {
-   "precio": 29296.75,
-   "atr_4h": 221.96,
+   "precio": 29342.5,
+   "atr_4h": 223.8,
    "setups": [
     {
      "direccion": "VENTA",
-     "nivel": 29268.75,
-     "entrada": 29268.75,
-     "stop": 29401.93,
+     "nivel": 29391.75,
+     "entrada": 29391.75,
+     "stop": 29526.03,
      "objetivo": 28987.0,
-     "rr": 2.12,
+     "rr": 3.01,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 0.89,
-     "ruptura": "2026-10-22 16:00 UTC"
+     "fuerza_ruptura_atr": 0.88,
+     "ruptura": "2026-10-22 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-26T14:24:07Z"
+  "ts": "2026-10-26T14:47:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13529,7 +13529,6 @@
   }
  ],
  "noticias_vistas": [
-  "ae63d41afc",
   "a67d7a4895",
   "11b5cd9470",
   "468206cf62",
@@ -14328,7 +14327,8 @@
   "5812c28381",
   "6f318d5ad9",
   "d3e73f2cac",
-  "86ed29eed4"
+  "86ed29eed4",
+  "30a6d2b1d4"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
