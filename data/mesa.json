@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4074.5 · NQ 29796.25 · VIX 17.71 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-27T16:57:31Z"
+   "ultimo_resultado": "Oro 4074.6 · NQ 29795.5 · VIX 17.79 · 3 noticias nuevas",
+   "actualizado": "2026-10-27T17:03:08Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T16:57:31Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Judge blasts prosecutors, refuses to sign new criminal complaint against ex-FBI officials"
+   "actualizado": "2026-10-27T17:03:07Z",
+   "ultimo_resultado": "3 titulares nuevos: Demanda para proteger sapo y pez raros de Nevada de la minería de oro"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4074.6 · NQ 29795.5 · VIX 17.79 · 3 noticias nuevas",
+   "ts": "2026-10-27T17:03:08Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4074.5 · NQ 29796.25 · VIX 17.71 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro — · NQ — · VIX 18.39",
    "ts": "2026-10-27T04:07:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro — · NQ — · VIX 18.39 · 1 noticias nuevas",
-   "ts": "2026-10-27T04:02:44Z"
   }
  ],
  "briefs": [
@@ -11528,12 +11528,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4074.5,
-  "nq": 29796.25,
-  "vix": 17.71,
-  "ts": "2026-10-27T16:57:31Z"
+  "oro": 4074.6,
+  "nq": 29795.5,
+  "vix": 17.79,
+  "ts": "2026-10-27T17:03:08Z"
  },
  "noticias": [
+  {
+   "titulo": "Lawsuit Filed to Protect Rare Nevada Toad, Fish from Gold Mining",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOUV6NDQ1b3ZLVDhDckpEVDFVYzZFSUFndU12X0hnOEFSdzhQSXNrYWQ4SHhwbzNFaEtGTXBpWW5WVXRsTEpOXzAwYlBfY2VDRnZQaHl6eFFvRkdyQUJZdVMtUktDYUFudGExZjNWbDEydDJ5VFpWVnhBemJ4NVFRRHd5azNNV051d0xTdVlKTnVCWmFJSkU0MU5rNTRXb1p0WlI2OTlVR1BKREF5amctWjVuRVp2NmhPNGVYRURHWVE2WmJBMHVFVQ?oc=5",
+   "ts": "2026-10-27T16:57:48Z",
+   "fuente": "Center for Biological Diversity",
+   "id": "41c072620d",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Demanda para proteger sapo y pez raros de Nevada de la minería de oro",
+   "efecto": "Ruido regulatorio menor; sin impacto institucional significativo en el oro."
+  },
   {
    "titulo": "Judge blasts prosecutors, refuses to sign new criminal complaint against ex-FBI officials",
    "link": "https://www.cnbc.com/2026/10/27/fbi-hunter-biden-congress-charges-doj.html",
@@ -11542,6 +11555,31 @@
    "id": "939cdf2755",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Higher tariffs on Canadian imports would be 'catastrophic,' Honda exec says",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTldtRFI4Ni1TRHVGb3dzY1BvblpOVG0zMUNrSndrLUJBSHdnZWQtekdoSmM3cjRPN3N5UHRtQ0E2a0Z0M3NzOFRFTjliZW1XR3VoQjNIYTRMMktsaHZZVGFZdW41RUp2TnVhRFNzYS1RZmEzRERBVWhrTkRfQTF5YmxXTGRITVRfZlp3ZmtvLW5QblgyM3l1ZXhCVGd0Y1ROb0doaDN2WWI0Q25jNUlRS2xST2NlY1doVTRIdnZqUzg4UHpJZ21lS1BkdU5Xa2Q1?oc=5",
+   "ts": "2026-10-27T16:56:17Z",
+   "fuente": "Reuters",
+   "id": "95377605b1",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "Ejecutivo de Honda dice que aranceles más altos a importaciones canadienses serían catastróficos",
+   "efecto": "Presiona al NQ a la baja por riesgo de costos automotrices."
+  },
+  {
+   "titulo": "Once a condo building, this Gold Coast tower just sold for $67M",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR2RtWXJSNWFBSHFtY1hEVGVfd3dBb05SRThmUV9lYlAzSW5zUUVTbzFnVGFlSndlZlhkQUU5YnFNa1hTU1EyMmdOOGx2d0hNdFQyZzg2QUxSTEdUYmNYcFlEOGFKNFpMaFE2bkxyRXdMalBWZUgxTXZJZmhxaVNHQ0dqV2tEekJaZkswX2ZWWVBCYnRiTllsUFJNUQ?oc=5",
+   "ts": "2026-10-27T16:52:00Z",
+   "fuente": "Crain's Chicago Business",
+   "id": "22f611f771",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Torre en Gold Coast se vende por 67 millones de dólares",
+   "efecto": "Noticia inmobiliaria local sin relevancia para los activos institucionales."
   },
   {
    "titulo": "COMMENTARY: Doing business under US Canada tariffs and bans",
@@ -12339,44 +12377,6 @@
    "id": "b424a004ae",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Sitka Gold Completes 60,000 Metre Diamond Drill Program at Its RC Gold Project in Yukon; Appoints Termuende as Chairman of the Board",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/sitka-gold-completes-60-000-123000125.html?.tsrc=rss",
-   "ts": "2026-10-27T12:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "b3c0b98bcf",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Israel election puts Netanyahu’s wartime leadership on the line as Trump urges voters to return him to power",
-   "link": "https://www.cnbc.com/2026/10/26/israel-election-netanyahu-iran-gaza-palestine.html",
-   "ts": "2026-10-27T12:28:52Z",
-   "fuente": "CNBC",
-   "id": "930985b475",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Elecciones en Israel ponen a prueba el liderazgo de Netanyahu mientras Trump pide su reelección",
-   "efecto": "Aumenta la tensión geopolítica; impulsa compras de refugio en el oro."
-  },
-  {
-   "titulo": "What GM’s Move to the Nasdaq Means for the Stock",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZmpCb0l5dDF6bDNreDFLa3BOSnhCdUlESjN2M1Z3REVEVUVhZkJtb0hZOHd4eDVLOHZObWUtUDBqWV8xNHFRUERIdUxRZGFhaWxXMHBPUXVHWXVTTmdhQ04yb0J3UWttZktOWm93UlE0UndTWF9tZFVvRlJsV1RHUnpLTTVJQQ?oc=5",
-   "ts": "2026-10-27T12:28:00Z",
-   "fuente": "Barron's",
-   "id": "823e99b3be",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Qué significa para la acción el traslado de GM al Nasdaq",
-   "efecto": "Reconfigura flujos institucionales menores dentro del índice tecnológico."
   }
  ],
  "eventos_avisados": [
@@ -12965,14 +12965,14 @@
     4077.1,
     4078.9,
     4070.1,
-    4074.5
+    4073.1
    ],
    [
-    1793119648,
-    4074.5,
-    4074.5,
-    4074.5,
-    4074.5
+    1793119982,
+    4074.6,
+    4074.6,
+    4074.6,
+    4074.6
    ]
   ],
   "nq": [
@@ -13547,15 +13547,15 @@
     1793116800,
     29842.25,
     29875.5,
-    29786.25,
-    29787.25
+    29774.25,
+    29794.75
    ],
    [
-    1793119651,
-    29796.25,
-    29796.25,
-    29796.25,
-    29796.25
+    1793119987,
+    29797.5,
+    29797.5,
+    29797.5,
+    29797.5
    ]
   ],
   "vix": [
@@ -14017,24 +14017,24 @@
    [
     1793116800,
     17.54,
-    17.69,
+    17.78,
     17.52,
-    17.69
+    17.78
    ],
    [
-    1793119336,
-    17.71,
-    17.71,
-    17.71,
-    17.71
+    1793119681,
+    17.79,
+    17.79,
+    17.79,
+    17.79
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-27T16:27:35Z",
- "ult_4h": 1793119653.1076028,
+ "noticias_traducidas_ts": "2026-10-27T17:02:37Z",
+ "ult_4h": 1793120588.169482,
  "estrategia_4h": {
   "oro": {
-   "precio": 4073.2,
+   "precio": 4074.6,
    "atr_4h": 23.04,
    "setups": [
     {
@@ -14062,34 +14062,34 @@
    ]
   },
   "nq": {
-   "precio": 29830.0,
-   "atr_4h": 210.89,
+   "precio": 29797.5,
+   "atr_4h": 214.3,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 29572.0,
      "entrada": 29572.0,
-     "stop": 29445.46,
+     "stop": 29443.42,
      "objetivo": 29875.5,
-     "rr": 2.4,
+     "rr": 2.36,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.42,
+     "fuerza_ruptura_atr": 1.4,
      "ruptura": "2026-10-27 12:00 UTC"
     },
     {
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29199.46,
+     "stop": 29197.42,
      "objetivo": 29875.5,
-     "rr": 4.34,
+     "rr": 4.27,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.94,
+     "fuerza_ruptura_atr": 0.93,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-27T16:47:33Z"
+  "ts": "2026-10-27T17:03:08Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -14154,9 +14154,6 @@
   }
  ],
  "noticias_vistas": [
-  "8158bef2e3",
-  "6a9da6a079",
-  "6af01fe6c8",
   "f29e907b15",
   "701eff3415",
   "083e3f02bf",
@@ -14953,7 +14950,10 @@
   "13b7ef9f3c",
   "939cdf2755",
   "60a93d84f3",
-  "a09676de57"
+  "a09676de57",
+  "41c072620d",
+  "95377605b1",
+  "22f611f771"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
