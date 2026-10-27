@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4074.0 · NQ 29838.0 · VIX 17.61",
-   "actualizado": "2026-10-27T19:27:38Z"
+   "ultimo_resultado": "Oro 4074.8 · NQ 29830.25 · VIX 17.61 · 1 noticias nuevas",
+   "actualizado": "2026-10-27T19:32:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T19:27:37Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-27T19:32:36Z",
+   "ultimo_resultado": "1 titulares nuevos: Elecciones de mitad de periodo: cómo la economía impacta a los votantes"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4074.8 · NQ 29830.25 · VIX 17.61 · 1 noticias nuevas",
+   "ts": "2026-10-27T19:32:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4074.0 · NQ 29838.0 · VIX 17.61",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Abriendo la mesa para la sesión de Londres.",
    "ts": "2026-10-27T06:32:47Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4016.4 · NQ 29332.25 · VIX 18.39",
-   "ts": "2026-10-27T06:32:32Z"
   }
  ],
  "briefs": [
@@ -11528,12 +11528,26 @@
   }
  },
  "en_vivo": {
-  "oro": 4074.0,
-  "nq": 29838.0,
+  "oro": 4074.8,
+  "nq": 29830.25,
   "vix": 17.61,
-  "ts": "2026-10-27T19:27:38Z"
+  "ts": "2026-10-27T19:32:37Z"
  },
  "noticias": [
+  {
+   "titulo": "Midterm elections: How affordability and the economy could impact voters",
+   "link": "https://www.cnbc.com/guide/midterm-elections-economy-affordability/",
+   "ts": "2026-10-27T19:22:56Z",
+   "fuente": "CNBC",
+   "id": "a4e1ac220c",
+   "activos": [
+    "dolar",
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Elecciones de mitad de periodo: cómo la economía impacta a los votantes",
+   "efecto": "Genera cautela en mercados por posibles cambios regulatorios y fiscales."
+  },
   {
    "titulo": "Boeing shares slide on a disappointing cash flow update. Why this dip is buyable",
    "link": "https://www.cnbc.com/investingclub/2026/10/27/boeing-shares-slide-on-a-disappointing-cash-flow-update-why-this-dip-is-buyable-.html",
@@ -12357,17 +12371,6 @@
    "id": "5ae7078b22",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "This semiconductor stock slid 35% in October. Raymond James sees a buying opportunity",
-   "link": "https://www.cnbc.com/2026/10/27/macom-was-briefly-down-35percent-in-october-raymond-james-sees-a-buying-opportunity-.html",
-   "ts": "2026-10-27T14:00:10Z",
-   "fuente": "CNBC",
-   "id": "542866bca6",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12975,16 +12978,16 @@
    [
     1793127600,
     4070.4,
-    4074.8,
+    4075.8,
     4070.4,
-    4073.7
+    4075.7
    ],
    [
-    1793128652,
-    4074.0,
-    4074.0,
-    4074.0,
-    4074.0
+    1793128947,
+    4074.8,
+    4074.8,
+    4074.8,
+    4074.8
    ]
   ],
   "nq": [
@@ -13581,14 +13584,14 @@
     29805.5,
     29841.75,
     29805.25,
-    29835.75
+    29829.75
    ],
    [
-    1793128656,
-    29838.0,
-    29838.0,
-    29838.0,
-    29838.0
+    1793128956,
+    29830.25,
+    29830.25,
+    29830.25,
+    29830.25
    ]
   ],
   "vix": [
@@ -14072,11 +14075,11 @@
     1793127600,
     17.68,
     17.68,
-    17.61,
+    17.6,
     17.61
    ],
    [
-    1793128351,
+    1793128651,
     17.61,
     17.61,
     17.61,
@@ -14084,11 +14087,11 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-27T18:57:36Z",
- "ult_4h": 1793128654.5977166,
+ "noticias_traducidas_ts": "2026-10-27T19:32:35Z",
+ "ult_4h": 1793129557.4790804,
  "estrategia_4h": {
   "oro": {
-   "precio": 4073.6,
+   "precio": 4074.8,
    "atr_4h": 23.24,
    "setups": [
     {
@@ -14116,7 +14119,7 @@
    ]
   },
   "nq": {
-   "precio": 29823.25,
+   "precio": 29830.25,
    "atr_4h": 215.62,
    "setups": [
     {
@@ -14143,7 +14146,7 @@
     }
    ]
   },
-  "ts": "2026-10-27T19:17:34Z"
+  "ts": "2026-10-27T19:32:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -14208,7 +14211,6 @@
   }
  ],
  "noticias_vistas": [
-  "ca025854b1",
   "f0ccb362a5",
   "9dcc152681",
   "e35f9e6a83",
@@ -15007,7 +15009,8 @@
   "9cfb9e9559",
   "22c92e1887",
   "136aa12eba",
-  "89651a0792"
+  "89651a0792",
+  "a4e1ac220c"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
