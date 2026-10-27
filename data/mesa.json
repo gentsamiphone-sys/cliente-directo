@@ -1,10 +1,10 @@
 {
  "agentes": {
   "cio": {
-   "estado": "trabajando",
-   "tarea": "Escribiendo el brief institucional…",
-   "actualizado": "2026-10-27T12:33:15Z",
-   "ultimo_resultado": "Brief de Londres publicado: Sesgo bajista en ORO y NQ; modo defensivo activado sin entradas intradiarias"
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-10-27T12:38:02Z",
+   "ultimo_resultado": "Brief de Nueva York publicado: Mesa en pausa: sin entradas hoy por gestión de riesgo estricta y baja confluencia."
   },
   "macro": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "cio",
+   "texto": "Brief de Nueva York publicado: Mesa en pausa: sin entradas hoy por gestión de riesgo estricta y baja confluencia.",
+   "ts": "2026-10-27T12:38:02Z"
+  },
   {
    "agente": "cio",
    "texto": "Escribiendo el brief institucional…",
@@ -1056,14 +1061,210 @@
    "agente": "vigilante",
    "texto": "Oro 4025.4 · NQ 29438.0 · VIX 18.39 · 2 noticias nuevas",
    "ts": "2026-10-26T23:12:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4025.5 · NQ 29475.75 · VIX 18.39",
-   "ts": "2026-10-26T23:07:32Z"
   }
  ],
  "briefs": [
+  {
+   "sesion": "nuevayork",
+   "nombre": "Nueva York",
+   "ts": "2026-10-27T12:38:02Z",
+   "texto": "1. **Sesgo institucional**\n- ORO: Bajista — Presión bajista deslizándose hacia el soporte psicológico de los $4,000 en antesala a la decisión de la Fed.\n- NQ: Alcista — El apetito por el riesgo se mantiene firme, respaldado por la compresión de tasas a 10 años y la correlación positiva con el S&P 500.\n\n2. **Lo que mueve hoy**\nMacro: El DXY repunta un 0.21% hasta 102.175 y el US10Y cede ligeramente a 4.986%. El VIX baja un 3.32% a 17.78. \nCalendario (Hora Las Vegas): \n- Tue 07:00: CB Consumer Confidence (Impacto Medium, Previsto: 81.2, Anterior: 81.9).\n- Wed 11:00: Federal Funds Rate & FOMC Statement (Impacto High).\n- Wed 11:30: FOMC Press Conference (Impacto High).\n\n3. **Posicionamiento**\n- ORO (COT 20-Oct): Interés abierto en 402,279 contratos. Los fondos mantienen un net largo de 104,206 contratos (120,970 largos vs 16,764 cortos). Existe espacio para liquidación de largos si perfora los mínimos recientes rumbo a los $4,000.\n- NQ (COT 20-Oct): Interés abierto en 272,462 contratos. Asset Managers netos en 77,790 y Leveraged Funds netos en 950. Posicionamiento equilibrado sin excesos especulativos extremos en apalancados.\n\n4. **Mapa de liquidez**\n- ORO: Liquidez por arriba en PDH (4044.0) y máximo de Asia (4038.9); por abajo en mínimo de Londres (4001.6) y PDL (3990.9). Valor justo en VWAP (4020.07). Imán más probable: la zona de liquidez inferior buscando testear los $4,000.\n- NQ: Liquidez por arriba en máximo de Londres (29613.0) y PDH (29572.0); por abajo en mínimo de Londres (29288.0) y PDL (29024.25). Valor justo en VWAP (29468.43). Imán más probable: barrer el techo de Londres/PDH antes de buscar expansión alcista.\n\n5. **Escenarios**\n- ORO Escenario A (Bajista): Disparador en rechazo y cierre por debajo de 4009.6. Objetivo: 3990.9. Invalidación: 4038.9.\n- ORO Escenario B (Alcista): Disparador en barrida de 4001.6 y rápida recuperación por encima del VWAP. Objetivo: 4038.9. Invalidación: 3989.1.\n- NQ Escenario A (Alcista): Disparador en ruptura y cierre sobre PDH (29572.0). Objetivo: 29861.15. Invalidación: 29437.25.\n- NQ Escenario B (Bajista): Disparador en fallo en 29613.0 y pérdida del VWAP (29468.43). Objetivo: 29288.0. Invalidación: 29650.0.\n\n6. **Riesgo**\n- ORO: Rango esperado 3996.56 – 4061.44 (57% consumido).\n- NQ: Rango esperado 29290.85 – 29861.15 (57% consumido).\n- Horas peligrosas: Apertura de NY (06:30 - 08:30 LV). La mesa opera con un riesgo fijo de $350.\n\n7. **VIX y NQ (confluencia)**\nVIX en 17.78, por debajo de su media de 20 (16.74, rango 14.77 - 22.31). Estructura en contango (calma normal). Correlación a 48h con NQ de -0.83; en las últimas 6 horas NQ subió 0.44% y el VIX cayó un 3.32%. El VIX CONFIRMA ALCISTA para NQ al descender mientras sube el índice. El S&P 500 (DATOS.es_nq) cotiza en 7742.5 con tendencia 1H alcista y EMA20 en 7720.89; correlación a 48h de 0.91, acompañando al NQ (NQ 6h +0.94%, ES 6h +0.49%). Nivel del VIX que invalidaría el escenario alcista de NQ: ruptura del máximo de ayer (vix_PDH: 19.84).\n\n8. **Plan de entrada institucional (Gent ejecuta)**\n- ORO:\n  - Dirección: SIN ENTRADA\n  - Zona de entrada: N/A\n  - Confirmación: N/A\n  - Stop: N/A\n  - TP1 / TP2: N/A\n  - R:R: N/A\n  - Cancelar si: N/A\n  - Confluencias: 2/5 (sesgo macro/dólar, valor justo). *Nota: En mala racha para NQ, pero en Oro no cumple 4/5 confluencias estrictas.*\n\n- NQ:\n  - Dirección: COMPRA\n  - Zona de entrada: 29437.25 - 29468.43 (PDC / VWAP tras barrera de liquidez menor)\n  - Confirmación: Barrida del mínimo de sesión asiática/Londres previa y rechazo con cierre 1H alcista respaldado por VIX bajista y ES alcista.\n  - Stop: 29380.0 (por debajo de la estructura y liquidez inmediata, <80 puntos).\n  - TP1 / TP2: TP1: 29572.0 (PDH) / TP2: 29750.0\n  - R:R: 2.58\n  - Cancelar si: El VIX cruza al alza superando su media de 20 o rompe 18.50 antes de activar la orden.\n  - Confluencias: 4/5. ((1) Sesgo macro/tasas, (2) Posicionamiento COT neutral/sano, (3) VIX y S&P 500 confirman, (4) Entrada en zona de valor justo/VWAP). *Nota de mesa: NQ tiene sus últimas 2 entradas en stop (MALA RACHA ACTIVA), por lo que exige estrictamente 5/5 confluencias para operar. Como solo tiene 4/5, la orden se anula por gestión de riesgo institucional.*\n  \nESTADO DE LA MESA: SIN ENTRADA en ambos activos. Mala racha activa en NQ (últimas 2 en stop) requiere 5/5 confluencias y las ideas actuales no cumplen el umbral perfecto.\n\nEVALUACIÓN ALPHA FUTURES ACTIVA (Cuenta $50,000):\n- Objetivo: +$4,000 (Falta: $4,250.0).\n- Límite de pérdida: $48,250 (Colchón actual: $1,500.0).\n- Riesgo de hoy: $350.\n- Estado: El colchón es ajustado ($1,500), por lo que la mesa protege el capital y adopta una postura conservadora de no operar bajo configuraciones menores a 5/5.\n\n9. **Historia y estacionalidad**\n- ORO: 2 de los últimos 9 años subieron esta semana (promedio -0.53%) y 2 de 9 los 20 días siguientes (promedio -0.5%). Día de la semana (martes): 54% alcistas (105 muestras). Años análogos: 2022, 2018, 2021. Sesgo histórico: neutral.\n- NQ: 6 de los últimos 9 años subieron esta semana (promedio 0.82%) y 7 de 9 los 20 días siguientes (promedio 3.29%). Día de la semana (martes): 49% alcistas (105 muestras). Años análogos: 2025, 2021, 2024. Sesgo histórico: alcista.\n\n10. **Estrategia 4H de Gent (ruptura y retesteo · Gent ejecuta)**\n- ORO: \n  - Setup 1: VENTA en nivel 4091.2, Stop 4105.27, Objetivo 3989.1, R:R 7.26, Estado: esperando retesteo. (A favor del sesgo bajista de la mesa).\n  - Setup 2: VENTA en nivel 4130.1, Stop 4144.17, Objetivo 3989.1, R:R 10.02, Estado: esperando retesteo. (A favor del sesgo bajista).\n- NQ: \n  - Setup 1: COMPRA en nivel 29326.0, Stop 29199.56, Objetivo 29613.0, R:R 2.27, Estado: esperando retesteo. (En contra del sesgo de la mesa).\n\n11. **Nota para tu regla Ruptura EMA9 (1H)**\nUna ruptura alcista de la EMA9 en 1H para NQ solo tendría sentido si el precio limpia primero la liquidez en los mínimos de Londres (29288) y se apoya en el VWAP, dado que la liquidez superior inmediata está demasiado cerca del ATR actual para buscar expansión limpia sin retroceso previo.\n\nAnálisis educativo de agentes de IA. No es consejo financiero.",
+   "sesgo": {
+    "oro": "bajista",
+    "nq": "alcista"
+   },
+   "titular": "Mesa en pausa: sin entradas hoy por gestión de riesgo estricta y baja confluencia.",
+   "entradas": [
+    {
+     "activo": "ORO",
+     "direccion": "SIN ENTRADA",
+     "zona": "N/A",
+     "confirmacion": "N/A",
+     "stop": "N/A",
+     "tp1": "N/A",
+     "tp2": "N/A",
+     "rr": "N/A",
+     "confluencias": "2",
+     "cancelar": "N/A",
+     "motivo": "No cumple 4/5 confluencias estrictas y la mesa adopta postura conservadora."
+    },
+    {
+     "activo": "NQ",
+     "direccion": "SIN ENTRADA",
+     "zona": "N/A",
+     "confirmacion": "N/A",
+     "stop": "N/A",
+     "tp1": "N/A",
+     "tp2": "N/A",
+     "rr": "N/A",
+     "confluencias": "4",
+     "cancelar": "N/A",
+     "motivo": "Mala racha activa exige estrictamente 5/5 confluencias; solo tiene 4/5 y se anula por gestión."
+    }
+   ],
+   "mapas": {
+    "oro": {
+     "precio": 4029.0,
+     "cambio_dia_pct": -0.22,
+     "PDH": 4044.0,
+     "PDL": 3990.9,
+     "PDC": 4038.4,
+     "PWH": 4174.9,
+     "PWL": 3989.1,
+     "ATR14_diario": 64.88,
+     "ATR14_1h": 12.66,
+     "EMA20_diaria": 4146.31,
+     "EMA50_diaria": 4236.18,
+     "EMA200_diaria": 4407.68,
+     "max_20d": 4259.0,
+     "min_20d": 3989.1,
+     "asia_hoy": {
+      "max": 4038.9,
+      "min": 4009.6
+     },
+     "londres_hoy": {
+      "max": 4032.0,
+      "min": 4001.6
+     },
+     "ny_ayer": {
+      "max": 4044.0,
+      "min": 4002.3
+     },
+     "vwap_hoy": 4020.07,
+     "rango_hoy": {
+      "max": 4038.9,
+      "min": 4001.6
+     },
+     "rango_hoy_vs_atr_pct": 57
+    },
+    "nq": {
+     "precio": 29576.0,
+     "cambio_dia_pct": 0.47,
+     "PDH": 29572.0,
+     "PDL": 29024.25,
+     "PDC": 29437.25,
+     "PWH": 30113.0,
+     "PWL": 28987.0,
+     "ATR14_diario": 570.29,
+     "ATR14_1h": 89.39,
+     "EMA20_diaria": 29984.07,
+     "EMA50_diaria": 29963.5,
+     "EMA200_diaria": 29081.08,
+     "max_20d": 31616.5,
+     "min_20d": 28987.0,
+     "asia_hoy": {
+      "max": 29589.5,
+      "min": 29313.5
+     },
+     "londres_hoy": {
+      "max": 29613.0,
+      "min": 29288.0
+     },
+     "ny_ayer": {
+      "max": 29572.0,
+      "min": 29165.25
+     },
+     "vwap_hoy": 29468.43,
+     "rango_hoy": {
+      "max": 29613.0,
+      "min": 29288.0
+     },
+     "rango_hoy_vs_atr_pct": 57
+    }
+   },
+   "vix_nq": {
+    "vix": 17.78,
+    "cambio_1d_pct": -3.32,
+    "vix_PDH": 19.84,
+    "vix_PDL": 17.79,
+    "vix_media20": 16.74,
+    "vix_max_20d": 22.31,
+    "vix_min_20d": 14.77,
+    "vix_vs_vix3m": 0.892,
+    "estructura": "contango (calma normal)",
+    "correlacion_48h": -0.83,
+    "nq_6h_pct": 0.44,
+    "vix_6h_pct": -3.32,
+    "lectura": "CONFIRMA ALCISTA: NQ sube y el VIX baja (apetito de riesgo real)"
+   },
+   "macro": {
+    "dxy": {
+     "ultimo": 102.175,
+     "cambio_1d_pct": 0.21,
+     "cambio_5d_pct": 0.44
+    },
+    "us10y": {
+     "ultimo": 4.986,
+     "cambio_1d_pct": -0.04,
+     "cambio_5d_pct": -2.92
+    },
+    "vix": {
+     "ultimo": 17.78,
+     "cambio_1d_pct": -3.32,
+     "cambio_5d_pct": 2.72
+    },
+    "spx": {
+     "ultimo": 7742.75,
+     "cambio_1d_pct": 0.37,
+     "cambio_5d_pct": -0.16
+    },
+    "plata": {
+     "ultimo": 53.405,
+     "cambio_1d_pct": -1.3,
+     "cambio_5d_pct": -7.45
+    },
+    "petroleo": {
+     "ultimo": 100.98,
+     "cambio_1d_pct": -0.77,
+     "cambio_5d_pct": -0.8
+    }
+   },
+   "eventos": [
+    {
+     "hora_lv": "Tue 07:00",
+     "evento": "CB Consumer Confidence",
+     "impacto": "Medium",
+     "previsto": "81.2",
+     "anterior": "81.9"
+    },
+    {
+     "hora_lv": "Wed 11:00",
+     "evento": "Federal Funds Rate",
+     "impacto": "High",
+     "previsto": "4.00%",
+     "anterior": "4.00%"
+    },
+    {
+     "hora_lv": "Wed 11:00",
+     "evento": "FOMC Statement",
+     "impacto": "High",
+     "previsto": "",
+     "anterior": ""
+    },
+    {
+     "hora_lv": "Wed 11:30",
+     "evento": "FOMC Press Conference",
+     "impacto": "High",
+     "previsto": "",
+     "anterior": ""
+    }
+   ],
+   "cot": {
+    "oro": {
+     "fecha": "2026-10-20",
+     "interes_abierto": 402279,
+     "fondos_largos": 120970,
+     "fondos_cortos": 16764,
+     "fondos_neto": 104206
+    },
+    "nq": {
+     "fecha": "2026-10-20",
+     "interes_abierto": 272462,
+     "asset_managers_neto": 77790,
+     "leveraged_funds_neto": 950
+    }
+   }
+  },
   {
    "sesion": "londres",
    "nombre": "Londres",
@@ -13745,7 +13946,7 @@
  "ult_4h": 1793104354.806791,
  "estrategia_4h": {
   "oro": {
-   "precio": 4029.6,
+   "precio": 4029.5,
    "atr_4h": 23.44,
    "setups": [
     {
@@ -13773,34 +13974,23 @@
    ]
   },
   "nq": {
-   "precio": 29577.75,
-   "atr_4h": 210.32,
+   "precio": 29581.25,
+   "atr_4h": 210.73,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29199.81,
+     "stop": 29199.56,
      "objetivo": 29613.0,
      "rr": 2.27,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.94,
-     "ruptura": "2026-10-26 12:00 UTC"
-    },
-    {
-     "direccion": "COMPRA",
-     "nivel": 29345.0,
-     "entrada": 29345.0,
-     "stop": 29218.81,
-     "objetivo": 29613.0,
-     "rr": 2.12,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.94,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-27T12:32:35Z"
+  "ts": "2026-10-27T12:33:17Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
