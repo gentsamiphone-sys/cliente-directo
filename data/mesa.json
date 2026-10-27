@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4071.3 · NQ 29734.25 · VIX 17.6 · 2 noticias nuevas",
-   "actualizado": "2026-10-27T15:12:33Z"
+   "ultimo_resultado": "Oro 4071.6 · NQ 29723.25 · VIX 17.55 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-27T15:17:56Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T15:12:32Z",
-   "ultimo_resultado": "2 titulares nuevos: Mexico Mineral Processing Equipment Market Size, Share, Trends, and Growth Forecasts, 2026-2031 | Lithium and Automation Drive 6.81% CAGR Opportunities"
+   "actualizado": "2026-10-27T15:17:55Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Boeing no aumentará significativamente la producción del 737 Max hasta finales de 2027."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4071.6 · NQ 29723.25 · VIX 17.55 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-27T15:17:56Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4071.3 · NQ 29734.25 · VIX 17.6 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4024.7 · NQ 29482.0 · VIX 18.39 · 1 noticias nuevas",
    "ts": "2026-10-27T02:12:38Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4024.2 · NQ 29511.75 · VIX 18.39 · 1 noticias nuevas",
-   "ts": "2026-10-27T02:07:34Z"
   }
  ],
  "briefs": [
@@ -11528,12 +11528,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4071.3,
-  "nq": 29734.25,
-  "vix": 17.6,
-  "ts": "2026-10-27T15:12:33Z"
+  "oro": 4071.6,
+  "nq": 29723.25,
+  "vix": 17.55,
+  "ts": "2026-10-27T15:17:55Z"
  },
  "noticias": [
+  {
+   "titulo": "Boeing says it won't significantly ramp up 737 Max production until late 2027 as wing production lags",
+   "link": "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html",
+   "ts": "2026-10-27T15:15:01Z",
+   "fuente": "CNBC",
+   "id": "21bcfd5996",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "Boeing no aumentará significativamente la producción del 737 Max hasta finales de 2027.",
+   "efecto": "Presiona levemente a la baja las acciones de Boeing y sectores relacionados en el NQ."
+  },
   {
    "titulo": "Mexico Mineral Processing Equipment Market Size, Share, Trends, and Growth Forecasts, 2026-2031 | Lithium and Automation Drive 6.81% CAGR Opportunities",
    "link": "https://finance.yahoo.com/markets/commodities/articles/mexico-mineral-processing-equipment-market-150600964.html?.tsrc=rss",
@@ -11657,6 +11670,19 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Silver Falls, Gold Rallies as China Retail Investing Jumps, ETFs Sell",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMXF2c0ZsV29ibmM3eUtKa3laV3lRbzVERG9aV3U5Zk9RTmxnQzU5MXNmVmFONzdMSC1Ic1pMVl9RRXR4dU5pRWFNajhpTnc4VW5GOXlMUkdGTHFmTGYxNEcyY29jTHpTYm41NWdJMnp2a3E0QVhPMnc5RG9ZX0QxX2ppVzMyeHByVnJpMy1qUVg?oc=5",
+   "ts": "2026-10-27T13:59:57Z",
+   "fuente": "BullionVault",
+   "id": "552ba76cb5",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "alto",
+   "es": "La plata cae y el oro repunta por el aumento de la inversión minorista en China y ventas de ETFs.",
+   "efecto": "Impulsa compras institucionales en oro aprovechando la divergencia con la plata."
   },
   {
    "titulo": "Sun Valley Minerals Commences Trading on the TSX Venture Exchange; Launches Maiden Drill Program at Tarumán Main",
@@ -12354,28 +12380,6 @@
    "id": "ec8bbf75ea",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "General Motors to move stock listing from NYSE to Nasdaq",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwbzB0OWRlbHFmNUkzLTIySVVmLXVacGV4d3pvUW9XX2xqWlB3ZUJCNHhJX1poVVdrRUp4azlES09sRGp3SzNlbXlNRzNmbGRFMWpQNEFpbng2Q3g0NEFkbWVZYkhNLWUxWkl3?oc=5",
-   "ts": "2026-10-27T11:14:20Z",
-   "fuente": "Quartz",
-   "id": "d96ac6ac02",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Compass Gold Signs MOU for Construction of Gravity Concentration Plant at Mali",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/compass-gold-signs-mou-construction-111344907.html?.tsrc=rss",
-   "ts": "2026-10-27T11:13:44Z",
-   "fuente": "Yahoo Finance",
-   "id": "60ccc1b3ba",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12955,16 +12959,16 @@
    [
     1793113200,
     4066.8,
-    4072.7,
+    4073.7,
     4066.4,
-    4071.9
+    4071.0
    ],
    [
-    1793113351,
-    4071.3,
-    4071.3,
-    4071.3,
-    4071.3
+    1793113674,
+    4071.5,
+    4071.5,
+    4071.5,
+    4071.5
    ]
   ],
   "nq": [
@@ -13533,14 +13537,14 @@
     29709.0,
     29743.0,
     29707.5,
-    29735.75
+    29722.25
    ],
    [
-    1793113351,
-    29734.25,
-    29734.25,
-    29734.25,
-    29734.25
+    1793113675,
+    29721.75,
+    29721.75,
+    29721.75,
+    29721.75
    ]
   ],
   "vix": [
@@ -13989,67 +13993,74 @@
     1793109600,
     17.94,
     18.18,
-    17.57,
-    17.61
+    17.55,
+    17.63
    ],
    [
-    1793113036,
-    17.6,
-    17.6,
-    17.6,
-    17.6
+    1793113200,
+    17.63,
+    17.63,
+    17.55,
+    17.56
+   ],
+   [
+    1793113366,
+    17.55,
+    17.55,
+    17.55,
+    17.55
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-27T14:42:38Z",
- "ult_4h": 1793113357.2313724,
+ "noticias_traducidas_ts": "2026-10-27T15:17:36Z",
+ "ult_4h": 1793114275.437831,
  "estrategia_4h": {
   "oro": {
-   "precio": 4064.5,
-   "atr_4h": 25.86,
+   "precio": 4071.5,
+   "atr_4h": 26.42,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4050.2,
      "entrada": 4050.2,
-     "stop": 4034.68,
+     "stop": 4034.35,
      "objetivo": 4164.3,
-     "rr": 7.35,
+     "rr": 7.2,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.53,
+     "fuerza_ruptura_atr": 1.76,
      "ruptura": "2026-10-27 12:00 UTC"
     },
     {
-     "direccion": "COMPRA",
-     "nivel": 4044.0,
-     "entrada": 4044.0,
-     "stop": 4028.48,
-     "objetivo": 4164.3,
-     "rr": 7.75,
+     "direccion": "VENTA",
+     "nivel": 4091.2,
+     "entrada": 4091.2,
+     "stop": 4107.05,
+     "objetivo": 3989.1,
+     "rr": 6.44,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.53,
-     "ruptura": "2026-10-27 12:00 UTC"
+     "fuerza_ruptura_atr": 1.11,
+     "ruptura": "2026-10-22 08:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29664.0,
-   "atr_4h": 220.04,
+   "precio": 29721.75,
+   "atr_4h": 224.05,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29193.98,
-     "objetivo": 29687.75,
-     "rr": 2.74,
+     "stop": 29191.57,
+     "objetivo": 29743.0,
+     "rr": 3.1,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.9,
+     "fuerza_ruptura_atr": 0.88,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-27T15:02:37Z"
+  "ts": "2026-10-27T15:17:55Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -14113,8 +14124,6 @@
   }
  ],
  "noticias_vistas": [
-  "5aa8d7e7f5",
-  "c910515a76",
   "fffbadb808",
   "4e1a4bb9a7",
   "a0c11e0d58",
@@ -14912,7 +14921,9 @@
   "4ca6edf111",
   "65874d66c8",
   "e412b261e9",
-  "f3a0d26665"
+  "f3a0d26665",
+  "21bcfd5996",
+  "552ba76cb5"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
