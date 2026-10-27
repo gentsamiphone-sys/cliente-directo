@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4021.0 · NQ 29513.75 · VIX 17.88 · 2 noticias nuevas",
-   "actualizado": "2026-10-27T11:02:39Z"
+   "ultimo_resultado": "Oro 4021.0 · NQ 29521.75 · VIX 17.98 · 4 noticias nuevas",
+   "actualizado": "2026-10-27T11:07:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T11:02:38Z",
-   "ultimo_resultado": "2 titulares nuevos: Resultados trimestrales de Coca-Cola ya disponibles"
+   "actualizado": "2026-10-27T11:07:32Z",
+   "ultimo_resultado": "4 titulares nuevos: Coca-Cola hikes earnings outlook, even as it sees lackluster demand in North America"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4021.0 · NQ 29521.75 · VIX 17.98 · 4 noticias nuevas",
+   "ts": "2026-10-27T11:07:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4021.0 · NQ 29513.75 · VIX 17.88 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Revisando cómo salieron las entradas anteriores…",
    "ts": "2026-10-26T21:32:46Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Abriendo la mesa para la sesión de Asia (Tokio/Sídney).",
-   "ts": "2026-10-26T21:32:45Z"
   }
  ],
  "briefs": [
@@ -11328,11 +11328,42 @@
  },
  "en_vivo": {
   "oro": 4021.0,
-  "nq": 29513.75,
-  "vix": 17.88,
-  "ts": "2026-10-27T11:02:38Z"
+  "nq": 29521.75,
+  "vix": 17.98,
+  "ts": "2026-10-27T11:07:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Coca-Cola hikes earnings outlook, even as it sees lackluster demand in North America",
+   "link": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html",
+   "ts": "2026-10-27T11:03:21Z",
+   "fuente": "CNBC",
+   "id": "13c574d6ae",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "GM to move stock listing to Nasdaq",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE55MUJCcUNzUXJTX2lEcm1vRk5EVUxObi1aNWRaZ1E5S3Z4U0RodkE0M1BHTERxVHlPV2pvZU12cFQweTNmLUZZM2RWZlFVQXFqLTduTUxTMjZVTnlzeXlQSG5WV2laUjZ3X2dsVW1wNXN5S3N4NU5QSktZNW0?oc=5",
+   "ts": "2026-10-27T11:01:00Z",
+   "fuente": "Automotive News",
+   "id": "2375930bd3",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Boeing is set to report earnings before the bell. Here's what Wall Street expects",
+   "link": "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html",
+   "ts": "2026-10-27T11:00:01Z",
+   "fuente": "CNBC",
+   "id": "907aa3065c",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Coca-Cola earnings are out – Here are the numbers",
    "link": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html",
@@ -11473,6 +11504,17 @@
    "id": "1a358accec",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Nasdaq, S&P 500 Futures Gain Premarket While Oil Rebounds: CLS, NVDA, SKHY, CRWV, SOFI In Focus",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUlYzVjh0RXFMUVBkSmlfaG1seGFtTTBSbWFpQUJMdWhYdFNsQlN5TDl5MkVZcHZmLUhnT2ZjYzV0cWhlYzA3NEphaHpZYll4UjVGZVIweEtzNjluLWlyZUd0QUljRjFVcFNETG9iRHpuTXlLN2J0d0UwWnVfanhYNHB0QTlhZGtUQmdpRkNvQzE4SU1P?oc=5",
+   "ts": "2026-10-27T10:19:25Z",
+   "fuente": "Yahoo Finance",
+   "id": "4cf170822f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Kinross Gold (TSX:K) Could Be 39% Below Fair Value If Growth Projects Deliver",
@@ -12135,47 +12177,6 @@
    "id": "98b0cc44a6",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Gold eases on firmer dollar ahead of Fed decision",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNm1fRjlQSURXa2x6X3o5R1JlalFLRFI4WWpiNXlkQVBhU3dkX0FiM21CR3g3Mlp1SE1xcS1fbUtRd0wzOHlFUDR2eGd2ZDJwYWJoZnB6Skd4bWJOUjc1Q3o1NVJKWWowd2UwVG5faGFpeUotRjRCdjNmR19wVGxWU2tLVVViTlV4YlZZOUlaONIBlAFBVV95cUxPcWJKTWI0NmRPMTZhSUJFZ2xrRU0tZVJyMlY5by1LTTlCNW5TVE1TdkUyZ3Z2QXUxUEwwaEF1SmJKaDFnWFllbi11X2FXelFvUktMLTdUeUtaM1UyQzI5MTkxRk03RzN4MW5vTVk3dHAzQW5lczdSMDZYREE2eTNMUkpNSTducEF1SnRtSGNvXzFaWGZi?oc=5",
-   "ts": "2026-10-27T04:06:05Z",
-   "fuente": "CNBC",
-   "id": "d1a64006d7",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "How an Olympic athletes gets paid",
-   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNcDdQQWpwTDVOOThhWU41MXdSTVJCbDJ2SHFhcTc1TFFnZnJWQlNSZnNpbEVNdWJNdFZFUVdzRjlQb0Zrejc2cWE1cUtIVkhvejlfOVBTdVdqT3BJRkVfNFBTV1psXzl2SkpoRmFGVHYyYVh0MEg4UzAwMV9ucDNaLUZFNk5zS0dMSWFrbTdDVkRzOThnLUN1WldEZnBpdFR5SXE5TWpJcURGb3JuUXRKdS1ab01JbUwzN3dVd1V2Z1lVTHg1anZqOU43c3dzb0JmV2lxR3l5YVMzcFJ6eERHWnU2OVB2QkdZRnJxY01TQURWLTZjcmo0MzZKSi1xYjBYYUhGMA?oc=5",
-   "ts": "2026-10-27T04:03:00Z",
-   "fuente": "The Washington Post",
-   "id": "ce0fb5e451",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "A Gold Medalist's Olympic-Sized Money Mistakes",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVUF6amFXR1RxempaMDI0V2l4REZKdUJNUnJuMEpBZFhkVDRla1RYTUxkUmhxdWlWMExSeThTNnRjQ3d0QjZ1aWZyQzk4cEFXekl3d09oZ2F4Y1BMUk9LVzlEUnRfRlQwTmJCNFpTNmNsNnlENmpkRUZ6QTBHckllVDdhOW5EMy1ZaXBac3p4elRoRnNGRldWWFNPNXJYeDFDWVBkRGJrdUtmcHlRbGgxWHJSeVlSOVl4RXdWemt0eUN2QTF0aERzZWZOSFdkSldiRzRUbDF0ZTZONk9Ncl8tT01PRHk?oc=5",
-   "ts": "2026-10-27T04:03:00Z",
-   "fuente": "The Washington Post",
-   "id": "f3bd3e299b",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Errores financieros de un medallista olímpico a escala olímpica",
-   "efecto": ""
-  },
-  {
-   "titulo": "5 things to watch from the Federal Reserve's next meeting",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOG5CTWNQbFl3ZFNtbzdXR0VPLW56TTVrMEdpb1gzSk1rbHpLVkFqLVhjbXBaajdLbURERmhXVmRhb3ljRm5yV05ITTN3TUFxQkQ0ZU4waUg2TmtsYXFzdERsQ3BpOVVjMHc4eW03bW5Ta0ZRdnJpWU5ndHZWYUdFN0tVZEdlbFR4NERoaTU5TUlKWmdFX2thaWtoa3V1ZVU1OVRUMGdDRDBoQjNveFRzLQ?oc=5",
-   "ts": "2026-10-27T04:01:14Z",
-   "fuente": "WKMG",
-   "id": "0bf1d4daa0",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -12722,14 +12723,14 @@
     4015.2,
     4029.9,
     4005.8,
-    4021.2
+    4023.1
    ],
    [
-    1793098357,
-    4021.2,
-    4021.2,
-    4021.2,
-    4021.2
+    1793098650,
+    4021.0,
+    4021.0,
+    4021.0,
+    4021.0
    ]
   ],
   "nq": [
@@ -13263,14 +13264,14 @@
     29477.75,
     29613.0,
     29393.25,
-    29519.25
+    29539.0
    ],
    [
-    1793098357,
-    29513.75,
-    29513.75,
-    29513.75,
-    29513.75
+    1793098652,
+    29521.75,
+    29521.75,
+    29521.75,
+    29521.75
    ]
   ],
   "vix": [
@@ -13691,15 +13692,15 @@
     1793095200,
     18.2,
     18.39,
-    17.81,
-    17.82
+    17.78,
+    17.94
    ],
    [
-    1793098051,
-    17.88,
-    17.88,
-    17.88,
-    17.88
+    1793098351,
+    17.99,
+    17.99,
+    17.99,
+    17.99
    ]
   ]
  },
@@ -13810,10 +13811,6 @@
   }
  ],
  "noticias_vistas": [
-  "b216dcfa81",
-  "8af9c40842",
-  "87125fc6e7",
-  "75abd93b5e",
   "667ac9498f",
   "996dad8b6c",
   "f745a7b0cb",
@@ -14609,7 +14606,11 @@
   "01ffb20876",
   "c49978daf5",
   "7ea2ef392e",
-  "c319fdf4b7"
+  "c319fdf4b7",
+  "13c574d6ae",
+  "2375930bd3",
+  "907aa3065c",
+  "4cf170822f"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
