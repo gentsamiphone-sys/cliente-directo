@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4029.6 · NQ 29577.75 · VIX 17.78 · 3 noticias nuevas",
-   "actualizado": "2026-10-27T12:32:36Z"
+   "ultimo_resultado": "Oro 4034.5 · NQ 29608.75 · VIX 17.74 · 3 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-27T12:38:23Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T12:32:34Z",
-   "ultimo_resultado": "3 titulares nuevos: GM to Leave NYSE for Stock Listing on Tech-Focused Nasdaq"
+   "actualizado": "2026-10-27T12:38:23Z",
+   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: Santoli: Nos acercamos a un momento decisivo para que repunte el comercio de IA"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4034.5 · NQ 29608.75 · VIX 17.74 · 3 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-27T12:38:23Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "Evaluación Alpha: ninguna idea con 5/5 confluencias. Hoy no se opera (calidad antes que cantidad).",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4024.9 · NQ 29420.75 · VIX 18.39",
    "ts": "2026-10-26T23:17:34Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Estrategia 4H NQ: COMPRA en el nivel 29326.0 · stop 29202.84 · objetivo 29584.25 · R:R 2.1 (en retesteo). Tú ejecutas.",
-   "ts": "2026-10-26T23:17:32Z"
   }
  ],
  "briefs": [
@@ -11528,12 +11528,52 @@
   }
  },
  "en_vivo": {
-  "oro": 4029.6,
-  "nq": 29577.75,
-  "vix": 17.78,
-  "ts": "2026-10-27T12:32:34Z"
+  "oro": 4034.5,
+  "nq": 29608.75,
+  "vix": 17.74,
+  "ts": "2026-10-27T12:38:23Z"
  },
  "noticias": [
+  {
+   "titulo": "Santoli: We are nearing a now-or-never moment for the AI trade to rebound",
+   "link": "https://www.cnbc.com/2026/10/27/santoli-now-or-never-for-ai-trade.html",
+   "ts": "2026-10-27T12:33:52Z",
+   "fuente": "CNBC",
+   "id": "dca5b5e98d",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Santoli: Nos acercamos a un momento decisivo para que repunte el comercio de IA",
+   "efecto": "Genera cautela en tecnológicas; presiona al NQ a la baja."
+  },
+  {
+   "titulo": "Israel election puts Netanyahu’s wartime leadership on the line as Trump urges voters to return him to power",
+   "link": "https://www.cnbc.com/2026/10/26/israel-election-netanyahu-iran-gaza-palestine.html",
+   "ts": "2026-10-27T12:28:52Z",
+   "fuente": "CNBC",
+   "id": "930985b475",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Elecciones en Israel ponen a prueba el liderazgo de Netanyahu mientras Trump pide su reelección",
+   "efecto": "Aumenta la tensión geopolítica; impulsa compras de refugio en el oro."
+  },
+  {
+   "titulo": "What GM’s Move to the Nasdaq Means for the Stock",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZmpCb0l5dDF6bDNreDFLa3BOSnhCdUlESjN2M1Z3REVEVUVhZkJtb0hZOHd4eDVLOHZObWUtUDBqWV8xNHFRUERIdUxRZGFhaWxXMHBPUXVHWXVTTmdhQ04yb0J3UWttZktOWm93UlE0UndTWF9tZFVvRlJsV1RHUnpLTTVJQQ?oc=5",
+   "ts": "2026-10-27T12:28:00Z",
+   "fuente": "Barron's",
+   "id": "823e99b3be",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Qué significa para la acción el traslado de GM al Nasdaq",
+   "efecto": "Reconfigura flujos institucionales menores dentro del índice tecnológico."
+  },
   {
    "titulo": "Here are Tuesday's biggest analyst calls: SpaceX, Apple, Broadcom, CoreWeave, Palantir, Intel & more",
    "link": "https://www.cnbc.com/2026/10/27/biggest-calls-tuesday-on-wall-street-include-spacex-coreweave.html",
@@ -12338,41 +12378,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "U.S. Treasury yields are flat ahead of the Federal Reserve's monetary policy meeting",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNmh6WFAzNWdIOWhlWXJxTjdEVk44cmliSXBmSlVuVDVmMkNxVzY0Ykc5TzFBVEVrNXcxSXNnc0VqZlAxemFpTEJHczdCSHBGTWFBclBQVkcyUm5qQzF0am5OOHhYVnRBTnhZYlFGRmRKOTJfX0RFOXd0bHZ0VXhNRmhoUWZfeVREdFQ3MWpOcGtIaHZMeHZB0gGcAUFVX3lxTE92WXJpR0xaYlIzNERkNzFvZHJnek1vLTIzNjhLUWRGb2RBTnhfQWMzQ2ttREhuZHowck9iY2hDM3VrRnUtd25EWVh1cWM2bG9VSWw3N0VSUWVLV3IwbG9tUWhXWnRjenZ1bFRTaDhtX2FJN0E1VzJnWkUwbU9DQk4tZXp5MVhXaExXQnRZc2xFdEc5QUFZVXVWQ0VSVA?oc=5",
-   "ts": "2026-10-27T09:44:07Z",
-   "fuente": "CNBC",
-   "id": "641c325c35",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Congo Gold Finances IS-Backed Rebels Through Uganda, Sentry Says",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZ09fX1dBT200aVBYSWJ0ZDBndWQyWlA2RkVuclhtMEs0dlpFemtoTGpmWVFxREh2MXZWT29fSnhyUks5TXlyaXhEdW9jVjhlS2tWYkZ1Z2QyQS1aaU9FaEFLakoxQ3RCMzltb2xldkJ4UzNDRWRKM21VWXgtSXp2UlhDbkM1Vkx1emhmajZScWVHUkVmM0tMejZnTUhqV3NNY1BqS0hKem9tUDFyeU1lMGJ0VWY?oc=5",
-   "ts": "2026-10-27T09:34:51Z",
-   "fuente": "Bloomberg.com",
-   "id": "a83d4c61c7",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "El oro del Congo financia a rebeldes apoyados por Estado Islámico a través de Uganda, según Sentry",
-   "efecto": "Ruido geopolítico local, sin impacto inmediato relevante en precios institucionales."
-  },
-  {
-   "titulo": "West Red Lake Gold Reports Q3 2026 Production and Continued Operational Momentum at the Madsen Mine",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/west-red-lake-gold-reports-093000721.html?.tsrc=rss",
-   "ts": "2026-10-27T09:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "2ebb6c7d4a",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12931,16 +12936,16 @@
    [
     1793102400,
     4025.0,
-    4032.0,
+    4036.7,
     4024.7,
-    4029.5
+    4036.0
    ],
    [
-    1793103756,
-    4029.5,
-    4029.5,
-    4029.5,
-    4029.5
+    1793104102,
+    4034.9,
+    4034.9,
+    4034.9,
+    4034.9
    ]
   ],
   "nq": [
@@ -13486,16 +13491,16 @@
    [
     1793102400,
     29542.75,
-    29592.25,
+    29628.75,
     29535.0,
-    29576.0
+    29609.25
    ],
    [
-    1793103756,
-    29577.25,
-    29577.25,
-    29577.25,
-    29577.25
+    1793104102,
+    29608.75,
+    29608.75,
+    29608.75,
+    29608.75
    ]
   ],
   "vix": [
@@ -13930,19 +13935,19 @@
     1793102400,
     17.85,
     17.85,
-    17.79,
-    17.8
+    17.74,
+    17.74
    ],
    [
-    1793103451,
-    17.78,
-    17.78,
-    17.78,
-    17.78
+    1793103796,
+    17.74,
+    17.74,
+    17.74,
+    17.74
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-27T12:07:37Z",
+ "noticias_traducidas_ts": "2026-10-27T12:38:19Z",
  "ult_4h": 1793104354.806791,
  "estrategia_4h": {
   "oro": {
@@ -14050,9 +14055,6 @@
   }
  ],
  "noticias_vistas": [
-  "cfb5c4b8d2",
-  "e5432b1fd4",
-  "c659c137b1",
   "f28aeb5ea6",
   "efc836ee03",
   "368a0f93ce",
@@ -14849,7 +14851,10 @@
   "d6c235a93b",
   "02dac2108b",
   "4c33e78561",
-  "c9c19555db"
+  "c9c19555db",
+  "dca5b5e98d",
+  "930985b475",
+  "823e99b3be"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
