@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4072.4 · NQ 29800.75 · VIX 17.52",
-   "actualizado": "2026-10-27T20:37:37Z"
+   "ultimo_resultado": "Oro 4072.5 · NQ 29783.0 · VIX 17.52 · 4 noticias nuevas",
+   "actualizado": "2026-10-27T20:42:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T20:37:36Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-27T20:42:42Z",
+   "ultimo_resultado": "4 titulares nuevos: Acciones de Robinhood caen un 5% por debilidad en criptomonedas"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4072.5 · NQ 29783.0 · VIX 17.52 · 4 noticias nuevas",
+   "ts": "2026-10-27T20:42:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4072.4 · NQ 29800.75 · VIX 17.52",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "ES/NQ: CONFIRMA: ES y NQ van en la misma dirección · ES bajista en 1H",
    "ts": "2026-10-27T06:33:08Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el S&P 500 (ES) con el NQ…",
-   "ts": "2026-10-27T06:33:06Z"
   }
  ],
  "briefs": [
@@ -11528,12 +11528,50 @@
   }
  },
  "en_vivo": {
-  "oro": 4072.4,
-  "nq": 29800.75,
+  "oro": 4072.5,
+  "nq": 29783.0,
   "vix": 17.52,
-  "ts": "2026-10-27T20:37:36Z"
+  "ts": "2026-10-27T20:42:42Z"
  },
  "noticias": [
+  {
+   "titulo": "Robinhood shares fall 5% as crypto slump weighs on profits, offsetting gains in new businesses",
+   "link": "https://www.cnbc.com/2026/10/27/robinhood-hood-q3-2026-earnings.html",
+   "ts": "2026-10-27T20:39:49Z",
+   "fuente": "CNBC",
+   "id": "0505fc5d22",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Acciones de Robinhood caen un 5% por debilidad en criptomonedas",
+   "efecto": ""
+  },
+  {
+   "titulo": "Walmart says AI training is boosting confidence with the technology among its 2.1 million associates",
+   "link": "https://www.cnbc.com/2026/10/27/walmart-ai-training-workers.html",
+   "ts": "2026-10-27T20:30:01Z",
+   "fuente": "CNBC",
+   "id": "49e9b7f994",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "Walmart dice que capacitación en IA aumenta confianza de empleados",
+   "efecto": ""
+  },
+  {
+   "titulo": "What gold and platinum are telling us about the stock market’s direction",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQb0JpZk9naWRQV0pBRFJ1NTR6V01tVzdTYmNYZUQ1ZFZGdXYtcmhqMnhhWXZuOG9NZ3c3WVhqZU1UZ2hHcWlkczdVWkxfSGR2VU1jbHF2T2hqTHhaYjJGa3FzLTBreWNHcE04bi1PZkdQYVV5WENjYWtyMjJyeWlqNHlfNjZYa3pXQUFGMlo3ek9fcEFwYUhMUDZhUE9WY1dVT1JkSWpVVTAzeVhOSFg2VmJadEk?oc=5",
+   "ts": "2026-10-27T20:30:00Z",
+   "fuente": "MarketWatch",
+   "id": "372e95f97d",
+   "activos": [
+    "oro",
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Lo que el oro y el platino indican sobre la dirección bursátil",
+   "efecto": ""
+  },
   {
    "titulo": "U.S. Stocks Add to Gains Ahead of Earnings, Fed Statement",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbXFITkNuNWUwVzRMV055bkVYaTZWMmpSZTFCSnN1MGh4dWZJb0wyQVI3c1c1c0EyZFZRZHlsbWRVajExeEJzc0lDQWtUY2VFRE1QRE1zM0ZJak93QllaNjlvQTZKaG81STFFelRWNnpDd204ZFRWYnB1T3ppdXFHT1JTTndZYV80R3N5SFUwdFJwTXJpRWtBanNCOWwxU0pC?oc=5",
@@ -11574,6 +11612,19 @@
    "id": "bf1f7a9468",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "F5 (NASDAQ:FFIV) beats Q3 CY2026 sales expectations but stock drops",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa2FBSDNZaWJkX0tXaUNCZ2JFZzRmSkFoaEhaV250UTdrWGJ6R0xQSlVtS1ExZkpycERkcGhZNUJPSExwdEdPRGhJdmNMTWRscWE1Z3RsMTZhNmJMRFByazBuWUpVSW56U1pPd2ZVa0RmWm1Mb2dya0o1a1EwS0I4djlKM2x5Z1h0dER0VzN0SUNuZw?oc=5",
+   "ts": "2026-10-27T20:16:57Z",
+   "fuente": "Yahoo Finance",
+   "id": "1207c1c6a5",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "F5 supera expectativas de ventas en Q3 2026 pero sus acciones caen",
+   "efecto": ""
   },
   {
    "titulo": "Robinhood Taps Ripple's Stablecoin, Treasury Software and Trading Loans",
@@ -12333,46 +12384,6 @@
    "id": "b2acc5e212",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Understanding Trump's tariff reversals",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVHQ5ZHJrMHNTSU14WVQ1UTB2LW82d2JHQlRibVV3U2VmTWpGZW9LcmFxaVdYalhuVWRUT040SzgxYjFmRHhyd1NfNDd1VGtRZWZvSTdGNXktY3Y2U3U5VHRPd0YxX0R6TzVRY3JVZVlsSjItdDNZbW5HWHhtRFJlM0xoZ2ZZVk01VjNSM3h3ZVM1dw?oc=5",
-   "ts": "2026-10-27T15:51:41Z",
-   "fuente": "Peterson Institute for International Economics",
-   "id": "2748c948a4",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Honda warns 50% Canada auto tariffs would be catastrophic for auto industry",
-   "link": "https://www.cnbc.com/2026/10/27/honda-warns-50percent-canada-auto-tariffs-would-be-catastrophic.html",
-   "ts": "2026-10-27T15:48:32Z",
-   "fuente": "CNBC",
-   "id": "338b7b311e",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "Honda advierte que aranceles del 50% de Canadá serían catastróficos",
-   "efecto": ""
-  },
-  {
-   "titulo": "JetBlue stock surges 20% as company outlook calms investors",
-   "link": "https://www.cnbc.com/2026/10/26/jetblue-jblu-3q-2026-earnings.html",
-   "ts": "2026-10-27T15:46:31Z",
-   "fuente": "CNBC",
-   "id": "868a127e71",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Costco momentum is improving heading into November, says Katie Stockton",
-   "link": "https://www.cnbc.com/2026/10/27/costco-stock-november-momentum.html",
-   "ts": "2026-10-27T15:27:32Z",
-   "fuente": "CNBC",
-   "id": "9487897a37",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -12989,10 +13000,10 @@
     4074.7,
     4075.5,
     4072.1,
-    4072.3
+    4072.6
    ],
    [
-    1793132847,
+    1793133140,
     4072.4,
     4072.4,
     4072.4,
@@ -13599,15 +13610,15 @@
     1793131200,
     29812.75,
     29840.5,
-    29788.5,
-    29798.5
+    29781.5,
+    29787.0
    ],
    [
-    1793132852,
-    29800.75,
-    29800.75,
-    29800.75,
-    29800.75
+    1793133161,
+    29783.0,
+    29783.0,
+    29783.0,
+    29783.0
    ]
   ],
   "vix": [
@@ -14110,7 +14121,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-27T20:07:34Z",
+ "noticias_traducidas_ts": "2026-10-27T20:42:39Z",
  "ult_4h": 1793133153.558784,
  "estrategia_4h": {
   "oro": {
@@ -14234,10 +14245,6 @@
   }
  ],
  "noticias_vistas": [
-  "a6fa986b88",
-  "8f03a3a8cb",
-  "9cceb2c4c0",
-  "f2924ea8ce",
   "9372efa514",
   "78fc728b4b",
   "5348911738",
@@ -15033,7 +15040,11 @@
   "bf1f7a9468",
   "d4b76b27de",
   "8a8e295030",
-  "7e80a556ec"
+  "7e80a556ec",
+  "0505fc5d22",
+  "49e9b7f994",
+  "372e95f97d",
+  "1207c1c6a5"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
