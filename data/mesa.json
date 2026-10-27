@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4074.1 · NQ 29825.0 · VIX 17.52",
-   "actualizado": "2026-10-27T23:37:30Z"
+   "ultimo_resultado": "Oro 4072.7 · NQ 29825.5 · VIX 17.52 · 1 noticias nuevas",
+   "actualizado": "2026-10-27T23:42:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T23:37:30Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-27T23:42:32Z",
+   "ultimo_resultado": "1 titulares nuevos: SK Hynix third-quarter profit sharply beats estimates on AI memory boost"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4072.7 · NQ 29825.5 · VIX 17.52 · 1 noticias nuevas",
+   "ts": "2026-10-27T23:42:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4074.1 · NQ 29825.0 · VIX 17.52",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4009.8 · NQ 29432.5 · VIX 18.33 · 4 noticias nuevas (3 alto impacto)",
    "ts": "2026-10-27T10:47:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4009.0 · NQ 29419.25 · VIX 18.32 · 3 noticias nuevas",
-   "ts": "2026-10-27T10:42:36Z"
   }
  ],
  "briefs": [
@@ -11729,12 +11729,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4074.1,
-  "nq": 29825.0,
+  "oro": 4072.7,
+  "nq": 29825.5,
   "vix": 17.52,
-  "ts": "2026-10-27T23:37:30Z"
+  "ts": "2026-10-27T23:42:32Z"
  },
  "noticias": [
+  {
+   "titulo": "SK Hynix third-quarter profit sharply beats estimates on AI memory boost",
+   "link": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
+   "ts": "2026-10-27T23:34:59Z",
+   "fuente": "CNBC",
+   "id": "0633070cd9",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Wesdome Gold Mines (TSX:WDO) Stock Looks Reasonable Despite Output Pressure",
    "link": "https://finance.yahoo.com/markets/stocks/articles/wesdome-gold-mines-tsx-wdo-230951054.html?.tsrc=rss",
@@ -12594,17 +12603,6 @@
    "id": "b857ab953a",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "I just bought this pharma stock for its next generation of blockbuster drugs — and its dividend",
-   "link": "https://www.cnbc.com/2026/10/27/kevin-simpson-is-buying-abbvie.html",
-   "ts": "2026-10-27T18:03:02Z",
-   "fuente": "CNBC",
-   "id": "904b4cf1f4",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Acabo de comprar esta acción farmacéutica por sus próximos fármacos exitosos y su dividendo",
-   "efecto": "Ruido minorista; sin impacto institucional en NQ u oro."
   }
  ],
  "eventos_avisados": [
@@ -13234,15 +13232,15 @@
     1793142000,
     4077.0,
     4077.1,
-    4072.8,
-    4074.1
+    4072.3,
+    4072.6
    ],
    [
-    1793143622,
-    4074.1,
-    4074.1,
-    4074.1,
-    4074.1
+    1793143926,
+    4072.7,
+    4072.7,
+    4072.7,
+    4072.7
    ]
   ],
   "nq": [
@@ -13858,16 +13856,16 @@
    [
     1793142000,
     29820.75,
-    29827.25,
+    29853.5,
     29805.75,
-    29827.0
+    29823.5
    ],
    [
-    1793143648,
-    29825.0,
-    29825.0,
-    29825.0,
-    29825.0
+    1793143950,
+    29825.5,
+    29825.5,
+    29825.5,
+    29825.5
    ]
   ],
   "vix": [
@@ -14494,7 +14492,6 @@
   }
  ],
  "noticias_vistas": [
-  "34c49a67b5",
   "1416ac9e3e",
   "c44ae86f51",
   "8ea9de347e",
@@ -15293,7 +15290,8 @@
   "90f8fd1c13",
   "95c2d8650f",
   "6361c44f34",
-  "b04e165eba"
+  "b04e165eba",
+  "0633070cd9"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
