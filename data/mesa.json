@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4024.4 · NQ 29565.0 · VIX 18.39",
-   "actualizado": "2026-10-27T00:42:35Z"
+   "ultimo_resultado": "Oro 4023.3 · NQ 29543.25 · VIX 18.39 · 1 noticias nuevas",
+   "actualizado": "2026-10-27T00:47:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T00:42:34Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-27T00:47:37Z",
+   "ultimo_resultado": "1 titulares nuevos: China y Rusia rediseñan el comercio ártico, desafiando a Europa"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4023.3 · NQ 29543.25 · VIX 18.39 · 1 noticias nuevas",
+   "ts": "2026-10-27T00:47:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4024.4 · NQ 29565.0 · VIX 18.39",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4027.7 · NQ 29168.25 · VIX 19.69 · 4 noticias nuevas",
    "ts": "2026-10-26T11:37:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4024.6 · NQ 29118.0 · VIX 19.66 · 1 noticias nuevas",
-   "ts": "2026-10-26T11:32:30Z"
   }
  ],
  "briefs": [
@@ -11151,12 +11151,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4024.4,
-  "nq": 29565.0,
+  "oro": 4023.3,
+  "nq": 29543.25,
   "vix": 18.39,
-  "ts": "2026-10-27T00:42:34Z"
+  "ts": "2026-10-27T00:47:37Z"
  },
  "noticias": [
+  {
+   "titulo": "China and Russia are redrawing Arctic trade. Can Europe fight back?",
+   "link": "https://www.cnbc.com/2026/10/27/arctic-shipping-china-and-russia-expand-grip-can-europe-fight-back.html",
+   "ts": "2026-10-27T00:41:29Z",
+   "fuente": "CNBC",
+   "id": "cd34a6d69a",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "China y Rusia rediseñan el comercio ártico, desafiando a Europa",
+   "efecto": "Ruido geopolítico sin impacto inmediato en oro, NQ o dólar."
+  },
   {
    "titulo": "30 September 2026 Quarterly Activities Report",
    "link": "https://finance.yahoo.com/markets/commodities/articles/30-september-2026-quarterly-activities-000000031.html?.tsrc=rss",
@@ -12013,17 +12024,6 @@
    "id": "b90473d7a1",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "U.S. Mint unveils special $5 gold coin",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9XZklIaldlYTNZWG8wdTZmTVUxdmo5WkExaGFmUVlUWGZZSjBrcTNNRXNHQVg1UTZzSEdyZGdlT0RkZEZUUmdqWU1xR1VqZEQ1VlNHWjRKQTJURWloeVZDYkNDTE80YXZJSWhTdXJIQzl3bDYxOTE1WjNidWLSAZABQVVfeXFMT0xXN09rOGh1N2xLNkJUUkNmbUl2b3FlcjZ5QVpQcUxGZGxyaHV2eDVHWFI0eTZLaDlOaHJLNWFzNVU0eFFoMHdMaEZDeTB6LVV4RHJCcGVFVUt1WUhTRWhfazEtSzU3dHVVN1hSY2g2UC1oUDFHallsZjY3cFNPTENoTkZSbi1lTV9GSW15dXNL?oc=5",
-   "ts": "2026-10-26T16:54:00Z",
-   "fuente": "AL.com",
-   "id": "18afe987bc",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12661,14 +12661,14 @@
     4019.2,
     4033.5,
     4017.0,
-    4023.9
+    4023.4
    ],
    [
-    1793061144,
-    4024.4,
-    4024.4,
-    4024.4,
-    4024.4
+    1793061451,
+    4023.3,
+    4023.3,
+    4023.3,
+    4023.3
    ]
   ],
   "nq": [
@@ -13293,14 +13293,14 @@
     29536.5,
     29589.5,
     29531.0,
-    29560.75
+    29549.75
    ],
    [
-    1793061154,
-    29560.0,
-    29560.0,
-    29560.0,
-    29560.0
+    1793061456,
+    29543.25,
+    29543.25,
+    29543.25,
+    29543.25
    ]
   ],
   "vix": [
@@ -13803,11 +13803,11 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-26T23:47:31Z",
- "ult_4h": 1793061154.485445,
+ "noticias_traducidas_ts": "2026-10-27T00:47:35Z",
+ "ult_4h": 1793062057.5148509,
  "estrategia_4h": {
   "oro": {
-   "precio": 4029.9,
+   "precio": 4023.3,
    "atr_4h": 25.52,
    "setups": [
     {
@@ -13818,7 +13818,7 @@
      "objetivo": 3989.1,
      "rr": 6.67,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.15,
+     "fuerza_ruptura_atr": 1.14,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
@@ -13829,29 +13829,29 @@
      "objetivo": 3989.1,
      "rr": 9.21,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.39,
+     "fuerza_ruptura_atr": 1.38,
      "ruptura": "2026-10-22 00:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29580.5,
-   "atr_4h": 199.38,
+   "precio": 29543.25,
+   "atr_4h": 199.14,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29206.38,
+     "stop": 29206.51,
      "objetivo": 29589.5,
-     "rr": 2.2,
+     "rr": 2.21,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.99,
+     "fuerza_ruptura_atr": 1.0,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-27T00:32:34Z"
+  "ts": "2026-10-27T00:47:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13910,7 +13910,6 @@
   }
  ],
  "noticias_vistas": [
-  "eb9584b82c",
   "1faa0b8591",
   "22ede1af1c",
   "322d59a90e",
@@ -14709,7 +14708,8 @@
   "b311bf67ce",
   "ba445370a3",
   "1552534eec",
-  "4abeebb32c"
+  "4abeebb32c",
+  "cd34a6d69a"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
