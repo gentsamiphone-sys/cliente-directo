@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4007.2 · NQ 29421.0 · VIX 18.35 · 1 noticias nuevas",
-   "actualizado": "2026-10-27T10:32:34Z"
+   "ultimo_resultado": "Oro 4007.7 · NQ 29428.5 · VIX 18.34 · 1 noticias nuevas",
+   "actualizado": "2026-10-27T10:37:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T10:32:33Z",
-   "ultimo_resultado": "1 titulares nuevos: West Wits perforará 17 pozos en Bird Reef Central, Johannesburgo"
+   "actualizado": "2026-10-27T10:37:34Z",
+   "ultimo_resultado": "1 titulares nuevos: GM will switch to Nasdaq from the NYSE on Nov. 17"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4007.7 · NQ 29428.5 · VIX 18.34 · 1 noticias nuevas",
+   "ts": "2026-10-27T10:37:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4007.2 · NQ 29421.0 · VIX 18.35 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos, 1 de alto impacto: Michigan auto industry unaffected by eased Canadian tariffs",
    "ts": "2026-10-26T21:12:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-10-26T21:07:36Z"
   }
  ],
  "briefs": [
@@ -11327,12 +11327,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4007.2,
-  "nq": 29421.0,
-  "vix": 18.35,
-  "ts": "2026-10-27T10:32:33Z"
+  "oro": 4007.7,
+  "nq": 29428.5,
+  "vix": 18.34,
+  "ts": "2026-10-27T10:37:34Z"
  },
  "noticias": [
+  {
+   "titulo": "GM will switch to Nasdaq from the NYSE on Nov. 17",
+   "link": "https://www.cnbc.com/2026/10/27/gm-nasdaq-nyse-stock-listing.html",
+   "ts": "2026-10-27T10:35:23Z",
+   "fuente": "CNBC",
+   "id": "cb30db7063",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Coca-Cola is about to report earnings. Here's what to expect",
    "link": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html",
@@ -12180,15 +12191,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "China industrial profits post strongest growth in three months, rising 14.4%",
-   "link": "https://www.cnbc.com/2026/10/27/china-industrial-profits-september-ai-tech-exports-.html",
-   "ts": "2026-10-27T01:38:03Z",
-   "fuente": "CNBC",
-   "id": "3ad73d4a75",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -12738,11 +12740,11 @@
     4007.9
    ],
    [
-    1793096551,
-    4007.2,
-    4007.2,
-    4007.2,
-    4007.2
+    1793096852,
+    4007.7,
+    4007.7,
+    4007.7,
+    4007.7
    ]
   ],
   "nq": [
@@ -13276,14 +13278,14 @@
     29477.75,
     29477.75,
     29393.25,
-    29418.5
+    29429.0
    ],
    [
-    1793096550,
-    29421.0,
-    29421.0,
-    29421.0,
-    29421.0
+    1793096853,
+    29428.5,
+    29428.5,
+    29428.5,
+    29428.5
    ]
   ],
   "vix": [
@@ -13708,11 +13710,11 @@
     18.36
    ],
    [
-    1793096251,
-    18.35,
-    18.35,
-    18.35,
-    18.35
+    1793096551,
+    18.33,
+    18.33,
+    18.33,
+    18.33
    ]
   ]
  },
@@ -13823,7 +13825,6 @@
   }
  ],
  "noticias_vistas": [
-  "8bc96ae4f5",
   "973969624e",
   "c5c8a03c9f",
   "bc20cbdbac",
@@ -14622,7 +14623,8 @@
   "3c5f63d277",
   "134ed4f160",
   "bfebb92c62",
-  "c827885afe"
+  "c827885afe",
+  "cb30db7063"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
