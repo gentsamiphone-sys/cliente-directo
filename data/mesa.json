@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4023.5 · NQ 29537.0 · VIX 17.84",
-   "actualizado": "2026-10-27T11:47:36Z"
+   "ultimo_resultado": "Oro 4022.3 · NQ 29536.5 · VIX 17.87 · 1 noticias nuevas",
+   "actualizado": "2026-10-27T11:52:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T11:47:35Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-27T11:52:33Z",
+   "ultimo_resultado": "1 titulares nuevos: Bitget Wallet adds USD, EUR accounts that convert deposits into stablecoins"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4022.3 · NQ 29536.5 · VIX 17.87 · 1 noticias nuevas",
+   "ts": "2026-10-27T11:52:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4023.5 · NQ 29537.0 · VIX 17.84",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
    "ts": "2026-10-26T21:33:00Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Midiendo volatilidad y rango esperado del día…",
-   "ts": "2026-10-26T21:32:59Z"
   }
  ],
  "briefs": [
@@ -11327,10 +11327,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4023.5,
-  "nq": 29537.0,
-  "vix": 17.84,
-  "ts": "2026-10-27T11:47:35Z"
+  "oro": 4022.3,
+  "nq": 29536.5,
+  "vix": 17.87,
+  "ts": "2026-10-27T11:52:34Z"
  },
  "noticias": [
   {
@@ -11350,6 +11350,15 @@
    "ts": "2026-10-27T11:31:44Z",
    "fuente": "CNBC",
    "id": "d3cea26ef4",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Bitget Wallet adds USD, EUR accounts that convert deposits into stablecoins",
+   "link": "https://finance.yahoo.com/markets/crypto/articles/bitget-wallet-adds-usd-eur-113055905.html?.tsrc=rss",
+   "ts": "2026-10-27T11:30:55Z",
+   "fuente": "Yahoo Finance",
+   "id": "cd83aa923e",
    "activos": [],
    "impacto": "bajo"
   },
@@ -12173,17 +12182,6 @@
    "impacto": "alto",
    "es": "¿Es el oro una opción para cubrir el riesgo soberano?",
    "efecto": ""
-  },
-  {
-   "titulo": "Stock futures are mixed after Wall Street starts the week on a winning note: Live updates",
-   "link": "https://www.cnbc.com/2026/10/26/stock-market-today-live-updates.html",
-   "ts": "2026-10-27T07:48:36Z",
-   "fuente": "CNBC",
-   "id": "4984638c34",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12737,14 +12735,14 @@
     4021.3,
     4027.7,
     4020.8,
-    4023.2
+    4022.0
    ],
    [
-    1793101040,
-    4023.5,
-    4023.5,
-    4023.5,
-    4023.5
+    1793101349,
+    4022.3,
+    4022.3,
+    4022.3,
+    4022.3
    ]
   ],
   "nq": [
@@ -13285,14 +13283,14 @@
     29525.25,
     29602.25,
     29525.25,
-    29537.25
+    29526.0
    ],
    [
-    1793101053,
-    29537.0,
-    29537.0,
-    29537.0,
-    29537.0
+    1793101349,
+    29536.5,
+    29536.5,
+    29536.5,
+    29536.5
    ]
   ],
   "vix": [
@@ -13721,14 +13719,14 @@
     17.92,
     17.92,
     17.77,
-    17.84
+    17.86
    ],
    [
-    1793100751,
-    17.84,
-    17.84,
-    17.84,
-    17.84
+    1793101051,
+    17.87,
+    17.87,
+    17.87,
+    17.87
    ]
   ]
  },
@@ -13839,7 +13837,6 @@
   }
  ],
  "noticias_vistas": [
-  "25a1fba999",
   "9b351aa82d",
   "0fe7700812",
   "8b6fa20076",
@@ -14638,7 +14635,8 @@
   "cd033b23ed",
   "d2c443d7da",
   "fa87b5438d",
-  "d96ac6ac02"
+  "d96ac6ac02",
+  "cd83aa923e"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
