@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4040.2 · NQ 29585.25 · VIX 17.72 · 2 noticias nuevas",
-   "actualizado": "2026-10-27T12:47:34Z"
+   "ultimo_resultado": "Oro 4038.0 · NQ 29591.5 · VIX 17.78 · 4 noticias nuevas",
+   "actualizado": "2026-10-27T12:52:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T12:47:33Z",
-   "ultimo_resultado": "2 titulares nuevos: Emperor Resumes Fully Funded Drilling Program at Duquesne West"
+   "actualizado": "2026-10-27T12:52:33Z",
+   "ultimo_resultado": "4 titulares nuevos: General Motors Stock Rises as Nasdaq Listing Switch Gets a Date"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4038.0 · NQ 29591.5 · VIX 17.78 · 4 noticias nuevas",
+   "ts": "2026-10-27T12:52:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4040.2 · NQ 29585.25 · VIX 17.72 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4024.8 · NQ 29437.25 · VIX 18.39",
    "ts": "2026-10-26T23:32:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4025.1 · NQ 29429.25 · VIX 18.39 · 1 noticias nuevas",
-   "ts": "2026-10-26T23:27:32Z"
   }
  ],
  "briefs": [
@@ -11528,10 +11528,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4040.2,
-  "nq": 29585.25,
-  "vix": 17.72,
-  "ts": "2026-10-27T12:47:33Z"
+  "oro": 4038.0,
+  "nq": 29591.5,
+  "vix": 17.78,
+  "ts": "2026-10-27T12:52:34Z"
  },
  "noticias": [
   {
@@ -11542,6 +11542,29 @@
    "id": "4715bd2a04",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "General Motors Stock Rises as Nasdaq Listing Switch Gets a Date",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSTFXTHZBeTdxYmc1eGVYSV9IYlEySkVwc01sU2FyUTYwT2dseWZ0SWxYOHpRRTZfV2dFcVNIUzFuSmFMOUhKVlZnT1IxT3YwaUdpTVQ1QW5JLWlEWUJaMXZRQkJpUnlFN0YxTmxiN1FaQTZjSkFIRmxKY2dJX1I1WE9sNnZOdGtPQ29XNTU2STVHLXRJeUNmRFpWTTZ0Y00?oc=5",
+   "ts": "2026-10-27T12:39:56Z",
+   "fuente": "Yahoo Finance",
+   "id": "e4618c76fb",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Great Plains Metals' South Australian partner finds district-scale copper-gold system",
+   "link": "https://www.proactiveinvestors.com/companies/news/1100751/great-plains-metals-south-australian-partner-finds-district-scale-copper-gold-system-1100751.html?.tsrc=rss",
+   "ts": "2026-10-27T12:36:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "aba4ddcebd",
+   "activos": [
+    "oro",
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Santoli: We are nearing a now-or-never moment for the AI trade to rebound",
@@ -11555,6 +11578,17 @@
    "impacto": "alto",
    "es": "Santoli: Nos acercamos a un momento decisivo para que repunte el comercio de IA",
    "efecto": "Genera cautela en tecnológicas; presiona al NQ a la baja."
+  },
+  {
+   "titulo": "NEXGEL Regains Compliance with Nasdaq Listing Requirement",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZk9aZFNNckJObGdmMk03WFpmbkxxeVY3c3pZcFNrcnpXSXlnU0QzMVJaTHlQa0ZxdDRDeEVpeEtqSUw3c21BbjdjeHVta0tUTzQ0RWRNSklBRFg5bzF5QjVpU0JpWnYwU0lPVnI1YW9Ub2tqYkFTYklSZUw3dEM5ekZabGVRN2dZRDJ1WnJkTGkwUnd3aDI5Nmg3NHlFcHdaaGlrbC1zems?oc=5",
+   "ts": "2026-10-27T12:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "2f29b04f1c",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Emperor Resumes Fully Funded Drilling Program at Duquesne West",
@@ -11649,6 +11683,17 @@
    "id": "d6c235a93b",
    "activos": [
     "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "PayPal (NASDAQ:PYPL) reports sales below analyst estimates in Q3 2026 earnings",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd1NlbDFMR1U2ZldONDdESjRUTGo2WFUyaG8xWk9pNXhiTU51YjRTRk15NnhXOVNzRjRJZncxMDgySVktWjZGUXRrWDB5QWFsM1JOYnJFelE5UlRuREVIcm9RTkd1YXVudWZyUDF4bk5zYTFoTzR3eWJ5cTI0a3pob0pVam9tcXJ4VXI4Y24zSnhlZGN0ZkFvb01kWnZrQQ?oc=5",
+   "ts": "2026-10-27T12:05:32Z",
+   "fuente": "Yahoo Finance",
+   "id": "520b57d0e3",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -12337,47 +12382,6 @@
    "id": "3f2423f3f9",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "JPMorgan Chase Says That Bitcoin Will Outperform Stocks, Bonds, and Gold Over the Next 10 Years. Here's Why It Might Be Right",
-   "link": "https://www.fool.com/investing/2026/10/27/jpmorgan-chase-says-that-bitcoin-will-outperform-s/?.tsrc=rss",
-   "ts": "2026-10-27T10:05:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "a6598969db",
-   "activos": [
-    "oro",
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "CNBC Select Insurance Pro: When should you drop comprehensive and collision auto insurance? Here's what you need to know",
-   "link": "https://www.cnbc.com/select/when-should-you-drop-comprehensive-and-collision-auto-insurance/",
-   "ts": "2026-10-27T10:01:01Z",
-   "fuente": "CNBC",
-   "id": "24a4f3c649",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Silicon Valley AI political groups turn on each other in the 2026 election",
-   "link": "https://www.cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html",
-   "ts": "2026-10-27T10:00:01Z",
-   "fuente": "CNBC",
-   "id": "2805b83cb2",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Liberty Gold Advances Detailed Engineering Design and Secures Key Long-Lead Equipment for its Black Pine Project, Idaho",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/liberty-gold-advances-detailed-engineering-100000263.html?.tsrc=rss",
-   "ts": "2026-10-27T10:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "6faa079a87",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12936,16 +12940,16 @@
    [
     1793102400,
     4025.0,
-    4041.6,
+    4042.4,
     4024.7,
-    4039.8
+    4037.9
    ],
    [
-    1793104652,
-    4040.1,
-    4040.1,
-    4040.1,
-    4040.1
+    1793104948,
+    4038.0,
+    4038.0,
+    4038.0,
+    4038.0
    ]
   ],
   "nq": [
@@ -13493,14 +13497,14 @@
     29542.75,
     29628.75,
     29535.0,
-    29585.5
+    29589.0
    ],
    [
-    1793104651,
-    29585.25,
-    29585.25,
-    29585.25,
-    29585.25
+    1793104952,
+    29591.5,
+    29591.5,
+    29591.5,
+    29591.5
    ]
   ],
   "vix": [
@@ -13936,14 +13940,14 @@
     17.85,
     17.85,
     17.67,
-    17.72
+    17.79
    ],
    [
-    1793104351,
-    17.72,
-    17.72,
-    17.72,
-    17.72
+    1793104651,
+    17.78,
+    17.78,
+    17.78,
+    17.78
    ]
   ]
  },
@@ -14055,10 +14059,6 @@
   }
  ],
  "noticias_vistas": [
-  "160c7f28bb",
-  "688879d762",
-  "5e4a3ebf36",
-  "9b347bf71b",
   "e68b5cde7b",
   "ad9c39eeda",
   "9b617f13ea",
@@ -14854,7 +14854,11 @@
   "823e99b3be",
   "4715bd2a04",
   "b424a004ae",
-  "b3c0b98bcf"
+  "b3c0b98bcf",
+  "e4618c76fb",
+  "aba4ddcebd",
+  "2f29b04f1c",
+  "520b57d0e3"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
