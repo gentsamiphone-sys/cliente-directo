@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4071.3 · NQ 29767.75 · VIX 17.55",
-   "actualizado": "2026-10-27T15:47:38Z"
+   "ultimo_resultado": "Oro 4077.6 · NQ 29782.0 · VIX 17.54 · 1 noticias nuevas",
+   "actualizado": "2026-10-27T15:53:00Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T15:47:37Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-27T15:52:59Z",
+   "ultimo_resultado": "1 titulares nuevos: Honda advierte que aranceles del 50% de Canadá serían catastróficos"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4077.6 · NQ 29782.0 · VIX 17.54 · 1 noticias nuevas",
+   "ts": "2026-10-27T15:53:00Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4071.3 · NQ 29767.75 · VIX 17.55",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4027.8 · NQ 29474.0 · VIX 18.39",
    "ts": "2026-10-27T02:52:39Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4029.1 · NQ 29482.25 · VIX 18.39 · 1 noticias nuevas",
-   "ts": "2026-10-27T02:47:33Z"
   }
  ],
  "briefs": [
@@ -11528,12 +11528,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4071.3,
-  "nq": 29767.75,
-  "vix": 17.55,
-  "ts": "2026-10-27T15:47:37Z"
+  "oro": 4077.6,
+  "nq": 29782.0,
+  "vix": 17.54,
+  "ts": "2026-10-27T15:52:59Z"
  },
  "noticias": [
+  {
+   "titulo": "Honda warns 50% Canada auto tariffs would be catastrophic for auto industry",
+   "link": "https://www.cnbc.com/2026/10/27/honda-warns-50percent-canada-auto-tariffs-would-be-catastrophic.html",
+   "ts": "2026-10-27T15:48:32Z",
+   "fuente": "CNBC",
+   "id": "338b7b311e",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "Honda advierte que aranceles del 50% de Canadá serían catastróficos",
+   "efecto": ""
+  },
   {
    "titulo": "Costco momentum is improving heading into November, says Katie Stockton",
    "link": "https://www.cnbc.com/2026/10/27/costco-stock-november-momentum.html",
@@ -12371,15 +12384,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Asset Strategies International to Attend the 52nd Annual New Orleans Investment Conference",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/asset-strategies-international-attend-52nd-113000077.html?.tsrc=rss",
-   "ts": "2026-10-27T11:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "fa87b5438d",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -12959,16 +12963,16 @@
    [
     1793113200,
     4066.7,
-    4073.7,
+    4078.6,
     4066.4,
-    4071.6
+    4077.5
    ],
    [
-    1793115455,
-    4071.3,
-    4071.3,
-    4071.3,
-    4071.3
+    1793115775,
+    4077.6,
+    4077.6,
+    4077.6,
+    4077.6
    ]
   ],
   "nq": [
@@ -13535,16 +13539,16 @@
    [
     1793113200,
     29709.0,
-    29780.0,
+    29783.25,
     29707.5,
-    29774.5
+    29781.5
    ],
    [
-    1793115457,
-    29767.75,
-    29767.75,
-    29767.75,
-    29767.75
+    1793115779,
+    29781.5,
+    29781.5,
+    29781.5,
+    29781.5
    ]
   ],
   "vix": [
@@ -14001,18 +14005,18 @@
     17.63,
     17.64,
     17.55,
-    17.58
+    17.56
    ],
    [
-    1793115151,
-    17.55,
-    17.55,
-    17.55,
-    17.55
+    1793115466,
+    17.54,
+    17.54,
+    17.54,
+    17.54
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-27T15:17:36Z",
+ "noticias_traducidas_ts": "2026-10-27T15:52:37Z",
  "ult_4h": 1793116057.9858966,
  "estrategia_4h": {
   "oro": {
@@ -14124,7 +14128,6 @@
   }
  ],
  "noticias_vistas": [
-  "11b940c948",
   "a271394fa0",
   "c61f34bbe6",
   "a00cea585d",
@@ -14923,7 +14926,8 @@
   "cae27f2aa9",
   "997baa3676",
   "9487897a37",
-  "1110cf7ad8"
+  "1110cf7ad8",
+  "338b7b311e"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
