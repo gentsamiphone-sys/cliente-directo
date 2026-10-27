@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4024.0 · NQ 29592.75 · VIX 17.86 · 15 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-27T11:17:39Z"
+   "ultimo_resultado": "Oro 4024.8 · NQ 29589.75 · VIX 17.79 · 3 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-27T11:22:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T11:17:37Z",
-   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: General Motors is moving its stock listing to the Nasdaq from NYSE"
+   "actualizado": "2026-10-27T11:22:34Z",
+   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: Buy Palantir ahead of earnings, says Rosenblatt"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4024.8 · NQ 29589.75 · VIX 17.79 · 3 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-27T11:22:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4024.0 · NQ 29592.75 · VIX 17.86 · 15 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "DXY 0.19% · 10Y 4.986 · VIX 18.39 · 1 eventos USD en el radar.",
    "ts": "2026-10-26T21:32:51Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
-   "ts": "2026-10-26T21:32:49Z"
   }
  ],
  "briefs": [
@@ -11327,12 +11327,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4024.0,
-  "nq": 29592.75,
-  "vix": 17.86,
-  "ts": "2026-10-27T11:17:38Z"
+  "oro": 4024.8,
+  "nq": 29589.75,
+  "vix": 17.79,
+  "ts": "2026-10-27T11:22:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Buy Palantir ahead of earnings, says Rosenblatt",
+   "link": "https://www.cnbc.com/2026/10/27/palantir-rosenblatt-price-target-earnings.html",
+   "ts": "2026-10-27T11:20:08Z",
+   "fuente": "CNBC",
+   "id": "d4ed714ee1",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "General Motors is moving its stock listing to the Nasdaq from NYSE",
    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwbzB0OWRlbHFmNUkzLTIySVVmLXVacGV4d3pvUW9XX2xqWlB3ZUJCNHhJX1poVVdrRUp4azlES09sRGp3SzNlbXlNRzNmbGRFMWpQNEFpbng2Q3g0NEFkbWVZYkhNLWUxWkl3?oc=5",
@@ -11356,6 +11365,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Fed rate hikes are coming, but not this week: CNBC survey",
+   "link": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
+   "ts": "2026-10-27T11:10:01Z",
+   "fuente": "CNBC Economía",
+   "id": "6340d10c04",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Nasdaq's huge week: GM moves stock listing from NYSE and it bags the Anthropic IPO",
    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNc19TaXZmMWV4NTVnRFhSM1NEWG95TXU1ckxFTHVwblIzMmpXSFA1R216cXdzVXNBU2c4V3Jsd3g4MUFZbmlVLXN4bndHOGNjbF82MlRjTVFsdk01NlQ3eW5IcVkyUDE0UnF5c3lUOGNVU0Rja3hSU1g4dE1wd21MMDRLOXhKUWNsQ0lVMkNpWFpEQTMwdVBaQkhFUWRIcUQwdFNfTERZNFV4Z2lZbWpYNmFTeTBVZmJEd0pEbTVLWERxM29NT29LcGVsbHlFQklsQno0bzE3a2Y4ZE5q?oc=5",
    "ts": "2026-10-27T11:09:47Z",
@@ -11374,6 +11394,17 @@
    "id": "0256d2c9e7",
    "activos": [
     "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Fed expected to hold rates steady, but Warsh may point way to more hikes",
+   "link": "https://www.cnbc.com/2026/10/27/federal-reserve-rates-kevin-warsh.html",
+   "ts": "2026-10-27T11:06:22Z",
+   "fuente": "CNBC",
+   "id": "a39eebd905",
+   "activos": [
     "dolar"
    ],
    "impacto": "alto"
@@ -12155,42 +12186,6 @@
    "id": "645c995393",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "UAMY Stock Rises Overnight As United States Antimony Sees $314M Worth Gold-Antimony Prospects In Alaska",
-   "link": "https://stocktwits.com/news-articles/markets/equity/uamy-stock-rises-overnight-as-united-states-antimony-sees-314-m-worth-gold-antimony-prospects-in-alaska/cZUIzpnRBzY?.tsrc=rss",
-   "ts": "2026-10-27T06:49:39Z",
-   "fuente": "Yahoo Finance",
-   "id": "1ecd7e3050",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Can Gold Hold Its 2026 Lows as Silver Breaks Below Its Own?",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdzlKYy1TMWw3b1BmaFBPZVNpUGVraXQtSlYyQnR3aTRVcXBEUUk4dVBfU2VHNktoamZuRHRJTmluZVctMld3TEljTVN2ZHF0a0RMVXM5b0NKYnFnWEMyc3VkcDgwNDVrNFhCRS0zUUdCSnBHS3RtT21NTWJxdV9JemxpZ1JUNlRwN0ZRR2hSTlFGSV9rNU5yOExzeWM0Yk1OcnVQTlQ3SmY?oc=5",
-   "ts": "2026-10-27T06:44:26Z",
-   "fuente": "FOREX.com",
-   "id": "5ed5ea27e6",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "IXIC: Nasdaq Rebounds as AI Rally Spreads Across Asia, Anthropic IPO Stirs Buying",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNkJCSjYySkJyemx1cE5lbk1LRkl5M1loSXVqM1JaOUlSMjdydENXUFM4NEpCZjVRMzJMaHpGNXU3cEdJb3hqVkE1OGg3dHVpa2VzYU9xY0ZKelQtLUMxa19TODMtZWV5UVF4UWg4R0x3eWJacThCYUhKb083SVdsVWlXd0tlZFZoUnh5RUxUbDJWY1lSUlIybXozRkNtazNwZ3ViTXlqYWdEc1VMSU1Tcy12ejluZW81ODBRUEF3ai1wU0ZySTZidnpLMEVzRG9HNmJ5cWVSRlY?oc=5",
-   "ts": "2026-10-27T06:15:00Z",
-   "fuente": "TradingView",
-   "id": "e6499f6406",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El Nasdaq rebota al extenderse el rally de IA en Asia; la OPI de Anthropic impulsa compras",
-   "efecto": "impulsa al Nasdaq al alza por apetito de riesgo tecnológico."
   }
  ],
  "eventos_avisados": [
@@ -12742,16 +12737,16 @@
    [
     1793098800,
     4021.3,
-    4026.4,
+    4026.9,
     4020.8,
-    4023.6
+    4026.0
    ],
    [
-    1793099256,
-    4024.1,
-    4024.1,
-    4024.1,
-    4024.1
+    1793099538,
+    4024.8,
+    4024.8,
+    4024.8,
+    4024.8
    ]
   ],
   "nq": [
@@ -13292,14 +13287,14 @@
     29525.25,
     29602.25,
     29525.25,
-    29598.0
+    29592.5
    ],
    [
-    1793099257,
-    29590.25,
-    29590.25,
-    29590.25,
-    29590.25
+    1793099554,
+    29589.25,
+    29589.25,
+    29589.25,
+    29589.25
    ]
   ],
   "vix": [
@@ -13727,15 +13722,15 @@
     1793098800,
     17.92,
     17.92,
-    17.87,
-    17.88
+    17.77,
+    17.77
    ],
    [
-    1793098951,
-    17.86,
-    17.86,
-    17.86,
-    17.86
+    1793099251,
+    17.79,
+    17.79,
+    17.79,
+    17.79
    ]
   ]
  },
@@ -13846,9 +13841,6 @@
   }
  ],
  "noticias_vistas": [
-  "4bbfe0cb00",
-  "b06d5ded11",
-  "4d0569a90f",
   "f47b2f6cd0",
   "bde6c03a47",
   "f8ff93970d",
@@ -14645,7 +14637,10 @@
   "6ff33a7115",
   "8304ed4a2e",
   "9549de7923",
-  "8b0d2752cd"
+  "8b0d2752cd",
+  "d4ed714ee1",
+  "6340d10c04",
+  "a39eebd905"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
