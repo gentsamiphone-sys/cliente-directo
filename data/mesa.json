@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4011.7 · NQ 29417.25 · VIX 18.33 · 4 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-27T10:22:35Z"
+   "ultimo_resultado": "Oro 4007.7 · NQ 29408.25 · VIX 18.37 · 2 noticias nuevas",
+   "actualizado": "2026-10-27T10:27:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T10:22:34Z",
-   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: UPS beats quarterly expectations, raises full-year guidance again"
+   "actualizado": "2026-10-27T10:27:32Z",
+   "ultimo_resultado": "2 titulares nuevos: Coca-Cola is about to report earnings. Here's what to expect"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4007.7 · NQ 29408.25 · VIX 18.37 · 2 noticias nuevas",
+   "ts": "2026-10-27T10:27:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4011.7 · NQ 29417.25 · VIX 18.33 · 4 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "2 titulares nuevos: Trend hedge funds saw worst week since 2024 as AI stocks fell, Goldman says",
    "ts": "2026-10-26T21:02:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4029.6 · NQ 29454.25 · VIX 18.39 · 2 noticias nuevas",
-   "ts": "2026-10-26T20:57:35Z"
   }
  ],
  "briefs": [
@@ -11327,18 +11327,36 @@
   }
  },
  "en_vivo": {
-  "oro": 4011.7,
-  "nq": 29417.25,
-  "vix": 18.33,
-  "ts": "2026-10-27T10:22:35Z"
+  "oro": 4007.7,
+  "nq": 29408.25,
+  "vix": 18.37,
+  "ts": "2026-10-27T10:27:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Coca-Cola is about to report earnings. Here's what to expect",
+   "link": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html",
+   "ts": "2026-10-27T10:25:02Z",
+   "fuente": "CNBC",
+   "id": "134ed4f160",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "UPS beats quarterly expectations, raises full-year guidance again",
    "link": "https://www.cnbc.com/2026/10/27/ups-ups-q3-2026-earnings.html",
    "ts": "2026-10-27T10:19:49Z",
    "fuente": "CNBC",
    "id": "1a358accec",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "I’m 50 years old and need to retire by 62. I’m contributing 6% to my 401(k) and have $500,000. Can I pull it off?",
+   "link": "https://finance.yahoo.com/markets/articles/m-50-years-old-retire-101500828.html?.tsrc=rss",
+   "ts": "2026-10-27T10:15:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "bfebb92c62",
    "activos": [],
    "impacto": "bajo"
   },
@@ -12172,26 +12190,6 @@
    "impacto": "alto",
    "es": "El oro cae cerca de $4,010 a la espera de la Fed y diplomacia con Irán",
    "efecto": "Presiona al oro a la baja por cautela previa a la Fed."
-  },
-  {
-   "titulo": "$E-mini NASDAQ 100 Futures (DEC6) (NQmain.US)$",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON21nM1hZWGFIUnpYQzhLamJYUjhKQnhXUVJvRURZSDJlX0JRSk54emE5QU83Njc2ckNxeUUyelVic1VwN3AxT2t3MnZjcFRCci1XZVZ5RHlhRjhOUnlBSWFwXzNtU1JHZ2FXLWk2bExjR0VONmlVd0xEYjZjVmEtMVkzYTc5S1V6R2FkR2tCdURrYnRiWlBQdTVR?oc=5",
-   "ts": "2026-10-27T01:31:19Z",
-   "fuente": "Moomoo",
-   "id": "c5363ef7ae",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "U.S. and Canada working on deal to ease steel and auto tariffs, sources say",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YQWJWd0JGWHUyakQyWmpZOXR5a2NzVlFzTVFkWTdYREFOUWxJR2VjNmVtTDFiLXZQVF84Y1RLZ0VSeG5fSy1kdXk0UllpWjN3ZnN3eXh5Y0o5Ukh4cXdHQ1NQS2NJVUU1TlhsTTRmclhnYU9BYVNOUzJEZDM0QQ?oc=5",
-   "ts": "2026-10-27T01:24:00Z",
-   "fuente": "The Japan Times",
-   "id": "068cb1ccc0",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -12737,15 +12735,15 @@
     1793095200,
     4015.2,
     4016.4,
-    4010.5,
-    4011.0
+    4006.7,
+    4006.7
    ],
    [
-    1793095950,
-    4011.7,
-    4011.7,
-    4011.7,
-    4011.7
+    1793096248,
+    4007.7,
+    4007.7,
+    4007.7,
+    4007.7
    ]
   ],
   "nq": [
@@ -13278,15 +13276,15 @@
     1793095200,
     29477.75,
     29477.75,
-    29409.25,
-    29421.0
+    29393.25,
+    29405.75
    ],
    [
-    1793095952,
-    29417.25,
-    29417.25,
-    29417.25,
-    29417.25
+    1793096250,
+    29408.0,
+    29408.0,
+    29408.0,
+    29408.0
    ]
   ],
   "vix": [
@@ -13706,16 +13704,16 @@
    [
     1793095200,
     18.2,
-    18.32,
+    18.36,
     18.2,
-    18.32
+    18.36
    ],
    [
-    1793095651,
-    18.33,
-    18.33,
-    18.33,
-    18.33
+    1793095936,
+    18.37,
+    18.37,
+    18.37,
+    18.37
    ]
   ]
  },
@@ -13826,8 +13824,6 @@
   }
  ],
  "noticias_vistas": [
-  "e69b5847d5",
-  "25941c0f07",
   "8ba5fe2456",
   "8bc96ae4f5",
   "973969624e",
@@ -14625,7 +14621,9 @@
   "1a358accec",
   "6faa079a87",
   "b162bcaa3a",
-  "3c5f63d277"
+  "3c5f63d277",
+  "134ed4f160",
+  "bfebb92c62"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
