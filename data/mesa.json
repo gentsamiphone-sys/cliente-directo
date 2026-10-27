@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4009.7 · NQ 29458.0 · VIX 18.25 · 2 noticias nuevas",
-   "actualizado": "2026-10-27T10:02:36Z"
+   "ultimo_resultado": "Oro 4010.5 · NQ 29473.5 · VIX 18.25 · 1 noticias nuevas",
+   "actualizado": "2026-10-27T10:07:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T10:02:35Z",
-   "ultimo_resultado": "2 titulares nuevos: Silicon Valley AI political groups turn on each other in the 2026 election"
+   "actualizado": "2026-10-27T10:07:41Z",
+   "ultimo_resultado": "1 titulares nuevos: CRE debt is due, presenting a 'massive' opportunity"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4010.5 · NQ 29473.5 · VIX 18.25 · 1 noticias nuevas",
+   "ts": "2026-10-27T10:07:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4009.7 · NQ 29458.0 · VIX 18.25 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4026.5 · NQ 29466.75 · VIX 18.39 · 2 noticias nuevas",
    "ts": "2026-10-26T20:42:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4027.1 · NQ 29459.5 · VIX 18.39 · 2 noticias nuevas",
-   "ts": "2026-10-26T20:37:35Z"
   }
  ],
  "briefs": [
@@ -11327,12 +11327,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4009.7,
-  "nq": 29458.0,
+  "oro": 4010.5,
+  "nq": 29473.5,
   "vix": 18.25,
-  "ts": "2026-10-27T10:02:35Z"
+  "ts": "2026-10-27T10:07:41Z"
  },
  "noticias": [
+  {
+   "titulo": "CRE debt is due, presenting a 'massive' opportunity",
+   "link": "https://www.cnbc.com/2026/10/27/cre-debt-is-due-presenting-a-massive-opportunity.html",
+   "ts": "2026-10-27T10:05:12Z",
+   "fuente": "CNBC",
+   "id": "3f2423f3f9",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Silicon Valley AI political groups turn on each other in the 2026 election",
    "link": "https://www.cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html",
@@ -12195,17 +12204,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Austral Gold Files Q3 2026 Quarterly Activities Report",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/austral-gold-files-q3-2026-235000218.html?.tsrc=rss",
-   "ts": "2026-10-26T23:50:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "b311bf67ce",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12745,14 +12743,14 @@
     4007.4,
     4015.0,
     4006.0,
-    4010.0
+    4010.2
    ],
    [
-    1793094752,
-    4009.7,
-    4009.7,
-    4009.7,
-    4009.7
+    1793095058,
+    4010.5,
+    4010.5,
+    4010.5,
+    4010.5
    ]
   ],
   "nq": [
@@ -13279,14 +13277,14 @@
     29433.5,
     29479.0,
     29424.0,
-    29460.5
+    29471.25
    ],
    [
-    1793094753,
-    29458.0,
-    29458.0,
-    29458.0,
-    29458.0
+    1793095059,
+    29473.5,
+    29473.5,
+    29473.5,
+    29473.5
    ]
   ],
   "vix": [
@@ -13701,10 +13699,10 @@
     18.31,
     18.31,
     18.18,
-    18.25
+    18.24
    ],
    [
-    1793094451,
+    1793094751,
     18.25,
     18.25,
     18.25,
@@ -13819,7 +13817,6 @@
   }
  ],
  "noticias_vistas": [
-  "1676022bf4",
   "1f6018bfb5",
   "0ea4e08c60",
   "30d3878e53",
@@ -14618,7 +14615,8 @@
   "2ebb6c7d4a",
   "a83d4c61c7",
   "2805b83cb2",
-  "641c325c35"
+  "641c325c35",
+  "3f2423f3f9"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
