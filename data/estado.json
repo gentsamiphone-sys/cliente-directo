@@ -5091,9 +5091,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando restaurantes y comida sin página web cerca de Boulder Hwy…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-10-27T13:02:37Z"
+   "actualizado": "2026-10-27T13:06:26Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -5121,6 +5121,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-27T13:06:26Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando restaurantes y comida sin página web cerca de Boulder Hwy…",
@@ -6615,11 +6620,6 @@
    "agente": "disenador",
    "texto": "Armando la muestra de TENDER Steak & Seafood…",
    "ts": "2026-10-25T09:30:36Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Muestra lista de Planet Hollywood Restaurant y su mensaje para mandar por texto.",
-   "ts": "2026-10-25T09:30:32Z"
   }
  ],
  "reportes": {
