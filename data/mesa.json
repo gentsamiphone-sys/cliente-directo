@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4073.5 · NQ 29787.25 · VIX 17.52 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-27T20:52:33Z"
+   "ultimo_resultado": "Oro 4073.6 · NQ 29793.75 · VIX 17.52 · 3 noticias nuevas",
+   "actualizado": "2026-10-27T20:57:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T20:52:32Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Trump’s Tariffs Will Have Another Day in Court"
+   "actualizado": "2026-10-27T20:57:35Z",
+   "ultimo_resultado": "3 titulares nuevos: Amex Platinum and Business Platinum add Airbnb perks, but lodging credit rules are tightening"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4073.6 · NQ 29793.75 · VIX 17.52 · 3 noticias nuevas",
+   "ts": "2026-10-27T20:57:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4073.5 · NQ 29787.25 · VIX 17.52 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Escribiendo el brief institucional…",
    "ts": "2026-10-27T06:33:12Z"
-  },
-  {
-   "agente": "historiador",
-   "texto": "ORO: Sesgo histórico neutral: 2 de 9 años subió esta semana; 2 de 9 subió los 20 días siguientes; análogos 2022, 2018, 2021 · NQ: Sesgo histórico alcista: 6 de 9 años subió esta semana; 7 de 9 subió los 20 días siguientes; análogos 2025, 2021, 2024",
-   "ts": "2026-10-27T06:33:11Z"
   }
  ],
  "briefs": [
@@ -11528,12 +11528,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4073.5,
-  "nq": 29787.25,
+  "oro": 4073.6,
+  "nq": 29793.75,
   "vix": 17.52,
-  "ts": "2026-10-27T20:52:33Z"
+  "ts": "2026-10-27T20:57:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Amex Platinum and Business Platinum add Airbnb perks, but lodging credit rules are tightening",
+   "link": "https://www.cnbc.com/select/amex-platinum-airbnb-lodging-credit/",
+   "ts": "2026-10-27T20:51:24Z",
+   "fuente": "CNBC",
+   "id": "6b3cce86a2",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Trump’s Tariffs Will Have Another Day in Court",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRWNrcHF5d2ZYX1JwaUE1NkxJc3hyeVFSUmp4WmNFSWk3MFkyUGxXcUctdk5fbDNHUi1rT1djeXJwejhBQkstcVIxTVlXaWtXa1dmZmlWX2RqVGp6eFVxZXB3QnhkT0dfTTlfUWo3dTEyYVN0TU1INGNhZjlneU4xZlVzbDIteFI1azV4Wl9jUVZ0UWlYNHcwYVA3Wmo5ak0?oc=5",
@@ -11615,6 +11624,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Seagate (NASDAQ:STX) surprises with Q3 sales but stock drops",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbWxYTHpKRll3X3YyOWVXU21lX3R2STduNmlvaXJEWEpuQzdvNVg2M1oyZDFZdDRGMTlLSEFkdXh4NmxvbTFjNzB5OUtralVKNEw3UXQzNnNZQVFBQXNhUnFzRUFFblpvRzlJR0l4RWpMd3UwRXBhNE1QYVh2dzluX2J5UGJEc2IwNUM2V3FpdmtINWFtQzdmV1RnQWE?oc=5",
+   "ts": "2026-10-27T20:26:25Z",
+   "fuente": "Yahoo Finance",
+   "id": "7e09520777",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "U.S. Stocks Add to Gains Ahead of Earnings, Fed Statement",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbXFITkNuNWUwVzRMV055bkVYaTZWMmpSZTFCSnN1MGh4dWZJb0wyQVI3c1c1c0EyZFZRZHlsbWRVajExeEJzc0lDQWtUY2VFRE1QRE1zM0ZJak93QllaNjlvQTZKaG81STFFelRWNnpDd204ZFRWYnB1T3ppdXFHT1JTTndZYV80R3N5SFUwdFJwTXJpRWtBanNCOWwxU0pC?oc=5",
    "ts": "2026-10-27T20:24:00Z",
@@ -11676,6 +11696,17 @@
    "id": "7e80a556ec",
    "activos": [
     "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Georgia Banking Company, Inc. Announces Direct Listing of Common Stock on Nasdaq",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPenVxNk1jdEVXY3BpeUZiQm94NUFUbmZlZ0pjQTk0bkE3bnlaVE9TVHpiMWliLUFpS1Zxbkh0dEJCcnpNdnN3THg0M25RbTFGaFdwdEo5YnlpYzlVOW05N09ydVB1SVdHNDBINURxRjVWZ3p5dXFDMTNfT3A4LVFkMklpTkg4cEtrczFtVmFGNjY0d3d4UVllQWJIUGEwTFR2OXRycQ?oc=5",
+   "ts": "2026-10-27T20:15:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "98065e9a0d",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -12361,33 +12392,6 @@
    "id": "67e7f04f9b",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "One week out, prediction markets see Democrats as favored to sweep Congress",
-   "link": "https://www.cnbc.com/2026/10/27/2026-midterms-prediction-markets-democrats-congress.html",
-   "ts": "2026-10-27T16:15:21Z",
-   "fuente": "CNBC",
-   "id": "cb9593e729",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "FCX Q3 Earnings Beat Estimates on Strong Copper Pricing",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/fcx-q3-earnings-beat-estimates-161400506.html?.tsrc=rss",
-   "ts": "2026-10-27T16:14:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "786eaa08a3",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Grande Portage Resources Ltd. to Attend the 52nd Annual New Orleans Investment Conference",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/grande-portage-resources-ltd-attend-161400420.html?.tsrc=rss",
-   "ts": "2026-10-27T16:14:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "05ab2033b2",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -13004,14 +13008,14 @@
     4074.7,
     4075.5,
     4072.1,
-    4073.6
+    4073.8
    ],
    [
-    1793133739,
-    4073.5,
-    4073.5,
-    4073.5,
-    4073.5
+    1793134052,
+    4073.6,
+    4073.6,
+    4073.6,
+    4073.6
    ]
   ],
   "nq": [
@@ -13615,14 +13619,14 @@
     29813.75,
     29840.5,
     29780.25,
-    29784.25
+    29793.25
    ],
    [
-    1793133749,
-    29786.25,
-    29786.25,
-    29786.25,
-    29786.25
+    1793134051,
+    29793.75,
+    29793.75,
+    29793.75,
+    29793.75
    ]
   ],
   "vix": [
@@ -14249,9 +14253,6 @@
   }
  ],
  "noticias_vistas": [
-  "c1a353893b",
-  "1fa066b081",
-  "338d595459",
   "5e2920c10a",
   "eca22ba465",
   "8947d2248b",
@@ -15048,7 +15049,10 @@
   "ca479bb793",
   "ec3af7b0c7",
   "ff12fcf603",
-  "da2304d7ee"
+  "da2304d7ee",
+  "6b3cce86a2",
+  "7e09520777",
+  "98065e9a0d"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
