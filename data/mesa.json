@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4071.9 · NQ 29852.5 · VIX 17.55 · 5 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-27T16:37:39Z"
+   "ultimo_resultado": "Oro 4072.1 · NQ 29840.25 · VIX 17.56 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-27T16:42:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T16:37:37Z",
-   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: Oracle integrates ChatGPT, Codex into apps and expands cloud chip lineup"
+   "actualizado": "2026-10-27T16:42:34Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Wall St rises as AI momentum holds heading into key earnings, Fed decision"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4072.1 · NQ 29840.25 · VIX 17.56 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-27T16:42:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4071.9 · NQ 29852.5 · VIX 17.55 · 5 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4030.3 · NQ 29442.5 · VIX 18.39",
    "ts": "2026-10-27T03:47:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4024.7 · NQ 29427.75 · VIX 18.39 · 2 noticias nuevas",
-   "ts": "2026-10-27T03:42:33Z"
   }
  ],
  "briefs": [
@@ -11528,12 +11528,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4071.9,
-  "nq": 29852.5,
-  "vix": 17.55,
-  "ts": "2026-10-27T16:37:38Z"
+  "oro": 4072.1,
+  "nq": 29840.25,
+  "vix": 17.56,
+  "ts": "2026-10-27T16:42:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Wall St rises as AI momentum holds heading into key earnings, Fed decision",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR21qQWZsLUZqbWRjR2YtQ3FGakpEWWVjSUVFNjVDSi01MnRiWmV3Z2pPQUsyVGhJR3UxQ1o4RjRVa2tCLXNXbnJjNE9fbE5KVzlKTEZtNHpZb3lPR0hXcFFSVGVydlpnR3RQdVM5bDE3aVI3aVowN0NqY3NHb3VDN3hlaXpLTmxkeFc3NE13dUNqYUtIMHNxRFR5M3VYZmpKUDRzVE5WLUdwRHJCeEpQM1pKaw?oc=5",
+   "ts": "2026-10-27T16:35:18Z",
+   "fuente": "Reuters",
+   "id": "6be065c1cd",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Oracle integrates ChatGPT, Codex into apps and expands cloud chip lineup",
    "link": "https://www.cnbc.com/2026/10/27/oracle-openai-chatgpt-codex-google-tpus.html",
@@ -11783,6 +11794,15 @@
     "dolar"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Leonardo DRS Rings the Opening Bell",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1OSmtOazkwbDZuSWRUaUt4NlZTOGVabVZaNXFrYklUWDhPWHJHeU8yQXJZY2hZUFl1VjhSVEpNNk50cWVvSmtfSzlvYUh4V3dfeTFwclA1Y2s1c1laa05vbTZmTV9BODhnNmViTDhR?oc=5",
+   "ts": "2026-10-27T14:15:00Z",
+   "fuente": "Nasdaq",
+   "id": "65bdb65abb",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "JetBlue stock surges 19% as company outlook calms investors",
@@ -12355,28 +12375,6 @@
    "id": "e509699b9c",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "National Bank Remains Cautious on Canadian Dollar as Commodity, Rate Risks Persist",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/national-bank-remains-cautious-canadian-120915001.html?.tsrc=rss",
-   "ts": "2026-10-27T12:09:15Z",
-   "fuente": "Yahoo Finance",
-   "id": "d6c235a93b",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "PayPal (NASDAQ:PYPL) reports sales below analyst estimates in Q3 2026 earnings",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd1NlbDFMR1U2ZldONDdESjRUTGo2WFUyaG8xWk9pNXhiTU51YjRTRk15NnhXOVNzRjRJZncxMDgySVktWjZGUXRrWDB5QWFsM1JOYnJFelE5UlRuREVIcm9RTkd1YXVudWZyUDF4bk5zYTFoTzR3eWJ5cTI0a3pob0pVam9tcXJ4VXI4Y24zSnhlZGN0ZkFvb01kWnZrQQ?oc=5",
-   "ts": "2026-10-27T12:05:32Z",
-   "fuente": "Yahoo Finance",
-   "id": "520b57d0e3",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12964,15 +12962,15 @@
     1793116800,
     4077.1,
     4078.9,
-    4071.1,
-    4071.6
+    4070.1,
+    4071.9
    ],
    [
-    1793118455,
-    4071.9,
-    4071.9,
-    4071.9,
-    4071.9
+    1793118752,
+    4071.7,
+    4071.7,
+    4071.7,
+    4071.7
    ]
   ],
   "nq": [
@@ -13548,14 +13546,14 @@
     29842.25,
     29875.5,
     29824.25,
-    29850.25
+    29838.75
    ],
    [
-    1793118455,
-    29852.5,
-    29852.5,
-    29852.5,
-    29852.5
+    1793118752,
+    29840.25,
+    29840.25,
+    29840.25,
+    29840.25
    ]
   ],
   "vix": [
@@ -14019,14 +14017,14 @@
     17.54,
     17.6,
     17.52,
-    17.56
+    17.55
    ],
    [
-    1793118151,
-    17.55,
-    17.55,
-    17.55,
-    17.55
+    1793118451,
+    17.56,
+    17.56,
+    17.56,
+    17.56
    ]
   ]
  },
@@ -14154,8 +14152,6 @@
   }
  ],
  "noticias_vistas": [
-  "ef0a1faa04",
-  "95cb6ed07b",
   "0621a05d64",
   "b94d744b97",
   "3a11dd6d93",
@@ -14953,7 +14949,9 @@
   "4eabf2e41a",
   "730b702159",
   "b2acc5e212",
-  "2748c948a4"
+  "2748c948a4",
+  "6be065c1cd",
+  "65bdb65abb"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
