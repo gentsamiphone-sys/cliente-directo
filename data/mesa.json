@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T06:32:59Z",
-   "ultimo_resultado": "Mapa listo: oro 4015.6 · NQ 29330.5."
+   "actualizado": "2026-10-27T12:32:35Z",
+   "ultimo_resultado": "Estrategia 4H NQ: COMPRA: esperar retesteo de 29345.0 · stop 29218.81 · objetivo 29613.0 · R:R 2.12 (esperando retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T12:27:33Z",
-   "ultimo_resultado": "4 titulares nuevos: Here are Tuesday's biggest analyst calls: SpaceX, Apple, Broadcom, CoreWeave, Palantir, Intel & more"
+   "actualizado": "2026-10-27T12:32:34Z",
+   "ultimo_resultado": "3 titulares nuevos: GM to Leave NYSE for Stock Listing on Tech-Focused Nasdaq"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H NQ: COMPRA: esperar retesteo de 29345.0 · stop 29218.81 · objetivo 29613.0 · R:R 2.12 (esperando retesteo). Tú ejecutas.",
+   "ts": "2026-10-27T12:32:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4027.9 · NQ 29572.0 · VIX 17.82 · 4 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Brief de Asia (Tokio/Sídney) publicado: NQ y Oro sin entradas operativas hoy por alta saturación de ATR y filtros de riesgo.",
    "ts": "2026-10-26T21:37:08Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Escribiendo el brief institucional…",
-   "ts": "2026-10-26T21:33:12Z"
   }
  ],
  "briefs": [
@@ -11327,10 +11327,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4027.9,
-  "nq": 29572.0,
-  "vix": 17.82,
-  "ts": "2026-10-27T12:27:33Z"
+  "oro": 4029.6,
+  "nq": 29577.75,
+  "vix": 17.78,
+  "ts": "2026-10-27T12:32:34Z"
  },
  "noticias": [
   {
@@ -11425,11 +11425,33 @@
    "impacto": "medio"
   },
   {
+   "titulo": "GM to Leave NYSE for Stock Listing on Tech-Focused Nasdaq",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPakM3cHFBQ2RjNE9MNkVsOEtPbjJHQ3NBMHNMVE1QVURBbWtkOHFjRWVEOTdHV2VKQ2Q1eW9rTXpRdjhFb29Qc2txUkV6MVM5bm5QOGZfdjFlUzRKYlYyMWtfelN1U1prdGFiZWdQWDBlaGVIeFg0bWQtaldEdTdXdFJvYVh4SjA1NEZaajg2V1lHb0c4M09FQ3hRbzRGU0RJa0xwZ1BZa0c5MmV0cHVoTg?oc=5",
+   "ts": "2026-10-27T11:56:07Z",
+   "fuente": "Bloomberg.com",
+   "id": "02dac2108b",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Stocks making the biggest moves premarket: PayPal, Corning, UPS, Coca-Cola & more",
    "link": "https://www.cnbc.com/2026/10/27/stocks-making-the-biggest-moves-premarket-pypl-glw-ups-ko.html",
    "ts": "2026-10-27T11:54:46Z",
    "fuente": "CNBC",
    "id": "4cf1131815",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "SoFi (NASDAQ:SOFI) surprises with strong Q3 2026, stock soars",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUXhuVDNRbDV3dGxHU2piR0tLUUZjVnJQckN0SHBmdUZvanVaMV9PcG1zSWxjWEF1YzBWeGJGUGhob0M4a2k3MDYwNm1aX2R5RnkzV3JGZGp3aWpnaVRiQUJBeFlVNGthM3FvNk4wV2pHZ3NlV3IzQ3VzWmY0X2RwMzRzZjdVQ1B0bVZqLXZjRDZPQjdCamNYenBLdU9uVkE?oc=5",
+   "ts": "2026-10-27T11:52:40Z",
+   "fuente": "Yahoo Finance",
+   "id": "4c33e78561",
    "activos": [
     "nq"
    ],
@@ -12106,6 +12128,17 @@
    "impacto": "alto"
   },
   {
+   "titulo": "U.S. Treasury yields are little changed as Federal Reserve's monetary policy meeting gets underway",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNmh6WFAzNWdIOWhlWXJxTjdEVk44cmliSXBmSlVuVDVmMkNxVzY0Ykc5TzFBVEVrNXcxSXNnc0VqZlAxemFpTEJHczdCSHBGTWFBclBQVkcyUm5qQzF0am5OOHhYVnRBTnhZYlFGRmRKOTJfX0RFOXd0bHZ0VXhNRmhoUWZfeVREdFQ3MWpOcGtIaHZMeHZB0gGcAUFVX3lxTE92WXJpR0xaYlIzNERkNzFvZHJnek1vLTIzNjhLUWRGb2RBTnhfQWMzQ2ttREhuZHowck9iY2hDM3VrRnUtd25EWVh1cWM2bG9VSWw3N0VSUWVLV3IwbG9tUWhXWnRjenZ1bFRTaDhtX2FJN0E1VzJnWkUwbU9DQk4tZXp5MVhXaExXQnRZc2xFdEc5QUFZVXVWQ0VSVA?oc=5",
+   "ts": "2026-10-27T09:44:07Z",
+   "fuente": "CNBC",
+   "id": "c9c19555db",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "U.S. Treasury yields are flat ahead of the Federal Reserve's monetary policy meeting",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNmh6WFAzNWdIOWhlWXJxTjdEVk44cmliSXBmSlVuVDVmMkNxVzY0Ykc5TzFBVEVrNXcxSXNnc0VqZlAxemFpTEJHczdCSHBGTWFBclBQVkcyUm5qQzF0am5OOHhYVnRBTnhZYlFGRmRKOTJfX0RFOXd0bHZ0VXhNRmhoUWZfeVREdFQ3MWpOcGtIaHZMeHZB0gGcAUFVX3lxTE92WXJpR0xaYlIzNERkNzFvZHJnek1vLTIzNjhLUWRGb2RBTnhfQWMzQ2ttREhuZHowck9iY2hDM3VrRnUtd25EWVh1cWM2bG9VSWw3N0VSUWVLV3IwbG9tUWhXWnRjenZ1bFRTaDhtX2FJN0E1VzJnWkUwbU9DQk4tZXp5MVhXaExXQnRZc2xFdEc5QUFZVXVWQ0VSVA?oc=5",
    "ts": "2026-10-27T09:44:07Z",
@@ -12139,39 +12172,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Anthropic Files for Nasdaq Listing",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOGMzd0FGWFRhNlJudmJRRmpnWlBFdjlaaHFCS0dMWVVYTTE4cGlNWmYzZnVYQUZkLWd5TVdCY005dmVzU3NJd3lIbFlSTHlrSzdLTW1GNmNJb1NDMjFpdWJqeFhYQXBNVTI3UWR3Nm11bEs2R2hZeDJtVG5jMjI4R0Zfbno?oc=5",
-   "ts": "2026-10-27T09:07:39Z",
-   "fuente": "GovCon Wire",
-   "id": "d439d6badd",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "The Fed Is Expected to Hold Rates Steady. Warsh Will Have to Explain Why.",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQm1wSW1OUF9iUVRabFdtUFBDaTl4TUthaHJqWUM3Tnc0Q05YTnZ4UWNGa0Y0Mk5aRWt6aXRvUVlnaVROcWZQNUVrLUtVa1dkbksybTY2UFVaVEtZbEdCWlAtUEhHNEkxR3JoSC1COTJvLTcxOFlySGZ4LVhvVkpqUldma19IY0JLb296aEJsWFRuQVI1akI5ZEJIYUZBSFFDMjJhc1RDTUYtQm8tSHhPalk4M0JXTGdwUWpzLQ?oc=5",
-   "ts": "2026-10-27T09:03:48Z",
-   "fuente": "The New York Times",
-   "id": "4dc86596a7",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "China Is Building Its Way Around Europe’s EV Tariffs",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMjRONGxRUmF1UHlpdzlacU1FcEZ1b1dIUmNWR29MRDI3Q2RkMmRpVzlaaEkxNnVFMmZlY0JDSllJZW5vdWhsM2c3T1F3U0ZfeGliU05rOFJZdkx0N3pYdVhtcU52aXJrY0lIeEFXVm5XbG85ZTFCc2Z2NThZRm9NQWF0ajJqOGlEN09MN2NRZjdWNnZ3YzVGd1NYYk9rdUlkeFBNbE9hcVJmZVE?oc=5",
-   "ts": "2026-10-27T09:01:44Z",
-   "fuente": "Foreign Policy",
-   "id": "2a528b5238",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "China elude los aranceles a vehículos eléctricos de la UE fabricando localmente",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -13742,19 +13742,19 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-27T12:07:37Z",
- "ult_4h": 1793103451.3249013,
+ "ult_4h": 1793104354.806791,
  "estrategia_4h": {
   "oro": {
-   "precio": 4029.4,
-   "atr_4h": 23.34,
+   "precio": 4029.6,
+   "atr_4h": 23.44,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4105.2,
+     "stop": 4105.27,
      "objetivo": 3989.1,
-     "rr": 7.29,
+     "rr": 7.26,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.24,
      "ruptura": "2026-10-22 08:00 UTC"
@@ -13763,9 +13763,9 @@
      "direccion": "VENTA",
      "nivel": 4130.1,
      "entrada": 4130.1,
-     "stop": 4144.1,
+     "stop": 4144.17,
      "objetivo": 3989.1,
-     "rr": 10.07,
+     "rr": 10.02,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.51,
      "ruptura": "2026-10-22 00:00 UTC"
@@ -13773,23 +13773,34 @@
    ]
   },
   "nq": {
-   "precio": 29544.25,
-   "atr_4h": 207.71,
+   "precio": 29577.75,
+   "atr_4h": 210.32,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29201.37,
+     "stop": 29199.81,
      "objetivo": 29613.0,
-     "rr": 2.3,
+     "rr": 2.27,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.96,
+     "fuerza_ruptura_atr": 0.94,
+     "ruptura": "2026-10-26 12:00 UTC"
+    },
+    {
+     "direccion": "COMPRA",
+     "nivel": 29345.0,
+     "entrada": 29345.0,
+     "stop": 29218.81,
+     "objetivo": 29613.0,
+     "rr": 2.12,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 0.94,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-27T12:17:31Z"
+  "ts": "2026-10-27T12:32:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13830,7 +13841,8 @@
   "nq|VENTA|29268.75|esperando retesteo",
   "nq|VENTA|29391.75|en retesteo",
   "nq|COMPRA|29326.0|esperando retesteo",
-  "nq|COMPRA|29326.0|en retesteo"
+  "nq|COMPRA|29326.0|en retesteo",
+  "nq|COMPRA|29345.0|esperando retesteo"
  ],
  "alpha_ordenes": [
   {
@@ -13848,9 +13860,6 @@
   }
  ],
  "noticias_vistas": [
-  "a2d1d4efab",
-  "7616cf7921",
-  "0f4f21e03a",
   "cfb5c4b8d2",
   "e5432b1fd4",
   "c659c137b1",
@@ -14647,7 +14656,10 @@
   "75cc8b7bbf",
   "179c99da7a",
   "42732f8fc7",
-  "d6c235a93b"
+  "d6c235a93b",
+  "02dac2108b",
+  "4c33e78561",
+  "c9c19555db"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
