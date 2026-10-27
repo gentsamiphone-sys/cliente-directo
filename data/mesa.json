@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4025.4 · NQ 29559.0 · VIX 17.83 · 1 noticias nuevas",
-   "actualizado": "2026-10-27T11:37:36Z"
+   "ultimo_resultado": "Oro 4026.7 · NQ 29551.25 · VIX 17.84 · 5 noticias nuevas",
+   "actualizado": "2026-10-27T11:42:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T11:37:36Z",
-   "ultimo_resultado": "1 titulares nuevos: Acciones de Kinross Gold cotizan con descuento por sólida perspectiva operativa"
+   "actualizado": "2026-10-27T11:42:33Z",
+   "ultimo_resultado": "5 titulares nuevos: US Dollar Rises Early Tuesday Ahead of Busy Data Schedule"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4026.7 · NQ 29551.25 · VIX 17.84 · 5 noticias nuevas",
+   "ts": "2026-10-27T11:42:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4025.4 · NQ 29559.0 · VIX 17.83 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Mapa listo: oro 4031.0 · NQ 29467.5.",
    "ts": "2026-10-26T21:32:57Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
-   "ts": "2026-10-26T21:32:55Z"
   }
  ],
  "briefs": [
@@ -11327,18 +11327,60 @@
   }
  },
  "en_vivo": {
-  "oro": 4025.4,
-  "nq": 29559.0,
-  "vix": 17.83,
-  "ts": "2026-10-27T11:37:36Z"
+  "oro": 4026.7,
+  "nq": 29551.25,
+  "vix": 17.84,
+  "ts": "2026-10-27T11:42:34Z"
  },
  "noticias": [
+  {
+   "titulo": "US Dollar Rises Early Tuesday Ahead of Busy Data Schedule",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-tuesday-113324745.html?.tsrc=rss",
+   "ts": "2026-10-27T11:33:24Z",
+   "fuente": "Yahoo Finance",
+   "id": "03b557b2b8",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Boeing narrows third-quarter loss as defense sales rise, but focus remains on 737 Max production",
    "link": "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html",
    "ts": "2026-10-27T11:31:44Z",
    "fuente": "CNBC",
    "id": "d3cea26ef4",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Lahontan Gold Provides Corporate Update on Santa Fe and West Santa Fe Drill Programs",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/lahontan-gold-provides-corporate-santa-113000304.html?.tsrc=rss",
+   "ts": "2026-10-27T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "cd033b23ed",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Geomorphic AI Engaged by Au Gold Corp to Validate Drill Targets and Generate New Gold Projects in Victoria",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/geomorphic-ai-engaged-au-gold-113000067.html?.tsrc=rss",
+   "ts": "2026-10-27T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "d2c443d7da",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Asset Strategies International to Attend the 52nd Annual New Orleans Investment Conference",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/asset-strategies-international-attend-52nd-113000077.html?.tsrc=rss",
+   "ts": "2026-10-27T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "fa87b5438d",
    "activos": [],
    "impacto": "bajo"
   },
@@ -11375,6 +11417,17 @@
    "ts": "2026-10-27T11:20:00Z",
    "fuente": "Crain's Detroit",
    "id": "0d4c15c44d",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "General Motors to move stock listing from NYSE to Nasdaq",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwbzB0OWRlbHFmNUkzLTIySVVmLXVacGV4d3pvUW9XX2xqWlB3ZUJCNHhJX1poVVdrRUp4azlES09sRGp3SzNlbXlNRzNmbGRFMWpQNEFpbng2Q3g0NEFkbWVZYkhNLWUxWkl3?oc=5",
+   "ts": "2026-10-27T11:14:20Z",
+   "fuente": "Quartz",
+   "id": "d96ac6ac02",
    "activos": [
     "nq"
    ],
@@ -12131,61 +12184,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Bending Spoons announces proposed offering of senior secured notes",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/bending-spoons-announces-proposed-offering-074800358.html?.tsrc=rss",
-   "ts": "2026-10-27T07:48:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "496734279b",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Central Asia Metals completes Cygnus Metals acquisition",
-   "link": "https://www.proactiveinvestors.com/companies/news/1100732/central-asia-metals-completes-cygus-metals-acquisition-1100732.html?.tsrc=rss",
-   "ts": "2026-10-27T07:45:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "72aa18410c",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Central Asia Metals completes Cygus Metals acquisition",
-   "link": "https://www.proactiveinvestors.com/companies/news/1100732/central-asia-metals-completes-cygus-metals-acquisition-1100732.html?.tsrc=rss",
-   "ts": "2026-10-27T07:45:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "25984b5586",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "The Playboy Who Inherited an Empire of Gunfighters and Gold Smugglers",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQ01jTVE1VmpZT3FlbUhIUzlsU09QbEtZai1TTWstRTYtUlBzM01pdGZjN0hSQWFOd3ZnbG9BaTlldkEzTm1VTjVzTS1xY3FmSmhDenZCeFVZYWttWUVDREp2a1U1em11V0ZtTVlFSnNaWU42dlJOVXVDYndndGF5OTNxcDgwZkFfZ0JkTlVLWmI3WWl5b25Pem9waWJyTDQ2NHBjSTl3TndKQjg?oc=5",
-   "ts": "2026-10-27T07:43:31Z",
-   "fuente": "WSJ",
-   "id": "06f33cc3bb",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Opinion: UK bond investors want spending cuts. John Healey’s first Budget may disappoint",
-   "link": "https://www.cnbc.com/2026/10/27/uk-budget-2026-john-healey-bond-market.html",
-   "ts": "2026-10-27T07:34:34Z",
-   "fuente": "CNBC",
-   "id": "c1d5d62018",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "bajo",
-   "es": "Inversores de bonos del Reino Unido exigen recortes de gasto fiscal",
-   "efecto": "Sin impacto directo en oro o NQ, ruido menor en divisas."
   }
  ],
  "eventos_avisados": [
@@ -12737,16 +12735,16 @@
    [
     1793098800,
     4021.3,
-    4026.9,
+    4027.7,
     4020.8,
-    4025.1
+    4026.9
    ],
    [
-    1793100453,
-    4025.4,
-    4025.4,
-    4025.4,
-    4025.4
+    1793100745,
+    4026.7,
+    4026.7,
+    4026.7,
+    4026.7
    ]
   ],
   "nq": [
@@ -13287,14 +13285,14 @@
     29529.0,
     29602.25,
     29525.25,
-    29559.5
+    29547.0
    ],
    [
-    1793100453,
-    29559.0,
-    29559.0,
-    29559.0,
-    29559.0
+    1793100753,
+    29550.75,
+    29550.75,
+    29550.75,
+    29550.75
    ]
   ],
   "vix": [
@@ -13723,14 +13721,14 @@
     17.92,
     17.92,
     17.77,
-    17.83
+    17.85
    ],
    [
-    1793100151,
-    17.83,
-    17.83,
-    17.83,
-    17.83
+    1793100451,
+    17.84,
+    17.84,
+    17.84,
+    17.84
    ]
   ]
  },
@@ -13841,11 +13839,6 @@
   }
  ],
  "noticias_vistas": [
-  "57748c2cb4",
-  "6bc72d34d1",
-  "5c72635710",
-  "addef29905",
-  "91a64850c8",
   "25a1fba999",
   "9b351aa82d",
   "0fe7700812",
@@ -14640,7 +14633,12 @@
   "0d4c15c44d",
   "60ccc1b3ba",
   "d3cea26ef4",
-  "acbbc7667d"
+  "acbbc7667d",
+  "03b557b2b8",
+  "cd033b23ed",
+  "d2c443d7da",
+  "fa87b5438d",
+  "d96ac6ac02"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
