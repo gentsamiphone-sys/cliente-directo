@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4037.5 · NQ 29542.0 · VIX 17.79 · 5 noticias nuevas",
-   "actualizado": "2026-10-27T14:02:37Z"
+   "ultimo_resultado": "Oro 4040.4 · NQ 29554.25 · VIX 18.0 · 5 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-27T14:07:43Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T14:02:35Z",
-   "ultimo_resultado": "5 titulares nuevos: JetBlue stock surges 14% as company outlook calms investors"
+   "actualizado": "2026-10-27T14:07:42Z",
+   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4040.4 · NQ 29554.25 · VIX 18.0 · 5 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-27T14:07:43Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4037.5 · NQ 29542.0 · VIX 17.79 · 5 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4023.3 · NQ 29543.25 · VIX 18.39 · 1 noticias nuevas",
    "ts": "2026-10-27T00:47:38Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4024.4 · NQ 29565.0 · VIX 18.39",
-   "ts": "2026-10-27T00:42:35Z"
   }
  ],
  "briefs": [
@@ -11528,12 +11528,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4037.5,
-  "nq": 29542.0,
-  "vix": 17.79,
-  "ts": "2026-10-27T14:02:36Z"
+  "oro": 4040.4,
+  "nq": 29554.25,
+  "vix": 18.0,
+  "ts": "2026-10-27T14:07:43Z"
  },
  "noticias": [
+  {
+   "titulo": "Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership",
+   "link": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
+   "ts": "2026-10-27T14:07:22Z",
+   "fuente": "CNBC",
+   "id": "5eda5bd920",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Courts Rule That Federal Reserve Debit Card Swipe Fee Regulation Was Too High",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNM0pNMzNGT0c3REE2cDh2QzB3NS1ya3J4Y0poai02ODJrYmpITF9aYTJTYnN4MUprWnFwbFNpY0VWU3Z5dDJ2LUJrTDNpZmZ1ek5iRk5fbEF2OTl2UW8waGhUdFhucUd6Rl9TRThCcC04Q3Z0RTZzMUVtUl9SbUZiTzBqVnFTT1UyNkFSbXRLcjYtRGtGcTl4WGtaNGxUZWFZY3FLekFMS0Ryc0Npc2RFWW5fQVhxNkZhU1hLV1FYcklOV2FGQ3BVbGJBYmUwdnRzTTQyb0ZR?oc=5",
+   "ts": "2026-10-27T14:02:18Z",
+   "fuente": "NACS",
+   "id": "1586a165b5",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "JetBlue stock surges 14% as company outlook calms investors",
    "link": "https://www.cnbc.com/2026/10/26/jetblue-jblu-3q-2026-earnings.html",
@@ -11553,6 +11573,26 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "PPX Intercepts High-Grade Gold, Silver, and Copper at Callanquitas, with 13.28 g/t Au, 5,204 g/t Ag and 5.4% Cu Over 1.0 m; and Completes the First Drill Hole at Portachuelos",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/ppx-intercepts-high-grade-gold-140000113.html?.tsrc=rss",
+   "ts": "2026-10-27T14:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "54fe8de43c",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Sun Valley Minerals Commences Trading on the TSX Venture Exchange; Launches Maiden Drill Program at Tarumán Main",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/sun-valley-minerals-commences-trading-135500962.html?.tsrc=rss",
+   "ts": "2026-10-27T13:55:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "a987f6ad59",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Why investors should stay long on AI stocks, according to Trivariate's Adam Parker",
@@ -11774,6 +11814,15 @@
    "id": "94b5f2b1c8",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Volvo faces profitability crisis in U.S. from tariffs, slumping demand",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9YMVRwMl96Vi10U2JsWDFvSmgtc2V6ZThPdHdjUUJhQ1oxT0h5ZUtFclJpemxBU0dZanVkell6dV9vUEJDS0I3Q1VxMXlSa1F1ZFNRaW1JWktKWXdJOEFZdGQybWJiRzFDbEhqMmtadklENTFFVzhTNWgyRjg?oc=5",
+   "ts": "2026-10-27T13:00:00Z",
+   "fuente": "Automotive News",
+   "id": "32e8af400c",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Stock futures rise as chip stocks gain for a second day, oil prices ease: Live updates",
@@ -12332,60 +12381,6 @@
    "id": "94b02fa4be",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "A 'canary in the coal mine': Measles resurgence exposes weaknesses in U.S. public health, experts say",
-   "link": "https://www.cnbc.com/2026/10/27/us-measles-public-health.html",
-   "ts": "2026-10-27T11:00:01Z",
-   "fuente": "CNBC",
-   "id": "e5ff0e82dc",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Boeing is set to report earnings before the bell. Here's what Wall Street expects",
-   "link": "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html",
-   "ts": "2026-10-27T11:00:01Z",
-   "fuente": "CNBC",
-   "id": "907aa3065c",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Alex Metals Drills 11.7 Metres Grading 1.71% Copper and 1.92 g/t Gold near Surface and Discovers the Triple G VMS Target at the KSO VMS Project in Southeast Alaska",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/alex-metals-drills-11-7-110000267.html?.tsrc=rss",
-   "ts": "2026-10-27T11:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "c6420c06d5",
-   "activos": [
-    "oro",
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "IAMGOLD Drilling Extends Mineralization at Nelligan, Intersects High-Grade Gold at Monster Lake and Advances Philibert Within Its Nelligan Mining Complex",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/iamgold-drilling-extends-mineralization-nelligan-110000978.html?.tsrc=rss",
-   "ts": "2026-10-27T11:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "5881118b18",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "WESCAN GOLDFIELDS REPORTS ENCOURAGING DRILL CORE OBSERVATIONS IN FIRST HOLE OF 2026 DRILL CAMPAIGN AT MUNRO LAKE; ASSAYS PENDING",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/wescan-goldfields-reports-encouraging-drill-110000406.html?.tsrc=rss",
-   "ts": "2026-10-27T11:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "e5efb3cddb",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12953,14 +12948,14 @@
     4036.4,
     4046.4,
     4034.1,
-    4037.6
+    4040.8
    ],
    [
-    1793109155,
-    4037.1,
-    4037.1,
-    4037.1,
-    4037.1
+    1793109459,
+    4040.4,
+    4040.4,
+    4040.4,
+    4040.4
    ]
   ],
   "nq": [
@@ -13514,15 +13509,15 @@
     1793106000,
     29597.0,
     29687.75,
-    29532.25,
-    29538.25
+    29523.75,
+    29568.75
    ],
    [
-    1793109157,
-    29539.0,
-    29539.0,
-    29539.0,
-    29539.0
+    1793109463,
+    29557.75,
+    29557.75,
+    29557.75,
+    29557.75
    ]
   ],
   "vix": [
@@ -13963,16 +13958,16 @@
    [
     1793106000,
     17.73,
-    17.92,
+    18.02,
     17.69,
-    17.78
+    17.96
    ],
    [
-    1793108851,
-    17.79,
-    17.79,
-    17.79,
-    17.79
+    1793109151,
+    18.0,
+    18.0,
+    18.0,
+    18.0
    ]
   ]
  },
@@ -14084,11 +14079,6 @@
   }
  ],
  "noticias_vistas": [
-  "c6230e67ae",
-  "1fc1ba3b5a",
-  "d2e779db92",
-  "08e0d82465",
-  "0eb9de609e",
   "1b164038e0",
   "1b8ae65033",
   "b46b0bc4a8",
@@ -14883,7 +14873,12 @@
   "542866bca6",
   "c007d6e9b2",
   "0d345867fa",
-  "b6c5512811"
+  "b6c5512811",
+  "5eda5bd920",
+  "1586a165b5",
+  "54fe8de43c",
+  "a987f6ad59",
+  "32e8af400c"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
