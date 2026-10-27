@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4073.3 · NQ 29841.25 · VIX 17.6 · 2 noticias nuevas",
-   "actualizado": "2026-10-27T16:32:38Z"
+   "ultimo_resultado": "Oro 4071.9 · NQ 29852.5 · VIX 17.55 · 5 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-27T16:37:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T16:32:37Z",
-   "ultimo_resultado": "2 titulares nuevos: GM Is Leaving NYSE for the Nasdaq After More Than 100 Years"
+   "actualizado": "2026-10-27T16:37:37Z",
+   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: Oracle integrates ChatGPT, Codex into apps and expands cloud chip lineup"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4071.9 · NQ 29852.5 · VIX 17.55 · 5 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-27T16:37:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4073.3 · NQ 29841.25 · VIX 17.6 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4024.7 · NQ 29427.75 · VIX 18.39 · 2 noticias nuevas",
    "ts": "2026-10-27T03:42:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4020.6 · NQ 29405.5 · VIX 18.39 · 2 noticias nuevas",
-   "ts": "2026-10-27T03:37:33Z"
   }
  ],
  "briefs": [
@@ -11528,12 +11528,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4073.3,
-  "nq": 29841.25,
-  "vix": 17.6,
-  "ts": "2026-10-27T16:32:37Z"
+  "oro": 4071.9,
+  "nq": 29852.5,
+  "vix": 17.55,
+  "ts": "2026-10-27T16:37:38Z"
  },
  "noticias": [
+  {
+   "titulo": "Oracle integrates ChatGPT, Codex into apps and expands cloud chip lineup",
+   "link": "https://www.cnbc.com/2026/10/27/oracle-openai-chatgpt-codex-google-tpus.html",
+   "ts": "2026-10-27T16:28:16Z",
+   "fuente": "CNBC",
+   "id": "204a484265",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "General Motors Will Move Its Stock to Nasdaq in Tech-Driven Pivot",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeF9jSS1NakdDaDN2bzNvMURDS3lxRzlQaXNMb0tWRURYalJtZFJSSGxqenQ5b2Zhb0Y1Q21zR3h6MlJSSHBhVWFHRDQzeG5JYlFfUkwxLW04eW44d2JrTHh1SGhOYW1XSVJGclhpSWd5Q1ZCVmVKTnRYZjRwaG1rdw?oc=5",
+   "ts": "2026-10-27T16:25:41Z",
+   "fuente": "The New York Times",
+   "id": "4eabf2e41a",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "GM Is Leaving NYSE for the Nasdaq After More Than 100 Years",
    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeF9jSS1NakdDaDN2bzNvMURDS3lxRzlQaXNMb0tWRURYalJtZFJSSGxqenQ5b2Zhb0Y1Q21zR3h6MlJSSHBhVWFHRDQzeG5JYlFfUkwxLW04eW44d2JrTHh1SGhOYW1XSVJGclhpSWd5Q1ZCVmVKTnRYZjRwaG1rdw?oc=5",
@@ -11542,6 +11562,17 @@
    "id": "bc827ebb10",
    "activos": [
     "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "'I'm with the right guy': Man spends months panning for gold to craft engagement ring",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZkdScTltV1AyMFFPa2NKV212SWVBR0VoWDJfZC10NGFWZmVzSFA0NmotRUNMQ1RpTHE2OXJsa091WEJLWmR3WkZXUExmdGQzaXZSNzJKanhVS3BzeWwzdmI0QVFKdnBmWC1TN0xna1NIWUtHeGp2b1lHUGNDLW5Wc3RZNGxQM00?oc=5",
+   "ts": "2026-10-27T16:23:00Z",
+   "fuente": "KOCO",
+   "id": "730b702159",
+   "activos": [
+    "oro"
    ],
    "impacto": "medio"
   },
@@ -11600,6 +11631,24 @@
    "impacto": "bajo",
    "es": "Actualizaciones de la Cumbre Ejecutiva de la Fuerza Laboral de CNBC: la IA y el futuro del trabajo",
    "efecto": "Sin impacto directo en mercados a corto plazo."
+  },
+  {
+   "titulo": "Kraken wants to bring Liquid to US, Ripple is an official bank, and prediction markets in the NBA",
+   "link": "https://finance.yahoo.com/video/kraken-wants-bring-liquid-us-155900896.html?.tsrc=rss",
+   "ts": "2026-10-27T15:59:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "b2acc5e212",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Understanding Trump's tariff reversals",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVHQ5ZHJrMHNTSU14WVQ1UTB2LW82d2JHQlRibVV3U2VmTWpGZW9LcmFxaVdYalhuVWRUT040SzgxYjFmRHhyd1NfNDd1VGtRZWZvSTdGNXktY3Y2U3U5VHRPd0YxX0R6TzVRY3JVZVlsSjItdDNZbW5HWHhtRFJlM0xoZ2ZZVk01VjNSM3h3ZVM1dw?oc=5",
+   "ts": "2026-10-27T15:51:41Z",
+   "fuente": "Peterson Institute for International Economics",
+   "id": "2748c948a4",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Honda warns 50% Canada auto tariffs would be catastrophic for auto industry",
@@ -12328,57 +12377,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Frozen housing market sends remodelers mixed messages",
-   "link": "https://www.cnbc.com/2026/10/27/frozen-housing-market-sends-remodelers-mixed-messages.html",
-   "ts": "2026-10-27T12:04:59Z",
-   "fuente": "CNBC",
-   "id": "0d8a73782c",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "El mercado inmobiliario congelado envía señales mixtas a los reformadores",
-   "efecto": ""
-  },
-  {
-   "titulo": "Bright Signs for the Economy Ahead of Vital Day",
-   "link": "https://finance.yahoo.com/m/57238d79-87e0-304f-a24f-df06df0c0c63/bright-signs-for-the-economy.html?.tsrc=rss",
-   "ts": "2026-10-27T12:04:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "9e8e1fb727",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "SpaceX, Tesla and Anthropic may reshape the S&P 500—but not right away",
-   "link": "https://www.cnbc.com/make-it/2026/10/27/spacex-tesla-anthropic-and-sp-500-index-rules.html",
-   "ts": "2026-10-27T12:00:01Z",
-   "fuente": "CNBC",
-   "id": "f0e31f10e5",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "A rising wealth tide lifts all yachts",
-   "link": "https://www.cnbc.com/2026/10/27/a-rising-wealth-tide-lifts-all-yachts.html",
-   "ts": "2026-10-27T12:00:01Z",
-   "fuente": "CNBC",
-   "id": "148962bc23",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Exclusive | Janus Launches First Tokenized Fund Licensing the Nasdaq-100 Index",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMVRDUk5HZ1pKaElISURfelZaUTVLQXgzQzRTWGxmT2UwQ2tidGlLT1ZJdXFaOEhGejRVMDk2eU9qTDB1Vk9xWWlMN3BCa2tNajhaNWxFMXpGSXd0UG1xY25ncjdyWWZZeHpwdDV5MEZoWm5HZVJpc3pHRnZGM2lpNHhkQzdvYTg5Ny1Gb1FHbDU3aU5ra0ZyalJBbDc3cHRENGlOMTMwcTllbkFHaWo5ZXpRTQ?oc=5",
-   "ts": "2026-10-27T12:00:00Z",
-   "fuente": "WSJ",
-   "id": "1fbdb38e18",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12967,14 +12965,14 @@
     4077.1,
     4078.9,
     4071.1,
-    4073.3
+    4071.6
    ],
    [
-    1793118149,
-    4073.3,
-    4073.3,
-    4073.3,
-    4073.3
+    1793118455,
+    4071.9,
+    4071.9,
+    4071.9,
+    4071.9
    ]
   ],
   "nq": [
@@ -13550,14 +13548,14 @@
     29842.25,
     29875.5,
     29824.25,
-    29841.0
+    29850.25
    ],
    [
-    1793118157,
-    29841.25,
-    29841.25,
-    29841.25,
-    29841.25
+    1793118455,
+    29852.5,
+    29852.5,
+    29852.5,
+    29852.5
    ]
   ],
   "vix": [
@@ -14021,14 +14019,14 @@
     17.54,
     17.6,
     17.52,
-    17.6
+    17.56
    ],
    [
-    1793117851,
-    17.6,
-    17.6,
-    17.6,
-    17.6
+    1793118151,
+    17.55,
+    17.55,
+    17.55,
+    17.55
    ]
   ]
  },
@@ -14156,11 +14154,6 @@
   }
  ],
  "noticias_vistas": [
-  "7f1bc53d59",
-  "ad341b6bbb",
-  "210a4f5cb3",
-  "680a4aaa04",
-  "7e8a655513",
   "ef0a1faa04",
   "95cb6ed07b",
   "0621a05d64",
@@ -14955,7 +14948,12 @@
   "8ddba53705",
   "17f760cf9d",
   "bc827ebb10",
-  "1ea0f5e817"
+  "1ea0f5e817",
+  "204a484265",
+  "4eabf2e41a",
+  "730b702159",
+  "b2acc5e212",
+  "2748c948a4"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
