@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4012.7 · NQ 29432.25 · VIX 18.25 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-27T10:17:37Z"
+   "ultimo_resultado": "Oro 4011.7 · NQ 29417.25 · VIX 18.33 · 4 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-27T10:22:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T10:17:36Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: JPMorgan Chase Says That Bitcoin Will Outperform Stocks, Bonds, and Gold Over the Next 10 Years. Here's Why It Might Be Right"
+   "actualizado": "2026-10-27T10:22:34Z",
+   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: UPS beats quarterly expectations, raises full-year guidance again"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4011.7 · NQ 29417.25 · VIX 18.33 · 4 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-27T10:22:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4012.7 · NQ 29432.25 · VIX 18.25 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4029.6 · NQ 29454.25 · VIX 18.39 · 2 noticias nuevas",
    "ts": "2026-10-26T20:57:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4027.8 · NQ 29454.75 · VIX 18.39 · 3 noticias nuevas",
-   "ts": "2026-10-26T20:52:32Z"
   }
  ],
  "briefs": [
@@ -11327,12 +11327,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4012.7,
-  "nq": 29432.25,
-  "vix": 18.25,
-  "ts": "2026-10-27T10:17:36Z"
+  "oro": 4011.7,
+  "nq": 29417.25,
+  "vix": 18.33,
+  "ts": "2026-10-27T10:22:35Z"
  },
  "noticias": [
+  {
+   "titulo": "UPS beats quarterly expectations, raises full-year guidance again",
+   "link": "https://www.cnbc.com/2026/10/27/ups-ups-q3-2026-earnings.html",
+   "ts": "2026-10-27T10:19:49Z",
+   "fuente": "CNBC",
+   "id": "1a358accec",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Porsche profit rebounds as luxury carmaker reduces exposure to China",
    "link": "https://www.cnbc.com/2026/10/27/porsche-china-profit-recovery.html",
@@ -11389,6 +11398,26 @@
    "ts": "2026-10-27T10:00:01Z",
    "fuente": "CNBC",
    "id": "2805b83cb2",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Liberty Gold Advances Detailed Engineering Design and Secures Key Long-Lead Equipment for its Black Pine Project, Idaho",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/liberty-gold-advances-detailed-engineering-100000263.html?.tsrc=rss",
+   "ts": "2026-10-27T10:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "6faa079a87",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Hycroft Reports Q3 2026 Results and Maintains Strong Balance Sheet",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/hycroft-reports-q3-2026-results-100000385.html?.tsrc=rss",
+   "ts": "2026-10-27T10:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "b162bcaa3a",
    "activos": [],
    "impacto": "bajo"
   },
@@ -11763,6 +11792,18 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Gold retreats on stronger dollar; traders brace for Fed",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQWIyeWVhRnVBaHZfV05HanpZVFJzZDZiaC1MTEFVX0JEbWc5RVhRV3htMnJFMDNCVjBPWTJISkhha3ZWc3otaXBCTGloREJidmlqOWtXMTQ4Zks2aTA5czBzNC1OdGNuVXlqLVZ4TTk3M1VUSEZvdVdCLXV3bHJsZXBHSktGcXR0dk1wS2VYdWYxTm9ueGc?oc=5",
+   "ts": "2026-10-27T05:46:00Z",
+   "fuente": "Reuters",
+   "id": "3c5f63d277",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Trump slaps 100% tariff on some pharmaceutical drugs via executive order - ABC News",
@@ -12151,55 +12192,6 @@
    "id": "068cb1ccc0",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "JPMorgan Predicts Bitcoin Will Outpace Stocks, Bonds, and Gold Over the Next Decade. Is Bitcoin Now a Screaming Buy?",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMHNNLU85ZkhlSXdtUDA0cG5oZFF6MldzX21ZUWpCcEQ0QmtOQjN2Nk40dkVMNTVtaW5nV0FlSDIzVEJFVFV0MmUyYTVLal9aTU0xbXhsM3JYLTdKVC03VHUzaW5pTktheDNxS28xWEx1eWs5Si1GUGRSNDI3bGFsdEg1bFVlUHhEbkJiWXZLUVRoMHIwN3BWdg?oc=5",
-   "ts": "2026-10-27T01:16:25Z",
-   "fuente": "The Motley Fool",
-   "id": "c27db53b3a",
-   "activos": [
-    "oro",
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gold Edges Lower as Investors Mull Potential Fed Rate Hike This Year",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTTBvYkhrSlotOWkyYVZuM1VJcDcxeld0V05RcWF6ZFNtblZkT1Y4RHJFdzRZLU1qbXdsd2w3RUI0WWl0d2tkcFI0YnpXS3JCRXdCVlh5a1BQZnlrbkllZ3ZUbHdLUjZHZUR2aE5aYmNrVHFjNUNUSi1TYXM0dElvenc2SmhiUGxjSnhOS2JCSDY2aXcxejd1ZE5iSFM1a0ZCYi1xVmEtcExiXzAzOFNtTEFidXh6akpvRlhYY1NXX3l5WDA?oc=5",
-   "ts": "2026-10-27T00:55:14Z",
-   "fuente": "WSJ",
-   "id": "355ef017da",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Gold Price Crashed 25%, But Investors are Still Buying",
-   "link": "https://beincrypto.com/gold-price-falls-etfs-rally-investors-keep-buying/?.tsrc=rss",
-   "ts": "2026-10-27T00:46:42Z",
-   "fuente": "Yahoo Finance",
-   "id": "a4bf07692e",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El precio del oro se desploma un 25%, pero los inversores siguen comprando",
-   "efecto": "Genera compras institucionales en la caída por alta volatilidad."
-  },
-  {
-   "titulo": "China and Russia are redrawing Arctic trade. Can Europe fight back?",
-   "link": "https://www.cnbc.com/2026/10/27/arctic-shipping-china-and-russia-expand-grip-can-europe-fight-back.html",
-   "ts": "2026-10-27T00:41:29Z",
-   "fuente": "CNBC",
-   "id": "cd34a6d69a",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "China y Rusia rediseñan el comercio ártico, desafiando a Europa",
-   "efecto": "Ruido geopolítico sin impacto inmediato en oro, NQ o dólar."
   }
  ],
  "eventos_avisados": [
@@ -12745,15 +12737,15 @@
     1793095200,
     4015.2,
     4016.4,
-    4012.4,
-    4012.4
+    4010.5,
+    4011.0
    ],
    [
-    1793095638,
-    4012.7,
-    4012.7,
-    4012.7,
-    4012.7
+    1793095950,
+    4011.7,
+    4011.7,
+    4011.7,
+    4011.7
    ]
   ],
   "nq": [
@@ -13286,15 +13278,15 @@
     1793095200,
     29477.75,
     29477.75,
-    29428.25,
-    29430.75
+    29409.25,
+    29421.0
    ],
    [
-    1793095656,
-    29430.75,
-    29430.75,
-    29430.75,
-    29430.75
+    1793095952,
+    29417.25,
+    29417.25,
+    29417.25,
+    29417.25
    ]
   ],
   "vix": [
@@ -13714,16 +13706,16 @@
    [
     1793095200,
     18.2,
-    18.23,
+    18.32,
     18.2,
-    18.23
+    18.32
    ],
    [
-    1793095351,
-    18.25,
-    18.25,
-    18.25,
-    18.25
+    1793095651,
+    18.33,
+    18.33,
+    18.33,
+    18.33
    ]
   ]
  },
@@ -13834,10 +13826,6 @@
   }
  ],
  "noticias_vistas": [
-  "7358222fcc",
-  "8fb7e5845f",
-  "d8028c3bc6",
-  "da65ac006d",
   "e69b5847d5",
   "25941c0f07",
   "8ba5fe2456",
@@ -14633,7 +14621,11 @@
   "9a7a84eec3",
   "a6598969db",
   "24a4f3c649",
-  "9203baa257"
+  "9203baa257",
+  "1a358accec",
+  "6faa079a87",
+  "b162bcaa3a",
+  "3c5f63d277"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
