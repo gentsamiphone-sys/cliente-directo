@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4037.6 · NQ 29573.25 · VIX 17.75 · 1 noticias nuevas",
-   "actualizado": "2026-10-27T13:12:42Z"
+   "ultimo_resultado": "Oro 4038.2 · NQ 29561.75 · VIX 17.8 · 1 noticias nuevas",
+   "actualizado": "2026-10-27T13:17:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T13:12:41Z",
-   "ultimo_resultado": "1 titulares nuevos: Aranceles a la cerveza: cervecerías de Huntsville enfrentan mayores costos en latas"
+   "actualizado": "2026-10-27T13:17:33Z",
+   "ultimo_resultado": "1 titulares nuevos: TSX futures point higher with upcoming Bank of Canada meeting in focus"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4038.2 · NQ 29561.75 · VIX 17.8 · 1 noticias nuevas",
+   "ts": "2026-10-27T13:17:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4037.6 · NQ 29573.25 · VIX 17.75 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4020.7 · NQ 29537.5 · VIX 18.39 · 2 noticias nuevas",
    "ts": "2026-10-26T23:57:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4023.4 · NQ 29520.5 · VIX 18.39",
-   "ts": "2026-10-26T23:52:36Z"
   }
  ],
  "briefs": [
@@ -11528,12 +11528,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4037.6,
-  "nq": 29573.25,
-  "vix": 17.75,
-  "ts": "2026-10-27T13:12:41Z"
+  "oro": 4038.2,
+  "nq": 29561.75,
+  "vix": 17.8,
+  "ts": "2026-10-27T13:17:34Z"
  },
  "noticias": [
+  {
+   "titulo": "TSX futures point higher with upcoming Bank of Canada meeting in focus",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/tsx-futures-point-higher-upcoming-130011435.html?.tsrc=rss",
+   "ts": "2026-10-27T13:00:11Z",
+   "fuente": "Yahoo Finance",
+   "id": "94b5f2b1c8",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Stock futures rise as chip stocks gain for a second day, oil prices ease: Live updates",
    "link": "https://www.cnbc.com/2026/10/26/stock-market-today-live-updates.html",
@@ -12375,17 +12384,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Kinross Gold (TSX:K) Could Be 39% Below Fair Value If Growth Projects Deliver",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-tsx-k-could-101718181.html?.tsrc=rss",
-   "ts": "2026-10-27T10:17:18Z",
-   "fuente": "Yahoo Finance",
-   "id": "6b1af30461",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12953,14 +12951,14 @@
     4036.4,
     4045.8,
     4034.5,
-    4038.3
+    4037.1
    ],
    [
-    1793106159,
-    4037.6,
-    4037.6,
-    4037.6,
-    4037.6
+    1793106448,
+    4038.2,
+    4038.2,
+    4038.2,
+    4038.2
    ]
   ],
   "nq": [
@@ -13514,15 +13512,15 @@
     1793106000,
     29597.0,
     29603.0,
-    29567.5,
-    29574.5
+    29547.5,
+    29562.75
    ],
    [
-    1793106159,
-    29573.25,
-    29573.25,
-    29573.25,
-    29573.25
+    1793106453,
+    29561.75,
+    29561.75,
+    29561.75,
+    29561.75
    ]
   ],
   "vix": [
@@ -13958,57 +13956,64 @@
     17.85,
     17.85,
     17.67,
-    17.74
+    17.76
    ],
    [
-    1793105851,
-    17.75,
-    17.75,
-    17.75,
-    17.75
+    1793106000,
+    17.73,
+    17.8,
+    17.73,
+    17.8
+   ],
+   [
+    1793106151,
+    17.8,
+    17.8,
+    17.8,
+    17.8
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-27T13:12:32Z",
- "ult_4h": 1793106160.7644758,
+ "ult_4h": 1793107054.5144124,
  "estrategia_4h": {
   "oro": {
-   "precio": 4036.7,
-   "atr_4h": 24.19,
+   "precio": 4038.2,
+   "atr_4h": 24.43,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4105.71,
+     "stop": 4105.86,
      "objetivo": 3989.1,
-     "rr": 7.04,
+     "rr": 6.97,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.22,
+     "fuerza_ruptura_atr": 1.19,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 4130.1,
-     "entrada": 4130.1,
-     "stop": 4144.61,
+     "nivel": 4095.0,
+     "entrada": 4095.0,
+     "stop": 4109.66,
      "objetivo": 3989.1,
-     "rr": 9.72,
+     "rr": 7.23,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.46,
-     "ruptura": "2026-10-22 00:00 UTC"
+     "fuerza_ruptura_atr": 1.19,
+     "ruptura": "2026-10-22 08:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29606.75,
-   "atr_4h": 213.0,
+   "precio": 29561.75,
+   "atr_4h": 212.93,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29198.2,
+     "stop": 29198.24,
      "objetivo": 29628.75,
      "rr": 2.37,
      "estado": "esperando retesteo",
@@ -14017,7 +14022,7 @@
     }
    ]
   },
-  "ts": "2026-10-27T13:02:41Z"
+  "ts": "2026-10-27T13:17:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -14077,7 +14082,6 @@
   }
  ],
  "noticias_vistas": [
-  "f31c244a61",
   "e58368fddf",
   "6d6a560705",
   "6bcaf8b5f0",
@@ -14876,7 +14880,8 @@
   "fcfcb97e8f",
   "9007598217",
   "9e8e1fb727",
-  "e1eb88a587"
+  "e1eb88a587",
+  "94b5f2b1c8"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
