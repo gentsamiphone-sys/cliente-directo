@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4025.3 · NQ 29571.5 · VIX 17.96 · 2 noticias nuevas",
-   "actualizado": "2026-10-27T11:12:29Z"
+   "ultimo_resultado": "Oro 4024.0 · NQ 29592.75 · VIX 17.86 · 15 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-27T11:17:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T11:12:29Z",
-   "ultimo_resultado": "2 titulares nuevos: Galloper Gold Intersects Occurrences of Visible Gold"
+   "actualizado": "2026-10-27T11:17:37Z",
+   "ultimo_resultado": "15 titulares nuevos, 2 de alto impacto: General Motors is moving its stock listing to the Nasdaq from NYSE"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4024.0 · NQ 29592.75 · VIX 17.86 · 15 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-27T11:17:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4025.3 · NQ 29571.5 · VIX 17.96 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
    "ts": "2026-10-26T21:32:49Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Historial: 12 operaciones, 25% de acierto, +6.08 R.",
-   "ts": "2026-10-26T21:32:48Z"
   }
  ],
  "briefs": [
@@ -11327,12 +11327,57 @@
   }
  },
  "en_vivo": {
-  "oro": 4025.3,
-  "nq": 29571.5,
-  "vix": 17.96,
-  "ts": "2026-10-27T11:12:29Z"
+  "oro": 4024.0,
+  "nq": 29592.75,
+  "vix": 17.86,
+  "ts": "2026-10-27T11:17:38Z"
  },
  "noticias": [
+  {
+   "titulo": "General Motors is moving its stock listing to the Nasdaq from NYSE",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwbzB0OWRlbHFmNUkzLTIySVVmLXVacGV4d3pvUW9XX2xqWlB3ZUJCNHhJX1poVVdrRUp4azlES09sRGp3SzNlbXlNRzNmbGRFMWpQNEFpbng2Q3g0NEFkbWVZYkhNLWUxWkl3?oc=5",
+   "ts": "2026-10-27T11:13:39Z",
+   "fuente": "Quartz",
+   "id": "12fb2b3953",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "General Motors Moving Stock Listing to Nasdaq From NYSE",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaWN4dGxsT2oxMHI5b2NObmxtSk03MDVrWmYtRDFjLWJRSENtZzdlSlJRMmFJRF9ya0N0SklRRDhTLXh3dkM0bUJfYkoxV3dBTGhjNWxPRzRTNm9zYlVvLXN4Ui05RWEyRFNhOEoyMkx5WFdIODgtTDRXY3RHREpNMVlXYlVwSG12S0N5ZVk3dXJrZlF2YjlZM3ZPLVJ2REV4?oc=5",
+   "ts": "2026-10-27T11:11:15Z",
+   "fuente": "WSJ",
+   "id": "f717e107be",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Nasdaq's huge week: GM moves stock listing from NYSE and it bags the Anthropic IPO",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNc19TaXZmMWV4NTVnRFhSM1NEWG95TXU1ckxFTHVwblIzMmpXSFA1R216cXdzVXNBU2c4V3Jsd3g4MUFZbmlVLXN4bndHOGNjbF82MlRjTVFsdk01NlQ3eW5IcVkyUDE0UnF5c3lUOGNVU0Rja3hSU1g4dE1wd21MMDRLOXhKUWNsQ0lVMkNpWFpEQTMwdVBaQkhFUWRIcUQwdFNfTERZNFV4Z2lZbWpYNmFTeTBVZmJEd0pEbTVLWERxM29NT29LcGVsbHlFQklsQno0bzE3a2Y4ZE5q?oc=5",
+   "ts": "2026-10-27T11:09:47Z",
+   "fuente": "Yahoo Finance",
+   "id": "05f773dcf3",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Gold price today, Tuesday, October 27, 2026: Gold prices slipping closer to $4,000 ahead of Fed meeting",
+   "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-october-27-2026-gold-prices-slipping-closer-to-4000-ahead-of-fed-meeting-110812319.html?.tsrc=rss",
+   "ts": "2026-10-27T11:08:12Z",
+   "fuente": "Yahoo Finance",
+   "id": "0256d2c9e7",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Coca-Cola hikes earnings outlook, even as it sees lackluster demand in North America",
    "link": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html",
@@ -11354,6 +11399,24 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Anthropic's IPO is risky business",
+   "link": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html",
+   "ts": "2026-10-27T11:00:01Z",
+   "fuente": "CNBC",
+   "id": "94b02fa4be",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "A 'canary in the coal mine': Measles resurgence exposes weaknesses in U.S. public health, experts say",
+   "link": "https://www.cnbc.com/2026/10/27/us-measles-public-health.html",
+   "ts": "2026-10-27T11:00:01Z",
+   "fuente": "CNBC",
+   "id": "e5ff0e82dc",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "Boeing is set to report earnings before the bell. Here's what Wall Street expects",
    "link": "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html",
    "ts": "2026-10-27T11:00:01Z",
@@ -11361,6 +11424,82 @@
    "id": "907aa3065c",
    "activos": [
     "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Alex Metals Drills 11.7 Metres Grading 1.71% Copper and 1.92 g/t Gold near Surface and Discovers the Triple G VMS Target at the KSO VMS Project in Southeast Alaska",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/alex-metals-drills-11-7-110000267.html?.tsrc=rss",
+   "ts": "2026-10-27T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "c6420c06d5",
+   "activos": [
+    "oro",
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "IAMGOLD Drilling Extends Mineralization at Nelligan, Intersects High-Grade Gold at Monster Lake and Advances Philibert Within Its Nelligan Mining Complex",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/iamgold-drilling-extends-mineralization-nelligan-110000978.html?.tsrc=rss",
+   "ts": "2026-10-27T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "5881118b18",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "WESCAN GOLDFIELDS REPORTS ENCOURAGING DRILL CORE OBSERVATIONS IN FIRST HOLE OF 2026 DRILL CAMPAIGN AT MUNRO LAKE; ASSAYS PENDING",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/wescan-goldfields-reports-encouraging-drill-110000406.html?.tsrc=rss",
+   "ts": "2026-10-27T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "e5efb3cddb",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Cosigo Resources Completes Drilling Campaign at Taraira and Announces Non-Brokered Convertible Debenture Financing",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/cosigo-resources-completes-drilling-campaign-110000482.html?.tsrc=rss",
+   "ts": "2026-10-27T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "9c5cc87ff0",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "C3 Metals Intersects 101.9 Metres at 0.38% and 70.9 Metres at 0.62% Copper Equivalent at its Khaleesi Project, Peru - Mineralization Extended East",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/c3-metals-intersects-101-9-110000836.html?.tsrc=rss",
+   "ts": "2026-10-27T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "3b5b872e09",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Osisko Gold Provides Construction Progress Update on the Cariboo Gold Project",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/osisko-gold-provides-construction-progress-110000349.html?.tsrc=rss",
+   "ts": "2026-10-27T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "6ff33a7115",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "NexGold Reports Progress on Development Activities at the Goldboro Gold Project in Nova Scotia",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/nexgold-reports-progress-development-activities-110000502.html?.tsrc=rss",
+   "ts": "2026-10-27T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "8304ed4a2e",
+   "activos": [
+    "oro"
    ],
    "impacto": "medio"
   },
@@ -11442,6 +11581,18 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Gold Falls Below $4,000 as Investors Await Federal Reserve Rate Decision",
+   "link": "https://investorshub.advfn.com/market-news/article/38618/gold-falls-below-4000-as-investors-await-federal-reserve-rate-decision?.tsrc=rss",
+   "ts": "2026-10-27T10:35:10Z",
+   "fuente": "Yahoo Finance",
+   "id": "9549de7923",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "GM to transfer stock listing to Nasdaq",
    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVlZkOFFyOTdlZGQwZmVaVmtVVnFQYlI5enBiRGo2N3A1NDY2VzBfTTl0VTJFZkpmMEhVeDhtNTRKTWpOc0ZoREVZOWtobDRvY3EwMVRxdTdudDhBWWVvOHhsNW5fb3dTLWdPTXlza2ZHUWM3M3JSQUZFZHhhNW41cg?oc=5",
    "ts": "2026-10-27T10:34:48Z",
@@ -11451,6 +11602,17 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Dollar Moves Firmly Higher With Fed Rate Meeting In Focus",
+   "link": "https://finance.yahoo.com/m/2404c6d4-ac08-372a-b2a4-51f1f9872937/dollar-moves-firmly-higher.html?.tsrc=rss",
+   "ts": "2026-10-27T10:30:46Z",
+   "fuente": "Yahoo Finance",
+   "id": "8b0d2752cd",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Sterling today: Pound dips on firm dollar as Fed, budget loom",
@@ -12029,158 +12191,6 @@
    "impacto": "alto",
    "es": "El Nasdaq rebota al extenderse el rally de IA en Asia; la OPI de Anthropic impulsa compras",
    "efecto": "impulsa al Nasdaq al alza por apetito de riesgo tecnológico."
-  },
-  {
-   "titulo": "Cooler Master launches Gold Editions of its popular MasterFrame 400 Mesh case and MasterLiquid CPU cooler",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNbWJwdUtyZ29jbFBqbG5ZVElvQ254bzdpV1BHckl5c3hTYUZLSHlXZnl4eEdmQkh4MWYwSnV5ZXBVLUlDcjUxX2hRa2RXMGdiMzV3cDA4SEtUXzFpZXBLMjJBbXI5SUJyWXNiUGdQODVERE5Qa0x6cVV6SmVES3RTalpPR2c5LWZ0TFIxVndleW83bUFXemxBOXpfZ0tWRE9iZk90eFhZcElhVWd6LXo5Q3FaOGNrclVnX25PdDU0UzVoRWZHNTVja2VoMDltRVNWWTF6akJsN1VvQ19sT3BVQ1NvTlkxaTZHT0E?oc=5",
-   "ts": "2026-10-27T05:59:15Z",
-   "fuente": "TweakTown",
-   "id": "1483b60bb5",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Cooler Master lanza ediciones Gold de su chasis MasterFrame 400 Mesh y refrigerador CPU",
-   "efecto": "Sin impacto institucional en los mercados de oro, NQ o dólar."
-  },
-  {
-   "titulo": "Small Cap Snapshot: Firefly Metals, Janus Electric, Axel REE, Lumos Diagnostics and Aruma Resources",
-   "link": "https://finance.yahoo.com/video/small-cap-snapshot-firefly-metals-054903023.html?.tsrc=rss",
-   "ts": "2026-10-27T05:49:03Z",
-   "fuente": "Yahoo Finance",
-   "id": "f476364a1c",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gold retreats on stronger dollar; traders brace for Fed",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQWIyeWVhRnVBaHZfV05HanpZVFJzZDZiaC1MTEFVX0JEbWc5RVhRV3htMnJFMDNCVjBPWTJISkhha3ZWc3otaXBCTGloREJidmlqOWtXMTQ4Zks2aTA5czBzNC1OdGNuVXlqLVZ4TTk3M1VUSEZvdVdCLXV3bHJsZXBHSktGcXR0dk1wS2VYdWYxTm9ueGc?oc=5",
-   "ts": "2026-10-27T05:46:00Z",
-   "fuente": "Reuters",
-   "id": "3c5f63d277",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Trump slaps 100% tariff on some pharmaceutical drugs via executive order - ABC News",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVHNjYmZWRzV1Rno1QnBJdlAxR1Jjd1dGLTdTRHlUQnRUQmpCOUFJSDc0cFdCSy1heGE1SUc5R1k3WWJkZGFKZ01vYUQyaTM0bzgxSWJ5R2RVYjdQNjU2NjhVZ2lUZGtUM1Ffa0RQRjFPb2tvOFFCVXN1M1pPUnN1UTYwZVlWdXZWSkppX014QkJPQ0U4VDAzMzJGYnlKRURCemFWMVd6SVZTVGfSAbABQVVfeXFMT3pWWlhKeVJ4NHJNZ3Y4TWNzT0RTYi1UajFQcnJlVDUxLWpOY0N4bTFNWVlRaDVnRjYxaS1tMVVMNkZUYlhmTFJlT1BvSmpEMWVvelhIRXhIeUQtS0d2V2NlZ3ZLTXFpYXlDT0VPQkRLRjA5eXNKZnlzSGRrajJUeEtUUWRYNnhlRHVXYldaU3NBdG1VTVBqcXRtY3ViMHQ1MjJzVlhIRzNFNHhUeVI3dWI?oc=5",
-   "ts": "2026-10-27T05:10:52Z",
-   "fuente": "Breaking News, Latest News and Videos",
-   "id": "8a8f1c9956",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Oil falls as renewed diplomatic efforts to end Mideast conflict ease supply concerns",
-   "link": "https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html",
-   "ts": "2026-10-27T05:09:59Z",
-   "fuente": "CNBC",
-   "id": "fcdee7d221",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Anthropic IPO Filing: $965B Mark, Nasdaq ANT [2026]",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaWhlN1pRcFFXZmR0Qm0xNEJSaVpCVWIyLXZQR2pBdDVJUG5WWTVJVEFDS1djeW1KbEEzMjVDMlp1VTNqTlZxVktRVFdrX0VYX2hWUVNBZmJ0TFU5ZkNZbFJLSERfMFJRTTZxcEhiRUJBRmVrbjRqanFFcXJ3OU1hVnJfT2N5eTM4Z2gw?oc=5",
-   "ts": "2026-10-27T05:09:16Z",
-   "fuente": "shattered.io",
-   "id": "b197f95493",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Majority of Americans disapprove of how Trump is handling tariffs: ABC/Post/Ipsos poll - ABC News",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRkMzY1Y1VTFIRFpldFV5RnctWEZDdnNsemQzUGtvWi1sMEFQZThtYzZvNDRBZk84WkFMQThubmx6aUwycWRsTDI2Zk5MbHRCV3JQUXBCSC0xQTBuMXFRTVVXSWVfQUcxZzQ1LWxvUWNNQmFyQ2ZsNmhnT0FZWmQyajNDOTdRT1lGRXRFWlJERVJiZXl2cHhwLWxZdFp3UFB3NnVnaDc5aWZxbGg3QmxMeUJkNGM0TllBSlE?oc=5",
-   "ts": "2026-10-27T05:07:49Z",
-   "fuente": "Breaking News, Latest News and Videos",
-   "id": "19f7fdf1c6",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Who Gains From Ripple’s New Bank Charter? XRP Holders May Be Last in Line",
-   "link": "https://beincrypto.com/ripple-bank-charter-xrp-holders-rlusd/?.tsrc=rss",
-   "ts": "2026-10-27T05:07:01Z",
-   "fuente": "Yahoo Finance",
-   "id": "e92fb163f3",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Proposal that goes for gold",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcXRhZ3JhZWR5dU9tQzFTWVFSb0Y4ZVBqTTU1VmFKNzVOb1ItQ3NlOThlVEJZXy1udDZCSk02SV9MdFFweXFoTkxNSjBJT2Q0LTRlaFo0Z3B5ZGlTWmVveFRrYUJjQzhqaURRay1yaGhYM1A1VWo1UWNEc2pKNlRxRUxTb2s0Z1lRZFZQN2hpSEtLM2paTjdtbkhBemhYWlBPQ0pJRGhqNGU?oc=5",
-   "ts": "2026-10-27T05:04:00Z",
-   "fuente": "news8000.com",
-   "id": "ebfb341093",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "UK’s tariffs on Chinese diggers challenged by Caterpillar",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPV0xWTlFHR3Y4MzBRSk1KSDZHaFI2amJZQnd6RGxRRXBmcFd0cmw5eHhvOEVHTzNQZkVjcmFaWW94enR1dXBGVlhxR2Fyd3VBaGRPSUVETS1xZ3ZPWmI5Z050clpDVHUxMXVmU0J5Mk0wS3dPOVNPdTZiVGs1TF9EV3lIc1A?oc=5",
-   "ts": "2026-10-27T05:00:28Z",
-   "fuente": "Financial Times",
-   "id": "fb26fb73d4",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Morningstar CEO Kunal Kapoor on making career choices that help you grow",
-   "link": "https://www.cnbc.com/video/2026/10/27/morningstar-ceo-kunal-kapoor-on-personal-growth-and-career-choices.html",
-   "ts": "2026-10-27T05:00:01Z",
-   "fuente": "CNBC",
-   "id": "577f4e3f8a",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Trump administration pays out milestone $100 billion in tariff refunds - ABC News",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaC1NcXQtTU1pa0V3QTQ3eW9CMThMVUVWXzBVLUpkTlNCekpxQkxiQi1XZzI0X1VzZ2hNdXRjUzF5MVlzcm9zcnJRb3pRanp1TGJ1Mm02T0NDWXU0MXI1R3JmNHNKb3lnOWx2R0dpQjR2Rk9aNGowb0NNcXRpVWdQRmVoN1pndGhaLUxXc3d5d2R6RVlhVHlNbHd6c1RnZUdUNFp5YUl3OGF4VURrTjg00gG0AUFVX3lxTE5IUDFROHpDMGhZM1pRelFZelItOFlhYTk4ZlpZaVpwWjBuYUZoN2l4MFM2bjRFMDBjMEtyNXFsSF93eFBzcU43TW16XzNacEh1b0Vja0xRZkp5LTFMaE4wUUlfd1o4RUNsNkN0aWVtb1hQTHZELUtvR2N0QVROTjN2dF9JZW9QUVl6NzNTRVJFSDRKYy15WHRUMGxDNWNabzFvZGFSNlhHcnBtWlN3TnloUFZlbQ?oc=5",
-   "ts": "2026-10-27T04:56:40Z",
-   "fuente": "Breaking News, Latest News and Videos",
-   "id": "c08967b217",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "FireFly Metals reveals Mount Joy copper discovery",
-   "link": "https://finance.yahoo.com/video/firefly-metals-reveals-mount-joy-044401493.html?.tsrc=rss",
-   "ts": "2026-10-27T04:44:01Z",
-   "fuente": "Yahoo Finance",
-   "id": "7b59609884",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "HSBC announces share buyback of up to $1 billion as third-quarter profit meets estimates",
-   "link": "https://www.cnbc.com/2026/10/27/hsbc-third-quarter-profit-.html",
-   "ts": "2026-10-27T04:38:30Z",
-   "fuente": "CNBC",
-   "id": "4b83623272",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "HSBC anuncia recompra de acciones de hasta $1 mil millones tras cumplir expectativas de ganancias",
-   "efecto": "Sin impacto directo en oro, NQ o dólar."
-  },
-  {
-   "titulo": "Saints Wrap Up Day One Play at Gold Mountain",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMXFRM1FWMVppMmZ2QURuU1k4UHZXWnR0c25NSkZfZFZFMGNfdEJjUlN0YWZBZHk1Y3ZUWEJsNjJ0MV8xc3A1ZlJqX1RzXzUxX19YMnRCSjRnTVlBNmtPb0FLQTM3TkFUQk8tbksyTHpEbTVnbUd6NUdpYm55SVdONEZNTlBCVTZFbnJPRnFaaFNzRXQwckJWR0JSNy1oYUEtRkt3b2hfMDltdw?oc=5",
-   "ts": "2026-10-27T04:35:21Z",
-   "fuente": "Carroll College Athletics",
-   "id": "fe5d5f474b",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Los Saints concluyen el primer día de juego en Gold Mountain",
-   "efecto": "Noticia deportiva sin relevancia para mercados financieros."
   }
  ],
  "eventos_avisados": [
@@ -12734,14 +12744,14 @@
     4021.3,
     4026.4,
     4020.8,
-    4024.3
+    4023.6
    ],
    [
-    1793098939,
-    4025.8,
-    4025.8,
-    4025.8,
-    4025.8
+    1793099256,
+    4024.1,
+    4024.1,
+    4024.1,
+    4024.1
    ]
   ],
   "nq": [
@@ -13280,16 +13290,16 @@
    [
     1793098800,
     29525.25,
-    29576.75,
+    29602.25,
     29525.25,
-    29572.75
+    29598.0
    ],
    [
-    1793098947,
-    29571.5,
-    29571.5,
-    29571.5,
-    29571.5
+    1793099257,
+    29590.25,
+    29590.25,
+    29590.25,
+    29590.25
    ]
   ],
   "vix": [
@@ -13711,22 +13721,29 @@
     18.2,
     18.39,
     17.78,
-    17.94
+    17.93
    ],
    [
-    1793098636,
-    17.96,
-    17.96,
-    17.96,
-    17.96
+    1793098800,
+    17.92,
+    17.92,
+    17.87,
+    17.88
+   ],
+   [
+    1793098951,
+    17.86,
+    17.86,
+    17.86,
+    17.86
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-27T11:02:37Z",
- "ult_4h": 1793098958.8581822,
+ "ult_4h": 1793099858.37479,
  "estrategia_4h": {
   "oro": {
-   "precio": 4021.0,
+   "precio": 4024.1,
    "atr_4h": 24.49,
    "setups": [
     {
@@ -13737,7 +13754,7 @@
      "objetivo": 3989.1,
      "rr": 6.95,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.2,
+     "fuerza_ruptura_atr": 1.18,
      "ruptura": "2026-10-22 08:00 UTC"
     },
     {
@@ -13748,20 +13765,20 @@
      "objetivo": 3989.1,
      "rr": 9.59,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.45,
+     "fuerza_ruptura_atr": 1.44,
      "ruptura": "2026-10-22 00:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29513.75,
-   "atr_4h": 220.79,
+   "precio": 29590.25,
+   "atr_4h": 220.55,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29193.53,
+     "stop": 29193.67,
      "objetivo": 29613.0,
      "rr": 2.17,
      "estado": "esperando retesteo",
@@ -13770,7 +13787,7 @@
     }
    ]
   },
-  "ts": "2026-10-27T11:02:39Z"
+  "ts": "2026-10-27T11:17:38Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -13829,21 +13846,6 @@
   }
  ],
  "noticias_vistas": [
-  "f745a7b0cb",
-  "01e11d697a",
-  "b24a49c3af",
-  "e3aa9fcd0d",
-  "59b1dcef6b",
-  "2f9e5a3e36",
-  "184b6f961c",
-  "4146e5a4b5",
-  "636951af43",
-  "62134b1014",
-  "1813ac4343",
-  "0c8e88fb9f",
-  "e031ce6361",
-  "eb303c9403",
-  "bc6e95de1b",
   "4bbfe0cb00",
   "b06d5ded11",
   "4d0569a90f",
@@ -14628,7 +14630,22 @@
   "907aa3065c",
   "4cf170822f",
   "07d3fca13b",
-  "c7504ac321"
+  "c7504ac321",
+  "12fb2b3953",
+  "f717e107be",
+  "05f773dcf3",
+  "0256d2c9e7",
+  "94b02fa4be",
+  "e5ff0e82dc",
+  "c6420c06d5",
+  "5881118b18",
+  "e5efb3cddb",
+  "9c5cc87ff0",
+  "3b5b872e09",
+  "6ff33a7115",
+  "8304ed4a2e",
+  "9549de7923",
+  "8b0d2752cd"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
