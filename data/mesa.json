@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T14:32:38Z",
-   "ultimo_resultado": "Estrategia 4H ORO: COMPRA en el nivel 4044.0 · stop 4028.9 · objetivo 4164.3 · R:R 7.97 (en retesteo). Tú ejecutas."
+   "actualizado": "2026-10-27T15:02:37Z",
+   "ultimo_resultado": "Estrategia 4H ORO: COMPRA: esperar retesteo de 4050.2 · stop 4034.68 · objetivo 4164.3 · R:R 7.35 (esperando retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T14:57:33Z",
-   "ultimo_resultado": "1 titulares nuevos: Boeing narrows loss on higher defense sales, targets Max production increase for late 2027"
+   "actualizado": "2026-10-27T15:02:37Z",
+   "ultimo_resultado": "2 titulares nuevos: Boeing doesn't expect to significantly ramp up 737 Max production until late 2027"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H ORO: COMPRA: esperar retesteo de 4050.2 · stop 4034.68 · objetivo 4164.3 · R:R 7.35 (esperando retesteo). Tú ejecutas.",
+   "ts": "2026-10-27T15:02:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4062.5 · NQ 29661.75 · VIX 17.72 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4029.4 · NQ 29509.5 · VIX 18.39",
    "ts": "2026-10-27T01:47:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4025.4 · NQ 29495.5 · VIX 18.39 · 1 noticias nuevas",
-   "ts": "2026-10-27T01:42:35Z"
   }
  ],
  "briefs": [
@@ -11528,12 +11528,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4062.5,
-  "nq": 29661.75,
-  "vix": 17.72,
-  "ts": "2026-10-27T14:57:33Z"
+  "oro": 4064.5,
+  "nq": 29664.0,
+  "vix": 17.65,
+  "ts": "2026-10-27T15:02:37Z"
  },
  "noticias": [
+  {
+   "titulo": "Boeing doesn't expect to significantly ramp up 737 Max production until late 2027",
+   "link": "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html",
+   "ts": "2026-10-27T15:01:59Z",
+   "fuente": "CNBC",
+   "id": "4ca6edf111",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Boeing narrows loss on higher defense sales, targets Max production increase for late 2027",
    "link": "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html",
@@ -11827,6 +11836,15 @@
    "ts": "2026-10-27T13:22:55Z",
    "fuente": "CNBC",
    "id": "d37035130d",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Minimum wage set to rise but 18-20 year-olds will not get bigger increases",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE43cng1RGt3STU5RnFCQTdDSERZMV9SaUpSMEhOdHBZbDZiSjZNZnlBWFF0VHZSTkhRWnhjSkhhaEhPeEE2VWZuSFRLVGlzZVMxbEg5Vmt1U1phOGM?oc=5",
+   "ts": "2026-10-27T13:18:37Z",
+   "fuente": "BBC",
+   "id": "65874d66c8",
    "activos": [],
    "impacto": "bajo"
   },
@@ -12360,30 +12378,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Fed rate hikes are coming, but not this week: CNBC survey",
-   "link": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
-   "ts": "2026-10-27T11:10:01Z",
-   "fuente": "CNBC Economía",
-   "id": "6340d10c04",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Kinross Gold (TSX:K) Stock May Trade At A Discount On Strong Operational Outlook",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbFpTNXktSmw0QlZkbkFkaXRVd1FtOGFUMEdGRDhEZzJfN1RHNXdFU2NkbmQ1dzdGZ0M5M2lJVUhFMG8xZGoyck8wNzlIeUxpa3RoNXlZVUVrQWNpWll5R082bVZBcWlXNXdnQ1pRNFJQTzQ5UjRpVEF2Y2IxckFiRjVXalVicmFLWWZObWtFYWd1SnM?oc=5",
-   "ts": "2026-10-27T11:09:48Z",
-   "fuente": "Yahoo Finance",
-   "id": "acbbc7667d",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Acciones de Kinross Gold cotizan con descuento por sólida perspectiva operativa",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -13996,38 +13990,38 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-27T14:42:38Z",
- "ult_4h": 1793112454.4891262,
+ "ult_4h": 1793113357.2313724,
  "estrategia_4h": {
   "oro": {
-   "precio": 4061.5,
-   "atr_4h": 25.66,
+   "precio": 4064.5,
+   "atr_4h": 25.86,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4050.2,
      "entrada": 4050.2,
-     "stop": 4034.8,
+     "stop": 4034.68,
      "objetivo": 4164.3,
-     "rr": 7.41,
-     "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.42,
+     "rr": 7.35,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 1.53,
      "ruptura": "2026-10-27 12:00 UTC"
     },
     {
-     "direccion": "VENTA",
-     "nivel": 4091.2,
-     "entrada": 4091.2,
-     "stop": 4106.6,
-     "objetivo": 3989.1,
-     "rr": 6.63,
+     "direccion": "COMPRA",
+     "nivel": 4044.0,
+     "entrada": 4044.0,
+     "stop": 4028.48,
+     "objetivo": 4164.3,
+     "rr": 7.75,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.13,
-     "ruptura": "2026-10-22 08:00 UTC"
+     "fuerza_ruptura_atr": 1.53,
+     "ruptura": "2026-10-27 12:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29643.0,
+   "precio": 29664.0,
    "atr_4h": 220.04,
    "setups": [
     {
@@ -14043,7 +14037,7 @@
     }
    ]
   },
-  "ts": "2026-10-27T14:47:34Z"
+  "ts": "2026-10-27T15:02:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -14087,7 +14081,8 @@
   "nq|COMPRA|29326.0|en retesteo",
   "nq|COMPRA|29345.0|esperando retesteo",
   "oro|COMPRA|4050.2|en retesteo",
-  "oro|COMPRA|4044.0|en retesteo"
+  "oro|COMPRA|4044.0|en retesteo",
+  "oro|COMPRA|4050.2|esperando retesteo"
  ],
  "alpha_ordenes": [
   {
@@ -14105,8 +14100,6 @@
   }
  ],
  "noticias_vistas": [
-  "4978315d41",
-  "712031a899",
   "c43c1e67c6",
   "e9d8eaaec1",
   "5aa8d7e7f5",
@@ -14904,7 +14897,9 @@
   "972f23ad9a",
   "2aa832e9cf",
   "e452880371",
-  "6242fa6126"
+  "6242fa6126",
+  "4ca6edf111",
+  "65874d66c8"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
