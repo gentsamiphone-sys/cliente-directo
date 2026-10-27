@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4072.4 · NQ 29759.25 · VIX 17.63 · 2 noticias nuevas",
-   "actualizado": "2026-10-27T15:27:38Z"
+   "ultimo_resultado": "Oro 4070.3 · NQ 29759.25 · VIX 17.55 · 1 noticias nuevas",
+   "actualizado": "2026-10-27T15:32:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T15:27:37Z",
-   "ultimo_resultado": "2 titulares nuevos: Boeing stock sinks 9% as company says it won't significantly ramp up 737 Max production until late 2027"
+   "actualizado": "2026-10-27T15:32:34Z",
+   "ultimo_resultado": "1 titulares nuevos: Purdue Baseball Black & Gold Series"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4070.3 · NQ 29759.25 · VIX 17.55 · 1 noticias nuevas",
+   "ts": "2026-10-27T15:32:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4072.4 · NQ 29759.25 · VIX 17.63 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4028.6 · NQ 29487.25 · VIX 18.39 · 1 noticias nuevas",
    "ts": "2026-10-27T02:27:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4025.9 · NQ 29475.5 · VIX 18.39",
-   "ts": "2026-10-27T02:22:33Z"
   }
  ],
  "briefs": [
@@ -11528,12 +11528,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4072.4,
+  "oro": 4070.3,
   "nq": 29759.25,
-  "vix": 17.63,
-  "ts": "2026-10-27T15:27:37Z"
+  "vix": 17.55,
+  "ts": "2026-10-27T15:32:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Purdue Baseball Black & Gold Series",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aU1ZIT1Aza0o2ZnBlMFRPYXhtWjdEYmlQakhMbDIxeDVrNkVoU3dlQjllTXRLVHkwQlVVYzNadWRXRFpoNlFmUTJGeVlINHc1QlRMaHBuUWdSc3c2aGlaQmE0SU5odzh3Uk8wbDIwMXBwMlM4LWY1U3pua3pHYUE?oc=5",
+   "ts": "2026-10-27T15:27:23Z",
+   "fuente": "Purdue Boilermakers",
+   "id": "997baa3676",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Boeing stock sinks 9% as company says it won't significantly ramp up 737 Max production until late 2027",
    "link": "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html",
@@ -12369,15 +12380,6 @@
    "id": "d4ed714ee1",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Lion Rock Receives State and County Permits for Pegmatite Extraction & Bulk Sampling",
-   "link": "https://finance.yahoo.com/energy/articles/lion-rock-receives-state-county-112000886.html?.tsrc=rss",
-   "ts": "2026-10-27T11:20:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "fc5295fab7",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -12959,14 +12961,14 @@
     4066.7,
     4073.7,
     4066.4,
-    4071.6
+    4070.6
    ],
    [
-    1793114255,
-    4072.4,
-    4072.4,
-    4072.4,
-    4072.4
+    1793114551,
+    4070.3,
+    4070.3,
+    4070.3,
+    4070.3
    ]
   ],
   "nq": [
@@ -13533,16 +13535,16 @@
    [
     1793113200,
     29709.0,
-    29763.5,
+    29772.75,
     29707.5,
-    29755.5
+    29753.75
    ],
    [
-    1793114257,
-    29758.0,
-    29758.0,
-    29758.0,
-    29758.0
+    1793114553,
+    29759.25,
+    29759.25,
+    29759.25,
+    29759.25
    ]
   ],
   "vix": [
@@ -13997,24 +13999,24 @@
    [
     1793113200,
     17.63,
-    17.63,
+    17.64,
     17.55,
-    17.6
+    17.56
    ],
    [
-    1793113951,
-    17.63,
-    17.63,
-    17.63,
-    17.63
+    1793114251,
+    17.55,
+    17.55,
+    17.55,
+    17.55
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-27T15:17:36Z",
- "ult_4h": 1793114275.437831,
+ "ult_4h": 1793115154.5495284,
  "estrategia_4h": {
   "oro": {
-   "precio": 4071.5,
+   "precio": 4070.3,
    "atr_4h": 26.42,
    "setups": [
     {
@@ -14025,7 +14027,7 @@
      "objetivo": 4164.3,
      "rr": 7.2,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.76,
+     "fuerza_ruptura_atr": 1.71,
      "ruptura": "2026-10-27 12:00 UTC"
     },
     {
@@ -14036,29 +14038,29 @@
      "objetivo": 3989.1,
      "rr": 6.44,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.11,
+     "fuerza_ruptura_atr": 1.1,
      "ruptura": "2026-10-22 08:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29721.75,
-   "atr_4h": 224.05,
+   "precio": 29759.25,
+   "atr_4h": 226.11,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29191.57,
-     "objetivo": 29743.0,
-     "rr": 3.1,
+     "stop": 29190.34,
+     "objetivo": 29772.75,
+     "rr": 3.29,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.88,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-27T15:17:55Z"
+  "ts": "2026-10-27T15:32:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -14122,7 +14124,6 @@
   }
  ],
  "noticias_vistas": [
-  "a0c11e0d58",
   "d63a3e9598",
   "430f7ebb77",
   "11b940c948",
@@ -14921,7 +14922,8 @@
   "21bcfd5996",
   "552ba76cb5",
   "4454b12ad2",
-  "cae27f2aa9"
+  "cae27f2aa9",
+  "997baa3676"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
