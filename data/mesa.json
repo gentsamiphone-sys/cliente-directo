@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4024.2 · NQ 29511.75 · VIX 18.39 · 1 noticias nuevas",
-   "actualizado": "2026-10-27T02:07:34Z"
+   "ultimo_resultado": "Oro 4024.7 · NQ 29482.0 · VIX 18.39 · 1 noticias nuevas",
+   "actualizado": "2026-10-27T02:12:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T02:07:34Z",
-   "ultimo_resultado": "1 titulares nuevos: Gold futures rebound above $4,000 as Middle East tensions ease."
+   "actualizado": "2026-10-27T02:12:37Z",
+   "ultimo_resultado": "1 titulares nuevos: $E-mini NASDAQ 100 Futures (DEC6) (NQmain.US)$"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4024.7 · NQ 29482.0 · VIX 18.39 · 1 noticias nuevas",
+   "ts": "2026-10-27T02:12:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4024.2 · NQ 29511.75 · VIX 18.39 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
    "ts": "2026-10-26T12:32:58Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "DXY 0.05% · 10Y 4.988 · VIX 19.13 · 1 eventos USD en el radar.",
-   "ts": "2026-10-26T12:32:57Z"
   }
  ],
  "briefs": [
@@ -11151,10 +11151,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4024.2,
-  "nq": 29511.75,
+  "oro": 4024.7,
+  "nq": 29482.0,
   "vix": 18.39,
-  "ts": "2026-10-27T02:07:34Z"
+  "ts": "2026-10-27T02:12:37Z"
  },
  "noticias": [
   {
@@ -11179,6 +11179,17 @@
    "impacto": "alto",
    "es": "El oro cae cerca de $4,010 a la espera de la Fed y diplomacia con Irán",
    "efecto": "Presiona al oro a la baja por cautela previa a la Fed."
+  },
+  {
+   "titulo": "$E-mini NASDAQ 100 Futures (DEC6) (NQmain.US)$",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON21nM1hZWGFIUnpYQzhLamJYUjhKQnhXUVJvRURZSDJlX0JRSk54emE5QU83Njc2ckNxeUUyelVic1VwN3AxT2t3MnZjcFRCci1XZVZ5RHlhRjhOUnlBSWFwXzNtU1JHZ2FXLWk2bExjR0VONmlVd0xEYjZjVmEtMVkzYTc5S1V6R2FkR2tCdURrYnRiWlBQdTVR?oc=5",
+   "ts": "2026-10-27T01:31:19Z",
+   "fuente": "Moomoo",
+   "id": "c5363ef7ae",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "U.S. and Canada working on deal to ease steel and auto tariffs, sources say",
@@ -12025,17 +12036,6 @@
    "impacto": "alto",
    "es": "Anthropic prevé invertir al menos 542 mil millones de dólares en centros de datos",
    "efecto": "Impulsa al sector tecnológico y al NQ por expectativas de crecimiento IA."
-  },
-  {
-   "titulo": "Buying America at a discount, this timberland REIT is on sale",
-   "link": "https://www.cnbc.com/2026/10/26/rayonier-stock-timberland-reit-nav-discount.html",
-   "ts": "2026-10-26T17:46:30Z",
-   "fuente": "CNBC",
-   "id": "e36ceb8b13",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "REIT de madera cotiza con descuento en EE. UU.",
-   "efecto": "Es ruido de mercado; sin impacto relevante en activos macro."
   }
  ],
  "eventos_avisados": [
@@ -12052,13 +12052,6 @@
  ],
  "velas": {
   "oro": [
-   [
-    1792558800,
-    4132.1,
-    4147.7,
-    4131.6,
-    4136.1
-   ],
    [
     1792562400,
     4135.2,
@@ -12673,24 +12666,24 @@
     4021.9,
     4032.1,
     4016.7,
-    4024.2
+    4023.8
    ],
    [
-    1793066253,
-    4024.2,
-    4024.2,
-    4024.2,
-    4024.2
+    1793066400,
+    4023.7,
+    4026.2,
+    4023.2,
+    4025.7
+   ],
+   [
+    1793066555,
+    4024.7,
+    4024.7,
+    4024.7,
+    4024.7
    ]
   ],
   "nq": [
-   [
-    1792558800,
-    29887.75,
-    29902.0,
-    29824.0,
-    29832.5
-   ],
    [
     1792562400,
     29831.5,
@@ -13305,14 +13298,21 @@
     29539.75,
     29567.5,
     29461.5,
-    29508.5
+    29515.5
    ],
    [
-    1793066250,
-    29511.75,
-    29511.75,
-    29511.75,
-    29511.75
+    1793066400,
+    29515.0,
+    29522.0,
+    29480.0,
+    29480.5
+   ],
+   [
+    1793066557,
+    29482.0,
+    29482.0,
+    29482.0,
+    29482.0
    ]
   ],
   "vix": [
@@ -13922,7 +13922,6 @@
   }
  ],
  "noticias_vistas": [
-  "ec1c8a0fcc",
   "aba5b106e9",
   "5a1367d372",
   "c70ce19a31",
@@ -14721,7 +14720,8 @@
   "3ad73d4a75",
   "e30388f4a7",
   "c27db53b3a",
-  "92a7b56671"
+  "92a7b56671",
+  "c5363ef7ae"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
