@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4019.0 · NQ 29317.5 · VIX 18.42",
-   "actualizado": "2026-10-27T07:32:39Z"
+   "ultimo_resultado": "Oro 4017.7 · NQ 29328.25 · VIX 18.4 · 2 noticias nuevas",
+   "actualizado": "2026-10-27T07:37:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T07:32:38Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-27T07:37:33Z",
+   "ultimo_resultado": "2 titulares nuevos: Inversores de bonos del Reino Unido exigen recortes de gasto fiscal"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4017.7 · NQ 29328.25 · VIX 18.4 · 2 noticias nuevas",
+   "ts": "2026-10-27T07:37:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4019.0 · NQ 29317.5 · VIX 18.42",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4033.6 · NQ 29506.5 · VIX 18.33",
    "ts": "2026-10-26T18:12:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4034.8 · NQ 29520.25 · VIX 18.48 · 2 noticias nuevas",
-   "ts": "2026-10-26T18:07:43Z"
   }
  ],
  "briefs": [
@@ -11327,12 +11327,36 @@
   }
  },
  "en_vivo": {
-  "oro": 4019.0,
-  "nq": 29317.5,
-  "vix": 18.42,
-  "ts": "2026-10-27T07:32:39Z"
+  "oro": 4017.7,
+  "nq": 29328.25,
+  "vix": 18.4,
+  "ts": "2026-10-27T07:37:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Opinion: UK bond investors want spending cuts. John Healey’s first Budget may disappoint",
+   "link": "https://www.cnbc.com/2026/10/27/uk-budget-2026-john-healey-bond-market.html",
+   "ts": "2026-10-27T07:34:34Z",
+   "fuente": "CNBC",
+   "id": "c1d5d62018",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "bajo",
+   "es": "Inversores de bonos del Reino Unido exigen recortes de gasto fiscal",
+   "efecto": "Sin impacto directo en oro o NQ, ruido menor en divisas."
+  },
+  {
+   "titulo": "The 'stablecoin sandwich': Why speeding up payments isn't so simple, according to Mastercard",
+   "link": "https://www.cnbc.com/2026/10/27/mastcard-stablecoin-bvnk-.html",
+   "ts": "2026-10-27T07:16:35Z",
+   "fuente": "CNBC",
+   "id": "91ca02413a",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "El 'sándwich de stablecoins': Mastercard analiza la complejidad de pagos",
+   "efecto": "Noticia sectorial de criptomonedas, irrelevante para nuestros activos."
+  },
   {
    "titulo": "Asian Stocks to Gain as Anthropic Files for IPO: Markets Wrap",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYTFLZTJNckNaRFN0TG9fLXJTY3h3VkVRSnZfMDJfLVkxOTNsU01IbWtXbDZQUTFIOXJXWENhY2NIX0ZuLUdLSHJMemcyUkNEZklQdUQxZlpHUWNwaVE3WFp1dk1meVZwejRrSUF1dEhFdDBjNUp3WVdqVnNBamJfQjFrN2g5b3QwZFBUMHZjYVU2aGhK?oc=5",
@@ -12189,26 +12213,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Bitcoin, AI stocks and Elon Musk: Analyst makes 3 bold predictions investors can't ignore",
-   "link": "https://www.thestreet.com/crypto/markets/bitcoin-ai-stocks-and-elon-musk-analyst-makes-3-bold-predictions-investors-cant-ignore?.tsrc=rss",
-   "ts": "2026-10-26T20:45:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "1890a0cd33",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "CNBC Points Pro: How to book a round-the-world flight",
-   "link": "https://www.cnbc.com/select/how-to-book-a-round-the-world-ticket-/",
-   "ts": "2026-10-26T20:44:20Z",
-   "fuente": "CNBC",
-   "id": "e56a8becc6",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -12732,16 +12736,16 @@
    [
     1793084400,
     4013.1,
-    4019.4,
+    4020.3,
     4011.0,
-    4018.8
+    4017.5
    ],
    [
-    1793085757,
-    4018.9,
-    4018.9,
-    4018.9,
-    4018.9
+    1793086049,
+    4017.7,
+    4017.7,
+    4017.7,
+    4017.7
    ]
   ],
   "nq": [
@@ -13245,16 +13249,16 @@
    [
     1793084400,
     29323.25,
-    29326.75,
+    29330.5,
     29288.0,
-    29317.0
+    29325.75
    ],
    [
-    1793085753,
-    29317.5,
-    29317.5,
-    29317.5,
-    29317.5
+    1793086048,
+    29328.25,
+    29328.25,
+    29328.25,
+    29328.25
    ]
   ],
   "vix": [
@@ -13654,19 +13658,19 @@
     1793084400,
     18.43,
     18.43,
-    18.42,
-    18.43
+    18.41,
+    18.41
    ],
    [
-    1793085451,
-    18.42,
-    18.42,
-    18.42,
-    18.42
+    1793085751,
+    18.4,
+    18.4,
+    18.4,
+    18.4
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-27T07:02:35Z",
+ "noticias_traducidas_ts": "2026-10-27T07:37:32Z",
  "ult_4h": 1793086359.177963,
  "estrategia_4h": {
   "oro": {
@@ -13773,8 +13777,6 @@
   }
  ],
  "noticias_vistas": [
-  "3d6e368baf",
-  "7eee21b641",
   "0bf3638f71",
   "a5324bf04c",
   "03e758f0a4",
@@ -14572,7 +14574,9 @@
   "645c995393",
   "5ed5ea27e6",
   "f476364a1c",
-  "7b59609884"
+  "7b59609884",
+  "c1d5d62018",
+  "91ca02413a"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
