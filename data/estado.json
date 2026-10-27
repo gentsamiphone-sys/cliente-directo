@@ -4959,9 +4959,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando restaurantes y comida sin página web cerca de Owens Ave…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-10-27T01:02:36Z"
+   "actualizado": "2026-10-27T01:06:24Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -4989,6 +4989,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-27T01:06:24Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando restaurantes y comida sin página web cerca de Owens Ave…",
@@ -6483,11 +6488,6 @@
    "agente": "gerente",
    "texto": "Actualicé el reporte del día.",
    "ts": "2026-10-24T20:37:32Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Contando cómo vamos hoy…",
-   "ts": "2026-10-24T20:37:31Z"
   }
  ],
  "reportes": {
