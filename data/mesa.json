@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4077.2 · NQ 29816.75 · VIX 17.52 · 1 noticias nuevas",
-   "actualizado": "2026-10-27T22:57:37Z"
+   "ultimo_resultado": "Oro 4077.0 · NQ 29822.0 · VIX 17.52 · 1 noticias nuevas",
+   "actualizado": "2026-10-27T23:02:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T22:57:36Z",
-   "ultimo_resultado": "1 titulares nuevos: El condado de Fulton presenta la exposición de arte 'We Come From Gold and Diamonds'"
+   "actualizado": "2026-10-27T23:02:34Z",
+   "ultimo_resultado": "1 titulares nuevos: Jim Cramer warns investors not to get fooled by the latest AI stock rally"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4077.0 · NQ 29822.0 · VIX 17.52 · 1 noticias nuevas",
+   "ts": "2026-10-27T23:02:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4077.2 · NQ 29816.75 · VIX 17.52 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4010.5 · NQ 29473.5 · VIX 18.25 · 1 noticias nuevas",
    "ts": "2026-10-27T10:07:42Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4009.7 · NQ 29458.0 · VIX 18.25 · 2 noticias nuevas",
-   "ts": "2026-10-27T10:02:36Z"
   }
  ],
  "briefs": [
@@ -11729,10 +11729,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4077.2,
-  "nq": 29816.75,
+  "oro": 4077.0,
+  "nq": 29822.0,
   "vix": 17.52,
-  "ts": "2026-10-27T22:57:36Z"
+  "ts": "2026-10-27T23:02:34Z"
  },
  "noticias": [
   {
@@ -11743,6 +11743,17 @@
    "id": "d0d6842864",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Jim Cramer warns investors not to get fooled by the latest AI stock rally",
+   "link": "https://www.cnbc.com/2026/10/27/jim-cramer-ai-trade-financing-risks.html",
+   "ts": "2026-10-27T22:24:19Z",
+   "fuente": "CNBC",
+   "id": "90f8fd1c13",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Conservation group sues feds for failing to protect rare Nevada toad and fish",
@@ -12588,17 +12599,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "GLP-1 drug coverage is being dropped by employer plans: What to know about 2027 weight-loss options",
-   "link": "https://www.cnbc.com/2026/10/27/glp1-drug-coverage-weight-loss-options.html",
-   "ts": "2026-10-27T17:57:57Z",
-   "fuente": "CNBC",
-   "id": "b0505c2138",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Planes de empleadores eliminan cobertura de fármacos GLP-1: qué saber sobre opciones para bajar de peso en 2027",
-   "efecto": "Noticia sectorial menor para farmacéuticas, sin efecto macro."
   }
  ],
  "eventos_avisados": [
@@ -13225,11 +13225,11 @@
     4077.0
    ],
    [
-    1793141253,
-    4077.2,
-    4077.2,
-    4077.2,
-    4077.2
+    1793141545,
+    4077.0,
+    4077.0,
+    4077.0,
+    4077.0
    ]
   ],
   "nq": [
@@ -13840,14 +13840,14 @@
     29821.0,
     29837.25,
     29783.75,
-    29818.5
+    29822.75
    ],
    [
-    1793141252,
-    29816.75,
-    29816.75,
-    29816.75,
-    29816.75
+    1793141548,
+    29822.0,
+    29822.0,
+    29822.0,
+    29822.0
    ]
   ],
   "vix": [
@@ -14351,38 +14351,38 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-27T22:57:35Z",
- "ult_4h": 1793141251.489088,
+ "ult_4h": 1793142154.7534695,
  "estrategia_4h": {
   "oro": {
-   "precio": 4075.3,
-   "atr_4h": 22.44,
+   "precio": 4077.0,
+   "atr_4h": 22.51,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4050.2,
      "entrada": 4050.2,
-     "stop": 4036.74,
+     "stop": 4036.69,
      "objetivo": 4079.4,
-     "rr": 2.17,
+     "rr": 2.16,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.36,
+     "fuerza_ruptura_atr": 2.35,
      "ruptura": "2026-10-27 12:00 UTC"
     },
     {
-     "direccion": "COMPRA",
-     "nivel": 4044.0,
-     "entrada": 4044.0,
-     "stop": 4030.54,
-     "objetivo": 4079.4,
-     "rr": 2.63,
+     "direccion": "VENTA",
+     "nivel": 4091.2,
+     "entrada": 4091.2,
+     "stop": 4104.71,
+     "objetivo": 3989.1,
+     "rr": 7.56,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.36,
-     "ruptura": "2026-10-27 12:00 UTC"
+     "fuerza_ruptura_atr": 1.29,
+     "ruptura": "2026-10-22 08:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29829.75,
+   "precio": 29822.0,
    "atr_4h": 205.73,
    "setups": [
     {
@@ -14409,7 +14409,7 @@
     }
    ]
   },
-  "ts": "2026-10-27T22:47:31Z"
+  "ts": "2026-10-27T23:02:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -14474,7 +14474,6 @@
   }
  ],
  "noticias_vistas": [
-  "2ef4ec5bbc",
   "0d54c2747d",
   "11111444e0",
   "0fcc35d763",
@@ -15273,7 +15272,8 @@
   "a97bb0dc9b",
   "d0d6842864",
   "2daa7b9dfd",
-  "b81d671039"
+  "b81d671039",
+  "90f8fd1c13"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
