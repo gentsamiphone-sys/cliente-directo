@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4005.7 · NQ 29405.5 · VIX 18.46 · 2 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-27T09:07:31Z"
+   "ultimo_resultado": "Oro 4008.3 · NQ 29427.5 · VIX 18.38 · 3 noticias nuevas",
+   "actualizado": "2026-10-27T09:12:30Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-27T09:07:30Z",
-   "ultimo_resultado": "2 titulares nuevos, 2 de alto impacto: White House Publishes Modifications to Canadian Tariffs"
+   "actualizado": "2026-10-27T09:12:29Z",
+   "ultimo_resultado": "3 titulares nuevos: Anthropic Files for Nasdaq Listing"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4008.3 · NQ 29427.5 · VIX 18.38 · 3 noticias nuevas",
+   "ts": "2026-10-27T09:12:30Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4005.7 · NQ 29405.5 · VIX 18.46 · 2 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4025.8 · NQ 29489.75 · VIX 18.37",
    "ts": "2026-10-26T19:47:41Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4023.6 · NQ 29464.5 · VIX 18.32 · 1 noticias nuevas",
-   "ts": "2026-10-26T19:42:33Z"
   }
  ],
  "briefs": [
@@ -11327,12 +11327,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4005.7,
-  "nq": 29405.5,
-  "vix": 18.46,
-  "ts": "2026-10-27T09:07:31Z"
+  "oro": 4008.3,
+  "nq": 29427.5,
+  "vix": 18.38,
+  "ts": "2026-10-27T09:12:30Z"
  },
  "noticias": [
+  {
+   "titulo": "Anthropic Files for Nasdaq Listing",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOGMzd0FGWFRhNlJudmJRRmpnWlBFdjlaaHFCS0dMWVVYTTE4cGlNWmYzZnVYQUZkLWd5TVdCY005dmVzU3NJd3lIbFlSTHlrSzdLTW1GNmNJb1NDMjFpdWJqeFhYQXBNVTI3UWR3Nm11bEs2R2hZeDJtVG5jMjI4R0Zfbno?oc=5",
+   "ts": "2026-10-27T09:07:39Z",
+   "fuente": "GovCon Wire",
+   "id": "d439d6badd",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Amazon Is Underperforming the S&P 500 and Nasdaq-100. Could Oct. 29 Mark a Turning Point?",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX3ZwT200SGZ2SEZmdWJtU05zRHZlRkQyUUVnSjVOT0JERnRpUlVnR1FjT1o3M2luTDJydmNkQmlRLVZpR3FaM2tNUGN4Sy0yNVk4QTlpWEZ3eVltQkNsMVZXMjE1Wkc0Y3NhZ25FU1JDU0FkaHVuRlJnZXZmbnNRSEo1MEVvMUdTN1BJQ3cwaVEtdjZqRGVFYQ?oc=5",
@@ -11352,6 +11363,28 @@
    "id": "6d408ee2a6",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Amundi Says ‘Worst Is Behind Us’ as Gold Flirts With $4,000",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLVdoYno3cGlBWTJlbUYxNWhwbkJ4NGFEVU9XalhaQnlRY0VybWdVX2d5TnNibDVRVGVlU01WcksyT2xjU3A4YkNSRzJwN0lhYkVqUkV5QXJ5a3ZrcWVHTzlrdXI0WnRwM3ROR1BZRjVIWjBQWWwyeXh1M3o2M2hvMWRNSEI4ci0waEl0a2dNUk1PMFBQRzhaekxLb2xSYm5laGh2dFpFU1FrUGM?oc=5",
+   "ts": "2026-10-27T08:54:48Z",
+   "fuente": "Bloomberg.com",
+   "id": "5ea011cbfc",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Empire Metals, Central Asian Metals, Atlantic Lithium, S&U, Pantheon International",
+   "link": "https://finance.yahoo.com/video/empire-metals-central-asian-metals-085042677.html?.tsrc=rss",
+   "ts": "2026-10-27T08:50:42Z",
+   "fuente": "Yahoo Finance",
+   "id": "b2f0d8a030",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Some Michigan residents remain hopeful despite being hit hard by Trump's tariffs",
@@ -12175,39 +12208,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "CNBC's The China Connection newsletter: The 'cliff' beneath China's cities",
-   "link": "https://www.cnbc.com/2026/10/27/china-fiscal-debt-gdp-imf-real-estate-.html",
-   "ts": "2026-10-26T23:10:16Z",
-   "fuente": "CNBC",
-   "id": "0978e70d7a",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Stock futures are little changed after Wall Street starts the week on a winning note: Live updates",
-   "link": "https://www.cnbc.com/2026/10/26/stock-market-today-live-updates.html",
-   "ts": "2026-10-26T23:01:34Z",
-   "fuente": "CNBC",
-   "id": "39c96b82df",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "Los futuros de acciones muestran pocos cambios tras inicio alcista",
-   "efecto": ""
-  },
-  {
-   "titulo": "FireFly makes another significant high-grade copper-gold VMS discovery",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/firefly-makes-another-significant-high-225200002.html?.tsrc=rss",
-   "ts": "2026-10-26T22:52:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "a5fdd49bef",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -12740,14 +12740,21 @@
     4010.2,
     4014.9,
     4001.6,
-    4005.9
+    4007.3
    ],
    [
-    1793091447,
-    4005.7,
-    4005.7,
-    4005.7,
-    4005.7
+    1793091600,
+    4007.6,
+    4008.8,
+    4006.5,
+    4007.1
+   ],
+   [
+    1793091745,
+    4008.3,
+    4008.3,
+    4008.3,
+    4008.3
    ]
   ],
   "nq": [
@@ -13265,16 +13272,23 @@
    [
     1793088000,
     29313.5,
-    29418.0,
+    29434.0,
     29294.75,
-    29410.0
+    29432.25
    ],
    [
-    1793091448,
-    29405.5,
-    29405.5,
-    29405.5,
-    29405.5
+    1793091600,
+    29433.5,
+    29442.25,
+    29424.0,
+    29430.75
+   ],
+   [
+    1793091749,
+    29427.5,
+    29427.5,
+    29427.5,
+    29427.5
    ]
   ],
   "vix": [
@@ -13682,14 +13696,14 @@
     18.49,
     18.55,
     18.31,
-    18.46
+    18.41
    ],
    [
-    1793091136,
-    18.46,
-    18.46,
-    18.46,
-    18.46
+    1793091436,
+    18.38,
+    18.38,
+    18.38,
+    18.38
    ]
   ]
  },
@@ -13800,9 +13814,6 @@
   }
  ],
  "noticias_vistas": [
-  "750a971831",
-  "1f371bf64c",
-  "dc59a730ca",
   "2ec21b7549",
   "edc4e9e07c",
   "b3bc65fea4",
@@ -14599,7 +14610,10 @@
   "e60ae6b4e0",
   "9e9a79eb34",
   "6d408ee2a6",
-  "c08967b217"
+  "c08967b217",
+  "d439d6badd",
+  "5ea011cbfc",
+  "b2f0d8a030"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
