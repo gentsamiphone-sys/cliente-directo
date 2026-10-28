@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4051.6 · NQ 29824.0 · VIX 17.37 · 2 noticias nuevas",
-   "actualizado": "2026-10-28T17:37:51Z"
+   "ultimo_resultado": "Oro 4053.5 · NQ 29822.75 · VIX 17.36 · 2 noticias nuevas",
+   "actualizado": "2026-10-28T17:42:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T17:37:50Z",
-   "ultimo_resultado": "2 titulares nuevos: El dólar canadiense se fortalece frente al dólar tras la subida de tasas del Banco de Canadá"
+   "actualizado": "2026-10-28T17:42:36Z",
+   "ultimo_resultado": "2 titulares nuevos: Watch Live: Options traders break down a massive Alphabet trade into earnings"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4053.5 · NQ 29822.75 · VIX 17.36 · 2 noticias nuevas",
+   "ts": "2026-10-28T17:42:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4051.6 · NQ 29824.0 · VIX 17.37 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4056.0 · NQ 29934.0 · VIX 17.52 · 1 noticias nuevas",
    "ts": "2026-10-28T04:27:42Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4056.2 · NQ 29932.75 · VIX 17.52",
-   "ts": "2026-10-28T04:22:33Z"
   }
  ],
  "briefs": [
@@ -12133,12 +12133,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4051.6,
-  "nq": 29824.0,
-  "vix": 17.37,
-  "ts": "2026-10-28T17:37:51Z"
+  "oro": 4053.5,
+  "nq": 29822.75,
+  "vix": 17.36,
+  "ts": "2026-10-28T17:42:36Z"
  },
  "noticias": [
+  {
+   "titulo": "Watch Live: Options traders break down a massive Alphabet trade into earnings",
+   "link": "https://www.cnbc.com/2026/10/28/alphabet-microsoft-report-after-the-bell-what-options-trader-see.html",
+   "ts": "2026-10-28T17:41:47Z",
+   "fuente": "CNBC",
+   "id": "0bcf53573f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Canadian Dollar Strengthens Against The Greenback After Bank of Canada Raises Policy Rate",
    "link": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-strengthens-against-greenback-172825125.html?.tsrc=rss",
@@ -12191,6 +12202,17 @@
    "impacto": "bajo",
    "es": "Los pendientes chapados en oro de 18 quilates de Walmart con cristales de Swarovski cuestan solo 19 dólares",
    "efecto": ""
+  },
+  {
+   "titulo": "4 Things To Understand Before Picking Individual Stocks Over Index Funds",
+   "link": "https://moneylion.com/trending/money/things-to-understand-before-picking-individual-stocks-over-index-funds?.tsrc=rss",
+   "ts": "2026-10-28T17:00:27Z",
+   "fuente": "Yahoo Finance",
+   "id": "1c3618f04f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Solana Foundation exec: Emerging markets embrace stablecoins first",
@@ -12961,30 +12983,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
-   "link": "https://www.cnbc.com/investingclub/2026/10/28/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
-   "ts": "2026-10-28T12:56:05Z",
-   "fuente": "CNBC",
-   "id": "fb01bc084e",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Trump Says Tariffs Create Wealth — but Families Are Paying More and Buying Less",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX09hb2EwNHN2Yy1yTmZzeEo1anRKNnR5VUV6NmtjdnRQV3VURkVuczFTMFMxME11X2x4QlptaXJGTXNkckQzeERWN2liY0Z4eWhPR3JEMElxNUN3SGt4UXAwQkRINjl4aHUtQ2haMFNrQ3NxVnlHQzJMcEV4LThkamNSU3Z3UURrS2lBYWs2MEttZ3Y4NE9sWnVnSjNzZw?oc=5",
-   "ts": "2026-10-28T12:52:31Z",
-   "fuente": "Yahoo Finance",
-   "id": "c63e2b4d13",
-   "activos": [
-    "nq",
-    "dolar",
-    "oro"
-   ],
-   "impacto": "alto",
-   "es": "Trump dice que los aranceles crean riqueza, pero las familias pagan más y compran menos",
-   "efecto": "Aumenta la preocupación inflacionaria; presiona al dólar y lastra al NQ."
   }
  ],
  "eventos_avisados": [
@@ -12997,7 +12995,9 @@
   "Core Retail Sales m/m2026-10-15T08:30:00-04:00",
   "PPI m/m2026-10-15T08:30:00-04:00",
   "Retail Sales m/m2026-10-15T08:30:00-04:00",
-  "Fed Chairman Warsh Speaks2026-10-15T23:30:00-04:00"
+  "Fed Chairman Warsh Speaks2026-10-15T23:30:00-04:00",
+  "Federal Funds Rate2026-10-28T14:00:00-04:00",
+  "FOMC Statement2026-10-28T14:00:00-04:00"
  ],
  "velas": {
   "oro": [
@@ -13580,14 +13580,14 @@
     4055.0,
     4055.8,
     4050.6,
-    4051.3
+    4054.3
    ],
    [
-    1793208467,
-    4051.6,
-    4051.6,
-    4051.6,
-    4051.6
+    1793208752,
+    4053.5,
+    4053.5,
+    4053.5,
+    4053.5
    ]
   ],
   "nq": [
@@ -14169,15 +14169,15 @@
     1793206800,
     29885.5,
     29892.25,
-    29814.5,
-    29817.25
+    29811.0,
+    29829.25
    ],
    [
-    1793208470,
-    29819.75,
-    29819.75,
-    29819.75,
-    29819.75
+    1793208755,
+    29822.75,
+    29822.75,
+    29822.75,
+    29822.75
    ]
   ],
   "vix": [
@@ -14648,22 +14648,22 @@
     17.36,
     17.42,
     17.35,
-    17.38
+    17.37
    ],
    [
-    1793208166,
-    17.37,
-    17.37,
-    17.37,
-    17.37
+    1793208451,
+    17.36,
+    17.36,
+    17.36,
+    17.36
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-28T17:37:32Z",
- "ult_4h": 1793208455.6360104,
+ "ult_4h": 1793209356.4104953,
  "estrategia_4h": {
   "oro": {
-   "precio": 4052.6,
+   "precio": 4053.5,
    "atr_4h": 23.1,
    "setups": [
     {
@@ -14691,34 +14691,34 @@
    ]
   },
   "nq": {
-   "precio": 29853.5,
-   "atr_4h": 185.09,
+   "precio": 29822.75,
+   "atr_4h": 186.27,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 29572.0,
      "entrada": 29572.0,
-     "stop": 29460.95,
+     "stop": 29460.24,
      "objetivo": 29989.25,
-     "rr": 3.76,
+     "rr": 3.73,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.62,
+     "fuerza_ruptura_atr": 1.61,
      "ruptura": "2026-10-27 12:00 UTC"
     },
     {
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29214.95,
+     "stop": 29214.24,
      "objetivo": 29989.25,
-     "rr": 5.97,
+     "rr": 5.93,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.07,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-28T17:27:35Z"
+  "ts": "2026-10-28T17:42:36Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -14783,8 +14783,6 @@
   }
  ],
  "noticias_vistas": [
-  "13a2907059",
-  "1080349d37",
   "665c595ccc",
   "3185e8725b",
   "b4ba7dae2e",
@@ -15582,7 +15580,9 @@
   "d5f64e4e68",
   "d7a5535f39",
   "9a72c6f68f",
-  "0937743868"
+  "0937743868",
+  "0bcf53573f",
+  "1c3618f04f"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
