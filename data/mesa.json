@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4061.9 · NQ 29876.75 · VIX 17.52 · 3 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-28T02:12:34Z"
+   "ultimo_resultado": "Oro 4061.7 · NQ 29868.5 · VIX 17.52 · 1 noticias nuevas",
+   "actualizado": "2026-10-28T02:17:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T02:12:33Z",
-   "ultimo_resultado": "3 titulares nuevos, 3 de alto impacto: Stock futures are little changed as traders await Fed decision, Big Tech earnings: Live updates"
+   "actualizado": "2026-10-28T02:17:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Las elecciones en Israel sin ganador claro, Netanyahu y Eisenkot lejos de la mayoría"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4061.7 · NQ 29868.5 · VIX 17.52 · 1 noticias nuevas",
+   "ts": "2026-10-28T02:17:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4061.9 · NQ 29876.75 · VIX 17.52 · 3 noticias nuevas (3 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
    "ts": "2026-10-27T12:33:02Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Fondos en oro: neto +104,206 contratos.",
-   "ts": "2026-10-27T12:33:01Z"
   }
  ],
  "briefs": [
@@ -11729,12 +11729,26 @@
   }
  },
  "en_vivo": {
-  "oro": 4061.9,
-  "nq": 29876.75,
+  "oro": 4061.7,
+  "nq": 29868.5,
   "vix": 17.52,
-  "ts": "2026-10-28T02:12:34Z"
+  "ts": "2026-10-28T02:17:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Israel election appears to have no clear winner with Netanyahu, opponent Eisenkot far short of majorities",
+   "link": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html",
+   "ts": "2026-10-28T02:15:55Z",
+   "fuente": "CNBC",
+   "id": "f58d7ce4d7",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "Las elecciones en Israel sin ganador claro, Netanyahu y Eisenkot lejos de la mayoría",
+   "efecto": "Aumenta la tensión geopolítica, impulsando moderadamente al oro como refugio."
+  },
   {
    "titulo": "SK Hynix shares soar over 8% as profit beats, chipmaker to return $25 billion to investors",
    "link": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
@@ -12614,17 +12628,6 @@
    "id": "1d4d55a237",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "How investors can position ahead of into the Fed's next policy decision",
-   "link": "https://www.cnbc.com/2026/10/27/how-investors-can-position-ahead-of-into-the-feds-next-policy-decision.html",
-   "ts": "2026-10-27T20:00:01Z",
-   "fuente": "CNBC",
-   "id": "700f7f0c8c",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -13261,15 +13264,15 @@
     1793152800,
     4062.7,
     4063.2,
-    4060.7,
-    4061.7
+    4060.1,
+    4060.5
    ],
    [
-    1793152952,
-    4061.9,
-    4061.9,
-    4061.9,
-    4061.9
+    1793153249,
+    4061.7,
+    4061.7,
+    4061.7,
+    4061.7
    ]
   ],
   "nq": [
@@ -13893,15 +13896,15 @@
     1793152800,
     29871.25,
     29881.25,
-    29866.0,
-    29875.25
+    29859.25,
+    29869.0
    ],
    [
-    1793152945,
-    29876.75,
-    29876.75,
-    29876.75,
-    29876.75
+    1793153251,
+    29867.5,
+    29867.5,
+    29867.5,
+    29867.5
    ]
   ],
   "vix": [
@@ -14404,39 +14407,39 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-28T01:47:31Z",
- "ult_4h": 1793152951.249313,
+ "noticias_traducidas_ts": "2026-10-28T02:17:31Z",
+ "ult_4h": 1793153852.8101711,
  "estrategia_4h": {
   "oro": {
-   "precio": 4062.3,
-   "atr_4h": 23.67,
+   "precio": 4061.7,
+   "atr_4h": 23.86,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4050.2,
      "entrada": 4050.2,
-     "stop": 4036.0,
+     "stop": 4035.89,
      "objetivo": 4084.1,
-     "rr": 2.39,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.23,
+     "rr": 2.37,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 2.22,
      "ruptura": "2026-10-27 12:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4105.4,
+     "stop": 4105.51,
      "objetivo": 3989.1,
-     "rr": 7.19,
+     "rr": 7.13,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.23,
+     "fuerza_ruptura_atr": 1.22,
      "ruptura": "2026-10-22 08:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29897.5,
+   "precio": 29867.5,
    "atr_4h": 210.41,
    "setups": [
     {
@@ -14463,7 +14466,7 @@
     }
    ]
   },
-  "ts": "2026-10-28T02:02:31Z"
+  "ts": "2026-10-28T02:17:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -14528,7 +14531,6 @@
   }
  ],
  "noticias_vistas": [
-  "fc2b79483c",
   "c9c0003f52",
   "c66fe7d4ed",
   "f67611523b",
@@ -15327,7 +15329,8 @@
   "7261e98082",
   "a59c59e709",
   "a9d2a408c3",
-  "999a926cb8"
+  "999a926cb8",
+  "f58d7ce4d7"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
