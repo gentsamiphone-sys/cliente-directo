@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4060.3 · NQ 29912.5 · VIX 17.52",
-   "actualizado": "2026-10-28T03:32:34Z"
+   "ultimo_resultado": "Oro 4059.8 · NQ 29921.0 · VIX 17.52 · 1 noticias nuevas",
+   "actualizado": "2026-10-28T03:37:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T03:32:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-28T03:37:31Z",
+   "ultimo_resultado": "1 titulares nuevos: Kylian Mbappé enfrenta críticas en China tras la retirada de patrocinadores por un meme viral"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4059.8 · NQ 29921.0 · VIX 17.52 · 1 noticias nuevas",
+   "ts": "2026-10-28T03:37:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4060.3 · NQ 29912.5 · VIX 17.52",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4038.0 · NQ 29591.5 · VIX 17.78 · 4 noticias nuevas",
    "ts": "2026-10-27T12:52:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4040.2 · NQ 29585.25 · VIX 17.72 · 2 noticias nuevas",
-   "ts": "2026-10-27T12:47:34Z"
   }
  ],
  "briefs": [
@@ -11729,12 +11729,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4060.3,
-  "nq": 29912.5,
+  "oro": 4059.8,
+  "nq": 29921.0,
   "vix": 17.52,
-  "ts": "2026-10-28T03:32:33Z"
+  "ts": "2026-10-28T03:37:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Kylian Mbappé faces China backlash as sponsors cut ties over viral meme",
+   "link": "https://www.cnbc.com/2026/10/28/china-mbappe-football-sponsor-meme-controversy.html",
+   "ts": "2026-10-28T03:33:53Z",
+   "fuente": "CNBC",
+   "id": "0b8d8325bd",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Kylian Mbappé enfrenta críticas en China tras la retirada de patrocinadores por un meme viral",
+   "efecto": ""
+  },
   {
    "titulo": "Trump says Iran war will end 'when I want it to' as costs reportedly balloon to $47 billion",
    "link": "https://www.cnbc.com/2026/10/28/us-iran-war-trump-hormuz-costs-centcom.html",
@@ -12620,15 +12631,6 @@
    "id": "6e4db95f37",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Boeing says it won't significantly ramp up 737 Max production until late 2027",
-   "link": "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html",
-   "ts": "2026-10-27T20:11:44Z",
-   "fuente": "CNBC",
-   "id": "5a7f09bc00",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -13265,15 +13267,15 @@
     1793156400,
     4060.2,
     4063.2,
-    4058.8,
-    4060.5
+    4058.6,
+    4059.9
    ],
    [
-    1793157744,
-    4060.3,
-    4060.3,
-    4060.3,
-    4060.3
+    1793158032,
+    4059.9,
+    4059.9,
+    4059.9,
+    4059.9
    ]
   ],
   "nq": [
@@ -13896,16 +13898,16 @@
    [
     1793156400,
     29881.75,
-    29921.25,
+    29924.0,
     29870.0,
-    29914.5
+    29923.25
    ],
    [
-    1793157752,
-    29912.75,
-    29912.75,
-    29912.75,
-    29912.75
+    1793158051,
+    29921.0,
+    29921.0,
+    29921.0,
+    29921.0
    ]
   ],
   "vix": [
@@ -14408,7 +14410,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-28T02:52:29Z",
+ "noticias_traducidas_ts": "2026-10-28T03:37:30Z",
  "ult_4h": 1793158353.8846421,
  "estrategia_4h": {
   "oro": {
@@ -14532,7 +14534,6 @@
   }
  ],
  "noticias_vistas": [
-  "133cb1a6f4",
   "eaaaf15aac",
   "849d5c3808",
   "1dbd9383fa",
@@ -15331,7 +15332,8 @@
   "327be514ca",
   "8c3ae59f77",
   "30877a4c07",
-  "ed0281965e"
+  "ed0281965e",
+  "0b8d8325bd"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
