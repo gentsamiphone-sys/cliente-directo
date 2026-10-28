@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4053.2 · NQ 29864.25 · VIX 17.21 · 4 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-28T18:07:46Z"
+   "ultimo_resultado": "Oro 4055.3 · NQ 29880.0 · VIX 17.21 · 3 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-28T18:12:46Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T18:07:45Z",
-   "ultimo_resultado": "4 titulares nuevos, 3 de alto impacto: La Reserva Federal pausa las subidas de tipos a pesar del resurgimiento de la inflación"
+   "actualizado": "2026-10-28T18:12:45Z",
+   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: S&P 500 remains higher as Fed leaves rates steady: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4055.3 · NQ 29880.0 · VIX 17.21 · 3 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-28T18:12:46Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4053.2 · NQ 29864.25 · VIX 17.21 · 4 noticias nuevas (3 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4053.8 · NQ 29897.5 · VIX 17.52 · 1 noticias nuevas",
    "ts": "2026-10-28T04:57:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4054.9 · NQ 29901.75 · VIX 17.52",
-   "ts": "2026-10-28T04:52:32Z"
   }
  ],
  "briefs": [
@@ -12133,12 +12133,24 @@
   }
  },
  "en_vivo": {
-  "oro": 4053.2,
-  "nq": 29864.25,
+  "oro": 4055.3,
+  "nq": 29880.0,
   "vix": 17.21,
-  "ts": "2026-10-28T18:07:45Z"
+  "ts": "2026-10-28T18:12:45Z"
  },
  "noticias": [
+  {
+   "titulo": "S&P 500 remains higher as Fed leaves rates steady: Live updates",
+   "link": "https://www.cnbc.com/2026/10/27/stock-market-today-live-updates.html",
+   "ts": "2026-10-28T18:11:15Z",
+   "fuente": "CNBC",
+   "id": "cb2aaebb40",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Federal Reserve hits pause on rate hikes despite resurgent inflation",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaEVrbXRyUWVfWWRPM2Ytd2NZNFRBRTg0TXhjMTQtZHNpS2xQVXBfb1VMdUJUMWdfTXZSd1o4S3lLZ1NnbVo2SVJscGIzQl9oLXNVOEt2cUtNWDlIY2ZkTVhsQ1llNnhGV2tSaDI5MXdJQVN5WWFUX1JKQ1ZRd1lyX05ua2pHamFEbnI1YkpVTnlJdVJjNnZTb1RCcEttSkI2WnUxVEFaZw?oc=5",
@@ -12168,6 +12180,17 @@
    "impacto": "medio",
    "es": "La Reserva Federal mantiene estables las tasas de interés",
    "efecto": "Reacción neutral a levemente alcista en renta variable por previsibilidad."
+  },
+  {
+   "titulo": "Fed holds interest rates steady even as inflation remains stubborn",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONGlIQ19wM2oxdDZvTmVUSVFmSDNFVTY2ZGUzSlVMZFU2NHJ3alhfODMzYUFKYmE4M21aSG5zd2k1MVI2akpidHhGUXRwck43WFNZYU5mZmpRRzl2dDZES3VWTkxURW43UkZteGUxODZsMEcyRENWX2VJQVU4dVNPdFhRWGt1eUpBamtPcFhn?oc=5",
+   "ts": "2026-10-28T18:04:42Z",
+   "fuente": "NPR",
+   "id": "81dad1f61b",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Fed holds rates steady despite concerns over inflation",
@@ -12209,6 +12232,17 @@
    "impacto": "alto",
    "es": "La Reserva Federal deja sin cambios las tasas a pesar de la subida de la inflación",
    "efecto": "Compra oro y NQ asumiendo política monetaria flexible frente a precios altos."
+  },
+  {
+   "titulo": "Bessent: Stablecoins will help cement dollar dominance",
+   "link": "https://finance.yahoo.com/video/bessent-stablecoins-help-cement-dollar-180000469.html?.tsrc=rss",
+   "ts": "2026-10-28T18:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "5718acaab8",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Federal Reserve expected to hold interest rates steady",
@@ -12966,39 +13000,6 @@
    "impacto": "bajo",
    "es": "Canadá y EE. UU. se enfrentan por primera vez desde la final olímpica",
    "efecto": ""
-  },
-  {
-   "titulo": "Forge Nano, Inc. Rings the Opening Bell",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44V0kxR1MwVzRzNG5OcjJyTzVWeGhhazZkOUptLWg1d1JKM3VOMmZ4Rm1YaFpnaGF5Y1VGaU9oQUxTR0NqU2VoS3EyazZHQmNPNm16LUNuUEU0MHFPMU9UN0phazlIU21kMHJpbTBqYUI?oc=5",
-   "ts": "2026-10-28T13:36:54Z",
-   "fuente": "Nasdaq",
-   "id": "b85603f6f2",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "S&P 500, Nasdaq open higher as SK Hynix lifts chips; Fed in focus",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPN2N0TWVVcWNlQzMwT3lKTFdDXy04YUlwQWkyd2lLZkhmTGsyZGRmY2JTTDBPa250Mm1EUjU0QzNld00zU1RoZFZSYjJWdFFoR0xyWFpyUGRfY24xc0V6NVJMb3AxRU56MWQ4WnlUVTBFejAteWJhdDJpelBCb0tXbXdpNFBjWmpHMGJsa3U2dEVvM1k?oc=5",
-   "ts": "2026-10-28T13:34:25Z",
-   "fuente": "Yahoo Finance",
-   "id": "3463dfdced",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "US stocks edge higher ahead of Federal Reserve decision on interest rates",
-   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQTHVLSzBlZzM1M3hzVzhlOXdRb2JjTDJpdklSSEItRkgxTGpkeThlNlJPMTE2RXdhclNUNUFma3FacVFvY01CcWllUnVySG5SRkZiS1hwcDlKMVpiSnJNVUZEdldOclBHcHcxWmdyekJleDNrODgxdnpuQzFVSUE0RlVtWEE4VWlub01RWFNqQVRUb0ZoeFZic0pfUlBMSXVVak1RQWt4bExZX1NIYnhGTTZCNXlwLTNsUE11V1U4OFRrTklHc1hlS1podXUyTVlJVmdkaExjMjN1aVE4bW1LUnZNSmxaWXVXOGlSMmFCbGtpTWVINEhSc3h1T2dEVmNO?oc=5",
-   "ts": "2026-10-28T13:33:58Z",
-   "fuente": "NewsChannel20",
-   "id": "a3638830c2",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13013,7 +13014,8 @@
   "Retail Sales m/m2026-10-15T08:30:00-04:00",
   "Fed Chairman Warsh Speaks2026-10-15T23:30:00-04:00",
   "Federal Funds Rate2026-10-28T14:00:00-04:00",
-  "FOMC Statement2026-10-28T14:00:00-04:00"
+  "FOMC Statement2026-10-28T14:00:00-04:00",
+  "FOMC Press Conference2026-10-28T14:30:00-04:00"
  ],
  "velas": {
   "oro": [
@@ -13596,14 +13598,21 @@
     4055.0,
     4055.8,
     4050.2,
-    4053.6
+    4053.8
    ],
    [
-    1793210264,
-    4053.0,
-    4053.0,
-    4053.0,
-    4053.0
+    1793210400,
+    4055.5,
+    4061.2,
+    4050.1,
+    4055.2
+   ],
+   [
+    1793210563,
+    4055.3,
+    4055.3,
+    4055.3,
+    4055.3
    ]
   ],
   "nq": [
@@ -14186,14 +14195,21 @@
     29885.5,
     29892.25,
     29811.0,
-    29865.75
+    29864.25
    ],
    [
-    1793210264,
-    29864.25,
-    29864.25,
-    29864.25,
-    29864.25
+    1793210400,
+    29858.75,
+    29918.25,
+    29837.75,
+    29871.0
+   ],
+   [
+    1793210565,
+    29880.0,
+    29880.0,
+    29880.0,
+    29880.0
    ]
   ],
   "vix": [
@@ -14663,11 +14679,11 @@
     1793206800,
     17.36,
     17.42,
-    17.23,
-    17.23
+    17.19,
+    17.22
    ],
    [
-    1793209951,
+    1793210251,
     17.21,
     17.21,
     17.21,
@@ -14676,10 +14692,10 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-28T18:07:33Z",
- "ult_4h": 1793210256.4589696,
+ "ult_4h": 1793211165.749797,
  "estrategia_4h": {
   "oro": {
-   "precio": 4051.9,
+   "precio": 4055.3,
    "atr_4h": 23.1,
    "setups": [
     {
@@ -14701,13 +14717,13 @@
      "objetivo": 3989.1,
      "rr": 7.37,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.27,
+     "fuerza_ruptura_atr": 1.26,
      "ruptura": "2026-10-22 08:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29844.75,
+   "precio": 29880.0,
    "atr_4h": 186.27,
    "setups": [
     {
@@ -14729,12 +14745,12 @@
      "objetivo": 29989.25,
      "rr": 5.93,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.06,
+     "fuerza_ruptura_atr": 1.07,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-28T17:57:36Z"
+  "ts": "2026-10-28T18:12:45Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -14799,9 +14815,6 @@
   }
  ],
  "noticias_vistas": [
-  "2a958808fb",
-  "77cd703ba9",
-  "5045473096",
   "a7b3548003",
   "ef95c8f32d",
   "05fd6853b5",
@@ -15598,7 +15611,10 @@
   "00fdcedcae",
   "1322ec509a",
   "782887b5fb",
-  "e45085b1e7"
+  "e45085b1e7",
+  "cb2aaebb40",
+  "81dad1f61b",
+  "5718acaab8"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
