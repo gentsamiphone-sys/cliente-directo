@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4054.3 · NQ 29882.5 · VIX 17.11 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-28T19:17:34Z"
+   "ultimo_resultado": "Oro 4054.7 · NQ 29823.75 · VIX 17.08 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-28T19:22:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T19:17:34Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Fed leaves rates unchanged as it awaits 'accumulation of more information'"
+   "actualizado": "2026-10-28T19:22:33Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Oracle stock pops 12% as long-term revenue forecast and clarity on financing ease debt concerns"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4054.7 · NQ 29823.75 · VIX 17.08 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-28T19:22:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4054.3 · NQ 29882.5 · VIX 17.11 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4044.7 · NQ 29918.25 · VIX 17.52 · 1 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-28T06:07:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4047.4 · NQ 29908.75 · VIX 17.52",
-   "ts": "2026-10-28T06:02:35Z"
   }
  ],
  "briefs": [
@@ -12133,12 +12133,43 @@
   }
  },
  "en_vivo": {
-  "oro": 4054.3,
-  "nq": 29882.5,
-  "vix": 17.11,
-  "ts": "2026-10-28T19:17:34Z"
+  "oro": 4054.7,
+  "nq": 29823.75,
+  "vix": 17.08,
+  "ts": "2026-10-28T19:22:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Oracle stock pops 12% as long-term revenue forecast and clarity on financing ease debt concerns",
+   "link": "https://www.cnbc.com/2026/10/28/oracle-forecast-growth-2030.html",
+   "ts": "2026-10-28T19:20:19Z",
+   "fuente": "CNBC",
+   "id": "d3320b4d34",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Microsoft will post earnings after the bell amid job cuts and new cash-flow test",
+   "link": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+   "ts": "2026-10-28T19:19:38Z",
+   "fuente": "CNBC",
+   "id": "df7b975395",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Bond investor Jeff Gundlach on Fed's rate pause: 'What are you waiting for?'",
+   "link": "https://www.cnbc.com/2026/10/28/bond-investor-jeff-gundlach-talks-feds-rate-pause-with-cnbc.html",
+   "ts": "2026-10-28T19:18:44Z",
+   "fuente": "CNBC",
+   "id": "e9d2c7b651",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Fed leaves rates unchanged as it awaits 'accumulation of more information'",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaU93czlpTHJXMTJGby0yOGppZGVlVkZzZW4tNC11WTcwVk1yQUZHTVMza0dTLURMRi0tTUtYTHhITkI2OVBWN2k0anZCN2liNnlyNFpaTmFTaWlFTHItWmtBXzh1VWhkRjZBNjVDejQxOGNUTW1HWWRBUzNjbGdKUDV0MlFSWXRsaWQwMXpWQXI?oc=5",
@@ -12987,37 +13018,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Alphabet set to report third-quarter earnings after the bell",
-   "link": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
-   "ts": "2026-10-28T16:00:01Z",
-   "fuente": "CNBC",
-   "id": "84d5eae041",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Trump is using tariffs as 'tool for grift,' Raskin says in demand for donor records",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGNUNUS0tnaUlETHhWRHdTMlhwQjJiRXI0b2I5a2U0RWdBSWlGMjM0Q3pNTDk3dmVOWEwwTTgyRWtEa1U1MG5sbnVKeHRGNFpfUDdPbjFNT0M2a2RwempEbHBFajU1eHVvN25pZUg2RjYxUTZhdVdj0gF8QVVfeXFMUDhsZnRpc0swdHlDWWk0S1N5WF9VdndGWVliNEV6aGpxeDU1TnNxQ0ZzWHRiNE5jX0dNN19ZNzJRcmNrbjhXUGg1emVUblJaUTJoWFFyQ1NZbjFpSnVma3pJYlJjWGJxZ2xBRGgycUlTVGdIUmQzcU1qcXBIZg?oc=5",
-   "ts": "2026-10-28T16:00:01Z",
-   "fuente": "CNBC",
-   "id": "22c97846b9",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Jim Cramer sees buying opportunities in these 2 beaten-down stocks",
-   "link": "https://www.cnbc.com/investingclub/2026/10/28/jim-cramer-sees-buying-opportunities-in-these-2-beaten-down-stocks.html",
-   "ts": "2026-10-28T15:56:23Z",
-   "fuente": "CNBC",
-   "id": "f6a59aa215",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13628,16 +13628,16 @@
    [
     1793214000,
     4046.4,
-    4062.8,
+    4068.2,
     4040.2,
-    4058.2
+    4055.4
    ],
    [
-    1793214453,
-    4054.3,
-    4054.3,
-    4054.3,
-    4054.3
+    1793214750,
+    4054.7,
+    4054.7,
+    4054.7,
+    4054.7
    ]
   ],
   "nq": [
@@ -14233,15 +14233,15 @@
     1793214000,
     29902.5,
     29970.5,
-    29853.25,
-    29900.75
+    29821.5,
+    29834.25
    ],
    [
-    1793214453,
-    29882.5,
-    29882.5,
-    29882.5,
-    29882.5
+    1793214753,
+    29823.75,
+    29823.75,
+    29823.75,
+    29823.75
    ]
   ],
   "vix": [
@@ -14725,15 +14725,15 @@
     1793214000,
     17.21,
     17.23,
-    17.11,
-    17.11
+    17.0,
+    17.16
    ],
    [
-    1793214151,
-    17.11,
-    17.11,
-    17.11,
-    17.11
+    1793214451,
+    17.08,
+    17.08,
+    17.08,
+    17.08
    ]
   ]
  },
@@ -14861,9 +14861,6 @@
   }
  ],
  "noticias_vistas": [
-  "4508f459f8",
-  "8a9dfa0234",
-  "b7609f7d83",
   "5b053067c9",
   "b4ad22681d",
   "ca799c07fd",
@@ -15660,7 +15657,10 @@
   "b90c3c7398",
   "236330a52b",
   "1b66f01cee",
-  "301291092a"
+  "301291092a",
+  "d3320b4d34",
+  "df7b975395",
+  "e9d2c7b651"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
