@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4043.2 · NQ 29827.25 · VIX 17.3 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-28T18:42:34Z"
+   "ultimo_resultado": "Oro 4068.8 · NQ 29988.75 · VIX 17.35 · 6 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-28T18:47:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T18:42:33Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Federal Reserve holds interest rates steady despite elevated inflation"
+   "actualizado": "2026-10-28T18:47:35Z",
+   "ultimo_resultado": "6 titulares nuevos, 3 de alto impacto: Fed to cut back on the number of rate-setting meetings in coming years, says Warsh"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4068.8 · NQ 29988.75 · VIX 17.35 · 6 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-28T18:47:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4043.2 · NQ 29827.25 · VIX 17.3 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4050.2 · NQ 29916.5 · VIX 17.52",
    "ts": "2026-10-28T05:32:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4050.0 · NQ 29912.75 · VIX 17.52",
-   "ts": "2026-10-28T05:27:34Z"
   }
  ],
  "briefs": [
@@ -12133,12 +12133,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4043.2,
-  "nq": 29827.25,
-  "vix": 17.3,
-  "ts": "2026-10-28T18:42:34Z"
+  "oro": 4068.8,
+  "nq": 29988.75,
+  "vix": 17.35,
+  "ts": "2026-10-28T18:47:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Fed to cut back on the number of rate-setting meetings in coming years, says Warsh",
+   "link": "https://www.cnbc.com/2026/10/28/fed-meeting-today-live-updates.html",
+   "ts": "2026-10-28T18:45:33Z",
+   "fuente": "CNBC",
+   "id": "7d89b15494",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "We're adding a new, high-profile AI play to our Bullpen stocks to watch list",
    "link": "https://www.cnbc.com/investingclub/2026/10/28/were-adding-a-new-high-profile-ai-stock-to-our-bullpen.html",
@@ -12166,6 +12177,41 @@
    "impacto": "alto",
    "es": "El presidente de la Fed, Warsh, explica la pausa en las tasas de interés",
    "efecto": ""
+  },
+  {
+   "titulo": "Federal Reserve leaves rates unchanged",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hY3FTaWVZX2lUWF9NWVBsNTFPSGxpRGZtMlVOQ0VHV0FKTkhvNEIzVGtDdl8xLTdiTVhZVmZ4YmtNb1RBWHhaSEFCRTBsdVozRW53Q3NmdFFKalE?oc=5",
+   "ts": "2026-10-28T18:31:37Z",
+   "fuente": "Fox Business",
+   "id": "87e37cd01e",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Wall Street wavers as Federal Reserve holds key rate steady, pending more data",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQVNrQUVwN1c3SjBCODU1TXUwRy1hQ2lIQUxFZkJ3dGhXa0NZalhVTFFoeTU4MlB3VDRwWE1QRktITG5FZnd1eUVDTjRUankwRGgzRkRKTGdwZDVDbWUyTWVKNlRKVld5RVdaTllzZkVhdXUzNkZUOU5RWWNOQVJTY2xuaDJZZXlybC05LXRmTmpPb2RvVlliLWxBUXZVRldXU3kyY2pWb1ZmZlFNUU1KMmN4aV9wMk9Lai01YXcza0JqdDQ?oc=5",
+   "ts": "2026-10-28T18:27:02Z",
+   "fuente": "Reuters",
+   "id": "32e5ef1ecc",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "US stocks remain steady after the Federal Reserve says it won't raise interest rates | National News | 2news.com",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNUnhlWUd4Zjc2MUVVVnEtNDlWcWsxSy1ZcDNXY3BvdDJXSWkzdThIdjlOdjBsbk0wU1Z1dEplTUxTS3h2ZmdSWjRYV2owLWFUV1ZyUEhiMEprNWZWWDBwRDQ1dkNOdzBaSlVpWkJrWkRoVUdkRVY0ejl5R0xNVWQxQ2lqWmthLWJlOWFmT20tN3FEdVNoYjIxQXUxYWotZnI1TDNhbEM5TnBQbmhNQUs2TDJPMmFhVVJGcDM0c3RqR1Q0U2NsUjBmQVdxV2wxZmgtckRJMHU2OGlDd1VROWJQZWVlNnpQYlpnYXNjT3ZRUzhIR1hCdTAwTUlBaw?oc=5",
+   "ts": "2026-10-28T18:26:01Z",
+   "fuente": "KTVN",
+   "id": "3d610507e6",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Federal Reserve holds interest rates steady despite elevated inflation",
@@ -12210,6 +12256,17 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Federal Reserve holds interest rates steady in face of persistent inflation",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTDJSdUxNV185NFJEdGFFNTdnWmRieDBhc29KUXFRbnMtaXZFT203N1gxbC1XbTZucDZ4bWZQTjN0VlExaGpDbzBMVlI5ZWlpVVpIbnhabFNkSHNQQjVKTnRZX3RCUDBGdTdCUGl3RTA5cHByUkpraVlheWVsZVpUUtIBhgFBVV95cUxPYUdpX0tZbFdRc0lGTy1zRktaUXpiV19YVGhZU0pkN2Iya0JlTlp4WXJTTGw1aF9kc21NYjk3bi05ZG8yUEtLWHpOU3E4dnFFcGs0YXRwYTVabFhTVFIwb1NrX0NnT2ZQWVB6U3E1UVhZSGgzVU5TWWM1NFlMbGZFeUtwS0kxUQ?oc=5",
+   "ts": "2026-10-28T18:12:17Z",
+   "fuente": "The Hill",
+   "id": "e7074523bd",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "S&P 500 remains higher as Fed leaves rates steady: Live updates",
@@ -12696,6 +12753,19 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Gold prices could fall to $3,900, silver to $50 as Fed tightening pressures precious metals – Sucden Financial",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWnF0bG92emZOM0VGZEhBbjRnLXkwTGpvbm9mU3ZHcXBqeVpkUmMxb2cxcVd6UWc1dENEMUtXaGphakxjTmtQY3lBVUFsZDdRY3E0UHBna1BYdl9QajFQLXJndzl5ZUttaWtISTZIbGhORE1kMGJ4UVZfQ19Ya1FHZVkxTU1rRXZiVEdvMUtBdGl5Q0ZMWFZRcEQwTGRkT09VbmQ5MjI0TEs1V0NXZUZ5eldURXBpenpr?oc=5",
+   "ts": "2026-10-28T16:05:04Z",
+   "fuente": "Kitco",
+   "id": "94682e8840",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "5 Best Gold Stocks to Buy According to Analysts",
    "link": "https://finance.yahoo.com/markets/commodities/articles/5-best-gold-stocks-buy-160204665.html?.tsrc=rss",
    "ts": "2026-10-28T16:02:04Z",
@@ -12941,70 +13011,6 @@
    "ts": "2026-10-28T14:40:15Z",
    "fuente": "CNBC",
    "id": "acf274dc97",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "The price of gold today, Oct. 28, 2026 — and the best places to buy",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1vc19QQVR4amE0dHZqc0N6UjA5ZGh5RWJhTHZUaVh3THVwMS1OT01xd0dPbEdZbDg4MzMwS3VCUGRyRGR6Z0ZUbnF0RFUwTDRNUnF6TE5WQnFYUjdSdXhwS2VwMHlfdjdBTEhBSzJBYXVzQdIBd0FVX3lxTE0yb2ZQb1JRUEdESHo5R0FqYVlQR1NXalNhVUpqZXhkQUM5UHpBbWlGMnlDMlZuNWJpRVd1eEpscF84cGZBc1VJU0V1MFFpQ0ZUYUI2RzY1T2RLTUVrS2dzU3c5WkkycUJIbnZXcVVNcDEzbkhYTVJz?oc=5",
-   "ts": "2026-10-28T14:39:22Z",
-   "fuente": "CNBC",
-   "id": "7910484c9c",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Precio del oro hoy, 28 de octubre de 2026, y dónde comprarlo",
-   "efecto": ""
-  },
-  {
-   "titulo": "Wall St choppy as megacap losses offset chip gains before Fed decision",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQVNrQUVwN1c3SjBCODU1TXUwRy1hQ2lIQUxFZkJ3dGhXa0NZalhVTFFoeTU4MlB3VDRwWE1QRktITG5FZnd1eUVDTjRUankwRGgzRkRKTGdwZDVDbWUyTWVKNlRKVld5RVdaTllzZkVhdXUzNkZUOU5RWWNOQVJTY2xuaDJZZXlybC05LXRmTmpPb2RvVlliLWxBUXZVRldXU3kyY2pWb1ZmZlFNUU1KMmN4aV9wMk9Lai01YXcza0JqdDQ?oc=5",
-   "ts": "2026-10-28T14:38:13Z",
-   "fuente": "Reuters",
-   "id": "3b48becc8f",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Ridgelines: Gold Medal Gala is a family affair",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORmlfTFdSNGVmSWEzS3RPMW10YldrNTFiLWZoV3ltbkdKNzRlUE5VaGpWZ285Umc1UDBnVUU0WkRqblEwblowRUNLNndhd19vUS16dVVKSGlEc3dqYmt5enE5dTlaTkNmZGMwcnluZWNROFJ5QjBJOVBieXM4M2VxTlJ0Ymh2ZkgzNFBFWA?oc=5",
-   "ts": "2026-10-28T14:30:00Z",
-   "fuente": "Park Record",
-   "id": "b519071fea",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "UK brings forward defense spending target, pledging billions to Ukraine",
-   "link": "https://www.cnbc.com/2026/10/28/uk-defense-spending-ukraine-aid.html",
-   "ts": "2026-10-28T14:29:24Z",
-   "fuente": "CNBC",
-   "id": "4061faec0c",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Federal Reserve interest rate decision looms as inflation and gas prices impact consumers",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE83c1dNSW44NGxSVkxfbnRRX2dUZmZDLUNic2dic2tObjkzS1JZa1BkVHNPRWZ4VHlWWmpOVUtJcDltUFpCNUVwNzh3SVREdVMxWEdlakwxR2VIXzg?oc=5",
-   "ts": "2026-10-28T14:26:09Z",
-   "fuente": "Fox Business",
-   "id": "8a00fb0f81",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Anthropic IPO filing warns some risks may be uninsurable. AI coverage will be issue for every company",
-   "link": "https://www.cnbc.com/2026/10/28/anthropic-ipo-ai-risks-insurance.html",
-   "ts": "2026-10-28T14:20:29Z",
-   "fuente": "CNBC",
-   "id": "7f43e28919",
    "activos": [],
    "impacto": "bajo"
   }
@@ -13610,16 +13616,16 @@
    [
     1793210400,
     4059.7,
-    4061.2,
-    4041.4,
-    4042.2
+    4073.0,
+    4036.9,
+    4068.2
    ],
    [
-    1793212351,
-    4043.2,
-    4043.2,
-    4043.2,
-    4043.2
+    1793212654,
+    4068.8,
+    4068.8,
+    4068.8,
+    4068.8
    ]
   ],
   "nq": [
@@ -14207,16 +14213,16 @@
    [
     1793210400,
     29860.25,
-    29918.25,
+    30004.0,
     29785.75,
-    29821.0
+    29964.0
    ],
    [
-    1793212353,
-    29827.25,
-    29827.25,
-    29827.25,
-    29827.25
+    1793212656,
+    29988.75,
+    29988.75,
+    29988.75,
+    29988.75
    ]
   ],
   "vix": [
@@ -14694,14 +14700,14 @@
     17.21,
     17.57,
     17.1,
-    17.33
+    17.28
    ],
    [
-    1793212051,
-    17.3,
-    17.3,
-    17.3,
-    17.3
+    1793212351,
+    17.35,
+    17.35,
+    17.35,
+    17.35
    ]
   ]
  },
@@ -14829,12 +14835,6 @@
   }
  ],
  "noticias_vistas": [
-  "864b529af6",
-  "79c3b9a0a7",
-  "1339810981",
-  "8677b4f3a7",
-  "75172a7798",
-  "47c2923990",
   "97338d9dd7",
   "da27481786",
   "5a059137e5",
@@ -15628,7 +15628,13 @@
   "3ae89a93e0",
   "ec49ca797e",
   "8f81646599",
-  "254c9ff59a"
+  "254c9ff59a",
+  "7d89b15494",
+  "87e37cd01e",
+  "32e5ef1ecc",
+  "3d610507e6",
+  "e7074523bd",
+  "94682e8840"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
