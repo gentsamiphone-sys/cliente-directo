@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4069.8 · NQ 29916.75 · VIX 16.99 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-28T19:52:40Z"
+   "ultimo_resultado": "Oro 4074.2 · NQ 29932.0 · VIX 16.93 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-28T19:57:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T19:52:39Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Tres medios buscan acceso total a la Casa Blanca en demanda modificada"
+   "actualizado": "2026-10-28T19:57:33Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Fed meeting recap: Warsh says central bank will host fewer rate-setting meetings in future years"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4074.2 · NQ 29932.0 · VIX 16.93 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-28T19:57:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4069.8 · NQ 29916.75 · VIX 16.99 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Revisando cómo salieron las entradas anteriores…",
    "ts": "2026-10-28T06:32:54Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Abriendo la mesa para la sesión de Londres.",
-   "ts": "2026-10-28T06:32:53Z"
   }
  ],
  "briefs": [
@@ -12133,12 +12133,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4069.8,
-  "nq": 29916.75,
-  "vix": 16.99,
-  "ts": "2026-10-28T19:52:40Z"
+  "oro": 4074.2,
+  "nq": 29932.0,
+  "vix": 16.93,
+  "ts": "2026-10-28T19:57:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Fed meeting recap: Warsh says central bank will host fewer rate-setting meetings in future years",
+   "link": "https://www.cnbc.com/2026/10/28/fed-meeting-today-live-updates.html",
+   "ts": "2026-10-28T19:53:25Z",
+   "fuente": "CNBC",
+   "id": "46eca187c2",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Three media outlets seek full White House access in amended lawsuit",
    "link": "https://www.cnbc.com/2026/10/28/trump-white-house-media-ban-cnn-msnow-politico.html",
@@ -13014,17 +13025,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "How To Employ Nasdaq Options Data In Gauging Tech Sector Risk Sentiment",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNUR4OWpiVUdlYjMwZEVoRUhwVDFPaURrRndkTExINGRLcWE5ZnE3OXFUYy1Ja00wallOTDZfWmxsWVF3OFB5Wnc2V212TkYwYXZ6VkZEOGMyenN2S2ZoNU5Bb2R5ZU5XV1B5WUdBaXBJbHgxM1pHZGlJbi1DREM1czdJVjFFUUJoOWJtdUJRSVZpZHR0Tm5hOW5SM0VXY1U4R0REZnNndjZVTkptSU9hNlJ5Yw?oc=5",
-   "ts": "2026-10-28T16:12:02Z",
-   "fuente": "Nasdaq",
-   "id": "6cb08488c5",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13635,16 +13635,16 @@
    [
     1793214000,
     4046.3,
-    4076.0,
+    4076.1,
     4040.2,
-    4070.2
+    4073.5
    ],
    [
-    1793216556,
-    4069.8,
-    4069.8,
-    4069.8,
-    4069.8
+    1793216850,
+    4074.6,
+    4074.6,
+    4074.6,
+    4074.6
    ]
   ],
   "nq": [
@@ -14241,14 +14241,14 @@
     29904.5,
     29970.5,
     29821.5,
-    29918.5
+    29930.0
    ],
    [
-    1793216560,
-    29916.75,
-    29916.75,
-    29916.75,
-    29916.75
+    1793216853,
+    29928.75,
+    29928.75,
+    29928.75,
+    29928.75
    ]
   ],
   "vix": [
@@ -14732,23 +14732,23 @@
     1793214000,
     17.21,
     17.23,
-    16.93,
-    16.93
+    16.91,
+    16.94
    ],
    [
-    1793216251,
-    16.99,
-    16.99,
-    16.99,
-    16.99
+    1793216551,
+    16.87,
+    16.87,
+    16.87,
+    16.87
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-28T19:52:38Z",
- "ult_4h": 1793216553.000056,
+ "ult_4h": 1793217453.6615777,
  "estrategia_4h": {
   "oro": {
-   "precio": 4071.7,
+   "precio": 4074.6,
    "atr_4h": 25.29,
    "setups": [
     {
@@ -14776,7 +14776,7 @@
    ]
   },
   "nq": {
-   "precio": 29875.25,
+   "precio": 29928.75,
    "atr_4h": 194.39,
    "setups": [
     {
@@ -14803,7 +14803,7 @@
     }
    ]
   },
-  "ts": "2026-10-28T19:42:33Z"
+  "ts": "2026-10-28T19:57:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -14868,7 +14868,6 @@
   }
  ],
  "noticias_vistas": [
-  "7ab702ff93",
   "5812c28381",
   "6f318d5ad9",
   "d3e73f2cac",
@@ -15667,7 +15666,8 @@
   "2d81c409bc",
   "3836b42d50",
   "416d23249e",
-  "f3098338a8"
+  "f3098338a8",
+  "46eca187c2"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
