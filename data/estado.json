@@ -5421,9 +5421,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando restaurantes y comida sin página web cerca de Eastern Ave…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-10-28T19:02:41Z"
+   "actualizado": "2026-10-28T19:06:30Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -5451,6 +5451,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-28T19:06:30Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando restaurantes y comida sin página web cerca de Eastern Ave…",
@@ -6945,11 +6950,6 @@
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ts": "2026-10-26T17:06:29Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Nellis Blvd…",
-   "ts": "2026-10-26T17:02:40Z"
   }
  ],
  "reportes": {
