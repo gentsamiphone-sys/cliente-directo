@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4054.6 · NQ 29844.0 · VIX 17.25 · 3 noticias nuevas",
-   "actualizado": "2026-10-28T16:02:37Z"
+   "ultimo_resultado": "Oro 4054.5 · NQ 29845.25 · VIX 17.27 · 3 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-28T16:07:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T16:02:36Z",
-   "ultimo_resultado": "3 titulares nuevos: Israeli bonds, shekel fall as election leaves Netanyahu and others short of majorities"
+   "actualizado": "2026-10-28T16:07:31Z",
+   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: Trump is using tariffs as a 'tool for grift,' Raskin says in demand for donor records"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4054.5 · NQ 29845.25 · VIX 17.27 · 3 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-28T16:07:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4054.6 · NQ 29844.0 · VIX 17.25 · 3 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4060.0 · NQ 29887.0 · VIX 17.52",
    "ts": "2026-10-28T03:12:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4061.2 · NQ 29893.75 · VIX 17.52 · 2 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-28T03:07:33Z"
   }
  ],
  "briefs": [
@@ -12133,12 +12133,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4054.6,
-  "nq": 29844.0,
-  "vix": 17.25,
-  "ts": "2026-10-28T16:02:37Z"
+  "oro": 4054.5,
+  "nq": 29845.25,
+  "vix": 17.27,
+  "ts": "2026-10-28T16:07:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Trump is using tariffs as a 'tool for grift,' Raskin says in demand for donor records",
+   "link": "https://www.cnbc.com/2026/10/28/trump-tariffs-corruption-raskin.html",
+   "ts": "2026-10-28T16:07:17Z",
+   "fuente": "CNBC",
+   "id": "d544d43ac9",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "49ers Gold Rush: Best Photos From the First Half of the 2026 Season",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbzhFV0VwVVRHVEtRMGo5X2E2Q1ExVzNHSzUyOS05SGJZOUdKQm1aX3dueVZENGFnTmVBZGZmc1UwYU5iY2daMmpQbTRMZnJkUFl1LVRBMTFJNzRKRnl3TEpPRFVOT0VYdHJxR3lobXlFaEZsb19UV3d4UGw3OGRkRmwtUkhtTTkwQXhiWDIyR3ZsM1o5QmREUk5Obw?oc=5",
+   "ts": "2026-10-28T16:05:08Z",
+   "fuente": "San Francisco 49ers",
+   "id": "405ec66082",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Israeli bonds, shekel fall as election leaves Netanyahu and others short of majorities",
    "link": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html",
@@ -12147,6 +12167,15 @@
    "id": "f0c2177fe5",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Trump is using tariffs as 'tool for grift,' Raskin says in demand for donor records",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGNUNUS0tnaUlETHhWRHdTMlhwQjJiRXI0b2I5a2U0RWdBSWlGMjM0Q3pNTDk3dmVOWEwwTTgyRWtEa1U1MG5sbnVKeHRGNFpfUDdPbjFNT0M2a2RwempEbHBFajU1eHVvN25pZUg2RjYxUTZhdVdj0gF8QVVfeXFMUDhsZnRpc0swdHlDWWk0S1N5WF9VdndGWVliNEV6aGpxeDU1TnNxQ0ZzWHRiNE5jX0dNN19ZNzJRcmNrbjhXUGg1emVUblJaUTJoWFFyQ1NZbjFpSnVma3pJYlJjWGJxZ2xBRGgycUlTVGdIUmQzcU1qcXBIZg?oc=5",
+   "ts": "2026-10-28T16:00:01Z",
+   "fuente": "CNBC",
+   "id": "22c97846b9",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Jim Cramer sees buying opportunities in these 2 beaten-down stocks",
@@ -12948,37 +12977,6 @@
    "impacto": "bajo",
    "es": "Aventis Energy adquiere el proyecto minero Seneca VMS",
    "efecto": ""
-  },
-  {
-   "titulo": "Ameriwest Reports Additional High-Grade Copper Results from Historical Drill Core at Bornite Including 71.0 Feet (21.6 Meters) at 8.08% CuEq",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/ameriwest-reports-additional-high-grade-113000423.html?.tsrc=rss",
-   "ts": "2026-10-28T11:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "6171f291d2",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Quimbaya Gold Expands Tahami Land Position by 37% to 43,496 Hectares",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/quimbaya-gold-expands-tahami-land-113000535.html?.tsrc=rss",
-   "ts": "2026-10-28T11:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "7f613008e2",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "US Dollar Rises Early Wednesday Ahead of FOMC Meeting Announcement",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-wednesday-112910233.html?.tsrc=rss",
-   "ts": "2026-10-28T11:29:10Z",
-   "fuente": "Yahoo Finance",
-   "id": "86958ce74f",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -13559,15 +13557,15 @@
     1793199600,
     4054.4,
     4059.1,
-    4053.4,
-    4053.9
+    4053.3,
+    4054.3
    ],
    [
-    1793202754,
-    4054.6,
-    4054.6,
-    4054.6,
-    4054.6
+    1793203050,
+    4054.5,
+    4054.5,
+    4054.5,
+    4054.5
    ]
   ],
   "nq": [
@@ -14136,14 +14134,14 @@
     29804.75,
     29870.0,
     29802.5,
-    29837.5
+    29843.5
    ],
    [
-    1793202755,
-    29844.0,
-    29844.0,
-    29844.0,
-    29844.0
+    1793203051,
+    29844.5,
+    29844.5,
+    29844.5,
+    29844.5
    ]
   ],
   "vix": [
@@ -14600,22 +14598,22 @@
     17.4,
     17.41,
     17.17,
-    17.23
+    17.29
    ],
    [
-    1793202451,
-    17.25,
-    17.25,
-    17.25,
-    17.25
+    1793202736,
+    17.27,
+    17.27,
+    17.27,
+    17.27
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-28T15:52:33Z",
- "ult_4h": 1793202771.5336146,
+ "ult_4h": 1793203652.1629276,
  "estrategia_4h": {
   "oro": {
-   "precio": 4057.5,
+   "precio": 4054.5,
    "atr_4h": 23.11,
    "setups": [
     {
@@ -14643,7 +14641,7 @@
    ]
   },
   "nq": {
-   "precio": 29851.5,
+   "precio": 29844.5,
    "atr_4h": 197.86,
    "setups": [
     {
@@ -14670,7 +14668,7 @@
     }
    ]
   },
-  "ts": "2026-10-28T15:52:51Z"
+  "ts": "2026-10-28T16:07:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -14735,9 +14733,6 @@
   }
  ],
  "noticias_vistas": [
-  "8d5ae4b883",
-  "3fc51de56d",
-  "0449ebc0bd",
   "44b651afad",
   "600e9df2db",
   "345c60c968",
@@ -15534,7 +15529,10 @@
   "90619517ab",
   "f0c2177fe5",
   "f6a59aa215",
-  "7f13126197"
+  "7f13126197",
+  "d544d43ac9",
+  "405ec66082",
+  "22c97846b9"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
