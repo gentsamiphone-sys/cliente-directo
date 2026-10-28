@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4061.2 · NQ 29874.5 · VIX 17.52",
-   "actualizado": "2026-10-28T02:47:31Z"
+   "ultimo_resultado": "Oro 4062.2 · NQ 29871.25 · VIX 17.52 · 1 noticias nuevas",
+   "actualizado": "2026-10-28T02:52:30Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T02:47:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-28T02:52:30Z",
+   "ultimo_resultado": "1 titulares nuevos: Las acciones del fabricante de Labubu, Pop Mart, amplían caídas tras desplome de ventas en el tercer trimestre"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4062.2 · NQ 29871.25 · VIX 17.52 · 1 noticias nuevas",
+   "ts": "2026-10-28T02:52:30Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4061.2 · NQ 29874.5 · VIX 17.52",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "ES/NQ: CONFIRMA: ES y NQ van en la misma dirección · ES alcista en 1H",
    "ts": "2026-10-27T12:33:11Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el S&P 500 (ES) con el NQ…",
-   "ts": "2026-10-27T12:33:10Z"
   }
  ],
  "briefs": [
@@ -11729,12 +11729,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4061.2,
-  "nq": 29874.5,
+  "oro": 4062.2,
+  "nq": 29871.25,
   "vix": 17.52,
-  "ts": "2026-10-28T02:47:31Z"
+  "ts": "2026-10-28T02:52:30Z"
  },
  "noticias": [
+  {
+   "titulo": "Labubu-maker Pop Mart's shares extend declines as third-quarter sales plunge",
+   "link": "https://www.cnbc.com/2026/10/28/labubu-pop-mart-third-quarter-earnings.html",
+   "ts": "2026-10-28T02:47:48Z",
+   "fuente": "CNBC",
+   "id": "8c3ae59f77",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Las acciones del fabricante de Labubu, Pop Mart, amplían caídas tras desplome de ventas en el tercer trimestre",
+   "efecto": ""
+  },
   {
    "titulo": "Israel election appears to have no clear winner with Netanyahu, opponent Eisenkot far short of majorities",
    "link": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html",
@@ -12619,17 +12630,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Tibooburra Project Update: RC drilling to commence as Novo forms unincorporated Joint Venture with Manhattan Gold",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/tibooburra-project-rc-drilling-commence-200500790.html?.tsrc=rss",
-   "ts": "2026-10-27T20:05:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "28a250c11f",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13267,14 +13267,14 @@
     4062.7,
     4063.2,
     4058.2,
-    4060.9
+    4062.3
    ],
    [
-    1793155048,
-    4061.2,
-    4061.2,
-    4061.2,
-    4061.2
+    1793155349,
+    4062.3,
+    4062.3,
+    4062.3,
+    4062.3
    ]
   ],
   "nq": [
@@ -13899,14 +13899,14 @@
     29871.25,
     29881.25,
     29841.25,
-    29873.25
+    29870.25
    ],
    [
-    1793155049,
-    29874.5,
-    29874.5,
-    29874.5,
-    29874.5
+    1793155341,
+    29871.25,
+    29871.25,
+    29871.25,
+    29871.25
    ]
   ],
   "vix": [
@@ -14409,7 +14409,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-28T02:17:31Z",
+ "noticias_traducidas_ts": "2026-10-28T02:52:29Z",
  "ult_4h": 1793155651.5610502,
  "estrategia_4h": {
   "oro": {
@@ -14533,7 +14533,6 @@
   }
  ],
  "noticias_vistas": [
-  "c66fe7d4ed",
   "f67611523b",
   "292142cfbe",
   "133cb1a6f4",
@@ -15332,7 +15331,8 @@
   "a9d2a408c3",
   "999a926cb8",
   "f58d7ce4d7",
-  "327be514ca"
+  "327be514ca",
+  "8c3ae59f77"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
