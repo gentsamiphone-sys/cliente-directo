@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4062.2 · NQ 29932.5 · VIX 17.51",
-   "actualizado": "2026-10-28T12:17:41Z"
+   "ultimo_resultado": "Oro 4062.4 · NQ 29934.5 · VIX 17.47 · 1 noticias nuevas",
+   "actualizado": "2026-10-28T12:22:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T12:17:40Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-28T12:22:32Z",
+   "ultimo_resultado": "1 titulares nuevos: How Varying VIX Ranges Can Impact SPY Returns"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4062.4 · NQ 29934.5 · VIX 17.47 · 1 noticias nuevas",
+   "ts": "2026-10-28T12:22:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4062.2 · NQ 29932.5 · VIX 17.51",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Brief de Asia (Tokio/Sídney) publicado: NQ y ORO con ATR agotado >100%; la mesa frena operativa antes del FOMC.",
    "ts": "2026-10-27T21:37:49Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Escribiendo el brief institucional…",
-   "ts": "2026-10-27T21:33:30Z"
   }
  ],
  "briefs": [
@@ -11911,10 +11911,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4062.2,
-  "nq": 29932.5,
-  "vix": 17.51,
-  "ts": "2026-10-28T12:17:40Z"
+  "oro": 4062.4,
+  "nq": 29934.5,
+  "vix": 17.47,
+  "ts": "2026-10-28T12:22:33Z"
  },
  "noticias": [
   {
@@ -11934,6 +11934,15 @@
    "ts": "2026-10-28T12:04:47Z",
    "fuente": "CNBC",
    "id": "682544d326",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "How Varying VIX Ranges Can Impact SPY Returns",
+   "link": "https://finance.yahoo.com/markets/options/articles/varying-vix-ranges-impact-returns-120006948.html?.tsrc=rss",
+   "ts": "2026-10-28T12:00:06Z",
+   "fuente": "Yahoo Finance",
+   "id": "b468d95992",
    "activos": [],
    "impacto": "bajo"
   },
@@ -12773,15 +12782,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Flavor Flav, Hillary Clinton weigh in as WNBA takes flak for weekday lunchtime finals game",
-   "link": "https://www.cnbc.com/2026/10/28/wnba-atlanta-dream-golden-state-valkyries-flavor-flav-hillary-clinton-.html",
-   "ts": "2026-10-28T07:58:09Z",
-   "fuente": "CNBC",
-   "id": "20451a0cec",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -13340,16 +13340,16 @@
    [
     1793188800,
     4058.7,
-    4063.0,
+    4063.1,
     4057.5,
-    4062.2
+    4063.0
    ],
    [
-    1793189259,
-    4062.7,
-    4062.7,
-    4062.7,
-    4062.7
+    1793189550,
+    4062.4,
+    4062.4,
+    4062.4,
+    4062.4
    ]
   ],
   "nq": [
@@ -13895,16 +13895,16 @@
    [
     1793188800,
     29919.75,
-    29940.0,
+    29948.5,
     29900.0,
-    29939.25
+    29933.25
    ],
    [
-    1793189259,
-    29933.5,
-    29933.5,
-    29933.5,
-    29933.5
+    1793189552,
+    29935.5,
+    29935.5,
+    29935.5,
+    29935.5
    ]
   ],
   "vix": [
@@ -14338,16 +14338,16 @@
    [
     1793188800,
     17.53,
-    17.54,
-    17.51,
-    17.52
+    17.56,
+    17.47,
+    17.47
    ],
    [
-    1793188951,
-    17.51,
-    17.51,
-    17.51,
-    17.51
+    1793189251,
+    17.47,
+    17.47,
+    17.47,
+    17.47
    ]
   ]
  },
@@ -14475,7 +14475,6 @@
   }
  ],
  "noticias_vistas": [
-  "d5b6687d37",
   "18840189d8",
   "9cba0ee6e2",
   "845502faf2",
@@ -15274,7 +15273,8 @@
   "1b370b46c4",
   "85017b01ff",
   "02d7613706",
-  "300c9de1b3"
+  "300c9de1b3",
+  "b468d95992"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
