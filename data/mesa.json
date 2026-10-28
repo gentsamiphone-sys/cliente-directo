@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4065.0 · NQ 29902.5 · VIX 17.57 · 1 noticias nuevas",
-   "actualizado": "2026-10-28T09:42:35Z"
+   "ultimo_resultado": "Oro 4066.7 · NQ 29895.0 · VIX 17.59 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-28T09:47:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T09:42:34Z",
-   "ultimo_resultado": "1 titulares nuevos: Diez muertos en accidente de tren de alta velocidad en España"
+   "actualizado": "2026-10-28T09:47:32Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Nasdaq futures rise as SK Hynix boosts chips before Fed decision, earnings"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4066.7 · NQ 29895.0 · VIX 17.59 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-28T09:47:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4065.0 · NQ 29902.5 · VIX 17.57 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4073.7 · NQ 29798.75 · VIX 17.52 · 2 noticias nuevas",
    "ts": "2026-10-27T20:32:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4074.0 · NQ 29804.25 · VIX 17.54 · 4 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-27T20:27:41Z"
   }
  ],
  "briefs": [
@@ -11911,12 +11911,24 @@
   }
  },
  "en_vivo": {
-  "oro": 4065.0,
-  "nq": 29902.5,
-  "vix": 17.57,
-  "ts": "2026-10-28T09:42:34Z"
+  "oro": 4066.7,
+  "nq": 29895.0,
+  "vix": 17.59,
+  "ts": "2026-10-28T09:47:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Nasdaq futures rise as SK Hynix boosts chips before Fed decision, earnings",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQVNrQUVwN1c3SjBCODU1TXUwRy1hQ2lIQUxFZkJ3dGhXa0NZalhVTFFoeTU4MlB3VDRwWE1QRktITG5FZnd1eUVDTjRUankwRGgzRkRKTGdwZDVDbWUyTWVKNlRKVld5RVdaTllzZkVhdXUzNkZUOU5RWWNOQVJTY2xuaDJZZXlybC05LXRmTmpPb2RvVlliLWxBUXZVRldXU3kyY2pWb1ZmZlFNUU1KMmN4aV9wMk9Lai01YXcza0JqdDQ?oc=5",
+   "ts": "2026-10-28T09:38:50Z",
+   "fuente": "Reuters",
+   "id": "452c501e70",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Ten people confirmed dead in high-speed Spain train crash, local media report",
    "link": "https://www.cnbc.com/2026/10/28/spain-high-speed-train-crash.html",
@@ -12796,15 +12808,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "CNBC 2026 Workforce Executive Summit takeaways: How AI is transforming jobs, hiring, and employee benefits",
-   "link": "https://www.cnbc.com/2026/10/27/cnbc-workforce-summit-live-updates.html",
-   "ts": "2026-10-27T22:32:34Z",
-   "fuente": "CNBC",
-   "id": "d0d6842864",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -13344,14 +13347,14 @@
     4066.3,
     4069.8,
     4062.9,
-    4064.5
+    4066.9
    ],
    [
-    1793179952,
-    4065.0,
-    4065.0,
-    4065.0,
-    4065.0
+    1793180250,
+    4066.7,
+    4066.7,
+    4066.7,
+    4066.7
    ]
   ],
   "nq": [
@@ -13878,14 +13881,14 @@
     29927.25,
     29948.5,
     29891.25,
-    29904.25
+    29898.25
    ],
    [
-    1793179952,
-    29902.5,
-    29902.5,
-    29902.5,
-    29902.5
+    1793180251,
+    29894.75,
+    29894.75,
+    29894.75,
+    29894.75
    ]
   ],
   "vix": [
@@ -14298,24 +14301,24 @@
    [
     1793178000,
     17.56,
-    17.57,
+    17.61,
     17.51,
-    17.57
+    17.6
    ],
    [
-    1793179651,
-    17.57,
-    17.57,
-    17.57,
-    17.57
+    1793179951,
+    17.59,
+    17.59,
+    17.59,
+    17.59
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-28T09:42:33Z",
- "ult_4h": 1793179957.2384348,
+ "ult_4h": 1793180852.717311,
  "estrategia_4h": {
   "oro": {
-   "precio": 4067.1,
+   "precio": 4066.7,
    "atr_4h": 22.59,
    "setups": [
     {
@@ -14343,34 +14346,34 @@
    ]
   },
   "nq": {
-   "precio": 29933.75,
-   "atr_4h": 194.11,
+   "precio": 29895.0,
+   "atr_4h": 195.61,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 29572.0,
      "entrada": 29572.0,
-     "stop": 29455.54,
+     "stop": 29454.64,
      "objetivo": 29989.25,
-     "rr": 3.58,
+     "rr": 3.56,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.54,
+     "fuerza_ruptura_atr": 1.53,
      "ruptura": "2026-10-27 12:00 UTC"
     },
     {
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29209.54,
+     "stop": 29208.64,
      "objetivo": 29989.25,
-     "rr": 5.69,
+     "rr": 5.65,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.02,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-28T09:32:37Z"
+  "ts": "2026-10-28T09:47:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -14435,7 +14438,6 @@
   }
  ],
  "noticias_vistas": [
-  "8bba38cfda",
   "8b9b824440",
   "6f3573424e",
   "c3d733fcbd",
@@ -15234,7 +15236,8 @@
   "7cbc749f1a",
   "e46a837194",
   "2f22aa9ceb",
-  "e7b9b71dc0"
+  "e7b9b71dc0",
+  "452c501e70"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
