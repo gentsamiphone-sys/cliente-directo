@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4055.5 · NQ 29818.75 · VIX 17.39",
-   "actualizado": "2026-10-28T15:12:34Z"
+   "ultimo_resultado": "Oro 4056.8 · NQ 29843.0 · VIX 17.38 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-28T15:17:46Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T15:12:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-28T15:17:45Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Esto es lo que ven los operadores de opciones antes de los reportes de Alphabet y Microsoft"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4056.8 · NQ 29843.0 · VIX 17.38 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-28T15:17:46Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4055.5 · NQ 29818.75 · VIX 17.39",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4059.7 · NQ 29853.75 · VIX 17.52",
    "ts": "2026-10-28T02:22:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4061.7 · NQ 29868.5 · VIX 17.52 · 1 noticias nuevas",
-   "ts": "2026-10-28T02:17:33Z"
   }
  ],
  "briefs": [
@@ -12133,12 +12133,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4055.5,
-  "nq": 29818.75,
-  "vix": 17.39,
-  "ts": "2026-10-28T15:12:34Z"
+  "oro": 4056.8,
+  "nq": 29843.0,
+  "vix": 17.38,
+  "ts": "2026-10-28T15:17:46Z"
  },
  "noticias": [
+  {
+   "titulo": "Here's what options traders see before Alphabet, Microsoft report after the bell",
+   "link": "https://www.cnbc.com/2026/10/28/alphabet-microsoft-report-after-the-bell-what-options-trader-see.html",
+   "ts": "2026-10-28T15:12:09Z",
+   "fuente": "CNBC",
+   "id": "40941174ea",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Esto es lo que ven los operadores de opciones antes de los reportes de Alphabet y Microsoft",
+   "efecto": "Genera volatilidad en tecnología, presionando al NQ según expectativas."
+  },
   {
    "titulo": "At least 68 people dead in high-speed Spain train crash",
    "link": "https://www.cnbc.com/2026/10/28/spain-high-speed-train-crash.html",
@@ -12976,17 +12989,6 @@
    "id": "3daa1c1362",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Mortgage rates fell for the second straight week, but more borrowers still sought savings in riskier loans",
-   "link": "https://www.cnbc.com/2026/10/28/mortgage-rates-fell-for-the-second-straight-week.html",
-   "ts": "2026-10-28T11:00:01Z",
-   "fuente": "CNBC",
-   "id": "7c6026bd07",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13568,14 +13570,14 @@
     4054.4,
     4057.9,
     4054.1,
-    4056.3
+    4056.4
    ],
    [
-    1793199752,
-    4055.5,
-    4055.5,
-    4055.5,
-    4055.5
+    1793200058,
+    4056.8,
+    4056.8,
+    4056.8,
+    4056.8
    ]
   ],
   "nq": [
@@ -14142,16 +14144,16 @@
    [
     1793199600,
     29804.75,
-    29824.5,
+    29850.25,
     29802.5,
-    29818.25
+    29837.0
    ],
    [
-    1793199753,
-    29818.75,
-    29818.75,
-    29818.75,
-    29818.75
+    1793200065,
+    29843.0,
+    29843.0,
+    29843.0,
+    29843.0
    ]
   ],
   "vix": [
@@ -14601,18 +14603,25 @@
     17.45,
     17.5,
     17.18,
-    17.41
+    17.4
    ],
    [
-    1793199451,
-    17.39,
-    17.39,
-    17.39,
-    17.39
+    1793199600,
+    17.4,
+    17.41,
+    17.38,
+    17.38
+   ],
+   [
+    1793199751,
+    17.38,
+    17.38,
+    17.38,
+    17.38
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-28T14:42:43Z",
+ "noticias_traducidas_ts": "2026-10-28T15:17:42Z",
  "ult_4h": 1793200060.8223274,
  "estrategia_4h": {
   "oro": {
@@ -14736,7 +14745,6 @@
   }
  ],
  "noticias_vistas": [
-  "8792438875",
   "9754157ba5",
   "d925e31976",
   "f3299792cb",
@@ -15535,7 +15543,8 @@
   "b519071fea",
   "5c0f312f29",
   "2d847fd8c6",
-  "a74c2b113a"
+  "a74c2b113a",
+  "40941174ea"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
