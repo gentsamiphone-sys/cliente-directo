@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4060.6 · NQ 29921.25 · VIX 17.5 · 2 noticias nuevas",
-   "actualizado": "2026-10-28T11:37:31Z"
+   "ultimo_resultado": "Oro 4061.2 · NQ 29929.25 · VIX 17.5 · 8 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-28T11:42:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T11:37:30Z",
-   "ultimo_resultado": "2 titulares nuevos: Lion Rock Adds Tantalum and Gold Mining Veteran Terry Lyons to Board"
+   "actualizado": "2026-10-28T11:42:38Z",
+   "ultimo_resultado": "8 titulares nuevos, 2 de alto impacto: Fed meeting live updates: No hike expected, but all eyes on Warsh for what's next"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4061.2 · NQ 29929.25 · VIX 17.5 · 8 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-28T11:42:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4060.6 · NQ 29921.25 · VIX 17.5 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
    "ts": "2026-10-27T21:33:06Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Midiendo volatilidad y rango esperado del día…",
-   "ts": "2026-10-27T21:33:05Z"
   }
  ],
  "briefs": [
@@ -11911,12 +11911,54 @@
   }
  },
  "en_vivo": {
-  "oro": 4060.6,
-  "nq": 29921.25,
+  "oro": 4061.2,
+  "nq": 29929.25,
   "vix": 17.5,
-  "ts": "2026-10-28T11:37:30Z"
+  "ts": "2026-10-28T11:42:38Z"
  },
  "noticias": [
+  {
+   "titulo": "Fed meeting live updates: No hike expected, but all eyes on Warsh for what's next",
+   "link": "https://www.cnbc.com/2026/10/28/fed-meeting-today-live-updates.html",
+   "ts": "2026-10-28T11:39:24Z",
+   "fuente": "CNBC",
+   "id": "8e0d87d39a",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Ameriwest Reports Additional High-Grade Copper Results from Historical Drill Core at Bornite Including 71.0 Feet (21.6 Meters) at 8.08% CuEq",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/ameriwest-reports-additional-high-grade-113000423.html?.tsrc=rss",
+   "ts": "2026-10-28T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "6171f291d2",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Quimbaya Gold Expands Tahami Land Position by 37% to 43,496 Hectares",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/quimbaya-gold-expands-tahami-land-113000535.html?.tsrc=rss",
+   "ts": "2026-10-28T11:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "7f613008e2",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "US Dollar Rises Early Wednesday Ahead of FOMC Meeting Announcement",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-wednesday-112910233.html?.tsrc=rss",
+   "ts": "2026-10-28T11:29:10Z",
+   "fuente": "Yahoo Finance",
+   "id": "86958ce74f",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "A Democratic win in midterms could put prediction markets and the CFTC in the hot seat",
    "link": "https://www.cnbc.com/2026/10/28/democrats-prediction-markets-cftc-midterms.html",
@@ -11925,6 +11967,17 @@
    "id": "f38af21aaa",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "GM plans Michigan hybrid investment, shifts listing to Nasdaq",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLWFhQWV0QU1kMFdReFl1NmVxU2xIUlUyaVJuNmJ3RkIzcVdPdG41d0k2Q3FQcXBqdHU3dDlhdWtrSUV6MWs5eUlXZ3oxQjVrTW1oWVZfMTB5ZmRnbkE2b3FhLV9YaG4yTXBZZVpvZzhqSlVUc3NtOFQ5YW01U1UzenI1MTBHWWJxOXloc1MwZlUzY1dpWEd5RDBWZWxuODFITEE?oc=5",
+   "ts": "2026-10-28T11:22:33Z",
+   "fuente": "Yahoo Finance",
+   "id": "4dbc54db63",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Lion Rock Adds Tantalum and Gold Mining Veteran Terry Lyons to Board",
@@ -11974,6 +12027,17 @@
    "impacto": "alto",
    "es": "El dólar se mantiene en máximo de dos semanas ante la decisión de la Fed; euro bajo presión.",
    "efecto": "Fortalece el dólar, presionando a la baja al oro y al NQ."
+  },
+  {
+   "titulo": "Invesco NASDAQ 100 ETF (QQQM) Adds NVIDIA and Apple on Oct. 26",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUW91NHZsVG0xVm9oTmUyM3pCWjN4eEcyX0J3dENJMmdXNHBQS0R6UlZ2OThyb3ZxYU81MWhsYTNyTlpkUVBQQ21EcnQ3TndWY0tPYkhqMjRoMGNlRFVwMmdzYktkSThwRGpacUM3UTY2c3JVTHgwbWhCTUxHQlZhYmUxUGtzTHNFR2c0Tk81dDh0WElhc1hF?oc=5",
+   "ts": "2026-10-28T11:04:24Z",
+   "fuente": "Yahoo Finance",
+   "id": "b408468eec",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Google alters its cloud playbook, enlisting partners to sell more AI chips",
@@ -12120,6 +12184,18 @@
    "efecto": "Afecta indirectamente al índice dólar y genera cautela en futuros tecnológicos."
   },
   {
+   "titulo": "US Stock Futures Mixed Ahead of Alphabet, Microsoft Earnings and Federal Reserve Rate Decision: Dow Jones, S&P, Nasdaq, Wall Street",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd2xfcTN0UklocUc0ZHluT0RKdnRnUTVyUGx5TXZTNXRCVTZhV1BwT2l3N1B5eHF0MGJReXduTEFDd1paNUpxcEVrZUt5MUdRc050SnRaUUktTUJnb0RPQWtfWlBfN2gxNVllOFBTcDVwMU5MZ2VnOXFlc200ckE0ZlZiR051RVh5ejM3eWVhNHhFajk2VUdFMg?oc=5",
+   "ts": "2026-10-28T10:49:43Z",
+   "fuente": "Yahoo Finance",
+   "id": "b8af749ce0",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Gold Cup 2026: 'Spin It A Little More'",
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZGNPYjZLcnNSaUxhYkVULXBhTTdRZWF3Y2E0c3VFcU1CR09RMV9JSG9LdWNlQ0N2UzZXcXQtTTM1NmNFZ0I4SV9zR2VFdFdFNzNGT21kTnZIeC1xMms1ZVdVRWxfWVFWaUhnWUxpdHRkcmRFRGF0NU5ycUhGYVl2ajNYV2V5X2l0X2dpZg?oc=5",
    "ts": "2026-10-28T10:45:28Z",
@@ -12151,6 +12227,17 @@
    "impacto": "bajo",
    "es": "Las mejores tarjetas de crédito para los juguetes navideños más populares de 2026.",
    "efecto": "Noticia de consumo general sin impacto en la mesa institucional."
+  },
+  {
+   "titulo": "GE HealthCare’s (NASDAQ:GEHC) Q3 2026 sales beat estimates",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYXNkRi15R1ZYcG9BS29ETThqTXY4VzFlMWF4X1FrTkw0aENzYXNKcnotTHNIc1lHenVuWlZ1Nm03WC1WandvZ2RwNlZoNDd2T0JYdGU0Z1haVDdxZEpsaWNSOEN0WWFpa1VISWV5VkVGVzZBTlQ5MjhoRWlfYThCXzZoUGNiRnpJY1JqNkMwMldsUk0?oc=5",
+   "ts": "2026-10-28T10:31:24Z",
+   "fuente": "Yahoo Finance",
+   "id": "beba78d79e",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "GoldMining Commences Pre-Feasibility Study and Begins Infill Drilling with Three Drills at the São Jorge Project, Brazil",
@@ -12697,93 +12784,6 @@
    "impacto": "bajo",
    "es": "Bravos predichos a firmar exfinalista de Bate de Plata y Guante de Oro por 85M",
    "efecto": "Ruido de béisbol de Grandes Ligas; sin impacto financiero."
-  },
-  {
-   "titulo": "Gold slips on oil-fuelled inflation fears ahead of Fed meeting",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRUczTDEtcklEQks1UTM3TlZhanpWZ19RUUVMTnkzQTFXWHpmeEF0YWVST0gzamNJNG5KVFJIcUZMOUxnZnBRMkhXYjBkaGdER1Vkc2hQWmplZmluYkQ4YWNsbkwwY0N5ZzFDQldCTDJucHRZY3lOVHdPWEt0RnJmQVprXzBoQnFEZHM3OS13cGNrRFp6MjBuMXJrVTRpcGs3UkpN?oc=5",
-   "ts": "2026-10-28T06:16:00Z",
-   "fuente": "Reuters",
-   "id": "9bcec3a430",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "GM will move its stock listing to Nasdaq after 100+ years on NYSE",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQT28zdkZDTENLVWwxQWZUV3JkY21wYkozZDNjR1cxQXRNbGg4SWRUV1BtSnBURkJETFJTM2t0TVozam00cDNIc1ZERlBlU3NCQlpjbjdaUzJaZXUtYmp1cGpSR0NuUVhrZ1FwbUc1TkRodEdkR3ZnMUhGbl9malhkZ3h1NzRJelNPVnc?oc=5",
-   "ts": "2026-10-28T06:06:11Z",
-   "fuente": "Morning Brew",
-   "id": "b619eca121",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "GM trasladará su cotización bursátil al Nasdaq tras más de 100 años en la NYSE.",
-   "efecto": "Sin impacto macro; evento corporativo aislado para el NQ."
-  },
-  {
-   "titulo": "JPMorgan Private Bank’s Tang Sees More Downside Risk for Gold",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUFFEYzV0aktOenREdDRyYVp0akYteUZNTkN2MVl4dktCNGtxaFoxYXVrNW5XeVZQZ1BOWG56SXlkYktTZUJQc0NKWmVPMjE0NzRoV1IwMmtpNzNQTUpKOFJvZHBONXhPRGxzdm9rNlVWT3NWem90YkZkaXNFWGJPN011ci1aTWJvYUNCdTdsSi1vTVZ6S2VhdkZEVWtrd3loWGpBX0xrSThHanhfbldaMXV3?oc=5",
-   "ts": "2026-10-28T06:06:00Z",
-   "fuente": "Bloomberg",
-   "id": "e9b80d66d6",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "SK Hynix shares soar over 10 % as profit beats, chipmaker to return $25 billion to investors",
-   "link": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
-   "ts": "2026-10-28T05:54:33Z",
-   "fuente": "CNBC",
-   "id": "a3c8605120",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Oil prices rise as Houthi attacks on Saudi Arabian refinery raise supply worries",
-   "link": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
-   "ts": "2026-10-28T05:52:51Z",
-   "fuente": "CNBC",
-   "id": "63f338d535",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "UBS pre-tax profits jump 27% to $3.59 billion in the third quarter",
-   "link": "https://www.cnbc.com/2026/10/28/ubs-earnings-third-quarter.html",
-   "ts": "2026-10-28T05:50:32Z",
-   "fuente": "CNBC",
-   "id": "41b517cb30",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "bajo",
-   "es": "Los beneficios antes de impuestos de UBS saltan un 27% hasta los 3.590 millones en el tercer trimestre",
-   "efecto": "Ruido corporativo menor sin impacto directo en NQ u oro."
-  },
-  {
-   "titulo": "Week Ahead for FX, Bonds: Decisions From Fed, Other Central Banks in Focus",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZl9NRnpPb3laN0tSUlB6NFUwekhQWkUyNG11ck5jQmxHZUxTZl82RzJoVmlLMzlQY2JCS1BuTC1mMDlZYjdXVHFFeTgxTXJ5eGJZazZOcGdLaDg4RFhvaDNidXhySlVzRFBTUmoyeTJ4YjYtMUR2M0RYT1M2WVZSRTIxYlNQQjk2RGJmWmRTMml5MEoyV1h5bHpSQ2dFaExzZVJmU1N3djBENFhM?oc=5",
-   "ts": "2026-10-28T05:26:41Z",
-   "fuente": "WSJ",
-   "id": "d7ead00b45",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Does Quarterly Production Update Change The Bull Case For MMG (SEHK:1208)?",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/does-quarterly-production-change-bull-044320971.html?.tsrc=rss",
-   "ts": "2026-10-28T04:43:20Z",
-   "fuente": "Yahoo Finance",
-   "id": "3d08577a2f",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -13335,16 +13335,16 @@
    [
     1793185200,
     4058.5,
-    4061.1,
+    4061.4,
     4056.4,
-    4060.6
+    4061.1
    ],
    [
-    1793186845,
-    4060.6,
-    4060.6,
-    4060.6,
-    4060.6
+    1793187154,
+    4061.2,
+    4061.2,
+    4061.2,
+    4061.2
    ]
   ],
   "nq": [
@@ -13885,14 +13885,14 @@
     29948.0,
     29955.0,
     29910.5,
-    29925.75
+    29929.25
    ],
    [
-    1793186847,
-    29921.5,
-    29921.5,
-    29921.5,
-    29921.5
+    1793187155,
+    29929.25,
+    29929.25,
+    29929.25,
+    29929.25
    ]
   ],
   "vix": [
@@ -14324,7 +14324,7 @@
     17.5
    ],
    [
-    1793186536,
+    1793186851,
     17.5,
     17.5,
     17.5,
@@ -14456,14 +14456,6 @@
   }
  ],
  "noticias_vistas": [
-  "1461440a3f",
-  "066def5643",
-  "ccca781d1b",
-  "c0f09f6879",
-  "406a70f914",
-  "885486783d",
-  "47a1fec0e1",
-  "281137f315",
   "22840a40a5",
   "447d407b67",
   "bf7a2ed5ed",
@@ -15255,7 +15247,15 @@
   "340f98eca3",
   "f38af21aaa",
   "40daeee668",
-  "54406b1c4a"
+  "54406b1c4a",
+  "8e0d87d39a",
+  "6171f291d2",
+  "7f613008e2",
+  "86958ce74f",
+  "4dbc54db63",
+  "b408468eec",
+  "b8af749ce0",
+  "beba78d79e"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
