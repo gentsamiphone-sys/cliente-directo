@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4086.9 · NQ 29975.5 · VIX 16.47 · 4 noticias nuevas (3 alto impacto)",
-   "actualizado": "2026-10-28T20:17:32Z"
+   "ultimo_resultado": "Oro 4083.9 · NQ 29931.5 · VIX 16.81 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-28T20:22:44Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T20:17:31Z",
-   "ultimo_resultado": "4 titulares nuevos, 3 de alto impacto: Wall Street ends higher as Fed holds key rate steady, focus turns to earnings"
+   "actualizado": "2026-10-28T20:22:43Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Acuerdo de 12.900 millones de Nvidia con Hugging Face atrae escrutinio del DOJ"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4083.9 · NQ 29931.5 · VIX 16.81 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-28T20:22:44Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4086.9 · NQ 29975.5 · VIX 16.47 · 4 noticias nuevas (3 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
    "ts": "2026-10-28T06:33:04Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Fondos en oro: neto +104,206 contratos.",
-   "ts": "2026-10-28T06:33:03Z"
   }
  ],
  "briefs": [
@@ -12133,12 +12133,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4086.9,
-  "nq": 29975.5,
-  "vix": 16.47,
-  "ts": "2026-10-28T20:17:32Z"
+  "oro": 4083.9,
+  "nq": 29931.5,
+  "vix": 16.81,
+  "ts": "2026-10-28T20:22:43Z"
  },
  "noticias": [
+  {
+   "titulo": "Nvidia's $12.9 billion Hugging Face deal draws DOJ scrutiny",
+   "link": "https://www.cnbc.com/2026/10/28/doj-questions-nvidias-12point9-billion-hugging-face-deal.html",
+   "ts": "2026-10-28T20:13:50Z",
+   "fuente": "CNBC",
+   "id": "0322b223a9",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Acuerdo de 12.900 millones de Nvidia con Hugging Face atrae escrutinio del DOJ",
+   "efecto": "Genera presión bajista en Nvidia y lastra al Nasdaq 100 por riesgo regulatorio."
+  },
   {
    "titulo": "Alphabet's free cash flow sinks further, Q3 capex expectations miss in worrying sign for AI trade",
    "link": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
@@ -12203,6 +12216,17 @@
     "dolar"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "XRP 'At The Heart' Of Everything Ripple Does: Garlinghouse",
+   "link": "https://finance.yahoo.com/video/xrp-heart-everything-ripple-does-200103964.html?.tsrc=rss",
+   "ts": "2026-10-28T20:01:03Z",
+   "fuente": "Yahoo Finance",
+   "id": "643ba9e549",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "XRP está 'en el corazón' de todo lo que hace Ripple: Garlinghouse",
+   "efecto": "Noticia cripto sin impacto directo en oro, dólar o Nasdaq."
   },
   {
    "titulo": "Oracle stock pops 11% as long-term revenue forecast and clarity on financing ease debt concerns",
@@ -12327,6 +12351,19 @@
     "dolar"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "GM to move stock listing from NYSE to Nasdaq in November",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdGk5YTF4aGdBZFlLTVVKTFkzNDdtU1ZGUkkyaktDbU5ha1QxSjJ3TUVjTjk1V2ZUUEl0cV9hNzBubVBfeXNSb25VMEpMdWNTcHFrQjA5NG1hRFNCZDcxRFhtVHNGbGlkTGtuVjFqOG9UcXFUUldNd0ZzczdOdWpibDlsNE94WTZEWktRWXc5d3FiODlpRGNvQzBvUmJONTVCSm9YVjRmWmJINEJYMHRtQW1wQXhSbjVlbEJxdDFJelVVUGRXUzFrZjV6a01CM2F0b2xKRnctcHhPdw?oc=5",
+   "ts": "2026-10-28T19:27:00Z",
+   "fuente": "WJRT ABC12",
+   "id": "524092d008",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "GM trasladará su cotización bursátil de la NYSE al Nasdaq en noviembre",
+   "efecto": "Evento corporativo menor sin impacto macroeconómico relevante."
   },
   {
    "titulo": "Federal Reserve will hold fewer interest rate meetings in coming years",
@@ -12995,37 +13032,6 @@
    "id": "d5f64e4e68",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Anthropic is about to go public. Here are the proxies that could benefit",
-   "link": "https://www.cnbc.com/2026/10/28/anthropic-ipo-stocks-funds-etfs-exposure.html",
-   "ts": "2026-10-28T17:04:17Z",
-   "fuente": "CNBC",
-   "id": "6369c2d876",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Walmart's 18-karat gold-plated earrings with Swarovski crystals are only $19",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTDJXenZLNERQVkZZYWlKY2lQa2F4NF8wSzUwNkNDTTF2ZXg3ZE1CRE5ZSGczdkM2ckItQl9JRXkyVkk0aDNUVW5EV05CMVFMZ081R05qd3dNaFN0eVFTNDZsZl9Zdi1mNU45SFgwZ3ZqdWZRWnpIUF9XajdPLU5kU0dNY0VTNnhrcElMWVpIX3BiR1pKM094M0NxRXRSbDQ?oc=5",
-   "ts": "2026-10-28T17:03:00Z",
-   "fuente": "Yahoo",
-   "id": "0937743868",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Los pendientes chapados en oro de 18 quilates de Walmart con cristales de Swarovski cuestan solo 19 dólares",
-   "efecto": ""
-  },
-  {
-   "titulo": "4 Things To Understand Before Picking Individual Stocks Over Index Funds",
-   "link": "https://moneylion.com/trending/money/things-to-understand-before-picking-individual-stocks-over-index-funds?.tsrc=rss",
-   "ts": "2026-10-28T17:00:27Z",
-   "fuente": "Yahoo Finance",
-   "id": "1c3618f04f",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13644,15 +13650,15 @@
     1793217600,
     4089.1,
     4097.2,
-    4083.0,
-    4085.4
+    4081.0,
+    4083.6
    ],
    [
-    1793218050,
-    4086.7,
-    4086.7,
-    4086.7,
-    4086.7
+    1793218362,
+    4083.7,
+    4083.7,
+    4083.7,
+    4083.7
    ]
   ],
   "nq": [
@@ -14255,15 +14261,15 @@
     1793217600,
     29993.5,
     30178.0,
-    29953.75,
-    29985.25
+    29905.0,
+    29926.25
    ],
    [
-    1793218051,
-    29975.5,
-    29975.5,
-    29975.5,
-    29975.5
+    1793218363,
+    29930.0,
+    29930.0,
+    29930.0,
+    29930.0
    ]
   ],
   "vix": [
@@ -14753,13 +14759,13 @@
    [
     1793217600,
     16.78,
-    16.78,
-    16.4,
-    16.47
+    16.81,
+    16.21,
+    16.81
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-28T19:52:38Z",
+ "noticias_traducidas_ts": "2026-10-28T20:22:40Z",
  "ult_4h": 1793218358.2454624,
  "estrategia_4h": {
   "oro": {
@@ -14884,9 +14890,6 @@
   }
  ],
  "noticias_vistas": [
-  "6a8d770fda",
-  "ef01beb2d8",
-  "9c969edadb",
   "28fbeb727e",
   "0f077a869b",
   "40630e01fd",
@@ -15683,7 +15686,10 @@
   "51ac3aa897",
   "ff828caa13",
   "0dd0fc9109",
-  "d27871d9e8"
+  "d27871d9e8",
+  "0322b223a9",
+  "643ba9e549",
+  "524092d008"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
