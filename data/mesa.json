@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T12:32:57Z",
-   "ultimo_resultado": "Mapa listo: oro 4070.1 · NQ 29937.75."
+   "actualizado": "2026-10-28T20:12:38Z",
+   "ultimo_resultado": "Estrategia 4H ORO: COMPRA en el nivel 4084.1 · stop 4069.79 · objetivo 4164.3 · R:R 5.61 (en retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T20:07:37Z",
-   "ultimo_resultado": "4 titulares nuevos: Microsoft stock jumps 5% as cloud growth drives earnings and revenue beat"
+   "actualizado": "2026-10-28T20:12:37Z",
+   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: Alphabet's free cash flow sinks further, Q3 capex expectations miss in worrying sign for AI trade"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H ORO: COMPRA en el nivel 4084.1 · stop 4069.79 · objetivo 4164.3 · R:R 5.61 (en retesteo). Tú ejecutas.",
+   "ts": "2026-10-28T20:12:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4081.0 · NQ 29957.25 · VIX 16.86 · 4 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "DXY 0.09% · 10Y 4.993 · VIX 17.52 · 4 eventos USD en el radar.",
    "ts": "2026-10-28T06:33:00Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
-   "ts": "2026-10-28T06:32:57Z"
   }
  ],
  "briefs": [
@@ -12133,12 +12133,34 @@
   }
  },
  "en_vivo": {
-  "oro": 4081.0,
-  "nq": 29957.25,
-  "vix": 16.86,
-  "ts": "2026-10-28T20:07:37Z"
+  "oro": 4090.2,
+  "nq": 30063.5,
+  "vix": 16.93,
+  "ts": "2026-10-28T20:12:38Z"
  },
  "noticias": [
+  {
+   "titulo": "Alphabet's free cash flow sinks further, Q3 capex expectations miss in worrying sign for AI trade",
+   "link": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+   "ts": "2026-10-28T20:09:47Z",
+   "fuente": "CNBC",
+   "id": "d8ef9a0dbc",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Treasury Secretary Bessent talks to CNBC after Fed holds interest rates steady",
+   "link": "https://www.cnbc.com/2026/10/28/scott-bessent-interview.html",
+   "ts": "2026-10-28T20:07:48Z",
+   "fuente": "CNBC Economía",
+   "id": "3e41502f21",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Microsoft stock jumps 5% as cloud growth drives earnings and revenue beat",
    "link": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
@@ -12178,6 +12200,17 @@
    "id": "893196aa45",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Fed’s Rate Hold Sends Bond Yields in Different Directions",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaEkwMGl6T29kQlFSbU9EanZNX3VMdG5PcG9tWXh3cUQ0U0R5ZTFuUU1QRl9PWl9nd2l4bFpwWl9OOFFTS0VfSV9UcFR0VEtsRW9ld25admRIbkFQa292VTNWVV9xb2g3ZlQwZ2ZuNlVSQkNTQzhGN0RDSl9wZ0hDWi1fcGFTRnJHUTAzeEhUY1BZeVFJU1ZyaVFPdDkzNm9sVTVmcm9pSkxRWjlTOHRpSjlPNmxUb0pPaHBN?oc=5",
+   "ts": "2026-10-28T20:00:00Z",
+   "fuente": "WSJ",
+   "id": "6c7e1f6c37",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Fed meeting recap: Warsh says central bank will host fewer rate-setting meetings in future years",
@@ -12993,35 +13026,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Nasdaq Edges Lower as Tech Rally Stalls Out",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQS02TUtVR24xWjdGNTJrLXR6bGtDYW5EclpiY2JOMDJvX1lMN1BDd3NEalhRb3lsdUpsNW1Uc0FjdlFDV3pCTHU3aEY0Mm1qajZaMmd0QWNRcl9JVE93M2txc2ExR3JkbU1qUk0tZDFPd1ZsQUx4dEJabmpSQ1RxQkljSVdqdlczX3JNaHVHWTJDMDQ2X285ZDhYZW9LaV9aMlVBVm5lZFJFZw?oc=5",
-   "ts": "2026-10-28T16:25:00Z",
-   "fuente": "WSJ",
-   "id": "052913c34c",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "District 9 candidates clash over tariffs, Iran war costs ahead of Election Day",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUWVTY2J6RlBJbmRzUV9ORy1iTmhpaHBCTW5ZRVk3OE90M1J4bVJTaWo3Yk5LTUVwN3hIZDVwU0lENGlfekF2dW5hOTZIdWFMay1KcHNvZlRtZGNFODhTSTVtT2xMRGxsV0hmY280YW5JUEdNNjdsTE1kekJOWnA5aDNicGVJdmhWVWcyMXBKMHljVUp0QjYxSWR2dUNMN1dDZk8zU29ya3d4UFRFd3RSZnE1YzlCMWVIS082YTd6WTRLM0JadlpyVg?oc=5",
-   "ts": "2026-10-28T16:24:05Z",
-   "fuente": "WKMG",
-   "id": "ceb0feeb24",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "CNBC TEC Summit live updates: How technology executives are navigating enterprise AI adoption",
-   "link": "https://www.cnbc.com/2026/10/28/cnbc-technology-summit-live-updates.html",
-   "ts": "2026-10-28T16:23:58Z",
-   "fuente": "CNBC",
-   "id": "77f60665d5",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -14742,65 +14746,65 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-28T19:52:38Z",
- "ult_4h": 1793217453.6615777,
+ "ult_4h": 1793218358.2454624,
  "estrategia_4h": {
   "oro": {
-   "precio": 4074.6,
-   "atr_4h": 25.29,
+   "precio": 4089.3,
+   "atr_4h": 23.84,
    "setups": [
+    {
+     "direccion": "COMPRA",
+     "nivel": 4084.1,
+     "entrada": 4084.1,
+     "stop": 4069.79,
+     "objetivo": 4164.3,
+     "rr": 5.61,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 1.46,
+     "ruptura": "2026-10-28 16:00 UTC"
+    },
     {
      "direccion": "COMPRA",
      "nivel": 4050.2,
      "entrada": 4050.2,
-     "stop": 4035.02,
-     "objetivo": 4084.1,
-     "rr": 2.23,
+     "stop": 4035.89,
+     "objetivo": 4097.2,
+     "rr": 3.29,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.09,
+     "fuerza_ruptura_atr": 2.22,
      "ruptura": "2026-10-27 12:00 UTC"
-    },
-    {
-     "direccion": "VENTA",
-     "nivel": 4091.2,
-     "entrada": 4091.2,
-     "stop": 4106.38,
-     "objetivo": 3989.1,
-     "rr": 6.73,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.15,
-     "ruptura": "2026-10-22 08:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29928.75,
-   "atr_4h": 194.39,
+   "precio": 30063.5,
+   "atr_4h": 178.96,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 29572.0,
      "entrada": 29572.0,
-     "stop": 29455.36,
-     "objetivo": 30009.0,
-     "rr": 3.75,
+     "stop": 29464.62,
+     "objetivo": 30178.0,
+     "rr": 5.64,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.54,
+     "fuerza_ruptura_atr": 1.67,
      "ruptura": "2026-10-27 12:00 UTC"
     },
     {
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29209.36,
-     "objetivo": 30009.0,
-     "rr": 5.86,
+     "stop": 29218.62,
+     "objetivo": 30178.0,
+     "rr": 7.93,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.02,
+     "fuerza_ruptura_atr": 1.11,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-28T19:57:33Z"
+  "ts": "2026-10-28T20:12:38Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -14847,7 +14851,8 @@
   "oro|COMPRA|4044.0|en retesteo",
   "oro|COMPRA|4050.2|esperando retesteo",
   "oro|COMPRA|4044.0|esperando retesteo",
-  "nq|COMPRA|29572.0|esperando retesteo"
+  "nq|COMPRA|29572.0|esperando retesteo",
+  "oro|COMPRA|4084.1|en retesteo"
  ],
  "alpha_ordenes": [
   {
@@ -14865,9 +14870,6 @@
   }
  ],
  "noticias_vistas": [
-  "46be2266ea",
-  "dd79eaa00e",
-  "449d4f967f",
   "da2f45dab6",
   "8f01c5dbc3",
   "b1eac0ea0e",
@@ -15664,7 +15666,10 @@
   "de798848af",
   "f54fda301a",
   "5623e30843",
-  "0405c8fb1b"
+  "0405c8fb1b",
+  "d8ef9a0dbc",
+  "3e41502f21",
+  "6c7e1f6c37"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
