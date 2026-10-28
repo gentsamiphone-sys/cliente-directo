@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4061.9 · NQ 29893.0 · VIX 17.43 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-28T13:47:44Z"
+   "ultimo_resultado": "Oro 4062.9 · NQ 29831.0 · VIX 17.53 · 4 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-28T13:57:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T13:47:42Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Stellantis stock rises 12% as automaker's turnaround plan, cost cuts gain traction"
+   "actualizado": "2026-10-28T13:57:36Z",
+   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: President Trump’s Steel and Aluminum Tariffs: 1.0 vs. 2.0"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4062.9 · NQ 29831.0 · VIX 17.53 · 4 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-28T13:57:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4061.9 · NQ 29893.0 · VIX 17.43 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4074.9 · NQ 29807.75 · VIX 17.52",
    "ts": "2026-10-28T00:42:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4075.6 · NQ 29824.75 · VIX 17.52",
-   "ts": "2026-10-28T00:37:32Z"
   }
  ],
  "briefs": [
@@ -12133,12 +12133,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4061.9,
-  "nq": 29893.0,
-  "vix": 17.43,
-  "ts": "2026-10-28T13:47:43Z"
+  "oro": 4062.9,
+  "nq": 29831.0,
+  "vix": 17.53,
+  "ts": "2026-10-28T13:57:37Z"
  },
  "noticias": [
+  {
+   "titulo": "President Trump’s Steel and Aluminum Tariffs: 1.0 vs. 2.0",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcWJGdlVBWU54VE1ZdVlmTTFTRkV5SEl5YXhVSTI3UmdLMkxZYVZKTGZMcEtnaF95Slh2OVZEcXkyQUtYVnFCSVlVTTBya1dfWktUOWNDeVJ0Y1ZiLXlYMXBZVngwZm5PUjlseG9rQTljakd2bVM3QUswbHNLWC1Hb1lWd1R4X24yZnVYTjR4bjJmQXc4Y25MVkJ0Q2ZjcnZx?oc=5",
+   "ts": "2026-10-28T13:50:52Z",
+   "fuente": "The American Action Forum",
+   "id": "c619fb93ec",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "America's largest budget airline reports 71% jump in airfare",
+   "link": "https://www.cnbc.com/2026/10/28/frontier-airlines-airfare-plane-tickets.html",
+   "ts": "2026-10-28T13:50:38Z",
+   "fuente": "CNBC",
+   "id": "84ab4e5289",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Stellantis stock rises 12% as automaker's turnaround plan, cost cuts gain traction",
    "link": "https://www.cnbc.com/2026/10/28/stellantis-45-billion-cash-drain-turnaround.html",
@@ -12147,6 +12165,18 @@
    "id": "1e090c1c6a",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "US stocks hold steady as the countdown ticks to a Federal Reserve decision on interest rates",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPTG9mbDBKQVpwV3J6bXlGMFRXV2tCVk43ckxFQ3pTWGhiVXVjaUVlNFZuY0NrUEdKZFRWdUtFU2VmY21ZblNVLVR4ZGltaFMxWnBZcktta05wREFjMkRLY3ZEY3BaTTRXUTE4clY2eUMtQmxUcTc4UEFmR0dWQ1NsQUVzdmFZbWxWbC1qN25fVWRJYW1LWkozM3c1U2RkX0htZEVoRlVUV0plWjdUNGRKeDR3VXBnUlhEWFRYSDhPQVVnQksyOXhqUlB3UkxCT1Q1c3NOMTNROG1wbUFjWGFfQXJxcXlhaU5jbl8zaDRYWFpBTE1RWlVaMjNYQk5QQkk?oc=5",
+   "ts": "2026-10-28T13:45:48Z",
+   "fuente": "KTVN",
+   "id": "cddbf309b8",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "S&P 500, Nasdaq open higher as SK Hynix lifts chips; Fed in focus",
@@ -12194,6 +12224,15 @@
     "dolar"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Moody’s Assigns Investment-Grade Rating To Ripple’s Stablecoin",
+   "link": "https://www.cryptoprowl.com/releases/moodys-assigns-investment-grade-rating-to-ripples-stablecoin-7496?.tsrc=rss",
+   "ts": "2026-10-28T13:19:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "18e4e7481a",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Stellantis stock rises as automaker's turnaround plan, cost cuts gain traction",
@@ -12957,55 +12996,6 @@
    "id": "13859b9eee",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Fed Decision to Trigger Volatility Across Nasdaq and S&P 500: Here’s What to Watch",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1ExZGZHcXE1bjd1SWpUYXlyN0xEOGVkR1gwRFIybmxfX1RBYjZ1QzRuMjhVeU1aYnhaWTBqZ0ZfVXJUNE9zZmotejRyczVqRk1YN3BfVUsxZzNBeGE1Z09RSTZYNmQ0N1EwUUtRejB0dllDdXVqbFo2TUU4NWt3R0pJSFlPekU5NXVrdXpRMnRXak1yOWEtZW5LT0hxLTZSOThsczFTVXV3LTZRX2FzZDFuN1lEUDhqYXNORGQxZFg0QQ?oc=5",
-   "ts": "2026-10-28T10:22:39Z",
-   "fuente": "Investing.com",
-   "id": "340f98eca3",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Fed likely to go into wait-and-see mode on rates",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaU93czlpTHJXMTJGby0yOGppZGVlVkZzZW4tNC11WTcwVk1yQUZHTVMza0dTLURMRi0tTUtYTHhITkI2OVBWN2k0anZCN2liNnlyNFpaTmFTaWlFTHItWmtBXzh1VWhkRjZBNjVDejQxOGNUTW1HWWRBUzNjbGdKUDV0MlFSWXRsaWQwMXpWQXI?oc=5",
-   "ts": "2026-10-28T10:05:43Z",
-   "fuente": "Reuters",
-   "id": "945ef5117f",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Es probable que la Fed adopte una postura de espera sobre las tasas",
-   "efecto": ""
-  },
-  {
-   "titulo": "Fed officials not aligned on weight of financial conditions",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZDVJc3BaeUw5dnlFa2JrcmJQcFBnclc2alpNZTdST3BGSThJOFkyYmFUNGdTVFlWc2xheVdoZ0JJTzlISEVUQjdqVVZTQThuYTUxWXU3UGUyOVpjQm9CdTZHdXNNSUVfdlJ0TldocXJWQkdxVUhOX3JxNFV4dGZhM3Jsa0pTeWRvM3owdUgtZ2lJcTYwZjQzOEFQWjdhSlc0Rmt2UFVCRGlvQQ?oc=5",
-   "ts": "2026-10-28T10:03:45Z",
-   "fuente": "Reuters",
-   "id": "c598f1dddf",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Newcore Gold Drilling Intersects 2.16 g/t Gold over 37.0 Metres, Including 5.10 g/t Gold over 9.0 Metres, at the Enchi Gold Project, Ghana",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/newcore-gold-drilling-intersects-2-100200250.html?.tsrc=rss",
-   "ts": "2026-10-28T10:02:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "7dc265ec88",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13572,15 +13562,15 @@
     1793192400,
     4067.3,
     4071.5,
-    4059.7,
-    4060.3
+    4058.9,
+    4063.1
    ],
    [
-    1793194662,
-    4061.8,
-    4061.8,
-    4061.8,
-    4061.8
+    1793195254,
+    4062.9,
+    4062.9,
+    4062.9,
+    4062.9
    ]
   ],
   "nq": [
@@ -14134,15 +14124,15 @@
     1793192400,
     29900.0,
     29952.75,
-    29878.75,
-    29891.0
+    29825.0,
+    29828.75
    ],
    [
-    1793194663,
-    29892.5,
-    29892.5,
-    29892.5,
-    29892.5
+    1793195255,
+    29831.0,
+    29831.0,
+    29831.0,
+    29831.0
    ]
   ],
   "vix": [
@@ -14583,16 +14573,16 @@
    [
     1793192400,
     17.38,
-    17.38,
+    17.56,
     17.3,
-    17.38
+    17.53
    ],
    [
-    1793194351,
-    17.43,
-    17.43,
-    17.43,
-    17.43
+    1793194951,
+    17.53,
+    17.53,
+    17.53,
+    17.53
    ]
   ]
  },
@@ -14720,10 +14710,6 @@
   }
  ],
  "noticias_vistas": [
-  "bce1d5798f",
-  "fd29563cf1",
-  "44401c0dcc",
-  "e14d54517a",
   "6555e9b66e",
   "d467145c26",
   "134db267ef",
@@ -15519,7 +15505,11 @@
   "35046eb76e",
   "1e090c1c6a",
   "3463dfdced",
-  "2c3de1584c"
+  "2c3de1584c",
+  "c619fb93ec",
+  "84ab4e5289",
+  "cddbf309b8",
+  "18e4e7481a"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
