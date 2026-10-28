@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T21:07:53Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Alphabet holds 2026 capex unchanged, expects 'significant' increase in 2027 — shares sink 9%"
+   "actualizado": "2026-10-28T21:12:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Alphabet sinks 9% as it holds 2026 capex unchanged, expects significant increase in 2027"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "noticias",
+   "texto": "1 titulares nuevos: Alphabet sinks 9% as it holds 2026 capex unchanged, expects significant increase in 2027",
+   "ts": "2026-10-28T21:12:32Z"
+  },
   {
    "agente": "noticias",
    "texto": "2 titulares nuevos, 1 de alto impacto: Alphabet holds 2026 capex unchanged, expects 'significant' increase in 2027 — shares sink 9%",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Escribiendo el brief institucional…",
    "ts": "2026-10-28T06:33:19Z"
-  },
-  {
-   "agente": "historiador",
-   "texto": "ORO: Sesgo histórico neutral: 2 de 9 años subió esta semana; 4 de 9 subió los 20 días siguientes; análogos 2018, 2021, 2022 · NQ: Sesgo histórico alcista: 6 de 9 años subió esta semana; 7 de 9 subió los 20 días siguientes; análogos 2024, 2021, 2025",
-   "ts": "2026-10-28T06:33:18Z"
   }
  ],
  "briefs": [
@@ -12140,6 +12140,17 @@
  },
  "noticias": [
   {
+   "titulo": "Alphabet sinks 9% as it holds 2026 capex unchanged, expects significant increase in 2027",
+   "link": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+   "ts": "2026-10-28T21:10:35Z",
+   "fuente": "CNBC",
+   "id": "4014a3ce08",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Alphabet holds 2026 capex unchanged, expects 'significant' increase in 2027 — shares sink 9%",
    "link": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
    "ts": "2026-10-28T21:07:30Z",
@@ -13018,17 +13029,6 @@
    "impacto": "alto",
    "es": "La Reserva Federal mantiene estables las tasas incluso con inflación alta",
    "efecto": "Presiona al dólar a la baja y favorece al oro como cobertura inflacionaria."
-  },
-  {
-   "titulo": "Fed leaves rates unchanged: What it means for credit cards, mortgages, auto loans and savings accounts",
-   "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-consumer-borrowing-costs.html",
-   "ts": "2026-10-28T18:01:17Z",
-   "fuente": "CNBC",
-   "id": "d27871d9e8",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -14894,7 +14894,6 @@
   }
  ],
  "noticias_vistas": [
-  "cc4cac305b",
   "63fa5d160b",
   "71b15c5283",
   "416ec29584",
@@ -15693,7 +15692,8 @@
   "d4fc3b3783",
   "a0f018dc40",
   "2cb5692853",
-  "ca50e25dba"
+  "ca50e25dba",
+  "4014a3ce08"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
