@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4070.5 · NQ 29938.0 · VIX 17.43 · 2 noticias nuevas",
-   "actualizado": "2026-10-28T12:32:32Z"
+   "ultimo_resultado": "Oro 4069.0 · NQ 29929.25 · VIX 17.41 · 4 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-28T12:42:16Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T12:32:31Z",
-   "ultimo_resultado": "2 titulares nuevos: With High Treasury Yields, the Details Matter"
+   "actualizado": "2026-10-28T12:42:15Z",
+   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: New Zealand dollar tanks after central bank defies markets' near-certainty it would hike rates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4069.0 · NQ 29929.25 · VIX 17.41 · 4 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-28T12:42:16Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "Evaluación Alpha: ninguna idea con 5/5 confluencias. Hoy no se opera (calidad antes que cantidad).",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4075.2 · NQ 29818.0 · VIX 17.52",
    "ts": "2026-10-27T23:27:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4075.4 · NQ 29823.75 · VIX 17.52",
-   "ts": "2026-10-27T23:22:35Z"
   }
  ],
  "briefs": [
@@ -12133,12 +12133,43 @@
   }
  },
  "en_vivo": {
-  "oro": 4070.5,
-  "nq": 29938.0,
-  "vix": 17.43,
-  "ts": "2026-10-28T12:32:32Z"
+  "oro": 4069.0,
+  "nq": 29929.25,
+  "vix": 17.41,
+  "ts": "2026-10-28T12:42:15Z"
  },
  "noticias": [
+  {
+   "titulo": "New Zealand dollar tanks after central bank defies markets' near-certainty it would hike rates",
+   "link": "https://www.cnbc.com/2026/10/28/new-zealand-dollar-rbnz-rates.html",
+   "ts": "2026-10-28T12:36:06Z",
+   "fuente": "CNBC",
+   "id": "bf62792f57",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Why China is desperate to ship cars outside of the country",
+   "link": "https://www.cnbc.com/2026/10/28/china-car-exports.html",
+   "ts": "2026-10-28T12:30:02Z",
+   "fuente": "CNBC",
+   "id": "2140bf08b7",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "GM moves to Nasdaq as first legacy automaker on the exchange (Oct 27)",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUXVySkRwZENJX0o3d3ZHakVmYWlRemhqcVhhTmRQNkQ2dWNqOF9sSjl1TnNpWVdlaV9BMjQ2c0NUeUdNdG1GeF9QeDQ0LXpfZTVuRnBnUk5meXY2UV94bUdpejItcnBUOFR5TEpEb3RCeHVQZzNydG1TYkJtdVlLX3pKMHZiSEVadUhNcVFYb0hFSG14djBkTjFWYTdCck9ZbGZnakxWYw?oc=5",
+   "ts": "2026-10-28T12:26:05Z",
+   "fuente": "KSL News",
+   "id": "1ce31104df",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Here are Wednesday's biggest analyst calls: SpaceX, Nvidia, Apple, AMD, Meta, Amazon, Tesla, Boeing & more",
    "link": "https://www.cnbc.com/2026/10/28/big-wall-street-stocks-covered-on-analyst-calls-include-spacex-boeing.html",
@@ -12220,6 +12251,15 @@
    "id": "1b370b46c4",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "US Hits Chinese Trailers With Tariffs to Aid Domestic Producers",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMGx1YmYzOHhfSnRjeGxPb1FncjBicVUxN3R0ZlNsRFlvMnRDUThSVFVHZG5IeXNfQjAzSXZhdWNJbkpzRnJhcVllZVBkZEJFenNmVE1QNVlzbElZbmpxVzNOZWZDRTN1UkYxV29RZjExSi1XMnJMaWJwUllNLTEtOUFyR2pUZWQ1YTFlaDluMHplSVREVTdRX3pzakNnanpFWk1iSVNFbEZRNjVzQVdpZFJNU0c?oc=5",
+   "ts": "2026-10-28T12:00:00Z",
+   "fuente": "Bloomberg.com",
+   "id": "e3d7cfcb33",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "WARABA GOLD APPOINTS GLOBALLY RECOGNISED GEOLOGIST GERNOT WOBER, FORMER VP EXPLORATION AT OSISKO MINING, AS TECHNICAL ADVISOR",
@@ -12960,52 +13000,6 @@
    "impacto": "bajo",
    "es": "P2 Gold extiende la mineralización de oro y cobre en la zona Lucky Strike",
    "efecto": "Noticia microeconómica sectorial, sin impacto relevante en el oro."
-  },
-  {
-   "titulo": "Israeli bonds, shekel fall as election leaves Netanyahu and others far short of majorities",
-   "link": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html",
-   "ts": "2026-10-28T08:51:00Z",
-   "fuente": "CNBC",
-   "id": "783d257698",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Janus Henderson Offers Onchain Fund Tracking Nasdaq-100",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX29NZUcwdVFHV1B6WVFJaVBjSHVHN3ZDaHI0enVPQWRRYUdHREp0UVV4bWVOVFRDRi1IdkZpUm5EcHNQbldIaFRoUGxiWTZXY2R0SFJLb19kREQyRzJ6MmJrLVFCcTg2blprMGl5U2RVVW41NFFOQjRGeVlpdEpXWjNGc01TdlNaUnVUUExycDA2cUd2YWJNOXJSWQ?oc=5",
-   "ts": "2026-10-28T08:38:45Z",
-   "fuente": "Markets Media",
-   "id": "b85515d6be",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Interest Rates Should Remain Unchanged Today, but at Least 3 Federal Reserve Rate Hikes Are Expected by September 2027",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZEVKTnhJTU8zaEhpVmNBZkRxYVdNakpHWk04bHc4Z1p3dnVfYnhVM2lyLTg2UGVaR2szV19ZanhoSmpOYm93ZWp3cHFaTlB0RVQyYXJwb1lSb2lOMjB1RFl6UjlEYmV3VE5iZmxxN0w2SldxWEl4OV8xQWxlTDN6ODhiVmthd1M5SWRJWDZGb2hJM05sTjloMjN4SkJqRmt0TzZzMw?oc=5",
-   "ts": "2026-10-28T08:26:01Z",
-   "fuente": "Yahoo Finance",
-   "id": "ec83c51969",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Las tasas de interés se mantendrían hoy, pero se esperan al menos 3 alzas de la Fed para septiembre de 2027.",
-   "efecto": "Fortalece al dólar y presiona a la baja a oro y NQ."
-  },
-  {
-   "titulo": "NEXEN TIRE Earns Gold Medal in EcoVadis Sustainability Rating for Third Consecutive Year",
-   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNNDlpNXYtQ2VXVF9CTE9BeGloQW5sbUNhRW51dW1GN1pJYWdIekRTeFJwYXVUNUN0cVhrYUxfTmNmcnM0akhweXFYc3Q1OHY1YTNOczEzZWU1OVZ4Y3Z2UjlyV0pYcnRoNER3dWNMdkNsOThyR2lIZThGemU3YTlyZHFncHFYVEFfNzQzRUZWSWNCZjBFQ1lleHhITjZ5OEdsVUI0b3ZaNU8yak1CMzhMTGt2NzNBNWE1ei1FVzRqZlh5bklvTnFvZ0hlQmNpaFhVOVMySXEtY0k1NmxISGItUnFhQjRsSVBtMU5SeDNYSEpTWmZh?oc=5",
-   "ts": "2026-10-28T08:16:02Z",
-   "fuente": "TheNewsMarket",
-   "id": "bb3a5f9dc9",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13564,16 +13558,16 @@
    [
     1793188800,
     4058.7,
-    4072.7,
+    4073.8,
     4057.5,
-    4069.9
+    4069.0
    ],
    [
-    1793190150,
-    4070.5,
-    4070.5,
-    4070.5,
-    4070.5
+    1793190733,
+    4069.0,
+    4069.0,
+    4069.0,
+    4069.0
    ]
   ],
   "nq": [
@@ -14121,14 +14115,14 @@
     29919.75,
     29948.5,
     29900.0,
-    29937.75
+    29935.0
    ],
    [
-    1793190151,
-    29937.75,
-    29937.75,
-    29937.75,
-    29937.75
+    1793190732,
+    29929.25,
+    29929.25,
+    29929.25,
+    29929.25
    ]
   ],
   "vix": [
@@ -14563,15 +14557,15 @@
     1793188800,
     17.53,
     17.56,
-    17.43,
+    17.39,
     17.43
    ],
    [
-    1793189836,
-    17.43,
-    17.43,
-    17.43,
-    17.43
+    1793190421,
+    17.41,
+    17.41,
+    17.41,
+    17.41
    ]
   ]
  },
@@ -14699,10 +14693,6 @@
   }
  ],
  "noticias_vistas": [
-  "5bb7b8cc69",
-  "b6ebe529f7",
-  "ccea6066ce",
-  "d20c094999",
   "64d4f821da",
   "06b572e36e",
   "fd1e8a9188",
@@ -15498,7 +15488,11 @@
   "b468d95992",
   "fa55f9edc3",
   "29af0b10fd",
-  "e3b3c3fa1c"
+  "e3b3c3fa1c",
+  "bf62792f57",
+  "2140bf08b7",
+  "1ce31104df",
+  "e3d7cfcb33"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
