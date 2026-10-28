@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4077.3 · NQ 29786.75 · VIX 16.91 · 6 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-28T20:47:34Z"
+   "ultimo_resultado": "Oro 4083.8 · NQ 29721.75 · VIX 16.91 · 1 noticias nuevas",
+   "actualizado": "2026-10-28T20:52:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T20:47:33Z",
-   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: Trump Delays Robotics, Machinery Tariffs in Favor of More Talks"
+   "actualizado": "2026-10-28T20:52:31Z",
+   "ultimo_resultado": "1 titulares nuevos: Nasdaq Invests in Always-On Markets"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4083.8 · NQ 29721.75 · VIX 16.91 · 1 noticias nuevas",
+   "ts": "2026-10-28T20:52:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4077.3 · NQ 29786.75 · VIX 16.91 · 6 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el S&P 500 (ES) con el NQ…",
    "ts": "2026-10-28T06:33:13Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Volatilidad normal (VIX 17.52).",
-   "ts": "2026-10-28T06:33:12Z"
   }
  ],
  "briefs": [
@@ -12133,12 +12133,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4077.3,
-  "nq": 29786.75,
+  "oro": 4083.8,
+  "nq": 29721.75,
   "vix": 16.91,
-  "ts": "2026-10-28T20:47:33Z"
+  "ts": "2026-10-28T20:52:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Nasdaq Invests in Always-On Markets",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1KcTZId0FfbjNlWkVSR2lEMjZGdGg0NUltc0JIckVRYm9pWGVVTHF3Z2JIcVNsRWctai1JSjFYR0FIcUtqY2p6eVBOQlNsSHZNbklsN3VxczIza2ZlUFdpdmJvLXNxcWFvQUVXM29zUzhITkk?oc=5",
+   "ts": "2026-10-28T20:50:26Z",
+   "fuente": "Markets Media",
+   "id": "d4fc3b3783",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Trump Delays Robotics, Machinery Tariffs in Favor of More Talks",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbUp2SjdYSFFKSDRxY0lWTkNjV1BGSjVrams3dnc4NFRpdGpINkxVa1ZMYjBGRmpHTDRqZXV1azI1OEtiV3AyTDhobGpEcnFGWGYyU1FrT3hkSlV3U0hSMm9tZmVhbXM2MVdTcnc1a2ZCNUw0WnpIZS1EejhFakZEOUNyTTBOME5fa25UTFhjdklncGVjUFFFM3lBMWtCejZCSGxfZkxIbFNUNmtfRFBSc01zbw?oc=5",
@@ -13020,17 +13031,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Bessent: Stablecoins will help cement dollar dominance",
-   "link": "https://finance.yahoo.com/video/bessent-stablecoins-help-cement-dollar-180000469.html?.tsrc=rss",
-   "ts": "2026-10-28T18:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "5718acaab8",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13650,14 +13650,14 @@
     4089.1,
     4097.2,
     4069.8,
-    4078.0
+    4083.2
    ],
    [
-    1793219851,
-    4077.3,
-    4077.3,
-    4077.3,
-    4077.3
+    1793220148,
+    4083.8,
+    4083.8,
+    4083.8,
+    4083.8
    ]
   ],
   "nq": [
@@ -14260,15 +14260,15 @@
     1793217600,
     29993.5,
     30178.0,
-    29775.25,
-    29782.5
+    29699.5,
+    29745.5
    ],
    [
-    1793219851,
-    29786.75,
-    29786.75,
-    29786.75,
-    29786.75
+    1793220148,
+    29721.75,
+    29721.75,
+    29721.75,
+    29721.75
    ]
   ],
   "vix": [
@@ -14896,7 +14896,6 @@
   }
  ],
  "noticias_vistas": [
-  "3a99cd661e",
   "b9421ba66a",
   "a763fc2473",
   "5616429e7d",
@@ -15695,7 +15694,8 @@
   "f362a5e663",
   "d42c80126b",
   "45fb2c6f6b",
-  "c04ab3cda5"
+  "c04ab3cda5",
+  "d4fc3b3783"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
