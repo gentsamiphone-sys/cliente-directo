@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4052.1 · NQ 29848.5 · VIX 17.37 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-28T17:52:44Z"
+   "ultimo_resultado": "Oro 4051.9 · NQ 29844.75 · VIX 17.34 · 2 noticias nuevas",
+   "actualizado": "2026-10-28T17:57:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T17:52:43Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Energy Feed International Lobbies on Agriculture and Tariffs"
+   "actualizado": "2026-10-28T17:57:36Z",
+   "ultimo_resultado": "2 titulares nuevos: Federal Reserve expected to hold interest rates steady"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4051.9 · NQ 29844.75 · VIX 17.34 · 2 noticias nuevas",
+   "ts": "2026-10-28T17:57:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4052.1 · NQ 29848.5 · VIX 17.37 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4054.5 · NQ 29918.5 · VIX 17.52",
    "ts": "2026-10-28T04:42:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4055.9 · NQ 29916.25 · VIX 17.52 · 1 noticias nuevas",
-   "ts": "2026-10-28T04:37:45Z"
   }
  ],
  "briefs": [
@@ -12133,12 +12133,32 @@
   }
  },
  "en_vivo": {
-  "oro": 4052.1,
-  "nq": 29848.5,
-  "vix": 17.37,
-  "ts": "2026-10-28T17:52:44Z"
+  "oro": 4051.9,
+  "nq": 29844.75,
+  "vix": 17.34,
+  "ts": "2026-10-28T17:57:36Z"
  },
  "noticias": [
+  {
+   "titulo": "Federal Reserve expected to hold interest rates steady",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYW1JVEhldVBIQmc4T3MtaTdJcDlBMVUtQmE4bkNueU5yOUlNRnFpQWVQZ0dRUU5Pa0VwRllxX2lyd3l0Rk1xLUpINXg2UTFsZnN2eWhnWk9ON2RMQXZybUJVS1FId3V6UFBqR2ZPc3NMQy1Id2ZPTUVuOWFoU0puc1BKanFzT3pydzFOV29MZjZ2V1FFN2lZR0MxdGlEX0F5S1pUTWdqZU9zakRFR0RHTF9fN3hpWUR3VmxfSDl5R05iYWFiT1g0TUpicXpsZw?oc=5",
+   "ts": "2026-10-28T17:53:00Z",
+   "fuente": "cbs19.tv",
+   "id": "fbd3555d74",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "GE Vernova shares slip despite a beat-and-raise. What the sellers are getting wrong",
+   "link": "https://www.cnbc.com/investingclub/2026/10/28/ge-vernova-shares-slip-despite-a-beat-and-raise-what-the-sellers-are-getting-wrong.html",
+   "ts": "2026-10-28T17:50:44Z",
+   "fuente": "CNBC",
+   "id": "c765cefd9f",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Energy Feed International Lobbies on Agriculture and Tariffs",
    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE14YXhiMl91UFJLeUJNRW5GLWdoYUs5R1lIaWtQekY0TVlXWEFiWHJuamZGT3N0UU9VdzM1RVBFa1gxZ2dvNkt1TXY2TEwyYl82Z0NOdnJkSWtqa2lrOUx6a1VxRnBaRlNBVW9Da3hnaFpoSmI0UHE3NFZkaVQ?oc=5",
@@ -12959,26 +12979,6 @@
    "id": "253b32a503",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "TSX futures muted ahead of Bank of Canada rate decision",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/tsx-futures-muted-ahead-bank-131211082.html?.tsrc=rss",
-   "ts": "2026-10-28T13:12:11Z",
-   "fuente": "Yahoo Finance",
-   "id": "ec7d0508f4",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "The 'Magnificent Seven' is no more. Time to pick winners and losers as group's correlation breaks down",
-   "link": "https://www.cnbc.com/2026/10/28/magnificent-seven-stocks-correlation-breakdown.html",
-   "ts": "2026-10-28T13:09:08Z",
-   "fuente": "CNBC",
-   "id": "4742e4837a",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -13575,15 +13575,15 @@
     1793206800,
     4055.2,
     4055.8,
-    4050.6,
+    4050.2,
     4051.9
    ],
    [
-    1793209359,
-    4052.1,
-    4052.1,
-    4052.1,
-    4052.1
+    1793209656,
+    4051.9,
+    4051.9,
+    4051.9,
+    4051.9
    ]
   ],
   "nq": [
@@ -14166,14 +14166,14 @@
     29886.25,
     29892.25,
     29811.0,
-    29846.0
+    29843.25
    ],
    [
-    1793209363,
-    29848.5,
-    29848.5,
-    29848.5,
-    29848.5
+    1793209655,
+    29844.75,
+    29844.75,
+    29844.75,
+    29844.75
    ]
   ],
   "vix": [
@@ -14643,23 +14643,23 @@
     1793206800,
     17.36,
     17.42,
-    17.35,
-    17.36
+    17.33,
+    17.35
    ],
    [
-    1793209051,
-    17.37,
-    17.37,
-    17.37,
-    17.37
+    1793209351,
+    17.34,
+    17.34,
+    17.34,
+    17.34
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-28T17:37:32Z",
- "ult_4h": 1793209356.4104953,
+ "ult_4h": 1793210256.4589696,
  "estrategia_4h": {
   "oro": {
-   "precio": 4053.5,
+   "precio": 4051.9,
    "atr_4h": 23.1,
    "setups": [
     {
@@ -14681,13 +14681,13 @@
      "objetivo": 3989.1,
      "rr": 7.37,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.26,
+     "fuerza_ruptura_atr": 1.27,
      "ruptura": "2026-10-22 08:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29822.75,
+   "precio": 29844.75,
    "atr_4h": 186.27,
    "setups": [
     {
@@ -14709,12 +14709,12 @@
      "objetivo": 29989.25,
      "rr": 5.93,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.07,
+     "fuerza_ruptura_atr": 1.06,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-28T17:42:36Z"
+  "ts": "2026-10-28T17:57:36Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -14779,8 +14779,6 @@
   }
  ],
  "noticias_vistas": [
-  "c0e3be9a2e",
-  "49f854a733",
   "a3b594a053",
   "6f2983d8a1",
   "55a6e0acf7",
@@ -15578,7 +15576,9 @@
   "1c3618f04f",
   "915633f5f0",
   "2cdf38e4f2",
-  "cafd74ce81"
+  "cafd74ce81",
+  "fbd3555d74",
+  "c765cefd9f"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
