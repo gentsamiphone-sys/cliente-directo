@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4055.3 · NQ 29880.0 · VIX 17.21 · 3 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-28T18:12:46Z"
+   "ultimo_resultado": "Oro 4049.4 · NQ 29825.0 · VIX 17.14 · 4 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-28T18:17:47Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T18:12:45Z",
-   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: S&P 500 remains higher as Fed leaves rates steady: Live updates"
+   "actualizado": "2026-10-28T18:17:47Z",
+   "ultimo_resultado": "4 titulares nuevos, 2 de alto impacto: Federal Reserve keeps rates unchanged despite elevated inflation, gives little signal of next move"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4049.4 · NQ 29825.0 · VIX 17.14 · 4 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-28T18:17:47Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4055.3 · NQ 29880.0 · VIX 17.21 · 3 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4050.6 · NQ 29891.75 · VIX 17.52",
    "ts": "2026-10-28T05:02:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4053.8 · NQ 29897.5 · VIX 17.52 · 1 noticias nuevas",
-   "ts": "2026-10-28T04:57:32Z"
   }
  ],
  "briefs": [
@@ -12133,10 +12133,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4055.3,
-  "nq": 29880.0,
-  "vix": 17.21,
-  "ts": "2026-10-28T18:12:45Z"
+  "oro": 4049.4,
+  "nq": 29825.0,
+  "vix": 17.14,
+  "ts": "2026-10-28T18:17:47Z"
  },
  "noticias": [
   {
@@ -12147,6 +12147,17 @@
    "id": "cb2aaebb40",
    "activos": [
     "nq",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Federal Reserve keeps rates unchanged despite elevated inflation, gives little signal of next move",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdmpNR3hXT3B1c2RacHY4TFZnNjlfaTY2c0tXMXZjSWE5Z2JCZlNDZTE0dGRQYjNEejl5ZXFILTNPQ05pX0NyRWpwNW1YVzdpREhYblpHWTZMZkkzNFZnVTZ1NWV4M3FtR0VMUmRNTjczY1NGaTEtSFptWEY0NF9RZ1otWWdjMTZDYXE3SHRWM0NhdEtyczFDeXFYT3RWVF9DTmdGTHdGWHR1QQ?oc=5",
+   "ts": "2026-10-28T18:07:00Z",
+   "fuente": "AP News",
+   "id": "be43c30a49",
+   "activos": [
     "dolar"
    ],
    "impacto": "alto"
@@ -12165,6 +12176,15 @@
    "impacto": "alto",
    "es": "La Reserva Federal pausa las subidas de tipos a pesar del resurgimiento de la inflación",
    "efecto": "Debilita al dólar, impulsa al oro y al NQ por menor presión de tasas."
+  },
+  {
+   "titulo": "Bending Spoons announces pricing of senior secured notes",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/bending-spoons-announces-pricing-senior-180600512.html?.tsrc=rss",
+   "ts": "2026-10-28T18:06:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "24997ab0b7",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Federal Reserve holds interest rates steady",
@@ -12187,6 +12207,17 @@
    "ts": "2026-10-28T18:04:42Z",
    "fuente": "NPR",
    "id": "81dad1f61b",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Where to put your money no matter what the Fed does",
+   "link": "https://www.cnbc.com/select/3-money-moves-to-make-no-matter-what-the-fed-does/",
+   "ts": "2026-10-28T18:03:40Z",
+   "fuente": "CNBC",
+   "id": "ccdfda6971",
    "activos": [
     "dolar"
    ],
@@ -12232,6 +12263,17 @@
    "impacto": "alto",
    "es": "La Reserva Federal deja sin cambios las tasas a pesar de la subida de la inflación",
    "efecto": "Compra oro y NQ asumiendo política monetaria flexible frente a precios altos."
+  },
+  {
+   "titulo": "Federal Reserve makes interest rate decision ahead of midterms",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR0hLUjN3TllXcDVjaXRBaUwxOW1QcnJLRkc3ZGR3SnR1U283WVdPeWozMmw2eFlLa3ZVb011TlEtMHI0RjV6eWE0T2ZXcXRNQVR5eEIzbVhRektfTHkzLWNLbVc5U0RQaXUyRnFSZ2VCUmZNOFlpcTQyWXc5S21zRWxpb2FBSS1FSkpiVnc0VnV5S2o50gGaAUFVX3lxTE1DUFpkcUswb2dYdVhleE1XejZfZVdTSHJsbUhOelF3Z1B4UUpGdWhqUGQzTmxvTmhGbFFQZ1VNdmhNenprZE1Hbjh6bW9RUTFGN0lfYkZMZ3g4YUh1VlM2eUhGNHNpVUN5ZG12R2RrSnpxTDRKTVR6Y29oMUhHNVdMZ1N1UzFLUjF3LUNnc0pvUFNQZXA1T1JnQ0E?oc=5",
+   "ts": "2026-10-28T18:00:00Z",
+   "fuente": "Fox Business",
+   "id": "fed4bd6483",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Bessent: Stablecoins will help cement dollar dominance",
@@ -12959,47 +13001,6 @@
    "id": "c619fb93ec",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "America's largest budget airline reports 71% jump in airfare",
-   "link": "https://www.cnbc.com/2026/10/28/frontier-airlines-airfare-plane-tickets.html",
-   "ts": "2026-10-28T13:50:38Z",
-   "fuente": "CNBC",
-   "id": "84ab4e5289",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Stellantis stock rises 12% as automaker's turnaround plan, cost cuts gain traction",
-   "link": "https://www.cnbc.com/2026/10/28/stellantis-45-billion-cash-drain-turnaround.html",
-   "ts": "2026-10-28T13:47:12Z",
-   "fuente": "CNBC",
-   "id": "1e090c1c6a",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "US stocks hold steady as the countdown ticks to a Federal Reserve decision on interest rates",
-   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPTG9mbDBKQVpwV3J6bXlGMFRXV2tCVk43ckxFQ3pTWGhiVXVjaUVlNFZuY0NrUEdKZFRWdUtFU2VmY21ZblNVLVR4ZGltaFMxWnBZcktta05wREFjMkRLY3ZEY3BaTTRXUTE4clY2eUMtQmxUcTc4UEFmR0dWQ1NsQUVzdmFZbWxWbC1qN25fVWRJYW1LWkozM3c1U2RkX0htZEVoRlVUV0plWjdUNGRKeDR3VXBnUlhEWFRYSDhPQVVnQksyOXhqUlB3UkxCT1Q1c3NOMTNROG1wbUFjWGFfQXJxcXlhaU5jbl8zaDRYWFpBTE1RWlVaMjNYQk5QQkk?oc=5",
-   "ts": "2026-10-28T13:45:48Z",
-   "fuente": "KTVN",
-   "id": "cddbf309b8",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Canada And USA Meet For First Time Since Olympic Gold Medal Game With Refreshed Rivalry Ahead",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObWhqX1hzUTBZVjlnZDFzZE41UkpiSFRfZmFfeEthS2dfUUE2U2JEVm0xUkU1YjM3Qk9KcTJ0UXdMZm5NMGF5bUNsSjZSNVpvU2RfeUlMZ05MTF9lUklkODlkRFdFdEl1OXdnMFF3RVFnYWdxSkxXVTkycGc2eUNPdg?oc=5",
-   "ts": "2026-10-28T13:40:31Z",
-   "fuente": "Yahoo Sports",
-   "id": "bf4a72fb91",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Canadá y EE. UU. se enfrentan por primera vez desde la final olímpica",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -13604,15 +13605,15 @@
     1793210400,
     4055.5,
     4061.2,
-    4050.1,
-    4055.2
+    4045.9,
+    4048.8
    ],
    [
-    1793210563,
-    4055.3,
-    4055.3,
-    4055.3,
-    4055.3
+    1793210864,
+    4049.4,
+    4049.4,
+    4049.4,
+    4049.4
    ]
   ],
   "nq": [
@@ -14201,15 +14202,15 @@
     1793210400,
     29858.75,
     29918.25,
-    29837.75,
-    29871.0
+    29814.5,
+    29828.25
    ],
    [
-    1793210565,
-    29880.0,
-    29880.0,
-    29880.0,
-    29880.0
+    1793210865,
+    29825.0,
+    29825.0,
+    29825.0,
+    29825.0
    ]
   ],
   "vix": [
@@ -14680,14 +14681,21 @@
     17.36,
     17.42,
     17.19,
-    17.22
+    17.21
    ],
    [
-    1793210251,
+    1793210400,
     17.21,
-    17.21,
-    17.21,
+    17.57,
+    17.16,
     17.21
+   ],
+   [
+    1793210551,
+    17.14,
+    17.14,
+    17.14,
+    17.14
    ]
   ]
  },
@@ -14815,10 +14823,6 @@
   }
  ],
  "noticias_vistas": [
-  "a7b3548003",
-  "ef95c8f32d",
-  "05fd6853b5",
-  "cbf623148e",
   "bef220dc57",
   "c3a376461e",
   "0a9d81cd78",
@@ -15614,7 +15618,11 @@
   "e45085b1e7",
   "cb2aaebb40",
   "81dad1f61b",
-  "5718acaab8"
+  "5718acaab8",
+  "be43c30a49",
+  "24997ab0b7",
+  "ccdfda6971",
+  "fed4bd6483"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
