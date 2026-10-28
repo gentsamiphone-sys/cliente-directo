@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4080.6 · NQ 29856.75 · VIX 16.91 · 1 noticias nuevas",
-   "actualizado": "2026-10-28T20:32:39Z"
+   "ultimo_resultado": "Oro 4074.4 · NQ 29830.0 · VIX 16.91 · 1 noticias nuevas",
+   "actualizado": "2026-10-28T20:37:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T20:32:38Z",
-   "ultimo_resultado": "1 titulares nuevos: Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat"
+   "actualizado": "2026-10-28T20:37:36Z",
+   "ultimo_resultado": "1 titulares nuevos: Robinhood Tumbles After Q3 Earnings Miss. Analysts Cut Price Targets."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4074.4 · NQ 29830.0 · VIX 16.91 · 1 noticias nuevas",
+   "ts": "2026-10-28T20:37:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4080.6 · NQ 29856.75 · VIX 16.91 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
    "ts": "2026-10-28T06:33:08Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Midiendo volatilidad y rango esperado del día…",
-   "ts": "2026-10-28T06:33:07Z"
   }
  ],
  "briefs": [
@@ -12133,10 +12133,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4080.6,
-  "nq": 29856.75,
+  "oro": 4074.4,
+  "nq": 29830.0,
   "vix": 16.91,
-  "ts": "2026-10-28T20:32:39Z"
+  "ts": "2026-10-28T20:37:36Z"
  },
  "noticias": [
   {
@@ -12172,6 +12172,15 @@
     "dolar"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Robinhood Tumbles After Q3 Earnings Miss. Analysts Cut Price Targets.",
+   "link": "https://finance.yahoo.com/m/83e73935-945a-3d65-9334-591614bd05e0/robinhood-tumbles-after-q3.html?.tsrc=rss",
+   "ts": "2026-10-28T20:20:28Z",
+   "fuente": "Yahoo Finance",
+   "id": "e44a105574",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Nvidia's $12.9 billion Hugging Face deal draws DOJ scrutiny",
@@ -13022,17 +13031,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Microsoft and Alphabet tapped to set the AI trade tone",
-   "link": "https://finance.yahoo.com/video/microsoft-and-alphabet-tapped-to-set-the-ai-trade-tone-174106409.html?.tsrc=rss",
-   "ts": "2026-10-28T17:41:06Z",
-   "fuente": "Yahoo Finance",
-   "id": "490705177c",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13651,15 +13649,15 @@
     1793217600,
     4089.1,
     4097.2,
-    4078.8,
-    4078.8
+    4073.1,
+    4073.4
    ],
    [
-    1793218953,
-    4080.6,
-    4080.6,
-    4080.6,
-    4080.6
+    1793219254,
+    4074.4,
+    4074.4,
+    4074.4,
+    4074.4
    ]
   ],
   "nq": [
@@ -14262,15 +14260,15 @@
     1793217600,
     29993.5,
     30178.0,
-    29850.0,
-    29856.75
+    29813.75,
+    29813.75
    ],
    [
-    1793218957,
-    29856.75,
-    29856.75,
-    29856.75,
-    29856.75
+    1793219255,
+    29830.0,
+    29830.0,
+    29830.0,
+    29830.0
    ]
   ],
   "vix": [
@@ -14898,7 +14896,6 @@
   }
  ],
  "noticias_vistas": [
-  "e366263a14",
   "fb9a17773b",
   "9b9c0647e2",
   "2900ca0591",
@@ -15697,7 +15694,8 @@
   "a1a8449383",
   "d9ee45bad9",
   "ef01beb2d8",
-  "e14c8d4dd9"
+  "e14c8d4dd9",
+  "e44a105574"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
