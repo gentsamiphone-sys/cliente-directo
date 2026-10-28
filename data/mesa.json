@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4062.4 · NQ 29934.5 · VIX 17.47 · 1 noticias nuevas",
-   "actualizado": "2026-10-28T12:22:33Z"
+   "ultimo_resultado": "Oro 4069.1 · NQ 29936.5 · VIX 17.44 · 1 noticias nuevas",
+   "actualizado": "2026-10-28T12:27:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T12:22:32Z",
-   "ultimo_resultado": "1 titulares nuevos: How Varying VIX Ranges Can Impact SPY Returns"
+   "actualizado": "2026-10-28T12:27:35Z",
+   "ultimo_resultado": "1 titulares nuevos: Principales recomendaciones de analistas del miércoles: SpaceX, Nvidia, Apple y más"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4069.1 · NQ 29936.5 · VIX 17.44 · 1 noticias nuevas",
+   "ts": "2026-10-28T12:27:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4062.4 · NQ 29934.5 · VIX 17.47 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos, 1 de alto impacto: Australian Stock Market Today: ASX Futures Slip As Traders Eye Fed And CPI",
    "ts": "2026-10-27T21:38:07Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Brief de Asia (Tokio/Sídney) publicado: NQ y ORO con ATR agotado >100%; la mesa frena operativa antes del FOMC.",
-   "ts": "2026-10-27T21:37:49Z"
   }
  ],
  "briefs": [
@@ -11911,12 +11911,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4062.4,
-  "nq": 29934.5,
-  "vix": 17.47,
-  "ts": "2026-10-28T12:22:33Z"
+  "oro": 4069.1,
+  "nq": 29936.5,
+  "vix": 17.44,
+  "ts": "2026-10-28T12:27:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Here are Wednesday's biggest analyst calls: SpaceX, Nvidia, Apple, AMD, Meta, Amazon, Tesla, Boeing & more",
+   "link": "https://www.cnbc.com/2026/10/28/big-wall-street-stocks-covered-on-analyst-calls-include-spacex-boeing.html",
+   "ts": "2026-10-28T12:22:54Z",
+   "fuente": "CNBC",
+   "id": "fa55f9edc3",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Principales recomendaciones de analistas del miércoles: SpaceX, Nvidia, Apple y más",
+   "efecto": "Genera compras o ventas selectivas en acciones tecnológicas del Nasdaq."
+  },
   {
    "titulo": "Stocks making the biggest moves premarket: Ultralife, SK Hynix, Robinhood, Enphase Energy & more",
    "link": "https://www.cnbc.com/2026/10/28/stocks-making-the-biggest-moves-premarket-ulbi-slhy-hood-enph.html",
@@ -12771,17 +12784,6 @@
    "impacto": "bajo",
    "es": "Cómo los nuevos ETFs cripto de gestión activa están valorando sus activos.",
    "efecto": "Sin impacto institucional directo en oro, NQ o dólar."
-  },
-  {
-   "titulo": "Investors rush to buy gold ahead of Budget",
-   "link": "https://uk.finance.yahoo.com/news/investors-rush-buy-gold-ahead-080000067.html?.tsrc=rss",
-   "ts": "2026-10-28T08:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "3c62d51d7e",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13340,16 +13342,16 @@
    [
     1793188800,
     4058.7,
-    4063.1,
+    4069.2,
     4057.5,
-    4063.0
+    4068.8
    ],
    [
-    1793189550,
-    4062.4,
-    4062.4,
-    4062.4,
-    4062.4
+    1793189854,
+    4069.1,
+    4069.1,
+    4069.1,
+    4069.1
    ]
   ],
   "nq": [
@@ -13897,14 +13899,14 @@
     29919.75,
     29948.5,
     29900.0,
-    29933.25
+    29937.25
    ],
    [
-    1793189552,
-    29935.5,
-    29935.5,
-    29935.5,
-    29935.5
+    1793189855,
+    29936.25,
+    29936.25,
+    29936.25,
+    29936.25
    ]
   ],
   "vix": [
@@ -14339,19 +14341,19 @@
     1793188800,
     17.53,
     17.56,
-    17.47,
-    17.47
+    17.45,
+    17.46
    ],
    [
-    1793189251,
-    17.47,
-    17.47,
-    17.47,
-    17.47
+    1793189551,
+    17.44,
+    17.44,
+    17.44,
+    17.44
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-28T11:52:33Z",
+ "noticias_traducidas_ts": "2026-10-28T12:27:31Z",
  "ult_4h": 1793189860.7415853,
  "estrategia_4h": {
   "oro": {
@@ -14475,7 +14477,6 @@
   }
  ],
  "noticias_vistas": [
-  "18840189d8",
   "9cba0ee6e2",
   "845502faf2",
   "5bb7b8cc69",
@@ -15274,7 +15275,8 @@
   "85017b01ff",
   "02d7613706",
   "300c9de1b3",
-  "b468d95992"
+  "b468d95992",
+  "fa55f9edc3"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
