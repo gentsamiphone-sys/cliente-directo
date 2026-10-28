@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4062.1 · NQ 29857.75 · VIX 17.52 · 1 noticias nuevas",
-   "actualizado": "2026-10-28T02:42:32Z"
+   "ultimo_resultado": "Oro 4061.2 · NQ 29874.5 · VIX 17.52",
+   "actualizado": "2026-10-28T02:47:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T02:42:31Z",
-   "ultimo_resultado": "1 titulares nuevos: GM Ends 115-Year NYSE Run, Moving to Nasdaq in Bid for Tech Stock Revaluation"
+   "actualizado": "2026-10-28T02:47:31Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4061.2 · NQ 29874.5 · VIX 17.52",
+   "ts": "2026-10-28T02:47:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4062.1 · NQ 29857.75 · VIX 17.52 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el S&P 500 (ES) con el NQ…",
    "ts": "2026-10-27T12:33:10Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Volatilidad normal (VIX 17.78).",
-   "ts": "2026-10-27T12:33:09Z"
   }
  ],
  "briefs": [
@@ -11729,10 +11729,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4062.1,
-  "nq": 29857.75,
+  "oro": 4061.2,
+  "nq": 29874.5,
   "vix": 17.52,
-  "ts": "2026-10-28T02:42:31Z"
+  "ts": "2026-10-28T02:47:31Z"
  },
  "noticias": [
   {
@@ -13267,14 +13267,14 @@
     4062.7,
     4063.2,
     4058.2,
-    4061.5
+    4060.9
    ],
    [
-    1793154749,
-    4062.1,
-    4062.1,
-    4062.1,
-    4062.1
+    1793155048,
+    4061.2,
+    4061.2,
+    4061.2,
+    4061.2
    ]
   ],
   "nq": [
@@ -13899,14 +13899,14 @@
     29871.25,
     29881.25,
     29841.25,
-    29859.25
+    29873.25
    ],
    [
-    1793154748,
-    29857.75,
-    29857.75,
-    29857.75,
-    29857.75
+    1793155049,
+    29874.5,
+    29874.5,
+    29874.5,
+    29874.5
    ]
   ],
   "vix": [
@@ -14410,38 +14410,38 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-28T02:17:31Z",
- "ult_4h": 1793154753.4247975,
+ "ult_4h": 1793155651.5610502,
  "estrategia_4h": {
   "oro": {
-   "precio": 4059.5,
-   "atr_4h": 23.86,
+   "precio": 4061.2,
+   "atr_4h": 23.93,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4050.2,
      "entrada": 4050.2,
-     "stop": 4035.88,
+     "stop": 4035.84,
      "objetivo": 4084.1,
-     "rr": 2.37,
+     "rr": 2.36,
      "estado": "en retesteo",
      "fuerza_ruptura_atr": 2.21,
      "ruptura": "2026-10-27 12:00 UTC"
     },
     {
-     "direccion": "COMPRA",
-     "nivel": 4044.0,
-     "entrada": 4044.0,
-     "stop": 4029.68,
-     "objetivo": 4084.1,
-     "rr": 2.8,
+     "direccion": "VENTA",
+     "nivel": 4091.2,
+     "entrada": 4091.2,
+     "stop": 4105.56,
+     "objetivo": 3989.1,
+     "rr": 7.11,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.21,
-     "ruptura": "2026-10-27 12:00 UTC"
+     "fuerza_ruptura_atr": 1.21,
+     "ruptura": "2026-10-22 08:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29855.0,
+   "precio": 29874.5,
    "atr_4h": 210.41,
    "setups": [
     {
@@ -14468,7 +14468,7 @@
     }
    ]
   },
-  "ts": "2026-10-28T02:32:33Z"
+  "ts": "2026-10-28T02:47:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
