@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T21:22:55Z",
-   "ultimo_resultado": "6 titulares nuevos, 2 de alto impacto: Federal Reserve leaves interest rates unchanged"
+   "actualizado": "2026-10-28T21:27:34Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Alphabet cae un 10% al mantener el capex de 2026 sin cambios y prever un aumento en 2027"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "noticias",
+   "texto": "1 titulares nuevos, 1 de alto impacto: Alphabet cae un 10% al mantener el capex de 2026 sin cambios y prever un aumento en 2027",
+   "ts": "2026-10-28T21:27:34Z"
+  },
   {
    "agente": "noticias",
    "texto": "6 titulares nuevos, 2 de alto impacto: Federal Reserve leaves interest rates unchanged",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4043.8 · NQ 29950.25 · VIX 17.52 · 1 noticias nuevas",
    "ts": "2026-10-28T06:42:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4044.9 · NQ 29949.0 · VIX 17.52",
-   "ts": "2026-10-28T06:41:45Z"
   }
  ],
  "briefs": [
@@ -12140,6 +12140,20 @@
  },
  "noticias": [
   {
+   "titulo": "Alphabet sinks 10% as it holds 2026 capex unchanged, expects significant increase in 2027",
+   "link": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+   "ts": "2026-10-28T21:27:15Z",
+   "fuente": "CNBC",
+   "id": "ff039c2fe0",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Alphabet cae un 10% al mantener el capex de 2026 sin cambios y prever un aumento en 2027",
+   "efecto": ""
+  },
+  {
    "titulo": "Federal Reserve leaves interest rates unchanged",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSlFOcHdOMkc2WHl2bTUtZUplakJ2ZWM4ckNYdWNMakhVSjdkUmRjYTNnV1hIMVl4YlRpY24yRUdMcHJod3ZaTW9pdW1vVTlmamtSUUtLRktYS2MtZ1JOOFd6R3pDZ2JuNFA0U0NScnpfdkVoWnVFRGUyR3RwQlQxTXFfak4?oc=5",
    "ts": "2026-10-28T21:21:09Z",
@@ -12997,18 +13011,6 @@
    "fuente": "The Hill",
    "id": "e7074523bd",
    "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "S&P 500 remains higher as Fed leaves rates steady: Live updates",
-   "link": "https://www.cnbc.com/2026/10/27/stock-market-today-live-updates.html",
-   "ts": "2026-10-28T18:11:15Z",
-   "fuente": "CNBC",
-   "id": "cb2aaebb40",
-   "activos": [
-    "nq",
     "dolar"
    ],
    "impacto": "alto"
@@ -14752,7 +14754,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-28T20:57:32Z",
+ "noticias_traducidas_ts": "2026-10-28T21:27:33Z",
  "ult_4h": 1793221054.1361506,
  "estrategia_4h": {
   "oro": {
@@ -14877,7 +14879,6 @@
   }
  ],
  "noticias_vistas": [
-  "ec2cd3b578",
   "498be4f051",
   "18afe987bc",
   "d8e566d6fb",
@@ -15676,7 +15677,8 @@
   "6984eb764d",
   "0080308dd2",
   "04a268260e",
-  "7ddfdf561e"
+  "7ddfdf561e",
+  "ff039c2fe0"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
