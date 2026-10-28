@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4052.6 · NQ 29842.0 · VIX 17.39",
-   "actualizado": "2026-10-28T17:32:33Z"
+   "ultimo_resultado": "Oro 4051.6 · NQ 29824.0 · VIX 17.37 · 2 noticias nuevas",
+   "actualizado": "2026-10-28T17:37:51Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T17:32:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-28T17:37:50Z",
+   "ultimo_resultado": "2 titulares nuevos: El dólar canadiense se fortalece frente al dólar tras la subida de tasas del Banco de Canadá"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4051.6 · NQ 29824.0 · VIX 17.37 · 2 noticias nuevas",
+   "ts": "2026-10-28T17:37:51Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4052.6 · NQ 29842.0 · VIX 17.39",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4056.2 · NQ 29932.75 · VIX 17.52",
    "ts": "2026-10-28T04:22:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4055.5 · NQ — · VIX 17.52",
-   "ts": "2026-10-28T04:17:34Z"
   }
  ],
  "briefs": [
@@ -12133,12 +12133,25 @@
   }
  },
  "en_vivo": {
-  "oro": 4052.6,
-  "nq": 29842.0,
-  "vix": 17.39,
-  "ts": "2026-10-28T17:32:32Z"
+  "oro": 4051.6,
+  "nq": 29824.0,
+  "vix": 17.37,
+  "ts": "2026-10-28T17:37:51Z"
  },
  "noticias": [
+  {
+   "titulo": "Canadian Dollar Strengthens Against The Greenback After Bank of Canada Raises Policy Rate",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/canadian-dollar-strengthens-against-greenback-172825125.html?.tsrc=rss",
+   "ts": "2026-10-28T17:28:25Z",
+   "fuente": "Yahoo Finance",
+   "id": "9a72c6f68f",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "El dólar canadiense se fortalece frente al dólar tras la subida de tasas del Banco de Canadá",
+   "efecto": ""
+  },
   {
    "titulo": "Apple brings touch to the Mac, reversing years-old stance on touchscreen laptop",
    "link": "https://www.cnbc.com/2026/10/28/apple-mac-touchscreen-launch.html",
@@ -12167,6 +12180,17 @@
    "id": "6369c2d876",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Walmart's 18-karat gold-plated earrings with Swarovski crystals are only $19",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTDJXenZLNERQVkZZYWlKY2lQa2F4NF8wSzUwNkNDTTF2ZXg3ZE1CRE5ZSGczdkM2ckItQl9JRXkyVkk0aDNUVW5EV05CMVFMZ081R05qd3dNaFN0eVFTNDZsZl9Zdi1mNU45SFgwZ3ZqdWZRWnpIUF9XajdPLU5kU0dNY0VTNnhrcElMWVpIX3BiR1pKM094M0NxRXRSbDQ?oc=5",
+   "ts": "2026-10-28T17:03:00Z",
+   "fuente": "Yahoo",
+   "id": "0937743868",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Los pendientes chapados en oro de 18 quilates de Walmart con cristales de Swarovski cuestan solo 19 dólares",
+   "efecto": ""
   },
   {
    "titulo": "Solana Foundation exec: Emerging markets embrace stablecoins first",
@@ -12961,27 +12985,6 @@
    "impacto": "alto",
    "es": "Trump dice que los aranceles crean riqueza, pero las familias pagan más y compran menos",
    "efecto": "Aumenta la preocupación inflacionaria; presiona al dólar y lastra al NQ."
-  },
-  {
-   "titulo": "Trump jokes $5,000 would buy 'a hamburger and maybe a small dessert' at Mar-a-Lago as affordability looms over midterm",
-   "link": "https://www.cnbc.com/2026/10/28/trump-jokes-5000-cash-would-buy-hamburger-and-dessert-at-mar-a-lago.html",
-   "ts": "2026-10-28T12:49:09Z",
-   "fuente": "CNBC",
-   "id": "f4eb035217",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "S&P 500, Nasdaq set for higher open as SK Hynix lifts chips; Fed in focus",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQVNrQUVwN1c3SjBCODU1TXUwRy1hQ2lIQUxFZkJ3dGhXa0NZalhVTFFoeTU4MlB3VDRwWE1QRktITG5FZnd1eUVDTjRUankwRGgzRkRKTGdwZDVDbWUyTWVKNlRKVld5RVdaTllzZkVhdXUzNkZUOU5RWWNOQVJTY2xuaDJZZXlybC05LXRmTmpPb2RvVlliLWxBUXZVRldXU3kyY2pWb1ZmZlFNUU1KMmN4aV9wMk9Lai01YXcza0JqdDQ?oc=5",
-   "ts": "2026-10-28T12:46:19Z",
-   "fuente": "Reuters",
-   "id": "131e44995f",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -13576,15 +13579,15 @@
     1793206800,
     4055.0,
     4055.8,
-    4051.3,
-    4052.2
+    4050.6,
+    4051.3
    ],
    [
-    1793208147,
-    4052.6,
-    4052.6,
-    4052.6,
-    4052.6
+    1793208467,
+    4051.6,
+    4051.6,
+    4051.6,
+    4051.6
    ]
   ],
   "nq": [
@@ -14166,15 +14169,15 @@
     1793206800,
     29885.5,
     29892.25,
-    29833.0,
-    29841.25
+    29814.5,
+    29817.25
    ],
    [
-    1793208150,
-    29842.0,
-    29842.0,
-    29842.0,
-    29842.0
+    1793208470,
+    29819.75,
+    29819.75,
+    29819.75,
+    29819.75
    ]
   ],
   "vix": [
@@ -14643,20 +14646,20 @@
    [
     1793206800,
     17.36,
-    17.4,
+    17.42,
     17.35,
-    17.4
+    17.38
    ],
    [
-    1793207836,
-    17.39,
-    17.39,
-    17.39,
-    17.39
+    1793208166,
+    17.37,
+    17.37,
+    17.37,
+    17.37
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-28T17:02:44Z",
+ "noticias_traducidas_ts": "2026-10-28T17:37:32Z",
  "ult_4h": 1793208455.6360104,
  "estrategia_4h": {
   "oro": {
@@ -14780,8 +14783,6 @@
   }
  ],
  "noticias_vistas": [
-  "c80fecaa2e",
-  "b894e5e52b",
   "13a2907059",
   "1080349d37",
   "665c595ccc",
@@ -15579,7 +15580,9 @@
   "5627519141",
   "04568b1760",
   "d5f64e4e68",
-  "d7a5535f39"
+  "d7a5535f39",
+  "9a72c6f68f",
+  "0937743868"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
