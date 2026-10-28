@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4052.2 · NQ 29843.0 · VIX 17.33 · 4 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-28T16:42:36Z"
+   "ultimo_resultado": "Oro 4052.0 · NQ 29842.75 · VIX 17.35 · 5 noticias nuevas",
+   "actualizado": "2026-10-28T16:48:15Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T16:42:36Z",
-   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: Alphabet set to report Q3 earnings after the bell as shaky AI trade looks for signs of strength"
+   "actualizado": "2026-10-28T16:48:14Z",
+   "ultimo_resultado": "5 titulares nuevos: Treasury Yields Are Steering the Dollar Index Through Middle East Risk"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4052.0 · NQ 29842.75 · VIX 17.35 · 5 noticias nuevas",
+   "ts": "2026-10-28T16:48:15Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4052.2 · NQ 29843.0 · VIX 17.33 · 4 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4057.8 · NQ 29916.0 · VIX 17.52",
    "ts": "2026-10-28T03:47:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4059.3 · NQ 29919.0 · VIX 17.52",
-   "ts": "2026-10-28T03:42:33Z"
   }
  ],
  "briefs": [
@@ -12133,18 +12133,52 @@
   }
  },
  "en_vivo": {
-  "oro": 4052.2,
-  "nq": 29843.0,
-  "vix": 17.33,
-  "ts": "2026-10-28T16:42:36Z"
+  "oro": 4052.0,
+  "nq": 29842.75,
+  "vix": 17.35,
+  "ts": "2026-10-28T16:48:14Z"
  },
  "noticias": [
+  {
+   "titulo": "Treasury Yields Are Steering the Dollar Index Through Middle East Risk",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYldOUTFEeUxKMGdPMUlGSC1LNElucnVYLW5EdkpqUmV0aTYtMVZPYjdILXIyLXpzNFF1Z3g4UThGT0hCRDJHcm1UU1pjQTZzdXkxRjdPanE0NFpzMUo1N3l1OUFDbGdNUnhxVUdOTHZxcUI3Sk9vbFhDZFJLdlhJY1pMS0IzQmEwd3RmOHlyNkp5T0c3QWk2SEpwZUo3dEp5dFBJWDdidF9hQQ?oc=5",
+   "ts": "2026-10-28T16:46:58Z",
+   "fuente": "StoneX",
+   "id": "2ead997201",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Why Falling Treasury Yields Could Send AI And Technology Stocks Higher",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdERjMFdLQkZabGVnWVNFVWtycXpNeVpSZFhqMHNPRXlhc1N3R3g4TjJJS25DT25tdF9BV0plOEFrTThmd0V3ZTlPbVpLZ0xIbjFHR1NERU1ucTA1cDhhcmtiVUFkeUplTmNJdmt4QmI4QlNjbUctWE1FYmU2MWlubXNMdkQ5Rk1hSDhRUTAtU0ExWEFGUmtuR09NMDNDUQ?oc=5",
+   "ts": "2026-10-28T16:35:24Z",
+   "fuente": "Yahoo Finance",
+   "id": "5af9049212",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Alphabet set to report Q3 earnings after the bell as shaky AI trade looks for signs of strength",
    "link": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
    "ts": "2026-10-28T16:33:22Z",
    "fuente": "CNBC",
    "id": "b55bea1897",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Nasdaq Edges Lower as Tech Rally Stalls Out",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQS02TUtVR24xWjdGNTJrLXR6bGtDYW5EclpiY2JOMDJvX1lMN1BDd3NEalhRb3lsdUpsNW1Uc0FjdlFDV3pCTHU3aEY0Mm1qajZaMmd0QWNRcl9JVE93M2txc2ExR3JkbU1qUk0tZDFPd1ZsQUx4dEJabmpSQ1RxQkljSVdqdlczX3JNaHVHWTJDMDQ2X285ZDhYZW9LaV9aMlVBVm5lZFJFZw?oc=5",
+   "ts": "2026-10-28T16:25:00Z",
+   "fuente": "WSJ",
+   "id": "052913c34c",
    "activos": [
     "nq"
    ],
@@ -12273,6 +12307,15 @@
    "ts": "2026-10-28T16:00:41Z",
    "fuente": "CNBC",
    "id": "f0c2177fe5",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Cascade Copper eyes phase two drilling at Centerfire and advances Copper Plateau plans",
+   "link": "https://finance.yahoo.com/video/cascade-copper-eyes-phase-two-160021153.html?.tsrc=rss",
+   "ts": "2026-10-28T16:00:21Z",
+   "fuente": "Yahoo Finance",
+   "id": "c3004a1ea6",
    "activos": [],
    "impacto": "bajo"
   },
@@ -12804,6 +12847,15 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Now is your last chance to qualify for a Southwest Companion Pass with a credit card bonus",
+   "link": "https://www.cnbc.com/select/southwest-companion-pass-2027-changes/",
+   "ts": "2026-10-28T13:06:31Z",
+   "fuente": "CNBC",
+   "id": "e1f339a644",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "At least 64 people dead in high-speed Spain train crash",
    "link": "https://www.cnbc.com/2026/10/28/spain-high-speed-train-crash.html",
    "ts": "2026-10-28T13:01:49Z",
@@ -12928,63 +12980,6 @@
    "ts": "2026-10-28T12:26:05Z",
    "fuente": "KSL News",
    "id": "1ce31104df",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Here are Wednesday's biggest analyst calls: SpaceX, Nvidia, Apple, AMD, Meta, Amazon, Tesla, Boeing & more",
-   "link": "https://www.cnbc.com/2026/10/28/big-wall-street-stocks-covered-on-analyst-calls-include-spacex-boeing.html",
-   "ts": "2026-10-28T12:22:54Z",
-   "fuente": "CNBC",
-   "id": "fa55f9edc3",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Principales recomendaciones de analistas del miércoles: SpaceX, Nvidia, Apple y más",
-   "efecto": "Genera compras o ventas selectivas en acciones tecnológicas del Nasdaq."
-  },
-  {
-   "titulo": "With High Treasury Yields, the Details Matter",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdlpzcnRQZkJ5Y1FaZ3VvcnVseGNxS3A5OFFoUjVSTWdvZ25waGl0TUF3ZWVGcW1EWXFRX0llekxfRVZlUXkwY2FheUhaZkFDMVRJSFJ6d3VGS2g4bTJHS1lhOWNERU1yWm1kczRrRXhFVHExMXdNRmRpellkX2lHMkZ5YThVSnBwSk41RlBUcnE1YklGQ0E?oc=5",
-   "ts": "2026-10-28T12:22:30Z",
-   "fuente": "ETF Database",
-   "id": "29af0b10fd",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "ADP (NASDAQ:ADP) reports Q3 CY2026 in line with expectations",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYWVSS1lNRUpnb0ZpVE5EbUdyMmgyRGxzWDNfNThGVi1nZ2c3ZlBXTzJZYUY5WlFwc3pDdjkyQjBiOWlVZDJKdU9MWl9WQnhIelpTYmVVVmJGT3hBRHZJRDVUdU0tRmhmZHJSY1NyY0Vkemk5c0tDLTA5RTljSkhwVnJMS2FhZmlWelp5ZnJNRXZGdDY2?oc=5",
-   "ts": "2026-10-28T12:17:41Z",
-   "fuente": "Yahoo Finance",
-   "id": "c395f4741d",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Moody's Rates Ripple's $2.6B RLUSD Stablecoin A2, a Day After OCC Bank Approval",
-   "link": "https://decrypt.co/382030/moodys-rates-ripples-2-6b-rlusd-stablecoin-a2-a-day-after-occ-bank-approval?.tsrc=rss",
-   "ts": "2026-10-28T12:16:30Z",
-   "fuente": "Yahoo Finance",
-   "id": "e3b3c3fa1c",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Stocks making the biggest moves premarket: Ultralife, SK Hynix, Robinhood, Enphase Energy & more",
-   "link": "https://www.cnbc.com/2026/10/28/stocks-making-the-biggest-moves-premarket-ulbi-slhy-hood-enph.html",
-   "ts": "2026-10-28T12:08:31Z",
-   "fuente": "CNBC",
-   "id": "02d7613706",
    "activos": [
     "nq"
    ],
@@ -13577,14 +13572,14 @@
     4054.3,
     4055.3,
     4047.7,
-    4052.5
+    4052.0
    ],
    [
-    1793205152,
-    4052.2,
-    4052.2,
-    4052.2,
-    4052.2
+    1793205485,
+    4052.0,
+    4052.0,
+    4052.0,
+    4052.0
    ]
   ],
   "nq": [
@@ -14160,14 +14155,14 @@
     29848.0,
     29866.0,
     29827.5,
-    29840.5
+    29844.0
    ],
    [
-    1793205155,
-    29843.0,
-    29843.0,
-    29843.0,
-    29843.0
+    1793205492,
+    29842.75,
+    29842.75,
+    29842.75,
+    29842.75
    ]
   ],
   "vix": [
@@ -14631,14 +14626,14 @@
     17.31,
     17.38,
     17.29,
-    17.35
+    17.34
    ],
    [
-    1793204851,
-    17.33,
-    17.33,
-    17.33,
-    17.33
+    1793205181,
+    17.35,
+    17.35,
+    17.35,
+    17.35
    ]
   ]
  },
@@ -14766,11 +14761,6 @@
   }
  ],
  "noticias_vistas": [
-  "b02221fefb",
-  "22ecb229aa",
-  "b9007846dc",
-  "83180e827e",
-  "55db47ae22",
   "6acb036b7d",
   "5c2125d680",
   "ddc20f2b74",
@@ -15565,7 +15555,12 @@
   "b55bea1897",
   "ceb0feeb24",
   "1d8ac058a6",
-  "b85603f6f2"
+  "b85603f6f2",
+  "2ead997201",
+  "5af9049212",
+  "052913c34c",
+  "c3004a1ea6",
+  "e1f339a644"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
