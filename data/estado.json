@@ -5354,10 +5354,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ultimo_resultado": "3 negocios nuevos de restaurantes y comida cerca de Cheyenne Ave",
-   "actualizado": "2026-10-28T09:06:22Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
+   "actualizado": "2026-10-28T09:06:26Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -5385,6 +5385,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
+   "ts": "2026-10-28T09:06:26Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -6879,11 +6884,6 @@
    "agente": "disenador",
    "texto": "Muestra lista de Wolfgang Puck Bar & Grill y su mensaje para mandar por texto.",
    "ts": "2026-10-26T07:38:56Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Armando la muestra de Wolfgang Puck Bar & Grill…",
-   "ts": "2026-10-26T07:34:52Z"
   }
  ],
  "reportes": {
