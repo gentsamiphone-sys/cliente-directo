@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4060.7 · NQ 29936.0 · VIX 17.55",
-   "actualizado": "2026-10-28T10:32:33Z"
+   "ultimo_resultado": "Oro 4060.0 · NQ 29931.75 · VIX 17.53 · 1 noticias nuevas",
+   "actualizado": "2026-10-28T10:37:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T10:32:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-28T10:37:37Z",
+   "ultimo_resultado": "1 titulares nuevos: Robinhood Is Moving Beyond Crypto. Momentum Is Building, Says Finance Chief."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4060.0 · NQ 29931.75 · VIX 17.53 · 1 noticias nuevas",
+   "ts": "2026-10-28T10:37:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4060.7 · NQ 29936.0 · VIX 17.55",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "3 titulares nuevos, 1 de alto impacto: CNBC Workforce Executive Summit live updates: Inside Walmart's AI strategy",
    "ts": "2026-10-27T21:22:31Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Coinbase CEO says gold's supply can change, Bitcoin's can't",
-   "ts": "2026-10-27T21:17:35Z"
   }
  ],
  "briefs": [
@@ -11911,10 +11911,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4060.7,
-  "nq": 29936.0,
-  "vix": 17.55,
-  "ts": "2026-10-28T10:32:33Z"
+  "oro": 4060.0,
+  "nq": 29931.75,
+  "vix": 17.53,
+  "ts": "2026-10-28T10:37:37Z"
  },
  "noticias": [
   {
@@ -12036,6 +12036,15 @@
     "dolar"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Robinhood Is Moving Beyond Crypto. Momentum Is Building, Says Finance Chief.",
+   "link": "https://finance.yahoo.com/m/0def8cb9-b1d9-3741-8921-086a2bf90fe7/robinhood-is-moving-beyond.html?.tsrc=rss",
+   "ts": "2026-10-28T09:44:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "843417dade",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Nasdaq futures rise as SK Hynix boosts chips before Fed decision, earnings",
@@ -12788,17 +12797,6 @@
    "impacto": "alto",
    "es": "El oro se mantiene sobre los $4,000 a la espera de la Fed",
    "efecto": "Genera posicionamiento cauto en oro y dólar previo al anuncio."
-  },
-  {
-   "titulo": "Dollar steady ahead of Fed decision, kiwi slumps after RBNZ holds",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRE96SkVILWZEWGsxdTRORUJsWlJ4YmNlclNadUxmdGpHRlNONHllVDY5eTBiZHBsbndwSEtBeDI0STFqdDhsNUxLVVhhVmZrWFdGUVFCaDNGd25VVENDcDdmT1ZUMHFFRWN2enRXeXk1ZUNfNHp5OE8wam94MktvQlNzazVNRG1Ed2lXYTFMVjNCY2JPckJRWlIyQ2ZvVzVqOEsw?oc=5",
-   "ts": "2026-10-28T00:22:00Z",
-   "fuente": "Reuters",
-   "id": "a9d2a408c3",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -13344,15 +13342,15 @@
     1793181600,
     4068.7,
     4068.8,
-    4060.4,
-    4060.6
+    4059.2,
+    4060.3
    ],
    [
-    1793182950,
-    4060.7,
-    4060.7,
-    4060.7,
-    4060.7
+    1793183256,
+    4060.0,
+    4060.0,
+    4060.0,
+    4060.0
    ]
   ],
   "nq": [
@@ -13886,14 +13884,14 @@
     29950.25,
     29956.25,
     29890.75,
-    29936.0
+    29935.25
    ],
    [
-    1793182951,
-    29936.0,
-    29936.0,
-    29936.0,
-    29936.0
+    1793183255,
+    29931.75,
+    29931.75,
+    29931.75,
+    29931.75
    ]
   ],
   "vix": [
@@ -14315,14 +14313,14 @@
     17.47,
     17.63,
     17.47,
-    17.55
+    17.54
    ],
    [
-    1793182651,
-    17.55,
-    17.55,
-    17.55,
-    17.55
+    1793182951,
+    17.53,
+    17.53,
+    17.53,
+    17.53
    ]
   ]
  },
@@ -14450,7 +14448,6 @@
   }
  ],
  "noticias_vistas": [
-  "4e7f376ae2",
   "d565fe2128",
   "941227f9a2",
   "a1676e2303",
@@ -15249,7 +15246,8 @@
   "c8889a6201",
   "60ccfdd082",
   "1ea44db186",
-  "75653bed19"
+  "75653bed19",
+  "843417dade"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
