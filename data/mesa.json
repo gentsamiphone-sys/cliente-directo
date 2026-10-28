@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4059.2 · NQ 29944.5 · VIX 17.51",
-   "actualizado": "2026-10-28T10:42:32Z"
+   "ultimo_resultado": "Oro 4059.0 · NQ 29949.75 · VIX 17.49 · 2 noticias nuevas",
+   "actualizado": "2026-10-28T10:48:01Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T10:42:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-28T10:47:59Z",
+   "ultimo_resultado": "2 titulares nuevos: Al menos 30 muertos en accidente de tren de alta velocidad en España"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4059.0 · NQ 29949.75 · VIX 17.49 · 2 noticias nuevas",
+   "ts": "2026-10-28T10:48:01Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4059.2 · NQ 29944.5 · VIX 17.51",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: Chart: Anthropic's cash pile towers over nearly every U.S. company",
    "ts": "2026-10-27T21:32:36Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "3 titulares nuevos: SEC and Nasdaq Issue Tokenization FAQs",
-   "ts": "2026-10-27T21:27:34Z"
   }
  ],
  "briefs": [
@@ -11911,12 +11911,36 @@
   }
  },
  "en_vivo": {
-  "oro": 4059.2,
-  "nq": 29944.5,
-  "vix": 17.51,
-  "ts": "2026-10-28T10:42:32Z"
+  "oro": 4059.0,
+  "nq": 29949.75,
+  "vix": 17.49,
+  "ts": "2026-10-28T10:47:59Z"
  },
  "noticias": [
+  {
+   "titulo": "At least 30 people reported dead in high-speed Spain train crash",
+   "link": "https://www.cnbc.com/2026/10/28/spain-high-speed-train-crash.html",
+   "ts": "2026-10-28T10:44:01Z",
+   "fuente": "CNBC",
+   "id": "9c28deb599",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Al menos 30 muertos en accidente de tren de alta velocidad en España",
+   "efecto": ""
+  },
+  {
+   "titulo": "GoldMining Commences Pre-Feasibility Study and Begins Infill Drilling with Three Drills at the São Jorge Project, Brazil",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/goldmining-commences-pre-feasibility-study-103000521.html?.tsrc=rss",
+   "ts": "2026-10-28T10:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "a4a7e0d6db",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "GoldMining inicia estudio de prefactibilidad y perforación en São Jorge, Brasil",
+   "efecto": ""
+  },
   {
    "titulo": "Fed likely to go into wait-and-see mode on rates",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaU93czlpTHJXMTJGby0yOGppZGVlVkZzZW4tNC11WTcwVk1yQUZHTVMza0dTLURMRi0tTUtYTHhITkI2OVBWN2k0anZCN2liNnlyNFpaTmFTaWlFTHItWmtBXzh1VWhkRjZBNjVDejQxOGNUTW1HWWRBUzNjbGdKUDV0MlFSWXRsaWQwMXpWQXI?oc=5",
@@ -12772,31 +12796,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Treasury Yields Rise, Eurozone Bond Yields Fall Amid French Concerns",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQUh5anllcENIVlhXM0xrczNZWEVERVdFSE5lRzVkUFY1STBRUUtSZmdHbkRXX2pqNDY1TGxWdDJxTFZKRkc3cFhmUzBjTGUtdmlZaFYybG9tOFVaNk5IZTVpd1FVOW9mZUlRY2I1MFJwblJ3S1hqNVNkSVIyVmg0VzcyTEpncGhaWmUyYnFibVZqUUN2aU41MWxyc1QxYmJpSHVGVG1Jb2RGY1doTWln?oc=5",
-   "ts": "2026-10-28T00:35:33Z",
-   "fuente": "WSJ",
-   "id": "d6e3337109",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gold Clings to Gains Above $4,000 as Markets Await Fed",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeVEweGpTcFBEQ3R5aDdnOUhnaG84X2xJN2JmZ0lNVlRHU0xnOHdxVGd4dW94NmhoSTRuODVVVUtnMzg3VHJrcno5eFhoNjFOV2RQWk80ajlsYkMxUTdTUFJGOHUtenMxM0Q0TkVIVURydGRSZy1QNnlkYUFTTkcwVUs5aWJwS3p2VFFSWXdsemRiSzdsTXRrTFVOYmRRc1BqSnlpZk9EQW1qQ0xWd3Y0?oc=5",
-   "ts": "2026-10-28T00:28:34Z",
-   "fuente": "WSJ",
-   "id": "6f718c6934",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El oro se mantiene sobre los $4,000 a la espera de la Fed",
-   "efecto": "Genera posicionamiento cauto en oro y dólar previo al anuncio."
   }
  ],
  "eventos_avisados": [
@@ -13342,15 +13341,15 @@
     1793181600,
     4068.7,
     4068.8,
-    4058.5,
-    4059.3
+    4058.3,
+    4059.0
    ],
    [
-    1793183547,
-    4059.2,
-    4059.2,
-    4059.2,
-    4059.2
+    1793183866,
+    4059.0,
+    4059.0,
+    4059.0,
+    4059.0
    ]
   ],
   "nq": [
@@ -13884,14 +13883,14 @@
     29951.0,
     29956.25,
     29890.75,
-    29948.75
+    29949.5
    ],
    [
-    1793183549,
-    29944.5,
-    29944.5,
-    29944.5,
-    29944.5
+    1793183878,
+    29949.5,
+    29949.5,
+    29949.5,
+    29949.5
    ]
   ],
   "vix": [
@@ -14313,22 +14312,22 @@
     17.47,
     17.63,
     17.47,
-    17.51
+    17.48
    ],
    [
-    1793183236,
-    17.51,
-    17.51,
-    17.51,
-    17.51
+    1793183566,
+    17.49,
+    17.49,
+    17.49,
+    17.49
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-28T10:12:33Z",
- "ult_4h": 1793183553.2217028,
+ "noticias_traducidas_ts": "2026-10-28T10:47:34Z",
+ "ult_4h": 1793184479.8474758,
  "estrategia_4h": {
   "oro": {
-   "precio": 4060.7,
+   "precio": 4059.0,
    "atr_4h": 22.59,
    "setups": [
     {
@@ -14350,13 +14349,13 @@
      "objetivo": 3989.1,
      "rr": 7.53,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.3,
+     "fuerza_ruptura_atr": 1.28,
      "ruptura": "2026-10-22 08:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29936.0,
+   "precio": 29948.75,
    "atr_4h": 195.64,
    "setups": [
     {
@@ -14378,12 +14377,12 @@
      "objetivo": 29989.25,
      "rr": 5.65,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.01,
+     "fuerza_ruptura_atr": 1.02,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-28T10:32:33Z"
+  "ts": "2026-10-28T10:48:00Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -14448,8 +14447,6 @@
   }
  ],
  "noticias_vistas": [
-  "d565fe2128",
-  "941227f9a2",
   "a1676e2303",
   "cc53fafb87",
   "033e3d8af1",
@@ -15247,7 +15244,9 @@
   "60ccfdd082",
   "1ea44db186",
   "75653bed19",
-  "843417dade"
+  "843417dade",
+  "9c28deb599",
+  "a4a7e0d6db"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
