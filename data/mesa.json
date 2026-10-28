@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4057.9 · NQ 29920.75 · VIX 17.52 · 2 noticias nuevas",
-   "actualizado": "2026-10-28T12:12:37Z"
+   "ultimo_resultado": "Oro 4062.2 · NQ 29932.5 · VIX 17.51",
+   "actualizado": "2026-10-28T12:17:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T12:12:37Z",
-   "ultimo_resultado": "2 titulares nuevos: Stocks making the biggest moves premarket: Ultralife, SK Hynix, Robinhood, Enphase Energy & more"
+   "actualizado": "2026-10-28T12:17:40Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4062.2 · NQ 29932.5 · VIX 17.51",
+   "ts": "2026-10-28T12:17:41Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4057.9 · NQ 29920.75 · VIX 17.52 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Escribiendo el brief institucional…",
    "ts": "2026-10-27T21:33:30Z"
-  },
-  {
-   "agente": "historiador",
-   "texto": "ORO: Sesgo histórico neutral: 2 de 9 años subió esta semana; 2 de 9 subió los 20 días siguientes; análogos 2018, 2021, 2022 · NQ: Sesgo histórico alcista: 6 de 9 años subió esta semana; 7 de 9 subió los 20 días siguientes; análogos 2025, 2021, 2024",
-   "ts": "2026-10-27T21:33:14Z"
   }
  ],
  "briefs": [
@@ -11911,10 +11911,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4057.9,
-  "nq": 29920.75,
-  "vix": 17.52,
-  "ts": "2026-10-28T12:12:37Z"
+  "oro": 4062.2,
+  "nq": 29932.5,
+  "vix": 17.51,
+  "ts": "2026-10-28T12:17:40Z"
  },
  "noticias": [
   {
@@ -13340,16 +13340,16 @@
    [
     1793188800,
     4058.7,
-    4059.2,
+    4063.0,
     4057.5,
-    4058.8
+    4062.2
    ],
    [
-    1793188948,
-    4057.9,
-    4057.9,
-    4057.9,
-    4057.9
+    1793189259,
+    4062.7,
+    4062.7,
+    4062.7,
+    4062.7
    ]
   ],
   "nq": [
@@ -13895,16 +13895,16 @@
    [
     1793188800,
     29919.75,
-    29925.5,
-    29913.75,
-    29917.0
+    29940.0,
+    29900.0,
+    29939.25
    ],
    [
-    1793188955,
-    29920.75,
-    29920.75,
-    29920.75,
-    29920.75
+    1793189259,
+    29933.5,
+    29933.5,
+    29933.5,
+    29933.5
    ]
   ],
   "vix": [
@@ -14331,79 +14331,86 @@
    [
     1793185200,
     17.49,
-    17.52,
+    17.53,
     17.43,
     17.52
    ],
    [
-    1793188651,
-    17.52,
-    17.52,
-    17.52,
+    1793188800,
+    17.53,
+    17.54,
+    17.51,
     17.52
+   ],
+   [
+    1793188951,
+    17.51,
+    17.51,
+    17.51,
+    17.51
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-28T11:52:33Z",
- "ult_4h": 1793188954.2058883,
+ "ult_4h": 1793189860.7415853,
  "estrategia_4h": {
   "oro": {
-   "precio": 4059.8,
-   "atr_4h": 22.59,
+   "precio": 4062.2,
+   "atr_4h": 21.78,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4050.2,
      "entrada": 4050.2,
-     "stop": 4036.65,
+     "stop": 4037.13,
      "objetivo": 4084.1,
-     "rr": 2.5,
-     "estado": "en retesteo",
-     "fuerza_ruptura_atr": 2.34,
+     "rr": 2.59,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 2.43,
      "ruptura": "2026-10-27 12:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4104.75,
+     "stop": 4104.27,
      "objetivo": 3989.1,
-     "rr": 7.53,
+     "rr": 7.81,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.3,
+     "fuerza_ruptura_atr": 1.33,
      "ruptura": "2026-10-22 08:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29947.75,
-   "atr_4h": 195.64,
+   "precio": 29933.5,
+   "atr_4h": 187.46,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 29572.0,
      "entrada": 29572.0,
-     "stop": 29454.61,
+     "stop": 29459.52,
      "objetivo": 29989.25,
-     "rr": 3.55,
+     "rr": 3.71,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.53,
+     "fuerza_ruptura_atr": 1.6,
      "ruptura": "2026-10-27 12:00 UTC"
     },
     {
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29208.61,
+     "stop": 29213.52,
      "objetivo": 29989.25,
-     "rr": 5.65,
+     "rr": 5.9,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.01,
+     "fuerza_ruptura_atr": 1.06,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-28T12:02:34Z"
+  "ts": "2026-10-28T12:17:41Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
