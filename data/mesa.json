@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T21:33:06Z",
-   "ultimo_resultado": "Mapa listo: oro 4081.2 · NQ 29756.25."
+   "actualizado": "2026-10-28T22:47:32Z",
+   "ultimo_resultado": "Estrategia 4H NQ: COMPRA en el nivel 29572.0 · stop 29449.11 · objetivo 30178.0 · R:R 4.93 (en retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T22:42:34Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-28T22:47:31Z",
+   "ultimo_resultado": "2 titulares nuevos: Hands-on with Apple's first touchscreen laptop: Touch is totally optional"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H NQ: COMPRA en el nivel 29572.0 · stop 29449.11 · objetivo 30178.0 · R:R 4.93 (en retesteo). Tú ejecutas.",
+   "ts": "2026-10-28T22:47:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4068.8 · NQ 29659.5 · VIX 16.91",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4064.3 · NQ 29910.75 · VIX 17.52 · 2 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-28T09:37:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4067.1 · NQ 29933.75 · VIX 17.52 · 3 noticias nuevas (3 alto impacto)",
-   "ts": "2026-10-28T09:32:38Z"
   }
  ],
  "briefs": [
@@ -12355,12 +12355,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4068.8,
-  "nq": 29659.5,
+  "oro": 4067.4,
+  "nq": 29636.25,
   "vix": 16.91,
-  "ts": "2026-10-28T22:42:34Z"
+  "ts": "2026-10-28T22:47:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Hands-on with Apple's first touchscreen laptop: Touch is totally optional",
+   "link": "https://www.cnbc.com/2026/10/28/apple-touchscreen-macbook-pro-hands-on.html",
+   "ts": "2026-10-28T22:38:41Z",
+   "fuente": "CNBC",
+   "id": "492d41c741",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Trump says imported robotics pose national security risks but does not impose tariffs",
    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSzYzMENTbWlLLWdKa2YzdVN4bXhKZUpVeG8tWm1RUVFHcmg5bXdiQ2dtY3lWYlY0dlF4anMyWWc2NF9zQld1TjlSMlFhR3hfMkxzY05iRGM5MmFXNGpQaGRNN3p6NW9YYm9sVXZXV0IwTE9BdDE5WkdHN3cwUnFzWGRDRHVPR2MxU1M2ZXktSk5MWG9aOHg4c0Rxc2diRzQ1RWUxZzlNRnJoMi1wTEFZWHNCWEJ0eGlxX01CektB?oc=5",
@@ -12986,6 +12997,15 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "How Much a Single American Needs to Retire Comfortably in Canada, Broken Down by Province",
+   "link": "https://www.investopedia.com/how-much-a-single-american-needs-to-retire-comfortably-in-canada-broken-down-by-province-12182599?.tsrc=rss",
+   "ts": "2026-10-28T19:20:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "313ca8c633",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "Microsoft will post earnings after the bell amid job cuts and new cash-flow test",
    "link": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
    "ts": "2026-10-28T19:19:38Z",
@@ -13216,28 +13236,6 @@
    "impacto": "alto",
    "es": "El presidente de la Fed, Warsh, explica la pausa en las tasas de interés",
    "efecto": ""
-  },
-  {
-   "titulo": "Federal Reserve holds interest rates steady as midterm elections loom - ABC News",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUEhoYVl4OGJtaXFLRU1idHB1dmlvYk1uNEtNNnlMVkFlZEN4N3hpNVB5cmNjWkFEajM2WUZ4bDJJN0pNYlpra21QSGI4cFFwLWllM0xxZlptYWRmdkRlbXAwRWVLcGRBd3J3MDFpUDBvUjVWMElMOGwtZlJMemRJQzczLXI1cWNFMnJKeEcwcGJhUjkzVjZfZ3puam1BQUZFMTRFZ1BIa9IBrAFBVV95cUxQeXRhLUNLYUFqaEtwY25VNnhEUzVzZmRMczBrdVo0SnJXdjdCZjhCbVpURUZJQ2M2MUwyVzlHblFrcTQ0UGhIYUVubHhUZHFVbldqNnJxOFprRG9FRmJIV3ZPaFJiSHZ2a1k0N2R4Q2swcFJ2cDNhZVVJdG0zbG9qaFdvd1l5MXcwbjFWZnBFelBZdFZBMk9pekEzOGFmaEVqVVNmTkx4dXU0eXha?oc=5",
-   "ts": "2026-10-28T18:33:08Z",
-   "fuente": "Breaking News, Latest News and Videos",
-   "id": "850091aded",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Federal Reserve leaves rates unchanged",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hY3FTaWVZX2lUWF9NWVBsNTFPSGxpRGZtMlVOQ0VHV0FKTkhvNEIzVGtDdl8xLTdiTVhZVmZ4YmtNb1RBWHhaSEFCRTBsdVozRW53Q3NmdFFKalE?oc=5",
-   "ts": "2026-10-28T18:31:37Z",
-   "fuente": "Fox Business",
-   "id": "87e37cd01e",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14993,65 +14991,65 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-28T22:32:32Z",
- "ult_4h": 1793226753.7989576,
+ "ult_4h": 1793227651.9578416,
  "estrategia_4h": {
   "oro": {
-   "precio": 4071.4,
-   "atr_4h": 25.09,
+   "precio": 4067.4,
+   "atr_4h": 25.35,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4050.2,
      "entrada": 4050.2,
-     "stop": 4035.15,
+     "stop": 4034.99,
      "objetivo": 4097.2,
-     "rr": 3.12,
+     "rr": 3.09,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.1,
+     "fuerza_ruptura_atr": 2.09,
      "ruptura": "2026-10-27 12:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 4091.2,
      "entrada": 4091.2,
-     "stop": 4106.25,
+     "stop": 4106.41,
      "objetivo": 3989.1,
-     "rr": 6.78,
+     "rr": 6.71,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.17,
+     "fuerza_ruptura_atr": 1.14,
      "ruptura": "2026-10-22 08:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29692.5,
-   "atr_4h": 201.32,
+   "precio": 29635.25,
+   "atr_4h": 204.82,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 29572.0,
      "entrada": 29572.0,
-     "stop": 29451.21,
+     "stop": 29449.11,
      "objetivo": 30178.0,
-     "rr": 5.02,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.49,
+     "rr": 4.93,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 1.46,
      "ruptura": "2026-10-27 12:00 UTC"
     },
     {
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29205.21,
+     "stop": 29203.11,
      "objetivo": 30178.0,
-     "rr": 7.05,
+     "rr": 6.93,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.98,
+     "fuerza_ruptura_atr": 0.97,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-28T22:32:33Z"
+  "ts": "2026-10-28T22:47:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15099,7 +15097,8 @@
   "oro|COMPRA|4050.2|esperando retesteo",
   "oro|COMPRA|4044.0|esperando retesteo",
   "nq|COMPRA|29572.0|esperando retesteo",
-  "oro|COMPRA|4084.1|en retesteo"
+  "oro|COMPRA|4084.1|en retesteo",
+  "nq|COMPRA|29572.0|en retesteo"
  ],
  "alpha_ordenes": [
   {
@@ -15117,8 +15116,6 @@
   }
  ],
  "noticias_vistas": [
-  "000730c62c",
-  "22bcb53533",
   "e36ceb8b13",
   "3f6ca3c6b3",
   "a6f25b7de0",
@@ -15916,7 +15913,9 @@
   "4ca88bb1a6",
   "4cc47df6f0",
   "3784b40b31",
-  "40eeeed930"
+  "40eeeed930",
+  "492d41c741",
+  "313ca8c633"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
