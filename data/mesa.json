@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4059.8 · NQ 29947.75 · VIX 17.43 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-28T12:02:34Z"
+   "ultimo_resultado": "Oro 4058.7 · NQ 29920.0 · VIX 17.48 · 3 noticias nuevas",
+   "actualizado": "2026-10-28T12:07:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T12:02:34Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Maine politics and plastics tariffs"
+   "actualizado": "2026-10-28T12:07:32Z",
+   "ultimo_resultado": "3 titulares nuevos: Traders are betting big against this restaurant giant into earnings"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4058.7 · NQ 29920.0 · VIX 17.48 · 3 noticias nuevas",
+   "ts": "2026-10-28T12:07:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4059.8 · NQ 29947.75 · VIX 17.43 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "historiador",
    "texto": "Revisando qué pasó en esta misma fecha los últimos 10 años y buscando años parecidos…",
    "ts": "2026-10-27T21:33:13Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "ES/NQ: CONFIRMA: ES y NQ van en la misma dirección · ES alcista en 1H",
-   "ts": "2026-10-27T21:33:11Z"
   }
  ],
  "briefs": [
@@ -11911,12 +11911,41 @@
   }
  },
  "en_vivo": {
-  "oro": 4059.8,
-  "nq": 29947.75,
-  "vix": 17.43,
-  "ts": "2026-10-28T12:02:34Z"
+  "oro": 4058.7,
+  "nq": 29920.0,
+  "vix": 17.48,
+  "ts": "2026-10-28T12:07:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Traders are betting big against this restaurant giant into earnings",
+   "link": "https://www.cnbc.com/2026/10/28/traders-are-betting-big-against-chipotle-into-earnings.html",
+   "ts": "2026-10-28T12:04:47Z",
+   "fuente": "CNBC",
+   "id": "682544d326",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "DraftKings CEO Jason Robins says parents should talk with kids about gambling addiction",
+   "link": "https://www.cnbc.com/2026/10/28/draftkings-ceo-jason-robins-parents-kids-should-talk-about-gambling.html",
+   "ts": "2026-10-28T12:00:01Z",
+   "fuente": "CNBC",
+   "id": "1b370b46c4",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "WARABA GOLD APPOINTS GLOBALLY RECOGNISED GEOLOGIST GERNOT WOBER, FORMER VP EXPLORATION AT OSISKO MINING, AS TECHNICAL ADVISOR",
+   "link": "https://finance.yahoo.com/news/waraba-gold-appoints-globally-recognised-120000790.html?.tsrc=rss",
+   "ts": "2026-10-28T12:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "85017b01ff",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Robinhood to rally on prediction markets and new offerings, Bernstein says",
    "link": "https://www.cnbc.com/2026/10/28/robinhood-to-rally-on-prediction-markets-bernstein-says.html",
@@ -12751,37 +12780,6 @@
    "id": "fa58b4f468",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "U.S. Treasury Yields Rise Ahead of Federal Reserve Interest-Rate Decision",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaEkwMGl6T29kQlFSbU9EanZNX3VMdG5PcG9tWXh3cUQ0U0R5ZTFuUU1QRl9PWl9nd2l4bFpwWl9OOFFTS0VfSV9UcFR0VEtsRW9ld25admRIbkFQa292VTNWVV9xb2g3ZlQwZ2ZuNlVSQkNTQzhGN0RDSl9wZ0hDWi1fcGFTRnJHUTAzeEhUY1BZeVFJU1ZyaVFPdDkzNm9sVTVmcm9pSkxRWjlTOHRpSjlPNmxUb0pPaHBN?oc=5",
-   "ts": "2026-10-28T07:19:35Z",
-   "fuente": "WSJ",
-   "id": "97f8509a91",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "A WNBA Finals game at lunchtime? Atlanta Dream criticizes league over schedule",
-   "link": "https://www.cnbc.com/2026/10/28/wnba-atlanta-dream-golden-state-valkyries-flavor-flav-hillary-clinton-.html",
-   "ts": "2026-10-28T07:15:45Z",
-   "fuente": "CNBC",
-   "id": "3ebc191fc2",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Don Kohn's infamous 'death march' hikes were referenced in Kevin Warsh's Jackson Hole speech—now the Fed veteran is weighing the chairman's path ahead",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbGM0bXktaHFRcWJVZUxzMzc4bmJYbjI2RnMzd2VkZUdza2ROalRqQTVKN0lpUGFaUTJNZ01TOFVYSmpKXzNOb3VONDBqVG5CUUE3YmE4cUhmUHhLdFdDZmU4TEJOTTFuVF9veXRMV3NENlNISGRQTXhIbmNnMzJxZmFGcFF3SV9XQnBVWGdDWQ?oc=5",
-   "ts": "2026-10-28T07:14:45Z",
-   "fuente": "Fortune",
-   "id": "d15a822bca",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -13335,14 +13333,14 @@
     4058.5,
     4062.8,
     4056.4,
-    4060.4
+    4058.8
    ],
    [
-    1793188349,
-    4059.8,
-    4059.8,
-    4059.8,
-    4059.8
+    1793188648,
+    4058.7,
+    4058.7,
+    4058.7,
+    4058.7
    ]
   ],
   "nq": [
@@ -13883,14 +13881,14 @@
     29946.5,
     29969.0,
     29910.5,
-    29950.25
+    29923.25
    ],
    [
-    1793188350,
-    29947.75,
-    29947.75,
-    29947.75,
-    29947.75
+    1793188651,
+    29920.0,
+    29920.0,
+    29920.0,
+    29920.0
    ]
   ],
   "vix": [
@@ -14318,15 +14316,15 @@
     1793185200,
     17.49,
     17.52,
-    17.44,
-    17.44
+    17.43,
+    17.48
    ],
    [
-    1793188051,
-    17.43,
-    17.43,
-    17.43,
-    17.43
+    1793188336,
+    17.48,
+    17.48,
+    17.48,
+    17.48
    ]
   ]
  },
@@ -14454,9 +14452,6 @@
   }
  ],
  "noticias_vistas": [
-  "43400a899f",
-  "5193955722",
-  "e71c885d66",
   "6ddc821a5d",
   "76f31c5f15",
   "d5b6687d37",
@@ -15253,7 +15248,10 @@
   "6d35152ca2",
   "b55719caa2",
   "7c5cb5fa3d",
-  "a397c3acd2"
+  "a397c3acd2",
+  "682544d326",
+  "1b370b46c4",
+  "85017b01ff"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
