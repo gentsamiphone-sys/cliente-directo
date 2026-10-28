@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4048.2 · NQ 29923.0 · VIX 17.52 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-28T05:52:36Z"
+   "ultimo_resultado": "Oro 4047.9 · NQ 29922.5 · VIX 17.52 · 4 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-28T05:57:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T05:52:35Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Los beneficios antes de impuestos de UBS saltan un 27% hasta los 3.590 millones en el tercer trimestre"
+   "actualizado": "2026-10-28T05:57:33Z",
+   "ultimo_resultado": "4 titulares nuevos, 2 de alto impacto: SK Hynix shares soar over 10 % as profit beats, chipmaker to return $25 billion to investors"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4047.9 · NQ 29922.5 · VIX 17.52 · 4 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-28T05:57:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4048.2 · NQ 29923.0 · VIX 17.52 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4071.3 · NQ 29734.25 · VIX 17.6 · 2 noticias nuevas",
    "ts": "2026-10-27T15:12:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4065.7 · NQ 29698.75 · VIX 17.63",
-   "ts": "2026-10-27T15:07:36Z"
   }
  ],
  "briefs": [
@@ -11729,12 +11729,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4048.2,
-  "nq": 29923.0,
+  "oro": 4047.9,
+  "nq": 29922.5,
   "vix": 17.52,
-  "ts": "2026-10-28T05:52:35Z"
+  "ts": "2026-10-28T05:57:34Z"
  },
  "noticias": [
+  {
+   "titulo": "SK Hynix shares soar over 10 % as profit beats, chipmaker to return $25 billion to investors",
+   "link": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
+   "ts": "2026-10-28T05:54:33Z",
+   "fuente": "CNBC",
+   "id": "a3c8605120",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Oil prices rise as Houthi attacks on Saudi Arabian refinery raise supply worries",
+   "link": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
+   "ts": "2026-10-28T05:52:51Z",
+   "fuente": "CNBC",
+   "id": "63f338d535",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "UBS pre-tax profits jump 27% to $3.59 billion in the third quarter",
    "link": "https://www.cnbc.com/2026/10/28/ubs-earnings-third-quarter.html",
@@ -11804,6 +11822,15 @@
    "id": "90e6c97fdd",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "'1 out of 10 Farmers Is Making a Profit': Rising costs, tariffs squeeze Texas farmers as small farms disappear",
+   "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPSHhiSmZYMVRDZ1k1Y1Rkdm5sa2VQUDE3Um92bHI4YVhoT09xdU1IZjNYaERvUE95Wk9NNkZlLUtXUEJxY0tXMGRVZ25aYnZVc1dsYlFqWFRpZ1YyTjJXTllERWpRTXhwQllJNFdMWjhwbVg1dzJSLTNxbE03ektrVHhNbGh0ZGZtSlJUdG1LN3hqQ2g1bDR5Y3R0UW1wWHhkX1J3VXZ4RnQtXzlnYXZzZVpsQm9FQVFJaThLckF4RXVwbVJha1gtMmdnSTBwYlNiOU1Ra3JuRU9KV0JLVXlKTmFMQWppWlFEdEliZWVvMXpLVlhGQ3NkZkcxQ1dfUjZMNXVibXBzd3R0cnRZaXlpbQ?oc=5",
+   "ts": "2026-10-28T04:29:00Z",
+   "fuente": "WFAA",
+   "id": "8df30671ee",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Stock futures are mixed as traders await Fed decision, Big Tech earnings: Live updates",
@@ -11920,6 +11947,18 @@
    "impacto": "medio",
    "es": "Las acciones de SK Hynix suben un 8% tras superar beneficios y anunciar gran retornos a inversores",
    "efecto": "Impulsa al NASDAQ 100 al alza por optimismo en el sector semiconductores."
+  },
+  {
+   "titulo": "Gold falls toward $4,040 as dollar edges higher ahead of Fed decision",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-steadies-above-4-000-012707891.html?.tsrc=rss",
+   "ts": "2026-10-28T01:27:07Z",
+   "fuente": "Yahoo Finance",
+   "id": "65f5ce5ba4",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Gold steadies above $4,000 as traders await Fed decision, PCE data",
@@ -12595,53 +12634,6 @@
    "impacto": "medio",
    "es": "Lo que el oro y el platino indican sobre la dirección bursátil",
    "efecto": ""
-  },
-  {
-   "titulo": "Got a Minute? Rep. Stephen Horsford discusses housing, tariffs, and Iran in re-election race",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaWllOFdNSUNESm9aRzctTVVBaHA3OWV4d2NsYTU4WC1qOWZJTHdJNmxfTEliYlE1NEJpYUhRaG5XaFc3c1g0aGVBOGVCb05jMU9yeUtTSW1sZDI2dGdMTlJVdjBPX2FzZjlta01KSF83aFV2YUlDU2lWbWZKdU5CYnFROFNaR2NVZHlCNGVIYWw3Z0NUemE0Mm5hV1g5b0pVT1ZwMk9kZnMyT0tNQjJYRWYzbkNheFJq0gHMAUFVX3lxTFBmOVhzLXgwVlkxb2hMVUFfUjhHdHRheUMxV2RFUGIyUnQ4S3d2V0g3NkdnMmh3ck1pX09mMnNrWmhGdUJ3ODMxTUpFUDBVS2t2dEZLM3ZjWlk1YUdQaGRFVVBxTUhhakgzYnRoWGhLOEVYUjdlLXM4aDdLanJQMHhJOUlQUDFSS2diLVh2RWF1UlIxMHo0anhDTkl1M3RFSFhVODJMb3lIU3hvVERVRDhLZU5iN1hZSWczUlFyMERPNTcybldVZnAxNUt3YQ?oc=5",
-   "ts": "2026-10-27T20:29:00Z",
-   "fuente": "FOX5 Vegas",
-   "id": "8e81197975",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio",
-   "es": "Representante Horsford discute vivienda, aranceles e Irán.",
-   "efecto": "Riesgo geopolítico sobre Irán estimula compras defensivas de oro."
-  },
-  {
-   "titulo": "Federal Reserve to announce decision on interest rates ahead of midterms",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMHVSTHNzZjBMMWZjc0RLQUVObm8yX1V3dnRUVWR6NHQzcGlPV2gxcEg4YUJIMW5fTzZheC1IYlBUSlh3akZlVXNSZnVpeGdvZXdiNklxdWdjblpkUEdqbEI4SnVxQ05aVWxWQkRsVzlFXzN2cFdNRFJjT1pxRmdtX2h1SXhZRmdTQk41V25lQ1JBZDRwcTdidGNJLW0wWm03WlpRdi1yU1BRcGNCMGc?oc=5",
-   "ts": "2026-10-27T20:29:00Z",
-   "fuente": "Spectrum News",
-   "id": "ff12fcf603",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Marley McNealy and Lauryn Elmore Secure Gold Medals at 2026 World Boxing U19 Championships",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQU1NROGVlbkNKOC10bWRuSXhBdzI0M01ic1RVcEZ5QVNEVlEtWjZOcU5hNmMzWGJQdzltcjgyTzY1MWJfejhpcFlObkdmTzhNX2tRT3ROa0hCWFZwSkcxSWpzT3lSNjFNdGVVLWpxd2Q1YUd6WnZlbi1xYTZOV3dOWXl2RnhpZW5pdUx3eTNZSm1hSTVoT1hMWHM4VXExWUZYLXdRYWR1djNMSDFWOXpRQ2RzWjdObldWcjRoUm1NS0NXalcxSUJDa2hfdmNsZFlpRlF3?oc=5",
-   "ts": "2026-10-27T20:28:24Z",
-   "fuente": "USA Boxing",
-   "id": "da2304d7ee",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Seagate (NASDAQ:STX) surprises with Q3 sales but stock drops",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbWxYTHpKRll3X3YyOWVXU21lX3R2STduNmlvaXJEWEpuQzdvNVg2M1oyZDFZdDRGMTlLSEFkdXh4NmxvbTFjNzB5OUtralVKNEw3UXQzNnNZQVFBQXNhUnFzRUFFblpvRzlJR0l4RWpMd3UwRXBhNE1QYVh2dzluX2J5UGJEc2IwNUM2V3FpdmtINWFtQzdmV1RnQWE?oc=5",
-   "ts": "2026-10-27T20:26:25Z",
-   "fuente": "Yahoo Finance",
-   "id": "7e09520777",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13139,14 +13131,14 @@
     4049.6,
     4051.0,
     4045.4,
-    4048.2
+    4048.1
    ],
    [
-    1793166152,
-    4048.4,
-    4048.4,
-    4048.4,
-    4048.4
+    1793166447,
+    4047.9,
+    4047.9,
+    4047.9,
+    4047.9
    ]
   ],
   "nq": [
@@ -13631,14 +13623,14 @@
     29891.25,
     29932.0,
     29881.75,
-    29920.0
+    29921.5
    ],
    [
-    1793166151,
-    29923.0,
-    29923.0,
-    29923.0,
-    29923.0
+    1793166452,
+    29922.5,
+    29922.5,
+    29922.5,
+    29922.5
    ]
   ],
   "vix": [
@@ -14265,10 +14257,6 @@
   }
  ],
  "noticias_vistas": [
-  "10250076de",
-  "b542e81998",
-  "a963f7ec84",
-  "d23ec34f39",
   "762ec6e46e",
   "3d984c473a",
   "04d6718a3e",
@@ -15064,7 +15052,11 @@
   "4476e70a3f",
   "3d08577a2f",
   "41b517cb30",
-  "de15879326"
+  "de15879326",
+  "a3c8605120",
+  "63f338d535",
+  "8df30671ee",
+  "65f5ce5ba4"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
