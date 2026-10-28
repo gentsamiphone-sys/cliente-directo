@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4070.9 · NQ 29816.75 · VIX 17.52",
-   "actualizado": "2026-10-28T01:22:34Z"
+   "ultimo_resultado": "Oro 4072.5 · NQ 29852.5 · VIX 17.52 · 2 noticias nuevas",
+   "actualizado": "2026-10-28T01:27:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T01:22:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-28T01:27:33Z",
+   "ultimo_resultado": "2 titulares nuevos: Treasury Yields Rise, Eurozone Bond Yields Fall Amid French Concerns"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4072.5 · NQ 29852.5 · VIX 17.52 · 2 noticias nuevas",
+   "ts": "2026-10-28T01:27:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4070.9 · NQ 29816.75 · VIX 17.52",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Estrategia 4H NQ: COMPRA: esperar retesteo de 29345.0 · stop 29218.81 · objetivo 29613.0 · R:R 2.12 (esperando retesteo). Tú ejecutas.",
    "ts": "2026-10-27T12:32:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4027.9 · NQ 29572.0 · VIX 17.82 · 4 noticias nuevas",
-   "ts": "2026-10-27T12:27:34Z"
   }
  ],
  "briefs": [
@@ -11729,10 +11729,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4070.9,
-  "nq": 29816.75,
+  "oro": 4072.5,
+  "nq": 29852.5,
   "vix": 17.52,
-  "ts": "2026-10-28T01:22:33Z"
+  "ts": "2026-10-28T01:27:33Z"
  },
  "noticias": [
   {
@@ -11756,6 +11756,17 @@
    "id": "be7f39557b",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Treasury Yields Rise, Eurozone Bond Yields Fall Amid French Concerns",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQUh5anllcENIVlhXM0xrczNZWEVERVdFSE5lRzVkUFY1STBRUUtSZmdHbkRXX2pqNDY1TGxWdDJxTFZKRkc3cFhmUzBjTGUtdmlZaFYybG9tOFVaNk5IZTVpd1FVOW9mZUlRY2I1MFJwblJ3S1hqNVNkSVIyVmg0VzcyTEpncGhaWmUyYnFibVZqUUN2aU41MWxyc1QxYmJpSHVGVG1Jb2RGY1doTWln?oc=5",
+   "ts": "2026-10-28T00:35:33Z",
+   "fuente": "WSJ",
+   "id": "d6e3337109",
+   "activos": [
+    "dolar"
    ],
    "impacto": "medio"
   },
@@ -12612,15 +12623,6 @@
    "impacto": "medio",
    "es": "Elecciones de mitad de periodo: cómo la economía impacta a los votantes",
    "efecto": "Genera cautela en mercados por posibles cambios regulatorios y fiscales."
-  },
-  {
-   "titulo": "Boeing shares slide on a disappointing cash flow update. Why this dip is buyable",
-   "link": "https://www.cnbc.com/investingclub/2026/10/27/boeing-shares-slide-on-a-disappointing-cash-flow-update-why-this-dip-is-buyable-.html",
-   "ts": "2026-10-27T19:21:20Z",
-   "fuente": "CNBC",
-   "id": "22c92e1887",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -13258,14 +13260,14 @@
     4076.1,
     4077.9,
     4069.6,
-    4071.2
+    4072.5
    ],
    [
-    1793149951,
-    4070.9,
-    4070.9,
-    4070.9,
-    4070.9
+    1793150240,
+    4072.5,
+    4072.5,
+    4072.5,
+    4072.5
    ]
   ],
   "nq": [
@@ -13890,14 +13892,14 @@
     29862.75,
     29867.25,
     29809.75,
-    29829.0
+    29844.25
    ],
    [
-    1793149951,
-    29816.75,
-    29816.75,
-    29816.75,
-    29816.75
+    1793150253,
+    29850.25,
+    29850.25,
+    29850.25,
+    29850.25
    ]
   ],
   "vix": [
@@ -14524,8 +14526,6 @@
   }
  ],
  "noticias_vistas": [
-  "e5f19b6fd1",
-  "f4fd292844",
   "02eb6f78d2",
   "2ab4c980ae",
   "77dab6b53c",
@@ -15323,7 +15323,9 @@
   "8e8d363f93",
   "be7f39557b",
   "613ad59271",
-  "ed14dc05e1"
+  "ed14dc05e1",
+  "d6e3337109",
+  "6be2fa3459"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
