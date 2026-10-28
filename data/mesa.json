@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4060.9 · NQ 29892.5 · VIX 17.52 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-28T02:07:31Z"
+   "ultimo_resultado": "Oro 4061.9 · NQ 29876.75 · VIX 17.52 · 3 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-28T02:12:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T02:07:29Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Nasdaq Jumps 308 Points on Broadcom's Big Anthropic Deal: Stock Market Today"
+   "actualizado": "2026-10-28T02:12:33Z",
+   "ultimo_resultado": "3 titulares nuevos, 3 de alto impacto: Stock futures are little changed as traders await Fed decision, Big Tech earnings: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4061.9 · NQ 29876.75 · VIX 17.52 · 3 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-28T02:12:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4060.9 · NQ 29892.5 · VIX 17.52 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +104,206 contratos.",
    "ts": "2026-10-27T12:33:01Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-10-27T12:32:59Z"
   }
  ],
  "briefs": [
@@ -11729,10 +11729,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4060.9,
-  "nq": 29892.5,
+  "oro": 4061.9,
+  "nq": 29876.75,
   "vix": 17.52,
-  "ts": "2026-10-28T02:07:30Z"
+  "ts": "2026-10-28T02:12:34Z"
  },
  "noticias": [
   {
@@ -11785,6 +11785,17 @@
    "efecto": "impulsa al alza al sector tecnológico y al NQ por optimismo corporativo."
   },
   {
+   "titulo": "Stock futures are little changed as traders await Fed decision, Big Tech earnings: Live updates",
+   "link": "https://www.cnbc.com/2026/10/27/stock-market-today-live-updates.html",
+   "ts": "2026-10-28T00:46:49Z",
+   "fuente": "CNBC",
+   "id": "a59c59e709",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Fire at Brookhaven MARTA station causes Gold Line delays",
    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPN3ZjZVlFRk9pZUY0MXlFVUFzYVVxMnAxcXplRDlPalRERTFRejE0N0JUb25NMXdoU2F1bjFud1poTDZ0SzFTZ1haY3BWcm5tcWRDOHVzcGF0UVlaRzJRV1U2SmtKdDlnQ2pzc0x4YzJsZUpRV2otOUJVQ1lGNTAxYWktNzQ2RmtjSzNDZ2thRmZKb3BWN3VocDFoRmRPR0UzdjNqaTlkdDlXWlJTSS1HVnZaYkZ3aHUtY1ZoV2pGNkZTWHpKcGtoQUFWQXlnUU5jV0lPdkhVVzYzenA4c3RNdDdQeHF5b21NSXBj?oc=5",
    "ts": "2026-10-28T00:42:00Z",
@@ -11819,6 +11830,17 @@
    "impacto": "alto",
    "es": "El oro se mantiene sobre los $4,000 a la espera de la Fed",
    "efecto": "Genera posicionamiento cauto en oro y dólar previo al anuncio."
+  },
+  {
+   "titulo": "Dollar steady ahead of Fed decision, kiwi slumps after RBNZ holds",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRE96SkVILWZEWGsxdTRORUJsWlJ4YmNlclNadUxmdGpHRlNONHllVDY5eTBiZHBsbndwSEtBeDI0STFqdDhsNUxLVVhhVmZrWFdGUVFCaDNGd25VVENDcDdmT1ZUMHFFRWN2enRXeXk1ZUNfNHp5OE8wam94MktvQlNzazVNRG1Ed2lXYTFMVjNCY2JPckJRWlIyQ2ZvVzVqOEsw?oc=5",
+   "ts": "2026-10-28T00:22:00Z",
+   "fuente": "Reuters",
+   "id": "a9d2a408c3",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Dollar holds gains ahead of Fed policy signal, RBNZ decision",
@@ -12603,32 +12625,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "GM Stock Jumps 6% On Hybrid SUV Plans And Nasdaq Switch",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVEhud1hBSmtRNWlNSEpJcEZ3WUpNOU5tZUxNdnV0eXlhQ2hqOGNYMEx5NWZ2cXlwZjh5cjZ2SjJBRHFFUnkwbEZxdzREM3lSVC1mRG83cGxQN1Y4MUJYYnlvMUNucnVyS3QtSHIySzJ5MG9ZNHBhaV9SbWZmU2FkSjFlaUhwT3J4d0ItM0U4LWlMZw?oc=5",
-   "ts": "2026-10-27T19:58:38Z",
-   "fuente": "Yahoo Finance",
-   "id": "f3f77e9c98",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Acciones de GM saltan 6% por planes de SUV híbrida y cambio al Nasdaq",
-   "efecto": ""
-  },
-  {
-   "titulo": "AI debt fears ease ahead of Oracle, Alphabet and Amazon updates. Here's what to watch.",
-   "link": "https://www.cnbc.com/2026/10/27/ai-debt-hyperscaler-earnings.html",
-   "ts": "2026-10-27T19:57:35Z",
-   "fuente": "CNBC",
-   "id": "a4044d5d15",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto",
-   "es": "Disminuyen los temores sobre la deuda de IA antes de los reportes de Oracle, Alphabet y Amazon.",
-   "efecto": "Impulsa al NASDAQ 100 al aliviar preocupaciones sobre el sector tecnológico."
   }
  ],
  "eventos_avisados": [
@@ -12645,13 +12641,6 @@
  ],
  "velas": {
   "oro": [
-   [
-    1792645200,
-    4107.0,
-    4108.4,
-    4082.4,
-    4105.4
-   ],
    [
     1792648800,
     4105.2,
@@ -13266,24 +13255,24 @@
     4076.1,
     4077.9,
     4059.2,
-    4061.1
+    4062.4
    ],
    [
-    1793152648,
-    4060.9,
-    4060.9,
-    4060.9,
-    4060.9
+    1793152800,
+    4062.7,
+    4063.2,
+    4060.7,
+    4061.7
+   ],
+   [
+    1793152952,
+    4061.9,
+    4061.9,
+    4061.9,
+    4061.9
    ]
   ],
   "nq": [
-   [
-    1792645200,
-    29620.0,
-    29627.0,
-    29507.25,
-    29545.0
-   ],
    [
     1792648800,
     29545.5,
@@ -13898,14 +13887,21 @@
     29862.75,
     29903.0,
     29809.75,
-    29883.0
+    29871.25
    ],
    [
-    1793152648,
-    29892.5,
-    29892.5,
-    29892.5,
-    29892.5
+    1793152800,
+    29871.25,
+    29881.25,
+    29866.0,
+    29875.25
+   ],
+   [
+    1793152945,
+    29876.75,
+    29876.75,
+    29876.75,
+    29876.75
    ]
   ],
   "vix": [
@@ -14532,9 +14528,6 @@
   }
  ],
  "noticias_vistas": [
-  "2dc1349a8f",
-  "698aab7259",
-  "e4f9a49e64",
   "fc2b79483c",
   "c9c0003f52",
   "c66fe7d4ed",
@@ -15331,7 +15324,10 @@
   "aac1923a57",
   "27badff2d5",
   "598c119925",
-  "7261e98082"
+  "7261e98082",
+  "a59c59e709",
+  "a9d2a408c3",
+  "999a926cb8"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
