@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4066.9 · NQ 29936.5 · VIX 17.57 · 1 noticias nuevas",
-   "actualizado": "2026-10-28T10:07:33Z"
+   "ultimo_resultado": "Oro 4068.7 · NQ 29950.75 · VIX 17.5 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-28T10:12:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T10:07:33Z",
-   "ultimo_resultado": "1 titulares nuevos: Musk's PAC lawyer runs in Texas House district that is home to billionaire's business interests"
+   "actualizado": "2026-10-28T10:12:34Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Es probable que la Fed adopte una postura de espera sobre las tasas"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4068.7 · NQ 29950.75 · VIX 17.5 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-28T10:12:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4066.9 · NQ 29936.5 · VIX 17.57 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4073.6 · NQ 29793.75 · VIX 17.52 · 3 noticias nuevas",
    "ts": "2026-10-27T20:57:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4073.5 · NQ 29787.25 · VIX 17.52 · 3 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-27T20:52:33Z"
   }
  ],
  "briefs": [
@@ -11911,12 +11911,27 @@
   }
  },
  "en_vivo": {
-  "oro": 4066.9,
-  "nq": 29936.5,
-  "vix": 17.57,
-  "ts": "2026-10-28T10:07:33Z"
+  "oro": 4068.7,
+  "nq": 29950.75,
+  "vix": 17.5,
+  "ts": "2026-10-28T10:12:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Fed likely to go into wait-and-see mode on rates",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaU93czlpTHJXMTJGby0yOGppZGVlVkZzZW4tNC11WTcwVk1yQUZHTVMza0dTLURMRi0tTUtYTHhITkI2OVBWN2k0anZCN2liNnlyNFpaTmFTaWlFTHItWmtBXzh1VWhkRjZBNjVDejQxOGNUTW1HWWRBUzNjbGdKUDV0MlFSWXRsaWQwMXpWQXI?oc=5",
+   "ts": "2026-10-28T10:05:43Z",
+   "fuente": "Reuters",
+   "id": "945ef5117f",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Es probable que la Fed adopte una postura de espera sobre las tasas",
+   "efecto": ""
+  },
   {
    "titulo": "Musk's PAC lawyer runs in Texas House district that is home to billionaire's business interests",
    "link": "https://www.cnbc.com/2026/10/28/elon-musk-chris-gober-rourk-texas-10th-congress-election.html",
@@ -12793,15 +12808,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "SK Hynix third-quarter profit sharply beats estimates on AI memory boost",
-   "link": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
-   "ts": "2026-10-27T23:34:59Z",
-   "fuente": "CNBC",
-   "id": "0633070cd9",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -13341,14 +13347,21 @@
     4066.3,
     4069.8,
     4062.9,
-    4066.8
+    4069.0
    ],
    [
-    1793181433,
-    4066.9,
-    4066.9,
-    4066.9,
-    4066.9
+    1793181600,
+    4068.7,
+    4068.8,
+    4067.7,
+    4068.5
+   ],
+   [
+    1793181752,
+    4068.7,
+    4068.7,
+    4068.7,
+    4068.7
    ]
   ],
   "nq": [
@@ -13873,16 +13886,23 @@
    [
     1793178000,
     29927.25,
-    29948.5,
+    29951.75,
     29891.25,
-    29938.75
+    29949.75
    ],
    [
-    1793181453,
-    29936.75,
-    29936.75,
-    29936.75,
-    29936.75
+    1793181600,
+    29951.0,
+    29956.25,
+    29941.25,
+    29949.75
+   ],
+   [
+    1793181754,
+    29949.75,
+    29949.75,
+    29949.75,
+    29949.75
    ]
   ],
   "vix": [
@@ -14297,18 +14317,18 @@
     17.56,
     17.61,
     17.51,
-    17.57
+    17.51
    ],
    [
-    1793181151,
-    17.57,
-    17.57,
-    17.57,
-    17.57
+    1793181451,
+    17.5,
+    17.5,
+    17.5,
+    17.5
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-28T09:42:33Z",
+ "noticias_traducidas_ts": "2026-10-28T10:12:33Z",
  "ult_4h": 1793181753.7628803,
  "estrategia_4h": {
   "oro": {
@@ -14432,7 +14452,6 @@
   }
  ],
  "noticias_vistas": [
-  "1dd6b683bf",
   "be0d0d0189",
   "4008fe9bf7",
   "ff506dc2d4",
@@ -15231,7 +15250,8 @@
   "34cc337b18",
   "10a56442c1",
   "f388cdb20d",
-  "f3a8da336b"
+  "f3a8da336b",
+  "945ef5117f"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
