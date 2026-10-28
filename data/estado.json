@@ -5355,9 +5355,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando restaurantes y comida sin página web cerca de Nellis Blvd…",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-10-28T13:02:31Z"
+   "actualizado": "2026-10-28T13:02:33Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -5385,6 +5385,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando restaurantes y comida sin página web cerca de Nellis Blvd…",
+   "ts": "2026-10-28T13:02:33Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 239 textos listos para mandar",
@@ -6879,11 +6884,6 @@
    "agente": "buscador",
    "texto": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Cheyenne Ave…",
    "ts": "2026-10-26T11:02:32Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Terminó su turno: 215 textos listos para mandar",
-   "ts": "2026-10-26T10:37:35Z"
   }
  ],
  "reportes": {
