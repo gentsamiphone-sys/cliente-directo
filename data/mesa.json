@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4090.2 · NQ 30063.5 · VIX 16.93 · 3 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-28T20:12:51Z"
+   "ultimo_resultado": "Oro 4086.9 · NQ 29975.5 · VIX 16.47 · 4 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-28T20:17:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-28T20:12:37Z",
-   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: Alphabet's free cash flow sinks further, Q3 capex expectations miss in worrying sign for AI trade"
+   "actualizado": "2026-10-28T20:17:31Z",
+   "ultimo_resultado": "4 titulares nuevos, 3 de alto impacto: Wall Street ends higher as Fed holds key rate steady, focus turns to earnings"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4086.9 · NQ 29975.5 · VIX 16.47 · 4 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-28T20:17:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4090.2 · NQ 30063.5 · VIX 16.93 · 3 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +104,206 contratos.",
    "ts": "2026-10-28T06:33:03Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-10-28T06:33:01Z"
   }
  ],
  "briefs": [
@@ -12133,10 +12133,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4090.2,
-  "nq": 30063.5,
-  "vix": 16.93,
-  "ts": "2026-10-28T20:12:38Z"
+  "oro": 4086.9,
+  "nq": 29975.5,
+  "vix": 16.47,
+  "ts": "2026-10-28T20:17:32Z"
  },
  "noticias": [
   {
@@ -12191,6 +12191,18 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Wall Street ends higher as Fed holds key rate steady, focus turns to earnings",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQVNrQUVwN1c3SjBCODU1TXUwRy1hQ2lIQUxFZkJ3dGhXa0NZalhVTFFoeTU4MlB3VDRwWE1QRktITG5FZnd1eUVDTjRUankwRGgzRkRKTGdwZDVDbWUyTWVKNlRKVld5RVdaTllzZkVhdXUzNkZUOU5RWWNOQVJTY2xuaDJZZXlybC05LXRmTmpPb2RvVlliLWxBUXZVRldXU3kyY2pWb1ZmZlFNUU1KMmN4aV9wMk9Lai01YXcza0JqdDQ?oc=5",
+   "ts": "2026-10-28T20:01:12Z",
+   "fuente": "Reuters",
+   "id": "51ac3aa897",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Oracle stock pops 11% as long-term revenue forecast and clarity on financing ease debt concerns",
@@ -12353,6 +12365,17 @@
    "ts": "2026-10-28T19:18:44Z",
    "fuente": "CNBC",
    "id": "e9d2c7b651",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Fed chairman talks tough on inflation — plus, what's behind Micron's big rally",
+   "link": "https://www.cnbc.com/investingclub/2026/10/28/fed-chairman-talks-tough-on-inflation-plus-whats-behind-microns-big-rally.html",
+   "ts": "2026-10-28T19:17:35Z",
+   "fuente": "CNBC",
+   "id": "ff828caa13",
    "activos": [
     "dolar"
    ],
@@ -12604,6 +12627,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "The Federal Reserve leaves interest rates unchanged less than a week before the midterms",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZDJZYlFfNDlPRW9hdW54TlN6d2UtampPaGJqNmJVV05CdjQ3eUI3djFFekY5Zy04d05QWXNnNjFKakxvY1VjUDhCcURleTRfY1ByekFMY1NLYWl0dmhUR2JUTFl6RFlhdk1JdzljY3NUUFFaVHdraXU2ZVBaSzE1YllBd1ZpaTdRVldaMmJXV2Z6SWI3cW5FYnMwemFNSENxUloxLTlNZmRieWM2TmM1WkxQTS10TzNEYTM3TjBzMGdpNl9ZamdoNnJySXg2TzhwZmJIWl84a0FsejF4bElwYXRFTFFfTUXSAfsBQVVfeXFMTWgzaEtuNVVxMGpUUkFkblFNeWRCTHg4bTNpNWJ3THlVUFJYV1FtTTM3Z3JMYmVIdDJFenBIWDdFaDJsQ1AxVWdPV3J0OE5WY0trRDdBdTFUX0IzS01aaUU5UFdLWWRZQzJUVnJHdC1ldzIxWWRsUmx3V0dYYmxGUlpyS0NYMFpSTEpVMFJLSTd4aUZlMWIzWlROTmY4SHlHQnZfMElVWDl6YVVKWWhadkdDQUVld0VhSkxBT2pqX3JkNTNCcEZILVBkTFdLLWMyRWt4UFpxZ05DUzhPQldrbmhTeEFfY01UMThmT3JvaVFfVDl4YmxUOTg5VDg?oc=5",
+   "ts": "2026-10-28T18:24:17Z",
+   "fuente": "EL PAÍS English",
+   "id": "0dd0fc9109",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Chip Earnings Power Averages Higher as Nasdaq Volatility Cools Midweek",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObGVwM1NMOGtuZG94ZXVObTBtZWxrVmxTNy1TdXZBUk13OEFnQU1Ob0pGMmgyZV9XbnE1WVgyaFN2em1EOHAtRGQ3bE5hRHRhMHNSdmRUZ3FiZkVEbVhaTEFabnVEMGYzWHJibTQyLU1VbGN0QVkyeldENmc0ZGdIeEZMMlVyMXVaMXhQMFhoajBTdk9YaWpPT3Jhdld6ZDlmREE?oc=5",
    "ts": "2026-10-28T18:24:00Z",
@@ -12811,6 +12845,17 @@
    "efecto": "Presiona al dólar a la baja y favorece al oro como cobertura inflacionaria."
   },
   {
+   "titulo": "Fed leaves rates unchanged: What it means for credit cards, mortgages, auto loans and savings accounts",
+   "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-consumer-borrowing-costs.html",
+   "ts": "2026-10-28T18:01:17Z",
+   "fuente": "CNBC",
+   "id": "d27871d9e8",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
+  {
    "titulo": "Federal Reserve leaves interest rates unchanged despite rising inflation",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcHhyOWk0NW9KMUxVdWU1d015dG1YZmdWV2JsbGFRbTV5UFUxZUdENy10ZHl4M3FQakxWNW53enE3Um9IT3NCUUtDaDlkLWpXX0lpUWZPV214WURKVVdLcWtTczUzdjZiVm9HUFNzRmVSeUd2TzF2VDBpWlFvbzdyeWotdl9zOVAzaDhCZW9MQQ?oc=5",
    "ts": "2026-10-28T18:01:00Z",
@@ -12977,51 +13022,6 @@
    "ts": "2026-10-28T17:00:27Z",
    "fuente": "Yahoo Finance",
    "id": "1c3618f04f",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Solana Foundation exec: Emerging markets embrace stablecoins first",
-   "link": "https://www.thestreet.com/crypto/markets/solana-foundation-exec-emerging-markets-embrace-stablecoins-first?.tsrc=rss",
-   "ts": "2026-10-28T16:54:40Z",
-   "fuente": "Yahoo Finance",
-   "id": "9a383357bd",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Ejecutivo de la Fundación Solana: Los mercados emergentes adoptan primero las stablecoins",
-   "efecto": ""
-  },
-  {
-   "titulo": "Treasury Yields Are Steering the Dollar Index Through Middle East Risk",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYldOUTFEeUxKMGdPMUlGSC1LNElucnVYLW5EdkpqUmV0aTYtMVZPYjdILXIyLXpzNFF1Z3g4UThGT0hCRDJHcm1UU1pjQTZzdXkxRjdPanE0NFpzMUo1N3l1OUFDbGdNUnhxVUdOTHZxcUI3Sk9vbFhDZFJLdlhJY1pMS0IzQmEwd3RmOHlyNkp5T0c3QWk2SEpwZUo3dEp5dFBJWDdidF9hQQ?oc=5",
-   "ts": "2026-10-28T16:46:58Z",
-   "fuente": "StoneX",
-   "id": "2ead997201",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Why Falling Treasury Yields Could Send AI And Technology Stocks Higher",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdERjMFdLQkZabGVnWVNFVWtycXpNeVpSZFhqMHNPRXlhc1N3R3g4TjJJS25DT25tdF9BV0plOEFrTThmd0V3ZTlPbVpLZ0xIbjFHR1NERU1ucTA1cDhhcmtiVUFkeUplTmNJdmt4QmI4QlNjbUctWE1FYmU2MWlubXNMdkQ5Rk1hSDhRUTAtU0ExWEFGUmtuR09NMDNDUQ?oc=5",
-   "ts": "2026-10-28T16:35:24Z",
-   "fuente": "Yahoo Finance",
-   "id": "5af9049212",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Alphabet set to report Q3 earnings after the bell as shaky AI trade looks for signs of strength",
-   "link": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
-   "ts": "2026-10-28T16:33:22Z",
-   "fuente": "CNBC",
-   "id": "b55bea1897",
    "activos": [
     "nq"
    ],
@@ -13644,15 +13644,15 @@
     1793217600,
     4089.1,
     4097.2,
-    4087.2,
-    4087.4
+    4083.0,
+    4085.4
    ],
    [
-    1793217770,
-    4089.1,
-    4089.1,
-    4089.1,
-    4089.1
+    1793218050,
+    4086.7,
+    4086.7,
+    4086.7,
+    4086.7
    ]
   ],
   "nq": [
@@ -14255,15 +14255,15 @@
     1793217600,
     29993.5,
     30178.0,
-    29987.25,
-    30069.0
+    29953.75,
+    29985.25
    ],
    [
-    1793217769,
-    30078.0,
-    30078.0,
-    30078.0,
-    30078.0
+    1793218051,
+    29975.5,
+    29975.5,
+    29975.5,
+    29975.5
    ]
   ],
   "vix": [
@@ -14748,14 +14748,14 @@
     17.21,
     17.23,
     16.82,
-    16.93
+    16.83
    ],
    [
-    1793217466,
-    16.94,
-    16.94,
-    16.94,
-    16.94
+    1793217600,
+    16.78,
+    16.78,
+    16.4,
+    16.47
    ]
   ]
  },
@@ -14884,10 +14884,6 @@
   }
  ],
  "noticias_vistas": [
-  "da2f45dab6",
-  "8f01c5dbc3",
-  "b1eac0ea0e",
-  "49b1ff4df1",
   "6a8d770fda",
   "ef01beb2d8",
   "9c969edadb",
@@ -15683,7 +15679,11 @@
   "0405c8fb1b",
   "d8ef9a0dbc",
   "3e41502f21",
-  "6c7e1f6c37"
+  "6c7e1f6c37",
+  "51ac3aa897",
+  "ff828caa13",
+  "0dd0fc9109",
+  "d27871d9e8"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
