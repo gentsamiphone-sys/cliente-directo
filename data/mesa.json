@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4053.1 · NQ 29545.25 · VIX 16.91",
-   "actualizado": "2026-10-29T03:17:33Z"
+   "ultimo_resultado": "Oro 4048.8 · NQ 29523.0 · VIX 16.91 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-29T03:22:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T03:17:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-29T03:22:30Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Dow, S&P 500, Nasdaq Futures Mixed After Fed Holds Rates Steady: GOOG, GOOGL, IOVA, MSFT, NOW In Focus"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4048.8 · NQ 29523.0 · VIX 16.91 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-29T03:22:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4053.1 · NQ 29545.25 · VIX 16.91",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4069.0 · NQ 29929.25 · VIX 17.41 · 4 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-28T12:42:16Z"
-  },
-  {
-   "agente": "ejecucion",
-   "texto": "Evaluación Alpha: ninguna idea con 5/5 confluencias. Hoy no se opera (calidad antes que cantidad).",
-   "ts": "2026-10-28T12:41:57Z"
   }
  ],
  "briefs": [
@@ -12355,12 +12355,24 @@
   }
  },
  "en_vivo": {
-  "oro": 4053.1,
-  "nq": 29545.25,
+  "oro": 4048.8,
+  "nq": 29523.0,
   "vix": 16.91,
-  "ts": "2026-10-29T03:17:32Z"
+  "ts": "2026-10-29T03:22:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Dow, S&P 500, Nasdaq Futures Mixed After Fed Holds Rates Steady: GOOG, GOOGL, IOVA, MSFT, NOW In Focus",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUlZCYVZTNjdUbS1rVXljY21oU0NVNXNZSlVBQnBZWWNHQWw2TThJOXNwNG9hNFJ2c190dFJlZWxtWW1tRUY4ZjJuQjQ1cjYzUkFkUGlDZ0w4T080eHpuLTVVd3FWcWVnVTFvczdzTjdFZVd2Z1ozU0dqam9BOGxhbVQ0MnV4YmV3MDdkTTZtRWN2SkE?oc=5",
+   "ts": "2026-10-29T02:59:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "02ae25d1e6",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Gallery: After 20 albums, Weezer stays gold at Los Angeles show",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZmpCaVI1Uy0tN0dVRnZqYU1YdURPU2JUTFg0N0FHbV9BOHdJbTdobnlIYXpOQV9VdkJBbWZ3MDB3SFJLTUV5QTJZYVBNNlFvRmk3XzVpUXRSM3NtM3JMQk9oNG1jZzZOMkxRYWlOdUpJb3pBVDBRUnBMSTJ1N0Y1WHFGb0ZTeU1NNnEyVVFNdC1OTE04Z1I0cmcwNA?oc=5",
@@ -13237,15 +13249,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "VanEck Wealth Builder ETF (WBMO): Active Multi-Asset Strategy for Growth and Income",
-   "link": "http://www.etf.com/sections/etf-launches/vaneck-wealth-builder-etf-wbmo-active-multi-asset-strategy-growth-and-income?utm_source=yahoo-finance&amp;utm_medium=rss&amp;utm_campaign=yahoo-finance-rss&amp;.tsrc=rss",
-   "ts": "2026-10-28T19:32:58Z",
-   "fuente": "Yahoo Finance",
-   "id": "c2f7113f1b",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -13885,15 +13888,15 @@
     1793242800,
     4059.5,
     4059.8,
-    4051.7,
-    4052.0
+    4048.2,
+    4049.6
    ],
    [
-    1793243250,
-    4051.9,
-    4051.9,
-    4051.9,
-    4051.9
+    1793243550,
+    4048.8,
+    4048.8,
+    4048.8,
+    4048.8
    ]
   ],
   "nq": [
@@ -14517,15 +14520,15 @@
     1793242800,
     29557.5,
     29564.75,
-    29543.5,
-    29550.0
+    29518.25,
+    29521.75
    ],
    [
-    1793243252,
-    29545.25,
-    29545.25,
-    29545.25,
-    29545.25
+    1793243549,
+    29523.0,
+    29523.0,
+    29523.0,
+    29523.0
    ]
   ],
   "vix": [
@@ -15154,7 +15157,6 @@
   }
  ],
  "noticias_vistas": [
-  "6c4d5276ad",
   "caaf99a4bb",
   "35c141c37e",
   "ff4090d88f",
@@ -15953,7 +15955,8 @@
   "c785d9d4d8",
   "77fe7f067f",
   "f7fb7f386e",
-  "01de0ab267"
+  "01de0ab267",
+  "02ae25d1e6"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
