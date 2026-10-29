@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4062.6 · NQ 29677.0 · VIX 16.91",
-   "actualizado": "2026-10-29T00:12:44Z"
+   "ultimo_resultado": "Oro 4060.6 · NQ 29708.0 · VIX 16.91 · 3 noticias nuevas",
+   "actualizado": "2026-10-29T00:17:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T00:12:44Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-29T00:17:35Z",
+   "ultimo_resultado": "3 titulares nuevos: MSFT Surges After Hours; Nasdaq Futures Slide"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4060.6 · NQ 29708.0 · VIX 16.91 · 3 noticias nuevas",
+   "ts": "2026-10-29T00:17:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4062.6 · NQ 29677.0 · VIX 16.91",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4057.5 · NQ 29944.5 · VIX 17.48 · 1 noticias nuevas",
    "ts": "2026-10-28T11:12:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4058.8 · NQ 29946.25 · VIX 17.47 · 10 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-28T11:07:38Z"
   }
  ],
  "briefs": [
@@ -12355,12 +12355,34 @@
   }
  },
  "en_vivo": {
-  "oro": 4062.6,
-  "nq": 29677.0,
+  "oro": 4060.6,
+  "nq": 29708.0,
   "vix": 16.91,
-  "ts": "2026-10-29T00:12:44Z"
+  "ts": "2026-10-29T00:17:35Z"
  },
  "noticias": [
+  {
+   "titulo": "MSFT Surges After Hours; Nasdaq Futures Slide",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQclZKQ3ZOUGV5SlN4b3hsVVd6bEN3Rnl2Nll5OUhZNllpNG4wU2FKNGFHdG1TLTR6VjBSNGtSX1RsUk5oSFZDYXZPTFR5R2ZvNlp0STBWMWJhQUhqNWwzNjlnZnEzd2UtaEZXbWNFMVVGU282aTlyblZmMVlMRm5JVUtweVo3dTVMRVRwUVdxa3VZbWt3M2c4MHBvWnAxYzQ?oc=5",
+   "ts": "2026-10-29T00:03:14Z",
+   "fuente": "Moomoo",
+   "id": "cacfd6b4f4",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Federal Reserve Holds Interest Rates Steady Ahead of Midterms. Here's What That Means for the Market.",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNWxoTXNRX2Foa0szMnRIYW5UcHBDX3ZQMmNBNEdEWlhJN2w4Q2NWX0hTSi12cy0xeHZrZk1HN3F0dlFYWEphWkRmU2VrcDhxaXU2cFliQ1Q2YXVvX3ZiTWRHQmdLNDM3TW9ObDlDMDczU0pHZ0Q2Q2Y2LTFDeXl0elkxSjMxYXRjbFNrZXd1SUVDY3BESlJwSmJhak5MRnZnczhXV0RYNTE2SDJ3TjF5STI1MkhiaU5QeVd6RS1BRlRHV3RlMWF5N1RaNkRLenI5M3FiYXJrTW4?oc=5",
+   "ts": "2026-10-28T23:47:03Z",
+   "fuente": "The Motley Fool",
+   "id": "dc638527a8",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Gold Edges Lower After Fed Holds Rates With Limited Guidance",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQzc5eDBRUXkxOGFMamVVSDgwYW50VUV2anJjUGhKTzVTRjZpTDhoQWpTcXV6bXlWY19CMTF6cXBSenJMOGswaVFmVGtDeDNpcXowbG9XVExVN000aDMxMjZQWnJRbjQ0blBYTUwzclB6M3E3QS1zSEptcUR6elJZWUxVTHB2bFdJUWtrVjN3cDE1S2ZkRWhGWkhqbWh6VkJaTFIyN1BCZXpBd24xUEVrNw?oc=5",
@@ -12383,6 +12405,17 @@
    "id": "c98dd0eb33",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "FireFly Metals closes September quarter with A$3 billion Green Bay valuation case and A$350 million funding position",
+   "link": "https://www.proactiveinvestors.com/companies/news/1100879/firefly-metals-closes-september-quarter-with-a-3-billion-green-bay-valuation-case-and-a-350-million-funding-position-1100879.html?.tsrc=rss",
+   "ts": "2026-10-28T23:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "56d5c60eb4",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Hands-on with Apple's first touchscreen laptop: Touch is totally optional",
@@ -13200,38 +13233,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Brazilian companies boosted stablecoins in weekend trading during heated election",
-   "link": "https://finance.yahoo.com/video/brazilian-companies-boosted-stablecoins-weekend-190000317.html?.tsrc=rss",
-   "ts": "2026-10-28T19:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "1b66f01cee",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Empresas brasileñas impulsaron las stablecoins en el comercio de fin de semana durante elecciones calientes",
-   "efecto": ""
-  },
-  {
-   "titulo": "S&P 500 gains for a third day as Fed pauses on rate hikes, Oracle shares rally: Live updates",
-   "link": "https://www.cnbc.com/2026/10/27/stock-market-today-live-updates.html",
-   "ts": "2026-10-28T18:54:11Z",
-   "fuente": "CNBC",
-   "id": "533939b38e",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Oracle stock pops 10% on forecast for 35% average revenue growth through 2030",
-   "link": "https://www.cnbc.com/2026/10/28/oracle-forecast-growth-2030.html",
-   "ts": "2026-10-28T18:52:11Z",
-   "fuente": "CNBC",
-   "id": "a57752d465",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -13871,15 +13872,15 @@
     1793232000,
     4067.0,
     4067.9,
-    4061.8,
-    4062.0
+    4058.5,
+    4059.3
    ],
    [
-    1793232158,
-    4062.9,
-    4062.9,
-    4062.9,
-    4062.9
+    1793232449,
+    4060.6,
+    4060.6,
+    4060.6,
+    4060.6
    ]
   ],
   "nq": [
@@ -14502,16 +14503,16 @@
    [
     1793232000,
     29678.75,
-    29696.0,
-    29667.5,
-    29684.25
+    29714.5,
+    29645.25,
+    29698.75
    ],
    [
-    1793232162,
-    29677.0,
-    29677.0,
-    29677.0,
-    29677.0
+    1793232453,
+    29708.0,
+    29708.0,
+    29708.0,
+    29708.0
    ]
   ],
   "vix": [
@@ -15015,65 +15016,65 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-29T00:07:39Z",
- "ult_4h": 1793232155.6792784,
+ "ult_4h": 1793233055.72925,
  "estrategia_4h": {
   "oro": {
-   "precio": 4066.4,
-   "atr_4h": 25.57,
+   "precio": 4060.6,
+   "atr_4h": 24.68,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 4050.2,
      "entrada": 4050.2,
-     "stop": 4034.86,
+     "stop": 4035.39,
      "objetivo": 4097.2,
-     "rr": 3.06,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.07,
+     "rr": 3.17,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 2.14,
      "ruptura": "2026-10-27 12:00 UTC"
     },
     {
      "direccion": "VENTA",
-     "nivel": 4091.2,
-     "entrada": 4091.2,
-     "stop": 4106.54,
+     "nivel": 4095.0,
+     "entrada": 4095.0,
+     "stop": 4109.81,
      "objetivo": 3989.1,
-     "rr": 6.65,
+     "rr": 7.15,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.13,
+     "fuerza_ruptura_atr": 1.18,
      "ruptura": "2026-10-22 08:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29630.25,
-   "atr_4h": 205.64,
+   "precio": 29708.0,
+   "atr_4h": 199.23,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 29572.0,
      "entrada": 29572.0,
-     "stop": 29448.61,
+     "stop": 29452.46,
      "objetivo": 30178.0,
-     "rr": 4.91,
-     "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.46,
+     "rr": 5.07,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 1.5,
      "ruptura": "2026-10-27 12:00 UTC"
     },
     {
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29202.61,
+     "stop": 29206.46,
      "objetivo": 30178.0,
-     "rr": 6.91,
+     "rr": 7.13,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.97,
+     "fuerza_ruptura_atr": 1.0,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-29T00:02:35Z"
+  "ts": "2026-10-29T00:17:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15140,9 +15141,6 @@
   }
  ],
  "noticias_vistas": [
-  "52ee43d344",
-  "5a965e5529",
-  "808c9c81f9",
   "7a84893014",
   "73609b96c4",
   "0c2c6fe9ed",
@@ -15939,7 +15937,10 @@
   "3bb99e73c7",
   "52ff6c3ae8",
   "39e6efe4ad",
-  "0e5724d96a"
+  "0e5724d96a",
+  "cacfd6b4f4",
+  "dc638527a8",
+  "56d5c60eb4"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
