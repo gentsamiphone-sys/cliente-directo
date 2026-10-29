@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4036.7 · NQ 29223.5 · VIX 17.2 · 1 noticias nuevas",
-   "actualizado": "2026-10-29T20:37:36Z"
+   "ultimo_resultado": "Oro 4038.8 · NQ 29245.25 · VIX 17.2 · 2 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-29T20:42:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T20:37:35Z",
-   "ultimo_resultado": "1 titulares nuevos: First Solar (NASDAQ:FSLR) misses Q3 2026 sales expectations"
+   "actualizado": "2026-10-29T20:42:35Z",
+   "ultimo_resultado": "2 titulares nuevos, 2 de alto impacto: Update: Nasdaq, S&P 500 Snap 3-Day Rise on Alphabet Sell-Off, Inflation Anxiety"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4038.8 · NQ 29245.25 · VIX 17.2 · 2 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-29T20:42:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4036.7 · NQ 29223.5 · VIX 17.2 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
    "ts": "2026-10-29T06:33:04Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Midiendo volatilidad y rango esperado del día…",
-   "ts": "2026-10-29T06:33:02Z"
   }
  ],
  "briefs": [
@@ -12490,12 +12490,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4036.7,
-  "nq": 29223.5,
+  "oro": 4038.8,
+  "nq": 29245.25,
   "vix": 17.2,
-  "ts": "2026-10-29T20:37:36Z"
+  "ts": "2026-10-29T20:42:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Update: Nasdaq, S&P 500 Snap 3-Day Rise on Alphabet Sell-Off, Inflation Anxiety",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUjllbTYwZGZ0N0tEV0N4TTh0cG9WOXl0d196MVB0bXUtdThPZmppMzBjMjZ4NGEzWmNSUFJCbmJTcWYtektWQ0tRY0tlZFM4Zm5GYXhDX0J5ZUQzdVhYOHY4RXFkbG9tclI0a1VFTHI2S044bV9IdWZiTkxhTjc0bXQxYVBxbDF5TzBnUA?oc=5",
+   "ts": "2026-10-29T20:32:07Z",
+   "fuente": "Yahoo Finance",
+   "id": "6077bb8576",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Starbucks sales fall short of expectations, but its U.S. turnaround continues to gain steam",
    "link": "https://www.cnbc.com/2026/10/29/starbucks-sbux-q4-2026-earnings.html",
@@ -12634,6 +12645,15 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears",
+   "link": "https://www.cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html",
+   "ts": "2026-10-29T20:02:32Z",
+   "fuente": "CNBC",
+   "id": "1b74c26de9",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Emerita Announces Positive IBW Pre-Feasibility Study Results Highlighting US$776 Million After-Tax NPV (8%), 23.51% IRR and 21-Year Mine Life",
@@ -13309,26 +13329,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "ServiceNow shares plunge 25% after earnings revive AI disruption fears",
-   "link": "https://www.cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html",
-   "ts": "2026-10-29T15:54:12Z",
-   "fuente": "CNBC",
-   "id": "518728c9ba",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "PJX Resources Begins Drilling at High-Priority Gar Gold Target on Zinger Property",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/pjx-resources-begins-drilling-high-155324172.html?.tsrc=rss",
-   "ts": "2026-10-29T15:53:24Z",
-   "fuente": "Yahoo Finance",
-   "id": "94cba99fdd",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13971,14 +13971,14 @@
     4034.2,
     4044.3,
     4032.7,
-    4036.5
+    4039.1
    ],
    [
-    1793305652,
-    4036.7,
-    4036.7,
-    4036.7,
-    4036.7
+    1793305949,
+    4038.8,
+    4038.8,
+    4038.8,
+    4038.8
    ]
   ],
   "nq": [
@@ -14603,14 +14603,14 @@
     29566.25,
     29593.25,
     29111.0,
-    29226.0
+    29250.75
    ],
    [
-    1793305655,
-    29221.25,
-    29221.25,
-    29221.25,
-    29221.25
+    1793305953,
+    29245.25,
+    29245.25,
+    29245.25,
+    29245.25
    ]
   ],
   "vix": [
@@ -15206,8 +15206,6 @@
   }
  ],
  "noticias_vistas": [
-  "b1e35d07e8",
-  "32d0e382c9",
   "5ca116f566",
   "3e873db837",
   "7f7f96bcb7",
@@ -16005,7 +16003,9 @@
   "afd5fecdd1",
   "38dec0f830",
   "787e7cf842",
-  "59b497040a"
+  "59b497040a",
+  "6077bb8576",
+  "1b74c26de9"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
