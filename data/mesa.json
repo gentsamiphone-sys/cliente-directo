@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4024.1 · NQ 29069.0 · VIX 17.2 · 2 noticias nuevas",
-   "actualizado": "2026-10-29T23:27:33Z"
+   "ultimo_resultado": "Oro 4025.4 · NQ 29086.0 · VIX 17.2 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-29T23:32:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T23:27:32Z",
-   "ultimo_resultado": "2 titulares nuevos: Oracle Corporation (ORCL) Stock Price, News, Quote & History"
+   "actualizado": "2026-10-29T23:32:33Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Trump Holds Off on New Machinery, Robotics Tariffs in Win for Manufacturers - National Association of Manufacturers"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4025.4 · NQ 29086.0 · VIX 17.2 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-29T23:32:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4024.1 · NQ 29069.0 · VIX 17.2 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4042.8 · NQ 29701.0 · VIX 17.03 · 2 noticias nuevas",
    "ts": "2026-10-29T10:17:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4042.1 · NQ 29694.75 · VIX 17.02 · 3 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-29T10:12:36Z"
   }
  ],
  "briefs": [
@@ -12528,10 +12528,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4024.1,
-  "nq": 29069.0,
+  "oro": 4025.4,
+  "nq": 29086.0,
   "vix": 17.2,
-  "ts": "2026-10-29T23:27:32Z"
+  "ts": "2026-10-29T23:32:33Z"
  },
  "noticias": [
   {
@@ -12743,6 +12743,15 @@
    "id": "0e71d465c2",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Trump Holds Off on New Machinery, Robotics Tariffs in Win for Manufacturers - National Association of Manufacturers",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYlY4M0NsY21PWkxrNG5KSHUyYjQzYTVKRF9UZ1laMk4yZEhuRlhXZVdSSUczaFVuaGRRMFRBa3JYeTFxTzhGV3kwLUhmYThmc2Y0bV90U1ZWR2F5aHNrYUxOaGJCUWg5aXJ4aHRjRGFfYklhN2lDZVc0ajd2RVFOaHhtWlIzN3Q4dmFGdWdTQUZKT0lwM0E?oc=5",
+   "ts": "2026-10-29T20:56:13Z",
+   "fuente": "NAM",
+   "id": "304ab7409e",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged",
@@ -13353,15 +13362,6 @@
    "activos": [
     "oro"
    ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Trump and Canada Near a Deal to Ease Steel and Auto Tariffs as Ford Reports",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSnZORDdvSXVjaEZWNi1VbFk2VFZkeF9pM3FRWFo4Y2c5YWhac3E4RFNYMDRGUUdIQkN6V1dKZEd6NmlxSGRURUxwZFdVczM3dzlpZkZmNWdTa2tBS2xlODRHNk1ZVTk5cjJXenRickdTc21UUTd0UHVzTjYyRzJXcnA2dGlFSkJvSE44cmlPcUVCbm5XVWx3?oc=5",
-   "ts": "2026-10-29T17:28:51Z",
-   "fuente": "Yahoo Finance",
-   "id": "e640647d4b",
-   "activos": [],
    "impacto": "alto"
   }
  ],
@@ -14005,14 +14005,14 @@
     4033.6,
     4034.2,
     4023.3,
-    4023.4
+    4025.2
    ],
    [
-    1793315840,
-    4024.1,
-    4024.1,
-    4024.1,
-    4024.1
+    1793316147,
+    4025.4,
+    4025.4,
+    4025.4,
+    4025.4
    ]
   ],
   "nq": [
@@ -14635,16 +14635,16 @@
    [
     1793314800,
     29054.25,
-    29072.25,
+    29088.75,
     29030.25,
-    29067.5
+    29086.5
    ],
    [
-    1793315848,
-    29069.0,
-    29069.0,
-    29069.0,
-    29069.0
+    1793316151,
+    29086.5,
+    29086.5,
+    29086.5,
+    29086.5
    ]
   ],
   "vix": [
@@ -15148,15 +15148,15 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-29T23:12:32Z",
- "ult_4h": 1793315850.179013,
+ "ult_4h": 1793316753.7941563,
  "estrategia_4h": {
   "oro": {
-   "precio": 4029.2,
-   "atr_4h": 23.75,
+   "precio": 4025.4,
+   "atr_4h": 24.09,
    "setups": []
   },
   "nq": {
-   "precio": 29065.25,
+   "precio": 29086.5,
    "atr_4h": 238.55,
    "setups": [
     {
@@ -15167,12 +15167,12 @@
      "objetivo": 29030.25,
      "rr": 3.16,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.1,
+     "fuerza_ruptura_atr": 2.01,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-29T23:17:30Z"
+  "ts": "2026-10-29T23:32:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15240,7 +15240,6 @@
   }
  ],
  "noticias_vistas": [
-  "9cfb9e9559",
   "22c92e1887",
   "136aa12eba",
   "89651a0792",
@@ -16039,7 +16038,8 @@
   "e653a78b4a",
   "88e89cf308",
   "db77ca4348",
-  "3a0c8786ca"
+  "3a0c8786ca",
+  "304ab7409e"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
