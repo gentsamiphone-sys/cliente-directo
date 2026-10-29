@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4040.5 · NQ 29662.0 · VIX 17.09 · 6 noticias nuevas",
-   "actualizado": "2026-10-29T11:52:35Z"
+   "ultimo_resultado": "Oro 4038.6 · NQ 29653.75 · VIX 17.09 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-29T11:57:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T11:52:34Z",
-   "ultimo_resultado": "6 titulares nuevos: DoorDash to acquire Instacart for $17 billion"
+   "actualizado": "2026-10-29T11:57:34Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: US Dollar Rises Early Thursday Before Weekly Jobless Claims, GDP, Personal Income, Spending"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4038.6 · NQ 29653.75 · VIX 17.09 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-29T11:57:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4040.5 · NQ 29662.0 · VIX 17.09 · 6 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Volatilidad normal (VIX 16.91).",
    "ts": "2026-10-28T21:33:12Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "VIX/NQ: DIVERGENCIA: NQ baja pero el VIX también baja (caída sin miedo; posible barrida para comprar)",
-   "ts": "2026-10-28T21:33:10Z"
   }
  ],
  "briefs": [
@@ -12446,10 +12446,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4040.5,
-  "nq": 29662.0,
+  "oro": 4038.6,
+  "nq": 29653.75,
   "vix": 17.09,
-  "ts": "2026-10-29T11:52:34Z"
+  "ts": "2026-10-29T11:57:34Z"
  },
  "noticias": [
   {
@@ -12480,6 +12480,17 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "US Dollar Rises Early Thursday Before Weekly Jobless Claims, GDP, Personal Income, Spending",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-rises-early-thursday-113950565.html?.tsrc=rss",
+   "ts": "2026-10-29T11:39:50Z",
+   "fuente": "Yahoo Finance",
+   "id": "f6ac1e9381",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Nasdaq futures slide as Alphabet results intensify AI spending fears",
@@ -13298,19 +13309,6 @@
    "id": "c770f8ae2d",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "ACG Metals says it expects full production from Gediktepe in Q1 2027",
-   "link": "https://www.proactiveinvestors.com/companies/news/1100902/acg-metals-says-it-expects-full-production-from-gediktepe-in-q1-2027-1100902.html?.tsrc=rss",
-   "ts": "2026-10-29T07:47:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "1f8c56f6ec",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "ACG Metals espera producción total de Gediktepe en el primer trimestre de 2027",
-   "efecto": "Sin impacto relevante hoy por ser un evento a largo plazo."
   }
  ],
  "eventos_avisados": [
@@ -13908,15 +13906,15 @@
     1793271600,
     4043.1,
     4051.1,
-    4038.6,
-    4041.1
+    4038.0,
+    4039.5
    ],
    [
-    1793274144,
-    4040.5,
-    4040.5,
-    4040.5,
-    4040.5
+    1793274451,
+    4038.6,
+    4038.6,
+    4038.6,
+    4038.6
    ]
   ],
   "nq": [
@@ -14499,14 +14497,14 @@
     29718.25,
     29729.0,
     29636.75,
-    29659.0
+    29648.0
    ],
    [
-    1793274150,
-    29662.0,
-    29662.0,
-    29662.0,
-    29662.0
+    1793274451,
+    29653.75,
+    29653.75,
+    29653.75,
+    29653.75
    ]
   ],
   "vix": [
@@ -14933,12 +14931,12 @@
    [
     1793271600,
     16.99,
-    17.1,
+    17.13,
     16.95,
-    17.09
+    17.11
    ],
    [
-    1793273851,
+    1793274151,
     17.09,
     17.09,
     17.09,
@@ -15049,7 +15047,6 @@
   }
  ],
  "noticias_vistas": [
-  "19f7fdf1c6",
   "2ebb6c7d4a",
   "a83d4c61c7",
   "2805b83cb2",
@@ -15848,7 +15845,8 @@
   "58a4f47da1",
   "cb8de5f9de",
   "da862c4d93",
-  "4033b79464"
+  "4033b79464",
+  "f6ac1e9381"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
