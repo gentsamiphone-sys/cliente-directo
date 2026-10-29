@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4031.1 · NQ 29574.5 · VIX 17.3 · 1 noticias nuevas",
-   "actualizado": "2026-10-29T09:02:40Z"
+   "ultimo_resultado": "Oro 4038.0 · NQ 29665.5 · VIX 17.31 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-29T09:07:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T09:02:39Z",
-   "ultimo_resultado": "1 titulares nuevos: Why toilet paper, lumber and other necessities may cost more in NC"
+   "actualizado": "2026-10-29T09:07:32Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Tariffs, diesel and computer chips are driving up costs for automakers"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4038.0 · NQ 29665.5 · VIX 17.31 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-29T09:07:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4031.1 · NQ 29574.5 · VIX 17.3 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4069.8 · NQ 29916.75 · VIX 16.99 · 3 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-28T19:52:40Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4066.9 · NQ 29866.75 · VIX 17.03",
-   "ts": "2026-10-28T19:47:35Z"
   }
  ],
  "briefs": [
@@ -12446,10 +12446,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4031.1,
-  "nq": 29574.5,
-  "vix": 17.3,
-  "ts": "2026-10-29T09:02:40Z"
+  "oro": 4038.0,
+  "nq": 29665.5,
+  "vix": 17.31,
+  "ts": "2026-10-29T09:07:32Z"
  },
  "noticias": [
   {
@@ -12460,6 +12460,26 @@
    "id": "d0fedb1ee9",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Tariffs, diesel and computer chips are driving up costs for automakers",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcExubXhWUXVfWjlZLTFIUzRYaG41dmJwMzhGM0hGd051RjJfQ2xXclJQaGVTNnpHS0JFTTBvc0VwczJtREtFdzRIMzNac1EyeG5LdHdCdEQtRThLQnNNZVhMMUhoVmpkNURKUGFJY3dmWXdIUi04ZXBuX21yYTBtZ2xfOGtQYzhITWx5eFpZR2FwMDctT01ILTdVVQ?oc=5",
+   "ts": "2026-10-29T09:00:00Z",
+   "fuente": "NPR",
+   "id": "997bc5cd90",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Alphabet falls 10% in premarket, putting it on course for its biggest ever post-earnings drop",
+   "link": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
+   "ts": "2026-10-29T08:54:59Z",
+   "fuente": "CNBC",
+   "id": "ff663b0a22",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "P2 Gold Targets Roughly 3 Million Gold Ounces for Resource Behind 2027 Feasibility",
@@ -13327,28 +13347,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Kinross Gold: Q3 Earnings Snapshot",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-q3-earnings-snapshot-211457940.html?.tsrc=rss",
-   "ts": "2026-10-28T21:14:57Z",
-   "fuente": "Yahoo Finance",
-   "id": "999c3d4560",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Alphabet sinks 9% as it holds 2026 capex unchanged, expects significant increase in 2027",
-   "link": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
-   "ts": "2026-10-28T21:10:35Z",
-   "fuente": "CNBC",
-   "id": "4014a3ce08",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13925,15 +13923,15 @@
     1793260800,
     4034.3,
     4046.9,
-    4030.5,
-    4030.9
+    4027.0,
+    4038.0
    ],
    [
-    1793263956,
-    4031.1,
-    4031.1,
-    4031.1,
-    4031.1
+    1793264248,
+    4038.0,
+    4038.0,
+    4038.0,
+    4038.0
    ]
   ],
   "nq": [
@@ -14493,16 +14491,16 @@
    [
     1793260800,
     29587.75,
-    29649.0,
-    29567.75,
-    29568.75
+    29684.5,
+    29552.25,
+    29663.25
    ],
    [
-    1793263958,
-    29574.5,
-    29574.5,
-    29574.5,
-    29574.5
+    1793264251,
+    29665.5,
+    29665.5,
+    29665.5,
+    29665.5
    ]
   ],
   "vix": [
@@ -14913,11 +14911,11 @@
     17.3
    ],
    [
-    1793263651,
-    17.3,
-    17.3,
-    17.3,
-    17.3
+    1793263951,
+    17.31,
+    17.31,
+    17.31,
+    17.31
    ]
   ]
  },
@@ -15024,8 +15022,6 @@
   }
  ],
  "noticias_vistas": [
-  "ba445370a3",
-  "1552534eec",
   "4abeebb32c",
   "cd34a6d69a",
   "1ac34ed1a0",
@@ -15823,7 +15819,9 @@
   "c770f8ae2d",
   "3455199446",
   "8d4d0e525d",
-  "d0fedb1ee9"
+  "d0fedb1ee9",
+  "997bc5cd90",
+  "ff663b0a22"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
