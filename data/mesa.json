@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4066.9 · NQ 29519.5 · VIX 16.91",
-   "actualizado": "2026-10-29T02:22:38Z"
+   "ultimo_resultado": "Oro 4064.3 · NQ 29514.5 · VIX 16.91 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-29T02:27:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T02:22:38Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-29T02:27:36Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Los futuros del oro cayeron por debajo de los $4,050 antes de la decisión de la Fed."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4064.3 · NQ 29514.5 · VIX 16.91 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-29T02:27:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4066.9 · NQ 29519.5 · VIX 16.91",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-10-28T12:32:58Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 4070.1 · NQ 29937.75.",
-   "ts": "2026-10-28T12:32:57Z"
   }
  ],
  "briefs": [
@@ -12355,10 +12355,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4066.9,
-  "nq": 29519.5,
+  "oro": 4064.3,
+  "nq": 29514.5,
   "vix": 16.91,
-  "ts": "2026-10-29T02:22:38Z"
+  "ts": "2026-10-29T02:27:36Z"
  },
  "noticias": [
   {
@@ -12412,6 +12412,20 @@
    "id": "9bc384fcf9",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold futures slipped below $4,050 ahead of Fed decision.",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcHJuYlhVQWowaFBXOGk0d0oyOEwtTE5NZHFQS0JMOEFCcjBzTHBKYmRKUXpHNURMbjZOQWdZME41VmQtSHQtM1BIcVlQcXZhRjd6ajgweTVvUlAyMV9wc2NVNGM3T1JEbmZDQnNNaF9JOTNkSExQRXlMWWQwR1pwTzM3UDk3cVBMVjkwNEFocFdmMTRCUkxBV0dCTEFSTDdLOG91QkRpV3M2ZXZHZkdV?oc=5",
+   "ts": "2026-10-29T00:47:52Z",
+   "fuente": "CME Group",
+   "id": "ecf2f6ebc4",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Los futuros del oro cayeron por debajo de los $4,050 antes de la decisión de la Fed.",
+   "efecto": "Presiona al oro a la baja por expectativa de tasas altas."
   },
   {
    "titulo": "Nasdaq-100 futures dip as Alphabet shares sell off after earnings report: Live updates",
@@ -13235,17 +13249,6 @@
    "impacto": "bajo",
    "es": "GM trasladará su cotización bursátil de la NYSE al Nasdaq en noviembre",
    "efecto": "Evento corporativo menor sin impacto macroeconómico relevante."
-  },
-  {
-   "titulo": "Federal Reserve will hold fewer interest rate meetings in coming years",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQWxhdUlpdjFoRF9kdXB0MUl0UU1vRW5WU1h0SVRuTU8yaWtkQk0xV2kxTERPX1djaEJOcEVMWnl2RU00VU1NcUR0QWRFc3hKdl9Hd0k1MjNEUGxHY3V6dDMwdmNNSEZpN216VGt3dEhsWXQtZUk5Q0ljdEZlVnduY2dMRE1Uc1BSRHdZWlFIM0FveFIxUDROZEc4SzM5aFhfaVFyLXhibDgzZzNFU3g5eWNCRnRCN29n?oc=5",
-   "ts": "2026-10-28T19:23:46Z",
-   "fuente": "NBC News",
-   "id": "a98fbadde1",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13885,15 +13888,15 @@
     1793239200,
     4074.6,
     4077.0,
-    4063.6,
-    4063.6
+    4061.5,
+    4064.4
    ],
    [
-    1793239956,
-    4066.9,
-    4066.9,
-    4066.9,
-    4066.9
+    1793240241,
+    4064.3,
+    4064.3,
+    4064.3,
+    4064.3
    ]
   ],
   "nq": [
@@ -14517,15 +14520,15 @@
     1793239200,
     29583.0,
     29584.75,
-    29511.0,
-    29514.0
+    29505.0,
+    29514.75
    ],
    [
-    1793239956,
-    29519.5,
-    29519.5,
-    29519.5,
-    29519.5
+    1793240256,
+    29516.75,
+    29516.75,
+    29516.75,
+    29516.75
    ]
   ],
   "vix": [
@@ -15028,7 +15031,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-29T01:47:45Z",
+ "noticias_traducidas_ts": "2026-10-29T02:27:31Z",
  "ult_4h": 1793240253.1235082,
  "estrategia_4h": {
   "oro": {
@@ -15154,7 +15157,6 @@
   }
  ],
  "noticias_vistas": [
-  "170cef93d8",
   "cb230ce953",
   "86312fd583",
   "272eb2a469",
@@ -15953,7 +15955,8 @@
   "a31aba35d4",
   "27f335afa5",
   "843f76c567",
-  "3cf4cf7d59"
+  "3cf4cf7d59",
+  "ecf2f6ebc4"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
