@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4028.1 · NQ 29577.5 · VIX 16.39 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-29T16:32:34Z"
+   "ultimo_resultado": "Oro 4028.1 · NQ 29565.75 · VIX 16.33 · 1 noticias nuevas",
+   "actualizado": "2026-10-29T16:37:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T16:32:33Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: How a run-up in Treasury yields sent mortgage affordability plunging"
+   "actualizado": "2026-10-29T16:37:36Z",
+   "ultimo_resultado": "1 titulares nuevos: Alphabet falls 12%, putting it on course for its biggest ever post-earnings drop"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4028.1 · NQ 29565.75 · VIX 16.33 · 1 noticias nuevas",
+   "ts": "2026-10-29T16:37:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4028.1 · NQ 29577.5 · VIX 16.39 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4053.1 · NQ 29545.25 · VIX 16.91",
    "ts": "2026-10-29T03:17:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4054.9 · NQ 29557.25 · VIX 16.91 · 1 noticias nuevas",
-   "ts": "2026-10-29T03:12:31Z"
   }
  ],
  "briefs": [
@@ -12491,11 +12491,22 @@
  },
  "en_vivo": {
   "oro": 4028.1,
-  "nq": 29577.5,
-  "vix": 16.39,
-  "ts": "2026-10-29T16:32:33Z"
+  "nq": 29565.75,
+  "vix": 16.33,
+  "ts": "2026-10-29T16:37:36Z"
  },
  "noticias": [
+  {
+   "titulo": "Alphabet falls 12%, putting it on course for its biggest ever post-earnings drop",
+   "link": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
+   "ts": "2026-10-29T16:35:25Z",
+   "fuente": "CNBC",
+   "id": "25d7cbb13b",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "How a run-up in Treasury yields sent mortgage affordability plunging",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbVloY1EwLVJmMnVfUURYVnVtRzBjMGNzVThURTl1X011RmpOM2NaWkN0SGtjTWJzMVFEUmtTTzFIODg1TGlWMDdnZ09RVHY0QzZyWV9xTmw3MDNtWVUtUTVGZFl3M21mcllpLXRfZkx0R1NYTVp1anhCT3BEalBCLWpXUGxEbDZZWWRGbGcxcF9wV05DR1NnbUx3RDFFQ0pBeWo0RmlROA?oc=5",
@@ -13339,17 +13350,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Sirius XM (NASDAQ:SIRI) reports Q3 2026 in line with expectations",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWWNZOENCa2F3QnpmV0dZRE9Oc0FGUjk2VG56ZGVweEdvXzlSTkdIb3JYa3B0VnY3YnlIU183WXhORWhaRm95R2VLcFFlOWZyT2VaVlIyMEpXRGJvRFo1S0VFdFluVFEwTlF0azJucXJaR3VLR21ZM1dLWTBRbWgwOEMtODZGbTBONE5PU1lVMmpHckhLTG4zQjln?oc=5",
-   "ts": "2026-10-29T12:15:21Z",
-   "fuente": "Yahoo Finance",
-   "id": "6010ca1263",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13985,14 +13985,14 @@
     4034.9,
     4035.0,
     4021.2,
-    4027.7
+    4026.6
    ],
    [
-    1793290952,
-    4028.1,
-    4028.1,
-    4028.1,
-    4028.1
+    1793291252,
+    4028.2,
+    4028.2,
+    4028.2,
+    4028.2
    ]
   ],
   "nq": [
@@ -14609,15 +14609,15 @@
     1793289600,
     29657.75,
     29658.5,
-    29548.0,
-    29568.25
+    29538.5,
+    29567.0
    ],
    [
-    1793290954,
-    29581.5,
-    29581.5,
-    29581.5,
-    29581.5
+    1793291254,
+    29565.75,
+    29565.75,
+    29565.75,
+    29565.75
    ]
   ],
   "vix": [
@@ -15081,14 +15081,14 @@
     16.34,
     16.47,
     16.28,
-    16.44
+    16.37
    ],
    [
-    1793290651,
-    16.39,
-    16.39,
-    16.39,
-    16.39
+    1793290951,
+    16.33,
+    16.33,
+    16.33,
+    16.33
    ]
   ]
  },
@@ -15195,7 +15195,6 @@
   }
  ],
  "noticias_vistas": [
-  "57c5025d40",
   "ebd13da82a",
   "c9afa7e834",
   "0a8f4430fd",
@@ -15994,7 +15993,8 @@
   "7f6bf7a67e",
   "14b2c77f89",
   "dd95fd7837",
-  "e1c3107445"
+  "e1c3107445",
+  "25d7cbb13b"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
