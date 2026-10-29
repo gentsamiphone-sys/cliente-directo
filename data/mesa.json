@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4042.0 · NQ 29529.25 · VIX 17.21 · 2 noticias nuevas",
-   "actualizado": "2026-10-29T13:52:50Z"
+   "ultimo_resultado": "Oro 4035.6 · NQ 29540.75 · VIX 17.05 · 1 noticias nuevas",
+   "actualizado": "2026-10-29T13:57:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T13:52:49Z",
-   "ultimo_resultado": "2 titulares nuevos: Kevin Warsh mantiene a Wall Street en vilo, su herramienta más poderosa."
+   "actualizado": "2026-10-29T13:57:31Z",
+   "ultimo_resultado": "1 titulares nuevos: Microsoft's latest earnings beat the Street. Here's what analysts are saying"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4035.6 · NQ 29540.75 · VIX 17.05 · 1 noticias nuevas",
+   "ts": "2026-10-29T13:57:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4042.0 · NQ 29529.25 · VIX 17.21 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4058.9 · NQ 29739.0 · VIX 16.91 · 1 noticias nuevas",
    "ts": "2026-10-29T00:37:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4055.3 · NQ 29698.5 · VIX 16.91",
-   "ts": "2026-10-29T00:32:31Z"
   }
  ],
  "briefs": [
@@ -12490,10 +12490,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4042.0,
-  "nq": 29529.25,
-  "vix": 17.21,
-  "ts": "2026-10-29T13:52:49Z"
+  "oro": 4035.6,
+  "nq": 29540.75,
+  "vix": 17.05,
+  "ts": "2026-10-29T13:57:32Z"
  },
  "noticias": [
   {
@@ -12529,6 +12529,17 @@
    "id": "211163f6d9",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Microsoft's latest earnings beat the Street. Here's what analysts are saying",
+   "link": "https://www.cnbc.com/2026/10/29/microsoft-beat-the-street-on-earnings-report-heres-what-analysts-say.html",
+   "ts": "2026-10-29T13:26:03Z",
+   "fuente": "CNBC",
+   "id": "4bbedcff87",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -13339,17 +13350,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "10-year Treasury yield hovers above 5% after strong GDP report, rising inflation data",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tUkpYWmlUR3kwRzB5cTZuejFRaTloS09XeThKc3hXUnVVem12eHNkN0ZnV2VpemJ2N09sZWNkenlUNGhHVUo4RmdxaDFIUFhSU0JmMHlKckhSbXhxWXpMUGNsZ0dWOVVmd25nNnRpTE1lbEpTbWhkNk9VTnRpeGPSAYQBQVVfeXFMUE1seWVoTlViUzNtNmZyRk1NekFwcWN2ZkZSMUhWOUY2UHJQWnVZcTB2d1NPRXNzcmhzWlFGWlNNYUd2RTlEbUR1WEZlLWVCQzhjclZPdjlVX29STXVDVW1GOFVaeVUxeUoxSk9GRkhEeGg4RmlXclBlb1ZGZFgydFl0SjJN?oc=5",
-   "ts": "2026-10-29T10:48:54Z",
-   "fuente": "CNBC",
-   "id": "737cbb7966",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -13964,14 +13964,14 @@
     4031.4,
     4049.3,
     4030.7,
-    4039.1
+    4035.7
    ],
    [
-    1793281364,
-    4042.0,
-    4042.0,
-    4042.0,
-    4042.0
+    1793281650,
+    4035.6,
+    4035.6,
+    4035.6,
+    4035.6
    ]
   ],
   "nq": [
@@ -14568,14 +14568,14 @@
     29661.25,
     29707.25,
     29405.0,
-    29524.0
+    29501.5
    ],
    [
-    1793281370,
-    29520.25,
-    29520.25,
-    29520.25,
-    29520.25
+    1793281651,
+    29540.75,
+    29540.75,
+    29540.75,
+    29540.75
    ]
   ],
   "vix": [
@@ -15018,14 +15018,14 @@
     16.97,
     17.34,
     16.87,
-    17.21
+    17.12
    ],
    [
-    1793281066,
-    17.21,
-    17.21,
-    17.21,
-    17.21
+    1793281336,
+    17.05,
+    17.05,
+    17.05,
+    17.05
    ]
   ]
  },
@@ -15121,7 +15121,6 @@
   }
  ],
  "noticias_vistas": [
-  "9549de7923",
   "8b0d2752cd",
   "d4ed714ee1",
   "6340d10c04",
@@ -15920,7 +15919,8 @@
   "668d01c5a7",
   "716f98bff2",
   "233567d441",
-  "abdc907f02"
+  "abdc907f02",
+  "4bbedcff87"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
