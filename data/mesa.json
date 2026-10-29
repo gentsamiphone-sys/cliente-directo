@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4030.9 · NQ 29623.5 · VIX 16.36 · 3 noticias nuevas",
-   "actualizado": "2026-10-29T16:17:35Z"
+   "ultimo_resultado": "Oro 4023.2 · NQ 29560.75 · VIX 16.3 · 4 noticias nuevas",
+   "actualizado": "2026-10-29T16:22:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T16:17:34Z",
-   "ultimo_resultado": "3 titulares nuevos: Mocs Welcome Fans to Boo & Gold Friday at McKenzie Arena"
+   "actualizado": "2026-10-29T16:22:33Z",
+   "ultimo_resultado": "4 titulares nuevos: Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4023.2 · NQ 29560.75 · VIX 16.3 · 4 noticias nuevas",
+   "ts": "2026-10-29T16:22:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4030.9 · NQ 29623.5 · VIX 16.36 · 3 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4061.3 · NQ 29555.5 · VIX 16.91 · 1 noticias nuevas",
    "ts": "2026-10-29T03:02:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4055.2 · NQ 29535.0 · VIX 16.91 · 1 noticias nuevas",
-   "ts": "2026-10-29T02:57:33Z"
   }
  ],
  "briefs": [
@@ -12490,12 +12490,34 @@
   }
  },
  "en_vivo": {
-  "oro": 4030.9,
-  "nq": 29623.5,
-  "vix": 16.36,
-  "ts": "2026-10-29T16:17:34Z"
+  "oro": 4023.2,
+  "nq": 29560.75,
+  "vix": 16.3,
+  "ts": "2026-10-29T16:22:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'",
+   "link": "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html",
+   "ts": "2026-10-29T16:22:19Z",
+   "fuente": "CNBC",
+   "id": "b66018b216",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Florida State Hosts Garnet & Gold All-Star Game Friday Night",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaFVPcTRDVUFFN2lEZUtvTklHalZ2TmNCRGxLekF2N2RRVF9XZHA1cVZrNTNVczA5OW02XzViRlduSjRuR3pRVmtpcnVISTZjWng1d1JtS01KRlVhakNPR2I4a3NLY0pjWEhpRjdCdi1TeEZmOUpaYmtGQ2JJZmx2emlRQ2xDRDlUZ0xLSkhYZ20ydnJKRVJ5V2xEaWJ2VzBuU3NTR3UwXzk?oc=5",
+   "ts": "2026-10-29T16:20:54Z",
+   "fuente": "seminoles.com",
+   "id": "7b5a83788d",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Mocs Welcome Fans to Boo & Gold Friday at McKenzie Arena",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNHJJak40MlEzRzFheFZaYWh6dm9FVWdVRGtGNWtLUGVIWHNoTDZJQ2RtSFdKV1VyQWh0UUc4VlY1WlFCc2VBNHFienB6RFR1bGRjSWhSc01FRVVvMms3YW13NWxFTVRHUEVZUlVVczYzSGN3TDZxZ1JKS2ItZlZVNllmc2k3LUJJNVk1MlhLaktFdUE?oc=5",
@@ -12506,6 +12528,15 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "IRS CEO Bisignano donates to Trump Accounts in his childhood Brooklyn ZIP code",
+   "link": "https://www.cnbc.com/2026/10/29/trump-accounts-frank-bisignano-brooklyn.html",
+   "ts": "2026-10-29T16:06:02Z",
+   "fuente": "CNBC",
+   "id": "7f6bf7a67e",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Stocks making the biggest moves midday: ADT, Alphabet, Caterpillar, Eli Lilly, Chipotle & more",
@@ -12541,6 +12572,15 @@
    "impacto": "medio",
    "es": "El dólar canadiense se fortalece mientras operadores evalúan alza del BoC y esperan datos de EE. UU.",
    "efecto": "Genera volatilidad moderada en el índice dólar y divisas globales."
+  },
+  {
+   "titulo": "Cramer sees opportunity amid tech turmoil and predicts a holiday win for FedEx",
+   "link": "https://www.cnbc.com/investingclub/2026/10/29/cramer-sees-opportunity-amid-tech-turmoil-and-predicts-a-holiday-win-for-fedex.html",
+   "ts": "2026-10-29T16:01:51Z",
+   "fuente": "CNBC",
+   "id": "14b2c77f89",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "TSX slips as gold miners tumble on earnings, US inflation data",
@@ -13310,52 +13350,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Here are Thursday's biggest analyst calls: Nvidia, Anthropic, Apple, Tesla, Chevron, Microsoft, Alphabet & more",
-   "link": "https://www.cnbc.com/2026/10/29/thursday-biggest-analyst-calls-like-anthropic.html",
-   "ts": "2026-10-29T12:08:23Z",
-   "fuente": "CNBC",
-   "id": "2353a81fff",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Principales recomendaciones de analistas: Nvidia, Apple, Tesla, Microsoft y más",
-   "efecto": "Impulsa selectivamente a las tecnológicas del Nasdaq."
-  },
-  {
-   "titulo": "Kalshi valuation jumps to $40 billion in latest funding round",
-   "link": "https://www.cnbc.com/2026/10/29/kalshi-40-billion-valuation-funding-round.html",
-   "ts": "2026-10-29T12:05:18Z",
-   "fuente": "CNBC",
-   "id": "54794802b0",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "La valoración de Kalshi salta a 40 mil millones en ronda de financiación",
-   "efecto": "Sin impacto institucional relevante en oro o NQ."
-  },
-  {
-   "titulo": "Federal reserve leaving interest rates unchanged as US inflation continues",
-   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPeVBGVjFuWUEzUjhJZmU0UDdhb1hTZEctZmZJdGZxNWg0Ny1ieVA1Y0o1QUhWRWNGUE1ubUZaUThDR0QwcVZGOUlaM0RvcXRwVzJlcUhzNkdXWWlDSFBYUnJ5eklSTmgycGV6dGRvSFB5ZXplaGxyS3pyLUM0dWgyQ0ZXQkh1YnREU1FZZDZRcngtWnUxcXZZN1AzRlktcThMM3BiRWtpTS1rNDBkUkxYNGZocnp6bG93MDNrY3JVYVRpRmJLdExJN0gzYk5qd1NJV0s4TXU4d0YzLWdUU240?oc=5",
-   "ts": "2026-10-29T12:04:00Z",
-   "fuente": "KVUE",
-   "id": "8cd89e013a",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Buy Equinox Gold Stock. It Looks Like a Diamond in the Rough.",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZHJRQkZ4aW94OGViVWxSRlJBb1lJZGR3U25SSHdfRmJNNFV2dklvNFRtS0psNDZmUGVVb2c5ZlpqMEN5OUZaenU0X0JQY2NQdEF4RlkzdHd2YUdvN2FMMkdBTHR5dmpDZDdvTU4zR2ZYWjdqTWEtVUgwZUVmVXhnZg?oc=5",
-   "ts": "2026-10-29T12:01:00Z",
-   "fuente": "Barron's",
-   "id": "453c8af0dd",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13990,15 +13984,15 @@
     1793289600,
     4035.0,
     4035.0,
-    4030.1,
-    4031.1
+    4021.6,
+    4023.0
    ],
    [
-    1793290052,
-    4030.9,
-    4030.9,
-    4030.9,
-    4030.9
+    1793290351,
+    4023.2,
+    4023.2,
+    4023.2,
+    4023.2
    ]
   ],
   "nq": [
@@ -14615,15 +14609,15 @@
     1793289600,
     29656.25,
     29658.5,
-    29602.0,
-    29612.5
+    29553.0,
+    29560.0
    ],
    [
-    1793290053,
-    29623.5,
-    29623.5,
-    29623.5,
-    29623.5
+    1793290353,
+    29560.75,
+    29560.75,
+    29560.75,
+    29560.75
    ]
   ],
   "vix": [
@@ -15085,16 +15079,16 @@
    [
     1793289600,
     16.34,
-    16.35,
-    16.34,
-    16.34
+    16.37,
+    16.28,
+    16.28
    ],
    [
-    1793289751,
-    16.36,
-    16.36,
-    16.36,
-    16.36
+    1793290051,
+    16.3,
+    16.3,
+    16.3,
+    16.3
    ]
   ]
  },
@@ -15201,10 +15195,6 @@
   }
  ],
  "noticias_vistas": [
-  "b0eab4e676",
-  "a47adcb6af",
-  "5c61e06806",
-  "7da7ff0573",
   "f85123b39e",
   "ec8bbf75ea",
   "57c5025d40",
@@ -16000,7 +15990,11 @@
   "0af606f2a3",
   "0d905ea742",
   "69d59b8c1e",
-  "656f84b3f6"
+  "656f84b3f6",
+  "b66018b216",
+  "7b5a83788d",
+  "7f6bf7a67e",
+  "14b2c77f89"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
