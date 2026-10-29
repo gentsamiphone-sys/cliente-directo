@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4038.3 · NQ 29646.75 · VIX 17.11 · 2 noticias nuevas",
-   "actualizado": "2026-10-29T12:02:34Z"
+   "ultimo_resultado": "Oro 4031.6 · NQ 29641.5 · VIX 17.11 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-29T12:07:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T12:02:33Z",
-   "ultimo_resultado": "2 titulares nuevos: Warren urges DOJ criminal probe of Bank of America over anti-money-laundering violations"
+   "actualizado": "2026-10-29T12:07:31Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Stocks making the biggest moves premarket: Alphabet, Caterpillar, Eli Lilly, DoorDash & more"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4031.6 · NQ 29641.5 · VIX 17.11 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-29T12:07:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4038.3 · NQ 29646.75 · VIX 17.11 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "ES/NQ: CONFIRMA: ES y NQ van en la misma dirección · ES bajista en 1H",
    "ts": "2026-10-28T21:33:16Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el S&P 500 (ES) con el NQ…",
-   "ts": "2026-10-28T21:33:13Z"
   }
  ],
  "briefs": [
@@ -12446,12 +12446,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4038.3,
-  "nq": 29646.75,
+  "oro": 4031.6,
+  "nq": 29641.5,
   "vix": 17.11,
-  "ts": "2026-10-29T12:02:33Z"
+  "ts": "2026-10-29T12:07:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Stocks making the biggest moves premarket: Alphabet, Caterpillar, Eli Lilly, DoorDash & more",
+   "link": "https://www.cnbc.com/2026/10/29/stocks-making-the-biggest-moves-premarket-.html",
+   "ts": "2026-10-29T12:00:54Z",
+   "fuente": "CNBC",
+   "id": "89f185ea64",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Warren urges DOJ criminal probe of Bank of America over anti-money-laundering violations",
    "link": "https://www.cnbc.com/2026/10/29/warren-bank-of-america-criminal-probe.html",
@@ -12487,6 +12498,17 @@
    "id": "ae1f9a6539",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "US stocks have done this after every midterm election since 1950 (incredible 19 out of 19 times). Time to be fearful?",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/us-stocks-done-every-midterm-114500900.html?.tsrc=rss",
+   "ts": "2026-10-29T11:45:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "a5acd0a8ce",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Alphabet drags on Nasdaq futures as the stock faces a record post-earnings loss",
@@ -12588,6 +12610,18 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "US Stock Futures Mixed as Alphabet Falls, Microsoft Gains and Fed Comments Draw Attention to AI Spending: Dow Jones, S&P, Nasdaq, Wall Street",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdURLVzBmX2N0aFJwbU5LUHo5cmo1VDFqaXlzdk5yQTRKaUFHeERjMHZuSlh2QXA2S2ZpM1Rob1FLMWJnTTZMNlRvVmhWR3VteFNVVlRfa2FKRFJLTC1yV0k0Qll2QUN5czhNME13ZHIwMmx1Q0R6MkxNLTFzZUZoZk9oRExzTGt3SDlqRjNST3A2OXNwQUMxVHBRLWo?oc=5",
+   "ts": "2026-10-29T11:26:40Z",
+   "fuente": "Yahoo Finance",
+   "id": "2436d3b014",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "eClerx Reports Strong Q2 FY2026-27 Results; Revenue Stands at INR 1,212.6 Crore, up 17.1% YoY",
@@ -13272,41 +13306,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Nasdaq futures slide as mixed Big Tech results test AI trade",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTRZdktaNHNaUkc2SG45TFV3V3hKRlMwdWdFTEhyUVFSRnBodWFIM0gxSHh5NWZDVkp3WnJOX3RTZGFtUDVIN3ZPQnB6NlNOQ01OOXhTRnNhNjkyajZ2ejhEZkRBS1IxMkxjVWJmY3FYa3lqcHUxajVqRXpWdS1UWjdxZFZYTW8tUjBtN2NZTGlLSWFiRlpjTDNKaVlVbHRiLVRCcA?oc=5",
-   "ts": "2026-10-29T08:36:10Z",
-   "fuente": "Reuters",
-   "id": "3455199446",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto",
-   "es": "Los futuros del Nasdaq caen mientras resultados mixtos tecnológicas prueban el comercio de IA",
-   "efecto": "Presiona al NQ a la baja por toma de beneficios en tecnológicas."
-  },
-  {
-   "titulo": "Nasdaq futures lead losses as Alphabet results disappoint (SPX:)",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNX2wzRWF3WjV6S2V6cXc4SnlJek5GTm5vSVIwcWJxQU4tYUdHekV0OE9UNDJNVFdXVFFQVXRLNS1PQi1jNkEwbE92ZEJOZWdORzAyUWMzZFFqTHNvWjV6R1N0MUN3NDEyOXY1dWJNSGJ0UTJIcDVaOFo4azN1RGRCanhBMndjRndX?oc=5",
-   "ts": "2026-10-29T08:16:14Z",
-   "fuente": "Seeking Alpha",
-   "id": "e51e02b874",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Mosaic Begins a Drilling Campaign of at Least 2,000 Metres at Golden Island and Returns up to 72.8 g/t Au, 42.5 g/t Ag and 0.42% Cu at Surface",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/mosaic-begins-drilling-campaign-least-081300994.html?.tsrc=rss",
-   "ts": "2026-10-29T08:13:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "325eec8439",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13904,15 +13903,15 @@
     1793271600,
     4042.8,
     4051.1,
-    4037.2,
-    4037.2
+    4030.8,
+    4031.0
    ],
    [
-    1793274752,
-    4038.6,
-    4038.6,
-    4038.6,
-    4038.6
+    1793275047,
+    4031.6,
+    4031.6,
+    4031.6,
+    4031.6
    ]
   ],
   "nq": [
@@ -14494,15 +14493,15 @@
     1793271600,
     29717.25,
     29729.0,
-    29635.75,
-    29637.25
+    29630.25,
+    29633.75
    ],
    [
-    1793274752,
-    29646.75,
-    29646.75,
-    29646.75,
-    29646.75
+    1793275050,
+    29641.5,
+    29641.5,
+    29641.5,
+    29641.5
    ]
   ],
   "vix": [
@@ -14931,10 +14930,10 @@
     16.99,
     17.13,
     16.95,
-    17.11
+    17.1
    ],
    [
-    1793274451,
+    1793274736,
     17.11,
     17.11,
     17.11,
@@ -15045,9 +15044,6 @@
   }
  ],
  "noticias_vistas": [
-  "2805b83cb2",
-  "641c325c35",
-  "3f2423f3f9",
   "92f1ea8635",
   "9a7a84eec3",
   "a6598969db",
@@ -15844,7 +15840,10 @@
   "4033b79464",
   "f6ac1e9381",
   "6531f6525e",
-  "89fa554870"
+  "89fa554870",
+  "89f185ea64",
+  "a5acd0a8ce",
+  "2436d3b014"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
