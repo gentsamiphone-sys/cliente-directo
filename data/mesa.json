@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4031.9 · NQ 29534.75 · VIX 16.61 · 2 noticias nuevas",
-   "actualizado": "2026-10-29T20:02:34Z"
+   "ultimo_resultado": "Oro 4033.9 · NQ 29548.0 · VIX 16.5 · 4 noticias nuevas",
+   "actualizado": "2026-10-29T20:07:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T20:02:32Z",
-   "ultimo_resultado": "2 titulares nuevos: Wildlife Conservation Society Board of Trustees Awards Gold Medal To Dr. John G. Robinson for Extraordinary Contributions to Global Conservation"
+   "actualizado": "2026-10-29T20:07:32Z",
+   "ultimo_resultado": "4 titulares nuevos: Starbucks international business disappoints but U.S. stores outperform"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4033.9 · NQ 29548.0 · VIX 16.5 · 4 noticias nuevas",
+   "ts": "2026-10-29T20:07:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4031.9 · NQ 29534.75 · VIX 16.61 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Historial: 12 operaciones, 25% de acierto, +6.08 R.",
    "ts": "2026-10-29T06:32:52Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Revisando cómo salieron las entradas anteriores…",
-   "ts": "2026-10-29T06:32:51Z"
   }
  ],
  "briefs": [
@@ -12490,12 +12490,43 @@
   }
  },
  "en_vivo": {
-  "oro": 4031.9,
-  "nq": 29534.75,
-  "vix": 16.61,
-  "ts": "2026-10-29T20:02:33Z"
+  "oro": 4033.9,
+  "nq": 29548.0,
+  "vix": 16.5,
+  "ts": "2026-10-29T20:07:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Starbucks international business disappoints but U.S. stores outperform",
+   "link": "https://www.cnbc.com/2026/10/29/starbucks-sbux-q4-2026-earnings.html",
+   "ts": "2026-10-29T20:07:03Z",
+   "fuente": "CNBC",
+   "id": "f01cf0b99f",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Amazon earnings are out – here are the numbers",
+   "link": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
+   "ts": "2026-10-29T20:05:41Z",
+   "fuente": "CNBC",
+   "id": "5870741f9f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Dow loses 100 points, S&P 500 snaps 3-day advance as Alphabet and Caterpillar tank: Live updates",
+   "link": "https://www.cnbc.com/2026/10/28/stock-market-today-live-updates.html",
+   "ts": "2026-10-29T20:04:24Z",
+   "fuente": "CNBC",
+   "id": "82df1c86de",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Wildlife Conservation Society Board of Trustees Awards Gold Medal To Dr. John G. Robinson for Extraordinary Contributions to Global Conservation",
    "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQZVczMm9DUVRqbU9GN2NfZlRfdDd1WTVHMTZ5UnZSV3ROQVgybXo5cW9QTEZpWVRZVEhqVnBwU25oSF92a2t0cXVhZlUxY3pwa1VTSXdXLWVaZl91ZmF5ZkpJQ0h6czlidkM2ZDR1Y1VnY2JtUGxGb3ZBNzVWUkZoUVpXODRDdU5FMWUyMHdTbk84by1JcEk3SmNGekp2U2xZNlpUREJlZkxLQm5waV9RY3VNc2dmbnF1d19Rc19TOGxHYmFXclRnSHE5SDkyaEVWcnZwY0hqcVdiVkxsdXVmSTY3WFBjeVdINUVwZHppaFphd25MQU1XSEw0MmhXUFhMZ0RFM21TYkNTTVE2UFd0YnlIdFNCbENSQXE4cmd1eEp1UTE5M1dQdWpWQVhRYk1OSzhSWHdpOW9MRG9PcldyQ2FnNmtXaFZZaGc?oc=5",
@@ -12506,6 +12537,15 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Ondo brings its tokenized portfolios to Solana",
+   "link": "https://www.thestreet.com/crypto/markets/ondo-brings-its-tokenized-portfolios-to-solana?.tsrc=rss",
+   "ts": "2026-10-29T19:47:42Z",
+   "fuente": "Yahoo Finance",
+   "id": "9d4171eeab",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Agnico Eagle Earnings: Improved on the Stronger Gold Price, but Volumes Softer and Unit Costs Higher",
@@ -13284,50 +13324,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Federal Reserve holding interest rates steady for the moment",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRTdVN0Y1cEdMelVKVTVZNkN4WnVmTmxJZ0dDZUNmUzZBYkZPMHJkay1ZeXl0T2Z1Z2VuU01vUWxuM0x1RUcxR3J4T2lrYTV4QW54Sy1pUWNrQzBSYml6LTV1MjF2TXlIblFUc0dRajJ6UHM1N1MySU11STgtLXlhZGNTZ3dadjY3ZEhHbnRBYkVZSmhscFE?oc=5",
-   "ts": "2026-10-29T14:46:00Z",
-   "fuente": "WSAW",
-   "id": "0159a2f239",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "La Reserva Federal mantiene las tasas de interés estables por el momento",
-   "efecto": "Impulsa al NQ y debilita al dólar por postura acomodaticia."
-  },
-  {
-   "titulo": "The politics of President Lagarde's European Central Bank early exit  — and who could replace her",
-   "link": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html",
-   "ts": "2026-10-29T14:42:29Z",
-   "fuente": "CNBC",
-   "id": "bf3fa12844",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "JPMorgan says Palantir to rally more than 30%, names it a favorite stock",
-   "link": "https://www.cnbc.com/2026/10/29/jpmorgan-says-palantir-to-rally-30percent-names-it-a-favorite-stock.html",
-   "ts": "2026-10-29T14:39:22Z",
-   "fuente": "CNBC",
-   "id": "46133306d1",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Interbrand Rings the Nasdaq Stock Market Opening Bell",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdFRnNTM4VkFieE1NSFZFSU9ndk93N1NrUjhkNWUtaUpucFBwanNfQ3RFMGtpX0xyQ1RpNktkUFVUSGlyUG5ORUdKVlViM2picG5hM2V5ZDZkd1BGQmoxYk9nZmZ2ZklRUHgwZlFnUkhnVWRpU084akN1eGp0SXJYaGlvYnhQeHJU?oc=5",
-   "ts": "2026-10-29T14:37:28Z",
-   "fuente": "Nasdaq",
-   "id": "5904317318",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Interbrand toca la campana de apertura del mercado de valores Nasdaq",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -13968,16 +13964,16 @@
    [
     1793300400,
     4023.5,
-    4032.8,
+    4034.4,
     4021.1,
-    4031.6
+    4033.8
    ],
    [
-    1793303550,
-    4031.9,
-    4031.9,
-    4031.9,
-    4031.9
+    1793303850,
+    4033.9,
+    4033.9,
+    4033.9,
+    4033.9
    ]
   ],
   "nq": [
@@ -14600,16 +14596,16 @@
    [
     1793300400,
     29464.0,
-    29546.0,
+    29559.25,
     29443.25,
-    29539.75
+    29550.75
    ],
    [
-    1793303551,
-    29534.75,
-    29534.75,
-    29534.75,
-    29534.75
+    1793303851,
+    29548.0,
+    29548.0,
+    29548.0,
+    29548.0
    ]
   ],
   "vix": [
@@ -15093,30 +15089,41 @@
     1793300400,
     16.93,
     16.95,
-    16.57,
-    16.63
+    16.5,
+    16.5
    ],
    [
-    1793303251,
-    16.61,
-    16.61,
-    16.61,
-    16.61
+    1793303551,
+    16.5,
+    16.5,
+    16.5,
+    16.5
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-29T19:42:32Z",
- "ult_4h": 1793303554.1629982,
+ "ult_4h": 1793304453.973944,
  "estrategia_4h": {
   "oro": {
-   "precio": 4030.4,
+   "precio": 4033.9,
    "atr_4h": 26.44,
    "setups": []
   },
   "nq": {
-   "precio": 29491.25,
+   "precio": 29547.0,
    "atr_4h": 223.39,
    "setups": [
+    {
+     "direccion": "COMPRA",
+     "nivel": 29572.0,
+     "entrada": 29572.0,
+     "stop": 29437.96,
+     "objetivo": 30178.0,
+     "rr": 4.52,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 1.34,
+     "ruptura": "2026-10-27 12:00 UTC"
+    },
     {
      "direccion": "COMPRA",
      "nivel": 29326.0,
@@ -15130,7 +15137,7 @@
     }
    ]
   },
-  "ts": "2026-10-29T19:52:34Z"
+  "ts": "2026-10-29T20:07:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15197,10 +15204,6 @@
   }
  ],
  "noticias_vistas": [
-  "204a484265",
-  "4eabf2e41a",
-  "730b702159",
-  "b2acc5e212",
   "2748c948a4",
   "6be065c1cd",
   "65bdb65abb",
@@ -15996,7 +15999,11 @@
   "564a9b32d9",
   "478897b057",
   "844011fb34",
-  "0a92af2b6f"
+  "0a92af2b6f",
+  "f01cf0b99f",
+  "5870741f9f",
+  "82df1c86de",
+  "9d4171eeab"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
