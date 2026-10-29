@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4070.9 · NQ 29567.5 · VIX 16.91",
-   "actualizado": "2026-10-29T02:02:33Z"
+   "ultimo_resultado": "Oro 4074.6 · NQ 29595.5 · VIX 16.91 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-29T02:07:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T02:02:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-29T02:07:34Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Samsung Electronics shares slid despite record profit in the third-quarter"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4074.6 · NQ 29595.5 · VIX 16.91 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-29T02:07:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4070.9 · NQ 29567.5 · VIX 16.91",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
    "ts": "2026-10-28T12:32:52Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "DXY -0.01% · 10Y 4.993 · VIX 17.4 · 7 eventos USD en el radar.",
-   "ts": "2026-10-28T12:32:50Z"
   }
  ],
  "briefs": [
@@ -12355,12 +12355,33 @@
   }
  },
  "en_vivo": {
-  "oro": 4070.9,
-  "nq": 29567.5,
+  "oro": 4074.6,
+  "nq": 29595.5,
   "vix": 16.91,
-  "ts": "2026-10-29T02:02:33Z"
+  "ts": "2026-10-29T02:07:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Samsung Electronics shares slid despite record profit in the third-quarter",
+   "link": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html",
+   "ts": "2026-10-29T02:06:04Z",
+   "fuente": "CNBC",
+   "id": "27f335afa5",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold slips after Fed holds rates, PCE inflation data in focus",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-slips-fed-holds-rates-015115459.html?.tsrc=rss",
+   "ts": "2026-10-29T01:51:15Z",
+   "fuente": "Yahoo Finance",
+   "id": "843f76c567",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "What Is The One Risk Every Newmont Investor Should Know?",
    "link": "https://www.trefis.com/stock/nem/articles/620959/what-is-the-one-risk-every-newmont-investor-should-know/2026-10-28?.tsrc=rss",
@@ -13225,26 +13246,6 @@
    "id": "d3320b4d34",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "How Much a Single American Needs to Retire Comfortably in Canada, Broken Down by Province",
-   "link": "https://www.investopedia.com/how-much-a-single-american-needs-to-retire-comfortably-in-canada-broken-down-by-province-12182599?.tsrc=rss",
-   "ts": "2026-10-28T19:20:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "313ca8c633",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Microsoft will post earnings after the bell amid job cuts and new cash-flow test",
-   "link": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
-   "ts": "2026-10-28T19:19:38Z",
-   "fuente": "CNBC",
-   "id": "df7b975395",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13885,14 +13886,14 @@
     4048.3,
     4081.0,
     4047.8,
-    4071.5
+    4074.6
    ],
    [
-    1793238749,
-    4070.9,
-    4070.9,
-    4070.9,
-    4070.9
+    1793239050,
+    4074.3,
+    4074.3,
+    4074.3,
+    4074.3
    ]
   ],
   "nq": [
@@ -14516,15 +14517,15 @@
     1793235600,
     29716.25,
     29746.0,
-    29555.75,
-    29558.25
+    29553.0,
+    29590.0
    ],
    [
-    1793238751,
-    29567.5,
-    29567.5,
-    29567.5,
-    29567.5
+    1793239052,
+    29598.25,
+    29598.25,
+    29598.25,
+    29598.25
    ]
   ],
   "vix": [
@@ -15153,8 +15154,6 @@
   }
  ],
  "noticias_vistas": [
-  "47029d85f2",
-  "dc65fbee79",
   "8d399c8d5b",
   "170cef93d8",
   "cb230ce953",
@@ -15952,7 +15951,9 @@
   "c06c7366bb",
   "9bc384fcf9",
   "80caee6598",
-  "a31aba35d4"
+  "a31aba35d4",
+  "27f335afa5",
+  "843f76c567"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
