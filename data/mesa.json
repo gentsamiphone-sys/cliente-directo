@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4020.5 · NQ 29469.5 · VIX 16.77 · 1 noticias nuevas",
-   "actualizado": "2026-10-29T18:03:04Z"
+   "ultimo_resultado": "Oro 4019.8 · NQ 29460.5 · VIX 16.89 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-29T18:07:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T18:03:03Z",
-   "ultimo_resultado": "1 titulares nuevos: Interbrand toca la campana de apertura del mercado de valores Nasdaq"
+   "actualizado": "2026-10-29T18:07:32Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: US Dollar Nudges Lower Against The Loonie as Oil Prices And Bond Yields Edge Down"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4019.8 · NQ 29460.5 · VIX 16.89 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-29T18:07:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4020.5 · NQ 29469.5 · VIX 16.77 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4047.1 · NQ 29600.0 · VIX 16.91 · 1 noticias nuevas",
    "ts": "2026-10-29T04:47:29Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4047.6 · NQ 29589.0 · VIX 16.91 · 2 noticias nuevas",
-   "ts": "2026-10-29T04:42:33Z"
   }
  ],
  "briefs": [
@@ -12490,12 +12490,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4020.5,
-  "nq": 29469.5,
-  "vix": 16.77,
-  "ts": "2026-10-29T18:03:03Z"
+  "oro": 4019.8,
+  "nq": 29460.5,
+  "vix": 16.89,
+  "ts": "2026-10-29T18:07:33Z"
  },
  "noticias": [
+  {
+   "titulo": "US Dollar Nudges Lower Against The Loonie as Oil Prices And Bond Yields Edge Down",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-nudges-lower-against-175340275.html?.tsrc=rss",
+   "ts": "2026-10-29T17:53:40Z",
+   "fuente": "Yahoo Finance",
+   "id": "b59b18e440",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Cruise companies aim to keep fuel costs down. Their strategies for doing so differ",
    "link": "https://www.cnbc.com/2026/10/29/royal-caribbean-carnival-norwegian-fuel-costs.html",
@@ -12523,6 +12534,15 @@
    "activos": [
     "oro"
    ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Trump and Canada Near a Deal to Ease Steel and Auto Tariffs as Ford Reports",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSnZORDdvSXVjaEZWNi1VbFk2VFZkeF9pM3FRWFo4Y2c5YWhac3E4RFNYMDRGUUdIQkN6V1dKZEd6NmlxSGRURUxwZFdVczM3dzlpZkZmNWdTa2tBS2xlODRHNk1ZVTk5cjJXenRickdTc21UUTd0UHVzTjYyRzJXcnA2dGlFSkJvSE44cmlPcUVCbm5XVWx3?oc=5",
+   "ts": "2026-10-29T17:28:51Z",
+   "fuente": "Yahoo Finance",
+   "id": "e640647d4b",
+   "activos": [],
    "impacto": "alto"
   },
   {
@@ -13322,32 +13342,6 @@
    "id": "8444c1e2b0",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Newmark’s (NASDAQ:NMRK) Q3 2026: beats on revenue but stock drops on weak guidance",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOc1lpYVBaVkZJUklXWjVHdno1cmpuX0UzQ0ROLVBUUEg0aFVPVVRuUGRWMV8tTHQyTTc2RFYwblhreVFnS0NvdHc1U3hoRFB1VUlJX3lIamlWdVQ5Z1Yxc3g3anlqbXJzU0JPdmxrRm8zSFpQNlpuQkxtc2phdXcyVlJDdjVObjJkUUFlLVJaR0FfMW5OVmxF?oc=5",
-   "ts": "2026-10-29T13:09:11Z",
-   "fuente": "Yahoo Finance",
-   "id": "abdc907f02",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "Newmark Q3 2026: supera ingresos pero cae por debilidad en guía.",
-   "efecto": "Venta sectorial limitada, sin impacto macro sistemático en NQ."
-  },
-  {
-   "titulo": "Why traders are rushing for the exits on Alphabet",
-   "link": "https://www.cnbc.com/2026/10/29/why-traders-are-rushing-for-the-exits-on-alphabet.html",
-   "ts": "2026-10-29T13:05:26Z",
-   "fuente": "CNBC",
-   "id": "cfc1fedd28",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Por qué los traders huyen masivamente de Alphabet",
-   "efecto": "Aumenta la volatilidad y presiona a la baja al NQ por aversión al riesgo."
   }
  ],
  "eventos_avisados": [
@@ -13990,14 +13984,14 @@
     4029.6,
     4037.4,
     4019.3,
-    4019.9
+    4019.8
    ],
    [
-    1793296381,
-    4020.5,
-    4020.5,
-    4020.5,
-    4020.5
+    1793296647,
+    4019.8,
+    4019.8,
+    4019.8,
+    4019.8
    ]
   ],
   "nq": [
@@ -14621,15 +14615,15 @@
     1793293200,
     29591.25,
     29593.75,
-    29458.75,
-    29460.5
+    29431.5,
+    29459.75
    ],
    [
-    1793296381,
-    29469.5,
-    29469.5,
-    29469.5,
-    29469.5
+    1793296651,
+    29460.5,
+    29460.5,
+    29460.5,
+    29460.5
    ]
   ],
   "vix": [
@@ -15098,56 +15092,45 @@
    [
     1793293200,
     16.22,
-    16.77,
+    16.82,
     16.21,
-    16.77
+    16.81
    ],
    [
-    1793296081,
-    16.77,
-    16.77,
-    16.77,
-    16.77
+    1793296351,
+    16.89,
+    16.89,
+    16.89,
+    16.89
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-29T18:02:33Z",
- "ult_4h": 1793296355.8983698,
+ "ult_4h": 1793297253.2870326,
  "estrategia_4h": {
   "oro": {
-   "precio": 4024.7,
-   "atr_4h": 26.09,
+   "precio": 4019.8,
+   "atr_4h": 26.23,
    "setups": []
   },
   "nq": {
-   "precio": 29510.25,
-   "atr_4h": 218.52,
+   "precio": 29460.5,
+   "atr_4h": 222.8,
    "setups": [
-    {
-     "direccion": "COMPRA",
-     "nivel": 29572.0,
-     "entrada": 29572.0,
-     "stop": 29440.89,
-     "objetivo": 30178.0,
-     "rr": 4.62,
-     "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.37,
-     "ruptura": "2026-10-27 12:00 UTC"
-    },
     {
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29194.89,
+     "stop": 29192.32,
      "objetivo": 30178.0,
-     "rr": 6.5,
+     "rr": 6.37,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.91,
+     "fuerza_ruptura_atr": 0.89,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-29T17:52:36Z"
+  "ts": "2026-10-29T18:07:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15214,8 +15197,6 @@
   }
  ],
  "noticias_vistas": [
-  "db9e8fd5c9",
-  "972f23ad9a",
   "2aa832e9cf",
   "e452880371",
   "6242fa6126",
@@ -16013,7 +15994,9 @@
   "81b83b130d",
   "270952e64e",
   "29d9d490cf",
-  "5904317318"
+  "5904317318",
+  "b59b18e440",
+  "e640647d4b"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
