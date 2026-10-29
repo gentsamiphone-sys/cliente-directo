@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4041.9 · NQ 29677.75 · VIX 17.02 · 1 noticias nuevas",
-   "actualizado": "2026-10-29T09:27:35Z"
+   "ultimo_resultado": "Oro 4039.7 · NQ 29684.75 · VIX 17.08 · 3 noticias nuevas",
+   "actualizado": "2026-10-29T09:32:43Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T09:27:34Z",
-   "ultimo_resultado": "1 titulares nuevos: French Senate backs ‘Rioters Pay’ bill that could make protesters pay $11,000 fines"
+   "actualizado": "2026-10-29T09:32:42Z",
+   "ultimo_resultado": "3 titulares nuevos: Prediction: Bitcoin Will Surpass Gold in Market Cap Within the Next Decade"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4039.7 · NQ 29684.75 · VIX 17.08 · 3 noticias nuevas",
+   "ts": "2026-10-29T09:32:43Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4041.9 · NQ 29677.75 · VIX 17.02 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4090.2 · NQ 30063.5 · VIX 16.93 · 3 noticias nuevas (2 alto impacto)",
    "ts": "2026-10-28T20:12:51Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Estrategia 4H ORO: COMPRA en el nivel 4084.1 · stop 4069.79 · objetivo 4164.3 · R:R 5.61 (en retesteo). Tú ejecutas.",
-   "ts": "2026-10-28T20:12:38Z"
   }
  ],
  "briefs": [
@@ -12446,12 +12446,44 @@
   }
  },
  "en_vivo": {
-  "oro": 4041.9,
-  "nq": 29677.75,
-  "vix": 17.02,
-  "ts": "2026-10-29T09:27:34Z"
+  "oro": 4039.7,
+  "nq": 29684.75,
+  "vix": 17.08,
+  "ts": "2026-10-29T09:32:42Z"
  },
  "noticias": [
+  {
+   "titulo": "Prediction: Bitcoin Will Surpass Gold in Market Cap Within the Next Decade",
+   "link": "https://www.fool.com/investing/2026/10/29/prediction-bitcoin-will-become-less-volatile-than/?.tsrc=rss",
+   "ts": "2026-10-29T09:20:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "e95d4c1e06",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Hycroft Mining Holding (HYMC) Looks Pricey Following Wider Losses And Leadership Changes",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/hycroft-mining-holding-hymc-looks-091643887.html?.tsrc=rss",
+   "ts": "2026-10-29T09:16:43Z",
+   "fuente": "Yahoo Finance",
+   "id": "66f51a2bf0",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Total Metals Provides Exploration Drilling Update at its High Lake High-Grade Gold Project, Northwestern Ontario",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/total-metals-provides-exploration-drilling-091500716.html?.tsrc=rss",
+   "ts": "2026-10-29T09:15:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "e7cc568407",
+   "activos": [
+    "oro",
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "French Senate backs ‘Rioters Pay’ bill that could make protesters pay $11,000 fines",
    "link": "https://www.cnbc.com/2026/10/29/france-protests-riots-cost-damages-law.html",
@@ -13314,41 +13346,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Chipotle shares rise 7% after CEO says same-store sales growth will continue",
-   "link": "https://www.cnbc.com/2026/10/28/chipotle-mexican-grill-cmg-q3-2026-earnings.html",
-   "ts": "2026-10-28T21:55:12Z",
-   "fuente": "CNBC",
-   "id": "152742c219",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "Las acciones de Chipotle suben un 7% tras anuncio de crecimiento",
-   "efecto": ""
-  },
-  {
-   "titulo": "Cotton Closes Higher on Wednesday",
-   "link": "https://www.barchart.com/story/news/8514068/cotton-closes-higher-on-wednesday?.tsrc=rss",
-   "ts": "2026-10-28T21:52:43Z",
-   "fuente": "Yahoo Finance",
-   "id": "d3e36b0722",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "El algodón cierra al alza el miércoles",
-   "efecto": ""
-  },
-  {
-   "titulo": "Illusions Gold Fastpitch issues lifetime bans for individuals involved in melee at Sugar Land tournament",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWnFrNDdsdzR4VHprV2V3Z2M4SVhhcjFhQ2pxd1FPTlNGX29oemlDM2hUc1QydlFmQjVSdEJZR0s3NFNXQkhQcEk3eE9KUGdNcHFuV1JRZ092N1FZanJfZXF3bElBWEpQUFlPWXhyal9WZFFxSkFGRm4xcmVadFAzUVBMaE0wTHQ5aElIQnI4elNjaUFEc3dXajdobU5xWk1RVnc4YjE3X1FSTHZsbUdHTEdjODNwSnJyNkpyaHJ6cFJhRU43cHfSAcsBQVVfeXFMUFVwX3N3cy1OMWtNYTJBejhCYUVtZ25CMFY1QmJXczVvY09jYmV0ZWZFQVk5M3N4YXBqY0hEU0xLcnNpN0F4ODdQNXNmcWlyY3gtTFplNWFJaXpoTzhoUkQyM0xTUEJVOWNqMzdHUE1DS0RsZElfd1E1MDlSb2MxV0xCdUJ3dW1EMUM2ZG9nc0l3bGs1UVhjYm5QZHg2bWZ5OHU2T1E1VDduZWtzVFR0dTU5aHUzWFpwNGJHRXdSb1RHTFBnMDIyZkk3a1E?oc=5",
-   "ts": "2026-10-28T21:47:30Z",
-   "fuente": "ABC13 Houston",
-   "id": "40eeeed930",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Illusions Gold Fastpitch emite suspensiones de por vida por pelea en torneo",
-   "efecto": "Sin impacto en los mercados financieros."
   }
  ],
  "eventos_avisados": [
@@ -13933,14 +13930,14 @@
     4035.2,
     4049.5,
     4034.0,
-    4039.9
+    4038.9
    ],
    [
-    1793265450,
-    4041.9,
-    4041.9,
-    4041.9,
-    4041.9
+    1793265761,
+    4039.7,
+    4039.7,
+    4039.7,
+    4039.7
    ]
   ],
   "nq": [
@@ -14509,14 +14506,14 @@
     29652.75,
     29734.25,
     29643.25,
-    29679.25
+    29684.25
    ],
    [
-    1793265453,
-    29679.0,
-    29679.0,
-    29679.0,
-    29679.0
+    1793265762,
+    29684.0,
+    29684.0,
+    29684.0,
+    29684.0
    ]
   ],
   "vix": [
@@ -14931,36 +14928,36 @@
     17.14,
     17.14,
     16.99,
-    17.02
+    17.07
    ],
    [
-    1793265151,
-    17.02,
-    17.02,
-    17.02,
-    17.02
+    1793265451,
+    17.08,
+    17.08,
+    17.08,
+    17.08
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-29T09:17:32Z",
- "ult_4h": 1793265454.4885638,
+ "ult_4h": 1793266362.7952359,
  "estrategia_4h": {
   "oro": {
-   "precio": 4041.8,
-   "atr_4h": 27.18,
+   "precio": 4039.7,
+   "atr_4h": 27.36,
    "setups": []
   },
   "nq": {
-   "precio": 29703.25,
-   "atr_4h": 217.98,
+   "precio": 29684.75,
+   "atr_4h": 218.96,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 29572.0,
      "entrada": 29572.0,
-     "stop": 29441.21,
+     "stop": 29440.62,
      "objetivo": 30178.0,
-     "rr": 4.63,
+     "rr": 4.61,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.37,
      "ruptura": "2026-10-27 12:00 UTC"
@@ -14969,16 +14966,16 @@
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29195.21,
+     "stop": 29194.62,
      "objetivo": 30178.0,
-     "rr": 6.51,
+     "rr": 6.49,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.91,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-29T09:17:34Z"
+  "ts": "2026-10-29T09:32:43Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15045,9 +15042,6 @@
   }
  ],
  "noticias_vistas": [
-  "068cb1ccc0",
-  "3ad73d4a75",
-  "e30388f4a7",
   "c27db53b3a",
   "92a7b56671",
   "c5363ef7ae",
@@ -15844,7 +15838,10 @@
   "3775e690d2",
   "886101dc89",
   "098994fe83",
-  "ee1716e854"
+  "ee1716e854",
+  "e95d4c1e06",
+  "66f51a2bf0",
+  "e7cc568407"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
