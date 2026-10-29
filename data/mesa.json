@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4038.1 · NQ 29698.5 · VIX 16.91",
-   "actualizado": "2026-10-29T06:22:30Z"
+   "ultimo_resultado": "Oro 4036.9 · NQ 29689.25 · VIX 16.91 · 1 noticias nuevas",
+   "actualizado": "2026-10-29T06:27:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T06:22:30Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-29T06:27:30Z",
+   "ultimo_resultado": "1 titulares nuevos: Gold drops nearly 1%, silver slides over 2%"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4036.9 · NQ 29689.25 · VIX 16.91 · 1 noticias nuevas",
+   "ts": "2026-10-29T06:27:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4038.1 · NQ 29698.5 · VIX 16.91",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4058.2 · NQ 29858.75 · VIX 17.19 · 2 noticias nuevas",
    "ts": "2026-10-28T15:32:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4057.0 · NQ 29846.25 · VIX 17.28",
-   "ts": "2026-10-28T15:27:43Z"
   }
  ],
  "briefs": [
@@ -12355,12 +12355,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4038.1,
-  "nq": 29698.5,
+  "oro": 4036.9,
+  "nq": 29689.25,
   "vix": 16.91,
-  "ts": "2026-10-29T06:22:30Z"
+  "ts": "2026-10-29T06:27:30Z"
  },
  "noticias": [
+  {
+   "titulo": "Gold drops nearly 1%, silver slides over 2%",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZlMzX2NmSzkySjRrTzc2QzZSTHZWdFBOcTRuYTByWGNaWmZrdTRKWGJITEJodURNVC1hYXRudG90WDdtUmd2RnExcWVZNWNRUXNPZ2p1TnlvZThqOTJZNXNIUEhONF9DdGIxTnM0bzIwRl9UMFlpSnlpX0ZnZXFSMDZ3UmdnMUxxejJob1pR?oc=5",
+   "ts": "2026-10-29T06:05:00Z",
+   "fuente": "Breakingthenews.net",
+   "id": "c1846a8ce6",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Judge says Trump's bid to set aside California ballots would ‘wreak havoc’ on democracy",
    "link": "https://www.cnbc.com/2026/10/29/trump-california-election-.html",
@@ -13244,17 +13255,6 @@
    "id": "d42c80126b",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Alphabet (NASDAQ:GOOGL) posts Q3 2026 sales in line with estimates but stock drops",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNejlwUHJaYTdPOTJaTGtNOXdZR0V2QjNubmVtbk1SaFhZRDVhVUJhbEtwbW82TVdhdHRUdHduUlBXVlZON3phRjJTanBDOXBJVzBHbXJJR2dUWkJWZnRVeG5uRURwdEpiUVZPbHYzMFA1V05wemVuVVZNa25oRmo4QUtYX1hkQ1VUZVZOWk5OZVg0amR1RHpWekhIaw?oc=5",
-   "ts": "2026-10-28T20:14:59Z",
-   "fuente": "Yahoo Finance",
-   "id": "45fb2c6f6b",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13804,14 +13804,14 @@
     4036.1,
     4040.5,
     4035.3,
-    4036.8
+    4035.6
    ],
    [
-    1793254347,
-    4038.1,
-    4038.1,
-    4038.1,
-    4038.1
+    1793254648,
+    4036.9,
+    4036.9,
+    4036.9,
+    4036.9
    ]
   ],
   "nq": [
@@ -14359,14 +14359,14 @@
     29686.0,
     29729.25,
     29684.5,
-    29696.75
+    29686.5
    ],
    [
-    1793254348,
-    29698.5,
-    29698.5,
-    29698.5,
-    29698.5
+    1793254649,
+    29691.5,
+    29691.5,
+    29691.5,
+    29691.5
    ]
   ],
   "vix": [
@@ -14984,7 +14984,6 @@
   }
  ],
  "noticias_vistas": [
-  "fd7ba1204c",
   "d34ff8ffe1",
   "1b56bc9a25",
   "15b3ae20be",
@@ -15783,7 +15782,8 @@
   "60a21f4404",
   "f7d0223037",
   "79385fa625",
-  "e6c5f02f77"
+  "e6c5f02f77",
+  "c1846a8ce6"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
