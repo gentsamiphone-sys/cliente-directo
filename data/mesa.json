@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4032.0 · NQ 29133.75 · VIX 17.2",
-   "actualizado": "2026-10-29T22:32:32Z"
+   "ultimo_resultado": "Oro 4030.0 · NQ 29112.5 · VIX 17.2 · 2 noticias nuevas",
+   "actualizado": "2026-10-29T22:37:44Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T22:32:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-29T22:37:43Z",
+   "ultimo_resultado": "2 titulares nuevos: El beneficio ajustado del 3T de Capstone Copper sube por precios de metales; cae la producción"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4030.0 · NQ 29112.5 · VIX 17.2 · 2 noticias nuevas",
+   "ts": "2026-10-29T22:37:44Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4032.0 · NQ 29133.75 · VIX 17.2",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4043.3 · NQ 29705.25 · VIX 17.05",
    "ts": "2026-10-29T09:22:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4041.8 · NQ 29703.25 · VIX 17.07 · 3 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-29T09:17:34Z"
   }
  ],
  "briefs": [
@@ -12528,10 +12528,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4032.0,
-  "nq": 29133.75,
+  "oro": 4030.0,
+  "nq": 29112.5,
   "vix": 17.2,
-  "ts": "2026-10-29T22:32:31Z"
+  "ts": "2026-10-29T22:37:43Z"
  },
  "noticias": [
   {
@@ -12553,6 +12553,32 @@
    "id": "d973e10b0f",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Capstone Copper Q3 adjusted profit rises on metal prices; output slumps",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/capstone-copper-q3-adjusted-profit-221609306.html?.tsrc=rss",
+   "ts": "2026-10-29T22:16:09Z",
+   "fuente": "Yahoo Finance",
+   "id": "95c45f3ed1",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "El beneficio ajustado del 3T de Capstone Copper sube por precios de metales; cae la producción",
+   "efecto": ""
+  },
+  {
+   "titulo": "Kinross Gold (TSX:K) Stock Q3 Results Highlight Cash Flow And Project Risk",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-tsx-k-stock-221300017.html?.tsrc=rss",
+   "ts": "2026-10-29T22:13:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "f916e99ae1",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Los resultados del 3T de Kinross Gold destacan flujo de caja y riesgo de proyectos",
+   "efecto": ""
   },
   {
    "titulo": "Nebraska corn farmers question ‘gold standard’ USDA yield report after data error, tough weather conditions",
@@ -13335,28 +13361,6 @@
    "id": "3e745bb980",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "30-year mortgage rate dips to 7.24% as Treasury yields ease",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUXgyZkdHUEdpSXllSGxQUTVPUXZNb05tdzNCWldPS1F6VlJWcVRzUExxaVJGVmM2dVZEdG9YQ2t0eGcyZmRFcVNtMkd1QlVyZ3FqNjhYT1Awb2gtOVRwYkplcGYwWTdhWjRpTjQ3ZGVqY3VlcF9XSkRIUFlIbG96UUlKLXo4Wmdta2pnYThMZkV2ZnB3Q0thUk5Mb3c0amozbElUbUtDbjRneE8wd2dWU0V1WDJxN29FOHVuQzJXZEM?oc=5",
-   "ts": "2026-10-29T16:54:18Z",
-   "fuente": "Mortgage Professional America",
-   "id": "7941ce7526",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Nasdaq falls as Alphabet set for record loss amid AI spending woes",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTRZdktaNHNaUkc2SG45TFV3V3hKRlMwdWdFTEhyUVFSRnBodWFIM0gxSHh5NWZDVkp3WnJOX3RTZGFtUDVIN3ZPQnB6NlNOQ01OOXhTRnNhNjkyajZ2ejhEZkRBS1IxMkxjVWJmY3FYa3lqcHUxajVqRXpWdS1UWjdxZFZYTW8tUjBtN2NZTGlLSWFiRlpjTDNKaVlVbHRiLVRCcA?oc=5",
-   "ts": "2026-10-29T16:43:57Z",
-   "fuente": "Reuters",
-   "id": "270952e64e",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13998,15 +14002,15 @@
     1793311200,
     4035.8,
     4037.8,
-    4031.3,
-    4031.8
+    4029.2,
+    4029.7
    ],
    [
-    1793312535,
-    4032.0,
-    4032.0,
-    4032.0,
-    4032.0
+    1793312859,
+    4030.0,
+    4030.0,
+    4030.0,
+    4030.0
    ]
   ],
   "nq": [
@@ -14631,14 +14635,14 @@
     29172.5,
     29180.0,
     29103.75,
-    29134.25
+    29112.5
    ],
    [
-    1793312545,
-    29133.75,
-    29133.75,
-    29133.75,
-    29133.75
+    1793312862,
+    29111.75,
+    29111.75,
+    29111.75,
+    29111.75
    ]
   ],
   "vix": [
@@ -15141,7 +15145,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-29T22:07:34Z",
+ "noticias_traducidas_ts": "2026-10-29T22:37:41Z",
  "ult_4h": 1793313151.448153,
  "estrategia_4h": {
   "oro": {
@@ -15234,8 +15238,6 @@
   }
  ],
  "noticias_vistas": [
-  "f466bc77e2",
-  "e54e571ede",
   "c26df3b422",
   "6b7ab2a220",
   "2431bff12d",
@@ -16033,7 +16035,9 @@
   "e8aebf2a2b",
   "a0a902c3bf",
   "d973e10b0f",
-  "9372efa514"
+  "9372efa514",
+  "95c45f3ed1",
+  "f916e99ae1"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
