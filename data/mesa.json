@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4038.2 · NQ 29657.5 · VIX 17.1",
-   "actualizado": "2026-10-29T09:57:36Z"
+   "ultimo_resultado": "Oro 4037.6 · NQ 29688.5 · VIX 17.06 · 1 noticias nuevas",
+   "actualizado": "2026-10-29T10:02:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T09:57:35Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-29T10:02:37Z",
+   "ultimo_resultado": "1 titulares nuevos: Es un banco 'socialista' y los republicanos de Dakota del Norte lo adoran"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4037.6 · NQ 29688.5 · VIX 17.06 · 1 noticias nuevas",
+   "ts": "2026-10-29T10:02:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4038.2 · NQ 29657.5 · VIX 17.1",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4072.7 · NQ 29794.5 · VIX 16.91",
    "ts": "2026-10-28T20:42:38Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4074.4 · NQ 29830.0 · VIX 16.91 · 1 noticias nuevas",
-   "ts": "2026-10-28T20:37:37Z"
   }
  ],
  "briefs": [
@@ -12446,12 +12446,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4038.2,
-  "nq": 29657.5,
-  "vix": 17.1,
-  "ts": "2026-10-29T09:57:35Z"
+  "oro": 4037.6,
+  "nq": 29688.5,
+  "vix": 17.06,
+  "ts": "2026-10-29T10:02:38Z"
  },
  "noticias": [
+  {
+   "titulo": "It's a 'socialist' bank — and North Dakota Republicans love it",
+   "link": "https://www.cnbc.com/2026/10/29/bank-north-dakota-socialism-election.html",
+   "ts": "2026-10-29T10:00:01Z",
+   "fuente": "CNBC",
+   "id": "8176e2c9e5",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Es un banco 'socialista' y los republicanos de Dakota del Norte lo adoran",
+   "efecto": ""
+  },
   {
    "titulo": "Prediction: Bitcoin Will Surpass Gold in Market Cap Within the Next Decade",
    "link": "https://www.fool.com/investing/2026/10/29/prediction-bitcoin-will-become-less-volatile-than/?.tsrc=rss",
@@ -13335,17 +13346,6 @@
    "impacto": "bajo",
    "es": "Charlas de la OPI de Nasdaq programadas para el 8 de diciembre",
    "efecto": "Sin impacto en la cotización actual, solo ruido corporativo."
-  },
-  {
-   "titulo": "Weil, Gotshal & Manges, longtime Wall Street law firm, plans wind down",
-   "link": "https://www.cnbc.com/2026/10/28/weil-gotshal-law-firm-wall-street-wind-down.html",
-   "ts": "2026-10-28T22:23:10Z",
-   "fuente": "CNBC",
-   "id": "27bc9a2f29",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13930,14 +13930,14 @@
     4035.2,
     4049.5,
     4034.0,
-    4038.3
+    4038.1
    ],
    [
-    1793267252,
-    4037.9,
-    4037.9,
-    4037.9,
-    4037.9
+    1793267554,
+    4038.2,
+    4038.2,
+    4038.2,
+    4038.2
    ]
   ],
   "nq": [
@@ -14506,14 +14506,14 @@
     29652.25,
     29734.25,
     29628.25,
-    29662.0
+    29695.5
    ],
    [
-    1793267252,
-    29657.5,
-    29657.5,
-    29657.5,
-    29657.5
+    1793267555,
+    29686.25,
+    29686.25,
+    29686.25,
+    29686.25
    ]
   ],
   "vix": [
@@ -14928,27 +14928,27 @@
     17.14,
     17.17,
     16.99,
-    17.1
+    17.06
    ],
    [
-    1793266951,
-    17.1,
-    17.1,
-    17.1,
-    17.1
+    1793267251,
+    17.06,
+    17.06,
+    17.06,
+    17.06
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-29T09:17:32Z",
- "ult_4h": 1793267257.5686305,
+ "noticias_traducidas_ts": "2026-10-29T10:02:36Z",
+ "ult_4h": 1793268158.1294503,
  "estrategia_4h": {
   "oro": {
-   "precio": 4035.1,
+   "precio": 4038.2,
    "atr_4h": 27.36,
    "setups": []
   },
   "nq": {
-   "precio": 29633.75,
+   "precio": 29686.25,
    "atr_4h": 218.96,
    "setups": [
     {
@@ -14958,7 +14958,7 @@
      "stop": 29440.62,
      "objetivo": 30178.0,
      "rr": 4.61,
-     "estado": "en retesteo",
+     "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.37,
      "ruptura": "2026-10-27 12:00 UTC"
     },
@@ -14975,7 +14975,7 @@
     }
    ]
   },
-  "ts": "2026-10-29T09:47:37Z"
+  "ts": "2026-10-29T10:02:38Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15042,7 +15042,6 @@
   }
  ],
  "noticias_vistas": [
-  "448aecbea9",
   "a09fd2b090",
   "f6224eadd3",
   "d4632c2c9d",
@@ -15841,7 +15840,8 @@
   "e7cc568407",
   "6300729a53",
   "27bc9a2f29",
-  "e8bfca3e30"
+  "e8bfca3e30",
+  "8176e2c9e5"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
