@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T21:12:33Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Bloomberg Commodity Index 2027 Target Weights Announced"
+   "actualizado": "2026-10-29T21:17:37Z",
+   "ultimo_resultado": "1 titulares nuevos: Acciones con mayores movimientos fuera de hora: Amazon, Intel, Twilio, Reddit, Roblox y más"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "noticias",
+   "texto": "1 titulares nuevos: Acciones con mayores movimientos fuera de hora: Amazon, Intel, Twilio, Reddit, Roblox y más",
+   "ts": "2026-10-29T21:17:37Z"
+  },
   {
    "agente": "noticias",
    "texto": "2 titulares nuevos, 1 de alto impacto: Bloomberg Commodity Index 2027 Target Weights Announced",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Escribiendo el brief institucional…",
    "ts": "2026-10-29T06:33:14Z"
-  },
-  {
-   "agente": "historiador",
-   "texto": "ORO: Sesgo histórico neutral: 4 de 9 años subió esta semana; 4 de 9 subió los 20 días siguientes; análogos 2018, 2021, 2022 · NQ: Sesgo histórico neutral: 6 de 9 años subió esta semana; 7 de 9 subió los 20 días siguientes; análogos 2024, 2021, 2025",
-   "ts": "2026-10-29T06:33:12Z"
   }
  ],
  "briefs": [
@@ -12497,6 +12497,19 @@
  },
  "noticias": [
   {
+   "titulo": "Stocks making the biggest moves after hours: Amazon, Intel, Twilio, Reddit, Roblox & more",
+   "link": "https://www.cnbc.com/2026/10/29/stocks-making-the-biggest-moves-after-hours-amzn-intc-twlo-rddt.html",
+   "ts": "2026-10-29T21:09:35Z",
+   "fuente": "CNBC",
+   "id": "c775bfeabb",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Acciones con mayores movimientos fuera de hora: Amazon, Intel, Twilio, Reddit, Roblox y más",
+   "efecto": "Genera volatilidad selectiva en el NQ en la apertura."
+  },
+  {
    "titulo": "Schumer blames Trump tariffs for rising Oswego prices, touts End Trump’s Tariffs Act",
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVF9mdk0weVZ3Z29wdE5fa1laTTRRMWZiSFlWd2dCaVNQT01DSkQ5THY5aVBGMEpSSU81TFcwdjA0OHdGd3NkUU1yenFDX3dSNkFxclBGYTRMMERHNzJlekpWZ3RmUWE2OHdZTGN4NldLR2l6a0ZOSERGWFA3eEVLTXdFNE1mYVhTTEJqVmtuWHpaLVZPcVMzN0VkVWtFS1JvTVF5aWlaYkRWS2xhdFdZZjBPWDluTG8?oc=5",
    "ts": "2026-10-29T21:00:01Z",
@@ -13312,15 +13325,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "IRS CEO Bisignano donates to Trump Accounts in his childhood Brooklyn ZIP code",
-   "link": "https://www.cnbc.com/2026/10/29/trump-accounts-frank-bisignano-brooklyn.html",
-   "ts": "2026-10-29T16:06:02Z",
-   "fuente": "CNBC",
-   "id": "7f6bf7a67e",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -15105,7 +15109,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-29T20:47:31Z",
+ "noticias_traducidas_ts": "2026-10-29T21:17:35Z",
  "ult_4h": 1793307154.121349,
  "estrategia_4h": {
   "oro": {
@@ -15198,7 +15202,6 @@
   }
  ],
  "noticias_vistas": [
-  "868a127e71",
   "d4a476c183",
   "904b4cf1f4",
   "b0505c2138",
@@ -15997,7 +16000,8 @@
   "805213b2ea",
   "77c0e38f41",
   "0e71d465c2",
-  "e1fec8cef8"
+  "e1fec8cef8",
+  "c775bfeabb"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
