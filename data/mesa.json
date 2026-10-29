@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4039.7 · NQ 29515.5 · VIX 16.81",
-   "actualizado": "2026-10-29T15:07:36Z"
+   "ultimo_resultado": "Oro 4037.2 · NQ 29584.0 · VIX 16.63 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-29T15:13:04Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T15:07:35Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-29T15:13:04Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Bassett luchará por el oro en Astaná"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4037.2 · NQ 29584.0 · VIX 16.63 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-29T15:13:04Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4039.7 · NQ 29515.5 · VIX 16.81",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4068.2 · NQ 29630.25 · VIX 16.91",
    "ts": "2026-10-29T01:52:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4068.0 · NQ 29634.5 · VIX 16.91 · 1 noticias nuevas",
-   "ts": "2026-10-29T01:47:47Z"
   }
  ],
  "briefs": [
@@ -12490,12 +12490,37 @@
   }
  },
  "en_vivo": {
-  "oro": 4039.7,
-  "nq": 29515.5,
-  "vix": 16.81,
-  "ts": "2026-10-29T15:07:35Z"
+  "oro": 4037.2,
+  "nq": 29584.0,
+  "vix": 16.63,
+  "ts": "2026-10-29T15:13:04Z"
  },
  "noticias": [
+  {
+   "titulo": "Bassett will wrestle for gold in Astana",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORjVoNy1oUTN2d2tOZENtT0pBc21XUHFrNFJsUkZUa3VYNTBzZnFlRHBsWFkxN20zcFRKVlBnMDcwSnE1aWN2cDlZVkZXZzd0Nm1HYTIzU1drUjdYZVNIQnBDLUtiT25UNzJ5LW9XaldfQTc4dHl2REFsZDFGaVlncWFxTmoyZw?oc=5",
+   "ts": "2026-10-29T15:05:46Z",
+   "fuente": "Virginia Tech Athletics",
+   "id": "bf71f59838",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Bassett luchará por el oro en Astaná",
+   "efecto": "Sin efecto institucional, se refiere a lucha deportiva."
+  },
+  {
+   "titulo": "Nasdaq 100 Falls 1.5% as AI Trade Shows New Cracks: Markets Wrap",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQd1B6V3JFX19tOWhyZHVKZzFGZ1k0aXcyNERXb0JrMFNjQVpEaFZMeVMxU1FUVnJpWmFrM3JQbjJ5cXRsU0NBekRsOUM2WEQ2Zlh3MWluWUU2c0poWTk1ZDBGMC13SUtxX1lVdjEtQW1PbWdXRE95ZFJqZ2JmZEwxeW5VbVVORWlzMlJTVHdnZ2NkaWR3?oc=5",
+   "ts": "2026-10-29T15:00:13Z",
+   "fuente": "Bloomberg.com",
+   "id": "90ebdaca04",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El Nasdaq 100 cae un 1,5% al mostrar grietas el comercio de IA",
+   "efecto": "Venta institucional en tecnológicas, busca liquidez y refugio."
+  },
   {
    "titulo": "Volkswagen posts $6.8 billion quarterly loss with China slump, Trump tariffs and Porsche writedown",
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZXRDZVd0bXhzXzNvWjhWcnR6dGZhdXJlT0NsRlc5NDlVZnh4ckx1Q1R4SXhJdi1QcHpWTlBQcEg4ZHJ4enA2TG16RlhEdDVEdXBicWZMb3czQ2QxcHU0R19GLU41Q0loVmpQUUVfVjk2a0k1d2JORGlKc2FLY2dhOFByaG51Zw?oc=5",
@@ -12718,6 +12743,19 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "LIVE: Interbrand Rings the Opening Bell",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE03RzVoM0dEZTI2NWttWEM1ejRjSEZlVzI5bzFuZUZxVUE2NzNNT0sySGVMTjZCalh4dl8xTFVUa0plWUowVjZXNlNZUFFhOWFERXFveEQ2cFlxTGdnam8xM2hFQjEwOTY2LTREZkZfOXZtdw?oc=5",
+   "ts": "2026-10-29T13:29:59Z",
+   "fuente": "Nasdaq",
+   "id": "830329a173",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "EN VIVO: Interbrand toca la campana de apertura",
+   "efecto": "Evento institucional de rutina, sin impacto en precio."
   },
   {
    "titulo": "The price of gold today, Oct. 29, 2026 — and the best places to buy",
@@ -13314,39 +13352,6 @@
    "impacto": "alto",
    "es": "El desarrollo de IA tropieza al retrasar Google y Microsoft sus previsiones de capex",
    "efecto": "Presiona al NQ a la baja por menor optimismo en el sector tecnológico."
-  },
-  {
-   "titulo": "StrikePoint Gold Commences Drilling at Northumberland Gold Project",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/strikepoint-gold-commences-drilling-northumberland-113000103.html?.tsrc=rss",
-   "ts": "2026-10-29T11:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "cb8de5f9de",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Greenheart Gold Announces Remaining Drill Results from Its 2026 RC Program at Majorodam, Highlighted by Hole MAJR26-089 Intersecting 13.0 m @ 2.84 g/t Au",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/greenheart-gold-announces-remaining-drill-113000321.html?.tsrc=rss",
-   "ts": "2026-10-29T11:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "da862c4d93",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Midland Intersects Several New Gold-Bearing Intervals on Its Willbob Project in the Labrador Trough",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/midland-intersects-several-gold-bearing-113000340.html?.tsrc=rss",
-   "ts": "2026-10-29T11:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "bccd81908d",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13968,14 +13973,21 @@
     4035.0,
     4049.8,
     4028.0,
-    4039.7
+    4037.9
    ],
    [
-    1793285855,
-    4039.7,
-    4039.7,
-    4039.7,
-    4039.7
+    1793286000,
+    4038.0,
+    4039.9,
+    4034.7,
+    4035.1
+   ],
+   [
+    1793286182,
+    4037.2,
+    4037.2,
+    4037.2,
+    4037.2
    ]
   ],
   "nq": [
@@ -14579,14 +14591,21 @@
     29547.25,
     29629.75,
     29449.0,
-    29521.5
+    29526.0
    ],
    [
-    1793285856,
-    29515.5,
-    29515.5,
-    29515.5,
-    29515.5
+    1793286000,
+    29525.75,
+    29592.0,
+    29524.5,
+    29571.25
+   ],
+   [
+    1793286183,
+    29584.0,
+    29584.0,
+    29584.0,
+    29584.0
    ]
   ],
   "vix": [
@@ -15036,18 +15055,18 @@
     16.94,
     16.94,
     16.45,
-    16.79
+    16.63
    ],
    [
-    1793285551,
-    16.81,
-    16.81,
-    16.81,
-    16.81
+    1793285881,
+    16.61,
+    16.61,
+    16.61,
+    16.61
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-29T14:37:35Z",
+ "noticias_traducidas_ts": "2026-10-29T15:12:35Z",
  "ult_4h": 1793286161.5962179,
  "estrategia_4h": {
   "oro": {
@@ -15139,9 +15158,6 @@
   }
  ],
  "noticias_vistas": [
-  "42732f8fc7",
-  "d6c235a93b",
-  "02dac2108b",
   "4c33e78561",
   "c9c19555db",
   "dca5b5e98d",
@@ -15938,7 +15954,10 @@
   "46133306d1",
   "28b965ac25",
   "ec3a5a8e05",
-  "eb7f615526"
+  "eb7f615526",
+  "bf71f59838",
+  "90ebdaca04",
+  "830329a173"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
