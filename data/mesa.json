@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4034.4 · NQ 29466.5 · VIX 17.09 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-29T14:07:33Z"
+   "ultimo_resultado": "Oro 4037.4 · NQ 29599.75 · VIX 17.15 · 4 noticias nuevas",
+   "actualizado": "2026-10-29T14:12:42Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T14:07:32Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Eli Lilly hikes sales outlook, as CEO says there's room for 'dramatic' obesity market expansion"
+   "actualizado": "2026-10-29T14:12:40Z",
+   "ultimo_resultado": "4 titulares nuevos: Steve Eisman gets more conservative with portfolio as AI trade nears 'tipping point'"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4037.4 · NQ 29599.75 · VIX 17.15 · 4 noticias nuevas",
+   "ts": "2026-10-29T14:12:42Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4034.4 · NQ 29466.5 · VIX 17.09 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4052.3 · NQ 29737.5 · VIX 16.91 · 1 noticias nuevas",
    "ts": "2026-10-29T00:52:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4050.6 · NQ 29696.5 · VIX 16.91",
-   "ts": "2026-10-29T00:47:36Z"
   }
  ],
  "briefs": [
@@ -12490,10 +12490,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4034.4,
-  "nq": 29466.5,
-  "vix": 17.09,
-  "ts": "2026-10-29T14:07:32Z"
+  "oro": 4037.4,
+  "nq": 29599.75,
+  "vix": 17.15,
+  "ts": "2026-10-29T14:12:41Z"
  },
  "noticias": [
   {
@@ -12504,6 +12504,26 @@
    "id": "f6225e7576",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Steve Eisman gets more conservative with portfolio as AI trade nears 'tipping point'",
+   "link": "https://www.cnbc.com/2026/10/29/steve-eisman-gets-more-conservative-with-portfolio-as-ai-trade-nears-tipping-point.html",
+   "ts": "2026-10-29T14:06:20Z",
+   "fuente": "CNBC",
+   "id": "e87c710c7b",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Wall Street is betting on a clear midterm result. A contested count could rattle already edgy markets — and these sectors",
+   "link": "https://www.cnbc.com/2026/10/29/us-midterms-election-wall-street-options-markets.html",
+   "ts": "2026-10-29T14:05:07Z",
+   "fuente": "CNBC",
+   "id": "4e83594e6d",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Open enrollment is a chance to get this ‘sneaky-good’ investment account that can be ‘better than a Roth’",
@@ -12978,6 +12998,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Implied Volatility Surging for Kinross Gold Stock Options",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR3lJOEVVb0gxcTl0YVBQOE1TaTBnNUZ3LUI1S3FKT0VmSGV0TjZxNjZqanVrbnJGNHJVT1NKR1NJT2lrWmZPbWgzb052QTRxc2loUFE3NUM0dVlMXzh2Ymlubnd5ZWY2c3VXc25NVzlnQXhmZlFaWllEQUY4TWNsX2RHeVZYVE94eWlBTDhzdXU1Y0pnVWNoS2d0c2NiX195V2l2LUhoZS0?oc=5",
+   "ts": "2026-10-29T11:58:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "b6ec5823a3",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Crocs (NASDAQ:CROX) reports upbeat Q3 2026, stock jumps 19.3%",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOV1VBTEVobHVtUW0xaWszOU81Q2FqNUVhZ0VzQ25TZkhPZnk1Tjc4ejBCN1VYSExPSjFOV1NGNkZFTk9IUTZnQTBhRUY5UGMxbXZNUE05RmFYUmZnZGNqVjh4MDBoclRFelgyMVlqRGo4UUoydW1ydmttMGdIeXM5ZFVJSnR5SEtlSnN6VWNlamVKNDAwNS1DbnJUenRWZw?oc=5",
    "ts": "2026-10-29T11:55:23Z",
@@ -13312,39 +13343,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "West Point Gold Adds C$4.1 Million Through Warrant Exercises, Strengthening Treasury Ahead of 30,000-Metre Drill Program",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQamswZms4Wm9ySUNpbno0TlZua2U4SDlQRzg1bzRoYWZRZWxoeWMyenJxcklvaF9BdzhDd0xHQzVoTXZnR1hwRndUZVV6R0JUZjRxX3BaMDJJQ2U4aEhXdnljbjkzeTdVbVo3blpsT25xNUxzU1RaTGJnN0RjYXctT1VlVDJnTk1nTGRHRWlNRTA?oc=5",
-   "ts": "2026-10-29T11:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "b7bbefacfe",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "West Point Gold recauda 4.1M CAD mediante ejercicio de warrants para perforación",
-   "efecto": "Relevante solo para la minera; sin efecto sistémico."
-  },
-  {
-   "titulo": "Delta Reports up to 24.7 g/t Au Grab Sample Results and New Gold Occurrences Along 6 km of the Crayfish Creek Fault Corridor",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/delta-reports-24-7-g-110000870.html?.tsrc=rss",
-   "ts": "2026-10-29T11:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "852d9baba5",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Western Exploration Advances Doby George Permitting",
-   "link": "https://finance.yahoo.com/energy/articles/western-exploration-advances-doby-george-110000025.html?.tsrc=rss",
-   "ts": "2026-10-29T11:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "7d7c7b0ed1",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -13959,14 +13957,21 @@
     4031.4,
     4049.3,
     4030.7,
-    4033.8
+    4034.7
    ],
    [
-    1793282249,
+    1793282400,
+    4035.0,
+    4038.5,
     4034.4,
-    4034.4,
-    4034.4,
-    4034.4
+    4036.5
+   ],
+   [
+    1793282557,
+    4037.6,
+    4037.6,
+    4037.6,
+    4037.6
    ]
   ],
   "nq": [
@@ -14563,14 +14568,21 @@
     29661.25,
     29707.25,
     29405.0,
-    29495.25
+    29548.25
    ],
    [
-    1793282251,
-    29466.5,
-    29466.5,
-    29466.5,
-    29466.5
+    1793282400,
+    29547.25,
+    29629.75,
+    29534.75,
+    29618.5
+   ],
+   [
+    1793282561,
+    29599.75,
+    29599.75,
+    29599.75,
+    29599.75
    ]
   ],
   "vix": [
@@ -15016,11 +15028,11 @@
     17.07
    ],
    [
-    1793281951,
-    17.09,
-    17.09,
-    17.09,
-    17.09
+    1793282251,
+    17.15,
+    17.15,
+    17.15,
+    17.15
    ]
   ]
  },
@@ -15116,10 +15128,6 @@
   }
  ],
  "noticias_vistas": [
-  "0d4c15c44d",
-  "60ccc1b3ba",
-  "d3cea26ef4",
-  "acbbc7667d",
   "03b557b2b8",
   "cd033b23ed",
   "d2c443d7da",
@@ -15915,7 +15923,11 @@
   "623115b694",
   "f6225e7576",
   "175b6c686e",
-  "652e590f51"
+  "652e590f51",
+  "e87c710c7b",
+  "4e83594e6d",
+  "b6ec5823a3",
+  "9359cc347c"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
