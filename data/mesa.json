@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4032.7 · NQ 29618.5 · VIX 16.44 · 3 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-29T15:57:33Z"
+   "ultimo_resultado": "Oro 4034.7 · NQ 29586.5 · VIX 16.44 · 2 noticias nuevas",
+   "actualizado": "2026-10-29T16:02:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T15:57:32Z",
-   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: ServiceNow shares plunge 25% after earnings revive AI disruption fears"
+   "actualizado": "2026-10-29T16:02:37Z",
+   "ultimo_resultado": "2 titulares nuevos: GM is shifting gears to the Nasdaq, trying to draft behind Walmart’s lead"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4034.7 · NQ 29586.5 · VIX 16.44 · 2 noticias nuevas",
+   "ts": "2026-10-29T16:02:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4032.7 · NQ 29618.5 · VIX 16.44 · 3 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4053.4 · NQ 29511.0 · VIX 16.91 · 1 noticias nuevas",
    "ts": "2026-10-29T02:42:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4061.2 · NQ 29538.25 · VIX 16.91",
-   "ts": "2026-10-29T02:37:32Z"
   }
  ],
  "briefs": [
@@ -12490,12 +12490,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4032.7,
-  "nq": 29618.5,
+  "oro": 4034.7,
+  "nq": 29586.5,
   "vix": 16.44,
-  "ts": "2026-10-29T15:57:33Z"
+  "ts": "2026-10-29T16:02:37Z"
  },
  "noticias": [
+  {
+   "titulo": "GM is shifting gears to the Nasdaq, trying to draft behind Walmart’s lead",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4tckg5Sk5URFRDM3ZSQlk5NE1xZ2p4MUlvWlFJQlNXUXRmUDFhQktGdmg4bVYtNDI2eDgtSmhlci1zM0NsbXV4MmU5aDd4NTFBcFNtdElHMU1PajZZckp4MU42bUktRGtnTnQ1YjNuNXFBTjV2?oc=5",
+   "ts": "2026-10-29T15:57:27Z",
+   "fuente": "CNBC",
+   "id": "e0875bbdb0",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "ServiceNow shares plunge 25% after earnings revive AI disruption fears",
    "link": "https://www.cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html",
@@ -12504,6 +12515,17 @@
    "id": "518728c9ba",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Anthropic files for IPO, plans Nasdaq listing under ANT",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVWZCc3Y1LXQ1ZFlscUEtTDRBR3ZTTmUza3VTcmtHSzQ3NmFWM0ROUTNRWVpMZzd4TlJIZEJGbXpQY3ZKR1ZGQVg3S1RXaVdaQkJNLUduZWxXbGNwdmkyamQ4M2hIMHhSMXBKVWZ2ZkNKZHV0dzZUdXRmMjFjOXFrdTlIbEEtejk2M2NmY1RjMA?oc=5",
+   "ts": "2026-10-29T15:49:31Z",
+   "fuente": "MobiHealthNews",
+   "id": "94a9089b0f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "We’re adding to our position in a rebounding bank stock",
@@ -13321,28 +13343,6 @@
    "id": "a133df73c8",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Tiger Gold Drills 450.9 m @ 0.6 g/t Au from Surface at Ceibal and Steps Out 175 m to the Southwest",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/tiger-gold-drills-450-9-120000282.html?.tsrc=rss",
-   "ts": "2026-10-29T12:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "d1bd547e01",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Implied Volatility Surging for Kinross Gold Stock Options",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR3lJOEVVb0gxcTl0YVBQOE1TaTBnNUZ3LUI1S3FKT0VmSGV0TjZxNjZqanVrbnJGNHJVT1NKR1NJT2lrWmZPbWgzb052QTRxc2loUFE3NUM0dVlMXzh2Ymlubnd5ZWY2c3VXc25NVzlnQXhmZlFaWllEQUY4TWNsX2RHeVZYVE94eWlBTDhzdXU1Y0pnVWNoS2d0c2NiX195V2l2LUhoZS0?oc=5",
-   "ts": "2026-10-29T11:58:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "b6ec5823a3",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13970,15 +13970,15 @@
     1793286000,
     4038.0,
     4039.9,
-    4030.9,
-    4032.8
+    4030.3,
+    4035.8
    ],
    [
-    1793288851,
-    4032.7,
-    4032.7,
-    4032.7,
-    4032.7
+    1793289153,
+    4034.7,
+    4034.7,
+    4034.7,
+    4034.7
    ]
   ],
   "nq": [
@@ -14589,14 +14589,14 @@
     29525.75,
     29677.0,
     29524.5,
-    29628.75
+    29596.25
    ],
    [
-    1793288853,
-    29620.75,
-    29620.75,
-    29620.75,
-    29620.75
+    1793289155,
+    29582.5,
+    29582.5,
+    29582.5,
+    29582.5
    ]
   ],
   "vix": [
@@ -15053,27 +15053,27 @@
     16.6,
     16.6,
     16.27,
-    16.39
+    16.46
    ],
    [
-    1793288551,
-    16.43,
-    16.43,
-    16.43,
-    16.43
+    1793288851,
+    16.44,
+    16.44,
+    16.44,
+    16.44
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-29T15:42:37Z",
- "ult_4h": 1793288852.884477,
+ "ult_4h": 1793289757.712109,
  "estrategia_4h": {
   "oro": {
-   "precio": 4038.2,
+   "precio": 4034.7,
    "atr_4h": 26.96,
    "setups": []
   },
   "nq": {
-   "precio": 29625.0,
+   "precio": 29586.5,
    "atr_4h": 229.32,
    "setups": [
     {
@@ -15100,7 +15100,7 @@
     }
    ]
   },
-  "ts": "2026-10-29T15:47:33Z"
+  "ts": "2026-10-29T16:02:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15167,8 +15167,6 @@
   }
  ],
  "noticias_vistas": [
-  "07d16eb1c5",
-  "fac10257a8",
   "fcfcb97e8f",
   "9007598217",
   "9e8e1fb727",
@@ -15966,7 +15964,9 @@
   "6b4f3a6752",
   "518728c9ba",
   "0a256cf851",
-  "e0ba907c41"
+  "e0ba907c41",
+  "e0875bbdb0",
+  "94a9089b0f"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
