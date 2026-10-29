@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4024.4 · NQ 29056.75 · VIX 17.2",
-   "actualizado": "2026-10-29T23:22:34Z"
+   "ultimo_resultado": "Oro 4024.1 · NQ 29069.0 · VIX 17.2 · 2 noticias nuevas",
+   "actualizado": "2026-10-29T23:27:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T23:22:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-29T23:27:32Z",
+   "ultimo_resultado": "2 titulares nuevos: Oracle Corporation (ORCL) Stock Price, News, Quote & History"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4024.1 · NQ 29069.0 · VIX 17.2 · 2 noticias nuevas",
+   "ts": "2026-10-29T23:27:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4024.4 · NQ 29056.75 · VIX 17.2",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4042.1 · NQ 29694.75 · VIX 17.02 · 3 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-29T10:12:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4040.1 · NQ 29702.5 · VIX 17.03 · 3 noticias nuevas",
-   "ts": "2026-10-29T10:07:34Z"
   }
  ],
  "briefs": [
@@ -12528,10 +12528,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4024.4,
-  "nq": 29056.75,
+  "oro": 4024.1,
+  "nq": 29069.0,
   "vix": 17.2,
-  "ts": "2026-10-29T23:22:33Z"
+  "ts": "2026-10-29T23:27:32Z"
  },
  "noticias": [
   {
@@ -13327,6 +13327,15 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Oracle Corporation (ORCL) Stock Price, News, Quote & History",
+   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBqODdvTG9KQlJMMHJQR05abkZkTzJMRTBpS3l4Y2hUSHJRSk5GdzM5QllBS0JiYnRUMVJ3a0diNmxrb3NFcmdSWTI0Q3JmUQ?oc=5",
+   "ts": "2026-10-29T17:34:58Z",
+   "fuente": "Yahoo Finance",
+   "id": "db77ca4348",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "Alaska Senate election: Governor orders probe of alleged effort to recruit second Dan Sullivan",
    "link": "https://www.cnbc.com/2026/10/29/alaska-senate-governor-investigation-sullivan-peltola-doj.html",
    "ts": "2026-10-29T17:31:15Z",
@@ -13354,17 +13363,6 @@
    "id": "e640647d4b",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Some investors have midterm election jitters. Here’s what history shows about stocks",
-   "link": "https://www.cnbc.com/2026/10/29/midterm-elections-stock-market-history.html",
-   "ts": "2026-10-29T17:27:10Z",
-   "fuente": "CNBC",
-   "id": "71ad907323",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14006,15 +14004,15 @@
     1793314800,
     4033.6,
     4034.2,
-    4023.7,
-    4024.4
+    4023.3,
+    4023.4
    ],
    [
-    1793315551,
-    4024.5,
-    4024.5,
-    4024.5,
-    4024.5
+    1793315840,
+    4024.1,
+    4024.1,
+    4024.1,
+    4024.1
    ]
   ],
   "nq": [
@@ -14637,16 +14635,16 @@
    [
     1793314800,
     29054.25,
-    29066.0,
+    29072.25,
     29030.25,
-    29061.25
+    29067.5
    ],
    [
-    1793315550,
-    29055.75,
-    29055.75,
-    29055.75,
-    29055.75
+    1793315848,
+    29069.0,
+    29069.0,
+    29069.0,
+    29069.0
    ]
   ],
   "vix": [
@@ -15242,8 +15240,6 @@
   }
  ],
  "noticias_vistas": [
-  "19c23043a4",
-  "b857ab953a",
   "9cfb9e9559",
   "22c92e1887",
   "136aa12eba",
@@ -16041,7 +16037,9 @@
   "f916e99ae1",
   "dccebee8b6",
   "e653a78b4a",
-  "88e89cf308"
+  "88e89cf308",
+  "db77ca4348",
+  "3a0c8786ca"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
