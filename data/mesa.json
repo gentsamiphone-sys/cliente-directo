@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4036.4 · NQ 29226.5 · VIX 17.2 · 3 noticias nuevas",
-   "actualizado": "2026-10-29T20:32:33Z"
+   "ultimo_resultado": "Oro 4036.7 · NQ 29223.5 · VIX 17.2 · 1 noticias nuevas",
+   "actualizado": "2026-10-29T20:37:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T20:32:32Z",
-   "ultimo_resultado": "3 titulares nuevos: Starbucks sales fall short of expectations, but its U.S. turnaround continues to gain steam"
+   "actualizado": "2026-10-29T20:37:35Z",
+   "ultimo_resultado": "1 titulares nuevos: First Solar (NASDAQ:FSLR) misses Q3 2026 sales expectations"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4036.7 · NQ 29223.5 · VIX 17.2 · 1 noticias nuevas",
+   "ts": "2026-10-29T20:37:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4036.4 · NQ 29226.5 · VIX 17.2 · 3 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-10-29T06:33:02Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 4038.8 · NQ 29661.0.",
-   "ts": "2026-10-29T06:33:01Z"
   }
  ],
  "briefs": [
@@ -12490,10 +12490,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4036.4,
-  "nq": 29226.5,
+  "oro": 4036.7,
+  "nq": 29223.5,
   "vix": 17.2,
-  "ts": "2026-10-29T20:32:32Z"
+  "ts": "2026-10-29T20:37:36Z"
  },
  "noticias": [
   {
@@ -12559,6 +12559,17 @@
    "impacto": "alto",
    "es": "Amazon decepciona en resultados y mantiene su capex, aumentando temores por gasto en IA.",
    "efecto": "Presiona al NQ a la baja por ventas tecnológicas y cautela."
+  },
+  {
+   "titulo": "First Solar (NASDAQ:FSLR) misses Q3 2026 sales expectations",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWnEwdWZURU5kNFNycmx3dVpyazRpaFRrWTdBalAzNFRrakoxVnRmdFN6THpTLVNtMWwtR3FRbTV2UFFLSmlHTUxIN2t5b3hxaFZCTnpxQlZYQ1hvTjRmbnJZVTFuLVA1RC1HYVJFczdUUGF4aGMyZmM2OG9GNGRvT3BFaUg0Ml95RjN6cGdRU21KMlh3S1hyU0lzTQ?oc=5",
+   "ts": "2026-10-29T20:11:06Z",
+   "fuente": "Yahoo Finance",
+   "id": "59b497040a",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Nasdaq Drops 365 Points on Alphabet's Rare Double Miss: Stock Market Today",
@@ -13318,17 +13329,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Anthropic files for IPO, plans Nasdaq listing under ANT",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVWZCc3Y1LXQ1ZFlscUEtTDRBR3ZTTmUza3VTcmtHSzQ3NmFWM0ROUTNRWVpMZzd4TlJIZEJGbXpQY3ZKR1ZGQVg3S1RXaVdaQkJNLUduZWxXbGNwdmkyamQ4M2hIMHhSMXBKVWZ2ZkNKZHV0dzZUdXRmMjFjOXFrdTlIbEEtejk2M2NmY1RjMA?oc=5",
-   "ts": "2026-10-29T15:49:31Z",
-   "fuente": "MobiHealthNews",
-   "id": "94a9089b0f",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13971,14 +13971,14 @@
     4034.2,
     4044.3,
     4032.7,
-    4036.6
+    4036.5
    ],
    [
-    1793305338,
-    4036.4,
-    4036.4,
-    4036.4,
-    4036.4
+    1793305652,
+    4036.7,
+    4036.7,
+    4036.7,
+    4036.7
    ]
   ],
   "nq": [
@@ -14603,14 +14603,14 @@
     29566.25,
     29593.25,
     29111.0,
-    29240.75
+    29226.0
    ],
    [
-    1793305351,
-    29226.5,
-    29226.5,
-    29226.5,
-    29226.5
+    1793305655,
+    29221.25,
+    29221.25,
+    29221.25,
+    29221.25
    ]
   ],
   "vix": [
@@ -15114,15 +15114,15 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-29T20:12:35Z",
- "ult_4h": 1793305351.8553298,
+ "ult_4h": 1793306256.0642834,
  "estrategia_4h": {
   "oro": {
-   "precio": 4041.3,
+   "precio": 4036.7,
    "atr_4h": 23.42,
    "setups": []
   },
   "nq": {
-   "precio": 29161.75,
+   "precio": 29226.5,
    "atr_4h": 232.79,
    "setups": [
     {
@@ -15133,12 +15133,12 @@
      "objetivo": 29111.0,
      "rr": 2.66,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.74,
+     "fuerza_ruptura_atr": 1.46,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-29T20:22:32Z"
+  "ts": "2026-10-29T20:37:36Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15206,7 +15206,6 @@
   }
  ],
  "noticias_vistas": [
-  "ce89068368",
   "b1e35d07e8",
   "32d0e382c9",
   "5ca116f566",
@@ -16005,7 +16004,8 @@
   "d803abf62a",
   "afd5fecdd1",
   "38dec0f830",
-  "787e7cf842"
+  "787e7cf842",
+  "59b497040a"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
