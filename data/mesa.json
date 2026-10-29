@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4042.7 · NQ 29720.0 · VIX 16.99 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-29T11:07:35Z"
+   "ultimo_resultado": "Oro 4046.5 · NQ 29697.75 · VIX 16.98 · 5 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-29T11:12:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T11:07:34Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Los futuros del Nasdaq se desploman por caída de semiconductores tras resultados de Alphabet y Samsung."
+   "actualizado": "2026-10-29T11:12:34Z",
+   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: Merck tops quarterly estimates, hikes profit outlook as new Keytruda form shows strength"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4046.5 · NQ 29697.75 · VIX 16.98 · 5 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-29T11:12:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4042.7 · NQ 29720.0 · VIX 16.99 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
    "ts": "2026-10-28T21:32:58Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Historial: 12 operaciones, 25% de acierto, +6.08 R.",
-   "ts": "2026-10-28T21:32:57Z"
   }
  ],
  "briefs": [
@@ -12446,12 +12446,30 @@
   }
  },
  "en_vivo": {
-  "oro": 4042.7,
-  "nq": 29720.0,
-  "vix": 16.99,
-  "ts": "2026-10-29T11:07:34Z"
+  "oro": 4046.5,
+  "nq": 29697.75,
+  "vix": 16.98,
+  "ts": "2026-10-29T11:12:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Merck tops quarterly estimates, hikes profit outlook as new Keytruda form shows strength",
+   "link": "https://www.cnbc.com/2026/10/29/merck-mrk-earnings-q3-2026.html",
+   "ts": "2026-10-29T11:08:18Z",
+   "fuente": "CNBC",
+   "id": "7aa49ea0ed",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Trump defends war in Iran, tariffs during Texas campaign swing",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVG1ZX1NNSWJyYWtBcEpvZlRsVFhxLVlDY0pYUTNhRWQtZ1VUY3pVeHBWMDUxeDBVcTNOQzFZbWxNVFpGbDJOdlBGX1RrNVFyUnpla3JIdDN4V2IzamN6blpCWW1ZVXNYVHREWjh1OXFSWHNKWEJReFZDS2ZDYktZYnI3Mzg0NExibE5PRE00Z2o4ZGp6LTVvQXRTeE5pR3NNTHMxa3dUcFZFM2ptdllROEVKNzNjTTRONl9r?oc=5",
+   "ts": "2026-10-29T11:05:26Z",
+   "fuente": "Houston Chronicle",
+   "id": "8858bae3bf",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search",
    "link": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
@@ -12460,6 +12478,28 @@
    "id": "3ecf499fcc",
    "activos": [
     "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "BULGOLD to Present Its Emerging Gold Exploration Story at the Munich Mining Conference",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/bulgold-present-emerging-gold-exploration-110000380.html?.tsrc=rss",
+   "ts": "2026-10-29T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "33e5a327c3",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "After a midseason position switch, Twins’ Brooks Lee is a Gold Glove finalist at third",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWnlyR3hwZGozNFlLN3BtZ1E5TkJXdm5KQTNydVdPTGF4R00tZHVwcGsxOXZIWnFrdExFdVRxRlB3VG5WcEpJT2x6emJCamZZQVo0SUxIZXoxWnRialJiMFpWZlkyWmY2dTBHVWI2eTZtdmFLTF9nYzFhVXM0WlhtS0M1UXFEWWpCeEVSNE5MUEJCM1AtQWxfUmtRcmU1VldCS0E?oc=5",
+   "ts": "2026-10-29T10:59:28Z",
+   "fuente": "The New York Times",
+   "id": "4906c529e9",
+   "activos": [
+    "oro"
    ],
    "impacto": "medio"
   },
@@ -12548,6 +12588,15 @@
    "impacto": "medio",
    "es": "Merck supera estimaciones trimestrales y eleva perspectiva de ganancias por Keytruda.",
    "efecto": ""
+  },
+  {
+   "titulo": "How much could $1,000 earn in a 1-year CD?",
+   "link": "https://www.cnbc.com/select/how-much-does-1000-earn-in-a-1-year-cd/",
+   "ts": "2026-10-29T10:30:02Z",
+   "fuente": "CNBC",
+   "id": "3a457daf9c",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Zacatecas Silver Receives Drill Permit and Finalizes Maiden Drill Program at Oso Negro, Sonora",
@@ -13262,61 +13311,6 @@
    "impacto": "bajo",
    "es": "Top 3 de acciones de crecimiento australianas a seguir en octubre de 2026",
    "efecto": ""
-  },
-  {
-   "titulo": "Dow, S&P 500, Nasdaq Futures Mixed After Fed Holds Rates Steady: GOOG, GOOGL, IOVA, MSFT, NOW In Focus",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUlZCYVZTNjdUbS1rVXljY21oU0NVNXNZSlVBQnBZWWNHQWw2TThJOXNwNG9hNFJ2c190dFJlZWxtWW1tRUY4ZjJuQjQ1cjYzUkFkUGlDZ0w4T080eHpuLTVVd3FWcWVnVTFvczdzTjdFZVd2Z1ozU0dqam9BOGxhbVQ0MnV4YmV3MDdkTTZtRWN2SkE?oc=5",
-   "ts": "2026-10-29T02:59:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "02ae25d1e6",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Gallery: After 20 albums, Weezer stays gold at Los Angeles show",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZmpCaVI1Uy0tN0dVRnZqYU1YdURPU2JUTFg0N0FHbV9BOHdJbTdobnlIYXpOQV9VdkJBbWZ3MDB3SFJLTUV5QTJZYVBNNlFvRmk3XzVpUXRSM3NtM3JMQk9oNG1jZzZOMkxRYWlOdUpJb3pBVDBRUnBMSTJ1N0Y1WHFGb0ZTeU1NNnEyVVFNdC1OTE04Z1I0cmcwNA?oc=5",
-   "ts": "2026-10-29T02:49:00Z",
-   "fuente": "Daily Bruin",
-   "id": "f7fb7f386e",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Venezuelan leader demands Bank of England return gold",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeTBNZmo2b0pVVThZWWc5N3c5eFFvWkpIV25SZzRPdDAyaUExeTRsb3dhMUxKRHVTUFdsazhsRVVYWTYxZkpjVU5mTEgxQXl4NUN4OXVwcFF3OEZtQ2NYZ0N1VlExTGw5TDZuR0ZTMkFOeHNnTk0zcjh3azhLbDFLeFZLQ2swVXRXUFRBN29YUjdDaHhENHBCUEhtblBid1JRVEE1VFJVaUkzZzR4bFRZSUJVU1NBWERycUxYUmNiTVljUDc0Wnc?oc=5",
-   "ts": "2026-10-29T02:17:04Z",
-   "fuente": "Le Monde.fr",
-   "id": "01de0ab267",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "China’s tech darlings are losing their shine. Here’s what’s behind the sell-off",
-   "link": "https://www.cnbc.com/2026/10/29/china-tech-stocks-selloff.html",
-   "ts": "2026-10-29T02:14:14Z",
-   "fuente": "CNBC",
-   "id": "3cf4cf7d59",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Artemis Gold And 2 Other Canadian Founder Led Stocks To Own",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNWdpSUJNRjd4bklrWE1wbk1uVWotY01hQllRRUJIWEY1bDBUbFhtYXMwcDBTWUZ4MG4yNHB4bFBoVGJOQncxOTNfb2pBdEVLbjdhQ2RsclZPVXNKYUpqYUVMV0NjOF80TzBXNHdUMTJfMHVHSlVfNll3NTdlSkE3N3JfQmdEM1o0czFHN0FUUDFWOEtqakVHVjVn?oc=5",
-   "ts": "2026-10-29T02:08:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "97034e4a32",
-   "activos": [
-    "oro",
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13908,14 +13902,21 @@
     4040.6,
     4045.3,
     4036.6,
-    4041.8
+    4042.5
    ],
    [
-    1793271452,
-    4042.7,
-    4042.7,
-    4042.7,
-    4042.7
+    1793271600,
+    4043.1,
+    4047.1,
+    4041.6,
+    4045.9
+   ],
+   [
+    1793271751,
+    4046.5,
+    4046.5,
+    4046.5,
+    4046.5
    ]
   ],
   "nq": [
@@ -14491,14 +14492,21 @@
     29697.0,
     29735.0,
     29646.0,
-    29716.25
+    29719.5
    ],
    [
-    1793271454,
-    29720.0,
-    29720.0,
-    29720.0,
-    29720.0
+    1793271600,
+    29718.25,
+    29729.0,
+    29689.75,
+    29694.25
+   ],
+   [
+    1793271754,
+    29692.75,
+    29692.75,
+    29692.75,
+    29692.75
    ]
   ],
   "vix": [
@@ -14919,15 +14927,15 @@
     1793268000,
     17.02,
     17.17,
-    16.99,
-    16.99
+    16.96,
+    16.98
    ],
    [
-    1793271151,
-    16.99,
-    16.99,
-    16.99,
-    16.99
+    1793271451,
+    16.98,
+    16.98,
+    16.98,
+    16.98
    ]
   ]
  },
@@ -15034,11 +15042,6 @@
   }
  ],
  "noticias_vistas": [
-  "1483b60bb5",
-  "1ecd7e3050",
-  "f65190c5e0",
-  "b75c13164b",
-  "645c995393",
   "5ed5ea27e6",
   "f476364a1c",
   "7b59609884",
@@ -15833,7 +15836,12 @@
   "af5c9ca1c0",
   "e51e02b874",
   "e72bcb5cb4",
-  "b7b3b29995"
+  "b7b3b29995",
+  "7aa49ea0ed",
+  "8858bae3bf",
+  "33e5a327c3",
+  "4906c529e9",
+  "3a457daf9c"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
