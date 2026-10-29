@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4046.5 · NQ 29697.75 · VIX 16.98 · 5 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-29T11:12:34Z"
+   "ultimo_resultado": "Oro 4046.4 · NQ 29691.75 · VIX 16.98 · 7 noticias nuevas",
+   "actualizado": "2026-10-29T11:17:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T11:12:34Z",
-   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: Merck tops quarterly estimates, hikes profit outlook as new Keytruda form shows strength"
+   "actualizado": "2026-10-29T11:17:32Z",
+   "ultimo_resultado": "7 titulares nuevos: Eli Lilly blows past estimates, hikes sales outlook as Zepbound and Mounjaro demand surge again"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4046.4 · NQ 29691.75 · VIX 16.98 · 7 noticias nuevas",
+   "ts": "2026-10-29T11:17:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4046.5 · NQ 29697.75 · VIX 16.98 · 5 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "DXY -0.19% · 10Y 5.045 · VIX 16.91 · 7 eventos USD en el radar.",
    "ts": "2026-10-28T21:32:59Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
-   "ts": "2026-10-28T21:32:58Z"
   }
  ],
  "briefs": [
@@ -12446,12 +12446,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4046.5,
-  "nq": 29697.75,
+  "oro": 4046.4,
+  "nq": 29691.75,
   "vix": 16.98,
-  "ts": "2026-10-29T11:12:34Z"
+  "ts": "2026-10-29T11:17:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Eli Lilly blows past estimates, hikes sales outlook as Zepbound and Mounjaro demand surge again",
+   "link": "https://www.cnbc.com/2026/10/29/eli-lilly-lly-earnings-q3-2026.html",
+   "ts": "2026-10-29T11:13:06Z",
+   "fuente": "CNBC",
+   "id": "fb5922e157",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Merck tops quarterly estimates, hikes profit outlook as new Keytruda form shows strength",
    "link": "https://www.cnbc.com/2026/10/29/merck-mrk-earnings-q3-2026.html",
@@ -12477,6 +12486,58 @@
    "fuente": "CNBC",
    "id": "3ecf499fcc",
    "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Delta Reports up to 24.7 g/t Au Grab Sample Results and New Gold Occurrences Along 6 km of the Crayfish Creek Fault Corridor",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/delta-reports-24-7-g-110000870.html?.tsrc=rss",
+   "ts": "2026-10-29T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "852d9baba5",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Western Exploration Advances Doby George Permitting",
+   "link": "https://finance.yahoo.com/energy/articles/western-exploration-advances-doby-george-110000025.html?.tsrc=rss",
+   "ts": "2026-10-29T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "7d7c7b0ed1",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Talisker Intersects 301.88 g/t Au over 0.55 m within 79.23 g/t Au over 2.10 metres in the Bralorne West Zone - 2026 Bralorne Gold Project Resource Conversion Program",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/talisker-intersects-301-88-g-110000621.html?.tsrc=rss",
+   "ts": "2026-10-29T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "4f083681b8",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Amex Drills 227.46 g/t Au over 0.50 m in Initial Holes from Resource Conversion Program and Expands Denise Zone Eastward",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/amex-drills-227-46-g-110000519.html?.tsrc=rss",
+   "ts": "2026-10-29T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "472362dced",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Lux Metals Reports 0.71% Cu over 19.50 m Within Previously Reported 17.57 g/t Au Intercept, including 1.45% Cu with 39.08 g/t Au over 8.00 m, Confirming Gold-Copper Mineralization at Zone 32, La Grande Gold Project, James Bay, Québec",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/lux-metals-reports-0-71-110000448.html?.tsrc=rss",
+   "ts": "2026-10-29T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "4aca2a552f",
+   "activos": [
+    "oro",
     "nq"
    ],
    "impacto": "medio"
@@ -12529,6 +12590,15 @@
    "ts": "2026-10-29T10:45:48Z",
    "fuente": "CNBC",
    "id": "a26fc4254a",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Jim Cramer tells investors to fear losses, not taxes. Here are a few ways to build a portfolio you can trust",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-tells-investors-fear-104500647.html?.tsrc=rss",
+   "ts": "2026-10-29T10:45:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "d41055a7af",
    "activos": [],
    "impacto": "bajo"
   },
@@ -13234,83 +13304,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Gold drops 1% as markets assess Fed signals, await US inflation data",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYlhrT3hjaWJ0VXJlcHYxRUdvdVJsVEpGN2lzQXA4a1pLNW5SdklwTFpMYmRNTGRNQ2w2MTRTR2g0UUJfMkx0c21Ja1Fqbzd4eVk1U1gySHF5cnYwQ0FqUzFWWVVMVXpWaUMtQ3d2VGs1TERHQ0dtbFpMWWgxbVpoVS13bGRORTByVkZaS0piSjNxYTk0eUtoZ0ItV2wxbzNnOXhCM2R1bW1Sa1laZUE?oc=5",
-   "ts": "2026-10-29T04:25:00Z",
-   "fuente": "Reuters",
-   "id": "6e7e48e1c3",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Gold slips as markets assess Fed signals, await US inflation data",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYlhrT3hjaWJ0VXJlcHYxRUdvdVJsVEpGN2lzQXA4a1pLNW5SdklwTFpMYmRNTGRNQ2w2MTRTR2g0UUJfMkx0c21Ja1Fqbzd4eVk1U1gySHF5cnYwQ0FqUzFWWVVMVXpWaUMtQ3d2VGs1TERHQ0dtbFpMWWgxbVpoVS13bGRORTByVkZaS0piSjNxYTk0eUtoZ0ItV2wxbzNnOXhCM2R1bW1Sa1laZUE?oc=5",
-   "ts": "2026-10-29T04:25:00Z",
-   "fuente": "Reuters",
-   "id": "8ca83bec95",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Holding Science to a Gold Standard Will Hold It Back",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOV9NMGw1VmdVaUVXeG9UaEZTdzIydGRzS1E0RnRtM0RjOGo5TVhEalV6MXA3WVY2aENWWDF5cjJrWFNLb01yOFdkLTV6emZ5aDVsRGhKMzd5M0hwdm9wNzRWN25kUGdfZlRPWTRvV1lZXzN1WkZOckJ3di0yT1lGUHVEZmsxektLSWlYSkcyMGFLUQ?oc=5",
-   "ts": "2026-10-29T04:13:27Z",
-   "fuente": "The Scientist",
-   "id": "ac98ea68ac",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Mantener la ciencia a un estándar de oro la frenará",
-   "efecto": ""
-  },
-  {
-   "titulo": "Trump methane policy rollback may have minimal impact on crude prices, EPA says",
-   "link": "https://www.cnbc.com/2026/10/29/trump-methane-rollback-oil-prices-epa.html",
-   "ts": "2026-10-29T04:00:51Z",
-   "fuente": "CNBC",
-   "id": "abd7bf7b08",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Freedom Gold Corp. Announces Closing of Debt Settlement",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaGl0RklVYVNUWmZwU0NGbEtOb1ZGQmNkWTNwYW5EZWwwTEpoMWh1SmMwYnFKWXNKU0loQmJfUndtZVJNQ2ViY2Mxb24zTTJ5amdsaVhQWUJ0WWNPMzN2b3pkNVhEOHNaUVh1elJFaFM3a1c1NGMtQXQweUVVZV93YlI2Mnh6WnV1LVRxYzR4OExrdHJrX2gxb2NqMFFfSmp4b0E?oc=5",
-   "ts": "2026-10-29T03:21:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "2bcd2a5b8e",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Orezone Gold (TSX:ORE) Stock Still Looks Undervalued Following Its 228% Run",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVkxOOXRlM2N1SUx6Z2ZtcGtSbl9oSmJoaHdOcnNCMG9VUlI1MG9xZHQ4MGJXbkNzOGRBdTUzR0FmSDdndUZ3emw0b1pjSFNRQ28wVVVIbU9pWERFTUNCR1pudF9iQ1lRbTdKTUZOcXZVRmhUZmRXWFJjVkRpWTNQVWpBSl85N2xJcWgzQVFxcHFRdEhPQmc?oc=5",
-   "ts": "2026-10-29T03:17:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "d307e3e492",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Top 3 Australian Growth Stocks To Watch In October 2026",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/top-3-australian-growth-stocks-031417053.html?.tsrc=rss",
-   "ts": "2026-10-29T03:14:17Z",
-   "fuente": "Yahoo Finance",
-   "id": "e06d20cfcb",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Top 3 de acciones de crecimiento australianas a seguir en octubre de 2026",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -13909,14 +13902,14 @@
     4043.1,
     4047.1,
     4041.6,
-    4045.9
+    4046.6
    ],
    [
-    1793271751,
-    4046.5,
-    4046.5,
-    4046.5,
-    4046.5
+    1793272047,
+    4046.4,
+    4046.4,
+    4046.4,
+    4046.4
    ]
   ],
   "nq": [
@@ -14498,15 +14491,15 @@
     1793271600,
     29718.25,
     29729.0,
-    29689.75,
-    29694.25
+    29686.5,
+    29694.0
    ],
    [
-    1793271754,
-    29692.75,
-    29692.75,
-    29692.75,
-    29692.75
+    1793272051,
+    29691.75,
+    29691.75,
+    29691.75,
+    29691.75
    ]
   ],
   "vix": [
@@ -14928,10 +14921,17 @@
     17.02,
     17.17,
     16.96,
-    16.98
+    16.99
    ],
    [
-    1793271451,
+    1793271600,
+    16.99,
+    16.99,
+    16.97,
+    16.97
+   ],
+   [
+    1793271751,
     16.98,
     16.98,
     16.98,
@@ -14940,22 +14940,22 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-29T11:07:33Z",
- "ult_4h": 1793271757.118931,
+ "ult_4h": 1793272652.9979806,
  "estrategia_4h": {
   "oro": {
-   "precio": 4038.7,
+   "precio": 4046.4,
    "atr_4h": 27.36,
    "setups": []
   },
   "nq": {
-   "precio": 29716.0,
-   "atr_4h": 218.96,
+   "precio": 29691.75,
+   "atr_4h": 219.02,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 29572.0,
      "entrada": 29572.0,
-     "stop": 29440.62,
+     "stop": 29440.59,
      "objetivo": 30178.0,
      "rr": 4.61,
      "estado": "esperando retesteo",
@@ -14966,16 +14966,16 @@
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29194.62,
+     "stop": 29194.59,
      "objetivo": 30178.0,
-     "rr": 6.49,
+     "rr": 6.48,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 0.91,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-29T11:02:37Z"
+  "ts": "2026-10-29T11:17:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15042,13 +15042,6 @@
   }
  ],
  "noticias_vistas": [
-  "5ed5ea27e6",
-  "f476364a1c",
-  "7b59609884",
-  "c1d5d62018",
-  "91ca02413a",
-  "d4ca64b513",
-  "4984638c34",
   "496734279b",
   "ca97191a0e",
   "7ff00c1440",
@@ -15841,7 +15834,14 @@
   "8858bae3bf",
   "33e5a327c3",
   "4906c529e9",
-  "3a457daf9c"
+  "3a457daf9c",
+  "fb5922e157",
+  "852d9baba5",
+  "7d7c7b0ed1",
+  "4f083681b8",
+  "472362dced",
+  "4aca2a552f",
+  "d41055a7af"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
