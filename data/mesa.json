@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4038.8 · NQ 29245.25 · VIX 17.2 · 2 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-29T20:42:35Z"
+   "ultimo_resultado": "Oro 4040.0 · NQ 29267.25 · VIX 17.2 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-29T20:47:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T20:42:35Z",
-   "ultimo_resultado": "2 titulares nuevos, 2 de alto impacto: Update: Nasdaq, S&P 500 Snap 3-Day Rise on Alphabet Sell-Off, Inflation Anxiety"
+   "actualizado": "2026-10-29T20:47:33Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Las acciones de Intel se desploman un 16% tras culpar a la desaceleración de PCs por su débil guía"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4040.0 · NQ 29267.25 · VIX 17.2 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-29T20:47:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4038.8 · NQ 29245.25 · VIX 17.2 · 2 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "VIX/NQ: DIVERGENCIA: NQ baja pero el VIX también baja (caída sin miedo; posible barrida para comprar)",
    "ts": "2026-10-29T06:33:05Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
-   "ts": "2026-10-29T06:33:04Z"
   }
  ],
  "briefs": [
@@ -12490,12 +12490,26 @@
   }
  },
  "en_vivo": {
-  "oro": 4038.8,
-  "nq": 29245.25,
+  "oro": 4040.0,
+  "nq": 29267.25,
   "vix": 17.2,
-  "ts": "2026-10-29T20:42:35Z"
+  "ts": "2026-10-29T20:47:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Intel stock plunges 16% as chipmaker blames PC slowdown for weak guidance",
+   "link": "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html",
+   "ts": "2026-10-29T20:47:13Z",
+   "fuente": "CNBC",
+   "id": "2f5c4036be",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Las acciones de Intel se desploman un 16% tras culpar a la desaceleración de PCs por su débil guía",
+   "efecto": "Presiona al Nasdaq a la baja por debilidad en el sector tecnológico y semiconductores."
+  },
   {
    "titulo": "Update: Nasdaq, S&P 500 Snap 3-Day Rise on Alphabet Sell-Off, Inflation Anxiety",
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUjllbTYwZGZ0N0tEV0N4TTh0cG9WOXl0d196MVB0bXUtdThPZmppMzBjMjZ4NGEzWmNSUFJCbmJTcWYtektWQ0tRY0tlZFM4Zm5GYXhDX0J5ZUQzdVhYOHY4RXFkbG9tclI0a1VFTHI2S044bV9IdWZiTkxhTjc0bXQxYVBxbDF5TzBnUA?oc=5",
@@ -13318,17 +13332,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "GM is shifting gears to the Nasdaq, trying to draft behind Walmart’s lead",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4tckg5Sk5URFRDM3ZSQlk5NE1xZ2p4MUlvWlFJQlNXUXRmUDFhQktGdmg4bVYtNDI2eDgtSmhlci1zM0NsbXV4MmU5aDd4NTFBcFNtdElHMU1PajZZckp4MU42bUktRGtnTnQ1YjNuNXFBTjV2?oc=5",
-   "ts": "2026-10-29T15:57:27Z",
-   "fuente": "CNBC",
-   "id": "e0875bbdb0",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13971,14 +13974,14 @@
     4034.2,
     4044.3,
     4032.7,
-    4039.1
+    4040.1
    ],
    [
-    1793305949,
-    4038.8,
-    4038.8,
-    4038.8,
-    4038.8
+    1793306249,
+    4040.0,
+    4040.0,
+    4040.0,
+    4040.0
    ]
   ],
   "nq": [
@@ -14603,14 +14606,14 @@
     29566.25,
     29593.25,
     29111.0,
-    29250.75
+    29273.25
    ],
    [
-    1793305953,
-    29245.25,
-    29245.25,
-    29245.25,
-    29245.25
+    1793306251,
+    29267.25,
+    29267.25,
+    29267.25,
+    29267.25
    ]
   ],
   "vix": [
@@ -15113,7 +15116,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-29T20:12:35Z",
+ "noticias_traducidas_ts": "2026-10-29T20:47:31Z",
  "ult_4h": 1793306256.0642834,
  "estrategia_4h": {
   "oro": {
@@ -15206,7 +15209,6 @@
   }
  ],
  "noticias_vistas": [
-  "5ca116f566",
   "3e873db837",
   "7f7f96bcb7",
   "286cfe9114",
@@ -16005,7 +16007,8 @@
   "787e7cf842",
   "59b497040a",
   "6077bb8576",
-  "1b74c26de9"
+  "1b74c26de9",
+  "2f5c4036be"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
