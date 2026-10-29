@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4035.0 · NQ 29326.75 · VIX 16.42 · 2 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-29T20:12:38Z"
+   "ultimo_resultado": "Oro 4040.3 · NQ 29162.75 · VIX 16.81 · 4 noticias nuevas",
+   "actualizado": "2026-10-29T20:17:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T20:12:37Z",
-   "ultimo_resultado": "2 titulares nuevos, 2 de alto impacto: Amazon decepciona en resultados y mantiene su capex, aumentando temores por gasto en IA."
+   "actualizado": "2026-10-29T20:17:31Z",
+   "ultimo_resultado": "4 titulares nuevos: Alphabet tanks nearly 13% for worst day ever, losing $500 billion in value"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4040.3 · NQ 29162.75 · VIX 16.81 · 4 noticias nuevas",
+   "ts": "2026-10-29T20:17:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4035.0 · NQ 29326.75 · VIX 16.42 · 2 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "DXY 0.05% · 10Y 5.045 · VIX 16.91 · 7 eventos USD en el radar.",
    "ts": "2026-10-29T06:32:55Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
-   "ts": "2026-10-29T06:32:53Z"
   }
  ],
  "briefs": [
@@ -12490,12 +12490,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4035.0,
-  "nq": 29326.75,
-  "vix": 16.42,
-  "ts": "2026-10-29T20:12:37Z"
+  "oro": 4040.3,
+  "nq": 29162.75,
+  "vix": 16.81,
+  "ts": "2026-10-29T20:17:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Alphabet tanks nearly 13% for worst day ever, losing $500 billion in value",
+   "link": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
+   "ts": "2026-10-29T20:15:19Z",
+   "fuente": "CNBC",
+   "id": "b5fa3ac3a5",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Amazon misses on earnings and holds capex steady, adding to AI spending jitters",
    "link": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
@@ -12554,6 +12565,17 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Wall Street ends lower as Alphabet revenue miss revives AI capex jitters",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZS1LektXY2xjaGVlZFhXckZrRFZFelBDOEVKX2tKWVpQVmk4THRhbmlYOEZKV1h3ZHdZOTFPbWFuelU0SENDVlN2U0VHaDhUNGNQRDhVSmZ6d0k4SElZMXlncGhZRnNPRWZxZUMtYnVVQnFWZEEzS1ljaklDcmpVS2FoaVJrc2tQY3cxNEtQRmhVVlJKa3lIdkkyaw?oc=5",
+   "ts": "2026-10-29T20:00:31Z",
+   "fuente": "Yahoo Finance",
+   "id": "86ceb945cd",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Wildlife Conservation Society Board of Trustees Awards Gold Medal To Dr. John G. Robinson for Extraordinary Contributions to Global Conservation",
    "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQZVczMm9DUVRqbU9GN2NfZlRfdDd1WTVHMTZ5UnZSV3ROQVgybXo5cW9QTEZpWVRZVEhqVnBwU25oSF92a2t0cXVhZlUxY3pwa1VTSXdXLWVaZl91ZmF5ZkpJQ0h6czlidkM2ZDR1Y1VnY2JtUGxGb3ZBNzVWUkZoUVpXODRDdU5FMWUyMHdTbk84by1JcEk3SmNGekp2U2xZNlpUREJlZkxLQm5waV9RY3VNc2dmbnF1d19Rc19TOGxHYmFXclRnSHE5SDkyaEVWcnZwY0hqcVdiVkxsdXVmSTY3WFBjeVdINUVwZHppaFphd25MQU1XSEw0MmhXUFhMZ0RFM21TYkNTTVE2UFd0YnlIdFNCbENSQXE4cmd1eEp1UTE5M1dQdWpWQVhRYk1OSzhSWHdpOW9MRG9PcldyQ2FnNmtXaFZZaGc?oc=5",
    "ts": "2026-10-29T20:00:13Z",
@@ -12585,6 +12607,26 @@
    "impacto": "bajo",
    "es": "Resultados de Agnico Eagle: mejoran por el oro fuerte, pero con menor volumen y costos altos.",
    "efecto": "Ruido corporativo del sector; impacto neutral para la cotización spot del oro."
+  },
+  {
+   "titulo": "Why Americans can’t buy these world-class EVs",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTzN1Vk1hZTFneENZNU5qbzJ3emtQTUIxZFVaZmRQTllUMUNoaHJXa2JxdjhscGR0ZHEtY1l2LTlzVjJRcE9jb0llZnhLel9CRklINk4yVEh2MGpZRXZmRXBrWGVhMEVUTC1Beng4cFNmSV9LZ0hFSjU2X3BpOVZZMzdQbWJyMWFmMkJVU2JLVkl0S1YwM0pYZlBzaWdhcWFCX1hJMjFHem5QdXZIaVRaUl9YNGNWdzZITEU5U0tzb2cyNXhhRFVN?oc=5",
+   "ts": "2026-10-29T19:32:41Z",
+   "fuente": "The Washington Post",
+   "id": "3c476ecb10",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Jim Cramer: Why investors are punishing Alphabet and giving Microsoft a pass",
+   "link": "https://www.cnbc.com/investingclub/2026/10/29/jim-cramer-why-investors-are-punishing-alphabet-and-giving-microsoft-a-pass.html",
+   "ts": "2026-10-29T19:30:33Z",
+   "fuente": "CNBC",
+   "id": "356a54f0ff",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Starbucks is about to report earnings. Here's what to expect",
@@ -13285,49 +13327,6 @@
    "id": "48e9974061",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Bassett will wrestle for gold in Astana",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORjVoNy1oUTN2d2tOZENtT0pBc21XUHFrNFJsUkZUa3VYNTBzZnFlRHBsWFkxN20zcFRKVlBnMDcwSnE1aWN2cDlZVkZXZzd0Nm1HYTIzU1drUjdYZVNIQnBDLUtiT25UNzJ5LW9XaldfQTc4dHl2REFsZDFGaVlncWFxTmoyZw?oc=5",
-   "ts": "2026-10-29T15:05:46Z",
-   "fuente": "Virginia Tech Athletics",
-   "id": "bf71f59838",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Bassett luchará por el oro en Astaná",
-   "efecto": "Sin efecto institucional, se refiere a lucha deportiva."
-  },
-  {
-   "titulo": "Nasdaq 100 Falls 1.5% as AI Trade Shows New Cracks: Markets Wrap",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQd1B6V3JFX19tOWhyZHVKZzFGZ1k0aXcyNERXb0JrMFNjQVpEaFZMeVMxU1FUVnJpWmFrM3JQbjJ5cXRsU0NBekRsOUM2WEQ2Zlh3MWluWUU2c0poWTk1ZDBGMC13SUtxX1lVdjEtQW1PbWdXRE95ZFJqZ2JmZEwxeW5VbVVORWlzMlJTVHdnZ2NkaWR3?oc=5",
-   "ts": "2026-10-29T15:00:13Z",
-   "fuente": "Bloomberg.com",
-   "id": "90ebdaca04",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El Nasdaq 100 cae un 1,5% al mostrar grietas el comercio de IA",
-   "efecto": "Venta institucional en tecnológicas, busca liquidez y refugio."
-  },
-  {
-   "titulo": "Volkswagen posts $6.8 billion quarterly loss with China slump, Trump tariffs and Porsche writedown",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZXRDZVd0bXhzXzNvWjhWcnR6dGZhdXJlT0NsRlc5NDlVZnh4ckx1Q1R4SXhJdi1QcHpWTlBQcEg4ZHJ4enA2TG16RlhEdDVEdXBicWZMb3czQ2QxcHU0R19GLU41Q0loVmpQUUVfVjk2a0k1d2JORGlKc2FLY2dhOFByaG51Zw?oc=5",
-   "ts": "2026-10-29T14:58:39Z",
-   "fuente": "Fortune",
-   "id": "ec3a5a8e05",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "ServiceNow shares plunge 24% after earnings revive AI disruption fears",
-   "link": "https://www.cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html",
-   "ts": "2026-10-29T14:58:03Z",
-   "fuente": "CNBC",
-   "id": "eb7f615526",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -13968,16 +13967,16 @@
    [
     1793304000,
     4034.2,
-    4036.4,
+    4040.9,
     4032.7,
-    4035.1
+    4037.8
    ],
    [
-    1793304155,
-    4035.0,
-    4035.0,
-    4035.0,
-    4035.0
+    1793304450,
+    4039.8,
+    4039.8,
+    4039.8,
+    4039.8
    ]
   ],
   "nq": [
@@ -14601,15 +14600,15 @@
     1793304000,
     29566.25,
     29593.25,
-    29312.5,
-    29319.75
+    29111.0,
+    29191.75
    ],
    [
-    1793304156,
-    29324.0,
-    29324.0,
-    29324.0,
-    29324.0
+    1793304449,
+    29162.75,
+    29162.75,
+    29162.75,
+    29162.75
    ]
   ],
   "vix": [
@@ -15093,15 +15092,15 @@
     1793300400,
     16.93,
     16.95,
-    16.44,
-    16.44
+    16.39,
+    16.45
    ],
    [
-    1793303851,
-    16.42,
-    16.42,
-    16.42,
-    16.42
+    1793304000,
+    16.47,
+    16.81,
+    16.37,
+    16.81
    ]
   ]
  },
@@ -15208,10 +15207,6 @@
   }
  ],
  "noticias_vistas": [
-  "65bdb65abb",
-  "13b7ef9f3c",
-  "939cdf2755",
-  "60a93d84f3",
   "a09676de57",
   "41c072620d",
   "95377605b1",
@@ -16007,7 +16002,11 @@
   "82df1c86de",
   "9d4171eeab",
   "097f854db9",
-  "5281f24df9"
+  "5281f24df9",
+  "b5fa3ac3a5",
+  "86ceb945cd",
+  "3c476ecb10",
+  "356a54f0ff"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
