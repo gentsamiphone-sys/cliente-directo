@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T12:33:00Z",
-   "ultimo_resultado": "Mapa listo: oro 4036.0 · NQ 29625.75."
+   "actualizado": "2026-10-29T20:22:32Z",
+   "ultimo_resultado": "Estrategia 4H NQ: VENTA: esperar retesteo de 29482.5 · stop 29622.17 · objetivo 29111.0 · R:R 2.66 (esperando retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T20:17:31Z",
-   "ultimo_resultado": "4 titulares nuevos: Alphabet tanks nearly 13% for worst day ever, losing $500 billion in value"
+   "actualizado": "2026-10-29T20:22:31Z",
+   "ultimo_resultado": "4 titulares nuevos: Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H NQ: VENTA: esperar retesteo de 29482.5 · stop 29622.17 · objetivo 29111.0 · R:R 2.66 (esperando retesteo). Tú ejecutas.",
+   "ts": "2026-10-29T20:22:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4040.3 · NQ 29162.75 · VIX 16.81 · 4 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
    "ts": "2026-10-29T06:32:57Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "DXY 0.05% · 10Y 5.045 · VIX 16.91 · 7 eventos USD en el radar.",
-   "ts": "2026-10-29T06:32:55Z"
   }
  ],
  "briefs": [
@@ -12490,10 +12490,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4040.3,
+  "oro": 4041.3,
   "nq": 29162.75,
-  "vix": 16.81,
-  "ts": "2026-10-29T20:17:31Z"
+  "vix": 17.17,
+  "ts": "2026-10-29T20:22:31Z"
  },
  "noticias": [
   {
@@ -12506,6 +12506,15 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks",
+   "link": "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
+   "ts": "2026-10-29T20:12:32Z",
+   "fuente": "CNBC",
+   "id": "6bde9a6e27",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Amazon misses on earnings and holds capex steady, adding to AI spending jitters",
@@ -12554,6 +12563,15 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise",
+   "link": "https://www.cnbc.com/2026/10/29/rivian-rivn-earnings-q3-2026.html",
+   "ts": "2026-10-29T20:05:34Z",
+   "fuente": "CNBC",
+   "id": "50f7afd636",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "Dow loses 100 points, S&P 500 snaps 3-day advance as Alphabet and Caterpillar tank: Live updates",
    "link": "https://www.cnbc.com/2026/10/28/stock-market-today-live-updates.html",
    "ts": "2026-10-29T20:04:24Z",
@@ -12563,6 +12581,15 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Emerita Announces Positive IBW Pre-Feasibility Study Results Highlighting US$776 Million After-Tax NPV (8%), 23.51% IRR and 21-Year Mine Life",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/emerita-announces-positive-ibw-pre-200200269.html?.tsrc=rss",
+   "ts": "2026-10-29T20:02:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "b2cdc9810a",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Wall Street ends lower as Alphabet revenue miss revives AI capex jitters",
@@ -12585,6 +12612,15 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Firm that correctly called the AI rally slowdown says here's where to hide out",
+   "link": "https://www.cnbc.com/2026/10/29/firm-that-correctly-called-the-ai-rally-slowdown-says-heres-where-to-hide-out.html",
+   "ts": "2026-10-29T19:59:53Z",
+   "fuente": "CNBC",
+   "id": "23e264e8e6",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Ondo brings its tokenized portfolios to Solana",
@@ -13289,44 +13325,6 @@
    "id": "27e5293fa3",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "CNBC Sport: Inside the scramble that moved Thursday's WNBA Finals game to 12:30 p.m. ET",
-   "link": "https://www.cnbc.com/2026/10/29/the-wnbas-scramble-to-move-thursdays-finals-game-6-to-1230-pm-et.html",
-   "ts": "2026-10-29T15:28:27Z",
-   "fuente": "CNBC",
-   "id": "53a906a571",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Fed’s Path to a Repo-Based Framework Faces a Familiar Roadblock",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQmdvNWRHSDZrNGxRZ1VibUdLQUNfQnp0aHRvVkZIV2F2Rk54N3R5VE9wLURveVZxVGlFZDJYdmczVk10V2FCVTItaFJPZU1WUXczWEEwRVFhU293X28wRUZSVDFCUTZ4RVo2MVZRWWUzdXlCVUlaTmlXNjNNOWdWZVVKQ0ZFd1hWREVSM1FRTFlpb1pGT3hXVW1BSjMzRS0tamxlSEVza1pwUi1lRmdKazhsWUM?oc=5",
-   "ts": "2026-10-29T15:26:00Z",
-   "fuente": "Bloomberg.com",
-   "id": "e0ba907c41",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Inside the scramble that moved Thursday's WNBA Finals game to 12:30 p.m. ET",
-   "link": "https://www.cnbc.com/2026/10/29/the-wnbas-scramble-to-move-thursdays-finals-game-6-to-1230-pm-et.html",
-   "ts": "2026-10-29T15:16:23Z",
-   "fuente": "CNBC",
-   "id": "fdc4228177",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "There's a cybersecurity stock on Josh Brown's list that's pulling back. How he's trading it",
-   "link": "https://www.cnbc.com/2026/10/29/okta-stock-pullback-josh-brown.html",
-   "ts": "2026-10-29T15:07:43Z",
-   "fuente": "CNBC",
-   "id": "48e9974061",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -15105,42 +15103,31 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-29T20:12:35Z",
- "ult_4h": 1793304453.973944,
+ "ult_4h": 1793305351.8553298,
  "estrategia_4h": {
   "oro": {
-   "precio": 4033.9,
-   "atr_4h": 26.44,
+   "precio": 4041.3,
+   "atr_4h": 23.42,
    "setups": []
   },
   "nq": {
-   "precio": 29547.0,
-   "atr_4h": 223.39,
+   "precio": 29161.75,
+   "atr_4h": 232.79,
    "setups": [
     {
-     "direccion": "COMPRA",
-     "nivel": 29572.0,
-     "entrada": 29572.0,
-     "stop": 29437.96,
-     "objetivo": 30178.0,
-     "rr": 4.52,
-     "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.34,
-     "ruptura": "2026-10-27 12:00 UTC"
-    },
-    {
-     "direccion": "COMPRA",
-     "nivel": 29326.0,
-     "entrada": 29326.0,
-     "stop": 29191.96,
-     "objetivo": 30178.0,
-     "rr": 6.36,
+     "direccion": "VENTA",
+     "nivel": 29482.5,
+     "entrada": 29482.5,
+     "stop": 29622.17,
+     "objetivo": 29111.0,
+     "rr": 2.66,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.89,
-     "ruptura": "2026-10-26 12:00 UTC"
+     "fuerza_ruptura_atr": 1.74,
+     "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-29T20:07:34Z"
+  "ts": "2026-10-29T20:22:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15189,7 +15176,8 @@
   "oro|COMPRA|4044.0|esperando retesteo",
   "nq|COMPRA|29572.0|esperando retesteo",
   "oro|COMPRA|4084.1|en retesteo",
-  "nq|COMPRA|29572.0|en retesteo"
+  "nq|COMPRA|29572.0|en retesteo",
+  "nq|VENTA|29482.5|esperando retesteo"
  ],
  "alpha_ordenes": [
   {
@@ -15207,10 +15195,6 @@
   }
  ],
  "noticias_vistas": [
-  "a09676de57",
-  "41c072620d",
-  "95377605b1",
-  "22f611f771",
   "388c7e6670",
   "c4b02ae049",
   "48333821e2",
@@ -16006,7 +15990,11 @@
   "b5fa3ac3a5",
   "86ceb945cd",
   "3c476ecb10",
-  "356a54f0ff"
+  "356a54f0ff",
+  "6bde9a6e27",
+  "50f7afd636",
+  "b2cdc9810a",
+  "23e264e8e6"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
