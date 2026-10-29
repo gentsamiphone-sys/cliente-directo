@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4044.7 · NQ 29670.5 · VIX 17.04 · 3 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-29T10:32:33Z"
+   "ultimo_resultado": "Oro 4041.9 · NQ 29662.75 · VIX 17.07 · 2 noticias nuevas",
+   "actualizado": "2026-10-29T10:37:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T10:32:32Z",
-   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: U.S. Treasury, European Bond Yields Fall After Fed Decision, Ahead of ECB Meeting"
+   "actualizado": "2026-10-29T10:37:35Z",
+   "ultimo_resultado": "2 titulares nuevos: Restaurant Brands reporta resultados mixtos mientras el plan de Burger King muestra éxito."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4041.9 · NQ 29662.75 · VIX 17.07 · 2 noticias nuevas",
+   "ts": "2026-10-29T10:37:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4044.7 · NQ 29670.5 · VIX 17.04 · 3 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "4 titulares nuevos: Agnico: Q3 Earnings Snapshot",
    "ts": "2026-10-28T21:17:34Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Alphabet sinks 9% as it holds 2026 capex unchanged, expects significant increase in 2027",
-   "ts": "2026-10-28T21:12:32Z"
   }
  ],
  "briefs": [
@@ -12446,12 +12446,36 @@
   }
  },
  "en_vivo": {
-  "oro": 4044.7,
-  "nq": 29670.5,
-  "vix": 17.04,
-  "ts": "2026-10-29T10:32:32Z"
+  "oro": 4041.9,
+  "nq": 29662.75,
+  "vix": 17.07,
+  "ts": "2026-10-29T10:37:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Restaurant Brands reports mixed results as Burger King's U.S. turnaround shows signs of success",
+   "link": "https://www.cnbc.com/2026/10/29/restaurant-brands-international-qsr-q3-2026-earnings.html",
+   "ts": "2026-10-29T10:33:14Z",
+   "fuente": "CNBC",
+   "id": "09a99ee750",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Restaurant Brands reporta resultados mixtos mientras el plan de Burger King muestra éxito.",
+   "efecto": ""
+  },
+  {
+   "titulo": "Merck tops quarterly estimates, hikes profit outlook as new form of Keytruda shows strength",
+   "link": "https://www.cnbc.com/2026/10/29/merck-mrk-earnings-q3-2026.html",
+   "ts": "2026-10-29T10:31:13Z",
+   "fuente": "CNBC",
+   "id": "51c6b89d7f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Merck supera estimaciones trimestrales y eleva perspectiva de ganancias por Keytruda.",
+   "efecto": ""
+  },
   {
    "titulo": "President of the European Central Bank Christine Lagarde to stand down in February",
    "link": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html",
@@ -13314,30 +13338,6 @@
    "impacto": "bajo",
    "es": "Nueva Delhi aprueba 22.000 millones en gasto militar ante tensiones con China",
    "efecto": "Genera soporte menor en oro por ligera tensión geopolítica."
-  },
-  {
-   "titulo": "S&P 500, Nasdaq Futures Dip As Weaker-Than-Expected Alphabet Earnings Reignite AI Spending Worries — GOOGL, MSFT, ORCL, NVDA, MRVL In Focus",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSHFrQlZMOWZ1cW96WjF6VHJLWkI0c0dPcmJweHlhU0swOFh5aW9tMDVEM1BpUzNnQndUVEs3cXpsa2hUX0FPMTFIa0pZc3pFWlJBMzRhbFNLTkhrZThfTTVVVzhUTWNyZm9PMkVvOWdGSDNaQkJZbjB1clJiT1RaamRTUGVMX0ptN3ZwUFEtb3lyQVk?oc=5",
-   "ts": "2026-10-29T00:10:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "70bc48523c",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto",
-   "es": "Futuros de S&P y Nasdaq caen por débiles resultados de Alphabet que reviven dudas en IA",
-   "efecto": "Presiona al Nasdaq fuertemente a la baja por el sector tecnológico."
-  },
-  {
-   "titulo": "MSFT Surges After Hours; Nasdaq Futures Slide",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQclZKQ3ZOUGV5SlN4b3hsVVd6bEN3Rnl2Nll5OUhZNllpNG4wU2FKNGFHdG1TLTR6VjBSNGtSX1RsUk5oSFZDYXZPTFR5R2ZvNlp0STBWMWJhQUhqNWwzNjlnZnEzd2UtaEZXbWNFMVVGU282aTlyblZmMVlMRm5JVUtweVo3dTVMRVRwUVdxa3VZbWt3M2c4MHBvWnAxYzQ?oc=5",
-   "ts": "2026-10-29T00:03:14Z",
-   "fuente": "Moomoo",
-   "id": "cacfd6b4f4",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -13928,15 +13928,15 @@
     1793268000,
     4040.6,
     4045.3,
-    4040.1,
-    4044.5
+    4039.7,
+    4039.8
    ],
    [
-    1793269350,
-    4044.7,
-    4044.7,
-    4044.7,
-    4044.7
+    1793269645,
+    4041.9,
+    4041.9,
+    4041.9,
+    4041.9
    ]
   ],
   "nq": [
@@ -14511,15 +14511,15 @@
     1793268000,
     29697.0,
     29707.0,
-    29662.75,
-    29669.75
+    29659.25,
+    29660.5
    ],
    [
-    1793269349,
-    29670.5,
-    29670.5,
-    29670.5,
-    29670.5
+    1793269652,
+    29662.75,
+    29662.75,
+    29662.75,
+    29662.75
    ]
   ],
   "vix": [
@@ -14939,20 +14939,20 @@
    [
     1793268000,
     17.02,
-    17.04,
+    17.07,
     16.99,
-    17.04
+    17.06
    ],
    [
-    1793269051,
-    17.04,
-    17.04,
-    17.04,
-    17.04
+    1793269351,
+    17.07,
+    17.07,
+    17.07,
+    17.07
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-29T10:02:36Z",
+ "noticias_traducidas_ts": "2026-10-29T10:37:33Z",
  "ult_4h": 1793269952.7552655,
  "estrategia_4h": {
   "oro": {
@@ -15055,8 +15055,6 @@
   }
  ],
  "noticias_vistas": [
-  "bf15b44a6a",
-  "6db1fd5f95",
   "1e30a47eb9",
   "4b83623272",
   "fe5d5f474b",
@@ -15854,7 +15852,9 @@
   "b275cf28ff",
   "2c6b6faf39",
   "9e5cdc5357",
-  "f150acdf91"
+  "f150acdf91",
+  "09a99ee750",
+  "51c6b89d7f"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
