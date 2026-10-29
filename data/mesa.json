@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4030.0 · NQ 29112.5 · VIX 17.2 · 2 noticias nuevas",
-   "actualizado": "2026-10-29T22:37:44Z"
+   "ultimo_resultado": "Oro 4030.7 · NQ 29098.5 · VIX 17.2 · 1 noticias nuevas",
+   "actualizado": "2026-10-29T22:42:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T22:37:43Z",
-   "ultimo_resultado": "2 titulares nuevos: El beneficio ajustado del 3T de Capstone Copper sube por precios de metales; cae la producción"
+   "actualizado": "2026-10-29T22:42:33Z",
+   "ultimo_resultado": "1 titulares nuevos: Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4030.7 · NQ 29098.5 · VIX 17.2 · 1 noticias nuevas",
+   "ts": "2026-10-29T22:42:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4030.0 · NQ 29112.5 · VIX 17.2 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4041.9 · NQ 29677.75 · VIX 17.02 · 1 noticias nuevas",
    "ts": "2026-10-29T09:27:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4043.3 · NQ 29705.25 · VIX 17.05",
-   "ts": "2026-10-29T09:22:33Z"
   }
  ],
  "briefs": [
@@ -12528,12 +12528,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4030.0,
-  "nq": 29112.5,
+  "oro": 4030.7,
+  "nq": 29098.5,
   "vix": 17.2,
-  "ts": "2026-10-29T22:37:43Z"
+  "ts": "2026-10-29T22:42:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance",
+   "link": "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html",
+   "ts": "2026-10-29T22:37:54Z",
+   "fuente": "CNBC",
+   "id": "dccebee8b6",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Nasdaq-100 futures fall as Amazon and Intel swoon after earnings: Live updates",
    "link": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
@@ -13352,15 +13361,6 @@
    "id": "94fd538ffb",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Aon CEO warns AI data center insurance risks could threaten financing",
-   "link": "https://www.cnbc.com/2026/10/29/aon-ai-data-center-insurance-financing.html",
-   "ts": "2026-10-29T17:03:23Z",
-   "fuente": "CNBC",
-   "id": "3e745bb980",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -14003,14 +14003,14 @@
     4035.8,
     4037.8,
     4029.2,
-    4029.7
+    4031.0
    ],
    [
-    1793312859,
-    4030.0,
-    4030.0,
-    4030.0,
-    4030.0
+    1793313130,
+    4030.7,
+    4030.7,
+    4030.7,
+    4030.7
    ]
   ],
   "nq": [
@@ -14634,15 +14634,15 @@
     1793311200,
     29172.5,
     29180.0,
-    29103.75,
-    29112.5
+    29090.25,
+    29093.0
    ],
    [
-    1793312862,
-    29111.75,
-    29111.75,
-    29111.75,
-    29111.75
+    1793313150,
+    29098.5,
+    29098.5,
+    29098.5,
+    29098.5
    ]
   ],
   "vix": [
@@ -15238,7 +15238,6 @@
   }
  ],
  "noticias_vistas": [
-  "c26df3b422",
   "6b7ab2a220",
   "2431bff12d",
   "19c23043a4",
@@ -16037,7 +16036,8 @@
   "d973e10b0f",
   "9372efa514",
   "95c45f3ed1",
-  "f916e99ae1"
+  "f916e99ae1",
+  "dccebee8b6"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
