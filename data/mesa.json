@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4074.5 · NQ 29534.75 · VIX 16.91",
-   "actualizado": "2026-10-29T02:12:39Z"
+   "ultimo_resultado": "Oro 4072.3 · NQ 29545.0 · VIX 16.91 · 1 noticias nuevas",
+   "actualizado": "2026-10-29T02:17:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T02:12:37Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-29T02:17:32Z",
+   "ultimo_resultado": "1 titulares nuevos: China’s tech darlings are losing their shine. Here’s what’s behind the sell-off"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4072.3 · NQ 29545.0 · VIX 16.91 · 1 noticias nuevas",
+   "ts": "2026-10-29T02:17:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4074.5 · NQ 29534.75 · VIX 16.91",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
    "ts": "2026-10-28T12:32:55Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Fondos en oro: neto +104,206 contratos.",
-   "ts": "2026-10-28T12:32:53Z"
   }
  ],
  "briefs": [
@@ -12355,12 +12355,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4074.5,
-  "nq": 29534.75,
+  "oro": 4072.3,
+  "nq": 29545.0,
   "vix": 16.91,
-  "ts": "2026-10-29T02:12:38Z"
+  "ts": "2026-10-29T02:17:33Z"
  },
  "noticias": [
+  {
+   "titulo": "China’s tech darlings are losing their shine. Here’s what’s behind the sell-off",
+   "link": "https://www.cnbc.com/2026/10/29/china-tech-stocks-selloff.html",
+   "ts": "2026-10-29T02:14:14Z",
+   "fuente": "CNBC",
+   "id": "3cf4cf7d59",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Samsung Electronics shares slid despite record profit in the third-quarter",
    "link": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html",
@@ -13237,15 +13246,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Oracle stock pops 12% as long-term revenue forecast and clarity on financing ease debt concerns",
-   "link": "https://www.cnbc.com/2026/10/28/oracle-forecast-growth-2030.html",
-   "ts": "2026-10-28T19:20:19Z",
-   "fuente": "CNBC",
-   "id": "d3320b4d34",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -13884,16 +13884,16 @@
    [
     1793239200,
     4074.6,
-    4076.1,
-    4072.5,
-    4075.2
+    4077.0,
+    4071.5,
+    4072.1
    ],
    [
-    1793239352,
-    4074.5,
-    4074.5,
-    4074.5,
-    4074.5
+    1793239648,
+    4072.3,
+    4072.3,
+    4072.3,
+    4072.3
    ]
   ],
   "nq": [
@@ -14518,14 +14518,14 @@
     29583.0,
     29584.75,
     29520.0,
-    29553.0
+    29535.5
    ],
    [
-    1793239357,
-    29538.75,
-    29538.75,
-    29538.75,
-    29538.75
+    1793239651,
+    29545.0,
+    29545.0,
+    29545.0,
+    29545.0
    ]
   ],
   "vix": [
@@ -15029,10 +15029,10 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-29T01:47:45Z",
- "ult_4h": 1793239353.2468216,
+ "ult_4h": 1793240253.1235082,
  "estrategia_4h": {
   "oro": {
-   "precio": 4070.9,
+   "precio": 4072.3,
    "atr_4h": 26.38,
    "setups": [
     {
@@ -15043,7 +15043,7 @@
      "objetivo": 4097.2,
      "rr": 2.97,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.0,
+     "fuerza_ruptura_atr": 2.01,
      "ruptura": "2026-10-27 12:00 UTC"
     },
     {
@@ -15054,40 +15054,40 @@
      "objetivo": 4097.2,
      "rr": 3.36,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.0,
+     "fuerza_ruptura_atr": 2.01,
      "ruptura": "2026-10-27 12:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 29567.5,
-   "atr_4h": 209.48,
+   "precio": 29545.0,
+   "atr_4h": 212.04,
    "setups": [
     {
      "direccion": "COMPRA",
      "nivel": 29572.0,
      "entrada": 29572.0,
-     "stop": 29446.31,
+     "stop": 29444.78,
      "objetivo": 30178.0,
-     "rr": 4.82,
+     "rr": 4.76,
      "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.43,
+     "fuerza_ruptura_atr": 1.41,
      "ruptura": "2026-10-27 12:00 UTC"
     },
     {
      "direccion": "COMPRA",
      "nivel": 29326.0,
      "entrada": 29326.0,
-     "stop": 29200.31,
+     "stop": 29198.78,
      "objetivo": 30178.0,
-     "rr": 6.78,
+     "rr": 6.7,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.95,
+     "fuerza_ruptura_atr": 0.94,
      "ruptura": "2026-10-26 12:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-29T02:02:33Z"
+  "ts": "2026-10-29T02:17:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15154,7 +15154,6 @@
   }
  ],
  "noticias_vistas": [
-  "8d399c8d5b",
   "170cef93d8",
   "cb230ce953",
   "86312fd583",
@@ -15953,7 +15952,8 @@
   "80caee6598",
   "a31aba35d4",
   "27f335afa5",
-  "843f76c567"
+  "843f76c567",
+  "3cf4cf7d59"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
