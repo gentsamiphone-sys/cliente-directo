@@ -5465,9 +5465,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando restaurantes y comida sin página web cerca de E Lake Mead Blvd…",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-10-29T01:02:30Z"
+   "actualizado": "2026-10-29T01:02:31Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -5495,6 +5495,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando restaurantes y comida sin página web cerca de E Lake Mead Blvd…",
+   "ts": "2026-10-29T01:02:31Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 244 textos listos para mandar",
@@ -6989,11 +6994,6 @@
    "agente": "gerente",
    "texto": "Contando cómo vamos hoy…",
    "ts": "2026-10-26T22:37:30Z"
-  },
-  {
-   "agente": "seguimiento",
-   "texto": "Terminó su turno: 0 respuestas nuevas, 0 bajas, 0 seguimientos",
-   "ts": "2026-10-26T22:12:34Z"
   }
  ],
  "reportes": {
