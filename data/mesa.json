@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4038.7 · NQ 29716.0 · VIX 17.08 · 5 noticias nuevas",
-   "actualizado": "2026-10-29T11:02:37Z"
+   "ultimo_resultado": "Oro 4042.7 · NQ 29720.0 · VIX 16.99 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-29T11:07:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T11:02:36Z",
-   "ultimo_resultado": "5 titulares nuevos: Alphabet earnings miss reflects first real sign that AI is taking a bite out of search"
+   "actualizado": "2026-10-29T11:07:34Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Los futuros del Nasdaq se desploman por caída de semiconductores tras resultados de Alphabet y Samsung."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4042.7 · NQ 29720.0 · VIX 16.99 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-29T11:07:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4038.7 · NQ 29716.0 · VIX 17.08 · 5 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Historial: 12 operaciones, 25% de acierto, +6.08 R.",
    "ts": "2026-10-28T21:32:57Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Revisando cómo salieron las entradas anteriores…",
-   "ts": "2026-10-28T21:32:56Z"
   }
  ],
  "briefs": [
@@ -12446,10 +12446,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4038.7,
-  "nq": 29716.0,
-  "vix": 17.08,
-  "ts": "2026-10-29T11:02:37Z"
+  "oro": 4042.7,
+  "nq": 29720.0,
+  "vix": 16.99,
+  "ts": "2026-10-29T11:07:34Z"
  },
  "noticias": [
   {
@@ -12500,6 +12500,19 @@
    "id": "d28daa48d1",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Nasdaq Futures Plunge as Chip Stocks Slide After Alphabet and Samsung Earnings Disappoint",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUFJCODlvc0t4alRPVGVDVTNRMWRvRnJuNGU2TzVEWmxXVHZzT2pKN1FJaDk4cXdBMUlTMnItNjNURGUtN1htX1I1Vkx5ZWRERVprSzFzYmlRdW5fMUpRSE1PQ3l3dGctcVljQVROc05scTVTbnlqcFBxZWEzeFBaWWpxZjNDSGFCRUlzTzBMeWtGXzNVejdEUVBidDAtMGd0ak9PaGhtb0JvUXVCc2twTW9YYmU3Y0VjNnpYMTlVdVNVUnhhOWVQcXMyTEVzdw?oc=5",
+   "ts": "2026-10-29T10:41:56Z",
+   "fuente": "Barchart.com",
+   "id": "b7b3b29995",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Los futuros del Nasdaq se desploman por caída de semiconductores tras resultados de Alphabet y Samsung.",
+   "efecto": "Genera ventas masivas en el NQ por debilidad tecnológica."
   },
   {
    "titulo": "Restaurant Brands reports mixed results as Burger King's U.S. turnaround shows signs of success",
@@ -13304,15 +13317,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Samsung Electronics shares slid despite record profit in the third-quarter",
-   "link": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html",
-   "ts": "2026-10-29T02:06:04Z",
-   "fuente": "CNBC",
-   "id": "27f335afa5",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -13904,14 +13908,14 @@
     4040.6,
     4045.3,
     4036.6,
-    4038.5
+    4041.8
    ],
    [
-    1793271152,
-    4038.7,
-    4038.7,
-    4038.7,
-    4038.7
+    1793271452,
+    4042.7,
+    4042.7,
+    4042.7,
+    4042.7
    ]
   ],
   "nq": [
@@ -14485,16 +14489,16 @@
    [
     1793268000,
     29697.0,
-    29717.25,
+    29735.0,
     29646.0,
-    29711.75
+    29716.25
    ],
    [
-    1793271155,
-    29716.0,
-    29716.0,
-    29716.0,
-    29716.0
+    1793271454,
+    29720.0,
+    29720.0,
+    29720.0,
+    29720.0
    ]
   ],
   "vix": [
@@ -14916,18 +14920,18 @@
     17.02,
     17.17,
     16.99,
-    17.1
+    16.99
    ],
    [
-    1793270851,
-    17.08,
-    17.08,
-    17.08,
-    17.08
+    1793271151,
+    16.99,
+    16.99,
+    16.99,
+    16.99
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-29T10:37:33Z",
+ "noticias_traducidas_ts": "2026-10-29T11:07:33Z",
  "ult_4h": 1793271757.118931,
  "estrategia_4h": {
   "oro": {
@@ -15030,7 +15034,6 @@
   }
  ],
  "noticias_vistas": [
-  "e6499f6406",
   "1483b60bb5",
   "1ecd7e3050",
   "f65190c5e0",
@@ -15829,7 +15832,8 @@
   "d51abc066d",
   "af5c9ca1c0",
   "e51e02b874",
-  "e72bcb5cb4"
+  "e72bcb5cb4",
+  "b7b3b29995"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
