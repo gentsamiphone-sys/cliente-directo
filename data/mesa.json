@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4047.7 · NQ 29705.0 · VIX 16.98 · 1 noticias nuevas",
-   "actualizado": "2026-10-29T11:32:32Z"
+   "ultimo_resultado": "Oro 4046.5 · NQ 29708.25 · VIX 16.97 · 5 noticias nuevas (3 alto impacto)",
+   "actualizado": "2026-10-29T11:37:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-29T11:32:32Z",
-   "ultimo_resultado": "1 titulares nuevos: Invesco NASDAQ 100 ETF (QQQM) Buys $20.6 Million More NVIDIA on Oct. 27"
+   "actualizado": "2026-10-29T11:37:40Z",
+   "ultimo_resultado": "5 titulares nuevos, 3 de alto impacto: CEO de Anthropic traza nueva dirección para filantropía tecnológica"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4046.5 · NQ 29708.25 · VIX 16.97 · 5 noticias nuevas (3 alto impacto)",
+   "ts": "2026-10-29T11:37:41Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4047.7 · NQ 29705.0 · VIX 16.98 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Mapa listo: oro 4081.2 · NQ 29756.25.",
    "ts": "2026-10-28T21:33:06Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
-   "ts": "2026-10-28T21:33:03Z"
   }
  ],
  "briefs": [
@@ -12446,12 +12446,36 @@
   }
  },
  "en_vivo": {
-  "oro": 4047.7,
-  "nq": 29705.0,
-  "vix": 16.98,
-  "ts": "2026-10-29T11:32:32Z"
+  "oro": 4046.5,
+  "nq": 29708.25,
+  "vix": 16.97,
+  "ts": "2026-10-29T11:37:40Z"
  },
  "noticias": [
+  {
+   "titulo": "Anthropic CEO Dario Amodei charts a new direction for tech philanthropy",
+   "link": "https://www.cnbc.com/2026/10/29/anthropic-ceo-dario-amodei-charts-new-direction-for-tech-philanthropy.html",
+   "ts": "2026-10-29T11:31:44Z",
+   "fuente": "CNBC",
+   "id": "9e26824906",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "CEO de Anthropic traza nueva dirección para filantropía tecnológica",
+   "efecto": "Sin impacto en mercados institucionales; considerado ruido."
+  },
+  {
+   "titulo": "AI build-out hits snag as Google and Microsoft put off raising capex forecasts",
+   "link": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html",
+   "ts": "2026-10-29T11:30:01Z",
+   "fuente": "CNBC",
+   "id": "6e2452c852",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "El desarrollo de IA tropieza al retrasar Google y Microsoft sus previsiones de capex",
+   "efecto": "Presiona al NQ a la baja por menor optimismo en el sector tecnológico."
+  },
   {
    "titulo": "eClerx Reports Strong Q2 FY2026-27 Results; Revenue Stands at INR 1,212.6 Crore, up 17.1% YoY",
    "link": "https://finance.yahoo.com/markets/stocks/articles/eclerx-reports-strong-q2-fy2026-111800284.html?.tsrc=rss",
@@ -12503,6 +12527,21 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Federal Reserve will not increase interest rates, but it may go up next time",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPblF0dHpuelMtZ05BOW5ZZUE3TE5yTEpNdFBuUjFhT1RxOGxnQlE4eEpYOVNaekZEbzRNYUhQNVFGaGZoWUFiTlozQXNKS1FhSVV6dVdudlpIQkVyZDhUSGpkaHAtZWQzdHo0VEs1YThudXNVUklkdTJxMTZDV3BnYnhIZGYwanRUTHZiY0Y4Y3hOTjBzTE5QTWhESW9IRmxnci1nV3NLaXJSUXkxeTdMblZoM01aZFVQTGtLNktCV0xnd0pDMC1lNG5ZTUtfRl9OT3hCTUJOenZsN3NTNm5FYzZ1NA?oc=5",
+   "ts": "2026-10-29T11:10:00Z",
+   "fuente": "WFAA",
+   "id": "8f15b292ef",
+   "activos": [
+    "dolar",
+    "oro",
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "La Reserva Federal no subirá tasas ahora, pero podrían subir la próxima vez",
+   "efecto": "Fortalece al dólar y presiona al oro y al NQ a la baja."
+  },
+  {
    "titulo": "LAWSUIT UPDATE: Driven Brands Holdings Inc. (NASDAQ: DRVN) Investors Who Continue to Hold Shares Should Contact the Shareholders Foundation",
    "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPbFphWHZJZGZLSXNhaV93Vm40TVNYVFcybDQzR0VQQXVmbmZWSjdTZVk2TFVMV3kyRFFZbFFoX1hORnpMdklITnBpcTZRd0RiczVfTElWX205Ty1Vb3lEa2pucFowdi1LODFWXzhnd2Y2SEZRMEVUX3hielFLNUJtTFF6eDlXWU5hdDFJUkxSa0VQTFNWSkpNc1RDVGxocVhRX3lLYmp5QlpvRlBaSEpEXy13dlRZNlVOUmhxUjRzeGNFNW5FV1Rqb0VocTZjVjU3aWVFdm9fRGg5NWdMblJXX2dMQnZUVGlxc3dyLVFnOTVIcGVtTHdyTXhXT2oybHlFMC1aMG9waFJaWTF5X2U2VzhLWGlQZHYxYjdhZ3JxZk0?oc=5",
    "ts": "2026-10-29T11:10:00Z",
@@ -12552,6 +12591,19 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "West Point Gold Adds C$4.1 Million Through Warrant Exercises, Strengthening Treasury Ahead of 30,000-Metre Drill Program",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQamswZms4Wm9ySUNpbno0TlZua2U4SDlQRzg1bzRoYWZRZWxoeWMyenJxcklvaF9BdzhDd0xHQzVoTXZnR1hwRndUZVV6R0JUZjRxX3BaMDJJQ2U4aEhXdnljbjkzeTdVbVo3blpsT25xNUxzU1RaTGJnN0RjYXctT1VlVDJnTk1nTGRHRWlNRTA?oc=5",
+   "ts": "2026-10-29T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "b7bbefacfe",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "West Point Gold recauda 4.1M CAD mediante ejercicio de warrants para perforación",
+   "efecto": "Relevante solo para la minera; sin efecto sistémico."
   },
   {
    "titulo": "Delta Reports up to 24.7 g/t Au Grab Sample Results and New Gold Occurrences Along 6 km of the Crayfish Creek Fault Corridor",
@@ -12963,6 +13015,21 @@
    "efecto": ""
   },
   {
+   "titulo": "In Moving Gradually, Fed Risks Having to Play Catch-Up to Quell Inflation",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQT0duQ2s1THJaQTllWHI4eXh0UEZXVjVLUkdBbUFyaHpERDhqQkxLcnhTRzVQU3k0MW5FeWF4Q25BZnJ4dHZuckZiRHZnN2V4eEljbEZDbFFxZnFZREJnQ29wTHdJSDhfV0FzYkdRQ1NkblZyZDAwTmZOdzhyZFlUc3N6M25CMWt6Y0VQMGZ3QmE?oc=5",
+   "ts": "2026-10-29T09:03:21Z",
+   "fuente": "The New York Times",
+   "id": "3d4fc696cd",
+   "activos": [
+    "dolar",
+    "oro",
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Al moverse gradualmente, la Fed arriesga tener que actuar agresivamente contra la inflación",
+   "efecto": "Aumenta la volatilidad; impulsa al dólar y presiona a renta variable."
+  },
+  {
    "titulo": "ADAMAS TRUST INC - ADAM 9 7/8 10/01/30 (NASDAQ:ADAMH) Screens for Strong Growth Despite Balance-Sheet Risk",
    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZGZ1bTZocXlsYmVLUTExQVBOd051RVdEVEVDMjJKMEUyR2hwN3AtSjBWUzJfRWxQUXhBSVc3MzJtNHlnNnVhYy0wMjdYTUtlMWxCYnVIMC02UEZFNW5XcElaRTBlaEtRTkluM2NPSjFZa0M2STJUc2dqcTdiMTlqc2RSenRNRXFOOFFuLWNfZ3pLUXhXekJMdVNyMWQ2ZmdsZTFNZURXTS1XYk5fSGpzdkF5VVJ2RHNmb1JpUUJuZ0RiX0w3Y0RVdXF4bGF2cUl3TVowM2w4dms1ZDFRRXV1Y0t4bUJOaGRu?oc=5",
    "ts": "2026-10-29T09:01:09Z",
@@ -13242,65 +13309,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Salinas, Johnson deliver gold and silver for Team USA at PANAM Champion of Champions",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSDd3azJ1OU1LNjJtN29RODNxcDFRbXhXLXhKTkctVHVZZGNubWVjZU1zR3lPbGhpSnhHcmxfTm4tWTZmU0hQMzB5NnBRb3Z2WVU0VUtJWjl4bTZTODkxWURhYU5HcmlUSFVZTGpDQmJLMExqWWt6Vkl4eVRaRVBVcTJNYVJDZkRSN21HeDY3RUNPX2szOGs1emQtN1pPeS03dV9ZblRwQTRtUQ?oc=5",
-   "ts": "2026-10-29T06:39:16Z",
-   "fuente": "BOWL.com",
-   "id": "f8ca3dbed5",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Salinas y Johnson ganan oro y plata para el Equipo de EE. UU. en el Campeón de Campeones PANAM",
-   "efecto": ""
-  },
-  {
-   "titulo": "Gold drops nearly 1%, silver slides over 2%",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZlMzX2NmSzkySjRrTzc2QzZSTHZWdFBOcTRuYTByWGNaWmZrdTRKWGJITEJodURNVC1hYXRudG90WDdtUmd2RnExcWVZNWNRUXNPZ2p1TnlvZThqOTJZNXNIUEhONF9DdGIxTnM0bzIwRl9UMFlpSnlpX0ZnZXFSMDZ3UmdnMUxxejJob1pR?oc=5",
-   "ts": "2026-10-29T06:05:00Z",
-   "fuente": "Breakingthenews.net",
-   "id": "c1846a8ce6",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Judge says Trump's bid to set aside California ballots would ‘wreak havoc’ on democracy",
-   "link": "https://www.cnbc.com/2026/10/29/trump-california-election-.html",
-   "ts": "2026-10-29T05:28:32Z",
-   "fuente": "CNBC",
-   "id": "60a21f4404",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Juez afirma que intento de Trump de anular votos en California dañaría la democracia",
-   "efecto": "Ruido político sin impacto inmediato en los mercados financieros."
-  },
-  {
-   "titulo": "Fed highlights economic strength but muddies outlook for Treasuries",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbF9GR2lXNExEVWlIMldlTk5QWXQyWTVIbHlzMnM1bTRhdUFzQ2NwQm9MYXdyaG92dlB1YTlJVW1ESG5iNmtkTDhnMG9IanBqeUJmOUQ2Sm45c3pHSzEtZ3lvZUxSRmNLc184eWhReTVvbEdhQ1AwTnF6akVFUlFyd2NJRFdIOWF6OHFISDAxZWMxOHFJcXJPRlp0RFVpZzB0MF9rNTh2TQ?oc=5",
-   "ts": "2026-10-29T05:04:00Z",
-   "fuente": "Reuters",
-   "id": "f7d0223037",
-   "activos": [
-    "oro",
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "La Fed destaca fortaleza económica pero confunde perspectiva sobre bonos",
-   "efecto": "Genera volatilidad en tasas, presionando al oro y al NQ."
-  },
-  {
-   "titulo": "Pirates’ Trade Fit for 10-Time Gold Glove Winner Comes With a Major Catch",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDaGlOTTJ5SWZnMTFEQ2dYVXFsMDJvaGw4a2Jwdk1tM2F6bHZqelk1MWFwcnU3ZG1RTXVOZFhXX2NfTVg3Q3RZb0xqNkJzWC13dDlGRGZ3X3M4V1ZrTVp6V1pJT0FBaTlWYk9QYTdQdzF5bHlPalZQVDVKTWJyNlE?oc=5",
-   "ts": "2026-10-29T05:03:00Z",
-   "fuente": "Yahoo Sports",
-   "id": "79385fa625",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Acuerdo de los Pirates con ganador del Guante de Oro incluye gran trampa",
-   "efecto": "Ruido deportivo sin relevancia para los mercados financieros."
   }
  ],
  "eventos_avisados": [
@@ -13899,14 +13907,14 @@
     4042.8,
     4051.1,
     4041.6,
-    4046.5
+    4045.5
    ],
    [
-    1793272950,
-    4047.7,
-    4047.7,
-    4047.7,
-    4047.7
+    1793273257,
+    4046.5,
+    4046.5,
+    4046.5,
+    4046.5
    ]
   ],
   "nq": [
@@ -14489,14 +14497,14 @@
     29717.25,
     29729.0,
     29682.5,
-    29708.25
+    29698.0
    ],
    [
-    1793272950,
-    29705.0,
-    29705.0,
-    29705.0,
-    29705.0
+    1793273260,
+    29708.5,
+    29708.5,
+    29708.5,
+    29708.5
    ]
   ],
   "vix": [
@@ -14925,18 +14933,18 @@
     16.99,
     17.0,
     16.95,
-    16.97
+    16.98
    ],
    [
-    1793272636,
-    16.98,
-    16.98,
-    16.98,
-    16.98
+    1793272951,
+    16.97,
+    16.97,
+    16.97,
+    16.97
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-29T11:07:33Z",
+ "noticias_traducidas_ts": "2026-10-29T11:37:36Z",
  "ult_4h": 1793273552.303488,
  "estrategia_4h": {
   "oro": {
@@ -15039,11 +15047,6 @@
   }
  ],
  "noticias_vistas": [
-  "72aa18410c",
-  "951466b514",
-  "b5b2d8c10f",
-  "06f33cc3bb",
-  "0554921ebf",
   "6b594ad22a",
   "e60ae6b4e0",
   "9e9a79eb34",
@@ -15838,7 +15841,12 @@
   "3c6662f962",
   "6f29e3a056",
   "d6caf08640",
-  "8b38219540"
+  "8b38219540",
+  "9e26824906",
+  "6e2452c852",
+  "8f15b292ef",
+  "b7bbefacfe",
+  "3d4fc696cd"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
