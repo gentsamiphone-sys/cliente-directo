@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3972.5 · NQ 28782.25 · VIX 18.69 · 2 noticias nuevas",
-   "actualizado": "2026-10-30T12:27:36Z"
+   "ultimo_resultado": "Oro 3971.1 · NQ 28789.75 · VIX 18.75 · 2 noticias nuevas",
+   "actualizado": "2026-10-30T12:32:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T12:27:35Z",
-   "ultimo_resultado": "2 titulares nuevos: Apuesta por la democracia: comercio sospechoso en mercados de predicción"
+   "actualizado": "2026-10-30T12:32:30Z",
+   "ultimo_resultado": "2 titulares nuevos: The big questions remaining after Anthropic’s blockbuster IPO prospectus"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3971.1 · NQ 28789.75 · VIX 18.75 · 2 noticias nuevas",
+   "ts": "2026-10-30T12:32:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3972.5 · NQ 28782.25 · VIX 18.69 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Brief de Asia (Tokio/Sídney) publicado: Sesgo bajista en ORO y NQ por caída tecnológica; sin entradas por baja confluencia",
    "ts": "2026-10-29T21:38:52Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Escribiendo el brief institucional…",
-   "ts": "2026-10-29T21:33:06Z"
   }
  ],
  "briefs": [
@@ -12559,12 +12559,33 @@
   }
  },
  "en_vivo": {
-  "oro": 3972.5,
-  "nq": 28782.25,
-  "vix": 18.69,
-  "ts": "2026-10-30T12:27:35Z"
+  "oro": 3971.1,
+  "nq": 28789.75,
+  "vix": 18.75,
+  "ts": "2026-10-30T12:32:31Z"
  },
  "noticias": [
+  {
+   "titulo": "The big questions remaining after Anthropic’s blockbuster IPO prospectus",
+   "link": "https://www.cnbc.com/2026/10/30/anthropic-ipo-s1-revenue-compute.html",
+   "ts": "2026-10-30T12:27:36Z",
+   "fuente": "CNBC",
+   "id": "dde6aa324c",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Microsoft Is Borrowing $25 Billion for AI, Its First Bond Sale Since 2017",
+   "link": "https://247wallst.com/investing/2026/10/30/microsoft-is-borrowing-25-billion-for-ai-its-first-bond-sale-since-2017/?.tsrc=rss",
+   "ts": "2026-10-30T12:12:25Z",
+   "fuente": "Yahoo Finance",
+   "id": "a7de1b1137",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Stocks making the biggest moves premarket: Intel, Amazon, Reddit, Chevron & more",
    "link": "https://www.cnbc.com/2026/10/30/stocks-making-the-biggest-moves-premarket-intc-amzn-rddt-cvx.html",
@@ -13427,28 +13448,6 @@
    "impacto": "bajo",
    "es": "Hundimientos y tierras dañadas: el flagelo de la minería ilegal de oro en Johannesburgo",
    "efecto": ""
-  },
-  {
-   "titulo": "Gold (XAU/USD) Price Forecast: Bearish Reversal Threatens Key Support",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOY3p3ZzFTMlM0cnVSN3NKeFE1TEZZdnJhYl9kWHZnc1hGaUoxVHlsTjJjRHJlMDJ6MU1UQTNSZlU1aXV2WmtiQloySDZNLVBXcFdVQ0xIaWZTc1lXV1dPdWxxeGRMWE95ZHQ1by1hYzkxYmpRbUhsRlMxS0FvOThUb0ZFQ1J3enBHaXhUdHJUbEdkUTV2WjVPTXpnQVNvbDJMMkxuUHM4aS02S2ZEeG5sV3BIVkNuVmw0?oc=5",
-   "ts": "2026-10-30T04:23:50Z",
-   "fuente": "FXEmpire",
-   "id": "eb9fc4abd6",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "U.S. Stocks Rise as SpaceX Spurs AI Relief Rally",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQXlQTUUtU01KenNVZFNOejNKWk5YbjRrUjFWcHJJTkdUbUdVSUF6cklCSFZRVmllbmNXcXV4dlczbjlEZmhpaGJfam9rSkVrMlVzczBLRmcxVmowVlgzRFpyM0hYMnI4VTZWVDZmS2hqcjFtby1BMUZxalF5bXBJTFZSWVotVkVuUC1tY21PT0Z6RWRhT3c?oc=5",
-   "ts": "2026-10-30T04:13:05Z",
-   "fuente": "WSJ",
-   "id": "c206d0ec72",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14091,14 +14090,14 @@
     3975.7,
     3977.5,
     3968.5,
-    3973.2
+    3970.0
    ],
    [
-    1793362653,
-    3972.5,
-    3972.5,
-    3972.5,
-    3972.5
+    1793362948,
+    3971.1,
+    3971.1,
+    3971.1,
+    3971.1
    ]
   ],
   "nq": [
@@ -14723,14 +14722,14 @@
     28799.25,
     28842.0,
     28776.5,
-    28778.5
+    28783.5
    ],
    [
-    1793362653,
-    28782.25,
-    28782.25,
-    28782.25,
-    28782.25
+    1793362948,
+    28789.75,
+    28789.75,
+    28789.75,
+    28789.75
    ]
   ],
   "vix": [
@@ -15164,16 +15163,16 @@
    [
     1793361600,
     18.64,
-    18.69,
+    18.73,
     18.58,
-    18.68
+    18.72
    ],
    [
-    1793362351,
-    18.69,
-    18.69,
-    18.69,
-    18.69
+    1793362636,
+    18.75,
+    18.75,
+    18.75,
+    18.75
    ]
   ]
  },
@@ -15282,8 +15281,6 @@
   }
  ],
  "noticias_vistas": [
-  "3ebc191fc2",
-  "b4185c2622",
   "20451a0cec",
   "bb3a5f9dc9",
   "3c62d51d7e",
@@ -16081,7 +16078,9 @@
   "68728e3d80",
   "8dc0965a05",
   "29d9f83d18",
-  "202b8ef5ae"
+  "202b8ef5ae",
+  "dde6aa324c",
+  "a7de1b1137"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
