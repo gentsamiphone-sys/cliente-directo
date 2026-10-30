@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3914.4 · NQ 28686.75 · VIX 19.44 · 1 noticias nuevas",
-   "actualizado": "2026-10-30T15:42:34Z"
+   "ultimo_resultado": "Oro 3915.6 · NQ 28669.75 · VIX 19.7 · 2 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-30T15:47:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T15:42:33Z",
-   "ultimo_resultado": "1 titulares nuevos: Cheaper cars are selling considerably faster than at the beginning of the year"
+   "actualizado": "2026-10-30T15:47:37Z",
+   "ultimo_resultado": "2 titulares nuevos, 2 de alto impacto: Intel se encamina a su peor día en Wall Street en más de 50 años por débiles proyecciones"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3915.6 · NQ 28669.75 · VIX 19.7 · 2 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-30T15:47:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3914.4 · NQ 28686.75 · VIX 19.44 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4017.6 · NQ 28849.5 · VIX 17.2 · 1 noticias nuevas",
    "ts": "2026-10-30T02:17:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4018.9 · NQ 28863.25 · VIX 17.2 · 1 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-30T02:12:42Z"
   }
  ],
  "briefs": [
@@ -12558,12 +12558,26 @@
   }
  },
  "en_vivo": {
-  "oro": 3914.4,
-  "nq": 28686.75,
-  "vix": 19.44,
-  "ts": "2026-10-30T15:42:33Z"
+  "oro": 3915.6,
+  "nq": 28669.75,
+  "vix": 19.7,
+  "ts": "2026-10-30T15:47:37Z"
  },
  "noticias": [
+  {
+   "titulo": "Intel heads for worst day on Wall Street in more than 50 years on weak guidance",
+   "link": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
+   "ts": "2026-10-30T15:43:48Z",
+   "fuente": "CNBC",
+   "id": "d7bad47fde",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Intel se encamina a su peor día en Wall Street en más de 50 años por débiles proyecciones",
+   "efecto": "Presiona al NQ a la baja por el desplome en semiconductores."
+  },
   {
    "titulo": "Cheaper cars are selling considerably faster than at the beginning of the year",
    "link": "https://www.cnbc.com/2026/10/30/cheap-cars-selling-fast.html",
@@ -12592,6 +12606,20 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "US tech stocks see sharp falls over AI cost fears",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03MGFhZ3ltOEs3NFpDUTRDQ2ZPbmxPcXFvbWtkSm9kS0pnOW82MjlDbTY4dnlGNkYwSkUxMVJPZU1ZeGVqUFk3YkdZeTUxQzhLemlBbldWVld5NU0?oc=5",
+   "ts": "2026-10-30T15:27:54Z",
+   "fuente": "BBC",
+   "id": "43aa660e66",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Las acciones tecnológicas de EE. UU. sufren fuertes caídas por temor a costos de IA",
+   "efecto": "Genera ventas masivas en el NQ y busca refugio en el dólar."
   },
   {
    "titulo": "Chevron and Exxon refining profits soar as Iran and Ukraine wars disrupt global fuel supplies",
@@ -13420,26 +13448,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Chevron and Exxon beat earnings expectations as refining profits soar on high diesel fuel prices",
-   "link": "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html",
-   "ts": "2026-10-30T10:58:24Z",
-   "fuente": "CNBC",
-   "id": "7cda921b8d",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Nasdaq-100 futures fall 2% as Amazon and Intel tumble after earnings",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYnRia1dNcFJrTnhvcVZXbHZzQ2lkMW4xakpYWU81cFJQdW1XXzd1aVViVHc3c3VuS052X3NQMmFVUlF2cWZlemh3MGYtemFiZFJJVy1MbHdmV1ZNWGdaODZzTE9Keno3dFFReG9RcnR6NTdTNGdjT0pJbDFkQ3dON3dZMFZfY2hOMzR4T00xbGtyTTk0bTUyem5RZ3pwV2dyNjVxU1U1U2pjdVBBSHFRc2JicEwzMWdR?oc=5",
-   "ts": "2026-10-30T10:56:02Z",
-   "fuente": "CNBC",
-   "id": "e91682a9ce",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14081,15 +14089,15 @@
     1793372400,
     3926.8,
     3933.2,
-    3913.6,
-    3914.5
+    3912.5,
+    3915.5
    ],
    [
-    1793374352,
-    3914.0,
-    3914.0,
-    3914.0,
-    3914.0
+    1793374653,
+    3915.6,
+    3915.6,
+    3915.6,
+    3915.6
    ]
   ],
   "nq": [
@@ -14713,15 +14721,15 @@
     1793372400,
     28779.0,
     28793.75,
-    28678.0,
-    28685.5
+    28666.75,
+    28670.75
    ],
    [
-    1793374351,
-    28684.5,
-    28684.5,
-    28684.5,
-    28684.5
+    1793374655,
+    28669.75,
+    28669.75,
+    28669.75,
+    28669.75
    ]
   ],
   "vix": [
@@ -15176,20 +15184,20 @@
    [
     1793372400,
     19.15,
-    19.61,
+    19.71,
     19.1,
-    19.57
+    19.71
    ],
    [
-    1793374051,
-    19.44,
-    19.44,
-    19.44,
-    19.44
+    1793374351,
+    19.7,
+    19.7,
+    19.7,
+    19.7
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-30T15:12:34Z",
+ "noticias_traducidas_ts": "2026-10-30T15:47:32Z",
  "ult_4h": 1793374651.9128892,
  "estrategia_4h": {
   "oro": {
@@ -15297,8 +15305,6 @@
   }
  ],
  "noticias_vistas": [
-  "7f613008e2",
-  "86958ce74f",
   "4dbc54db63",
   "b408468eec",
   "b8af749ce0",
@@ -16096,7 +16102,9 @@
   "28e1cb2803",
   "50e3045c65",
   "1555ba506e",
-  "bdbbcb95fe"
+  "bdbbcb95fe",
+  "d7bad47fde",
+  "43aa660e66"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
