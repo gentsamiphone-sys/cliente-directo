@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3904.6 · NQ 28520.0 · VIX 20.71",
-   "actualizado": "2026-10-30T17:07:34Z"
+   "ultimo_resultado": "Oro 3904.7 · NQ 28523.5 · VIX 20.78 · 1 noticias nuevas",
+   "actualizado": "2026-10-30T17:12:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T17:07:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-30T17:12:33Z",
+   "ultimo_resultado": "1 titulares nuevos: Deutsche Bank's AI Dollar Warning Could Hit Bitcoin, Gold, and Stocks"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3904.7 · NQ 28523.5 · VIX 20.78 · 1 noticias nuevas",
+   "ts": "2026-10-30T17:12:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3904.6 · NQ 28520.0 · VIX 20.71",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4006.2 · NQ 28926.75 · VIX 17.2 · 1 noticias nuevas",
    "ts": "2026-10-30T03:42:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4011.7 · NQ 28942.75 · VIX 17.2",
-   "ts": "2026-10-30T03:37:31Z"
   }
  ],
  "briefs": [
@@ -12558,12 +12558,25 @@
   }
  },
  "en_vivo": {
-  "oro": 3904.6,
-  "nq": 28520.0,
-  "vix": 20.71,
-  "ts": "2026-10-30T17:07:34Z"
+  "oro": 3904.7,
+  "nq": 28523.5,
+  "vix": 20.78,
+  "ts": "2026-10-30T17:12:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Deutsche Bank's AI Dollar Warning Could Hit Bitcoin, Gold, and Stocks",
+   "link": "https://beincrypto.com/deutsche-bank-ai-dollar-warning-bitcoin-gold/?.tsrc=rss",
+   "ts": "2026-10-30T17:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "174be78e6f",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Intel stock heads for worst day in more than 50 years, wiping $12 billion off government's stake",
    "link": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
@@ -13426,19 +13439,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "What Changed In Newmont's Story?",
-   "link": "https://www.trefis.com/stock/nem/articles/621493/what-changed-in-newmonts-story/2026-10-30?.tsrc=rss",
-   "ts": "2026-10-30T12:32:49Z",
-   "fuente": "Yahoo Finance",
-   "id": "bc0401b7b9",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Qué cambió en la historia de Newmont?",
-   "efecto": "Revisión sectorial menor sin impacto macroeconómico relevante hoy."
   }
  ],
  "eventos_avisados": [
@@ -13460,13 +13460,6 @@
  ],
  "velas": {
   "oro": [
-   [
-    1793044800,
-    4026.9,
-    4031.5,
-    4025.1,
-    4031.0
-   ],
    [
     1793052000,
     4032.6,
@@ -14081,10 +14074,17 @@
     3907.0,
     3912.6,
     3901.4,
-    3905.5
+    3905.8
    ],
    [
-    1793379452,
+    1793379600,
+    3905.5,
+    3906.2,
+    3903.6,
+    3904.7
+   ],
+   [
+    1793379750,
     3904.7,
     3904.7,
     3904.7,
@@ -14092,13 +14092,6 @@
    ]
   ],
   "nq": [
-   [
-    1793044800,
-    29440.0,
-    29469.5,
-    29426.5,
-    29467.5
-   ],
    [
     1793052000,
     29480.5,
@@ -14713,14 +14706,21 @@
     28670.0,
     28670.25,
     28491.0,
-    28515.75
+    28524.0
    ],
    [
-    1793379453,
-    28520.0,
-    28520.0,
-    28520.0,
-    28520.0
+    1793379600,
+    28523.0,
+    28533.25,
+    28506.75,
+    28516.0
+   ],
+   [
+    1793379753,
+    28523.75,
+    28523.75,
+    28523.75,
+    28523.75
    ]
   ],
   "vix": [
@@ -15182,16 +15182,16 @@
    [
     1793376000,
     19.73,
-    20.79,
+    20.94,
     19.73,
-    20.79
+    20.84
    ],
    [
-    1793379151,
-    20.71,
-    20.71,
-    20.71,
-    20.71
+    1793379451,
+    20.78,
+    20.78,
+    20.78,
+    20.78
    ]
   ]
  },
@@ -15314,7 +15314,6 @@
   }
  ],
  "noticias_vistas": [
-  "e3d7cfcb33",
   "d7843eb720",
   "9e4aa7abe7",
   "6fc3cfbdbb",
@@ -16113,7 +16112,8 @@
   "e5128a6f4f",
   "6dffe21acf",
   "2bc7d2965e",
-  "4365a9d18c"
+  "4365a9d18c",
+  "174be78e6f"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
