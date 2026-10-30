@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3985.1 · NQ 28841.5 · VIX 18.56 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-30T11:02:33Z"
+   "ultimo_resultado": "Oro 3987.8 · NQ 28849.0 · VIX 18.59 · 3 noticias nuevas",
+   "actualizado": "2026-10-30T11:07:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T11:02:32Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Chevron and Exxon beat earnings expectations as refining profits soar on high diesel fuel prices"
+   "actualizado": "2026-10-30T11:07:31Z",
+   "ultimo_resultado": "3 titulares nuevos: Tech giants need legacy businesses to keep growing as they pour trillions into the AI buildout"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3987.8 · NQ 28849.0 · VIX 18.59 · 3 noticias nuevas",
+   "ts": "2026-10-30T11:07:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3985.1 · NQ 28841.5 · VIX 18.56 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Revisando cómo salieron las entradas anteriores…",
    "ts": "2026-10-29T21:32:44Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Abriendo la mesa para la sesión de Asia (Tokio/Sídney).",
-   "ts": "2026-10-29T21:32:43Z"
   }
  ],
  "briefs": [
@@ -12559,12 +12559,21 @@
   }
  },
  "en_vivo": {
-  "oro": 3985.1,
-  "nq": 28841.5,
-  "vix": 18.56,
-  "ts": "2026-10-30T11:02:32Z"
+  "oro": 3987.8,
+  "nq": 28849.0,
+  "vix": 18.59,
+  "ts": "2026-10-30T11:07:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Tech giants need legacy businesses to keep growing as they pour trillions into the AI buildout",
+   "link": "https://www.cnbc.com/2026/10/30/tech-giants-alphabet-meta-microsoft-amazon-ai-buildouts.html",
+   "ts": "2026-10-30T11:00:01Z",
+   "fuente": "CNBC",
+   "id": "bf148cde2e",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Chevron and Exxon beat earnings expectations as refining profits soar on high diesel fuel prices",
    "link": "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html",
@@ -12573,6 +12582,17 @@
    "id": "7cda921b8d",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Nasdaq-100 futures fall 2% as Amazon and Intel tumble after earnings",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYnRia1dNcFJrTnhvcVZXbHZzQ2lkMW4xakpYWU81cFJQdW1XXzd1aVViVHc3c3VuS052X3NQMmFVUlF2cWZlemh3MGYtemFiZFJJVy1MbHdmV1ZNWGdaODZzTE9Keno3dFFReG9RcnR6NTdTNGdjT0pJbDFkQ3dON3dZMFZfY2hOMzR4T00xbGtyTTk0bTUyem5RZ3pwV2dyNjVxU1U1U2pjdVBBSHFRc2JicEwzMWdR?oc=5",
+   "ts": "2026-10-30T10:56:02Z",
+   "fuente": "CNBC",
+   "id": "e91682a9ce",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Largo Reports Q3 2026 Production and Sales Results Reflecting Vanadium Diversification with First Production of Copper, Gold and Platinum Group Metals; Advances Commercial Bank Debt Restructuring",
@@ -12767,6 +12787,17 @@
    "ts": "2026-10-30T09:35:37Z",
    "fuente": "HLTH",
    "id": "c479c99299",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Nasdaq futures tumble; Binance suffers massive hack - what’s moving markets",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSWFTNzAxUTM2ek5MQlVjNTdoSV9fN1QyNUhJTThKelI2VFljRkRrT3dUREJMVDBnanFzSFpXM1IzaDZXT0g3V1hXSFlqR0ozdFBhMmY4VGJPMTdJcmFtUDRmR2hHUzkwNVBwMDVCTHRNbzdfeWo3SUpMTWNTYTE3ODlkQ2hyWEdiQUh2U2hxRUVKd0xHeXVITWpuMA?oc=5",
+   "ts": "2026-10-30T09:30:34Z",
+   "fuente": "Yahoo Finance",
+   "id": "020939eb02",
    "activos": [
     "nq"
    ],
@@ -13428,40 +13459,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Gold falls below $4,000 as inflation concerns keep bullion under pressure",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-hovers-near-4-000-014613798.html?.tsrc=rss",
-   "ts": "2026-10-30T01:46:13Z",
-   "fuente": "Yahoo Finance",
-   "id": "adce75ebde",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Gold hovers near $4,000 as PCE inflation, oil risks revive Fed hike concerns",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-hovers-near-4-000-014613798.html?.tsrc=rss",
-   "ts": "2026-10-30T01:46:13Z",
-   "fuente": "Yahoo Finance",
-   "id": "addff208b5",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Is the Fed preparing a major liquidity rescue in 2027?",
-   "link": "https://finance.yahoo.com/video/is-the-fed-preparing-a-major-liquidity-rescue-in-2027-014229512.html?.tsrc=rss",
-   "ts": "2026-10-30T01:42:29Z",
-   "fuente": "Yahoo Finance",
-   "id": "d8f55dd8b1",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -14104,14 +14101,14 @@
     4001.7,
     4002.0,
     3984.2,
-    3985.1
+    3988.2
    ],
    [
-    1793357548,
-    3985.1,
-    3985.1,
-    3985.1,
-    3985.1
+    1793357847,
+    3987.8,
+    3987.8,
+    3987.8,
+    3987.8
    ]
   ],
   "nq": [
@@ -14736,14 +14733,14 @@
     28887.75,
     28888.75,
     28836.25,
-    28839.25
+    28858.75
    ],
    [
-    1793357550,
-    28841.5,
-    28841.5,
-    28841.5,
-    28841.5
+    1793357850,
+    28848.0,
+    28848.0,
+    28848.0,
+    28848.0
    ]
   ],
   "vix": [
@@ -15163,29 +15160,29 @@
    [
     1793354400,
     18.37,
-    18.57,
+    18.6,
     18.37,
-    18.57
+    18.6
    ],
    [
-    1793357251,
-    18.56,
-    18.56,
-    18.56,
-    18.56
+    1793357536,
+    18.59,
+    18.59,
+    18.59,
+    18.59
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-30T10:42:30Z",
- "ult_4h": 1793357556.456667,
+ "ult_4h": 1793358451.7945397,
  "estrategia_4h": {
   "oro": {
-   "precio": 3990.4,
+   "precio": 3987.8,
    "atr_4h": 28.54,
    "setups": []
   },
   "nq": {
-   "precio": 28860.25,
+   "precio": 28849.0,
    "atr_4h": 256.96,
    "setups": [
     {
@@ -15196,7 +15193,7 @@
      "objetivo": 28821.5,
      "rr": 3.03,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.78,
+     "fuerza_ruptura_atr": 1.77,
      "ruptura": "2026-10-29 20:00 UTC"
     },
     {
@@ -15207,12 +15204,12 @@
      "objetivo": 28821.5,
      "rr": 4.29,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.78,
+     "fuerza_ruptura_atr": 1.77,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-30T10:52:36Z"
+  "ts": "2026-10-30T11:07:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15281,9 +15278,6 @@
   }
  ],
  "noticias_vistas": [
-  "4476e70a3f",
-  "3d08577a2f",
-  "41b517cb30",
   "de15879326",
   "a3c8605120",
   "63f338d535",
@@ -16080,7 +16074,10 @@
   "c479c99299",
   "7cda921b8d",
   "7db8c93bd9",
-  "d607e2ed63"
+  "d607e2ed63",
+  "bf148cde2e",
+  "e91682a9ce",
+  "020939eb02"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
