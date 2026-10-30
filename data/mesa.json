@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4001.1 · NQ 28912.75 · VIX 18.15",
-   "actualizado": "2026-10-30T09:32:33Z"
+   "ultimo_resultado": "Oro 4001.2 · NQ 28919.5 · VIX 18.22 · 3 noticias nuevas",
+   "actualizado": "2026-10-30T09:37:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T09:32:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-30T09:37:32Z",
+   "ultimo_resultado": "3 titulares nuevos: El comercio global es mixto ante crecientes preocupaciones sobre la IA"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4001.2 · NQ 28919.5 · VIX 18.22 · 3 noticias nuevas",
+   "ts": "2026-10-30T09:37:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4001.1 · NQ 28912.75 · VIX 18.15",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4040.3 · NQ 29162.75 · VIX 16.81 · 4 noticias nuevas",
    "ts": "2026-10-29T20:17:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4035.0 · NQ 29326.75 · VIX 16.42 · 2 noticias nuevas (2 alto impacto)",
-   "ts": "2026-10-29T20:12:38Z"
   }
  ],
  "briefs": [
@@ -12559,10 +12559,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4001.1,
-  "nq": 28912.75,
-  "vix": 18.15,
-  "ts": "2026-10-30T09:32:32Z"
+  "oro": 4001.2,
+  "nq": 28919.5,
+  "vix": 18.22,
+  "ts": "2026-10-30T09:37:32Z"
  },
  "noticias": [
   {
@@ -13085,6 +13085,19 @@
    "efecto": "Ruido en mercado cripto sin impacto institucional relevante en oro o NQ."
   },
   {
+   "titulo": "Global trading is mixed as worries about AI-related issues grow",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-trading-mixed-worries-ai-023450005.html?.tsrc=rss",
+   "ts": "2026-10-30T02:34:50Z",
+   "fuente": "Yahoo Finance",
+   "id": "92d60cd67e",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "El comercio global es mixto ante crecientes preocupaciones sobre la IA",
+   "efecto": "Genera cautela y presión vendedora selectiva en tecnológicas del NQ."
+  },
+  {
    "titulo": "Asian trading is mixed as worries about AI-related issues grow",
    "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-trading-mixed-worries-ai-023450005.html?.tsrc=rss",
    "ts": "2026-10-30T02:34:50Z",
@@ -13439,19 +13452,6 @@
    ],
    "impacto": "bajo",
    "es": "El beneficio ajustado del 3T de Capstone Copper sube por precios de metales; cae la producción",
-   "efecto": ""
-  },
-  {
-   "titulo": "Kinross Gold (TSX:K) Stock Q3 Results Highlight Cash Flow And Project Risk",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/kinross-gold-tsx-k-stock-221300017.html?.tsrc=rss",
-   "ts": "2026-10-29T22:13:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "f916e99ae1",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Los resultados del 3T de Kinross Gold destacan flujo de caja y riesgo de proyectos",
    "efecto": ""
   }
  ],
@@ -14095,14 +14095,14 @@
     4007.1,
     4008.6,
     3999.8,
-    4001.2
+    4001.5
    ],
    [
-    1793352150,
-    4001.1,
-    4001.1,
-    4001.1,
-    4001.1
+    1793352312,
+    4001.2,
+    4001.2,
+    4001.2,
+    4001.2
    ]
   ],
   "nq": [
@@ -14726,15 +14726,15 @@
     1793350800,
     28987.0,
     29007.25,
-    28908.0,
-    28910.75
+    28904.5,
+    28919.0
    ],
    [
-    1793352151,
-    28908.0,
-    28908.0,
-    28908.0,
-    28908.0
+    1793352312,
+    28919.5,
+    28919.5,
+    28919.5,
+    28919.5
    ]
   ],
   "vix": [
@@ -15147,29 +15147,29 @@
    [
     1793350800,
     18.09,
-    18.18,
+    18.22,
     18.03,
-    18.15
+    18.22
    ],
    [
-    1793351851,
-    18.16,
-    18.16,
-    18.16,
-    18.16
+    1793352001,
+    18.22,
+    18.22,
+    18.22,
+    18.22
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-30T08:57:31Z",
- "ult_4h": 1793352156.9033604,
+ "noticias_traducidas_ts": "2026-10-30T09:37:30Z",
+ "ult_4h": 1793353052.7817152,
  "estrategia_4h": {
   "oro": {
-   "precio": 4001.0,
+   "precio": 4001.2,
    "atr_4h": 28.54,
    "setups": []
   },
   "nq": {
-   "precio": 28966.75,
+   "precio": 28919.5,
    "atr_4h": 253.59,
    "setups": [
     {
@@ -15196,7 +15196,7 @@
     }
    ]
   },
-  "ts": "2026-10-30T09:22:37Z"
+  "ts": "2026-10-30T09:37:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15265,9 +15265,6 @@
   }
  ],
  "noticias_vistas": [
-  "6f718c6934",
-  "73ead5b619",
-  "605eee17fd",
   "8e8d363f93",
   "be7f39557b",
   "613ad59271",
@@ -16064,7 +16061,10 @@
   "f9b0c259de",
   "9527dcd565",
   "a927f89dac",
-  "88442940c6"
+  "88442940c6",
+  "92d60cd67e",
+  "b512041757",
+  "b8a2a22c08"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
