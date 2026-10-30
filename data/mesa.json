@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3927.0 · NQ 28788.75 · VIX 18.97 · 2 noticias nuevas (2 alto impacto)",
-   "actualizado": "2026-10-30T14:07:37Z"
+   "ultimo_resultado": "Oro 3933.5 · NQ 28815.5 · VIX 18.91 · 3 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-10-30T14:12:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T14:07:36Z",
-   "ultimo_resultado": "2 titulares nuevos, 2 de alto impacto: La sorpresiva persistencia de los aranceles de Trump"
+   "actualizado": "2026-10-30T14:12:33Z",
+   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: The economics of Halloween: Tariffs, other factors push candy prices up in NEPA and nationwide"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3933.5 · NQ 28815.5 · VIX 18.91 · 3 noticias nuevas (2 alto impacto)",
+   "ts": "2026-10-30T14:12:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3927.0 · NQ 28788.75 · VIX 18.97 · 2 noticias nuevas (2 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Estrategia 4H NQ: VENTA: esperar retesteo de 29288.0 · stop 29433.08 · objetivo 28960.0 · R:R 2.26 (esperando retesteo). Tú ejecutas.",
    "ts": "2026-10-30T01:02:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4027.8 · NQ 28973.25 · VIX 17.2 · 2 noticias nuevas",
-   "ts": "2026-10-30T00:57:35Z"
   }
  ],
  "briefs": [
@@ -12558,12 +12558,21 @@
   }
  },
  "en_vivo": {
-  "oro": 3927.0,
-  "nq": 28788.75,
-  "vix": 18.97,
-  "ts": "2026-10-30T14:07:36Z"
+  "oro": 3933.5,
+  "nq": 28815.5,
+  "vix": 18.91,
+  "ts": "2026-10-30T14:12:34Z"
  },
  "noticias": [
+  {
+   "titulo": "The economics of Halloween: Tariffs, other factors push candy prices up in NEPA and nationwide",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOFZrc3dXLUwzSHBxNUtmV1FwSFlGbURnSFk3RE51NkpGU1ppTEJQdkc1dU43ZGdqVnVQaGFIa1o5OTlPcWlKZFNPeG1WMmhGeTRGTDh0UWs1SzIweVIyT0tHLUlNWWgxRWhKQzRGYk9hWS1MRDR0Y0lyLVZiYWNsQ2NFdUZkbzdGenFNTUFEcG5vU3FXMzIwZmFzenpNNGlSbUhaMEwtOVRxTS1nQjVMaHZ2VXpwR0pKMk1VMEhrLXBFQ2RoZE9sREQ3SmNCWE1Z?oc=5",
+   "ts": "2026-10-30T13:56:00Z",
+   "fuente": "WVIA Public Media",
+   "id": "080fcee5ab",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "The Surprising Staying Power of Trump’s Tariffs",
    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPV005LWdFdzZKckY4UFY0bE03X1phbm02MGc2MVlFZFViUDVoMnUtTXZoa1ExQW1ZcURuS2hNbWFMUjlqNXp4NDZyS2l2YUtoMkFycjZzVDJGUjhpNlktRWxrOTlIay1iSEx6NE94bGZWQ2pkWmc2Um5Bb1VvQ2MzZw?oc=5",
@@ -12578,6 +12587,18 @@
    "impacto": "alto",
    "es": "La sorpresiva persistencia de los aranceles de Trump",
    "efecto": "Impulsa al dólar y presiona al NQ por riesgos comerciales globales."
+  },
+  {
+   "titulo": "Gold hits a 4-month low as inflation fuels Fed rate hike fears",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9oVzNmMTNiWlJGZDJ4VkpnbDQyNndXc2VWN3E3dGVUOGNpQ1Q1OFNyWkNTbzlLMHNJbU1jdC1wUV9kdFI1YzFTekZrQUNnTWhLLUttY0VIX1RlTUN4X2lUVVk0ZTlQTllXODFDeU9rdmFHd1k?oc=5",
+   "ts": "2026-10-30T13:40:59Z",
+   "fuente": "Quartz",
+   "id": "f98237b743",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Nasdaq plunges after dismal earnings from Amazon and Intel",
@@ -13417,31 +13438,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Nasdaq futures tumble as Amazon, Intel results deepen AI spending woes By Reuters",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNTM1RjhCODBSclVNVWNWYy1ObVBIbHlvblN0SEZYLWF3Q1ducFVEOGoxQlVmR1hSVlQ1ZEhvYmtkM3BYaTZsQnBVQmhoSmZiR2I0ZmFJU1hDS2NxcFFUMHUzOUdwdDE3d1BVVi10WUtQU2RSTWp6WU1ialhMVC1TeERvYldXeUhCbjFIZzZzWHRLc3dFbF9HM0wxZ3lvNzA1NlJTY2dkYWdVbU1xcUh5cGxCLXhZcVp6Smd6emVqLUZWazBT?oc=5",
-   "ts": "2026-10-30T08:55:02Z",
-   "fuente": "Investing.com",
-   "id": "9527dcd565",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Nasdaq futures fall over 2% as global tech stocks slide",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSkg4MzNsS3Y4OTgwNXJQRDZTQlk1eU1yTWJfTVgtcGhmSlhGWWtKNGNJZzJadVdJSHlrcGg4b1YtVUJCV1lEVjJyVUJPYnkxbGN1dzMwUmUzVFZXYk5UMmFtLVhqTmxDRnlBZTdaTHUyeUhjU1UyM0o0UTY2eXpfcGFpMkQ?oc=5",
-   "ts": "2026-10-30T08:50:16Z",
-   "fuente": "CNBC",
-   "id": "b0068434f7",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Los futuros del Nasdaq caen más del 2% por desplome tecnológico global",
-   "efecto": "Genera ventas masivas en el NQ y busca refugio en el dólar."
   }
  ],
  "eventos_avisados": [
@@ -14084,14 +14080,14 @@
     3963.3,
     3964.8,
     3924.7,
-    3928.0
+    3929.5
    ],
    [
-    1793368448,
-    3927.0,
-    3927.0,
-    3927.0,
-    3927.0
+    1793368753,
+    3933.5,
+    3933.5,
+    3933.5,
+    3933.5
    ]
   ],
   "nq": [
@@ -14714,16 +14710,16 @@
    [
     1793365200,
     28813.25,
-    28821.0,
+    28860.5,
     28668.25,
-    28799.25
+    28842.25
    ],
    [
-    1793368450,
-    28788.75,
-    28788.75,
-    28788.75,
-    28788.75
+    1793368755,
+    28821.5,
+    28821.5,
+    28821.5,
+    28821.5
    ]
   ],
   "vix": [
@@ -15166,14 +15162,14 @@
     18.62,
     19.22,
     18.59,
-    19.03
+    18.93
    ],
    [
-    1793368141,
-    18.97,
-    18.97,
-    18.97,
-    18.97
+    1793368441,
+    18.91,
+    18.91,
+    18.91,
+    18.91
    ]
   ]
  },
@@ -15296,9 +15292,6 @@
   }
  ],
  "noticias_vistas": [
-  "1ea44db186",
-  "75653bed19",
-  "843417dade",
   "9c28deb599",
   "a4a7e0d6db",
   "cfe4dc9b9c",
@@ -16095,7 +16088,10 @@
   "a3720c8566",
   "898e2a6614",
   "6498140026",
-  "6c38cb1100"
+  "6c38cb1100",
+  "080fcee5ab",
+  "f98237b743",
+  "80abbf8e81"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
