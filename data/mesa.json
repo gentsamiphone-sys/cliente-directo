@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3888.1 · NQ 28550.0 · VIX 19.42 · 1 noticias nuevas",
-   "actualizado": "2026-10-30T20:42:33Z"
+   "ultimo_resultado": "Oro 3883.9 · NQ 28526.75 · VIX 19.42 · 2 noticias nuevas",
+   "actualizado": "2026-10-30T20:47:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T20:42:33Z",
-   "ultimo_resultado": "1 titulares nuevos: Tech stocks wipe out $1 trillion in value as concerns deepen about the AI boom"
+   "actualizado": "2026-10-30T20:47:36Z",
+   "ultimo_resultado": "2 titulares nuevos: Aura Minerals Sinks 15% as Gold Miners Slide, GDX Down 5%"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3883.9 · NQ 28526.75 · VIX 19.42 · 2 noticias nuevas",
+   "ts": "2026-10-30T20:47:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3888.1 · NQ 28550.0 · VIX 19.42 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Mapa listo: oro 3997.8 · NQ 28975.5.",
    "ts": "2026-10-30T06:33:01Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
-   "ts": "2026-10-30T06:32:59Z"
   }
  ],
  "briefs": [
@@ -12558,10 +12558,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3888.1,
-  "nq": 28550.0,
+  "oro": 3883.9,
+  "nq": 28526.75,
   "vix": 19.42,
-  "ts": "2026-10-30T20:42:33Z"
+  "ts": "2026-10-30T20:47:36Z"
  },
  "noticias": [
   {
@@ -12572,6 +12572,17 @@
    "id": "8e72940724",
    "activos": [
     "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Aura Minerals Sinks 15% as Gold Miners Slide, GDX Down 5%",
+   "link": "https://www.tikr.com/blog/aura-minerals-sinks-15-as-gold-miners-slide-gdx-down-5?ref=yahoofinance&amp;tlnk=yf-261030-pcjqvg9r&amp;.tsrc=rss",
+   "ts": "2026-10-30T20:31:25Z",
+   "fuente": "Yahoo Finance",
+   "id": "91ba4fc6a6",
+   "activos": [
+    "oro"
    ],
    "impacto": "medio"
   },
@@ -12588,6 +12599,17 @@
    "impacto": "alto",
    "es": "Compradores en la caída de IA sufren pérdidas al extenderse la venta por tercera semana",
    "efecto": "Aumenta la aversión al riesgo, presionando al NQ a la baja."
+  },
+  {
+   "titulo": "Origin Agritech Announces Receipt of Nasdaq Notice Regarding Minimum Bid Price Requirement",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZXV0bXo3VnhmR1NqUnlFc1pJNkpsNGhHNTlTc2RpYVQzOVZrbzdWeXlSSW1tcU1ZLTBUZXFiQkpkd0EzNzBaS3JHQ3ZjRFlUcDJRa2dSb0VoRGNzM2ZaOGtDOTZOMEJpY3pnVXdyMFA5Y2I0aERYYUEtSUJjSVNndUEwWVl3aGVNTGxkS0JwWGZuZTNDemtXMnVydmM5Qm10eTdLUlVwbi0?oc=5",
+   "ts": "2026-10-30T20:30:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "7204ea6d90",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Criminal investigation of Alaska Senate race is 'ongoing,' U.S. Attorney says",
@@ -13417,24 +13439,6 @@
    "impacto": "alto",
    "es": "Intel se encamina a su peor día en Wall Street en más de 50 años por débiles proyecciones",
    "efecto": "Presiona al NQ a la baja por el desplome en semiconductores."
-  },
-  {
-   "titulo": "Cheaper cars are selling considerably faster than at the beginning of the year",
-   "link": "https://www.cnbc.com/2026/10/30/cheap-cars-selling-fast.html",
-   "ts": "2026-10-30T15:37:21Z",
-   "fuente": "CNBC",
-   "id": "bdbbcb95fe",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Big Tech returns smallest share of cash to shareholders in 15 years, given AI spending",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPM1JYY3JjSEZ6Mng5SkxoRFBtVFBLZVVsNGsyMWxIQzNQX0Rid3oxclNLV2dvSURnaWRrUDdYTUZ4WkIwZFVfbGp6bHM1LTZaUC1Fb3BSWF9iVWsxMGctdktndy1GRS1aZTRkb1otcjJFYk84NndKWGx6NXBXQUEyMmJMVUxXRkpkcF83M09yWVZSMjNjblRyeGxvZ3dOYTFMY1A2U2pYYzViSlpEVWlZWVUzczZ0NHBHZXhSSFlyMURGcFJLMFVzbFlwMEY?oc=5",
-   "ts": "2026-10-30T15:36:09Z",
-   "fuente": "Reuters",
-   "id": "b677b81186",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -14076,15 +14080,15 @@
     1793390400,
     3892.8,
     3897.4,
-    3885.9,
-    3887.9
+    3883.7,
+    3884.3
    ],
    [
-    1793392350,
-    3888.1,
-    3888.1,
-    3888.1,
-    3888.1
+    1793392654,
+    3883.8,
+    3883.8,
+    3883.8,
+    3883.8
    ]
   ],
   "nq": [
@@ -14709,14 +14713,14 @@
     28528.25,
     28584.25,
     28517.25,
-    28545.25
+    28524.25
    ],
    [
-    1793392351,
-    28550.0,
-    28550.0,
-    28550.0,
-    28550.0
+    1793392657,
+    28525.0,
+    28525.0,
+    28525.0,
+    28525.0
    ]
   ],
   "vix": [
@@ -15338,8 +15342,6 @@
   }
  ],
  "noticias_vistas": [
-  "c411a7db13",
-  "90619517ab",
   "f0c2177fe5",
   "f6a59aa215",
   "7f13126197",
@@ -16137,7 +16139,9 @@
   "0a7d1b70d4",
   "2d8fce4037",
   "303f3c53bd",
-  "8e72940724"
+  "8e72940724",
+  "91ba4fc6a6",
+  "7204ea6d90"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
