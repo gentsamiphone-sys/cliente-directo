@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3884.8 · NQ 28389.5 · VIX 21.58 · 2 noticias nuevas",
-   "actualizado": "2026-10-30T20:02:36Z"
+   "ultimo_resultado": "Oro 3886.1 · NQ 28364.25 · VIX 21.16 · 2 noticias nuevas",
+   "actualizado": "2026-10-30T20:07:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T20:02:35Z",
-   "ultimo_resultado": "2 titulares nuevos: Binance pierde 6.300 millones en hackeo de criptomonedas"
+   "actualizado": "2026-10-30T20:07:34Z",
+   "ultimo_resultado": "2 titulares nuevos: Stock market rocked as investors dump tech shares; Nasdaq suffers worst day since June: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3886.1 · NQ 28364.25 · VIX 21.16 · 2 noticias nuevas",
+   "ts": "2026-10-30T20:07:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3884.8 · NQ 28389.5 · VIX 21.58 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Abriendo la mesa para la sesión de Londres.",
    "ts": "2026-10-30T06:32:49Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3997.7 · NQ 28975.5 · VIX 17.2 · 1 noticias nuevas",
-   "ts": "2026-10-30T06:32:33Z"
   }
  ],
  "briefs": [
@@ -12558,12 +12558,32 @@
   }
  },
  "en_vivo": {
-  "oro": 3884.8,
-  "nq": 28389.5,
-  "vix": 21.58,
-  "ts": "2026-10-30T20:02:36Z"
+  "oro": 3886.1,
+  "nq": 28364.25,
+  "vix": 21.16,
+  "ts": "2026-10-30T20:07:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Stock market rocked as investors dump tech shares; Nasdaq suffers worst day since June: Live updates",
+   "link": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
+   "ts": "2026-10-30T20:07:22Z",
+   "fuente": "CNBC",
+   "id": "aa996a8a48",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Intel stock has worst day since 1970s, wiping about $12 billion off government's stake",
+   "link": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
+   "ts": "2026-10-30T20:02:48Z",
+   "fuente": "CNBC",
+   "id": "b15caa6f51",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Binance loses $6.3 billion in crypto heist—what happens to your money when an exchange gets hacked",
    "link": "https://www.cnbc.com/make-it/2026/10/30/binance-crypto-hack-customer-funds.html",
@@ -13411,30 +13431,6 @@
    "id": "dc7cc42317",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Swiss central bank posts bumper $23 billion profit thanks to gold, foreign assets",
-   "link": "https://www.cnbc.com/2026/10/30/swiss-national-bank-q3-profit-gold-foreign-asset.html",
-   "ts": "2026-10-30T15:06:44Z",
-   "fuente": "CNBC",
-   "id": "a8a4240a74",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Here are the stocks reporting next week that have a history of earnings beats and big share gains",
-   "link": "https://www.cnbc.com/2026/10/30/here-are-stocks-reporting-next-week-that-usually-beats-and-see-big-share-gains.html",
-   "ts": "2026-10-30T15:04:26Z",
-   "fuente": "CNBC",
-   "id": "b830debe18",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "Acciones que reportan ganancias la próxima semana con historial de superar expectativas",
-   "efecto": "Ruido corporativo menor; sin impacto institucional relevante hoy en índices."
   }
  ],
  "eventos_avisados": [
@@ -14077,14 +14073,14 @@
     3889.3,
     3890.3,
     3883.9,
-    3886.0
+    3886.2
    ],
    [
-    1793388907,
-    3884.8,
-    3884.8,
-    3884.8,
-    3884.8
+    1793389256,
+    3886.1,
+    3886.1,
+    3886.1,
+    3886.1
    ]
   ],
   "nq": [
@@ -14709,14 +14705,14 @@
     29562.0,
     29562.0,
     28283.25,
-    28389.75
+    28387.5
    ],
    [
-    1793387502,
-    28384.5,
-    28384.5,
-    28384.5,
-    28384.5
+    1793387744,
+    28374.0,
+    28374.0,
+    28374.0,
+    28374.0
    ]
   ],
   "vix": [
@@ -15201,14 +15197,14 @@
     21.8,
     21.99,
     20.88,
-    21.54
+    21.12
    ],
    [
-    1793387971,
-    21.58,
-    21.58,
-    21.58,
-    21.58
+    1793388211,
+    21.16,
+    21.16,
+    21.16,
+    21.16
    ]
   ]
  },
@@ -15331,8 +15327,6 @@
   }
  ],
  "noticias_vistas": [
-  "40941174ea",
-  "7018bc0ff1",
   "4af4ab0d8e",
   "317eeacbd0",
   "462fcd00e5",
@@ -16130,7 +16124,9 @@
   "34dd41c5d8",
   "34e9e5353a",
   "f5d004f73f",
-  "2cd477171a"
+  "2cd477171a",
+  "aa996a8a48",
+  "b15caa6f51"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
