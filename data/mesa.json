@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3882.7 · NQ 28347.5 · VIX 21.05 · 1 noticias nuevas",
-   "actualizado": "2026-10-30T20:12:37Z"
+   "ultimo_resultado": "Oro 3884.4 · NQ 28384.0 · VIX 21.04 · 1 noticias nuevas",
+   "actualizado": "2026-10-30T20:17:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T20:12:36Z",
-   "ultimo_resultado": "1 titulares nuevos: Gold Price Just Hit a Yearly Low. What Are Analysts Saying?"
+   "actualizado": "2026-10-30T20:17:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Criminal investigation of Alaska Senate race is 'ongoing,' U.S. Attorney says"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3884.4 · NQ 28384.0 · VIX 21.04 · 1 noticias nuevas",
+   "ts": "2026-10-30T20:17:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3882.7 · NQ 28347.5 · VIX 21.05 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Historial: 12 operaciones, 25% de acierto, +6.08 R.",
    "ts": "2026-10-30T06:32:51Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Revisando cómo salieron las entradas anteriores…",
-   "ts": "2026-10-30T06:32:50Z"
   }
  ],
  "briefs": [
@@ -12558,12 +12558,21 @@
   }
  },
  "en_vivo": {
-  "oro": 3882.7,
-  "nq": 28347.5,
-  "vix": 21.05,
-  "ts": "2026-10-30T20:12:36Z"
+  "oro": 3884.4,
+  "nq": 28384.0,
+  "vix": 21.04,
+  "ts": "2026-10-30T20:17:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Criminal investigation of Alaska Senate race is 'ongoing,' U.S. Attorney says",
+   "link": "https://www.cnbc.com/2026/10/30/alaska-senate-election-doj-lawsuit-sullivan-peltola.html",
+   "ts": "2026-10-30T20:16:25Z",
+   "fuente": "CNBC",
+   "id": "3dac77305d",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Stock market rocked as investors dump tech shares; Nasdaq suffers worst day since June: Live updates",
    "link": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
@@ -13419,20 +13428,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "US tech stocks see sharp falls over AI cost fears",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03MGFhZ3ltOEs3NFpDUTRDQ2ZPbmxPcXFvbWtkSm9kS0pnOW82MjlDbTY4dnlGNkYwSkUxMVJPZU1ZeGVqUFk3YkdZeTUxQzhLemlBbldWVld5NU0?oc=5",
-   "ts": "2026-10-30T15:27:54Z",
-   "fuente": "BBC",
-   "id": "43aa660e66",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Las acciones tecnológicas de EE. UU. sufren fuertes caídas por temor a costos de IA",
-   "efecto": "Genera ventas masivas en el NQ y busca refugio en el dólar."
   }
  ],
  "eventos_avisados": [
@@ -14075,14 +14070,14 @@
     3889.3,
     3890.3,
     3879.3,
-    3882.7
+    3884.6
    ],
    [
-    1793389559,
-    3882.7,
-    3882.7,
-    3882.7,
-    3882.7
+    1793389796,
+    3884.8,
+    3884.8,
+    3884.8,
+    3884.8
    ]
   ],
   "nq": [
@@ -14707,14 +14702,14 @@
     29562.0,
     29562.0,
     28283.25,
-    28347.5
+    28386.75
    ],
    [
-    1793387995,
-    28346.75,
-    28346.75,
-    28346.75,
-    28346.75
+    1793388231,
+    28384.0,
+    28384.0,
+    28384.0,
+    28384.0
    ]
   ],
   "vix": [
@@ -15199,14 +15194,7 @@
     21.8,
     21.99,
     20.8,
-    20.86
-   ],
-   [
-    1793388571,
-    21.05,
-    21.05,
-    21.05,
-    21.05
+    21.04
    ]
   ]
  },
@@ -15329,7 +15317,6 @@
   }
  ],
  "noticias_vistas": [
-  "317eeacbd0",
   "462fcd00e5",
   "30da981e95",
   "c09b1c5917",
@@ -16128,7 +16115,8 @@
   "2cd477171a",
   "aa996a8a48",
   "b15caa6f51",
-  "020c519370"
+  "020c519370",
+  "3dac77305d"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
