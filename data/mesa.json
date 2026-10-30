@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3993.7 · NQ 28870.25 · VIX 18.53 · 4 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-30T10:32:32Z"
+   "ultimo_resultado": "Oro 3993.0 · NQ 28864.25 · VIX 18.51 · 1 noticias nuevas",
+   "actualizado": "2026-10-30T10:37:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T10:32:32Z",
-   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: Royal Gold (NASDAQ:RGLD) Combines Strong Growth With a High-Quality Technical Setup"
+   "actualizado": "2026-10-30T10:37:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Gen Z is ditching bars for run clubs — and finding more than friends along the way"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3993.0 · NQ 28864.25 · VIX 18.51 · 1 noticias nuevas",
+   "ts": "2026-10-30T10:37:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3993.7 · NQ 28870.25 · VIX 18.53 · 4 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "2 titulares nuevos, 1 de alto impacto: Bloomberg Commodity Index 2027 Target Weights Announced",
    "ts": "2026-10-29T21:12:33Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: What Could Lift Newmont Stock?",
-   "ts": "2026-10-29T21:07:31Z"
   }
  ],
  "briefs": [
@@ -12559,12 +12559,21 @@
   }
  },
  "en_vivo": {
-  "oro": 3993.7,
-  "nq": 28870.25,
-  "vix": 18.53,
-  "ts": "2026-10-30T10:32:32Z"
+  "oro": 3993.0,
+  "nq": 28864.25,
+  "vix": 18.51,
+  "ts": "2026-10-30T10:37:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Gen Z is ditching bars for run clubs — and finding more than friends along the way",
+   "link": "https://www.cnbc.com/2026/10/30/gen-z-diplo-run-club.html",
+   "ts": "2026-10-30T10:32:46Z",
+   "fuente": "CNBC",
+   "id": "b43b87e302",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Chevron beats earnings expectations as refining profits soar on high diesel fuel prices",
    "link": "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html",
@@ -13445,15 +13454,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Buenaventura Announces Third Quarter and Nine-Month 2026 Results",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/buenaventura-announces-third-quarter-nine-004500394.html?.tsrc=rss",
-   "ts": "2026-10-30T00:45:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "e991fa3460",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -14096,14 +14096,14 @@
     4001.7,
     4002.0,
     3991.9,
-    3993.5
+    3993.0
    ],
    [
-    1793355750,
-    3993.7,
-    3993.7,
-    3993.7,
-    3993.7
+    1793356045,
+    3993.0,
+    3993.0,
+    3993.0,
+    3993.0
    ]
   ],
   "nq": [
@@ -14728,14 +14728,14 @@
     28887.75,
     28888.75,
     28836.25,
-    28872.75
+    28860.75
    ],
    [
-    1793355750,
-    28870.25,
-    28870.25,
-    28870.25,
-    28870.25
+    1793356051,
+    28864.25,
+    28864.25,
+    28864.25,
+    28864.25
    ]
   ],
   "vix": [
@@ -15155,45 +15155,56 @@
    [
     1793354400,
     18.37,
-    18.53,
+    18.54,
     18.37,
     18.51
    ],
    [
-    1793355436,
-    18.53,
-    18.53,
-    18.53,
-    18.53
+    1793355751,
+    18.5,
+    18.5,
+    18.5,
+    18.5
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-30T10:07:35Z",
- "ult_4h": 1793355754.5759706,
+ "ult_4h": 1793356652.4291756,
  "estrategia_4h": {
   "oro": {
-   "precio": 3994.7,
+   "precio": 3993.0,
    "atr_4h": 28.54,
    "setups": []
   },
   "nq": {
-   "precio": 28860.25,
-   "atr_4h": 255.71,
+   "precio": 28864.25,
+   "atr_4h": 256.96,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29441.43,
+     "stop": 29442.18,
      "objetivo": 28821.5,
-     "rr": 3.04,
+     "rr": 3.03,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.78,
+     "fuerza_ruptura_atr": 1.77,
+     "ruptura": "2026-10-29 20:00 UTC"
+    },
+    {
+     "direccion": "VENTA",
+     "nivel": 29482.5,
+     "entrada": 29482.5,
+     "stop": 29636.68,
+     "objetivo": 28821.5,
+     "rr": 4.29,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 1.77,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-30T10:22:34Z"
+  "ts": "2026-10-30T10:37:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15262,7 +15273,6 @@
   }
  ],
  "noticias_vistas": [
-  "8c3ae59f77",
   "30877a4c07",
   "ed0281965e",
   "0b8d8325bd",
@@ -16061,7 +16071,8 @@
   "923a586af6",
   "2b6e299a6f",
   "81a239a9f3",
-  "6a7a5be628"
+  "6a7a5be628",
+  "b43b87e302"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
