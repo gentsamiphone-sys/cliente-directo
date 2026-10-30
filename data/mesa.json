@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4014.4 · NQ 28865.25 · VIX 17.2 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-30T01:52:33Z"
+   "ultimo_resultado": "Oro 4007.9 · NQ 28826.0 · VIX 17.2 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-30T01:57:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T01:52:33Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Futuros de EE. UU. caen, Nasdaq baja 2% por resultados flojos de Amazon e Intel"
+   "actualizado": "2026-10-30T01:57:34Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Is the Fed preparing a major liquidity rescue in 2027?"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4007.9 · NQ 28826.0 · VIX 17.2 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-30T01:57:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4014.4 · NQ 28865.25 · VIX 17.2 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Historial: 12 operaciones, 25% de acierto, +6.08 R.",
    "ts": "2026-10-29T12:32:51Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Revisando cómo salieron las entradas anteriores…",
-   "ts": "2026-10-29T12:32:49Z"
   }
  ],
  "briefs": [
@@ -12528,12 +12528,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4014.4,
-  "nq": 28865.25,
+  "oro": 4007.9,
+  "nq": 28826.0,
   "vix": 17.2,
-  "ts": "2026-10-30T01:52:33Z"
+  "ts": "2026-10-30T01:57:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Is the Fed preparing a major liquidity rescue in 2027?",
+   "link": "https://finance.yahoo.com/video/is-the-fed-preparing-a-major-liquidity-rescue-in-2027-014229512.html?.tsrc=rss",
+   "ts": "2026-10-30T01:42:29Z",
+   "fuente": "Yahoo Finance",
+   "id": "d8f55dd8b1",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Gold Declines, Weighed by Tighter Monetary Policy Expectations",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdkE4aGdIVUE5b214Nmt2UmV6SnMtNDhaeTV5VEpPd2o2MWVBTklmYW1teWxmbDdVSy1NSHlJTHMycjlhZDhwQnAwVlZ0MFkxWS1lWTgxanJGbEVWbjhaaEJWejB2SzhWYVFYZmpSTjJYaXUtOGZlTGZDTWNFR3oxZzROV0lTeW9ZU1hWeV94aDI2TklxMTlHa3lobHU0WjVUT3lPRDBMcDJnckxTQnBOLXl6RjM0M1BVZ1E?oc=5",
@@ -13368,15 +13379,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Some Polymarket user funds stolen by hackers, exchange referring matter to U.K. authorities",
-   "link": "https://www.cnbc.com/2026/10/29/polymarket-reports-outage-on-international-exchange-halts-trading.html",
-   "ts": "2026-10-29T19:16:34Z",
-   "fuente": "CNBC",
-   "id": "e5cda68106",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -14019,14 +14021,14 @@
     4015.8,
     4023.7,
     4006.9,
-    4013.4
+    4008.1
    ],
    [
-    1793324543,
-    4014.4,
-    4014.4,
-    4014.4,
-    4014.4
+    1793324849,
+    4007.9,
+    4007.9,
+    4007.9,
+    4007.9
    ]
   ],
   "nq": [
@@ -14650,15 +14652,15 @@
     1793322000,
     28955.75,
     28958.25,
-    28833.25,
-    28872.25
+    28821.5,
+    28827.75
    ],
    [
-    1793324552,
-    28865.25,
-    28865.25,
-    28865.25,
-    28865.25
+    1793324853,
+    28826.0,
+    28826.0,
+    28826.0,
+    28826.0
    ]
   ],
   "vix": [
@@ -15266,7 +15268,6 @@
   }
  ],
  "noticias_vistas": [
-  "1207c1c6a5",
   "ca479bb793",
   "ec3af7b0c7",
   "ff12fcf603",
@@ -16065,7 +16066,8 @@
   "2e90b0746d",
   "acd985c543",
   "970e0f499f",
-  "2d107eef9b"
+  "2d107eef9b",
+  "d8f55dd8b1"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
