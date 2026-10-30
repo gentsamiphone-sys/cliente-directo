@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3917.8 · NQ 28729.75 · VIX 19.57",
-   "actualizado": "2026-10-30T15:37:32Z"
+   "ultimo_resultado": "Oro 3914.4 · NQ 28686.75 · VIX 19.44 · 1 noticias nuevas",
+   "actualizado": "2026-10-30T15:42:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T15:37:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-30T15:42:33Z",
+   "ultimo_resultado": "1 titulares nuevos: Cheaper cars are selling considerably faster than at the beginning of the year"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3914.4 · NQ 28686.75 · VIX 19.44 · 1 noticias nuevas",
+   "ts": "2026-10-30T15:42:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3917.8 · NQ 28729.75 · VIX 19.57",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4018.9 · NQ 28863.25 · VIX 17.2 · 1 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-30T02:12:42Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4016.1 · NQ 28857.5 · VIX 17.2",
-   "ts": "2026-10-30T02:07:32Z"
   }
  ],
  "briefs": [
@@ -12558,12 +12558,21 @@
   }
  },
  "en_vivo": {
-  "oro": 3917.8,
-  "nq": 28729.75,
-  "vix": 19.57,
-  "ts": "2026-10-30T15:37:31Z"
+  "oro": 3914.4,
+  "nq": 28686.75,
+  "vix": 19.44,
+  "ts": "2026-10-30T15:42:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Cheaper cars are selling considerably faster than at the beginning of the year",
+   "link": "https://www.cnbc.com/2026/10/30/cheap-cars-selling-fast.html",
+   "ts": "2026-10-30T15:37:21Z",
+   "fuente": "CNBC",
+   "id": "bdbbcb95fe",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Chevron and Exxon hit all-time highs as refining profits soar in reaction to Iran and Ukraine wars",
    "link": "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html",
@@ -13431,17 +13440,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Progyny Inc (NASDAQ:PGNY): Strong Growth With a Bull Flag Technical Setup",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdUVwOUs4UlFNY3RWbmNiOXl2WS01bmZYbF95SnR2d1lNQWZ5WE82a1prbjhRUUE3a3JZZHNlWndhenRPRkgxNTRZWFU3X3J5SDRvSTE5OXZ6R192YVM5NnZmX0tzTF85djQzUEVwMjhmNDl1bkNpOUZnZUw1MDhfaXM1Wlh0UFAwY1BZYkJaa1pWVy1LQUFpSVY1TTExRGlrNTdLeG5tblhyV3ZSTE5Wd1VSTzAyMmlVVmtuVl93?oc=5",
-   "ts": "2026-10-30T10:51:14Z",
-   "fuente": "ChartMill",
-   "id": "1a42ec980d",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14083,15 +14081,15 @@
     1793372400,
     3926.8,
     3933.2,
-    3915.9,
-    3917.6
+    3913.6,
+    3914.5
    ],
    [
-    1793374051,
-    3917.7,
-    3917.7,
-    3917.7,
-    3917.7
+    1793374352,
+    3914.0,
+    3914.0,
+    3914.0,
+    3914.0
    ]
   ],
   "nq": [
@@ -14715,15 +14713,15 @@
     1793372400,
     28779.0,
     28793.75,
-    28695.25,
-    28721.75
+    28678.0,
+    28685.5
    ],
    [
-    1793374051,
-    28727.25,
-    28727.25,
-    28727.25,
-    28727.25
+    1793374351,
+    28684.5,
+    28684.5,
+    28684.5,
+    28684.5
    ]
   ],
   "vix": [
@@ -15180,14 +15178,14 @@
     19.15,
     19.61,
     19.1,
-    19.59
+    19.57
    ],
    [
-    1793373751,
-    19.52,
-    19.52,
-    19.52,
-    19.52
+    1793374051,
+    19.44,
+    19.44,
+    19.44,
+    19.44
    ]
   ]
  },
@@ -15299,7 +15297,6 @@
   }
  ],
  "noticias_vistas": [
-  "6171f291d2",
   "7f613008e2",
   "86958ce74f",
   "4dbc54db63",
@@ -16098,7 +16095,8 @@
   "dc7cc42317",
   "28e1cb2803",
   "50e3045c65",
-  "1555ba506e"
+  "1555ba506e",
+  "bdbbcb95fe"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
