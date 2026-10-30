@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4004.0 · NQ 28956.5 · VIX 17.2",
-   "actualizado": "2026-10-30T03:52:36Z"
+   "ultimo_resultado": "Oro 4002.2 · NQ 28949.5 · VIX 17.2 · 1 noticias nuevas",
+   "actualizado": "2026-10-30T03:57:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T03:52:35Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-30T03:57:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Asian currencies mixed as dollar retreats, yen steadies ahead of BOJ decision"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4002.2 · NQ 28949.5 · VIX 17.2 · 1 noticias nuevas",
+   "ts": "2026-10-30T03:57:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4004.0 · NQ 28956.5 · VIX 17.2",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4032.0 · NQ 29646.25 · VIX 17.04 · 6 noticias nuevas",
    "ts": "2026-10-29T13:07:41Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4032.9 · NQ 29627.0 · VIX 17.08",
-   "ts": "2026-10-29T13:02:35Z"
   }
  ],
  "briefs": [
@@ -12528,12 +12528,23 @@
   }
  },
  "en_vivo": {
-  "oro": 4004.0,
-  "nq": 28956.5,
+  "oro": 4002.2,
+  "nq": 28949.5,
   "vix": 17.2,
-  "ts": "2026-10-30T03:52:35Z"
+  "ts": "2026-10-30T03:57:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Asian currencies mixed as dollar retreats, yen steadies ahead of BOJ decision",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-mixed-dollar-retreats-034327432.html?.tsrc=rss",
+   "ts": "2026-10-30T03:43:27Z",
+   "fuente": "Yahoo Finance",
+   "id": "86cc2b11af",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013",
    "link": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html",
@@ -13379,17 +13390,6 @@
    "id": "b2cdc9810a",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Wall Street ends lower as Alphabet revenue miss revives AI capex jitters",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZS1LektXY2xjaGVlZFhXckZrRFZFelBDOEVKX2tKWVpQVmk4THRhbmlYOEZKV1h3ZHdZOTFPbWFuelU0SENDVlN2U0VHaDhUNGNQRDhVSmZ6d0k4SElZMXlncGhZRnNPRWZxZUMtYnVVQnFWZEEzS1ljaklDcmpVS2FoaVJrc2tQY3cxNEtQRmhVVlJKa3lIdkkyaw?oc=5",
-   "ts": "2026-10-29T20:00:31Z",
-   "fuente": "Yahoo Finance",
-   "id": "86ceb945cd",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14031,15 +14031,15 @@
     1793329200,
     4007.9,
     4012.0,
-    4002.0,
-    4003.5
+    4001.3,
+    4002.5
    ],
    [
-    1793331752,
-    4004.0,
-    4004.0,
-    4004.0,
-    4004.0
+    1793332037,
+    4002.2,
+    4002.2,
+    4002.2,
+    4002.2
    ]
   ],
   "nq": [
@@ -14662,16 +14662,16 @@
    [
     1793329200,
     28911.5,
-    28966.75,
+    28969.25,
     28871.0,
-    28959.25
+    28958.0
    ],
    [
-    1793331753,
-    28956.5,
-    28956.5,
-    28956.5,
-    28956.5
+    1793332050,
+    28949.5,
+    28949.5,
+    28949.5,
+    28949.5
    ]
   ],
   "vix": [
@@ -15279,7 +15279,6 @@
   }
  ],
  "noticias_vistas": [
-  "890291bae8",
   "585ebd6c42",
   "8e81197975",
   "66ca5abdd0",
@@ -16078,7 +16077,8 @@
   "969a7a24ae",
   "2946b731e9",
   "3326d6fa12",
-  "e6b364caca"
+  "e6b364caca",
+  "86cc2b11af"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
