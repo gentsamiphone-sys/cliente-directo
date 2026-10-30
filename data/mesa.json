@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3925.5 · NQ 28779.25 · VIX 19.15 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-30T15:02:36Z"
+   "ultimo_resultado": "Oro 3924.4 · NQ 28770.5 · VIX 19.1 · 4 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-30T15:07:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T15:02:35Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Gold drops below $4,000, silver tumbles as Hormuz attack lifts oil prices - Kitco AM Report"
+   "actualizado": "2026-10-30T15:07:36Z",
+   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: Swiss central bank posts bumper $23 billion profit thanks to gold, foreign assets"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3924.4 · NQ 28770.5 · VIX 19.1 · 4 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-30T15:07:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3925.5 · NQ 28779.25 · VIX 19.15 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4020.1 · NQ 28875.0 · VIX 17.2 · 2 noticias nuevas (1 alto impacto)",
    "ts": "2026-10-30T01:37:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4014.1 · NQ 28854.25 · VIX 17.2 · 3 noticias nuevas",
-   "ts": "2026-10-30T01:32:35Z"
   }
  ],
  "briefs": [
@@ -12558,12 +12558,43 @@
   }
  },
  "en_vivo": {
-  "oro": 3925.5,
-  "nq": 28779.25,
-  "vix": 19.15,
-  "ts": "2026-10-30T15:02:35Z"
+  "oro": 3924.4,
+  "nq": 28770.5,
+  "vix": 19.1,
+  "ts": "2026-10-30T15:07:36Z"
  },
  "noticias": [
+  {
+   "titulo": "Swiss central bank posts bumper $23 billion profit thanks to gold, foreign assets",
+   "link": "https://www.cnbc.com/2026/10/30/swiss-national-bank-q3-profit-gold-foreign-asset.html",
+   "ts": "2026-10-30T15:06:44Z",
+   "fuente": "CNBC",
+   "id": "a8a4240a74",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Why Deutsche Bank says the AI dollar is here",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/why-deutsche-bank-says-ai-145147934.html?.tsrc=rss",
+   "ts": "2026-10-30T14:51:47Z",
+   "fuente": "Yahoo Finance",
+   "id": "84eacffd49",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "US Aluminum Group Urges North America to Align on Tariffs",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZ01mV0VSazVYaE15Slh5bDVZMEdJQk52T0NMN0ZYbHVoaUlkZ1FRb2wwRUEwa2RoRjBNMy1HMFZEdmZQM2lQa29FanVsRWZ0VEhLRjJYM2Q1dlhIVm5MN3pTWHA2b0piVC1RLTlaSkhPWmRURDRFQ2FDQlg3ZVFJS3M4V2dSaDhScHZFVlNuOTR0UFpFb3hPWmJnNW0zVTFxOW56YnlZN3J6c3ZN?oc=5",
+   "ts": "2026-10-30T14:48:54Z",
+   "fuente": "Bloomberg",
+   "id": "07a1cd977e",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "Tech stocks crushed as Nasdaq tumbles more than 600 points",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfRVpGbTZuZHdXLTY3cDdfcWtIaEx1cUxiZTVqU3B5NTV1QU8zOVd2Nl9aVlZWUlpPenlfRThzSm5nMGJBZzJnazVzazBYQzNRcEFkWWFOXzVZbmc3aEVUandqYUJRTnlIV195QjZUbWtqZlRNVmo0?oc=5",
@@ -12603,6 +12634,17 @@
    "ts": "2026-10-30T14:36:12Z",
    "fuente": "Reuters",
    "id": "1e02382b71",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Nasdaq drops 2% as Amazon and Intel results weigh on market sentiments",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYm5IanJ0aVBWdi03RjkzWk8yRkpvdGxsMjhuMlBlUlhyM0FEd1IyM05xUXN1NTd1eWZ0OUdXQzYtS0VoVC1MbEN6cmFYcDZZMmdUMXQ5S2FMdXdjTWNUQVFaSzAwVWdlV2U3d2RWbnlLd0hBdGMwUXNOakZFUVkwWG1hX2NoWWFN?oc=5",
+   "ts": "2026-10-30T14:32:00Z",
+   "fuente": "Seeking Alpha",
+   "id": "4cee130680",
    "activos": [
     "nq"
    ],
@@ -13405,49 +13447,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "U.S. Treasury Yields Fall; Eurozone Bond Yields Mixed After GDP Data",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOS1p6ZkxEeDY0SlhyTDJKSXkyR1NkOUZVa1Z4NWJHU2cxdjFfVlI0TVBGZUZRR1dkLWpEY2RtNC1wSjZKb3ZKaTloVHlvVlF3cFZvdFI2Y3R4c3RIeFd3NU1NMWRpVDBlc3M3STVwa2ZxNVpTLTBIN0t5VTF5alltRGxFQWM3QUpibUF1LWN1Ykhmb3FvVkVmR1pDczZEa2YxTXZz?oc=5",
-   "ts": "2026-10-30T10:31:00Z",
-   "fuente": "WSJ",
-   "id": "d607e2ed63",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Chevron beats earnings expectations as refining profits soar on high diesel fuel prices",
-   "link": "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html",
-   "ts": "2026-10-30T10:21:33Z",
-   "fuente": "CNBC",
-   "id": "9a4eb3723e",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Commerzbank Says Treasury Yields Up as Technology Stocks Lead Broader Sell-Off, Brent Oil Gains",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRlVXMkZ3S3BFSnhKa2FuMXl2S3hTSm5naERDdXJPc3owSEJtNEd5Wkg0cE9mWlBxTzRlMWtIM0tPaEJjc2dmaFVESFQzUmw5QWNzNWlFWVVPZUY2TVpqYUIxdTB2WHhOQWlSWTlEeVdXZ29VeDh4RUY5RWFTQzhSd2p6MW45NHJOOVNZSTR2ak9DZ2h0RWxn?oc=5",
-   "ts": "2026-10-30T10:18:43Z",
-   "fuente": "Yahoo! Finance Canada",
-   "id": "c08b98ae31",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "'Worrisome': Jim Cramer warns chip stocks have gone 'parabolic' — here are the defensive moves he's making now",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/worrisome-jim-cramer-warns-chip-101500680.html?.tsrc=rss",
-   "ts": "2026-10-30T10:15:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "2ffc24e7a9",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14090,14 +14089,14 @@
     3929.0,
     3930.2,
     3900.9,
-    3924.8
+    3926.3
    ],
    [
-    1793371953,
-    3925.5,
-    3925.5,
-    3925.5,
-    3925.5
+    1793372253,
+    3924.4,
+    3924.4,
+    3924.4,
+    3924.4
    ]
   ],
   "nq": [
@@ -14722,14 +14721,14 @@
     28841.75,
     28858.75,
     28614.75,
-    28760.75
+    28767.75
    ],
    [
-    1793371955,
-    28775.75,
-    28775.75,
-    28775.75,
-    28775.75
+    1793372255,
+    28770.5,
+    28770.5,
+    28770.5,
+    28770.5
    ]
   ],
   "vix": [
@@ -15179,22 +15178,22 @@
     18.58,
     20.25,
     18.58,
-    19.17
+    19.12
    ],
    [
-    1793371651,
-    19.15,
-    19.15,
-    19.15,
-    19.15
+    1793371951,
+    19.09,
+    19.09,
+    19.09,
+    19.09
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-30T14:37:38Z",
- "ult_4h": 1793371966.8016393,
+ "ult_4h": 1793372856.854217,
  "estrategia_4h": {
   "oro": {
-   "precio": 3923.3,
+   "precio": 3924.9,
    "atr_4h": 33.56,
    "setups": [
     {
@@ -15205,13 +15204,13 @@
      "objetivo": 3900.9,
      "rr": 4.97,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.56,
+     "fuerza_ruptura_atr": 1.52,
      "ruptura": "2026-10-30 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 28802.5,
+   "precio": 28770.5,
    "atr_4h": 272.25,
    "setups": [
     {
@@ -15227,7 +15226,7 @@
     }
    ]
   },
-  "ts": "2026-10-30T14:52:46Z"
+  "ts": "2026-10-30T15:07:37Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15298,10 +15297,6 @@
   }
  ],
  "noticias_vistas": [
-  "c2b42e8b6d",
-  "19a9dcc090",
-  "d7e1de68d5",
-  "0861a58be5",
   "13859b9eee",
   "340f98eca3",
   "f38af21aaa",
@@ -16097,7 +16092,11 @@
   "6c8e809e20",
   "1e02382b71",
   "ee9e0f193a",
-  "87dd4266f3"
+  "87dd4266f3",
+  "a8a4240a74",
+  "84eacffd49",
+  "07a1cd977e",
+  "4cee130680"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
