@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3956.4 · NQ 28797.0 · VIX 18.69",
-   "actualizado": "2026-10-30T13:32:33Z"
+   "ultimo_resultado": "Oro 3953.3 · NQ 28802.25 · VIX 18.67 · 6 noticias nuevas",
+   "actualizado": "2026-10-30T13:37:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T13:32:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-30T13:37:30Z",
+   "ultimo_resultado": "6 titulares nuevos: Nasdaq falls more than 2% as investors rotate out of tech after Amazon, Intel earnings: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3953.3 · NQ 28802.25 · VIX 18.67 · 6 noticias nuevas",
+   "ts": "2026-10-30T13:37:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3956.4 · NQ 28797.0 · VIX 18.69",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4023.3 · NQ 29068.0 · VIX 17.2",
    "ts": "2026-10-30T00:27:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4019.0 · NQ 29074.25 · VIX 17.2 · 1 noticias nuevas",
-   "ts": "2026-10-30T00:22:35Z"
   }
  ],
  "briefs": [
@@ -12558,12 +12558,41 @@
   }
  },
  "en_vivo": {
-  "oro": 3956.4,
-  "nq": 28797.0,
-  "vix": 18.69,
-  "ts": "2026-10-30T13:32:33Z"
+  "oro": 3953.3,
+  "nq": 28802.25,
+  "vix": 18.67,
+  "ts": "2026-10-30T13:37:30Z"
  },
  "noticias": [
+  {
+   "titulo": "Nasdaq falls more than 2% as investors rotate out of tech after Amazon, Intel earnings: Live updates",
+   "link": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
+   "ts": "2026-10-30T13:33:39Z",
+   "fuente": "CNBC",
+   "id": "4713c6cc5c",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "What is tokenization?",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OeE5WZ19zSEE4REM0SmRfRlo1ZmJZSmFKMUNyYlJwMWJwSmIyZTVaN3FuMjBvYnIxVEJMeG9HZG9xWWx1OEYwSHQyNVdpNUVXOEpoVXZUc2dyN241TnktSlZQZm5sTWxsT1RNV3cxTUtyZ181TVBn?oc=5",
+   "ts": "2026-10-30T13:30:00Z",
+   "fuente": "Nasdaq",
+   "id": "8d0cdb142c",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "'Bad time to troll': Binance cofounder Changpeng Zhao asks Elon Musk for 'respect' after post about bitcoin hack",
+   "link": "https://www.cnbc.com/2026/10/30/binance-hack-elon-musk-tesla-spacex.html",
+   "ts": "2026-10-30T13:29:34Z",
+   "fuente": "CNBC",
+   "id": "59bb32b455",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Tech stocks crushed as Nasdaq futures tumble nearly 800 points",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfRVpGbTZuZHdXLTY3cDdfcWtIaEx1cUxiZTVqU3B5NTV1QU8zOVd2Nl9aVlZWUlpPenlfRThzSm5nMGJBZzJnazVzazBYQzNRcEFkWWFOXzVZbmc3aEVUandqYUJRTnlIV195QjZUbWtqZlRNVmo0?oc=5",
@@ -12593,6 +12622,17 @@
    "efecto": "Presiona a la baja al sector semiconductores y arrastra al Nasdaq."
   },
   {
+   "titulo": "Allied Gold begins wet commissioning at Kurmuk mine",
+   "link": "https://www.mining-technology.com/news/allied-gold-wet-commissioning-kurmuk-mine/?.tsrc=rss",
+   "ts": "2026-10-30T13:21:53Z",
+   "fuente": "Yahoo Finance",
+   "id": "7c70cb7321",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Silver Falls Thru' 1980 and 2011 Peak at $50 as Gold Sinks",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRUZjdXh3dUNCbmMxWGhNRzBsQlpzdDBnWGNXcHNPVndRVGFqbDNNVEFWTjlBUWZZVzQ1c3QzTGdwN1NlV1V1a0dFcm5NdG5QVjFVWFVmNUY0TG5ob1VaaWhVOE50bmh5ZW9ZdjBzNEdrek5SQ1M0OUlEZjJnYTlQcWItV0Q2MHp4LXpDU2E1bnlmR1U?oc=5",
    "ts": "2026-10-30T13:20:33Z",
@@ -12611,6 +12651,17 @@
    "id": "ae6434b7a8",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Ramelius Resources And 2 Australian Growth Stocks To Watch",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/ramelius-resources-2-australian-growth-131258528.html?.tsrc=rss",
+   "ts": "2026-10-30T13:12:58Z",
+   "fuente": "Yahoo Finance",
+   "id": "e3ddd39f13",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "The price of gold today, Oct. 30, 2026 — and the best places to buy",
@@ -12668,6 +12719,15 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Jim Cramer's top 10 things to watch in the stock market Friday",
+   "link": "https://www.cnbc.com/investingclub/2026/10/30/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
+   "ts": "2026-10-30T12:43:43Z",
+   "fuente": "CNBC",
+   "id": "34daaff073",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Nasdaq set for sharp drop as Amazon, Intel amplify AI spending worries",
@@ -13382,68 +13442,6 @@
    "impacto": "bajo",
    "es": "Trump y Vance cancelan apariciones previstas en la recta final de campaña",
    "efecto": "Ruido político menor, sin impacto institucional inmediato en activos."
-  },
-  {
-   "titulo": "What Eldorado Gold (EGO) Said on Its Q3 Earnings Call",
-   "link": "https://www.marketbeat.com/instant-alerts/transcript-what-eldorado-gold-ego-said-on-its-q3-earnings-call-2026-10-30/?utm_source=yahoofinance&amp;utm_medium=yahoofinance&amp;.tsrc=rss",
-   "ts": "2026-10-30T08:14:25Z",
-   "fuente": "Yahoo Finance",
-   "id": "04c6dd4368",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Lo que Eldorado Gold (EGO) dijo en su conferencia de resultados del Q3",
-   "efecto": ""
-  },
-  {
-   "titulo": "U.S. Treasury yields fall as investors await more economic data",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NUzdmdnZUZHUxOE1CV0xGYzQwOENIc2xvcmdfSTVhWklWMkRRLUkwQktBdURkcHo1cVZHWmlzc1RBUFV5QlljNFJYajlRMGtlUEUwYTJ5LUtqZ1luS29qSDI0aGI0YUMxMjcxNFhQcG5xcW52Rk5wQmwzNEdYMGPSAYQBQVVfeXFMUEVTdlR1RDZpc1ZDalJPOXdkeWMwbFFnZnNzVVUwdEdCY0d6R21ZbTF4Q21LdE5MQTh3dW5feVg3cWxPVEZyQTlHT1ZpYzBzUm5uYkNFTWVmb0EtNjcxdVZOakFZWjRVZmFkTFRzQ3QwZ1Z2RTJnWnFwc0lMYTNoZWd6aUMw?oc=5",
-   "ts": "2026-10-30T08:09:48Z",
-   "fuente": "CNBC",
-   "id": "4292e3a004",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Binance's $6.3 billion hack: What we know and what comes next",
-   "link": "https://www.cnbc.com/2026/10/30/billions-in-crypto-frozen-in-binance-hack-heres-what-happens-next-.html",
-   "ts": "2026-10-30T08:04:50Z",
-   "fuente": "CNBC",
-   "id": "5b21a53213",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Trump holds off overcapacity tariffs as US midterms near",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcXlPSWcxZFJfekRjUWJIQ2k2M2JsV2NSRFlXODRERDFMdV9reThVNk9aUEFWRmxwbWVQSTNsTWRlTHlTN1pqeGxGT2NEdzJBaUh5eUJHYnUwWFQ2VGdVMkt5R0E3V01LR2p2cVY0QjJabkdrV1QweUFldmQtSFg3N19VQVR0MVhpTE11ZU9PaTRlSEVSZVNfTkN6dlAzZFlZZTlKZnFIS3MyRThkUm1PV3JB?oc=5",
-   "ts": "2026-10-30T08:02:00Z",
-   "fuente": "Nikkei Asia",
-   "id": "a490a4e5e4",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "US Dollar Price Forecast: AI Jitters Weigh, DXY Eyes 101.54 as EUR/USD, GBP/USD Rebound",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-ai-080054036.html?.tsrc=rss",
-   "ts": "2026-10-30T08:00:54Z",
-   "fuente": "Yahoo Finance",
-   "id": "f33bb1af7e",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Staring down a $40M tariff bill, this American importer is suing Trump to end some tariffs on Canada",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTld1akFIX0huNjdBb3Q0WWE3SWNFRk8xbncyTmVTS09aMUVza3ZsMmVLUk9NVmlOdkRDTEozcVhoSzdJX3h2bjJVQ2dQeTh2VExtbm5hNFBnM2swSWRabG5iRzRUcllZTzVBdTdOVFBhUUdjbjlKN0t2aTNhcEdZS0l1eE4tUXM?oc=5",
-   "ts": "2026-10-30T08:00:00Z",
-   "fuente": "CBC",
-   "id": "f9b0c259de",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -14086,14 +14084,14 @@
     3963.3,
     3964.8,
     3946.0,
-    3956.6
+    3951.6
    ],
    [
-    1793366552,
-    3956.4,
-    3956.4,
-    3956.4,
-    3956.4
+    1793366850,
+    3952.9,
+    3952.9,
+    3952.9,
+    3952.9
    ]
   ],
   "nq": [
@@ -14718,14 +14716,14 @@
     28813.25,
     28817.75,
     28756.25,
-    28794.0
+    28798.0
    ],
    [
-    1793366553,
-    28796.5,
-    28796.5,
-    28796.5,
-    28796.5
+    1793366850,
+    28802.75,
+    28802.75,
+    28802.75,
+    28802.75
    ]
   ],
   "vix": [
@@ -15171,47 +15169,24 @@
     18.68
    ],
    [
-    1793366251,
-    18.69,
-    18.69,
-    18.69,
-    18.69
+    1793366536,
+    18.67,
+    18.67,
+    18.67,
+    18.67
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-30T13:27:34Z",
- "ult_4h": 1793366551.9804964,
+ "ult_4h": 1793367450.9512417,
  "estrategia_4h": {
   "oro": {
-   "precio": 3951.2,
+   "precio": 3952.9,
    "atr_4h": 30.34,
-   "setups": [
-    {
-     "direccion": "VENTA",
-     "nivel": 4000.9,
-     "entrada": 4000.9,
-     "stop": 4019.1,
-     "objetivo": 3946.0,
-     "rr": 3.02,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.81,
-     "ruptura": "2026-10-30 04:00 UTC"
-    },
-    {
-     "direccion": "VENTA",
-     "nivel": 3989.1,
-     "entrada": 3989.1,
-     "stop": 4007.3,
-     "objetivo": 3946.0,
-     "rr": 2.37,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.81,
-     "ruptura": "2026-10-30 04:00 UTC"
-    }
-   ]
+   "setups": []
   },
   "nq": {
-   "precio": 28765.0,
+   "precio": 28802.25,
    "atr_4h": 260.82,
    "setups": [
     {
@@ -15238,7 +15213,7 @@
     }
    ]
   },
-  "ts": "2026-10-30T13:22:32Z"
+  "ts": "2026-10-30T13:37:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15309,12 +15284,6 @@
   }
  ],
  "noticias_vistas": [
-  "34cc337b18",
-  "10a56442c1",
-  "f388cdb20d",
-  "f3a8da336b",
-  "945ef5117f",
-  "c598f1dddf",
   "7dc265ec88",
   "06660a4d6f",
   "5592740cc6",
@@ -16108,7 +16077,13 @@
   "8695990bf0",
   "b379a27d09",
   "216ddf77df",
-  "b963be9789"
+  "b963be9789",
+  "4713c6cc5c",
+  "8d0cdb142c",
+  "59bb32b455",
+  "7c70cb7321",
+  "e3ddd39f13",
+  "34daaff073"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
