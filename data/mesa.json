@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4013.8 · NQ 28870.25 · VIX 17.2",
-   "actualizado": "2026-10-30T02:42:29Z"
+   "ultimo_resultado": "Oro 4015.0 · NQ 28909.5 · VIX 17.2 · 1 noticias nuevas",
+   "actualizado": "2026-10-30T02:47:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T02:42:29Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-30T02:47:33Z",
+   "ultimo_resultado": "1 titulares nuevos: Asian trading is mixed as worries about AI-related issues grow"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4015.0 · NQ 28909.5 · VIX 17.2 · 1 noticias nuevas",
+   "ts": "2026-10-30T02:47:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4013.8 · NQ 28870.25 · VIX 17.2",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Volatilidad normal (VIX 17.23).",
    "ts": "2026-10-29T12:33:06Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "VIX/NQ: CONFIRMA BAJISTA: NQ baja y el VIX sube (se compra protección)",
-   "ts": "2026-10-29T12:33:05Z"
   }
  ],
  "briefs": [
@@ -12528,12 +12528,21 @@
   }
  },
  "en_vivo": {
-  "oro": 4013.8,
-  "nq": 28870.25,
+  "oro": 4015.0,
+  "nq": 28909.5,
   "vix": 17.2,
-  "ts": "2026-10-30T02:42:29Z"
+  "ts": "2026-10-30T02:47:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Asian trading is mixed as worries about AI-related issues grow",
+   "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-trading-mixed-worries-ai-023450005.html?.tsrc=rss",
+   "ts": "2026-10-30T02:34:50Z",
+   "fuente": "Yahoo Finance",
+   "id": "5e1418479e",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Team USA's Snodgrass, Elliott strike gold in Costa Rica",
    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPa1l6cnJxYjFkUmcxX3hPNTRySWRNRkx4VF9EbUNESWtROEM4cEZnUkVhY1pMU3o1VFZmbzBmZFhVV09uaVN0b2I3S2NqU1JZMUhzR0ZTU1NMQUhxZUNaalktUUVCdi1iU1NEN1padXpyNk9kZEtzMnkwWWVsQjk3LUtfSQ?oc=5",
@@ -13373,15 +13382,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Starbucks is about to report earnings. Here's what to expect",
-   "link": "https://www.cnbc.com/2026/10/29/starbucks-sbux-q4-2026-earnings.html",
-   "ts": "2026-10-29T19:30:01Z",
-   "fuente": "CNBC",
-   "id": "478897b057",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -14023,15 +14023,15 @@
     1793325600,
     4018.2,
     4024.7,
-    4013.0,
-    4013.2
+    4011.3,
+    4014.5
    ],
    [
-    1793327548,
-    4013.8,
-    4013.8,
-    4013.8,
-    4013.8
+    1793327842,
+    4015.0,
+    4015.0,
+    4015.0,
+    4015.0
    ]
   ],
   "nq": [
@@ -14654,16 +14654,16 @@
    [
     1793325600,
     28866.5,
-    28904.25,
+    28922.25,
     28851.75,
-    28865.75
+    28918.25
    ],
    [
-    1793327548,
-    28870.25,
-    28870.25,
-    28870.25,
-    28870.25
+    1793327853,
+    28913.5,
+    28913.5,
+    28913.5,
+    28913.5
    ]
   ],
   "vix": [
@@ -15167,15 +15167,15 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-30T02:27:31Z",
- "ult_4h": 1793327552.870456,
+ "ult_4h": 1793328453.6645823,
  "estrategia_4h": {
   "oro": {
-   "precio": 4018.8,
+   "precio": 4015.0,
    "atr_4h": 25.36,
    "setups": []
   },
   "nq": {
-   "precio": 28890.0,
+   "precio": 28909.5,
    "atr_4h": 251.7,
    "setups": [
     {
@@ -15186,7 +15186,7 @@
      "objetivo": 28821.5,
      "rr": 3.09,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.82,
+     "fuerza_ruptura_atr": 1.81,
      "ruptura": "2026-10-29 20:00 UTC"
     },
     {
@@ -15197,12 +15197,12 @@
      "objetivo": 28821.5,
      "rr": 4.38,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.82,
+     "fuerza_ruptura_atr": 1.81,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-10-30T02:32:33Z"
+  "ts": "2026-10-30T02:47:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15271,7 +15271,6 @@
   }
  ],
  "noticias_vistas": [
-  "da2304d7ee",
   "6b3cce86a2",
   "7e09520777",
   "98065e9a0d",
@@ -16070,7 +16069,8 @@
   "d8f55dd8b1",
   "addff208b5",
   "8394c9947d",
-  "64e9557c6c"
+  "64e9557c6c",
+  "5e1418479e"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
