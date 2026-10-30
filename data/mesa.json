@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3993.0 · NQ 28980.75 · VIX — · 1 noticias nuevas",
-   "actualizado": "2026-10-30T07:07:35Z"
+   "ultimo_resultado": "Oro 3992.1 · NQ 28994.75 · VIX — · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-30T07:12:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T07:07:33Z",
-   "ultimo_resultado": "1 titulares nuevos: India's gold imports down 81%; global prices could be impacted"
+   "actualizado": "2026-10-30T07:12:33Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Los aranceles de Trump no logran reducir el déficit comercial de EE. UU."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3992.1 · NQ 28994.75 · VIX — · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-30T07:12:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3993.0 · NQ 28980.75 · VIX — · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4024.7 · NQ 29510.25 · VIX 16.56",
    "ts": "2026-10-29T17:52:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4028.6 · NQ 29519.25 · VIX 16.51 · 1 noticias nuevas",
-   "ts": "2026-10-29T17:47:34Z"
   }
  ],
  "briefs": [
@@ -12559,11 +12559,53 @@
   }
  },
  "en_vivo": {
-  "oro": 3993.0,
-  "nq": 28980.75,
-  "ts": "2026-10-30T07:07:34Z"
+  "oro": 3992.1,
+  "nq": 28994.75,
+  "ts": "2026-10-30T07:12:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Trump's tariffs fail to cut US trade deficit, IW report shows",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQXAtelVIRmlkeEJiVmJ1VDVNTWFNOW5Yc3pQQjZFVVVmaGJaRjVzbjdWRlpKNlBKYWVXMmpOV3J4WldwRUs1U3hnalZ2d0wxRnlYbkZ3SVlnSGpfa2RWWE5LQ05GdlNnSmVSeEZsekVPSFNpZTd4QVpNTmcyc2tlRHNuWFlDMXZyUl9SN0hrejlpc3FSSXJMZkVCV296WU51bXZJ?oc=5",
+   "ts": "2026-10-30T07:07:43Z",
+   "fuente": "Reuters",
+   "id": "f5ac4aa003",
+   "activos": [
+    "dolar",
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Los aranceles de Trump no logran reducir el déficit comercial de EE. UU.",
+   "efecto": "Genera cautela sobre política comercial y presión moderada sobre el dólar."
+  },
+  {
+   "titulo": "A2Gold signs agreement to sell Bolo Gold project in Nevada",
+   "link": "https://www.mining-technology.com/news/a2gold-bolo-gold-project-nevada/?.tsrc=rss",
+   "ts": "2026-10-30T07:03:21Z",
+   "fuente": "Yahoo Finance",
+   "id": "33be130b44",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "A2Gold firma acuerdo para vender el proyecto Bolo Gold en Nevada",
+   "efecto": "Noticia corporativa menor, sin impacto institucional significativo en el oro."
+  },
+  {
+   "titulo": "U.S. stock futures sink, Nasdaq down 2% as Amazon, Intel earnings spark tech rout",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOc2J5YVBqWkJic2pWN3J6a3J3cFEwWEZ2cGlpaVJyWUgwbDBjMjZtY3hyeHI5MWNIUmR1YnV5R0QxZXE4TGFueXAtbl9WclBVUTdBZFVRRE9LcTVLWl9yR3lsRUhRZVQ3c0QwMXl5MzRDRnBpbEtfWk4wZFVMQkFPWk1Ldkx5YTVyWk9NT2UtZnhEUjF1cEthRGwtbGhNd0xzVmhmTXZjWWtkZF91T3A5d2hsVHRnUkdmajVfdFpOSDB4alhpNnNz?oc=5",
+   "ts": "2026-10-30T06:51:55Z",
+   "fuente": "Investing.com",
+   "id": "a9dad8e9a9",
+   "activos": [
+    "nq",
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Futuros de EE. UU. caen; Nasdaq baja 2% por resultados de Amazon e Intel",
+   "efecto": "Fuerte presión bajista en Nasdaq y búsqueda de refugio en el oro."
+  },
   {
    "titulo": "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms",
    "link": "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html",
@@ -13405,35 +13447,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "What Could Lift Newmont Stock?",
-   "link": "https://www.trefis.com/stock/nem/articles/621304/what-could-lift-newmont-stock/2026-10-29?.tsrc=rss",
-   "ts": "2026-10-29T20:39:36Z",
-   "fuente": "Yahoo Finance",
-   "id": "77c0e38f41",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Update: Nasdaq, S&P 500 Snap 3-Day Rise on Alphabet Sell-Off, Inflation Anxiety",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUjllbTYwZGZ0N0tEV0N4TTh0cG9WOXl0d196MVB0bXUtdThPZmppMzBjMjZ4NGEzWmNSUFJCbmJTcWYtektWQ0tRY0tlZFM4Zm5GYXhDX0J5ZUQzdVhYOHY4RXFkbG9tclI0a1VFTHI2S044bV9IdWZiTkxhTjc0bXQxYVBxbDF5TzBnUA?oc=5",
-   "ts": "2026-10-29T20:32:07Z",
-   "fuente": "Yahoo Finance",
-   "id": "6077bb8576",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Starbucks sales fall short of expectations, but its U.S. turnaround continues to gain steam",
-   "link": "https://www.cnbc.com/2026/10/29/starbucks-sbux-q4-2026-earnings.html",
-   "ts": "2026-10-29T20:29:10Z",
-   "fuente": "CNBC",
-   "id": "afd5fecdd1",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -13455,13 +13468,6 @@
  ],
  "velas": {
   "oro": [
-   [
-    1793005200,
-    4031.0,
-    4034.3,
-    4027.1,
-    4031.1
-   ],
    [
     1793008800,
     4031.0,
@@ -14076,24 +14082,24 @@
     4001.3,
     4003.4,
     3987.6,
-    3991.8
+    3992.2
    ],
    [
-    1793343452,
-    3992.8,
-    3992.8,
-    3992.8,
-    3992.8
+    1793343600,
+    3992.3,
+    3993.6,
+    3990.9,
+    3991.4
+   ],
+   [
+    1793343747,
+    3992.1,
+    3992.1,
+    3992.1,
+    3992.1
    ]
   ],
   "nq": [
-   [
-    1793008800,
-    29222.5,
-    29222.5,
-    29080.5,
-    29088.5
-   ],
    [
     1793012400,
     29087.25,
@@ -14708,14 +14714,21 @@
     28980.75,
     29062.0,
     28953.25,
-    28986.75
+    28996.75
    ],
    [
-    1793343453,
-    28980.75,
-    28980.75,
-    28980.75,
-    28980.75
+    1793343600,
+    28997.25,
+    29002.0,
+    28978.0,
+    28996.75
+   ],
+   [
+    1793343752,
+    28994.75,
+    28994.75,
+    28994.75,
+    28994.75
    ]
   ],
   "vix": [
@@ -15112,7 +15125,7 @@
     17.21
    ],
    [
-    1793304901,
+    1793304900,
     17.2,
     17.2,
     17.2,
@@ -15120,7 +15133,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-30T06:38:29Z",
+ "noticias_traducidas_ts": "2026-10-30T07:12:31Z",
  "ult_4h": 1793344054.1929705,
  "estrategia_4h": {
   "oro": {
@@ -15225,9 +15238,6 @@
   }
  ],
  "noticias_vistas": [
-  "22633dbf76",
-  "be01ad000f",
-  "661eac5c6c",
   "2a861159d3",
   "45591eda21",
   "b8a318c1e1",
@@ -16024,7 +16034,10 @@
   "1356fd30a0",
   "a5c5bfe333",
   "fbfebe8aff",
-  "fdfe8bdef4"
+  "fdfe8bdef4",
+  "f5ac4aa003",
+  "33be130b44",
+  "a9dad8e9a9"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
