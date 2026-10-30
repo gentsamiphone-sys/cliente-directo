@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3985.9 · NQ 28848.25 · VIX 18.48",
-   "actualizado": "2026-10-30T10:57:32Z"
+   "ultimo_resultado": "Oro 3985.1 · NQ 28841.5 · VIX 18.56 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-30T11:02:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T10:57:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-30T11:02:32Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Chevron and Exxon beat earnings expectations as refining profits soar on high diesel fuel prices"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3985.1 · NQ 28841.5 · VIX 18.56 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-30T11:02:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3985.9 · NQ 28848.25 · VIX 18.48",
@@ -1056,11 +1061,6 @@
    "agente": "cio",
    "texto": "Abriendo la mesa para la sesión de Asia (Tokio/Sídney).",
    "ts": "2026-10-29T21:32:43Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Starbucks sales miss expectations, but its U.S. turnaround is gaining steam",
-   "ts": "2026-10-29T21:32:31Z"
   }
  ],
  "briefs": [
@@ -12559,12 +12559,33 @@
   }
  },
  "en_vivo": {
-  "oro": 3985.9,
-  "nq": 28848.25,
-  "vix": 18.48,
-  "ts": "2026-10-30T10:57:32Z"
+  "oro": 3985.1,
+  "nq": 28841.5,
+  "vix": 18.56,
+  "ts": "2026-10-30T11:02:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Chevron and Exxon beat earnings expectations as refining profits soar on high diesel fuel prices",
+   "link": "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html",
+   "ts": "2026-10-30T10:58:24Z",
+   "fuente": "CNBC",
+   "id": "7cda921b8d",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Largo Reports Q3 2026 Production and Sales Results Reflecting Vanadium Diversification with First Production of Copper, Gold and Platinum Group Metals; Advances Commercial Bank Debt Restructuring",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/largo-reports-q3-2026-production-105100345.html?.tsrc=rss",
+   "ts": "2026-10-30T10:51:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "7db8c93bd9",
+   "activos": [
+    "oro",
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Tech scare trade hits Nasdaq futures while crypto reels from its biggest-ever hack",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4tMXZKWmdhTXNiUV9GZGxzcUNVLUtxUVZTdFFleUhzVW5WWDFNanZPYlRFS0poWDBjREp4TEtTRTV1U1h2MThVMDI5ZF9YSmx2dnQxRHVMd05STkdFcDJlalppLTY5dVI5anliVDViZjllRmg3ZzlDUGxpb1pDNVHSAYQBQVVfeXFMUDN2REVrN0hQMWtxcjRNalQ4cFB2V1ByQnNQYVR3M1NtV3lwTGtlRE9VdjRmM3dYZmNpZXg0NkJtaTBJUnhkNkJkXzdQSW5wUXlxTnN4T1ZEbE90TklEa1Q5azZIdjZRcno3RGpGUmFpdEg1LWRiendMNWpOaUhpbDd5eEwz?oc=5",
@@ -12586,6 +12607,17 @@
    "id": "b43b87e302",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "U.S. Treasury Yields Fall; Eurozone Bond Yields Mixed After GDP Data",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOS1p6ZkxEeDY0SlhyTDJKSXkyR1NkOUZVa1Z4NWJHU2cxdjFfVlI0TVBGZUZRR1dkLWpEY2RtNC1wSjZKb3ZKaTloVHlvVlF3cFZvdFI2Y3R4c3RIeFd3NU1NMWRpVDBlc3M3STVwa2ZxNVpTLTBIN0t5VTF5alltRGxFQWM3QUpibUF1LWN1Ykhmb3FvVkVmR1pDczZEa2YxTXZz?oc=5",
+   "ts": "2026-10-30T10:31:00Z",
+   "fuente": "WSJ",
+   "id": "d607e2ed63",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Chevron beats earnings expectations as refining profits soar on high diesel fuel prices",
@@ -13430,42 +13462,6 @@
     "dolar"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Gold Declines, Weighed by Tighter Monetary Policy Expectations",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdkE4aGdIVUE5b214Nmt2UmV6SnMtNDhaeTV5VEpPd2o2MWVBTklmYW1teWxmbDdVSy1NSHlJTHMycjlhZDhwQnAwVlZ0MFkxWS1lWTgxanJGbEVWbjhaaEJWejB2SzhWYVFYZmpSTjJYaXUtOGZlTGZDTWNFR3oxZzROV0lTeW9ZU1hWeV94aDI2TklxMTlHa3lobHU0WjVUT3lPRDBMcDJnckxTQnBOLXl6RjM0M1BVZ1E?oc=5",
-   "ts": "2026-10-30T01:22:48Z",
-   "fuente": "WSJ",
-   "id": "5d3c1b3bba",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Eldorado Gold Corp (EGO) (Q3 2026) Earnings Call Highlights: Record Revenue and Skouries ...",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYnRVeXZDbHF0SkljQjZnM2E5czFyZk5qT3M2cm43ZS1WdjZQR3hWQWV4ODZxTFkyanVvMU5xY1R6WVNLRXp0N3JudHNqOEdEZEs0bmhqYVVCaVhwLVlUdzBCTnJLTUNUOFc4OUJUZmtMaEE5OURHZTFpTDRrM2xDaEpuaVg1UzVyVHBucGFtaU5sZ0RC?oc=5",
-   "ts": "2026-10-30T01:10:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "bf6b6c4e11",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "U.S. stock futures sink, Nasdaq down 2% as Amazon, Intel earnings underwhelm",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOc2J5YVBqWkJic2pWN3J6a3J3cFEwWEZ2cGlpaVJyWUgwbDBjMjZtY3hyeHI5MWNIUmR1YnV5R0QxZXE4TGFueXAtbl9WclBVUTdBZFVRRE9LcTVLWl9yR3lsRUhRZVQ3c0QwMXl5MzRDRnBpbEtfWk4wZFVMQkFPWk1Ldkx5YTVyWk9NT2UtZnhEUjF1cEthRGwtbGhNd0xzVmhmTXZjWWtkZF91T3A5d2hsVHRnUkdmajVfdFpOSDB4alhpNnNz?oc=5",
-   "ts": "2026-10-30T01:06:37Z",
-   "fuente": "Investing.com",
-   "id": "2d107eef9b",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Futuros de EE. UU. caen, Nasdaq baja 2% por resultados flojos de Amazon e Intel",
-   "efecto": "Fuerte presión bajista en Nasdaq por decepción tecnológica."
   }
  ],
  "eventos_avisados": [
@@ -14107,15 +14103,15 @@
     1793354400,
     4001.7,
     4002.0,
-    3985.7,
-    3985.8
+    3984.2,
+    3985.1
    ],
    [
-    1793357249,
-    3985.9,
-    3985.9,
-    3985.9,
-    3985.9
+    1793357548,
+    3985.1,
+    3985.1,
+    3985.1,
+    3985.1
    ]
   ],
   "nq": [
@@ -14740,14 +14736,14 @@
     28887.75,
     28888.75,
     28836.25,
-    28847.75
+    28839.25
    ],
    [
-    1793357249,
-    28848.25,
-    28848.25,
-    28848.25,
-    28848.25
+    1793357550,
+    28841.5,
+    28841.5,
+    28841.5,
+    28841.5
    ]
   ],
   "vix": [
@@ -15167,16 +15163,16 @@
    [
     1793354400,
     18.37,
-    18.54,
+    18.57,
     18.37,
-    18.48
+    18.57
    ],
    [
-    1793356936,
-    18.48,
-    18.48,
-    18.48,
-    18.48
+    1793357251,
+    18.56,
+    18.56,
+    18.56,
+    18.56
    ]
   ]
  },
@@ -15285,9 +15281,6 @@
   }
  ],
  "noticias_vistas": [
-  "267e00e4b4",
-  "90e6c97fdd",
-  "84513a208b",
   "4476e70a3f",
   "3d08577a2f",
   "41b517cb30",
@@ -16084,7 +16077,10 @@
   "695a9e66ba",
   "add1ef1890",
   "8bee6c3892",
-  "c479c99299"
+  "c479c99299",
+  "7cda921b8d",
+  "7db8c93bd9",
+  "d607e2ed63"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
