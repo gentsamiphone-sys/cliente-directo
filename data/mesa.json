@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 4002.2 · NQ 28934.25 · VIX 18.31",
-   "actualizado": "2026-10-30T09:42:32Z"
+   "ultimo_resultado": "Oro 4000.6 · NQ 28924.5 · VIX 18.27 · 1 noticias nuevas",
+   "actualizado": "2026-10-30T09:47:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T09:42:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-30T09:47:32Z",
+   "ultimo_resultado": "1 titulares nuevos: Nasdaq futures tumble as Amazon, Intel results deepen AI spending woes"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 4000.6 · NQ 28924.5 · VIX 18.27 · 1 noticias nuevas",
+   "ts": "2026-10-30T09:47:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 4002.2 · NQ 28934.25 · VIX 18.31",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4041.3 · NQ 29162.75 · VIX 17.17 · 4 noticias nuevas",
    "ts": "2026-10-29T20:22:34Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Estrategia 4H NQ: VENTA: esperar retesteo de 29482.5 · stop 29622.17 · objetivo 29111.0 · R:R 2.66 (esperando retesteo). Tú ejecutas.",
-   "ts": "2026-10-29T20:22:32Z"
   }
  ],
  "briefs": [
@@ -12559,10 +12559,10 @@
   }
  },
  "en_vivo": {
-  "oro": 4002.2,
-  "nq": 28934.25,
-  "vix": 18.31,
-  "ts": "2026-10-30T09:42:32Z"
+  "oro": 4000.6,
+  "nq": 28924.5,
+  "vix": 18.27,
+  "ts": "2026-10-30T09:47:32Z"
  },
  "noticias": [
   {
@@ -12600,6 +12600,17 @@
    "impacto": "alto",
    "es": "Los futuros del Nasdaq caen más del 2% por desplome tecnológico global",
    "efecto": "Genera ventas masivas en el NQ y busca refugio en el dólar."
+  },
+  {
+   "titulo": "Nasdaq futures tumble as Amazon, Intel results deepen AI spending woes",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9kWmsySXR0VTdCdElOUHNvZzRSdGVuYkQxSmR6cktIR1FPM2J2UWFvWWZCUHJzUTE1QThPZ0tlOXBvX0JhZXlfUkRKTHh5UjQ2Z1dJRmxqb3RJVjUyZW52MjNBLWRibHo3UzloNVdRZ21xY1E?oc=5",
+   "ts": "2026-10-30T08:46:00Z",
+   "fuente": "San Luis Obispo Tribune",
+   "id": "6e8abcd66f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Amazon falls 7%, Intel plunges 25% in premarket trading, as pressure mounts after earnings",
@@ -13440,19 +13451,6 @@
    "id": "d973e10b0f",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Capstone Copper Q3 adjusted profit rises on metal prices; output slumps",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/capstone-copper-q3-adjusted-profit-221609306.html?.tsrc=rss",
-   "ts": "2026-10-29T22:16:09Z",
-   "fuente": "Yahoo Finance",
-   "id": "95c45f3ed1",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "El beneficio ajustado del 3T de Capstone Copper sube por precios de metales; cae la producción",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -14098,11 +14096,11 @@
     4000.9
    ],
    [
-    1793352746,
-    4002.2,
-    4002.2,
-    4002.2,
-    4002.2
+    1793353050,
+    4000.6,
+    4000.6,
+    4000.6,
+    4000.6
    ]
   ],
   "nq": [
@@ -14726,15 +14724,15 @@
     1793350800,
     28987.0,
     29007.25,
-    28904.5,
-    28909.75
+    28897.5,
+    28925.5
    ],
    [
-    1793352752,
-    28933.0,
-    28933.0,
-    28933.0,
-    28933.0
+    1793353052,
+    28924.5,
+    28924.5,
+    28924.5,
+    28924.5
    ]
   ],
   "vix": [
@@ -15147,16 +15145,16 @@
    [
     1793350800,
     18.09,
-    18.3,
+    18.31,
     18.03,
-    18.28
+    18.27
    ],
    [
-    1793352436,
-    18.31,
-    18.31,
-    18.31,
-    18.31
+    1793352736,
+    18.27,
+    18.27,
+    18.27,
+    18.27
    ]
   ]
  },
@@ -15265,7 +15263,6 @@
   }
  ],
  "noticias_vistas": [
-  "8e8d363f93",
   "be7f39557b",
   "613ad59271",
   "ed14dc05e1",
@@ -16064,7 +16061,8 @@
   "88442940c6",
   "92d60cd67e",
   "b512041757",
-  "b8a2a22c08"
+  "b8a2a22c08",
+  "6e8abcd66f"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
