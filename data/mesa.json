@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3953.3 · NQ 28802.25 · VIX 18.67 · 6 noticias nuevas",
-   "actualizado": "2026-10-30T13:37:31Z"
+   "ultimo_resultado": "Oro 3944.9 · NQ 28736.75 · VIX 18.71 · 1 noticias nuevas",
+   "actualizado": "2026-10-30T13:42:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T13:37:30Z",
-   "ultimo_resultado": "6 titulares nuevos: Nasdaq falls more than 2% as investors rotate out of tech after Amazon, Intel earnings: Live updates"
+   "actualizado": "2026-10-30T13:42:33Z",
+   "ultimo_resultado": "1 titulares nuevos: The best ways to earn and use cash back for your holiday shopping"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3944.9 · NQ 28736.75 · VIX 18.71 · 1 noticias nuevas",
+   "ts": "2026-10-30T13:42:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3953.3 · NQ 28802.25 · VIX 18.67 · 6 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4021.9 · NQ 29073.5 · VIX 17.2",
    "ts": "2026-10-30T00:32:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4023.3 · NQ 29068.0 · VIX 17.2",
-   "ts": "2026-10-30T00:27:33Z"
   }
  ],
  "briefs": [
@@ -12558,12 +12558,21 @@
   }
  },
  "en_vivo": {
-  "oro": 3953.3,
-  "nq": 28802.25,
-  "vix": 18.67,
-  "ts": "2026-10-30T13:37:30Z"
+  "oro": 3944.9,
+  "nq": 28736.75,
+  "vix": 18.71,
+  "ts": "2026-10-30T13:42:33Z"
  },
  "noticias": [
+  {
+   "titulo": "The best ways to earn and use cash back for your holiday shopping",
+   "link": "https://www.cnbc.com/select/best-ways-to-earn-and-use-cash-back-holiday-shopping/",
+   "ts": "2026-10-30T13:34:51Z",
+   "fuente": "CNBC",
+   "id": "b65b53e166",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Nasdaq falls more than 2% as investors rotate out of tech after Amazon, Intel earnings: Live updates",
    "link": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
@@ -13429,19 +13438,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Trump, Vance scrap planned appearances in final stretch of midterm campaign",
-   "link": "https://www.cnbc.com/2026/10/30/trump-vance-rally-midterm-elections-.html",
-   "ts": "2026-10-30T08:18:13Z",
-   "fuente": "CNBC",
-   "id": "cbbf800afe",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "bajo",
-   "es": "Trump y Vance cancelan apariciones previstas en la recta final de campaña",
-   "efecto": "Ruido político menor, sin impacto institucional inmediato en activos."
   }
  ],
  "eventos_avisados": [
@@ -14083,15 +14079,15 @@
     1793365200,
     3963.3,
     3964.8,
-    3946.0,
-    3951.6
+    3943.6,
+    3944.5
    ],
    [
-    1793366850,
-    3952.9,
-    3952.9,
-    3952.9,
-    3952.9
+    1793367153,
+    3945.2,
+    3945.2,
+    3945.2,
+    3945.2
    ]
   ],
   "nq": [
@@ -14714,16 +14710,16 @@
    [
     1793365200,
     28813.25,
-    28817.75,
-    28756.25,
-    28798.0
+    28821.0,
+    28711.0,
+    28714.25
    ],
    [
-    1793366850,
-    28802.75,
-    28802.75,
-    28802.75,
-    28802.75
+    1793367154,
+    28730.5,
+    28730.5,
+    28730.5,
+    28730.5
    ]
   ],
   "vix": [
@@ -15166,14 +15162,14 @@
     18.62,
     18.76,
     18.59,
-    18.68
+    18.69
    ],
    [
-    1793366536,
-    18.67,
-    18.67,
-    18.67,
-    18.67
+    1793366701,
+    18.71,
+    18.71,
+    18.71,
+    18.71
    ]
   ]
  },
@@ -15284,7 +15280,6 @@
   }
  ],
  "noticias_vistas": [
-  "7dc265ec88",
   "06660a4d6f",
   "5592740cc6",
   "c8889a6201",
@@ -16083,7 +16078,8 @@
   "59bb32b455",
   "7c70cb7321",
   "e3ddd39f13",
-  "34daaff073"
+  "34daaff073",
+  "b65b53e166"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
