@@ -5596,10 +5596,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ultimo_resultado": "0 negocios nuevos de herrerías y oficios cerca de E Lake Mead Blvd",
-   "actualizado": "2026-10-30T01:06:20Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
+   "actualizado": "2026-10-30T01:06:25Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -5627,6 +5627,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
+   "ts": "2026-10-30T01:06:25Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -7121,11 +7126,6 @@
    "agente": "disenador",
    "texto": "Armando la muestra de Solo qui…",
    "ts": "2026-10-27T19:27:55Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Muestra lista de Gold mine Bar & Grill y su mensaje para mandar por texto.",
-   "ts": "2026-10-27T19:27:44Z"
   }
  ],
  "reportes": {
