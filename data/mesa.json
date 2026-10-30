@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3907.8 · NQ 28608.5 · VIX 20.06 · 4 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-30T16:42:34Z"
+   "ultimo_resultado": "Oro 3908.9 · NQ 28599.25 · VIX 20.02 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-30T16:47:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T16:42:33Z",
-   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: Google lost nearly half a trillion this week. Here's how Mike Khouw is trading it"
+   "actualizado": "2026-10-30T16:47:37Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Tribunal acelera mociones para desestimar demanda del DOJ sobre candidatura de Sullivan en Alaska."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3908.9 · NQ 28599.25 · VIX 20.02 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-30T16:47:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3907.8 · NQ 28608.5 · VIX 20.06 · 4 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4008.4 · NQ 28904.0 · VIX 17.2",
    "ts": "2026-10-30T03:17:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4008.2 · NQ 28907.0 · VIX 17.2",
-   "ts": "2026-10-30T03:12:37Z"
   }
  ],
  "briefs": [
@@ -12558,12 +12558,23 @@
   }
  },
  "en_vivo": {
-  "oro": 3907.8,
-  "nq": 28608.5,
-  "vix": 20.06,
-  "ts": "2026-10-30T16:42:33Z"
+  "oro": 3908.9,
+  "nq": 28599.25,
+  "vix": 20.02,
+  "ts": "2026-10-30T16:47:37Z"
  },
  "noticias": [
+  {
+   "titulo": "Alaska Senate: Judge fast tracks new bids to dismiss DOJ lawsuit over 2nd Sullivan candidacy",
+   "link": "https://www.cnbc.com/2026/10/30/alaska-senate-election-doj-lawsuit-sullivan-peltola.html",
+   "ts": "2026-10-30T16:45:58Z",
+   "fuente": "CNBC",
+   "id": "33f05ca1a7",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Tribunal acelera mociones para desestimar demanda del DOJ sobre candidatura de Sullivan en Alaska.",
+   "efecto": "Ruido político local sin impacto en mercados globales."
+  },
   {
    "titulo": "Google lost nearly half a trillion this week. Here's how Mike Khouw is trading it",
    "link": "https://www.cnbc.com/2026/10/30/google-lost-about-half-a-trillion-this-week-how-mike-khouw-trades-it-.html",
@@ -12572,6 +12583,21 @@
    "id": "796c06fbf6",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Fed's Musalem says a rate hike is needed 'soon'",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObTlSSnpPaC0yUGM0aTNCb3h0cUVRejBTRjg0SXVnT0MwSXNMSzBVS1NFSEpUaGxtOUpzSkZmQlRKWjFWQ2UtNEp2RUgzcWwyMEN3clpKaU1acDlRUGFhS21BTEpWQjdSVURWZjRJd19Tc19pbVVHeWYwUEZLdUlka0x6M1p5WDRMVkVjRmlLTWU?oc=5",
+   "ts": "2026-10-30T16:32:55Z",
+   "fuente": "Reuters",
+   "id": "7ed87cc4cc",
+   "activos": [
+    "oro",
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Musalem de la Fed afirma que se necesita una subida de tasas 'pronto'.",
+   "efecto": "Fortalece al dólar, presiona a la baja al oro y al NQ."
   },
   {
    "titulo": "Halloween gets pricier as chocolate costs climb — Hershey may feel the pinch",
@@ -13416,26 +13442,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Stocks making the biggest moves premarket: Intel, Amazon, Reddit, Chevron & more",
-   "link": "https://www.cnbc.com/2026/10/30/stocks-making-the-biggest-moves-premarket-intc-amzn-rddt-cvx.html",
-   "ts": "2026-10-30T12:01:15Z",
-   "fuente": "CNBC",
-   "id": "ea3142b0a8",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Peter Schiff Slams Trump’s Tariffs as ‘Complete Failure’ After September Trade Deficit Hits $134.9 Billion: ‘Worst Economy in History’",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWG5UVlRiWmozdDhXbUNHcWUtc1VYMXR6Q3lBTk5yYW1sVVQ5MFFjTVB2MnFPSDRBQlBBaEJQMHB5a0NOdk1mUmRNQWE4TG9oWUdJbURUdmhKTmlYUlc1MkFvYnl2ODEzTDNZbndGT2VBS3dGaTlCOG5lVU5ERmF2b3ljZHd4cWhLazY2Uk5oX2NPdU5JSnlRbll1b0t0UQ?oc=5",
-   "ts": "2026-10-30T12:00:13Z",
-   "fuente": "Yahoo Finance",
-   "id": "d411aea699",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -14078,14 +14084,14 @@
     3907.6,
     3912.6,
     3903.9,
-    3907.3
+    3908.8
    ],
    [
-    1793377705,
-    3907.8,
-    3907.8,
-    3907.8,
-    3907.8
+    1793377984,
+    3908.9,
+    3908.9,
+    3908.9,
+    3908.9
    ]
   ],
   "nq": [
@@ -14710,14 +14716,14 @@
     28669.75,
     28670.25,
     28568.25,
-    28612.25
+    28594.5
    ],
    [
-    1793377709,
-    28608.5,
-    28608.5,
-    28608.5,
-    28608.5
+    1793377901,
+    28597.5,
+    28597.5,
+    28597.5,
+    28597.5
    ]
   ],
   "vix": [
@@ -15181,18 +15187,18 @@
     19.73,
     20.27,
     19.73,
-    20.08
+    20.03
    ],
    [
-    1793377411,
-    20.06,
-    20.06,
-    20.06,
-    20.06
+    1793377636,
+    20.02,
+    20.02,
+    20.02,
+    20.02
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-30T16:17:32Z",
+ "noticias_traducidas_ts": "2026-10-30T16:47:35Z",
  "ult_4h": 1793378255.560679,
  "estrategia_4h": {
   "oro": {
@@ -15311,8 +15317,6 @@
   }
  ],
  "noticias_vistas": [
-  "02d7613706",
-  "300c9de1b3",
   "b468d95992",
   "fa55f9edc3",
   "29af0b10fd",
@@ -16110,7 +16114,9 @@
   "796c06fbf6",
   "b237429eeb",
   "5cc59d1262",
-  "cf437e4c9f"
+  "cf437e4c9f",
+  "33f05ca1a7",
+  "7ed87cc4cc"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
