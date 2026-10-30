@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3908.1 · NQ 28604.5 · VIX 19.94 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-10-30T16:52:32Z"
+   "ultimo_resultado": "Oro 3907.5 · NQ 28593.75 · VIX 19.95 · 3 noticias nuevas",
+   "actualizado": "2026-10-30T16:57:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T16:52:30Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: St. Louis Fed's Musalem: Another rate hike needed 'soon'"
+   "actualizado": "2026-10-30T16:57:33Z",
+   "ultimo_resultado": "3 titulares nuevos: Intel stock heads for worst day in more than 50 years, wiping $12 billion off government's stake"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3907.5 · NQ 28593.75 · VIX 19.95 · 3 noticias nuevas",
+   "ts": "2026-10-30T16:57:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3908.1 · NQ 28604.5 · VIX 19.94 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4003.8 · NQ 28878.25 · VIX 17.2 · 1 noticias nuevas",
    "ts": "2026-10-30T03:27:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4006.6 · NQ 28903.75 · VIX 17.2 · 2 noticias nuevas (1 alto impacto)",
-   "ts": "2026-10-30T03:22:35Z"
   }
  ],
  "briefs": [
@@ -12558,12 +12558,32 @@
   }
  },
  "en_vivo": {
-  "oro": 3908.1,
-  "nq": 28604.5,
-  "vix": 19.94,
-  "ts": "2026-10-30T16:52:31Z"
+  "oro": 3907.5,
+  "nq": 28593.75,
+  "vix": 19.95,
+  "ts": "2026-10-30T16:57:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Intel stock heads for worst day in more than 50 years, wiping $12 billion off government's stake",
+   "link": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
+   "ts": "2026-10-30T16:54:11Z",
+   "fuente": "CNBC",
+   "id": "6a6a5ac637",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Stocks making the biggest moves midday: Intel, Lumentum, Sandisk, Twilio, Coinbase & more",
+   "link": "https://www.cnbc.com/2026/10/30/stocks-making-the-biggest-moves-midday-intc-lite-sndk-twlo-coin.html",
+   "ts": "2026-10-30T16:51:44Z",
+   "fuente": "CNBC",
+   "id": "e5128a6f4f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "St. Louis Fed's Musalem: Another rate hike needed 'soon'",
    "link": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html",
@@ -12671,6 +12691,17 @@
    "id": "48ced10472",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold prices drop sharply at the end of October. The collapse of the safe-haven myth or a search for liquidity?",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNcWh6TGR5aUlDd04yYWhxN2pMRUJGRVdIcUN3aWpHRFFDSUZ0WFFfb1VDV2hfejlWVjk5a3B1NWJLT09Hbjk0NEltaVJxTHpweFg3cDYwMndaVFpvRk5NZTlPSE9BWVdxb1o2NWE1UXNDNWhGSWNtS0lmZk5vMkhObXlfSEs5MHVUcUhZTHFwWUpRVHVTNHZVMXl6eE83VkFNV09fVHlIT2RqVWM1RE1Nb2d4MUI1ZHhxYVRYaFRYZnFwLXY0X296eXJyaWx6VjFYQUJscDRNcDNKNlA3WDdURFNORFJmVllta3lnWlVhYndGcl82bDhBMQ?oc=5",
+   "ts": "2026-10-30T15:56:30Z",
+   "fuente": "XTB.com",
+   "id": "6dffe21acf",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Bilt simplifies its rewards program and eases Bilt Cash restrictions. Here’s what to know",
@@ -13410,37 +13441,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "The big questions remaining after Anthropic’s blockbuster IPO prospectus",
-   "link": "https://www.cnbc.com/2026/10/30/anthropic-ipo-s1-revenue-compute.html",
-   "ts": "2026-10-30T12:27:36Z",
-   "fuente": "CNBC",
-   "id": "dde6aa324c",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Regeneron (NASDAQ:REGN) surprises with strong Q3 2026, stock soars",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZXh5eUNoU2VxdmFIYzdBZWVINm8xYnVQNVNPRC1PanhtYjJFbW02NUtvRGJOcDk1akJyeHdNcDh0ZUZTS01wcWoyMnplNEVUOTBTVW5KbENxbGE2VTliRFBVOE00RkhodHRFdEg5YW9JODdleDRJSUNYZE9LSTVTYTRLQzQzSkp6Wm92UUxmbVg3SlV1VjVEY1pWQl9XdFY4MHoxUzN3?oc=5",
-   "ts": "2026-10-30T12:24:32Z",
-   "fuente": "Yahoo Finance",
-   "id": "f9ee2f30f3",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "JQQQ Blockchain Fund Tracks Nasdaq 100 Index",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOXN6aTl2VklFM2E0UTEzVzNuUWlLVWtTclk5VkJDNXZWS3ZjUVFJQTFSVGdFZzl1MnVaMlZrSHFzRlc4NFZBbnJoVUpWUThZa3hQSXZxaEJDYl95UXlhbWhsOUZwRTBfS3VfX2o1R2R0NGxuUW5kbWp2YnVWVFBxSkx0T1JqLTRqYzRvYlE1Mlc1NUFxVXZQYlB1ZHp4SVloMkFGSXhtTTJIN2V1MVppZjR2blBEb0QzWUlMR3dnUFotdWVT?oc=5",
-   "ts": "2026-10-30T12:24:11Z",
-   "fuente": "Funds Society",
-   "id": "75b9df4a16",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14083,14 +14083,14 @@
     3907.6,
     3912.6,
     3903.9,
-    3907.6
+    3905.7
    ],
    [
-    1793378204,
-    3908.1,
-    3908.1,
-    3908.1,
-    3908.1
+    1793378470,
+    3907.5,
+    3907.5,
+    3907.5,
+    3907.5
    ]
   ],
   "nq": [
@@ -14715,14 +14715,14 @@
     28669.75,
     28670.25,
     28568.25,
-    28603.0
+    28593.0
    ],
    [
-    1793378091,
-    28605.0,
-    28605.0,
-    28605.0,
-    28605.0
+    1793378291,
+    28593.75,
+    28593.75,
+    28593.75,
+    28593.75
    ]
   ],
   "vix": [
@@ -15186,14 +15186,14 @@
     19.73,
     20.27,
     19.73,
-    19.81
+    19.97
    ],
    [
-    1793377831,
-    19.94,
-    19.94,
-    19.94,
-    19.94
+    1793378071,
+    19.95,
+    19.95,
+    19.95,
+    19.95
    ]
   ]
  },
@@ -15316,9 +15316,6 @@
   }
  ],
  "noticias_vistas": [
-  "29af0b10fd",
-  "e3b3c3fa1c",
-  "bf62792f57",
   "2140bf08b7",
   "1ce31104df",
   "e3d7cfcb33",
@@ -16115,7 +16112,10 @@
   "33f05ca1a7",
   "7ed87cc4cc",
   "4a2ab5fb42",
-  "6a8171bd58"
+  "6a8171bd58",
+  "6a6a5ac637",
+  "e5128a6f4f",
+  "6dffe21acf"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
