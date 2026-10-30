@@ -5597,9 +5597,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Revisando la lista para no repetir negocios",
+   "tarea": "Buscando restaurantes y comida sin página web cerca de Las Vegas Blvd N…",
    "ultimo_resultado": "No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
-   "actualizado": "2026-10-30T19:02:29Z"
+   "actualizado": "2026-10-30T19:02:31Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -5627,6 +5627,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Buscando restaurantes y comida sin página web cerca de Las Vegas Blvd N…",
+   "ts": "2026-10-30T19:02:31Z"
+  },
   {
    "agente": "gerente",
    "texto": "Terminó su turno: 250 textos listos para mandar",
@@ -7121,11 +7126,6 @@
    "agente": "vendedor",
    "texto": "Terminó su turno: Fuera de horario: 0 correos listos para la mañana",
    "ts": "2026-10-28T07:52:32Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Terminó su turno: 3 muestras nuevas",
-   "ts": "2026-10-28T07:35:59Z"
   }
  ],
  "reportes": {
