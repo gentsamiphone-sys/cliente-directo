@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3883.3 · NQ 28552.25 · VIX 19.42 · 1 noticias nuevas",
-   "actualizado": "2026-10-30T20:52:36Z"
+   "ultimo_resultado": "Oro 3882.4 · NQ 28546.5 · VIX 19.42 · 3 noticias nuevas",
+   "actualizado": "2026-10-30T20:57:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T20:52:35Z",
-   "ultimo_resultado": "1 titulares nuevos: Youth softball organization issues lifetime bans for those involved in melee at Texas tournament"
+   "actualizado": "2026-10-30T20:57:33Z",
+   "ultimo_resultado": "3 titulares nuevos: Stock market rocked as investors dump tech shares; Nasdaq suffers worst day since June"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3882.4 · NQ 28546.5 · VIX 19.42 · 3 noticias nuevas",
+   "ts": "2026-10-30T20:57:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3883.3 · NQ 28552.25 · VIX 19.42 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
    "ts": "2026-10-30T06:33:04Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Midiendo volatilidad y rango esperado del día…",
-   "ts": "2026-10-30T06:33:03Z"
   }
  ],
  "briefs": [
@@ -12558,12 +12558,23 @@
   }
  },
  "en_vivo": {
-  "oro": 3883.3,
-  "nq": 28552.25,
+  "oro": 3882.4,
+  "nq": 28546.5,
   "vix": 19.42,
-  "ts": "2026-10-30T20:52:36Z"
+  "ts": "2026-10-30T20:57:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Stock market rocked as investors dump tech shares; Nasdaq suffers worst day since June",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVll4LVFGMjA2Y0lxRFBqS2g3T19vQmtzeG1STUp3cWdYZTJVNTRxeHQ1R21JTzBRcFRhNHFha2pEMmI2Z0ozVnpIYkY4RkxaamlzWGp5MlhLZkVQYjJnNkw4VjBNTnJ0Rk5VcVpKS3JqeVA3T2FEZnIwUU10NTdON1AxNGVZRGwxVjJLOXNXVmswM3lhNk1xdm8xT0h0aVBmc1FCVWs1c19nQV9rZEtGbXZ1dkJKRl83QjI5LU03WER0TlZsdjRB?oc=5",
+   "ts": "2026-10-30T20:54:23Z",
+   "fuente": "CNBC",
+   "id": "4f0ac125e9",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Youth softball organization issues lifetime bans for those involved in melee at Texas tournament",
    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPMUxCRDY0YzVad3ZRWGdoQzhoak56S1RVNG91WVdWTFV1YVVJdjJpMjhGa0hYd3BnNkExNGRBcU02RFRBYW5JcFlhaEVPb1BzVDBTRzVSVnlYd0dDUkhRZGY1MmFyQkk0WUk1R0FjY0ZhV0xib0dJekJCYTNIbmtLZGFwSktKbGVjVm9sSmRwTnVwT0lBT1JMY2xyM29GZkk4NFUxU2xYa1E0NFRXaDhTcWNJQktaTmhRY1Nhd3V2Y3FCTUhVd1I0Y1RfamEwUVEtb3RURXFGSWd1S3R0UndERHJFMA?oc=5",
@@ -12572,6 +12583,26 @@
    "id": "b66e13b1b6",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Trump admin again loses bid to block California from counting alleged noncitizen votes",
+   "link": "https://www.cnbc.com/2026/10/30/trump-california-counting-alleged-noncitizen-votes.html",
+   "ts": "2026-10-30T20:43:57Z",
+   "fuente": "CNBC",
+   "id": "f24e7581f0",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Wall Street closes sharply lower as AI cash burn fears spark tech selloff",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPblVtZktXRjdPbHJBWDM4WWJsV2RyMlhnOVFYRTZPc01udjZNZTVjeHdIN1dVY0w1M1NHbHpxNjV6Vm9jQ3FOUjBIaElyZEdSWWxycmNZdnJwNnBfdTJDc1FBMWVJZ19vR0s3Y1h2Uml2LThWc2NzQ2sxN3NnVzFEeGhvNnpPSElHSFRIQnJreHpCR2c3dnRQbEVYTDlJVjhzVVk3b1gxaFczMFhkb2NDSw?oc=5",
+   "ts": "2026-10-30T20:38:32Z",
+   "fuente": "Reuters",
+   "id": "9e8755852c",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Tech stocks wipe out $1 trillion in value as concerns deepen about the AI boom",
@@ -13403,37 +13434,6 @@
    "id": "b2d626abad",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Broadridge runs Wall Street’s market plumbing. Tokenization may expand its role",
-   "link": "https://www.cnbc.com/2026/10/30/broadridge-tokenization-stock.html",
-   "ts": "2026-10-30T15:52:38Z",
-   "fuente": "CNBC",
-   "id": "1accc6de03",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Trump rallies in Kansas and Iowa are back on after RNC said they were canceled: Source",
-   "link": "https://www.cnbc.com/2026/10/30/trump-vance-rally-midterm-elections-.html",
-   "ts": "2026-10-30T15:52:35Z",
-   "fuente": "CNBC",
-   "id": "9f56d940d8",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Jim Cramer reveals 3 stocks to buy — plus, why he is not selling the Intel plunge",
-   "link": "https://www.cnbc.com/investingclub/2026/10/30/cramer-sees-3-stocks-to-buy-not-selling-the-intel-plunge.html",
-   "ts": "2026-10-30T15:49:19Z",
-   "fuente": "CNBC",
-   "id": "5509138c95",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -14075,15 +14075,15 @@
     1793390400,
     3892.8,
     3897.4,
-    3882.4,
-    3882.4
+    3881.3,
+    3883.0
    ],
    [
-    1793392946,
-    3883.3,
-    3883.3,
-    3883.3,
-    3883.3
+    1793393250,
+    3882.4,
+    3882.4,
+    3882.4,
+    3882.4
    ]
   ],
   "nq": [
@@ -14708,14 +14708,14 @@
     28528.25,
     28584.25,
     28517.25,
-    28554.25
+    28545.25
    ],
    [
-    1793392954,
-    28552.75,
-    28552.75,
-    28552.75,
-    28552.75
+    1793393252,
+    28546.5,
+    28546.5,
+    28546.5,
+    28546.5
    ]
   ],
   "vix": [
@@ -15219,27 +15219,38 @@
   ]
  },
  "noticias_traducidas_ts": "2026-10-30T20:37:34Z",
- "ult_4h": 1793392953.3901627,
+ "ult_4h": 1793393853.4974046,
  "estrategia_4h": {
   "oro": {
-   "precio": 3888.1,
-   "atr_4h": 33.94,
+   "precio": 3882.4,
+   "atr_4h": 34.26,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4021.26,
+     "stop": 4021.46,
      "objetivo": 3879.3,
-     "rr": 5.97,
+     "rr": 5.91,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.0,
+     "fuerza_ruptura_atr": 1.98,
+     "ruptura": "2026-10-30 04:00 UTC"
+    },
+    {
+     "direccion": "VENTA",
+     "nivel": 3989.1,
+     "entrada": 3989.1,
+     "stop": 4009.66,
+     "objetivo": 3879.3,
+     "rr": 5.34,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 1.98,
      "ruptura": "2026-10-30 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 28550.0,
+   "precio": 28546.5,
    "atr_4h": 351.98,
    "setups": [
     {
@@ -15266,7 +15277,7 @@
     }
    ]
   },
-  "ts": "2026-10-30T20:42:33Z"
+  "ts": "2026-10-30T20:57:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15337,9 +15348,6 @@
   }
  ],
  "noticias_vistas": [
-  "f6a59aa215",
-  "7f13126197",
-  "d544d43ac9",
   "405ec66082",
   "22c97846b9",
   "e563a1f0e1",
@@ -16136,7 +16144,10 @@
   "8e72940724",
   "91ba4fc6a6",
   "7204ea6d90",
-  "b66e13b1b6"
+  "b66e13b1b6",
+  "4f0ac125e9",
+  "f24e7581f0",
+  "9e8755852c"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
