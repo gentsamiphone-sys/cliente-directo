@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3991.0 · NQ 28837.25 · VIX 18.52 · 1 noticias nuevas",
-   "actualizado": "2026-10-30T11:12:33Z"
+   "ultimo_resultado": "Oro 3991.7 · NQ 28842.25 · VIX 18.44 · 1 noticias nuevas",
+   "actualizado": "2026-10-30T11:17:30Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T11:12:32Z",
-   "ultimo_resultado": "1 titulares nuevos: ETF de Vanguard en EE.UU. con ingresos estables enfocado en oro"
+   "actualizado": "2026-10-30T11:17:29Z",
+   "ultimo_resultado": "1 titulares nuevos: Delta Commences Its First-Ever Drill Program at I-Zone-Crayfish Creek Fault Corridor and Reports Channel-Sampling Results Including 2.36 g/t Gold over 15.1 Metres"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3991.7 · NQ 28842.25 · VIX 18.44 · 1 noticias nuevas",
+   "ts": "2026-10-30T11:17:30Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3991.0 · NQ 28837.25 · VIX 18.52 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
    "ts": "2026-10-29T21:32:47Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Historial: 12 operaciones, 25% de acierto, +6.08 R.",
-   "ts": "2026-10-29T21:32:46Z"
   }
  ],
  "briefs": [
@@ -12559,10 +12559,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3991.0,
-  "nq": 28837.25,
-  "vix": 18.52,
-  "ts": "2026-10-30T11:12:33Z"
+  "oro": 3991.7,
+  "nq": 28842.25,
+  "vix": 18.44,
+  "ts": "2026-10-30T11:17:30Z"
  },
  "noticias": [
   {
@@ -12586,6 +12586,17 @@
    "id": "bf148cde2e",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Delta Commences Its First-Ever Drill Program at I-Zone-Crayfish Creek Fault Corridor and Reports Channel-Sampling Results Including 2.36 g/t Gold over 15.1 Metres",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/delta-commences-first-ever-drill-110000286.html?.tsrc=rss",
+   "ts": "2026-10-30T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "69c02d9d59",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Chevron and Exxon beat earnings expectations as refining profits soar on high diesel fuel prices",
@@ -13450,17 +13461,6 @@
    "impacto": "bajo",
    "es": "Aspen Neuroscience fija el precio de su IPO en 15 dólares por acción en el Nasdaq",
    "efecto": ""
-  },
-  {
-   "titulo": "Team USA's Snodgrass, Elliott strike gold in Costa Rica",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPa1l6cnJxYjFkUmcxX3hPNTRySWRNRkx4VF9EbUNESWtROEM4cEZnUkVhY1pMU3o1VFZmbzBmZFhVV09uaVN0b2I3S2NqU1JZMUhzR0ZTU1NMQUhxZUNaalktUUVCdi1iU1NEN1padXpyNk9kZEtzMnkwWWVsQjk3LUtfSQ?oc=5",
-   "ts": "2026-10-30T02:21:29Z",
-   "fuente": "BOWL.com",
-   "id": "64e9557c6c",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "El equipo de EE. UU. gana oro en Costa Rica",
-   "efecto": "Noticia deportiva sin impacto en los mercados financieros."
   }
  ],
  "eventos_avisados": [
@@ -14101,16 +14101,16 @@
    [
     1793358000,
     3989.9,
-    3991.9,
-    3989.6,
-    3990.4
+    3992.9,
+    3988.8,
+    3990.3
    ],
    [
-    1793358150,
-    3991.0,
-    3991.0,
-    3991.0,
-    3991.0
+    1793358449,
+    3991.6,
+    3991.6,
+    3991.6,
+    3991.6
    ]
   ],
   "nq": [
@@ -14734,15 +14734,15 @@
     1793358000,
     28860.25,
     28860.5,
-    28827.0,
-    28834.0
+    28818.75,
+    28839.5
    ],
    [
-    1793358151,
-    28837.25,
-    28837.25,
-    28837.25,
-    28837.25
+    1793358449,
+    28842.75,
+    28842.75,
+    28842.75,
+    28842.75
    ]
   ],
   "vix": [
@@ -15164,14 +15164,21 @@
     18.37,
     18.6,
     18.37,
-    18.52
+    18.42
    ],
    [
-    1793357836,
-    18.52,
-    18.52,
-    18.52,
-    18.52
+    1793358000,
+    18.42,
+    18.46,
+    18.42,
+    18.45
+   ],
+   [
+    1793358136,
+    18.44,
+    18.44,
+    18.44,
+    18.44
    ]
   ]
  },
@@ -15280,7 +15287,6 @@
   }
  ],
  "noticias_vistas": [
-  "a3c8605120",
   "63f338d535",
   "8df30671ee",
   "65f5ce5ba4",
@@ -16079,7 +16085,8 @@
   "bf148cde2e",
   "e91682a9ce",
   "020939eb02",
-  "d5206638a7"
+  "d5206638a7",
+  "69c02d9d59"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
