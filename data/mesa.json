@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3971.1 · NQ 28789.75 · VIX 18.75 · 2 noticias nuevas",
-   "actualizado": "2026-10-30T12:32:31Z"
+   "ultimo_resultado": "Oro 3974.0 · NQ 28806.5 · VIX 18.73 · 2 noticias nuevas",
+   "actualizado": "2026-10-30T12:37:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T12:32:30Z",
-   "ultimo_resultado": "2 titulares nuevos: The big questions remaining after Anthropic’s blockbuster IPO prospectus"
+   "actualizado": "2026-10-30T12:37:32Z",
+   "ultimo_resultado": "2 titulares nuevos: Nasdaq futures fall more than 2% as Amazon and Intel tumble after earnings: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3974.0 · NQ 28806.5 · VIX 18.73 · 2 noticias nuevas",
+   "ts": "2026-10-30T12:37:33Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "Evaluación Alpha: ninguna idea con 5/5 confluencias. Hoy no se opera (calidad antes que cantidad).",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4029.2 · NQ 29064.5 · VIX 17.2",
    "ts": "2026-10-29T23:17:30Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4031.7 · NQ 29042.5 · VIX 17.2 · 2 noticias nuevas",
-   "ts": "2026-10-29T23:12:34Z"
   }
  ],
  "briefs": [
@@ -12558,12 +12558,34 @@
   }
  },
  "en_vivo": {
-  "oro": 3971.1,
-  "nq": 28789.75,
-  "vix": 18.75,
-  "ts": "2026-10-30T12:32:31Z"
+  "oro": 3974.0,
+  "nq": 28806.5,
+  "vix": 18.73,
+  "ts": "2026-10-30T12:37:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Nasdaq futures fall more than 2% as Amazon and Intel tumble after earnings: Live updates",
+   "link": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
+   "ts": "2026-10-30T12:32:46Z",
+   "fuente": "CNBC",
+   "id": "aa9f452089",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Swiss central bank posts bumper $23bn profit as gold, foreign assets soar",
+   "link": "https://www.cnbc.com/2026/10/30/swiss-national-bank-q3-profit-gold-foreign-asset.html",
+   "ts": "2026-10-30T12:31:40Z",
+   "fuente": "CNBC",
+   "id": "9a5f2f76ed",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "The big questions remaining after Anthropic’s blockbuster IPO prospectus",
    "link": "https://www.cnbc.com/2026/10/30/anthropic-ipo-s1-revenue-compute.html",
@@ -13423,30 +13445,6 @@
    "id": "e77712e63f",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "India's gold imports down 81%; global prices could be impacted",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPU1hESVN5SXhxMXhRZ202MERnQUhxRzFZNV82RWJBcF9xQUlzSGFjYTNQWVdIU3MtTHYzQW0wRzMyMVR1NWZuU2NjVXdwQURad3pwMzZYMjEwQ242ZHFHalVvUlFTT09FMWE1LXlQMktHVzkyS0dFX3FsRXpmcHJUMUVPRHZYS3gtRnh3c2dKeklvYllxTWxTZUpCNFRyN2pQZzJtRzc3eEx5bzNTVEVzeXRGRQ?oc=5",
-   "ts": "2026-10-30T05:36:00Z",
-   "fuente": "Nikkei Asia",
-   "id": "fdfe8bdef4",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd25qS3FRUWthNVlNMXNPNkJSLTV3WnBSaS1fekFvNVByVFdYM2p2bGIxVHNiNUVCME5DR1hOaENxY0UzaUczRjNMdjNpVEFRcEZab1U2ZTJyUDNzTGowTVNrdkNvVFYwZ2xYOGN1UlctTEkwRmgtZG5CYXlYMV9wN3ptcUlHWlJTT1pkN1MzU0ozNlAwa1JScFMtMG92cThpaXdZWG81dkNmRGliN3BSYnNoMnpOZw?oc=5",
-   "ts": "2026-10-30T05:00:00Z",
-   "fuente": "The Guardian",
-   "id": "5ed5bef667",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Hundimientos y tierras dañadas: el flagelo de la minería ilegal de oro en Johannesburgo",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -14089,14 +14087,14 @@
     3975.7,
     3977.5,
     3968.5,
-    3970.0
+    3974.8
    ],
    [
-    1793362948,
-    3971.1,
-    3971.1,
-    3971.1,
-    3971.1
+    1793363250,
+    3974.0,
+    3974.0,
+    3974.0,
+    3974.0
    ]
   ],
   "nq": [
@@ -14720,15 +14718,15 @@
     1793361600,
     28799.25,
     28842.0,
-    28776.5,
-    28783.5
+    28775.5,
+    28806.0
    ],
    [
-    1793362948,
-    28789.75,
-    28789.75,
-    28789.75,
-    28789.75
+    1793363251,
+    28807.0,
+    28807.0,
+    28807.0,
+    28807.0
    ]
   ],
   "vix": [
@@ -15162,38 +15160,38 @@
    [
     1793361600,
     18.64,
-    18.73,
+    18.77,
     18.58,
     18.72
    ],
    [
-    1793362636,
-    18.75,
-    18.75,
-    18.75,
-    18.75
+    1793362951,
+    18.71,
+    18.71,
+    18.71,
+    18.71
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-10-30T12:27:32Z",
- "ult_4h": 1793362949.982486,
+ "ult_4h": 1793363852.8219855,
  "estrategia_4h": {
   "oro": {
-   "precio": 3970.6,
+   "precio": 3974.0,
    "atr_4h": 28.54,
    "setups": []
   },
   "nq": {
-   "precio": 28784.0,
-   "atr_4h": 259.38,
+   "precio": 28807.0,
+   "atr_4h": 259.45,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29443.62,
+     "stop": 29443.67,
      "objetivo": 28762.75,
-     "rr": 3.38,
+     "rr": 3.37,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.76,
      "ruptura": "2026-10-29 20:00 UTC"
@@ -15202,7 +15200,7 @@
      "direccion": "VENTA",
      "nivel": 29482.5,
      "entrada": 29482.5,
-     "stop": 29638.12,
+     "stop": 29638.17,
      "objetivo": 28762.75,
      "rr": 4.62,
      "estado": "esperando retesteo",
@@ -15211,7 +15209,7 @@
     }
    ]
   },
-  "ts": "2026-10-30T12:33:10Z"
+  "ts": "2026-10-30T12:37:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15280,8 +15278,6 @@
   }
  ],
  "noticias_vistas": [
-  "20451a0cec",
-  "bb3a5f9dc9",
   "3c62d51d7e",
   "ec83c51969",
   "f5ef07a6e5",
@@ -16079,7 +16075,9 @@
   "29d9f83d18",
   "202b8ef5ae",
   "dde6aa324c",
-  "a7de1b1137"
+  "a7de1b1137",
+  "aa9f452089",
+  "9a5f2f76ed"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
