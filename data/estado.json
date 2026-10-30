@@ -5663,9 +5663,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de E Lake Mead Blvd…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "3 negocios nuevos de restaurantes y comida cerca de Las Vegas Blvd N",
-   "actualizado": "2026-10-30T21:02:38Z"
+   "actualizado": "2026-10-30T21:06:27Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -5693,6 +5693,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-30T21:06:27Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de E Lake Mead Blvd…",
@@ -7187,11 +7192,6 @@
    "agente": "seguimiento",
    "texto": "Terminó su turno: 0 respuestas nuevas, 0 bajas, 0 seguimientos",
    "ts": "2026-10-28T12:12:34Z"
-  },
-  {
-   "agente": "vendedor",
-   "texto": "Terminó su turno: Fuera de horario: 0 correos listos para la mañana",
-   "ts": "2026-10-28T11:52:36Z"
   }
  ],
  "reportes": {
