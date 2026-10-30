@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3993.0 · NQ 28864.25 · VIX 18.51 · 1 noticias nuevas",
-   "actualizado": "2026-10-30T10:37:32Z"
+   "ultimo_resultado": "Oro 3991.2 · NQ 28881.5 · VIX 18.5 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-10-30T10:42:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T10:37:32Z",
-   "ultimo_resultado": "1 titulares nuevos: Gen Z is ditching bars for run clubs — and finding more than friends along the way"
+   "actualizado": "2026-10-30T10:42:32Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: El temor tecnológico golpea a los futuros del Nasdaq mientras las criptomonedas sufren su mayor hackeo"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3991.2 · NQ 28881.5 · VIX 18.5 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-10-30T10:42:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3993.0 · NQ 28864.25 · VIX 18.51 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: Acciones con mayores movimientos fuera de hora: Amazon, Intel, Twilio, Reddit, Roblox y más",
    "ts": "2026-10-29T21:17:37Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "2 titulares nuevos, 1 de alto impacto: Bloomberg Commodity Index 2027 Target Weights Announced",
-   "ts": "2026-10-29T21:12:33Z"
   }
  ],
  "briefs": [
@@ -12559,12 +12559,25 @@
   }
  },
  "en_vivo": {
-  "oro": 3993.0,
-  "nq": 28864.25,
-  "vix": 18.51,
-  "ts": "2026-10-30T10:37:32Z"
+  "oro": 3991.2,
+  "nq": 28881.5,
+  "vix": 18.5,
+  "ts": "2026-10-30T10:42:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Tech scare trade hits Nasdaq futures while crypto reels from its biggest-ever hack",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4tMXZKWmdhTXNiUV9GZGxzcUNVLUtxUVZTdFFleUhzVW5WWDFNanZPYlRFS0poWDBjREp4TEtTRTV1U1h2MThVMDI5ZF9YSmx2dnQxRHVMd05STkdFcDJlalppLTY5dVI5anliVDViZjllRmg3ZzlDUGxpb1pDNVHSAYQBQVVfeXFMUDN2REVrN0hQMWtxcjRNalQ4cFB2V1ByQnNQYVR3M1NtV3lwTGtlRE9VdjRmM3dYZmNpZXg0NkJtaTBJUnhkNkJkXzdQSW5wUXlxTnN4T1ZEbE90TklEa1Q5azZIdjZRcno3RGpGUmFpdEg1LWRiendMNWpOaUhpbDd5eEwz?oc=5",
+   "ts": "2026-10-30T10:36:55Z",
+   "fuente": "CNBC",
+   "id": "7187f88ee6",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "El temor tecnológico golpea a los futuros del Nasdaq mientras las criptomonedas sufren su mayor hackeo",
+   "efecto": "Presiona al Nasdaq a la baja por liquidación en tecnología."
+  },
   {
    "titulo": "Gen Z is ditching bars for run clubs — and finding more than friends along the way",
    "link": "https://www.cnbc.com/2026/10/30/gen-z-diplo-run-club.html",
@@ -13163,6 +13176,21 @@
    "impacto": "medio"
   },
   {
+   "titulo": "Dollar softens as tech selloff spurs bond bids; euro and yen steady",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-mixed-dollar-retreats-034327432.html?.tsrc=rss",
+   "ts": "2026-10-30T03:43:27Z",
+   "fuente": "Yahoo Finance",
+   "id": "695a9e66ba",
+   "activos": [
+    "dolar",
+    "oro",
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "El dólar se debilita mientras la venta de tecnología impulsa la compra de bonos; euro y yen estables",
+   "efecto": "Debilita al dólar y favorece compras defensivas en bonos y oro."
+  },
+  {
    "titulo": "Asian currencies mixed as yen steadies after BOJ hold, dollar weakens",
    "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-mixed-dollar-retreats-034327432.html?.tsrc=rss",
    "ts": "2026-10-30T03:43:27Z",
@@ -13432,28 +13460,6 @@
    "id": "ce95f23634",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "ESIC Launches CPU v CPU Gold Standard for Automated Esports Used in Betting Markets",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMzRXbV9Eb3B1VUc4YjZWbUhZTU9TNDN2QWRvMmtSQ1NINnlBamhhQ0N2d0tOd0pncVhVU0E3ejAzM1JndTVSTEhQTWItUk8zbGg0WWZNeVppdWlLSF9scEkyUWIxemhiSmFvN1BhNkNTb3pQc0R1TmctNnBIamZ1djFyNGQ4LWFWb0YwQ2tpdjdPNzczYVhr?oc=5",
-   "ts": "2026-10-30T00:47:41Z",
-   "fuente": "RG.org",
-   "id": "30361cf525",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "ESIC lanza estándar de oro CPU contra CPU para esports automatizados",
-   "efecto": "Ruido de mercado, sin impacto institucional relevante."
-  },
-  {
-   "titulo": "Asia Stocks Under Pressure, Haven Bid Boosts Bonds: Markets Wrap",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNLWZRMVRrOG1xQ1NBUE55MXNIWTFyTFBfUDBwVnUwbDRHOHNibGNUazhpRVVJamItaGc5UndhUngwMTFOLUE1M3dscmdtSDBvWUJrNmoyWnFGZ2tBcm9VZjZ5MXcyQXFuSDZmWmE4WVlheXZBeTVTci1CXzFQMUxnMkpFRXBVTjh0SlI0N0hobUZzOHh3?oc=5",
-   "ts": "2026-10-30T00:46:00Z",
-   "fuente": "Bloomberg.com",
-   "id": "2e90b0746d",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14095,15 +14101,15 @@
     1793354400,
     4001.7,
     4002.0,
-    3991.9,
-    3993.0
+    3990.7,
+    3991.2
    ],
    [
-    1793356045,
-    3993.0,
-    3993.0,
-    3993.0,
-    3993.0
+    1793356201,
+    3991.2,
+    3991.2,
+    3991.2,
+    3991.2
    ]
   ],
   "nq": [
@@ -14728,14 +14734,14 @@
     28887.75,
     28888.75,
     28836.25,
-    28860.75
+    28869.0
    ],
    [
-    1793356051,
-    28864.25,
-    28864.25,
-    28864.25,
-    28864.25
+    1793356200,
+    28863.25,
+    28863.25,
+    28863.25,
+    28863.25
    ]
   ],
   "vix": [
@@ -15157,10 +15163,10 @@
     18.37,
     18.54,
     18.37,
-    18.51
+    18.5
    ],
    [
-    1793355751,
+    1793355901,
     18.5,
     18.5,
     18.5,
@@ -15168,7 +15174,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-10-30T10:07:35Z",
+ "noticias_traducidas_ts": "2026-10-30T10:42:30Z",
  "ult_4h": 1793356652.4291756,
  "estrategia_4h": {
   "oro": {
@@ -15273,8 +15279,6 @@
   }
  ],
  "noticias_vistas": [
-  "30877a4c07",
-  "ed0281965e",
   "0b8d8325bd",
   "0217195251",
   "a17e0af529",
@@ -16072,7 +16076,9 @@
   "2b6e299a6f",
   "81a239a9f3",
   "6a7a5be628",
-  "b43b87e302"
+  "b43b87e302",
+  "7187f88ee6",
+  "695a9e66ba"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
