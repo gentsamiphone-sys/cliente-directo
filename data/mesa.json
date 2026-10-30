@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3974.0 · NQ 28806.5 · VIX 18.73 · 2 noticias nuevas",
-   "actualizado": "2026-10-30T12:37:33Z"
+   "ultimo_resultado": "Oro 3973.5 · NQ 28793.25 · VIX 18.67 · 3 noticias nuevas",
+   "actualizado": "2026-10-30T12:42:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T12:37:32Z",
-   "ultimo_resultado": "2 titulares nuevos: Nasdaq futures fall more than 2% as Amazon and Intel tumble after earnings: Live updates"
+   "actualizado": "2026-10-30T12:42:32Z",
+   "ultimo_resultado": "3 titulares nuevos: Here are Friday's biggest analyst calls: Nvidia, SpaceX, Amazon, Intel, Rivian, Coinbase, Reddit, GE Vernova & more"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3973.5 · NQ 28793.25 · VIX 18.67 · 3 noticias nuevas",
+   "ts": "2026-10-30T12:42:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3974.0 · NQ 28806.5 · VIX 18.73 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4024.4 · NQ 29056.75 · VIX 17.2",
    "ts": "2026-10-29T23:22:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4029.2 · NQ 29064.5 · VIX 17.2",
-   "ts": "2026-10-29T23:17:30Z"
   }
  ],
  "briefs": [
@@ -12558,12 +12558,34 @@
   }
  },
  "en_vivo": {
-  "oro": 3974.0,
-  "nq": 28806.5,
-  "vix": 18.73,
-  "ts": "2026-10-30T12:37:32Z"
+  "oro": 3973.5,
+  "nq": 28793.25,
+  "vix": 18.67,
+  "ts": "2026-10-30T12:42:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Here are Friday's biggest analyst calls: Nvidia, SpaceX, Amazon, Intel, Rivian, Coinbase, Reddit, GE Vernova & more",
+   "link": "https://www.cnbc.com/2026/10/30/big-friday-wall-street-analyst-calls-include-spacex-amazon-intel.html",
+   "ts": "2026-10-30T12:38:32Z",
+   "fuente": "CNBC",
+   "id": "dced5e1778",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Nasdaq Futures Dive 2%: Intel, Amazon Fuel AI Sell-Off",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQM1BHRGJMcGo1YUNPZFVLcnRvZk8zemVSYW1Za0xXVzNHblNoWllibEhqVUNxX0QxRzhSNjIzT3RqdGVEVWtCbWtSLVp6czliQnlMbDZza3A4ZzYwdXN1ODFIMVhnZzRIcUUtbnNLampvUkxoV2ZCSEtCRDVUTTlnMkk2dURYZ3dKYndNczlieXlUcC1XcWZQTVh0aHE4MlpqU0V5Sm9ySjZqb0hPeUZoQTl5U1pRNkVENE4yanQxczJGaG9aeHZMWXZSbXZGd0ZreDBwdUhn?oc=5",
+   "ts": "2026-10-30T12:37:15Z",
+   "fuente": "Investor's Business Daily",
+   "id": "3cc3e9921e",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Nasdaq futures fall more than 2% as Amazon and Intel tumble after earnings: Live updates",
    "link": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
@@ -12714,6 +12736,17 @@
    "id": "fbdc5438fa",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Amazon shares are tumbling after third-quarter earnings miss. Analysts say buy the dip",
+   "link": "https://www.cnbc.com/2026/10/30/amazon-earnings-analysts-stock.html",
+   "ts": "2026-10-30T11:23:55Z",
+   "fuente": "CNBC",
+   "id": "13b17fbc4b",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Gold price today, Friday, October 30, 2026: Gold slips below $4,000 as Mid-East concerns mount",
@@ -13411,40 +13444,6 @@
    "impacto": "bajo",
    "es": "Lo que dijo Agnico Eagle Mines (AEM) en su llamada de resultados del Q3",
    "efecto": "Relevante solo para el sector minero, impacto neutral en el oro."
-  },
-  {
-   "titulo": "The AI bubble is draining capital from other markets, including gold",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBlOE1YUzZsUkc2Wmt3OWMwX2U0TklraXhaRUJCMlFTa1B6OGlPWVVXUkd5ZWxLd2ltVlZnalYzWXZWUkhVZkxjZ3NTMFYyRm9RMTNmTmRKcmZaZnFmbm5ablZ5b1VWNFlEdGpfOVBTY2pDc0VK?oc=5",
-   "ts": "2026-10-30T06:05:53Z",
-   "fuente": "GoldBroker",
-   "id": "fda7165b6b",
-   "activos": [
-    "nq",
-    "oro"
-   ],
-   "impacto": "medio",
-   "es": "La burbuja de la IA está drenando capital de otros mercados, incluido el oro",
-   "efecto": "Impulsa a NQ por flujo tecnológico y presiona al oro a la baja"
-  },
-  {
-   "titulo": "Gold Outlook To Q3 2027: A Firmer Foundation, Renewed Potential",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM3VGN3BIcGU4eC1FcXlsdjVtb3FETjhrcmZTV2FhR054dGQtSkVTdE1uYjdBTndiUDRJeFJGODBQb3VIdjZiWFMxc083UU9nNnpGbnZoOFBnLXo0czNJVHU4Y2JuXzdDZmFGcjhGMzctQXJUUGlXVGFMRF9mek52Ty0yaTRSM19VajdJNDZEVThyc3A1S3JPVk15bVNldXZTWUE?oc=5",
-   "ts": "2026-10-30T06:05:00Z",
-   "fuente": "Seeking Alpha",
-   "id": "cb70c03b6b",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "A pharma giant is moving past one patent cliff — but another is already looming",
-   "link": "https://www.cnbc.com/2026/10/30/novartis-remibrutinib-multiple-sclerosis.html",
-   "ts": "2026-10-30T06:00:01Z",
-   "fuente": "CNBC",
-   "id": "e77712e63f",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -14087,14 +14086,14 @@
     3975.7,
     3977.5,
     3968.5,
-    3974.8
+    3974.6
    ],
    [
-    1793363250,
-    3974.0,
-    3974.0,
-    3974.0,
-    3974.0
+    1793363551,
+    3973.4,
+    3973.4,
+    3973.4,
+    3973.4
    ]
   ],
   "nq": [
@@ -14719,14 +14718,14 @@
     28799.25,
     28842.0,
     28775.5,
-    28806.0
+    28793.0
    ],
    [
-    1793363251,
-    28807.0,
-    28807.0,
-    28807.0,
-    28807.0
+    1793363552,
+    28793.0,
+    28793.0,
+    28793.0,
+    28793.0
    ]
   ],
   "vix": [
@@ -15162,14 +15161,14 @@
     18.64,
     18.77,
     18.58,
-    18.72
+    18.68
    ],
    [
-    1793362951,
-    18.71,
-    18.71,
-    18.71,
-    18.71
+    1793363251,
+    18.67,
+    18.67,
+    18.67,
+    18.67
    ]
   ]
  },
@@ -15278,9 +15277,6 @@
   }
  ],
  "noticias_vistas": [
-  "3c62d51d7e",
-  "ec83c51969",
-  "f5ef07a6e5",
   "b85515d6be",
   "783d257698",
   "6ff0c7b6fa",
@@ -16077,7 +16073,10 @@
   "dde6aa324c",
   "a7de1b1137",
   "aa9f452089",
-  "9a5f2f76ed"
+  "9a5f2f76ed",
+  "dced5e1778",
+  "3cc3e9921e",
+  "13b17fbc4b"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
