@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3992.7 · NQ 28938.5 · VIX 18.52",
-   "actualizado": "2026-10-30T08:12:34Z"
+   "ultimo_resultado": "Oro 3991.0 · NQ 28907.25 · VIX 18.52 · 2 noticias nuevas",
+   "actualizado": "2026-10-30T08:17:29Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-10-30T08:12:33Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-10-30T08:17:29Z",
+   "ultimo_resultado": "2 titulares nuevos: U.S. Treasury yields fall as investors await more economic data"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3991.0 · NQ 28907.25 · VIX 18.52 · 2 noticias nuevas",
+   "ts": "2026-10-30T08:17:29Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3992.7 · NQ 28938.5 · VIX 18.52",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 4019.7 · NQ 29443.0 · VIX 17.06 · 2 noticias nuevas",
    "ts": "2026-10-29T18:57:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 4019.0 · NQ 29430.75 · VIX 16.97 · 1 noticias nuevas",
-   "ts": "2026-10-29T18:52:35Z"
   }
  ],
  "briefs": [
@@ -12559,12 +12559,23 @@
   }
  },
  "en_vivo": {
-  "oro": 3992.7,
-  "nq": 28938.5,
+  "oro": 3991.0,
+  "nq": 28907.25,
   "vix": 18.52,
-  "ts": "2026-10-30T08:12:33Z"
+  "ts": "2026-10-30T08:17:29Z"
  },
  "noticias": [
+  {
+   "titulo": "U.S. Treasury yields fall as investors await more economic data",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NUzdmdnZUZHUxOE1CV0xGYzQwOENIc2xvcmdfSTVhWklWMkRRLUkwQktBdURkcHo1cVZHWmlzc1RBUFV5QlljNFJYajlRMGtlUEUwYTJ5LUtqZ1luS29qSDI0aGI0YUMxMjcxNFhQcG5xcW52Rk5wQmwzNEdYMGPSAYQBQVVfeXFMUEVTdlR1RDZpc1ZDalJPOXdkeWMwbFFnZnNzVVUwdEdCY0d6R21ZbTF4Q21LdE5MQTh3dW5feVg3cWxPVEZyQTlHT1ZpYzBzUm5uYkNFTWVmb0EtNjcxdVZOakFZWjRVZmFkTFRzQ3QwZ1Z2RTJnWnFwc0lMYTNoZWd6aUMw?oc=5",
+   "ts": "2026-10-30T08:09:48Z",
+   "fuente": "CNBC",
+   "id": "4292e3a004",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Trump holds off overcapacity tariffs as US midterms near",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcXlPSWcxZFJfekRjUWJIQ2k2M2JsV2NSRFlXODRERDFMdV9reThVNk9aUEFWRmxwbWVQSTNsTWRlTHlTN1pqeGxGT2NEdzJBaUh5eUJHYnUwWFQ2VGdVMkt5R0E3V01LR2p2cVY0QjJabkdrV1QweUFldmQtSFg3N19VQVR0MVhpTE11ZU9PaTRlSEVSZVNfTkN6dlAzZFlZZTlKZnFIS3MyRThkUm1PV3JB?oc=5",
@@ -12605,6 +12616,17 @@
    "id": "648b297cb7",
    "activos": [
     "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "As the Nasdaq wobbles on capex, this Buffett strategy went 15-for-15",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTnoybGViQnRqbHl0N2NmTDROTXBYRHplUTlfSFlVcV84YWNRUUQzSjMtLUEybFp0NUpNZldGR1phUlpNUmxrb2RPQTVhZk9DY254SjExQ29VaVJfVnFSTHhES2ltZ0tjQkpRVGJLclgwN1ZrOFVRSHVNdG01NTU1TmlqVktRR1hVNmkwZlduS211WUFkMDJnUTd0N1pVVmkzbmR2SA?oc=5",
+   "ts": "2026-10-30T07:09:16Z",
+   "fuente": "Yahoo Finance",
+   "id": "1a217554c4",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -13430,28 +13452,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Gold has a reputation as an inflation hedge. Does it actually work?",
-   "link": "https://www.usatoday.com/story/money/money-management/investing/2026/10/29/is-gold-a-hedge-against-inflation/92485709007/?.tsrc=rss",
-   "ts": "2026-10-29T21:08:52Z",
-   "fuente": "Yahoo Finance",
-   "id": "a89479f70a",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Centerra Gold Announces Quarterly Dividend of C$0.07 per Common Share",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbFdYQ0JuMkhVZDZHajF4aGdfUDdNSUx4Y0NIRWgxSUFJRVkzdUtlekREeDBNWjdHVkRQVExyY1JuWTF0S2FVdXJkVnRQWmJJY0NvOU9XbmpVMlRiWXppNERCVkZRVElxMjRzVExmZ3JFNHc2NDE3Wmt2RHg2bVVuTnZzXzFINUlfR3l5ZTNkOWZiejZKTU1OMGxwTUh5WkZOdXNJNWh3djh3T0U?oc=5",
-   "ts": "2026-10-29T21:01:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "8270a15cdc",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14092,16 +14092,16 @@
    [
     1793347200,
     3984.5,
-    3992.9,
+    3996.0,
     3982.2,
-    3992.0
+    3989.4
    ],
    [
-    1793347351,
-    3992.7,
-    3992.7,
-    3992.7,
-    3992.7
+    1793347645,
+    3991.0,
+    3991.0,
+    3991.0,
+    3991.0
    ]
   ],
   "nq": [
@@ -14725,15 +14725,15 @@
     1793347200,
     28938.5,
     28950.75,
-    28917.75,
-    28933.5
+    28903.5,
+    28905.0
    ],
    [
-    1793347353,
-    28938.75,
-    28938.75,
-    28938.75,
-    28938.75
+    1793347649,
+    28908.75,
+    28908.75,
+    28908.75,
+    28908.75
    ]
   ],
   "vix": [
@@ -15134,10 +15134,17 @@
     18.43,
     18.55,
     18.41,
-    18.54
+    18.52
    ],
    [
-    1793347051,
+    1793347200,
+    18.52,
+    18.53,
+    18.48,
+    18.52
+   ],
+   [
+    1793347336,
     18.52,
     18.52,
     18.52,
@@ -15250,8 +15257,6 @@
   }
  ],
  "noticias_vistas": [
-  "90f8fd1c13",
-  "95c2d8650f",
   "6361c44f34",
   "b04e165eba",
   "0633070cd9",
@@ -16049,7 +16054,9 @@
   "cb70c03b6b",
   "8aa907540b",
   "66c85605df",
-  "a490a4e5e4"
+  "a490a4e5e4",
+  "4292e3a004",
+  "1a217554c4"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
