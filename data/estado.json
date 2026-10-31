@@ -5740,10 +5740,10 @@
    "actualizado": "2026-10-31T02:37:36Z"
   },
   "disenador": {
-   "estado": "trabajando",
-   "tarea": "Revisando qué negocios necesitan muestra",
-   "ultimo_resultado": "3 muestras nuevas",
-   "actualizado": "2026-10-31T03:27:30Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "No había negocios nuevos para armar muestra",
+   "actualizado": "2026-10-31T03:27:31Z"
   },
   "vendedor": {
    "estado": "descansando",
@@ -5759,6 +5759,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "disenador",
+   "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
+   "ts": "2026-10-31T03:27:31Z"
+  },
   {
    "agente": "buscador",
    "texto": "Terminó su turno: No pude buscar en este turno (504 Server Error: Gateway Timeout for url: https://overpass-api.de/api/interpret)",
@@ -7253,11 +7258,6 @@
    "agente": "gerente",
    "texto": "Actualicé el reporte del día.",
    "ts": "2026-10-28T18:37:37Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Contando cómo vamos hoy…",
-   "ts": "2026-10-28T18:37:35Z"
   }
  ],
  "reportes": {
