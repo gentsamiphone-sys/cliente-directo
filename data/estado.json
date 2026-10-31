@@ -5861,9 +5861,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Civic Center Dr…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with)",
-   "actualizado": "2026-10-31T21:02:30Z"
+   "actualizado": "2026-10-31T21:06:19Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -5891,6 +5891,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-10-31T21:06:19Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Civic Center Dr…",
@@ -7385,11 +7390,6 @@
    "agente": "gerente",
    "texto": "Terminó su turno: 247 textos listos para mandar",
    "ts": "2026-10-29T12:37:40Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Actualicé el reporte del día.",
-   "ts": "2026-10-29T12:37:39Z"
   }
  ],
  "reportes": {
