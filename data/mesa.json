@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro — · NQ — · VIX 19.42",
-   "actualizado": "2026-11-01T22:07:33Z"
+   "ultimo_resultado": "Oro — · NQ — · VIX 19.42 · 1 noticias nuevas",
+   "actualizado": "2026-11-01T22:12:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-01T22:07:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-11-01T22:12:34Z",
+   "ultimo_resultado": "1 titulares nuevos: iShares Semiconductor ETF (NASDAQ: SOXX) forecast: Morgan Stanley warns of further 15% decline"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro — · NQ — · VIX 19.42 · 1 noticias nuevas",
+   "ts": "2026-11-01T22:12:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro — · NQ — · VIX 19.42",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-11-01T08:37:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-11-01T08:32:31Z"
   }
  ],
  "briefs": [
@@ -12615,9 +12615,20 @@
  },
  "en_vivo": {
   "vix": 19.42,
-  "ts": "2026-11-01T22:07:33Z"
+  "ts": "2026-11-01T22:12:34Z"
  },
  "noticias": [
+  {
+   "titulo": "iShares Semiconductor ETF (NASDAQ: SOXX) forecast: Morgan Stanley warns of further 15% decline",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa0c4a3ZOcVpEaWoxYnh4QnR0NUNzNm1XUjMxVG9ZVkpGcW9XWkRKSGRybXFWM0NsOUpJS2FaZjhRdEd4VnI3MThhTWFwbjgzSzlMc19Mc0RtVnBWbVF5YVh4WndOTkQ3VjNJME9CUUF6VGZHdW8tOENBT29QZEowOE5oWU5oMUk2M2xmWg?oc=5",
+   "ts": "2026-11-01T22:09:52Z",
+   "fuente": "Beinsure",
+   "id": "49b5c949d7",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Figure Skating Star Tatiana Totmianina's Journey: From Terrifying Fall to Olympic Gold in 15 Months",
    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUG5aTl84amtadUxNTEFqR3AzVWEzdHNmTzl5QmF0Y3c0VnRIaThOdG5qXzhPdy0zX0UtYzVrY1NuNzFmYUZiQzIzSDJPZmU2VFA0UG5sLW50RWJpU0Q5eWlWbVdVbEZEanFpbG41VkFhSmUydDRPUmNPRjBicXg0S2lNV2RIZnpRUDdxak8zODluUQ?oc=5",
@@ -13481,17 +13492,6 @@
    "id": "ef83f21c2f",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Ecuador's ESPINOSA claims first gold medal of Dakar 2026 with 400m freestyle victory",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOXzlMM205eEtocXJpS0ZxeF9EVU4yVGhJeTNuX0RqSFRtWFF1TUdMZ043WjVyWVZjNnN6RzFzYlUzY1ZCM3ZvMWhxUms2TTFmZ2haV01DR3M2cHZmaU1GeUY1VVptS3ROTU5aUEI2bUNUNy0xY08wcENwQjA0NUdONDVWSGU2d3o4OHhBZ05hYk1LZnZqeW9rMEwxd3VlQmxBazhteUxDQTdTLXF1R0U5U0tUaDhhWWl3QWhGMm9Sd3FyYmRxTXJWbHBoTDVwdzBrNWpTOXhORGlqWlZ1Q01CS052NkdJQQ?oc=5",
-   "ts": "2026-11-01T12:42:18Z",
-   "fuente": "www.olympics.com",
-   "id": "f1c7149b21",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -15353,7 +15353,6 @@
   }
  ],
  "noticias_vistas": [
-  "997bc5cd90",
   "ff663b0a22",
   "2a4c90e11b",
   "03b1c527ef",
@@ -16152,7 +16151,8 @@
   "175f83cec3",
   "98be88e7b3",
   "afebf69289",
-  "4864520952"
+  "4864520952",
+  "49b5c949d7"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
