@@ -5983,10 +5983,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "Agregando Maxie's",
+   "estado": "descansando",
+   "tarea": "",
    "ultimo_resultado": "3 negocios nuevos de restaurantes y comida cerca de E Lake Mead Blvd",
-   "actualizado": "2026-11-01T09:07:08Z"
+   "actualizado": "2026-11-01T09:07:09Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -6014,6 +6014,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: 3 negocios nuevos de restaurantes y comida cerca de E Lake Mead Blvd",
+   "ts": "2026-11-01T09:07:09Z"
+  },
   {
    "agente": "buscador",
    "texto": "Encontré Maxie's, sin página web.",
@@ -7508,11 +7513,6 @@
    "agente": "disenador",
    "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
    "ts": "2026-10-30T01:27:29Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Terminó su turno: No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "ts": "2026-10-30T01:06:25Z"
   }
  ],
  "reportes": {
