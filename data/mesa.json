@@ -39,13 +39,13 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "✅ ORO COMPRA: CONFIRMÓ · Oro 3908.7 · NQ 28730.0 · VIX 19.18",
-   "actualizado": "2026-11-02T09:12:57Z"
+   "ultimo_resultado": "Oro 3909.4 · NQ 28766.75 · VIX 19.11",
+   "actualizado": "2026-11-02T09:17:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T09:12:56Z",
+   "actualizado": "2026-11-02T09:17:32Z",
    "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3909.4 · NQ 28766.75 · VIX 19.11",
+   "ts": "2026-11-02T09:17:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "✅ ORO COMPRA: CONFIRMÓ · Oro 3908.7 · NQ 28730.0 · VIX 19.18",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-11-01T19:52:36Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Dow Jones Futures Loom After Market Sell-Off; How Midterm Elections May Swing Stocks",
-   "ts": "2026-11-01T19:47:32Z"
   }
  ],
  "briefs": [
@@ -12616,10 +12616,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3908.7,
-  "nq": 28730.0,
-  "vix": 19.18,
-  "ts": "2026-11-02T09:12:56Z"
+  "oro": 3909.4,
+  "nq": 28766.75,
+  "vix": 19.11,
+  "ts": "2026-11-02T09:17:32Z"
  },
  "noticias": [
   {
@@ -14042,14 +14042,14 @@
     3906.5,
     3911.0,
     3905.9,
-    3908.7
+    3910.6
    ],
    [
-    1793610175,
-    3908.6,
-    3908.6,
-    3908.6,
-    3908.6
+    1793610451,
+    3909.4,
+    3909.4,
+    3909.4,
+    3909.4
    ]
   ],
   "nq": [
@@ -14574,16 +14574,16 @@
    [
     1793610000,
     28730.75,
-    28753.75,
-    28727.5,
-    28729.0
+    28768.0,
+    28727.25,
+    28761.0
    ],
    [
-    1793610176,
-    28730.0,
-    28730.0,
-    28730.0,
-    28730.0
+    1793610450,
+    28766.75,
+    28766.75,
+    28766.75,
+    28766.75
    ]
   ],
   "vix": [
@@ -14982,24 +14982,31 @@
    [
     1793606400,
     19.05,
-    19.16,
+    19.19,
     18.98,
-    19.15
+    19.18
    ],
    [
-    1793609866,
-    19.18,
-    19.18,
-    19.18,
-    19.18
+    1793610000,
+    19.15,
+    19.15,
+    19.09,
+    19.09
+   ],
+   [
+    1793610151,
+    19.11,
+    19.11,
+    19.11,
+    19.11
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-11-02T08:17:32Z",
- "ult_4h": 1793610166.028324,
+ "ult_4h": 1793611052.6329093,
  "estrategia_4h": {
   "oro": {
-   "precio": 3912.2,
+   "precio": 3909.4,
    "atr_4h": 29.22,
    "setups": [
     {
@@ -15016,23 +15023,23 @@
    ]
   },
   "nq": {
-   "precio": 28752.25,
-   "atr_4h": 293.54,
+   "precio": 28766.75,
+   "atr_4h": 294.14,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29464.12,
+     "stop": 29464.49,
      "objetivo": 28232.75,
-     "rr": 5.99,
+     "rr": 5.98,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.56,
+     "fuerza_ruptura_atr": 1.55,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-11-02T09:02:46Z"
+  "ts": "2026-11-02T09:17:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
