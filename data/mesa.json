@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3952.7 · NQ 28270.75 · VIX 21.23 · 1 noticias nuevas",
-   "actualizado": "2026-11-02T20:07:35Z"
+   "ultimo_resultado": "Oro 3953.2 · NQ 28291.75 · VIX 21.09 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-11-02T20:12:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T20:07:33Z",
-   "ultimo_resultado": "1 titulares nuevos: Why Bristol Gate Canadian Equity Strategy Bought OR Royalties Inc. (OR) After Gold’s Pullback"
+   "actualizado": "2026-11-02T20:12:33Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Intel foundry push faces critical test after stock's 45% plunge in October"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3953.2 · NQ 28291.75 · VIX 21.09 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-11-02T20:12:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3952.7 · NQ 28270.75 · VIX 21.23 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
    "ts": "2026-11-02T06:32:55Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Historial: 9 operaciones, 22% de acierto, +6.97 R.",
-   "ts": "2026-11-02T06:32:53Z"
   }
  ],
  "briefs": [
@@ -12634,12 +12634,21 @@
   }
  },
  "en_vivo": {
-  "oro": 3952.7,
-  "nq": 28270.75,
-  "vix": 21.23,
-  "ts": "2026-11-02T20:07:33Z"
+  "oro": 3953.2,
+  "nq": 28291.75,
+  "vix": 21.09,
+  "ts": "2026-11-02T20:12:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Intel foundry push faces critical test after stock's 45% plunge in October",
+   "link": "https://www.cnbc.com/2026/11/02/intel-foundry-faces-critical-test-after-stocks-45percent-plunge-in-october.html",
+   "ts": "2026-11-02T20:07:56Z",
+   "fuente": "CNBC",
+   "id": "515596384b",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "Nasdaq and S&P 500 roll over, turn negative, as rotation out of tech continues: Live updates",
    "link": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
@@ -12659,6 +12668,17 @@
    "ts": "2026-11-02T19:56:41Z",
    "fuente": "Yahoo Finance",
    "id": "2e8a33c668",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Nine (!) Gold Glove newbies. Plus: An 85-year-old’s viral card shop",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUnhwQkZncDlpYkt3bGVoSXlVX1JuMjdBOXMyNWpHa0pMNGkzQjlPT3FrLVl2YTNDNTJ3em8zeE1FMU9wTGtlMGpSQUhQSWplaHFXcU8wWXZLc3NpNjRZX0JMUElBT1V4RkN6amJyakI3aUUtMzlqbWpWSlVVUmEyYjAtR1UzMTZ5alhjamVMUG9WWFN6M1Y2LUJOWC1NMkQ0UkE?oc=5",
+   "ts": "2026-11-02T19:53:45Z",
+   "fuente": "The New York Times",
+   "id": "9cb60df6e9",
    "activos": [
     "oro"
    ],
@@ -13460,26 +13480,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Record Resources hires Research Capital to explore ways to maximize shareholder value",
-   "link": "https://www.proactiveinvestors.com/companies/news/1101079/record-resources-hires-research-capital-to-explore-ways-to-maximize-shareholder-value-1101079.html?.tsrc=rss",
-   "ts": "2026-11-02T15:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "b4aa6d8578",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Nicola Mining Finishes Its 2026 Mining Campaign at the Dominion Creek Gold Project",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/nicola-mining-finishes-2026-mining-145859701.html?.tsrc=rss",
-   "ts": "2026-11-02T14:58:59Z",
-   "fuente": "Yahoo Finance",
-   "id": "dd358d08aa",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14087,14 +14087,21 @@
     3963.7,
     3965.4,
     3948.9,
-    3953.5
+    3956.2
    ],
    [
-    1793649448,
-    3952.7,
-    3952.7,
-    3952.7,
-    3952.7
+    1793649600,
+    3955.8,
+    3956.5,
+    3952.8,
+    3952.9
+   ],
+   [
+    1793649752,
+    3953.2,
+    3953.2,
+    3953.2,
+    3953.2
    ]
   ],
   "nq": [
@@ -14691,14 +14698,21 @@
     28441.0,
     28443.5,
     28188.0,
-    28289.5
+    28322.75
    ],
    [
-    1793649453,
-    28273.75,
-    28273.75,
-    28273.75,
-    28273.75
+    1793649600,
+    28321.0,
+    28330.25,
+    28279.0,
+    28287.25
+   ],
+   [
+    1793649753,
+    28291.75,
+    28291.75,
+    28291.75,
+    28291.75
    ]
   ],
   "vix": [
@@ -15176,14 +15190,14 @@
     20.12,
     21.58,
     20.12,
-    21.39
+    21.06
    ],
    [
-    1793649151,
-    21.23,
-    21.23,
-    21.23,
-    21.23
+    1793649451,
+    21.09,
+    21.09,
+    21.09,
+    21.09
    ]
   ]
  },
@@ -15319,8 +15333,6 @@
   }
  ],
  "noticias_vistas": [
-  "9aef92ad87",
-  "521573f8a9",
   "8270a15cdc",
   "e8aebf2a2b",
   "a0a902c3bf",
@@ -16118,7 +16130,9 @@
   "ae2ead76bc",
   "35c0b0424d",
   "70b0c727ae",
-  "2e8a33c668"
+  "2e8a33c668",
+  "515596384b",
+  "9cb60df6e9"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
