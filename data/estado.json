@@ -6190,10 +6190,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ultimo_resultado": "0 negocios nuevos de herrerías y oficios cerca de Las Vegas Blvd N",
-   "actualizado": "2026-11-02T09:06:19Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
+   "actualizado": "2026-11-02T09:06:24Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -6221,6 +6221,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
+   "ts": "2026-11-02T09:06:24Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -7715,11 +7720,6 @@
    "agente": "buscador",
    "texto": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de E Charleston Blvd…",
    "ts": "2026-10-31T05:02:31Z"
-  },
-  {
-   "agente": "gerente",
-   "texto": "Terminó su turno: 256 textos listos para mandar",
-   "ts": "2026-10-31T04:37:33Z"
   }
  ],
  "reportes": {
