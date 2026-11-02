@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3954.0 · NQ 28773.25 · VIX 18.94 · 3 noticias nuevas",
-   "actualizado": "2026-11-02T14:02:35Z"
+   "ultimo_resultado": "Oro 3947.3 · NQ 28760.25 · VIX 19.11 · 2 noticias nuevas",
+   "actualizado": "2026-11-02T14:12:50Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T14:02:33Z",
-   "ultimo_resultado": "3 titulares nuevos: We're buying the dip in a stock after an expectations reset"
+   "actualizado": "2026-11-02T14:12:49Z",
+   "ultimo_resultado": "2 titulares nuevos: Oracle files to sell $20 billion in new stock, bonds to finance AI buildout"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3947.3 · NQ 28760.25 · VIX 19.11 · 2 noticias nuevas",
+   "ts": "2026-11-02T14:12:50Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3954.0 · NQ 28773.25 · VIX 18.94 · 3 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3904.9 · NQ 28682.25 · VIX 19.42 · 1 noticias nuevas",
    "ts": "2026-11-02T00:47:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3905.4 · NQ 28667.5 · VIX 19.42 · 1 noticias nuevas",
-   "ts": "2026-11-02T00:42:31Z"
   }
  ],
  "briefs": [
@@ -12634,12 +12634,21 @@
   }
  },
  "en_vivo": {
-  "oro": 3954.0,
-  "nq": 28773.25,
-  "vix": 18.94,
-  "ts": "2026-11-02T14:02:34Z"
+  "oro": 3947.3,
+  "nq": 28760.25,
+  "vix": 19.11,
+  "ts": "2026-11-02T14:12:49Z"
  },
  "noticias": [
+  {
+   "titulo": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout",
+   "link": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+   "ts": "2026-11-02T14:03:44Z",
+   "fuente": "CNBC",
+   "id": "d5787a9eb3",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Crude oil dives to session low on Iran peace talk hopes ahead of midterms",
    "link": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
@@ -12661,6 +12670,17 @@
    "id": "ee69b9c2ad",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Atlanta Braves News: Gold Gloves for Matt Olson and Mauricio Dubon, More",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMHUxQnRZV1Btbi1FdnJXaEQwT05MdWpoenF1aGJ1VkFDdmk0MWt4Rmo2STZFcllMOVQ3WE0yUktPY3pncXNwbmZzSzFOMUkxanlzSTBTVXMxcm1iMTdmMkMwT1p1cGxEQU8ySXN1a0h3UzZ3ZGU5aGc2aklYREk0UHpFZnRWRms?oc=5",
+   "ts": "2026-11-02T13:40:48Z",
+   "fuente": "Yahoo Sports",
+   "id": "62ae434cfd",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Turang, Chourio win Gold Glove Awards",
@@ -13517,26 +13537,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Sam Altman makes surprise South Korea visit as OpenAI builds on chip partnerships",
-   "link": "https://www.cnbc.com/2026/11/02/openai-sam-altman-samsung-sk-south-korea.html",
-   "ts": "2026-11-02T02:58:53Z",
-   "fuente": "CNBC",
-   "id": "6dd6f9da28",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "2026 Gold Glove Award winners: Red Sox, D-Backs and Pete Crow-Armstrong lead way",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONDBVYWpKYVhSdnlMTUFCQjl6WmFNQlNROG40VkdzNm9HUlkxdzBmeXRUc3E1OGpVMjJBbm80clNQTmR3OHN2bHdOTkxZOE0zSkhjS1ZyQ3BSR0RYd21UMjk4Q1JSNHpMbi13MW82d0ZjYUlqNE9OVUtrb0pFRHN3bXFxdWZkc25tVHc?oc=5",
-   "ts": "2026-11-02T02:57:23Z",
-   "fuente": "The New York Times",
-   "id": "f036dbe0e3",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Ganadores del Guante de Oro 2026: Medias Rojas, D-Backs y Pete Crow-Armstrong lideran",
-   "efecto": "Ruido deportivo sin impacto en mercados financieros."
   }
  ],
  "eventos_avisados": [
@@ -14102,14 +14102,21 @@
     3910.4,
     3961.0,
     3905.4,
-    3950.8
+    3947.7
    ],
    [
-    1793627554,
-    3953.3,
-    3953.3,
-    3953.3,
-    3953.3
+    1793628000,
+    3947.8,
+    3948.2,
+    3944.6,
+    3946.5
+   ],
+   [
+    1793628046,
+    3946.7,
+    3946.7,
+    3946.7,
+    3946.7
    ]
   ],
   "nq": [
@@ -14664,14 +14671,21 @@
     28708.25,
     28844.0,
     28683.25,
-    28771.75
+    28754.5
    ],
    [
-    1793627552,
-    28773.25,
-    28773.25,
-    28773.25,
-    28773.25
+    1793628000,
+    28754.0,
+    28762.75,
+    28751.75,
+    28753.0
+   ],
+   [
+    1793628047,
+    28760.0,
+    28760.0,
+    28760.0,
+    28760.0
    ]
   ],
   "vix": [
@@ -15107,14 +15121,14 @@
     19.43,
     19.56,
     18.89,
-    18.94
+    19.09
    ],
    [
-    1793627251,
-    18.94,
-    18.94,
-    18.94,
-    18.94
+    1793627731,
+    19.1,
+    19.1,
+    19.1,
+    19.1
    ]
   ]
  },
@@ -15248,8 +15262,6 @@
   }
  ],
  "noticias_vistas": [
-  "27e5293fa3",
-  "48e9974061",
   "364ede32d7",
   "0159a2f239",
   "6b4f3a6752",
@@ -16047,7 +16059,9 @@
   "e205ce5878",
   "ee69b9c2ad",
   "2e88c9c395",
-  "8e566c2b66"
+  "8e566c2b66",
+  "d5787a9eb3",
+  "62ae434cfd"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
