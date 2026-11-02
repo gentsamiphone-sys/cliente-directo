@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3915.6 · NQ 28780.25 · VIX 19.42 · 1 noticias nuevas",
-   "actualizado": "2026-11-02T05:27:34Z"
+   "ultimo_resultado": "Oro 3916.7 · NQ 28787.75 · VIX 19.42",
+   "actualizado": "2026-11-02T05:32:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T05:27:33Z",
-   "ultimo_resultado": "1 titulares nuevos: Three Gold Gloves for 2026 Arizona Diamondbacks"
+   "actualizado": "2026-11-02T05:32:31Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3916.7 · NQ 28787.75 · VIX 19.42",
+   "ts": "2026-11-02T05:32:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3915.6 · NQ 28780.25 · VIX 19.42 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos: Everything changed for the oil, AI and bond trades over the past month",
    "ts": "2026-11-01T16:02:29Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Financial Institutions Stock: Despite Disappointing Q3 Big Picture Compelling(NASDAQ:FISI)",
-   "ts": "2026-11-01T15:57:29Z"
   }
  ],
  "briefs": [
@@ -12615,10 +12615,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3915.6,
-  "nq": 28780.25,
+  "oro": 3916.7,
+  "nq": 28787.75,
   "vix": 19.42,
-  "ts": "2026-11-02T05:27:34Z"
+  "ts": "2026-11-02T05:32:31Z"
  },
  "noticias": [
   {
@@ -13994,16 +13994,16 @@
    [
     1793595600,
     3910.2,
-    3916.4,
+    3917.2,
     3910.1,
-    3915.6
+    3916.0
    ],
    [
-    1793596644,
-    3915.6,
-    3915.6,
-    3915.6,
-    3915.6
+    1793596941,
+    3916.7,
+    3916.7,
+    3916.7,
+    3916.7
    ]
   ],
   "nq": [
@@ -14474,14 +14474,14 @@
     28790.5,
     28802.5,
     28777.0,
-    28782.75
+    28785.5
    ],
    [
-    1793596649,
-    28780.25,
-    28780.25,
-    28780.25,
-    28780.25
+    1793596948,
+    28787.75,
+    28787.75,
+    28787.75,
+    28787.75
    ]
   ],
   "vix": [
@@ -14985,54 +14985,65 @@
   ]
  },
  "noticias_traducidas_ts": "2026-11-02T05:12:32Z",
- "ult_4h": 1793596651.8374188,
+ "ult_4h": 1793597551.9264731,
  "estrategia_4h": {
   "oro": {
-   "precio": 3914.7,
-   "atr_4h": 28.74,
+   "precio": 3916.7,
+   "atr_4h": 28.86,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4018.15,
+     "stop": 4018.21,
      "objetivo": 3879.3,
-     "rr": 7.05,
+     "rr": 7.02,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.37,
+     "fuerza_ruptura_atr": 2.36,
+     "ruptura": "2026-10-30 04:00 UTC"
+    },
+    {
+     "direccion": "VENTA",
+     "nivel": 3989.1,
+     "entrada": 3989.1,
+     "stop": 4006.41,
+     "objetivo": 3879.3,
+     "rr": 6.34,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 2.36,
      "ruptura": "2026-10-30 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 28784.75,
-   "atr_4h": 297.88,
+   "precio": 28787.75,
+   "atr_4h": 300.54,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29466.72,
+     "stop": 29468.32,
      "objetivo": 28232.75,
-     "rr": 5.9,
+     "rr": 5.85,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.53,
+     "fuerza_ruptura_atr": 1.52,
      "ruptura": "2026-10-29 20:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 29482.5,
      "entrada": 29482.5,
-     "stop": 29661.22,
+     "stop": 29662.82,
      "objetivo": 28232.75,
-     "rr": 6.99,
+     "rr": 6.93,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.53,
+     "fuerza_ruptura_atr": 1.52,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-11-02T05:17:32Z"
+  "ts": "2026-11-02T05:32:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
