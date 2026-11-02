@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3904.6 · NQ 28698.5 · VIX 19.42 · 1 noticias nuevas",
-   "actualizado": "2026-11-02T01:12:35Z"
+   "ultimo_resultado": "Oro 3919.0 · NQ 28717.5 · VIX 19.42",
+   "actualizado": "2026-11-02T01:17:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T01:12:34Z",
-   "ultimo_resultado": "1 titulares nuevos: Knicks Are Ignoring the Jordan Clarkson Gold Mine Right in Front of Them"
+   "actualizado": "2026-11-02T01:17:32Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3919.0 · NQ 28717.5 · VIX 19.42",
+   "ts": "2026-11-02T01:17:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3904.6 · NQ 28698.5 · VIX 19.42 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-11-01T11:42:31Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-11-01T11:37:30Z"
   }
  ],
  "briefs": [
@@ -12615,10 +12615,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3904.6,
-  "nq": 28698.5,
+  "oro": 3919.0,
+  "nq": 28717.5,
   "vix": 19.42,
-  "ts": "2026-11-02T01:12:34Z"
+  "ts": "2026-11-02T01:17:32Z"
  },
  "noticias": [
   {
@@ -14157,16 +14157,16 @@
    [
     1793581200,
     3910.7,
-    3911.0,
+    3921.6,
     3900.0,
-    3906.4
+    3920.2
    ],
    [
-    1793581352,
-    3904.6,
-    3904.6,
-    3904.6,
-    3904.6
+    1793581648,
+    3919.0,
+    3919.0,
+    3919.0,
+    3919.0
    ]
   ],
   "nq": [
@@ -14789,16 +14789,16 @@
    [
     1793581200,
     28693.0,
-    28719.0,
+    28726.0,
     28693.0,
-    28710.0
+    28719.0
    ],
    [
-    1793581352,
-    28697.5,
-    28697.5,
-    28697.5,
-    28697.5
+    1793581651,
+    28717.5,
+    28717.5,
+    28717.5,
+    28717.5
    ]
   ],
   "vix": [
@@ -15302,45 +15302,34 @@
   ]
  },
  "noticias_traducidas_ts": "2026-11-02T01:07:31Z",
- "ult_4h": 1793581354.5666099,
+ "ult_4h": 1793582252.232634,
  "estrategia_4h": {
   "oro": {
-   "precio": 3908.9,
-   "atr_4h": 29.66,
+   "precio": 3919.0,
+   "atr_4h": 30.55,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4018.7,
+     "stop": 4019.23,
      "objetivo": 3879.3,
-     "rr": 6.83,
+     "rr": 6.63,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.3,
-     "ruptura": "2026-10-30 04:00 UTC"
-    },
-    {
-     "direccion": "VENTA",
-     "nivel": 3989.1,
-     "entrada": 3989.1,
-     "stop": 4006.9,
-     "objetivo": 3879.3,
-     "rr": 6.17,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.3,
+     "fuerza_ruptura_atr": 2.23,
      "ruptura": "2026-10-30 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 28703.25,
-   "atr_4h": 311.75,
+   "precio": 28717.5,
+   "atr_4h": 311.82,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29475.05,
+     "stop": 29475.09,
      "objetivo": 28232.75,
      "rr": 5.64,
      "estado": "esperando retesteo",
@@ -15351,7 +15340,7 @@
      "direccion": "VENTA",
      "nivel": 29482.5,
      "entrada": 29482.5,
-     "stop": 29669.55,
+     "stop": 29669.59,
      "objetivo": 28232.75,
      "rr": 6.68,
      "estado": "esperando retesteo",
@@ -15360,7 +15349,7 @@
     }
    ]
   },
-  "ts": "2026-11-02T01:02:34Z"
+  "ts": "2026-11-02T01:17:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
