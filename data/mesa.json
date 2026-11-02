@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3914.2 · NQ 28805.0 · VIX 19.42",
-   "actualizado": "2026-11-02T04:32:30Z"
+   "ultimo_resultado": "Oro 3914.8 · NQ 28806.25 · VIX 19.42 · 2 noticias nuevas",
+   "actualizado": "2026-11-02T04:37:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T04:32:30Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-11-02T04:37:33Z",
+   "ultimo_resultado": "2 titulares nuevos: Alex Bregman gana su segundo Guante de Oro"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3914.8 · NQ 28806.25 · VIX 19.42 · 2 noticias nuevas",
+   "ts": "2026-11-02T04:37:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3914.2 · NQ 28805.0 · VIX 19.42",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-11-01T15:07:39Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "0 titulares nuevos. Sin novedades.",
-   "ts": "2026-11-01T15:02:31Z"
   }
  ],
  "briefs": [
@@ -12615,12 +12615,34 @@
   }
  },
  "en_vivo": {
-  "oro": 3914.2,
-  "nq": 28805.0,
+  "oro": 3914.8,
+  "nq": 28806.25,
   "vix": 19.42,
-  "ts": "2026-11-02T04:32:30Z"
+  "ts": "2026-11-02T04:37:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Alex Bregman on winning second career Gold Glove",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVEJJallDUXZ0UzBYY2taUUFfU1VXNERWTFZ3LXRON0xzV0tLVjgxWUR3SF9UR2VCblpzSjQxamhrRS1zSlhZNWtOREpEM2FFd0pocHFTZnc3UDMtMDhUdWhxX2pVSm9XRFBQWGdSNVE1UTlzTWlPbWh1eThncjRRb1VUZDNnUQ?oc=5",
+   "ts": "2026-11-02T04:36:13Z",
+   "fuente": "MLB.com",
+   "id": "5c643d0fff",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Alex Bregman gana su segundo Guante de Oro",
+   "efecto": ""
+  },
+  {
+   "titulo": "Pete Crow-Armstrong on impact of defense, Gold Glove",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMXRzN1hjV0o4aF9FNkd3eXo0NDBodWF1NGV0bVVGQld1RlF3RWRrcjFXNklaNm1VMldLcDU2MnREMDdTS1EzZVRaX2xNNEM0VjdFUmVjU1VpNThJWjEyYVRlaWFxTHZSSlRJT05fTWVFaHNSV2Z4aGhLMHJsZjQzdGdseTQ2MnZia2c?oc=5",
+   "ts": "2026-11-02T04:10:14Z",
+   "fuente": "MLB.com",
+   "id": "c0f08c54d7",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Pete Crow-Armstrong sobre el impacto de la defensa y el Guante de Oro",
+   "efecto": ""
+  },
   {
    "titulo": "Canada-India $5.5 billion bank takeover attracts opposition from workers, politicians",
    "link": "https://www.cnbc.com/2026/11/02/canada-india-bank-takeover-protest-workers.html",
@@ -13473,31 +13495,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Dakar 2026: Swimming awards first gold medal of Games - Best photos from Day 1 action",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOb1Nka1ROTHFycGZHVFJaWl9kaEJrRlJvbmZpdHNlU094ckdKZW55YlltQmRFY29BbDJDaFRoSGJmUXJqVXVwVEx5ZGhpNHVvTldzTzU0Y3NNQS1NeHBDVmNJaFVsZW9BOWFXc0FvU2JycUtzZDY0Wi1ZbHAydllCc1B6YUxrZw?oc=5",
-   "ts": "2026-11-01T23:54:51Z",
-   "fuente": "Olympic Channel",
-   "id": "9cc1470362",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gold Trading Alert: Gold prices rebound from one-year lows; with mid-term elections and non-farm payrolls data due this week, can bulls reverse the downtrend?",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMTkzcUpvam5LbV9LVlhjdEZNZ2d1WV9abmlCV29icHZndkJrMFMtdk1qNHBYY3NPWEVWb29OQUhaTU4zbk9HWkt5bjFjY29WdlFjakdwN0taMkhFbDRsZ0htXzZiV1BFbXo0SmJfaTNiY0tKb0dma2V5bFBFTms0LVdILVF6THFha09SZVotVUhnZHhKUHRWWkFzd2xqYnk1WDNN?oc=5",
-   "ts": "2026-11-01T23:52:43Z",
-   "fuente": "Moomoo",
-   "id": "9dd93b63bd",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El oro rebota desde mínimos anuales a la espera de elecciones de mitad de término y NFP.",
-   "efecto": "Posible cobertura institucional ante volatilidad de datos y elecciones."
   }
  ],
  "eventos_avisados": [
@@ -14140,14 +14137,14 @@
     3911.2,
     3918.3,
     3911.1,
-    3914.1
+    3914.4
    ],
    [
-    1793593347,
-    3914.2,
-    3914.2,
-    3914.2,
-    3914.2
+    1793593644,
+    3914.8,
+    3914.8,
+    3914.8,
+    3914.8
    ]
   ],
   "nq": [
@@ -14772,14 +14769,14 @@
     28800.75,
     28817.25,
     28791.75,
-    28803.25
+    28805.25
    ],
    [
-    1793593348,
-    28805.0,
-    28805.0,
-    28805.0,
-    28805.0
+    1793593648,
+    28806.25,
+    28806.25,
+    28806.25,
+    28806.25
    ]
   ],
   "vix": [
@@ -15282,7 +15279,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-11-02T03:47:34Z",
+ "noticias_traducidas_ts": "2026-11-02T04:37:32Z",
  "ult_4h": 1793593950.2766564,
  "estrategia_4h": {
   "oro": {
@@ -15401,8 +15398,6 @@
   }
  ],
  "noticias_vistas": [
-  "ec0bd295d6",
-  "3c94455be5",
   "bf5ec2deae",
   "e7c80625bb",
   "ff3268108d",
@@ -16200,7 +16195,9 @@
   "f6bc782f76",
   "6e3eda44e3",
   "ee2c978af8",
-  "3cf6b9ac78"
+  "3cf6b9ac78",
+  "5c643d0fff",
+  "c0f08c54d7"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
