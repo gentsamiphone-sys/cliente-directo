@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3905.6 · NQ 28691.5 · VIX 19.42 · 1 noticias nuevas",
-   "actualizado": "2026-11-02T00:57:36Z"
+   "ultimo_resultado": "Oro 3908.9 · NQ 28703.25 · VIX 19.42",
+   "actualizado": "2026-11-02T01:02:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T00:57:35Z",
-   "ultimo_resultado": "1 titulares nuevos: Gold Rises, But Expectations of Tighter U.S. Monetary Policy Weigh"
+   "actualizado": "2026-11-02T01:02:34Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3908.9 · NQ 28703.25 · VIX 19.42",
+   "ts": "2026-11-02T01:02:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3905.6 · NQ 28691.5 · VIX 19.42 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-11-01T11:27:34Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: YouTube Gold: Nate Sheppard Was A Fever Dream Against BC",
-   "ts": "2026-11-01T11:22:31Z"
   }
  ],
  "briefs": [
@@ -12615,10 +12615,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3905.6,
-  "nq": 28691.5,
+  "oro": 3908.9,
+  "nq": 28703.25,
   "vix": 19.42,
-  "ts": "2026-11-02T00:57:36Z"
+  "ts": "2026-11-02T01:02:34Z"
  },
  "noticias": [
   {
@@ -14154,14 +14154,14 @@
     3907.4,
     3912.5,
     3903.3,
-    3906.8
+    3909.8
    ],
    [
-    1793580451,
-    3905.6,
-    3905.6,
-    3905.6,
-    3905.6
+    1793580752,
+    3908.8,
+    3908.8,
+    3908.8,
+    3908.8
    ]
   ],
   "nq": [
@@ -14784,16 +14784,16 @@
    [
     1793577600,
     28671.0,
-    28722.0,
+    28725.0,
     28662.25,
-    28698.25
+    28711.0
    ],
    [
-    1793580453,
-    28691.5,
-    28691.5,
-    28691.5,
-    28691.5
+    1793580751,
+    28703.25,
+    28703.25,
+    28703.25,
+    28703.25
    ]
   ],
   "vix": [
@@ -15297,19 +15297,30 @@
   ]
  },
  "noticias_traducidas_ts": "2026-11-02T00:32:33Z",
- "ult_4h": 1793580453.7100992,
+ "ult_4h": 1793581354.5666099,
  "estrategia_4h": {
   "oro": {
-   "precio": 3904.9,
-   "atr_4h": 29.64,
+   "precio": 3908.9,
+   "atr_4h": 29.66,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4018.69,
+     "stop": 4018.7,
      "objetivo": 3879.3,
-     "rr": 6.84,
+     "rr": 6.83,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 2.3,
+     "ruptura": "2026-10-30 04:00 UTC"
+    },
+    {
+     "direccion": "VENTA",
+     "nivel": 3989.1,
+     "entrada": 3989.1,
+     "stop": 4006.9,
+     "objetivo": 3879.3,
+     "rr": 6.17,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 2.3,
      "ruptura": "2026-10-30 04:00 UTC"
@@ -15317,16 +15328,16 @@
    ]
   },
   "nq": {
-   "precio": 28683.75,
-   "atr_4h": 311.54,
+   "precio": 28703.25,
+   "atr_4h": 311.75,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29474.92,
+     "stop": 29475.05,
      "objetivo": 28232.75,
-     "rr": 5.65,
+     "rr": 5.64,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.47,
      "ruptura": "2026-10-29 20:00 UTC"
@@ -15335,16 +15346,16 @@
      "direccion": "VENTA",
      "nivel": 29482.5,
      "entrada": 29482.5,
-     "stop": 29669.42,
+     "stop": 29669.55,
      "objetivo": 28232.75,
-     "rr": 6.69,
+     "rr": 6.68,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 1.47,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-11-02T00:47:33Z"
+  "ts": "2026-11-02T01:02:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
