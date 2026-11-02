@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3914.8 · NQ 28774.5 · VIX 18.95 · 3 noticias nuevas",
-   "actualizado": "2026-11-02T11:42:31Z"
+   "ultimo_resultado": "Oro 3914.9 · NQ 28762.0 · VIX 18.95 · 1 noticias nuevas",
+   "actualizado": "2026-11-02T11:47:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T11:42:30Z",
-   "ultimo_resultado": "3 titulares nuevos: Sinda Ltd. Reports Third Quarter 2026 Results, Highlighting Continued Drilling Success and Notable Progress Toward the Caracol Exploration Decline"
+   "actualizado": "2026-11-02T11:47:31Z",
+   "ultimo_resultado": "1 titulares nuevos: Nolan McLean wins Gold Glove Award"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3914.9 · NQ 28762.0 · VIX 18.95 · 1 noticias nuevas",
+   "ts": "2026-11-02T11:47:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3914.8 · NQ 28774.5 · VIX 18.95 · 3 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-11-01T21:32:58Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 3898.9 · NQ 28534.0.",
-   "ts": "2026-11-01T21:32:57Z"
   }
  ],
  "briefs": [
@@ -12616,10 +12616,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3914.8,
-  "nq": 28774.5,
+  "oro": 3914.9,
+  "nq": 28762.0,
   "vix": 18.95,
-  "ts": "2026-11-02T11:42:31Z"
+  "ts": "2026-11-02T11:47:31Z"
  },
  "noticias": [
   {
@@ -12784,6 +12784,17 @@
    "id": "c8e9567c71",
    "activos": [
     "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Nolan McLean wins Gold Glove Award",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9pUlBMWjlzdkVtc1AwUHcwNGNiNmVoLXdVM2lIX2stRFJlNnM1U0N3bGE5RjhBTnptR3BORFlRSkhQTldEaUk5ME4ycXlJbnk3ZEtTSDRvdWJ1TjVSX2pnZzAyVUpJX2d0TGtrbzBKNGVHXzA?oc=5",
+   "ts": "2026-11-02T09:48:01Z",
+   "fuente": "MLB.com",
+   "id": "74df59da76",
+   "activos": [
+    "oro"
    ],
    "impacto": "medio"
   },
@@ -13503,17 +13514,6 @@
    "impacto": "bajo",
    "es": "Young obtiene su primer Guante de Oro en su primera temporada completa",
    "efecto": "Irrelevante para el oro, NQ y dólar."
-  },
-  {
-   "titulo": "Cole Young wins first AL Gold Glove award, first Mariners player since Raleigh, Moore in 2024",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5adUNHcTQtM1NwcGdaOTFlaFpLQ0p6RjlMMkZoWUE5NHhZQzlGMnpUeGYzRnhYOWV5UDEzUTRieHR1U1Z2RVlwalhCd2Z3SkI0cEZKRXpqOXdwb2YtSmp1WGotaFUzeWtnWU9FNFlnLU9wTUNzOV80akJNWVFLdw?oc=5",
-   "ts": "2026-11-02T02:06:00Z",
-   "fuente": "Yahoo Sports",
-   "id": "d592d98cfc",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14065,14 +14065,14 @@
     3907.9,
     3916.4,
     3907.9,
-    3915.1
+    3914.6
    ],
    [
-    1793619144,
-    3914.8,
-    3914.8,
-    3914.8,
-    3914.8
+    1793619446,
+    3915.0,
+    3915.0,
+    3915.0,
+    3915.0
    ]
   ],
   "nq": [
@@ -14612,15 +14612,15 @@
     1793617200,
     28772.5,
     28791.25,
-    28761.0,
-    28774.75
+    28760.5,
+    28761.5
    ],
    [
-    1793619148,
-    28774.25,
-    28774.25,
-    28774.25,
-    28774.25
+    1793619447,
+    28762.0,
+    28762.0,
+    28762.0,
+    28762.0
    ]
   ],
   "vix": [
@@ -15045,7 +15045,7 @@
     18.96
    ],
    [
-    1793618836,
+    1793619151,
     18.95,
     18.95,
     18.95,
@@ -15054,27 +15054,27 @@
   ]
  },
  "noticias_traducidas_ts": "2026-11-02T11:22:33Z",
- "ult_4h": 1793619156.461476,
+ "ult_4h": 1793620051.829369,
  "estrategia_4h": {
   "oro": {
-   "precio": 3911.6,
-   "atr_4h": 29.22,
+   "precio": 3915.0,
+   "atr_4h": 29.34,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4018.43,
+     "stop": 4018.5,
      "objetivo": 3879.3,
-     "rr": 6.94,
+     "rr": 6.91,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.33,
+     "fuerza_ruptura_atr": 2.32,
      "ruptura": "2026-10-30 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 28780.75,
+   "precio": 28762.0,
    "atr_4h": 296.27,
    "setups": [
     {
@@ -15101,7 +15101,7 @@
     }
    ]
   },
-  "ts": "2026-11-02T11:32:36Z"
+  "ts": "2026-11-02T11:47:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15172,7 +15172,6 @@
   }
  ],
  "noticias_vistas": [
-  "4bbedcff87",
   "d27d554756",
   "a1e3d0efc0",
   "623115b694",
@@ -15971,7 +15970,8 @@
   "3dc413a797",
   "701bd32c8a",
   "368c162aa7",
-  "c20cbb6fe5"
+  "c20cbb6fe5",
+  "74df59da76"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
