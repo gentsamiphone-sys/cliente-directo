@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3963.4 · NQ 28469.5 · VIX 20.12 · 1 noticias nuevas",
-   "actualizado": "2026-11-02T19:02:34Z"
+   "ultimo_resultado": "Oro 3963.6 · NQ 28452.25 · VIX 20.13",
+   "actualizado": "2026-11-02T19:07:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T19:02:34Z",
-   "ultimo_resultado": "1 titulares nuevos: Texas governor race tightens in prediction markets, but Abbott remains favored"
+   "actualizado": "2026-11-02T19:07:31Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3963.6 · NQ 28452.25 · VIX 20.13",
+   "ts": "2026-11-02T19:07:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3963.4 · NQ 28469.5 · VIX 20.12 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3924.0 · NQ 28808.5 · VIX 19.42",
    "ts": "2026-11-02T05:47:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3920.5 · NQ 28805.25 · VIX 19.42",
-   "ts": "2026-11-02T05:42:31Z"
   }
  ],
  "briefs": [
@@ -12634,10 +12634,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3963.4,
-  "nq": 28469.5,
-  "vix": 20.12,
-  "ts": "2026-11-02T19:02:34Z"
+  "oro": 3963.6,
+  "nq": 28452.25,
+  "vix": 20.13,
+  "ts": "2026-11-02T19:07:31Z"
  },
  "noticias": [
   {
@@ -14071,14 +14071,14 @@
     3968.3,
     3976.1,
     3962.7,
-    3963.5
+    3964.2
    ],
    [
-    1793645545,
-    3963.4,
-    3963.4,
-    3963.4,
-    3963.4
+    1793645842,
+    3963.6,
+    3963.6,
+    3963.6,
+    3963.6
    ]
   ],
   "nq": [
@@ -14667,15 +14667,15 @@
     1793642400,
     28559.0,
     28608.0,
-    28456.0,
-    28467.0
+    28450.0,
+    28456.75
    ],
    [
-    1793645554,
-    28469.5,
-    28469.5,
-    28469.5,
-    28469.5
+    1793645852,
+    28452.25,
+    28452.25,
+    28452.25,
+    28452.25
    ]
   ],
   "vix": [
@@ -15144,44 +15144,33 @@
    [
     1793642400,
     19.74,
-    20.14,
+    20.15,
     19.46,
-    20.14
+    20.11
    ],
    [
-    1793645251,
-    20.12,
-    20.12,
-    20.12,
-    20.12
+    1793645536,
+    20.13,
+    20.13,
+    20.13,
+    20.13
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-11-02T18:57:36Z",
- "ult_4h": 1793645554.6100628,
+ "ult_4h": 1793646451.6232998,
  "estrategia_4h": {
   "oro": {
-   "precio": 3965.0,
-   "atr_4h": 32.39,
+   "precio": 3963.6,
+   "atr_4h": 32.44,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4020.34,
+     "stop": 4020.36,
      "objetivo": 3879.3,
-     "rr": 6.26,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.1,
-     "ruptura": "2026-10-30 04:00 UTC"
-    },
-    {
-     "direccion": "VENTA",
-     "nivel": 3989.1,
-     "entrada": 3989.1,
-     "stop": 4008.54,
-     "objetivo": 3879.3,
-     "rr": 5.65,
+     "rr": 6.25,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 2.1,
      "ruptura": "2026-10-30 04:00 UTC"
@@ -15189,23 +15178,34 @@
    ]
   },
   "nq": {
-   "precio": 28481.25,
-   "atr_4h": 299.8,
+   "precio": 28452.25,
+   "atr_4h": 301.54,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29467.88,
+     "stop": 29468.92,
      "objetivo": 28232.75,
-     "rr": 5.87,
+     "rr": 5.83,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.52,
+     "fuerza_ruptura_atr": 1.51,
+     "ruptura": "2026-10-29 20:00 UTC"
+    },
+    {
+     "direccion": "VENTA",
+     "nivel": 29482.5,
+     "entrada": 29482.5,
+     "stop": 29663.42,
+     "objetivo": 28232.75,
+     "rr": 6.91,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 1.51,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-11-02T18:52:34Z"
+  "ts": "2026-11-02T19:07:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
