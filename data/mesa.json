@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3913.3 · NQ 28780.0 · VIX 18.94",
-   "actualizado": "2026-11-02T11:37:30Z"
+   "ultimo_resultado": "Oro 3914.8 · NQ 28774.5 · VIX 18.95 · 3 noticias nuevas",
+   "actualizado": "2026-11-02T11:42:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T11:37:29Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-11-02T11:42:30Z",
+   "ultimo_resultado": "3 titulares nuevos: Sinda Ltd. Reports Third Quarter 2026 Results, Highlighting Continued Drilling Success and Notable Progress Toward the Caracol Exploration Decline"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3914.8 · NQ 28774.5 · VIX 18.95 · 3 noticias nuevas",
+   "ts": "2026-11-02T11:42:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3913.3 · NQ 28780.0 · VIX 18.94",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Mapa listo: oro 3898.9 · NQ 28534.0.",
    "ts": "2026-11-01T21:32:57Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
-   "ts": "2026-11-01T21:32:55Z"
   }
  ],
  "briefs": [
@@ -12616,12 +12616,32 @@
   }
  },
  "en_vivo": {
-  "oro": 3913.3,
-  "nq": 28780.0,
-  "vix": 18.94,
-  "ts": "2026-11-02T11:37:30Z"
+  "oro": 3914.8,
+  "nq": 28774.5,
+  "vix": 18.95,
+  "ts": "2026-11-02T11:42:31Z"
  },
  "noticias": [
+  {
+   "titulo": "Sinda Ltd. Reports Third Quarter 2026 Results, Highlighting Continued Drilling Success and Notable Progress Toward the Caracol Exploration Decline",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/sinda-ltd-reports-third-quarter-113100102.html?.tsrc=rss",
+   "ts": "2026-11-02T11:31:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "701bd32c8a",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Soma Gold Enters Into $10 Million Royalty Agreement with Silver Crown Royalties",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/soma-gold-enters-10-million-112442025.html?.tsrc=rss",
+   "ts": "2026-11-02T11:24:42Z",
+   "fuente": "Yahoo Finance",
+   "id": "368c162aa7",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Fake nuclear warnings in Ukraine as Moscow, Kyiv report separate cyberattacks on emergency apps",
    "link": "https://www.cnbc.com/2026/11/02/russia-ukraine-cyberattack-zelenskyy-putin.html",
@@ -12646,6 +12666,17 @@
    "impacto": "bajo",
    "es": "Pecoy Copper anuncia financiación estratégica de 49.8M CAD liderada por Hudbay.",
    "efecto": "Sin impacto institucional relevante en oro o NQ."
+  },
+  {
+   "titulo": "U.S. Treasury, European Bond Yields Fall as Oil Prices Drop",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUGUwUW9rQ2ZHNURiZzhMRDEyQXVMUkQ0c3dreUlKakhxR2JRTzV1dUlKWm9KbWFqd3ZRVWF4Qk1rTi1jdDBSZm9aRVNFd1hOVlI5dUJSTTdKbFUtSGw1MGFac1pWUXUtcFRzd282c2RMdXh0bW12WUJnVUlkdDE2RllDTy04NE92aDlvTnBXaHBTSkVHVmJncUV6SkE3emxqbHZSX25FTTZFaGVhWm52QU1HbzdaYjNfRTQ0RnBzWkkxQmtEN0JtWA?oc=5",
+   "ts": "2026-11-02T11:06:00Z",
+   "fuente": "WSJ",
+   "id": "c20cbb6fe5",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "OpenAI deepens Abu Dhabi foothold as Sam Altman inks deals spanning energy, government and investment",
@@ -13483,39 +13514,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Bibee wins 1st career Gold Glove, 2nd Cleveland pitcher to earn honor",
-   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JenRvUTRmbG5zejVBSU9ZSG05bFRVM0p0RDFwVXptdThwQ1cwaHlaLVJIWmZ4TTZCOHgwRVRYcjZobXlHb2tuQWhSUTE4QXdrTjdTazFIUHZvZE41TnczZ1hxM0hhbHhDMnh6d2RzZjJ6R2hTVjA3RTNB0gGGAUFVX3lxTE1qWWlwaXRoQzYzLUNBXzJWZGYxS0FseGI0MlpyQk1YUHdSZHFOTXoxYzQ0NTFnTUk1YWJTNFBKLTZBQTBEU016LXRWRFV5cDBXdmgxVXNKTjBFQ0xpQU45ZnRhS3lRVUo1SGdySmpSZlZhS2xVVGlfdXVHZjRNZzhERzNESGt3?oc=5",
-   "ts": "2026-11-02T02:05:12Z",
-   "fuente": "MLB.com",
-   "id": "40d1aa7099",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Bellinger's rock-solid LF defense rewarded with 2nd career Gold Glove",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBhLURMV1c4T0hfVTdVeU9qbEQ4anFFQkkyREhBb1VkZHBWX3N4VlBFdmRnYW4wUi1EVmFlX3RCRm9rN2RiRFBHaGVPMHNHNVRrNE9uNTNaQk5BUjI5dlRDd1VidDk0WERwV2pmZlpJSFh2Z2Uz0gGAAUFVX3lxTE84WVdSYTdIelY5QzFWR3Bwc2FNWWM3NWRnM2xVNGxReXRGRzk4eTFYbG55R05kYWJSWEx3WEFCZUlzR2xPQ0c3VUpMMVlGa2IxWFVLdW9iMGxzMmQ2aDQyN2t1OUc5ZUFrSVBUVURrOGdkeVFiaUlkb25XeVh3M25w?oc=5",
-   "ts": "2026-11-02T02:04:24Z",
-   "fuente": "MLB.com",
-   "id": "bae5392ba5",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "McLean wins Mets’ first Gold Glove in 12 years",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBOS2FfVFlIZGRmLS1LeVlWWVAxSUZQTUdkZ2VWek01VmdJcjJHMnF2Wlg1SWE1eDYzM0FNTEoteGFZLXYyaWNOWExjMU91eF9Rc09hLXowLW9GWDd2VktuQjBNTlBsc25TZEVibHFBWXpIZ9IBfkFVX3lxTE5ibktIU2hEakdUOXRmT0JKQjN6X240bFVzWUx4OWcxV0pheFRtNDlDNGZ1MHpwVU5sbjdiOXBTWXRfczlXTWowbjZGUDJrWHc4aTF4bjFQRzBHeUVrSVlaTlVmZjFWRmZETHczbWNrUUhDUHBHN0RKN0gzRzZrdw?oc=5",
-   "ts": "2026-11-02T02:04:11Z",
-   "fuente": "MLB.com",
-   "id": "910a9e373f",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14065,16 +14063,16 @@
    [
     1793617200,
     3907.9,
-    3914.8,
+    3916.4,
     3907.9,
-    3913.7
+    3915.1
    ],
    [
-    1793618838,
-    3913.3,
-    3913.3,
-    3913.3,
-    3913.3
+    1793619144,
+    3914.8,
+    3914.8,
+    3914.8,
+    3914.8
    ]
   ],
   "nq": [
@@ -14615,14 +14613,14 @@
     28772.5,
     28791.25,
     28761.0,
-    28781.75
+    28774.75
    ],
    [
-    1793618840,
-    28780.0,
-    28780.0,
-    28780.0,
-    28780.0
+    1793619148,
+    28774.25,
+    28774.25,
+    28774.25,
+    28774.25
    ]
   ],
   "vix": [
@@ -15042,16 +15040,16 @@
    [
     1793617200,
     18.89,
-    18.95,
+    18.96,
     18.82,
-    18.94
+    18.96
    ],
    [
-    1793618536,
-    18.94,
-    18.94,
-    18.94,
-    18.94
+    1793618836,
+    18.95,
+    18.95,
+    18.95,
+    18.95
    ]
   ]
  },
@@ -15174,9 +15172,6 @@
   }
  ],
  "noticias_vistas": [
-  "716f98bff2",
-  "233567d441",
-  "abdc907f02",
   "4bbedcff87",
   "d27d554756",
   "a1e3d0efc0",
@@ -15973,7 +15968,10 @@
   "d53f553669",
   "ce3629fb41",
   "c4b7e4520a",
-  "3dc413a797"
+  "3dc413a797",
+  "701bd32c8a",
+  "368c162aa7",
+  "c20cbb6fe5"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
