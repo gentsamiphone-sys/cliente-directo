@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3956.6 · NQ 28223.75 · VIX 21.15 · 2 noticias nuevas",
-   "actualizado": "2026-11-02T22:37:35Z"
+   "ultimo_resultado": "Oro 3956.6 · NQ 28223.75 · VIX 21.15 · 1 noticias nuevas",
+   "actualizado": "2026-11-02T22:42:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T22:37:34Z",
-   "ultimo_resultado": "2 titulares nuevos: Australian Cash Flow Stocks For November 2026"
+   "actualizado": "2026-11-02T22:42:30Z",
+   "ultimo_resultado": "1 titulares nuevos: Apple shares drop on disappointing revenue guidance: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3956.6 · NQ 28223.75 · VIX 21.15 · 1 noticias nuevas",
+   "ts": "2026-11-02T22:42:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3956.6 · NQ 28223.75 · VIX 21.15 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3912.3 · NQ 28768.0 · VIX 19.01",
    "ts": "2026-11-02T09:22:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3909.4 · NQ 28766.75 · VIX 19.11",
-   "ts": "2026-11-02T09:17:33Z"
   }
  ],
  "briefs": [
@@ -12686,9 +12686,20 @@
   "oro": 3956.6,
   "nq": 28223.75,
   "vix": 21.15,
-  "ts": "2026-11-02T22:37:35Z"
+  "ts": "2026-11-02T22:42:30Z"
  },
  "noticias": [
+  {
+   "titulo": "Apple shares drop on disappointing revenue guidance: Live updates",
+   "link": "https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html",
+   "ts": "2026-11-02T22:39:41Z",
+   "fuente": "CNBC",
+   "id": "1e7fe4418d",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "SEC Form 10-Q filed by i-80 Gold Corp.",
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVDg4NC1ldUdKbG40N1FUeVgySGphTDJCWHBVcVdmUFd4MHFOVWFTdWl2Ym5Jc2ZKUVFnRUNZeGRvYUREUS1NbVk0SWtJdnl4RDdtclFSUDAxNkVFYmk3ZFlIQlo4QjZjNVo5VElfX3d5YlJndVhjTWdVQXNyLUIwUEVn?oc=5",
@@ -13536,17 +13547,6 @@
    "id": "d7323f78ef",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "CrowdStrike lands an upgrade, and Jim Cramer's advice on Apple ahead of earnings",
-   "link": "https://www.cnbc.com/investingclub/2026/11/02/crowdstrike-lands-an-upgrade-and-jim-cramers-advice-on-apple-ahead-of-earnings.html",
-   "ts": "2026-11-02T17:04:34Z",
-   "fuente": "CNBC",
-   "id": "b1db4bdb68",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -15417,7 +15417,6 @@
   }
  ],
  "noticias_vistas": [
-  "64e9557c6c",
   "5e1418479e",
   "f5e998cbed",
   "3ba4c9edac",
@@ -16216,7 +16215,8 @@
   "0241a07b97",
   "ff46bd03d2",
   "625ed9c83d",
-  "9ba28ec4aa"
+  "9ba28ec4aa",
+  "1e7fe4418d"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
