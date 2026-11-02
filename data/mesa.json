@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3965.9 · NQ 28886.5 · VIX 18.08",
-   "actualizado": "2026-11-02T15:42:35Z"
+   "ultimo_resultado": "Oro 3962.8 · NQ 28841.75 · VIX 18.16 · 3 noticias nuevas",
+   "actualizado": "2026-11-02T15:47:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T15:42:34Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-11-02T15:47:32Z",
+   "ultimo_resultado": "3 titulares nuevos: This cybersecurity stock has doubled in 2026, and still has room to run, Deutsche Bank says"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3962.8 · NQ 28841.75 · VIX 18.16 · 3 noticias nuevas",
+   "ts": "2026-11-02T15:47:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3965.9 · NQ 28886.5 · VIX 18.08",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3921.3 · NQ 28773.75 · VIX 19.42 · 2 noticias nuevas",
    "ts": "2026-11-02T02:27:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3918.5 · NQ 28764.75 · VIX 19.42 · 2 noticias nuevas",
-   "ts": "2026-11-02T02:22:33Z"
   }
  ],
  "briefs": [
@@ -12634,12 +12634,21 @@
   }
  },
  "en_vivo": {
-  "oro": 3965.9,
-  "nq": 28886.5,
-  "vix": 18.08,
-  "ts": "2026-11-02T15:42:35Z"
+  "oro": 3962.8,
+  "nq": 28841.75,
+  "vix": 18.16,
+  "ts": "2026-11-02T15:47:33Z"
  },
  "noticias": [
+  {
+   "titulo": "This cybersecurity stock has doubled in 2026, and still has room to run, Deutsche Bank says",
+   "link": "https://www.cnbc.com/2026/11/02/this-stock-is-a-double-in-2026-and-still-has-room-to-run-deutsche-bank-says.html",
+   "ts": "2026-11-02T15:35:40Z",
+   "fuente": "CNBC",
+   "id": "44bf9c0908",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Wall Street's Fear Index is doing something strange. Here's what it means for stocks",
    "link": "https://www.cnbc.com/2026/11/02/wall-streets-fear-index-is-doing-something-strange-heres-what-it-means-for-stocks.html",
@@ -12940,6 +12949,15 @@
    "impacto": "medio",
    "es": "El petróleo cae a mínimos de la sesión por esperanzas de paz con Irán",
    "efecto": "Reduce presiones inflacionarias, moderando tasas y apoyando levemente al NQ."
+  },
+  {
+   "titulo": "Jim Cramer's top 10 things to watch in the stock market Monday",
+   "link": "https://www.cnbc.com/investingclub/2026/11/02/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+   "ts": "2026-11-02T13:56:54Z",
+   "fuente": "CNBC",
+   "id": "dd79eaa00e",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "We're buying the dip in a stock after an expectations reset",
@@ -13304,6 +13322,15 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "PRA Group, Inc. Rings the Opening Bell",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE05M19CM05NUVVuWXRncjFfclNXdzQ5WlJMV0tVV2RhQS1MNHFKNG1lYWFNUG5ISHhBSmlfcE12R1pxNXhveVdJa2hLdXJpdjMzTWItRWhIbEhZSUJmNzdXM2J1UTM3dUtsWGE2X0FxWQ?oc=5",
+   "ts": "2026-11-02T11:26:10Z",
+   "fuente": "Nasdaq",
+   "id": "3789a5d1b6",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
    "titulo": "Soma Gold Enters Into $10 Million Royalty Agreement with Silver Crown Royalties",
    "link": "https://finance.yahoo.com/markets/commodities/articles/soma-gold-enters-10-million-112442025.html?.tsrc=rss",
    "ts": "2026-11-02T11:24:42Z",
@@ -13480,37 +13507,6 @@
    "impacto": "bajo",
    "es": "Fortuna cruza 1.9 g/t de oro en 64 metros en el proyecto Bambadji, Senegal",
    "efecto": "Ruido corporativo menor; sin impacto en la macroeconomía."
-  },
-  {
-   "titulo": "Sterling today: Pound gains as dollar slips on Iran diplomacy bets",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/sterling-today-pound-gains-dollar-094813730.html?.tsrc=rss",
-   "ts": "2026-11-02T09:48:13Z",
-   "fuente": "Yahoo Finance",
-   "id": "c8e9567c71",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Nolan McLean wins Gold Glove Award",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9pUlBMWjlzdkVtc1AwUHcwNGNiNmVoLXdVM2lIX2stRFJlNnM1U0N3bGE5RjhBTnptR3BORFlRSkhQTldEaUk5ME4ycXlJbnk3ZEtTSDRvdWJ1TjVSX2pnZzAyVUpJX2d0TGtrbzBKNGVHXzA?oc=5",
-   "ts": "2026-11-02T09:48:01Z",
-   "fuente": "MLB.com",
-   "id": "74df59da76",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Stock Futures Higher, Oil Lower as Investors Return to Risk",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYmNRVXpheDE2eUhldmRHMGJRY2JPaDdnbGxSbFczZ0w4ZGpCNjVJYl9hSmF2NXBQdjFlRmFZNUU0WXVOSEVVWWZaOGJkTEF2aFlIZG1LblZ6ZEpwbWlTbW9hTzZRdmZybTczbzV4VVBPNU9PQWVrbWlCb00tQm5zb3h0RFhZSENFaFkyV3ZMcDhId3J3S0hsWnFSVHFLZFJNOE04NQ?oc=5",
-   "ts": "2026-11-02T09:39:00Z",
-   "fuente": "WSJ",
-   "id": "0ba440562d",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -14089,15 +14085,15 @@
     1793631600,
     3974.7,
     3976.3,
-    3964.3,
-    3964.8
+    3960.6,
+    3963.2
    ],
    [
-    1793633374,
-    3965.6,
-    3965.6,
-    3965.6,
-    3965.6
+    1793633850,
+    3962.2,
+    3962.2,
+    3962.2,
+    3962.2
    ]
   ],
   "nq": [
@@ -14666,14 +14662,14 @@
     28687.25,
     28891.25,
     28664.25,
-    28886.25
+    28833.0
    ],
    [
-    1793633375,
-    28885.5,
-    28885.5,
-    28885.5,
-    28885.5
+    1793633852,
+    28841.75,
+    28841.75,
+    28841.75,
+    28841.75
    ]
   ],
   "vix": [
@@ -15122,23 +15118,23 @@
     1793631600,
     18.52,
     18.82,
-    18.11,
+    18.03,
     18.15
    ],
    [
-    1793633071,
-    18.08,
-    18.08,
-    18.08,
-    18.08
+    1793633551,
+    18.16,
+    18.16,
+    18.16,
+    18.16
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-11-02T15:32:33Z",
- "ult_4h": 1793633555.4912503,
+ "ult_4h": 1793634453.0896938,
  "estrategia_4h": {
   "oro": {
-   "precio": 3970.2,
+   "precio": 3962.2,
    "atr_4h": 32.71,
    "setups": [
     {
@@ -15155,34 +15151,34 @@
    ]
   },
   "nq": {
-   "precio": 28846.0,
-   "atr_4h": 298.18,
+   "precio": 28841.75,
+   "atr_4h": 301.23,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29466.91,
+     "stop": 29468.74,
      "objetivo": 28232.75,
-     "rr": 5.9,
+     "rr": 5.84,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.53,
+     "fuerza_ruptura_atr": 1.51,
      "ruptura": "2026-10-29 20:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 29482.5,
      "entrada": 29482.5,
-     "stop": 29661.41,
+     "stop": 29663.24,
      "objetivo": 28232.75,
-     "rr": 6.99,
+     "rr": 6.91,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.53,
+     "fuerza_ruptura_atr": 1.51,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-11-02T15:32:35Z"
+  "ts": "2026-11-02T15:47:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15254,9 +15250,6 @@
   }
  ],
  "noticias_vistas": [
-  "3e745bb980",
-  "f90eb94550",
-  "60a83a0afc",
   "f4e3f630f4",
   "94fd538ffb",
   "7941ce7526",
@@ -16053,7 +16046,10 @@
   "80af4db624",
   "79bf18a71a",
   "c2f45cb134",
-  "65fe84125f"
+  "65fe84125f",
+  "44bf9c0908",
+  "dd79eaa00e",
+  "3789a5d1b6"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
