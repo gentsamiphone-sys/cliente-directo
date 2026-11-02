@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3953.2 · NQ 28291.75 · VIX 21.09 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-11-02T20:12:35Z"
+   "ultimo_resultado": "Oro 3956.4 · NQ 28343.75 · VIX 20.8 · 2 noticias nuevas",
+   "actualizado": "2026-11-02T20:17:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T20:12:33Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Intel foundry push faces critical test after stock's 45% plunge in October"
+   "actualizado": "2026-11-02T20:17:33Z",
+   "ultimo_resultado": "2 titulares nuevos: The midterms are here. How JPMorgan expects the market to react"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3956.4 · NQ 28343.75 · VIX 20.8 · 2 noticias nuevas",
+   "ts": "2026-11-02T20:17:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3953.2 · NQ 28291.75 · VIX 21.09 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "DXY -0.04% · 10Y 4.929 · VIX 19.42 · 1 eventos USD en el radar.",
    "ts": "2026-11-02T06:32:57Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
-   "ts": "2026-11-02T06:32:55Z"
   }
  ],
  "briefs": [
@@ -12634,12 +12634,21 @@
   }
  },
  "en_vivo": {
-  "oro": 3953.2,
-  "nq": 28291.75,
-  "vix": 21.09,
-  "ts": "2026-11-02T20:12:34Z"
+  "oro": 3956.4,
+  "nq": 28343.75,
+  "vix": 20.8,
+  "ts": "2026-11-02T20:17:34Z"
  },
  "noticias": [
+  {
+   "titulo": "The midterms are here. How JPMorgan expects the market to react",
+   "link": "https://www.cnbc.com/2026/11/02/the-midterms-are-here-how-jpmorgan-expects-the-market-to-react.html",
+   "ts": "2026-11-02T20:14:02Z",
+   "fuente": "CNBC",
+   "id": "7cf187aae5",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Intel foundry push faces critical test after stock's 45% plunge in October",
    "link": "https://www.cnbc.com/2026/11/02/intel-foundry-faces-critical-test-after-stocks-45percent-plunge-in-october.html",
@@ -12661,6 +12670,17 @@
    "impacto": "alto",
    "es": "Nasdaq y S&P 500 caen a terreno negativo mientras continúa la rotación fuera de tecnología",
    "efecto": "Presiona al NQ a la baja por fuertes ventas institucionales en tecnología."
+  },
+  {
+   "titulo": "BC-Gold-Silver",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-silver-200013751.html?.tsrc=rss",
+   "ts": "2026-11-02T20:00:13Z",
+   "fuente": "Yahoo Finance",
+   "id": "a56a6b87c1",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Why Bristol Gate Canadian Equity Strategy Bought OR Royalties Inc. (OR) After Gold’s Pullback",
@@ -13458,28 +13478,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Yankees' Cody Bellinger's Gold Glove Doesn't Cover for All Sins",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVlBpOEprdmlCSGJNeXQ5U3NkNW42OGRPVjJSY2NGeWxvNldvQ3dNTXJ2ZTl5ZHVmQmYyZXhPOXRBRGlYT200SUFoOHlTTENQeUpwQnBkSWZyTnBDNnFZaEYwTll6Nk9XSVIxdVFWbGZoMXhhWlNNaEtsaTJkSUFKRVZmOE1iMDlWUlFR?oc=5",
-   "ts": "2026-11-02T15:00:43Z",
-   "fuente": "Yahoo Sports",
-   "id": "1e42d1e7c6",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "BC-Gold Futures",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-futures-150031279.html?.tsrc=rss",
-   "ts": "2026-11-02T15:00:31Z",
-   "fuente": "Yahoo Finance",
-   "id": "ef01beb2d8",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14092,16 +14090,16 @@
    [
     1793649600,
     3955.8,
-    3956.5,
+    3961.4,
     3952.8,
-    3952.9
+    3955.0
    ],
    [
-    1793649752,
-    3953.2,
-    3953.2,
-    3953.2,
-    3953.2
+    1793650052,
+    3956.4,
+    3956.4,
+    3956.4,
+    3956.4
    ]
   ],
   "nq": [
@@ -14703,16 +14701,16 @@
    [
     1793649600,
     28321.0,
-    28330.25,
+    28369.75,
     28279.0,
-    28287.25
+    28340.5
    ],
    [
-    1793649753,
-    28291.75,
-    28291.75,
-    28291.75,
-    28291.75
+    1793650053,
+    28343.75,
+    28343.75,
+    28343.75,
+    28343.75
    ]
   ],
   "vix": [
@@ -15190,14 +15188,21 @@
     20.12,
     21.58,
     20.12,
-    21.06
+    20.72
    ],
    [
-    1793649451,
-    21.09,
-    21.09,
-    21.09,
-    21.09
+    1793649600,
+    20.73,
+    20.88,
+    20.7,
+    20.7
+   ],
+   [
+    1793649751,
+    20.8,
+    20.8,
+    20.8,
+    20.8
    ]
   ]
  },
@@ -15333,8 +15338,6 @@
   }
  ],
  "noticias_vistas": [
-  "8270a15cdc",
-  "e8aebf2a2b",
   "a0a902c3bf",
   "d973e10b0f",
   "9372efa514",
@@ -16132,7 +16135,9 @@
   "70b0c727ae",
   "2e8a33c668",
   "515596384b",
-  "9cb60df6e9"
+  "9cb60df6e9",
+  "7cf187aae5",
+  "a56a6b87c1"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
