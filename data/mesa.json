@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3909.3 · NQ 28783.75 · VIX 19.42",
-   "actualizado": "2026-11-02T03:32:34Z"
+   "ultimo_resultado": "Oro 3910.3 · NQ 28786.5 · VIX 19.42 · 1 noticias nuevas",
+   "actualizado": "2026-11-02T03:37:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T03:32:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-11-02T03:37:37Z",
+   "ultimo_resultado": "1 titulares nuevos: Chicago Cubs news: Pete Crow-Armstrong, Alex Bregman win Gold Gloves"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3910.3 · NQ 28786.5 · VIX 19.42 · 1 noticias nuevas",
+   "ts": "2026-11-02T03:37:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3909.3 · NQ 28783.75 · VIX 19.42",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "2 titulares nuevos: Standard Chartered Predicts the Stablecoin Market Will Hit $2 Trillion by 2030. These Are the 3 Stablecoins Investors Need to Know.",
    "ts": "2026-11-01T14:07:32Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "2 titulares nuevos: Horizon Food anuncia impacto financiero esperado por tarifas modificadas de electricidad, agua y alcantarillado",
-   "ts": "2026-11-01T14:02:42Z"
   }
  ],
  "briefs": [
@@ -12615,10 +12615,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3909.3,
-  "nq": 28783.75,
+  "oro": 3910.3,
+  "nq": 28786.5,
   "vix": 19.42,
-  "ts": "2026-11-02T03:32:33Z"
+  "ts": "2026-11-02T03:37:37Z"
  },
  "noticias": [
   {
@@ -12669,6 +12669,17 @@
    "ts": "2026-11-02T02:44:00Z",
    "fuente": "Yahoo Sports",
    "id": "5488c93b88",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Chicago Cubs news: Pete Crow-Armstrong, Alex Bregman win Gold Gloves",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQ2syaldOZjNJOTV3eEdYRXpYN2N4em14OV9WWFhVd19tSy1KbHFoSWo1S2g2S05EbHdVYnVJRFIzZFV3dlJmY3ktT0J6eFdjVjBDN3VHX3d6VW13dmNEdC1zSnFWeFFzU0xhU1Voc1JBcmxRT0JrMUpuY1N5d0ZZYTlB?oc=5",
+   "ts": "2026-11-02T02:40:00Z",
+   "fuente": "Yahoo Sports",
+   "id": "30c1d83b3d",
    "activos": [
     "oro"
    ],
@@ -13492,17 +13503,6 @@
    "impacto": "bajo",
    "es": "Antigua ciudad minera de oro en Alaska es ahora una joya alpina remota en parque nacional",
    "efecto": ""
-  },
-  {
-   "titulo": "Gold Had Its Worst October Since 2008: Will It Crash Further This Week?",
-   "link": "https://beincrypto.com/gold-worst-october-since-2008-this-week/?.tsrc=rss",
-   "ts": "2026-11-01T21:58:18Z",
-   "fuente": "Yahoo Finance",
-   "id": "6edb327e13",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -14145,14 +14145,14 @@
     3904.2,
     3917.0,
     3904.2,
-    3908.7
+    3910.3
    ],
    [
-    1793589747,
-    3909.3,
-    3909.3,
-    3909.3,
-    3909.3
+    1793590053,
+    3910.3,
+    3910.3,
+    3910.3,
+    3910.3
    ]
   ],
   "nq": [
@@ -14775,16 +14775,16 @@
    [
     1793588400,
     28776.25,
-    28788.5,
+    28796.0,
     28759.75,
-    28783.25
+    28789.5
    ],
    [
-    1793589751,
-    28783.75,
-    28783.75,
-    28783.75,
-    28783.75
+    1793590055,
+    28786.5,
+    28786.5,
+    28786.5,
+    28786.5
    ]
   ],
   "vix": [
@@ -15395,7 +15395,6 @@
   }
  ],
  "noticias_vistas": [
-  "2436d3b014",
   "2353a81fff",
   "54794802b0",
   "7001653ff4",
@@ -16194,7 +16193,8 @@
   "2ed9f68716",
   "b41cdc6a54",
   "f036dbe0e3",
-  "5488c93b88"
+  "5488c93b88",
+  "30c1d83b3d"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
