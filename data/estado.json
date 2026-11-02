@@ -6313,10 +6313,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "Agregando Charlie Palmer Steak",
-   "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-11-02T21:07:09Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "3 negocios nuevos de restaurantes y comida cerca de Decatur Blvd",
+   "actualizado": "2026-11-02T21:07:10Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -6344,6 +6344,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: 3 negocios nuevos de restaurantes y comida cerca de Decatur Blvd",
+   "ts": "2026-11-02T21:07:10Z"
+  },
   {
    "agente": "buscador",
    "texto": "Encontré Charlie Palmer Steak, sin página web.",
@@ -7838,11 +7843,6 @@
    "agente": "disenador",
    "texto": "Terminó su turno: No había negocios nuevos para armar muestra",
    "ts": "2026-10-31T15:27:33Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Terminó su turno: No pude buscar en este turno (HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with)",
-   "ts": "2026-10-31T15:09:25Z"
   }
  ],
  "reportes": {
