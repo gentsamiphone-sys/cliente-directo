@@ -6191,9 +6191,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Cheyenne Ave…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-11-02T13:02:47Z"
+   "actualizado": "2026-11-02T13:06:36Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -6221,6 +6221,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-11-02T13:06:36Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando herrerías y oficios (herrería, jardinería, construcción) sin página web cerca de Cheyenne Ave…",
@@ -7715,11 +7720,6 @@
    "agente": "disenador",
    "texto": "Armando la muestra de The Steak House…",
    "ts": "2026-10-31T07:29:46Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Muestra lista de Paradise Garden Buffet y su mensaje para mandar por texto.",
-   "ts": "2026-10-31T07:29:42Z"
   }
  ],
  "reportes": {
