@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3979.1 · NQ 28668.0 · VIX 18.94 · 1 noticias nuevas",
-   "actualizado": "2026-11-02T17:12:38Z"
+   "ultimo_resultado": "Oro 3977.7 · NQ 28655.5 · VIX 18.98 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-11-02T17:17:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T17:12:38Z",
-   "ultimo_resultado": "1 titulares nuevos: Michael Saylor sigue comprando Bitcoin y explica cómo lo financia su fondo"
+   "actualizado": "2026-11-02T17:17:36Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Crude oil prices plunge more than 7% on Iran peace talk hopes ahead of U.S. midterms"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3977.7 · NQ 28655.5 · VIX 18.98 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-11-02T17:17:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3979.1 · NQ 28668.0 · VIX 18.94 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3914.7 · NQ 28807.75 · VIX 19.42 · 3 noticias nuevas",
    "ts": "2026-11-02T03:57:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3914.0 · NQ 28796.0 · VIX 19.42",
-   "ts": "2026-11-02T03:52:34Z"
   }
  ],
  "briefs": [
@@ -12634,12 +12634,30 @@
   }
  },
  "en_vivo": {
-  "oro": 3979.1,
-  "nq": 28668.0,
-  "vix": 18.94,
-  "ts": "2026-11-02T17:12:38Z"
+  "oro": 3977.7,
+  "nq": 28655.5,
+  "vix": 18.98,
+  "ts": "2026-11-02T17:17:36Z"
  },
  "noticias": [
+  {
+   "titulo": "Crude oil prices plunge more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+   "link": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+   "ts": "2026-11-02T17:14:53Z",
+   "fuente": "CNBC",
+   "id": "91d3ef11b8",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "DOJ asks Supreme Court to block California counting disputed mail-in ballots",
+   "link": "https://www.cnbc.com/2026/11/02/supreme-court-california-mail-ballots-election.html",
+   "ts": "2026-11-02T17:13:15Z",
+   "fuente": "CNBC",
+   "id": "9f9c32dedd",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "CrowdStrike lands an upgrade, and Jim Cramer's advice on Apple ahead of earnings",
    "link": "https://www.cnbc.com/investingclub/2026/11/02/crowdstrike-lands-an-upgrade-and-jim-cramers-advice-on-apple-ahead-of-earnings.html",
@@ -13469,28 +13487,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Texas Rangers' Ezequiel Duran wins first Gold Glove Award",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeE8wN1hXR3hNZUVjYVNPMWFXeHVwRWUySGpxeDEwZDdVaF9pX2ZPMmdIa05hYVFnOHFfQ2ZVYlFoekh5Z3U0ZHdDVW1sZ2lZTDlpX1NBVW9rb1RtSDJFRWNQQjhSS3RPNENKTHJ1LWdqR3VhdmNSUWJlM19UY2hYaUpxZHVGTVlMd1dCSFJEUk9qZw?oc=5",
-   "ts": "2026-11-02T12:38:39Z",
-   "fuente": "FOX 4 News Dallas-Fort Worth",
-   "id": "8e566c2b66",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "US Dollar Mixed Early Monday, Focus on Midterm Elections, October Employment Report This Week",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-mixed-early-monday-123320208.html?.tsrc=rss",
-   "ts": "2026-11-02T12:33:20Z",
-   "fuente": "Yahoo Finance",
-   "id": "ecd161fc39",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14082,16 +14078,16 @@
    [
     1793638800,
     3977.9,
-    3980.1,
+    3980.3,
     3977.0,
-    3980.0
+    3977.8
    ],
    [
-    1793638951,
-    3979.1,
-    3979.1,
-    3979.1,
-    3979.1
+    1793639244,
+    3978.0,
+    3978.0,
+    3978.0,
+    3978.0
    ]
   ],
   "nq": [
@@ -14673,15 +14669,15 @@
     1793638800,
     28656.5,
     28686.25,
-    28653.0,
-    28660.0
+    28642.0,
+    28668.0
    ],
    [
-    1793638957,
-    28668.0,
-    28668.0,
-    28668.0,
-    28668.0
+    1793639253,
+    28654.75,
+    28654.75,
+    28654.75,
+    28654.75
    ]
   ],
   "vix": [
@@ -15136,16 +15132,23 @@
    [
     1793635200,
     18.63,
-    18.95,
+    19.02,
     18.55,
-    18.92
+    18.99
    ],
    [
-    1793638651,
-    18.94,
-    18.94,
-    18.94,
-    18.94
+    1793638800,
+    19.01,
+    19.01,
+    18.95,
+    18.99
+   ],
+   [
+    1793638951,
+    19.01,
+    19.01,
+    19.01,
+    19.01
    ]
   ]
  },
@@ -15259,8 +15262,6 @@
   }
  ],
  "noticias_vistas": [
-  "d8cee93289",
-  "1fc95d7a43",
   "564a9b32d9",
   "478897b057",
   "844011fb34",
@@ -16058,7 +16059,9 @@
   "b1db4bdb68",
   "f50e6a7222",
   "efd8ac42bd",
-  "b15759f49d"
+  "b15759f49d",
+  "91d3ef11b8",
+  "9f9c32dedd"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
