@@ -1,10 +1,10 @@
 {
  "agentes": {
   "cio": {
-   "estado": "trabajando",
-   "tarea": "Escribiendo el brief cripto…",
-   "actualizado": "2026-11-02T14:07:36Z",
-   "ultimo_resultado": "Brief publicado: Mercado bajo presión macro y salida de stablecoins con sesgo neutral en BTC y bajista en ETH"
+   "estado": "descansando",
+   "tarea": "",
+   "actualizado": "2026-11-02T14:07:43Z",
+   "ultimo_resultado": "Brief publicado: Mercado cripto neutral en soportes clave con cautela institucional y flujos de salida"
   },
   "liquidez": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "cio",
+   "texto": "Brief publicado: Mercado cripto neutral en soportes clave con cautela institucional y flujos de salida",
+   "ts": "2026-11-02T14:07:43Z"
+  },
   {
    "agente": "cio",
    "texto": "Escribiendo el brief cripto…",
@@ -800,14 +805,47 @@
    "agente": "futuros",
    "texto": "[DEMO] Ruptura y retesteo 1H · COMPRA 5 MBT límite 80,310.0 (50% del impulso) · stop 79,695.0 · objetivo 81,880.0 · R:R 2.54",
    "ts": "2026-10-29T20:07:28Z"
-  },
-  {
-   "agente": "futuros",
-   "texto": "ETH: vela de desplazamiento COMPRA pero el sesgo es bajista. No se opera.",
-   "ts": "2026-10-29T18:07:10Z"
   }
  ],
  "briefs": [
+  {
+   "turno": "Mañana (apertura de EE. UU.)",
+   "ts": "2026-11-02T14:07:43Z",
+   "texto": "**BRIEF CRIPTO · MAÑANA (APERTURA DE EE. UU.)**\n\n1. **Sesgo**\n- BTC: Neutral. Presión bajista mensual (-8.09%) pero cotizando justo sobre la EMA200 diaria.\n- ETH: Neutral. Desplome mensual (-14.81%) en soporte crítico de mínimos del mes.\n\n2. **Liquidez global**\nEl DXY retrocede un 0.26% a 101.61 y los rendimientos a 10 años (US10Y) bajan al 4.9%. El Nasdaq rebota un 0.81%. El entorno macro ayuda ligeramente aliviando la presión sobre los activos de riesgo, aunque el VIX en 19.05 muestra cautela institucional.\n\n3. **Flujos**\nSalida neta de capital: el mercado total cae 1.71% en 24 horas y las stablecoins se contraen fuertemente (-4.4M en 7 días y -9.41M en 30 días), indicando desapalancamiento y salida de liquidez fiat. La dominancia de BTC sube al 59.29%, reflejando búsqueda de refugio frente a las altcoins.\n\n4. **Apalancamiento y sentimiento**\nEl índice Fear & Greed cae a 37 (Fear), enfriando el sentimiento. Los funding rates de perpetuos se mantienen neutrales-bajos (BTC 0.0073% y ETH 0.0092%), sin apalancamiento excesivo en longs, lo que reduce el riesgo de una gran liquidación inmediata pero confirma la falta de apetito alcista.\n\n5. **Mapa de liquidez**\n- **BTC**: Máx/mín semana: 81,889.95 / 76,189.88. Máx/mín mes: 86,971.78 / 76,189.88. EMA200 diaria: 76,516.68. Imán probable: la zona de la EMA200 y el mínimo semanal (76,189.88).\n- **ETH**: Máx/mín semana: 2,388.03 / 2,173.30. Máx/mín mes: 2,738.26 / 2,173.30. EMA200 diaria: 2,323.40. Imán probable: retesteo de la EMA200 diaria (2,323.40).\n\n6. **Plan**\n- **BTC**:\n  - Dirección: SIN ENTRADA\n  - Zona de entrada: 76,200.00 (límite en soporte semanal)\n  - Stop: 75,500.00\n  - TP1 / TP2: 78,500.00 / 80,200.00\n  - R:R al TP2: 2.3\n  - Confluencias: 3/5 (1. Liquidez global positiva, 3. Sentimiento de miedo/neutral, 4. Zona de liquidez/EMA200). Menos de 4/5.\n\n- **ETH**:\n  - Dirección: SIN ENTRADA\n  - Zona de entrada: 2,180.00 (límite en mínimos mensuales)\n  - Stop: 2,140.00\n  - TP1 / TP2: 2,320.00 / 2,415.00\n  - R:R al TP2: 2.8\n  - Confluencias: 3/5 (1. Liquidez global positiva, 3. Sentimiento defensivo, 4. Mínimos del mes). Menos de 4/5.\n\n7. **Historia**\nEn esta fecha, BTC registra un promedio histórico alcista del 2.31% en la semana (6 de 8 años positivos), aunque el rendimiento a 20 días suele ser desfavorable (-2.01%). Años análogos destacados: 2025, 2018 y 2022. Sesgo histórico: neutral. Es confluencia, nunca gatillo.\n\n8. **Riesgo**\nRégimen de volatilidad normal para ambos activos. Regla de tamaño: arriesgar como máximo 1% del capital por idea.\n\nAnálisis educativo de agentes de IA. No es consejo financiero.",
+   "titular": "Mercado cripto neutral en soportes clave con cautela institucional y flujos de salida",
+   "sesgo": {
+    "btc": "neutral",
+    "eth": "neutral"
+   },
+   "entradas": [
+    {
+     "activo": "BTC",
+     "direccion": "SIN ENTRADA",
+     "zona": "76,200.00",
+     "stop": "75,500.00",
+     "tp1": "78,500.00",
+     "tp2": "80,200.00",
+     "rr": "2.3",
+     "confluencias": "3/5"
+    },
+    {
+     "activo": "ETH",
+     "direccion": "SIN ENTRADA",
+     "zona": "2,180.00",
+     "stop": "2,140.00",
+     "tp1": "2,320.00",
+     "tp2": "2,415.00",
+     "rr": "2.8",
+     "confluencias": "3/5"
+    }
+   ],
+   "precios": {
+    "btc": 77902.15,
+    "eth": 2289.26
+   },
+   "fear_greed": 37,
+   "dominancia_btc": 59.29
+  },
   {
    "turno": "Noche (Asia)",
    "ts": "2026-11-02T01:52:06Z",
@@ -2289,44 +2327,6 @@
    },
    "fear_greed": 62,
    "dominancia_btc": 59.21
-  },
-  {
-   "turno": "Mañana (apertura de EE. UU.)",
-   "ts": "2026-10-13T13:33:52Z",
-   "texto": "**BRIEF CRIPTO · MAÑANA (APERTURA DE EE. UU.)**\n\n1. **Sesgo**\n- BTC: Alcista — Mantiene estructura por encima de la EMA50 diaria (80,211.66) y la EMA200 diaria (75,759.69), con flujos defensivos hacia el activo principal (dominancia en 59.28%).\n- ETH: Neutral — Presión relativa menor, cotizando pegado a su EMA50 diaria (2,500.52) y con caídas semanales más pronunciadas (-7.15%), a la espera de claridad institucional.\n\n2. **Liquidez global**\nEl DXY retrocede un -0.31% hasta 102.26 y los rendimientos a 10 años (US10Y) caen un -0.69% hasta 5.2%, lo que alivia levemente las condiciones financieras. Sin embargo, el Nasdaq cae un -0.78% (y -2.63% en 5 días), frenando el apetito por riesgo tecnológico. Factores mixtos: alivio en tasas, pero presión en renta variable.\n\n3. **Flujos**\nLas stablecoins muestran contracción con 288.4 MM totales y caídas de -1.8 MM en 7 días y -0.58 MM en 30 días, indicando salida neta de capital fresco. La capitalización total cae un -3.09% en 24h. La dominancia de BTC sube al 59.28% (ETH en 10.83%), reflejando una clara rotación defensiva hacia Bitcoin y refugio institucional.\n\n4. **Apalancamiento y sentimiento**\nEl Fear & Greed cae a 57 (Greed moderado, frente a 71 hace una semana). El funding rate de BTC se mantiene moderadamente positivo en 0.0055% por 8h (sin exceso de palanca alcista) y el de ETH pasa a negativo en -0.0015% por 8h, mostrando sobreventa en futuros de altcoins. No hay euforia extrema; el mercado se ha limpiado de apalancamiento excesivo tras los retrocesos recientes.\n\n5. **Mapa de liquidez**\n- BTC: Máximo de la semana 85,594.55, mínimo de la semana 80,336.91; máximo del mes 87,363.76, mínimo del mes 74,944.59; EMA200 diaria en 75,759.69. Imán más probable: la liquidez superior hacia el máximo de la semana (85,594.55).\n- ETH: Máximo de la semana 2,699.26, mínimo de la semana 2,406.15; máximo del mes 2,805.50, mínimo del mes 2,357.96; EMA200 diaria en 2,325.03. Imán más probable: la zona de valor en torno a la EMA50 diaria (2,500.52) antes de buscar el rango superior.\n\n6. **Plan**\n- **BTC:**\n  - Dirección: COMPRA\n  - Zona de entrada: 81,680.00 (mínimo de ayer)\n  - Stop: 80,250.00 (detrás del mínimo de la semana y soporte EMA50)\n  - TP1 / TP2: 84,250.00 / 85,590.00\n  - R:R al TP2: 2.65\n  - Confluencias: 3/5 ((1) liquidez global mixta, (2) flujos negativos de stablecoins, (3) funding neutral/sano, (4) zona de valor/soporte diario, (5) estacionalidad alcista).\n  - *Nota:* Al tener 3/5, la regla estricta exige SIN ENTRADA. Ajustamos a **SIN ENTRADA** por falta de confluencia institucional suficiente (menor a 4/5).\n\n- **ETH:**\n  - Dirección: SIN ENTRADA\n  - Zona de entrada: 2,420.00\n  - Stop: 2,380.00\n  - TP1 / TP2: 2,570.00 / 2,690.00\n  - R:R al TP2: 3.25\n  - Confluencias: 2/5 ((1) liquidez global mixta, (2) flujos salientes, (3) funding negativo, (4) soporte técnico débil, (5) estacionalidad). Menor a 4/5 = SIN ENTRADA.\n\n7. **Historia**\nEn esta fecha (13 de octubre), BTC ha mostrado un comportamiento históricamente constructivo en el mediano plazo. En los últimos 8 años, subió esta semana el 62.5% de las veces (promedio +2.12%) y repuntó en los 20 días siguientes en 7 de 8 años (promedio +10.67%). Años análogos destacados: 2025, 2018 y 2022. Sesgo histórico: alcista. (Recordatorio: la historia es confluencia, nunca gatillo).\n\n8. **Riesgo**\nRégimen de volatilidad: Normal (ATR diario BTC 2.53%, ETH 3.27%). Regla de tamaño: arriesgar como máximo 1% del capital por idea; en volatilidad alta, la mitad. Hoy operamos con el límite estándar del 1% bajo estricta ejecución por órdenes límite en niveles clave, protegiendo el capital ante la atonía de flujos de stablecoins.\n\nAnálisis educativo de agentes de IA. No es consejo financiero.",
-   "titular": "Rotación defensiva hacia Bitcoin en un mercado sin euforia",
-   "sesgo": {
-    "btc": "alcista",
-    "eth": "neutral"
-   },
-   "entradas": [
-    {
-     "activo": "BTC",
-     "direccion": "SIN ENTRADA",
-     "zona": "81,680.00",
-     "stop": "80,250.00",
-     "tp1": "84,250.00",
-     "tp2": "85,590.00",
-     "rr": "2.65",
-     "confluencias": "3/5"
-    },
-    {
-     "activo": "ETH",
-     "direccion": "SIN ENTRADA",
-     "zona": "2,420.00",
-     "stop": "2,380.00",
-     "tp1": "2,570.00",
-     "tp2": "2,690.00",
-     "rr": "3.25",
-     "confluencias": "2/5"
-    }
-   ],
-   "precios": {
-    "btc": 83255.04,
-    "eth": 2504.56
-   },
-   "fear_greed": 57,
-   "dominancia_btc": 59.28
   }
  ],
  "posiciones": [
