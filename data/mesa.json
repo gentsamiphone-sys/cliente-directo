@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3911.7 · NQ 28795.5 · VIX 19.42 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-11-02T05:12:33Z"
+   "ultimo_resultado": "Oro 3914.7 · NQ 28784.75 · VIX 19.42",
+   "actualizado": "2026-11-02T05:17:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T05:12:33Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: El oro sube por petróleo más débil; los mercados analizan señales de la Fed."
+   "actualizado": "2026-11-02T05:17:31Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3914.7 · NQ 28784.75 · VIX 19.42",
+   "ts": "2026-11-02T05:17:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3911.7 · NQ 28795.5 · VIX 19.42 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
    "ts": "2026-11-01T15:47:30Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos: Hallan artefactos de hierro meteorítico en un tesoro de oro español",
-   "ts": "2026-11-01T15:42:32Z"
   }
  ],
  "briefs": [
@@ -12615,10 +12615,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3911.7,
-  "nq": 28795.5,
+  "oro": 3914.7,
+  "nq": 28784.75,
   "vix": 19.42,
-  "ts": "2026-11-02T05:12:33Z"
+  "ts": "2026-11-02T05:17:31Z"
  },
  "noticias": [
   {
@@ -13994,16 +13994,16 @@
    [
     1793595600,
     3910.2,
-    3912.7,
+    3915.6,
     3910.1,
-    3912.1
+    3914.0
    ],
    [
-    1793595749,
-    3911.5,
-    3911.5,
-    3911.5,
-    3911.5
+    1793596042,
+    3914.7,
+    3914.7,
+    3914.7,
+    3914.7
    ]
   ],
   "nq": [
@@ -14486,16 +14486,16 @@
    [
     1793595600,
     28790.75,
-    28798.5,
-    28789.5,
-    28797.0
+    28802.5,
+    28779.75,
+    28786.75
    ],
    [
-    1793595749,
-    28795.5,
-    28795.5,
-    28795.5,
-    28795.5
+    1793596045,
+    28784.75,
+    28784.75,
+    28784.75,
+    28784.75
    ]
   ],
   "vix": [
@@ -14999,10 +14999,10 @@
   ]
  },
  "noticias_traducidas_ts": "2026-11-02T05:12:32Z",
- "ult_4h": 1793595753.8753505,
+ "ult_4h": 1793596651.8374188,
  "estrategia_4h": {
   "oro": {
-   "precio": 3908.0,
+   "precio": 3914.7,
    "atr_4h": 28.74,
    "setups": [
     {
@@ -15019,34 +15019,34 @@
    ]
   },
   "nq": {
-   "precio": 28783.75,
-   "atr_4h": 299.2,
+   "precio": 28784.75,
+   "atr_4h": 297.88,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29467.52,
+     "stop": 29466.72,
      "objetivo": 28232.75,
-     "rr": 5.88,
+     "rr": 5.9,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.52,
+     "fuerza_ruptura_atr": 1.53,
      "ruptura": "2026-10-29 20:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 29482.5,
      "entrada": 29482.5,
-     "stop": 29662.02,
+     "stop": 29661.22,
      "objetivo": 28232.75,
-     "rr": 6.96,
+     "rr": 6.99,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.52,
+     "fuerza_ruptura_atr": 1.53,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-11-02T05:02:34Z"
+  "ts": "2026-11-02T05:17:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
