@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3971.1 · NQ 28695.75 · VIX 19.02",
-   "actualizado": "2026-11-02T14:52:43Z"
+   "ultimo_resultado": "Oro 3974.3 · NQ 28719.5 · VIX 19.05 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-11-02T14:57:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T14:52:42Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-11-02T14:57:37Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Precio actual del oro al 2 de noviembre de 2026"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3974.3 · NQ 28719.5 · VIX 19.05 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-11-02T14:57:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3971.1 · NQ 28695.75 · VIX 19.02",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3915.4 · NQ 28746.75 · VIX 19.42 · 2 noticias nuevas",
    "ts": "2026-11-02T01:37:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3917.6 · NQ 28731.25 · VIX 19.42 · 5 noticias nuevas (1 alto impacto)",
-   "ts": "2026-11-02T01:32:32Z"
   }
  ],
  "briefs": [
@@ -12634,10 +12634,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3971.1,
-  "nq": 28695.75,
-  "vix": 19.02,
-  "ts": "2026-11-02T14:52:42Z"
+  "oro": 3974.3,
+  "nq": 28719.5,
+  "vix": 19.05,
+  "ts": "2026-11-02T14:57:38Z"
  },
  "noticias": [
   {
@@ -12706,6 +12706,19 @@
    "id": "5871228270",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Current price of gold as of November 2, 2026",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1OVmpCYVRwci16TGxDSkxJQV9mTjlWb3dnVTdFWkFFeHlqY1hMSmFCZ3VaaWx4dHh4X3ZfbVdVTjdmbWhJU2xCRDNhU24wMjdyc2ZRYjN5OG1fZzBaT3J2VkpmM0VaVXVlQzZCVDh3?oc=5",
+   "ts": "2026-11-02T14:05:00Z",
+   "fuente": "Fortune",
+   "id": "bb4e2e1c8e",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Precio actual del oro al 2 de noviembre de 2026",
+   "efecto": "Informativo, sin impacto operativo inmediato."
   },
   {
    "titulo": "C3 Metals reports highest-grade hole to date at Khaleesi",
@@ -13447,6 +13460,20 @@
    "efecto": "Sin impacto en mercados financieros; noticia deportiva irrelevante."
   },
   {
+   "titulo": "Gold rises over 1% from one-year low on softer oil prices; US midterms in focus",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOXFkdElkaE5fVGZ6eUVZUFZnZjNuaUFoM2pPZ1ZJeEY4bmN0Wm9zSTRwLWpHcjNjLWRLRklsOV95a21mWjZWckhUam5qTVZVUzVDdWEwQXVOVWlpaHpCMktPLU41TGNkZjI3MFM1azNvSEtUai1pUGFpNi1mZFhISlB3TXFUSWtseGlhYmRISUpuWXdlVU5mLTJPRQ?oc=5",
+   "ts": "2026-11-02T05:04:00Z",
+   "fuente": "Reuters",
+   "id": "f7836094a1",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "El oro sube más de 1% desde mínimo anual por petróleo débil; atención a elecciones de EE. UU.",
+   "efecto": "Compra institucional de oro por cobertura ante volatilidad política."
+  },
+  {
    "titulo": "Gold rebounds from one-year low as oil slides ahead of US midterms",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOXFkdElkaE5fVGZ6eUVZUFZnZjNuaUFoM2pPZ1ZJeEY4bmN0Wm9zSTRwLWpHcjNjLWRLRklsOV95a21mWjZWckhUam5qTVZVUzVDdWEwQXVOVWlpaHpCMktPLU41TGNkZjI3MFM1azNvSEtUai1pUGFpNi1mZFhISlB3TXFUSWtseGlhYmRISUpuWXdlVU5mLTJPRQ?oc=5",
    "ts": "2026-11-02T05:04:00Z",
@@ -13507,28 +13534,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Alex Bregman on winning second career Gold Glove",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVEJJallDUXZ0UzBYY2taUUFfU1VXNERWTFZ3LXRON0xzV0tLVjgxWUR3SF9UR2VCblpzSjQxamhrRS1zSlhZNWtOREpEM2FFd0pocHFTZnc3UDMtMDhUdWhxX2pVSm9XRFBQWGdSNVE1UTlzTWlPbWh1eThncjRRb1VUZDNnUQ?oc=5",
-   "ts": "2026-11-02T04:36:13Z",
-   "fuente": "MLB.com",
-   "id": "5c643d0fff",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Alex Bregman gana su segundo Guante de Oro",
-   "efecto": ""
-  },
-  {
-   "titulo": "Pete Crow-Armstrong on impact of defense, Gold Glove",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMXRzN1hjV0o4aF9FNkd3eXo0NDBodWF1NGV0bVVGQld1RlF3RWRrcjFXNklaNm1VMldLcDU2MnREMDdTS1EzZVRaX2xNNEM0VjdFUmVjU1VpNThJWjEyYVRlaWFxTHZSSlRJT05fTWVFaHNSV2Z4aGhLMHJsZjQzdGdseTQ2MnZia2c?oc=5",
-   "ts": "2026-11-02T04:10:14Z",
-   "fuente": "MLB.com",
-   "id": "c0f08c54d7",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Pete Crow-Armstrong sobre el impacto de la defensa y el Guante de Oro",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -14101,14 +14106,14 @@
     3947.8,
     3976.0,
     3944.6,
-    3973.8
+    3970.9
    ],
    [
-    1793630353,
-    3971.1,
-    3971.1,
-    3971.1,
-    3971.1
+    1793630419,
+    3974.3,
+    3974.3,
+    3974.3,
+    3974.3
    ]
   ],
   "nq": [
@@ -14670,14 +14675,14 @@
     28753.0,
     28782.75,
     28639.0,
-    28712.5
+    28699.25
    ],
    [
-    1793630353,
-    28695.75,
-    28695.75,
-    28695.75,
-    28695.75
+    1793630420,
+    28719.25,
+    28719.25,
+    28719.25,
+    28719.25
    ]
   ],
   "vix": [
@@ -15118,20 +15123,20 @@
    [
     1793628000,
     19.06,
-    19.1,
+    19.11,
     18.88,
-    19.02
+    19.11
    ],
    [
-    1793630041,
-    19.02,
-    19.02,
-    19.02,
-    19.02
+    1793630116,
+    19.05,
+    19.05,
+    19.05,
+    19.05
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-11-02T14:27:35Z",
+ "noticias_traducidas_ts": "2026-11-02T14:57:36Z",
  "ult_4h": 1793630883.8429346,
  "estrategia_4h": {
   "oro": {
@@ -15262,8 +15267,6 @@
   }
  ],
  "noticias_vistas": [
-  "0af606f2a3",
-  "0d905ea742",
   "69d59b8c1e",
   "656f84b3f6",
   "b66018b216",
@@ -16061,7 +16064,9 @@
   "fe10f502b8",
   "7942a91b6b",
   "9f557adf88",
-  "026bc5d244"
+  "026bc5d244",
+  "bb4e2e1c8e",
+  "f7836094a1"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
