@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3956.4 · NQ 28343.75 · VIX 20.8 · 2 noticias nuevas",
-   "actualizado": "2026-11-02T20:17:34Z"
+   "ultimo_resultado": "Oro 3952.2 · NQ 28277.75 · VIX 20.69 · 1 noticias nuevas",
+   "actualizado": "2026-11-02T20:22:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T20:17:33Z",
-   "ultimo_resultado": "2 titulares nuevos: The midterms are here. How JPMorgan expects the market to react"
+   "actualizado": "2026-11-02T20:22:31Z",
+   "ultimo_resultado": "1 titulares nuevos: NASDAQ indices have given up their gains. Trade in negative territory"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3952.2 · NQ 28277.75 · VIX 20.69 · 1 noticias nuevas",
+   "ts": "2026-11-02T20:22:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3956.4 · NQ 28343.75 · VIX 20.8 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
    "ts": "2026-11-02T06:32:58Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "DXY -0.04% · 10Y 4.929 · VIX 19.42 · 1 eventos USD en el radar.",
-   "ts": "2026-11-02T06:32:57Z"
   }
  ],
  "briefs": [
@@ -12634,10 +12634,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3956.4,
-  "nq": 28343.75,
-  "vix": 20.8,
-  "ts": "2026-11-02T20:17:34Z"
+  "oro": 3952.2,
+  "nq": 28277.75,
+  "vix": 20.69,
+  "ts": "2026-11-02T20:22:32Z"
  },
  "noticias": [
   {
@@ -12756,6 +12756,17 @@
    "id": "35c0b0424d",
    "activos": [
     "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "NASDAQ indices have given up their gains. Trade in negative territory",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM1lCbHBhZnNTeGhRRG9GaTlIM2V2N1lZNmtoLWhQX0RoRTVjeFpRMVhEZlVFSEszMWpiWkJ5ZmNFcmdMc1BYUXkxNTltUGt2RHRsRm1sV0ttSWhWR2h5QnUtb3BoN0xVUUlIUjNoTHlkUjA4bGlScXYxVGkzRFJXMGdzbjhBNjVTSDNBY0tydk9zRENrNnlOQ3UtZmtqaVY1NmFaQg?oc=5",
+   "ts": "2026-11-02T19:17:36Z",
+   "fuente": "investingLive",
+   "id": "789a758861",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -13467,17 +13478,6 @@
     "oro"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Apple earnings live updates: New CEO John Ternus faces first Wall Street test",
-   "link": "https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html",
-   "ts": "2026-11-02T15:01:18Z",
-   "fuente": "CNBC",
-   "id": "7e0dbc346f",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14091,15 +14091,15 @@
     1793649600,
     3955.8,
     3961.4,
-    3952.8,
-    3955.0
+    3951.4,
+    3951.7
    ],
    [
-    1793650052,
-    3956.4,
-    3956.4,
-    3956.4,
-    3956.4
+    1793650350,
+    3951.7,
+    3951.7,
+    3951.7,
+    3951.7
    ]
   ],
   "nq": [
@@ -14702,15 +14702,15 @@
     1793649600,
     28321.0,
     28369.75,
-    28279.0,
-    28340.5
+    28260.0,
+    28271.5
    ],
    [
-    1793650053,
-    28343.75,
-    28343.75,
-    28343.75,
-    28343.75
+    1793650351,
+    28277.75,
+    28277.75,
+    28277.75,
+    28277.75
    ]
   ],
   "vix": [
@@ -15194,78 +15194,78 @@
     1793649600,
     20.73,
     20.88,
-    20.7,
+    20.53,
     20.7
    ],
    [
-    1793649751,
-    20.8,
-    20.8,
-    20.8,
-    20.8
+    1793650051,
+    20.68,
+    20.68,
+    20.68,
+    20.68
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-11-02T20:02:34Z",
- "ult_4h": 1793650053.7450697,
+ "ult_4h": 1793650952.630621,
  "estrategia_4h": {
   "oro": {
-   "precio": 3952.7,
-   "atr_4h": 33.42,
+   "precio": 3951.7,
+   "atr_4h": 32.63,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4020.95,
+     "stop": 4020.48,
      "objetivo": 3879.3,
-     "rr": 6.06,
+     "rr": 6.21,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.03,
+     "fuerza_ruptura_atr": 2.08,
      "ruptura": "2026-10-30 04:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 3989.1,
      "entrada": 3989.1,
-     "stop": 4009.15,
+     "stop": 4008.68,
      "objetivo": 3879.3,
-     "rr": 5.48,
+     "rr": 5.61,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.03,
+     "fuerza_ruptura_atr": 2.08,
      "ruptura": "2026-10-30 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 28273.75,
-   "atr_4h": 320.25,
+   "precio": 28277.75,
+   "atr_4h": 311.29,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29480.15,
+     "stop": 29474.77,
      "objetivo": 28188.0,
-     "rr": 5.72,
+     "rr": 5.89,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.42,
+     "fuerza_ruptura_atr": 1.46,
      "ruptura": "2026-10-29 20:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 29482.5,
      "entrada": 29482.5,
-     "stop": 29674.65,
+     "stop": 29669.27,
      "objetivo": 28188.0,
-     "rr": 6.74,
+     "rr": 6.93,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.42,
+     "fuerza_ruptura_atr": 1.46,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-11-02T20:07:34Z"
+  "ts": "2026-11-02T20:22:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15338,7 +15338,6 @@
   }
  ],
  "noticias_vistas": [
-  "a0a902c3bf",
   "d973e10b0f",
   "9372efa514",
   "95c45f3ed1",
@@ -16137,7 +16136,8 @@
   "515596384b",
   "9cb60df6e9",
   "7cf187aae5",
-  "a56a6b87c1"
+  "a56a6b87c1",
+  "789a758861"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
