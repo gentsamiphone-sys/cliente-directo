@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3968.5 · NQ 28734.25 · VIX 19.35 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-11-02T15:07:38Z"
+   "ultimo_resultado": "Oro 3970.6 · NQ 28736.0 · VIX 19.08 · 3 noticias nuevas",
+   "actualizado": "2026-11-02T15:12:38Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T15:07:38Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: The average stock is having its best relative performance in decades as the AI trade falters"
+   "actualizado": "2026-11-02T15:12:38Z",
+   "ultimo_resultado": "3 titulares nuevos: Jet crashes into a South Florida neighborhood, killing all 9 on board and leaving a fiery crater"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3970.6 · NQ 28736.0 · VIX 19.08 · 3 noticias nuevas",
+   "ts": "2026-11-02T15:12:38Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3968.5 · NQ 28734.25 · VIX 19.35 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3920.1 · NQ 28760.0 · VIX 19.42 · 1 noticias nuevas",
    "ts": "2026-11-02T01:52:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3920.5 · NQ 28764.25 · VIX 19.42 · 3 noticias nuevas",
-   "ts": "2026-11-02T01:47:32Z"
   }
  ],
  "briefs": [
@@ -12634,12 +12634,21 @@
   }
  },
  "en_vivo": {
-  "oro": 3968.5,
-  "nq": 28734.25,
-  "vix": 19.35,
-  "ts": "2026-11-02T15:07:38Z"
+  "oro": 3970.6,
+  "nq": 28736.0,
+  "vix": 19.08,
+  "ts": "2026-11-02T15:12:38Z"
  },
  "noticias": [
+  {
+   "titulo": "Jet crashes into a South Florida neighborhood, killing all 9 on board and leaving a fiery crater",
+   "link": "https://www.cnbc.com/2026/11/01/jet-nosedives-erupts-into-fireball-near-busy-roadway-in-south-florida.html",
+   "ts": "2026-11-02T15:09:33Z",
+   "fuente": "CNBC",
+   "id": "451716597a",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "The average stock is having its best relative performance in decades as the AI trade falters",
    "link": "https://www.cnbc.com/2026/11/02/the-average-stock-is-having-its-best-relative-performance-in-decades-as-the-ai-trade-falters.html",
@@ -12659,6 +12668,17 @@
     "oro"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Apple earnings live updates: New CEO John Ternus faces first Wall Street test",
+   "link": "https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html",
+   "ts": "2026-11-02T15:01:18Z",
+   "fuente": "CNBC",
+   "id": "7e0dbc346f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
@@ -12789,6 +12809,15 @@
    "ts": "2026-11-02T14:03:44Z",
    "fuente": "CNBC",
    "id": "d5787a9eb3",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Barrick Mining (B) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/barrick-mining-b-earnings-expected-140005066.html?.tsrc=rss",
+   "ts": "2026-11-02T14:00:05Z",
+   "fuente": "Yahoo Finance",
+   "id": "1a92407d07",
    "activos": [],
    "impacto": "bajo"
   },
@@ -13490,40 +13519,6 @@
    "impacto": "medio",
    "es": "Los rendimientos de los bonos del Tesoro apenas varían en Asia antes de las elecciones y datos clave",
    "efecto": "Estabilidad en tasas; genera cautela sin dirección clara en oro ni NQ."
-  },
-  {
-   "titulo": "South Korea targets 'world's highest performance' sovereign AI model in record new budget",
-   "link": "https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html",
-   "ts": "2026-11-02T06:02:03Z",
-   "fuente": "CNBC",
-   "id": "08e11c7435",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Ceddanne Rafaela wins Gold Glove Award",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcUdpM0pkcnNIc1dPVHh5N293XzFhRmhTa2sxTjJtTFhfTnV5V3Z4RGJLNFJFeExhZWhyamlibWhLUVREWGx2bjFiQ1dTYnlCUDh6WTlrVWdlWjF4RHNtLVBUSDd0NTllaDZuMWEybVFVWDFIcnY3cHdlanFCRjhFY1FpMA?oc=5",
-   "ts": "2026-11-02T05:05:09Z",
-   "fuente": "MLB.com",
-   "id": "212635ea28",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Ceddanne Rafaela gana el premio Guante de Oro",
-   "efecto": "Sin impacto en mercados financieros; noticia deportiva irrelevante."
-  },
-  {
-   "titulo": "Gold rises over 1% from one-year low on softer oil prices; US midterms in focus",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOXFkdElkaE5fVGZ6eUVZUFZnZjNuaUFoM2pPZ1ZJeEY4bmN0Wm9zSTRwLWpHcjNjLWRLRklsOV95a21mWjZWckhUam5qTVZVUzVDdWEwQXVOVWlpaHpCMktPLU41TGNkZjI3MFM1azNvSEtUai1pUGFpNi1mZFhISlB3TXFUSWtseGlhYmRISUpuWXdlVU5mLTJPRQ?oc=5",
-   "ts": "2026-11-02T05:04:00Z",
-   "fuente": "Reuters",
-   "id": "f7836094a1",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El oro sube más de 1% desde mínimo anual por petróleo débil; atención a elecciones de EE. UU.",
-   "efecto": "Compra institucional de oro por cobertura ante volatilidad política."
   }
  ],
  "eventos_avisados": [
@@ -14096,14 +14091,14 @@
     3947.8,
     3976.0,
     3944.6,
-    3969.3
+    3971.6
    ],
    [
-    1793630609,
-    3968.5,
-    3968.5,
-    3968.5,
-    3968.5
+    1793630845,
+    3970.5,
+    3970.5,
+    3970.5,
+    3970.5
    ]
   ],
   "nq": [
@@ -14665,14 +14660,14 @@
     28753.0,
     28782.75,
     28639.0,
-    28734.25
+    28737.5
    ],
    [
-    1793630612,
-    28734.25,
-    28734.25,
-    28734.25,
-    28734.25
+    1793630849,
+    28736.0,
+    28736.0,
+    28736.0,
+    28736.0
    ]
   ],
   "vix": [
@@ -15113,16 +15108,16 @@
    [
     1793628000,
     19.06,
-    19.2,
+    19.35,
     18.88,
-    19.2
+    19.12
    ],
    [
-    1793630296,
-    19.35,
-    19.35,
-    19.35,
-    19.35
+    1793630536,
+    19.08,
+    19.08,
+    19.08,
+    19.08
    ]
   ]
  },
@@ -15257,9 +15252,6 @@
   }
  ],
  "noticias_vistas": [
-  "14b2c77f89",
-  "dd95fd7837",
-  "e1c3107445",
   "25d7cbb13b",
   "7ad7239b4d",
   "206ebdac36",
@@ -16056,7 +16048,10 @@
   "15f03bd95f",
   "3e6d643ee7",
   "3536736d9b",
-  "48a7a1d7be"
+  "48a7a1d7be",
+  "451716597a",
+  "7e0dbc346f",
+  "1a92407d07"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
