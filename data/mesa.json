@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3978.7 · NQ 28684.25 · VIX 18.92 · 2 noticias nuevas",
-   "actualizado": "2026-11-02T16:42:39Z"
+   "ultimo_resultado": "Oro 3979.7 · NQ 28665.75 · VIX 18.78 · 6 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-11-02T16:47:50Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T16:42:39Z",
-   "ultimo_resultado": "2 titulares nuevos: How 10-Year Treasury Yields Shape Risk-On and Risk-Off Sentiment"
+   "actualizado": "2026-11-02T16:47:49Z",
+   "ultimo_resultado": "6 titulares nuevos, 1 de alto impacto: Lumentum CEO touts 'enormous' opportunity in massive AI connectivity deal with Marvell"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3979.7 · NQ 28665.75 · VIX 18.78 · 6 noticias nuevas (1 alto impacto)",
+   "ts": "2026-11-02T16:47:50Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3978.7 · NQ 28684.25 · VIX 18.92 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3912.3 · NQ 28769.0 · VIX 19.42",
    "ts": "2026-11-02T03:27:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3914.2 · NQ 28777.25 · VIX 19.42 · 1 noticias nuevas",
-   "ts": "2026-11-02T03:22:31Z"
   }
  ],
  "briefs": [
@@ -12634,12 +12634,50 @@
   }
  },
  "en_vivo": {
-  "oro": 3978.7,
-  "nq": 28684.25,
-  "vix": 18.92,
-  "ts": "2026-11-02T16:42:39Z"
+  "oro": 3979.7,
+  "nq": 28665.75,
+  "vix": 18.78,
+  "ts": "2026-11-02T16:47:50Z"
  },
  "noticias": [
+  {
+   "titulo": "Lumentum CEO touts 'enormous' opportunity in massive AI connectivity deal with Marvell",
+   "link": "https://www.cnbc.com/2026/11/02/marvell-lumentum-ai-deal.html",
+   "ts": "2026-11-02T16:46:05Z",
+   "fuente": "CNBC",
+   "id": "d2b4a79b61",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Blue and Gold Preview Day invites prospective Mocs to campus",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSnJ6enBxNGFZNjU5YzNsRERTNU4zanVCcUxFeWR4UkliSWNDSllmenNaTWtGUGlIVTdqNGdYYm5WZm1idzQxb1dxdlp4UFVac0trbzRHWlMxRzNJTUx6WktUSzlGTUE2cnc1YXVZZlZzaG9uZTE2OE1rOF9HUFdLbmhoZGhhaDcwTXVVNjg2V2RoSm5jc3V4WjRpSQ?oc=5",
+   "ts": "2026-11-02T16:45:17Z",
+   "fuente": "University of Tennessee at Chattanooga",
+   "id": "e2184f6ebf",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Trump administration asks Supreme Court to hear California mail-in ballot appeal",
+   "link": "https://www.cnbc.com/2026/11/02/supreme-court-california-mail-ballots-election.html",
+   "ts": "2026-11-02T16:45:11Z",
+   "fuente": "CNBC",
+   "id": "3b42af6792",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Judge tosses DOJ case against ex-FBI officials accused of lying about Hunter Biden probe: Reports",
+   "link": "https://www.cnbc.com/2026/11/02/fbi-hunter-biden-doj-case-dismissed.html",
+   "ts": "2026-11-02T16:42:12Z",
+   "fuente": "CNBC",
+   "id": "2230cf1897",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "How 10-Year Treasury Yields Shape Risk-On and Risk-Off Sentiment",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdGRLdk1xYWxKM2dYcFUtNlEwTU1SRWNuQ0xoODEybmN5UVFCd29taUlLOVZMV25PcGxhLXc4T21COEZRU2tOczJ1UlNCeWdCUk9SNHJCZHRCUFFwRmk1a2c1cDVmWlRLb0ZLY0dHSFJrSFg4R01XdEVzaXJqMmtRVmpNalZrZ0F2dTJZS0h4MktkMTk2bU96aEtuQVYxLVV5OUE?oc=5",
@@ -12648,6 +12686,26 @@
    "id": "d1ed1e4e2e",
    "activos": [
     "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Trump’s Tariffs Are On the Ballot in Michigan",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWkFSTFJEWHAwa1plOTZ6ZTdYX1hoV2xDWXIxbEJZY242Q09aQk5xeUQzbjFoNl9udEJ6VDA1amM0VnBiVzdkaGZ5MWUzSDR6SkVKRGpXM2c5TDBlalNoWEx5M28xeExNWFFuSGZUX3RJSWRneERpOFRxUmNsWFFRVV96NGNSSUlqeXhILS1oX243QQ?oc=5",
+   "ts": "2026-11-02T16:37:50Z",
+   "fuente": "The New York Times",
+   "id": "14cda0545f",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Three energy stocks on Josh Brown's list are outperforming as M&A activity ramps up",
+   "link": "https://www.cnbc.com/2026/11/02/three-energy-stocks-on-josh-browns-list-are-outperforming.html",
+   "ts": "2026-11-02T16:32:21Z",
+   "fuente": "CNBC",
+   "id": "a0515be279",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -13434,70 +13492,6 @@
    "impacto": "bajo",
    "es": "Ejecutivos de Nasdaq discuten estrategia en Texas y uso de IA contra delitos financieros",
    "efecto": "Ruido corporativo y tecnológico, sin impacto directo en la cotización hoy."
-  },
-  {
-   "titulo": "UBS sees a buying opportunity in Rivian after recent sell-off",
-   "link": "https://www.cnbc.com/2026/11/02/ubs-rivian-upgrade-buy.html",
-   "ts": "2026-11-02T12:05:01Z",
-   "fuente": "CNBC",
-   "id": "595923624e",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "1911 Gold Reports 14.86 g/t Gold over 7.20 Metres from Infill Drilling at True North",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/1911-gold-reports-14-86-120200366.html?.tsrc=rss",
-   "ts": "2026-11-02T12:02:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "2e9689d2d6",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Arya Resources Revisits Historic Copper-Gold Showing Which Returned Reported Drill Results of 2.79% Copper over 7.4 Metres",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/arya-resources-revisits-historic-copper-120000811.html?.tsrc=rss",
-   "ts": "2026-11-02T12:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "b20f9ecada",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Fredonia Confirms Continuity of Gold/Silver Mineralization and the Potential Expansion of the Conceptual EDM Mine Plan at Herradura Hill",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/fredonia-confirms-continuity-gold-silver-120000128.html?.tsrc=rss",
-   "ts": "2026-11-02T12:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "8c4f85633a",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Awalé Secures Final Two Permits, Consolidating 1,542 km² of 100%-Owned Ground Ahead of Fully Funded Exploration Program",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/awal-secures-final-two-permits-120000799.html?.tsrc=rss",
-   "ts": "2026-11-02T12:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "d925cc8c00",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Medallion reports high-grade drill results at Kundip Mining Centre",
-   "link": "https://www.mining-technology.com/news/medallion-drill-results-kundip-mining-centre/?.tsrc=rss",
-   "ts": "2026-11-02T11:46:39Z",
-   "fuente": "Yahoo Finance",
-   "id": "d86a07ce78",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Medallion reporta resultados de perforación de alta ley en el Centro Minero Kundip",
-   "efecto": "Impacto alcista menor y aislado para la minera específica."
   }
  ],
  "eventos_avisados": [
@@ -14082,16 +14076,16 @@
    [
     1793635200,
     3968.2,
-    3978.9,
+    3980.5,
     3966.1,
-    3978.4
+    3979.8
    ],
    [
-    1793637158,
-    3978.7,
-    3978.7,
-    3978.7,
-    3978.7
+    1793637467,
+    3979.7,
+    3979.7,
+    3979.7,
+    3979.7
    ]
   ],
   "nq": [
@@ -14667,14 +14661,14 @@
     28726.5,
     28756.5,
     28645.0,
-    28686.75
+    28664.25
    ],
    [
-    1793637157,
-    28684.25,
-    28684.25,
-    28684.25,
-    28684.25
+    1793637469,
+    28665.75,
+    28665.75,
+    28665.75,
+    28665.75
    ]
   ],
   "vix": [
@@ -15129,16 +15123,16 @@
    [
     1793635200,
     18.63,
-    18.92,
+    18.94,
     18.55,
-    18.91
+    18.8
    ],
    [
-    1793636851,
-    18.92,
-    18.92,
-    18.92,
-    18.92
+    1793637166,
+    18.78,
+    18.78,
+    18.78,
+    18.78
    ]
   ]
  },
@@ -15274,12 +15268,6 @@
   }
  ],
  "noticias_vistas": [
-  "ec8812ac88",
-  "37f63e8728",
-  "a8e53364fe",
-  "81ddc486bc",
-  "1e7013415f",
-  "e5cda68106",
   "7db6e99d87",
   "9fec86bdba",
   "1eed085feb",
@@ -16073,7 +16061,13 @@
   "76193fc5c5",
   "b70cf8f0f8",
   "d1ed1e4e2e",
-  "6f292cdb75"
+  "6f292cdb75",
+  "d2b4a79b61",
+  "e2184f6ebf",
+  "3b42af6792",
+  "2230cf1897",
+  "14cda0545f",
+  "a0515be279"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
