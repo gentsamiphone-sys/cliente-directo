@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3956.0 · NQ 28283.75 · VIX 20.91 · 1 noticias nuevas",
-   "actualizado": "2026-11-02T19:37:33Z"
+   "ultimo_resultado": "Oro 3959.0 · NQ 28335.5 · VIX 20.99 · 2 noticias nuevas",
+   "actualizado": "2026-11-02T19:42:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T19:37:32Z",
-   "ultimo_resultado": "1 titulares nuevos: What Is Behind The Move In Kinross Gold Stock?"
+   "actualizado": "2026-11-02T19:42:32Z",
+   "ultimo_resultado": "2 titulares nuevos: S&P 500 pulls back as tech stock losses outweigh cooler oil prices ahead of midterms: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3959.0 · NQ 28335.5 · VIX 20.99 · 2 noticias nuevas",
+   "ts": "2026-11-02T19:42:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3956.0 · NQ 28283.75 · VIX 20.91 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3923.0 · NQ 28789.5 · VIX 19.42",
    "ts": "2026-11-02T06:22:38Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3924.3 · NQ 28808.5 · VIX 19.42 · 1 noticias nuevas",
-   "ts": "2026-11-02T06:17:32Z"
   }
  ],
  "briefs": [
@@ -12634,12 +12634,34 @@
   }
  },
  "en_vivo": {
-  "oro": 3956.0,
-  "nq": 28283.75,
-  "vix": 20.91,
-  "ts": "2026-11-02T19:37:32Z"
+  "oro": 3959.0,
+  "nq": 28335.5,
+  "vix": 20.99,
+  "ts": "2026-11-02T19:42:33Z"
  },
  "noticias": [
+  {
+   "titulo": "S&P 500 pulls back as tech stock losses outweigh cooler oil prices ahead of midterms: Live updates",
+   "link": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
+   "ts": "2026-11-02T19:42:19Z",
+   "fuente": "CNBC",
+   "id": "1a5b08acd1",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "San Diego gold retailer caught in fallout from scam targeting seniors",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVF90X3hneDVraFJMV1I4MlFKTTlob3JORm9WTUlfMTQ5U0JhdEJvWkNKRFVvSmJKdjZGTGFyTFBzSXo1UnUwNzNYYXViSmhIUGVFTlVLQmFRNzhBWkttWENjTFgzRmtuSjNpRUdsVDBIYmhFcnRORW9DaUdRVGlMSG8wMTZ6elV5Y1cyMnAyTGVSUU9QNEpxRHk2bjhVei1FZE9ETkRyTnhwSTVkdXo2aFBZVjBLc3JrNkVyaTU0S1fSAcgBQVVfeXFMTmRJWnc5VUE1YUlrNUR3eEgxS0hJOTVnTFNqUUVjU043clZKRmZkTFJuSUVEampNYnBQekNVYVdfMl93YTNWZTlJV1A4b1J1WDlTQzJCTjhYYy1NaTNNSkpyajZRQW1LLVpISGx2anNiME1wT2tGc2tOU3lKZE5NaWVpN3Y2endRQW9rSHQzcjI2TElJWEFjLWhWeGk4V2J4a19fUkJJSjJCNFg3LWJ1R2JWN0dVakFISHRFNUtna3RfM2FGYnllaTA?oc=5",
+   "ts": "2026-11-02T19:37:23Z",
+   "fuente": "NBC 7 San Diego",
+   "id": "ae2ead76bc",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Evidence indicates parts of jet broke off before Florida crash that killed 9, investigators say",
    "link": "https://www.cnbc.com/2026/11/01/jet-nosedives-erupts-into-fireball-near-busy-roadway-in-south-florida.html",
@@ -13458,28 +13480,6 @@
    "impacto": "alto",
    "es": "Qué significa la liquidación del 'carry trade' del yen para las acciones del Nasdaq y Nikkei",
    "efecto": "Presiona al NQ a la baja por salida de liquidez global."
-  },
-  {
-   "titulo": "Guardians acquire Gold Glove catcher Bailey from Giants",
-   "link": "https://news.google.com/rss/articles/CBMi9ApBVV95cUxQaFhycXZCVWJrZ1plUTFDc3VRY3hDdVlwQ2d3M0ZuclhJRVQycFpkNjBCYV9MelVOSE1heUhRQTBFeks4VnNPTkdUWk4tTWxOcjBvcTVRa0JlckVWV2ZoYWhJa2JXMFJDN1YzWEsxTEMyNDdzWDJ6OHphaVhxdDgwTEszWUxrZVFmT3IyNENNOXpUV0tXZ1NmUUFfbkpKbW1Vb1dpb0htTTlZSUxwXzJKZGVMMHNRWVRUWGVGT3NIVHJLRkpRLXhsb2xlbFdicUlEYzB3aEtoZkJkMVg0SEJGUGxLOFRDcHdmSFM0SFk4eUpGMkVoSnhHXy1VY1JFa1BkZW83V0NCN3dGZlU1Wi16WFlBemNLdWJqbUozZlkzZVlpdC0xeVhXaF8yM3JqYmNMLThVS2ljNFg2NFRRWTFBUHdUUXByWmZuRDZVRnU5V2RsRTlnbGJTSzE2M2Y0TVFMSVFtS3E4ZHVtam9iU0xtSDhkTF9CVFFtMUNPcUFsYlQxbk5lRG0yUjBUSEJGcWZLTXRnTG0ycGt0X3FvRm1CVUdnRnpaX3JyYjNBSENWVVFjLXpoVlRadm1KeW96TU9VT2FDNmQyWU9jdEFLVjhoYy1wZmI2UjhDR0FXQmFZRzhRa3lOQzBPdlhQYVFfV2ZJMFFsMkttU2xjRFV6dUhSUV8wVGpOY0VsenR3Xy1HS3NlbHJzNTY4TklLVDI5ODlBWHVuS0JjVVpkT25VNXFLNlBmUjhRaWlHUnpQbG1fUlpYVjB0dW5Ed2RBRUlPVUpsY2d3MUZQb3FJeXJxREVNbFRmcjVkY0dBVjdZNl9Ja2Q0NG5ZSGdoX3pjckRFN0pMa0ZQVXViaktBMENXb3dRTC1yZmNzZzl2UnpWcXhZdE05N0Zya09RZUJMLXBObjNkR2VBYnZ0WDhuakxPc09xa0J1VG4tcTU4NU5fc0dYZGhTQVM2LUhjSk4wU2JqTU9wdlMzTFRvRXBIVi1VdUZXbDcyRzJ4VWVsbDJ1bW5jcFhpb3kyaDk5VFlkRzllQkhCYmhQMnlkejlobm5oNGpnVElNblR3cUpRQkxsdGx1QVFSYmZ5WENPTTZxUnFmMkV6VDU1ZzQtdEF1aHl1el9ROGl3NEI5NV9wc0xUaXNqcnFsbFBIWWZhenRrcjNRV0Zab1oyVkFzYjByWFBuUFI4aHlUV3NYZEFYUEpuZjBWbGUwbG1rUGxfWW5RLVVVYWRyaHpxeXRZbGxmSlFkZEp3Tm5wWGNYQkU4WUMyb19SZ0hjbHlsOXpqWGZoLXpSaUlqbW4ycDUxdHZPcVV0SEQtNEVTcVh2YTNLNHQ0U01fc2ZsdlJjdm4yZi11aUQ1S2gzbkpPOENZaGt5Q0IwXy1FSzhUc3BHZVBFak0zMUY0dnVaNkktTnlzZFg2MGQ0UVhQVl9tcTRDMzFkZzQ2WWRJSmN1alBxRUtaaVhaVFlsbE9YNHRxVFNNVWN1UUcxdzBrem1GY0JxbFV6VmtfM0xRVVF2XzVkNWNJLWcxVkVqOG1Hd1RIZ2R3NC1kbTgwb0xZUmxaY2ZidV82b0RpS01VcHBPUGpQeTVVQ1JralE2ZEx6ejQwX3RMQ29yWS1id1llQXRYVFpiTDdpbFkxRHlheEdvSkJTNklZMWhlLUM0Qy1OMU9WN2ZQSFVYNlozUGZxY2pqQU1XUHN6UkFXVkM2ajZMUVRMbUR0cTRLdThSaE1vR0pzREUxekdSV1FyWWVqbWpURm1xZGpCcDRIVE5vRUhaQ0MwZXBrLUNsM0Z2NDBTV0JkaWh4M3JiaDRncm52OXVMUVEyYmdKTHVkd3pmN21ySDlWN2tGemg3ZzduYnAxUWpV?oc=5",
-   "ts": "2026-11-02T14:48:44Z",
-   "fuente": "ABC7 Bay Area",
-   "id": "c2f45cb134",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Los Guardians adquieren al receptor ganador del Guante de Oro Bailey de los Giants.",
-   "efecto": "Noticia deportiva sin impacto en mercados financieros."
-  },
-  {
-   "titulo": "AEM Q3 Earnings Beat Estimates on Higher Gold Prices",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/aem-q3-earnings-beat-estimates-144600380.html?.tsrc=rss",
-   "ts": "2026-11-02T14:46:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "33910f9f77",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14087,14 +14087,14 @@
     3963.7,
     3965.4,
     3955.6,
-    3960.4
+    3958.5
    ],
    [
-    1793647650,
-    3956.2,
-    3956.2,
-    3956.2,
-    3956.2
+    1793647838,
+    3959.0,
+    3959.0,
+    3959.0,
+    3959.0
    ]
   ],
   "nq": [
@@ -14691,14 +14691,14 @@
     28441.0,
     28443.5,
     28280.0,
-    28349.75
+    28338.75
    ],
    [
-    1793647651,
-    28283.75,
-    28283.75,
-    28283.75,
-    28283.75
+    1793647844,
+    28335.5,
+    28335.5,
+    28335.5,
+    28335.5
    ]
   ],
   "vix": [
@@ -15174,16 +15174,16 @@
    [
     1793646000,
     20.12,
-    20.89,
+    20.92,
     20.12,
-    20.89
+    20.91
    ],
    [
-    1793647351,
-    20.91,
-    20.91,
-    20.91,
-    20.91
+    1793647531,
+    20.99,
+    20.99,
+    20.99,
+    20.99
    ]
   ]
  },
@@ -15308,8 +15308,6 @@
   }
  ],
  "noticias_vistas": [
-  "400e5ceabf",
-  "185723c417",
   "8f7e16f2e0",
   "515ec2631f",
   "1a4cc5fb32",
@@ -16107,7 +16105,9 @@
   "1098c8d351",
   "3591b71770",
   "1e1588b3d8",
-  "10d1513a11"
+  "10d1513a11",
+  "1a5b08acd1",
+  "ae2ead76bc"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
