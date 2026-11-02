@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3967.4 · NQ 28799.25 · VIX 18.15 · 3 noticias nuevas",
-   "actualizado": "2026-11-02T15:57:36Z"
+   "ultimo_resultado": "Oro 3970.2 · NQ 28766.0 · VIX 18.24 · 3 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-11-02T16:02:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T15:57:35Z",
-   "ultimo_resultado": "3 titulares nuevos: 2026 MLB Awards Tracker: USA Baseball Alumni"
+   "actualizado": "2026-11-02T16:02:37Z",
+   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: Acciones suben y petróleo cae antes de elecciones de mitad de término; tecnológicas repuntan"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3970.2 · NQ 28766.0 · VIX 18.24 · 3 noticias nuevas (2 alto impacto)",
+   "ts": "2026-11-02T16:02:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3967.4 · NQ 28799.25 · VIX 18.15 · 3 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3918.2 · NQ 28771.0 · VIX 19.42 · 8 noticias nuevas (1 alto impacto)",
    "ts": "2026-11-02T02:42:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3918.8 · NQ 28759.75 · VIX 19.42 · 4 noticias nuevas",
-   "ts": "2026-11-02T02:37:34Z"
   }
  ],
  "briefs": [
@@ -12634,12 +12634,39 @@
   }
  },
  "en_vivo": {
-  "oro": 3967.4,
-  "nq": 28799.25,
-  "vix": 18.15,
-  "ts": "2026-11-02T15:57:36Z"
+  "oro": 3970.2,
+  "nq": 28766.0,
+  "vix": 18.24,
+  "ts": "2026-11-02T16:02:38Z"
  },
  "noticias": [
+  {
+   "titulo": "Stocks jump as oil prices tumble before midterms, tech shares rebound: Live updates",
+   "link": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
+   "ts": "2026-11-02T15:42:43Z",
+   "fuente": "CNBC",
+   "id": "4bb44ad9f4",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Acciones suben y petróleo cae antes de elecciones de mitad de término; tecnológicas repuntan",
+   "efecto": "Impulsa al NQ al alza por apetito de riesgo y alivio en energía."
+  },
+  {
+   "titulo": "Stock market after midterm elections: What S&P 500 history shows",
+   "link": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
+   "ts": "2026-11-02T15:41:12Z",
+   "fuente": "CNBC",
+   "id": "1dcecc5a82",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Mercado de valores tras elecciones de mitad de término: lo que muestra la historia del S&P 500",
+   "efecto": "Genera posicionamiento táctico en NQ basado en estacionalidad histórica."
+  },
   {
    "titulo": "S&P/TSX Composite Index Jumps Mid-Morning as Base Metals Sector Advances",
    "link": "https://finance.yahoo.com/markets/world-indices/articles/p-tsx-composite-index-jumps-154109048.html?.tsrc=rss",
@@ -12816,6 +12843,20 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "What a Yen Carry Trade Unwind Means for Nasdaq and Nikkei Stocks",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeTIyRmlNVG1QTW4yTW5iZW1BTm5xY2hVeTBDdThCZzhOUzA0Wi1mREZlUFQtRnNDS1dfeHZ2S2xBQm9ldGFDdmFueGRoS1dkMHBTNzZYQ0tKMW9NZ2FsZ19DSEVNSjRSS09IT2ZiRnFlZ3VwbFpzQ1VmelZjcHdTODc5N3RrS2NHa1E5TnNVdWxEUFNDTEZoSlBTZjRaME42bklrQWJB?oc=5",
+   "ts": "2026-11-02T14:48:49Z",
+   "fuente": "StoneX",
+   "id": "ac0bbc9958",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Qué significa la liquidación del 'carry trade' del yen para las acciones del Nasdaq y Nikkei",
+   "efecto": "Presiona al NQ a la baja por salida de liquidez global."
   },
   {
    "titulo": "Guardians acquire Gold Glove catcher Bailey from Giants",
@@ -13468,39 +13509,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Bear of the Day: Centerra Gold (CGAU)",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/bear-day-centerra-gold-cgau-110000857.html?.tsrc=rss",
-   "ts": "2026-11-02T11:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "46bda343d0",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Chesapeake Mobilizes a Drill Program at Lucy",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/chesapeake-mobilizes-drill-program-lucy-110000914.html?.tsrc=rss",
-   "ts": "2026-11-02T11:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "3dc413a797",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Chesapeake moviliza un programa de perforación en Lucy.",
-   "efecto": "Ruido corporativo menor, sin efecto en macro."
-  },
-  {
-   "titulo": "New Strong Sell Stocks for November 2nd",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/strong-sell-stocks-november-2nd-104900620.html?.tsrc=rss",
-   "ts": "2026-11-02T10:49:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "f2f3262a5b",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14080,14 +14088,14 @@
     3974.7,
     3976.3,
     3960.6,
-    3968.3
+    3969.1
    ],
    [
-    1793634453,
-    3967.4,
-    3967.4,
-    3967.4,
-    3967.4
+    1793634757,
+    3970.1,
+    3970.1,
+    3970.1,
+    3970.1
    ]
   ],
   "nq": [
@@ -14656,14 +14664,14 @@
     28687.25,
     28891.25,
     28664.25,
-    28795.0
+    28754.25
    ],
    [
-    1793634456,
-    28799.25,
-    28799.25,
-    28799.25,
-    28799.25
+    1793634757,
+    28765.75,
+    28765.75,
+    28765.75,
+    28765.75
    ]
   ],
   "vix": [
@@ -15113,22 +15121,22 @@
     18.52,
     18.82,
     18.03,
-    18.19
+    18.14
    ],
    [
-    1793634151,
-    18.15,
-    18.15,
-    18.15,
-    18.15
+    1793634451,
+    18.24,
+    18.24,
+    18.24,
+    18.24
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-11-02T15:32:33Z",
- "ult_4h": 1793634453.0896938,
+ "noticias_traducidas_ts": "2026-11-02T16:02:35Z",
+ "ult_4h": 1793635358.0876825,
  "estrategia_4h": {
   "oro": {
-   "precio": 3962.2,
+   "precio": 3970.2,
    "atr_4h": 32.71,
    "setups": [
     {
@@ -15145,7 +15153,7 @@
    ]
   },
   "nq": {
-   "precio": 28841.75,
+   "precio": 28766.0,
    "atr_4h": 301.23,
    "setups": [
     {
@@ -15172,7 +15180,7 @@
     }
    ]
   },
-  "ts": "2026-11-02T15:47:33Z"
+  "ts": "2026-11-02T16:02:38Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15244,9 +15252,6 @@
   }
  ],
  "noticias_vistas": [
-  "71ad907323",
-  "81b83b130d",
-  "270952e64e",
   "29d9d490cf",
   "5904317318",
   "b59b18e440",
@@ -16043,7 +16048,10 @@
   "6b290048e2",
   "42b05216cf",
   "ee0fd8ee76",
-  "1e42d1e7c6"
+  "1e42d1e7c6",
+  "4bb44ad9f4",
+  "1dcecc5a82",
+  "ac0bbc9958"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
