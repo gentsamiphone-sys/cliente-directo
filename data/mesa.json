@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3909.2 · NQ 28778.75 · VIX 18.85",
-   "actualizado": "2026-11-02T11:17:35Z"
+   "ultimo_resultado": "Oro 3909.1 · NQ 28777.5 · VIX 18.87 · 5 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-11-02T11:22:39Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-02T11:17:34Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-11-02T11:22:38Z",
+   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: Falsas alertas nucleares en Ucrania tras ciberataques a apps de emergencia."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3909.1 · NQ 28777.5 · VIX 18.87 · 5 noticias nuevas (1 alto impacto)",
+   "ts": "2026-11-02T11:22:39Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3909.2 · NQ 28778.75 · VIX 18.85",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "DXY -0.16% · 10Y 4.929 · VIX 19.42 · 1 eventos USD en el radar.",
    "ts": "2026-11-01T21:32:51Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
-   "ts": "2026-11-01T21:32:49Z"
   }
  ],
  "briefs": [
@@ -12616,12 +12616,65 @@
   }
  },
  "en_vivo": {
-  "oro": 3909.2,
-  "nq": 28778.75,
-  "vix": 18.85,
-  "ts": "2026-11-02T11:17:34Z"
+  "oro": 3909.1,
+  "nq": 28777.5,
+  "vix": 18.87,
+  "ts": "2026-11-02T11:22:39Z"
  },
  "noticias": [
+  {
+   "titulo": "Fake nuclear warnings in Ukraine as Moscow, Kyiv report separate cyberattacks on emergency apps",
+   "link": "https://www.cnbc.com/2026/11/02/russia-ukraine-cyberattack-zelenskyy-putin.html",
+   "ts": "2026-11-02T11:18:37Z",
+   "fuente": "CNBC",
+   "id": "1560798fa8",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "medio",
+   "es": "Falsas alertas nucleares en Ucrania tras ciberataques a apps de emergencia.",
+   "efecto": "Genera compras de refugio temporal en oro y dólar."
+  },
+  {
+   "titulo": "Pecoy Copper Announces C$49.8 Million Strategic Financing Led by Hudbay Minerals",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/pecoy-copper-announces-c-49-111500963.html?.tsrc=rss",
+   "ts": "2026-11-02T11:15:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "d53f553669",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Pecoy Copper anuncia financiación estratégica de 49.8M CAD liderada por Hudbay.",
+   "efecto": "Sin impacto institucional relevante en oro o NQ."
+  },
+  {
+   "titulo": "OpenAI deepens Abu Dhabi foothold as Sam Altman inks deals spanning energy, government and investment",
+   "link": "https://www.cnbc.com/2026/11/02/openai-abu-dhabi-ai-deals.html",
+   "ts": "2026-11-02T11:02:08Z",
+   "fuente": "CNBC",
+   "id": "ce3629fb41",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "OpenAI profundiza su presencia en Abu Dabi con acuerdos de energía e inversión.",
+   "efecto": "Impulsa el sentiment alcista en tecnológicas del NQ."
+  },
+  {
+   "titulo": "Dollar steadies as U.S. midterms loom; euro digests Fitch outlook downgrade",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-mixed-yuan-holds-040237175.html?.tsrc=rss",
+   "ts": "2026-11-02T11:01:54Z",
+   "fuente": "Yahoo Finance",
+   "id": "c4b7e4520a",
+   "activos": [
+    "dolar",
+    "oro",
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "El dólar se estabiliza por elecciones de mitad de periodo; el euro digiere rebaja de Fitch.",
+   "efecto": "Aumenta la volatilidad cambiaria, presionando al oro y al NQ."
+  },
   {
    "titulo": "Defense, healthcare, crypto and AI: How the midterm election could affect stocks",
    "link": "https://www.cnbc.com/2026/11/02/midterm-election-stocks-defense-healthcare-crypto-ai.html",
@@ -12632,6 +12685,17 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Chesapeake Mobilizes a Drill Program at Lucy",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/chesapeake-mobilizes-drill-program-lucy-110000914.html?.tsrc=rss",
+   "ts": "2026-11-02T11:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "3dc413a797",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Chesapeake moviliza un programa de perforación en Lucy.",
+   "efecto": "Ruido corporativo menor, sin efecto en macro."
   },
   {
    "titulo": "Dollar Sinks to One-Month Low as Oil Slump Eases Haven Demand",
@@ -13452,61 +13516,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Tigers catcher Dillon Dingler wins second straight Gold Glove Award",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPT3dzQThISEdYbmNId25xRkU0c3AzVHBKZFhpNkFnU0swc0VhVjV1TGw2eXl0WmJEVm50czl5UXVfMU5TYUJFM1VIM29xN0hsQzBseHVxUzFHWWVBS1N2TG9Jcy1BeXRwQTdEdEZKb0IzZGwzYTJjYkJkWnk2SWNubDFfaHVFZnNXS1RvLW9DQjVFc3FPSy1PMTlKS1Z6VUM3cXZxeTdjZVk1Vjl2ZUdUcFFwTGVIMkU3elozZDlQRVVTR09qbUlJMGRpVHdUMFZsSW5mSGZod3c3Ulk?oc=5",
-   "ts": "2026-11-02T02:02:00Z",
-   "fuente": "The Detroit News",
-   "id": "9194050d87",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Ezequiel Duran Selected Winner of 2026 Rawlings Gold Glove Award",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ2hTRTJ2aXBVaXNRMU5XVHJRdmlhOEtYbjliamZTaS1mVDczV1N6TTQwWVdCbks5VC1mTjdTWG9LV1V0RnZ3djVzQVJqRlJkNjZWd3BLZ2VHdF9WeEFhOGdWLXliQy1pUXRWTERZUlMtRktnSmJyUDRXVml2dlFQSjEyeEotOTlDRmZNZVlqRjRYTVphbE9TUGRzcVI5OWxYOEZUWkloTVFnYmhsaVRzT0Nn0gG-AUFVX3lxTE5GTzlGZkxSbnRMZzNFcmpad0RQZTlPMk9CTXk5OTVDNm9pbDA5eW4zQ3VnUzh4SFNuOEZ0X05pSGpVUEk3bm9HUk1ndUZicnNQcy1mWEszVUNNb1JkNDVLcHBKbjVFX1FQS1VSc2w4dXV0WlcwcXJfUnNmTmh0VjFLLWVFLWg3b3dJQ3l2TkFNWGZrT2hURmJMaGhJNy0yX21wZ3lHUVQzMWczdmh6QUNobFE4T0UxRE5vZG1nbFE?oc=5",
-   "ts": "2026-11-02T01:58:13Z",
-   "fuente": "MLB.com",
-   "id": "f317d2cf46",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Taylor Walls wins Gold Glove award",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc1pEdTRYNnBFWWJaaFpid0plbjNIXzl5d1FMMHpRWUpuM1lLRkZMeGY1U0ZSekFhRXl1MmVYRF9UZmhPMU44TXhhTmhXb1dCb3lEVllZekhKd0diMUxuaDRTdElVeFd4aTg4djVMdXFuVkgyNlE0eHBRTG42U2t6ZkljcFFXS3VneFpJbndMUllLeGlYZHc?oc=5",
-   "ts": "2026-11-02T01:54:00Z",
-   "fuente": "DRaysBay",
-   "id": "ff5125d95b",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Cole Young Wins Gold Glove Award With Mariners",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOc0NGU3lwMGdDMmxzdzFLT3ZRWDYzMGVqLVBBcXI0bVN1TjZTVlJ6R3RIUHItbnc4Tmh0eHRBRERfdUJ6UHJUcVVkdC02ZVFiTElraG5aTXNIbXZlSVlRaDdORkRrdTZuczF0RWUyanZlNkhob1BaX3JRTTVSVHB6WHo4clE1OVhJWjZmaElkRThNVDA?oc=5",
-   "ts": "2026-11-02T01:52:41Z",
-   "fuente": "North Allegheny Sports Network",
-   "id": "af2e19a6fd",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Tesla, Samsung Fight Vietnam Tariffs: Nov 29 Cutoff [2026]",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaVJibWN0N0pnQ0F3cDZ3d254cmdSdHNGa0FZUGtuZHNLbmJPanpmTDBwV2swYXFRRkJVZGhrU0pfMkxqM1daNzI2VFl4THNfOU5tWW5WNDF3THlFRkI5c2lITG0tSW5TY0g1dFhBMmdnYlN5Uk5zZHFCb25ObUdUWkhMZGpIbWRiZURGa1RKX0pTXzZ5eGg0?oc=5",
-   "ts": "2026-11-02T01:50:54Z",
-   "fuente": "https://tech-insider.org/",
-   "id": "64446736b1",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -14058,14 +14067,14 @@
     3907.9,
     3910.6,
     3907.9,
-    3909.3
+    3909.1
    ],
    [
-    1793617648,
-    3909.2,
-    3909.2,
-    3909.2,
-    3909.2
+    1793617955,
+    3909.1,
+    3909.1,
+    3909.1,
+    3909.1
    ]
   ],
   "nq": [
@@ -14606,14 +14615,14 @@
     28773.25,
     28787.75,
     28761.0,
-    28779.75
+    28778.0
    ],
    [
-    1793617653,
-    28778.75,
-    28778.75,
-    28778.75,
-    28778.75
+    1793617955,
+    28777.5,
+    28777.5,
+    28777.5,
+    28777.5
    ]
   ],
   "vix": [
@@ -15035,18 +15044,18 @@
     18.89,
     18.89,
     18.82,
-    18.85
+    18.86
    ],
    [
-    1793617351,
-    18.85,
-    18.85,
-    18.85,
-    18.85
+    1793617651,
+    18.87,
+    18.87,
+    18.87,
+    18.87
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-11-02T10:42:44Z",
+ "noticias_traducidas_ts": "2026-11-02T11:22:33Z",
  "ult_4h": 1793618254.6144874,
  "estrategia_4h": {
   "oro": {
@@ -15165,11 +15174,6 @@
   }
  ],
  "noticias_vistas": [
-  "a2de7ce995",
-  "453c8af0dd",
-  "737cbb7966",
-  "211163f6d9",
-  "668d01c5a7",
   "716f98bff2",
   "233567d441",
   "abdc907f02",
@@ -15964,7 +15968,12 @@
   "baf6c454ae",
   "27a5f626a8",
   "35f684cb7a",
-  "91e9792580"
+  "91e9792580",
+  "1560798fa8",
+  "d53f553669",
+  "ce3629fb41",
+  "c4b7e4520a",
+  "3dc413a797"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
