@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T21:12:49Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-11-03T21:17:50Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: El S&P 500 rompe racha bajista de 3 días en el día de elecciones al repuntar las acciones de chips"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "noticias",
+   "texto": "1 titulares nuevos, 1 de alto impacto: El S&P 500 rompe racha bajista de 3 días en el día de elecciones al repuntar las acciones de chips",
+   "ts": "2026-11-03T21:17:50Z"
+  },
   {
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
@@ -1056,11 +1061,6 @@
    "agente": "historiador",
    "texto": "ORO: Sesgo histórico neutral: 4 de 9 años subió esta semana; 5 de 9 subió los 20 días siguientes; análogos 2022, 2018, 2021 · NQ: Sesgo histórico alcista: 7 de 9 años subió esta semana; 7 de 9 subió los 20 días siguientes; análogos 2018, 2024, 2025",
    "ts": "2026-11-03T06:33:05Z"
-  },
-  {
-   "agente": "historiador",
-   "texto": "Revisando qué pasó en esta misma fecha los últimos 10 años y buscando años parecidos…",
-   "ts": "2026-11-03T06:33:03Z"
   }
  ],
  "briefs": [
@@ -12698,6 +12698,19 @@
  },
  "noticias": [
   {
+   "titulo": "S&P 500 snaps 3-day skid on Election Day as chip stocks rebound",
+   "link": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
+   "ts": "2026-11-03T21:15:40Z",
+   "fuente": "CNBC",
+   "id": "03ae4c1543",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "El S&P 500 rompe racha bajista de 3 días en el día de elecciones al repuntar las acciones de chips",
+   "efecto": "Impulsa al NQ al alza por el fuerte rebote en el sector tecnológico."
+  },
+  {
    "titulo": "S&P 500 snaps 3-day skid on Election Day as chip stocks rebound: Live updates",
    "link": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
    "ts": "2026-11-03T21:03:27Z",
@@ -13540,17 +13553,6 @@
    "id": "87965455f3",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Gold prices struggling as U.S. sees solid rise in job postings",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMGFXQTNIbGd3MGxOazNLQlNUYlZZMjJxR0pIU3VYWU9TejBZVzFVR0J3WGFpSFp6VjZMVEhsQlgyUUtIUFAtSlprRnF1NFZ6b1VYRGpaLUFsVUYyM3pEVjZvbl9uVE9oNFBqWVZDR1d0NVgyTDhvVjVQQnRCMVBsbEJZMDlLRjRlaUtoQVk5MlpKbzVkel9TUkFYVUsyZkQtdnc?oc=5",
-   "ts": "2026-11-03T15:05:34Z",
-   "fuente": "Kitco",
-   "id": "6470be4afa",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -15280,7 +15282,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-11-03T20:42:50Z",
+ "noticias_traducidas_ts": "2026-11-03T21:17:49Z",
  "ult_4h": 1793738854.4339912,
  "estrategia_4h": {
   "oro": {
@@ -15402,7 +15404,6 @@
   }
  ],
  "noticias_vistas": [
-  "dad40f3b6c",
   "185fdbe9bc",
   "8e1579e6a6",
   "34af97e2d7",
@@ -16201,7 +16202,8 @@
   "b455d55b35",
   "6753e5467a",
   "06eb2116fa",
-  "5c8a84874e"
+  "5c8a84874e",
+  "03ae4c1543"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
