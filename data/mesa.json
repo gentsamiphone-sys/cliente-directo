@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3952.7 · NQ 28315.0 · VIX 20.98 · 2 noticias nuevas",
-   "actualizado": "2026-11-03T14:57:32Z"
+   "ultimo_resultado": "Oro 3957.0 · NQ 28321.0 · VIX 21.0 · 5 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-11-03T15:03:02Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T14:57:31Z",
-   "ultimo_resultado": "2 titulares nuevos: Nasdaq-100 in correction again as AI earnings ‘not good enough’"
+   "actualizado": "2026-11-03T15:03:01Z",
+   "ultimo_resultado": "5 titulares nuevos, 2 de alto impacto: Qué podrían significar las elecciones de mitad de término de 2026 para los últimos dos años de Trump"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3957.0 · NQ 28321.0 · VIX 21.0 · 5 noticias nuevas (2 alto impacto)",
+   "ts": "2026-11-03T15:03:02Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3952.7 · NQ 28315.0 · VIX 20.98 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3964.5 · NQ 28233.0 · VIX 21.15",
    "ts": "2026-11-03T01:37:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3968.6 · NQ 28220.0 · VIX 21.15",
-   "ts": "2026-11-03T01:32:32Z"
   }
  ],
  "briefs": [
@@ -12691,12 +12691,36 @@
   }
  },
  "en_vivo": {
-  "oro": 3952.7,
-  "nq": 28315.0,
-  "vix": 20.98,
-  "ts": "2026-11-03T14:57:31Z"
+  "oro": 3957.0,
+  "nq": 28321.0,
+  "vix": 21.0,
+  "ts": "2026-11-03T15:03:01Z"
  },
  "noticias": [
+  {
+   "titulo": "What the 2026 midterm elections could mean for Trump’s final two years",
+   "link": "https://www.cnbc.com/2026/11/03/midterm-elections-congress-trump-democrats-republicans.html",
+   "ts": "2026-11-03T15:00:01Z",
+   "fuente": "CNBC",
+   "id": "0d01bde655",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Qué podrían significar las elecciones de mitad de término de 2026 para los últimos dos años de Trump",
+   "efecto": ""
+  },
+  {
+   "titulo": "Bill Ackman warns of 'casino' stock market as speculative trading grows",
+   "link": "https://www.cnbc.com/2026/11/03/bill-ackman-casino-stock-market.html",
+   "ts": "2026-11-03T14:59:05Z",
+   "fuente": "CNBC",
+   "id": "787327dcfb",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "Bill Ackman advierte sobre un mercado bursátil de 'casino' ante el aumento del trading especulativo",
+   "efecto": ""
+  },
   {
    "titulo": "Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war",
    "link": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
@@ -12705,6 +12729,19 @@
    "id": "8fa8c8219e",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "S&P 500, Nasdaq open higher as oil prices extend declines, midterms on tap",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVp0N2w0REZqOUJ3YkRxcmliYkhtX25yTkFtdmJDUFdSVm5CcXRQYjdMeFFLU0gxcHk1STM2R0xXaGJ6TW9ZN2ZQS2RReVRiXzNtY1B3Qm5fZ1lfTUFaMVpRM2d2ZVZodnZtbUFFLUtkcURfUEtENElyNG5YcFRGcncteEFaZFUwOGxVUmpTMWFkMEtvb09VTG50a2NSbjhLUm5Zc3EtZS1XUU5lWm9B?oc=5",
+   "ts": "2026-11-03T14:48:09Z",
+   "fuente": "Reuters",
+   "id": "f8a2a44ece",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "S&P 500 y Nasdaq abren al alza mientras caen los precios del petróleo y se acercan las elecciones",
+   "efecto": ""
   },
   {
    "titulo": "Nasdaq-100 in correction again as AI earnings ‘not good enough’",
@@ -12779,6 +12816,19 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Wall Street Futures Rise as Nasdaq Attempts Recovery Following Three-Month Lows: Dow Jones, S&P, Nasdaq",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPY29mTTE3X3duRDlaMlU2bnJLUEF4NGFzOEZrVVBVZG5VN09wbmdGX1NpcmJQdXhCUlMzS0tBUXNLYkx2eHlSNm1waEJ5NUUtR3VvZ3lJM3dDcmFRb29sdk9SS3MyLXZsMXlTQl8wb2M2TUtNT3NoLVJ1RW9vTXo3U1Y5MVFTV3o3dUViSWVIN3NoeXM5b0JVSG8zeHA?oc=5",
+   "ts": "2026-11-03T14:17:09Z",
+   "fuente": "Yahoo Finance",
+   "id": "fdf020d8d0",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Futuros de Wall Street suben mientras el Nasdaq intenta recuperarse tras mínimos de tres meses",
+   "efecto": ""
+  },
+  {
    "titulo": "US Stock Futures Climb as Investors Seek Tech Rebound Following Nasdaq Selloff: Dow Jones, S&P, Nasdaq, Wall Street",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOEZKZjI3T1VUT3hmWjBpNFJxNzZvdWlkTFhOVThNNWt3RUk4S285QmtTeWpBMTVNcF9hVmx6aUs3V2FMdHlJLVJmQWpwM1BxMGNmZE9ZX1h4T2hDLXl5aElqUlZaX2RpMkFMb3JCcFlBcWU5YzcyWWRZRk1SbE56anFHbUpHX1Ny?oc=5",
    "ts": "2026-11-03T14:16:51Z",
@@ -12832,6 +12882,19 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Hamilton Lane (NASDAQ:HLNE) reports sales below analyst estimates in Q3 CY2026 earnings",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYTRVbmJMZ0ZDZV93YThhZ2k2UWJMbTIwX2V5NnFXRnhEWE9WQ3B1N0Z1TWZsZGVYdVFmQkFLdHBlbExFS1FVSzlHM09iOUtfeE82RGdsODlLUmp3YnhyS3NxNG9qWFVZSzdwcmh4Qm9oMkN6RzJNLVE1anFITTRIbFZDNE1URjVkU19EM2huNlN0UTdwbGpSS2wtS01YNms?oc=5",
+   "ts": "2026-11-03T14:01:05Z",
+   "fuente": "Yahoo Finance",
+   "id": "71c5583e61",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "bajo",
+   "es": "Hamilton Lane (NASDAQ:HLNE) reporta ventas por debajo de estimaciones en 3T 2026",
+   "efecto": ""
   },
   {
    "titulo": "S&P 500 futures rebound as chip stocks bounce, oil turns lower on Election Day: Live updates",
@@ -13513,59 +13576,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Azimut Undertakes New Mineral Resource Estimate on the Patwon Gold Deposit, James Bay Region, Québec",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/azimut-undertakes-mineral-estimate-patwon-113000572.html?.tsrc=rss",
-   "ts": "2026-11-03T11:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "99390779c1",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Vext Reports Q3 2026 Financial Results; Record Quarterly Revenue of $14.9 Million; Operating Cash Flow of $2.4 Million",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/vext-reports-q3-2026-financial-113000444.html?.tsrc=rss",
-   "ts": "2026-11-03T11:30:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "2a6b5dedd2",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Why is I-80 Gold stock sliding today?",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX1dJWnBpWi04VUk5R08zaEREbjFKdU9NVy1ISDhEUjZyQzgtWE1ZbjQ1V2VEVWRxanJUZHU5SXg2LXV3TW5lRHlyY3FmN1lBdG56MVdZMnV2Z1ViaU5uQ3Vsc2czeTV0R1g4dzRyMHd1RmNfdldWRFlnYnlVbm93MTJMQXVpM0Rqcy0yaEl6YWRDZmoxbW9nYWhkZjlJZw?oc=5",
-   "ts": "2026-11-03T11:15:09Z",
-   "fuente": "Investing.com",
-   "id": "65ee6a307f",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Gold WRE races in China concluded in eye-catching terrains",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPckFYY0pVM3NJUkRCbUFNMzc1cXUzaVp0Vlg4VHFSUW0zMVZFbTVoMEdvUGkwYkdiMEZ0NGtaV1R5VEcwdmpBVEdYdlQ2WlJybk5uME9vaElQMTVxTGRmWEI3RWFNeFpfZ2hTLXdmZEthTmVwUFpFdHlaMkdSTW1LUWd0XzlFYklQd3J2eDJsOA?oc=5",
-   "ts": "2026-11-03T11:06:44Z",
-   "fuente": "International Orienteering Federation",
-   "id": "0983d7ed25",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "JPMorgan Nasdaq Equity Prem. Income (JEPQ) Buys $18.9 Million More AAPL on Friday",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYmxuM0FGUlJScE9tUkNpek8wV3VmV0NlQWpYVU03LVVCNVpmdFp3R2lKY3dpcmV5WlQxWTVCU2RqN1h0VE9WRUJBblM0QUdjN1oyR2NrRS1IRm9Vb1cxRkh1MXJYb0w3cjU5MUlZNlhxQmZyT04xZ1otVGtlajJ0NUdGcEdBdHlGRF93?oc=5",
-   "ts": "2026-11-03T11:05:33Z",
-   "fuente": "Yahoo Finance Singapore",
-   "id": "289eaede0f",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14139,14 +14149,14 @@
     3970.8,
     3972.7,
     3950.0,
-    3952.9
+    3957.0
    ],
    [
-    1793717250,
-    3952.7,
-    3952.7,
-    3952.7,
-    3952.7
+    1793717579,
+    3957.0,
+    3957.0,
+    3957.0,
+    3957.0
    ]
   ],
   "nq": [
@@ -14708,14 +14718,14 @@
     28316.5,
     28385.75,
     28215.75,
-    28313.5
+    28319.5
    ],
    [
-    1793717252,
-    28312.5,
-    28312.5,
-    28312.5,
-    28312.5
+    1793717579,
+    28321.0,
+    28321.0,
+    28321.0,
+    28321.0
    ]
   ],
   "vix": [
@@ -15157,32 +15167,32 @@
     1793714400,
     20.89,
     21.14,
-    20.78,
-    20.95
+    20.74,
+    20.85
    ],
    [
-    1793716936,
-    20.98,
-    20.98,
-    20.98,
-    20.98
+    1793717266,
+    21.0,
+    21.0,
+    21.0,
+    21.0
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-11-03T14:32:36Z",
- "ult_4h": 1793717258.462517,
+ "noticias_traducidas_ts": "2026-11-03T15:02:36Z",
+ "ult_4h": 1793718181.653488,
  "estrategia_4h": {
   "oro": {
-   "precio": 3956.3,
-   "atr_4h": 34.04,
+   "precio": 3957.0,
+   "atr_4h": 34.02,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4021.32,
+     "stop": 4021.31,
      "objetivo": 3879.3,
-     "rr": 5.95,
+     "rr": 5.96,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 2.0,
      "ruptura": "2026-10-30 04:00 UTC"
@@ -15191,7 +15201,7 @@
      "direccion": "VENTA",
      "nivel": 3989.1,
      "entrada": 3989.1,
-     "stop": 4009.52,
+     "stop": 4009.51,
      "objetivo": 3879.3,
      "rr": 5.38,
      "estado": "esperando retesteo",
@@ -15201,7 +15211,7 @@
    ]
   },
   "nq": {
-   "precio": 28308.5,
+   "precio": 28321.0,
    "atr_4h": 285.88,
    "setups": [
     {
@@ -15228,7 +15238,7 @@
     }
    ]
   },
-  "ts": "2026-11-03T14:47:38Z"
+  "ts": "2026-11-03T15:03:01Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15301,11 +15311,6 @@
   }
  ],
  "noticias_vistas": [
-  "c4f926d6f0",
-  "d3a887e6f0",
-  "3c0c20a8bd",
-  "3f765baebe",
-  "dfce558f2c",
   "689da1c571",
   "a78f5ddf24",
   "5fb3facb21",
@@ -16100,7 +16105,12 @@
   "8fa8c8219e",
   "c51ba12b98",
   "bf357d1958",
-  "b684fad95c"
+  "b684fad95c",
+  "0d01bde655",
+  "787327dcfb",
+  "f8a2a44ece",
+  "fdf020d8d0",
+  "71c5583e61"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
