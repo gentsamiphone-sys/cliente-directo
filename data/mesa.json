@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3938.3 · NQ 28336.75 · VIX 20.95 · 1 noticias nuevas",
-   "actualizado": "2026-11-03T17:52:46Z"
+   "ultimo_resultado": "Oro 3940.1 · NQ 28352.0 · VIX 20.97 · 4 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-11-03T17:57:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T17:52:45Z",
-   "ultimo_resultado": "1 titulares nuevos: XAU Resources Announces Planned Soil Sampling Program at the Noseno Gold Project, Guyana, Following Airborne Geophysics Interpretation"
+   "actualizado": "2026-11-03T17:57:41Z",
+   "ultimo_resultado": "4 titulares nuevos, 2 de alto impacto: Stocks making the biggest moves midday: Apple, Palantir, Nvidia, Coinbase, Bloom Energy & more"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3940.1 · NQ 28352.0 · VIX 20.97 · 4 noticias nuevas (2 alto impacto)",
+   "ts": "2026-11-03T17:57:41Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3938.3 · NQ 28336.75 · VIX 20.95 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3935.1 · NQ 28147.5 · VIX 21.15 · 1 noticias nuevas",
    "ts": "2026-11-03T04:32:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3938.1 · NQ 28155.5 · VIX 21.15 · 2 noticias nuevas (1 alto impacto)",
-   "ts": "2026-11-03T04:27:35Z"
   }
  ],
  "briefs": [
@@ -12691,12 +12691,43 @@
   }
  },
  "en_vivo": {
-  "oro": 3938.3,
-  "nq": 28336.75,
-  "vix": 20.95,
-  "ts": "2026-11-03T17:52:45Z"
+  "oro": 3940.1,
+  "nq": 28352.0,
+  "vix": 20.97,
+  "ts": "2026-11-03T17:57:41Z"
  },
  "noticias": [
+  {
+   "titulo": "Stocks making the biggest moves midday: Apple, Palantir, Nvidia, Coinbase, Bloom Energy & more",
+   "link": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-midday-aapl-pltr-nvda-coin-be.html",
+   "ts": "2026-11-03T17:55:18Z",
+   "fuente": "CNBC",
+   "id": "d98500de3b",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Trump Delays Robotics Tariffs and Orders New Trade Negotiations",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5vdHM0Vk1FTlE4bG5lV1ZJM1RRUlVQWVNoSm9oaXc2SUo4cU9RZk9QTERFZHR6U2xRM09yV21saXo0ZXhtdTdpSE83eklUME1oTVZya05hQ1UwakJSZ1V2Zkd0cVRfWFJnUmdxVkI1NEhmTzViRGtGWTRhQnI?oc=5",
+   "ts": "2026-11-03T17:54:07Z",
+   "fuente": "Legis1",
+   "id": "bd8165d202",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "What gold's nearly 30% crash from all-time highs tells us about markets and the economy",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdWNmeTBEMG1SMTFxeURxbl9teDIzZTlzZDdrM1pDSGlEZ0phLXN2cW04UmxrVkxodWNERjB6OVZpN0drNjRhMC1ycGtxZlFvOXU0ZXZnOVVxWHhmWXJnelExNmpsbXBCUlc2cjJYMzM5cndtbEY4OTdnMUtoTExiOUpXdkgzWjJ1dkxLWlBXUXJ4V1doU0RBbDMya2NwN1k?oc=5",
+   "ts": "2026-11-03T17:54:00Z",
+   "fuente": "Business Insider",
+   "id": "a17afa52fd",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "alto"
+  },
   {
    "titulo": "Trump Changes Which Canadian Goods Face 50 Percent Tariffs",
    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1KU21UbUNMbWFlNlJwSlBKd0JyNXhwcHpFVnBrUmxDaHE0S1Z4TlZJVndZeE4wQVIzaHZWM2RCR0NxRG1oZmdxUGxoS3dkQkFBSXJWTjc0RFZod3haZ0RNazZyWUx0RzNvaG5vY1NjNWJDZmFuSlBMMnJTQTdDZw?oc=5",
@@ -12792,6 +12823,17 @@
    "id": "e9791a6520",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Trifecta Gold advances 30,000-hectare Yukon Portfolio Across Tombstone Gold Belt",
+   "link": "https://finance.yahoo.com/video/trifecta-gold-advances-30-000-165206171.html?.tsrc=rss",
+   "ts": "2026-11-03T16:52:06Z",
+   "fuente": "Yahoo Finance",
+   "id": "9d36440125",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Five Metals Producers Trade Higher as Gold, Silver and Copper Futures Pull Back",
@@ -13524,46 +13566,6 @@
     "oro"
    ],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Ferrari raises 2026 guidance after Q3 earnings beat",
-   "link": "https://www.cnbc.com/2026/11/03/ferrari-race-earnings-q3-2026.html",
-   "ts": "2026-11-03T13:01:55Z",
-   "fuente": "CNBC",
-   "id": "9137afae6a",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Santoli: AI bull market almost surely needs tech stocks to recover to keep advancing",
-   "link": "https://www.cnbc.com/2026/11/03/santoli-ai-bull-market-needs-tech-stocks.html",
-   "ts": "2026-11-03T13:01:23Z",
-   "fuente": "CNBC",
-   "id": "4a94a224c6",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "New national home listing database is taking on Compass in the battle for control of real estate information",
-   "link": "https://www.cnbc.com/2026/11/03/national-home-listing-database-battles-compass-in-real-estate-info-war.html",
-   "ts": "2026-11-03T13:00:01Z",
-   "fuente": "CNBC",
-   "id": "515e5ae351",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Lode Gold Identifies Exploration Potential for Additional Higher-Grade Gold Within Previously Drilled Areas at Fremont Gold Mine",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/lode-gold-identifies-exploration-potential-130000126.html?.tsrc=rss",
-   "ts": "2026-11-03T13:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "fdcea9f74c",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14158,14 +14160,14 @@
     3937.8,
     3941.6,
     3936.5,
-    3938.3
+    3940.7
    ],
    [
-    1793727764,
-    3938.3,
-    3938.3,
-    3938.3,
-    3938.3
+    1793728057,
+    3940.1,
+    3940.1,
+    3940.1,
+    3940.1
    ]
   ],
   "nq": [
@@ -14748,14 +14750,14 @@
     28361.5,
     28398.5,
     28330.75,
-    28335.5
+    28354.0
    ],
    [
-    1793727765,
-    28336.75,
-    28336.75,
-    28336.75,
-    28336.75
+    1793728059,
+    28352.0,
+    28352.0,
+    28352.0,
+    28352.0
    ]
   ],
   "vix": [
@@ -15217,16 +15219,16 @@
    [
     1793725200,
     20.7,
-    20.94,
+    20.96,
     20.69,
-    20.93
+    20.94
    ],
    [
-    1793727451,
-    20.95,
-    20.95,
-    20.95,
-    20.95
+    1793727751,
+    20.97,
+    20.97,
+    20.97,
+    20.97
    ]
   ]
  },
@@ -15340,10 +15342,6 @@
   }
  ],
  "noticias_vistas": [
-  "9cb7521915",
-  "1cb89d6a21",
-  "d5ea628685",
-  "50129bd192",
   "9368520eeb",
   "c492d32d00",
   "b439184eff",
@@ -16139,7 +16137,11 @@
   "6e62939ed5",
   "a953c5c721",
   "28f760eafe",
-  "10646ebd73"
+  "10646ebd73",
+  "d98500de3b",
+  "bd8165d202",
+  "a17afa52fd",
+  "9d36440125"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
