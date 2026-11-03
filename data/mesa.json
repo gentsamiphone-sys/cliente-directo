@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3919.6 · NQ 28138.5 · VIX 21.66 · 2 noticias nuevas",
-   "actualizado": "2026-11-03T08:32:42Z"
+   "ultimo_resultado": "Oro 3918.5 · NQ 28131.25 · VIX 21.73 · 1 noticias nuevas",
+   "actualizado": "2026-11-03T08:37:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T08:32:41Z",
-   "ultimo_resultado": "2 titulares nuevos: Stock futures fall as investors weigh Apple earnings; U.S. midterm elections loom: Live updates"
+   "actualizado": "2026-11-03T08:37:36Z",
+   "ultimo_resultado": "1 titulares nuevos: Brookfield targets $27 billion AI data center at power station. Energy firm Drax surges 8%"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3918.5 · NQ 28131.25 · VIX 21.73 · 1 noticias nuevas",
+   "ts": "2026-11-03T08:37:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3919.6 · NQ 28138.5 · VIX 21.66 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3962.5 · NQ 28421.75 · VIX 20.04 · 4 noticias nuevas",
    "ts": "2026-11-02T19:12:42Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3963.6 · NQ 28452.25 · VIX 20.13",
-   "ts": "2026-11-02T19:07:32Z"
   }
  ],
  "briefs": [
@@ -12691,10 +12691,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3919.6,
-  "nq": 28138.5,
-  "vix": 21.66,
-  "ts": "2026-11-03T08:32:41Z"
+  "oro": 3918.5,
+  "nq": 28131.25,
+  "vix": 21.73,
+  "ts": "2026-11-03T08:37:36Z"
  },
  "noticias": [
   {
@@ -12707,6 +12707,15 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Brookfield targets $27 billion AI data center at power station. Energy firm Drax surges 8%",
+   "link": "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html",
+   "ts": "2026-11-03T08:28:31Z",
+   "fuente": "CNBC",
+   "id": "6588a0de83",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "U.S. strikes Iran’s Qeshm Island as Vance hopes for ‘negotiated settlement’ with Tehran",
@@ -13584,17 +13593,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Australian Cash Flow Stocks For November 2026",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/australian-cash-flow-stocks-november-221145811.html?.tsrc=rss",
-   "ts": "2026-11-02T22:11:45Z",
-   "fuente": "Yahoo Finance",
-   "id": "625ed9c83d",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14118,14 +14116,14 @@
     3916.0,
     3920.4,
     3914.1,
-    3920.1
+    3918.2
    ],
    [
-    1793694139,
-    3919.6,
-    3919.6,
-    3919.6,
-    3919.6
+    1793694453,
+    3918.5,
+    3918.5,
+    3918.5,
+    3918.5
    ]
   ],
   "nq": [
@@ -14645,14 +14643,14 @@
     28150.75,
     28167.0,
     28111.75,
-    28143.25
+    28127.0
    ],
    [
-    1793694159,
-    28138.5,
-    28138.5,
-    28138.5,
-    28138.5
+    1793694455,
+    28131.25,
+    28131.25,
+    28131.25,
+    28131.25
    ]
   ],
   "vix": [
@@ -15051,16 +15049,16 @@
    [
     1793692800,
     21.66,
-    21.66,
+    21.69,
     21.62,
-    21.64
+    21.69
    ],
    [
-    1793693851,
-    21.66,
-    21.66,
-    21.66,
-    21.66
+    1793694151,
+    21.73,
+    21.73,
+    21.73,
+    21.73
    ]
   ]
  },
@@ -15185,7 +15183,6 @@
   }
  ],
  "noticias_vistas": [
-  "4f87fdf6e1",
   "f2cd487c31",
   "40700401c4",
   "ea3142b0a8",
@@ -15984,7 +15981,8 @@
   "a426a12a32",
   "4cc0e1fdf6",
   "2e7d298b30",
-  "e6d3497ef6"
+  "e6d3497ef6",
+  "6588a0de83"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
