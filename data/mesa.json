@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T12:32:55Z",
-   "ultimo_resultado": "Mapa listo: oro 3921.2 · NQ 28210.25."
+   "actualizado": "2026-11-03T20:17:35Z",
+   "ultimo_resultado": "Estrategia 4H NQ: VENTA: esperar retesteo de 29022.75 · stop 29136.72 · objetivo 28038.25 · R:R 8.64 (esperando retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T20:12:48Z",
-   "ultimo_resultado": "2 titulares nuevos: Trump DOJ sends target letters to Democrats in Alaska Senate criminal probe: Reports"
+   "actualizado": "2026-11-03T20:17:35Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H NQ: VENTA: esperar retesteo de 29022.75 · stop 29136.72 · objetivo 28038.25 · R:R 8.64 (esperando retesteo). Tú ejecutas.",
+   "ts": "2026-11-03T20:17:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3929.3 · NQ 28266.75 · VIX 21.03 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "macro",
    "texto": "Revisando dólar, tasas a 10 años, VIX y calendario económico…",
    "ts": "2026-11-03T06:32:46Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Historial: 10 operaciones, 30% de acierto, +9.19 R.",
-   "ts": "2026-11-03T06:32:45Z"
   }
  ],
  "briefs": [
@@ -12691,10 +12691,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3929.3,
-  "nq": 28266.75,
-  "vix": 21.03,
-  "ts": "2026-11-03T20:12:48Z"
+  "oro": 3930.4,
+  "nq": 28270.75,
+  "vix": 20.95,
+  "ts": "2026-11-03T20:17:35Z"
  },
  "noticias": [
   {
@@ -15285,43 +15285,65 @@
   ]
  },
  "noticias_traducidas_ts": "2026-11-03T20:02:35Z",
- "ult_4h": 1793736157.1316128,
+ "ult_4h": 1793737055.6692245,
  "estrategia_4h": {
   "oro": {
-   "precio": 3935.1,
-   "atr_4h": 29.41,
+   "precio": 3930.2,
+   "atr_4h": 27.63,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4018.55,
+     "stop": 4017.48,
      "objetivo": 3879.3,
-     "rr": 6.89,
+     "rr": 7.34,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.31,
+     "fuerza_ruptura_atr": 2.46,
+     "ruptura": "2026-10-30 04:00 UTC"
+    },
+    {
+     "direccion": "VENTA",
+     "nivel": 3989.1,
+     "entrada": 3989.1,
+     "stop": 4005.68,
+     "objetivo": 3879.3,
+     "rr": 6.62,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 2.46,
      "ruptura": "2026-10-30 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 28292.75,
-   "atr_4h": 279.52,
+   "precio": 28271.5,
+   "atr_4h": 189.95,
    "setups": [
+    {
+     "direccion": "VENTA",
+     "nivel": 29022.75,
+     "entrada": 29022.75,
+     "stop": 29136.72,
+     "objetivo": 28038.25,
+     "rr": 8.64,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 0.86,
+     "ruptura": "2026-10-30 00:00 UTC"
+    },
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29455.71,
+     "stop": 29401.97,
      "objetivo": 28038.25,
-     "rr": 7.45,
+     "rr": 10.97,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.63,
+     "fuerza_ruptura_atr": 2.4,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-11-03T20:02:37Z"
+  "ts": "2026-11-03T20:17:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15376,7 +15398,8 @@
   "oro|VENTA|4000.9|esperando retesteo",
   "oro|VENTA|3989.1|esperando retesteo",
   "oro|VENTA|4002.3|esperando retesteo",
-  "oro|VENTA|3989.1|en retesteo"
+  "oro|VENTA|3989.1|en retesteo",
+  "nq|VENTA|29022.75|esperando retesteo"
  ],
  "alpha_ordenes": [
   {
