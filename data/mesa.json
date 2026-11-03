@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3915.4 · NQ 28201.5 · VIX 21.42 · 7 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-11-03T11:57:33Z"
+   "ultimo_resultado": "Oro 3915.0 · NQ 28185.0 · VIX 21.43 · 7 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-11-03T12:02:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T11:57:32Z",
-   "ultimo_resultado": "7 titulares nuevos, 1 de alto impacto: Zebra (NASDAQ:ZBRA) surprises with Q3 2026 sales but stock drops"
+   "actualizado": "2026-11-03T12:02:34Z",
+   "ultimo_resultado": "7 titulares nuevos, 1 de alto impacto: Yum Brands earnings beat estimates, but cyclospora outbreak weighs on Taco Bell"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3915.0 · NQ 28185.0 · VIX 21.43 · 7 noticias nuevas (1 alto impacto)",
+   "ts": "2026-11-03T12:02:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3915.4 · NQ 28201.5 · VIX 21.42 · 7 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "VIX/NQ: CONFIRMA BAJISTA: NQ baja y el VIX sube (se compra protección)",
    "ts": "2026-11-02T21:33:07Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
-   "ts": "2026-11-02T21:33:04Z"
   }
  ],
  "briefs": [
@@ -12691,12 +12691,72 @@
   }
  },
  "en_vivo": {
-  "oro": 3915.4,
-  "nq": 28201.5,
-  "vix": 21.42,
-  "ts": "2026-11-03T11:57:32Z"
+  "oro": 3915.0,
+  "nq": 28185.0,
+  "vix": 21.43,
+  "ts": "2026-11-03T12:02:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Yum Brands earnings beat estimates, but cyclospora outbreak weighs on Taco Bell",
+   "link": "https://www.cnbc.com/2026/11/03/yum-brands-yum-q3-2026-earnings.html",
+   "ts": "2026-11-03T12:01:12Z",
+   "fuente": "CNBC",
+   "id": "9469873bfa",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Versant earnings beat expectations as digital platforms drive growth",
+   "link": "https://www.cnbc.com/2026/11/03/versant-vsnt-q3-2026-earnings.html",
+   "ts": "2026-11-03T12:00:58Z",
+   "fuente": "CNBC",
+   "id": "1f2aaecd86",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Pfizer hikes full-year outlook, taps company veteran as new CFO",
+   "link": "https://www.cnbc.com/2026/11/03/pfizer-pfe-earnings-q3-2026.html",
+   "ts": "2026-11-03T12:00:54Z",
+   "fuente": "CNBC",
+   "id": "17b33bd657",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Apple is falling on its latest earnings report. Why most analysts still like the stock",
+   "link": "https://www.cnbc.com/2026/11/03/apple-earnings-analysts-margin-outlook.html",
+   "ts": "2026-11-03T11:59:53Z",
+   "fuente": "CNBC",
+   "id": "ed88e07728",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Wall Street is bracing for a fresh wave of tariffs, Iran action (and potentially a government shutdown) after the midterms",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPT3BjSDBOMTBSTE04RjhSc0RYSWJic25sS2duRTRocGJvT3RHYmtaWDYxVnMtTWM5ejNCdmEwWi1vdFkyeTZmR0lzZ2duM2V2blhMTEVzSnRIMVc2ajc1SUplUzVEMGo0N202T1pLU0FtX2VCbGEwdUZIZ0RfMkQzaWpWT3R0UUpCUTBLZFBIWQ?oc=5",
+   "ts": "2026-11-03T11:57:00Z",
+   "fuente": "Fortune",
+   "id": "dfd33917a0",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Central Banks Accelerated Gold Buying in Third Quarter",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNE5ITWFudmVrYUgyekVzeUp1YkVlYTBkY0pZbTJSUFhraGRFRXdpczRWODFrOUpRRHQwU3VlbmJnNGk1ekV3MUpfOFJoa2liOEEtNEZDSEZQZDlUWENqa1NlaHJjZ25VYTNtMGVDQ2kxa3hJV25pZkxjTUJKandqeUgyUmJCaGpJWU8yaHBMQ2l4M19qRnFPYS1SSEZTMlF6ZFBubmRPMDgxUDFzbmtiaA?oc=5",
+   "ts": "2026-11-03T11:57:00Z",
+   "fuente": "WSJ",
+   "id": "a3fbcf8a1e",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Zebra (NASDAQ:ZBRA) surprises with Q3 2026 sales but stock drops",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMkNPRjhlaE9VakhWeDVHZHVJR3VQZHRuYVBEd0VtOU40VEx4MlpxNS14RnlTRGRVbE42WEZva0V6YkdqRmZsZG1vdy1IZlBjTkRVYjZtYVhPVjJMOWgwQUMyd1Z6eHpPUGpiVUQ1ZTJ3MU1FRjM5WFVudHRlcW9LckVKUGRONWlJT3NZTUNMLTNiSFJUVll5dG1WZw?oc=5",
@@ -12707,6 +12767,15 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "US Treasuries Trade in Narrow Range as Oil Prices Recover Ahead of Midterm Elections: Commerzbank",
+   "link": "https://finance.yahoo.com/economy/policy/articles/us-treasuries-trade-narrow-range-114347921.html?.tsrc=rss",
+   "ts": "2026-11-03T11:43:47Z",
+   "fuente": "Yahoo Finance",
+   "id": "96c76b3967",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "SLV Crashes To Near 52-Week Lows, GLD Falls Pre-Market – World Gold Council Cuts 2026 Gold Investment Forecast By Half",
@@ -13488,79 +13557,6 @@
    "id": "bdccd9c5f9",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Lovable CEO says AI is collapsing barriers to starting a business",
-   "link": "https://www.cnbc.com/video/2026/11/03/lovable-ceo-ai-vibe-coding.html",
-   "ts": "2026-11-03T05:00:01Z",
-   "fuente": "CNBC",
-   "id": "ff623bd6b7",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Democratic Party campaign ads address tariffs ahead of midterms",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZHJZR1dDNV8tWkg4QS1IQ196Z0ZVSTVZUmN0Z1NTeTJ2ZVBRMzJ4NlFpODQzLWtNRWF4NXB0THo0UzJrVFVKSHdZS09sSlZiNWJiRWlKV0lqVDJ4M2d1MXRoVnF1d0h3cWRUUFM5bFB5WkJmVzdfdTIxQzltLUVZVlZR?oc=5",
-   "ts": "2026-11-03T04:59:43Z",
-   "fuente": "China Daily Global Edition",
-   "id": "c94c60a2a0",
-   "activos": [],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Tesla, Samsung Express Opposition to New US Tariffs on Vietnam",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNM29JRTdPem1zam45WTE1M1NtT29CanBZdFpxajhhQnhBdE03SnhXQkR5MWREblFxazE0YldVQnlKQ0wtVlI2YkNrR2F5MTJhVFBvY0tVSW5NQVpYS1JRbzEzcTdXUEdIS1RJSk9uM25lamUtaEVoRm1oTWNIS21NSFVHQ0sxTGxzRW8xNG5ndEhaaTY5dmNRbm53?oc=5",
-   "ts": "2026-11-03T04:52:30Z",
-   "fuente": "The Diplomat – Asia-Pacific Current Affairs Magazine",
-   "id": "81078a301c",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Dollar subdued as U.S. midterms get underway; Aussie Hits 2-week low",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-mixed-yuan-slides-044909228.html?.tsrc=rss",
-   "ts": "2026-11-03T04:49:09Z",
-   "fuente": "Yahoo Finance",
-   "id": "d165374c48",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Asian currencies mixed as Aussie falls after RBA hike, yuan weakens",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-mixed-yuan-slides-044909228.html?.tsrc=rss",
-   "ts": "2026-11-03T04:49:09Z",
-   "fuente": "Yahoo Finance",
-   "id": "4cc0e1fdf6",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Asian currencies mixed as yuan slides after PBOC move, won rebounds",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-mixed-yuan-slides-044909228.html?.tsrc=rss",
-   "ts": "2026-11-03T04:49:09Z",
-   "fuente": "Yahoo Finance",
-   "id": "5501b3b1c5",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio",
-   "es": "Monedas asiáticas mixtas mientras el yuan cae tras medida del PBOC y el won repunta",
-   "efecto": "Debilita el yuan y fortalece levemente al índice dólar."
-  },
-  {
-   "titulo": "Gold falls as higher oil stokes inflation fears ahead of US midterms",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObE01SnNzQnotYkNRamJYejZ1LXh6N0Z0ck5Uc2xfbWFZVmg0MTZSdEhIT2RUNE85bjJUallIcEZIb3l4QVpPeVhoeDVLVjBrNWhWaGxzcy1vdmJVSHI4b0xKRzlvRzdhWWVRZlJBM055cnZQWjUyZnZBRlBrN1ZieFVJV3pOYjktNHNnelBR?oc=5",
-   "ts": "2026-11-03T04:16:00Z",
-   "fuente": "Reuters",
-   "id": "4294691bac",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -14112,14 +14108,14 @@
     3914.4,
     3919.4,
     3911.7,
-    3915.1
+    3915.5
    ],
    [
-    1793706441,
-    3915.4,
-    3915.4,
-    3915.4,
-    3915.4
+    1793706751,
+    3915.0,
+    3915.0,
+    3915.0,
+    3915.0
    ]
   ],
   "nq": [
@@ -14659,15 +14655,15 @@
     1793703600,
     28234.25,
     28250.75,
-    28197.25,
-    28202.0
+    28180.5,
+    28185.25
    ],
    [
-    1793706447,
-    28201.5,
-    28201.5,
-    28201.5,
-    28201.5
+    1793706754,
+    28185.0,
+    28185.0,
+    28185.0,
+    28185.0
    ]
   ],
   "vix": [
@@ -15089,29 +15085,29 @@
     21.26,
     21.46,
     21.21,
-    21.41
+    21.43
    ],
    [
-    1793706136,
-    21.41,
-    21.41,
-    21.41,
-    21.41
+    1793706451,
+    21.43,
+    21.43,
+    21.43,
+    21.43
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-11-03T11:42:36Z",
- "ult_4h": 1793706459.4504879,
+ "ult_4h": 1793707355.3191893,
  "estrategia_4h": {
   "oro": {
-   "precio": 3913.1,
-   "atr_4h": 31.32,
+   "precio": 3915.0,
+   "atr_4h": 31.34,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4019.69,
+     "stop": 4019.7,
      "objetivo": 3879.3,
      "rr": 6.47,
      "estado": "esperando retesteo",
@@ -15122,7 +15118,7 @@
      "direccion": "VENTA",
      "nivel": 3989.1,
      "entrada": 3989.1,
-     "stop": 4007.89,
+     "stop": 4007.9,
      "objetivo": 3879.3,
      "rr": 5.84,
      "estado": "esperando retesteo",
@@ -15132,7 +15128,7 @@
    ]
   },
   "nq": {
-   "precio": 28204.0,
+   "precio": 28185.0,
    "atr_4h": 281.04,
    "setups": [
     {
@@ -15143,7 +15139,7 @@
      "objetivo": 28038.25,
      "rr": 7.41,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.62,
+     "fuerza_ruptura_atr": 1.63,
      "ruptura": "2026-10-29 20:00 UTC"
     },
     {
@@ -15154,12 +15150,12 @@
      "objetivo": 28038.25,
      "rr": 8.57,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.62,
+     "fuerza_ruptura_atr": 1.63,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-11-03T11:47:39Z"
+  "ts": "2026-11-03T12:02:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15232,13 +15228,6 @@
   }
  ],
  "noticias_vistas": [
-  "97cb054bee",
-  "6c8e809e20",
-  "1e02382b71",
-  "ee9e0f193a",
-  "87dd4266f3",
-  "a8a4240a74",
-  "84eacffd49",
   "07a1cd977e",
   "4cee130680",
   "b830debe18",
@@ -16031,7 +16020,14 @@
   "6c7e1f6c37",
   "9b743d0e2d",
   "3f74b83ab5",
-  "7064c181a5"
+  "7064c181a5",
+  "9469873bfa",
+  "1f2aaecd86",
+  "17b33bd657",
+  "ed88e07728",
+  "dfd33917a0",
+  "a3fbcf8a1e",
+  "96c76b3967"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
