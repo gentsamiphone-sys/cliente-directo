@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3919.4 · NQ 28137.75 · VIX —",
-   "actualizado": "2026-11-03T08:22:32Z"
+   "ultimo_resultado": "Oro 3918.4 · NQ 28139.5 · VIX — · 3 noticias nuevas",
+   "actualizado": "2026-11-03T08:27:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T08:22:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-11-03T08:27:40Z",
+   "ultimo_resultado": "3 titulares nuevos: U.S. strikes Iran’s Qeshm Island as Vance hopes for ‘negotiated settlement’ with Tehran"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3918.4 · NQ 28139.5 · VIX — · 3 noticias nuevas",
+   "ts": "2026-11-03T08:27:41Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3919.4 · NQ 28137.75 · VIX —",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3963.4 · NQ 28469.5 · VIX 20.12 · 1 noticias nuevas",
    "ts": "2026-11-02T19:02:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3965.7 · NQ 28482.0 · VIX 19.97 · 1 noticias nuevas",
-   "ts": "2026-11-02T18:57:37Z"
   }
  ],
  "briefs": [
@@ -12691,11 +12691,31 @@
   }
  },
  "en_vivo": {
-  "oro": 3919.4,
-  "nq": 28137.75,
-  "ts": "2026-11-03T08:22:32Z"
+  "oro": 3918.4,
+  "nq": 28139.5,
+  "ts": "2026-11-03T08:27:41Z"
  },
  "noticias": [
+  {
+   "titulo": "U.S. strikes Iran’s Qeshm Island as Vance hopes for ‘negotiated settlement’ with Tehran",
+   "link": "https://www.cnbc.com/2026/11/03/iran-us-vance-trump-strikes.html",
+   "ts": "2026-11-03T08:27:23Z",
+   "fuente": "CNBC",
+   "id": "736ec5722b",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Kavango completes commissioning of Hillside gold plant in Zimbabwe",
+   "link": "https://www.mining-technology.com/news/kavango-completes-commissioning-hillside-plant/?.tsrc=rss",
+   "ts": "2026-11-03T08:17:16Z",
+   "fuente": "Yahoo Finance",
+   "id": "a426a12a32",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Nevada Sunrise Metals: A dawning gold and copper growth story",
    "link": "https://investorshub.advfn.com/market-news/article/38916/nevada-sunrise-metals-a-dawning-gold-and-copper-growth-story?.tsrc=rss",
@@ -12895,6 +12915,15 @@
     "nq"
    ],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Asian currencies mixed as Aussie falls after RBA hike, yuan weakens",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-mixed-yuan-slides-044909228.html?.tsrc=rss",
+   "ts": "2026-11-03T04:49:09Z",
+   "fuente": "Yahoo Finance",
+   "id": "4cc0e1fdf6",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Asian currencies mixed as yuan slides after PBOC move, won rebounds",
@@ -13567,41 +13596,6 @@
    "impacto": "alto",
    "es": "Corrección en el Nasdaq",
    "efecto": "Busca compras institucionales en soportes clave tras la corrección."
-  },
-  {
-   "titulo": "Stocks making the biggest moves after hours: Fabrinet, Clorox, Apple, Palantir & more",
-   "link": "https://www.cnbc.com/2026/11/02/stocks-making-the-biggest-moves-after-hours-fn-clx-aapl-pltr.html",
-   "ts": "2026-11-02T22:07:09Z",
-   "fuente": "CNBC",
-   "id": "e30c3d3aa0",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Acciones con mayores movimientos fuera de horario: Fabrinet, Clorox, Apple, Palantir y más",
-   "efecto": "Genera volatilidad en acciones tecnológicas específicas afectando al NQ."
-  },
-  {
-   "titulo": "Ero Copper Reports Record Third Quarter 2026 Results",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ero-copper-reports-record-third-220500641.html?.tsrc=rss",
-   "ts": "2026-11-02T22:05:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "cfa54b9004",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Wesdome Expands High-Grade Zones at Eagle River, Highlighting Growth Potential near Existing Infrastructure",
-   "link": "https://finance.yahoo.com/markets/commodities/articles/wesdome-expands-high-grade-zones-220500133.html?.tsrc=rss",
-   "ts": "2026-11-02T22:05:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "76e1d90ce2",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Wesdome amplía zonas de alta ley en Eagle River, destacando potencial de crecimiento",
-   "efecto": "Noticia corporativa minera menor; sin impacto relevante en el oro."
   }
  ],
  "eventos_avisados": [
@@ -14132,14 +14126,14 @@
     3916.0,
     3920.4,
     3914.1,
-    3919.9
+    3918.6
    ],
    [
-    1793693547,
-    3919.4,
-    3919.4,
-    3919.4,
-    3919.4
+    1793693854,
+    3918.4,
+    3918.4,
+    3918.4,
+    3918.4
    ]
   ],
   "nq": [
@@ -14659,14 +14653,14 @@
     28150.25,
     28167.0,
     28111.75,
-    28141.0
+    28142.75
    ],
    [
-    1793693551,
-    28137.75,
-    28137.75,
-    28137.75,
-    28137.75
+    1793693858,
+    28139.5,
+    28139.5,
+    28139.5,
+    28139.5
    ]
   ],
   "vix": [
@@ -15203,9 +15197,6 @@
   }
  ],
  "noticias_vistas": [
-  "4bdc23bbc5",
-  "c08b98ae31",
-  "fbdc5438fa",
   "d20feb5584",
   "19754c5d71",
   "4f87fdf6e1",
@@ -16002,7 +15993,10 @@
   "5193955722",
   "7f4360eded",
   "4502e85d1b",
-  "94d57963ab"
+  "94d57963ab",
+  "736ec5722b",
+  "a426a12a32",
+  "4cc0e1fdf6"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
