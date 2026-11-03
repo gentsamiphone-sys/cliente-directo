@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3962.1 · NQ 28196.75 · VIX 21.15 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-11-03T00:57:45Z"
+   "ultimo_resultado": "Oro 3967.2 · NQ 28191.25 · VIX 21.15 · 1 noticias nuevas",
+   "actualizado": "2026-11-03T01:02:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T00:57:45Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Tariffs, labor, tech top Fresno State agribusiness conference"
+   "actualizado": "2026-11-03T01:02:34Z",
+   "ultimo_resultado": "1 titulares nuevos: Tuesday's big stock stories: What’s likely to move the market in the next trading session"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3967.2 · NQ 28191.25 · VIX 21.15 · 1 noticias nuevas",
+   "ts": "2026-11-03T01:02:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3962.1 · NQ 28196.75 · VIX 21.15 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3914.8 · NQ 28774.5 · VIX 18.95 · 3 noticias nuevas",
    "ts": "2026-11-02T11:42:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3913.3 · NQ 28780.0 · VIX 18.94",
-   "ts": "2026-11-02T11:37:30Z"
   }
  ],
  "briefs": [
@@ -12683,10 +12683,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3962.1,
-  "nq": 28196.75,
+  "oro": 3967.2,
+  "nq": 28191.25,
   "vix": 21.15,
-  "ts": "2026-11-03T00:57:45Z"
+  "ts": "2026-11-03T01:02:34Z"
  },
  "noticias": [
   {
@@ -12697,6 +12697,15 @@
    "id": "24913316db",
    "activos": [],
    "impacto": "alto"
+  },
+  {
+   "titulo": "Tuesday's big stock stories: What’s likely to move the market in the next trading session",
+   "link": "https://www.cnbc.com/2026/11/02/tuesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "ts": "2026-11-03T00:45:32Z",
+   "fuente": "CNBC",
+   "id": "1cb42641c1",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "S&P 500, Nasdaq reverse gains to close down; Apple reports",
@@ -13567,17 +13576,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "S&P 500 is little changed as tech stock losses outweigh cooler oil prices ahead of midterms: Live updates",
-   "link": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
-   "ts": "2026-11-02T19:17:04Z",
-   "fuente": "CNBC",
-   "id": "78d3ab1eee",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14213,14 +14211,14 @@
     3957.6,
     3974.5,
     3957.6,
-    3961.8
+    3966.4
    ],
    [
-    1793666858,
-    3962.1,
-    3962.1,
-    3962.1,
-    3962.1
+    1793667150,
+    3967.2,
+    3967.2,
+    3967.2,
+    3967.2
    ]
   ],
   "nq": [
@@ -14845,14 +14843,14 @@
     28207.5,
     28242.5,
     28162.75,
-    28195.5
+    28188.25
    ],
    [
-    1793666863,
-    28196.75,
-    28196.75,
-    28196.75,
-    28196.75
+    1793667152,
+    28191.25,
+    28191.25,
+    28191.25,
+    28191.25
    ]
   ],
   "vix": [
@@ -15356,54 +15354,43 @@
   ]
  },
  "noticias_traducidas_ts": "2026-11-03T00:37:33Z",
- "ult_4h": 1793666854.4183736,
+ "ult_4h": 1793667754.5096629,
  "estrategia_4h": {
   "oro": {
-   "precio": 3973.3,
-   "atr_4h": 32.19,
+   "precio": 3967.2,
+   "atr_4h": 32.27,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4020.22,
+     "stop": 4020.26,
      "objetivo": 3879.3,
-     "rr": 6.3,
+     "rr": 6.28,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.12,
+     "fuerza_ruptura_atr": 2.11,
      "ruptura": "2026-10-30 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 28235.0,
-   "atr_4h": 286.8,
+   "precio": 28191.25,
+   "atr_4h": 288.07,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29460.08,
+     "stop": 29460.84,
      "objetivo": 28101.75,
-     "rr": 6.89,
+     "rr": 6.86,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.59,
-     "ruptura": "2026-10-29 20:00 UTC"
-    },
-    {
-     "direccion": "VENTA",
-     "nivel": 29482.5,
-     "entrada": 29482.5,
-     "stop": 29654.58,
-     "objetivo": 28101.75,
-     "rr": 8.02,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.59,
+     "fuerza_ruptura_atr": 1.58,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-11-03T00:47:34Z"
+  "ts": "2026-11-03T01:02:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15476,7 +15463,6 @@
   }
  ],
  "noticias_vistas": [
-  "66c85605df",
   "a490a4e5e4",
   "4292e3a004",
   "1a217554c4",
@@ -16275,7 +16261,8 @@
   "3542c4538e",
   "da67324b92",
   "2911d918a0",
-  "24913316db"
+  "24913316db",
+  "1cb42641c1"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
