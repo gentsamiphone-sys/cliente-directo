@@ -39,13 +39,13 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3931.3 · NQ 28283.25 · VIX 20.86",
-   "actualizado": "2026-11-03T20:27:49Z"
+   "ultimo_resultado": "Oro 3932.0 · NQ 28305.5 · VIX 20.91",
+   "actualizado": "2026-11-03T20:32:53Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T20:27:48Z",
+   "actualizado": "2026-11-03T20:32:53Z",
    "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3932.0 · NQ 28305.5 · VIX 20.91",
+   "ts": "2026-11-03T20:32:53Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3931.3 · NQ 28283.25 · VIX 20.86",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
    "ts": "2026-11-03T06:32:52Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Fondos en oro: neto +105,562 contratos.",
-   "ts": "2026-11-03T06:32:51Z"
   }
  ],
  "briefs": [
@@ -12691,10 +12691,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3931.3,
-  "nq": 28283.25,
-  "vix": 20.86,
-  "ts": "2026-11-03T20:27:48Z"
+  "oro": 3932.0,
+  "nq": 28305.5,
+  "vix": 20.91,
+  "ts": "2026-11-03T20:32:53Z"
  },
  "noticias": [
   {
@@ -14167,16 +14167,16 @@
    [
     1793736000,
     3930.8,
-    3932.0,
+    3932.6,
     3927.2,
-    3931.0
+    3931.8
    ],
    [
-    1793737063,
-    3931.3,
-    3931.3,
-    3931.3,
-    3931.3
+    1793737370,
+    3931.8,
+    3931.8,
+    3931.8,
+    3931.8
    ]
   ],
   "nq": [
@@ -14778,16 +14778,16 @@
    [
     1793736000,
     28261.0,
-    28295.75,
+    28333.0,
     28249.5,
-    28280.75
+    28304.0
    ],
    [
-    1793737067,
-    28279.75,
-    28279.75,
-    28279.75,
-    28279.75
+    1793737373,
+    28305.25,
+    28305.25,
+    28305.25,
+    28305.25
    ]
   ],
   "vix": [
@@ -15272,77 +15272,66 @@
     20.96,
     21.01,
     20.83,
-    20.87
+    20.92
    ],
    [
-    1793736766,
-    20.86,
-    20.86,
-    20.86,
-    20.86
+    1793737066,
+    20.91,
+    20.91,
+    20.91,
+    20.91
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-11-03T20:02:35Z",
- "ult_4h": 1793737055.6692245,
+ "ult_4h": 1793737973.362773,
  "estrategia_4h": {
   "oro": {
-   "precio": 3930.2,
-   "atr_4h": 27.63,
+   "precio": 3931.8,
+   "atr_4h": 27.73,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4017.48,
+     "stop": 4017.54,
      "objetivo": 3879.3,
-     "rr": 7.34,
+     "rr": 7.31,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.46,
-     "ruptura": "2026-10-30 04:00 UTC"
-    },
-    {
-     "direccion": "VENTA",
-     "nivel": 3989.1,
-     "entrada": 3989.1,
-     "stop": 4005.68,
-     "objetivo": 3879.3,
-     "rr": 6.62,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.46,
+     "fuerza_ruptura_atr": 2.45,
      "ruptura": "2026-10-30 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 28271.5,
-   "atr_4h": 189.95,
+   "precio": 28305.5,
+   "atr_4h": 193.8,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29022.75,
      "entrada": 29022.75,
-     "stop": 29136.72,
+     "stop": 29139.03,
      "objetivo": 28038.25,
-     "rr": 8.64,
+     "rr": 8.47,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 0.86,
+     "fuerza_ruptura_atr": 0.85,
      "ruptura": "2026-10-30 00:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29401.97,
+     "stop": 29404.28,
      "objetivo": 28038.25,
-     "rr": 10.97,
+     "rr": 10.75,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.4,
+     "fuerza_ruptura_atr": 2.35,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-11-03T20:17:35Z"
+  "ts": "2026-11-03T20:32:53Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
