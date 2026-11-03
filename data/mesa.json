@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3923.8 · NQ 28229.0 · VIX 21.34 · 2 noticias nuevas",
-   "actualizado": "2026-11-03T12:47:32Z"
+   "ultimo_resultado": "Oro 3924.5 · NQ 28231.0 · VIX 21.28 · 3 noticias nuevas (2 alto impacto)",
+   "actualizado": "2026-11-03T12:52:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T12:47:30Z",
-   "ultimo_resultado": "2 titulares nuevos: Supermarket fridges hit with cyberattacks across Europe — here's what's happening"
+   "actualizado": "2026-11-03T12:52:36Z",
+   "ultimo_resultado": "3 titulares nuevos, 2 de alto impacto: Acciones de Apple caen por débil margen; Palantir baja 6% tras resultados"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3924.5 · NQ 28231.0 · VIX 21.28 · 3 noticias nuevas (2 alto impacto)",
+   "ts": "2026-11-03T12:52:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3923.8 · NQ 28229.0 · VIX 21.34 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3954.4 · NQ 28203.75 · VIX 21.15 · 1 noticias nuevas",
    "ts": "2026-11-02T23:27:44Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3954.1 · NQ 28229.75 · VIX 21.15 · 1 noticias nuevas",
-   "ts": "2026-11-02T23:22:31Z"
   }
  ],
  "briefs": [
@@ -12691,12 +12691,38 @@
   }
  },
  "en_vivo": {
-  "oro": 3923.8,
-  "nq": 28229.0,
-  "vix": 21.34,
-  "ts": "2026-11-03T12:47:31Z"
+  "oro": 3924.5,
+  "nq": 28231.0,
+  "vix": 21.28,
+  "ts": "2026-11-03T12:52:36Z"
  },
  "noticias": [
+  {
+   "titulo": "Apple shares slide after weak margin outlook; Palantir slumps 6% after earnings",
+   "link": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
+   "ts": "2026-11-03T12:50:27Z",
+   "fuente": "CNBC",
+   "id": "4a3668e81d",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "alto",
+   "es": "Acciones de Apple caen por débil margen; Palantir baja 6% tras resultados",
+   "efecto": "Presiona al Nasdaq a la baja por debilidad tecnológica."
+  },
+  {
+   "titulo": "Stocks making the biggest moves premarket: Pfizer, Apple, Palantir, Zebra Technologies  & more",
+   "link": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-premarket-pfe-pltr-aapl-zbra.html",
+   "ts": "2026-11-03T12:47:45Z",
+   "fuente": "CNBC",
+   "id": "9afc6d12c0",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio",
+   "es": "Acciones con mayores movimientos premercado: Pfizer, Apple, Palantir y más",
+   "efecto": "Genera alta volatilidad sectorial en la apertura del Nasdaq."
+  },
   {
    "titulo": "Supermarket fridges hit with cyberattacks across Europe — here's what's happening",
    "link": "https://www.cnbc.com/2026/11/03/supermarket-fridges-hack-cyberattack-europe.html",
@@ -12705,6 +12731,20 @@
    "id": "a8ebba76b6",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "What smart people are saying after the Nasdaq sinks into correction, down 10% from recent highs",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLWZIcHBCNG5BU3VaRmNwWl9PTUdFZW9va1BGckRBYzd5cWd4ZVlXd3B0Xy0zNk5hZ0dNRFlnUVQySDZEU3RMNGcwUnh3NTZRemdEZ1JYREhIRXJLc2loZEJ5V1Y1NG1VU1RXRllnRmU0UXNncGNYVDdac2laUjdNOFAtRkNQNEphTEpJdFpkWWY2SjRXRmVkUkx0bEN6dm9WV1M4eV9QMTN2QzdhakZEUFhHTQ?oc=5",
+   "ts": "2026-11-03T12:43:00Z",
+   "fuente": "Business Insider",
+   "id": "65be7d2cc5",
+   "activos": [
+    "nq",
+    "oro"
+   ],
+   "impacto": "alto",
+   "es": "Análisis tras la caída del Nasdaq en zona de corrección, 10% abajo de máximos",
+   "efecto": "Busca refugio en oro mientras el Nasdaq extiende pérdidas."
   },
   {
    "titulo": "What smart people are saying after the Nasdaq sinks 10% from recent highs, enters correction",
@@ -13526,41 +13566,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "New Strong Sell Stocks for November 3rd",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/strong-sell-stocks-november-3rd-080100826.html?.tsrc=rss",
-   "ts": "2026-11-03T08:01:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "b575b5910c",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Nevada Sunrise Metals: A dawning gold and copper growth story",
-   "link": "https://investorshub.advfn.com/market-news/article/38916/nevada-sunrise-metals-a-dawning-gold-and-copper-growth-story?.tsrc=rss",
-   "ts": "2026-11-03T08:00:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "94d57963ab",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "bajo",
-   "es": "Nevada Sunrise Metals: Una historia de crecimiento aurífero y de cobre",
-   "efecto": ""
-  },
-  {
-   "titulo": "Bodine becomes first Hot Rods player to win Minor League Gold Glove",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTmgxMHBDaXBIeVhiRHNtWDNwUFZkSGl2VDVIWHBSNjlNOW13LXdGX3daMlU3T3lQQ0R5VExFaHBqNXloWmdMbkQ4NnFXbTJlZG1CNzc4Q2dORnBqcnljYTBCWENiX3hfMTlXOHlDVWk1T01BOWpqYzNlSW9nZ0JyUjRxRVY3Z1RHM0ZBNGVnb0tORlVPamJlakE0V2RFUdIBsgFBVV95cUxQSUR2eExrbmVDaHFQelpfTkw1Um1vVnZGU1owcnp0R2VwOU5ub2xfQ2dJS2g4Tk9FZzQ1MjRzV0h3bEpDVE9Vdl9uN05mbUQzVW5RUU9TckdVYVFCOTdydGtEeVVHTmktbDBjNXRYNHBtZGJSWmc2RUxid2ljLWtqN0gwZTIzbTRjdXY5X3hoRGNOLUd5Vy15MVBhX0lRTkdpWmxFNGRKbTE2Unl1M0g3bnB3?oc=5",
-   "ts": "2026-11-03T07:47:00Z",
-   "fuente": "WBKO",
-   "id": "7918c6072f",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14117,16 +14122,16 @@
    [
     1793707200,
     3915.6,
-    3926.0,
+    3926.4,
     3908.4,
-    3925.0
+    3924.6
    ],
    [
-    1793709449,
-    3923.8,
-    3923.8,
-    3923.8,
-    3923.8
+    1793709751,
+    3924.8,
+    3924.8,
+    3924.8,
+    3924.8
    ]
   ],
   "nq": [
@@ -14674,14 +14679,14 @@
     28178.5,
     28249.75,
     28114.25,
-    28241.25
+    28228.75
    ],
    [
-    1793709447,
-    28229.0,
-    28229.0,
-    28229.0,
-    28229.0
+    1793709755,
+    28231.0,
+    28231.0,
+    28231.0,
+    28231.0
    ]
   ],
   "vix": [
@@ -15109,19 +15114,19 @@
     1793707200,
     21.55,
     21.76,
-    21.33,
-    21.33
+    21.24,
+    21.28
    ],
    [
-    1793709136,
-    21.34,
-    21.34,
-    21.34,
-    21.34
+    1793709451,
+    21.28,
+    21.28,
+    21.28,
+    21.28
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-11-03T12:17:34Z",
+ "noticias_traducidas_ts": "2026-11-03T12:52:32Z",
  "ult_4h": 1793710051.3240678,
  "estrategia_4h": {
   "oro": {
@@ -15242,9 +15247,6 @@
   }
  ],
  "noticias_vistas": [
-  "5509138c95",
-  "c718859275",
-  "9efa70cfcd",
   "f38308b18c",
   "796c06fbf6",
   "b237429eeb",
@@ -16041,7 +16043,10 @@
   "f1ad98eb56",
   "da528fd647",
   "a8ebba76b6",
-  "2b9cc4ae2e"
+  "2b9cc4ae2e",
+  "4a3668e81d",
+  "9afc6d12c0",
+  "65be7d2cc5"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
