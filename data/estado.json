@@ -6410,10 +6410,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "estado": "descansando",
+   "tarea": "",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-11-03T15:06:25Z"
+   "actualizado": "2026-11-03T15:06:31Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -6441,6 +6441,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
+   "ts": "2026-11-03T15:06:31Z"
+  },
   {
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
@@ -7935,11 +7940,6 @@
    "agente": "disenador",
    "texto": "Terminó su turno: 3 muestras nuevas",
    "ts": "2026-11-01T09:34:32Z"
-  },
-  {
-   "agente": "disenador",
-   "texto": "Muestra lista de Maxie's y su mensaje para mandar por texto.",
-   "ts": "2026-11-01T09:34:28Z"
   }
  ],
  "reportes": {
