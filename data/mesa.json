@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3914.8 · NQ 28234.5 · VIX 21.35 · 1 noticias nuevas",
-   "actualizado": "2026-11-03T10:12:38Z"
+   "ultimo_resultado": "Oro 3917.8 · NQ 28260.5 · VIX 21.32 · 1 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-11-03T10:17:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T10:12:37Z",
-   "ultimo_resultado": "1 titulares nuevos: Baked by Melissa enters Target with first at-home cupcake mix"
+   "actualizado": "2026-11-03T10:17:31Z",
+   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Aramco's profit rises as refining margins strengthen amid Iran war"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3917.8 · NQ 28260.5 · VIX 21.32 · 1 noticias nuevas (1 alto impacto)",
+   "ts": "2026-11-03T10:17:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3914.8 · NQ 28234.5 · VIX 21.35 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3953.9 · NQ 28133.0 · VIX 21.54",
    "ts": "2026-11-02T20:52:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3952.4 · NQ 28161.0 · VIX 21.54 · 1 noticias nuevas",
-   "ts": "2026-11-02T20:47:37Z"
   }
  ],
  "briefs": [
@@ -12691,10 +12691,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3914.8,
-  "nq": 28234.5,
-  "vix": 21.35,
-  "ts": "2026-11-03T10:12:37Z"
+  "oro": 3917.8,
+  "nq": 28260.5,
+  "vix": 21.32,
+  "ts": "2026-11-03T10:17:32Z"
  },
  "noticias": [
   {
@@ -12923,6 +12923,15 @@
     "dolar"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Aramco's profit rises as refining margins strengthen amid Iran war",
+   "link": "https://www.cnbc.com/2026/11/03/saudi-aramcos-third-quarter-middle-east-.html",
+   "ts": "2026-11-03T07:24:47Z",
+   "fuente": "CNBC",
+   "id": "4b70744b19",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "Where Does i-80 Gold (TSX:IAU) Valuation Sit As Q3 2026 Results Raise New Questions?",
@@ -13572,17 +13581,6 @@
    "id": "57b793752b",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Braves’ Gold Glove Haul Proves Defense Still Wins In Atlanta",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS2s4czZOemxWMThkZmdZRnFnVV9xRVQ3dGdDZV8xSkRURkxUMUE0ajk1RzljWGVscXRWZW5qNy1TWjdLeEJ5ZTJmNHVrVW9tX3RjMGZ5aWNEQUgxOE1ncHhIblZTbUJOcjk5S0dYNWw2M3VjZC01SHpicEdTUi1RUWZ3Rkk?oc=5",
-   "ts": "2026-11-02T23:25:29Z",
-   "fuente": "Yahoo Sports",
-   "id": "0037ebb3cd",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14126,15 +14124,15 @@
     1793700000,
     3918.4,
     3919.5,
-    3914.3,
-    3914.6
+    3913.9,
+    3918.0
    ],
    [
-    1793700155,
-    3914.8,
-    3914.8,
-    3914.8,
-    3914.8
+    1793700450,
+    3917.8,
+    3917.8,
+    3917.8,
+    3917.8
    ]
   ],
   "nq": [
@@ -14666,16 +14664,16 @@
    [
     1793700000,
     28238.0,
-    28244.5,
+    28264.0,
     28232.25,
-    28242.5
+    28260.25
    ],
    [
-    1793700155,
-    28234.5,
-    28234.5,
-    28234.5,
-    28234.5
+    1793700450,
+    28260.5,
+    28260.5,
+    28260.5,
+    28260.5
    ]
   ],
   "vix": [
@@ -15082,23 +15080,30 @@
     1793696400,
     21.74,
     21.84,
-    21.35,
-    21.36
+    21.33,
+    21.33
    ],
    [
-    1793699851,
-    21.35,
-    21.35,
-    21.35,
-    21.35
+    1793700000,
+    21.32,
+    21.32,
+    21.3,
+    21.31
+   ],
+   [
+    1793700151,
+    21.32,
+    21.32,
+    21.32,
+    21.32
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-11-03T09:57:35Z",
- "ult_4h": 1793700157.7895408,
+ "ult_4h": 1793701052.311032,
  "estrategia_4h": {
   "oro": {
-   "precio": 3918.6,
+   "precio": 3917.8,
    "atr_4h": 31.32,
    "setups": [
     {
@@ -15126,23 +15131,23 @@
    ]
   },
   "nq": {
-   "precio": 28220.25,
-   "atr_4h": 277.59,
+   "precio": 28260.5,
+   "atr_4h": 280.2,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29454.55,
+     "stop": 29456.12,
      "objetivo": 28038.25,
-     "rr": 7.5,
+     "rr": 7.43,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.64,
+     "fuerza_ruptura_atr": 1.63,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-11-03T10:02:37Z"
+  "ts": "2026-11-03T10:17:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15215,7 +15220,6 @@
   }
  ],
  "noticias_vistas": [
-  "3ab4b2cd9e",
   "00ce6beb81",
   "75b9df4a16",
   "8ed1bd145f",
@@ -16014,7 +16018,8 @@
   "571902500f",
   "2a1cdec902",
   "6ee0b8e178",
-  "bdccd9c5f9"
+  "bdccd9c5f9",
+  "4b70744b19"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
