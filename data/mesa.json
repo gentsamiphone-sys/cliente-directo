@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3930.4 · NQ 28270.75 · VIX 20.95",
-   "actualizado": "2026-11-03T20:17:38Z"
+   "ultimo_resultado": "Oro 3930.9 · NQ 28282.0 · VIX 20.93 · 5 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-11-03T20:22:55Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T20:17:35Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-11-03T20:22:54Z",
+   "ultimo_resultado": "5 titulares nuevos, 1 de alto impacto: Binance breach puts custody at center of crypto infrastructure trade"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3930.9 · NQ 28282.0 · VIX 20.93 · 5 noticias nuevas (1 alto impacto)",
+   "ts": "2026-11-03T20:22:55Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3930.4 · NQ 28270.75 · VIX 20.95",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
    "ts": "2026-11-03T06:32:50Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "DXY -0.02% · 10Y 4.894 · VIX 21.15 · 3 eventos USD en el radar.",
-   "ts": "2026-11-03T06:32:49Z"
   }
  ],
  "briefs": [
@@ -12691,18 +12691,56 @@
   }
  },
  "en_vivo": {
-  "oro": 3930.4,
-  "nq": 28270.75,
-  "vix": 20.95,
-  "ts": "2026-11-03T20:17:35Z"
+  "oro": 3930.9,
+  "nq": 28282.0,
+  "vix": 20.93,
+  "ts": "2026-11-03T20:22:55Z"
  },
  "noticias": [
+  {
+   "titulo": "Binance breach puts custody at center of crypto infrastructure trade",
+   "link": "https://www.cnbc.com/2026/11/03/binance-breach-puts-custody-at-center-of-crypto-infrastructure-trade.html",
+   "ts": "2026-11-03T20:13:37Z",
+   "fuente": "CNBC",
+   "id": "e588c9411a",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Apple warns of risks related to AI agents behaving in 'unintended or unpredictable' ways",
+   "link": "https://www.cnbc.com/2026/11/03/apple-warns-of-ai-agents-behave-in-unintended-or-unpredictable-ways.html",
+   "ts": "2026-11-03T20:10:41Z",
+   "fuente": "CNBC",
+   "id": "6f24c5e4b8",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Fannie Mae, Freddie Mac rally as Ackman presses for conservatorship exit",
+   "link": "https://www.cnbc.com/2026/11/03/ackman-fannie-mae-freddie-mac-conservatorship.html",
+   "ts": "2026-11-03T20:10:14Z",
+   "fuente": "CNBC",
+   "id": "70a98b6574",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Trump DOJ sends target letters to Democrats in Alaska Senate criminal probe: Reports",
    "link": "https://www.cnbc.com/2026/11/03/trump-doj-election-lawsuits-monitors-2026-midterms.html",
    "ts": "2026-11-03T20:09:06Z",
    "fuente": "CNBC",
    "id": "f092e6fa40",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "JetBlue raises bag fees for third time in a year as fuel costs bite",
+   "link": "https://www.cnbc.com/2026/11/03/jetblue-checked-bag-fee.html",
+   "ts": "2026-11-03T20:07:50Z",
+   "fuente": "CNBC",
+   "id": "54daa04d26",
    "activos": [],
    "impacto": "bajo"
   },
@@ -12902,6 +12940,17 @@
    "impacto": "bajo",
    "es": "Ameriwest avanza en su proyecto de cobre y oro en Oregón con nuevo análisis de núcleos históricos.",
    "efecto": "ruido corporativo menor, sin impacto institucional significativo en el oro."
+  },
+  {
+   "titulo": "Minneapolis Fed’s Glaubke receives Federal Reserve System’s Taylor Award",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYTZmeGh6YzJRVEtYRjhJN3RSaUFsQ2dVVjBmbG5PMWJ4Q2gxbkhrM0VacUdrLUQydnZoYzNRcGRFNTVVS3JNSm9ieHdEZU9SeVZKMkxrMFRHUkFQNVlHSkVSZnI4TWJKZU82d084ZGJjQkNab2VXU3VRTUpFZUpuVjhtYlY5QkhPYnAwZGJHX3NwSzB5T1Joc2pDZU90bVhOSmt3R0ltc1dTN0RrWVhFWGt6X01yVmV2aExGTw?oc=5",
+   "ts": "2026-11-03T19:06:46Z",
+   "fuente": "Federal Reserve Bank of Minneapolis",
+   "id": "9b5c48d927",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "alto"
   },
   {
    "titulo": "Sullivan: What the 2026 midterms could mean for energy investors",
@@ -13505,63 +13554,6 @@
    "id": "8fa8c8219e",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "S&P 500, Nasdaq open higher as oil prices extend declines, midterms on tap",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVp0N2w0REZqOUJ3YkRxcmliYkhtX25yTkFtdmJDUFdSVm5CcXRQYjdMeFFLU0gxcHk1STM2R0xXaGJ6TW9ZN2ZQS2RReVRiXzNtY1B3Qm5fZ1lfTUFaMVpRM2d2ZVZodnZtbUFFLUtkcURfUEtENElyNG5YcFRGcncteEFaZFUwOGxVUmpTMWFkMEtvb09VTG50a2NSbjhLUm5Zc3EtZS1XUU5lWm9B?oc=5",
-   "ts": "2026-11-03T14:48:09Z",
-   "fuente": "Reuters",
-   "id": "f8a2a44ece",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto",
-   "es": "S&P 500 y Nasdaq abren al alza mientras caen los precios del petróleo y se acercan las elecciones",
-   "efecto": ""
-  },
-  {
-   "titulo": "Nasdaq-100 in correction again as AI earnings ‘not good enough’",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOEZudTdpVWZJM2NWRGEtMkdCcE82VmlVSWhvUEtwRWtaa3ppS3I5amJQWXg1UnFpRUZ0YU5Gd1R1TlBma1pvZGtvempmRlZqQk9qY1RiQnFiZk1PVjc4Z2xjZHRfVjdCYjRqYWdDVlJBRXVZWUN3ZkRwLVlXS3hvN1Z6dE9ESnJVcFJpVXMwYjRFNmRiMWpTTzlkSTJTSndXQ3RGMVhUM1V2NU5D?oc=5",
-   "ts": "2026-11-03T14:40:20Z",
-   "fuente": "Yahoo Finance",
-   "id": "bf357d1958",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "The 'poison pill' ballot measure that could kill the California billionaire tax",
-   "link": "https://www.cnbc.com/2026/11/03/poison-pill-ballot-measure-could-kill-california-billionaire-tax-.html",
-   "ts": "2026-11-03T14:37:09Z",
-   "fuente": "CNBC",
-   "id": "05d3184379",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "The price of gold today, Nov. 3, 2026 — and the best places to buy",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yLWpvbGZIYkxpQ0RyOHN5c1Mwb0M0eko0aG96eDBEcVBuS21GbnVtMkVNczFrb1FCNHY2Y0ppazB5R1FxbVpQQWRpdFpJM1RMMm9ERlg3LWN3bjJNUWtHOENLV0ZRZERqb3Z5M2ZZYzDSAXZBVV95cUxQZWYtSEJjUDJlSGN2aEVOSVhaZV9pajlCTTlrOURWdFc2dVFzUkR5ZFc1dDJrZFF4Ni1zS2hqVHJTOVYwZDAxcldzSHY3YlBhNFhhQm5LRVU1RjJ0ZThFc2JYNWlPVTZBSk9aZTNpTWZQa29aVmln?oc=5",
-   "ts": "2026-11-03T14:35:51Z",
-   "fuente": "CNBC",
-   "id": "d552beb70b",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Palantir slumps 5% after earnings as analysts point to slowdown in total contract value",
-   "link": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
-   "ts": "2026-11-03T14:31:39Z",
-   "fuente": "CNBC",
-   "id": "35f79b6855",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "Palantir cae un 5% tras resultados por desaceleración en valor de contratos",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -14175,16 +14167,16 @@
    [
     1793736000,
     3930.8,
-    3931.2,
+    3932.0,
     3927.2,
-    3929.5
+    3930.1
    ],
    [
-    1793736452,
-    3930.4,
-    3930.4,
-    3930.4,
-    3930.4
+    1793736770,
+    3930.9,
+    3930.9,
+    3930.9,
+    3930.9
    ]
   ],
   "nq": [
@@ -14786,16 +14778,16 @@
    [
     1793736000,
     28261.0,
-    28279.0,
+    28295.75,
     28249.5,
-    28276.75
+    28281.75
    ],
    [
-    1793736457,
-    28271.0,
-    28271.0,
-    28271.0,
-    28271.0
+    1793736775,
+    28282.25,
+    28282.25,
+    28282.25,
+    28282.25
    ]
   ],
   "vix": [
@@ -15278,16 +15270,16 @@
    [
     1793736000,
     20.96,
-    20.96,
-    20.95,
-    20.95
+    21.01,
+    20.93,
+    21.0
    ],
    [
-    1793736151,
-    20.95,
-    20.95,
-    20.95,
-    20.95
+    1793736466,
+    20.93,
+    20.93,
+    20.93,
+    20.93
    ]
   ]
  },
@@ -15424,11 +15416,6 @@
   }
  ],
  "noticias_vistas": [
-  "50235ea590",
-  "f1e9d3ed01",
-  "23813e5371",
-  "e6099aac64",
-  "6597f0695e",
   "4c6da59f9e",
   "41a602f719",
   "fba892f028",
@@ -16223,7 +16210,12 @@
   "3cc234e383",
   "fc5e4f36cd",
   "f092e6fa40",
-  "089fc23542"
+  "089fc23542",
+  "e588c9411a",
+  "6f24c5e4b8",
+  "70a98b6574",
+  "54daa04d26",
+  "9b5c48d927"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
