@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3935.1 · NQ 28292.75 · VIX 20.75 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-11-03T20:02:37Z"
+   "ultimo_resultado": "Oro 3931.2 · NQ 28245.25 · VIX 20.8 · 1 noticias nuevas",
+   "actualizado": "2026-11-03T20:07:37Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T20:02:36Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: El Nasdaq repunta con fuerza ante el rebote de gigantes de IA antes de resultados de mitad de mandato."
+   "actualizado": "2026-11-03T20:07:36Z",
+   "ultimo_resultado": "1 titulares nuevos: Gold edges lower again as dollar, yields strengthen; US midterms in focus"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3931.2 · NQ 28245.25 · VIX 20.8 · 1 noticias nuevas",
+   "ts": "2026-11-03T20:07:37Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3935.1 · NQ 28292.75 · VIX 20.75 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Revisando cómo salieron las entradas anteriores…",
    "ts": "2026-11-03T06:32:44Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Abriendo la mesa para la sesión de Londres.",
-   "ts": "2026-11-03T06:32:43Z"
   }
  ],
  "briefs": [
@@ -12691,12 +12691,24 @@
   }
  },
  "en_vivo": {
-  "oro": 3935.1,
-  "nq": 28292.75,
-  "vix": 20.75,
-  "ts": "2026-11-03T20:02:37Z"
+  "oro": 3931.2,
+  "nq": 28245.25,
+  "vix": 20.8,
+  "ts": "2026-11-03T20:07:37Z"
  },
  "noticias": [
+  {
+   "titulo": "Gold edges lower again as dollar, yields strengthen; US midterms in focus",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWFBGa1V2dm05Wm1OUE5pYUtvek4wUEx2OUNlTzRWTmExekk3eFQ2aTRoQVZsdDBXaGJBRE5mNGNIVVVjQjNaMHpEVVNnem9qMnc3X3FkelNoVXdtZUxrdzZTRHJaNlNkbi1taWltSnVhek81WFJyeDdtUEdGQzRHc1VZSUhLU2lUNlJXSnJ5c3lGVFZuQU43ZWZUeWJGdGEtRHpHXzFGcVQyWFR0QnVRaVF0dTBvcW8?oc=5",
+   "ts": "2026-11-03T19:49:53Z",
+   "fuente": "Kitco",
+   "id": "fc5e4f36cd",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Sen. Chris Murphy still hospitalized after suffering a stroke over the weekend",
    "link": "https://www.cnbc.com/2026/11/03/chris-murphy-hospitalized-stroke.html",
@@ -13555,15 +13567,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Palantir slumps 6% after earnings as analysts point to slowdown in total contract value",
-   "link": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
-   "ts": "2026-11-03T14:24:25Z",
-   "fuente": "CNBC",
-   "id": "39e840f507",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -14171,15 +14174,15 @@
     1793732400,
     3938.0,
     3938.5,
-    3932.5,
-    3934.9
+    3928.2,
+    3929.2
    ],
    [
-    1793735551,
-    3935.1,
-    3935.1,
-    3935.1,
-    3935.1
+    1793735849,
+    3931.2,
+    3931.2,
+    3931.2,
+    3931.2
    ]
   ],
   "nq": [
@@ -14775,15 +14778,15 @@
     1793732400,
     28391.25,
     28396.75,
-    28287.0,
-    28290.25
+    28237.0,
+    28243.75
    ],
    [
-    1793735555,
-    28292.75,
-    28292.75,
-    28292.75,
-    28292.75
+    1793735858,
+    28248.0,
+    28248.0,
+    28248.0,
+    28248.0
    ]
   ],
   "vix": [
@@ -15259,16 +15262,16 @@
    [
     1793732400,
     20.41,
-    20.79,
+    20.8,
     20.41,
-    20.77
+    20.78
    ],
    [
-    1793735251,
-    20.75,
-    20.75,
-    20.75,
-    20.75
+    1793735551,
+    20.8,
+    20.8,
+    20.8,
+    20.8
    ]
   ]
  },
@@ -15382,7 +15385,6 @@
   }
  ],
  "noticias_vistas": [
-  "66ac61d7ba",
   "9cba0ee6e2",
   "cb9004d4da",
   "50235ea590",
@@ -16181,7 +16183,8 @@
   "d683f94292",
   "b75cd56362",
   "6591b6902d",
-  "3cc234e383"
+  "3cc234e383",
+  "fc5e4f36cd"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
