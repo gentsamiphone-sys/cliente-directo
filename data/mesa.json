@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3932.0 · NQ 28306.75 · VIX 20.82",
-   "actualizado": "2026-11-03T20:37:41Z"
+   "ultimo_resultado": "Oro 3931.2 · NQ 28307.25 · VIX 20.85 · 2 noticias nuevas",
+   "actualizado": "2026-11-03T20:42:52Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T20:37:40Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-11-03T20:42:51Z",
+   "ultimo_resultado": "2 titulares nuevos: Acciones de Tongguan Gold cotizan con prima tras un rally del 383%"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3931.2 · NQ 28307.25 · VIX 20.85 · 2 noticias nuevas",
+   "ts": "2026-11-03T20:42:52Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3932.0 · NQ 28306.75 · VIX 20.82",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Midiendo volatilidad y rango esperado del día…",
    "ts": "2026-11-03T06:32:55Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "Mapa listo: oro 3928.5 · NQ 28074.25.",
-   "ts": "2026-11-03T06:32:54Z"
   }
  ],
  "briefs": [
@@ -12691,12 +12691,25 @@
   }
  },
  "en_vivo": {
-  "oro": 3932.0,
-  "nq": 28306.75,
-  "vix": 20.82,
-  "ts": "2026-11-03T20:37:41Z"
+  "oro": 3931.2,
+  "nq": 28307.25,
+  "vix": 20.85,
+  "ts": "2026-11-03T20:42:51Z"
  },
  "noticias": [
+  {
+   "titulo": "Tongguan Gold Group (SEHK:340) Stock Trades At A Premium After A 383% Three Year Run",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/tongguan-gold-group-sehk-340-201455354.html?.tsrc=rss",
+   "ts": "2026-11-03T20:14:55Z",
+   "fuente": "Yahoo Finance",
+   "id": "e5fd4ecddc",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Acciones de Tongguan Gold cotizan con prima tras un rally del 383%",
+   "efecto": ""
+  },
   {
    "titulo": "Binance breach puts custody at center of crypto infrastructure trade",
    "link": "https://www.cnbc.com/2026/11/03/binance-breach-puts-custody-at-center-of-crypto-infrastructure-trade.html",
@@ -12705,6 +12718,17 @@
    "id": "e588c9411a",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "3 Australian Penny Stocks With Revenue Up To A$3b",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-australian-penny-stocks-revenue-201114860.html?.tsrc=rss",
+   "ts": "2026-11-03T20:11:14Z",
+   "fuente": "Yahoo Finance",
+   "id": "0b0fbfd94a",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Tres acciones 'penny stocks' australianas con ingresos de hasta 3B de dólares",
+   "efecto": ""
   },
   {
    "titulo": "Apple warns of risks related to AI agents behaving in 'unintended or unpredictable' ways",
@@ -13534,26 +13558,6 @@
     "dolar"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "US Midterm Elections: Dow Falls Nearly 200 Points, S&P 500 And Nasdaq Edge Higher As Polls Begin",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSmUyZnZGSXpQYnNXWWZFcHVrS2xrT0VPUGVjeElUalByc2pjcUx6TFRCT2Z2MkZ2VHhvaldUMnlIQ05wVF9GY2JYSmRpX1lKN2cwNEVBeC05NzJKMUxCWjViUVRqSTNBZGtLbG5hc2pFczlXSkJzNDZCeDNVbEVBMExYVWdTM1dQdUR3WVdaT0lzWk05T3Fyc1Zybw?oc=5",
-   "ts": "2026-11-03T14:52:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "aac78f9720",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war",
-   "link": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
-   "ts": "2026-11-03T14:51:50Z",
-   "fuente": "CNBC",
-   "id": "8fa8c8219e",
-   "activos": [],
-   "impacto": "alto"
   }
  ],
  "eventos_avisados": [
@@ -14169,14 +14173,14 @@
     3930.8,
     3932.9,
     3927.2,
-    3932.0
+    3931.3
    ],
    [
-    1793737658,
-    3932.0,
-    3932.0,
-    3932.0,
-    3932.0
+    1793737965,
+    3931.2,
+    3931.2,
+    3931.2,
+    3931.2
    ]
   ],
   "nq": [
@@ -14780,14 +14784,14 @@
     28261.0,
     28333.0,
     28249.5,
-    28320.75
+    28307.0
    ],
    [
-    1793737659,
-    28306.75,
-    28306.75,
-    28306.75,
-    28306.75
+    1793737972,
+    28307.25,
+    28307.25,
+    28307.25,
+    28307.25
    ]
   ],
   "vix": [
@@ -15272,18 +15276,18 @@
     20.96,
     21.01,
     20.77,
-    20.81
+    20.79
    ],
    [
-    1793737351,
-    20.82,
-    20.82,
-    20.82,
-    20.82
+    1793737666,
+    20.85,
+    20.85,
+    20.85,
+    20.85
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-11-03T20:02:35Z",
+ "noticias_traducidas_ts": "2026-11-03T20:42:50Z",
  "ult_4h": 1793737973.362773,
  "estrategia_4h": {
   "oro": {
@@ -15405,8 +15409,6 @@
   }
  ],
  "noticias_vistas": [
-  "4c6da59f9e",
-  "41a602f719",
   "fba892f028",
   "f9521c0215",
   "1aa3b20f02",
@@ -16204,7 +16206,9 @@
   "6f24c5e4b8",
   "70a98b6574",
   "54daa04d26",
-  "9b5c48d927"
+  "9b5c48d927",
+  "e5fd4ecddc",
+  "0b0fbfd94a"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
