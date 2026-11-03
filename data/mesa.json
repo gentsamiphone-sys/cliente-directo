@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3933.6 · NQ 28328.25 · VIX 20.51 · 1 noticias nuevas",
-   "actualizado": "2026-11-03T19:22:40Z"
+   "ultimo_resultado": "Oro 3934.4 · NQ 28346.75 · VIX 20.67 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-11-03T19:28:03Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T19:22:39Z",
-   "ultimo_resultado": "1 titulares nuevos: How Trump contesting midterm election results might disrupt the market"
+   "actualizado": "2026-11-03T19:28:02Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Pfizer eleva su pronóstico anual y nombra nuevo director financiero."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3934.4 · NQ 28346.75 · VIX 20.67 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-11-03T19:28:03Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3933.6 · NQ 28328.25 · VIX 20.51 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3931.2 · NQ 28118.25 · VIX 21.15",
    "ts": "2026-11-03T06:02:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3932.7 · NQ 28129.5 · VIX 21.15",
-   "ts": "2026-11-03T05:57:30Z"
   }
  ],
  "briefs": [
@@ -12691,12 +12691,37 @@
   }
  },
  "en_vivo": {
-  "oro": 3933.6,
-  "nq": 28328.25,
-  "vix": 20.51,
-  "ts": "2026-11-03T19:22:40Z"
+  "oro": 3934.4,
+  "nq": 28346.75,
+  "vix": 20.67,
+  "ts": "2026-11-03T19:28:02Z"
  },
  "noticias": [
+  {
+   "titulo": "Pfizer hikes full-year outlook on new product growth, taps company veteran as new CFO",
+   "link": "https://www.cnbc.com/2026/11/03/pfizer-pfe-earnings-q3-2026.html",
+   "ts": "2026-11-03T19:25:44Z",
+   "fuente": "CNBC",
+   "id": "5e3e2fa29c",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "Pfizer eleva su pronóstico anual y nombra nuevo director financiero.",
+   "efecto": "Sin impacto relevante en oro, NQ o dólar hoy."
+  },
+  {
+   "titulo": "Options traders are betting heavily on these stocks ahead of election results",
+   "link": "https://www.cnbc.com/2026/11/03/options-traders-are-betting-heavily-on-these-stocks-ahead-of-election-results.html",
+   "ts": "2026-11-03T19:22:30Z",
+   "fuente": "CNBC",
+   "id": "4673cf6e2f",
+   "activos": [
+    "nq",
+    "dolar"
+   ],
+   "impacto": "alto",
+   "es": "Los operadores de opciones apuestan fuerte por acciones ante las elecciones.",
+   "efecto": "Aumenta la volatilidad en el NQ y el dólar por cobertura electoral."
+  },
   {
    "titulo": "How Trump contesting midterm election results might disrupt the market",
    "link": "https://www.cnbc.com/2026/11/03/how-trump-contesting-midterm-election-results-could-disrupt-the-market.html",
@@ -12705,6 +12730,17 @@
    "id": "af3105e875",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Nairobi Protocol Offers Another Way to Mitigate Import Tariffs",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTTh1d0h1NlVrWEJzcUEyQ0FBQ2gzdWExOUFNZFV2Q0NvVk1xeEFySHNqMjJWLVhyUFNhVjdJRGdYLWJTN2U4LXIwMUJSd1JkUFU2dDBrY1ozSnlyTnhoWGtta0lmbC1vVXJuaVJaVWEyUkM3Nm1PbXhOWWpYQlR3VWZEcHM0am5zMGh6aDNBWVRmZ1RodTJkMkxUTlQxdnotSE1qbURnVkdBZFNFdlctMGZ1TnQ2aEo3RzF2aG1uOE04Z3V4b2w4dG1uSTB1SGc?oc=5",
+   "ts": "2026-11-03T19:18:29Z",
+   "fuente": "Sandler, Travis & Rosenberg, P.A.",
+   "id": "b1852a1871",
+   "activos": [],
+   "impacto": "bajo",
+   "es": "El Protocolo de Nairobi ofrece otra forma de mitigar aranceles de importación.",
+   "efecto": "Ruido comercial sin impacto directo en los activos principales."
   },
   {
    "titulo": "How Trump contesting midterm election results could disrupt the market",
@@ -13525,39 +13561,6 @@
    "id": "0cc65ab703",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Breaking: Gold Fire reported in El Dorado County on Nov. 3",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBScnhsVTFRRVpkczVpcUEzZ1Z2TzZYUWNlMDFvc295dkhjRnd4QVduUmxXcWo2eEFSMEUxNEs5NXZUbTA0V1NsbFB4TnZGLTNoVUVFZWVONkZRTWQ3ZGlONVZmZDhVSmx3U1dMb0sxODhQeUhr?oc=5",
-   "ts": "2026-11-03T13:46:58Z",
-   "fuente": "Sacramento Bee",
-   "id": "9afc47dc9d",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "i-80 Gold Reports Wider Q3 Loss as Revenue Misses Forecasts Despite Higher Gold Prices",
-   "link": "https://investorshub.advfn.com/market-news/article/39158/i-80-gold-reports-wider-q3-loss-as-revenue-misses-forecasts-despite-higher-gold-prices?.tsrc=rss",
-   "ts": "2026-11-03T13:46:56Z",
-   "fuente": "Yahoo Finance",
-   "id": "0fdb246817",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test",
-   "link": "https://www.cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html",
-   "ts": "2026-11-03T13:44:45Z",
-   "fuente": "CNBC",
-   "id": "ddd08794c4",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14166,14 +14169,14 @@
     3938.0,
     3938.5,
     3933.6,
-    3934.8
+    3934.7
    ],
    [
-    1793733156,
-    3933.6,
-    3933.6,
-    3933.6,
-    3933.6
+    1793733474,
+    3934.4,
+    3934.4,
+    3934.4,
+    3934.4
    ]
   ],
   "nq": [
@@ -14770,14 +14773,14 @@
     28391.25,
     28396.75,
     28313.25,
-    28335.5
+    28345.75
    ],
    [
-    1793733160,
-    28328.25,
-    28328.25,
-    28328.25,
-    28328.25
+    1793733480,
+    28346.75,
+    28346.75,
+    28346.75,
+    28346.75
    ]
   ],
   "vix": [
@@ -15253,20 +15256,20 @@
    [
     1793732400,
     20.41,
-    20.49,
+    20.68,
     20.41,
-    20.47
+    20.67
    ],
    [
-    1793732851,
-    20.51,
-    20.51,
-    20.51,
-    20.51
+    1793733181,
+    20.67,
+    20.67,
+    20.67,
+    20.67
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-11-03T18:52:55Z",
+ "noticias_traducidas_ts": "2026-11-03T19:28:00Z",
  "ult_4h": 1793733455.9766681,
  "estrategia_4h": {
   "oro": {
@@ -15376,9 +15379,6 @@
   }
  ],
  "noticias_vistas": [
-  "a38046910e",
-  "8e500de57a",
-  "af981e8d28",
   "8a7a1323c0",
   "970b1fc462",
   "fa75eaa8e8",
@@ -16175,7 +16175,10 @@
   "7ebf0af413",
   "3e9546f8e8",
   "ac8a077065",
-  "af3105e875"
+  "af3105e875",
+  "5e3e2fa29c",
+  "4673cf6e2f",
+  "b1852a1871"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
