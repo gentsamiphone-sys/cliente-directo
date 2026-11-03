@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3953.0 · NQ 28243.0 · VIX 21.15",
-   "actualizado": "2026-11-03T02:27:42Z"
+   "ultimo_resultado": "Oro 3953.7 · NQ 28249.0 · VIX 21.15 · 1 noticias nuevas",
+   "actualizado": "2026-11-03T02:32:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T02:27:42Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-11-03T02:32:32Z",
+   "ultimo_resultado": "1 titulares nuevos: 3 Canadian Penny Stocks With Net Margins Over 39%"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3953.7 · NQ 28249.0 · VIX 21.15 · 1 noticias nuevas",
+   "ts": "2026-11-03T02:32:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3953.0 · NQ 28243.0 · VIX 21.15",
@@ -1056,11 +1061,6 @@
    "agente": "liquidez",
    "texto": "Marcando liquidez: PDH/PDL, PWH/PWL, rangos de Asia y Londres, VWAP…",
    "ts": "2026-11-02T12:33:00Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Fondos en oro: neto +105,562 contratos.",
-   "ts": "2026-11-02T12:32:59Z"
   }
  ],
  "briefs": [
@@ -12683,10 +12683,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3953.0,
-  "nq": 28243.0,
+  "oro": 3953.7,
+  "nq": 28249.0,
   "vix": 21.15,
-  "ts": "2026-11-03T02:27:42Z"
+  "ts": "2026-11-03T02:32:33Z"
  },
  "noticias": [
   {
@@ -12697,6 +12697,17 @@
    "id": "6c8bd43210",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "3 Canadian Penny Stocks With Net Margins Over 39%",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/3-canadian-penny-stocks-net-021350843.html?.tsrc=rss",
+   "ts": "2026-11-03T02:13:50Z",
+   "fuente": "Yahoo Finance",
+   "id": "b41771858b",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Blue & Gold Hustle for Two",
@@ -13569,17 +13580,6 @@
    "id": "bda6b562b4",
    "activos": [],
    "impacto": "alto"
-  },
-  {
-   "titulo": "Gold rebounds from 1-year low, silver tops $50 as oil prices fall",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPblhacjlPZEw3R0lVYkN5bGszaUZwRUpwTjU4TVEyRzQwSUdkZHFGWFdJdDRWajZqaWlDd3JwY0FsTVpMWnhOY20tYXFrTWtEZGk3S2IzeVJkaGJNeV9lTVNOTWVCT2J3VGhhWkNzeFJ0ZE9sbEg3cENZZFJQeW5QaW5yS19pYmRrZVQxQ0VhNkNNOGxieDhuclZLU3I0SVcxbVE?oc=5",
-   "ts": "2026-11-02T20:51:18Z",
-   "fuente": "Anadolu Ajansı",
-   "id": "980fa24d75",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14222,14 +14222,14 @@
     3960.2,
     3960.3,
     3950.9,
-    3954.3
+    3953.8
    ],
    [
-    1793672255,
-    3953.0,
-    3953.0,
-    3953.0,
-    3953.0
+    1793672548,
+    3953.7,
+    3953.7,
+    3953.7,
+    3953.7
    ]
   ],
   "nq": [
@@ -14854,14 +14854,14 @@
     28247.5,
     28269.0,
     28232.5,
-    28246.25
+    28255.5
    ],
    [
-    1793672256,
-    28243.0,
-    28243.0,
-    28243.0,
-    28243.0
+    1793672550,
+    28249.0,
+    28249.0,
+    28249.0,
+    28249.0
    ]
   ],
   "vix": [
@@ -15365,30 +15365,19 @@
   ]
  },
  "noticias_traducidas_ts": "2026-11-03T02:17:32Z",
- "ult_4h": 1793672254.1834543,
+ "ult_4h": 1793673153.08988,
  "estrategia_4h": {
   "oro": {
-   "precio": 3954.4,
-   "atr_4h": 32.66,
+   "precio": 3953.7,
+   "atr_4h": 32.74,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4020.5,
+     "stop": 4020.54,
      "objetivo": 3879.3,
-     "rr": 6.2,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.08,
-     "ruptura": "2026-10-30 04:00 UTC"
-    },
-    {
-     "direccion": "VENTA",
-     "nivel": 4002.3,
-     "entrada": 4002.3,
-     "stop": 4021.9,
-     "objetivo": 3879.3,
-     "rr": 6.28,
+     "rr": 6.19,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 2.08,
      "ruptura": "2026-10-30 04:00 UTC"
@@ -15396,34 +15385,34 @@
    ]
   },
   "nq": {
-   "precio": 28255.25,
-   "atr_4h": 289.7,
+   "precio": 28249.0,
+   "atr_4h": 290.09,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29461.82,
+     "stop": 29462.05,
      "objetivo": 28101.75,
      "rr": 6.82,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.58,
+     "fuerza_ruptura_atr": 1.57,
      "ruptura": "2026-10-29 20:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 29482.5,
      "entrada": 29482.5,
-     "stop": 29656.32,
+     "stop": 29656.55,
      "objetivo": 28101.75,
-     "rr": 7.94,
+     "rr": 7.93,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.58,
+     "fuerza_ruptura_atr": 1.57,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-11-03T02:17:34Z"
+  "ts": "2026-11-03T02:32:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15496,7 +15485,6 @@
   }
  ],
  "noticias_vistas": [
-  "b8a2a22c08",
   "6e8abcd66f",
   "de793d1b0a",
   "5b8e86d768",
@@ -16295,7 +16283,8 @@
   "20726a8e93",
   "1b7a06de8d",
   "7d17ad8bc8",
-  "6c8bd43210"
+  "6c8bd43210",
+  "b41771858b"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
