@@ -6407,10 +6407,10 @@
  },
  "agentes": {
   "buscador": {
-   "estado": "trabajando",
-   "tarea": "Agregando Wings",
-   "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-11-03T09:07:05Z"
+   "estado": "descansando",
+   "tarea": "",
+   "ultimo_resultado": "1 negocios nuevos de restaurantes y comida cerca de Craig Rd",
+   "actualizado": "2026-11-03T09:07:07Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -6438,6 +6438,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "Terminó su turno: 1 negocios nuevos de restaurantes y comida cerca de Craig Rd",
+   "ts": "2026-11-03T09:07:07Z"
+  },
   {
    "agente": "buscador",
    "texto": "Encontré Wings, sin página web.",
@@ -7932,11 +7937,6 @@
    "agente": "buscador",
    "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ts": "2026-11-01T07:06:20Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "Buscando restaurantes y comida sin página web cerca de E Lake Mead Blvd…",
-   "ts": "2026-11-01T07:02:31Z"
   }
  ],
  "reportes": {
