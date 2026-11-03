@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3937.3 · NQ 28350.75 · VIX 20.69",
-   "actualizado": "2026-11-03T17:12:33Z"
+   "ultimo_resultado": "Oro 3940.0 · NQ 28367.25 · VIX 20.78 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-11-03T17:17:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T17:12:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-11-03T17:17:33Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Midterm elections 2026 live updates: Economy, inflation and voter concerns"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3940.0 · NQ 28367.25 · VIX 20.78 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-11-03T17:17:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3937.3 · NQ 28350.75 · VIX 20.69",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3936.1 · NQ 28188.75 · VIX 21.15",
    "ts": "2026-11-03T03:52:48Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3938.1 · NQ 28190.75 · VIX 21.15",
-   "ts": "2026-11-03T03:47:34Z"
   }
  ],
  "briefs": [
@@ -12691,12 +12691,21 @@
   }
  },
  "en_vivo": {
-  "oro": 3937.3,
-  "nq": 28350.75,
-  "vix": 20.69,
-  "ts": "2026-11-03T17:12:32Z"
+  "oro": 3940.0,
+  "nq": 28367.25,
+  "vix": 20.78,
+  "ts": "2026-11-03T17:17:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Midterm elections 2026 live updates: Economy, inflation and voter concerns",
+   "link": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
+   "ts": "2026-11-03T17:09:46Z",
+   "fuente": "CNBC",
+   "id": "664b746493",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "A Democratic Congress could curb the Iran war but not Trump's tariffs, former ambassador says",
    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYZXl4MWdyZG1sdUV2VV96cFIycVlnaUxHU1d5dW9rQjlEdnVaWThZb3VGZ3FTOWg1cHBqUzR3VWJNcjRtekV3QnBZOEhVbE1rVlhoX0h3YXBLbmY2ZWl1bnRTa2ZhZ0diaWNQZF9IRmdCV0U?oc=5",
@@ -12715,6 +12724,17 @@
    "activos": [
     "oro",
     "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Kirkland Lake Discoveries expands Mirado West gold zone beyond 1.1 kilometres",
+   "link": "https://finance.yahoo.com/video/kirkland-lake-discoveries-expands-mirado-163430106.html?.tsrc=rss",
+   "ts": "2026-11-03T16:34:30Z",
+   "fuente": "Yahoo Finance",
+   "id": "9767fe73c6",
+   "activos": [
+    "oro"
    ],
    "impacto": "medio"
   },
@@ -12922,6 +12942,17 @@
    "id": "87965455f3",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold prices struggling as U.S. sees solid rise in job postings",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMGFXQTNIbGd3MGxOazNLQlNUYlZZMjJxR0pIU3VYWU9TejBZVzFVR0J3WGFpSFp6VjZMVEhsQlgyUUtIUFAtSlprRnF1NFZ6b1VYRGpaLUFsVUYyM3pEVjZvbl9uVE9oNFBqWVZDR1d0NVgyTDhvVjVQQnRCMVBsbEJZMDlLRjRlaUtoQVk5MlpKbzVkel9TUkFYVUsyZkQtdnc?oc=5",
+   "ts": "2026-11-03T15:05:34Z",
+   "fuente": "Kitco",
+   "id": "6470be4afa",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Las Vegas Raiders owner Mark Davis says he feels no pressure to rush backup QB Fernando Mendoza",
@@ -13539,39 +13570,6 @@
    "impacto": "alto",
    "es": "Análisis tras la caída del Nasdaq en zona de corrección, 10% abajo de máximos",
    "efecto": "Busca refugio en oro mientras el Nasdaq extiende pérdidas."
-  },
-  {
-   "titulo": "What smart people are saying after the Nasdaq sinks 10% from recent highs, enters correction",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLWZIcHBCNG5BU3VaRmNwWl9PTUdFZW9va1BGckRBYzd5cWd4ZVlXd3B0Xy0zNk5hZ0dNRFlnUVQySDZEU3RMNGcwUnh3NTZRemdEZ1JYREhIRXJLc2loZEJ5V1Y1NG1VU1RXRllnRmU0UXNncGNYVDdac2laUjdNOFAtRkNQNEphTEpJdFpkWWY2SjRXRmVkUkx0bEN6dm9WV1M4eV9QMTN2QzdhakZEUFhHTQ?oc=5",
-   "ts": "2026-11-03T12:43:00Z",
-   "fuente": "Business Insider",
-   "id": "2b9cc4ae2e",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "US Dollar Mixed Early Tuesday Ahead, Eyes on Midterm Elections",
-   "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-mixed-early-tuesday-124221906.html?.tsrc=rss",
-   "ts": "2026-11-03T12:42:21Z",
-   "fuente": "Yahoo Finance",
-   "id": "46a62658a4",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "The Nasdaq 100 Is Now Officially in a Correction",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTjQ4a2Jqc2MycGJ0b284RHJrNGZuSDQwRE9BekFmM3hKa25WY0NfT1FNcGN2a0tMX1VUZEMzYVJwMHRsenhSTm1HYzY0c21SLTN4S3ZoN1IyQkgtOVptYjExNE5mRVhJOGZpM0V2Mkw1VEtWczRZQ25KN05LeFF6VjhpSWgzNFVQbDliRVFQV3l0b2IzWVZpUHhYdDhieklaZ2hn?oc=5",
-   "ts": "2026-11-03T12:38:59Z",
-   "fuente": "Yahoo Finance",
-   "id": "0de93d6054",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14164,16 +14162,16 @@
    [
     1793725200,
     3937.8,
-    3938.4,
+    3940.3,
     3936.5,
-    3937.5
+    3939.7
    ],
    [
-    1793725350,
-    3937.3,
-    3937.3,
-    3937.3,
-    3937.3
+    1793725649,
+    3940.0,
+    3940.0,
+    3940.0,
+    3940.0
    ]
   ],
   "nq": [
@@ -14754,16 +14752,16 @@
    [
     1793725200,
     28361.5,
-    28373.5,
-    28339.25,
-    28346.5
+    28378.25,
+    28335.5,
+    28376.25
    ],
    [
-    1793725351,
-    28350.75,
-    28350.75,
-    28350.75,
-    28350.75
+    1793725651,
+    28367.25,
+    28367.25,
+    28367.25,
+    28367.25
    ]
   ],
   "vix": [
@@ -15220,39 +15218,46 @@
     20.29,
     20.93,
     20.29,
-    20.71
+    20.69
    ],
    [
-    1793725051,
-    20.69,
-    20.69,
-    20.69,
-    20.69
+    1793725200,
+    20.7,
+    20.8,
+    20.7,
+    20.79
+   ],
+   [
+    1793725351,
+    20.78,
+    20.78,
+    20.78,
+    20.78
    ]
   ]
  },
  "noticias_traducidas_ts": "2026-11-03T16:57:36Z",
- "ult_4h": 1793725362.777694,
+ "ult_4h": 1793726253.3590703,
  "estrategia_4h": {
   "oro": {
-   "precio": 3937.4,
-   "atr_4h": 29.14,
+   "precio": 3940.0,
+   "atr_4h": 29.16,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4018.39,
+     "stop": 4018.4,
      "objetivo": 3879.3,
      "rr": 6.95,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.34,
+     "fuerza_ruptura_atr": 2.33,
      "ruptura": "2026-10-30 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 28321.25,
+   "precio": 28367.25,
    "atr_4h": 279.52,
    "setups": [
     {
@@ -15268,7 +15273,7 @@
     }
    ]
   },
-  "ts": "2026-11-03T17:02:43Z"
+  "ts": "2026-11-03T17:17:34Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15341,9 +15346,6 @@
   }
  ],
  "noticias_vistas": [
-  "566a452cbe",
-  "896f6037cb",
-  "5feb316afb",
   "e616b5d1af",
   "8ecacfdcaa",
   "1325194da3",
@@ -16140,7 +16142,10 @@
   "b355bd6148",
   "2b710c8dee",
   "e9791a6520",
-  "0ec061bb09"
+  "0ec061bb09",
+  "664b746493",
+  "9767fe73c6",
+  "6470be4afa"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
