@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: SIN ENTRADA · el bot solo compra, no se opera.",
-   "actualizado": "2026-11-03T01:52:05Z"
+   "ultimo_resultado": "Idea de COMPRA BTC: compra $5.84 si el precio entra en 76,250–76,400 · stop 75,800 · objetivo 80,000 · riesgo ~$0.05 (1.0% del capital) · R:R 6.0",
+   "actualizado": "2026-11-03T14:06:07Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "Idea de COMPRA BTC: compra $5.84 si el precio entra en 76,250–76,400 · stop 75,800 · objetivo 80,000 · riesgo ~$0.05 (1.0% del capital) · R:R 6.0",
+   "ts": "2026-11-03T14:06:07Z"
+  },
   {
    "agente": "cio",
    "texto": "Brief publicado: Consolidación sobre EMA200 con sesgo neutral y cautela institucional en EE. UU.",
@@ -800,11 +805,6 @@
    "agente": "sentimiento",
    "texto": "Fear & Greed 30 (Fear) · funding BTC 0.01%",
    "ts": "2026-10-30T13:54:11Z"
-  },
-  {
-   "agente": "sentimiento",
-   "texto": "Leyendo Fear & Greed y funding…",
-   "ts": "2026-10-30T13:54:09Z"
   }
  ],
  "briefs": [
@@ -2330,6 +2330,18 @@
   }
  ],
  "posiciones": [
+  {
+   "activo": "BTC",
+   "usd": 5.84,
+   "zona_baja": 76250.0,
+   "entrada": 76400.0,
+   "stop": 75800.0,
+   "tp": 80000.0,
+   "tp1": 78700.0,
+   "estado": "pendiente",
+   "creada": "2026-11-03T14:06:07Z",
+   "real": true
+  },
   {
    "activo": "BTC",
    "usd": 5.84,
