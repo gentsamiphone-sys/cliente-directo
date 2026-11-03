@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3912.7 · NQ 28246.5 · VIX 21.28 · 1 noticias nuevas",
-   "actualizado": "2026-11-03T10:32:34Z"
+   "ultimo_resultado": "Oro 3913.3 · NQ 28235.0 · VIX 21.3 · 2 noticias nuevas",
+   "actualizado": "2026-11-03T10:42:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T10:32:33Z",
-   "ultimo_resultado": "1 titulares nuevos: El trimestre de Apple no es perfecto, pero subimos nuestro precio objetivo."
+   "actualizado": "2026-11-03T10:42:34Z",
+   "ultimo_resultado": "2 titulares nuevos: Apple shares slide after weak margin outlook; Palantir slumps 8% after earnings"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3913.3 · NQ 28235.0 · VIX 21.3 · 2 noticias nuevas",
+   "ts": "2026-11-03T10:42:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3912.7 · NQ 28246.5 · VIX 21.28 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "noticias",
    "texto": "1 titulares nuevos, 1 de alto impacto: Watch Tariffs Hurt Michigan, Says Detroit's Regional Chamber President",
    "ts": "2026-11-02T21:12:36Z"
-  },
-  {
-   "agente": "noticias",
-   "texto": "1 titulares nuevos, 1 de alto impacto: Blaming Tariffs Won’t Fix the Cost-of-Living Crisis",
-   "ts": "2026-11-02T21:07:34Z"
   }
  ],
  "briefs": [
@@ -12691,12 +12691,34 @@
   }
  },
  "en_vivo": {
-  "oro": 3912.7,
-  "nq": 28246.5,
-  "vix": 21.28,
-  "ts": "2026-11-03T10:32:33Z"
+  "oro": 3913.3,
+  "nq": 28235.0,
+  "vix": 21.3,
+  "ts": "2026-11-03T10:42:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Apple shares slide after weak margin outlook; Palantir slumps 8% after earnings",
+   "link": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
+   "ts": "2026-11-03T10:34:38Z",
+   "fuente": "CNBC",
+   "id": "0b777a85d8",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "US Stocks Drift as Midterms Keep Traders Cautious: Markets Wrap",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTGEyREpLdzRYM3VsY3NTclQ1Y2xud2pYNVl6Y0JhZ3RNczRVVjJ0aG43NmgyWkQ5SU85SmtVWGVCU0wySnBTdkhzZXR3R3RpMWloMWdlckxKM3BBUFB4VU9FbzhDQ2l2dm5xZlIwbFZJTHdJQVVyaU1Qc3djSmowcHdGMDNOVUIyMDdURnFwWWpUbmZN?oc=5",
+   "ts": "2026-11-03T10:08:48Z",
+   "fuente": "Bloomberg.com",
+   "id": "d5c2662cdd",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "The Cost of Gold Has Designers Looking for Alternatives",
    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNclR5X2FsUENQR2prZ3dzZmM2NVpXQXVkdFUtSUdDaWJFVXZZV0lJQVU5WGROQTd0Z042WDBONjV3TWNzdFFhMmU1QVJ1SThmUzVxb3BDdmNtd3pIWVU0QzBJbUp3STdkaktnVk8yRjgxSzM1ZDlmeXloMS1rVk1KUzFpQQ?oc=5",
@@ -13550,31 +13572,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Gold Holds Biggest Jump in Two Months on Iran Peace-Deal Hopes",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMG5nV0pTaXFiRDlQbFhQLWJFcEV5dEoyeTNNcWFJa3ZmamE4ZUxxRnQ3bTdiUERvMUZMZEZMdzUzNGFNZXBha3V6cU9mdHY5Z1QzdnlLOUxRcVB1aVhIZ2RDRTlJWkpJYWg3VjB4WDFwdno5czNrM095N2lqdk1Gcy1tR2FkQkN6OEdtYnYya0JKSTV5ZGM5Wk9ZZXEyTnNPNWZDb21MYU1nbW9yUDVoUmFVMA?oc=5",
-   "ts": "2026-11-03T00:20:00Z",
-   "fuente": "Bloomberg.com",
-   "id": "3542c4538e",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "El oro mantiene su mayor repunte en dos meses por esperanzas de acuerdo de paz con Irán",
-   "efecto": "Sostiene compras institucionales en oro como cobertura geopolítica."
-  },
-  {
-   "titulo": "Gold Edges Higher Amid Better Investor Sentiment",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZHN1RHdGNElCaXE3STdfM2tJWUstYjJLdUh1NjZ2YndTZjZlNU9rYlhTcUllQUk5Yld1QnhTM1pVVzQ2Sk9IVG1UcFBsS2tEaDZfb2hVcHVPNy1fX042QjNMdkhRUkVZb0dSY29BN0VXaWVQRmxmejlVamF6NkZPSzB3SEJyMUdwYUc4dFVfOGk0YkFQZXo0SVZ5czRzYmE0UjVWWXVDNm4?oc=5",
-   "ts": "2026-11-03T00:20:00Z",
-   "fuente": "WSJ",
-   "id": "a3f11e1ba7",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14118,15 +14115,15 @@
     1793700000,
     3918.4,
     3919.5,
-    3912.6,
-    3913.2
+    3911.3,
+    3912.8
    ],
    [
-    1793701350,
-    3912.8,
-    3912.8,
-    3912.8,
-    3912.8
+    1793701945,
+    3913.3,
+    3913.3,
+    3913.3,
+    3913.3
    ]
   ],
   "nq": [
@@ -14659,15 +14656,15 @@
     1793700000,
     28238.0,
     28275.75,
-    28232.25,
-    28246.75
+    28229.5,
+    28230.0
    ],
    [
-    1793701352,
-    28245.0,
-    28245.0,
-    28245.0,
-    28245.0
+    1793701953,
+    28235.0,
+    28235.0,
+    28235.0,
+    28235.0
    ]
   ],
   "vix": [
@@ -15082,14 +15079,14 @@
     21.32,
     21.33,
     21.22,
-    21.28
+    21.3
    ],
    [
-    1793701051,
-    21.28,
-    21.28,
-    21.28,
-    21.28
+    1793701651,
+    21.3,
+    21.3,
+    21.3,
+    21.3
    ]
   ]
  },
@@ -15225,8 +15222,6 @@
   }
  ],
  "noticias_vistas": [
-  "bc0401b7b9",
-  "c321f2716c",
   "d411aea699",
   "2f671be4b6",
   "ae6434b7a8",
@@ -16024,7 +16019,9 @@
   "06c1bedf05",
   "aaf9a7ade8",
   "4294691bac",
-  "4decaccb00"
+  "4decaccb00",
+  "0b777a85d8",
+  "d5c2662cdd"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
