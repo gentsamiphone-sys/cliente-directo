@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3912.4 · NQ 28233.25 · VIX 21.26 · 2 noticias nuevas",
-   "actualizado": "2026-11-03T11:07:32Z"
+   "ultimo_resultado": "Oro 3913.3 · NQ 28235.5 · VIX 21.28 · 3 noticias nuevas",
+   "actualizado": "2026-11-03T11:12:31Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T11:07:31Z",
-   "ultimo_resultado": "2 titulares nuevos: Sterling today: Pound edges up as dollar eases, BoE hike in view"
+   "actualizado": "2026-11-03T11:12:31Z",
+   "ultimo_resultado": "3 titulares nuevos: Treasury yields rise as investors weigh midterm vote, jobs data and Iran tensions"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3913.3 · NQ 28235.5 · VIX 21.28 · 3 noticias nuevas",
+   "ts": "2026-11-03T11:12:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3912.4 · NQ 28233.25 · VIX 21.26 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Revisando cómo salieron las entradas anteriores…",
    "ts": "2026-11-02T21:32:47Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Abriendo la mesa para la sesión de Asia (Tokio/Sídney).",
-   "ts": "2026-11-02T21:32:46Z"
   }
  ],
  "briefs": [
@@ -12691,10 +12691,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3912.4,
-  "nq": 28233.25,
-  "vix": 21.26,
-  "ts": "2026-11-03T11:07:31Z"
+  "oro": 3913.3,
+  "nq": 28235.5,
+  "vix": 21.28,
+  "ts": "2026-11-03T11:12:31Z"
  },
  "noticias": [
   {
@@ -12830,6 +12830,17 @@
    "impacto": "bajo"
   },
   {
+   "titulo": "Treasury yields rise as investors weigh midterm vote, jobs data and Iran tensions",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TM0lMaGtzaDFiQWsxYWh1Tm1pWnZ1c1FlSzF6OXFsUXVnV0s2RDM0aVFQVEY5Z0hMTHZnV1VER0RXZ2NoNzJzaEhYd1NILXNnVHJPYTdnMGxwWENQbkJyNmlveWkzREg0cWcwSWxB0gFzQVVfeXFMTmphanNOR2U3amR0WWtFZVg4b2p3Q0x6d294TW9Iam0wWGZtTFJMNndXUWE4TURRbWlieS1FaE5TN2dLbmgydk9JZUYzSVpHLTFqclFXSThuTXdzNkxkeTJLQVVTcE1wOVlRSl9qLTRZTG1lbw?oc=5",
+   "ts": "2026-11-03T09:51:58Z",
+   "fuente": "CNBC",
+   "id": "5e8f7fcb24",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Trump is going to get 'trounced' in the midterms — and knows it, Anthony Scaramucci tells CNBC",
    "link": "https://www.cnbc.com/2026/11/03/scaramucci-trump-midterms-election.html",
    "ts": "2026-11-03T09:42:29Z",
@@ -12884,6 +12895,15 @@
    "ts": "2026-11-03T09:30:35Z",
    "fuente": "CNBC",
    "id": "d7fefb1008",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Investment",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPakFsZ2RYNTJkM2E3d09JWk9Lb3cwN1RRMUpkRXBZV0RwYXhmQjFMcmV4blRPclBIa015T2VZNkZNemtvQ2U2MXdVVElkVVVpYndkVzlGeTc2R2wxRzVKM3Vjc01hbGNPU3JzTXozV2RtN3loTThNVm1XcmtjcVVURm9YQWxxeUpjcUpkNXN2YkJjMVVVb2hyS0hn?oc=5",
+   "ts": "2026-11-03T09:29:55Z",
+   "fuente": "World Gold Council",
+   "id": "254bb13e09",
    "activos": [],
    "impacto": "bajo"
   },
@@ -13291,6 +13311,17 @@
    "impacto": "alto"
   },
   {
+   "titulo": "Dollar subdued as U.S. midterms get underway; Aussie Hits 2-week low",
+   "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-mixed-yuan-slides-044909228.html?.tsrc=rss",
+   "ts": "2026-11-03T04:49:09Z",
+   "fuente": "Yahoo Finance",
+   "id": "d165374c48",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Asian currencies mixed as Aussie falls after RBA hike, yuan weakens",
    "link": "https://finance.yahoo.com/markets/currencies/articles/asian-currencies-mixed-yuan-slides-044909228.html?.tsrc=rss",
    "ts": "2026-11-03T04:49:09Z",
@@ -13539,41 +13570,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Chip Bounce Lifts Nasdaq Futures After Mixed Close",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOY0tiZlNGckNaV0dNUnVrNzRlbVE4cXJ4bGs3UW5sMS1pN1ZTZXljMFozdnc2WnhhWVpCWFNBVjhrUWRaUURPa0c1WGNYamdGOHlWUl9zcnpBMXNDSjlzbnprSV9ocEtWZEJMbHlnYlhYVVhpcWRBQzhoczBfR0gwMjJMS0ppVk95ZE1TN1FMUmx3Zzc0N1EyWlNfa0lwVmdSNmZjdUZhdw?oc=5",
-   "ts": "2026-11-03T01:04:43Z",
-   "fuente": "Moomoo",
-   "id": "57df7b74c4",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Drew University Economics Students Compete in Federal Reserve's National College Fed Challenge",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPX2F1b0lSSGxldTRvdkJ0RGFDU2pmcmdzRmROcndCSEloZzM5SDd0WW5taV9ONElDX1A1TnBMNzlReWNLZ1QwZEdHZmVQNUVtY0VEbVN6dFRkN1hWRnFnbzU4aEFkQlQ5Y19mR21PTV8xUkNoSXZLblJJS08xOXo1WkdRRGJvX2xla1ByazdjYnh2SzF1X2NrNjNjeUxCbkJ4Sno0Q0xIREdhTWhySTNMUFhKZzZvTUlSOXBrSVh5dw?oc=5",
-   "ts": "2026-11-03T00:55:53Z",
-   "fuente": "Drew University",
-   "id": "1b7a06de8d",
-   "activos": [
-    "dolar"
-   ],
-   "impacto": "alto"
-  },
-  {
-   "titulo": "Apple's quarter is not perfect. But with enough to like, we raised our price target",
-   "link": "https://www.cnbc.com/investingclub/2026/11/02/apples-quarter-is-not-perfect-but-with-enough-to-like-we-raised-our-price-target.html",
-   "ts": "2026-11-03T00:55:36Z",
-   "fuente": "CNBC",
-   "id": "4decaccb00",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio",
-   "es": "El trimestre de Apple no es perfecto, pero subimos nuestro precio objetivo.",
-   "efecto": "Impulsa al NQ al alza por perspectiva positiva en grandes tecnológicas."
   }
  ],
  "eventos_avisados": [
@@ -14118,14 +14114,21 @@
     3918.4,
     3919.5,
     3909.4,
-    3913.1
+    3914.1
    ],
    [
-    1793703440,
-    3912.4,
-    3912.4,
-    3912.4,
-    3912.4
+    1793703600,
+    3914.4,
+    3916.4,
+    3911.7,
+    3912.0
+   ],
+   [
+    1793703749,
+    3913.3,
+    3913.3,
+    3913.3,
+    3913.3
    ]
   ],
   "nq": [
@@ -14659,14 +14662,21 @@
     28238.0,
     28275.75,
     28215.25,
-    28233.25
+    28236.25
    ],
    [
-    1793703449,
-    28233.25,
-    28233.25,
-    28233.25,
-    28233.25
+    1793703600,
+    28234.25,
+    28242.0,
+    28230.0,
+    28236.5
+   ],
+   [
+    1793703749,
+    28235.5,
+    28235.5,
+    28235.5,
+    28235.5
    ]
   ],
   "vix": [
@@ -15081,14 +15091,14 @@
     21.32,
     21.37,
     21.22,
-    21.26
+    21.29
    ],
    [
-    1793703136,
-    21.26,
-    21.26,
-    21.26,
-    21.26
+    1793703436,
+    21.28,
+    21.28,
+    21.28,
+    21.28
    ]
   ]
  },
@@ -15224,9 +15234,6 @@
   }
  ],
  "noticias_vistas": [
-  "8d0cdb142c",
-  "59bb32b455",
-  "7c70cb7321",
   "e3ddd39f13",
   "34daaff073",
   "b65b53e166",
@@ -16023,7 +16030,10 @@
   "46b20884f3",
   "4e954a905b",
   "f4ecc1fd0f",
-  "7918c6072f"
+  "7918c6072f",
+  "5e8f7fcb24",
+  "254bb13e09",
+  "d165374c48"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
