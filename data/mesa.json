@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3921.6 · NQ 28210.75 · VIX 21.67 · 1 noticias nuevas",
-   "actualizado": "2026-11-03T12:32:32Z"
+   "ultimo_resultado": "Oro 3923.2 · NQ 28212.0 · VIX 21.5 · 2 noticias nuevas",
+   "actualizado": "2026-11-03T12:37:41Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T12:32:31Z",
-   "ultimo_resultado": "1 titulares nuevos: Georgia teens wins gold during the gymnastics competition in France"
+   "actualizado": "2026-11-03T12:37:40Z",
+   "ultimo_resultado": "2 titulares nuevos: Gold price today, Tuesday, November 3, 2026: Gold prices open below $4,000 for the second straight day"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3923.2 · NQ 28212.0 · VIX 21.5 · 2 noticias nuevas",
+   "ts": "2026-11-03T12:37:41Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "Evaluación Alpha: ninguna idea con 5/5 confluencias. Hoy no se opera (calidad antes que cantidad).",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3958.0 · NQ 28158.0 · VIX 21.15 · 2 noticias nuevas",
    "ts": "2026-11-02T23:12:37Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3956.6 · NQ 28223.75 · VIX 21.15 · 3 noticias nuevas",
-   "ts": "2026-11-02T23:07:42Z"
   }
  ],
  "briefs": [
@@ -12691,12 +12691,23 @@
   }
  },
  "en_vivo": {
-  "oro": 3921.6,
-  "nq": 28210.75,
-  "vix": 21.67,
-  "ts": "2026-11-03T12:32:31Z"
+  "oro": 3923.2,
+  "nq": 28212.0,
+  "vix": 21.5,
+  "ts": "2026-11-03T12:37:41Z"
  },
  "noticias": [
+  {
+   "titulo": "Gold price today, Tuesday, November 3, 2026: Gold prices open below $4,000 for the second straight day",
+   "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-november-3-2026-gold-prices-open-below-4000-for-the-second-straight-day-123207114.html?.tsrc=rss",
+   "ts": "2026-11-03T12:32:07Z",
+   "fuente": "Yahoo Finance",
+   "id": "66bf649649",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Georgia teens wins gold during the gymnastics competition in France",
    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQd003SHUzVnFidFBOaXBpUHNxc1VUUHJQRGRFUTE2ZU1seDFncTR0RGhuZU1lWUxlZVJzblh1cnByV3pyYmZleVBhT3p3eGU2ekJDVnZOUGxsNHhzVVZ4QmhxendvTVpBRWducjRzcWloZW91M3NUZjVCTWdjTTFZTy1ucGRKc1pHeG5Cd1JRRkw5NjBwZV80RUFqejdyVXRocDZVRjdlZWh1OGpSd0VoY1l3aTFPdWxTclJHaG9EU2JhWlNWaFVvQ01RMHhhMEctTEQ4bzBfeVlyWEpsZUZwREVzdXlFLUw0ZVhibW1wTQ?oc=5",
@@ -12705,6 +12716,17 @@
    "id": "1b0354ab71",
    "activos": [
     "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "NASDAQ enters correction territory as Apple, Palantir lead tech sell-off",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yM3FWQm91RTdPNFFKbkxlWHdYQTRzZGx4clZVS0hFT0ZCZ0xBRlZBaWxuQ1J6MkZIcFE5em1WS3VJZDEzSXV0NkdFMVlDQ0JMamhMbGE3MFREMkE?oc=5",
+   "ts": "2026-11-03T12:11:49Z",
+   "fuente": "Fox Business",
+   "id": "66abc9dfd9",
+   "activos": [
+    "nq"
    ],
    "impacto": "medio"
   },
@@ -13537,26 +13559,6 @@
    "id": "95be8eb3a0",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Blackstone president calls for more equity to fund AI buildout as debt risks mount",
-   "link": "https://www.cnbc.com/2026/11/03/equity-ai-debt-blackstone-pimco-financing.html",
-   "ts": "2026-11-03T06:46:36Z",
-   "fuente": "CNBC",
-   "id": "c28220a7f0",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Silver & Gold at Crucial Long-Term Backtests",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE82WTN4NUVDak9JOTY1NkFFbUlZVGhyLWVQbkxKREhtVmFWQ2dtTFlEbkNwTjJnU2NyQ0dxTnZWRHpQbTdmY21ZQW9yTGc2WmNDRzlFM0lKTkk0dE1Ea18tdTNGT0ZaRmRmZkNneTFERkc0MkdPdUE?oc=5",
-   "ts": "2026-11-03T06:25:49Z",
-   "fuente": "GoldBroker",
-   "id": "f3e8f1ff89",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14113,16 +14115,16 @@
    [
     1793707200,
     3915.6,
-    3921.7,
+    3926.0,
     3908.4,
-    3921.0
+    3923.1
    ],
    [
-    1793708548,
-    3921.6,
-    3921.6,
-    3921.6,
-    3921.6
+    1793708858,
+    3923.2,
+    3923.2,
+    3923.2,
+    3923.2
    ]
   ],
   "nq": [
@@ -14668,16 +14670,16 @@
    [
     1793707200,
     28178.5,
-    28220.5,
+    28232.0,
     28114.25,
-    28208.0
+    28210.5
    ],
    [
-    1793708551,
-    28212.75,
-    28212.75,
-    28212.75,
-    28212.75
+    1793708859,
+    28212.0,
+    28212.0,
+    28212.0,
+    28212.0
    ]
   ],
   "vix": [
@@ -15105,15 +15107,15 @@
     1793707200,
     21.55,
     21.76,
-    21.55,
-    21.66
+    21.54,
+    21.54
    ],
    [
-    1793708251,
-    21.68,
-    21.68,
-    21.68,
-    21.68
+    1793708551,
+    21.5,
+    21.5,
+    21.5,
+    21.5
    ]
   ]
  },
@@ -15238,8 +15240,6 @@
   }
  ],
  "noticias_vistas": [
-  "9f56d940d8",
-  "b677b81186",
   "8531b2df6f",
   "48ced10472",
   "b2d626abad",
@@ -16037,7 +16037,9 @@
   "a337ae1a91",
   "12ab49913b",
   "afaba8393e",
-  "1b0354ab71"
+  "1b0354ab71",
+  "66bf649649",
+  "66abc9dfd9"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
