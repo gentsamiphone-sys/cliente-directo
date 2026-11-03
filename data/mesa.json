@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3913.6 · NQ 28133.75 · VIX 21.58 · 3 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-11-03T12:12:36Z"
+   "ultimo_resultado": "Oro 3909.2 · NQ 28162.25 · VIX 21.69 · 1 noticias nuevas",
+   "actualizado": "2026-11-03T12:17:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T12:12:35Z",
-   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Supermarket fridges are under attack in Europe — here's what's happening"
+   "actualizado": "2026-11-03T12:17:35Z",
+   "ultimo_resultado": "1 titulares nuevos: Canagold perfora 79.3 g/t de oro y 8.76% de antimonio en 1.96 m"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3909.2 · NQ 28162.25 · VIX 21.69 · 1 noticias nuevas",
+   "ts": "2026-11-03T12:17:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3913.6 · NQ 28133.75 · VIX 21.58 · 3 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "ES/NQ: CONFIRMA: ES y NQ van en la misma dirección · ES bajista en 1H",
    "ts": "2026-11-02T21:33:13Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el S&P 500 (ES) con el NQ…",
-   "ts": "2026-11-02T21:33:11Z"
   }
  ],
  "briefs": [
@@ -12691,10 +12691,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3913.6,
-  "nq": 28133.75,
-  "vix": 21.58,
-  "ts": "2026-11-03T12:12:35Z"
+  "oro": 3909.2,
+  "nq": 28162.25,
+  "vix": 21.69,
+  "ts": "2026-11-03T12:17:35Z"
  },
  "noticias": [
   {
@@ -12755,6 +12755,19 @@
    "id": "17b33bd657",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Canagold Drills 79.3 g/t Gold (Au) and 8.76% Antimony (Sb) over 1.96 m; Within 4.62 m Averaging 37.7 g/t Au and 4.57% Sb",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/canagold-drills-79-3-g-120000823.html?.tsrc=rss",
+   "ts": "2026-11-03T12:00:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "0da01adcdf",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Canagold perfora 79.3 g/t de oro y 8.76% de antimonio en 1.96 m",
+   "efecto": "Ruido corporativo menor; sin impacto en la macro del oro."
   },
   {
    "titulo": "North Sky Metals Completes Maiden Drill Program at the Natlan Project, British Columbia; Assays Pending",
@@ -13541,17 +13554,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "India's 2026 gold demand seen falling to six-year low on price rise",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaUE0SkF5VEdGaDktM2p1UmtpczI2QnFrSGFYU2VrNl9FSkFBZWxDb05oU0dYWDN4SXpIYUxyVzc4Si1iNG9QcGJLTXhzUHlKMTljSFhTSHdCMG5FZkx3WU5SN2R3bUFscjV1YzNYdk80YU5taEQtUUEyam04RVlvOExYWk51YVhZRnUxb3J2bjlsQ0VCeTJmbXpMMGYtLUxGckVqM0tZNjB1ZFI3?oc=5",
-   "ts": "2026-11-03T06:04:00Z",
-   "fuente": "Reuters",
-   "id": "aa467632aa",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14109,15 +14111,15 @@
     1793707200,
     3915.6,
     3916.5,
-    3913.3,
-    3914.2
+    3908.4,
+    3909.8
    ],
    [
-    1793707351,
-    3913.6,
-    3913.6,
-    3913.6,
-    3913.6
+    1793707651,
+    3909.2,
+    3909.2,
+    3909.2,
+    3909.2
    ]
   ],
   "nq": [
@@ -14665,14 +14667,14 @@
     28178.5,
     28180.25,
     28114.25,
-    28147.75
+    28164.0
    ],
    [
-    1793707355,
-    28137.25,
-    28137.25,
-    28137.25,
-    28137.25
+    1793707651,
+    28162.25,
+    28162.25,
+    28162.25,
+    28162.25
    ]
   ],
   "vix": [
@@ -15094,77 +15096,73 @@
     21.26,
     21.59,
     21.21,
-    21.59
+    21.54
    ],
    [
-    1793707051,
-    21.58,
-    21.58,
-    21.58,
-    21.58
+    1793707200,
+    21.55,
+    21.71,
+    21.55,
+    21.71
+   ],
+   [
+    1793707351,
+    21.69,
+    21.69,
+    21.69,
+    21.69
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-11-03T11:42:36Z",
- "ult_4h": 1793707355.3191893,
+ "noticias_traducidas_ts": "2026-11-03T12:17:34Z",
+ "ult_4h": 1793708255.5602067,
  "estrategia_4h": {
   "oro": {
-   "precio": 3915.0,
-   "atr_4h": 31.34,
+   "precio": 3909.2,
+   "atr_4h": 29.36,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4019.7,
+     "stop": 4018.52,
      "objetivo": 3879.3,
-     "rr": 6.47,
+     "rr": 6.9,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.17,
-     "ruptura": "2026-10-30 04:00 UTC"
-    },
-    {
-     "direccion": "VENTA",
-     "nivel": 3989.1,
-     "entrada": 3989.1,
-     "stop": 4007.9,
-     "objetivo": 3879.3,
-     "rr": 5.84,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.17,
+     "fuerza_ruptura_atr": 2.32,
      "ruptura": "2026-10-30 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 28185.0,
-   "atr_4h": 281.04,
+   "precio": 28162.25,
+   "atr_4h": 268.34,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29456.62,
+     "stop": 29449.0,
      "objetivo": 28038.25,
-     "rr": 7.41,
+     "rr": 7.76,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.63,
+     "fuerza_ruptura_atr": 1.7,
      "ruptura": "2026-10-29 20:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 29482.5,
      "entrada": 29482.5,
-     "stop": 29651.12,
+     "stop": 29643.5,
      "objetivo": 28038.25,
-     "rr": 8.57,
+     "rr": 8.97,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.63,
+     "fuerza_ruptura_atr": 1.7,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-11-03T12:02:35Z"
+  "ts": "2026-11-03T12:17:35Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15237,7 +15235,6 @@
   }
  ],
  "noticias_vistas": [
-  "1555ba506e",
   "bdbbcb95fe",
   "d7bad47fde",
   "43aa660e66",
@@ -16036,7 +16033,8 @@
   "3303d0ff7f",
   "901eaf3899",
   "ad3fb53435",
-  "d1992c13d7"
+  "d1992c13d7",
+  "0da01adcdf"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
