@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3915.0 · NQ 28175.5 · VIX 21.48 · 4 noticias nuevas",
-   "actualizado": "2026-11-03T12:07:35Z"
+   "ultimo_resultado": "Oro 3913.6 · NQ 28133.75 · VIX 21.58 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-11-03T12:12:36Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T12:07:34Z",
-   "ultimo_resultado": "4 titulares nuevos: North Sky Metals Completes Maiden Drill Program at the Natlan Project, British Columbia; Assays Pending"
+   "actualizado": "2026-11-03T12:12:35Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Supermarket fridges are under attack in Europe — here's what's happening"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3913.6 · NQ 28133.75 · VIX 21.58 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-11-03T12:12:36Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3915.0 · NQ 28175.5 · VIX 21.48 · 4 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el S&P 500 (ES) con el NQ…",
    "ts": "2026-11-02T21:33:11Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Volatilidad elevada (VIX 21.15).",
-   "ts": "2026-11-02T21:33:09Z"
   }
  ],
  "briefs": [
@@ -12691,12 +12691,44 @@
   }
  },
  "en_vivo": {
-  "oro": 3915.0,
-  "nq": 28175.5,
-  "vix": 21.48,
-  "ts": "2026-11-03T12:07:34Z"
+  "oro": 3913.6,
+  "nq": 28133.75,
+  "vix": 21.58,
+  "ts": "2026-11-03T12:12:35Z"
  },
  "noticias": [
+  {
+   "titulo": "Supermarket fridges are under attack in Europe — here's what's happening",
+   "link": "https://www.cnbc.com/2026/11/03/supermarket-fridges-hack-cyberattack-europe.html",
+   "ts": "2026-11-03T12:11:01Z",
+   "fuente": "CNBC",
+   "id": "901eaf3899",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "Apple's John Ternus faces early test as global memory crisis hurts profits",
+   "link": "https://www.cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html",
+   "ts": "2026-11-03T12:10:31Z",
+   "fuente": "CNBC",
+   "id": "ad3fb53435",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Dollar Tests a Cliff’s Edge as Gold Challenges $3,870 Support",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPczRIQmVBSkJrYjNOMEFQT09WWDVPQ29DNEpHVGdmckxEUUtzRVV6blNJQmUwb29rc2JXNDJUbmM5b3NlZFhEcEhkSkpmUkxhOVBFNFVjaTZyNHRBSnM3enFWcmFrUzBpNExpZzFxcnpGTlR6a1RUWjZJamFXTzlQSzROQ0tTUnA4d0FUSU9IMUFrZVVnb3VicUV1OG4xVmpmOGVPZEotaUhYWVnSAbcBQVVfeXFMTUFUZC13WlZXUjVHblpvR3dsSFd5WnZ1c29DdFYzLTI2ZHVCbEU0dTl0Ym5Ka3g4ZWQ2cUk2Nm1VbW1La1ExYl9GczA3NXBwd0dkX0F6MWxmR3h2aTBRbHJjbDgxbDBYbmVJSHhienBqZHU4cjFPdGxxS0duMk9Kb3pHMWp4OV9HV3lNWDUzSHZMN0N2QVQ5Ynl6VF9vRFgzclVFLWtLOUg0YTFrT1BQdjA4MGlXSzh3?oc=5",
+   "ts": "2026-11-03T12:06:44Z",
+   "fuente": "FOREX.com",
+   "id": "d1992c13d7",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Yum Brands earnings beat estimates, but cyclospora outbreak weighs on Taco Bell",
    "link": "https://www.cnbc.com/2026/11/03/yum-brands-yum-q3-2026-earnings.html",
@@ -13520,41 +13552,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Goldman Sachs adds a beer giant and a major bank to its favorite stock picks",
-   "link": "https://www.cnbc.com/2026/11/03/goldman-sachs-favorite-stocks-bank-beer.html",
-   "ts": "2026-11-03T06:00:01Z",
-   "fuente": "CNBC",
-   "id": "6513678b09",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "bajo",
-   "es": "Goldman Sachs añade un gigante cervecero y un gran banco a sus acciones favoritas",
-   "efecto": ""
-  },
-  {
-   "titulo": "India’s Tax Hike Drives Illegal Gold Imports to Three-Year High",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNi1xUUVMUm5kakNrRFk4RlpvbnpjSzlRd0R4WmRHTl9jeTNxWktYWXVwXzlib2dlbEUxY3VXbTJmOTl2RmJfY2tBNm8tQ0FCd3hiSE1HUVJ1S2huLXAtYUYwZGZ1NFhsU3JvLXl4X2NHLXBvNFIzRE9xekpWZGhkNGpidldMSHdlZEhTTkoxWUE2TzRydkdwME9rZlEzQzBjWjM2aWR3a2ZId01pdUpUS2tB?oc=5",
-   "ts": "2026-11-03T06:00:00Z",
-   "fuente": "Bloomberg.com",
-   "id": "022d804443",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Central Banks Buy Gold at Fastest Pace Since 2024, WGC Says",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcjR3aXZHT0tFQ19FeVB6djhtSjQ3S01aN3p1U3dPWGFBTllMWTM3aGZya2Q0LTUwOS03MWJ1eWFmb1VHSzY3dVV3YUJNMVZ1anBHMThmcUdGdFNKb1dCNWtUNjd1bTN5OENsbVV5a2xHQjZJQlBpVmYwcUpxT2Zpdl93TWlsNlhwdTRYMzNZWDNFLUJfYTkySjRkUHFhWktlRWZUclM1djBGWFUwR2QzTWZVaXFsVWRFc1BRUWUyMXo5MURMRDk5U003WFpYSDFmS0RQQzlGLXA4Q01lWlE?oc=5",
-   "ts": "2026-11-03T06:00:00Z",
-   "fuente": "Bloomberg.com",
-   "id": "e10a6f00f5",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14106,14 +14103,21 @@
     3914.4,
     3919.4,
     3911.7,
-    3915.1
+    3915.4
    ],
    [
-    1793707050,
-    3915.0,
-    3915.0,
-    3915.0,
-    3915.0
+    1793707200,
+    3915.6,
+    3916.5,
+    3913.3,
+    3914.2
+   ],
+   [
+    1793707351,
+    3913.6,
+    3913.6,
+    3913.6,
+    3913.6
    ]
   ],
   "nq": [
@@ -14654,14 +14658,21 @@
     28234.25,
     28250.75,
     28166.75,
-    28177.0
+    28181.0
    ],
    [
-    1793707053,
-    28175.5,
-    28175.5,
-    28175.5,
-    28175.5
+    1793707200,
+    28178.5,
+    28180.25,
+    28114.25,
+    28147.75
+   ],
+   [
+    1793707355,
+    28137.25,
+    28137.25,
+    28137.25,
+    28137.25
    ]
   ],
   "vix": [
@@ -15081,16 +15092,16 @@
    [
     1793703600,
     21.26,
-    21.46,
+    21.59,
     21.21,
-    21.45
+    21.59
    ],
    [
-    1793706751,
-    21.48,
-    21.48,
-    21.48,
-    21.48
+    1793707051,
+    21.58,
+    21.58,
+    21.58,
+    21.58
    ]
   ]
  },
@@ -15226,9 +15237,6 @@
   }
  ],
  "noticias_vistas": [
-  "dc7cc42317",
-  "28e1cb2803",
-  "50e3045c65",
   "1555ba506e",
   "bdbbcb95fe",
   "d7bad47fde",
@@ -16025,7 +16033,10 @@
   "20498ee423",
   "31a2fae6a8",
   "a52f14ab00",
-  "3303d0ff7f"
+  "3303d0ff7f",
+  "901eaf3899",
+  "ad3fb53435",
+  "d1992c13d7"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
