@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T21:02:36Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-11-03T21:07:37Z",
+   "ultimo_resultado": "2 titulares nuevos: S&P 500 snaps 3-day skid on Election Day as chip stocks rebound: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "noticias",
+   "texto": "2 titulares nuevos: S&P 500 snaps 3-day skid on Election Day as chip stocks rebound: Live updates",
+   "ts": "2026-11-03T21:07:37Z"
+  },
   {
    "agente": "noticias",
    "texto": "0 titulares nuevos. Sin novedades.",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "ES/NQ: CONFIRMA: ES y NQ van en la misma dirección · ES bajista en 1H",
    "ts": "2026-11-03T06:33:02Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Cruzando el S&P 500 (ES) con el NQ…",
-   "ts": "2026-11-03T06:33:00Z"
   }
  ],
  "briefs": [
@@ -12698,6 +12698,17 @@
  },
  "noticias": [
   {
+   "titulo": "S&P 500 snaps 3-day skid on Election Day as chip stocks rebound: Live updates",
+   "link": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
+   "ts": "2026-11-03T21:03:27Z",
+   "fuente": "CNBC",
+   "id": "06eb2116fa",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
    "titulo": "Eaton's strong quarter should mark a bottom for shares of the AI buildout winner",
    "link": "https://www.cnbc.com/investingclub/2026/11/03/eatons-strong-quarter-should-mark-a-bottom-for-shares-of-the-ai-buildout-winner.html",
    "ts": "2026-11-03T20:46:59Z",
@@ -12723,6 +12734,17 @@
    "id": "6753e5467a",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold Analysis: Resilient U.S. Labor Market Continues to Pressure XAU/USD",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTVZPWkpEZ2t4VUN4TE1XckFiYkpmSU00YkZUQkVuWTJ5cGg5dG02X05UWVZPWXQ0bmtybjZoVFRyX250Z2EtREVzakQ3T3VhWTNRRmhkZE1hQWtRV21sczlDUFNrVDVDendXY1liOWJoNFJpMUwtUTlPT240TUlhM2E4YWVsaFMzXzFwQlQwYWRzOEU4azg3V2I5MVpFY3ltWHpiYk1ZTjVNbjNOakRkMUdUVXh6aWh00gHEAUFVX3lxTE9qXy1zbDRzZW14S1RzMWRhZUk5WEtBeWNKSFQyaDRRRUZYUFFDeFk4WUZSZUtxZnVpY2R2STdoRjhSQmZWTzgxcUJkWUE0T19WdXByNWxPVDdJLXJQMzBlbm1pZDdCMlJuUU9sYWpaOF9OWmJvaVBBbl9GUV9WdDRkWm1FdlFlYVVVRUg1RFladWxvWVBubjJ2YlNaSjRnVTlRVGw5S1BOS3NYOURCYUlaV0FmVFdfc3ZPMVV5R242WEtaVXY?oc=5",
+   "ts": "2026-11-03T20:34:36Z",
+   "fuente": "FOREX.com",
+   "id": "5c8a84874e",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Tongguan Gold Group (SEHK:340) Stock Trades At A Premium After A 383% Three Year Run",
@@ -13529,26 +13551,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Las Vegas Raiders owner Mark Davis says he feels no pressure to rush backup QB Fernando Mendoza",
-   "link": "https://www.cnbc.com/2026/11/03/las-vegas-raiders-owner-mark-davis-wont-rush-fernando-mendoza-.html",
-   "ts": "2026-11-03T15:02:30Z",
-   "fuente": "CNBC",
-   "id": "9530ededcb",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "What the 2026 midterm elections could mean for Trump’s final two years",
-   "link": "https://www.cnbc.com/2026/11/03/midterm-elections-congress-trump-democrats-republicans.html",
-   "ts": "2026-11-03T15:00:01Z",
-   "fuente": "CNBC",
-   "id": "0d01bde655",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Qué podrían significar las elecciones de mitad de término de 2026 para los últimos dos años de Trump",
-   "efecto": ""
   }
  ],
  "eventos_avisados": [
@@ -15400,8 +15402,6 @@
   }
  ],
  "noticias_vistas": [
-  "9c7a04263b",
-  "8f4353bc5c",
   "dad40f3b6c",
   "185fdbe9bc",
   "8e1579e6a6",
@@ -16199,7 +16199,9 @@
   "0b0fbfd94a",
   "388270020c",
   "b455d55b35",
-  "6753e5467a"
+  "6753e5467a",
+  "06eb2116fa",
+  "5c8a84874e"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
