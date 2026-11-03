@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3939.7 · NQ 28230.25 · VIX 21.38 · 4 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-11-03T13:07:34Z"
+   "ultimo_resultado": "Oro 3940.1 · NQ 28200.5 · VIX 21.32 · 1 noticias nuevas",
+   "actualizado": "2026-11-03T13:12:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T13:07:33Z",
-   "ultimo_resultado": "4 titulares nuevos, 1 de alto impacto: Ferrari raises 2026 guidance after Q3 earnings beat"
+   "actualizado": "2026-11-03T13:12:33Z",
+   "ultimo_resultado": "1 titulares nuevos: New national home listing database is taking on Compass in the battle for control of real estate information"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3940.1 · NQ 28200.5 · VIX 21.32 · 1 noticias nuevas",
+   "ts": "2026-11-03T13:12:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3939.7 · NQ 28230.25 · VIX 21.38 · 4 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3955.8 · NQ 28255.75 · VIX 21.15 · 1 noticias nuevas (1 alto impacto)",
    "ts": "2026-11-02T23:47:31Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3955.0 · NQ 28230.0 · VIX 21.15",
-   "ts": "2026-11-02T23:42:43Z"
   }
  ],
  "briefs": [
@@ -12691,10 +12691,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3939.7,
-  "nq": 28230.25,
-  "vix": 21.38,
-  "ts": "2026-11-03T13:07:33Z"
+  "oro": 3940.1,
+  "nq": 28200.5,
+  "vix": 21.32,
+  "ts": "2026-11-03T13:12:34Z"
  },
  "noticias": [
   {
@@ -12716,6 +12716,15 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "New national home listing database is taking on Compass in the battle for control of real estate information",
+   "link": "https://www.cnbc.com/2026/11/03/national-home-listing-database-battles-compass-in-real-estate-info-war.html",
+   "ts": "2026-11-03T13:00:01Z",
+   "fuente": "CNBC",
+   "id": "515e5ae351",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Lode Gold Identifies Exploration Potential for Additional Higher-Grade Gold Within Previously Drilled Areas at Fremont Gold Mine",
@@ -13553,17 +13562,6 @@
    "impacto": "bajo",
    "es": "Acadia Healthcare cumple con una configuración de ruptura con fuertes indicadores técnicos",
    "efecto": ""
-  },
-  {
-   "titulo": "Stock futures are mixed as investors weigh Apple earnings; U.S. midterm elections loom: Live updates",
-   "link": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
-   "ts": "2026-11-03T09:18:11Z",
-   "fuente": "CNBC",
-   "id": "5f306d8af0",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14120,16 +14118,23 @@
    [
     1793707200,
     3915.5,
-    3939.9,
+    3943.3,
     3908.4,
-    3939.7
+    3942.3
    ],
    [
-    1793710650,
-    3939.7,
-    3939.7,
-    3939.7,
-    3939.7
+    1793710800,
+    3942.3,
+    3942.8,
+    3938.4,
+    3940.9
+   ],
+   [
+    1793710951,
+    3940.1,
+    3940.1,
+    3940.1,
+    3940.1
    ]
   ],
   "nq": [
@@ -14677,14 +14682,21 @@
     28179.75,
     28249.75,
     28114.25,
-    28234.75
+    28229.75
    ],
    [
-    1793710649,
+    1793710800,
+    28227.25,
     28230.25,
-    28230.25,
-    28230.25,
-    28230.25
+    28200.0,
+    28205.25
+   ],
+   [
+    1793710953,
+    28200.5,
+    28200.5,
+    28200.5,
+    28200.5
    ]
   ],
   "vix": [
@@ -15113,14 +15125,14 @@
     21.55,
     21.76,
     21.18,
-    21.37
+    21.32
    ],
    [
-    1793710351,
-    21.38,
-    21.38,
-    21.38,
-    21.38
+    1793710651,
+    21.32,
+    21.32,
+    21.32,
+    21.32
    ]
   ]
  },
@@ -15256,7 +15268,6 @@
   }
  ],
  "noticias_vistas": [
-  "6a8171bd58",
   "6a6a5ac637",
   "e5128a6f4f",
   "6dffe21acf",
@@ -16055,7 +16066,8 @@
   "9137afae6a",
   "4a94a224c6",
   "fdcea9f74c",
-  "37a59c4031"
+  "37a59c4031",
+  "515e5ae351"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
