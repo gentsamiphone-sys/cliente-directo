@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3943.3 · NQ 28419.5 · VIX 20.59 · 2 noticias nuevas",
-   "actualizado": "2026-11-03T18:22:35Z"
+   "ultimo_resultado": "Oro 3941.8 · NQ 28395.0 · VIX 20.44 · 2 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-11-03T18:27:50Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T18:22:34Z",
-   "ultimo_resultado": "2 titulares nuevos: Video - CEO Clips: Erdene Resource Development: Mongolia's Newest Gold Producer Sets Its Sights on Growth"
+   "actualizado": "2026-11-03T18:27:49Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Midterm elections 2026 live updates: Economy, inflation and other voter concerns"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3941.8 · NQ 28395.0 · VIX 20.44 · 2 noticias nuevas (1 alto impacto)",
+   "ts": "2026-11-03T18:27:50Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3943.3 · NQ 28419.5 · VIX 20.59 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro — · NQ — · VIX 21.15 · 1 noticias nuevas",
    "ts": "2026-11-03T05:02:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3932.6 · NQ 28132.0 · VIX 21.15 · 1 noticias nuevas",
-   "ts": "2026-11-03T04:57:32Z"
   }
  ],
  "briefs": [
@@ -12691,12 +12691,21 @@
   }
  },
  "en_vivo": {
-  "oro": 3943.3,
-  "nq": 28419.5,
-  "vix": 20.59,
-  "ts": "2026-11-03T18:22:35Z"
+  "oro": 3941.8,
+  "nq": 28395.0,
+  "vix": 20.44,
+  "ts": "2026-11-03T18:27:49Z"
  },
  "noticias": [
+  {
+   "titulo": "Midterm elections 2026 live updates: Economy, inflation and other voter concerns",
+   "link": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
+   "ts": "2026-11-03T18:26:37Z",
+   "fuente": "CNBC",
+   "id": "ca03b11aa9",
+   "activos": [],
+   "impacto": "alto"
+  },
   {
    "titulo": "Video - CEO Clips: Erdene Resource Development: Mongolia's Newest Gold Producer Sets Its Sights on Growth",
    "link": "https://finance.yahoo.com/markets/stocks/articles/video-ceo-clips-erdene-development-181300181.html?.tsrc=rss",
@@ -12714,6 +12723,17 @@
    "ts": "2026-11-03T18:13:00Z",
    "fuente": "The Detroit News",
    "id": "10ac17c5c9",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Kinross Gold (TSX:K) Reported US$4,249 Realized Gold Prices In Q3 2026",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/kinross-gold-tsx-k-reported-180808907.html?.tsrc=rss",
+   "ts": "2026-11-03T18:08:08Z",
+   "fuente": "Yahoo Finance",
+   "id": "6a35b6304d",
    "activos": [
     "oro"
    ],
@@ -13547,26 +13567,6 @@
    "id": "ac17a611eb",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Pfizer hikes full-year outlook as newer products grow, taps company veteran as new CFO",
-   "link": "https://www.cnbc.com/2026/11/03/pfizer-pfe-earnings-q3-2026.html",
-   "ts": "2026-11-03T13:24:00Z",
-   "fuente": "CNBC",
-   "id": "cd95e91a46",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "Pfizer eleva perspectivas anuales y nombra nuevo director financiero",
-   "efecto": ""
-  },
-  {
-   "titulo": "Russia confirms new Ukraine peace talks as Melania Trump prepares to host ceasefire meeting",
-   "link": "https://www.cnbc.com/2026/11/03/russia-ukraine-peace-talks-abu-dhabi-trump-putin-xi.html",
-   "ts": "2026-11-03T13:22:25Z",
-   "fuente": "CNBC",
-   "id": "8cf0fb25b0",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -14168,14 +14168,14 @@
     3942.8,
     3945.6,
     3940.8,
-    3943.2
+    3942.0
    ],
    [
-    1793729545,
-    3943.3,
-    3943.3,
-    3943.3,
-    3943.3
+    1793729867,
+    3941.8,
+    3941.8,
+    3941.8,
+    3941.8
    ]
   ],
   "nq": [
@@ -14763,16 +14763,16 @@
    [
     1793728800,
     28374.75,
-    28426.0,
+    28426.5,
     28357.0,
-    28422.25
+    28395.25
    ],
    [
-    1793729553,
-    28419.5,
-    28419.5,
-    28419.5,
-    28419.5
+    1793729869,
+    28395.0,
+    28395.0,
+    28395.0,
+    28395.0
    ]
   ],
   "vix": [
@@ -15242,15 +15242,15 @@
     1793728800,
     20.67,
     20.71,
-    20.57,
-    20.57
+    20.45,
+    20.47
    ],
    [
-    1793729251,
-    20.59,
-    20.59,
-    20.59,
-    20.59
+    1793729566,
+    20.44,
+    20.44,
+    20.44,
+    20.44
    ]
   ]
  },
@@ -15364,8 +15364,6 @@
   }
  ],
  "noticias_vistas": [
-  "5bd5c1da06",
-  "0c5c224a1a",
   "1fa389a793",
   "c0f182264e",
   "2a5f952702",
@@ -16163,7 +16161,9 @@
   "b42efd610e",
   "42b9703b02",
   "f286a99a1a",
-  "10ac17c5c9"
+  "10ac17c5c9",
+  "ca03b11aa9",
+  "6a35b6304d"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
