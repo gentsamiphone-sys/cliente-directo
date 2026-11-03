@@ -6411,9 +6411,9 @@
  "agentes": {
   "buscador": {
    "estado": "trabajando",
-   "tarea": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Nellis Blvd…",
+   "tarea": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
    "ultimo_resultado": "No pude buscar en este turno (502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter)",
-   "actualizado": "2026-11-03T17:02:34Z"
+   "actualizado": "2026-11-03T17:06:25Z"
   },
   "gerente": {
    "estado": "descansando",
@@ -6441,6 +6441,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "buscador",
+   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
+   "ts": "2026-11-03T17:06:25Z"
+  },
   {
    "agente": "buscador",
    "texto": "Buscando talleres (mecánicos, body shops, motos) sin página web cerca de Nellis Blvd…",
@@ -7935,11 +7940,6 @@
    "agente": "buscador",
    "texto": "Terminó su turno: 0 negocios nuevos de talleres cerca de Civic Center Dr",
    "ts": "2026-11-01T11:07:13Z"
-  },
-  {
-   "agente": "buscador",
-   "texto": "La búsqueda de Google no está disponible gratis; busco en el mapa abierto (OpenStreetMap).",
-   "ts": "2026-11-01T11:06:19Z"
   }
  ],
  "reportes": {
