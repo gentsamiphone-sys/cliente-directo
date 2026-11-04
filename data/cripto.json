@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: ya hay una idea o posición activa, no se duplica.",
-   "actualizado": "2026-11-04T14:08:33Z"
+   "ultimo_resultado": "BTC: el precio no llegó a la zona en 24 h. Idea cancelada.",
+   "actualizado": "2026-11-04T18:06:35Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "BTC: el precio no llegó a la zona en 24 h. Idea cancelada.",
+   "ts": "2026-11-04T18:06:35Z"
+  },
   {
    "agente": "futuros",
    "texto": "MET: R:R 0.7 menor a 2. No se envía.",
@@ -799,11 +804,6 @@
   {
    "agente": "liquidez",
    "texto": "Marcando niveles de BTC y ETH: semana, mes, EMA200 diaria…",
-   "ts": "2026-11-01T01:49:06Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Abriendo la mesa cripto · Noche (Asia).",
    "ts": "2026-11-01T01:49:06Z"
   }
  ],
@@ -2338,7 +2338,7 @@
    "stop": 75800.0,
    "tp": 80000.0,
    "tp1": 78700.0,
-   "estado": "pendiente",
+   "estado": "cancelada",
    "creada": "2026-11-03T14:06:07Z",
    "real": true
   },
