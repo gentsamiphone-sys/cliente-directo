@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3935.9 · NQ 28093.0 · VIX 20.83",
-   "actualizado": "2026-11-04T00:42:31Z"
+   "ultimo_resultado": "Oro 3929.2 · NQ 28075.5 · VIX 20.83 · 4 noticias nuevas",
+   "actualizado": "2026-11-04T00:47:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-04T00:42:31Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-11-04T00:47:32Z",
+   "ultimo_resultado": "4 titulares nuevos: Stock futures fall as traders speculate Democrats headed for big wins in midterm elections: Live updates"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3929.2 · NQ 28075.5 · VIX 20.83 · 4 noticias nuevas",
+   "ts": "2026-11-04T00:47:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3935.9 · NQ 28093.0 · VIX 20.83",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3914.2 · NQ 28208.75 · VIX 21.27 · 1 noticias nuevas",
    "ts": "2026-11-03T11:32:34Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3917.6 · NQ 28227.25 · VIX 21.25 · 2 noticias nuevas",
-   "ts": "2026-11-03T11:27:31Z"
   }
  ],
  "briefs": [
@@ -12694,12 +12694,21 @@
   }
  },
  "en_vivo": {
-  "oro": 3935.9,
-  "nq": 28093.0,
+  "oro": 3929.2,
+  "nq": 28075.5,
   "vix": 20.83,
-  "ts": "2026-11-04T00:42:31Z"
+  "ts": "2026-11-04T00:47:32Z"
  },
  "noticias": [
+  {
+   "titulo": "Stock futures fall as traders speculate Democrats headed for big wins in midterm elections: Live updates",
+   "link": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+   "ts": "2026-11-04T00:47:04Z",
+   "fuente": "CNBC",
+   "id": "1953592c97",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "S&P 500 futures give up gain, turn red as traders await election results: Live updates",
    "link": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
@@ -12710,6 +12719,37 @@
     "nq"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "Gold Steadies as Traders Track Iran Talk Prospects, US Midterms",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWVB3Y2J3bG9Ed1BDRjVvY1dIZUFhd0JzRWJ6VTRtRWdLNm13R294UVNEejBhTVVuNkdvWXNQRzZzYTV5ZV9nRWwydHRjQ3BfaTJkMFFVSGNmcTNlQVlfNUtld2xjaDVHNHpKQkdXS19jQnZ0ZzNWTUxuejUzemVBOHNGOGktaExwaExwaXJ6bGd4eUZUWkw0a29OWkZMc1E1QVFVWFJVR1NaU1dLaC1NeUZsYw?oc=5",
+   "ts": "2026-11-04T00:24:00Z",
+   "fuente": "Bloomberg.com",
+   "id": "05652bf26f",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Montage Gold (TSX:MAU) Stock May Be 45% Below Fair Value",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxON1FtV1pyakpYN2VfalduUGZHTWZFSXlaNjNDLVFISm9Vb2JQUDFDb1ROTzhTWjlzVldlRTZiM0twUW1XSm5wWld4ODZZajVBbjNsYldoVmRXWWpyczM4Q0tsTVRUNVlfT04tUm1KMC1mSHBGWjBoOTY5aVNqQklqdEp4SzBmUzJmc3R6cE5rYUNZbEdXNFE?oc=5",
+   "ts": "2026-11-04T00:16:00Z",
+   "fuente": "Yahoo Finance",
+   "id": "079a080358",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Wednesday's big stock stories: What’s likely to move the market in the next trading session",
+   "link": "https://www.cnbc.com/2026/11/03/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "ts": "2026-11-04T00:12:42Z",
+   "fuente": "CNBC",
+   "id": "680fbeed45",
+   "activos": [],
+   "impacto": "bajo"
   },
   {
    "titulo": "Midterm elections 2026 live updates: Polls are closing as House, Senate control hang in balance",
@@ -13505,51 +13545,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Options traders are betting heavily on these stocks ahead of election results",
-   "link": "https://www.cnbc.com/2026/11/03/options-traders-are-betting-heavily-on-these-stocks-ahead-of-election-results.html",
-   "ts": "2026-11-03T19:22:30Z",
-   "fuente": "CNBC",
-   "id": "4673cf6e2f",
-   "activos": [
-    "nq",
-    "dolar"
-   ],
-   "impacto": "alto",
-   "es": "Los operadores de opciones apuestan fuerte por acciones ante las elecciones.",
-   "efecto": "Aumenta la volatilidad en el NQ y el dólar por cobertura electoral."
-  },
-  {
-   "titulo": "How Trump contesting midterm election results might disrupt the market",
-   "link": "https://www.cnbc.com/2026/11/03/how-trump-contesting-midterm-election-results-could-disrupt-the-market.html",
-   "ts": "2026-11-03T19:20:24Z",
-   "fuente": "CNBC",
-   "id": "af3105e875",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Nairobi Protocol Offers Another Way to Mitigate Import Tariffs",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTTh1d0h1NlVrWEJzcUEyQ0FBQ2gzdWExOUFNZFV2Q0NvVk1xeEFySHNqMjJWLVhyUFNhVjdJRGdYLWJTN2U4LXIwMUJSd1JkUFU2dDBrY1ozSnlyTnhoWGtta0lmbC1vVXJuaVJaVWEyUkM3Nm1PbXhOWWpYQlR3VWZEcHM0am5zMGh6aDNBWVRmZ1RodTJkMkxUTlQxdnotSE1qbURnVkdBZFNFdlctMGZ1TnQ2aEo3RzF2aG1uOE04Z3V4b2w4dG1uSTB1SGc?oc=5",
-   "ts": "2026-11-03T19:18:29Z",
-   "fuente": "Sandler, Travis & Rosenberg, P.A.",
-   "id": "b1852a1871",
-   "activos": [],
-   "impacto": "bajo",
-   "es": "El Protocolo de Nairobi ofrece otra forma de mitigar aranceles de importación.",
-   "efecto": "Ruido comercial sin impacto directo en los activos principales."
-  },
-  {
-   "titulo": "Nasdaq rebounds as chip stocks bounce, Dow dragged lower by Apple: Live updates",
-   "link": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
-   "ts": "2026-11-03T19:17:52Z",
-   "fuente": "CNBC",
-   "id": "38d46b542d",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14185,15 +14180,15 @@
     1793750400,
     3947.3,
     3949.2,
-    3933.6,
-    3936.4
+    3928.2,
+    3928.9
    ],
    [
-    1793752344,
-    3935.9,
-    3935.9,
-    3935.9,
-    3935.9
+    1793752651,
+    3929.2,
+    3929.2,
+    3929.2,
+    3929.2
    ]
   ],
   "nq": [
@@ -14817,15 +14812,15 @@
     1793750400,
     28323.5,
     28394.0,
-    28072.75,
-    28093.25
+    28040.0,
+    28044.25
    ],
    [
-    1793752350,
-    28092.0,
-    28092.0,
-    28092.0,
-    28092.0
+    1793752652,
+    28075.5,
+    28075.5,
+    28075.5,
+    28075.5
    ]
   ],
   "vix": [
@@ -15329,65 +15324,54 @@
   ]
  },
  "noticias_traducidas_ts": "2026-11-04T00:22:44Z",
- "ult_4h": 1793752353.16568,
+ "ult_4h": 1793753252.4981284,
  "estrategia_4h": {
   "oro": {
-   "precio": 3946.1,
-   "atr_4h": 28.04,
+   "precio": 3929.2,
+   "atr_4h": 29.16,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4017.73,
+     "stop": 4018.4,
      "objetivo": 3879.3,
-     "rr": 7.23,
+     "rr": 6.95,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.42,
-     "ruptura": "2026-10-30 04:00 UTC"
-    },
-    {
-     "direccion": "VENTA",
-     "nivel": 3989.1,
-     "entrada": 3989.1,
-     "stop": 4005.93,
-     "objetivo": 3879.3,
-     "rr": 6.53,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.42,
+     "fuerza_ruptura_atr": 2.33,
      "ruptura": "2026-10-30 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 28237.0,
-   "atr_4h": 215.46,
+   "precio": 28075.5,
+   "atr_4h": 227.09,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29417.28,
+     "stop": 29424.25,
      "objetivo": 28038.25,
-     "rr": 9.67,
+     "rr": 9.17,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.12,
+     "fuerza_ruptura_atr": 2.01,
      "ruptura": "2026-10-29 20:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 29482.5,
      "entrada": 29482.5,
-     "stop": 29611.78,
+     "stop": 29618.75,
      "objetivo": 28038.25,
-     "rr": 11.17,
+     "rr": 10.6,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.12,
+     "fuerza_ruptura_atr": 2.01,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-11-04T00:32:33Z"
+  "ts": "2026-11-04T00:47:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15462,10 +15446,6 @@
   }
  ],
  "noticias_vistas": [
-  "8c6406191c",
-  "03b80a452b",
-  "8db8c45c47",
-  "9d23027839",
   "8fb97a297f",
   "22368d1fe1",
   "875e991367",
@@ -16261,7 +16241,11 @@
   "d44550f0de",
   "19027f3eef",
   "399b7eda2f",
-  "9807fae75c"
+  "9807fae75c",
+  "1953592c97",
+  "05652bf26f",
+  "079a080358",
+  "680fbeed45"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
