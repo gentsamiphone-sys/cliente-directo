@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3937.2 · NQ 28158.5 · VIX 20.83 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-11-04T01:02:36Z"
+   "ultimo_resultado": "Oro 3939.4 · NQ 28160.25 · VIX 20.83 · 3 noticias nuevas",
+   "actualizado": "2026-11-04T01:07:35Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-04T01:02:35Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Demócrata Jon Ossoff gana la carrera por el Senado en Georgia (Elecciones de mitad de periodo 2026)"
+   "actualizado": "2026-11-04T01:07:34Z",
+   "ultimo_resultado": "3 titulares nuevos: Midterm elections 2026 live updates: Ossoff wins Georgia Senate, House control 'leans' Dem"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3939.4 · NQ 28160.25 · VIX 20.83 · 3 noticias nuevas",
+   "ts": "2026-11-04T01:07:35Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3937.2 · NQ 28158.5 · VIX 20.83 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3916.6 · NQ 28204.25 · VIX 21.43 · 2 noticias nuevas",
    "ts": "2026-11-03T11:52:35Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3913.1 · NQ 28204.0 · VIX 21.37 · 4 noticias nuevas",
-   "ts": "2026-11-03T11:47:40Z"
   }
  ],
  "briefs": [
@@ -12694,12 +12694,21 @@
   }
  },
  "en_vivo": {
-  "oro": 3937.2,
-  "nq": 28158.5,
+  "oro": 3939.4,
+  "nq": 28160.25,
   "vix": 20.83,
-  "ts": "2026-11-04T01:02:36Z"
+  "ts": "2026-11-04T01:07:34Z"
  },
  "noticias": [
+  {
+   "titulo": "Midterm elections 2026 live updates: Ossoff wins Georgia Senate, House control 'leans' Dem",
+   "link": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
+   "ts": "2026-11-04T01:04:08Z",
+   "fuente": "CNBC",
+   "id": "eb5dfb6950",
+   "activos": [],
+   "impacto": "bajo"
+  },
   {
    "titulo": "Midterm elections 2026 live updates: Democrat Jon Ossoff wins Georgia Senate race",
    "link": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
@@ -12713,6 +12722,17 @@
    "impacto": "alto",
    "es": "Demócrata Jon Ossoff gana la carrera por el Senado en Georgia (Elecciones de mitad de periodo 2026)",
    "efecto": "Ajusta expectativas fiscales y regulatorias, generando volatilidad en el NQ y el dólar."
+  },
+  {
+   "titulo": "Gold firms on softer oil prices, US midterm results awaited",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQd0lHOUFsbExIR3lscDNTRy14T012UWd6UlBSLUtySlpjSTdFaEtYLW1hbnpOTHdrSm1fM1RGU2V0WmxNSWJGU3AxeV9PUDVRVm1BRjBBNXQxZVVacElvaE5IbGJFU2FZbnN1Tmg4dlVTZ3prY0U0SEh5X1VzWmxUYnQ3VWhtZGpGOXloc1R6X3BvNlprVmw0UGppaFE2VFcyYkl3SzJ3?oc=5",
+   "ts": "2026-11-04T00:58:00Z",
+   "fuente": "Reuters",
+   "id": "76898ec1a7",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Stock futures fall as traders speculate Democrats headed for big wins in midterm elections: Live updates",
@@ -13524,28 +13544,6 @@
     "oro"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Election Day: Here is the No. 1 issue we're watching as a signal for stocks",
-   "link": "https://www.cnbc.com/investingclub/2026/11/03/election-day-here-is-the-no-1-issue-were-watching-as-a-signal-for-stocks.html",
-   "ts": "2026-11-03T19:29:41Z",
-   "fuente": "CNBC",
-   "id": "20015556c6",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "This gold miner is a cash machine. Why I think the sell-off is an opportunity",
-   "link": "https://www.cnbc.com/2026/11/03/this-gold-miner-is-a-cash-machine-why-i-think-the-sell-off-is-an-opportunity.html",
-   "ts": "2026-11-03T19:27:45Z",
-   "fuente": "CNBC",
-   "id": "2a276e98c0",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14182,14 +14180,14 @@
     3947.3,
     3949.2,
     3928.2,
-    3936.6
+    3939.8
    ],
    [
-    1793753551,
-    3937.2,
-    3937.2,
-    3937.2,
-    3937.2
+    1793753847,
+    3939.4,
+    3939.4,
+    3939.4,
+    3939.4
    ]
   ],
   "nq": [
@@ -14814,14 +14812,14 @@
     28323.5,
     28394.0,
     28040.0,
-    28162.5
+    28165.0
    ],
    [
-    1793753555,
-    28158.5,
-    28158.5,
-    28158.5,
-    28158.5
+    1793753853,
+    28160.25,
+    28160.25,
+    28160.25,
+    28160.25
    ]
   ],
   "vix": [
@@ -15447,9 +15445,6 @@
   }
  ],
  "noticias_vistas": [
-  "875e991367",
-  "f868f53c42",
-  "8fe8ea78f7",
   "dc6e9c68d0",
   "53cd2766f6",
   "26263bfad3",
@@ -16246,7 +16241,10 @@
   "079a080358",
   "680fbeed45",
   "3c3314a93d",
-  "2b866d0419"
+  "2b866d0419",
+  "eb5dfb6950",
+  "76898ec1a7",
+  "5ee88a2c1b"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
