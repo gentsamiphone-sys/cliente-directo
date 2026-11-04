@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3947.4 · NQ 27743.25 · VIX 20.83",
-   "actualizado": "2026-11-04T03:32:33Z"
+   "ultimo_resultado": "Oro 3948.4 · NQ 27736.75 · VIX 20.83 · 2 noticias nuevas",
+   "actualizado": "2026-11-04T03:37:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-04T03:32:32Z",
-   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
+   "actualizado": "2026-11-04T03:37:32Z",
+   "ultimo_resultado": "2 titulares nuevos: Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3948.4 · NQ 27736.75 · VIX 20.83 · 2 noticias nuevas",
+   "ts": "2026-11-04T03:37:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3947.4 · NQ 27743.25 · VIX 20.83",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3924.5 · NQ 28231.0 · VIX 21.28 · 3 noticias nuevas (2 alto impacto)",
    "ts": "2026-11-03T12:52:36Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3923.8 · NQ 28229.0 · VIX 21.34 · 2 noticias nuevas",
-   "ts": "2026-11-03T12:47:32Z"
   }
  ],
  "briefs": [
@@ -12694,12 +12694,23 @@
   }
  },
  "en_vivo": {
-  "oro": 3947.4,
-  "nq": 27743.25,
+  "oro": 3948.4,
+  "nq": 27736.75,
   "vix": 20.83,
-  "ts": "2026-11-04T03:32:32Z"
+  "ts": "2026-11-04T03:37:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZ2FPb0VDa1pUYWotYjQwXzBBYm1nN0dhMUw1X0hLZ3B1MTRPeTh3ZnhkT1BPVDVMYS1tZDVRYjIzS19SNkh5dlFMZzZEZktrdTk2dmR4ZXYyZVA1VWxEMEJadkZXcXFLelM2VEp6c19sSjdybnZzMFgweU5lNndHemoyY29qVXgyaFh5TlBOYnQ0ZHpJS1VwbVZqanhpcDVZQXFVVdIBqgFBVV95cUxPaE54YmlQLU1IZ2hRWnFkOGZHRzg1VFJTQVlkaGxkVUVzZTlvSFdXOUplRmhUUURkMnJybkpxMkNERjFQbkFlb0xTbS1KUmJIbHBKSmw4aG9fOXF6c3pQSHl3bmE3N1lyR1VNTEhiblRKX3VMYm5qWXRsc05aYkxNaHJ3SERJT1NESjg1QTcxSnBXcVJhbVpramJSUDFydnF0dnp4bU15cmlMUQ?oc=5",
+   "ts": "2026-11-04T03:24:00Z",
+   "fuente": "CNBC",
+   "id": "8f8a09f0a3",
+   "activos": [
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "What Silver Standard Resources (SSRM) Said on Its Q3 Earnings Call",
    "link": "https://www.marketbeat.com/instant-alerts/transcript-what-silver-standard-resources-ssrm-said-on-its-q3-earnings-call-2026-11-03/?utm_source=yahoofinance&amp;utm_medium=yahoofinance&amp;.tsrc=rss",
@@ -12712,6 +12723,17 @@
    "impacto": "bajo",
    "es": "Lo que Silver Standard Resources (SSRM) dijo en su llamada de resultados del tercer trimestre",
    "efecto": ""
+  },
+  {
+   "titulo": "Why Are Nasdaq Futures Falling As Democrats Close In On Congress?",
+   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQclUtSFBHODhxN2ZNZGFMNVhvSklzZ2d4OW9ObFRnTUxhYzlWTFNPUzgwSGxuWFJybWZmdHhBblJKM1EyVlJGcFhha3pBTEFtcEVVSGhkaUZRRS04VHgtUDcwam1la2p5MTBxTWhORloyWWhJQWx2QWdNREEyUTBESC1kMXlwS3hyTnFzbFJtNk5EVHh2RmU1NzFTVGY1VHJ0c1lSazI2UEp6d0NEb1pDSXhmcXBkREpFNVFvNklKakV1LTZwZlU5Y3NtZ1hhT2ZOYmxpTzFLeFRtU1RBOV94MVpDT0hpYjYtelRmc0VwQUVaRVdiTlJ3MGNYMHlad01DRG0xYnB2QUFEdmp4ZF9BbE1n?oc=5",
+   "ts": "2026-11-04T03:12:57Z",
+   "fuente": "Stocktwits",
+   "id": "fd35458594",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "Midterm elections 2026 live updates: Democrats projected to win House, poised to take Senate",
@@ -13537,28 +13559,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Nasdaq Bounces as Chips Lead AI Revival: Stock Market Today",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYnRDUzc3MFhXWEZOZlNxZFIxLXJrVk9aMHhzM2dHY1d6blZ0OE4zajJqZEcxamYzeUl1OG5MSUJZUVBJY1hEWGU0SVFpVjZ2WDBqd0hzRlZBcHQtdVg0R21OTVh0dUMwTGNIakNnVXprM1diZnQwLVJaOWZRU2xiekZpNzR1UG5laWNlREdMWm92WW1JcDh6dWM3eE1sT1lweHA0?oc=5",
-   "ts": "2026-11-03T21:07:08Z",
-   "fuente": "Kiplinger",
-   "id": "63bea4c08b",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "alto",
-   "es": "El Nasdaq rebota mientras los semiconductores lideran la recuperación de la IA",
-   "efecto": "Impulsa compras institucionales en futuros del Nasdaq 100."
-  },
-  {
-   "titulo": "Ferrari NV (RACE) Q3 2026 Earnings Call Highlights: Raised Guidance, Record Personalizations, ...",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/ferrari-nv-race-q3-2026-210647610.html?.tsrc=rss",
-   "ts": "2026-11-03T21:06:47Z",
-   "fuente": "Yahoo Finance",
-   "id": "eed7a8cf2f",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -14202,14 +14202,14 @@
     3945.2,
     3950.4,
     3937.0,
-    3946.8
+    3948.8
    ],
    [
-    1793762548,
-    3947.4,
-    3947.4,
-    3947.4,
-    3947.4
+    1793762848,
+    3948.4,
+    3948.4,
+    3948.4,
+    3948.4
    ]
   ],
   "nq": [
@@ -14832,16 +14832,16 @@
    [
     1793761200,
     27730.25,
-    27751.0,
+    27756.0,
     27615.75,
-    27742.5
+    27729.25
    ],
    [
-    1793762551,
-    27743.25,
-    27743.25,
-    27743.25,
-    27743.25
+    1793762851,
+    27736.75,
+    27736.75,
+    27736.75,
+    27736.75
    ]
   ],
   "vix": [
@@ -15469,8 +15469,6 @@
   }
  ],
  "noticias_vistas": [
-  "ee24dd9ade",
-  "3e75ff8a7b",
   "5e34869738",
   "cd09c81871",
   "5937a5b750",
@@ -16268,7 +16266,9 @@
   "7891aad865",
   "41bb6273e7",
   "4a93c9071a",
-  "6e7ede09eb"
+  "6e7ede09eb",
+  "8f8a09f0a3",
+  "fd35458594"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
