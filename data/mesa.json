@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3950.8 · NQ 27839.0 · VIX 20.83 · 2 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-11-04T02:27:33Z"
+   "ultimo_resultado": "Oro 3952.1 · NQ 27804.25 · VIX 20.83",
+   "actualizado": "2026-11-04T02:32:32Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-04T02:27:32Z",
-   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: Medtech Canada Urges Zero-for-Zero Tariffs on Medical Technologies"
+   "actualizado": "2026-11-04T02:32:32Z",
+   "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3952.1 · NQ 27804.25 · VIX 20.83",
+   "ts": "2026-11-04T02:32:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3950.8 · NQ 27839.0 · VIX 20.83 · 2 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "riesgo",
    "texto": "Cruzando el VIX con el NQ: estructura, correlación y divergencias…",
    "ts": "2026-11-03T12:32:58Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Midiendo volatilidad y rango esperado del día…",
-   "ts": "2026-11-03T12:32:56Z"
   }
  ],
  "briefs": [
@@ -12694,10 +12694,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3950.8,
-  "nq": 27839.0,
+  "oro": 3952.1,
+  "nq": 27804.25,
   "vix": 20.83,
-  "ts": "2026-11-04T02:27:32Z"
+  "ts": "2026-11-04T02:32:32Z"
  },
  "noticias": [
   {
@@ -14192,14 +14192,14 @@
     3957.1,
     3959.9,
     3946.6,
-    3951.1
+    3951.0
    ],
    [
-    1793758650,
-    3950.8,
-    3950.8,
-    3950.8,
-    3950.8
+    1793758950,
+    3952.1,
+    3952.1,
+    3952.1,
+    3952.1
    ]
   ],
   "nq": [
@@ -14823,15 +14823,15 @@
     1793757600,
     27859.5,
     27950.0,
-    27814.25,
-    27823.25
+    27777.75,
+    27801.25
    ],
    [
-    1793758652,
-    27834.5,
-    27834.5,
-    27834.5,
-    27834.5
+    1793758951,
+    27804.25,
+    27804.25,
+    27804.25,
+    27804.25
    ]
   ],
   "vix": [
@@ -15335,19 +15335,19 @@
   ]
  },
  "noticias_traducidas_ts": "2026-11-04T02:07:47Z",
- "ult_4h": 1793758651.484673,
+ "ult_4h": 1793759552.4872906,
  "estrategia_4h": {
   "oro": {
-   "precio": 3948.0,
-   "atr_4h": 30.98,
+   "precio": 3952.1,
+   "atr_4h": 30.96,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4019.49,
+     "stop": 4019.48,
      "objetivo": 3879.3,
-     "rr": 6.54,
+     "rr": 6.55,
      "estado": "esperando retesteo",
      "fuerza_ruptura_atr": 2.2,
      "ruptura": "2026-10-30 04:00 UTC"
@@ -15355,7 +15355,7 @@
    ]
   },
   "nq": {
-   "precio": 27942.75,
+   "precio": 27804.25,
    "atr_4h": 249.05,
    "setups": [
     {
@@ -15365,8 +15365,8 @@
      "stop": 28187.68,
      "objetivo": 27732.5,
      "rr": 2.05,
-     "estado": "en retesteo",
-     "fuerza_ruptura_atr": 1.53,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 2.08,
      "ruptura": "2026-11-04 00:00 UTC"
     },
     {
@@ -15382,7 +15382,7 @@
     }
    ]
   },
-  "ts": "2026-11-04T02:17:31Z"
+  "ts": "2026-11-04T02:32:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
