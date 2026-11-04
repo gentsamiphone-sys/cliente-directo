@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-04T02:02:32Z",
-   "ultimo_resultado": "Estrategia 4H NQ: VENTA: esperar retesteo de 28038.25 · stop 28187.68 · objetivo 27732.5 · R:R 2.05 (esperando retesteo). Tú ejecutas."
+   "actualizado": "2026-11-04T02:17:31Z",
+   "ultimo_resultado": "Estrategia 4H NQ: VENTA en el nivel 28038.25 · stop 28187.68 · objetivo 27732.5 · R:R 2.05 (en retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,7 +45,7 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-04T02:12:33Z",
+   "actualizado": "2026-11-04T02:17:31Z",
    "ultimo_resultado": "0 titulares nuevos. Sin novedades."
   },
   "historiador": {
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H NQ: VENTA en el nivel 28038.25 · stop 28187.68 · objetivo 27732.5 · R:R 2.05 (en retesteo). Tú ejecutas.",
+   "ts": "2026-11-04T02:17:31Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3955.2 · NQ 27884.0 · VIX 20.83",
@@ -1056,11 +1061,6 @@
    "agente": "flujos",
    "texto": "Fondos en oro: neto +105,562 contratos.",
    "ts": "2026-11-03T12:32:52Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Leyendo el reporte COT de la CFTC (posición de fondos)…",
-   "ts": "2026-11-03T12:32:51Z"
   }
  ],
  "briefs": [
@@ -12694,10 +12694,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3955.2,
-  "nq": 27884.0,
+  "oro": 3948.0,
+  "nq": 27942.75,
   "vix": 20.83,
-  "ts": "2026-11-04T02:12:33Z"
+  "ts": "2026-11-04T02:17:31Z"
  },
  "noticias": [
   {
@@ -15335,10 +15335,10 @@
   ]
  },
  "noticias_traducidas_ts": "2026-11-04T02:07:47Z",
- "ult_4h": 1793757752.6809442,
+ "ult_4h": 1793758651.484673,
  "estrategia_4h": {
   "oro": {
-   "precio": 3958.1,
+   "precio": 3948.0,
    "atr_4h": 30.98,
    "setups": [
     {
@@ -15355,7 +15355,7 @@
    ]
   },
   "nq": {
-   "precio": 27851.5,
+   "precio": 27942.75,
    "atr_4h": 249.05,
    "setups": [
     {
@@ -15365,8 +15365,8 @@
      "stop": 28187.68,
      "objetivo": 27732.5,
      "rr": 2.05,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.89,
+     "estado": "en retesteo",
+     "fuerza_ruptura_atr": 1.53,
      "ruptura": "2026-11-04 00:00 UTC"
     },
     {
@@ -15382,7 +15382,7 @@
     }
    ]
   },
-  "ts": "2026-11-04T02:02:32Z"
+  "ts": "2026-11-04T02:17:31Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15440,7 +15440,8 @@
   "oro|VENTA|3989.1|en retesteo",
   "nq|VENTA|29022.75|esperando retesteo",
   "nq|VENTA|28987.0|esperando retesteo",
-  "nq|VENTA|28038.25|esperando retesteo"
+  "nq|VENTA|28038.25|esperando retesteo",
+  "nq|VENTA|28038.25|en retesteo"
  ],
  "alpha_ordenes": [
   {
