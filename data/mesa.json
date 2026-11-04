@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3961.7 · NQ 27801.25 · VIX 20.83 · 1 noticias nuevas",
-   "actualizado": "2026-11-04T01:42:35Z"
+   "ultimo_resultado": "Oro 3970.6 · NQ 27796.5 · VIX 20.83 · 3 noticias nuevas (1 alto impacto)",
+   "actualizado": "2026-11-04T01:47:33Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-04T01:42:34Z",
-   "ultimo_resultado": "1 titulares nuevos: Midterm elections 2026 live updates: Cooper wins N.C. Senate, House control 'leans' Dem"
+   "actualizado": "2026-11-04T01:47:32Z",
+   "ultimo_resultado": "3 titulares nuevos, 1 de alto impacto: Gold holds near $3,930 as Iran talks, U.S. midterms shape outlook"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3970.6 · NQ 27796.5 · VIX 20.83 · 3 noticias nuevas (1 alto impacto)",
+   "ts": "2026-11-04T01:47:33Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3961.7 · NQ 27801.25 · VIX 20.83 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3921.6 · NQ 28210.75 · VIX 21.67 · 1 noticias nuevas",
    "ts": "2026-11-03T12:32:32Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3918.5 · NQ 28173.75 · VIX 21.74",
-   "ts": "2026-11-03T12:27:33Z"
   }
  ],
  "briefs": [
@@ -12694,10 +12694,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3961.7,
-  "nq": 27801.25,
+  "oro": 3970.6,
+  "nq": 27796.5,
   "vix": 20.83,
-  "ts": "2026-11-04T01:42:35Z"
+  "ts": "2026-11-04T01:47:33Z"
  },
  "noticias": [
   {
@@ -12706,6 +12706,35 @@
    "ts": "2026-11-04T01:39:37Z",
    "fuente": "CNBC",
    "id": "bdbe13803d",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Gold holds near $3,930 as Iran talks, U.S. midterms shape outlook",
+   "link": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-3-930-013232167.html?.tsrc=rss",
+   "ts": "2026-11-04T01:32:32Z",
+   "fuente": "Yahoo Finance",
+   "id": "8b08115052",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "DNC chairman says Democrats should repeal Trump tariffs, end Iran war if they win power",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeVpDbDdHMTBSUzNqaVV6STRLZVhyZUJBQjBpNTdQQ3lUaElvaVN5eEJqVUxvR3ZOY29ROTVxMWl5WkpsZm5CV3h3S2J2cWhrcG10N0hoMEo2YlhZNEFSd1B6b3QxbmlSLTM5UENJY2xTbE9LdVVDa1lxOXVVOGZIcdIBhgFBVV95cUxQcGljNXRSc3NKREhoeVpMbVQ4b0NkVllLR0RNLURmak1oYVREYnVYaEFWcTdaRXZ4UnpjQjdmRFBGNFpKUENobWR4V1J1aE5nTUxFa1ljT1owVC1va0tLTGRud2E4ZVlsRlI0dUMweDRYN3lCa1pUN2pjSnlBd2dZMDlwWlU2QQ?oc=5",
+   "ts": "2026-11-04T01:29:00Z",
+   "fuente": "The Hill",
+   "id": "c70b7678f1",
+   "activos": [],
+   "impacto": "alto"
+  },
+  {
+   "titulo": "US Equity Futures Inch Higher as Investors Await Midterm Results",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVzJXWTQ2RjFoeU9maDJNSE53U3o3WmdfeUFyUktDbzRuZGswVE44M1doYjh6d21BZEdGemVBVU4wclliR3ZST0hnZWMtcm9yTnhqUmRtc0NjNnB2NVdjSTBmRlFQbU44NlRYVVZZc1NlSklhci1PRjhSb1F2MWR5LXBULUNWSnpqN1NyZUh1RjBfdm1BajdjWGphYTIwMmpoUzQtcy1LN0Y1d0RuWjE2RG1GeUhSUQ?oc=5",
+   "ts": "2026-11-04T01:19:00Z",
+   "fuente": "Bloomberg.com",
+   "id": "ccfff7785d",
    "activos": [],
    "impacto": "bajo"
   },
@@ -13513,36 +13542,6 @@
    "id": "54daa04d26",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "Texas race results could kick AI trade while it's already down",
-   "link": "https://www.cnbc.com/2026/11/03/texas-election-could-pressure-ai-data-center-trade.html",
-   "ts": "2026-11-03T20:01:28Z",
-   "fuente": "CNBC",
-   "id": "089fc23542",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Gold edges lower again as dollar, yields strengthen; US midterms in focus",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWFBGa1V2dm05Wm1OUE5pYUtvek4wUEx2OUNlTzRWTmExekk3eFQ2aTRoQVZsdDBXaGJBRE5mNGNIVVVjQjNaMHpEVVNnem9qMnc3X3FkelNoVXdtZUxrdzZTRHJaNlNkbi1taWltSnVhek81WFJyeDdtUEdGQzRHc1VZSUhLU2lUNlJXSnJ5c3lGVFZuQU43ZWZUeWJGdGEtRHpHXzFGcVQyWFR0QnVRaVF0dTBvcW8?oc=5",
-   "ts": "2026-11-03T19:49:53Z",
-   "fuente": "Kitco",
-   "id": "fc5e4f36cd",
-   "activos": [
-    "oro",
-    "dolar"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Sen. Chris Murphy still hospitalized after suffering a stroke over the weekend",
-   "link": "https://www.cnbc.com/2026/11/03/chris-murphy-hospitalized-stroke.html",
-   "ts": "2026-11-03T19:36:16Z",
-   "fuente": "CNBC",
-   "id": "b0704ec687",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -14184,16 +14183,16 @@
    [
     1793754000,
     3940.9,
-    3970.2,
+    3971.4,
     3932.7,
-    3962.1
+    3969.9
    ],
    [
-    1793755953,
-    3961.7,
-    3961.7,
-    3961.7,
-    3961.7
+    1793756248,
+    3970.6,
+    3970.6,
+    3970.6,
+    3970.6
    ]
   ],
   "nq": [
@@ -14817,15 +14816,15 @@
     1793754000,
     28150.75,
     28181.75,
-    27776.25,
-    27781.75
+    27765.5,
+    27786.5
    ],
    [
-    1793755953,
-    27801.25,
-    27801.25,
-    27801.25,
-    27801.25
+    1793756253,
+    27788.75,
+    27788.75,
+    27788.75,
+    27788.75
    ]
   ],
   "vix": [
@@ -15329,54 +15328,54 @@
   ]
  },
  "noticias_traducidas_ts": "2026-11-04T01:32:34Z",
- "ult_4h": 1793755957.433938,
+ "ult_4h": 1793756853.0965345,
  "estrategia_4h": {
   "oro": {
-   "precio": 3959.9,
-   "atr_4h": 30.44,
+   "precio": 3970.6,
+   "atr_4h": 30.76,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4019.17,
+     "stop": 4019.36,
      "objetivo": 3879.3,
-     "rr": 6.66,
+     "rr": 6.59,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.24,
+     "fuerza_ruptura_atr": 2.21,
      "ruptura": "2026-10-30 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 27889.0,
-   "atr_4h": 241.07,
+   "precio": 27796.5,
+   "atr_4h": 246.7,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29432.64,
-     "objetivo": 27844.25,
-     "rr": 9.98,
+     "stop": 29436.02,
+     "objetivo": 27765.5,
+     "rr": 10.29,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.9,
+     "fuerza_ruptura_atr": 1.85,
      "ruptura": "2026-10-29 20:00 UTC"
     },
     {
      "direccion": "VENTA",
      "nivel": 29482.5,
      "entrada": 29482.5,
-     "stop": 29627.14,
-     "objetivo": 27844.25,
-     "rr": 11.33,
+     "stop": 29630.52,
+     "objetivo": 27765.5,
+     "rr": 11.6,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.9,
+     "fuerza_ruptura_atr": 1.85,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-11-04T01:32:37Z"
+  "ts": "2026-11-04T01:47:33Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15451,9 +15450,6 @@
   }
  ],
  "noticias_vistas": [
-  "6f18f34356",
-  "cff642e36e",
-  "7ff7e86c7c",
   "ef83f21c2f",
   "f1c7149b21",
   "085cfd84eb",
@@ -16250,7 +16246,10 @@
   "5ee88a2c1b",
   "67d5d0820a",
   "2fb70b8400",
-  "bdbe13803d"
+  "bdbe13803d",
+  "8b08115052",
+  "c70b7678f1",
+  "ccfff7785d"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
