@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3948.4 · NQ 27736.75 · VIX 20.83 · 2 noticias nuevas",
-   "actualizado": "2026-11-04T03:37:33Z"
+   "ultimo_resultado": "Oro 3948.7 · NQ 27709.5 · VIX 20.83 · 3 noticias nuevas",
+   "actualizado": "2026-11-04T03:42:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-04T03:37:32Z",
-   "ultimo_resultado": "2 titulares nuevos: Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off"
+   "actualizado": "2026-11-04T03:42:33Z",
+   "ultimo_resultado": "3 titulares nuevos: Midterm elections 2026 live updates: Democrats flip South Carolina Senate seat, projected to win House"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3948.7 · NQ 27709.5 · VIX 20.83 · 3 noticias nuevas",
+   "ts": "2026-11-04T03:42:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3948.4 · NQ 27736.75 · VIX 20.83 · 2 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3928.5 · NQ 28215.75 · VIX 21.25 · 3 noticias nuevas",
    "ts": "2026-11-03T12:57:33Z"
-  },
-  {
-   "agente": "vigilante",
-   "texto": "Oro 3924.5 · NQ 28231.0 · VIX 21.28 · 3 noticias nuevas (2 alto impacto)",
-   "ts": "2026-11-03T12:52:36Z"
   }
  ],
  "briefs": [
@@ -12694,12 +12694,44 @@
   }
  },
  "en_vivo": {
-  "oro": 3948.4,
-  "nq": 27736.75,
+  "oro": 3948.7,
+  "nq": 27709.5,
   "vix": 20.83,
-  "ts": "2026-11-04T03:37:33Z"
+  "ts": "2026-11-04T03:42:33Z"
  },
  "noticias": [
+  {
+   "titulo": "Midterm elections 2026 live updates: Democrats flip South Carolina Senate seat, projected to win House",
+   "link": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
+   "ts": "2026-11-04T03:41:28Z",
+   "fuente": "CNBC",
+   "id": "928c73c3cf",
+   "activos": [],
+   "impacto": "bajo"
+  },
+  {
+   "titulo": "Midterm elections could jolt stocks as Democrats look poised to sweep Congress",
+   "link": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+   "ts": "2026-11-04T03:38:08Z",
+   "fuente": "CNBC",
+   "id": "aea702c4ba",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
+  },
+  {
+   "titulo": "Gold rises as dollar weakens ahead of US midterm election results",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNjFnYVo4X1FMeGlvS1RObFF2bEgxSThJWlU1THFSUjE3NFFDVjluUGlWX3lOUGdobV8xVmxmSzNPdmp2TWVDQlNZX2duOU5va2pPMU5fZ0pvVWV6c2E4bEg2VkFNdmRLTmJmczl1dkxUenZUWExrT0U2QklFcE1KQktKdWpicmdPa180LVhmeVFrTFoyaERJVmVrMkh0QU95Qnhv?oc=5",
+   "ts": "2026-11-04T03:36:34Z",
+   "fuente": "Yahoo Finance",
+   "id": "aa42202834",
+   "activos": [
+    "oro",
+    "dolar"
+   ],
+   "impacto": "medio"
+  },
   {
    "titulo": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZ2FPb0VDa1pUYWotYjQwXzBBYm1nN0dhMUw1X0hLZ3B1MTRPeTh3ZnhkT1BPVDVMYS1tZDVRYjIzS19SNkh5dlFMZzZEZktrdTk2dmR4ZXYyZVA1VWxEMEJadkZXcXFLelM2VEp6c19sSjdybnZzMFgweU5lNndHemoyY29qVXgyaFh5TlBOYnQ0ZHpJS1VwbVZqanhpcDVZQXFVVdIBqgFBVV95cUxPaE54YmlQLU1IZ2hRWnFkOGZHRzg1VFJTQVlkaGxkVUVzZTlvSFdXOUplRmhUUURkMnJybkpxMkNERjFQbkFlb0xTbS1KUmJIbHBKSmw4aG9fOXF6c3pQSHl3bmE3N1lyR1VNTEhiblRKX3VMYm5qWXRsc05aYkxNaHJ3SERJT1NESjg1QTcxSnBXcVJhbVpramJSUDFydnF0dnp4bU15cmlMUQ?oc=5",
@@ -13526,39 +13558,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Global Engine Group Holding Limited Regains Compliance with Nasdaq Minimum Bid Price Requirement",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQ1JHRWoxakpmdWI4cEh0dTZLYy1SVHBwNUhPejdXWmhlLXJsbHdBMmcxMHk2WkpicDdjRVREUHF1aXZ0QWVKU1doZTN0allRblVRamhQRE5XajFaUTZTRHJiM0lLcUtkOHJQbFVoMXVvNFRORFRkMFRUOGZCbzNfVEhla0t0eTB4d1JJSUExTEVSVEdJd01FdHBsdW9WMFdaUXc?oc=5",
-   "ts": "2026-11-03T21:15:00Z",
-   "fuente": "Yahoo Finance",
-   "id": "a01d87e883",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "Alamos Gold Tumbled 12.5% in 5 Days: Should Gold Investors Be Worried?",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9jUTNVRTNEN283WEt1Z3Bzb1RHRy0wVkU5NzB0U1MwQXRTOGdpaFRuZVY3TDJxZHFqSnNUREdSTGw2dFNQVm0xSU81eDY1amF4elNSbUVOaW0za0U2azA2eXYyVEFNTkZ5b0VzUnU4WkhrTFdBdzBySzlmcXppQQ?oc=5",
-   "ts": "2026-11-03T21:10:00Z",
-   "fuente": "Yahoo! Finance Canada",
-   "id": "25a5c28666",
-   "activos": [
-    "oro"
-   ],
-   "impacto": "medio"
-  },
-  {
-   "titulo": "What Happens to Stocks After the Midterm Elections?",
-   "link": "https://www.investopedia.com/what-happens-to-stocks-after-the-midterm-elections-markets-politics-12224286?.tsrc=rss",
-   "ts": "2026-11-03T21:07:15Z",
-   "fuente": "Yahoo Finance",
-   "id": "ab6ba41a08",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14200,16 +14199,16 @@
    [
     1793761200,
     3945.2,
-    3950.4,
+    3952.4,
     3937.0,
-    3948.8
+    3948.9
    ],
    [
-    1793762848,
-    3948.4,
-    3948.4,
-    3948.4,
-    3948.4
+    1793763148,
+    3948.7,
+    3948.7,
+    3948.7,
+    3948.7
    ]
   ],
   "nq": [
@@ -14834,14 +14833,14 @@
     27730.25,
     27756.0,
     27615.75,
-    27729.25
+    27708.0
    ],
    [
-    1793762851,
-    27736.75,
-    27736.75,
-    27736.75,
-    27736.75
+    1793763154,
+    27710.25,
+    27710.25,
+    27710.25,
+    27710.25
    ]
   ],
   "vix": [
@@ -15469,9 +15468,6 @@
   }
  ],
  "noticias_vistas": [
-  "5e34869738",
-  "cd09c81871",
-  "5937a5b750",
   "0a843a04e6",
   "e995d6ae4f",
   "a4180f856f",
@@ -16268,7 +16264,10 @@
   "4a93c9071a",
   "6e7ede09eb",
   "8f8a09f0a3",
-  "fd35458594"
+  "fd35458594",
+  "928c73c3cf",
+  "aea702c4ba",
+  "aa42202834"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
