@@ -39,14 +39,14 @@
   "vigilante": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Oro 3942.2 · NQ 27632.5 · VIX 20.83 · 1 noticias nuevas (1 alto impacto)",
-   "actualizado": "2026-11-04T03:17:31Z"
+   "ultimo_resultado": "Oro 3945.1 · NQ 27665.25 · VIX 20.83 · 1 noticias nuevas",
+   "actualizado": "2026-11-04T03:22:34Z"
   },
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-04T03:17:30Z",
-   "ultimo_resultado": "1 titulares nuevos, 1 de alto impacto: Watch JPMorgan's Kelly: Blue Win May Bring Clarity on Tariffs"
+   "actualizado": "2026-11-04T03:22:34Z",
+   "ultimo_resultado": "1 titulares nuevos: Lo que Silver Standard Resources (SSRM) dijo en su llamada de resultados del tercer trimestre"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "vigilante",
+   "texto": "Oro 3945.1 · NQ 27665.25 · VIX 20.83 · 1 noticias nuevas",
+   "ts": "2026-11-04T03:22:34Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3942.2 · NQ 27632.5 · VIX 20.83 · 1 noticias nuevas (1 alto impacto)",
@@ -1056,11 +1061,6 @@
    "agente": "vigilante",
    "texto": "Oro 3923.2 · NQ 28212.0 · VIX 21.5 · 2 noticias nuevas",
    "ts": "2026-11-03T12:37:41Z"
-  },
-  {
-   "agente": "ejecucion",
-   "texto": "Evaluación Alpha: ninguna idea con 5/5 confluencias. Hoy no se opera (calidad antes que cantidad).",
-   "ts": "2026-11-03T12:33:19Z"
   }
  ],
  "briefs": [
@@ -12694,12 +12694,25 @@
   }
  },
  "en_vivo": {
-  "oro": 3942.2,
-  "nq": 27632.5,
+  "oro": 3945.1,
+  "nq": 27665.25,
   "vix": 20.83,
-  "ts": "2026-11-04T03:17:31Z"
+  "ts": "2026-11-04T03:22:34Z"
  },
  "noticias": [
+  {
+   "titulo": "What Silver Standard Resources (SSRM) Said on Its Q3 Earnings Call",
+   "link": "https://www.marketbeat.com/instant-alerts/transcript-what-silver-standard-resources-ssrm-said-on-its-q3-earnings-call-2026-11-03/?utm_source=yahoofinance&amp;utm_medium=yahoofinance&amp;.tsrc=rss",
+   "ts": "2026-11-04T03:14:12Z",
+   "fuente": "Yahoo Finance",
+   "id": "6e7ede09eb",
+   "activos": [
+    "oro"
+   ],
+   "impacto": "bajo",
+   "es": "Lo que Silver Standard Resources (SSRM) dijo en su llamada de resultados del tercer trimestre",
+   "efecto": ""
+  },
   {
    "titulo": "Midterm elections 2026 live updates: Democrats projected to win House, poised to take Senate",
    "link": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html",
@@ -13546,17 +13559,6 @@
    "id": "eed7a8cf2f",
    "activos": [],
    "impacto": "bajo"
-  },
-  {
-   "titulo": "S&P 500 snaps 3-day skid on Election Day as chip stocks rebound: Live updates",
-   "link": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
-   "ts": "2026-11-03T21:03:27Z",
-   "fuente": "CNBC",
-   "id": "06eb2116fa",
-   "activos": [
-    "nq"
-   ],
-   "impacto": "medio"
   }
  ],
  "eventos_avisados": [
@@ -14198,16 +14200,16 @@
    [
     1793761200,
     3945.2,
-    3945.4,
+    3946.7,
     3937.0,
-    3941.7
+    3944.6
    ],
    [
-    1793761650,
-    3942.2,
-    3942.2,
-    3942.2,
-    3942.2
+    1793761949,
+    3945.1,
+    3945.1,
+    3945.1,
+    3945.1
    ]
   ],
   "nq": [
@@ -14832,14 +14834,14 @@
     27728.5,
     27731.75,
     27615.75,
-    27629.75
+    27664.0
    ],
    [
-    1793761652,
-    27631.25,
-    27631.25,
-    27631.25,
-    27631.25
+    1793761953,
+    27667.5,
+    27667.5,
+    27667.5,
+    27667.5
    ]
   ],
   "vix": [
@@ -15342,7 +15344,7 @@
    ]
   ]
  },
- "noticias_traducidas_ts": "2026-11-04T02:47:32Z",
+ "noticias_traducidas_ts": "2026-11-04T03:22:32Z",
  "ult_4h": 1793762251.3033729,
  "estrategia_4h": {
   "oro": {
@@ -15467,7 +15469,6 @@
   }
  ],
  "noticias_vistas": [
-  "aef3b0ebb5",
   "ee24dd9ade",
   "3e75ff8a7b",
   "5e34869738",
@@ -16266,7 +16267,8 @@
   "e123e296e5",
   "7891aad865",
   "41bb6273e7",
-  "4a93c9071a"
+  "4a93c9071a",
+  "6e7ede09eb"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
