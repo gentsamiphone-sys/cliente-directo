@@ -21,8 +21,8 @@
   "liquidez": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-03T22:02:33Z",
-   "ultimo_resultado": "Estrategia 4H NQ: VENTA: esperar retesteo de 28987.0 · stop 29108.28 · objetivo 28038.25 · R:R 7.82 (esperando retesteo). Tú ejecutas."
+   "actualizado": "2026-11-04T02:02:32Z",
+   "ultimo_resultado": "Estrategia 4H NQ: VENTA: esperar retesteo de 28038.25 · stop 28187.68 · objetivo 27732.5 · R:R 2.05 (esperando retesteo). Tú ejecutas."
   },
   "riesgo": {
    "estado": "descansando",
@@ -45,8 +45,8 @@
   "noticias": {
    "estado": "descansando",
    "tarea": "",
-   "actualizado": "2026-11-04T01:57:34Z",
-   "ultimo_resultado": "1 titulares nuevos: Donald Trump Brings Gold Curtains, Winston Churchill Bust to the Oval Office - ABC News"
+   "actualizado": "2026-11-04T02:02:32Z",
+   "ultimo_resultado": "2 titulares nuevos, 1 de alto impacto: DNC chair says Democrats should repeal Trump tariffs, end Iran war if they win power"
   },
   "historiador": {
    "estado": "descansando",
@@ -62,6 +62,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "liquidez",
+   "texto": "Estrategia 4H NQ: VENTA: esperar retesteo de 28038.25 · stop 28187.68 · objetivo 27732.5 · R:R 2.05 (esperando retesteo). Tú ejecutas.",
+   "ts": "2026-11-04T02:02:32Z"
+  },
   {
    "agente": "vigilante",
    "texto": "Oro 3961.9 · NQ 27834.25 · VIX 20.83 · 1 noticias nuevas",
@@ -1056,11 +1061,6 @@
    "agente": "auditor",
    "texto": "Historial: 10 operaciones, 30% de acierto, +9.19 R.",
    "ts": "2026-11-03T12:32:46Z"
-  },
-  {
-   "agente": "auditor",
-   "texto": "Revisando cómo salieron las entradas anteriores…",
-   "ts": "2026-11-03T12:32:45Z"
   }
  ],
  "briefs": [
@@ -12694,10 +12694,10 @@
   }
  },
  "en_vivo": {
-  "oro": 3961.9,
-  "nq": 27834.25,
+  "oro": 3958.2,
+  "nq": 27851.5,
   "vix": 20.83,
-  "ts": "2026-11-04T01:57:35Z"
+  "ts": "2026-11-04T02:02:32Z"
  },
  "noticias": [
   {
@@ -12719,6 +12719,15 @@
     "oro"
    ],
    "impacto": "medio"
+  },
+  {
+   "titulo": "DNC chair says Democrats should repeal Trump tariffs, end Iran war if they win power",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeVpDbDdHMTBSUzNqaVV6STRLZVhyZUJBQjBpNTdQQ3lUaElvaVN5eEJqVUxvR3ZOY29ROTVxMWl5WkpsZm5CV3h3S2J2cWhrcG10N0hoMEo2YlhZNEFSd1B6b3QxbmlSLTM5UENJY2xTbE9LdVVDa1lxOXVVOGZIcdIBhgFBVV95cUxQcGljNXRSc3NKREhoeVpMbVQ4b0NkVllLR0RNLURmak1oYVREYnVYaEFWcTdaRXZ4UnpjQjdmRFBGNFpKUENobWR4V1J1aE5nTUxFa1ljT1owVC1va0tLTGRud2E4ZVlsRlI0dUMweDRYN3lCa1pUN2pjSnlBd2dZMDlwWlU2QQ?oc=5",
+   "ts": "2026-11-04T01:29:00Z",
+   "fuente": "The Hill",
+   "id": "9e98568832",
+   "activos": [],
+   "impacto": "alto"
   },
   {
    "titulo": "DNC chairman says Democrats should repeal Trump tariffs, end Iran war if they win power",
@@ -12793,6 +12802,17 @@
    "id": "1953592c97",
    "activos": [],
    "impacto": "bajo"
+  },
+  {
+   "titulo": "Deepening Tech Selloff Pushes Nasdaq Toward Its Worst Month in Over a Year",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd0dCXzNIVWRZZmZVTWM2U25pX18zb0RtZlIwYjd0RUpuYzdpRUJBdl9pT3pjQkVpa29KU043MjhLOWhaLTBkUGxFZHVIcFNzWkFKQXkyMUVUakJIVlo5X3lPTlJWMGgtNFc2WDd4OE5BNkY4UzNOdjRVTDU0ZjBHZUkybEd2RkVVbHB4c2RrSl92OW8?oc=5",
+   "ts": "2026-11-04T00:45:29Z",
+   "fuente": "WSJ",
+   "id": "dd4bbdec5f",
+   "activos": [
+    "nq"
+   ],
+   "impacto": "medio"
   },
   {
    "titulo": "S&P 500 futures give up gain, turn red as traders await election results: Live updates",
@@ -13526,24 +13546,6 @@
     "nq"
    ],
    "impacto": "medio"
-  },
-  {
-   "titulo": "Fannie Mae, Freddie Mac rally as Ackman presses for conservatorship exit",
-   "link": "https://www.cnbc.com/2026/11/03/ackman-fannie-mae-freddie-mac-conservatorship.html",
-   "ts": "2026-11-03T20:10:14Z",
-   "fuente": "CNBC",
-   "id": "70a98b6574",
-   "activos": [],
-   "impacto": "bajo"
-  },
-  {
-   "titulo": "Trump DOJ sends target letters to Democrats in Alaska Senate criminal probe: Reports",
-   "link": "https://www.cnbc.com/2026/11/03/trump-doj-election-lawsuits-monitors-2026-midterms.html",
-   "ts": "2026-11-03T20:09:06Z",
-   "fuente": "CNBC",
-   "id": "f092e6fa40",
-   "activos": [],
-   "impacto": "bajo"
   }
  ],
  "eventos_avisados": [
@@ -15330,54 +15332,54 @@
   ]
  },
  "noticias_traducidas_ts": "2026-11-04T01:32:34Z",
- "ult_4h": 1793756853.0965345,
+ "ult_4h": 1793757752.6809442,
  "estrategia_4h": {
   "oro": {
-   "precio": 3970.6,
-   "atr_4h": 30.76,
+   "precio": 3958.1,
+   "atr_4h": 30.98,
    "setups": [
     {
      "direccion": "VENTA",
      "nivel": 4000.9,
      "entrada": 4000.9,
-     "stop": 4019.36,
+     "stop": 4019.49,
      "objetivo": 3879.3,
-     "rr": 6.59,
+     "rr": 6.54,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 2.21,
+     "fuerza_ruptura_atr": 2.2,
      "ruptura": "2026-10-30 04:00 UTC"
     }
    ]
   },
   "nq": {
-   "precio": 27796.5,
-   "atr_4h": 246.7,
+   "precio": 27851.5,
+   "atr_4h": 249.05,
    "setups": [
+    {
+     "direccion": "VENTA",
+     "nivel": 28038.25,
+     "entrada": 28038.25,
+     "stop": 28187.68,
+     "objetivo": 27732.5,
+     "rr": 2.05,
+     "estado": "esperando retesteo",
+     "fuerza_ruptura_atr": 1.89,
+     "ruptura": "2026-11-04 00:00 UTC"
+    },
     {
      "direccion": "VENTA",
      "nivel": 29288.0,
      "entrada": 29288.0,
-     "stop": 29436.02,
-     "objetivo": 27765.5,
-     "rr": 10.29,
+     "stop": 29437.43,
+     "objetivo": 27732.5,
+     "rr": 10.41,
      "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.85,
-     "ruptura": "2026-10-29 20:00 UTC"
-    },
-    {
-     "direccion": "VENTA",
-     "nivel": 29482.5,
-     "entrada": 29482.5,
-     "stop": 29630.52,
-     "objetivo": 27765.5,
-     "rr": 11.6,
-     "estado": "esperando retesteo",
-     "fuerza_ruptura_atr": 1.85,
+     "fuerza_ruptura_atr": 1.83,
      "ruptura": "2026-10-29 20:00 UTC"
     }
    ]
   },
-  "ts": "2026-11-04T01:47:33Z"
+  "ts": "2026-11-04T02:02:32Z"
  },
  "avisos_4h": [
   "oro|COMPRA|4166.8|esperando retesteo",
@@ -15434,7 +15436,8 @@
   "oro|VENTA|4002.3|esperando retesteo",
   "oro|VENTA|3989.1|en retesteo",
   "nq|VENTA|29022.75|esperando retesteo",
-  "nq|VENTA|28987.0|esperando retesteo"
+  "nq|VENTA|28987.0|esperando retesteo",
+  "nq|VENTA|28038.25|esperando retesteo"
  ],
  "alpha_ordenes": [
   {
@@ -15452,8 +15455,6 @@
   }
  ],
  "noticias_vistas": [
-  "f1c7149b21",
-  "085cfd84eb",
   "486f3b80a9",
   "868e26f68d",
   "b991227bee",
@@ -16251,7 +16252,9 @@
   "8b08115052",
   "c70b7678f1",
   "ccfff7785d",
-  "e1c7c31113"
+  "e1c7c31113",
+  "9e98568832",
+  "dd4bbdec5f"
  ],
  "orden_enviada_ORO": "2026-10-21",
  "orden_enviada_NQ": "2026-10-26"
