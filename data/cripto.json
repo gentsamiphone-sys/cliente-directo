@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: SIN ENTRADA · el bot solo compra, no se opera.",
-   "actualizado": "2026-11-14T07:13:49Z"
+   "ultimo_resultado": "Idea de COMPRA BTC: compra $5.84 si el precio entra en 65,100–65,100 · stop 64,450 · objetivo 71,400 · riesgo ~$0.06 (1.0% del capital) · R:R 9.7",
+   "actualizado": "2026-11-14T18:45:09Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "Idea de COMPRA BTC: compra $5.84 si el precio entra en 65,100–65,100 · stop 64,450 · objetivo 71,400 · riesgo ~$0.06 (1.0% del capital) · R:R 9.7",
+   "ts": "2026-11-14T18:45:09Z"
+  },
   {
    "agente": "cio",
    "texto": "Brief publicado: Presión macroeconómica severa y pánico extremo en cripto con sesgo bajista y oportunidades limitadas en soportes clave",
@@ -800,11 +805,6 @@
    "agente": "macro",
    "texto": "Revisando dólar, tasas y Nasdaq…",
    "ts": "2026-11-10T20:20:55Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "BTC 73661.07 (7d -4.76%) · ETH 2053.85 (7d -9.63%)",
-   "ts": "2026-11-10T20:20:54Z"
   }
  ],
  "briefs": [
@@ -2330,6 +2330,18 @@
   }
  ],
  "posiciones": [
+  {
+   "activo": "BTC",
+   "usd": 5.84,
+   "zona_baja": 65100.0,
+   "entrada": 65100.0,
+   "stop": 64450.0,
+   "tp": 71400.0,
+   "tp1": 67650.0,
+   "estado": "pendiente",
+   "creada": "2026-11-14T18:45:09Z",
+   "real": true
+  },
   {
    "activo": "BTC",
    "usd": 5.84,
