@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Idea de COMPRA BTC: compra $5.84 si el precio entra en 65,100–65,100 · stop 64,450 · objetivo 71,400 · riesgo ~$0.06 (1.0% del capital) · R:R 9.7",
-   "actualizado": "2026-11-14T18:45:09Z"
+   "ultimo_resultado": "BTC: COMPRADO $5.84 a ~64,569. Stop 64,450 · objetivo 71,400.",
+   "actualizado": "2026-11-14T21:37:04Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "BTC: COMPRADO $5.84 a ~64,569. Stop 64,450 · objetivo 71,400.",
+   "ts": "2026-11-14T21:37:04Z"
+  },
   {
    "agente": "futuros",
    "texto": "Mercado de futuros CME cerrado (fin de semana). No se envían órdenes.",
@@ -800,11 +805,6 @@
    "agente": "flujos",
    "texto": "Midiendo stablecoins y dominancia…",
    "ts": "2026-11-10T20:20:58Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "DXY 102.26 · 10Y 4.98 · NQ 5d -1.94%",
-   "ts": "2026-11-10T20:20:57Z"
   }
  ],
  "briefs": [
@@ -2338,9 +2338,11 @@
    "stop": 64450.0,
    "tp": 71400.0,
    "tp1": 67650.0,
-   "estado": "pendiente",
+   "estado": "abierta",
    "creada": "2026-11-14T18:45:09Z",
-   "real": true
+   "real": true,
+   "firma_compra": "22B32Fk86uXwdXQqGbDa6LV9EmjgrY4hfN8DmFZvkxyvYq3Hb7n8G8sTAScwct6pgC9CdXiMxdy2hony9JiTd8JM",
+   "precio_compra": 64568.71
   },
   {
    "activo": "BTC",
