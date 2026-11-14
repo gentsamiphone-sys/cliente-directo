@@ -51,11 +51,16 @@
   "futuros": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "ETH: vela de desplazamiento COMPRA pero el sesgo es bajista. No se opera.",
-   "actualizado": "2026-11-12T01:07:29Z"
+   "ultimo_resultado": "BTC: setup de desplazamiento VENTA en 67,576 (stop 68,218, objetivo 66,411). Mercado CME cerrado: se envía cuando abra.",
+   "actualizado": "2026-11-14T07:13:51Z"
   }
  },
  "actividad": [
+  {
+   "agente": "futuros",
+   "texto": "BTC: setup de desplazamiento VENTA en 67,576 (stop 68,218, objetivo 66,411). Mercado CME cerrado: se envía cuando abra.",
+   "ts": "2026-11-14T07:13:51Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "BTC: SIN ENTRADA · el bot solo compra, no se opera.",
@@ -800,11 +805,6 @@
    "agente": "liquidez",
    "texto": "Marcando niveles de BTC y ETH: semana, mes, EMA200 diaria…",
    "ts": "2026-11-10T07:52:54Z"
-  },
-  {
-   "agente": "cio",
-   "texto": "Abriendo la mesa cripto · Noche (Asia).",
-   "ts": "2026-11-10T07:52:52Z"
   }
  ],
  "briefs": [
@@ -2575,7 +2575,8 @@
   "BTC-ret-S-80980",
   "ETH-ret-S-2238",
   "ETH-ret-S-2242",
-  "ETH-ret-S-2241"
+  "ETH-ret-S-2241",
+  "BTC-ret-S-67625"
  ],
  "futuros_enviados": {
   "BTC": "2026-11-04",
