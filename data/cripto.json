@@ -51,11 +51,16 @@
   "futuros": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "Mercado de futuros CME cerrado (fin de semana). No se envían órdenes.",
-   "actualizado": "2026-11-14T07:13:52Z"
+   "ultimo_resultado": "ETH: setup de desplazamiento VENTA en 1,913 (stop 1,936, objetivo 1,878). Mercado CME cerrado: se envía cuando abra.",
+   "actualizado": "2026-11-14T11:01:55Z"
   }
  },
  "actividad": [
+  {
+   "agente": "futuros",
+   "texto": "ETH: setup de desplazamiento VENTA en 1,913 (stop 1,936, objetivo 1,878). Mercado CME cerrado: se envía cuando abra.",
+   "ts": "2026-11-14T11:01:55Z"
+  },
   {
    "agente": "futuros",
    "texto": "Mercado de futuros CME cerrado (fin de semana). No se envían órdenes.",
@@ -800,11 +805,6 @@
    "agente": "macro",
    "texto": "Revisando dólar, tasas y Nasdaq…",
    "ts": "2026-11-10T07:52:56Z"
-  },
-  {
-   "agente": "liquidez",
-   "texto": "BTC 74819.68 (7d -3.27%) · ETH 2118.46 (7d -6.79%)",
-   "ts": "2026-11-10T07:52:55Z"
   }
  ],
  "briefs": [
@@ -2576,7 +2576,8 @@
   "ETH-ret-S-2238",
   "ETH-ret-S-2242",
   "ETH-ret-S-2241",
-  "BTC-ret-S-67625"
+  "BTC-ret-S-67625",
+  "ETH-ret-S-1914"
  ],
  "futuros_enviados": {
   "BTC": "2026-11-04",
