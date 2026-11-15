@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: COMPRADO $5.84 a ~64,569. Stop 64,450 · objetivo 71,400.",
-   "actualizado": "2026-11-14T21:37:04Z"
+   "ultimo_resultado": "BTC cerrada en stop a ~62,695: -0.17 USD.",
+   "actualizado": "2026-11-15T01:24:25Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "BTC cerrada en stop a ~62,695: -0.17 USD.",
+   "ts": "2026-11-15T01:24:25Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "BTC: COMPRADO $5.84 a ~64,569. Stop 64,450 · objetivo 71,400.",
@@ -800,11 +805,6 @@
    "agente": "flujos",
    "texto": "Stablecoins 7d -4.85 mil M · dominancia BTC 59.72%",
    "ts": "2026-11-10T20:21:00Z"
-  },
-  {
-   "agente": "flujos",
-   "texto": "Midiendo stablecoins y dominancia…",
-   "ts": "2026-11-10T20:20:58Z"
   }
  ],
  "briefs": [
@@ -2338,11 +2338,15 @@
    "stop": 64450.0,
    "tp": 71400.0,
    "tp1": 67650.0,
-   "estado": "abierta",
+   "estado": "cerrada",
    "creada": "2026-11-14T18:45:09Z",
    "real": true,
    "firma_compra": "22B32Fk86uXwdXQqGbDa6LV9EmjgrY4hfN8DmFZvkxyvYq3Hb7n8G8sTAScwct6pgC9CdXiMxdy2hony9JiTd8JM",
-   "precio_compra": 64568.71
+   "precio_compra": 64568.71,
+   "firma_venta": "23fXiNYkUawLvytk2ySk9KQ6DEkhMnQqsp3Mg3D7c97dxAijD39nQwt9zy1UMDPtqNSQAXnjikQEzPYA41CCxjBm",
+   "resultado": "stop",
+   "precio_venta": 62695.43,
+   "cerrada_ts": "2026-11-15T01:24:25Z"
   },
   {
    "activo": "BTC",
