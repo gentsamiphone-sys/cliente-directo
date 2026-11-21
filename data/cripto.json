@@ -51,11 +51,16 @@
   "futuros": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "[DEMO] Ruptura y retesteo 1H · VENTA 10 MET límite 1,760.0 (50% del impulso) · stop 1,788.0 · objetivo 1,716.5 · R:R 1.55",
-   "actualizado": "2026-11-20T07:57:53Z"
+   "ultimo_resultado": "BTC: setup de desplazamiento VENTA en 59,773 (stop 60,335, objetivo 57,680). Mercado CME cerrado: se envía cuando abra.",
+   "actualizado": "2026-11-21T00:24:23Z"
   }
  },
  "actividad": [
+  {
+   "agente": "futuros",
+   "texto": "BTC: setup de desplazamiento VENTA en 59,773 (stop 60,335, objetivo 57,680). Mercado CME cerrado: se envía cuando abra.",
+   "ts": "2026-11-21T00:24:23Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "BTC: SIN ENTRADA · el bot solo compra, no se opera.",
@@ -800,11 +805,6 @@
    "agente": "flujos",
    "texto": "Midiendo stablecoins y dominancia…",
    "ts": "2026-11-16T22:46:59Z"
-  },
-  {
-   "agente": "macro",
-   "texto": "DXY 103.58 · 10Y 5.12 · NQ 5d -2.6%",
-   "ts": "2026-11-16T22:46:58Z"
   }
  ],
  "briefs": [
@@ -2609,7 +2609,8 @@
   "BTC-ret-S-67625",
   "ETH-ret-S-1914",
   "BTC-ret-S-65001",
-  "ETH-ret-S-1811"
+  "ETH-ret-S-1811",
+  "BTC-1795186800-57680"
  ],
  "futuros_enviados": {
   "BTC": "2026-11-04",
