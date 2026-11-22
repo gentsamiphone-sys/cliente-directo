@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: VENTA · el bot solo compra, no se opera.",
-   "actualizado": "2026-11-22T20:14:08Z"
+   "ultimo_resultado": "BTC: desplazamiento de compra, pero el tamaño spot quedaría en $0.00. No se opera.",
+   "actualizado": "2026-11-22T20:14:10Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "BTC: desplazamiento de compra, pero el tamaño spot quedaría en $0.00. No se opera.",
+   "ts": "2026-11-22T20:14:10Z"
+  },
   {
    "agente": "ejecucion",
    "texto": "BTC: VENTA · el bot solo compra, no se opera.",
@@ -800,11 +805,6 @@
    "agente": "historiador",
    "texto": "BTC: Sesgo histórico bajista: 3 de 8 años subió esta semana; 4 de 8 subió los 20 días siguientes; análogos 2025, 2018, 2022 · ETH: Sesgo histórico neutral: 3 de 8 años subió esta semana; 6 de 8 subió los 20 días siguientes; análogos 2022, 2025, 2018",
    "ts": "2026-11-18T21:11:53Z"
-  },
-  {
-   "agente": "historiador",
-   "texto": "Revisando esta misma fecha en los últimos años…",
-   "ts": "2026-11-18T21:11:52Z"
   }
  ],
  "briefs": [
@@ -2577,7 +2577,8 @@
   "ETH-ret-S-1795",
   "BTC-ret-S-63736",
   "ETH-ret-S-1796",
-  "ETH-ret-S-1762"
+  "ETH-ret-S-1762",
+  "BTC-ret-L-60392"
  ],
  "desp_avisados": [
   "ETH-1791730800-2536",
