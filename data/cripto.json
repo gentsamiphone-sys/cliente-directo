@@ -45,8 +45,8 @@
   "ejecucion": {
    "estado": "descansando",
    "tarea": "",
-   "ultimo_resultado": "BTC: SIN ENTRADA · el bot solo compra, no se opera.",
-   "actualizado": "2026-11-26T09:01:19Z"
+   "ultimo_resultado": "La billetera del bot tiene muy poco SOL (0.0007) para comisiones. Agrega ~0.02 SOL.",
+   "actualizado": "2026-11-26T22:15:21Z"
   },
   "futuros": {
    "estado": "descansando",
@@ -56,6 +56,11 @@
   }
  },
  "actividad": [
+  {
+   "agente": "ejecucion",
+   "texto": "La billetera del bot tiene muy poco SOL (0.0007) para comisiones. Agrega ~0.02 SOL.",
+   "ts": "2026-11-26T22:15:21Z"
+  },
   {
    "agente": "cio",
    "texto": "Brief publicado: Mercado en miedo extremo con sesgo neutral y cautela operativa por alta volatilidad",
@@ -800,11 +805,6 @@
    "agente": "riesgo",
    "texto": "BTC: volatilidad alta · ETH: volatilidad alta",
    "ts": "2026-11-22T20:13:07Z"
-  },
-  {
-   "agente": "riesgo",
-   "texto": "Midiendo volatilidad y tamaño…",
-   "ts": "2026-11-22T20:13:05Z"
   }
  ],
  "briefs": [
